@@ -509,6 +509,10 @@ def sync_to_d1(payload: dict[str, Any], started_at: dt.datetime, finished_at: dt
         print("[INFO] D1 sync disabled by env")
         return
 
+    if os.getenv("GITHUB_ACTIONS") == "true" and not os.getenv("CLOUDFLARE_API_TOKEN"):
+        print("[INFO] D1 sync skipped in GitHub Actions: CLOUDFLARE_API_TOKEN not configured")
+        return
+
     db_name = os.getenv(D1_DATABASE_NAME_ENV, DEFAULT_D1_DATABASE_NAME).strip()
     if not db_name:
         print("[WARN] empty D1 database name, skip sync")
