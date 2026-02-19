@@ -56,6 +56,12 @@ python3 scripts/update_news.py
 - 每天北京时间 `09:00` 和 `21:00` 自动运行（UTC `01:00` / `13:00`）
 - 你也可以在 GitHub Actions 页面手动点 `Run workflow`
 
+### 本机定时任务（已配置）
+
+- 当前机器已写入 crontab：每天 `09:00`、`21:00` 自动执行抓取并部署到 Cloudflare Pages
+- 查看任务：`crontab -l`
+- 查看日志：`tail -n 100 /Volumes/tyj/Cyrus/Projects/主业/cyrus-ai-learning-notes-mvp/logs/news-cron.log`
+
 ### 改 AI干货内容
 
 编辑 `resources.js` 里的 `resourcesItems` 数组。
