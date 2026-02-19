@@ -6,11 +6,11 @@
     <title>AI资讯 | Cyrus的AI学习笔记</title>
     <meta
       name="description"
-      content="AI资讯页：聚合国内外社媒平台的AI动态，支持关键词搜索与平台筛选，每条附带可执行动作。"
+      content="AI资讯页：聚合国内外社媒平台的AI动态，支持平台、上下游、标签和时间筛选，外网内容支持中英文切换。"
     />
     <meta
       name="keywords"
-      content="AI资讯,AI新闻,社媒聚合,海外AI动态,国内AI动态,AI趋势"
+      content="AI资讯,AI新闻,社媒聚合,海外AI动态,上下游分类,时间筛选,中英翻译"
     />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://cyrustyj.xyz/news.html" />
@@ -21,14 +21,14 @@
     <meta property="og:title" content="AI资讯 | Cyrus的AI学习笔记" />
     <meta
       property="og:description"
-      content="聚合国内外平台的AI信息，并提炼出可执行动作。"
+      content="跨平台 AI资讯聚合，支持中英切换和多维筛选。"
     />
     <meta property="og:url" content="https://cyrustyj.xyz/news.html" />
     <meta property="og:image" content="https://cyrustyj.xyz/og-cover.svg" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="AI资讯 | Cyrus的AI学习笔记" />
-    <meta name="twitter:description" content="聚合国内外平台的AI信息，并提炼出可执行动作。" />
+    <meta name="twitter:description" content="跨平台 AI资讯聚合，支持中英切换和多维筛选。" />
     <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.svg" />
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -65,19 +65,53 @@
     <main class="wrap page-main">
       <section class="hero">
         <p class="eyebrow">AI资讯</p>
-        <h1>聚合国内外平台动态</h1>
-        <p class="hero-copy">按平台快速筛选，避免信息过载。每条资讯都给出一条“你可以马上做什么”。</p>
+        <h1>跨平台资讯 + 可执行动作</h1>
+        <p class="hero-copy">
+          每天自动更新，保留原文链接。外网内容可在卡片右上角切换中文 / English。
+        </p>
       </section>
 
       <section class="filter-toolbar" aria-label="资讯筛选">
         <label class="search-field" for="newsSearch">
           <span>搜索资讯</span>
-          <input id="newsSearch" type="search" placeholder="例如：OpenAI、Claude、Agent、自动化..." autocomplete="off" />
+          <input
+            id="newsSearch"
+            type="search"
+            placeholder="例如：OpenAI、Claude、Agent、自动化..."
+            autocomplete="off"
+          />
         </label>
+
         <div class="meta-row">
-          <div id="newsTags" class="chips" role="group" aria-label="资讯平台标签"></div>
           <p class="result-count">共 <strong id="newsCount">0</strong> 条资讯</p>
           <p class="result-count">最近更新：<strong id="newsUpdatedAt">--</strong></p>
+        </div>
+
+        <div class="filter-groups">
+          <div class="filter-group">
+            <span class="filter-title">平台</span>
+            <div id="newsPlatformTags" class="chips" role="group" aria-label="平台筛选"></div>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-title">产业链</span>
+            <div id="newsStageTags" class="chips" role="group" aria-label="上下游筛选"></div>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-title">内容标签</span>
+            <div id="newsTopicTags" class="chips" role="group" aria-label="标签筛选"></div>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-title">时间范围</span>
+            <select id="newsTimeRange" class="time-select" aria-label="时间筛选">
+              <option value="all">全部时间</option>
+              <option value="24h">最近24小时</option>
+              <option value="7d">最近7天</option>
+              <option value="30d">最近30天</option>
+            </select>
+          </div>
         </div>
       </section>
 
