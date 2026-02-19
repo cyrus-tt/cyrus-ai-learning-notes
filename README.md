@@ -74,6 +74,8 @@ python3 scripts/update_news.py
   - `D1_DATABASE_NAME`：默认 `cyrus-ai-news`
   - `ENABLE_D1_SYNC`：默认开启（设置为 `0/false` 可关闭）
   - `D1_REMOTE`：默认远端写入（设置为 `0/false` 写本地）
+- 若希望 GitHub Actions 也写入 D1，需要在仓库 `Secrets` 中配置：
+  - `CLOUDFLARE_API_TOKEN`（需包含 D1 / Pages 权限）
 
 ### AI资讯卡片字段说明
 

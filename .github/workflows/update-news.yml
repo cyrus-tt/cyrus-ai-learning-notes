@@ -22,12 +22,27 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Setup Node (for Wrangler)
+        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Wrangler
+        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+        run: npm install -g wrangler@4
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r scripts/news_requirements.txt
 
       - name: Build news data
+        env:
+          D1_DATABASE_NAME: cyrus-ai-news
+          ENABLE_D1_SYNC: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && '1' || '0' }}
+          CLOUDFLARE_ACCOUNT_ID: fe9195f8c0de1cd8852037d068fe3619
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: python scripts/update_news.py
 
       - name: Commit and push if changed
