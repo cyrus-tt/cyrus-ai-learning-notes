@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI干货 | Cyrus的AI学习笔记</title>
+    <meta
+      name="description"
+      content="AI干货页：围绕生产力提升整理模板、提示词与工作流，支持关键词和标签筛选。"
+    />
+    <meta
+      name="keywords"
+      content="AI干货,AI生产力,提示词模板,AI工作流,内容效率,自动化"
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://cyrustyj.xyz/resources.html" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+    <meta property="og:title" content="AI干货 | Cyrus的AI学习笔记" />
+    <meta
+      property="og:description"
+      content="可直接执行的模板与工作流，帮助你更快提升生产力。"
+    />
+    <meta property="og:url" content="https://cyrustyj.xyz/resources.html" />
+    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI干货 | Cyrus的AI学习笔记" />
+    <meta name="twitter:description" content="可直接执行的模板与工作流，帮助你更快提升生产力。" />
+    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "AI干货",
+        "url": "https://cyrustyj.xyz/resources.html",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Cyrus的AI学习笔记",
+          "url": "https://cyrustyj.xyz/"
+        },
+        "inLanguage": "zh-CN"
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/">Cyrus的AI学习笔记</a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/news.html">AI资讯</a>
+          <a href="/resources.html" aria-current="page">AI干货</a>
+          <a href="/">返回首页</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap page-main">
+      <section class="hero">
+        <p class="eyebrow">AI干货</p>
+        <h1>帮助你直接提升生产力</h1>
+        <p class="hero-copy">这里不是资讯流，而是可复用的方法、模板和提示词。搜索后直接拿去执行。</p>
+      </section>
+
+      <section class="filter-toolbar" aria-label="干货筛选">
+        <label class="search-field" for="resourcesSearch">
+          <span>搜索干货</span>
+          <input id="resourcesSearch" type="search" placeholder="例如：选题、复盘、自动化、日报..." autocomplete="off" />
+        </label>
+        <div class="meta-row">
+          <div id="resourcesTags" class="chips" role="group" aria-label="干货标签"></div>
+          <p class="result-count">共 <strong id="resourcesCount">0</strong> 条干货</p>
+        </div>
+      </section>
+
+      <section id="resourcesCards" class="card-grid" aria-live="polite"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>© 2026 Cyrus的AI学习笔记</p>
+        <div class="footer-links">
+          <a href="/news.html">AI资讯</a>
+          <a href="/">首页</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./resources.js"></script>
+  </body>
+</html>

@@ -7,9 +7,10 @@
 至少确认这些文件存在：
 
 - `index.html`
-- `consulting.html`
-- `work.html`
-- `work.js`
+- `news.html`
+- `news.js`
+- `resources.html`
+- `resources.js`
 - `styles.css`
 - `robots.txt`
 - `sitemap.xml`
@@ -25,7 +26,7 @@
 2. 进入 `Workers & Pages`。
 3. 打开项目 `cyrus-ai-notes`（或新建同名项目）。
 4. 选择 `Create deployment` / `Upload assets`。
-5. 把上面文件一次性上传（建议直接上传整个目录内容）。
+5. 建议直接上传整个目录内容。
 6. 发布后访问 `*.pages.dev` 检查。
 
 ### 方式 B：Git 自动发布（推荐）
@@ -47,9 +48,9 @@
 
 ## 4. 上线后检查
 
-- `https://cyrustyj.xyz/`：能看到两个入口（AI咨询 / AI干活）
-- `https://cyrustyj.xyz/consulting.html`：可正常打开
-- `https://cyrustyj.xyz/work.html`：搜索和标签筛选可用
+- `https://cyrustyj.xyz/`：看到两个入口（AI资讯 / AI干货）
+- `https://cyrustyj.xyz/news.html`：资讯搜索与筛选可用
+- `https://cyrustyj.xyz/resources.html`：干货搜索与筛选可用
 - `https://cyrustyj.xyz/sitemap.xml`：可访问
 - `https://cyrustyj.xyz/robots.txt`：可访问
 
@@ -57,8 +58,8 @@
 
 ### 域名一直 pending
 
-多数是 NS 仍在传播。等待并复查公网 NS 是否变为 Cloudflare 分配的两个 nameserver。
+多数是 NS 仍在传播，继续等待并复查公网 NS。
 
 ### 页面样式或脚本丢失
 
-确认 `styles.css`、`work.js` 与 `html` 文件在同一层目录。
+确认 `styles.css`、`news.js`、`resources.js` 与 `html` 文件在同一层目录。
