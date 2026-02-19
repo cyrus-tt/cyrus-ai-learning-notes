@@ -164,8 +164,8 @@ function renderCards() {
   elements.cards.innerHTML = filtered.length
     ? filtered
         .map(
-          (item) => `
-            <article class="card">
+          (item, index) => `
+            <article class="card card-animate" style="--stagger:${index};">
               <h3>${escapeHtml(item.title)}</h3>
               <p>${escapeHtml(item.description)}</p>
               <div class="meta-line">
@@ -181,6 +181,8 @@ function renderCards() {
         )
         .join("")
     : '<p class="empty-note">当前没有匹配干货，换个关键词试试。</p>';
+
+  window.dispatchEvent(new Event("cyrus:cards-rendered"));
 }
 
 function escapeHtml(value) {

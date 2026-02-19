@@ -42,6 +42,7 @@ const elements = {
 };
 
 async function bootstrap() {
+  renderLoadingState();
   const payload = await loadNewsPayload();
   newsItems = payload.items.length ? payload.items : FALLBACK_NEWS_ITEMS;
   renderUpdatedAt(payload.generatedAt);
@@ -72,6 +73,22 @@ async function loadNewsPayload() {
   } catch {
     return emptyPayload;
   }
+}
+
+function renderLoadingState() {
+  elements.count.textContent = "...";
+  elements.updatedAt.textContent = "加载中...";
+  elements.cards.innerHTML = Array.from({ length: 6 })
+    .map(
+      (_, index) => `
+        <article class="card skeleton card-animate" style="--stagger:${index};">
+          <div class="sk-line w-90"></div>
+          <div class="sk-line w-76"></div>
+          <div class="sk-line w-55"></div>
+        </article>
+      `
+    )
+    .join("");
 }
 
 function renderUpdatedAt(raw) {
@@ -225,11 +242,13 @@ function renderCards() {
   elements.count.textContent = String(filtered.length);
 
   elements.cards.innerHTML = filtered.length
-    ? filtered.map((item) => renderCard(item)).join("")
+    ? filtered.map((item, index) => renderCard(item, index)).join("")
     : '<p class="empty-note">当前没有匹配资讯，换个关键词试试。</p>';
+
+  window.dispatchEvent(new Event("cyrus:cards-rendered"));
 }
 
-function renderCard(item) {
+function renderCard(item, index) {
   const cardKey = getCardKey(item);
   const encodedKey = encodeURIComponent(cardKey);
 
@@ -246,7 +265,7 @@ function renderCard(item) {
   const contentTags = Array.isArray(item.contentTags) ? item.contentTags : [];
 
   return `
-    <article class="card">
+    <article class="card card-animate" style="--stagger:${index};">
       <div class="card-top">
         <div class="card-title-wrap">
           <h3>${escapeHtml(title || "")}</h3>
