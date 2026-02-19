@@ -21,10 +21,18 @@
 - `.github/workflows/update-news.yml`：定时任务（每日两次）
 - `resources.html`：AI干货页面
 - `resources.js`：干货数据与筛选逻辑
+- `privacy.html`：隐私政策
+- `disclaimer.html`：免责声明
+- `404.html`：404 页面
+- `_headers`：基础安全响应头
 - `styles.css`：全站样式
 - `robots.txt`、`sitemap.xml`、`site.webmanifest`：SEO/索引文件
 - `favicon.svg`、`og-cover.svg`：站点图标与分享图
 - `consulting.html`、`work.html`：旧链接跳转页
+- `edge-proxy.js`：域名兜底 Worker（代理到 pages.dev）
+- `WORKER_FALLBACK.md`：域名兜底 Worker 操作说明
+- `d1/schema.sql`：D1 初始化表结构（可选）
+- `D1_MIN_PLAN.md`：D1 最小改造说明（可选）
 
 ## 本地预览
 
@@ -87,4 +95,6 @@ git push
 
 ## 域名生效说明
 
-若 `cyrustyj.xyz` 仍未生效，通常是 NS 传播中。一般几分钟到 24 小时，最长可能 48 小时。
+- 当前已部署 Worker 域名兜底代理 `cyrus-ai-domain-proxy`，根域名可直接访问。
+- 若 Cloudflare Pages 自定义域仍是 `pending`，不影响当前访问（由 Worker 代理到 `cyrus-ai-notes.pages.dev`）。
+- 后续可在 Cloudflare 后台修正 DNS 后，切回 Pages 原生自定义域。
