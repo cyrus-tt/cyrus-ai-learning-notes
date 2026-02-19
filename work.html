@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI干活 | Cyrus的AI学习笔记</title>
+    <meta
+      name="description"
+      content="AI干活模板库：按标签和关键词筛选可执行模板，覆盖选题、资讯整理、复盘、咨询访谈等场景。"
+    />
+    <meta
+      name="keywords"
+      content="AI干活,AI模板库,提示词,自动化流程,内容生产,AI复盘"
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://cyrustyj.xyz/work.html" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+    <meta property="og:title" content="AI干活 | Cyrus的AI学习笔记" />
+    <meta
+      property="og:description"
+      content="可复制执行的AI模板库，支持关键词搜索与标签筛选。"
+    />
+    <meta property="og:url" content="https://cyrustyj.xyz/work.html" />
+    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI干活 | Cyrus的AI学习笔记" />
+    <meta
+      name="twitter:description"
+      content="可复制执行的AI模板库，支持关键词搜索与标签筛选。"
+    />
+    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "AI干活模板库",
+        "url": "https://cyrustyj.xyz/work.html",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Cyrus的AI学习笔记",
+          "url": "https://cyrustyj.xyz/"
+        },
+        "inLanguage": "zh-CN"
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/">Cyrus的AI学习笔记</a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/consulting.html">AI咨询</a>
+          <a href="/work.html" aria-current="page">AI干活</a>
+          <a href="/">返回首页</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap page-main">
+      <section class="hero">
+        <p class="eyebrow">AI干活</p>
+        <h1>模板拿来就能执行</h1>
+        <p class="hero-copy">输入关键词，或者点标签筛选。模板会给出步骤和可直接复用的提示词。</p>
+      </section>
+
+      <section class="work-toolbar" aria-label="筛选工具">
+        <label class="search-field" for="workSearch">
+          <span>搜索模板</span>
+          <input
+            id="workSearch"
+            type="search"
+            placeholder="例如：选题、资讯、复盘、咨询访谈..."
+            autocomplete="off"
+          />
+        </label>
+        <div class="meta-row">
+          <div id="workTags" class="chips" role="group" aria-label="模板标签"></div>
+          <p class="result-count">共 <strong id="workCount">0</strong> 条模板</p>
+        </div>
+      </section>
+
+      <section id="workCards" class="card-grid" aria-live="polite"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>© 2026 Cyrus的AI学习笔记</p>
+        <div class="footer-links">
+          <a href="/consulting.html">AI咨询</a>
+          <a href="/">首页</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./work.js"></script>
+  </body>
+</html>

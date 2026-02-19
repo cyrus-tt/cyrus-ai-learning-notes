@@ -1,67 +1,64 @@
-# Cloudflare 上线清单（给新手）
+# Cloudflare 上线清单（新版）
 
-适用项目目录：`/Volumes/tyj/Cyrus/Projects/主业/cyrus-ai-learning-notes-mvp`
+适用目录：`/Volumes/tyj/Cyrus/Projects/主业/cyrus-ai-learning-notes-mvp`
 
-## 0. 准备文件
+## 1. 先检查关键文件
 
-确认目录里有这 3 个文件：
+至少确认这些文件存在：
 
 - `index.html`
+- `consulting.html`
+- `work.html`
+- `work.js`
 - `styles.css`
-- `script.js`
+- `robots.txt`
+- `sitemap.xml`
+- `site.webmanifest`
+- `favicon.svg`
+- `og-cover.svg`
 
-## 1. 先发布一个 Pages 测试地址（最简单）
+## 2. Cloudflare Pages 部署
+
+### 方式 A：上传资产（快速）
 
 1. 登录 Cloudflare。
-2. 左侧进入 `Workers & Pages`。
-3. 点击 `Create application`。
-4. 选择 `Pages`。
-5. 选择 `Upload assets`（不是 Git）。
-6. `Project name` 填：`cyrus-ai-notes`。
-7. 把上面 3 个文件拖进去上传。
-8. 点击 `Deploy site`。
+2. 进入 `Workers & Pages`。
+3. 打开项目 `cyrus-ai-notes`（或新建同名项目）。
+4. 选择 `Create deployment` / `Upload assets`。
+5. 把上面文件一次性上传（建议直接上传整个目录内容）。
+6. 发布后访问 `*.pages.dev` 检查。
 
-完成后会得到一个 `https://cyrus-ai-notes.pages.dev` 的地址。
+### 方式 B：Git 自动发布（推荐）
 
-## 2. 绑定你的域名 `cyrustyj.xyz`
+1. Pages 项目连接 GitHub 仓库：`cyrus-tt/cyrus-ai-learning-notes`
+2. 构建配置：
+   - Framework：`None`
+   - Build command：留空
+   - Build output directory：`.`
+3. 保存后，每次 `git push` 自动发布。
 
-1. 进入刚刚创建的 Pages 项目。
-2. 点击 `Custom domains`。
-3. 点击 `Set up a custom domain`。
-4. 输入：`cyrustyj.xyz`。
-5. 确认添加。
+## 3. 绑定自定义域名
 
-Cloudflare 通常会自动创建 DNS 记录（不用手动写）。
+1. Pages 项目 -> `Custom domains`
+2. 添加：`cyrustyj.xyz` 和 `www.cyrustyj.xyz`
+3. 若域名未激活，先在注册商把 NS 改为：
+   - `rita.ns.cloudflare.com`
+   - `rocky.ns.cloudflare.com`
 
-## 3. 等待生效 + 检查
+## 4. 上线后检查
 
-1. 等 3-20 分钟。
-2. 打开：`https://cyrustyj.xyz`。
-3. 检查 3 件事：
-   - 页面能打开
-   - 顶部导航可跳转
-   - 搜索和标签筛选可用
-
-## 4. 后续更新内容
-
-每次更新只需要改 `script.js` 里的三组数据：
-
-- `newsItems`
-- `playbookItems`
-- `projectItems`
-
-改完后，在 Pages 里重新上传 3 个文件即可。
+- `https://cyrustyj.xyz/`：能看到两个入口（AI咨询 / AI干活）
+- `https://cyrustyj.xyz/consulting.html`：可正常打开
+- `https://cyrustyj.xyz/work.html`：搜索和标签筛选可用
+- `https://cyrustyj.xyz/sitemap.xml`：可访问
+- `https://cyrustyj.xyz/robots.txt`：可访问
 
 ## 5. 常见问题
 
-### 打开域名显示 404
+### 域名一直 pending
 
-去 Pages 项目里确认 `index.html` 在根目录，不要放在子文件夹。
+多数是 NS 仍在传播。等待并复查公网 NS 是否变为 Cloudflare 分配的两个 nameserver。
 
-### 域名还没生效
+### 页面样式或脚本丢失
 
-在 Cloudflare 的 DNS 页面确认域名状态是 `Active`，再等一会。
-
-### 页面样式丢失
-
-确认 `styles.css` 和 `script.js` 与 `index.html` 在同一层目录。
+确认 `styles.css`、`work.js` 与 `html` 文件在同一层目录。
