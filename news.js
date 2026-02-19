@@ -1,77 +1,18 @@
-const newsItems = [
+const FALLBACK_NEWS_ITEMS = [
   {
-    title: "OpenAI 新功能上线后，开发者开始用更小上下文做稳定任务",
-    platform: "X / OpenAI",
-    region: "海外",
-    date: "2026-02-17",
-    summary: "讨论焦点从“模型有多强”转向“流程是否可复用”，提示词结构化再次被强调。",
-    action: "先把你的常用任务拆成“输入-约束-输出格式”三个块，再测试稳定性。",
-    sourceUrl: "https://openai.com"
-  },
-  {
-    title: "小红书创作者开始批量复用“短视频转图文”流水线",
-    platform: "小红书",
-    region: "国内",
-    date: "2026-02-16",
-    summary: "热门做法是先口播后转图文，核心在统一模板而不是每篇重写。",
-    action: "建立固定图文骨架：问题、结论、步骤、误区，再让 AI 填充。",
-    sourceUrl: "https://www.xiaohongshu.com"
-  },
-  {
-    title: "YouTube 上 Agent 实测内容增多，关注点转向“失败案例”",
-    platform: "YouTube",
-    region: "海外",
-    date: "2026-02-15",
-    summary: "越来越多人开始公开失败流程，帮助团队识别自动化边界。",
-    action: "你的流程也要记录失败原因，建立“不适合自动化任务清单”。",
-    sourceUrl: "https://www.youtube.com"
-  },
-  {
-    title: "即刻与微博上“AI工具合集”热度高，但同质化明显",
-    platform: "微博 / 即刻",
-    region: "国内",
-    date: "2026-02-14",
-    summary: "工具名单容易重复，真正差异在具体场景和执行标准。",
-    action: "收藏工具前先写一句：它帮我在哪个环节省了几分钟。",
-    sourceUrl: "https://weibo.com"
-  },
-  {
-    title: "Reddit 讨论集中在“多模型协作”而非单模型对比",
-    platform: "Reddit",
-    region: "海外",
-    date: "2026-02-13",
-    summary: "实战趋势是按任务分工：检索、草稿、审校分别交给不同模型。",
-    action: "先用两模型分工试跑：一个出草稿，一个做结构审校。",
-    sourceUrl: "https://www.reddit.com"
-  },
-  {
-    title: "B站 AI 教程开始强调“业务目标优先”，弱化炫技",
-    platform: "B站",
-    region: "国内",
-    date: "2026-02-12",
-    summary: "教程更关注“投入产出比”，例如脚本效率、客服响应速度、复盘效率。",
-    action: "每个 AI 尝试先设定量化指标：节省时间或提升转化。",
-    sourceUrl: "https://www.bilibili.com"
-  },
-  {
-    title: "Hacker News 对 AI 编程助手讨论更偏向“工程纪律”",
-    platform: "Hacker News",
-    region: "海外",
-    date: "2026-02-11",
-    summary: "重点不在“生成速度”，而在“评审、测试、回滚”是否完备。",
-    action: "在 AI 辅助编码流程里固定加入：代码审查 + 最小回归测试。",
-    sourceUrl: "https://news.ycombinator.com"
-  },
-  {
-    title: "知乎与公众号内容里“AI知识库”回归轻量结构",
-    platform: "知乎 / 公众号",
-    region: "国内",
-    date: "2026-02-10",
-    summary: "先把字段结构统一，再选工具，迁移成本最低。",
-    action: "给每条笔记至少保留 4 列：主题、结论、动作、来源。",
-    sourceUrl: "https://www.zhihu.com"
+    title: "自动抓取已启用：若首次为空，稍后会自动更新",
+    platform: "系统提示",
+    region: "站点",
+    date: "2026-02-19",
+    summary: "这个页面会从 data/news.json 读取每日两次自动更新的数据。",
+    action: "先等待下一次自动任务，或手动触发 GitHub Action。",
+    sourceUrl: "https://github.com/cyrus-tt/cyrus-ai-learning-notes/actions",
+    sourceName: "GitHub Actions",
+    publishedAt: "2026-02-19T00:00:00+00:00"
   }
 ];
+
+let newsItems = [];
 
 const state = {
   query: "",
@@ -82,8 +23,68 @@ const elements = {
   search: document.getElementById("newsSearch"),
   tags: document.getElementById("newsTags"),
   cards: document.getElementById("newsCards"),
-  count: document.getElementById("newsCount")
+  count: document.getElementById("newsCount"),
+  updatedAt: document.getElementById("newsUpdatedAt")
 };
+
+async function bootstrap() {
+  const payload = await loadNewsPayload();
+  newsItems = payload.items.length ? payload.items : FALLBACK_NEWS_ITEMS;
+  renderUpdatedAt(payload.generatedAt);
+
+  setup();
+}
+
+async function loadNewsPayload() {
+  const emptyPayload = { items: [], generatedAt: "" };
+
+  try {
+    const response = await fetch(`./data/news.json?ts=${Date.now()}`, {
+      cache: "no-store"
+    });
+
+    if (!response.ok) {
+      return emptyPayload;
+    }
+
+    const payload = await response.json();
+    if (!payload || !Array.isArray(payload.items)) {
+      return emptyPayload;
+    }
+
+    return {
+      items: payload.items,
+      generatedAt: payload.generatedAt || ""
+    };
+  } catch (error) {
+    return emptyPayload;
+  }
+}
+
+function renderUpdatedAt(raw) {
+  if (!elements.updatedAt) {
+    return;
+  }
+
+  if (!raw) {
+    elements.updatedAt.textContent = "等待首次更新";
+    return;
+  }
+
+  const date = new Date(raw);
+  if (Number.isNaN(date.getTime())) {
+    elements.updatedAt.textContent = raw;
+    return;
+  }
+
+  elements.updatedAt.textContent = date.toLocaleString("zh-CN", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit"
+  });
+}
 
 function setup() {
   renderTags();
@@ -142,7 +143,7 @@ function renderCards() {
               </div>
               <div class="takeaway-box">可执行动作：${escapeHtml(item.action)}</div>
               <div class="meta-line">
-                <a class="source-link" href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">查看来源</a>
+                <a class="source-link" href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">原内容链接（${escapeHtml(item.sourceName || "来源") }）</a>
               </div>
             </article>
           `
@@ -172,4 +173,4 @@ function escapeHtml(value) {
     .replaceAll("'", "&#39;");
 }
 
-setup();
+bootstrap();

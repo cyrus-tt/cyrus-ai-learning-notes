@@ -9,6 +9,7 @@
 - `index.html`
 - `news.html`
 - `news.js`
+- `data/news.json`
 - `resources.html`
 - `resources.js`
 - `styles.css`
