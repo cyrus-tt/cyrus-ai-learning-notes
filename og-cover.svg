@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Cyrus AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f7fb" />
+      <stop offset="1" stop-color="#eef3fa" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0071e3" />
+      <stop offset="1" stop-color="#34aadc" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="80" y="80" width="1040" height="470" rx="36" fill="#ffffff" stroke="#d9e4f2" />
+  <circle cx="220" cy="180" r="58" fill="url(#accent)" />
+  <text x="320" y="205" fill="#1d1d1f" font-size="58" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'PingFang SC', sans-serif" font-weight="700">
+    Cyrus的AI学习笔记
+  </text>
+  <text x="320" y="280" fill="#6e6e73" font-size="36" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', sans-serif">
+    AI咨询  ·  AI干活
+  </text>
+  <text x="110" y="470" fill="#6e6e73" font-size="30" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', sans-serif">
+    可执行模板 · 清晰路径 · 面向小红书创作者
+  </text>
+</svg>
