@@ -63,6 +63,18 @@ python3 -m pip install -r scripts/news_requirements.txt
 python3 scripts/update_news.py
 ```
 
+### D1 数据库存储（已接入）
+
+- 已创建数据库：`cyrus-ai-news`
+- 抓取脚本会在每次运行后同步写入：
+  - `fetch_runs`（每次抓取）
+  - `news_snapshots`（每次抓取的完整快照）
+  - `latest_news`（每条资讯最新版本）
+- 相关环境变量（可选）：
+  - `D1_DATABASE_NAME`：默认 `cyrus-ai-news`
+  - `ENABLE_D1_SYNC`：默认开启（设置为 `0/false` 可关闭）
+  - `D1_REMOTE`：默认远端写入（设置为 `0/false` 写本地）
+
 ### AI资讯卡片字段说明
 
 - `industryStage`：AI产业链位置（上游 / 中游 / 下游）
