@@ -7,6 +7,7 @@
 - `AI资讯`：聚合国内外社媒平台信息，附可执行动作
 - `AI干货`：生产力模板与可复用工作流
 - `AI资讯`已接入自动抓取（GitHub Actions 每日两次）
+- `AI资讯`支持：平台/上下游/标签/时间筛选，外网卡片中英切换
 
 ## 目录结构
 
@@ -15,6 +16,7 @@
 - `news.js`：资讯渲染逻辑（从 `data/news.json` 读取）
 - `data/news.json`：自动抓取后生成的资讯数据
 - `data/news_sources.json`：抓取源配置
+- `data/translation_cache.json`：翻译缓存（自动生成）
 - `scripts/update_news.py`：抓取脚本
 - `.github/workflows/update-news.yml`：定时任务（每日两次）
 - `resources.html`：AI干货页面
@@ -50,6 +52,14 @@ cd /Volumes/tyj/Cyrus/Projects/主业/cyrus-ai-learning-notes-mvp
 python3 -m pip install -r scripts/news_requirements.txt
 python3 scripts/update_news.py
 ```
+
+### AI资讯卡片字段说明
+
+- `industryStage`：AI产业链位置（上游 / 中游 / 下游）
+- `contentTags`：内容标签（如 Agent、模型进展、芯片算力、应用落地）
+- `titleOriginal` / `summaryOriginal`：原文语种
+- `titleZh` / `summaryZh`：中文翻译
+- `sourceUrl`：原内容链接
 
 ### GitHub 自动更新时间
 

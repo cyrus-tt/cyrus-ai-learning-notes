@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Build data/news.json by aggregating AI-related feeds.
 
-This script is intentionally minimal and self-host friendly:
-- Pulls from RSS/Atom sources configured in data/news_sources.json
-- Filters and normalizes items
-- Preserves original source links
-- Produces a static JSON file consumed by the website
+Capabilities:
+- Pull RSS/Atom sources from data/news_sources.json
+- Keep original source URL for each item
+- Tag each item with AI industry stage (upstream/midstream/downstream)
+- Tag each item with content labels
+- For overseas items, generate zh translation to support EN/ZH toggle in UI
 """
 
 from __future__ import annotations
@@ -21,10 +22,12 @@ from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 import feedparser
 import requests
+from deep_translator import GoogleTranslator
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_FILE = ROOT / "data" / "news_sources.json"
 OUTPUT_FILE = ROOT / "data" / "news.json"
+TRANSLATION_CACHE_FILE = ROOT / "data" / "translation_cache.json"
 
 USER_AGENT = "Mozilla/5.0 (compatible; CyrusNewsBot/1.0; +https://cyrustyj.xyz)"
 REQUEST_TIMEOUT = 20
@@ -74,12 +77,93 @@ ACTION_RULES = [
     ),
 ]
 
+STAGE_RULES = {
+    "上游": [
+        "chip",
+        "gpu",
+        "nvidia",
+        "amd",
+        "semiconductor",
+        "datacenter",
+        "infrastructure",
+        "infra",
+        "算力",
+        "芯片",
+        "显卡",
+        "数据中心",
+        "硬件",
+    ],
+    "中游": [
+        "model",
+        "llm",
+        "multimodal",
+        "agent framework",
+        "mcp",
+        "sdk",
+        "api",
+        "training",
+        "finetune",
+        "benchmark",
+        "eval",
+        "foundation model",
+        "模型",
+        "大模型",
+        "训练",
+        "评测",
+        "开源模型",
+    ],
+    "下游": [
+        "application",
+        "assistant",
+        "productivity",
+        "workflow",
+        "marketing",
+        "education",
+        "healthcare",
+        "sales",
+        "customer service",
+        "落地",
+        "应用",
+        "生产力",
+        "场景",
+        "企业服务",
+        "内容创作",
+        "自动化",
+    ],
+}
+
+TAG_RULES = [
+    ("芯片算力", ["chip", "gpu", "nvidia", "amd", "算力", "芯片", "显卡", "数据中心"]),
+    ("模型进展", ["model", "llm", "foundation", "大模型", "模型", "多模态", "multimodal"]),
+    ("Agent", ["agent", "智能体", "mcp", "workflow", "编排"]),
+    ("开源生态", ["open source", "github", "开源", "repo"]),
+    ("应用落地", ["application", "product", "落地", "应用", "企业服务"]),
+    ("内容生产", ["content", "creator", "小红书", "图文", "视频", "口播"]),
+    ("自动化", ["automation", "自动化", "pipeline", "workflow"]),
+    ("投融资", ["funding", "investment", "融资", "估值", "投"]),
+    ("安全治理", ["security", "privacy", "safety", "合规", "治理", "安全"]),
+]
+
 HTML_TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
+CJK_RE = re.compile(r"[\u4e00-\u9fff]")
 
 
 def load_sources() -> list[dict[str, Any]]:
     return json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
+
+
+def load_translation_cache() -> dict[str, str]:
+    if not TRANSLATION_CACHE_FILE.exists():
+        return {}
+    try:
+        return json.loads(TRANSLATION_CACHE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def save_translation_cache(cache: dict[str, str]) -> None:
+    TRANSLATION_CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def strip_html(text: str) -> str:
@@ -134,29 +218,118 @@ def infer_action(text: str) -> str:
     return "先点原文链接，记录一句结论和一个可执行动作。"
 
 
-def normalize_item(source: dict[str, Any], entry: Any) -> dict[str, Any] | None:
-    title = strip_html(getattr(entry, "title", ""))
-    if not title:
+def infer_industry_stage(text: str) -> str:
+    lower = text.lower()
+    scores: dict[str, int] = {}
+    for stage, keywords in STAGE_RULES.items():
+        scores[stage] = sum(1 for kw in keywords if kw in lower)
+
+    max_score = max(scores.values()) if scores else 0
+    if max_score <= 0:
+        return "中游"
+
+    for stage in ["上游", "中游", "下游"]:
+        if scores.get(stage, 0) == max_score:
+            return stage
+
+    return "中游"
+
+
+def infer_content_tags(text: str) -> list[str]:
+    lower = text.lower()
+    tags: list[str] = []
+
+    for tag, keywords in TAG_RULES:
+        if any(keyword in lower for keyword in keywords):
+            tags.append(tag)
+        if len(tags) >= 3:
+            break
+
+    if not tags:
+        tags = ["AI动态"]
+
+    return tags
+
+
+def has_cjk(text: str) -> bool:
+    return bool(CJK_RE.search(text or ""))
+
+
+def translate_to_zh(text: str, translator: GoogleTranslator | None, cache: dict[str, str]) -> tuple[str, bool]:
+    stripped = (text or "").strip()
+    if not stripped:
+        return "", False
+
+    if has_cjk(stripped):
+        return stripped, False
+
+    key = f"zh::{stripped}"
+    if key in cache:
+        translated = cache[key]
+        return translated, translated.strip() != stripped
+
+    if translator is None:
+        return stripped, False
+
+    try:
+        translated = translator.translate(stripped)
+    except Exception:
+        translated = stripped
+
+    translated = (translated or stripped).strip()
+    cache[key] = translated
+    return translated, translated != stripped
+
+
+def normalize_item(
+    source: dict[str, Any],
+    entry: Any,
+    translator: GoogleTranslator | None,
+    translation_cache: dict[str, str],
+) -> dict[str, Any] | None:
+    title_raw = strip_html(getattr(entry, "title", ""))
+    if not title_raw:
         return None
 
-    summary = strip_html(getattr(entry, "summary", "") or getattr(entry, "description", ""))
+    summary_raw = strip_html(getattr(entry, "summary", "") or getattr(entry, "description", ""))
     link = clean_url(getattr(entry, "link", ""))
     if not link:
         return None
 
-    text_for_filter = f"{title} {summary}"
+    text_for_filter = f"{title_raw} {summary_raw}"
     if source.get("keywords_only", False) and not contains_keyword(text_for_filter):
         return None
 
     published = entry_datetime(entry)
     action = infer_action(text_for_filter)
+    stage = infer_industry_stage(text_for_filter)
+    tags = infer_content_tags(text_for_filter)
+
+    title_original = shorten(title_raw, 140)
+    summary_original = shorten(summary_raw or title_raw, 190)
+
+    if source["region"] == "海外":
+        title_zh, title_changed = translate_to_zh(title_original, translator, translation_cache)
+        summary_zh, summary_changed = translate_to_zh(summary_original, translator, translation_cache)
+        has_translation = title_changed or summary_changed
+    else:
+        title_zh = title_original
+        summary_zh = summary_original
+        has_translation = False
 
     return {
-        "title": shorten(title, 120),
+        "title": title_zh,
+        "summary": summary_zh,
+        "titleOriginal": title_original,
+        "summaryOriginal": summary_original,
+        "titleZh": title_zh,
+        "summaryZh": summary_zh,
+        "hasTranslation": has_translation,
         "platform": source["platform"],
         "region": source["region"],
+        "industryStage": stage,
+        "contentTags": tags,
         "date": published.date().isoformat(),
-        "summary": shorten(summary or title, 160),
         "action": action,
         "sourceUrl": link,
         "sourceName": source["name"],
@@ -164,9 +337,16 @@ def normalize_item(source: dict[str, Any], entry: Any) -> dict[str, Any] | None:
     }
 
 
-def fetch_feed(source: dict[str, Any]) -> list[dict[str, Any]]:
+def fetch_feed(
+    source: dict[str, Any],
+    translator: GoogleTranslator | None,
+    translation_cache: dict[str, str],
+) -> list[dict[str, Any]]:
     url = source["url"]
-    headers = {"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8"}
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
+    }
 
     try:
         response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
@@ -177,14 +357,13 @@ def fetch_feed(source: dict[str, Any]) -> list[dict[str, Any]]:
 
     parsed = feedparser.parse(response.content)
     if getattr(parsed, "bozo", False):
-        # Keep parsing results when possible; just log warning.
         bozo_exc = getattr(parsed, "bozo_exception", None)
         if bozo_exc:
             print(f"[WARN] parse issue {source['name']}: {bozo_exc}")
 
     normalized: list[dict[str, Any]] = []
     for entry in parsed.entries[: PER_SOURCE_LIMIT * 3]:
-        item = normalize_item(source, entry)
+        item = normalize_item(source, entry, translator, translation_cache)
         if item:
             normalized.append(item)
             if len(normalized) >= PER_SOURCE_LIMIT:
@@ -198,7 +377,7 @@ def dedupe_and_sort(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
 
     for item in items:
-        key = item["sourceUrl"] or item["title"]
+        key = item["sourceUrl"] or item["titleOriginal"]
         if key in seen:
             continue
         seen.add(key)
@@ -208,27 +387,36 @@ def dedupe_and_sort(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return out[:MAX_ITEMS]
 
 
-def build_news() -> dict[str, Any]:
+def build_news() -> tuple[dict[str, Any], dict[str, str]]:
     sources = load_sources()
+    translation_cache = load_translation_cache()
+
+    translator: GoogleTranslator | None
+    try:
+        translator = GoogleTranslator(source="auto", target="zh-CN")
+    except Exception:
+        translator = None
 
     items: list[dict[str, Any]] = []
     for source in sources:
-        items.extend(fetch_feed(source))
+        items.extend(fetch_feed(source, translator, translation_cache))
 
     merged = dedupe_and_sort(items)
     now = dt.datetime.now(tz=dt.timezone.utc)
 
-    return {
+    payload = {
         "generatedAt": now.isoformat(),
         "timezone": "UTC",
         "total": len(merged),
         "items": merged,
     }
+    return payload, translation_cache
 
 
 def main() -> None:
-    payload = build_news()
+    payload, translation_cache = build_news()
     OUTPUT_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    save_translation_cache(translation_cache)
     print(f"[OK] wrote {OUTPUT_FILE} with {payload['total']} items")
 
 
