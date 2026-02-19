@@ -593,6 +593,34 @@ body {
   text-decoration: underline;
 }
 
+.legal-panel {
+  margin-top: 1rem;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius-xl);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  padding: 1.2rem;
+}
+
+.legal-panel h2 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.legal-panel h2 + p {
+  margin-top: 0.44rem;
+}
+
+.legal-panel p {
+  margin: 0.4rem 0 1rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.legal-panel p:last-child {
+  margin-bottom: 0;
+}
+
 .empty-note {
   grid-column: 1 / -1;
   border: 1px dashed var(--line);
