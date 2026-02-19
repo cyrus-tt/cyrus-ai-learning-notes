@@ -7,7 +7,9 @@
 - Worker 名称：`cyrus-ai-domain-proxy`
 - 脚本文件：`edge-proxy.js`
 - 上游：`https://cyrus-ai-notes.pages.dev`
-- 路由：`cyrustyj.xyz/*`、`www.cyrustyj.xyz/*`
+- 触发方式：
+  - 路由：`cyrustyj.xyz/*`
+  - 自定义域：`www.cyrustyj.xyz`
 
 ## 重新部署
 
@@ -18,7 +20,7 @@ wrangler deploy edge-proxy.js \
   --compatibility-date 2026-02-19 \
   --var UPSTREAM_URL:https://cyrus-ai-notes.pages.dev \
   --routes 'cyrustyj.xyz/*' \
-  --routes 'www.cyrustyj.xyz/*'
+  --domains www.cyrustyj.xyz
 ```
 
 ## 说明
