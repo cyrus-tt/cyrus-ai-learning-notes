@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI资讯 | Cyrus的AI学习笔记</title>
+    <meta
+      name="description"
+      content="AI资讯页：聚合国内外社媒平台的AI动态，支持关键词搜索与平台筛选，每条附带可执行动作。"
+    />
+    <meta
+      name="keywords"
+      content="AI资讯,AI新闻,社媒聚合,海外AI动态,国内AI动态,AI趋势"
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://cyrustyj.xyz/news.html" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+    <meta property="og:title" content="AI资讯 | Cyrus的AI学习笔记" />
+    <meta
+      property="og:description"
+      content="聚合国内外平台的AI信息，并提炼出可执行动作。"
+    />
+    <meta property="og:url" content="https://cyrustyj.xyz/news.html" />
+    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI资讯 | Cyrus的AI学习笔记" />
+    <meta name="twitter:description" content="聚合国内外平台的AI信息，并提炼出可执行动作。" />
+    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "AI资讯",
+        "url": "https://cyrustyj.xyz/news.html",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Cyrus的AI学习笔记",
+          "url": "https://cyrustyj.xyz/"
+        },
+        "inLanguage": "zh-CN"
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/">Cyrus的AI学习笔记</a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/news.html" aria-current="page">AI资讯</a>
+          <a href="/resources.html">AI干货</a>
+          <a href="/">返回首页</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap page-main">
+      <section class="hero">
+        <p class="eyebrow">AI资讯</p>
+        <h1>聚合国内外平台动态</h1>
+        <p class="hero-copy">按平台快速筛选，避免信息过载。每条资讯都给出一条“你可以马上做什么”。</p>
+      </section>
+
+      <section class="filter-toolbar" aria-label="资讯筛选">
+        <label class="search-field" for="newsSearch">
+          <span>搜索资讯</span>
+          <input id="newsSearch" type="search" placeholder="例如：OpenAI、Claude、Agent、自动化..." autocomplete="off" />
+        </label>
+        <div class="meta-row">
+          <div id="newsTags" class="chips" role="group" aria-label="资讯平台标签"></div>
+          <p class="result-count">共 <strong id="newsCount">0</strong> 条资讯</p>
+        </div>
+      </section>
+
+      <section id="newsCards" class="card-grid" aria-live="polite"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>© 2026 Cyrus的AI学习笔记</p>
+        <div class="footer-links">
+          <a href="/resources.html">AI干货</a>
+          <a href="/">首页</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./news.js"></script>
+  </body>
+</html>

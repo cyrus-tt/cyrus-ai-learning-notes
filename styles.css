@@ -180,7 +180,7 @@ body {
 
 .soft-panel,
 .panel-section,
-.work-toolbar,
+.filter-toolbar,
 .cta-panel {
   margin-top: 1rem;
   border: 1px solid var(--line-soft);
@@ -488,6 +488,26 @@ body {
   font-family: "SF Mono", "Menlo", "Monaco", "Consolas", monospace;
   font-size: 0.74rem;
   color: #1f3b5a;
+}
+
+.takeaway-box {
+  margin-top: 0.62rem;
+  border: 1px solid #dfe6ef;
+  background: #f8fbff;
+  border-radius: 12px;
+  padding: 0.55rem 0.64rem;
+  font-size: 0.84rem;
+  color: #1f3b5a;
+}
+
+.source-link {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 0.84rem;
+}
+
+.source-link:hover {
+  text-decoration: underline;
 }
 
 .empty-note {
