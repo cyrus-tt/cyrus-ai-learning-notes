@@ -7,6 +7,7 @@ Capabilities:
 - Tag each item with AI industry stage (upstream/midstream/downstream)
 - Tag each item with content labels
 - For overseas items, generate zh translation to support EN/ZH toggle in UI
+- Optionally persist each fetch run into Cloudflare D1
 """
 
 from __future__ import annotations
@@ -15,7 +16,11 @@ import calendar
 import datetime as dt
 import html
 import json
+import os
 import re
+import subprocess
+import tempfile
+import uuid
 from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
@@ -33,6 +38,11 @@ USER_AGENT = "Mozilla/5.0 (compatible; CyrusNewsBot/1.0; +https://cyrustyj.xyz)"
 REQUEST_TIMEOUT = 20
 MAX_ITEMS = 80
 PER_SOURCE_LIMIT = 15
+
+DEFAULT_D1_DATABASE_NAME = "cyrus-ai-news"
+D1_DATABASE_NAME_ENV = "D1_DATABASE_NAME"
+D1_ENABLE_ENV = "ENABLE_D1_SYNC"
+D1_REMOTE_ENV = "D1_REMOTE"
 
 KEYWORDS = [
     "ai",
@@ -413,11 +423,134 @@ def build_news() -> tuple[dict[str, Any], dict[str, str]]:
     return payload, translation_cache
 
 
+def sql_text(value: Any) -> str:
+    return "'" + str(value).replace("'", "''") + "'"
+
+
+def sql_int(value: Any) -> str:
+    return str(int(bool(value)))
+
+
+def build_d1_sync_sql(
+    payload: dict[str, Any],
+    run_id: str,
+    started_at: dt.datetime,
+    finished_at: dt.datetime,
+) -> str:
+    items = payload.get("items", [])
+    started_iso = started_at.isoformat()
+    finished_iso = finished_at.isoformat()
+
+    lines = [
+        "PRAGMA foreign_keys = ON;",
+        (
+            "INSERT INTO fetch_runs (run_id, started_at, finished_at, item_count, status, message) VALUES "
+            f"({sql_text(run_id)}, {sql_text(started_iso)}, {sql_text(finished_iso)}, {int(payload.get('total', 0))}, "
+            f"{sql_text('success')}, {sql_text('auto-sync')});"
+        ),
+    ]
+
+    for item in items:
+        source_url = item.get("sourceUrl", "") or ""
+        source_name = item.get("sourceName", "") or ""
+        platform = item.get("platform", "") or ""
+        region = item.get("region", "") or ""
+        stage = item.get("industryStage", "中游") or "中游"
+        title_original = item.get("titleOriginal", "") or ""
+        title_zh = item.get("titleZh", item.get("title", "")) or ""
+        summary_original = item.get("summaryOriginal", "") or ""
+        summary_zh = item.get("summaryZh", item.get("summary", "")) or ""
+        has_translation = item.get("hasTranslation", False)
+        action = item.get("action", "") or ""
+        published_at = item.get("publishedAt", "") or ""
+        date_text = item.get("date", "") or ""
+        content_tags_json = json.dumps(item.get("contentTags", []), ensure_ascii=False)
+
+        lines.append(
+            "INSERT INTO news_snapshots (run_id, source_url, source_name, platform, region, industry_stage, "
+            "title_original, title_zh, summary_original, summary_zh, has_translation, action, published_at, date, "
+            "content_tags_json, captured_at) VALUES "
+            f"({sql_text(run_id)}, {sql_text(source_url)}, {sql_text(source_name)}, {sql_text(platform)}, "
+            f"{sql_text(region)}, {sql_text(stage)}, {sql_text(title_original)}, {sql_text(title_zh)}, "
+            f"{sql_text(summary_original)}, {sql_text(summary_zh)}, {sql_int(has_translation)}, {sql_text(action)}, "
+            f"{sql_text(published_at)}, {sql_text(date_text)}, {sql_text(content_tags_json)}, {sql_text(finished_iso)});"
+        )
+
+        lines.append(
+            "INSERT INTO latest_news (source_url, source_name, platform, region, industry_stage, title_original, title_zh, "
+            "summary_original, summary_zh, has_translation, action, published_at, date, content_tags_json, updated_at) VALUES "
+            f"({sql_text(source_url)}, {sql_text(source_name)}, {sql_text(platform)}, {sql_text(region)}, "
+            f"{sql_text(stage)}, {sql_text(title_original)}, {sql_text(title_zh)}, {sql_text(summary_original)}, "
+            f"{sql_text(summary_zh)}, {sql_int(has_translation)}, {sql_text(action)}, {sql_text(published_at)}, "
+            f"{sql_text(date_text)}, {sql_text(content_tags_json)}, {sql_text(finished_iso)}) "
+            "ON CONFLICT(source_url) DO UPDATE SET "
+            "source_name=excluded.source_name, "
+            "platform=excluded.platform, "
+            "region=excluded.region, "
+            "industry_stage=excluded.industry_stage, "
+            "title_original=excluded.title_original, "
+            "title_zh=excluded.title_zh, "
+            "summary_original=excluded.summary_original, "
+            "summary_zh=excluded.summary_zh, "
+            "has_translation=excluded.has_translation, "
+            "action=excluded.action, "
+            "published_at=excluded.published_at, "
+            "date=excluded.date, "
+            "content_tags_json=excluded.content_tags_json, "
+            "updated_at=excluded.updated_at;"
+        )
+
+    return "\n".join(lines) + "\n"
+
+
+def sync_to_d1(payload: dict[str, Any], started_at: dt.datetime, finished_at: dt.datetime) -> None:
+    enabled_raw = os.getenv(D1_ENABLE_ENV, "1").strip().lower()
+    if enabled_raw in {"0", "false", "no", "off"}:
+        print("[INFO] D1 sync disabled by env")
+        return
+
+    db_name = os.getenv(D1_DATABASE_NAME_ENV, DEFAULT_D1_DATABASE_NAME).strip()
+    if not db_name:
+        print("[WARN] empty D1 database name, skip sync")
+        return
+
+    run_id = f"run_{finished_at.strftime('%Y%m%dT%H%M%SZ')}_{uuid.uuid4().hex[:8]}"
+    sql_script = build_d1_sync_sql(payload, run_id, started_at, finished_at)
+    temp_file: Path | None = None
+
+    try:
+        with tempfile.NamedTemporaryFile("w", delete=False, encoding="utf-8", suffix=".sql") as tmp:
+            tmp.write(sql_script)
+            temp_file = Path(tmp.name)
+
+        cmd = ["wrangler", "d1", "execute", db_name]
+        remote_raw = os.getenv(D1_REMOTE_ENV, "1").strip().lower()
+        if remote_raw not in {"0", "false", "no", "off"}:
+            cmd.append("--remote")
+        cmd.extend(["--file", str(temp_file)])
+
+        subprocess.run(cmd, check=True, capture_output=True, text=True)
+        print(f"[OK] D1 synced run={run_id} items={payload.get('total', 0)} db={db_name}")
+    except FileNotFoundError:
+        print("[WARN] wrangler not found, skip D1 sync")
+    except subprocess.CalledProcessError as exc:
+        details = (exc.stderr or "").strip() or (exc.stdout or "").strip() or str(exc)
+        print(f"[WARN] D1 sync failed: {details}")
+    finally:
+        if temp_file and temp_file.exists():
+            temp_file.unlink()
+
+
 def main() -> None:
+    started_at = dt.datetime.now(tz=dt.timezone.utc)
     payload, translation_cache = build_news()
+    finished_at = dt.datetime.now(tz=dt.timezone.utc)
+    payload["generatedAt"] = finished_at.isoformat()
+
     OUTPUT_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     save_translation_cache(translation_cache)
     print(f"[OK] wrote {OUTPUT_FILE} with {payload['total']} items")
+    sync_to_d1(payload, started_at, finished_at)
 
 
 if __name__ == "__main__":
