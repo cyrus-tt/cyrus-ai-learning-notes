@@ -58,3 +58,16 @@ CREATE INDEX IF NOT EXISTS idx_news_snapshots_run_id ON news_snapshots(run_id);
 CREATE INDEX IF NOT EXISTS idx_news_snapshots_published_at ON news_snapshots(published_at DESC);
 CREATE INDEX IF NOT EXISTS idx_news_snapshots_platform ON news_snapshots(platform);
 CREATE INDEX IF NOT EXISTS idx_news_snapshots_stage ON news_snapshots(industry_stage);
+
+CREATE TABLE IF NOT EXISTS page_visits (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  path TEXT NOT NULL,
+  visit_date TEXT NOT NULL,
+  visitor_hash TEXT NOT NULL,
+  created_at TEXT NOT NULL,
+  UNIQUE(path, visit_date, visitor_hash)
+);
+
+CREATE INDEX IF NOT EXISTS idx_page_visits_path ON page_visits(path);
+CREATE INDEX IF NOT EXISTS idx_page_visits_path_date ON page_visits(path, visit_date);
+CREATE INDEX IF NOT EXISTS idx_page_visits_created_at ON page_visits(created_at DESC);

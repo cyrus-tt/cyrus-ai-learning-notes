@@ -79,6 +79,7 @@
             type="search"
             placeholder="例如：OpenAI、Claude、Agent、自动化..."
             autocomplete="off"
+            maxlength="80"
           />
         </label>
 
@@ -121,6 +122,7 @@
     <footer class="site-footer">
       <div class="wrap footer-inner">
         <p>© 2026 Cyrus的AI学习笔记</p>
+        <p id="visitStats" class="visit-stats" aria-live="polite">访问统计：加载中...</p>
         <div class="footer-links">
           <a href="/resources.html">AI干货</a>
           <a href="/privacy.html">隐私政策</a>
@@ -131,6 +133,7 @@
     </footer>
 
     <script src="./ui.js"></script>
+    <script src="./visit-stats.js"></script>
     <script src="./news.js"></script>
   </body>
 </html>
