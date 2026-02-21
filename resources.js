@@ -105,6 +105,10 @@ const resourcesItems = [
   }
 ];
 
+const SEARCH_MAX_LENGTH = 80;
+const UNSAFE_INPUT_PATTERN = /[<>"'`]/g;
+const CONTROL_CHAR_PATTERN = /[\u0000-\u001f\u007f]/g;
+
 const state = {
   query: "",
   tag: "全部"
@@ -125,7 +129,11 @@ function setup() {
 
 function bindSearch() {
   elements.search.addEventListener("input", (event) => {
-    state.query = event.target.value.trim().toLowerCase();
+    const sanitized = sanitizeSearchInput(event.target.value);
+    if (event.target.value !== sanitized) {
+      event.target.value = sanitized;
+    }
+    state.query = sanitized.toLowerCase();
     renderCards();
   });
 }
@@ -192,6 +200,14 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+function sanitizeSearchInput(rawValue) {
+  return String(rawValue || "")
+    .replace(CONTROL_CHAR_PATTERN, "")
+    .replace(UNSAFE_INPUT_PATTERN, "")
+    .trim()
+    .slice(0, SEARCH_MAX_LENGTH);
 }
 
 setup();

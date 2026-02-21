@@ -72,7 +72,7 @@
       <section class="filter-toolbar" aria-label="干货筛选">
         <label class="search-field" for="resourcesSearch">
           <span>搜索干货</span>
-          <input id="resourcesSearch" type="search" placeholder="例如：选题、复盘、自动化、日报..." autocomplete="off" />
+          <input id="resourcesSearch" type="search" placeholder="例如：选题、复盘、自动化、日报..." autocomplete="off" maxlength="80" />
         </label>
         <div class="meta-row">
           <div id="resourcesTags" class="chips" role="group" aria-label="干货标签"></div>
@@ -86,6 +86,7 @@
     <footer class="site-footer">
       <div class="wrap footer-inner">
         <p>© 2026 Cyrus的AI学习笔记</p>
+        <p id="visitStats" class="visit-stats" aria-live="polite">访问统计：加载中...</p>
         <div class="footer-links">
           <a href="/news.html">AI资讯</a>
           <a href="/privacy.html">隐私政策</a>
@@ -96,6 +97,7 @@
     </footer>
 
     <script src="./ui.js"></script>
+    <script src="./visit-stats.js"></script>
     <script src="./resources.js"></script>
   </body>
 </html>

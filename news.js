@@ -20,6 +20,9 @@ const FALLBACK_NEWS_ITEMS = [
 ];
 
 let newsItems = [];
+const SEARCH_MAX_LENGTH = 80;
+const UNSAFE_INPUT_PATTERN = /[<>"'`]/g;
+const CONTROL_CHAR_PATTERN = /[\u0000-\u001f\u007f]/g;
 
 const state = {
   query: "",
@@ -118,7 +121,11 @@ function renderUpdatedAt(raw) {
 
 function bindEvents() {
   elements.search.addEventListener("input", (event) => {
-    state.query = event.target.value.trim().toLowerCase();
+    const sanitized = sanitizeSearchInput(event.target.value);
+    if (event.target.value !== sanitized) {
+      event.target.value = sanitized;
+    }
+    state.query = sanitized.toLowerCase();
     renderCards();
   });
 
@@ -133,7 +140,12 @@ function bindEvents() {
       return;
     }
 
-    const key = decodeURIComponent(switcher.dataset.itemKey || "");
+    let key = switcher.dataset.itemKey || "";
+    try {
+      key = decodeURIComponent(key);
+    } catch {
+      key = "";
+    }
     const lang = switcher.dataset.lang || "zh";
     if (!key) {
       return;
@@ -251,6 +263,7 @@ function renderCards() {
 function renderCard(item, index) {
   const cardKey = getCardKey(item);
   const encodedKey = encodeURIComponent(cardKey);
+  const safeSourceUrl = sanitizeExternalUrl(item.sourceUrl || "");
 
   const showLangToggle =
     item.region === "海外" &&
@@ -263,6 +276,10 @@ function renderCard(item, index) {
 
   const stage = item.industryStage || "中游";
   const contentTags = Array.isArray(item.contentTags) ? item.contentTags : [];
+  const sourceName = escapeHtml(item.sourceName || "来源");
+  const sourceLinkHtml = safeSourceUrl
+    ? `<a class="source-link" href="${escapeHtml(safeSourceUrl)}" target="_blank" rel="noopener noreferrer nofollow">原内容链接（${sourceName}）</a>`
+    : `<span class="source-link">原内容链接不可用（${sourceName}）</span>`;
 
   return `
     <article class="card card-animate" style="--stagger:${index};">
@@ -299,7 +316,7 @@ function renderCard(item, index) {
       <div class="takeaway-box">可执行动作：${escapeHtml(item.action || "")}</div>
 
       <div class="meta-line">
-        <a class="source-link" href="${escapeHtml(item.sourceUrl || "")}" target="_blank" rel="noopener noreferrer">原内容链接（${escapeHtml(item.sourceName || "来源")})</a>
+        ${sourceLinkHtml}
       </div>
     </article>
   `;
@@ -324,6 +341,31 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+function sanitizeSearchInput(rawValue) {
+  return String(rawValue || "")
+    .replace(CONTROL_CHAR_PATTERN, "")
+    .replace(UNSAFE_INPUT_PATTERN, "")
+    .trim()
+    .slice(0, SEARCH_MAX_LENGTH);
+}
+
+function sanitizeExternalUrl(rawUrl) {
+  const text = String(rawUrl || "").trim();
+  if (!text) {
+    return "";
+  }
+
+  try {
+    const parsed = new URL(text, window.location.origin);
+    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+      return "";
+    }
+    return parsed.href;
+  } catch {
+    return "";
+  }
 }
 
 bootstrap();
