@@ -23,6 +23,8 @@ let newsItems = [];
 const SEARCH_MAX_LENGTH = 80;
 const UNSAFE_INPUT_PATTERN = /[<>"'`]/g;
 const CONTROL_CHAR_PATTERN = /[\u0000-\u001f\u007f]/g;
+const NEWS_PAYLOAD_URLS = ["/api/news", "./data/news.json"];
+const NEWS_REFRESH_BUCKET_MS = 5 * 60 * 1000;
 
 const state = {
   query: "",
@@ -60,15 +62,30 @@ async function bootstrap() {
 async function loadNewsPayload() {
   const emptyPayload = { items: [], generatedAt: "" };
 
+  for (const url of NEWS_PAYLOAD_URLS) {
+    const payload = await tryLoadNewsPayload(url);
+    if (payload) {
+      return payload;
+    }
+  }
+
+  return emptyPayload;
+}
+
+async function tryLoadNewsPayload(baseUrl) {
+  const separator = baseUrl.includes("?") ? "&" : "?";
+  const bucket = Math.floor(Date.now() / NEWS_REFRESH_BUCKET_MS);
+  const requestUrl = `${baseUrl}${separator}v=${bucket}`;
+
   try {
-    const response = await fetch(`./data/news.json?ts=${Date.now()}`, { cache: "no-store" });
+    const response = await fetch(requestUrl, { cache: "no-store" });
     if (!response.ok) {
-      return emptyPayload;
+      return null;
     }
 
     const payload = await response.json();
     if (!payload || !Array.isArray(payload.items)) {
-      return emptyPayload;
+      return null;
     }
 
     return {
@@ -76,7 +93,7 @@ async function loadNewsPayload() {
       generatedAt: payload.generatedAt || ""
     };
   } catch {
-    return emptyPayload;
+    return null;
   }
 }
 
