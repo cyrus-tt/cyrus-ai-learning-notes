@@ -292,8 +292,15 @@ body::after {
   margin-bottom: 0.45rem;
 }
 
-.time-select {
-  width: 100%;
+.date-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.date-input {
+  flex: 1;
+  min-width: 0;
   border: 1px solid var(--line);
   border-radius: 10px;
   padding: 0.48rem 0.6rem;
@@ -303,9 +310,28 @@ body::after {
   outline: none;
 }
 
-.time-select:focus {
+.date-input:focus {
   border-color: rgba(0, 113, 227, 0.58);
   box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.14);
+}
+
+.date-reset {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.35rem 0.68rem;
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.date-reset:hover,
+.date-reset:focus-visible {
+  color: var(--text);
+  border-color: rgba(0, 113, 227, 0.42);
+  transform: translateY(-1px);
+  outline: none;
 }
 
 .soft-panel h3,

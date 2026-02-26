@@ -105,13 +105,11 @@
           </div>
 
           <div class="filter-group">
-            <span class="filter-title">时间范围</span>
-            <select id="newsTimeRange" class="time-select" aria-label="时间筛选">
-              <option value="all">全部时间</option>
-              <option value="24h">最近24小时</option>
-              <option value="7d">最近7天</option>
-              <option value="30d">最近30天</option>
-            </select>
+            <span class="filter-title">按日期筛选</span>
+            <div class="date-filter-row">
+              <input id="newsDate" class="date-input" type="date" aria-label="按日期筛选" />
+              <button id="newsDateReset" class="date-reset" type="button">清除</button>
+            </div>
           </div>
         </div>
       </section>

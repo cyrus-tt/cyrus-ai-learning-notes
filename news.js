@@ -29,7 +29,7 @@ const state = {
   platform: "全部",
   stage: "全部",
   topic: "全部",
-  timeRange: "all",
+  selectedDate: "",
   langByCard: {}
 };
 
@@ -38,7 +38,8 @@ const elements = {
   platformTags: document.getElementById("newsPlatformTags"),
   stageTags: document.getElementById("newsStageTags"),
   topicTags: document.getElementById("newsTopicTags"),
-  timeRange: document.getElementById("newsTimeRange"),
+  date: document.getElementById("newsDate"),
+  dateReset: document.getElementById("newsDateReset"),
   cards: document.getElementById("newsCards"),
   count: document.getElementById("newsCount"),
   updatedAt: document.getElementById("newsUpdatedAt")
@@ -49,6 +50,7 @@ async function bootstrap() {
   const payload = await loadNewsPayload();
   newsItems = payload.items.length ? payload.items : FALLBACK_NEWS_ITEMS;
   renderUpdatedAt(payload.generatedAt);
+  applyDateBounds();
 
   bindEvents();
   renderAllFilters();
@@ -129,10 +131,20 @@ function bindEvents() {
     renderCards();
   });
 
-  elements.timeRange.addEventListener("change", (event) => {
-    state.timeRange = event.target.value;
-    renderCards();
-  });
+  if (elements.date) {
+    elements.date.addEventListener("change", (event) => {
+      state.selectedDate = event.target.value || "";
+      renderCards();
+    });
+  }
+
+  if (elements.dateReset && elements.date) {
+    elements.dateReset.addEventListener("click", () => {
+      state.selectedDate = "";
+      elements.date.value = "";
+      renderCards();
+    });
+  }
 
   elements.cards.addEventListener("click", (event) => {
     const switcher = event.target.closest("[data-lang-switch='true']");
@@ -213,36 +225,50 @@ function getFilteredNews() {
     const matchesPlatform = state.platform === "全部" || item.platform === state.platform;
     const matchesStage = state.stage === "全部" || item.industryStage === state.stage;
     const matchesTopic = state.topic === "全部" || (Array.isArray(item.contentTags) && item.contentTags.includes(state.topic));
-    const matchesTime = withinTimeRange(item, state.timeRange);
+    const matchesDate = matchesSelectedDate(item, state.selectedDate);
 
-    return matchesQuery && matchesPlatform && matchesStage && matchesTopic && matchesTime;
+    return matchesQuery && matchesPlatform && matchesStage && matchesTopic && matchesDate;
   });
 }
 
-function withinTimeRange(item, range) {
-  if (range === "all") {
+function getItemDateKey(item) {
+  if (item && typeof item.date === "string" && item.date) {
+    return item.date;
+  }
+
+  const parsed = Date.parse(item?.publishedAt || "");
+  if (!Number.isNaN(parsed)) {
+    return new Date(parsed).toISOString().slice(0, 10);
+  }
+
+  return "";
+}
+
+function matchesSelectedDate(item, selectedDate) {
+  if (!selectedDate) {
     return true;
   }
 
-  const ts = Date.parse(item.publishedAt || item.date || "");
-  if (Number.isNaN(ts)) {
-    return true;
+  return getItemDateKey(item) === selectedDate;
+}
+
+function applyDateBounds() {
+  if (!elements.date) {
+    return;
   }
 
-  const now = Date.now();
-  const dayMs = 24 * 60 * 60 * 1000;
+  const days = Array.from(
+    new Set(newsItems.map((item) => getItemDateKey(item)).filter((value) => Boolean(value)))
+  ).sort();
 
-  if (range === "24h") {
-    return ts >= now - dayMs;
-  }
-  if (range === "7d") {
-    return ts >= now - 7 * dayMs;
-  }
-  if (range === "30d") {
-    return ts >= now - 30 * dayMs;
+  if (!days.length) {
+    elements.date.removeAttribute("min");
+    elements.date.removeAttribute("max");
+    return;
   }
 
-  return true;
+  elements.date.min = days[0];
+  elements.date.max = days[days.length - 1];
 }
 
 function getCardKey(item) {
