@@ -89,8 +89,9 @@ python3 scripts/update_news.py
 
 - 每天北京时间 `09:00` 和 `21:00` 自动运行（UTC `01:00` / `13:00`）
 - 你也可以在 GitHub Actions 页面手动点 `Run workflow`
-- 工作流会在 `data/news.json` 有变化时自动部署到 Cloudflare Pages（不再只更新仓库文件）
-- 自动部署依赖仓库 Secret：`CLOUDFLARE_API_TOKEN`
+- 页面优先通过 `GET /api/news` 读取最新资讯，`/api/news` 会从 GitHub 主分支实时拉取 `data/news.json` 并缓存 5 分钟
+- 因此即使 Cloudflare Pages 没有重新部署，资讯也会跟随 GitHub 自动更新
+- 工作流仍保留“数据变更后自动部署”步骤（用于同步站点静态文件），这一步依赖仓库 Secret：`CLOUDFLARE_API_TOKEN`
 
 ### 本机定时任务（已配置）
 
