@@ -1,35 +1,36 @@
 {
-  "generatedAt": "2026-02-27T13:54:14.515568+00:00",
+  "generatedAt": "2026-02-27T15:16:09.274964+00:00",
   "timezone": "UTC",
   "total": 80,
   "items": [
     {
-      "title": "[D] 降维的经验法则。",
-      "summary": "我正在尝试对 NN 进行建模以接收输入向量（~ 1000 个分量）并返回具有 5 个分量的向量。我用 RLU 建模层的方式如下：x_l+1​=σ(W_l.​x_l​ + b_l​)…",
-      "titleOriginal": "[D] Rule of thumb to decrease dimensionality.",
-      "summaryOriginal": "I am trying to model a NN to receive input vector (~ 1000 components) and return a vector with 5 components. I am modeling layers with RLUs in the following way: x_l+1​=σ(W_l.​x_l​ + b_l​)…",
-      "titleZh": "[D] 降维的经验法则。",
-      "summaryZh": "我正在尝试对 NN 进行建模以接收输入向量（~ 1000 个分量）并返回具有 5 个分量的向量。我用 RLU 建模层的方式如下：x_l+1​=σ(W_l.​x_l​ + b_l​)…",
+      "title": "OpenAI 1100 亿美元融资吸引亚马逊、英伟达、软银投资",
+      "summary": "由 /u/ThereWas 提交 [链接] [评论]",
+      "titleOriginal": "OpenAI's $110 billion funding round draws investment from Amazon, Nvidia, SoftBank",
+      "summaryOriginal": "submitted by /u/ThereWas [link] [comments]",
+      "titleZh": "OpenAI 1100 亿美元融资吸引亚马逊、英伟达、软银投资",
+      "summaryZh": "由 /u/ThereWas 提交 [链接] [评论]",
       "hasTranslation": true,
       "platform": "Reddit",
       "region": "海外",
-      "industryStage": "中游",
+      "industryStage": "上游",
       "contentTags": [
-        "模型进展"
+        "芯片算力",
+        "投融资"
       ],
       "date": "2026-02-27",
-      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rg73gl/d_rule_of_thumb_to_decrease_dimensionality/",
-      "sourceName": "Reddit r/MachineLearning",
-      "publishedAt": "2026-02-27T13:45:27+00:00"
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rg9bqc/openais_110_billion_funding_round_draws/",
+      "sourceName": "Reddit r/artificial",
+      "publishedAt": "2026-02-27T15:13:39+00:00"
     },
     {
-      "title": "MediaFM：Netflix 媒体理解的多模式 AI 基金会",
-      "summary": "文章网址：https://netflixtechblog.com/mediafm-the-multimodal-ai-foundation-for-media-understanding-at-netflix-e8c28df82e2d 评论网址：https://news.ycombinator.com/item?id=47180362 Poi...",
-      "titleOriginal": "MediaFM: The Multimodal AI Foundation for Media Understanding at Netflix",
-      "summaryOriginal": "Article URL: https://netflixtechblog.com/mediafm-the-multimodal-ai-foundation-for-media-understanding-at-netflix-e8c28df82e2d Comments URL: https://news.ycombinator.com/item?id=47180362 Poi…",
-      "titleZh": "MediaFM：Netflix 媒体理解的多模式 AI 基金会",
-      "summaryZh": "文章网址：https://netflixtechblog.com/mediafm-the-multimodal-ai-foundation-for-media-understanding-at-netflix-e8c28df82e2d 评论网址：https://news.ycombinator.com/item?id=47180362 Poi...",
+      "title": "LLM 推理的加密收据 – 在 30 秒内验证您的 AI",
+      "summary": "文章网址：https://www.npmjs.com/package/six-verifier 评论网址：https://news.ycombinator.com/item?id=47181401 积分：1 # 评论：1",
+      "titleOriginal": "Cryptographic receipts for LLM inference – verify your AI in 30 seconds",
+      "summaryOriginal": "Article URL: https://www.npmjs.com/package/six-verifier Comments URL: https://news.ycombinator.com/item?id=47181401 Points: 1 # Comments: 1",
+      "titleZh": "LLM 推理的加密收据 – 在 30 秒内验证您的 AI",
+      "summaryZh": "文章网址：https://www.npmjs.com/package/six-verifier 评论网址：https://news.ycombinator.com/item?id=47181401 积分：1 # 评论：1",
       "hasTranslation": true,
       "platform": "Hacker News",
       "region": "海外",
@@ -39,17 +40,38 @@
       ],
       "date": "2026-02-27",
       "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://netflixtechblog.com/mediafm-the-multimodal-ai-foundation-for-media-understanding-at-netflix-e8c28df82e2d",
+      "sourceUrl": "https://www.npmjs.com/package/six-verifier",
       "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:38:21+00:00"
+      "publishedAt": "2026-02-27T15:09:29+00:00"
     },
     {
-      "title": "Perplexity 推出“Computer”，一款可以将工作分配给其他 AI 代理的 AI 代理",
-      "summary": "文章网址：https://arstechnica.com/ai/2026/02/perplexity-announces-computer-an-ai-agent-that-assigns-work-to-other-ai-agents/ 评论网址：https://news.ycombinator.com/item?id=47180334 P…",
-      "titleOriginal": "Perplexity announces \"Computer,\" an AI agent that assigns work to other AI agent",
-      "summaryOriginal": "Article URL: https://arstechnica.com/ai/2026/02/perplexity-announces-computer-an-ai-agent-that-assigns-work-to-other-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=47180334 P…",
-      "titleZh": "Perplexity 推出“Computer”，一款可以将工作分配给其他 AI 代理的 AI 代理",
-      "summaryZh": "文章网址：https://arstechnica.com/ai/2026/02/perplexity-announces-computer-an-ai-agent-that-assigns-work-to-other-ai-agents/ 评论网址：https://news.ycombinator.com/item?id=47180334 P…",
+      "title": "Show HN：AgentMint – 人类批准 AI 代理操作的加密证明",
+      "summary": "会话身份验证显示“代理可以使用 Stripe”。它没有说“Alice 在上午 10:03 批准了这笔 50 美元的退款”。 AgentMint 签署短暂的令牌，证明人类批准了特定的操作。埃德25519…",
+      "titleOriginal": "Show HN: AgentMint – Cryptographic proof of human approval for AI agent actions",
+      "summaryOriginal": "Session auth says \"agent can use Stripe.\" It doesn't say \"Alice approved this $50 refund at 10:03am.\" AgentMint signs short-lived tokens proving a human approved a specific action. Ed25519…",
+      "titleZh": "Show HN：AgentMint – 人类批准 AI 代理操作的加密证明",
+      "summaryZh": "会话身份验证显示“代理可以使用 Stripe”。它没有说“Alice 在上午 10:03 批准了这笔 50 美元的退款”。 AgentMint 签署短暂的令牌，证明人类批准了特定的操作。埃德25519…",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "Agent",
+        "开源生态"
+      ],
+      "date": "2026-02-27",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://github.com/aniketh-maddipati/agentmint",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-02-27T15:07:01+00:00"
+    },
+    {
+      "title": "汉堡王的人工智能代理将听从命令并“指导”工人",
+      "summary": "文章网址：https://www.nbcnews.com/business/consumer/burger-king-ai-chatbot-please-thank-you-rcna260848 评论网址：https://news.ycombinator.com/item?id=47181329 积分：1 # 评论：0",
+      "titleOriginal": "Burger King's AI agent will listen to orders and 'coach' workers",
+      "summaryOriginal": "Article URL: https://www.nbcnews.com/business/consumer/burger-king-ai-chatbot-please-thank-you-rcna260848 Comments URL: https://news.ycombinator.com/item?id=47181329 Points: 1 # Comments: 0",
+      "titleZh": "汉堡王的人工智能代理将听从命令并“指导”工人",
+      "summaryZh": "文章网址：https://www.nbcnews.com/business/consumer/burger-king-ai-chatbot-please-thank-you-rcna260848 评论网址：https://news.ycombinator.com/item?id=47181329 积分：1 # 评论：0",
       "hasTranslation": true,
       "platform": "Hacker News",
       "region": "海外",
@@ -59,17 +81,58 @@
       ],
       "date": "2026-02-27",
       "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://arstechnica.com/ai/2026/02/perplexity-announces-computer-an-ai-agent-that-assigns-work-to-other-ai-agents/",
+      "sourceUrl": "https://www.nbcnews.com/business/consumer/burger-king-ai-chatbot-please-thank-you-rcna260848",
       "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:35:03+00:00"
+      "publishedAt": "2026-02-27T15:04:33+00:00"
     },
     {
-      "title": "为每个人扩展人工智能",
-      "summary": "文章网址：https://openai.com/index/scaling-ai-for-everyone/ 评论网址：https://news.ycombinator.com/item?id=47180302 积分：2 # 评论：0",
-      "titleOriginal": "Scaling AI for Everyone",
-      "summaryOriginal": "Article URL: https://openai.com/index/scaling-ai-for-everyone/ Comments URL: https://news.ycombinator.com/item?id=47180302 Points: 2 # Comments: 0",
-      "titleZh": "为每个人扩展人工智能",
-      "summaryZh": "文章网址：https://openai.com/index/scaling-ai-for-everyone/ 评论网址：https://news.ycombinator.com/item?id=47180302 积分：2 # 评论：0",
+      "title": "文件系统是新的数据库：我如何为人工智能代理构建个人操作系统",
+      "summary": "文章网址：https://twitter.com/koylanai/status/2025286163641118915 评论网址：https://news.ycombinator.com/item?id=47181306 积分：1 # 评论：0",
+      "titleOriginal": "The File System Is the New Database: How I Built a Personal OS for AI Agents",
+      "summaryOriginal": "Article URL: https://twitter.com/koylanai/status/2025286163641118915 Comments URL: https://news.ycombinator.com/item?id=47181306 Points: 1 # Comments: 0",
+      "titleZh": "文件系统是新的数据库：我如何为人工智能代理构建个人操作系统",
+      "summaryZh": "文章网址：https://twitter.com/koylanai/status/2025286163641118915 评论网址：https://news.ycombinator.com/item?id=47181306 积分：1 # 评论：0",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "Agent"
+      ],
+      "date": "2026-02-27",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://twitter.com/koylanai/status/2025286163641118915",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-02-27T15:02:55+00:00"
+    },
+    {
+      "title": "尽管美国禁令，中国 DeepSeek 在 Nvidia 最好的芯片上训练人工智能模型",
+      "summary": "文章网址：https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/ 评论网址：https://news.ycombinator.com/item?...",
+      "titleOriginal": "China's DeepSeek trained AI model on Nvidia's best chip despite US ban",
+      "summaryOriginal": "Article URL: https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/ Comments URL: https://news.ycombinator.com/item?…",
+      "titleZh": "尽管美国禁令，中国 DeepSeek 在 Nvidia 最好的芯片上训练人工智能模型",
+      "summaryZh": "文章网址：https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/ 评论网址：https://news.ycombinator.com/item?...",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "上游",
+      "contentTags": [
+        "芯片算力",
+        "模型进展"
+      ],
+      "date": "2026-02-27",
+      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+      "sourceUrl": "https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-02-27T15:02:41+00:00"
+    },
+    {
+      "title": "DevArch：有纪律的人工智能辅助开发",
+      "summary": "文章网址：https://devarch.ai 评论网址：https://news.ycombinator.com/item?id=47181243 积分：1 # 评论：0",
+      "titleOriginal": "DevArch: AI-Assisted Development with Discipline",
+      "summaryOriginal": "Article URL: https://devarch.ai Comments URL: https://news.ycombinator.com/item?id=47181243 Points: 1 # Comments: 0",
+      "titleZh": "DevArch：有纪律的人工智能辅助开发",
+      "summaryZh": "文章网址：https://devarch.ai 评论网址：https://news.ycombinator.com/item?id=47181243 积分：1 # 评论：0",
       "hasTranslation": true,
       "platform": "Hacker News",
       "region": "海外",
@@ -79,216 +142,253 @@
       ],
       "date": "2026-02-27",
       "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://openai.com/index/scaling-ai-for-everyone/",
+      "sourceUrl": "https://devarch.ai",
       "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:31:05+00:00"
+      "publishedAt": "2026-02-27T14:58:02+00:00"
     },
     {
-      "title": "Show HN：我构建了一个 AI 来测试你的 Figma UI",
-      "summary": "Figma 插件使用法学硕士来批评 UI 清晰度和层次结构。包括用于直率反馈的“烘烤”模式。对诚实的反应感兴趣。评论网址：https://news.ycombinator.com/item...",
-      "titleOriginal": "Show HN: I built an AI that roasts your Figma UI",
-      "summaryOriginal": "Figma plugin that uses LLMs to critique UI clarity and hierarchy. Includes a “roast” mode for blunt feedback. Interested in honest reactions. Comments URL: https://news.ycombinator.com/item…",
-      "titleZh": "Show HN：我构建了一个 AI 来测试你的 Figma UI",
-      "summaryZh": "Figma 插件使用法学硕士来批评 UI 清晰度和层次结构。包括用于直率反馈的“烘烤”模式。对诚实的反应感兴趣。评论网址：https://news.ycombinator.com/item...",
+      "title": "展示 HN：具有专用硬件和应用程序的个人人工智能。一切都在本地运行",
+      "summary": "连接到您的电子邮件、银行账户、投资、健康数据、家用摄像头和汽车。存储和推理位于设备上。应用程序连接到硬件点对点。评论网址：https://news.ycomb...",
+      "titleOriginal": "Show HN: Personal AI with Dedicated Hardware and App. Everything Runs Locally",
+      "summaryOriginal": "Connects to your email, bank accounts, investments, health data, home cameras, and car. Storage and inference is on-device. App connects to HW peer-to-peer. Comments URL: https://news.ycomb…",
+      "titleZh": "展示 HN：具有专用硬件和应用程序的个人人工智能。一切都在本地运行",
+      "summaryZh": "连接到您的电子邮件、银行账户、投资、健康数据、家用摄像头和汽车。存储和推理位于设备上。应用程序连接到硬件点对点。评论网址：https://news.ycomb...",
       "hasTranslation": true,
       "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "投融资"
+      ],
+      "date": "2026-02-27",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.autonomynext.com",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-02-27T14:55:35+00:00"
+    },
+    {
+      "title": "OpenAI 获得亚马逊、英伟达和软银 1100 亿美元投资",
+      "summary": "OpenAI 已完成另一轮融资，新承诺向 ChatGPT 制造商提供总计 1100 亿美元的资金，据称该公司每周活跃用户超过 9 亿，并且拥有超过 5000 万……",
+      "titleOriginal": "OpenAI snags $110 billion in investments from Amazon, Nvidia, and Softbank",
+      "summaryOriginal": "OpenAI has closed another round of funding, totalling $110 billion being newly committed to the maker of ChatGPT, which it says has more than 900 million weekly active users and over 50 mil…",
+      "titleZh": "OpenAI 获得亚马逊、英伟达和软银 1100 亿美元投资",
+      "summaryZh": "OpenAI 已完成另一轮融资，新承诺向 ChatGPT 制造商提供总计 1100 亿美元的资金，据称该公司每周活跃用户超过 9 亿，并且拥有超过 5000 万……",
+      "hasTranslation": true,
+      "platform": "The Verge",
+      "region": "海外",
+      "industryStage": "上游",
+      "contentTags": [
+        "芯片算力",
+        "模型进展",
+        "投融资"
+      ],
+      "date": "2026-02-27",
+      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/885958/openai-amazon-nvidia-softback-110-billion-investment",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-02-27T14:55:16+00:00"
+    },
+    {
+      "title": "Show HN：房地产人工智能视频编辑器",
+      "summary": "文章网址：https://maggi.homes/explore 评论网址：https://news.ycombinator.com/item?id=47181165 积分：1 # 评论：0",
+      "titleOriginal": "Show HN: AI video editor for real estate",
+      "summaryOriginal": "Article URL: https://maggi.homes/explore Comments URL: https://news.ycombinator.com/item?id=47181165 Points: 1 # Comments: 0",
+      "titleZh": "Show HN：房地产人工智能视频编辑器",
+      "summaryZh": "文章网址：https://maggi.homes/explore 评论网址：https://news.ycombinator.com/item?id=47181165 积分：1 # 评论：0",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-02-27",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://maggi.homes/explore",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-02-27T14:53:19+00:00"
+    },
+    {
+      "title": "Show HN：mvntSTUDIO – 从音乐生成舞蹈编排的人工智能模型",
+      "summary": "我认为 Suno 开启了音乐之路。 Kling 和 Runway 推出了视频 - 但还有一个创意领域尚未有人涉足：舞蹈。所以我的团队构建了一个网络应用程序 - 给它一个 YouTube 链接到您的......",
+      "titleOriginal": "Show HN: mvntSTUDIO – AI model that generates dance choreography from music",
+      "summaryOriginal": "I think Suno opened up music. Kling and Runway opened up video - but there's one creative domain nobody has touched yet: dance. So my team built an web app — give it a YouTube link to your…",
+      "titleZh": "Show HN：mvntSTUDIO – 从音乐生成舞蹈编排的人工智能模型",
+      "summaryZh": "我认为 Suno 开启了音乐之路。 Kling 和 Runway 推出了视频 - 但还有一个创意领域尚未有人涉足：舞蹈。所以我的团队构建了一个网络应用程序 - 给它一个 YouTube 链接到您的......",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "模型进展",
+        "应用落地",
+        "内容生产"
+      ],
+      "date": "2026-02-27",
+      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+      "sourceUrl": "https://www.mvnt.studio/",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-02-27T14:36:42+00:00"
+    },
+    {
+      "title": "用于人工智能生成的更改的人机循环代码审查工具",
+      "summary": "文章网址：https://tuicr.dev/ 评论网址：https://news.ycombinator.com/item?id=47180951 积分：1 # 评论：0",
+      "titleOriginal": "Human-in-the-loop code review tool for AI-generated changes",
+      "summaryOriginal": "Article URL: https://tuicr.dev/ Comments URL: https://news.ycombinator.com/item?id=47180951 Points: 1 # Comments: 0",
+      "titleZh": "用于人工智能生成的更改的人机循环代码审查工具",
+      "summaryZh": "文章网址：https://tuicr.dev/ 评论网址：https://news.ycombinator.com/item?id=47180951 积分：1 # 评论：0",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-02-27",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://tuicr.dev/",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-02-27T14:36:17+00:00"
+    },
+    {
+      "title": "AI Conf – 应用人工智能会议，巴塞罗那，2026 年 11 月",
+      "summary": "文章网址：https://theconf.ai 评论网址：https://news.ycombinator.com/item?id=47180925 积分：1 # 评论：0",
+      "titleOriginal": "The AI Conf – Applied AI Conference in Barcelona, Nov 2026",
+      "summaryOriginal": "Article URL: https://theconf.ai Comments URL: https://news.ycombinator.com/item?id=47180925 Points: 1 # Comments: 0",
+      "titleZh": "AI Conf – 应用人工智能会议，巴塞罗那，2026 年 11 月",
+      "summaryZh": "文章网址：https://theconf.ai 评论网址：https://news.ycombinator.com/item?id=47180925 积分：1 # 评论：0",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-02-27",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://theconf.ai",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-02-27T14:34:02+00:00"
+    },
+    {
+      "title": "数据中心邻避问题导致人工智能基础设施损失 1T 美元",
+      "summary": "文章网址：https://garryslist.org/posts/data-center-nimbys-are-killing-1-trillion-in-ai-infrastruct 评论网址：https://news.ycombinator.com/item?id=47180912 积分：2 # 评论：0",
+      "titleOriginal": "Data Center NIMBYs Are Killing $1T in AI Infrastructure",
+      "summaryOriginal": "Article URL: https://garryslist.org/posts/data-center-nimbys-are-killing-1-trillion-in-ai-infrastructure Comments URL: https://news.ycombinator.com/item?id=47180912 Points: 2 # Comments: 0",
+      "titleZh": "数据中心邻避问题导致人工智能基础设施损失 1T 美元",
+      "summaryZh": "文章网址：https://garryslist.org/posts/data-center-nimbys-are-killing-1-trillion-in-ai-infrastruct 评论网址：https://news.ycombinator.com/item?id=47180912 积分：2 # 评论：0",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "上游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-02-27",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://garryslist.org/posts/data-center-nimbys-are-killing-1-trillion-in-ai-infrastructure",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-02-27T14:33:11+00:00"
+    },
+    {
+      "title": "法学硕士苏斯博士与海明威",
+      "summary": "有兴趣看看其他人在运行我们尝试过的实验时发现了什么。我们厌倦了在提示中改变法学硕士的“声音”。如果您要为不同的受众创建文本，那么这是值得做的……",
+      "titleOriginal": "Dr Seuss vs Hemingway in LLMs",
+      "summaryOriginal": "Interested to see what others discover running an experiment we tried n We tired changing the “voice” of an LLM in the prompt. It is worth doing if you’re creating text for different audien…",
+      "titleZh": "法学硕士苏斯博士与海明威",
+      "summaryZh": "有兴趣看看其他人在运行我们尝试过的实验时发现了什么。我们厌倦了在提示中改变法学硕士的“声音”。如果您要为不同的受众创建文本，那么这是值得做的……",
+      "hasTranslation": true,
+      "platform": "Reddit",
       "region": "海外",
       "industryStage": "中游",
       "contentTags": [
         "模型进展"
       ],
       "date": "2026-02-27",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.figma.com/community/plugin/1607623180197329886/ui-roast-ai-usability-testing-by-usercall",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:28:05+00:00"
+      "action": "提取提示词结构，再改成你自己的业务场景。",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rg83g7/dr_seuss_vs_hemingway_in_llms/",
+      "sourceName": "Reddit r/artificial",
+      "publishedAt": "2026-02-27T14:26:16+00:00"
     },
     {
-      "title": "Show HN：绕过 Stripe 多模型 AI 计费的 20 项限制",
-      "summary": "我们一直在为 Tonic Fabricate 构建基于使用情况的计费，我遇到了一个 Stripe 限制，虽然没有真正宣传，但如果你这样做的话，可能会完全破坏你的结账流程......",
-      "titleOriginal": "Show HN: Bypassing Stripe's 20-item limit for multi-model AI billing",
-      "summaryOriginal": "We’ve been building out the usage-based billing for Tonic Fabricate, and I ran into a Stripe limitation that isn’t really advertised but can completely break your checkout flow if you’re do…",
-      "titleZh": "Show HN：绕过 Stripe 多模型 AI 计费的 20 项限制",
-      "summaryZh": "我们一直在为 Tonic Fabricate 构建基于使用情况的计费，我遇到了一个 Stripe 限制，虽然没有真正宣传，但如果你这样做的话，可能会完全破坏你的结账流程......",
+      "title": "AI 代理需要许可单 – NDC 伦敦 2026",
+      "summary": "文章网址：https://www.youtube.com/watch?v=NI6sTgOlK74 评论网址：https://news.ycombinator.com/item?id=47180821 积分：1 # 评论：0",
+      "titleOriginal": "AI Agents Need Permission Slips – NDC London 2026",
+      "summaryOriginal": "Article URL: https://www.youtube.com/watch?v=NI6sTgOlK74 Comments URL: https://news.ycombinator.com/item?id=47180821 Points: 1 # Comments: 0",
+      "titleZh": "AI 代理需要许可单 – NDC 伦敦 2026",
+      "summaryZh": "文章网址：https://www.youtube.com/watch?v=NI6sTgOlK74 评论网址：https://news.ycombinator.com/item?id=47180821 积分：1 # 评论：0",
       "hasTranslation": true,
       "platform": "Hacker News",
       "region": "海外",
       "industryStage": "中游",
       "contentTags": [
-        "模型进展",
-        "Agent",
+        "Agent"
+      ],
+      "date": "2026-02-27",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://www.youtube.com/watch?v=NI6sTgOlK74",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-02-27T14:25:41+00:00"
+    },
+    {
+      "title": "AI 生成的产品不会引发 SaaS 末日",
+      "summary": "文章网址：https://pawelbrodzinski.substack.com/p/ai- generated-products-wont-trigger 评论网址：https://news.ycombinator.com/item?id=47180808 积分：2 # 评论：2",
+      "titleOriginal": "AI-Generated Products Won't Trigger a SaaSpocalypse",
+      "summaryOriginal": "Article URL: https://pawelbrodzinski.substack.com/p/ai-generated-products-wont-trigger Comments URL: https://news.ycombinator.com/item?id=47180808 Points: 2 # Comments: 2",
+      "titleZh": "AI 生成的产品不会引发 SaaS 末日",
+      "summaryZh": "文章网址：https://pawelbrodzinski.substack.com/p/ai- generated-products-wont-trigger 评论网址：https://news.ycombinator.com/item?id=47180808 积分：2 # 评论：2",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "应用落地"
+      ],
+      "date": "2026-02-27",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://pawelbrodzinski.substack.com/p/ai-generated-products-wont-trigger",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-02-27T14:24:51+00:00"
+    },
+    {
+      "title": "Nano Banana 2 – Google 的免费 4K AI 图像生成器",
+      "summary": "文章网址：https://nanobananaflash.io/image/nano-banana-2 评论网址：https://news.ycombinator.com/item?id=47180764 积分：2 # 评论：1",
+      "titleOriginal": "Nano Banana 2 – Google's Free 4K AI Image Generator",
+      "summaryOriginal": "Article URL: https://nanobananaflash.io/image/nano-banana-2 Comments URL: https://news.ycombinator.com/item?id=47180764 Points: 2 # Comments: 1",
+      "titleZh": "Nano Banana 2 – Google 的免费 4K AI 图像生成器",
+      "summaryZh": "文章网址：https://nanobananaflash.io/image/nano-banana-2 评论网址：https://news.ycombinator.com/item?id=47180764 积分：2 # 评论：1",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-02-27",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://nanobananaflash.io/image/nano-banana-2",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-02-27T14:21:25+00:00"
+    },
+    {
+      "title": "企业人工智能转型正在创造超过 2.5B 美元的风险敞口。这是绘制它们的法医系统",
+      "summary": "我构建了揭露公司盲点的法医情报系统。今天的演示：Block Inc. 的企业人工智能转型风险评估。一个命令输入。完整的机构…",
+      "titleOriginal": "Enterprise AI Transitions Are Creating $2.5B+ Risk Exposures. Here's the Forensic System That Maps Them",
+      "summaryOriginal": "I build forensic intelligence systems that expose corporate blind spots. Today's demonstration: Enterprise AI Transition Risk Assessment for Block Inc. One command input. Full institutional…",
+      "titleZh": "企业人工智能转型正在创造超过 2.5B 美元的风险敞口。这是绘制它们的法医系统",
+      "summaryZh": "我构建了揭露公司盲点的法医情报系统。今天的演示：Block Inc. 的企业人工智能转型风险评估。一个命令输入。完整的机构…",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
         "开源生态"
       ],
       "date": "2026-02-27",
-      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://news.ycombinator.com/item?id=47180267",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:26:14+00:00"
-    },
-    {
-      "title": "IBM 发现，人工智能加速网络攻击，应用程序漏洞激增 44%",
-      "summary": "文章网址：https://www.infosecurity-magazine.com/news/app-exploits-surge-ai-speeds/ 评论网址：https://news.ycombinator.com/item?id=47180245 积分：1 # 评论：0",
-      "titleOriginal": "44% Surge in App Exploits as AI Speeds Up Cyber-Attacks, IBM Finds",
-      "summaryOriginal": "Article URL: https://www.infosecurity-magazine.com/news/app-exploits-surge-ai-speeds/ Comments URL: https://news.ycombinator.com/item?id=47180245 Points: 1 # Comments: 0",
-      "titleZh": "IBM 发现，人工智能加速网络攻击，应用程序漏洞激增 44%",
-      "summaryZh": "文章网址：https://www.infosecurity-magazine.com/news/app-exploits-surge-ai-speeds/ 评论网址：https://news.ycombinator.com/item?id=47180245 积分：1 # 评论：0",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "安全治理"
-      ],
-      "date": "2026-02-27",
-      "action": "关注与你场景最相关的指标，不只看总分。",
-      "sourceUrl": "https://www.infosecurity-magazine.com/news/app-exploits-surge-ai-speeds/",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:24:01+00:00"
-    },
-    {
-      "title": "Show HN：在 OpenClaw 之前，我已经构建自主 AI 代理两年了",
-      "summary": "嘿 HN，我构建 Splox 已经有 2 年了——自主 AI 代理，可以连接到您的工具并代表您行事。在 OpenClaw 之前，在炒作之前。你简单地描述你想要什么......",
-      "titleOriginal": "Show HN: I've been building autonomous AI agents for 2 years – before OpenClaw",
-      "summaryOriginal": "Hey HN, I've been building Splox for 2 years — autonomous AI agents that connect to your tools and act on your behalf. Before OpenClaw, before the hype. You describe what you want in plain…",
-      "titleZh": "Show HN：在 OpenClaw 之前，我已经构建自主 AI 代理两年了",
-      "summaryZh": "嘿 HN，我构建 Splox 已经有 2 年了——自主 AI 代理，可以连接到您的工具并代表您行事。在 OpenClaw 之前，在炒作之前。你简单地描述你想要什么......",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "上游",
-      "contentTags": [
-        "模型进展",
-        "Agent",
-        "自动化"
-      ],
-      "date": "2026-02-27",
-      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://splox.io/",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:22:21+00:00"
-    },
-    {
-      "title": "Show HN：NightClear – 人工智能消除睡前焦虑",
-      "summary": "您好，HN，我创建了 NightClear，因为白天我的工作效率很高。晚上，我的大脑变成了最坏情况的模拟器。基于 CBT 的“结构化忧虑时间”——而不是压抑……",
-      "titleOriginal": "Show HN: NightClear – AI anxiety clearing for bedtime",
-      "summaryOriginal": "Hi HN, I built NightClear because during the day I'm productive. At night, my brain becomes a worst-case-scenario simulator. Based on CBT's \"structured worry time\" — instead of suppressing…",
-      "titleZh": "Show HN：NightClear – 人工智能消除睡前焦虑",
-      "summaryZh": "您好，HN，我创建了 NightClear，因为白天我的工作效率很高。晚上，我的大脑变成了最坏情况的模拟器。基于 CBT 的“结构化忧虑时间”——而不是压抑……",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "模型进展",
-        "应用落地"
-      ],
-      "date": "2026-02-27",
       "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://apps.apple.com/us/app/nightclear/id6759195031",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:16:58+00:00"
-    },
-    {
-      "title": "Show HN：OneSentence – 完全由 AI 构建的离线 macOS 语音实用程序",
-      "summary": "您好，HN，我正在分享 OneSentence，这是一款适用于 macOS（M 系列）的离线语音实用程序。我构建这个有两个原因：首先，我想看看我能将廉价人工智能推向多远，其次，我想我们……",
-      "titleOriginal": "Show HN: OneSentence – An offline macOS voice utility built entirely with AI",
-      "summaryOriginal": "Hi HN, I’m sharing OneSentence, an offline voice utility for macOS (M-series). I built this for two reasons: first, I wanted to see how far I could push cheap AI, and second, I wanted to us…",
-      "titleZh": "Show HN：OneSentence – 完全由 AI 构建的离线 macOS 语音实用程序",
-      "summaryZh": "您好，HN，我正在分享 OneSentence，这是一款适用于 macOS（M 系列）的离线语音实用程序。我构建这个有两个原因：首先，我想看看我能将廉价人工智能推向多远，其次，我想我们……",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "模型进展",
-        "Agent",
-        "应用落地"
-      ],
-      "date": "2026-02-27",
-      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://www.onesentence.app",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:15:06+00:00"
-    },
-    {
-      "title": "关于人工智能加入团队时领导工程团队的系列",
-      "summary": "文章网址：https://nadeemhilalwani352335.substack.com/p/a-series-on-leading-engineering-teams 评论网址：https://news.ycombinator.com/item?id=47180149 积分：1 # 评论：1",
-      "titleOriginal": "A Series on Leading Engineering Teams When AI Is on the Team",
-      "summaryOriginal": "Article URL: https://nadeemhilalwani352335.substack.com/p/a-series-on-leading-engineering-teams Comments URL: https://news.ycombinator.com/item?id=47180149 Points: 1 # Comments: 1",
-      "titleZh": "关于人工智能加入团队时领导工程团队的系列",
-      "summaryZh": "文章网址：https://nadeemhilalwani352335.substack.com/p/a-series-on-leading-engineering-teams 评论网址：https://news.ycombinator.com/item?id=47180149 积分：1 # 评论：1",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-02-27",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://nadeemhilalwani352335.substack.com/p/a-series-on-leading-engineering-teams",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:13:27+00:00"
-    },
-    {
-      "title": "迪士尼指责谷歌利用人工智能侵犯版权",
-      "summary": "文章网址：https://variety.com/2025/digital/news/disney-google-ai-copyright-infringement-cease-and-desist-letter-1236606429/ 评论网址：https://news.ycombinator.com/item?id=47180144 宝…",
-      "titleOriginal": "Disney Accuses Google of Using AI to Engage in Copyright Infringement",
-      "summaryOriginal": "Article URL: https://variety.com/2025/digital/news/disney-google-ai-copyright-infringement-cease-and-desist-letter-1236606429/ Comments URL: https://news.ycombinator.com/item?id=47180144 Po…",
-      "titleZh": "迪士尼指责谷歌利用人工智能侵犯版权",
-      "summaryZh": "文章网址：https://variety.com/2025/digital/news/disney-google-ai-copyright-infringement-cease-and-desist-letter-1236606429/ 评论网址：https://news.ycombinator.com/item?id=47180144 宝…",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-02-27",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://variety.com/2025/digital/news/disney-google-ai-copyright-infringement-cease-and-desist-letter-1236606429/",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:13:11+00:00"
-    },
-    {
-      "title": "Banuba 的 AI 会说话的照片 API 将静态图像变成逼真的会说话的视频",
-      "summary": "文章网址：https://www.banuba.com/ai-talking-photo-api 评论网址：https://news.ycombinator.com/item?id=47180136 积分：3 # 评论：0",
-      "titleOriginal": "Banuba's AI Talking Photo API Turns Static Images into Lifelike Talking Videos",
-      "summaryOriginal": "Article URL: https://www.banuba.com/ai-talking-photo-api Comments URL: https://news.ycombinator.com/item?id=47180136 Points: 3 # Comments: 0",
-      "titleZh": "Banuba 的 AI 会说话的照片 API 将静态图像变成逼真的会说话的视频",
-      "summaryZh": "文章网址：https://www.banuba.com/ai-talking-photo-api 评论网址：https://news.ycombinator.com/item?id=47180136 积分：3 # 评论：0",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-02-27",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.banuba.com/ai-talking-photo-api",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:12:31+00:00"
-    },
-    {
-      "title": "大规模部署物理人工智能：我们小组讨论的主要见解",
-      "summary": "文章网址：https://www.viam.com/post/physical-ai-panel-discussion 评论网址：https://news.ycombinator.com/item?id=47180110 积分：1 # 评论：0",
-      "titleOriginal": "Deploying physical AI at scale: Key insights from our panel discussion",
-      "summaryOriginal": "Article URL: https://www.viam.com/post/physical-ai-panel-discussion Comments URL: https://news.ycombinator.com/item?id=47180110 Points: 1 # Comments: 0",
-      "titleZh": "大规模部署物理人工智能：我们小组讨论的主要见解",
-      "summaryZh": "文章网址：https://www.viam.com/post/physical-ai-panel-discussion 评论网址：https://news.ycombinator.com/item?id=47180110 积分：1 # 评论：0",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-02-27",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.viam.com/post/physical-ai-panel-discussion",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:09:19+00:00"
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rg7xrv/enterprise_ai_transitions_are_creating_25b_risk/",
+      "sourceName": "Reddit r/artificial",
+      "publishedAt": "2026-02-27T14:19:48+00:00"
     },
     {
       "title": "为什么你的人工智能在每个平台上听起来都一样",
@@ -310,46 +410,6 @@
       "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rg66j7/why_your_ai_sounds_the_same_across_every_platform/",
       "sourceName": "Reddit r/artificial",
       "publishedAt": "2026-02-27T13:07:27+00:00"
-    },
-    {
-      "title": "Show HN：OpportuAI – 远程工作、人工智能工具和数字产品聚合器",
-      "summary": "我厌倦了每天早上查看多个招聘网站，所以我构建了 OpportuAI。它每天自动从 8 个来源（Remotive、RemoteOK、We Work Remotely、HN Hiri…",
-      "titleOriginal": "Show HN: OpportuAI – remote jobs, AI tools and digital products aggregator",
-      "summaryOriginal": "I got tired of checking multiple job boards every morning so I built OpportuAI. It automatically scrapes 277+ remote jobs daily from 8 sources (Remotive, RemoteOK, We Work Remotely, HN Hiri…",
-      "titleZh": "Show HN：OpportuAI – 远程工作、人工智能工具和数字产品聚合器",
-      "summaryZh": "我厌倦了每天早上查看多个招聘网站，所以我构建了 OpportuAI。它每天自动从 8 个来源（Remotive、RemoteOK、We Work Remotely、HN Hiri…",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "应用落地"
-      ],
-      "date": "2026-02-27",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://opportunai.vercel.app",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:06:53+00:00"
-    },
-    {
-      "title": "美国成年人的生成式人工智能使用和抑郁症状",
-      "summary": "文章网址：https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2844128 评论网址：https://news.ycombinator.com/item?id=47180040 积分：3 # 评论：1",
-      "titleOriginal": "Generative AI Use and Depressive Symptoms Among US Adults",
-      "summaryOriginal": "Article URL: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2844128 Comments URL: https://news.ycombinator.com/item?id=47180040 Points: 3 # Comments: 1",
-      "titleZh": "美国成年人的生成式人工智能使用和抑郁症状",
-      "summaryZh": "文章网址：https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2844128 评论网址：https://news.ycombinator.com/item?id=47180040 积分：3 # 评论：1",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-02-27",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2844128",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-02-27T13:02:56+00:00"
     },
     {
       "title": "针对 Linux 7.0-rc2 的众多 AMDXDNA Ryzen AI 驱动程序修复",
@@ -1049,6 +1109,27 @@
       "publishedAt": "2026-02-26T20:28:09+00:00"
     },
     {
+      "title": "[D] 概率模型中上下文推理的符号",
+      "summary": "大家好，我正在寻找对一个想法的关键反馈，这个想法可能看起来有点多余，但有可能澄清建模上下文和观察到的数据如何在概率中相互作用......",
+      "titleOriginal": "[D] A notation for contextual inference in probabilistic models",
+      "summaryOriginal": "Hello everyone, I am looking for critical feedback on an idea that could look somewhat redundant but has the potential to clarify how modelling context and observed data interact in probabi…",
+      "titleZh": "[D] 概率模型中上下文推理的符号",
+      "summaryZh": "大家好，我正在寻找对一个想法的关键反馈，这个想法可能看起来有点多余，但有可能澄清建模上下文和观察到的数据如何在概率中相互作用......",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "模型进展",
+        "自动化"
+      ],
+      "date": "2026-02-26",
+      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rfkdqt/d_a_notation_for_contextual_inference_in/",
+      "sourceName": "Reddit r/MachineLearning",
+      "publishedAt": "2026-02-26T19:50:26+00:00"
+    },
+    {
       "title": "隐藏在文本中的隐形字符可以欺骗人工智能代理遵循秘密指令——我们在 8,000 多个案例中测试了 5 个模型",
       "summary": "我们在看似正常的琐事问题中嵌入了不可见的 Unicode 字符。隐藏的字符编码了不同的答案。如果人工智能输出隐藏的答案而不是可见的……",
       "titleOriginal": "Invisible characters hidden in text can trick AI agents into following secret instructions — we tested 5 models across 8,000+ cases",
@@ -1089,26 +1170,6 @@
       "sourceUrl": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
       "sourceName": "Google AI Blog",
       "publishedAt": "2026-02-26T18:55:00+00:00"
-    },
-    {
-      "title": "英特尔笔记本电脑 CPU 18 年的基准测试",
-      "summary": "AI 基准测试位于第 11 页。由 /u/Fcking_Chuck 提交 [链接] [评论]",
-      "titleOriginal": "Benchmarking 18 years of Intel laptop CPUs",
-      "summaryOriginal": "AI benchmarks are on Page 11. submitted by /u/Fcking_Chuck [link] [comments]",
-      "titleZh": "英特尔笔记本电脑 CPU 18 年的基准测试",
-      "summaryZh": "AI 基准测试位于第 11 页。由 /u/Fcking_Chuck 提交 [链接] [评论]",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-02-26",
-      "action": "关注与你场景最相关的指标，不只看总分。",
-      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rfifyo/benchmarking_18_years_of_intel_laptop_cpus/",
-      "sourceName": "Reddit r/artificial",
-      "publishedAt": "2026-02-26T18:39:31+00:00"
     },
     {
       "title": "[R] NeurIPS 2025 论文集会出版吗？",
@@ -1212,26 +1273,6 @@
       "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rfer1y/p_implementing_better_pytorch_schedulers/",
       "sourceName": "Reddit r/MachineLearning",
       "publishedAt": "2026-02-26T16:27:34+00:00"
-    },
-    {
-      "title": "Niantic：将空间智能带入工业边缘",
-      "summary": "由 /u/ExtensionEcho3 提交 [链接] [评论]",
-      "titleOriginal": "Niantic: Bringing spatial intelligence to the industrial edge",
-      "summaryOriginal": "submitted by /u/ExtensionEcho3 [link] [comments]",
-      "titleZh": "Niantic：将空间智能带入工业边缘",
-      "summaryZh": "由 /u/ExtensionEcho3 提交 [链接] [评论]",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-02-26",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rfeb2l/niantic_bringing_spatial_intelligence_to_the/",
-      "sourceName": "Reddit r/artificial",
-      "publishedAt": "2026-02-26T16:11:44+00:00"
     },
     {
       "title": "使用我们最好的图像生成和编辑模型 Nano Banana 2 进行构建",
@@ -1603,46 +1644,6 @@
       "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rf3qb7/p_mnist_from_scratch_in_metal_c/",
       "sourceName": "Reddit r/MachineLearning",
       "publishedAt": "2026-02-26T07:23:36+00:00"
-    },
-    {
-      "title": "主题为科技与美学，2026亿邦新竞争力品牌大会定档四月",
-      "summary": "文丨亿邦动力 2026亿邦新竞争力品牌大会以“科技与美学”为主题，定于4月24日在上海外滩W酒店举办，著名漫画家蔡志忠、分众传媒董事局主席江南春、林清轩董事长孙来春、基诺浦董事长裴非、茵曼董事长方建华、吴茶董事长吴克之等嘉宾已确认出席，更多精彩陆续更新。 当下，品牌衰退与崛起正在周期穿越中并发，功能主义叠加情绪疗愈，科技与美学成为品牌构筑新竞争力的核心锚点。科技具象为材料原料…",
-      "titleOriginal": "主题为科技与美学，2026亿邦新竞争力品牌大会定档四月",
-      "summaryOriginal": "文丨亿邦动力 2026亿邦新竞争力品牌大会以“科技与美学”为主题，定于4月24日在上海外滩W酒店举办，著名漫画家蔡志忠、分众传媒董事局主席江南春、林清轩董事长孙来春、基诺浦董事长裴非、茵曼董事长方建华、吴茶董事长吴克之等嘉宾已确认出席，更多精彩陆续更新。 当下，品牌衰退与崛起正在周期穿越中并发，功能主义叠加情绪疗愈，科技与美学成为品牌构筑新竞争力的核心锚点。科技具象为材料原料…",
-      "titleZh": "主题为科技与美学，2026亿邦新竞争力品牌大会定档四月",
-      "summaryZh": "文丨亿邦动力 2026亿邦新竞争力品牌大会以“科技与美学”为主题，定于4月24日在上海外滩W酒店举办，著名漫画家蔡志忠、分众传媒董事局主席江南春、林清轩董事长孙来春、基诺浦董事长裴非、茵曼董事长方建华、吴茶董事长吴克之等嘉宾已确认出席，更多精彩陆续更新。 当下，品牌衰退与崛起正在周期穿越中并发，功能主义叠加情绪疗愈，科技与美学成为品牌构筑新竞争力的核心锚点。科技具象为材料原料…",
-      "hasTranslation": false,
-      "platform": "36氪",
-      "region": "国内",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-02-26",
-      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-      "sourceUrl": "https://36kr.com/p/3699776528854664?f=rss",
-      "sourceName": "36氪",
-      "publishedAt": "2026-02-26T06:50:46+00:00"
-    },
-    {
-      "title": "深度横评：2026 年，AI 生成 PPT 到底进化到什么程度了？",
-      "summary": "我测了 8 款 AI PPT 工具，只有 2 款真正能用。 查看全文",
-      "titleOriginal": "深度横评：2026 年，AI 生成 PPT 到底进化到什么程度了？",
-      "summaryOriginal": "我测了 8 款 AI PPT 工具，只有 2 款真正能用。 查看全文",
-      "titleZh": "深度横评：2026 年，AI 生成 PPT 到底进化到什么程度了？",
-      "summaryZh": "我测了 8 款 AI PPT 工具，只有 2 款真正能用。 查看全文",
-      "hasTranslation": false,
-      "platform": "少数派",
-      "region": "国内",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-02-26",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://sspai.com/post/105484",
-      "sourceName": "少数派",
-      "publishedAt": "2026-02-26T06:33:00+00:00"
     }
   ]
 }
