@@ -201,8 +201,10 @@ function decodeEntities(value) {
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&amp;/g, "&")
+    .replace(/&nbsp;/g, " ")
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
+    .replace(/\u00a0/g, " ")
     .trim();
 }
 
