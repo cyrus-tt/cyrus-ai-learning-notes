@@ -19,23 +19,23 @@ const FALLBACK_NEWS_ITEMS_BY_SOURCE = {
       publishedAt: "2026-02-19T00:00:00+00:00"
     }
   ],
-  market: [
+  live: [
     {
-      title: "交易情报接口可用：请配置 OPENNEWS_TOKEN",
-      titleOriginal: "Market intel API is ready. Configure OPENNEWS_TOKEN.",
-      titleZh: "交易情报接口可用：请配置 OPENNEWS_TOKEN",
-      summary: "若你在 Cloudflare Pages 配置了 OPENNEWS_TOKEN，这里会展示 6551 的实时情报。",
-      summaryOriginal: "After OPENNEWS_TOKEN is configured, this section will show realtime 6551 market intel.",
-      summaryZh: "若你在 Cloudflare Pages 配置了 OPENNEWS_TOKEN，这里会展示 6551 的实时情报。",
+      title: "实时新闻聚合已启用：支持电商/政策/经济/科技/互联网",
+      titleOriginal: "Realtime news aggregation is enabled for ecommerce/policy/economy/tech/internet.",
+      titleZh: "实时新闻聚合已启用：支持电商/政策/经济/科技/互联网",
+      summary: "在“实时新闻”输入关键词并点击“云端查询”，会从 Google News RSS 实时拉取最新资讯。",
+      summaryOriginal: "Use cloud query in the Live News source to fetch latest updates from Google News RSS.",
+      summaryZh: "在“实时新闻”输入关键词并点击“云端查询”，会从 Google News RSS 实时拉取最新资讯。",
       hasTranslation: true,
-      platform: "6551",
-      region: "全球市场",
+      platform: "Google News",
+      region: "全球资讯",
       industryStage: "中游",
-      contentTags: ["交易情报", "配置提示"],
+      contentTags: ["实时新闻", "聚合"],
       date: "2026-02-27",
-      action: "在 Pages 环境变量中添加 OPENNEWS_TOKEN 后刷新。",
-      sourceUrl: "https://6551.io/mcp",
-      sourceName: "6551",
+      action: "先明确关注领域，再按关键词跟踪事件进展。",
+      sourceUrl: "https://news.google.com",
+      sourceName: "Google News",
       publishedAt: "2026-02-27T00:00:00+00:00"
     }
   ],
@@ -58,6 +58,26 @@ const FALLBACK_NEWS_ITEMS_BY_SOURCE = {
       sourceName: "X",
       publishedAt: "2026-02-27T00:00:00+00:00"
     }
+  ],
+  xhs: [
+    {
+      title: "小红书聚合接口已启用：等待接入你的博主名单",
+      titleOriginal: "Xiaohongshu aggregation is enabled and waiting for your creator watchlist.",
+      titleZh: "小红书聚合接口已启用：等待接入你的博主名单",
+      summary: "你给我账号名单后，我会接成自动聚合流；当前支持从 /api/xhs-feed 展示聚合数据。",
+      summaryOriginal: "Once you share creator list, we can auto-aggregate via /api/xhs-feed.",
+      summaryZh: "你给我账号名单后，我会接成自动聚合流；当前支持从 /api/xhs-feed 展示聚合数据。",
+      hasTranslation: true,
+      platform: "小红书",
+      region: "中文社媒",
+      industryStage: "下游",
+      contentTags: ["小红书", "博主聚合"],
+      date: "2026-02-27",
+      action: "先按博主名单聚合，再追加关键词监控。",
+      sourceUrl: "https://www.xiaohongshu.com",
+      sourceName: "小红书",
+      publishedAt: "2026-02-27T00:00:00+00:00"
+    }
   ]
 };
 
@@ -73,16 +93,22 @@ const SOURCE_CONFIG = {
     placeholder: "例如：OpenAI、Claude、Agent、自动化...",
     remoteSearch: false
   },
-  market: {
-    label: "交易情报",
-    hint: "当前数据源：6551 市场新闻（实时）",
-    placeholder: "例如：BTC、ETH ETF、signal:long、score:80...",
+  live: {
+    label: "实时新闻",
+    hint: "当前数据源：普通新闻实时聚合（电商/政策/经济/科技/互联网）",
+    placeholder: "例如：跨境电商、平台治理、消费复苏、AI基础设施...",
     remoteSearch: true
   },
   x: {
     label: "X监控",
-    hint: "当前数据源：6551 X 监控（实时）",
-    placeholder: "例如：@elonmusk、bitcoin、#crypto、likes:500...",
+    hint: "当前数据源：X 账号与关键词监控（实时）",
+    placeholder: "例如：@elonmusk、openai、#ai、likes:500 或多个账号",
+    remoteSearch: true
+  },
+  xhs: {
+    label: "小红书聚合",
+    hint: "当前数据源：小红书聚合接口",
+    placeholder: "例如：买手、直播带货、私域、母婴、美妆...",
     remoteSearch: true
   }
 };
@@ -220,8 +246,8 @@ async function reloadSourceData({ keepFilters }) {
 }
 
 async function loadNewsPayloadBySource(source, remoteQuery) {
-  if (source === "market") {
-    const url = buildMarketRequestUrl(remoteQuery);
+  if (source === "live") {
+    const url = buildLiveRequestUrl(remoteQuery);
     const payload = await tryLoadNewsPayload(url);
     if (payload) {
       return payload;
@@ -231,6 +257,15 @@ async function loadNewsPayloadBySource(source, remoteQuery) {
 
   if (source === "x") {
     const url = buildXRequestUrl(remoteQuery);
+    const payload = await tryLoadNewsPayload(url);
+    if (payload) {
+      return payload;
+    }
+    return { items: [], generatedAt: "" };
+  }
+
+  if (source === "xhs") {
+    const url = buildXhsRequestUrl(remoteQuery);
     const payload = await tryLoadNewsPayload(url);
     if (payload) {
       return payload;
@@ -280,37 +315,16 @@ async function tryLoadNewsPayload(baseUrl) {
   }
 }
 
-function buildMarketRequestUrl(rawQuery) {
+function buildLiveRequestUrl(rawQuery) {
   const params = new URLSearchParams();
   params.set("limit", "100");
 
   const query = String(rawQuery || "").trim();
-  const signalMatch = query.match(/(?:^|\s)signal:(long|short|neutral)(?:\s|$)/i);
-  const scoreMatch = query.match(/(?:^|\s)score:(\d{1,3})(?:\s|$)/i);
-
-  if (signalMatch) {
-    params.set("signal", signalMatch[1].toLowerCase());
+  if (query) {
+    params.set("q", query.slice(0, 100));
   }
 
-  if (scoreMatch) {
-    params.set("minScore", String(Math.min(Number(scoreMatch[1]), 100)));
-  }
-
-  const coins = parseCoinQuery(query);
-  if (coins.length) {
-    params.set("coins", coins.join(","));
-  }
-
-  const cleaned = query
-    .replace(/(?:^|\s)signal:(long|short|neutral)(?:\s|$)/gi, " ")
-    .replace(/(?:^|\s)score:\d{1,3}(?:\s|$)/gi, " ")
-    .trim();
-
-  if (cleaned && !coins.length) {
-    params.set("q", cleaned.slice(0, 120));
-  }
-
-  return `/api/market-news?${params.toString()}`;
+  return `/api/live-news?${params.toString()}`;
 }
 
 function buildXRequestUrl(rawQuery) {
@@ -358,19 +372,14 @@ function buildXRequestUrl(rawQuery) {
   return `/api/x-monitor?${params.toString()}`;
 }
 
-function parseCoinQuery(query) {
-  if (!query.includes("$")) {
-    return [];
+function buildXhsRequestUrl(rawQuery) {
+  const params = new URLSearchParams();
+  params.set("limit", "100");
+  const query = String(rawQuery || "").trim();
+  if (query) {
+    params.set("q", query.slice(0, 80));
   }
-
-  return Array.from(
-    new Set(
-      query
-        .split(/[\s,]+/)
-        .map((token) => token.trim().replace(/^\$/, "").toUpperCase())
-        .filter((token) => /^[A-Z0-9]{2,12}$/.test(token))
-    )
-  ).slice(0, 8);
+  return `/api/xhs-feed?${params.toString()}`;
 }
 
 function syncSourceUi() {

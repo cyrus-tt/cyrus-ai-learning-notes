@@ -5,7 +5,7 @@
 当前结构：
 - 首页只保留两个入口：`AI资讯`、`AI干货`
 - `AI资讯`：聚合国内外社媒平台信息，附可执行动作
-- `AI资讯`页支持三种情报源切换：站内AI资讯 / 6551交易情报 / 6551 X监控
+- `AI资讯`页支持四种情报源切换：站内AI资讯 / 普通实时新闻 / X监控 / 小红书聚合
 - `AI干货`：生产力模板与可复用工作流
 - `AI资讯`已接入自动抓取（GitHub Actions 每日两次）
 - `AI资讯`支持：平台/上下游/标签/时间筛选，外网卡片中英切换，X推文互动指标展示
@@ -16,10 +16,12 @@
 - `news.html`：AI资讯页面
 - `news.js`：资讯渲染逻辑（支持情报源切换与云端查询）
 - `functions/api/news.js`：AI资讯 API（拉取 GitHub `data/news.json`）
-- `functions/api/market-news.js`：6551 交易情报 API
+- `functions/api/live-news.js`：普通实时新闻 API（Google News RSS 聚合）
 - `functions/api/x-monitor.js`：6551 X 监控 API
+- `functions/api/xhs-feed.js`：小红书聚合 API（支持远端 feed 或本地 `data/xhs_feed.json`）
 - `functions/api/_lib/intel.js`：6551 数据拉取与归一化工具
 - `data/news.json`：自动抓取后生成的资讯数据
+- `data/xhs_feed.json`：小红书聚合数据（可由外部脚本更新）
 - `data/news_sources.json`：抓取源配置
 - `data/translation_cache.json`：翻译缓存（自动生成）
 - `scripts/update_news.py`：抓取脚本
@@ -82,21 +84,22 @@ python3 scripts/update_news.py
 - 若希望 GitHub Actions 也写入 D1，需要在仓库 `Secrets` 中配置：
   - `CLOUDFLARE_API_TOKEN`（需包含 D1 / Pages 权限）
 
-### 6551 实时情报接入（交易新闻 + X监控）
+### 实时新闻 / X监控 / 小红书聚合
 
 - 在 Cloudflare Pages 项目环境变量中配置：
-  - `OPENNEWS_TOKEN`：6551 新闻 token（必填，`/api/market-news` 使用）
-  - `TWITTER_TOKEN`：6551 X token（可选；未配置时会回退 `OPENNEWS_TOKEN`）
+  - `TWITTER_TOKEN`：6551 X token（`/api/x-monitor` 使用，必填）
+  - `OPENNEWS_TOKEN`：可作为 `TWITTER_TOKEN` 兜底（若两者相同可只配一个）
   - `X_MONITOR_USERS`：逗号分隔的 X 监控账号（可选，例如 `elonmusk,VitalikButerin`）
-  - `OPENNEWS_API_BASE`：默认 `https://ai.6551.io`
   - `TWITTER_API_BASE`：默认 `https://ai.6551.io`
+  - `XHS_FEED_URL`：小红书聚合数据 JSON 地址（可选，不配则读本地 `data/xhs_feed.json`）
 - 本地开发可复制 `.dev.vars.example` 为 `.dev.vars` 并填写 token。
 - 新增接口：
-  - `GET /api/market-news?limit=100&q=btc&signal=long&minScore=80`
+  - `GET /api/live-news?limit=100&q=跨境电商`
   - `GET /api/x-monitor?limit=80&q=bitcoin`
   - `GET /api/x-monitor?mode=user&username=elonmusk`
   - `GET /api/x-monitor?mode=watchlist&usernames=elonmusk,VitalikButerin`
-- `news.html` 中切到“交易情报”或“X监控”后，输入关键词并点“云端查询”即可实时拉取。
+- `GET /api/xhs-feed?limit=100&q=美妆`
+- `news.html` 中切到“实时新闻 / X监控 / 小红书聚合”后，输入关键词并点“云端查询”即可实时拉取。
 - `news.html` 在“X监控”里输入多个账号（空格或逗号分隔）会自动走 watchlist 聚合模式。
 
 ### AI资讯卡片字段说明
