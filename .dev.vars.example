@@ -1,0 +1,8 @@
+# Local dev secrets for Cloudflare Pages Functions
+# Copy to .dev.vars and fill values (DO NOT commit .dev.vars)
+
+OPENNEWS_TOKEN=replace_with_6551_token
+TWITTER_TOKEN=replace_with_6551_token_or_twitter_token
+X_MONITOR_USERS=elonmusk,VitalikButerin
+OPENNEWS_API_BASE=https://ai.6551.io
+TWITTER_API_BASE=https://ai.6551.io
