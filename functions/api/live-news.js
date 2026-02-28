@@ -126,12 +126,12 @@ function buildGoogleNewsQuery(topic, query) {
 function parseRssItems(xml) {
   const blocks = xml.match(/<item\b[\s\S]*?<\/item>/gi) || [];
   return blocks.map((block) => {
-    const title = decodeEntities(stripTags(extractTag(block, "title")));
+    const title = stripTags(decodeEntities(extractTag(block, "title")));
     const link = decodeEntities(stripTags(extractTag(block, "link")));
     const pubDate = decodeEntities(stripTags(extractTag(block, "pubDate")));
-    const description = decodeEntities(stripTags(extractTag(block, "description")));
+    const description = stripTags(decodeEntities(extractTag(block, "description")));
     const sourceRaw = extractTag(block, "source");
-    const source = decodeEntities(stripTags(sourceRaw));
+    const source = stripTags(decodeEntities(sourceRaw));
 
     return {
       title: title || "实时资讯",
