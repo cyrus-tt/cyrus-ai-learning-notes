@@ -7,27 +7,6 @@ import {
 const CACHE_TTL_SECONDS = 180;
 const LOCAL_FALLBACK_PATH = "/data/xhs_feed.json";
 
-const FALLBACK_ITEMS = [
-  {
-    title: "小红书聚合已启用，等待接入你的监控列表",
-    titleOriginal: "Xiaohongshu aggregation is enabled. Waiting for your watchlist.",
-    titleZh: "小红书聚合已启用，等待接入你的监控列表",
-    summary: "下一步可把你关注的博主或关键词结果写入 data/xhs_feed.json，页面会自动展示。",
-    summaryOriginal: "Next, sync your creator watchlist into data/xhs_feed.json and this page will render it automatically.",
-    summaryZh: "下一步可把你关注的博主或关键词结果写入 data/xhs_feed.json，页面会自动展示。",
-    hasTranslation: true,
-    platform: "小红书",
-    region: "中文社媒",
-    industryStage: "下游",
-    contentTags: ["小红书", "聚合"],
-    date: new Date().toISOString().slice(0, 10),
-    action: "先提供账号名单，我会接成自动聚合流。",
-    sourceUrl: "https://www.xiaohongshu.com",
-    sourceName: "小红书",
-    publishedAt: new Date().toISOString()
-  }
-];
-
 export async function onRequest(context) {
   const { request, env } = context;
 
@@ -74,7 +53,7 @@ export async function onRequest(context) {
         source: payload.source,
         generatedAt: payload.generatedAt || new Date().toISOString(),
         count: items.length,
-        items: items.length ? items : FALLBACK_ITEMS
+        items: items.length ? items : buildFallbackItems()
       },
       200,
       `public, max-age=${CACHE_TTL_SECONDS}`
@@ -121,7 +100,7 @@ async function loadXhsPayload(request, env) {
   return {
     source: "xhs-fallback",
     generatedAt: new Date().toISOString(),
-    items: FALLBACK_ITEMS
+    items: buildFallbackItems()
   };
 }
 
@@ -240,4 +219,29 @@ function safeHttpUrl(rawUrl) {
   } catch {
     return "";
   }
+}
+
+function buildFallbackItems() {
+  const now = new Date().toISOString();
+  return [
+    {
+      title: "小红书聚合已启用，等待接入你的监控列表",
+      titleOriginal: "Xiaohongshu aggregation is enabled. Waiting for your watchlist.",
+      titleZh: "小红书聚合已启用，等待接入你的监控列表",
+      summary: "下一步可把你关注的博主或关键词结果写入 data/xhs_feed.json，页面会自动展示。",
+      summaryOriginal:
+        "Next, sync your creator watchlist into data/xhs_feed.json and this page will render it automatically.",
+      summaryZh: "下一步可把你关注的博主或关键词结果写入 data/xhs_feed.json，页面会自动展示。",
+      hasTranslation: true,
+      platform: "小红书",
+      region: "中文社媒",
+      industryStage: "下游",
+      contentTags: ["小红书", "聚合"],
+      date: now.slice(0, 10),
+      action: "先提供账号名单，我会接成自动聚合流。",
+      sourceUrl: "https://www.xiaohongshu.com",
+      sourceName: "小红书",
+      publishedAt: now
+    }
+  ];
 }
