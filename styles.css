@@ -509,6 +509,15 @@ body::after {
   flex-wrap: wrap;
 }
 
+.remote-row {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.7rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .result-count {
   margin: 0;
   color: var(--text-muted);
@@ -686,6 +695,24 @@ body::after {
   background: #f5f7fb;
   border: 1px solid #dbe2ed;
   color: #38495f;
+}
+
+.badge.score {
+  background: #fff7e8;
+  border: 1px solid #ffe0ad;
+  color: #9b5a00;
+}
+
+.badge.signal {
+  background: #f3efff;
+  border: 1px solid #ddd2ff;
+  color: #4a3393;
+}
+
+.badge.metric {
+  background: #edf8ff;
+  border: 1px solid #d3e9fb;
+  color: #0f4f8c;
 }
 
 .step-list {

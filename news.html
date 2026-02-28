@@ -65,9 +65,9 @@
     <main class="wrap page-main">
       <section class="hero">
         <p class="eyebrow">AI资讯</p>
-        <h1>跨平台资讯 + 可执行动作</h1>
+        <h1>跨平台资讯 + 交易情报 + X监控</h1>
         <p class="hero-copy">
-          每天自动更新，保留原文链接。外网内容可在卡片右上角切换中文 / English。
+          每天自动更新，保留原文链接。可在 AI资讯、加密交易情报和 X 监控之间切换。
         </p>
       </section>
 
@@ -77,7 +77,7 @@
           <input
             id="newsSearch"
             type="search"
-            placeholder="例如：OpenAI、Claude、Agent、自动化..."
+            placeholder="例如：OpenAI、Claude、BTC、@elonmusk..."
             autocomplete="off"
             maxlength="80"
           />
@@ -88,7 +88,17 @@
           <p class="result-count">最近更新：<strong id="newsUpdatedAt">--</strong></p>
         </div>
 
+        <div class="remote-row">
+          <p id="newsSourceHint" class="result-count">当前数据源：AI资讯（站内）</p>
+          <button id="newsRemoteSearchBtn" class="date-reset" type="button" hidden>云端查询</button>
+        </div>
+
         <div class="filter-groups">
+          <div class="filter-group">
+            <span class="filter-title">情报源</span>
+            <div id="newsSourceTags" class="chips" role="group" aria-label="情报源切换"></div>
+          </div>
+
           <div class="filter-group">
             <span class="filter-title">平台</span>
             <div id="newsPlatformTags" class="chips" role="group" aria-label="平台筛选"></div>
