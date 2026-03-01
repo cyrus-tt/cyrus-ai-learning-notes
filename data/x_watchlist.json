@@ -1,0 +1,816 @@
+{
+  "generatedAt": "2026-03-01T03:38:18.995718+00:00",
+  "source": "seed",
+  "algorithm": {
+    "weights": {
+      "toolCommercial": 0.6,
+      "chinaCommercial": 0.25,
+      "researchFrontier": 0.15
+    },
+    "scoreFormula": "0.7*track + 0.2*engagement + 0.1*activity + signal bonuses",
+    "limits": {
+      "watchlistSize": 80,
+      "minTweetCount": 2
+    }
+  },
+  "users": [
+    {
+      "username": "baoyu_io",
+      "displayName": "baoyu_io",
+      "score": 31.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995667+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.1143,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "miniMax__AI",
+      "displayName": "miniMax__AI",
+      "score": 31.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995654+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.1143,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "zhipu_ai",
+      "displayName": "zhipu_ai",
+      "score": 31.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995642+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.1143,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "moonshot_ai",
+      "displayName": "moonshot_ai",
+      "score": 31.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995630+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.1143,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "weights_biases",
+      "displayName": "weights_biases",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995551+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "huggingface",
+      "displayName": "huggingface",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995514+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "Cohere",
+      "displayName": "Cohere",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995460+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "MistralAI",
+      "displayName": "MistralAI",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995448+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "AnthropicAI",
+      "displayName": "AnthropicAI",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995396+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "OpenAI",
+      "displayName": "OpenAI",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995383+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "latentspacepod",
+      "displayName": "latentspacepod",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995308+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "swyx",
+      "displayName": "swyx",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995284+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "jackclarkSF",
+      "displayName": "jackclarkSF",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995230+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "mustafasuleyman",
+      "displayName": "mustafasuleyman",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995218+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "emollick",
+      "displayName": "emollick",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995206+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "jeremyphoward",
+      "displayName": "jeremyphoward",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995192+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "fchollet",
+      "displayName": "fchollet",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995181+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "AndrewYNg",
+      "displayName": "AndrewYNg",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995132+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "sama",
+      "displayName": "sama",
+      "score": 30.29,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995080+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "CloudflareDev",
+      "displayName": "CloudflareDev",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995604+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "Vercel",
+      "displayName": "Vercel",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995590+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "replicate",
+      "displayName": "replicate",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995577+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "runpod_io",
+      "displayName": "runpod_io",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995564+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "llama_index",
+      "displayName": "llama_index",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995538+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "LangChainAI",
+      "displayName": "LangChainAI",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995526+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "perplexity_ai",
+      "displayName": "perplexity_ai",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995501+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "OpenAIDevs",
+      "displayName": "OpenAIDevs",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995370+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "rowancheung",
+      "displayName": "rowancheung",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995351+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "aidan_mclau",
+      "displayName": "aidan_mclau",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995320+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "simonw",
+      "displayName": "simonw",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995295+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "AravSrinivas",
+      "displayName": "AravSrinivas",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995272+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "nathanlindberg",
+      "displayName": "nathanlindberg",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995260+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "levelsio",
+      "displayName": "levelsio",
+      "score": 29.33,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995243+00:00",
+      "trackScores": {
+        "toolCommercial": 0.2222,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "DeepSeek_AI",
+      "displayName": "DeepSeek_AI",
+      "score": 22.95,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995617+00:00",
+      "trackScores": {
+        "toolCommercial": 0.0,
+        "chinaCommercial": 0.1143,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "drivendataorg",
+      "displayName": "drivendataorg",
+      "score": 20.95,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995682+00:00",
+      "trackScores": {
+        "toolCommercial": 0.0,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "CohereForAI",
+      "displayName": "CohereForAI",
+      "score": 20.95,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995485+00:00",
+      "trackScores": {
+        "toolCommercial": 0.0,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "AIatMeta",
+      "displayName": "AIatMeta",
+      "score": 20.95,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995435+00:00",
+      "trackScores": {
+        "toolCommercial": 0.0,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "GoogleAI",
+      "displayName": "GoogleAI",
+      "score": 20.95,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995420+00:00",
+      "trackScores": {
+        "toolCommercial": 0.0,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "GoogleDeepMind",
+      "displayName": "GoogleDeepMind",
+      "score": 20.95,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995408+00:00",
+      "trackScores": {
+        "toolCommercial": 0.0,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "ylecun",
+      "displayName": "ylecun",
+      "score": 20.95,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995169+00:00",
+      "trackScores": {
+        "toolCommercial": 0.0,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "demishassabis",
+      "displayName": "demishassabis",
+      "score": 20.95,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995158+00:00",
+      "trackScores": {
+        "toolCommercial": 0.0,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    },
+    {
+      "username": "karpathy",
+      "displayName": "karpathy",
+      "score": 20.95,
+      "tweetCount": 0,
+      "avgEngagement": 0.0,
+      "lastActiveAt": "2026-03-01T03:38:18.995146+00:00",
+      "trackScores": {
+        "toolCommercial": 0.0,
+        "chinaCommercial": 0.0,
+        "researchFrontier": 0.0909
+      },
+      "sourceKeywords": [],
+      "tags": [
+        "X监控"
+      ],
+      "reason": "种子账号校准",
+      "sampleTweet": null
+    }
+  ]
+}
