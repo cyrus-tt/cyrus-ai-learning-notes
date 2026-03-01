@@ -119,6 +119,7 @@ const state = {
   source: "ai",
   query: "",
   remoteQuery: "",
+  xWatchlist: [],
   platform: "全部",
   stage: "全部",
   topic: "全部",
@@ -131,6 +132,8 @@ const elements = {
   search: document.getElementById("newsSearch"),
   sourceTags: document.getElementById("newsSourceTags"),
   sourceHint: document.getElementById("newsSourceHint"),
+  xWatchlistPanel: document.getElementById("xWatchlistPanel"),
+  xWatchlistTags: document.getElementById("xWatchlistTags"),
   remoteSearchBtn: document.getElementById("newsRemoteSearchBtn"),
   platformTags: document.getElementById("newsPlatformTags"),
   stageTags: document.getElementById("newsStageTags"),
@@ -230,6 +233,7 @@ async function reloadSourceData({ keepFilters }) {
   const payload = await loadNewsPayloadBySource(state.source, state.remoteQuery);
   const fallback = FALLBACK_NEWS_ITEMS_BY_SOURCE[state.source] || [];
   newsItems = payload.items.length ? payload.items : fallback;
+  state.xWatchlist = Array.isArray(payload.watchlist) ? payload.watchlist : [];
 
   if (!keepFilters) {
     resetFilters();
@@ -238,6 +242,7 @@ async function reloadSourceData({ keepFilters }) {
   renderUpdatedAt(payload.generatedAt);
   applyDateBounds();
   renderSourceMeta(payload);
+  renderXWatchlist(payload);
   renderAllFilters();
   renderCards();
 
@@ -252,7 +257,7 @@ async function loadNewsPayloadBySource(source, remoteQuery) {
     if (payload) {
       return payload;
     }
-    return { items: [], generatedAt: "" };
+    return emptySourcePayload();
   }
 
   if (source === "x") {
@@ -261,7 +266,7 @@ async function loadNewsPayloadBySource(source, remoteQuery) {
     if (payload) {
       return payload;
     }
-    return { items: [], generatedAt: "" };
+    return emptySourcePayload();
   }
 
   if (source === "xhs") {
@@ -270,7 +275,7 @@ async function loadNewsPayloadBySource(source, remoteQuery) {
     if (payload) {
       return payload;
     }
-    return { items: [], generatedAt: "" };
+    return emptySourcePayload();
   }
 
   return loadAiNewsPayload();
@@ -278,7 +283,7 @@ async function loadNewsPayloadBySource(source, remoteQuery) {
 
 async function loadAiNewsPayload() {
   const urls = ["/api/news", "./data/news.json"];
-  const emptyPayload = { items: [], generatedAt: "" };
+  const emptyPayload = emptySourcePayload();
 
   for (const url of urls) {
     const payload = await tryLoadNewsPayload(url);
@@ -308,7 +313,10 @@ async function tryLoadNewsPayload(baseUrl) {
 
     return {
       items: payload.items,
-      generatedAt: payload.generatedAt || ""
+      generatedAt: payload.generatedAt || "",
+      mode: payload.mode || "",
+      source: payload.source || "",
+      watchlist: Array.isArray(payload.watchlist) ? payload.watchlist : []
     };
   } catch {
     return null;
@@ -402,7 +410,43 @@ function renderSourceMeta(payload) {
   const config = SOURCE_CONFIG[state.source] || SOURCE_CONFIG.ai;
   const suffix = payload.items.length ? ` · 本次 ${payload.items.length} 条` : "";
   const queryText = state.remoteQuery ? ` · 关键词：${state.remoteQuery}` : "";
-  elements.sourceHint.textContent = `${config.hint}${suffix}${queryText}`;
+  const modeText = state.source === "x" && payload.mode ? ` · 模式：${formatXMode(payload.mode)}` : "";
+  const watchlistText =
+    state.source === "x" && state.xWatchlist.length ? ` · 博主池 ${state.xWatchlist.length} 人` : "";
+  elements.sourceHint.textContent = `${config.hint}${suffix}${queryText}${modeText}${watchlistText}`;
+}
+
+function renderXWatchlist(payload) {
+  if (!elements.xWatchlistPanel || !elements.xWatchlistTags) {
+    return;
+  }
+
+  if (state.source !== "x") {
+    elements.xWatchlistPanel.hidden = true;
+    elements.xWatchlistTags.innerHTML = "";
+    return;
+  }
+
+  const rows = Array.isArray(payload.watchlist) ? payload.watchlist : [];
+  elements.xWatchlistPanel.hidden = false;
+  elements.xWatchlistTags.innerHTML = "";
+
+  if (!rows.length) {
+    elements.xWatchlistTags.innerHTML =
+      '<p class="watchlist-note">暂未加载到博主池，可先输入关键词查询。</p>';
+    return;
+  }
+
+  rows.slice(0, 20).forEach((item) => {
+    const chip = document.createElement("span");
+    chip.className = "chip watchlist-chip";
+    chip.textContent = formatWatchlistChip(item);
+    const tags = Array.isArray(item?.tags) ? item.tags.filter(Boolean).join(" / ") : "";
+    if (tags) {
+      chip.title = tags;
+    }
+    elements.xWatchlistTags.appendChild(chip);
+  });
 }
 
 function renderSourceChips() {
@@ -448,6 +492,10 @@ function resetFilters() {
 function renderLoadingState() {
   elements.count.textContent = "...";
   elements.updatedAt.textContent = "加载中...";
+
+  if (elements.xWatchlistPanel && state.source !== "x") {
+    elements.xWatchlistPanel.hidden = true;
+  }
 
   elements.cards.innerHTML = Array.from({ length: 6 })
     .map(
@@ -611,6 +659,41 @@ function renderCards() {
     : '<p class="empty-note">当前没有匹配资讯，换个关键词试试。</p>';
 
   window.dispatchEvent(new Event("cyrus:cards-rendered"));
+}
+
+function emptySourcePayload() {
+  return {
+    items: [],
+    generatedAt: "",
+    mode: "",
+    source: "",
+    watchlist: []
+  };
+}
+
+function formatXMode(mode) {
+  if (mode === "watchlist") {
+    return "博主池";
+  }
+  if (mode === "user") {
+    return "单账号";
+  }
+  if (mode === "search") {
+    return "关键词";
+  }
+  return mode || "未知";
+}
+
+function formatWatchlistChip(item) {
+  const username = String(item?.username || "").replace(/^@+/, "");
+  const score = Number(item?.score);
+  if (!username) {
+    return "@" + "unknown";
+  }
+  if (Number.isFinite(score)) {
+    return `@${username} · ${Math.round(score)}`;
+  }
+  return `@${username}`;
 }
 
 function renderCard(item, index) {

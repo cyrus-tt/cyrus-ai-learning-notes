@@ -1,6 +1,9 @@
 name: Update AI News
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     # UTC 01:00 / 13:00 => Beijing Time 09:00 / 21:00
@@ -75,8 +78,8 @@ jobs:
           git commit -m "chore: auto-update AI news"
           git push
 
-      - name: Deploy to Cloudflare Pages if changed
-        if: ${{ steps.detect.outputs.changed == 'true' }}
+      - name: Deploy to Cloudflare Pages
+        if: ${{ steps.detect.outputs.changed == 'true' || github.event_name == 'workflow_dispatch' || github.event_name == 'push' }}
         env:
           CLOUDFLARE_ACCOUNT_ID: fe9195f8c0de1cd8852037d068fe3619
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
