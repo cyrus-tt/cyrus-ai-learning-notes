@@ -1,8 +1,12 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 set -euo pipefail
 
-PROJECT_DIR="/Volumes/tyj/Cyrus/Projects/主业/cyrus-ai-learning-notes-mvp"
+PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$PROJECT_DIR"
+
+load_secret() {
+  security find-generic-password -a "$USER" -s "$1" -w 2>/dev/null || true
+}
 
 "$PROJECT_DIR/.venv-news/bin/python" "$PROJECT_DIR/scripts/update_news.py"
 
@@ -10,6 +14,14 @@ if [ -f "$PROJECT_DIR/.dev.vars" ]; then
   set -a
   source "$PROJECT_DIR/.dev.vars"
   set +a
+fi
+
+if [ -z "${TWITTER_TOKEN:-}" ] || [ "${TWITTER_TOKEN:-}" = "replace_me" ]; then
+  export TWITTER_TOKEN="$(load_secret CYRUS_TWITTER_TOKEN)"
+fi
+
+if [ -z "${OPENNEWS_TOKEN:-}" ] || [ "${OPENNEWS_TOKEN:-}" = "replace_me" ]; then
+  export OPENNEWS_TOKEN="$(load_secret CYRUS_OPENNEWS_TOKEN)"
 fi
 
 if [ -n "${TWITTER_TOKEN:-}" ] || [ -n "${OPENNEWS_TOKEN:-}" ]; then
