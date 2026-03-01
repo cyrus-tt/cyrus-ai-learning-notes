@@ -1,0 +1,379 @@
+{
+  "generatedAt": "2026-03-01T00:00:00.000Z",
+  "version": 1,
+  "weights": {
+    "toolCommercial": 0.6,
+    "chinaCommercial": 0.25,
+    "researchFrontier": 0.15
+  },
+  "limits": {
+    "searchResultsPerKeyword": 40,
+    "watchlistSize": 80,
+    "feedSize": 200,
+    "feedUserLimit": 20,
+    "perUserFeedLimit": 4,
+    "minTweetCount": 2
+  },
+  "tracks": {
+    "toolCommercial": {
+      "label": "工具落地/商业化",
+      "keywords": [
+        "ai agent startup",
+        "ai workflow automation",
+        "rag production",
+        "ai saas pricing",
+        "ai product growth",
+        "openai api product",
+        "anthropic api",
+        "llm ops",
+        "cursor ai workflow",
+        "ai business model"
+      ]
+    },
+    "chinaCommercial": {
+      "label": "中文落地/本土商业化",
+      "keywords": [
+        "ai 出海 产品",
+        "ai 创业",
+        "ai 营销 自动化",
+        "aigc 商业化",
+        "中国 ai 应用",
+        "智能体 工作流",
+        "大模型 应用 落地",
+        "跨境 电商 ai",
+        "ai 私域",
+        "ai 变现 案例"
+      ]
+    },
+    "researchFrontier": {
+      "label": "研究前沿",
+      "keywords": [
+        "llm paper",
+        "agent benchmark",
+        "reasoning model",
+        "multimodal model",
+        "retrieval augmented generation paper",
+        "open source model release",
+        "inference optimization",
+        "alignment eval",
+        "scaling law",
+        "post training"
+      ]
+    }
+  },
+  "seedUsers": [
+    {
+      "username": "sama",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "AndrewYNg",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "karpathy",
+      "tracks": [
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "demishassabis",
+      "tracks": [
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "ylecun",
+      "tracks": [
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "fchollet",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "jeremyphoward",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "emollick",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "mustafasuleyman",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "jackclarkSF",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "levelsio",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "nathanlindberg",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "AravSrinivas",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "swyx",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "simonw",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "latentspacepod",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "aidan_mclau",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "rowancheung",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "OpenAIDevs",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "OpenAI",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "AnthropicAI",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "GoogleDeepMind",
+      "tracks": [
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "GoogleAI",
+      "tracks": [
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "AIatMeta",
+      "tracks": [
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "MistralAI",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "Cohere",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "CohereForAI",
+      "tracks": [
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "perplexity_ai",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "huggingface",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "LangChainAI",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "llama_index",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "weights_biases",
+      "tracks": [
+        "toolCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "runpod_io",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "replicate",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "Vercel",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "CloudflareDev",
+      "tracks": [
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "DeepSeek_AI",
+      "tracks": [
+        "chinaCommercial",
+        "researchFrontier"
+      ]
+    },
+    {
+      "username": "moonshot_ai",
+      "tracks": [
+        "chinaCommercial",
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "zhipu_ai",
+      "tracks": [
+        "chinaCommercial",
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "miniMax__AI",
+      "tracks": [
+        "chinaCommercial",
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "baoyu_io",
+      "tracks": [
+        "chinaCommercial",
+        "toolCommercial"
+      ]
+    },
+    {
+      "username": "drivendataorg",
+      "tracks": [
+        "researchFrontier"
+      ]
+    }
+  ],
+  "excludeUsers": [
+    "x",
+    "twitter",
+    "elonmusk",
+    "tesla"
+  ],
+  "commercialSignals": [
+    "launch",
+    "pricing",
+    "customer",
+    "revenue",
+    "gmv",
+    "go to market",
+    "gtm",
+    "automation",
+    "workflow",
+    "落地",
+    "变现",
+    "增长",
+    "客户",
+    "复购",
+    "转化",
+    "获客"
+  ],
+  "researchSignals": [
+    "paper",
+    "benchmark",
+    "arxiv",
+    "sota",
+    "evaluation",
+    "ablation",
+    "reasoning",
+    "multimodal",
+    "post training",
+    "alignment",
+    "论文",
+    "评测",
+    "推理",
+    "多模态",
+    "对齐"
+  ]
+}

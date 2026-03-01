@@ -21,10 +21,14 @@
 - `functions/api/xhs-feed.js`：小红书聚合 API（支持远端 feed 或本地 `data/xhs_feed.json`）
 - `functions/api/_lib/intel.js`：6551 数据拉取与归一化工具
 - `data/news.json`：自动抓取后生成的资讯数据
+- `data/x_watchlist.json`：X 高价值账号 watchlist（脚本自动更新）
+- `data/x_feed.json`：X watchlist 推文聚合快照（用于站点聚合回退）
+- `data/x_discovery_config.json`：X 账号发现权重、关键词、种子配置
 - `data/xhs_feed.json`：小红书聚合数据（可由外部脚本更新）
 - `data/news_sources.json`：抓取源配置
 - `data/translation_cache.json`：翻译缓存（自动生成）
 - `scripts/update_news.py`：抓取脚本
+- `scripts/build_x_watchlist.py`：X 账号发现+评分+watchlist/feed 生成脚本
 - `.github/workflows/update-news.yml`：定时任务（每日两次）
 - `resources.html`：AI干货页面
 - `resources.js`：干货数据与筛选逻辑
@@ -68,6 +72,7 @@ python3 -m http.server 8080
 cd /Volumes/tyj/Cyrus/Projects/主业/cyrus-ai-learning-notes-mvp
 python3 -m pip install -r scripts/news_requirements.txt
 python3 scripts/update_news.py
+python3 scripts/build_x_watchlist.py
 ```
 
 ### D1 数据库存储（已接入）
@@ -91,16 +96,21 @@ python3 scripts/update_news.py
   - `OPENNEWS_TOKEN`：可作为 `TWITTER_TOKEN` 兜底（若两者相同可只配一个）
   - `X_MONITOR_USERS`：逗号分隔的 X 监控账号（可选，例如 `elonmusk,VitalikButerin`）
   - `TWITTER_API_BASE`：默认 `https://ai.6551.io`
+  - `X_MONITOR_WATCHLIST_URL`：远端 watchlist JSON（可选，不配则读本地 `data/x_watchlist.json`）
+  - `X_MONITOR_FEED_URL`：远端 X 聚合 feed JSON（可选，不配则读本地 `data/x_feed.json`）
   - `XHS_FEED_URL`：小红书聚合数据 JSON 地址（可选，不配则读本地 `data/xhs_feed.json`）
 - 本地开发可复制 `.dev.vars.example` 为 `.dev.vars` 并填写 token。
 - 新增接口：
   - `GET /api/live-news?limit=100&q=跨境电商`
+  - `GET /api/x-monitor?limit=80`（默认 watchlist 模式）
   - `GET /api/x-monitor?limit=80&q=bitcoin`
   - `GET /api/x-monitor?mode=user&username=elonmusk`
   - `GET /api/x-monitor?mode=watchlist&usernames=elonmusk,VitalikButerin`
 - `GET /api/xhs-feed?limit=100&q=美妆`
 - `news.html` 中切到“实时新闻 / X监控 / 小红书聚合”后，输入关键词并点“云端查询”即可实时拉取。
+- `news.html` 在“X监控”里留空查询会自动走 watchlist 聚合模式。
 - `news.html` 在“X监控”里输入多个账号（空格或逗号分隔）会自动走 watchlist 聚合模式。
+- 当 X API token 缺失或临时失败时，`/api/x-monitor` 会自动回退到 `data/x_feed.json`。
 
 ### AI资讯卡片字段说明
 
@@ -116,6 +126,7 @@ python3 scripts/update_news.py
 - 你也可以在 GitHub Actions 页面手动点 `Run workflow`
 - 页面优先通过 `GET /api/news` 读取最新资讯，`/api/news` 会从 GitHub 主分支实时拉取 `data/news.json` 并缓存 5 分钟
 - 因此即使 Cloudflare Pages 没有重新部署，资讯也会跟随 GitHub 自动更新
+- 若仓库 Secrets 中配置了 `TWITTER_TOKEN` 或 `OPENNEWS_TOKEN`，工作流会额外更新 `data/x_watchlist.json` 与 `data/x_feed.json`
 - 工作流仍保留“数据变更后自动部署”步骤（用于同步站点静态文件），这一步依赖仓库 Secret：`CLOUDFLARE_API_TOKEN`
 
 ### 本机定时任务（已配置）

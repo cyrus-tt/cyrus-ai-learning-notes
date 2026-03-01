@@ -6,6 +6,18 @@ cd "$PROJECT_DIR"
 
 "$PROJECT_DIR/.venv-news/bin/python" "$PROJECT_DIR/scripts/update_news.py"
 
+if [ -f "$PROJECT_DIR/.dev.vars" ]; then
+  set -a
+  source "$PROJECT_DIR/.dev.vars"
+  set +a
+fi
+
+if [ -n "${TWITTER_TOKEN:-}" ] || [ -n "${OPENNEWS_TOKEN:-}" ]; then
+  "$PROJECT_DIR/.venv-news/bin/python" "$PROJECT_DIR/scripts/build_x_watchlist.py"
+else
+  echo "Skip X watchlist build: TWITTER_TOKEN / OPENNEWS_TOKEN not configured."
+fi
+
 PUBLISH_DIR="$PROJECT_DIR/.publish"
 rm -rf "$PUBLISH_DIR"
 mkdir -p "$PUBLISH_DIR/data"
@@ -29,5 +41,8 @@ cp "$PROJECT_DIR/sitemap.xml" "$PUBLISH_DIR/sitemap.xml"
 cp "$PROJECT_DIR/site.webmanifest" "$PUBLISH_DIR/site.webmanifest"
 cp "$PROJECT_DIR/_headers" "$PUBLISH_DIR/_headers"
 cp "$PROJECT_DIR/data/news.json" "$PUBLISH_DIR/data/news.json"
+cp "$PROJECT_DIR/data/xhs_feed.json" "$PUBLISH_DIR/data/xhs_feed.json"
+cp "$PROJECT_DIR/data/x_watchlist.json" "$PUBLISH_DIR/data/x_watchlist.json"
+cp "$PROJECT_DIR/data/x_feed.json" "$PUBLISH_DIR/data/x_feed.json"
 
 /opt/homebrew/bin/wrangler pages deploy "$PUBLISH_DIR" --project-name cyrus-ai-notes --commit-dirty=true
