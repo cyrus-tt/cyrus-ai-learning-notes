@@ -16,6 +16,7 @@
   --radius-md: 14px;
   --shadow-soft: 0 10px 28px rgba(0, 0, 0, 0.06);
   --shadow-card: 0 14px 32px rgba(0, 0, 0, 0.07);
+  --title-gradient: linear-gradient(105deg, #0071e3 0%, #5b8ef0 50%, #7b6ff0 100%);
 }
 
 * {
@@ -28,11 +29,15 @@ html {
 
 body {
   margin: 0;
+  position: relative;
+  isolation: isolate;
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
   color: var(--text);
   background:
     radial-gradient(1200px 500px at 0% -10%, rgba(255, 233, 191, 0.45), transparent 55%),
     radial-gradient(900px 420px at 100% -10%, rgba(228, 241, 255, 0.55), transparent 52%),
+    radial-gradient(1000px 520px at 50% 110%, rgba(255, 75, 209, 0.08), transparent 60%),
+    radial-gradient(820px 420px at 10% 105%, rgba(0, 113, 227, 0.09), transparent 58%),
     linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
   line-height: 1.55;
   overflow-x: hidden;
@@ -65,6 +70,76 @@ body::after {
   top: 32vh;
   background: radial-gradient(circle, rgba(208, 230, 255, 0.95) 0%, rgba(208, 230, 255, 0) 70%);
   animation-delay: 1.8s;
+}
+
+/* Extra background layer (keeps existing blob animation, adds more depth). */
+.bg-aurora {
+  position: fixed;
+  inset: -20vh -20vw;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(1100px 520px at 20% 15%, rgba(0, 113, 227, 0.07), transparent 62%),
+    radial-gradient(980px 540px at 80% 25%, rgba(91, 142, 240, 0.05), transparent 60%),
+    radial-gradient(860px 520px at 55% 85%, rgba(123, 111, 240, 0.05), transparent 64%);
+  filter: blur(40px);
+  opacity: 0.7;
+  transform-origin: 50% 50%;
+  animation: aurora-drift 26s ease-in-out infinite alternate;
+}
+
+.bg-aurora::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(520px 280px at 70% 60%, rgba(0, 113, 227, 0.05), transparent 72%);
+  filter: blur(28px);
+  opacity: 0.6;
+  animation: aurora-shift 18s ease-in-out infinite alternate;
+}
+
+.scroll-progress {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 3px;
+  z-index: 80;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(10px);
+}
+
+.scroll-progress__bar {
+  height: 100%;
+  width: 0%;
+  border-radius: 999px;
+  background: var(--title-gradient);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.55) inset;
+  transform-origin: 0% 50%;
+}
+
+.cursor-glow {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 520px;
+  height: 520px;
+  border-radius: 999px;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0;
+  transform: translate3d(-9999px, -9999px, 0);
+  transition: opacity 0.25s ease;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 113, 227, 0.12), transparent 70%);
+  filter: blur(22px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .cursor-glow {
+    opacity: 0.45;
+  }
 }
 
 .wrap {
@@ -129,6 +204,8 @@ body::after {
 
 .page-main {
   padding: 2.2rem 0 0;
+  position: relative;
+  z-index: 1;
 }
 
 .reveal {
@@ -170,6 +247,22 @@ body::after {
   letter-spacing: -0.02em;
 }
 
+.hero-entry h1 {
+  color: #0b1c2b;
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .hero-entry h1 {
+    background: var(--title-gradient);
+    background-size: 160% 160%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+    animation: title-sheen 6.5s ease-in-out infinite;
+  }
+}
+
 .hero-copy {
   margin: 1rem auto 0;
   max-width: 60ch;
@@ -201,7 +294,8 @@ body::after {
   color: var(--text);
   transform: perspective(900px) translateY(var(--lift)) rotateX(var(--ry)) rotateY(var(--rx));
   transform-style: preserve-3d;
-  transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease, background-color 0.24s ease;
+  transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease, background-color 0.24s ease, filter 0.24s ease;
+  will-change: transform;
 }
 
 .entry-card::after {
@@ -217,9 +311,12 @@ body::after {
 
 .entry-card:hover,
 .entry-card:focus-visible {
-  --lift: -4px;
-  border-color: rgba(0, 113, 227, 0.35);
-  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.08);
+  --lift: -9px;
+  border-color: rgba(0, 113, 227, 0.38);
+  box-shadow:
+    0 18px 36px rgba(0, 0, 0, 0.09),
+    0 14px 28px rgba(0, 113, 227, 0.1);
+  filter: saturate(1.05);
   outline: none;
 }
 
@@ -453,11 +550,17 @@ body::after {
 .btn-primary {
   color: #ffffff;
   background: var(--primary);
+  box-shadow: 0 10px 26px rgba(0, 113, 227, 0.14);
 }
 
 .btn-primary:hover,
 .btn-primary:focus-visible {
   background: var(--primary-hover);
+  transform: translateY(-1px) scale(1.04);
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.12),
+    0 16px 40px rgba(0, 113, 227, 0.18);
+  filter: saturate(1.04);
   outline: none;
 }
 
@@ -852,6 +955,8 @@ body::after {
   margin-top: 3rem;
   border-top: 1px solid var(--line-soft);
   padding: 1.1rem 0 2rem;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-inner {
@@ -928,6 +1033,34 @@ body::after {
   }
   to {
     transform: translateY(-28px) scale(1.06);
+  }
+}
+
+@keyframes aurora-drift {
+  from {
+    transform: translate3d(-1.2%, -0.8%, 0) rotate(-2deg);
+  }
+  to {
+    transform: translate3d(1.2%, 0.9%, 0) rotate(2deg);
+  }
+}
+
+@keyframes aurora-shift {
+  from {
+    transform: translate3d(-1%, 1%, 0) scale(1.02);
+  }
+  to {
+    transform: translate3d(1%, -1%, 0) scale(1.06);
+  }
+}
+
+@keyframes title-sheen {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
   }
 }
 
