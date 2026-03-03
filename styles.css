@@ -16,10 +16,7 @@
   --radius-md: 14px;
   --shadow-soft: 0 10px 28px rgba(0, 0, 0, 0.06);
   --shadow-card: 0 14px 32px rgba(0, 0, 0, 0.07);
-  --accent-pink: #ff4bd1;
-  --accent-orange: #ff9d2d;
-  --accent-lime: #8bff9a;
-  --title-gradient: linear-gradient(92deg, #0071e3 0%, #6d5cff 25%, #ff4bd1 55%, #ff9d2d 85%);
+  --title-gradient: linear-gradient(105deg, #0071e3 0%, #5b8ef0 50%, #7b6ff0 100%);
 }
 
 * {
@@ -82,12 +79,11 @@ body::after {
   z-index: -2;
   pointer-events: none;
   background:
-    radial-gradient(1100px 520px at 20% 15%, rgba(0, 113, 227, 0.12), transparent 62%),
-    radial-gradient(980px 540px at 80% 25%, rgba(255, 75, 209, 0.1), transparent 60%),
-    radial-gradient(860px 520px at 55% 85%, rgba(255, 157, 45, 0.1), transparent 64%),
-    conic-gradient(from 210deg at 50% 50%, rgba(0, 113, 227, 0.06), rgba(255, 75, 209, 0.06), rgba(255, 157, 45, 0.06), rgba(0, 113, 227, 0.06));
-  filter: blur(34px) saturate(1.15);
-  opacity: 0.9;
+    radial-gradient(1100px 520px at 20% 15%, rgba(0, 113, 227, 0.07), transparent 62%),
+    radial-gradient(980px 540px at 80% 25%, rgba(91, 142, 240, 0.05), transparent 60%),
+    radial-gradient(860px 520px at 55% 85%, rgba(123, 111, 240, 0.05), transparent 64%);
+  filter: blur(40px);
+  opacity: 0.7;
   transform-origin: 50% 50%;
   animation: aurora-drift 26s ease-in-out infinite alternate;
 }
@@ -97,10 +93,9 @@ body::after {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(560px 240px at 30% 40%, rgba(139, 255, 154, 0.12), transparent 70%),
-    radial-gradient(520px 280px at 70% 60%, rgba(0, 113, 227, 0.08), transparent 72%);
-  filter: blur(22px);
-  opacity: 0.85;
+    radial-gradient(520px 280px at 70% 60%, rgba(0, 113, 227, 0.05), transparent 72%);
+  filter: blur(28px);
+  opacity: 0.6;
   animation: aurora-shift 18s ease-in-out infinite alternate;
 }
 
@@ -137,13 +132,13 @@ body::after {
   opacity: 0;
   transform: translate3d(-9999px, -9999px, 0);
   transition: opacity 0.25s ease;
-  background: radial-gradient(circle at 35% 35%, rgba(0, 113, 227, 0.18), rgba(255, 75, 209, 0.12) 38%, transparent 70%);
-  filter: blur(18px) saturate(1.05);
+  background: radial-gradient(circle at 50% 50%, rgba(0, 113, 227, 0.12), transparent 70%);
+  filter: blur(22px);
 }
 
 @media (hover: hover) and (pointer: fine) {
   .cursor-glow {
-    opacity: 0.9;
+    opacity: 0.45;
   }
 }
 
@@ -319,9 +314,8 @@ body::after {
   --lift: -9px;
   border-color: rgba(0, 113, 227, 0.38);
   box-shadow:
-    0 22px 44px rgba(0, 0, 0, 0.1),
-    0 18px 36px rgba(0, 113, 227, 0.12),
-    0 32px 70px rgba(255, 75, 209, 0.1);
+    0 18px 36px rgba(0, 0, 0, 0.09),
+    0 14px 28px rgba(0, 113, 227, 0.1);
   filter: saturate(1.05);
   outline: none;
 }
@@ -564,9 +558,8 @@ body::after {
   background: var(--primary-hover);
   transform: translateY(-1px) scale(1.04);
   box-shadow:
-    0 14px 32px rgba(0, 0, 0, 0.12),
-    0 18px 44px rgba(0, 113, 227, 0.22),
-    0 26px 70px rgba(255, 75, 209, 0.12);
+    0 12px 28px rgba(0, 0, 0, 0.12),
+    0 16px 40px rgba(0, 113, 227, 0.18);
   filter: saturate(1.04);
   outline: none;
 }
