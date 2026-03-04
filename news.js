@@ -85,6 +85,7 @@ const SEARCH_MAX_LENGTH = 80;
 const UNSAFE_INPUT_PATTERN = /[<>"'`]/g;
 const CONTROL_CHAR_PATTERN = /[\u0000-\u001f\u007f]/g;
 const NEWS_REFRESH_BUCKET_MS = 5 * 60 * 1000;
+const DIGEST_REFRESH_BUCKET_MS = 5 * 60 * 1000;
 
 const SOURCE_CONFIG = {
   ai: {
@@ -125,6 +126,8 @@ const state = {
   topic: "全部",
   selectedDate: "",
   langByCard: {},
+  digestPayload: null,
+  digestView: "list",
   loading: false
 };
 
@@ -142,7 +145,17 @@ const elements = {
   dateReset: document.getElementById("newsDateReset"),
   cards: document.getElementById("newsCards"),
   count: document.getElementById("newsCount"),
-  updatedAt: document.getElementById("newsUpdatedAt")
+  updatedAt: document.getElementById("newsUpdatedAt"),
+  digestPanel: document.getElementById("newsDigest"),
+  digestViewSwitch: document.getElementById("digestViewSwitch"),
+  digestDayLabel: document.getElementById("digestDayLabel"),
+  digestTop10Meta: document.getElementById("digestTop10Meta"),
+  digestTop10Body: document.getElementById("digestTop10Body"),
+  digestWeekLabel: document.getElementById("digestWeekLabel"),
+  digestWeekRange: document.getElementById("digestWeekRange"),
+  digestWeekMeta: document.getElementById("digestWeekMeta"),
+  digestWeekBriefing: document.getElementById("digestWeekBriefing"),
+  digestWeekTopEvents: document.getElementById("digestWeekTopEvents")
 };
 
 async function bootstrap() {
@@ -215,6 +228,24 @@ function bindEvents() {
     state.langByCard[key] = lang;
     renderCards();
   });
+
+  if (elements.digestViewSwitch) {
+    elements.digestViewSwitch.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-digest-view]");
+      if (!button) {
+        return;
+      }
+
+      const view = String(button.dataset.digestView || "");
+      if (!["list", "cards", "brief"].includes(view)) {
+        return;
+      }
+
+      state.digestView = view;
+      renderDigestViewSwitch();
+      renderDigestTop10Body();
+    });
+  }
 }
 
 async function runRemoteSearch() {
@@ -245,6 +276,12 @@ async function reloadSourceData({ keepFilters }) {
   renderXWatchlist(payload);
   renderAllFilters();
   renderCards();
+
+  if (state.source === "ai") {
+    await reloadDigestData();
+  } else {
+    hideDigestPanel();
+  }
 
   state.loading = false;
   syncSourceUi();
@@ -321,6 +358,397 @@ async function tryLoadNewsPayload(baseUrl) {
   } catch {
     return null;
   }
+}
+
+async function reloadDigestData() {
+  if (!elements.digestPanel || state.source !== "ai") {
+    return;
+  }
+
+  const payload = await loadDigestPayload();
+  state.digestPayload = payload || emptyDigestPayload();
+  renderDigestPanel();
+}
+
+async function loadDigestPayload() {
+  const urls = ["/api/digest", "./data/news_digest.json"];
+  for (const url of urls) {
+    const payload = await tryLoadDigestPayload(url);
+    if (payload) {
+      return payload;
+    }
+  }
+  return emptyDigestPayload();
+}
+
+async function tryLoadDigestPayload(baseUrl) {
+  const separator = baseUrl.includes("?") ? "&" : "?";
+  const bucket = Math.floor(Date.now() / DIGEST_REFRESH_BUCKET_MS);
+  const requestUrl = `${baseUrl}${separator}v=${bucket}`;
+
+  try {
+    const response = await fetch(requestUrl, { cache: "no-store" });
+    if (!response.ok) {
+      return null;
+    }
+
+    const payload = await response.json();
+    if (!payload || typeof payload !== "object") {
+      return null;
+    }
+
+    return {
+      generatedAt: String(payload.generatedAt || ""),
+      timezone: String(payload.timezone || "Asia/Shanghai"),
+      currentDay: payload.currentDay && typeof payload.currentDay === "object" ? payload.currentDay : {},
+      dailyHistory: Array.isArray(payload.dailyHistory) ? payload.dailyHistory : [],
+      currentWeek: payload.currentWeek && typeof payload.currentWeek === "object" ? payload.currentWeek : {},
+      weeklyHistory: Array.isArray(payload.weeklyHistory) ? payload.weeklyHistory : []
+    };
+  } catch {
+    return null;
+  }
+}
+
+function emptyDigestPayload() {
+  return {
+    generatedAt: "",
+    timezone: "Asia/Shanghai",
+    currentDay: {
+      date: "",
+      label: "",
+      top10: [],
+      metrics: {},
+      briefing: []
+    },
+    dailyHistory: [],
+    currentWeek: {
+      weekKey: "",
+      weekLabel: "",
+      range: { start: "", end: "" },
+      metrics: {},
+      topEvents: [],
+      briefing: []
+    },
+    weeklyHistory: []
+  };
+}
+
+function hideDigestPanel() {
+  if (!elements.digestPanel) {
+    return;
+  }
+  elements.digestPanel.hidden = true;
+}
+
+function renderDigestLoadingState() {
+  if (!elements.digestPanel) {
+    return;
+  }
+
+  elements.digestPanel.hidden = false;
+
+  if (elements.digestDayLabel) {
+    elements.digestDayLabel.textContent = "加载中...";
+  }
+  if (elements.digestWeekLabel) {
+    elements.digestWeekLabel.textContent = "加载中...";
+  }
+  if (elements.digestWeekRange) {
+    elements.digestWeekRange.textContent = "--";
+  }
+  if (elements.digestTop10Meta) {
+    elements.digestTop10Meta.innerHTML = "";
+  }
+  if (elements.digestWeekMeta) {
+    elements.digestWeekMeta.innerHTML = "";
+  }
+  if (elements.digestTop10Body) {
+    elements.digestTop10Body.innerHTML = `
+      <div class="digest-skeleton">
+        <div class="sk-line w-90"></div>
+        <div class="sk-line w-76"></div>
+        <div class="sk-line w-55"></div>
+      </div>
+    `;
+  }
+  if (elements.digestWeekBriefing) {
+    elements.digestWeekBriefing.innerHTML = '<li class="digest-note">周报加载中...</li>';
+  }
+  if (elements.digestWeekTopEvents) {
+    elements.digestWeekTopEvents.innerHTML = "";
+  }
+}
+
+function renderDigestPanel() {
+  if (!elements.digestPanel) {
+    return;
+  }
+
+  if (state.source !== "ai") {
+    hideDigestPanel();
+    return;
+  }
+
+  elements.digestPanel.hidden = false;
+  renderDigestViewSwitch();
+  renderDigestDailyMeta();
+  renderDigestTop10Body();
+  renderDigestWeeklyMeta();
+}
+
+function renderDigestViewSwitch() {
+  if (!elements.digestViewSwitch) {
+    return;
+  }
+
+  const buttons = elements.digestViewSwitch.querySelectorAll("[data-digest-view]");
+  buttons.forEach((button) => {
+    const isActive = button.dataset.digestView === state.digestView;
+    button.classList.toggle("active", isActive);
+  });
+}
+
+function renderDigestDailyMeta() {
+  const payload = state.digestPayload || emptyDigestPayload();
+  const currentDay = payload.currentDay && typeof payload.currentDay === "object" ? payload.currentDay : {};
+  const metrics = currentDay.metrics && typeof currentDay.metrics === "object" ? currentDay.metrics : {};
+
+  if (elements.digestDayLabel) {
+    const label = String(currentDay.label || currentDay.date || "--");
+    elements.digestDayLabel.textContent = label;
+  }
+
+  if (elements.digestTop10Meta) {
+    const totalItems = Number.parseInt(String(metrics.totalItems || "0"), 10) || 0;
+    const avgScore = Number.parseFloat(String(metrics.avgScore || "0")) || 0;
+    const topScore = Number.parseInt(String(metrics.topScore || "0"), 10) || 0;
+
+    elements.digestTop10Meta.innerHTML = [
+      `<span class="badge metric">收录 ${totalItems}</span>`,
+      `<span class="badge score">均分 ${avgScore}</span>`,
+      `<span class="badge score">最高 ${topScore}</span>`
+    ].join("");
+  }
+}
+
+function renderDigestTop10Body() {
+  if (!elements.digestTop10Body) {
+    return;
+  }
+
+  const payload = state.digestPayload || emptyDigestPayload();
+  const currentDay = payload.currentDay && typeof payload.currentDay === "object" ? payload.currentDay : {};
+  const top10 = Array.isArray(currentDay.top10) ? currentDay.top10 : [];
+
+  if (!top10.length) {
+    elements.digestTop10Body.innerHTML = '<p class="digest-note">今日暂无可通报的 Top10 数据。</p>';
+    return;
+  }
+
+  if (state.digestView === "cards") {
+    elements.digestTop10Body.innerHTML = renderDigestCards(top10);
+    return;
+  }
+
+  if (state.digestView === "brief") {
+    elements.digestTop10Body.innerHTML = renderDigestBrief(currentDay, top10);
+    return;
+  }
+
+  elements.digestTop10Body.innerHTML = renderDigestList(top10);
+}
+
+function renderDigestList(top10) {
+  const rows = top10
+    .map((item) => {
+      const sourceUrl = sanitizeExternalUrl(item?.sourceUrl || "");
+      const title = escapeHtml(item?.title || "");
+      const titleHtml = sourceUrl
+        ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer nofollow">${title}</a>`
+        : title;
+
+      const rank = escapeHtml(String(item?.rank || "-"));
+      const platform = escapeHtml(String(item?.platform || "-"));
+      const score = escapeHtml(String(item?.aiScore ?? "-"));
+      const publishedAt = escapeHtml(formatDateTimeShort(item?.publishedAt || ""));
+
+      return `<tr>
+        <td>${rank}</td>
+        <td>${titleHtml}</td>
+        <td>${platform}</td>
+        <td>${score}</td>
+        <td>${publishedAt}</td>
+      </tr>`;
+    })
+    .join("");
+
+  return `
+    <div class="digest-table-wrap">
+      <table class="digest-table">
+        <thead>
+          <tr>
+            <th>排名</th>
+            <th>标题</th>
+            <th>平台</th>
+            <th>分数</th>
+            <th>发布时间</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+function renderDigestCards(top10) {
+  const cards = top10
+    .map((item) => {
+      const sourceUrl = sanitizeExternalUrl(item?.sourceUrl || "");
+      const safeTitle = escapeHtml(item?.title || "");
+      const titleHtml = sourceUrl
+        ? `<a class="digest-card-title" href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer nofollow">${safeTitle}</a>`
+        : `<span class="digest-card-title">${safeTitle}</span>`;
+
+      const tags = Array.isArray(item?.contentTags) ? item.contentTags : [];
+      const tagsHtml = tags
+        .slice(0, 3)
+        .map((tag) => `<span class="badge topic">${escapeHtml(tag)}</span>`)
+        .join("");
+
+      return `
+        <article class="digest-mini-card">
+          <div class="digest-mini-head">
+            <span class="badge metric">#${escapeHtml(String(item?.rank || "-"))}</span>
+            <span class="badge score">AI分 ${escapeHtml(String(item?.aiScore ?? "-"))}</span>
+          </div>
+          ${titleHtml}
+          <p class="digest-mini-meta">${escapeHtml(String(item?.platform || "-"))} · ${escapeHtml(
+            formatDateTimeShort(item?.publishedAt || "")
+          )}</p>
+          ${tagsHtml ? `<div class="meta-line">${tagsHtml}</div>` : ""}
+          <p class="digest-mini-action">${escapeHtml(String(item?.action || ""))}</p>
+        </article>
+      `;
+    })
+    .join("");
+
+  return `<div class="digest-mini-grid">${cards}</div>`;
+}
+
+function renderDigestBrief(currentDay, top10) {
+  const briefing = Array.isArray(currentDay?.briefing) ? currentDay.briefing : [];
+  const briefingHtml = briefing
+    .slice(0, 5)
+    .map((line) => `<li>${escapeHtml(String(line || ""))}</li>`)
+    .join("");
+
+  const topHtml = top10
+    .slice(0, 3)
+    .map((item) => {
+      const sourceUrl = sanitizeExternalUrl(item?.sourceUrl || "");
+      const title = escapeHtml(String(item?.title || ""));
+      const score = escapeHtml(String(item?.aiScore ?? "-"));
+      const text = `${title}（${score}分）`;
+      if (!sourceUrl) {
+        return `<li>${text}</li>`;
+      }
+      return `<li><a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer nofollow">${text}</a></li>`;
+    })
+    .join("");
+
+  return `
+    <div class="digest-brief-wrap">
+      <ul class="digest-brief-list">${briefingHtml || "<li>暂无简报内容。</li>"}</ul>
+      <p class="digest-subtitle">今日优先关注</p>
+      <ol class="digest-mini-top">${topHtml || "<li>暂无 Top 事件。</li>"}</ol>
+    </div>
+  `;
+}
+
+function renderDigestWeeklyMeta() {
+  const payload = state.digestPayload || emptyDigestPayload();
+  const currentWeek = payload.currentWeek && typeof payload.currentWeek === "object" ? payload.currentWeek : {};
+  const metrics = currentWeek.metrics && typeof currentWeek.metrics === "object" ? currentWeek.metrics : {};
+  const topEvents = Array.isArray(currentWeek.topEvents) ? currentWeek.topEvents : [];
+  const briefing = Array.isArray(currentWeek.briefing) ? currentWeek.briefing : [];
+
+  if (elements.digestWeekLabel) {
+    elements.digestWeekLabel.textContent = String(currentWeek.weekLabel || "x月第x周");
+  }
+
+  if (elements.digestWeekRange) {
+    const start = currentWeek?.range?.start || "";
+    const end = currentWeek?.range?.end || "";
+    elements.digestWeekRange.textContent = formatDateRange(start, end);
+  }
+
+  if (elements.digestWeekMeta) {
+    const daysCovered = Number.parseInt(String(metrics.daysCovered || "0"), 10) || 0;
+    const totalItems = Number.parseInt(String(metrics.totalItems || "0"), 10) || 0;
+    const topScore = Number.parseInt(String(metrics.topScore || "0"), 10) || 0;
+    elements.digestWeekMeta.innerHTML = [
+      `<span class="badge metric">覆盖 ${daysCovered} 天</span>`,
+      `<span class="badge metric">收录 ${totalItems}</span>`,
+      `<span class="badge score">周最高 ${topScore}</span>`
+    ].join("");
+  }
+
+  if (elements.digestWeekBriefing) {
+    elements.digestWeekBriefing.innerHTML = briefing.length
+      ? briefing.map((line) => `<li>${escapeHtml(String(line || ""))}</li>`).join("")
+      : '<li class="digest-note">本周简报暂未生成。</li>';
+  }
+
+  if (elements.digestWeekTopEvents) {
+    elements.digestWeekTopEvents.innerHTML = topEvents.length
+      ? topEvents
+          .slice(0, 10)
+          .map((item) => {
+            const sourceUrl = sanitizeExternalUrl(item?.sourceUrl || "");
+            const score = escapeHtml(String(item?.aiScore ?? "-"));
+            const title = escapeHtml(String(item?.title || ""));
+            const titleHtml = sourceUrl
+              ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noopener noreferrer nofollow">${title}</a>`
+              : title;
+            return `<li>${titleHtml}<span class="digest-event-meta">${escapeHtml(
+              String(item?.platform || "-")
+            )} · ${score}分</span></li>`;
+          })
+          .join("")
+      : '<li class="digest-note">本周暂无 Top 事件。</li>';
+  }
+}
+
+function formatDateRange(start, end) {
+  const startDate = new Date(start);
+  const endDate = new Date(end);
+
+  if (Number.isNaN(startDate.getTime()) || Number.isNaN(endDate.getTime())) {
+    return "--";
+  }
+
+  const format = (date) =>
+    date.toLocaleDateString("zh-CN", {
+      month: "2-digit",
+      day: "2-digit"
+    });
+
+  return `${format(startDate)} - ${format(endDate)}`;
+}
+
+function formatDateTimeShort(raw) {
+  const date = new Date(raw);
+  if (Number.isNaN(date.getTime())) {
+    return raw || "--";
+  }
+
+  return date.toLocaleString("zh-CN", {
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit"
+  });
 }
 
 function buildLiveRequestUrl(rawQuery) {
@@ -508,6 +936,12 @@ function renderLoadingState() {
       `
     )
     .join("");
+
+  if (state.source === "ai") {
+    renderDigestLoadingState();
+  } else {
+    hideDigestPanel();
+  }
 }
 
 function renderUpdatedAt(raw) {

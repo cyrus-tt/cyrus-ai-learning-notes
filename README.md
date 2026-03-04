@@ -14,13 +14,16 @@
 
 - `index.html`：双入口首页
 - `news.html`：AI资讯页面
-- `news.js`：资讯渲染逻辑（支持情报源切换与云端查询）
+- `news.js`：资讯渲染逻辑（支持情报源切换、云端查询、日报/周报视图）
 - `functions/api/news.js`：AI资讯 API（拉取 GitHub `data/news.json`）
+- `functions/api/digest.js`：AI资讯日报/周报 API（拉取 GitHub `data/news_digest.json`）
 - `functions/api/live-news.js`：普通实时新闻 API（Google News RSS 聚合）
 - `functions/api/x-monitor.js`：6551 X 监控 API
 - `functions/api/xhs-feed.js`：小红书聚合 API（支持远端 feed 或本地 `data/xhs_feed.json`）
 - `functions/api/_lib/intel.js`：6551 数据拉取与归一化工具
 - `data/news.json`：自动抓取后生成的资讯数据
+- `data/news_digest.json`：AI资讯日报 Top10 + 周报（x月第x周）聚合结果
+- `data/digest_scoring_rules.json`：日报/周报评分与聚合规则
 - `data/x_watchlist.json`：X 高价值账号 watchlist（脚本自动更新）
 - `data/x_feed.json`：X watchlist 推文聚合快照（用于站点聚合回退）
 - `data/x_discovery_config.json`：X 账号发现权重、关键词、种子配置
@@ -119,12 +122,28 @@ python3 scripts/build_x_watchlist.py
 - `titleOriginal` / `summaryOriginal`：原文语种
 - `titleZh` / `summaryZh`：中文翻译
 - `sourceUrl`：原内容链接
+- `aiScore`：规则评分（0-100）
+- `aiScoreBreakdown`：评分拆解（`recency` / `authority` / `topic` / `actionability` / `heat`）
+
+### 日报与周报字段说明
+
+- `data/news_digest.json` 的核心结构：
+  - `currentDay`：当日 Top10、指标、简报
+  - `dailyHistory`：最近 90 天日报历史（自动裁剪）
+  - `currentWeek`：当前周（`x月第x周`）指标、Top事件、简报
+  - `weeklyHistory`：由日报历史动态聚合出的周报历史
+- 周定义为北京时间自然月分段：
+  - `1-7` 日为第 1 周，`8-14` 日为第 2 周，依此类推
+- 页面展示：
+  - 仅在 `AI资讯` 情报源下显示日报/周报
+  - 日报 Top10 支持 `榜单 / 卡片 / 简报` 三种视图
 
 ### GitHub 自动更新时间
 
 - 每天北京时间 `09:00` 和 `21:00` 自动运行（UTC `01:00` / `13:00`）
 - 你也可以在 GitHub Actions 页面手动点 `Run workflow`
 - 页面优先通过 `GET /api/news` 读取最新资讯，`/api/news` 会从 GitHub 主分支实时拉取 `data/news.json` 并缓存 5 分钟
+- 日报/周报通过 `GET /api/digest` 读取，`/api/digest` 会从 GitHub 主分支实时拉取 `data/news_digest.json` 并缓存 5 分钟
 - 因此即使 Cloudflare Pages 没有重新部署，资讯也会跟随 GitHub 自动更新
 - 若仓库 Secrets 中配置了 `TWITTER_TOKEN` 或 `OPENNEWS_TOKEN`，工作流会额外更新 `data/x_watchlist.json` 与 `data/x_feed.json`
 - 工作流仍保留“数据变更后自动部署”步骤（用于同步站点静态文件），这一步依赖仓库 Secret：`CLOUDFLARE_API_TOKEN`
