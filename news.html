@@ -129,6 +129,44 @@
         </div>
       </section>
 
+      <section id="newsDigest" class="digest-panel" aria-label="日报与周报" hidden>
+        <div class="digest-grid">
+          <article class="digest-card">
+            <div class="digest-head">
+              <div>
+                <p class="digest-kicker">日报通报</p>
+                <h2>Top10 资讯</h2>
+                <p id="digestDayLabel" class="digest-label">--</p>
+              </div>
+              <div id="digestViewSwitch" class="digest-view-switch" role="group" aria-label="Top10呈现方式">
+                <button type="button" class="chip active" data-digest-view="list">榜单</button>
+                <button type="button" class="chip" data-digest-view="cards">卡片</button>
+                <button type="button" class="chip" data-digest-view="brief">简报</button>
+              </div>
+            </div>
+
+            <div id="digestTop10Meta" class="meta-line digest-meta"></div>
+            <div id="digestTop10Body" class="digest-body" aria-live="polite"></div>
+          </article>
+
+          <article class="digest-card digest-card-weekly">
+            <div class="digest-head">
+              <div>
+                <p class="digest-kicker">周维度总结</p>
+                <h2 id="digestWeekLabel">x月第x周</h2>
+                <p id="digestWeekRange" class="digest-label">--</p>
+              </div>
+            </div>
+
+            <div id="digestWeekMeta" class="meta-line digest-meta"></div>
+            <ul id="digestWeekBriefing" class="digest-brief-list"></ul>
+
+            <h3 class="digest-subtitle">本周 Top 事件</h3>
+            <ol id="digestWeekTopEvents" class="digest-event-list"></ol>
+          </article>
+        </div>
+      </section>
+
       <section id="newsCards" class="card-grid" aria-live="polite"></section>
     </main>
 

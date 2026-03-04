@@ -1,0 +1,88 @@
+{
+  "timezone": "Asia/Shanghai",
+  "historyDays": 90,
+  "topN": 10,
+  "weights": {
+    "recency": 35,
+    "authority": 25,
+    "topic": 20,
+    "actionability": 10,
+    "heat": 10
+  },
+  "recencyBuckets": [
+    {
+      "maxHours": 6,
+      "score": 35
+    },
+    {
+      "maxHours": 24,
+      "score": 28
+    },
+    {
+      "maxHours": 48,
+      "score": 20
+    },
+    {
+      "maxHours": 72,
+      "score": 12
+    },
+    {
+      "maxHours": null,
+      "score": 6
+    }
+  ],
+  "authority": {
+    "tierScores": {
+      "A": 25,
+      "B": 18,
+      "default": 12
+    },
+    "tiers": {
+      "A": [
+        "OpenAI",
+        "Google AI Blog",
+        "Hugging Face",
+        "TechCrunch",
+        "The Verge",
+        "36氪",
+        "机器之心",
+        "量子位"
+      ],
+      "B": [
+        "Hacker News",
+        "Reddit",
+        "爱范儿",
+        "少数派"
+      ]
+    }
+  },
+  "topicTagScores": {
+    "芯片算力": 11,
+    "模型进展": 10,
+    "Agent": 10,
+    "开源生态": 8,
+    "应用落地": 9,
+    "内容生产": 6,
+    "自动化": 7,
+    "投融资": 6,
+    "安全治理": 8,
+    "AI动态": 5
+  },
+  "topicTopCount": 2,
+  "topicScoreCap": 20,
+  "actionability": {
+    "fallbackScore": 4,
+    "normalScore": 7,
+    "strongScore": 10,
+    "strongMinLength": 20,
+    "fallbackActions": [
+      "先点原文链接，记录一句结论和一个可执行动作。"
+    ]
+  },
+  "heat": {
+    "defaultScore": 5,
+    "pointsWeight": 1.0,
+    "commentsWeight": 1.5,
+    "referenceValue": 500
+  }
+}
