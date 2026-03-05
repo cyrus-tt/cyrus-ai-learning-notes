@@ -1,17 +1,40 @@
 {
-  "generatedAt": "2026-03-05T00:00:00.000Z",
+  "generatedAt": "2026-03-05T18:00:00.000Z",
   "version": 1,
   "limits": {
     "feedSize": 100,
     "perChannelFeedLimit": 5,
-    "feedChannelLimit": 30
+    "feedChannelLimit": 14
   },
+  "aiKeywords": [
+    "ai",
+    "llm",
+    "gpt",
+    "chatgpt",
+    "openai",
+    "anthropic",
+    "claude",
+    "gemini",
+    "deepseek",
+    "agent",
+    "agents",
+    "rag",
+    "machine learning",
+    "deep learning",
+    "transformer",
+    "multimodal",
+    "fine-tuning",
+    "inference",
+    "模型",
+    "大模型",
+    "智能体",
+    "生成式",
+    "机器学习",
+    "深度学习",
+    "多模态",
+    "提示词"
+  ],
   "channels": [
-    {
-      "channelId": "UCWN3xxRkmTPphY1XDYYMHET",
-      "name": "Two Minute Papers",
-      "tags": ["研究前沿", "论文解读"]
-    },
     {
       "channelId": "UCXUPKJO5MZQN11PqgIvyuvQ",
       "name": "Andrej Karpathy",
@@ -28,11 +51,6 @@
       "tags": ["研究前沿"]
     },
     {
-      "channelId": "UCr8O8l5cCX85Oem1d18EezQ",
-      "name": "3Blue1Brown",
-      "tags": ["数学基础", "可视化"]
-    },
-    {
       "channelId": "UCVHFbqXqoYvEWM1Ddxl0QDg",
       "name": "AI Explained",
       "tags": ["工具落地", "前沿解读"]
@@ -41,11 +59,6 @@
       "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
       "name": "Machine Learning Street Talk",
       "tags": ["研究前沿", "访谈"]
-    },
-    {
-      "channelId": "UCnUYZLuoy1rq1aVMwx4piYw",
-      "name": "Jeff Su",
-      "tags": ["工具落地", "效率"]
     },
     {
       "channelId": "UC-QDfvrRIDB6F0bIO4I4HkQ",
@@ -58,34 +71,9 @@
       "tags": ["工具落地", "AI新闻"]
     },
     {
-      "channelId": "UCsBjURrPoezykLs9EqgamOA",
-      "name": "Fireship",
-      "tags": ["工具落地", "开发者"]
-    },
-    {
-      "channelId": "UCXv1JCOwgl2SCbB1RjFM1Dw",
-      "name": "Sam Witteveen",
-      "tags": ["工具落地", "教程"]
-    },
-    {
       "channelId": "UCgBncpylJ1kiVaPyP-PZauQ",
       "name": "Nicholas Renotte",
       "tags": ["工具落地", "教程"]
-    },
-    {
-      "channelId": "UCiT9RITQ9PW6BhXK0y2jaeg",
-      "name": "Ken Jee",
-      "tags": ["数据科学", "职业发展"]
-    },
-    {
-      "channelId": "UCtYLUTtgS3k1Fg4y5tAhLbw",
-      "name": "StatQuest",
-      "tags": ["数学基础", "教程"]
-    },
-    {
-      "channelId": "UCkw4JCwteGrDHIsyIIKo4tQ",
-      "name": "Sentdex",
-      "tags": ["工具落地", "Python"]
     },
     {
       "channelId": "UC12LqyqTQYbXatYS9AA7Nuw",
@@ -98,14 +86,24 @@
       "tags": ["工具落地", "Ollama"]
     },
     {
-      "channelId": "UC2IYFBshDCA9rW5la0u0TDQ",
-      "name": "WorldofAI",
-      "tags": ["工具落地", "AI新闻"]
+      "channelId": "UCsBjURrPoezykLs9EqgamOA",
+      "name": "Fireship",
+      "tags": ["开发者AI", "工具落地"]
     },
     {
-      "channelId": "UCJIfeSCssxSC_Dhc5s7woww",
-      "name": "freeCodeCamp.org",
-      "tags": ["教程", "开发者"]
+      "channelId": "UCkw4JCwteGrDHIsyIIKo4tQ",
+      "name": "Sentdex",
+      "tags": ["机器学习", "Python"]
+    },
+    {
+      "channelId": "UCiT9RITQ9PW6BhXK0y2jaeg",
+      "name": "Ken Jee",
+      "tags": ["数据科学", "机器学习"]
+    },
+    {
+      "channelId": "UCtYLUTtgS3k1Fg4y5tAhLbw",
+      "name": "StatQuest",
+      "tags": ["机器学习", "理论基础"]
     }
   ]
 }

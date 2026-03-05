@@ -11,6 +11,36 @@ const LOCAL_FALLBACK_PATH = "/data/yt_feed.json";
 const LOCAL_WATCHLIST_PATH = "/data/yt_watchlist.json";
 const CUSTOM_CHANNEL_FETCH_LIMIT = 20;
 const PER_CUSTOM_CHANNEL_ITEM_LIMIT = 3;
+const SUMMARY_MAX_LEN = 700;
+const SUMMARY_AI_SCAN_LEN = 260;
+const AI_THEME_KEYWORDS = [
+  "ai",
+  "llm",
+  "gpt",
+  "chatgpt",
+  "openai",
+  "anthropic",
+  "claude",
+  "gemini",
+  "deepseek",
+  "agent",
+  "agents",
+  "rag",
+  "machine learning",
+  "deep learning",
+  "transformer",
+  "multimodal",
+  "fine-tuning",
+  "inference",
+  "模型",
+  "大模型",
+  "智能体",
+  "生成式",
+  "机器学习",
+  "深度学习",
+  "多模态",
+  "提示词"
+];
 
 export async function onRequest(context) {
   const { request, env } = context;
@@ -44,7 +74,7 @@ export async function onRequest(context) {
         ...items
       ];
     }
-    items = dedupeYtItems(items);
+    items = dedupeYtItems(items).filter((item) => isAiRelatedYtItem(item));
     const watchlist = applyWatchlistStats(mergedWatchlist, items);
 
     if (query) {
@@ -269,6 +299,11 @@ function parseYoutubeFeedEntries(xmlText, channel) {
       decodeXmlEntity(extractTag(entry, "media:description")) ||
       decodeXmlEntity(extractTag(entry, "content")) ||
       title;
+    const normalizedSummary = truncateText(summary, SUMMARY_MAX_LEN);
+    const aiScanPool = title.toLowerCase();
+    if (!containsAiKeyword(aiScanPool)) {
+      continue;
+    }
 
     const sourceUrl =
       decodeXmlEntity(extractAttribute(entry, /<link[^>]*href="([^"]+)"[^>]*\/?>/i)) ||
@@ -282,9 +317,9 @@ function parseYoutubeFeedEntries(xmlText, channel) {
       title,
       titleOriginal: title,
       titleZh: title,
-      summary,
-      summaryOriginal: summary,
-      summaryZh: summary,
+      summary: normalizedSummary,
+      summaryOriginal: normalizedSummary,
+      summaryZh: normalizedSummary,
       hasTranslation: false,
       platform: "YouTube",
       region: "海外",
@@ -350,6 +385,49 @@ function dedupeYtItems(items) {
   }
 
   return deduped;
+}
+
+function isAiRelatedYtItem(item) {
+  const title = String(item?.titleOriginal || item?.title || "").trim();
+  const pool = title.toLowerCase();
+  return containsAiKeyword(pool);
+}
+
+function containsAiKeyword(text) {
+  for (const keyword of AI_THEME_KEYWORDS) {
+    if (!keyword) {
+      continue;
+    }
+
+    if (isAsciiWord(keyword) && keyword.length <= 3) {
+      const pattern = new RegExp(`\\b${escapeRegex(keyword)}\\b`, "i");
+      if (pattern.test(text)) {
+        return true;
+      }
+      continue;
+    }
+
+    if (text.includes(keyword)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function isAsciiWord(value) {
+  return /^[A-Za-z-]+$/.test(String(value || ""));
+}
+
+function escapeRegex(value) {
+  return String(value || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function truncateText(text, maxLen) {
+  const normalized = String(text || "").trim();
+  if (normalized.length <= maxLen) {
+    return normalized;
+  }
+  return `${normalized.slice(0, maxLen)}...`;
 }
 
 function applyWatchlistStats(watchlist, items) {
