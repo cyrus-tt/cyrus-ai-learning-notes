@@ -199,6 +199,105 @@ export function jsonResponse(body, status = 200, cacheControl = "public, max-age
   });
 }
 
+export function normalizeGithubRepoItem(raw) {
+  const owner = safeText(raw?.owner?.login || raw?.owner || "");
+  const repo = safeText(raw?.name || raw?.repo || "");
+  const fullName = safeText(raw?.full_name || (owner && repo ? `${owner}/${repo}` : ""));
+  const descOriginal = safeText(raw?.description || raw?.desc || "");
+  const descZh = safeText(raw?.descriptionZh || raw?.summaryZh || descOriginal);
+  const stars = toNonNegativeInt(raw?.stargazers_count || raw?.stars);
+  const forks = toNonNegativeInt(raw?.forks_count || raw?.forks);
+  const openIssues = toNonNegativeInt(raw?.open_issues_count || raw?.openIssues);
+  const language = safeText(raw?.language || "");
+  const topics = Array.isArray(raw?.topics) ? raw.topics.map(String).filter(Boolean).slice(0, 8) : [];
+  const license = safeText(raw?.license?.spdx_id || raw?.license?.name || raw?.licenseName || "");
+  const pushedAt = toIsoDateTime(raw?.pushed_at || raw?.lastPushedAt || raw?.updated_at || "");
+  const htmlUrl = safeHttpUrl(raw?.html_url || raw?.sourceUrl || "");
+  const hasTranslation = Boolean(descZh && descOriginal && descZh !== descOriginal);
+
+  const action = stars >= 10000
+    ? "高Star项目，建议深入阅读文档和社区讨论。"
+    : stars >= 5000
+    ? "优质项目，建议关注更新日志和版本变化。"
+    : "值得关注的AI项目，建议动手试用并评估适用性。";
+
+  const baseTags = ["GitHub开源"];
+  if (language) baseTags.push(language);
+  baseTags.push(...topics.slice(0, 5));
+
+  return {
+    title: `${fullName || repo || "unknown"} · GitHub开源`,
+    titleOriginal: `${fullName || repo || "unknown"} · GitHub Trending`,
+    titleZh: `${fullName || repo || "unknown"} · GitHub开源`,
+    summary: descZh || descOriginal || "暂无描述",
+    summaryOriginal: descOriginal || "No description",
+    summaryZh: descZh || descOriginal || "暂无描述",
+    hasTranslation,
+    platform: "GitHub",
+    region: "全球开源",
+    industryStage: inferGithubStage(topics, descOriginal),
+    contentTags: unique(baseTags).slice(0, 8),
+    date: toDateOnly(pushedAt),
+    action,
+    sourceUrl: htmlUrl || `https://github.com/${fullName || ""}`,
+    sourceName: fullName || repo || "GitHub",
+    publishedAt: pushedAt,
+    metrics: { stars, forks, openIssues },
+    repoMeta: { owner, repo, language, topics, license, lastPushedAt: pushedAt }
+  };
+}
+
+export function normalizeYtVideoItem(raw) {
+  const titleOriginal = safeText(raw?.title || raw?.titleOriginal || "");
+  const titleZh = safeText(raw?.titleZh || titleOriginal);
+  const channelName = safeText(raw?.channelName || raw?.sourceName || raw?.author || "");
+  const channelId = safeText(raw?.channelId || "");
+  const videoId = safeText(raw?.videoId || raw?.yt_videoid || "");
+  const publishedAt = toIsoDateTime(raw?.publishedAt || raw?.published || "");
+  const summary = safeText(raw?.summaryZh || raw?.summary || raw?.description || titleZh);
+  const summaryOriginal = safeText(raw?.summaryOriginal || raw?.description || titleOriginal);
+  const thumbnail = safeHttpUrl(raw?.thumbnailUrl || raw?.thumbnail || "");
+  const hasTranslation = Boolean(titleZh && titleOriginal && titleZh !== titleOriginal);
+  const tags = Array.isArray(raw?.tags) ? raw.tags.map(String).filter(Boolean) : [];
+
+  const sourceUrl = videoId
+    ? `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`
+    : safeHttpUrl(raw?.sourceUrl || raw?.link || "");
+
+  return {
+    title: `${channelName || "YouTube"} · YouTube监控`,
+    titleOriginal: titleOriginal || "YouTube video",
+    titleZh: titleZh || titleOriginal || "YouTube视频",
+    summary: summary || "暂无摘要",
+    summaryOriginal: summaryOriginal || summary || "No summary",
+    summaryZh: summary || "暂无摘要",
+    hasTranslation,
+    platform: "YouTube",
+    region: "海外",
+    industryStage: "中游",
+    contentTags: unique(["YouTube监控", ...tags]).slice(0, 8),
+    date: toDateOnly(publishedAt),
+    action: "值得观看的AI视频，建议收藏并提取关键信息。",
+    sourceUrl,
+    sourceName: channelName || "YouTube",
+    publishedAt,
+    ytMeta: { channelId, videoId, thumbnailUrl: thumbnail }
+  };
+}
+
+function inferGithubStage(topics, description) {
+  const text = [...topics, description].join(" ").toLowerCase();
+  const upstream = ["research", "paper", "benchmark", "training", "dataset", "model", "pretrain"];
+  const downstream = ["app", "tool", "workflow", "automation", "deploy", "production", "saas", "cli"];
+  let upScore = 0;
+  let downScore = 0;
+  for (const kw of upstream) { if (text.includes(kw)) upScore++; }
+  for (const kw of downstream) { if (text.includes(kw)) downScore++; }
+  if (upScore > downScore) return "上游";
+  if (downScore > upScore) return "下游";
+  return "中游";
+}
+
 function buildTweetUrl(raw, username, tweetId) {
   const firstUrl = Array.isArray(raw?.urls) ? safeHttpUrl(raw.urls[0]?.url || raw.urls[0]) : "";
   if (firstUrl) {

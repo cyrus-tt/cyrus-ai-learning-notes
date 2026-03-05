@@ -78,6 +78,46 @@ const FALLBACK_NEWS_ITEMS_BY_SOURCE = {
       sourceName: "小红书",
       publishedAt: "2026-02-27T00:00:00+00:00"
     }
+  ],
+  github: [
+    {
+      title: "GitHub开源聚合已启用：等待数据生成",
+      titleOriginal: "GitHub trending aggregation is enabled and waiting for data.",
+      titleZh: "GitHub开源聚合已启用：等待数据生成",
+      summary: "GitHub 热门 AI 项目聚合已就绪，等待 build_github_trending.py 生成数据。支持双语描述和星数筛选。",
+      summaryOriginal: "GitHub trending AI project aggregation is ready with bilingual support.",
+      summaryZh: "GitHub 热门 AI 项目聚合已就绪，等待 build_github_trending.py 生成数据。支持双语描述和星数筛选。",
+      hasTranslation: true,
+      platform: "GitHub",
+      region: "全球开源",
+      industryStage: "中游",
+      contentTags: ["GitHub开源"],
+      date: "2026-03-05",
+      action: "运行 build_github_trending.py 即可刷新项目列表。",
+      sourceUrl: "https://github.com/trending",
+      sourceName: "GitHub",
+      publishedAt: "2026-03-05T00:00:00+00:00"
+    }
+  ],
+  yt: [
+    {
+      title: "YouTube监控已启用：等待频道数据",
+      titleOriginal: "YouTube monitoring is enabled and waiting for channel feed data.",
+      titleZh: "YouTube监控已启用：等待频道数据",
+      summary: "YouTube RSS 聚合已就绪，等待 build_yt_watchlist.py 抓取最新视频。支持中英文标题翻译。",
+      summaryOriginal: "YouTube RSS aggregation is ready with bilingual title translation.",
+      summaryZh: "YouTube RSS 聚合已就绪，等待 build_yt_watchlist.py 抓取最新视频。支持中英文标题翻译。",
+      hasTranslation: true,
+      platform: "YouTube",
+      region: "海外",
+      industryStage: "中游",
+      contentTags: ["YouTube监控"],
+      date: "2026-03-05",
+      action: "运行 build_yt_watchlist.py 即可刷新视频列表。",
+      sourceUrl: "https://www.youtube.com",
+      sourceName: "YouTube",
+      publishedAt: "2026-03-05T00:00:00+00:00"
+    }
   ]
 };
 
@@ -111,6 +151,18 @@ const SOURCE_CONFIG = {
     hint: "当前数据源：小红书聚合接口",
     placeholder: "例如：买手、直播带货、私域、母婴、美妆...",
     remoteSearch: true
+  },
+  github: {
+    label: "GitHub开源",
+    hint: "当前数据源：GitHub 热门 AI 开源项目（≥1000 Star）",
+    placeholder: "例如：agent、rag、llm、python、rust...",
+    remoteSearch: true
+  },
+  yt: {
+    label: "YouTube监控",
+    hint: "当前数据源：YouTube AI 博主视频聚合（RSS）",
+    placeholder: "例如：transformer、tutorial、AI paper...",
+    remoteSearch: true
   }
 };
 
@@ -121,6 +173,10 @@ const state = {
   query: "",
   remoteQuery: "",
   xWatchlist: [],
+  ytWatchlist: [],
+  customWatchlist: {},
+  watchlistToken: localStorage.getItem("watchlist_token") || "",
+  creatorSearchOpen: false,
   platform: "全部",
   stage: "全部",
   topic: "全部",
@@ -137,6 +193,14 @@ const elements = {
   sourceHint: document.getElementById("newsSourceHint"),
   xWatchlistPanel: document.getElementById("xWatchlistPanel"),
   xWatchlistTags: document.getElementById("xWatchlistTags"),
+  ytWatchlistPanel: document.getElementById("ytWatchlistPanel"),
+  ytWatchlistTags: document.getElementById("ytWatchlistTags"),
+  creatorSearchBtn: document.getElementById("creatorSearchBtn"),
+  creatorSearchPanel: document.getElementById("creatorSearchPanel"),
+  creatorSearchClose: document.getElementById("creatorSearchClose"),
+  creatorSearchInput: document.getElementById("creatorSearchInput"),
+  creatorSearchResults: document.getElementById("creatorSearchResults"),
+  creatorSearchSubmit: document.getElementById("creatorSearchSubmit"),
   remoteSearchBtn: document.getElementById("newsRemoteSearchBtn"),
   platformTags: document.getElementById("newsPlatformTags"),
   stageTags: document.getElementById("newsStageTags"),
@@ -270,10 +334,14 @@ async function reloadSourceData({ keepFilters }) {
     resetFilters();
   }
 
+  state.ytWatchlist = Array.isArray(payload.watchlist) && state.source === "yt" ? payload.watchlist : state.ytWatchlist;
+
   renderUpdatedAt(payload.generatedAt);
   applyDateBounds();
   renderSourceMeta(payload);
   renderXWatchlist(payload);
+  renderYtWatchlist(payload);
+  renderCreatorSearchVisibility();
   renderAllFilters();
   renderCards();
 
@@ -308,6 +376,24 @@ async function loadNewsPayloadBySource(source, remoteQuery) {
 
   if (source === "xhs") {
     const url = buildXhsRequestUrl(remoteQuery);
+    const payload = await tryLoadNewsPayload(url);
+    if (payload) {
+      return payload;
+    }
+    return emptySourcePayload();
+  }
+
+  if (source === "github") {
+    const url = buildGithubRequestUrl(remoteQuery);
+    const payload = await tryLoadNewsPayload(url);
+    if (payload) {
+      return payload;
+    }
+    return emptySourcePayload();
+  }
+
+  if (source === "yt") {
+    const url = buildYtRequestUrl(remoteQuery);
     const payload = await tryLoadNewsPayload(url);
     if (payload) {
       return payload;
@@ -818,6 +904,27 @@ function buildXhsRequestUrl(rawQuery) {
   return `/api/xhs-feed?${params.toString()}`;
 }
 
+function buildGithubRequestUrl(rawQuery) {
+  const params = new URLSearchParams();
+  params.set("limit", "50");
+  params.set("minStars", "1000");
+  const query = String(rawQuery || "").trim();
+  if (query) {
+    params.set("q", query.slice(0, 80));
+  }
+  return `/api/github-trending?${params.toString()}`;
+}
+
+function buildYtRequestUrl(rawQuery) {
+  const params = new URLSearchParams();
+  params.set("limit", "80");
+  const query = String(rawQuery || "").trim();
+  if (query) {
+    params.set("q", query.slice(0, 80));
+  }
+  return `/api/yt-feed?${params.toString()}`;
+}
+
 function syncSourceUi() {
   const config = SOURCE_CONFIG[state.source] || SOURCE_CONFIG.ai;
   elements.search.placeholder = config.placeholder;
@@ -877,6 +984,52 @@ function renderXWatchlist(payload) {
   });
 }
 
+function renderYtWatchlist(payload) {
+  if (!elements.ytWatchlistPanel || !elements.ytWatchlistTags) {
+    return;
+  }
+
+  if (state.source !== "yt") {
+    elements.ytWatchlistPanel.hidden = true;
+    elements.ytWatchlistTags.innerHTML = "";
+    return;
+  }
+
+  const rows = Array.isArray(payload.watchlist) ? payload.watchlist : [];
+  elements.ytWatchlistPanel.hidden = false;
+  elements.ytWatchlistTags.innerHTML = "";
+
+  if (!rows.length) {
+    elements.ytWatchlistTags.innerHTML =
+      '<p class="watchlist-note">暂未加载到频道池，可先输入关键词查询。</p>';
+    return;
+  }
+
+  rows.slice(0, 20).forEach((item) => {
+    const chip = document.createElement("span");
+    chip.className = "chip watchlist-chip";
+    const name = String(item?.name || "").trim();
+    const count = Number(item?.videoCount) || 0;
+    chip.textContent = count ? `${name} · ${count}` : name;
+    const tags = Array.isArray(item?.tags) ? item.tags.filter(Boolean).join(" / ") : "";
+    if (tags) {
+      chip.title = tags;
+    }
+    elements.ytWatchlistTags.appendChild(chip);
+  });
+}
+
+function renderCreatorSearchVisibility() {
+  const showBtn = ["x", "xhs", "yt"].includes(state.source);
+  if (elements.creatorSearchBtn) {
+    elements.creatorSearchBtn.hidden = !showBtn;
+  }
+  if (!showBtn && elements.creatorSearchPanel) {
+    elements.creatorSearchPanel.hidden = true;
+    state.creatorSearchOpen = false;
+  }
+}
+
 function renderSourceChips() {
   if (!elements.sourceTags) {
     return;
@@ -923,6 +1076,9 @@ function renderLoadingState() {
 
   if (elements.xWatchlistPanel && state.source !== "x") {
     elements.xWatchlistPanel.hidden = true;
+  }
+  if (elements.ytWatchlistPanel && state.source !== "yt") {
+    elements.ytWatchlistPanel.hidden = true;
   }
 
   elements.cards.innerHTML = Array.from({ length: 6 })
@@ -1193,11 +1349,7 @@ function renderCard(item, index) {
           : ""
       }
 
-      ${
-        metrics
-          ? `<div class="meta-line"><span class="badge metric">点赞 ${metrics.likes}</span><span class="badge metric">转推 ${metrics.retweets}</span><span class="badge metric">回复 ${metrics.replies}</span></div>`
-          : ""
-      }
+      ${renderItemMetrics(item, metrics)}
 
       <div class="takeaway-box">可执行动作：${escapeHtml(item.action || "")}</div>
 
@@ -1236,6 +1388,24 @@ function normalizeMetrics(metrics) {
   }
 
   return { likes, retweets, replies };
+}
+
+function renderItemMetrics(item, metrics) {
+  if (item.platform === "GitHub" && item.metrics) {
+    const stars = toNonNegativeInt(item.metrics.stars);
+    const forks = toNonNegativeInt(item.metrics.forks);
+    const lang = item.repoMeta?.language || "";
+    const parts = [];
+    if (stars) parts.push(`<span class="badge metric">Stars ${stars.toLocaleString()}</span>`);
+    if (forks) parts.push(`<span class="badge metric">Forks ${forks.toLocaleString()}</span>`);
+    if (lang) parts.push(`<span class="badge topic">${escapeHtml(lang)}</span>`);
+    return parts.length ? `<div class="meta-line">${parts.join("")}</div>` : "";
+  }
+
+  if (!metrics) {
+    return "";
+  }
+  return `<div class="meta-line"><span class="badge metric">点赞 ${metrics.likes}</span><span class="badge metric">转推 ${metrics.retweets}</span><span class="badge metric">回复 ${metrics.replies}</span></div>`;
 }
 
 function toNonNegativeInt(value) {
@@ -1289,4 +1459,249 @@ function sanitizeExternalUrl(rawUrl) {
   }
 }
 
+function bindCreatorSearchEvents() {
+  if (elements.creatorSearchBtn) {
+    elements.creatorSearchBtn.addEventListener("click", () => {
+      state.creatorSearchOpen = !state.creatorSearchOpen;
+      if (elements.creatorSearchPanel) {
+        elements.creatorSearchPanel.hidden = !state.creatorSearchOpen;
+      }
+      if (state.creatorSearchOpen && elements.creatorSearchInput) {
+        elements.creatorSearchInput.focus();
+      }
+    });
+  }
+
+  if (elements.creatorSearchClose) {
+    elements.creatorSearchClose.addEventListener("click", () => {
+      state.creatorSearchOpen = false;
+      if (elements.creatorSearchPanel) {
+        elements.creatorSearchPanel.hidden = true;
+      }
+    });
+  }
+
+  if (elements.creatorSearchSubmit) {
+    elements.creatorSearchSubmit.addEventListener("click", () => {
+      performCreatorSearch();
+    });
+  }
+
+  if (elements.creatorSearchInput) {
+    elements.creatorSearchInput.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        performCreatorSearch();
+      }
+    });
+  }
+
+  if (elements.creatorSearchResults) {
+    elements.creatorSearchResults.addEventListener("click", async (event) => {
+      const btn = event.target.closest("[data-follow-action]");
+      if (!btn) return;
+      const action = btn.dataset.followAction;
+      const platform = btn.dataset.followPlatform;
+      const username = btn.dataset.followUsername;
+      const displayName = btn.dataset.followDisplay || username;
+
+      if (!platform || !username) return;
+
+      if (action === "follow") {
+        await addToWatchlist(platform, username, displayName);
+      } else if (action === "unfollow") {
+        await removeFromWatchlist(platform, username);
+      }
+      await performCreatorSearch();
+    });
+  }
+}
+
+async function performCreatorSearch() {
+  if (!elements.creatorSearchInput || !elements.creatorSearchResults) return;
+  const query = sanitizeSearchInput(elements.creatorSearchInput.value);
+  if (!query) {
+    elements.creatorSearchResults.innerHTML = '<p class="watchlist-note">请输入博主名称搜索</p>';
+    return;
+  }
+
+  const platformMap = { x: "x", xhs: "xhs", yt: "youtube" };
+  const platform = platformMap[state.source] || state.source;
+
+  elements.creatorSearchResults.innerHTML = '<p class="watchlist-note">搜索中...</p>';
+
+  const followed = state.customWatchlist[platform] || [];
+  const followedSet = new Set(followed.map((item) => item.username));
+
+  if (state.source === "x") {
+    const url = `/api/x-monitor?limit=20&q=${encodeURIComponent(query)}`;
+    try {
+      const resp = await fetch(url, { cache: "no-store" });
+      const data = await resp.json();
+      const items = Array.isArray(data?.items) ? data.items : [];
+      const users = new Map();
+      items.forEach((item) => {
+        const name = String(item?.sourceName || "").replace(/^@/, "");
+        if (name && !users.has(name)) {
+          users.set(name, { username: name, displayName: name });
+        }
+      });
+      renderCreatorSearchResultList(Array.from(users.values()), platform, followedSet);
+    } catch {
+      elements.creatorSearchResults.innerHTML = '<p class="watchlist-note">搜索失败，请稍后重试</p>';
+    }
+    return;
+  }
+
+  if (state.source === "yt") {
+    const channels = state.ytWatchlist || [];
+    const matched = channels.filter((ch) =>
+      (ch.name || "").toLowerCase().includes(query.toLowerCase())
+    );
+    const results = matched.map((ch) => ({
+      username: ch.channelId,
+      displayName: ch.name
+    }));
+    renderCreatorSearchResultList(results, platform, followedSet);
+    return;
+  }
+
+  if (state.source === "xhs") {
+    const url = `/api/xhs-feed?limit=20&q=${encodeURIComponent(query)}`;
+    try {
+      const resp = await fetch(url, { cache: "no-store" });
+      const data = await resp.json();
+      const items = Array.isArray(data?.items) ? data.items : [];
+      const users = new Map();
+      items.forEach((item) => {
+        const name = String(item?.sourceName || "");
+        if (name && !users.has(name)) {
+          users.set(name, { username: name, displayName: name });
+        }
+      });
+      renderCreatorSearchResultList(Array.from(users.values()), platform, followedSet);
+    } catch {
+      elements.creatorSearchResults.innerHTML = '<p class="watchlist-note">搜索失败，请稍后重试</p>';
+    }
+    return;
+  }
+
+  elements.creatorSearchResults.innerHTML = '<p class="watchlist-note">当前数据源不支持博主搜索</p>';
+}
+
+function renderCreatorSearchResultList(results, platform, followedSet) {
+  if (!elements.creatorSearchResults) return;
+
+  if (!results.length) {
+    elements.creatorSearchResults.innerHTML = '<p class="watchlist-note">未找到匹配的博主</p>';
+    return;
+  }
+
+  elements.creatorSearchResults.innerHTML = results
+    .slice(0, 20)
+    .map((item) => {
+      const isFollowed = followedSet.has(item.username);
+      const action = isFollowed ? "unfollow" : "follow";
+      const label = isFollowed ? "已关注" : "关注";
+      const cls = isFollowed ? "follow-btn followed" : "follow-btn";
+      return `<div class="creator-result-item">
+        <span class="creator-result-name">${escapeHtml(item.displayName || item.username)}</span>
+        <button class="${cls}" data-follow-action="${action}" data-follow-platform="${escapeHtml(platform)}" data-follow-username="${escapeHtml(item.username)}" data-follow-display="${escapeHtml(item.displayName || "")}">${label}</button>
+      </div>`;
+    })
+    .join("");
+}
+
+async function loadCustomWatchlist(platform) {
+  try {
+    const resp = await fetch(`/api/watchlist?platform=${encodeURIComponent(platform)}`, { cache: "no-store" });
+    const data = await resp.json();
+    if (data?.ok && Array.isArray(data.items)) {
+      state.customWatchlist[platform] = data.items;
+    }
+  } catch {
+    // ignore
+  }
+}
+
+async function addToWatchlist(platform, username, displayName) {
+  if (!state.watchlistToken) {
+    const token = prompt("首次操作需设置 Watchlist Token（与服务端 WATCHLIST_TOKEN 一致）：");
+    if (!token) return;
+    state.watchlistToken = token.trim();
+    localStorage.setItem("watchlist_token", state.watchlistToken);
+  }
+
+  try {
+    const response = await fetch("/api/watchlist", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${state.watchlistToken}`
+      },
+      body: JSON.stringify({ platform, username, displayName })
+    });
+
+    if (!response.ok) {
+      if (response.status === 401) {
+        state.watchlistToken = "";
+        localStorage.removeItem("watchlist_token");
+      }
+      throw new Error(await readWatchlistError(response, "关注失败"));
+    }
+
+    await loadCustomWatchlist(platform);
+  } catch (error) {
+    alert(String(error?.message || "关注失败，请稍后重试"));
+  }
+}
+
+async function removeFromWatchlist(platform, username) {
+  if (!state.watchlistToken) return;
+
+  try {
+    const response = await fetch(`/api/watchlist?platform=${encodeURIComponent(platform)}&username=${encodeURIComponent(username)}`, {
+      method: "DELETE",
+      headers: { "Authorization": `Bearer ${state.watchlistToken}` }
+    });
+
+    if (!response.ok) {
+      if (response.status === 401) {
+        state.watchlistToken = "";
+        localStorage.removeItem("watchlist_token");
+      }
+      throw new Error(await readWatchlistError(response, "取消关注失败"));
+    }
+
+    await loadCustomWatchlist(platform);
+  } catch (error) {
+    alert(String(error?.message || "取消关注失败，请稍后重试"));
+  }
+}
+
+async function readWatchlistError(response, fallback) {
+  try {
+    const payload = await response.json();
+    if (payload?.message) {
+      return `${fallback}：${payload.message}`;
+    }
+    if (payload?.error) {
+      return `${fallback}：${payload.error}`;
+    }
+  } catch {
+    // no-op
+  }
+  return `${fallback}（HTTP ${response.status}）`;
+}
+
+async function bootstrapCustomWatchlist() {
+  await Promise.all([
+    loadCustomWatchlist("x"),
+    loadCustomWatchlist("xhs"),
+    loadCustomWatchlist("youtube")
+  ]);
+}
+
 bootstrap();
+bindCreatorSearchEvents();
+bootstrapCustomWatchlist();
