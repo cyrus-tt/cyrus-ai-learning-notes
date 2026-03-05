@@ -65,9 +65,9 @@
     <main class="wrap page-main">
       <section class="hero">
         <p class="eyebrow">AI资讯</p>
-        <h1>跨平台资讯 + 实时新闻 + X监控 + 小红书聚合</h1>
+        <h1>跨平台资讯 + 实时新闻 + X监控 + 小红书 + GitHub开源 + YouTube</h1>
         <p class="hero-copy">
-          每天自动更新，保留原文链接。可在 AI资讯、普通实时新闻、X 监控和小红书聚合之间切换。
+          每天自动更新，保留原文链接。6 大情报源切换：AI资讯、实时新闻、X 监控、小红书、GitHub 开源项目、YouTube 博主。
         </p>
       </section>
 
@@ -96,6 +96,27 @@
         <div id="xWatchlistPanel" class="watchlist-row" hidden>
           <p class="result-count">高价值博主池（X）</p>
           <div id="xWatchlistTags" class="chips" aria-label="X高价值博主池"></div>
+        </div>
+
+        <div id="ytWatchlistPanel" class="watchlist-row" hidden>
+          <p class="result-count">频道监控池（YouTube）</p>
+          <div id="ytWatchlistTags" class="chips" aria-label="YouTube频道监控池"></div>
+        </div>
+
+        <div class="remote-row">
+          <button id="creatorSearchBtn" class="date-reset creator-search-toggle" type="button" hidden>搜索博主</button>
+        </div>
+
+        <div id="creatorSearchPanel" class="creator-search-panel" hidden>
+          <div class="creator-search-header">
+            <p class="result-count">搜索并关注博主</p>
+            <button id="creatorSearchClose" class="date-reset" type="button">关闭</button>
+          </div>
+          <div class="creator-search-input-row">
+            <input id="creatorSearchInput" type="search" placeholder="输入博主名称搜索..." maxlength="60" autocomplete="off" />
+            <button id="creatorSearchSubmit" class="date-reset" type="button">搜索</button>
+          </div>
+          <div id="creatorSearchResults" class="creator-search-results"></div>
         </div>
 
         <div class="filter-groups">

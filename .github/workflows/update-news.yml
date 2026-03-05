@@ -58,6 +58,25 @@ jobs:
             echo "Skip X watchlist build: TWITTER_TOKEN / OPENNEWS_TOKEN not configured."
           fi
 
+      - name: Build GitHub trending
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build_github_trending.py
+
+      - name: Build YouTube feed
+        run: python scripts/build_yt_watchlist.py
+
+      - name: Run D1 watchlist migration
+        env:
+          CLOUDFLARE_ACCOUNT_ID: fe9195f8c0de1cd8852037d068fe3619
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -z "${CLOUDFLARE_API_TOKEN}" ]; then
+            echo "Skip D1 migration: CLOUDFLARE_API_TOKEN not configured."
+            exit 0
+          fi
+          wrangler d1 execute cyrus-ai-news --remote --file d1/migration_002_watchlist.sql || echo "Migration skipped or already applied"
+
       - name: Detect data changes
         id: detect
         run: |
@@ -74,7 +93,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/news_digest.json data/translation_cache.json data/x_watchlist.json data/x_feed.json
+          git add data/news.json data/news_digest.json data/translation_cache.json data/x_watchlist.json data/x_feed.json data/github_trending.json data/yt_watchlist.json data/yt_feed.json
           git commit -m "chore: auto-update AI news"
           git push
 

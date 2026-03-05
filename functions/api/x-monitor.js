@@ -51,7 +51,9 @@ export async function onRequest(context) {
   const envWatchlist = parseCsv(env?.X_MONITOR_USERS || "", 30)
     .map((item) => normalizeUsername(item))
     .filter((item) => Boolean(item));
-  const watchlistProfiles = await loadWatchlistProfiles(request, env);
+  const baseWatchlistProfiles = await loadWatchlistProfiles(request, env);
+  const customWatchlistProfiles = await loadCustomWatchlistProfiles(env, "x");
+  const watchlistProfiles = mergeWatchlistProfiles(baseWatchlistProfiles, customWatchlistProfiles);
   const watchlistProfileMap = new Map(
     watchlistProfiles.map((item) => [String(item.username || "").toLowerCase(), item])
   );
@@ -335,6 +337,85 @@ async function loadWatchlistProfiles(request, env) {
   const localUrl = new URL(LOCAL_WATCHLIST_PATH, request.url).toString();
   const localPayload = await fetchJson(localUrl, WATCHLIST_CACHE_TTL_SECONDS);
   return extractWatchlistProfiles(localPayload);
+}
+
+async function loadCustomWatchlistProfiles(env, platform) {
+  const db = env?.DB;
+  if (!db) {
+    return [];
+  }
+
+  try {
+    const result = await db
+      .prepare(
+        "SELECT username, display_name, notes FROM custom_watchlist WHERE platform = ? ORDER BY added_at DESC LIMIT 200"
+      )
+      .bind(platform)
+      .all();
+
+    const rows = Array.isArray(result?.results) ? result.results : [];
+    return rows
+      .map((row) => normalizeCustomWatchlistProfile(row))
+      .filter((row) => Boolean(row?.username));
+  } catch {
+    return [];
+  }
+}
+
+function normalizeCustomWatchlistProfile(raw) {
+  if (!raw || typeof raw !== "object") {
+    return null;
+  }
+
+  const username = normalizeUsername(raw?.username);
+  if (!username) {
+    return null;
+  }
+
+  const displayName = String(raw?.display_name || "").trim();
+  const reason = String(raw?.notes || "").trim();
+
+  return {
+    username,
+    displayName,
+    score: null,
+    tags: ["自定义关注"],
+    reason,
+    trackScores: {}
+  };
+}
+
+function mergeWatchlistProfiles(...groups) {
+  const merged = new Map();
+  for (const group of groups) {
+    const profiles = Array.isArray(group) ? group : [];
+    for (const profile of profiles) {
+      const normalized = normalizeWatchlistProfile(profile);
+      if (!normalized?.username) {
+        continue;
+      }
+
+      const key = normalized.username.toLowerCase();
+      if (!merged.has(key)) {
+        merged.set(key, normalized);
+        continue;
+      }
+
+      const prev = merged.get(key);
+      merged.set(key, {
+        username: prev.username,
+        displayName: prev.displayName || normalized.displayName,
+        score: prev.score ?? normalized.score ?? null,
+        tags: dedupeStrings([...(prev.tags || []), ...(normalized.tags || [])]).slice(0, 8),
+        reason: prev.reason || normalized.reason || "",
+        trackScores:
+          prev.trackScores && Object.keys(prev.trackScores).length
+            ? prev.trackScores
+            : normalized.trackScores || {}
+      });
+    }
+  }
+  return Array.from(merged.values());
 }
 
 function extractWatchlistProfiles(payload) {
