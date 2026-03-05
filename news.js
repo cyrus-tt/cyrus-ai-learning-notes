@@ -1626,7 +1626,7 @@ async function loadCustomWatchlist(platform) {
 
 async function addToWatchlist(platform, username, displayName) {
   if (!state.watchlistToken) {
-    const token = prompt("首次操作需设置 Watchlist Token（与服务端 WATCHLIST_TOKEN 一致）：");
+    const token = prompt("首次关注需填写站点写入密钥（Cloudflare 环境变量 WATCHLIST_TOKEN）。如你是站点管理员，请先在 Pages 配置该变量，再把同样值填在这里：");
     if (!token) return;
     state.watchlistToken = token.trim();
     localStorage.setItem("watchlist_token", state.watchlistToken);

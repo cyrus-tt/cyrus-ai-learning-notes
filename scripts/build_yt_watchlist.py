@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -31,6 +32,36 @@ TRANSLATION_CACHE_FILE = ROOT / "data" / "translation_cache.json"
 
 YT_RSS_TEMPLATE = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
 DEFAULT_TIMEOUT = 15
+SUMMARY_MAX_LEN = 700
+SUMMARY_AI_SCAN_LEN = 260
+DEFAULT_AI_KEYWORDS = [
+    "ai",
+    "llm",
+    "gpt",
+    "chatgpt",
+    "openai",
+    "anthropic",
+    "claude",
+    "gemini",
+    "deepseek",
+    "agent",
+    "agents",
+    "rag",
+    "machine learning",
+    "deep learning",
+    "transformer",
+    "multimodal",
+    "fine-tuning",
+    "inference",
+    "模型",
+    "大模型",
+    "智能体",
+    "生成式",
+    "机器学习",
+    "深度学习",
+    "多模态",
+    "提示词",
+]
 
 
 def main() -> int:
@@ -48,6 +79,7 @@ def main() -> int:
     per_channel_limit = safe_int(limits.get("perChannelFeedLimit"), 5, 1, 15)
     feed_size = safe_int(limits.get("feedSize"), 100, 10, 500)
     feed_channel_limit = safe_int(limits.get("feedChannelLimit"), 30, 5, 100)
+    ai_keywords = load_ai_keywords(config.get("aiKeywords"))
 
     translator, cache = init_translator()
     now = datetime.now(timezone.utc).isoformat()
@@ -67,10 +99,12 @@ def main() -> int:
         entries = entries[:per_channel_limit]
 
         latest_at = ""
+        ai_video_count = 0
         for entry in entries:
             item = normalize_entry(entry, channel_id, channel_name, tags, translator, cache)
-            if item:
+            if item and is_ai_related_item(item, ai_keywords):
                 all_items.append(item)
+                ai_video_count += 1
                 if item["publishedAt"] > latest_at:
                     latest_at = item["publishedAt"]
 
@@ -79,10 +113,10 @@ def main() -> int:
             "name": channel_name,
             "tags": tags,
             "latestVideoAt": latest_at or now,
-            "videoCount": len(entries),
+            "videoCount": ai_video_count,
         })
 
-        print(f"[yt-watchlist] {channel_name}: {len(entries)} videos")
+        print(f"[yt-watchlist] {channel_name}: raw={len(entries)} ai={ai_video_count}")
 
     all_items.sort(key=lambda x: x.get("publishedAt", ""), reverse=True)
     deduped = dedupe_items(all_items)[:feed_size]
@@ -152,6 +186,7 @@ def normalize_entry(
         thumbnail = f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
 
     summary_original = safe_text(getattr(entry, "summary", "")) or title_original
+    summary_original = truncate_text(summary_original, SUMMARY_MAX_LEN)
 
     title_zh = translate_text(title_original, translator, cache)
     summary_zh = translate_text(summary_original, translator, cache) if summary_original != title_original else title_zh
@@ -257,6 +292,45 @@ def has_cjk(text: str) -> bool:
         if 0x4E00 <= code <= 0x9FFF or 0x3400 <= code <= 0x4DBF:
             return True
     return False
+
+
+def load_ai_keywords(raw: Any) -> list[str]:
+    base = raw if isinstance(raw, list) and raw else DEFAULT_AI_KEYWORDS
+    normalized = []
+    for item in base:
+        text = safe_text(item).lower()
+        if text and text not in normalized:
+            normalized.append(text)
+    return normalized
+
+
+def is_ai_related_item(item: dict[str, Any], ai_keywords: list[str]) -> bool:
+    title = safe_text(item.get("titleOriginal") or item.get("title") or "")
+    pool = title.lower()
+    return contains_ai_keyword(pool, ai_keywords)
+
+
+def contains_ai_keyword(text: str, ai_keywords: list[str]) -> bool:
+    for kw in ai_keywords:
+        if not kw:
+            continue
+        if is_ascii_word(kw) and len(kw) <= 3:
+            if re.search(rf"\b{re.escape(kw)}\b", text):
+                return True
+            continue
+        if kw in text:
+            return True
+    return False
+
+
+def is_ascii_word(value: str) -> bool:
+    return bool(value) and all(ord(ch) < 128 and (ch.isalpha() or ch == "-") for ch in value)
+
+
+def truncate_text(text: str, limit: int) -> str:
+    if len(text) <= limit:
+        return text
+    return f"{text[:limit]}..."
 
 
 def load_translation_cache() -> dict[str, str]:
