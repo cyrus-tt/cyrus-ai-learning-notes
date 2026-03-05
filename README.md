@@ -5,7 +5,8 @@
 当前结构：
 - 首页只保留两个入口：`AI资讯`、`AI干货`
 - `AI资讯`：聚合国内外社媒平台信息，附可执行动作
-- `AI资讯`页支持四种情报源切换：站内AI资讯 / 普通实时新闻 / X监控 / 小红书聚合
+- `AI资讯`页支持六种情报源切换：站内AI资讯 / 普通实时新闻 / X监控 / 小红书聚合 / GitHub开源 / YouTube监控
+- `AI资讯`页支持在 X / 小红书 / YouTube 搜索博主并写入 D1 自定义关注池
 - `AI干货`：生产力模板与可复用工作流
 - `AI资讯`已接入自动抓取（GitHub Actions 每日两次）
 - `AI资讯`支持：平台/上下游/标签/时间筛选，外网卡片中英切换，X推文互动指标展示
@@ -20,6 +21,9 @@
 - `functions/api/live-news.js`：普通实时新闻 API（Google News RSS 聚合）
 - `functions/api/x-monitor.js`：6551 X 监控 API
 - `functions/api/xhs-feed.js`：小红书聚合 API（支持远端 feed 或本地 `data/xhs_feed.json`）
+- `functions/api/github-trending.js`：GitHub 热门开源项目 API（支持 Star 下限筛选）
+- `functions/api/yt-feed.js`：YouTube 聚合 API（支持本地快照 + D1 自定义关注频道补抓）
+- `functions/api/watchlist.js`：D1 自定义关注池 API（GET/POST/DELETE）
 - `functions/api/_lib/intel.js`：6551 数据拉取与归一化工具
 - `data/news.json`：自动抓取后生成的资讯数据
 - `data/news_digest.json`：AI资讯日报 Top10 + 周报（x月第x周）聚合结果
@@ -28,10 +32,16 @@
 - `data/x_feed.json`：X watchlist 推文聚合快照（用于站点聚合回退）
 - `data/x_discovery_config.json`：X 账号发现权重、关键词、种子配置
 - `data/xhs_feed.json`：小红书聚合数据（可由外部脚本更新）
+- `data/github_trending.json`：GitHub 热门项目快照（脚本自动更新）
+- `data/yt_feed.json`：YouTube 视频快照（脚本自动更新）
+- `data/yt_watchlist.json`：YouTube 频道池快照（脚本自动更新）
+- `data/yt_discovery_config.json`：YouTube 频道种子配置
 - `data/news_sources.json`：抓取源配置
 - `data/translation_cache.json`：翻译缓存（自动生成）
 - `scripts/update_news.py`：抓取脚本
 - `scripts/build_x_watchlist.py`：X 账号发现+评分+watchlist/feed 生成脚本
+- `scripts/build_github_trending.py`：GitHub 项目抓取与双语归一化脚本
+- `scripts/build_yt_watchlist.py`：YouTube RSS 抓取与双语归一化脚本
 - `.github/workflows/update-news.yml`：定时任务（每日两次）
 - `resources.html`：AI干货页面
 - `resources.js`：干货数据与筛选逻辑
@@ -47,6 +57,7 @@
 - `edge-proxy.js`：域名兜底 Worker（代理到 pages.dev）
 - `WORKER_FALLBACK.md`：域名兜底 Worker 操作说明
 - `d1/schema.sql`：D1 初始化表结构（可选）
+- `d1/migration_002_watchlist.sql`：D1 自定义关注表迁移脚本
 - `D1_MIN_PLAN.md`：D1 最小改造说明（可选）
 - `CLASSIFICATION_RULES.md`：AI产业链分类定义
 
@@ -76,6 +87,8 @@ cd /Volumes/tyj/Cyrus/Projects/主业/cyrus-ai-learning-notes-mvp
 python3 -m pip install -r scripts/news_requirements.txt
 python3 scripts/update_news.py
 python3 scripts/build_x_watchlist.py
+python3 scripts/build_github_trending.py
+python3 scripts/build_yt_watchlist.py
 ```
 
 ### D1 数据库存储（已接入）
@@ -92,7 +105,7 @@ python3 scripts/build_x_watchlist.py
 - 若希望 GitHub Actions 也写入 D1，需要在仓库 `Secrets` 中配置：
   - `CLOUDFLARE_API_TOKEN`（需包含 D1 / Pages 权限）
 
-### 实时新闻 / X监控 / 小红书聚合
+### 实时新闻 / X监控 / 小红书 / GitHub / YouTube / 自定义关注
 
 - 在 Cloudflare Pages 项目环境变量中配置：
   - `TWITTER_TOKEN`：6551 X token（`/api/x-monitor` 使用，必填）
@@ -102,6 +115,9 @@ python3 scripts/build_x_watchlist.py
   - `X_MONITOR_WATCHLIST_URL`：远端 watchlist JSON（可选，不配则读本地 `data/x_watchlist.json`）
   - `X_MONITOR_FEED_URL`：远端 X 聚合 feed JSON（可选，不配则读本地 `data/x_feed.json`）
   - `XHS_FEED_URL`：小红书聚合数据 JSON 地址（可选，不配则读本地 `data/xhs_feed.json`）
+  - `GITHUB_TRENDING_URL`：GitHub 聚合远端 JSON（可选，不配则读本地 `data/github_trending.json`）
+  - `YT_FEED_URL`：YouTube 聚合远端 JSON（可选，不配则读本地 `data/yt_feed.json`）
+  - `WATCHLIST_TOKEN`：`/api/watchlist` 写入令牌（前端 follow/unfollow 必填）
 - 本地开发可复制 `.dev.vars.example` 为 `.dev.vars` 并填写 token。
 - 新增接口：
   - `GET /api/live-news?limit=100&q=跨境电商`
@@ -109,10 +125,16 @@ python3 scripts/build_x_watchlist.py
   - `GET /api/x-monitor?limit=80&q=bitcoin`
   - `GET /api/x-monitor?mode=user&username=elonmusk`
   - `GET /api/x-monitor?mode=watchlist&usernames=elonmusk,VitalikButerin`
-- `GET /api/xhs-feed?limit=100&q=美妆`
-- `news.html` 中切到“实时新闻 / X监控 / 小红书聚合”后，输入关键词并点“云端查询”即可实时拉取。
+  - `GET /api/xhs-feed?limit=100&q=美妆`
+  - `GET /api/github-trending?limit=50&minStars=1000&q=agent`
+  - `GET /api/yt-feed?limit=80&q=transformer`
+  - `GET /api/watchlist?platform=x`
+  - `POST /api/watchlist`（需 `Authorization: Bearer WATCHLIST_TOKEN`）
+  - `DELETE /api/watchlist?platform=x&username=elonmusk`（需 `Authorization`）
+- `news.html` 中切到“实时新闻 / X监控 / 小红书 / GitHub / YouTube”后，输入关键词并点“云端查询”即可实时拉取。
 - `news.html` 在“X监控”里留空查询会自动走 watchlist 聚合模式。
 - `news.html` 在“X监控”里输入多个账号（空格或逗号分隔）会自动走 watchlist 聚合模式。
+- `news.html` 在 X / 小红书 / YouTube 支持“搜索博主”并写入 D1 自定义关注池。
 - 当 X API token 缺失或临时失败时，`/api/x-monitor` 会自动回退到 `data/x_feed.json`。
 
 ### AI资讯卡片字段说明
@@ -146,6 +168,8 @@ python3 scripts/build_x_watchlist.py
 - 日报/周报通过 `GET /api/digest` 读取，`/api/digest` 会从 GitHub 主分支实时拉取 `data/news_digest.json` 并缓存 5 分钟
 - 因此即使 Cloudflare Pages 没有重新部署，资讯也会跟随 GitHub 自动更新
 - 若仓库 Secrets 中配置了 `TWITTER_TOKEN` 或 `OPENNEWS_TOKEN`，工作流会额外更新 `data/x_watchlist.json` 与 `data/x_feed.json`
+- 工作流会额外更新 `data/github_trending.json`、`data/yt_feed.json`、`data/yt_watchlist.json`
+- 工作流会执行 `d1/migration_002_watchlist.sql`（若配置了 `CLOUDFLARE_API_TOKEN`）
 - 工作流仍保留“数据变更后自动部署”步骤（用于同步站点静态文件），这一步依赖仓库 Secret：`CLOUDFLARE_API_TOKEN`
 
 ### 本机定时任务（已配置）
