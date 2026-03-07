@@ -103,8 +103,21 @@
           <div id="ytWatchlistTags" class="chips" aria-label="YouTube频道监控池"></div>
         </div>
 
+        <div id="xUserWatchlistPanel" class="watchlist-row watchlist-row-user" hidden>
+          <p class="result-count">我关注的博主（X）</p>
+          <div id="xUserWatchlistTags" class="chips" aria-label="我关注的X博主"></div>
+        </div>
+
+        <div id="ytUserWatchlistPanel" class="watchlist-row watchlist-row-user" hidden>
+          <p class="result-count">我关注的频道（YouTube）</p>
+          <div id="ytUserWatchlistTags" class="chips" aria-label="我关注的YouTube频道"></div>
+        </div>
+
         <div class="remote-row">
           <button id="creatorSearchBtn" class="date-reset creator-search-toggle" type="button" hidden>搜索博主</button>
+          <p id="loginHintForWatchlist" class="result-count login-hint" hidden>
+            <button id="loginHintBtn" class="auth-inline-login-btn" type="button">登录</button>后可关注博主
+          </p>
         </div>
 
         <div id="creatorSearchPanel" class="creator-search-panel" hidden>
@@ -206,6 +219,7 @@
 
     <script src="./ui.js"></script>
     <script src="./visit-stats.js"></script>
+    <script src="./auth.js"></script>
     <script src="./news.js"></script>
   </body>
 </html>

@@ -1655,6 +1655,118 @@ body::after {
   }
 }
 
+/* ─── Auth widget ─────────────────────────────────────────────── */
+
+.auth-widget {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.5rem;
+  flex-shrink: 0;
+}
+
+.auth-google-btn {
+  line-height: 0; /* suppress extra space around iframe */
+}
+
+.auth-user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.auth-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid var(--line);
+  flex-shrink: 0;
+}
+
+.auth-name {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.auth-logout-btn {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  cursor: pointer;
+  transition: color 0.18s ease, border-color 0.18s ease;
+}
+
+.auth-logout-btn:hover {
+  color: var(--text);
+  border-color: var(--text-muted);
+}
+
+/* Login hint inline in watchlist row */
+.login-hint {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--text-muted);
+  font-size: 0.84rem;
+}
+
+.auth-inline-login-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: var(--primary);
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.auth-inline-login-btn:hover {
+  color: var(--primary-hover);
+}
+
+/* User personal watchlist row */
+.watchlist-row-user {
+  border-top: 1px dashed var(--line-soft);
+  padding-top: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+/* User-followed chip (clickable to unfollow, slightly different style) */
+.user-watchlist-chip {
+  background: rgba(0, 113, 227, 0.08);
+  border: 1px solid rgba(0, 113, 227, 0.22);
+  color: var(--primary);
+  cursor: pointer;
+  transition: background-color 0.16s ease, border-color 0.16s ease;
+}
+
+.user-watchlist-chip:hover {
+  background: rgba(0, 113, 227, 0.15);
+  border-color: rgba(0, 113, 227, 0.4);
+}
+
+/* Mobile: auth widget adjusts on small screens */
+@media (max-width: 680px) {
+  .auth-widget {
+    margin-left: 0;
+    align-self: flex-end;
+  }
+
+  .auth-name {
+    display: none; /* hide name, keep avatar + logout on mobile */
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

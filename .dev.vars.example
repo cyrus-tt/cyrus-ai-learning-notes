@@ -1,6 +1,12 @@
 # Local dev secrets for Cloudflare Pages Functions
 # Copy to .dev.vars and fill values (DO NOT commit .dev.vars)
 
+# Google OAuth (Sign In With Google)
+# Create at: https://console.cloud.google.com → APIs & Services → Credentials → OAuth 2.0 Client ID
+# Application type: Web application
+# Authorized JavaScript origins: https://cyrustyj.xyz (+ http://localhost:8788 for dev)
+GOOGLE_CLIENT_ID=replace_with_google_oauth_client_id
+
 OPENNEWS_TOKEN=replace_with_6551_token_optional_fallback
 TWITTER_TOKEN=replace_with_6551_twitter_token
 X_MONITOR_USERS=elonmusk,VitalikButerin

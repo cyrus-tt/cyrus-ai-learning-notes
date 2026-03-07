@@ -175,7 +175,7 @@ const state = {
   xWatchlist: [],
   ytWatchlist: [],
   customWatchlist: {},
-  watchlistToken: localStorage.getItem("watchlist_token") || "",
+  userWatchlist: {},   // per-user follows (keyed by platform)
   creatorSearchOpen: false,
   platform: "全部",
   stage: "全部",
@@ -195,7 +195,13 @@ const elements = {
   xWatchlistTags: document.getElementById("xWatchlistTags"),
   ytWatchlistPanel: document.getElementById("ytWatchlistPanel"),
   ytWatchlistTags: document.getElementById("ytWatchlistTags"),
+  xUserWatchlistPanel: document.getElementById("xUserWatchlistPanel"),
+  xUserWatchlistTags: document.getElementById("xUserWatchlistTags"),
+  ytUserWatchlistPanel: document.getElementById("ytUserWatchlistPanel"),
+  ytUserWatchlistTags: document.getElementById("ytUserWatchlistTags"),
   creatorSearchBtn: document.getElementById("creatorSearchBtn"),
+  loginHintForWatchlist: document.getElementById("loginHintForWatchlist"),
+  loginHintBtn: document.getElementById("loginHintBtn"),
   creatorSearchPanel: document.getElementById("creatorSearchPanel"),
   creatorSearchClose: document.getElementById("creatorSearchClose"),
   creatorSearchInput: document.getElementById("creatorSearchInput"),
@@ -939,6 +945,9 @@ function syncSourceUi() {
       elements.remoteSearchBtn.disabled = false;
     }
   }
+
+  renderCreatorSearchVisibility();
+  renderUserWatchlistChips();
 }
 
 function renderSourceMeta(payload) {
@@ -1020,11 +1029,16 @@ function renderYtWatchlist(payload) {
 }
 
 function renderCreatorSearchVisibility() {
-  const showBtn = ["x", "xhs", "yt"].includes(state.source);
+  const isSupported = ["x", "xhs", "yt"].includes(state.source);
+  const isLoggedIn = !!(window.authState?.user);
+
   if (elements.creatorSearchBtn) {
-    elements.creatorSearchBtn.hidden = !showBtn;
+    elements.creatorSearchBtn.hidden = !(isSupported && isLoggedIn);
   }
-  if (!showBtn && elements.creatorSearchPanel) {
+  if (elements.loginHintForWatchlist) {
+    elements.loginHintForWatchlist.hidden = !(isSupported && !isLoggedIn);
+  }
+  if (!(isSupported && isLoggedIn) && elements.creatorSearchPanel) {
     elements.creatorSearchPanel.hidden = true;
     state.creatorSearchOpen = false;
   }
@@ -1530,7 +1544,8 @@ async function performCreatorSearch() {
 
   elements.creatorSearchResults.innerHTML = '<p class="watchlist-note">搜索中...</p>';
 
-  const followed = state.customWatchlist[platform] || [];
+  // Use user's personal watchlist to determine follow state
+  const followed = state.userWatchlist[platform] || [];
   const followedSet = new Set(followed.map((item) => item.username));
 
   if (state.source === "x") {
@@ -1624,56 +1639,100 @@ async function loadCustomWatchlist(platform) {
   }
 }
 
+async function loadUserWatchlist(platform) {
+  if (!window.authState?.user) {
+    state.userWatchlist[platform] = [];
+    return;
+  }
+  try {
+    const resp = await fetch(
+      `/api/user-watchlist?platform=${encodeURIComponent(platform)}`,
+      { cache: "no-store", credentials: "include" }
+    );
+    const data = await resp.json();
+    if (data?.ok && Array.isArray(data.items)) {
+      state.userWatchlist[platform] = data.items;
+    }
+  } catch {
+    // ignore
+  }
+}
+
+function renderUserWatchlistChips() {
+  const source = state.source;
+  const platform = source === "x" ? "x" : source === "yt" ? "youtube" : null;
+
+  // X user panel
+  if (elements.xUserWatchlistPanel && elements.xUserWatchlistTags) {
+    const items = state.userWatchlist["x"] || [];
+    elements.xUserWatchlistPanel.hidden = !(source === "x" && window.authState?.user && items.length > 0);
+    elements.xUserWatchlistTags.innerHTML = "";
+    items.forEach((item) => {
+      const chip = document.createElement("span");
+      chip.className = "chip user-watchlist-chip";
+      chip.textContent = item.displayName || item.username;
+      chip.title = `@${item.username} · 点击取消关注`;
+      chip.addEventListener("click", () => removeFromWatchlist("x", item.username));
+      elements.xUserWatchlistTags.appendChild(chip);
+    });
+  }
+
+  // YouTube user panel
+  if (elements.ytUserWatchlistPanel && elements.ytUserWatchlistTags) {
+    const items = state.userWatchlist["youtube"] || [];
+    elements.ytUserWatchlistPanel.hidden = !(source === "yt" && window.authState?.user && items.length > 0);
+    elements.ytUserWatchlistTags.innerHTML = "";
+    items.forEach((item) => {
+      const chip = document.createElement("span");
+      chip.className = "chip user-watchlist-chip";
+      chip.textContent = item.displayName || item.username;
+      chip.title = `${item.username} · 点击取消关注`;
+      chip.addEventListener("click", () => removeFromWatchlist("youtube", item.username));
+      elements.ytUserWatchlistTags.appendChild(chip);
+    });
+  }
+}
+
 async function addToWatchlist(platform, username, displayName) {
-  if (!state.watchlistToken) {
-    const token = prompt("首次关注需填写站点写入密钥（Cloudflare 环境变量 WATCHLIST_TOKEN）。如你是站点管理员，请先在 Pages 配置该变量，再把同样值填在这里：");
-    if (!token) return;
-    state.watchlistToken = token.trim();
-    localStorage.setItem("watchlist_token", state.watchlistToken);
+  if (!window.authState?.user) {
+    alert("请先使用 Google 账号登录后再关注博主");
+    return;
   }
 
   try {
-    const response = await fetch("/api/watchlist", {
+    const response = await fetch("/api/user-watchlist", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Authorization": `Bearer ${state.watchlistToken}`
-      },
+      credentials: "include",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ platform, username, displayName })
     });
 
     if (!response.ok) {
-      if (response.status === 401) {
-        state.watchlistToken = "";
-        localStorage.removeItem("watchlist_token");
-      }
       throw new Error(await readWatchlistError(response, "关注失败"));
     }
 
-    await loadCustomWatchlist(platform);
+    await loadUserWatchlist(platform);
+    renderUserWatchlistChips();
   } catch (error) {
     alert(String(error?.message || "关注失败，请稍后重试"));
   }
 }
 
 async function removeFromWatchlist(platform, username) {
-  if (!state.watchlistToken) return;
+  if (!window.authState?.user) return;
 
   try {
-    const response = await fetch(`/api/watchlist?platform=${encodeURIComponent(platform)}&username=${encodeURIComponent(username)}`, {
-      method: "DELETE",
-      headers: { "Authorization": `Bearer ${state.watchlistToken}` }
-    });
+    const response = await fetch(
+      `/api/user-watchlist?platform=${encodeURIComponent(platform)}&username=${encodeURIComponent(username)}`,
+      { method: "DELETE", credentials: "include" }
+    );
 
     if (!response.ok) {
-      if (response.status === 401) {
-        state.watchlistToken = "";
-        localStorage.removeItem("watchlist_token");
-      }
       throw new Error(await readWatchlistError(response, "取消关注失败"));
     }
 
-    await loadCustomWatchlist(platform);
+    await loadUserWatchlist(platform);
+    renderUserWatchlistChips();
   } catch (error) {
     alert(String(error?.message || "取消关注失败，请稍后重试"));
   }
@@ -1702,6 +1761,41 @@ async function bootstrapCustomWatchlist() {
   ]);
 }
 
+async function bootstrapUserWatchlist() {
+  await Promise.all([
+    loadUserWatchlist("x"),
+    loadUserWatchlist("xhs"),
+    loadUserWatchlist("youtube")
+  ]);
+  renderUserWatchlistChips();
+}
+
+// Re-render watchlist UI when auth state changes
+window.addEventListener("auth-state-changed", async () => {
+  renderCreatorSearchVisibility();
+  await bootstrapUserWatchlist();
+  // Also re-render follow state in creator search results if open
+  if (state.creatorSearchOpen && elements.creatorSearchInput?.value) {
+    performCreatorSearch();
+  }
+});
+
+// Wire up the login hint button to trigger Google One Tap / sign-in
+function bindLoginHintBtn() {
+  if (!elements.loginHintBtn) return;
+  elements.loginHintBtn.addEventListener("click", () => {
+    // Use Google One Tap prompt if available, otherwise scroll to sign-in button
+    if (window.google?.accounts?.id?.prompt) {
+      google.accounts.id.prompt();
+    } else {
+      const widget = document.querySelector(".auth-widget");
+      if (widget) widget.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  });
+}
+
 bootstrap();
 bindCreatorSearchEvents();
+bindLoginHintBtn();
 bootstrapCustomWatchlist();
+// User watchlist will load once auth-state-changed fires from auth.js
