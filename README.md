@@ -1,4 +1,4 @@
-# Cyrus的AI学习笔记 - MVP
+# AI学习笔记 - MVP
 
 一个可直接部署到 Cloudflare Pages 的静态网站（无登录版）。
 
@@ -64,7 +64,7 @@
 ## 本地预览
 
 ```bash
-cd /Volumes/tyj/Cyrus/Projects/主业/cyrus-ai-learning-notes-mvp
+cd /path/to/project
 python3 -m http.server 8080
 ```
 
@@ -83,7 +83,7 @@ python3 -m http.server 8080
 ### 本地手动更新一次 AI资讯
 
 ```bash
-cd /Volumes/tyj/Cyrus/Projects/主业/cyrus-ai-learning-notes-mvp
+cd /path/to/project
 python3 -m pip install -r scripts/news_requirements.txt
 python3 scripts/update_news.py
 python3 scripts/build_x_watchlist.py
@@ -93,13 +93,13 @@ python3 scripts/build_yt_watchlist.py
 
 ### D1 数据库存储（已接入）
 
-- 已创建数据库：`cyrus-ai-news`
+- 数据库名称请按你的 Cloudflare D1 配置填写
 - 抓取脚本会在每次运行后同步写入：
   - `fetch_runs`（每次抓取）
   - `news_snapshots`（每次抓取的完整快照）
   - `latest_news`（每条资讯最新版本）
 - 相关环境变量（可选）：
-  - `D1_DATABASE_NAME`：默认 `cyrus-ai-news`
+  - `D1_DATABASE_NAME`：不设置时使用代码内默认值，也可显式覆盖为你的数据库名
   - `ENABLE_D1_SYNC`：默认开启（设置为 `0/false` 可关闭）
   - `D1_REMOTE`：默认远端写入（设置为 `0/false` 写本地）
 - 若希望 GitHub Actions 也写入 D1，需要在仓库 `Secrets` 中配置：
@@ -172,11 +172,11 @@ python3 scripts/build_yt_watchlist.py
 - 工作流会执行 `d1/migration_002_watchlist.sql`（若配置了 `CLOUDFLARE_API_TOKEN`）
 - 工作流仍保留“数据变更后自动部署”步骤（用于同步站点静态文件），这一步依赖仓库 Secret：`CLOUDFLARE_API_TOKEN`
 
-### 本机定时任务（已配置）
+### 本机定时任务（可选）
 
-- 当前机器已写入 crontab：每天 `09:00`、`21:00` 自动执行抓取并部署到 Cloudflare Pages
+- 若你在本机配置了 crontab，可设置每天 `09:00`、`21:00` 自动执行抓取并部署到 Cloudflare Pages
 - 查看任务：`crontab -l`
-- 查看日志：`tail -n 100 /Volumes/tyj/Cyrus/Projects/主业/cyrus-ai-learning-notes-mvp/logs/news-cron.log`
+- 查看日志：`tail -n 100 logs/news-cron.log`
 
 ### 改 AI干货内容
 
@@ -185,7 +185,7 @@ python3 scripts/build_yt_watchlist.py
 ### 发布更新
 
 ```bash
-cd /Volumes/tyj/Cyrus/Projects/主业/cyrus-ai-learning-notes-mvp
+cd /path/to/project
 git add .
 git commit -m "update: 网站内容更新"
 git push
@@ -193,6 +193,6 @@ git push
 
 ## 域名生效说明
 
-- 当前已部署 Worker 域名兜底代理 `cyrus-ai-domain-proxy`，`cyrustyj.xyz` 与 `www.cyrustyj.xyz` 都可访问。
-- 若 Cloudflare Pages 自定义域仍是 `pending`，不影响当前访问（由 Worker 代理到 `cyrus-ai-notes.pages.dev`）。
+- 若你已部署 Worker 域名兜底代理，则根域名与 `www` 域名都可访问。
+- 若 Cloudflare Pages 自定义域仍是 `pending`，也可先通过 Worker 代理到你的 `pages.dev` 域名继续访问。
 - 后续可在 Cloudflare 后台修正 DNS 后，切回 Pages 原生自定义域。
