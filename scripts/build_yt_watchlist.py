@@ -11,6 +11,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import signal
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -34,6 +35,8 @@ YT_RSS_TEMPLATE = "https://www.youtube.com/feeds/videos.xml?channel_id={channel_
 DEFAULT_TIMEOUT = 15
 SUMMARY_MAX_LEN = 700
 SUMMARY_AI_SCAN_LEN = 260
+TRANSLATION_TIMEOUT_SECONDS = 8
+TRANSLATION_FAILURE_LIMIT = 5
 DEFAULT_AI_KEYWORDS = [
     "ai",
     "llm",
@@ -64,6 +67,10 @@ DEFAULT_AI_KEYWORDS = [
 ]
 
 
+def _translation_timeout_handler(signum: int, frame: Any) -> None:
+    raise TimeoutError("translation timed out")
+
+
 def main() -> int:
     config = load_json(CONFIG_FILE)
     if not config:
@@ -82,6 +89,7 @@ def main() -> int:
     ai_keywords = load_ai_keywords(config.get("aiKeywords"))
 
     translator, cache = init_translator()
+    translation_state = {"failures": 0, "disabled": False}
     now = datetime.now(timezone.utc).isoformat()
 
     watchlist_channels = []
@@ -101,7 +109,7 @@ def main() -> int:
         latest_at = ""
         ai_video_count = 0
         for entry in entries:
-            item = normalize_entry(entry, channel_id, channel_name, tags, translator, cache)
+            item = normalize_entry(entry, channel_id, channel_name, tags, translator, cache, translation_state)
             if item and is_ai_related_item(item, ai_keywords):
                 all_items.append(item)
                 ai_video_count += 1
@@ -166,6 +174,7 @@ def normalize_entry(
     tags: list[str],
     translator: Any,
     cache: dict[str, str],
+    translation_state: dict[str, Any],
 ) -> dict[str, Any] | None:
     title_original = safe_text(getattr(entry, "title", ""))
     if not title_original:
@@ -188,8 +197,12 @@ def normalize_entry(
     summary_original = safe_text(getattr(entry, "summary", "")) or title_original
     summary_original = truncate_text(summary_original, SUMMARY_MAX_LEN)
 
-    title_zh = translate_text(title_original, translator, cache)
-    summary_zh = translate_text(summary_original, translator, cache) if summary_original != title_original else title_zh
+    title_zh = translate_text(title_original, translator, cache, translation_state)
+    summary_zh = (
+        translate_text(summary_original, translator, cache, translation_state)
+        if summary_original != title_original
+        else title_zh
+    )
     has_translation = bool(title_zh and title_zh != title_original)
 
     source_url = f"https://www.youtube.com/watch?v={video_id}" if video_id else link
@@ -266,8 +279,22 @@ def init_translator() -> tuple[Any, dict[str, str]]:
         return None, cache
 
 
-def translate_text(text: str, translator: Any, cache: dict[str, str]) -> str:
-    if not text or not translator:
+def translate_via_service(text: str, translator: Any) -> str:
+    if hasattr(signal, "SIGALRM") and hasattr(signal, "setitimer"):
+        previous_handler = signal.getsignal(signal.SIGALRM)
+        try:
+            signal.signal(signal.SIGALRM, _translation_timeout_handler)
+            signal.setitimer(signal.ITIMER_REAL, TRANSLATION_TIMEOUT_SECONDS)
+            return translator.translate(text)
+        finally:
+            signal.setitimer(signal.ITIMER_REAL, 0)
+            signal.signal(signal.SIGALRM, previous_handler)
+
+    return translator.translate(text)
+
+
+def translate_text(text: str, translator: Any, cache: dict[str, str], translation_state: dict[str, Any]) -> str:
+    if not text or not translator or translation_state.get("disabled"):
         return text
     if has_cjk(text):
         return text
@@ -277,12 +304,22 @@ def translate_text(text: str, translator: Any, cache: dict[str, str]) -> str:
         return cache[cache_key]
 
     try:
-        result = translator.translate(text)
+        result = translate_via_service(text, translator)
+        translation_state["failures"] = 0
         if result:
             cache[cache_key] = result
             return result
     except Exception as err:
-        print(f"[yt-watchlist] translate error: {err}", file=sys.stderr)
+        failures = int(translation_state.get("failures", 0)) + 1
+        translation_state["failures"] = failures
+        if failures >= TRANSLATION_FAILURE_LIMIT and not translation_state.get("disabled"):
+            translation_state["disabled"] = True
+            print(
+                f"[yt-watchlist] translation disabled after {failures} failures: {type(err).__name__}: {err}",
+                file=sys.stderr,
+            )
+        else:
+            print(f"[yt-watchlist] translate error: {err}", file=sys.stderr)
     return text
 
 

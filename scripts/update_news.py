@@ -21,6 +21,7 @@ import json
 import math
 import os
 import re
+import signal
 import subprocess
 import tempfile
 import uuid
@@ -45,6 +46,8 @@ USER_AGENT = "Mozilla/5.0 (compatible; CyrusNewsBot/1.0; +https://cyrustyj.xyz)"
 REQUEST_TIMEOUT = 20
 MAX_ITEMS = 80
 PER_SOURCE_LIMIT = 15
+TRANSLATION_TIMEOUT_SECONDS = 8
+TRANSLATION_FAILURE_LIMIT = 5
 
 DEFAULT_D1_DATABASE_NAME = "cyrus-ai-news"
 D1_DATABASE_NAME_ENV = "D1_DATABASE_NAME"
@@ -237,6 +240,10 @@ CN_POINTS_RE = re.compile(r"积分\s*[:：]?\s*(\d+)")
 CN_COMMENTS_RE = re.compile(r"评论\s*[:：]?\s*(\d+)")
 
 
+def _translation_timeout_handler(signum: int, frame: Any) -> None:
+    raise TimeoutError("translation timed out")
+
+
 def load_sources() -> list[dict[str, Any]]:
     return json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
 
@@ -389,7 +396,26 @@ def has_cjk(text: str) -> bool:
     return bool(CJK_RE.search(text or ""))
 
 
-def translate_to_zh(text: str, translator: GoogleTranslator | None, cache: dict[str, str]) -> tuple[str, bool]:
+def translate_via_service(text: str, translator: GoogleTranslator) -> str:
+    if hasattr(signal, "SIGALRM") and hasattr(signal, "setitimer"):
+        previous_handler = signal.getsignal(signal.SIGALRM)
+        try:
+            signal.signal(signal.SIGALRM, _translation_timeout_handler)
+            signal.setitimer(signal.ITIMER_REAL, TRANSLATION_TIMEOUT_SECONDS)
+            return translator.translate(text)
+        finally:
+            signal.setitimer(signal.ITIMER_REAL, 0)
+            signal.signal(signal.SIGALRM, previous_handler)
+
+    return translator.translate(text)
+
+
+def translate_to_zh(
+    text: str,
+    translator: GoogleTranslator | None,
+    cache: dict[str, str],
+    state: dict[str, Any],
+) -> tuple[str, bool]:
     stripped = (text or "").strip()
     if not stripped:
         return "", False
@@ -402,12 +428,20 @@ def translate_to_zh(text: str, translator: GoogleTranslator | None, cache: dict[
         translated = cache[key]
         return translated, translated.strip() != stripped
 
-    if translator is None:
+    if translator is None or state.get("disabled"):
         return stripped, False
 
     try:
-        translated = translator.translate(stripped)
-    except Exception:
+        translated = translate_via_service(stripped, translator)
+        state["failures"] = 0
+    except Exception as exc:
+        failures = int(state.get("failures", 0)) + 1
+        state["failures"] = failures
+        if failures >= TRANSLATION_FAILURE_LIMIT and not state.get("disabled"):
+            state["disabled"] = True
+            print(
+                f"[WARN] translation disabled after {failures} failures: {type(exc).__name__}: {exc}"
+            )
         translated = stripped
 
     translated = (translated or stripped).strip()
@@ -420,6 +454,7 @@ def normalize_item(
     entry: Any,
     translator: GoogleTranslator | None,
     translation_cache: dict[str, str],
+    translation_state: dict[str, Any],
 ) -> dict[str, Any] | None:
     title_raw = strip_html(getattr(entry, "title", ""))
     if not title_raw:
@@ -443,8 +478,8 @@ def normalize_item(
     summary_original = shorten(summary_raw or title_raw, 190)
 
     if source["region"] == "海外":
-        title_zh, title_changed = translate_to_zh(title_original, translator, translation_cache)
-        summary_zh, summary_changed = translate_to_zh(summary_original, translator, translation_cache)
+        title_zh, title_changed = translate_to_zh(title_original, translator, translation_cache, translation_state)
+        summary_zh, summary_changed = translate_to_zh(summary_original, translator, translation_cache, translation_state)
         has_translation = title_changed or summary_changed
     else:
         title_zh = title_original
@@ -475,6 +510,7 @@ def fetch_feed(
     source: dict[str, Any],
     translator: GoogleTranslator | None,
     translation_cache: dict[str, str],
+    translation_state: dict[str, Any],
 ) -> list[dict[str, Any]]:
     url = source["url"]
     headers = {
@@ -497,7 +533,7 @@ def fetch_feed(
 
     normalized: list[dict[str, Any]] = []
     for entry in parsed.entries[: PER_SOURCE_LIMIT * 3]:
-        item = normalize_item(source, entry, translator, translation_cache)
+        item = normalize_item(source, entry, translator, translation_cache, translation_state)
         if item:
             normalized.append(item)
             if len(normalized) >= PER_SOURCE_LIMIT:
@@ -524,6 +560,7 @@ def dedupe_and_sort(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
 def build_news() -> tuple[dict[str, Any], dict[str, str]]:
     sources = load_sources()
     translation_cache = load_translation_cache()
+    translation_state: dict[str, Any] = {"failures": 0, "disabled": False}
 
     translator: GoogleTranslator | None
     try:
@@ -533,7 +570,7 @@ def build_news() -> tuple[dict[str, Any], dict[str, str]]:
 
     items: list[dict[str, Any]] = []
     for source in sources:
-        items.extend(fetch_feed(source, translator, translation_cache))
+        items.extend(fetch_feed(source, translator, translation_cache, translation_state))
 
     merged = dedupe_and_sort(items)
     now = dt.datetime.now(tz=dt.timezone.utc)

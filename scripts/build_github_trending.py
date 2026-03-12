@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import os
+import signal
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -30,6 +31,8 @@ DEFAULT_TIMEOUT = 20
 MIN_STARS = 1000
 MAX_ITEMS = 80
 PER_PAGE = 30
+TRANSLATION_TIMEOUT_SECONDS = 8
+TRANSLATION_FAILURE_LIMIT = 5
 
 SEARCH_QUERIES = [
     "ai agent",
@@ -46,9 +49,14 @@ STAGE_UPSTREAM = {"research", "paper", "benchmark", "training", "dataset", "mode
 STAGE_DOWNSTREAM = {"app", "tool", "workflow", "automation", "deploy", "production", "saas", "cli", "sdk"}
 
 
+def _translation_timeout_handler(signum: int, frame: Any) -> None:
+    raise TimeoutError("translation timed out")
+
+
 def main() -> int:
     token = os.getenv("GITHUB_TOKEN", "").strip()
     translator, cache = init_translator()
+    translation_state = {"failures": 0, "disabled": False}
 
     print(f"[github-trending] starting, token={'yes' if token else 'no'}, queries={len(SEARCH_QUERIES)}")
 
@@ -68,7 +76,7 @@ def main() -> int:
 
     items = []
     for repo in all_repos.values():
-        item = normalize_repo(repo, translator, cache)
+        item = normalize_repo(repo, translator, cache, translation_state)
         if item:
             items.append(item)
 
@@ -121,7 +129,12 @@ def search_github(query: str, token: str) -> list[dict[str, Any]]:
     return []
 
 
-def normalize_repo(repo: dict[str, Any], translator: Any, cache: dict[str, str]) -> dict[str, Any] | None:
+def normalize_repo(
+    repo: dict[str, Any],
+    translator: Any,
+    cache: dict[str, str],
+    translation_state: dict[str, Any],
+) -> dict[str, Any] | None:
     full_name = safe_text(repo.get("full_name", ""))
     if not full_name:
         return None
@@ -141,7 +154,7 @@ def normalize_repo(repo: dict[str, Any], translator: Any, cache: dict[str, str])
     pushed_at = safe_text(repo.get("pushed_at", ""))
     html_url = safe_text(repo.get("html_url", ""))
 
-    desc_zh = translate_text(desc_original, translator, cache) if desc_original else ""
+    desc_zh = translate_text(desc_original, translator, cache, translation_state) if desc_original else ""
     has_translation = bool(desc_zh and desc_zh != desc_original)
 
     stage = infer_stage(topics, desc_original)
@@ -213,8 +226,22 @@ def init_translator() -> tuple[Any, dict[str, str]]:
         return None, cache
 
 
-def translate_text(text: str, translator: Any, cache: dict[str, str]) -> str:
-    if not text or not translator:
+def translate_via_service(text: str, translator: Any) -> str:
+    if hasattr(signal, "SIGALRM") and hasattr(signal, "setitimer"):
+        previous_handler = signal.getsignal(signal.SIGALRM)
+        try:
+            signal.signal(signal.SIGALRM, _translation_timeout_handler)
+            signal.setitimer(signal.ITIMER_REAL, TRANSLATION_TIMEOUT_SECONDS)
+            return translator.translate(text)
+        finally:
+            signal.setitimer(signal.ITIMER_REAL, 0)
+            signal.signal(signal.SIGALRM, previous_handler)
+
+    return translator.translate(text)
+
+
+def translate_text(text: str, translator: Any, cache: dict[str, str], translation_state: dict[str, Any]) -> str:
+    if not text or not translator or translation_state.get("disabled"):
         return text
     if has_cjk(text):
         return text
@@ -224,12 +251,22 @@ def translate_text(text: str, translator: Any, cache: dict[str, str]) -> str:
         return cache[cache_key]
 
     try:
-        result = translator.translate(text)
+        result = translate_via_service(text, translator)
+        translation_state["failures"] = 0
         if result:
             cache[cache_key] = result
             return result
     except Exception as err:
-        print(f"[github-trending] translate error: {err}", file=sys.stderr)
+        failures = int(translation_state.get("failures", 0)) + 1
+        translation_state["failures"] = failures
+        if failures >= TRANSLATION_FAILURE_LIMIT and not translation_state.get("disabled"):
+            translation_state["disabled"] = True
+            print(
+                f"[github-trending] translation disabled after {failures} failures: {type(err).__name__}: {err}",
+                file=sys.stderr,
+            )
+        else:
+            print(f"[github-trending] translate error: {err}", file=sys.stderr)
     return text
 
 
