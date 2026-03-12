@@ -1,5 +1,5 @@
 const CACHE_CONTROL = "public, max-age=300";
-const CACHE_KEY_PATH = "/api/digest";
+const CACHE_KEY_PATH = "/api/digest:v2";
 const REMOTE_DIGEST_URL =
   "https://raw.githubusercontent.com/cyrus-tt/cyrus-ai-learning-notes/main/data/news_digest.json";
 const LOCAL_FALLBACK_PATH = "/data/news_digest.json";
@@ -25,17 +25,20 @@ export async function onRequest(context) {
     return cached;
   }
 
-  const remotePayload = await fetchDigestPayload(REMOTE_DIGEST_URL, { cacheTtl: 300 });
-  if (remotePayload) {
-    const response = json(remotePayload, 200, CACHE_CONTROL, "github-raw");
-    await cache.put(cacheKey, response.clone());
-    return response;
-  }
-
   const localUrl = new URL(LOCAL_FALLBACK_PATH, request.url).toString();
-  const fallbackPayload = await fetchDigestPayload(localUrl, { cacheTtl: 60 });
-  if (fallbackPayload) {
-    const response = json(fallbackPayload, 200, "public, max-age=60", "local-fallback");
+  const [remotePayload, localPayload] = await Promise.all([
+    fetchDigestPayload(REMOTE_DIGEST_URL, { cacheTtl: 300 }),
+    fetchDigestPayload(localUrl, { cacheTtl: 60 })
+  ]);
+
+  const preferredPayload = pickPreferredPayload(remotePayload, localPayload);
+  if (preferredPayload) {
+    const response = json(
+      preferredPayload.payload,
+      200,
+      preferredPayload.cacheControl,
+      preferredPayload.source
+    );
     await cache.put(cacheKey, response.clone());
     return response;
   }
@@ -101,4 +104,47 @@ function json(body, status, cacheControl, source) {
       "x-digest-source": source
     }
   });
+}
+
+function pickPreferredPayload(remotePayload, localPayload) {
+  if (localPayload && remotePayload) {
+    const localTime = timestampOf(localPayload.generatedAt);
+    const remoteTime = timestampOf(remotePayload.generatedAt);
+    if (localTime >= remoteTime) {
+      return {
+        payload: localPayload,
+        cacheControl: "public, max-age=60",
+        source: "local-fresh"
+      };
+    }
+
+    return {
+      payload: remotePayload,
+      cacheControl: CACHE_CONTROL,
+      source: "github-raw"
+    };
+  }
+
+  if (localPayload) {
+    return {
+      payload: localPayload,
+      cacheControl: "public, max-age=60",
+      source: "local-fallback"
+    };
+  }
+
+  if (remotePayload) {
+    return {
+      payload: remotePayload,
+      cacheControl: CACHE_CONTROL,
+      source: "github-raw"
+    };
+  }
+
+  return null;
+}
+
+function timestampOf(value) {
+  const ts = Date.parse(String(value || ""));
+  return Number.isFinite(ts) ? ts : 0;
 }
