@@ -99,13 +99,24 @@ async function handleGoogleCredential(response) {
       authState.user = result.user;
       updateAuthUI();
       notifyAuthChange();
+      if (window.ErrorHandler) {
+        window.ErrorHandler.success("登录成功");
+      }
     } else {
       console.error("[auth] Login failed:", result?.error);
-      alert("登录失败，请稍后再试");
+      if (window.ErrorHandler) {
+        window.ErrorHandler.handleAuthError(result?.error);
+      } else {
+        alert("登录失败，请稍后再试");
+      }
     }
   } catch (err) {
     console.error("[auth] Login error:", err);
-    alert("登录失败，请检查网络连接");
+    if (window.ErrorHandler) {
+      window.ErrorHandler.handleAuthError(err);
+    } else {
+      alert("登录失败，请检查网络连接");
+    }
   }
 }
 

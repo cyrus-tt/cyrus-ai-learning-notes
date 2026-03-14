@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>优化示例 | Cyrus的AI学习笔记</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./js/components/components.css" />
+    <style>
+      .demo-section {
+        margin: 40px 0;
+        padding: 30px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .demo-section h2 {
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .demo-buttons {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .demo-btn {
+        padding: 10px 20px;
+        background: #667eea;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: all 0.3s;
+      }
+
+      .demo-btn:hover {
+        background: #5568d3;
+        transform: translateY(-2px);
+      }
+
+      .demo-btn.secondary {
+        background: #4facfe;
+      }
+
+      .demo-btn.secondary:hover {
+        background: #3a9ae8;
+      }
+
+      .demo-content {
+        margin-top: 20px;
+        padding: 20px;
+        background: #f9f9f9;
+        border-radius: 8px;
+        min-height: 200px;
+        position: relative;
+      }
+
+      .code-block {
+        background: #2d2d2d;
+        color: #f8f8f2;
+        padding: 16px;
+        border-radius: 8px;
+        overflow-x: auto;
+        font-family: 'Monaco', 'Menlo', monospace;
+        font-size: 13px;
+        line-height: 1.6;
+        margin: 16px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/">Cyrus的AI学习笔记</a>
+        <nav class="top-nav">
+          <a href="/news.html">AI资讯</a>
+          <a href="/resources.html">AI干货</a>
+          <a href="/">返回首页</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap page-main">
+      <section class="hero">
+        <p class="eyebrow">前端优化示例</p>
+        <h1>新增组件演示</h1>
+        <p class="hero-copy">
+          展示新增的 Toast 通知、Loading 状态、工具函数等组件的使用方法
+        </p>
+      </section>
+
+      <!-- Toast 通知演示 -->
+      <section class="demo-section">
+        <h2>📢 Toast 通知</h2>
+        <p>替代 alert()，提供更好的用户体验</p>
+
+        <div class="demo-buttons">
+          <button class="demo-btn" onclick="demoToast('success')">成功提示</button>
+          <button class="demo-btn" onclick="demoToast('error')">错误提示</button>
+          <button class="demo-btn" onclick="demoToast('warning')">警告提示</button>
+          <button class="demo-btn" onclick="demoToast('info')">信息提示</button>
+        </div>
+
+        <div class="code-block">
+// 使用方法
+ErrorHandler.success('操作成功');
+ErrorHandler.show('自定义消息', 'error');
+ErrorHandler.handleApiError(error, '获取数据');
+        </div>
+      </section>
+
+      <!-- Loading 状态演示 -->
+      <section class="demo-section">
+        <h2>⏳ Loading 状态</h2>
+        <p>全局和局部 Loading，支持骨架屏</p>
+
+        <div class="demo-buttons">
+          <button class="demo-btn" onclick="demoGlobalLoading()">全局 Loading</button>
+          <button class="demo-btn secondary" onclick="demoLocalLoading()">局部 Loading</button>
+          <button class="demo-btn secondary" onclick="demoSkeleton()">骨架屏</button>
+        </div>
+
+        <div id="loadingDemo" class="demo-content">
+          <p>点击按钮查看 Loading 效果</p>
+        </div>
+
+        <div class="code-block">
+// 全局 Loading
+LoadingManager.showGlobal('加载中...');
+LoadingManager.hideGlobal();
+
+// 局部 Loading
+const loader = LoadingManager.show(element, 'medium');
+LoadingManager.hide(loader);
+
+// 骨架屏
+LoadingManager.showSkeleton(element, 'card');
+        </div>
+      </section>
+
+      <!-- 工具函数演示 -->
+      <section class="demo-section">
+        <h2>🛠️ 工具函数</h2>
+        <p>防抖、节流、日期格式化等常用工具</p>
+
+        <div class="demo-buttons">
+          <button class="demo-btn" onclick="demoDebounce()">防抖测试</button>
+          <button class="demo-btn" onclick="demoThrottle()">节流测试</button>
+          <button class="demo-btn secondary" onclick="demoDateFormat()">日期格式化</button>
+          <button class="demo-btn secondary" onclick="demoCopy()">复制文本</button>
+        </div>
+
+        <div id="utilsDemo" class="demo-content">
+          <p>点击按钮查看工具函数效果</p>
+        </div>
+
+        <div class="code-block">
+// 防抖
+const debouncedSearch = Utils.debounce((query) => {
+  console.log('搜索:', query);
+}, 300);
+
+// 节流
+const throttledScroll = Utils.throttle(() => {
+  console.log('滚动事件');
+}, 300);
+
+// 日期格式化
+Utils.formatDate(new Date(), 'YYYY-MM-DD HH:mm:ss');
+Utils.timeAgo('2026-03-14T10:00:00');
+
+// 复制到剪贴板
+await Utils.copyToClipboard('要复制的文本');
+        </div>
+      </section>
+
+      <!-- 性能优化建议 -->
+      <section class="demo-section">
+        <h2>⚡ 性能优化建议</h2>
+        <ul style="line-height: 2; color: #666;">
+          <li>✅ 使用 Toast 替代 alert()，避免阻塞用户操作</li>
+          <li>✅ API 请求时显示 Loading 状态，提升用户体验</li>
+          <li>✅ 搜索、滚动等高频操作使用防抖/节流</li>
+          <li>✅ 大列表使用骨架屏，减少白屏时间</li>
+          <li>✅ 图片添加 loading="lazy" 属性</li>
+          <li>✅ 避免在循环中进行 DOM 操作</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>© 2026 Cyrus的AI学习笔记</p>
+        <div class="footer-links">
+          <a href="/">首页</a>
+          <a href="/news.html">AI资讯</a>
+          <a href="/resources.html">AI干货</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./ui.js"></script>
+    <script src="./js/components/error-handler.js"></script>
+    <script src="./js/components/loading.js"></script>
+    <script src="./js/components/utils.js"></script>
+
+    <script>
+      // Toast 演示
+      function demoToast(type) {
+        const messages = {
+          success: '操作成功！',
+          error: '操作失败，请重试',
+          warning: '请注意检查输入',
+          info: '这是一条提示信息'
+        };
+        ErrorHandler.show(messages[type], type);
+      }
+
+      // 全局 Loading 演示
+      function demoGlobalLoading() {
+        LoadingManager.showGlobal('正在加载数据...');
+        setTimeout(() => {
+          LoadingManager.hideGlobal();
+          ErrorHandler.success('加载完成');
+        }, 2000);
+      }
+
+      // 局部 Loading 演示
+      function demoLocalLoading() {
+        const target = document.getElementById('loadingDemo');
+        const loader = LoadingManager.show(target, 'medium');
+
+        setTimeout(() => {
+          LoadingManager.hide(loader);
+          target.innerHTML = '<p style="color: #43e97b;">✓ 局部加载完成</p>';
+        }, 2000);
+      }
+
+      // 骨架屏演示
+      function demoSkeleton() {
+        const target = document.getElementById('loadingDemo');
+        LoadingManager.showSkeleton(target, 'card');
+
+        setTimeout(() => {
+          target.innerHTML = `
+            <div style="padding: 20px; background: white; border-radius: 8px;">
+              <h3 style="margin-bottom: 12px;">示例卡片</h3>
+              <p style="color: #666;">这是加载完成后的内容</p>
+            </div>
+          `;
+        }, 2000);
+      }
+
+      // 防抖演示
+      let debounceCount = 0;
+      const debouncedFunc = Utils.debounce(() => {
+        const target = document.getElementById('utilsDemo');
+        target.innerHTML = `<p style="color: #667eea;">防抖函数执行了 ${++debounceCount} 次</p>`;
+      }, 500);
+
+      function demoDebounce() {
+        debouncedFunc();
+        ErrorHandler.info('快速点击只会执行最后一次');
+      }
+
+      // 节流演示
+      let throttleCount = 0;
+      const throttledFunc = Utils.throttle(() => {
+        const target = document.getElementById('utilsDemo');
+        target.innerHTML = `<p style="color: #4facfe;">节流函数执行了 ${++throttleCount} 次</p>`;
+      }, 1000);
+
+      function demoThrottle() {
+        throttledFunc();
+        ErrorHandler.info('1秒内只能执行一次');
+      }
+
+      // 日期格式化演示
+      function demoDateFormat() {
+        const now = new Date();
+        const formatted = Utils.formatDate(now, 'YYYY-MM-DD HH:mm:ss');
+        const ago = Utils.timeAgo(new Date(Date.now() - 3600000));
+
+        const target = document.getElementById('utilsDemo');
+        target.innerHTML = `
+          <p><strong>当前时间：</strong>${formatted}</p>
+          <p><strong>相对时间：</strong>${ago}</p>
+        `;
+      }
+
+      // 复制演示
+      async function demoCopy() {
+        const text = '这是要复制的文本内容';
+        const success = await Utils.copyToClipboard(text);
+
+        if (success) {
+          ErrorHandler.success('已复制到剪贴板');
+        } else {
+          ErrorHandler.error('复制失败');
+        }
+      }
+    </script>
+  </body>
+</html>
