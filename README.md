@@ -174,9 +174,15 @@ python3 scripts/build_yt_watchlist.py
 
 ### 本机定时任务（可选）
 
-- 若你在本机配置了 crontab，可设置每天 `09:00`、`21:00` 自动执行抓取并部署到 Cloudflare Pages
+- 推荐使用安装脚本写入 crontab（默认每天 `09:00`、`21:00`）：
+
+```bash
+./scripts/install_news_cron.sh
+```
+
+- 该脚本默认把日志写到 `~/Library/Logs/cyrus-ai-news-cron.log`，避免在 macOS cron 下写外置盘路径时报 `Operation not permitted`
 - 查看任务：`crontab -l`
-- 查看日志：`tail -n 100 logs/news-cron.log`
+- 查看日志：`tail -n 100 ~/Library/Logs/cyrus-ai-news-cron.log`
 
 ### 改 AI干货内容
 

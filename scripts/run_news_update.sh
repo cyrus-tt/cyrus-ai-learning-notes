@@ -4,6 +4,26 @@ set -euo pipefail
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$PROJECT_DIR"
 
+resolve_default_log_file() {
+  local home_dir="${HOME:-}"
+  if [ -n "$home_dir" ] && [ -d "$home_dir" ]; then
+    echo "$home_dir/Library/Logs/cyrus-ai-news-cron.log"
+    return 0
+  fi
+
+  echo "/tmp/cyrus-ai-news-cron.log"
+}
+
+NEWS_CRON_LOG_FILE="${NEWS_CRON_LOG_FILE:-$(resolve_default_log_file)}"
+if [ ! -t 1 ]; then
+  mkdir -p "$(dirname "$NEWS_CRON_LOG_FILE")" >/dev/null 2>&1 || true
+  if touch "$NEWS_CRON_LOG_FILE" >/dev/null 2>&1; then
+    exec >>"$NEWS_CRON_LOG_FILE" 2>&1
+  fi
+fi
+
+echo "[$(date '+%Y-%m-%d %H:%M:%S %z')] [news-update] start"
+
 load_secret() {
   security find-generic-password -a "$USER" -s "$1" -w 2>/dev/null || true
 }
@@ -97,6 +117,7 @@ run_optional_step "YouTube watchlist build" "$PYTHON_BIN" "$PROJECT_DIR/scripts/
 
 if [ "${SKIP_DEPLOY:-0}" = "1" ]; then
   echo "Skip deploy: SKIP_DEPLOY=1"
+  echo "[$(date '+%Y-%m-%d %H:%M:%S %z')] [news-update] done"
   exit 0
 fi
 
@@ -107,3 +128,4 @@ if [ -z "$WRANGLER_BIN" ]; then
 fi
 
 "$WRANGLER_BIN" pages deploy "$PROJECT_DIR" --project-name cyrus-ai-notes --commit-dirty=true
+echo "[$(date '+%Y-%m-%d %H:%M:%S %z')] [news-update] done"
