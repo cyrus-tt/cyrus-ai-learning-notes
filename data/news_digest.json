@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T12:37:52.375856+00:00",
+  "generatedAt": "2026-03-16T12:54:44.347786+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-03-16",
@@ -197,30 +197,6 @@
       },
       {
         "rank": 9,
-        "title": "Show HN：AI 代理自主使用 BoTorch 预测 CFPB 执法行动",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-03-16T11:25:57+00:00",
-        "sourceUrl": "https://github.com/sign-of-fourier/cfpb-complaint-enforcement",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "为 Perplexity Max 分配了一项任务：根据公众投诉数据预测 CFPB 的执法行动。没有告诉它有关 BoTorch 的任何信息 - 它找到了存储库，选择了 MixedSingleTaskGP，运行了 48 BO 与 48 r…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
         "title": "[D] 如何在多个数据集上并行化深度学习神经网络的最优参数搜索？",
         "platform": "Reddit",
         "aiScore": 88,
@@ -241,11 +217,35 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 10,
+        "title": "补齐AI板块核心拼图，网络基建「卖铲人」飞速创新登陆港交所",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-03-16T06:24:43+00:00",
+        "sourceUrl": "https://36kr.com/p/3725233182062982?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "继2025年港交所重现“IPO大年”（全年117家公司上市，募资总额达2869亿港元，同比大增200%）之后，2026年的港股上市潮仍在强势延续年内已有28家企业成功IPO，募资总额逼近千亿大关。 值得注意的是，今年港股IPO的含“AI”量极高。不仅有MiniMax、智谱等大模型独角兽接连登陆，壁仞科技、天数智芯等算力巨头也相继入局。而在3月13日，港股AI资产池再添核心资产…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "metrics": {
-      "totalItems": 54,
-      "avgScore": 75.7,
+      "totalItems": 55,
+      "avgScore": 75.2,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -280,14 +280,14 @@
         },
         {
           "name": "Agent",
-          "count": 11
-        },
-        {
-          "name": "开源生态",
-          "count": 8
+          "count": 9
         },
         {
           "name": "应用落地",
+          "count": 8
+        },
+        {
+          "name": "开源生态",
           "count": 7
         },
         {
@@ -299,13 +299,13 @@
           "count": 5
         },
         {
-          "name": "自动化",
-          "count": 3
+          "name": "安全治理",
+          "count": 4
         }
       ]
     },
     "briefing": [
-      "今日共收录 54 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 55 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / 模型进展 / Agent",
       "最高分事件：地平线芯片负责人将离职，公司走向软硬一体架构｜36氪独家（95 分）",
       "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -508,30 +508,6 @@
         },
         {
           "rank": 9,
-          "title": "Show HN：AI 代理自主使用 BoTorch 预测 CFPB 执法行动",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-03-16T11:25:57+00:00",
-          "sourceUrl": "https://github.com/sign-of-fourier/cfpb-complaint-enforcement",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "为 Perplexity Max 分配了一项任务：根据公众投诉数据预测 CFPB 的执法行动。没有告诉它有关 BoTorch 的任何信息 - 它找到了存储库，选择了 MixedSingleTaskGP，运行了 48 BO 与 48 r…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
           "title": "[D] 如何在多个数据集上并行化深度学习神经网络的最优参数搜索？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -552,11 +528,35 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 10,
+          "title": "补齐AI板块核心拼图，网络基建「卖铲人」飞速创新登陆港交所",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-03-16T06:24:43+00:00",
+          "sourceUrl": "https://36kr.com/p/3725233182062982?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "继2025年港交所重现“IPO大年”（全年117家公司上市，募资总额达2869亿港元，同比大增200%）之后，2026年的港股上市潮仍在强势延续年内已有28家企业成功IPO，募资总额逼近千亿大关。 值得注意的是，今年港股IPO的含“AI”量极高。不仅有MiniMax、智谱等大模型独角兽接连登陆，壁仞科技、天数智芯等算力巨头也相继入局。而在3月13日，港股AI资产池再添核心资产…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "metrics": {
-        "totalItems": 54,
-        "avgScore": 75.7,
+        "totalItems": 55,
+        "avgScore": 75.2,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -591,14 +591,14 @@
           },
           {
             "name": "Agent",
-            "count": 11
-          },
-          {
-            "name": "开源生态",
-            "count": 8
+            "count": 9
           },
           {
             "name": "应用落地",
+            "count": 8
+          },
+          {
+            "name": "开源生态",
             "count": 7
           },
           {
@@ -610,13 +610,13 @@
             "count": 5
           },
           {
-            "name": "自动化",
-            "count": 3
+            "name": "安全治理",
+            "count": 4
           }
         ]
       },
       "briefing": [
-        "今日共收录 54 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 55 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / 模型进展 / Agent",
         "最高分事件：地平线芯片负责人将离职，公司走向软硬一体架构｜36氪独家（95 分）",
         "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -2184,17 +2184,17 @@
     },
     "metrics": {
       "daysCovered": 1,
-      "totalItems": 54,
+      "totalItems": 55,
       "avgTop10Score": 90.4,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Hacker News",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Reddit",
@@ -2216,22 +2216,22 @@
         },
         {
           "name": "芯片算力",
-          "count": 5
+          "count": 6
         },
         {
           "name": "Agent",
-          "count": 5
-        },
-        {
-          "name": "开源生态",
-          "count": 3
+          "count": 4
         },
         {
           "name": "应用落地",
-          "count": 2
+          "count": 3
         },
         {
           "name": "投融资",
+          "count": 2
+        },
+        {
+          "name": "开源生态",
           "count": 2
         }
       ]
@@ -2429,30 +2429,6 @@
       },
       {
         "rank": 9,
-        "title": "Show HN：AI 代理自主使用 BoTorch 预测 CFPB 执法行动",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-03-16T11:25:57+00:00",
-        "sourceUrl": "https://github.com/sign-of-fourier/cfpb-complaint-enforcement",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "为 Perplexity Max 分配了一项任务：根据公众投诉数据预测 CFPB 的执法行动。没有告诉它有关 BoTorch 的任何信息 - 它找到了存储库，选择了 MixedSingleTaskGP，运行了 48 BO 与 48 r…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
         "title": "[D] 如何在多个数据集上并行化深度学习神经网络的最优参数搜索？",
         "platform": "Reddit",
         "aiScore": 88,
@@ -2473,10 +2449,34 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 10,
+        "title": "补齐AI板块核心拼图，网络基建「卖铲人」飞速创新登陆港交所",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-03-16T06:24:43+00:00",
+        "sourceUrl": "https://36kr.com/p/3725233182062982?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "继2025年港交所重现“IPO大年”（全年117家公司上市，募资总额达2869亿港元，同比大增200%）之后，2026年的港股上市潮仍在强势延续年内已有28家企业成功IPO，募资总额逼近千亿大关。 值得注意的是，今年港股IPO的含“AI”量极高。不仅有MiniMax、智谱等大模型独角兽接连登陆，壁仞科技、天数智芯等算力巨头也相继入局。而在3月13日，港股AI资产池再添核心资产…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "briefing": [
-      "3月第3周累计收录 54 条资讯，覆盖 1 天。",
+      "3月第3周累计收录 55 条资讯，覆盖 1 天。",
       "高频主题：模型进展 / 芯片算力 / Agent",
       "本周最高分：地平线芯片负责人将离职，公司走向软硬一体架构｜36氪独家（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -2492,17 +2492,17 @@
       },
       "metrics": {
         "daysCovered": 1,
-        "totalItems": 54,
+        "totalItems": 55,
         "avgTop10Score": 90.4,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 3
+            "count": 4
           },
           {
             "name": "Hacker News",
-            "count": 3
+            "count": 2
           },
           {
             "name": "Reddit",
@@ -2524,22 +2524,22 @@
           },
           {
             "name": "芯片算力",
-            "count": 5
+            "count": 6
           },
           {
             "name": "Agent",
-            "count": 5
-          },
-          {
-            "name": "开源生态",
-            "count": 3
+            "count": 4
           },
           {
             "name": "应用落地",
-            "count": 2
+            "count": 3
           },
           {
             "name": "投融资",
+            "count": 2
+          },
+          {
+            "name": "开源生态",
             "count": 2
           }
         ]
@@ -2737,30 +2737,6 @@
         },
         {
           "rank": 9,
-          "title": "Show HN：AI 代理自主使用 BoTorch 预测 CFPB 执法行动",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-03-16T11:25:57+00:00",
-          "sourceUrl": "https://github.com/sign-of-fourier/cfpb-complaint-enforcement",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "为 Perplexity Max 分配了一项任务：根据公众投诉数据预测 CFPB 的执法行动。没有告诉它有关 BoTorch 的任何信息 - 它找到了存储库，选择了 MixedSingleTaskGP，运行了 48 BO 与 48 r…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
           "title": "[D] 如何在多个数据集上并行化深度学习神经网络的最优参数搜索？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -2781,10 +2757,34 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 10,
+          "title": "补齐AI板块核心拼图，网络基建「卖铲人」飞速创新登陆港交所",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-03-16T06:24:43+00:00",
+          "sourceUrl": "https://36kr.com/p/3725233182062982?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "继2025年港交所重现“IPO大年”（全年117家公司上市，募资总额达2869亿港元，同比大增200%）之后，2026年的港股上市潮仍在强势延续年内已有28家企业成功IPO，募资总额逼近千亿大关。 值得注意的是，今年港股IPO的含“AI”量极高。不仅有MiniMax、智谱等大模型独角兽接连登陆，壁仞科技、天数智芯等算力巨头也相继入局。而在3月13日，港股AI资产池再添核心资产…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "3月第3周累计收录 54 条资讯，覆盖 1 天。",
+        "3月第3周累计收录 55 条资讯，覆盖 1 天。",
         "高频主题：模型进展 / 芯片算力 / Agent",
         "本周最高分：地平线芯片负责人将离职，公司走向软硬一体架构｜36氪独家（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
