@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T12:34:22.628829+00:00",
+  "generatedAt": "2026-03-18T14:21:05.495497+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-03-18",
@@ -101,30 +101,127 @@
         }
       },
       {
-        "rank": 8,
-        "title": "腾讯首次公布ima月活：月活超1300万，知识库文件总量达4.2亿",
-        "platform": "36氪",
-        "aiScore": 91,
-        "publishedAt": "2026-03-18T10:53:29+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3728324231478404?f=rss",
-        "sourceName": "36氪",
+        "rank": 10,
+        "title": "[R] 生成人工智能的替代轨迹——普林斯顿大学的一篇愿景论文，主张建立一个由领域专家组成的社会，而不是……",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-03-18T14:16:09+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rx53rj/r_an_alternative_trajectory_for_generative_ai_a/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
+          "模型进展",
           "Agent",
-          "内容生产"
+          "应用落地"
         ],
-        "summary": "36氪获悉，腾讯首次公布ima月活：月活超1300万，知识库文件总量超4.2亿。四季度， ima持续往agent方向升级，实现图文报告、播客、PPT及互动测验等内容形态生成，推出ima skills，支持“龙虾”操作ima笔记、知识库等功能。",
+        "summary": "越大并不总是越好！人工智能的未来可能不再属于单一巨头，而更多地属于特定领域专家的模块化社会。 📄 论文：https://arxiv.org/abs/2603.14147 在我们的......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 16,
+          "authority": 18,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 6,
+        "title": "[D] AI 代理是否缺少“执行授权”层？",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-03-18T14:13:07+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rx50y0/d_are_ai_agents_missing_an_execution/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "最近在尝试自治代理时，我不断遇到一种在分布式系统历史中感觉奇怪熟悉的模式。当前有很多关于代理可靠性的讨论……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "Show HN：Elisym – 人工智能代理相互发现和支付的开放协议",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-03-18T13:57:51+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=47425889",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "嘿 HN，我构建了 elisym——一种开放协议，让人工智能代理能够相互发现、交换工作并自主结算付款。没有平台，没有中间商。工作原理： - 发现 - Ag…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "Show HN：Faramesh – AI 代理的开源运行时实施",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-03-18T13:47:49+00:00",
+        "sourceUrl": "https://faramesh.dev/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "我是布莱恩，Faramesh 的联合创始人。我的联合创始人 Amjad 和我去年写了一篇关于人工智能代理的研究论文，随着我们对代理如何在生产中实际执行的深入了解......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "Show HN：我们构建了 AI 代理，可将抵押贷款处理时间从 18 天减少到 3-5 天",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-03-18T13:21:22+00:00",
+        "sourceUrl": "https://app.simplai.ai/register",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "大多数抵押贷款处理延迟并不是由于风险造成的，而是由于手动工作流程造成的。我们一直致力于 SimplAI，这是一个专为银行和金融服务设计的人工智能驱动系统，从……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
         "title": "当您阅读 Meta 的一份专利申请时，对 Moltbook 的收购就会变得更有意义",
         "platform": "Reddit",
         "aiScore": 88,
@@ -146,107 +243,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 7,
-        "title": "2000万只“龙虾”进入企业，阿里的企业Agent新故事 | 最前线",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-03-18T06:06:36+00:00",
-        "sourceUrl": "https://36kr.com/p/3727395193388161?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "对钉钉创始人无招而言，在 AI 时代顿悟的瞬间并不是 ChatGPT 横空出世，而是早在 2020 年。第一次离开钉钉时，他游历了大半个中国，调研了许许多多不同的城市，之后所想通的事。 “我想明白，AI 时代最颠覆性的变化不是其他，而是使用主体变了。”他看到，在二三线甚至更远的城市，因为互联网使用主体的变化，导致出现了各种各样不一样的应用供给——类似拼多多等应用崛起，就是这个…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "当黄仁勋和吴泳铭喊出同一个英文单词",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-03-18T02:02:18+00:00",
-        "sourceUrl": "https://36kr.com/p/3727806050565251?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "文｜邱晓芬 编辑｜苏建勋 美国旧金山当地时间3月16日，英伟达GTC 2026大会正式开幕。在英伟达创始人兼CEO黄仁勋两个小时慷慨激昂的主题演讲中，贯穿的一个关键词是——Token。 △ 黄仁勋，图源：发布会截图 无独有偶，在GTC 2026的前一天，阿里巴巴宣布成立Token事业群——这是地位与淘天电商、阿里云一般的核心独立事业群。这个新事业群里，阿里也明确了“创造Tok…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "想帮大家做「一人公司」，茉莉语境融资百万美元",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-03-18T01:06:09+00:00",
-        "sourceUrl": "https://36kr.com/p/3727752358919305?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "凌晨三点，自媒体博主阿鱼的第32个小红书账号自动发布了一条笔记：“救命！这个方法我要是早知道至少少加200小时班”。此刻她正在熟睡，而在云端，36只龙虾正在执行一套作战计划：4只幕后龙虾负责抓取热点、拆解爆款、审核违禁词，另外32只前台龙虾各自扮演着“工作3年的互联网运营妹子”“靠副业还清8万房贷的上班族”“8年经验的产品老鸟”等不同人格，在32个垂直账号上同时发声。 三个月…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "8点1氪丨宝宝巴士推送低俗广告被罚30万；山姆客服回应给三文鱼加不可生食标签；360回应“安全龙虾”私钥泄露",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-03-18T00:16:21+00:00",
-        "sourceUrl": "https://36kr.com/p/3727701336833157?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "今日热点导览 美股三大指数集体收涨，36氪涨超37% 韩国首尔市内地铁全线接入微信支付 雷军再回应停售第一代SU7：不想背刺老用户 三星将停售首款三折叠手机Galaxy Z TriFold 黄天鹅创始人回应角黄素争议：每天吃75个黄天鹅蛋才会超标 胖东来169元1克拉方糖戒指再上架，每人限购5枚 TOP3大新闻 儿歌APP跳转成人广告，宝宝巴士被罚30万 据界面新闻：公开资料…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "metrics": {
-      "totalItems": 66,
-      "avgScore": 74.6,
+      "totalItems": 65,
+      "avgScore": 76.1,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -255,11 +256,11 @@
         },
         {
           "name": "Hacker News",
-          "count": 14
+          "count": 15
         },
         {
           "name": "36氪",
-          "count": 11
+          "count": 9
         },
         {
           "name": "量子位",
@@ -272,42 +273,42 @@
       ],
       "topTopics": [
         {
-          "name": "AI动态",
-          "count": 22
+          "name": "模型进展",
+          "count": 28
         },
         {
-          "name": "模型进展",
-          "count": 21
+          "name": "AI动态",
+          "count": 20
         },
         {
           "name": "Agent",
-          "count": 15
+          "count": 18
         },
         {
           "name": "开源生态",
-          "count": 13
-        },
-        {
-          "name": "芯片算力",
-          "count": 11
+          "count": 17
         },
         {
           "name": "应用落地",
-          "count": 6
+          "count": 11
         },
         {
-          "name": "安全治理",
-          "count": 4
+          "name": "芯片算力",
+          "count": 9
         },
         {
           "name": "投融资",
           "count": 4
+        },
+        {
+          "name": "安全治理",
+          "count": 3
         }
       ]
     },
     "briefing": [
-      "今日共收录 66 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
+      "今日共收录 65 条 AI 资讯，Top10 通报见下。",
+      "高频主题：模型进展 / AI动态 / Agent",
       "最高分事件：DLSS 5：Nvidia的AI图形技术是否已经走得太远了？（95 分）",
       "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
@@ -413,30 +414,127 @@
           }
         },
         {
-          "rank": 8,
-          "title": "腾讯首次公布ima月活：月活超1300万，知识库文件总量达4.2亿",
-          "platform": "36氪",
-          "aiScore": 91,
-          "publishedAt": "2026-03-18T10:53:29+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3728324231478404?f=rss",
-          "sourceName": "36氪",
+          "rank": 10,
+          "title": "[R] 生成人工智能的替代轨迹——普林斯顿大学的一篇愿景论文，主张建立一个由领域专家组成的社会，而不是……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-03-18T14:16:09+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rx53rj/r_an_alternative_trajectory_for_generative_ai_a/",
+          "sourceName": "Reddit r/MachineLearning",
           "industryStage": "中游",
           "contentTags": [
+            "模型进展",
             "Agent",
-            "内容生产"
+            "应用落地"
           ],
-          "summary": "36氪获悉，腾讯首次公布ima月活：月活超1300万，知识库文件总量超4.2亿。四季度， ima持续往agent方向升级，实现图文报告、播客、PPT及互动测验等内容形态生成，推出ima skills，支持“龙虾”操作ima笔记、知识库等功能。",
+          "summary": "越大并不总是越好！人工智能的未来可能不再属于单一巨头，而更多地属于特定领域专家的模块化社会。 📄 论文：https://arxiv.org/abs/2603.14147 在我们的......",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 25,
-            "topic": 16,
+            "authority": 18,
+            "topic": 20,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 6,
+          "title": "[D] AI 代理是否缺少“执行授权”层？",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-03-18T14:13:07+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rx50y0/d_are_ai_agents_missing_an_execution/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "最近在尝试自治代理时，我不断遇到一种在分布式系统历史中感觉奇怪熟悉的模式。当前有很多关于代理可靠性的讨论……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Show HN：Elisym – 人工智能代理相互发现和支付的开放协议",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-03-18T13:57:51+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=47425889",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "嘿 HN，我构建了 elisym——一种开放协议，让人工智能代理能够相互发现、交换工作并自主结算付款。没有平台，没有中间商。工作原理： - 发现 - Ag…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Show HN：Faramesh – AI 代理的开源运行时实施",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-03-18T13:47:49+00:00",
+          "sourceUrl": "https://faramesh.dev/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "我是布莱恩，Faramesh 的联合创始人。我的联合创始人 Amjad 和我去年写了一篇关于人工智能代理的研究论文，随着我们对代理如何在生产中实际执行的深入了解......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "Show HN：我们构建了 AI 代理，可将抵押贷款处理时间从 18 天减少到 3-5 天",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-03-18T13:21:22+00:00",
+          "sourceUrl": "https://app.simplai.ai/register",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "大多数抵押贷款处理延迟并不是由于风险造成的，而是由于手动工作流程造成的。我们一直致力于 SimplAI，这是一个专为银行和金融服务设计的人工智能驱动系统，从……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
           "title": "当您阅读 Meta 的一份专利申请时，对 Moltbook 的收购就会变得更有意义",
           "platform": "Reddit",
           "aiScore": 88,
@@ -458,107 +556,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 7,
-          "title": "2000万只“龙虾”进入企业，阿里的企业Agent新故事 | 最前线",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-03-18T06:06:36+00:00",
-          "sourceUrl": "https://36kr.com/p/3727395193388161?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "对钉钉创始人无招而言，在 AI 时代顿悟的瞬间并不是 ChatGPT 横空出世，而是早在 2020 年。第一次离开钉钉时，他游历了大半个中国，调研了许许多多不同的城市，之后所想通的事。 “我想明白，AI 时代最颠覆性的变化不是其他，而是使用主体变了。”他看到，在二三线甚至更远的城市，因为互联网使用主体的变化，导致出现了各种各样不一样的应用供给——类似拼多多等应用崛起，就是这个…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "当黄仁勋和吴泳铭喊出同一个英文单词",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-03-18T02:02:18+00:00",
-          "sourceUrl": "https://36kr.com/p/3727806050565251?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "文｜邱晓芬 编辑｜苏建勋 美国旧金山当地时间3月16日，英伟达GTC 2026大会正式开幕。在英伟达创始人兼CEO黄仁勋两个小时慷慨激昂的主题演讲中，贯穿的一个关键词是——Token。 △ 黄仁勋，图源：发布会截图 无独有偶，在GTC 2026的前一天，阿里巴巴宣布成立Token事业群——这是地位与淘天电商、阿里云一般的核心独立事业群。这个新事业群里，阿里也明确了“创造Tok…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "想帮大家做「一人公司」，茉莉语境融资百万美元",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-03-18T01:06:09+00:00",
-          "sourceUrl": "https://36kr.com/p/3727752358919305?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "凌晨三点，自媒体博主阿鱼的第32个小红书账号自动发布了一条笔记：“救命！这个方法我要是早知道至少少加200小时班”。此刻她正在熟睡，而在云端，36只龙虾正在执行一套作战计划：4只幕后龙虾负责抓取热点、拆解爆款、审核违禁词，另外32只前台龙虾各自扮演着“工作3年的互联网运营妹子”“靠副业还清8万房贷的上班族”“8年经验的产品老鸟”等不同人格，在32个垂直账号上同时发声。 三个月…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "8点1氪丨宝宝巴士推送低俗广告被罚30万；山姆客服回应给三文鱼加不可生食标签；360回应“安全龙虾”私钥泄露",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-03-18T00:16:21+00:00",
-          "sourceUrl": "https://36kr.com/p/3727701336833157?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "今日热点导览 美股三大指数集体收涨，36氪涨超37% 韩国首尔市内地铁全线接入微信支付 雷军再回应停售第一代SU7：不想背刺老用户 三星将停售首款三折叠手机Galaxy Z TriFold 黄天鹅创始人回应角黄素争议：每天吃75个黄天鹅蛋才会超标 胖东来169元1克拉方糖戒指再上架，每人限购5枚 TOP3大新闻 儿歌APP跳转成人广告，宝宝巴士被罚30万 据界面新闻：公开资料…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "metrics": {
-        "totalItems": 66,
-        "avgScore": 74.6,
+        "totalItems": 65,
+        "avgScore": 76.1,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -567,11 +569,11 @@
           },
           {
             "name": "Hacker News",
-            "count": 14
+            "count": 15
           },
           {
             "name": "36氪",
-            "count": 11
+            "count": 9
           },
           {
             "name": "量子位",
@@ -584,42 +586,42 @@
         ],
         "topTopics": [
           {
-            "name": "AI动态",
-            "count": 22
+            "name": "模型进展",
+            "count": 28
           },
           {
-            "name": "模型进展",
-            "count": 21
+            "name": "AI动态",
+            "count": 20
           },
           {
             "name": "Agent",
-            "count": 15
+            "count": 18
           },
           {
             "name": "开源生态",
-            "count": 13
-          },
-          {
-            "name": "芯片算力",
-            "count": 11
+            "count": 17
           },
           {
             "name": "应用落地",
-            "count": 6
+            "count": 11
           },
           {
-            "name": "安全治理",
-            "count": 4
+            "name": "芯片算力",
+            "count": 9
           },
           {
             "name": "投融资",
             "count": 4
+          },
+          {
+            "name": "安全治理",
+            "count": 3
           }
         ]
       },
       "briefing": [
-        "今日共收录 66 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / Agent",
+        "今日共收录 65 条 AI 资讯，Top10 通报见下。",
+        "高频主题：模型进展 / AI动态 / Agent",
         "最高分事件：DLSS 5：Nvidia的AI图形技术是否已经走得太远了？（95 分）",
         "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
@@ -701,7 +703,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "315曝光的“AI投毒”原理：GEO这样操控大模型推荐",
           "platform": "量子位",
           "aiScore": 91,
@@ -724,7 +726,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "据报道 OpenAI 的成人模式将是低俗的，而不是色情的",
           "platform": "The Verge",
           "aiScore": 89,
@@ -2496,13 +2498,13 @@
     },
     "metrics": {
       "daysCovered": 2,
-      "totalItems": 121,
-      "avgTop10Score": 93.2,
+      "totalItems": 120,
+      "avgTop10Score": 92.9,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 7
+          "count": 6
         },
         {
           "name": "The Verge",
@@ -2511,32 +2513,36 @@
         {
           "name": "量子位",
           "count": 1
+        },
+        {
+          "name": "Reddit",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "模型进展",
-          "count": 7
+          "count": 8
         },
         {
           "name": "芯片算力",
           "count": 5
         },
         {
-          "name": "Agent",
+          "name": "应用落地",
           "count": 4
         },
         {
-          "name": "应用落地",
-          "count": 3
+          "name": "Agent",
+          "count": 4
         },
         {
           "name": "投融资",
           "count": 3
         },
         {
-          "name": "内容生产",
-          "count": 2
+          "name": "自动化",
+          "count": 1
         }
       ]
     },
@@ -2710,29 +2716,6 @@
       },
       {
         "rank": 8,
-        "title": "腾讯首次公布ima月活：月活超1300万，知识库文件总量达4.2亿",
-        "platform": "36氪",
-        "aiScore": 91,
-        "publishedAt": "2026-03-18T10:53:29+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3728324231478404?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "内容生产"
-        ],
-        "summary": "36氪获悉，腾讯首次公布ima月活：月活超1300万，知识库文件总量超4.2亿。四季度， ima持续往agent方向升级，实现图文报告、播客、PPT及互动测验等内容形态生成，推出ima skills，支持“龙虾”操作ima笔记、知识库等功能。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 16,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
         "title": "315曝光的“AI投毒”原理：GEO这样操控大模型推荐",
         "platform": "量子位",
         "aiScore": 91,
@@ -2755,7 +2738,7 @@
         }
       },
       {
-        "rank": 10,
+        "rank": 9,
         "title": "据报道 OpenAI 的成人模式将是低俗的，而不是色情的",
         "platform": "The Verge",
         "aiScore": 89,
@@ -2776,11 +2759,35 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 10,
+        "title": "[R] 生成人工智能的替代轨迹——普林斯顿大学的一篇愿景论文，主张建立一个由领域专家组成的社会，而不是……",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-03-18T14:16:09+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rx53rj/r_an_alternative_trajectory_for_generative_ai_a/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "越大并不总是越好！人工智能的未来可能不再属于单一巨头，而更多地属于特定领域专家的模块化社会。 📄 论文：https://arxiv.org/abs/2603.14147 在我们的......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "briefing": [
-      "3月第3周累计收录 121 条资讯，覆盖 2 天。",
-      "高频主题：模型进展 / 芯片算力 / Agent",
+      "3月第3周累计收录 120 条资讯，覆盖 2 天。",
+      "高频主题：模型进展 / 芯片算力 / 应用落地",
       "本周最高分：DLSS 5：Nvidia的AI图形技术是否已经走得太远了？（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
@@ -2795,13 +2802,13 @@
       },
       "metrics": {
         "daysCovered": 2,
-        "totalItems": 121,
-        "avgTop10Score": 93.2,
+        "totalItems": 120,
+        "avgTop10Score": 92.9,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 7
+            "count": 6
           },
           {
             "name": "The Verge",
@@ -2810,32 +2817,36 @@
           {
             "name": "量子位",
             "count": 1
+          },
+          {
+            "name": "Reddit",
+            "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 7
+            "count": 8
           },
           {
             "name": "芯片算力",
             "count": 5
           },
           {
-            "name": "Agent",
+            "name": "应用落地",
             "count": 4
           },
           {
-            "name": "应用落地",
-            "count": 3
+            "name": "Agent",
+            "count": 4
           },
           {
             "name": "投融资",
             "count": 3
           },
           {
-            "name": "内容生产",
-            "count": 2
+            "name": "自动化",
+            "count": 1
           }
         ]
       },
@@ -3009,29 +3020,6 @@
         },
         {
           "rank": 8,
-          "title": "腾讯首次公布ima月活：月活超1300万，知识库文件总量达4.2亿",
-          "platform": "36氪",
-          "aiScore": 91,
-          "publishedAt": "2026-03-18T10:53:29+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3728324231478404?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "内容生产"
-          ],
-          "summary": "36氪获悉，腾讯首次公布ima月活：月活超1300万，知识库文件总量超4.2亿。四季度， ima持续往agent方向升级，实现图文报告、播客、PPT及互动测验等内容形态生成，推出ima skills，支持“龙虾”操作ima笔记、知识库等功能。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
           "title": "315曝光的“AI投毒”原理：GEO这样操控大模型推荐",
           "platform": "量子位",
           "aiScore": 91,
@@ -3054,7 +3042,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "据报道 OpenAI 的成人模式将是低俗的，而不是色情的",
           "platform": "The Verge",
           "aiScore": 89,
@@ -3075,11 +3063,35 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 10,
+          "title": "[R] 生成人工智能的替代轨迹——普林斯顿大学的一篇愿景论文，主张建立一个由领域专家组成的社会，而不是……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-03-18T14:16:09+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rx53rj/r_an_alternative_trajectory_for_generative_ai_a/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "越大并不总是越好！人工智能的未来可能不再属于单一巨头，而更多地属于特定领域专家的模块化社会。 📄 论文：https://arxiv.org/abs/2603.14147 在我们的......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "3月第3周累计收录 121 条资讯，覆盖 2 天。",
-        "高频主题：模型进展 / 芯片算力 / Agent",
+        "3月第3周累计收录 120 条资讯，覆盖 2 天。",
+        "高频主题：模型进展 / 芯片算力 / 应用落地",
         "本周最高分：DLSS 5：Nvidia的AI图形技术是否已经走得太远了？（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
