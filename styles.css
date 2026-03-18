@@ -1,16 +1,16 @@
 :root {
-  --bg: #f9f9fb; 
+  --bg: #f9f9fb;
   --surface: #ffffff;
-  --surface-soft: #f4f4f7; 
-  --surface-glass: rgba(255, 255, 255, 0.85); 
-  --text: #1a1a1c; /* Slightly darker text for better contrast */
-  --text-muted: #626268; /* Slightly darker muted text */
-  --line: #e0e0e5; /* Lighter, subtle line */
-  --line-soft: #eff0f3; /* Softer line */
-  --primary: #0a69c2; /* A deeper, more sophisticated blue */
-  --primary-hover: #0c76d6; /* Lighter for hover */
-  --accent-warm: #fdd883; /* A muted, refined golden hue */
-  --accent-cool: #b0d8ff; /* A softer, airier cool blue */
+  --surface-soft: #f4f4f7;
+  --surface-glass: rgba(255, 255, 255, 0.85);
+  --text: #1a1a1c;
+  --text-muted: #626268;
+  --line: #e0e0e5;
+  --line-soft: #eff0f3;
+  --primary: #0a69c2;
+  --primary-hover: #0c76d6;
+  --accent-warm: #fdd883;
+  --accent-cool: #b0d8ff;
   --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
   --space-2: 2px;
   --space-4: 4px;
@@ -22,9 +22,9 @@
   --radius-xl: 22px;
   --radius-lg: 16px;
   --radius-md: 12px;
-  --shadow-soft: 0 8px 20px rgba(0, 0, 0, 0.05); /* Softer shadow */
-  --shadow-card: 0 12px 28px rgba(0, 0, 0, 0.06); /* Softer card shadow */
-  --title-gradient: linear-gradient(105deg, #0a69c2 0%, #70aaff 50%, #9a8cff 100%); /* Updated gradient with new primary/accent */
+  --shadow-soft: 0 8px 20px rgba(0, 0, 0, 0.05);
+  --shadow-card: 0 12px 28px rgba(0, 0, 0, 0.06);
+  --title-gradient: linear-gradient(105deg, #0a69c2 0%, #70aaff 50%, #9a8cff 100%);
   --font-ui: "Outfit", "Noto Sans SC", "PingFang SC", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
