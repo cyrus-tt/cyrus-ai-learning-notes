@@ -1,16 +1,16 @@
 :root {
-  --bg: #f9f9fb; /* Slightly softer off-white background */
+  --bg: #f9f9fb; 
   --surface: #ffffff;
-  --surface-soft: #f4f4f7; /* Slightly deeper soft surface */
-  --surface-glass: rgba(255, 255, 255, 0.85); /* Slightly less transparent */
+  --surface-soft: #f4f4f7; 
+  --surface-glass: rgba(255, 255, 255, 0.85); 
   --text: #1a1a1c; /* Slightly darker text for better contrast */
   --text-muted: #626268; /* Slightly darker muted text */
-  --line: #ccd5e1;
-  --line-soft: #e3e9f1;
-  --primary: #0b6dff;
-  --primary-hover: #0057d8;
-  --accent-warm: #ffedcf;
-  --accent-cool: #d9ecff;
+  --line: #e0e0e5; /* Lighter, subtle line */
+  --line-soft: #eff0f3; /* Softer line */
+  --primary: #0a69c2; /* A deeper, more sophisticated blue */
+  --primary-hover: #0c76d6; /* Lighter for hover */
+  --accent-warm: #fdd883; /* A muted, refined golden hue */
+  --accent-cool: #b0d8ff; /* A softer, airier cool blue */
   --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
   --space-2: 2px;
   --space-4: 4px;
@@ -22,9 +22,9 @@
   --radius-xl: 22px;
   --radius-lg: 16px;
   --radius-md: 12px;
-  --shadow-soft: 0 10px 24px rgba(6, 30, 66, 0.08);
-  --shadow-card: 0 16px 34px rgba(8, 29, 58, 0.1);
-  --title-gradient: linear-gradient(108deg, #0b6dff 0%, #00a3a3 52%, #ffa227 100%);
+  --shadow-soft: 0 8px 20px rgba(0, 0, 0, 0.05); /* Softer shadow */
+  --shadow-card: 0 12px 28px rgba(0, 0, 0, 0.06); /* Softer card shadow */
+  --title-gradient: linear-gradient(105deg, #0a69c2 0%, #70aaff 50%, #9a8cff 100%); /* Updated gradient with new primary/accent */
   --font-ui: "Outfit", "Noto Sans SC", "PingFang SC", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -161,6 +161,7 @@ body::after {
   top: 0;
   z-index: 30;
   backdrop-filter: saturate(180%) blur(18px);
+  -webkit-backdrop-filter: saturate(180%) blur(18px);
   background: var(--surface-glass);
   border-bottom: 1px solid rgba(20, 32, 51, 0.09);
   transition: border-color 0.24s ease, box-shadow 0.24s ease, background-color 0.24s ease;
@@ -280,6 +281,7 @@ body::after {
   line-height: 1.1;
   max-width: 18ch;
   letter-spacing: -0.024em;
+  text-wrap: balance;
 }
 
 .hero-entry h1 {
@@ -341,6 +343,8 @@ body::after {
   transform-style: preserve-3d;
   transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease, background-color 0.24s ease, filter 0.24s ease;
   will-change: transform;
+  content-visibility: auto;
+  contain-intrinsic-size: 280px;
 }
 
 .entry-card::before {
@@ -387,9 +391,7 @@ body::after {
   display: inline-flex;
   border-radius: 999px;
   padding: 0.15rem 0.56rem;
-  background: rgba(0, 113, 227, 0.08);
   background: color-mix(in srgb, var(--card-accent) 14%, transparent);
-  color: var(--primary);
   color: var(--card-accent);
   font-size: 0.76rem;
   font-weight: 600;
@@ -658,6 +660,7 @@ body::after {
   padding: 0.62rem 1.12rem;
   font-size: 0.92rem;
   font-weight: 600;
+  min-height: 42px;
   transition: transform 0.2s ease, box-shadow 0.22s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
@@ -1186,6 +1189,8 @@ body::after {
   transform: perspective(900px) translateY(var(--lift)) rotateX(var(--ry)) rotateY(var(--rx));
   transform-style: preserve-3d;
   transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
+  content-visibility: auto;
+  contain-intrinsic-size: 420px;
 }
 
 .card::before {
@@ -1227,6 +1232,7 @@ body::after {
   font-size: 1.06rem;
   line-height: 1.36;
   letter-spacing: -0.02em;
+  text-wrap: pretty;
 }
 
 .card-top {
@@ -1522,6 +1528,12 @@ body::after {
   text-decoration: none;
 }
 
+@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+  .site-header {
+    background: rgba(255, 255, 255, 0.96);
+  }
+}
+
 a:focus-visible,
 button:focus-visible,
 input:focus-visible {
@@ -1637,6 +1649,9 @@ input:focus-visible {
 
   .top-nav a {
     white-space: nowrap;
+    min-height: 40px;
+    align-items: center;
+    display: inline-flex;
   }
 
   .hero-entry {
@@ -1662,6 +1677,13 @@ input:focus-visible {
     transform: none;
   }
 
+  body::before,
+  body::after,
+  .bg-aurora,
+  .cursor-glow {
+    display: none;
+  }
+
   .footer-inner {
     flex-direction: column;
     align-items: flex-start;
@@ -1669,6 +1691,19 @@ input:focus-visible {
 
   .visit-stats {
     white-space: normal;
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .entry-card,
+  .card {
+    transform: none !important;
+  }
+
+  .entry-card:hover,
+  .entry-card:focus-visible,
+  .card:hover {
+    --lift: 0px;
   }
 }
 
