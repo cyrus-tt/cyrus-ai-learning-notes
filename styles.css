@@ -284,6 +284,19 @@ body::after {
   text-wrap: balance;
 }
 
+.hero-title-news {
+  max-width: 24ch;
+}
+
+.hero-title-news .title-desktop,
+.hero-title-news .title-mobile {
+  display: block;
+}
+
+.hero-title-news .title-mobile {
+  display: none;
+}
+
 .hero-entry h1 {
   color: #0b1c2b;
   font-size: clamp(2.35rem, 6.1vw, 4.9rem);
@@ -1671,6 +1684,22 @@ input:focus-visible {
 
   .hero-entry {
     padding-top: 2.8rem;
+  }
+
+  .hero-title-news {
+    margin-top: 0.5rem;
+    max-width: 14ch;
+    font-size: clamp(1.4rem, 7.1vw, 1.9rem);
+    line-height: 1.34;
+    letter-spacing: -0.01em;
+  }
+
+  .hero-title-news .title-desktop {
+    display: none;
+  }
+
+  .hero-title-news .title-mobile {
+    display: block;
   }
 
   .entry-grid,
