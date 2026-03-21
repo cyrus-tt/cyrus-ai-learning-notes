@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T03:21:17.697311+00:00",
+  "generatedAt": "2026-03-21T13:41:11.180787+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-03-21",
@@ -7,9 +7,79 @@
     "top10": [
       {
         "rank": 1,
+        "title": "LiblibAI发布AI视频创作平台LibTV",
+        "platform": "36氪",
+        "aiScore": 91,
+        "publishedAt": "2026-03-21T08:35:46+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3732441440665859?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "内容生产"
+        ],
+        "summary": "36氪获悉，近日，LiblibAI正式发布AI视频创作平台LibTV，上线首日访问量突破10万。据了解，LibTV首创双入口模式，一面是专业创作者，另一面是Agent，将其视作“新型用户”，为Agent提供可以直接调度的视频生产能力。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 16,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "[P] 我通过使用 HDC 作为源树的上下文引擎来减少 Claude Code 令牌的使用",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-03-21T12:29:48+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rzq8pm/p_i_cut_my_claude_code_token_usage_by_using_hdc/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "如果您定期运行 Claude Code 或 Kiro，那么您每周可能会在开发过程中燃烧几百万个代币。我一直在构建 HDC（超维计算）平台…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Metacog：本体感觉，而不是另一种记忆 MCP：人工智能代理中跨会话学习强化的不同方法",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-03-21T08:52:09+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rzmlqe/metacog_proprioception_not_yet_another_memory_mcp/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "TL;DR：每个人都在为 AI 编码代理构建内存插件。我不确定执行任务的过时的、过去的记忆是否是该应用程序的正确前进方向。情报有元...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
         "title": "9点1氪：傅盛凌晨开撕周鸿祎称“被欠1个亿”，360回应；字节跳动413亿元卖掉沐瞳科技；伊朗战事持续或致油价升至180美元",
         "platform": "36氪",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-03-21T01:13:44+00:00",
         "sourceUrl": "https://36kr.com/p/3732001538490631?f=rss",
         "sourceName": "36氪",
@@ -22,7 +92,7 @@
         "summary": "今日热点导览 商务部部长王文涛会见苹果公司首席执行官库克 贾国龙起家的西贝首店将缩减一半经营面积 特斯拉计划采购中国光伏设备？企业回应：确有此事 针对“漂白鸡爪”等“3·15”晚会曝光问题，多地立案溯源打击 中国学生平均留学预算超60万 TOP3大新闻 傅盛微信群里开撕周鸿祎称“欠钱不还”，360回应 3月20日，社交媒体流传的截图显示，当天凌晨，猎豹移动董事长兼CEO傅盛在…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -30,10 +100,78 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 5,
+        "title": "[R] 预测俄罗斯方块获胜",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-03-21T08:43:14+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rzmh1a/r_predicting_tetris_wins/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "你好！我和我的朋友开发了 3 个模型，用于根据游戏风格和玩法来预测 Tetr.io 比赛的胜利。我们使用这个数据集：https://www.kaggle.com/datasets/n3koasakura/tetr-io-...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "精准识别「界门纲目科属种」！北大彭宇新团队用细粒度树先验提升泛化，破解生物类别分层识别难题",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-03-21T09:48:18+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/03/390945.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "让生成式模型具备完整类别树认知，迈向通用视觉理解",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "网易云音乐接入OpenClaw",
+        "platform": "36氪",
+        "aiScore": 85,
+        "publishedAt": "2026-03-21T04:51:30+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3732204385501448?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "自动化"
+        ],
+        "summary": "36氪获悉，3月21日，网易云音乐宣布全面接入OpenClaw，并将其音乐推荐、音乐搜索等基础能力封装成一系列标准化CLI（标准接口）及自动化Skill，成为业内首个向AI Agent开放核心音乐服务能力的平台。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 17,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
         "title": "“我的前额叶罢工了”，年轻人争相确诊“网红病”？",
         "platform": "36氪",
-        "aiScore": 92,
+        "aiScore": 85,
         "publishedAt": "2026-03-21T02:51:33+00:00",
         "sourceUrl": "https://36kr.com/p/3732100232298503?f=rss",
         "sourceName": "36氪",
@@ -45,207 +183,68 @@
         "summary": "当代年轻人对待病的态度，像薛定谔的猫一般充满矛盾。 有时讳疾忌医，不敢看自己的体检报告，对报告里已确诊的小结节、轻度脂肪肝、胃炎装聋作哑，安慰自己没啥大事。 有时又上赶着帮自己“确诊”新疾病：“我说我怎么天天活人微死还犯懒呢，原来我是前额叶受损啊。” 网友疯传的前额叶梗图。（图/社交平台截图） 最近，又轮到了前额叶。 这个原本常见于神经科学教科书中的专业术语，近期一跃成为了热…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 17,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "Show HN：配对跑步 – 出色的人工智能教练和出色的健身环境",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-03-21T00:36:33+00:00",
-        "sourceUrl": "https://www.pairform.io/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "法学硕士非常擅长教练，尤其是对于跑步等经过深入研究的运动。我构建了 Pairform 来为模型提供一些结构和上下文，以用于更多黄油的考虑……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "AI 代理即将开始代表您的客户使用您的 SaaS。您的产品准备好了吗？",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-03-21T00:55:53+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rzduy4/ai_agents_are_about_to_start_using_your_saas_on/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "开源生态",
-          "应用落地"
-        ],
-        "summary": "去年发生了一些变化。人工智能代理不再只是聊天机器人——他们正在操作产品。克劳德会使用电脑。代理导航用户界面、单击按钮、填写表格、完成工作……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "新的人工智能模型预测意想不到的分子中创纪录的高偶极矩",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-03-21T00:33:03+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rzdcpp/new_ai_model_predicts_record_high_dipole_moments/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "化学家在寻找合适的分子来满足其高度具体的创新需求时，可能很快就会有一个不那么严格的步骤需要担心。科学家们现在已经建造了一台新的机器……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "软银计划在俄亥俄建设5000亿美元的巨型AI数据中心",
-        "platform": "36氪",
-        "aiScore": 86,
-        "publishedAt": "2026-03-21T02:12:50+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3731985496915974?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "投融资"
-        ],
-        "summary": "软银集团正筹划在俄亥俄打造一个规模庞大的数据中心基础设施项目，首席执行官孙正义表示将向这一单一项目投入5000亿美元。（新浪财经）",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "人工智能为数据稀缺地区的洪水预报和水安全带来了希望",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-03-21T00:47:04+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rzdnvo/ai_shows_promise_for_flood_forecasting_and_water/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "新的研究表明，即使在当地水文很少或没有的地区，基于大量一般时间序列数据训练的“基础模型”也可能能够准确预测河流流量……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "[P] 量化的设备上模型击败 Whisper Large v3 (FP16) — LALM 与转换器，15k 推理测试，完全可重现",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-03-20T21:39:01+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rz94na/p_quantized_ondevice_models_beat_whisper_large_v3/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "我们在 LibriSpeech test-clean（2,620 条话语）上对 Whisper Large v3 (FP16) 的两种架构进行了基准测试，作为语音 Swift（用于设备上语音 AI 的开源 Swift 库）的一部分。...",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "Show HN：Rover – 使用一个脚本标签将任何 Web 界面转变为 AI 代理",
+        "title": "具有 Overleaf 同步功能的自主 AI 研究代理",
         "platform": "Hacker News",
-        "aiScore": 85,
-        "publishedAt": "2026-03-21T00:58:30+00:00",
-        "sourceUrl": "https://github.com/rtrvr-ai/rover",
+        "aiScore": 84,
+        "publishedAt": "2026-03-21T12:39:59+00:00",
+        "sourceUrl": "https://github.com/nanoAgentTeam/research-claw",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent",
           "开源生态"
         ],
-        "summary": "文章网址：https://github.com/rtrvr-ai/rover 评论网址：https://news.ycombinator.com/item?id=47462936 积分：5 # 评论：3",
+        "summary": "文章网址：https://github.com/nanoAgentTeam/research-claw 评论网址：https://news.ycombinator.com/item?id=47466487 积分：2 # 评论：2",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
-          "heat": 4
+          "heat": 3
         }
       },
       {
         "rank": 10,
-        "title": "问 HN：操作内存是 AI 代理架构中缺失的一层吗？",
-        "platform": "Hacker News",
-        "aiScore": 85,
-        "publishedAt": "2026-03-21T00:54:00+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=47462910",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "title": "[P] 基准：使用 XGBoost 与 DistilBERT 来检测冷电子邮件基础设施中的“第 2 个月坦克”？",
+        "platform": "Reddit",
+        "aiScore": 84,
+        "publishedAt": "2026-03-21T11:41:17+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rzpc28/p_benchmark_using_xgboost_vs_distilbert_for/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "上游",
         "contentTags": [
-          "Agent",
-          "自动化"
+          "模型进展",
+          "内容生产"
         ],
-        "summary": "我围绕我一直在思考的代理系统中的一个区别写了一份概念文件草案。主要思想：智能体可能缺少一个可重用的操作记忆层来存储他们通过……学习的东西。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "我一直在尝试使用基于启发式的交付能力智能来解决“第 2 个月坦克”问题。数据科学挑战：大多数工具使用简单的正则表达式来表示“垃圾邮件词”……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 17,
+          "topic": 16,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 39,
-      "avgScore": 75.2,
-      "topScore": 95,
+      "totalItems": 57,
+      "avgScore": 74.0,
+      "topScore": 91,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 18
+          "count": 26
         },
         {
           "name": "Hacker News",
@@ -253,57 +252,57 @@
         },
         {
           "name": "36氪",
-          "count": 4
+          "count": 8
         },
         {
-          "name": "Hugging Face",
-          "count": 1
+          "name": "量子位",
+          "count": 5
         },
         {
           "name": "The Verge",
-          "count": 1
+          "count": 2
         }
       ],
       "topTopics": [
         {
-          "name": "AI动态",
-          "count": 13
+          "name": "模型进展",
+          "count": 17
         },
         {
-          "name": "模型进展",
-          "count": 11
+          "name": "AI动态",
+          "count": 16
+        },
+        {
+          "name": "Agent",
+          "count": 12
         },
         {
           "name": "开源生态",
           "count": 9
         },
         {
-          "name": "Agent",
-          "count": 8
-        },
-        {
-          "name": "芯片算力",
-          "count": 4
-        },
-        {
           "name": "应用落地",
+          "count": 7
+        },
+        {
+          "name": "安全治理",
+          "count": 5
+        },
+        {
+          "name": "内容生产",
           "count": 4
         },
         {
           "name": "自动化",
           "count": 3
-        },
-        {
-          "name": "安全治理",
-          "count": 3
         }
       ]
     },
     "briefing": [
-      "今日共收录 39 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / 开源生态",
-      "最高分事件：9点1氪：傅盛凌晨开撕周鸿祎称“被欠1个亿”，360回应；字节跳动413亿元卖掉沐瞳科技；伊朗战事持续或致油价升至180美元（95 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 57 条 AI 资讯，Top10 通报见下。",
+      "高频主题：模型进展 / AI动态 / Agent",
+      "最高分事件：LiblibAI发布AI视频创作平台LibTV（91 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -313,9 +312,79 @@
       "top10": [
         {
           "rank": 1,
+          "title": "LiblibAI发布AI视频创作平台LibTV",
+          "platform": "36氪",
+          "aiScore": 91,
+          "publishedAt": "2026-03-21T08:35:46+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3732441440665859?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "内容生产"
+          ],
+          "summary": "36氪获悉，近日，LiblibAI正式发布AI视频创作平台LibTV，上线首日访问量突破10万。据了解，LibTV首创双入口模式，一面是专业创作者，另一面是Agent，将其视作“新型用户”，为Agent提供可以直接调度的视频生产能力。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 16,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "[P] 我通过使用 HDC 作为源树的上下文引擎来减少 Claude Code 令牌的使用",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-03-21T12:29:48+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rzq8pm/p_i_cut_my_claude_code_token_usage_by_using_hdc/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "如果您定期运行 Claude Code 或 Kiro，那么您每周可能会在开发过程中燃烧几百万个代币。我一直在构建 HDC（超维计算）平台…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Metacog：本体感觉，而不是另一种记忆 MCP：人工智能代理中跨会话学习强化的不同方法",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-03-21T08:52:09+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rzmlqe/metacog_proprioception_not_yet_another_memory_mcp/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "TL;DR：每个人都在为 AI 编码代理构建内存插件。我不确定执行任务的过时的、过去的记忆是否是该应用程序的正确前进方向。情报有元...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
           "title": "9点1氪：傅盛凌晨开撕周鸿祎称“被欠1个亿”，360回应；字节跳动413亿元卖掉沐瞳科技；伊朗战事持续或致油价升至180美元",
           "platform": "36氪",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-03-21T01:13:44+00:00",
           "sourceUrl": "https://36kr.com/p/3732001538490631?f=rss",
           "sourceName": "36氪",
@@ -328,7 +397,7 @@
           "summary": "今日热点导览 商务部部长王文涛会见苹果公司首席执行官库克 贾国龙起家的西贝首店将缩减一半经营面积 特斯拉计划采购中国光伏设备？企业回应：确有此事 针对“漂白鸡爪”等“3·15”晚会曝光问题，多地立案溯源打击 中国学生平均留学预算超60万 TOP3大新闻 傅盛微信群里开撕周鸿祎称“欠钱不还”，360回应 3月20日，社交媒体流传的截图显示，当天凌晨，猎豹移动董事长兼CEO傅盛在…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -336,10 +405,78 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 5,
+          "title": "[R] 预测俄罗斯方块获胜",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-03-21T08:43:14+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rzmh1a/r_predicting_tetris_wins/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "你好！我和我的朋友开发了 3 个模型，用于根据游戏风格和玩法来预测 Tetr.io 比赛的胜利。我们使用这个数据集：https://www.kaggle.com/datasets/n3koasakura/tetr-io-...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "精准识别「界门纲目科属种」！北大彭宇新团队用细粒度树先验提升泛化，破解生物类别分层识别难题",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-03-21T09:48:18+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/03/390945.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "让生成式模型具备完整类别树认知，迈向通用视觉理解",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "网易云音乐接入OpenClaw",
+          "platform": "36氪",
+          "aiScore": 85,
+          "publishedAt": "2026-03-21T04:51:30+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3732204385501448?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "36氪获悉，3月21日，网易云音乐宣布全面接入OpenClaw，并将其音乐推荐、音乐搜索等基础能力封装成一系列标准化CLI（标准接口）及自动化Skill，成为业内首个向AI Agent开放核心音乐服务能力的平台。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
           "title": "“我的前额叶罢工了”，年轻人争相确诊“网红病”？",
           "platform": "36氪",
-          "aiScore": 92,
+          "aiScore": 85,
           "publishedAt": "2026-03-21T02:51:33+00:00",
           "sourceUrl": "https://36kr.com/p/3732100232298503?f=rss",
           "sourceName": "36氪",
@@ -351,207 +488,68 @@
           "summary": "当代年轻人对待病的态度，像薛定谔的猫一般充满矛盾。 有时讳疾忌医，不敢看自己的体检报告，对报告里已确诊的小结节、轻度脂肪肝、胃炎装聋作哑，安慰自己没啥大事。 有时又上赶着帮自己“确诊”新疾病：“我说我怎么天天活人微死还犯懒呢，原来我是前额叶受损啊。” 网友疯传的前额叶梗图。（图/社交平台截图） 最近，又轮到了前额叶。 这个原本常见于神经科学教科书中的专业术语，近期一跃成为了热…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 17,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "Show HN：配对跑步 – 出色的人工智能教练和出色的健身环境",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-03-21T00:36:33+00:00",
-          "sourceUrl": "https://www.pairform.io/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "法学硕士非常擅长教练，尤其是对于跑步等经过深入研究的运动。我构建了 Pairform 来为模型提供一些结构和上下文，以用于更多黄油的考虑……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "AI 代理即将开始代表您的客户使用您的 SaaS。您的产品准备好了吗？",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-03-21T00:55:53+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rzduy4/ai_agents_are_about_to_start_using_your_saas_on/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "应用落地"
-          ],
-          "summary": "去年发生了一些变化。人工智能代理不再只是聊天机器人——他们正在操作产品。克劳德会使用电脑。代理导航用户界面、单击按钮、填写表格、完成工作……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "新的人工智能模型预测意想不到的分子中创纪录的高偶极矩",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-03-21T00:33:03+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rzdcpp/new_ai_model_predicts_record_high_dipole_moments/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "化学家在寻找合适的分子来满足其高度具体的创新需求时，可能很快就会有一个不那么严格的步骤需要担心。科学家们现在已经建造了一台新的机器……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "软银计划在俄亥俄建设5000亿美元的巨型AI数据中心",
-          "platform": "36氪",
-          "aiScore": 86,
-          "publishedAt": "2026-03-21T02:12:50+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3731985496915974?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "投融资"
-          ],
-          "summary": "软银集团正筹划在俄亥俄打造一个规模庞大的数据中心基础设施项目，首席执行官孙正义表示将向这一单一项目投入5000亿美元。（新浪财经）",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "人工智能为数据稀缺地区的洪水预报和水安全带来了希望",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-03-21T00:47:04+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rzdnvo/ai_shows_promise_for_flood_forecasting_and_water/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "新的研究表明，即使在当地水文很少或没有的地区，基于大量一般时间序列数据训练的“基础模型”也可能能够准确预测河流流量……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "[P] 量化的设备上模型击败 Whisper Large v3 (FP16) — LALM 与转换器，15k 推理测试，完全可重现",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-03-20T21:39:01+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rz94na/p_quantized_ondevice_models_beat_whisper_large_v3/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "开源生态"
-          ],
-          "summary": "我们在 LibriSpeech test-clean（2,620 条话语）上对 Whisper Large v3 (FP16) 的两种架构进行了基准测试，作为语音 Swift（用于设备上语音 AI 的开源 Swift 库）的一部分。...",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "Show HN：Rover – 使用一个脚本标签将任何 Web 界面转变为 AI 代理",
+          "title": "具有 Overleaf 同步功能的自主 AI 研究代理",
           "platform": "Hacker News",
-          "aiScore": 85,
-          "publishedAt": "2026-03-21T00:58:30+00:00",
-          "sourceUrl": "https://github.com/rtrvr-ai/rover",
+          "aiScore": 84,
+          "publishedAt": "2026-03-21T12:39:59+00:00",
+          "sourceUrl": "https://github.com/nanoAgentTeam/research-claw",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "Agent",
             "开源生态"
           ],
-          "summary": "文章网址：https://github.com/rtrvr-ai/rover 评论网址：https://news.ycombinator.com/item?id=47462936 积分：5 # 评论：3",
+          "summary": "文章网址：https://github.com/nanoAgentTeam/research-claw 评论网址：https://news.ycombinator.com/item?id=47466487 积分：2 # 评论：2",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 18,
             "actionability": 10,
-            "heat": 4
+            "heat": 3
           }
         },
         {
           "rank": 10,
-          "title": "问 HN：操作内存是 AI 代理架构中缺失的一层吗？",
-          "platform": "Hacker News",
-          "aiScore": 85,
-          "publishedAt": "2026-03-21T00:54:00+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=47462910",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
+          "title": "[P] 基准：使用 XGBoost 与 DistilBERT 来检测冷电子邮件基础设施中的“第 2 个月坦克”？",
+          "platform": "Reddit",
+          "aiScore": 84,
+          "publishedAt": "2026-03-21T11:41:17+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rzpc28/p_benchmark_using_xgboost_vs_distilbert_for/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "上游",
           "contentTags": [
-            "Agent",
-            "自动化"
+            "模型进展",
+            "内容生产"
           ],
-          "summary": "我围绕我一直在思考的代理系统中的一个区别写了一份概念文件草案。主要思想：智能体可能缺少一个可重用的操作记忆层来存储他们通过……学习的东西。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "我一直在尝试使用基于启发式的交付能力智能来解决“第 2 个月坦克”问题。数据科学挑战：大多数工具使用简单的正则表达式来表示“垃圾邮件词”……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 17,
+            "topic": 16,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 39,
-        "avgScore": 75.2,
-        "topScore": 95,
+        "totalItems": 57,
+        "avgScore": 74.0,
+        "topScore": 91,
         "topPlatforms": [
           {
             "name": "Reddit",
-            "count": 18
+            "count": 26
           },
           {
             "name": "Hacker News",
@@ -559,57 +557,57 @@
           },
           {
             "name": "36氪",
-            "count": 4
+            "count": 8
           },
           {
-            "name": "Hugging Face",
-            "count": 1
+            "name": "量子位",
+            "count": 5
           },
           {
             "name": "The Verge",
-            "count": 1
+            "count": 2
           }
         ],
         "topTopics": [
           {
-            "name": "AI动态",
-            "count": 13
+            "name": "模型进展",
+            "count": 17
           },
           {
-            "name": "模型进展",
-            "count": 11
+            "name": "AI动态",
+            "count": 16
+          },
+          {
+            "name": "Agent",
+            "count": 12
           },
           {
             "name": "开源生态",
             "count": 9
           },
           {
-            "name": "Agent",
-            "count": 8
-          },
-          {
-            "name": "芯片算力",
-            "count": 4
-          },
-          {
             "name": "应用落地",
+            "count": 7
+          },
+          {
+            "name": "安全治理",
+            "count": 5
+          },
+          {
+            "name": "内容生产",
             "count": 4
           },
           {
             "name": "自动化",
             "count": 3
-          },
-          {
-            "name": "安全治理",
-            "count": 3
           }
         ]
       },
       "briefing": [
-        "今日共收录 39 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / 开源生态",
-        "最高分事件：9点1氪：傅盛凌晨开撕周鸿祎称“被欠1个亿”，360回应；字节跳动413亿元卖掉沐瞳科技；伊朗战事持续或致油价升至180美元（95 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "今日共收录 57 条 AI 资讯，Top10 通报见下。",
+        "高频主题：模型进展 / AI动态 / Agent",
+        "最高分事件：LiblibAI发布AI视频创作平台LibTV（91 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -617,7 +615,7 @@
       "label": "3月20日",
       "top10": [
         {
-          "rank": 2,
+          "rank": 1,
           "title": "氪星晚报｜迪卡侬正式入驻拼多多；特斯拉计划2026年批量交付Semi电动卡车，价格或低于30万美元；消息人士：马斯克团队采购光伏设备预计将在5月第一周发货",
           "platform": "36氪",
           "aiScore": 95,
@@ -927,7 +925,7 @@
       "label": "3月19日",
       "top10": [
         {
-          "rank": 3,
+          "rank": 2,
           "title": "吴泳铭宣布阿里AI战略商业目标：未来五年，云和AI商业化年收入超1000亿美元",
           "platform": "36氪",
           "aiScore": 95,
@@ -951,7 +949,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 3,
           "title": "氪星晚报｜澳大利亚就业依然强劲，支持澳央行的鹰派立场；首款国产化“龙虾云电脑”发布；法官下令恢复美国之音员工职务，推翻特朗普关停决定",
           "platform": "36氪",
           "aiScore": 95,
@@ -975,7 +973,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "AWE 2026观察：AI重构家庭空间",
           "platform": "36氪",
           "aiScore": 95,
@@ -1239,7 +1237,7 @@
       "label": "3月18日",
       "top10": [
         {
-          "rank": 6,
+          "rank": 5,
           "title": "DLSS 5：Nvidia的AI图形技术是否已经走得太远了？",
           "platform": "The Verge",
           "aiScore": 95,
@@ -1262,7 +1260,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "全球AI需求激增刺激产品涨价，机构称算力需求仍有望进一步上行",
           "platform": "36氪",
           "aiScore": 95,
@@ -1286,7 +1284,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "氪星晚报｜新疆新能源外送电量突破3000亿千瓦时；三星电子或发生大规模罢工，恐波及全球半导体产供链；社交平台X调整印尼用户年龄限制以符合新规",
           "platform": "36氪",
           "aiScore": 95,
@@ -1551,7 +1549,7 @@
       "label": "3月16日",
       "top10": [
         {
-          "rank": 9,
+          "rank": 8,
           "title": "地平线芯片负责人将离职，公司走向软硬一体架构｜36氪独家",
           "platform": "36氪",
           "aiScore": 95,
@@ -1575,7 +1573,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "36氪晚报｜韩元对美元汇率收盘价跌至近18年来最低；WTI原油上破100美元/桶；抖音旗下科技公司在深圳成立新信息技术公司",
           "platform": "36氪",
           "aiScore": 95,
@@ -3418,23 +3416,27 @@
     },
     "metrics": {
       "daysCovered": 5,
-      "totalItems": 292,
-      "avgTop10Score": 95.0,
+      "totalItems": 310,
+      "avgTop10Score": 94.9,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 9
+          "count": 8
         },
         {
           "name": "The Verge",
+          "count": 1
+        },
+        {
+          "name": "量子位",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "芯片算力",
-          "count": 10
+          "count": 9
         },
         {
           "name": "应用落地",
@@ -3445,15 +3447,15 @@
           "count": 7
         },
         {
+          "name": "Agent",
+          "count": 3
+        },
+        {
           "name": "投融资",
           "count": 2
         },
         {
-          "name": "Agent",
-          "count": 2
-        },
-        {
-          "name": "开源生态",
+          "name": "安全治理",
           "count": 1
         }
       ]
@@ -3461,30 +3463,6 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "9点1氪：傅盛凌晨开撕周鸿祎称“被欠1个亿”，360回应；字节跳动413亿元卖掉沐瞳科技；伊朗战事持续或致油价升至180美元",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-03-21T01:13:44+00:00",
-        "sourceUrl": "https://36kr.com/p/3732001538490631?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "开源生态",
-          "应用落地"
-        ],
-        "summary": "今日热点导览 商务部部长王文涛会见苹果公司首席执行官库克 贾国龙起家的西贝首店将缩减一半经营面积 特斯拉计划采购中国光伏设备？企业回应：确有此事 针对“漂白鸡爪”等“3·15”晚会曝光问题，多地立案溯源打击 中国学生平均留学预算超60万 TOP3大新闻 傅盛微信群里开撕周鸿祎称“欠钱不还”，360回应 3月20日，社交媒体流传的截图显示，当天凌晨，猎豹移动董事长兼CEO傅盛在…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 2,
         "title": "氪星晚报｜迪卡侬正式入驻拼多多；特斯拉计划2026年批量交付Semi电动卡车，价格或低于30万美元；消息人士：马斯克团队采购光伏设备预计将在5月第一周发货",
         "platform": "36氪",
         "aiScore": 95,
@@ -3508,7 +3486,7 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 2,
         "title": "吴泳铭宣布阿里AI战略商业目标：未来五年，云和AI商业化年收入超1000亿美元",
         "platform": "36氪",
         "aiScore": 95,
@@ -3532,7 +3510,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 3,
         "title": "氪星晚报｜澳大利亚就业依然强劲，支持澳央行的鹰派立场；首款国产化“龙虾云电脑”发布；法官下令恢复美国之音员工职务，推翻特朗普关停决定",
         "platform": "36氪",
         "aiScore": 95,
@@ -3556,7 +3534,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 4,
         "title": "AWE 2026观察：AI重构家庭空间",
         "platform": "36氪",
         "aiScore": 95,
@@ -3580,7 +3558,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 5,
         "title": "DLSS 5：Nvidia的AI图形技术是否已经走得太远了？",
         "platform": "The Verge",
         "aiScore": 95,
@@ -3603,7 +3581,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "全球AI需求激增刺激产品涨价，机构称算力需求仍有望进一步上行",
         "platform": "36氪",
         "aiScore": 95,
@@ -3627,7 +3605,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 7,
         "title": "氪星晚报｜新疆新能源外送电量突破3000亿千瓦时；三星电子或发生大规模罢工，恐波及全球半导体产供链；社交平台X调整印尼用户年龄限制以符合新规",
         "platform": "36氪",
         "aiScore": 95,
@@ -3651,7 +3629,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 8,
         "title": "地平线芯片负责人将离职，公司走向软硬一体架构｜36氪独家",
         "platform": "36氪",
         "aiScore": 95,
@@ -3675,7 +3653,7 @@
         }
       },
       {
-        "rank": 10,
+        "rank": 9,
         "title": "36氪晚报｜韩元对美元汇率收盘价跌至近18年来最低；WTI原油上破100美元/桶；抖音旗下科技公司在深圳成立新信息技术公司",
         "platform": "36氪",
         "aiScore": 95,
@@ -3697,12 +3675,36 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 10,
+        "title": "蚂蚁数科发布“龙虾卫士”，护航OpenClaw智能体安全落地",
+        "platform": "量子位",
+        "aiScore": 94,
+        "publishedAt": "2026-03-19T08:38:15+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/03/389305.html",
+        "sourceName": "量子位",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "应用落地",
+          "安全治理"
+        ],
+        "summary": "拥有可解释、可控制、可追溯的安全基石",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "briefing": [
-      "3月第3周累计收录 292 条资讯，覆盖 5 天。",
+      "3月第3周累计收录 310 条资讯，覆盖 5 天。",
       "高频主题：芯片算力 / 应用落地 / 模型进展",
-      "本周最高分：9点1氪：傅盛凌晨开撕周鸿祎称“被欠1个亿”，360回应；字节跳动413亿元卖掉沐瞳科技；伊朗战事持续或致油价升至180美元（95 分）",
+      "本周最高分：氪星晚报｜迪卡侬正式入驻拼多多；特斯拉计划2026年批量交付Semi电动卡车，价格或低于30万美元；消息人士：马斯克团队采购光伏设备预计将在5月第一周发货（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
@@ -3716,23 +3718,27 @@
       },
       "metrics": {
         "daysCovered": 5,
-        "totalItems": 292,
-        "avgTop10Score": 95.0,
+        "totalItems": 310,
+        "avgTop10Score": 94.9,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 9
+            "count": 8
           },
           {
             "name": "The Verge",
+            "count": 1
+          },
+          {
+            "name": "量子位",
             "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "芯片算力",
-            "count": 10
+            "count": 9
           },
           {
             "name": "应用落地",
@@ -3743,15 +3749,15 @@
             "count": 7
           },
           {
+            "name": "Agent",
+            "count": 3
+          },
+          {
             "name": "投融资",
             "count": 2
           },
           {
-            "name": "Agent",
-            "count": 2
-          },
-          {
-            "name": "开源生态",
+            "name": "安全治理",
             "count": 1
           }
         ]
@@ -3759,30 +3765,6 @@
       "topEvents": [
         {
           "rank": 1,
-          "title": "9点1氪：傅盛凌晨开撕周鸿祎称“被欠1个亿”，360回应；字节跳动413亿元卖掉沐瞳科技；伊朗战事持续或致油价升至180美元",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-03-21T01:13:44+00:00",
-          "sourceUrl": "https://36kr.com/p/3732001538490631?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "开源生态",
-            "应用落地"
-          ],
-          "summary": "今日热点导览 商务部部长王文涛会见苹果公司首席执行官库克 贾国龙起家的西贝首店将缩减一半经营面积 特斯拉计划采购中国光伏设备？企业回应：确有此事 针对“漂白鸡爪”等“3·15”晚会曝光问题，多地立案溯源打击 中国学生平均留学预算超60万 TOP3大新闻 傅盛微信群里开撕周鸿祎称“欠钱不还”，360回应 3月20日，社交媒体流传的截图显示，当天凌晨，猎豹移动董事长兼CEO傅盛在…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
           "title": "氪星晚报｜迪卡侬正式入驻拼多多；特斯拉计划2026年批量交付Semi电动卡车，价格或低于30万美元；消息人士：马斯克团队采购光伏设备预计将在5月第一周发货",
           "platform": "36氪",
           "aiScore": 95,
@@ -3806,7 +3788,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 2,
           "title": "吴泳铭宣布阿里AI战略商业目标：未来五年，云和AI商业化年收入超1000亿美元",
           "platform": "36氪",
           "aiScore": 95,
@@ -3830,7 +3812,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 3,
           "title": "氪星晚报｜澳大利亚就业依然强劲，支持澳央行的鹰派立场；首款国产化“龙虾云电脑”发布；法官下令恢复美国之音员工职务，推翻特朗普关停决定",
           "platform": "36氪",
           "aiScore": 95,
@@ -3854,7 +3836,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "AWE 2026观察：AI重构家庭空间",
           "platform": "36氪",
           "aiScore": 95,
@@ -3878,7 +3860,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "DLSS 5：Nvidia的AI图形技术是否已经走得太远了？",
           "platform": "The Verge",
           "aiScore": 95,
@@ -3901,7 +3883,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "全球AI需求激增刺激产品涨价，机构称算力需求仍有望进一步上行",
           "platform": "36氪",
           "aiScore": 95,
@@ -3925,7 +3907,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "氪星晚报｜新疆新能源外送电量突破3000亿千瓦时；三星电子或发生大规模罢工，恐波及全球半导体产供链；社交平台X调整印尼用户年龄限制以符合新规",
           "platform": "36氪",
           "aiScore": 95,
@@ -3949,7 +3931,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "地平线芯片负责人将离职，公司走向软硬一体架构｜36氪独家",
           "platform": "36氪",
           "aiScore": 95,
@@ -3973,7 +3955,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "36氪晚报｜韩元对美元汇率收盘价跌至近18年来最低；WTI原油上破100美元/桶；抖音旗下科技公司在深圳成立新信息技术公司",
           "platform": "36氪",
           "aiScore": 95,
@@ -3995,12 +3977,36 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 10,
+          "title": "蚂蚁数科发布“龙虾卫士”，护航OpenClaw智能体安全落地",
+          "platform": "量子位",
+          "aiScore": 94,
+          "publishedAt": "2026-03-19T08:38:15+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/03/389305.html",
+          "sourceName": "量子位",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "应用落地",
+            "安全治理"
+          ],
+          "summary": "拥有可解释、可控制、可追溯的安全基石",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "3月第3周累计收录 292 条资讯，覆盖 5 天。",
+        "3月第3周累计收录 310 条资讯，覆盖 5 天。",
         "高频主题：芯片算力 / 应用落地 / 模型进展",
-        "本周最高分：9点1氪：傅盛凌晨开撕周鸿祎称“被欠1个亿”，360回应；字节跳动413亿元卖掉沐瞳科技；伊朗战事持续或致油价升至180美元（95 分）",
+        "本周最高分：氪星晚报｜迪卡侬正式入驻拼多多；特斯拉计划2026年批量交付Semi电动卡车，价格或低于30万美元；消息人士：马斯克团队采购光伏设备预计将在5月第一周发货（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
