@@ -1,47 +1,48 @@
 {
-  "generatedAt": "2026-03-21T13:41:11.180787+00:00",
+  "generatedAt": "2026-03-22T03:37:39.218100+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-03-21",
-    "label": "3月21日",
+    "date": "2026-03-22",
+    "label": "3月22日",
     "top10": [
       {
         "rank": 1,
-        "title": "LiblibAI发布AI视频创作平台LibTV",
+        "title": "Nothing在中国发布Headphone (a)与Phone (4a)系列，在性能过剩时代继续押注“设计优先”丨最前线",
         "platform": "36氪",
-        "aiScore": 91,
-        "publishedAt": "2026-03-21T08:35:46+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3732441440665859?f=rss",
+        "aiScore": 90,
+        "publishedAt": "2026-03-22T03:26:52+00:00",
+        "sourceUrl": "https://36kr.com/p/3733553048256518?f=rss",
         "sourceName": "36氪",
-        "industryStage": "中游",
+        "industryStage": "上游",
         "contentTags": [
-          "Agent",
-          "内容生产"
+          "应用落地",
+          "投融资"
         ],
-        "summary": "36氪获悉，近日，LiblibAI正式发布AI视频创作平台LibTV，上线首日访问量突破10万。据了解，LibTV首创双入口模式，一面是专业创作者，另一面是Agent，将其视作“新型用户”，为Agent提供可以直接调度的视频生产能力。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "作者丨欧雪 编辑丨袁斯来 3月20日，总部位于伦敦的消费科技公司Nothing在中国上海召开新品发布会，正式推出头戴式耳机Headphone(a)和智能手机Phone(4a)系列。这是Nothing第二次在中国以线下发布会形式发布新品，显示出其对中国市场的投入正在逐步加深。 从定价来看，Headphone(a)国内首销价为1299元，Phone(4a)起售价为3299元（12…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
-          "topic": 16,
+          "topic": 15,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 2,
-        "title": "[P] 我通过使用 HDC 作为源树的上下文引擎来减少 Claude Code 令牌的使用",
-        "platform": "Reddit",
+        "title": "Show HN：我如何在零 Web 开发经验的情况下使用 AI 构建简历编辑器",
+        "platform": "Hacker News",
         "aiScore": 88,
-        "publishedAt": "2026-03-21T12:29:48+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rzq8pm/p_i_cut_my_claude_code_token_usage_by_using_hdc/",
-        "sourceName": "Reddit r/MachineLearning",
+        "publishedAt": "2026-03-22T01:41:48+00:00",
+        "sourceUrl": "https://www.tailortojob.app/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "应用落地"
         ],
-        "summary": "如果您定期运行 Claude Code 或 Kiro，那么您每周可能会在开发过程中燃烧几百万个代币。我一直在构建 HDC（超维计算）平台…",
+        "summary": "你好，我最近正在申请暑期实习，在用 Word 定制简历时感到很沮丧。我去年秋天开始学习 Python，但在……方面的经验绝对为零。",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -53,19 +54,19 @@
       },
       {
         "rank": 3,
-        "title": "Metacog：本体感觉，而不是另一种记忆 MCP：人工智能代理中跨会话学习强化的不同方法",
+        "title": "：[R] LLM 提示的 Sinc 重建：将 Nyquist-Shannon 应用于规格轴（275 个 obs，成本降低 97%，开源）",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-03-21T08:52:09+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1rzmlqe/metacog_proprioception_not_yet_another_memory_mcp/",
-        "sourceName": "Reddit r/artificial",
+        "publishedAt": "2026-03-22T01:38:20+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1s08xft/r_sinc_reconstruction_for_llm_prompts_applying/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "Agent",
           "开源生态"
         ],
-        "summary": "TL;DR：每个人都在为 AI 编码代理构建内存插件。我不确定执行任务的过时的、过去的记忆是否是该应用程序的正确前进方向。情报有元...",
+        "summary": "我将 Nyquist-Shannon 采样定理应用于 LLM 提示工程。核心发现：原始提示是 6 频段规范信号的 1 个样本，产生混叠（幻觉、hed…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -77,235 +78,526 @@
       },
       {
         "rank": 4,
-        "title": "9点1氪：傅盛凌晨开撕周鸿祎称“被欠1个亿”，360回应；字节跳动413亿元卖掉沐瞳科技；伊朗战事持续或致油价升至180美元",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-03-21T01:13:44+00:00",
-        "sourceUrl": "https://36kr.com/p/3732001538490631?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
+        "title": "别再捣鼓没用的龙虾了，目前 AI Agent 最好的落地容器，是汽车",
+        "platform": "爱范儿",
+        "aiScore": 87,
+        "publishedAt": "2026-03-22T02:09:59+00:00",
+        "sourceUrl": "https://www.ifanr.com/1658243",
+        "sourceName": "爱范儿",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "开源生态",
+          "Agent",
           "应用落地"
         ],
-        "summary": "今日热点导览 商务部部长王文涛会见苹果公司首席执行官库克 贾国龙起家的西贝首店将缩减一半经营面积 特斯拉计划采购中国光伏设备？企业回应：确有此事 针对“漂白鸡爪”等“3·15”晚会曝光问题，多地立案溯源打击 中国学生平均留学预算超60万 TOP3大新闻 傅盛微信群里开撕周鸿祎称“欠钱不还”，360回应 3月20日，社交媒体流传的截图显示，当天凌晨，猎豹移动董事长兼CEO傅盛在…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "Agent 并非要把人训练成更加熟练的机器操作员。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "[R] 预测俄罗斯方块获胜",
-        "platform": "Reddit",
+        "title": "软银计划在美国俄亥俄州建设5000亿美元的巨型AI数据中心",
+        "platform": "36氪",
         "aiScore": 86,
-        "publishedAt": "2026-03-21T08:43:14+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rzmh1a/r_predicting_tetris_wins/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
+        "publishedAt": "2026-03-22T03:00:20+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3733477270896902?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
         "contentTags": [
-          "模型进展",
-          "开源生态"
+          "芯片算力",
+          "投融资"
         ],
-        "summary": "你好！我和我的朋友开发了 3 个模型，用于根据游戏风格和玩法来预测 Tetr.io 比赛的胜利。我们使用这个数据集：https://www.kaggle.com/datasets/n3koasakura/tetr-io-...",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "软银首席执行官孙正义当地时间3月20日表示，软银集团正筹划在美国俄亥俄州打造一个规模庞大的数据中心基础设施项目，将向这一单一项目投入5000亿美元。软银拟在美国能源部拥有的一处前铀浓缩设施旧址建设该人工智能计算综合体，其用电规模可达10吉瓦，预计该数据中心项目第一阶段将涵盖800兆瓦电力，耗资300亿至400亿美元，并将于2028年初完工。该项目将采用价值约330亿美元的燃气…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
+          "authority": 25,
+          "topic": 17,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 6,
-        "title": "精准识别「界门纲目科属种」！北大彭宇新团队用细粒度树先验提升泛化，破解生物类别分层识别难题",
-        "platform": "量子位",
-        "aiScore": 85,
-        "publishedAt": "2026-03-21T09:48:18+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/03/390945.html",
-        "sourceName": "量子位",
+        "title": "AI 编码代理运行 shell 命令，无需审计跟踪。我构建了一个修复程序",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-03-21T23:55:49+00:00",
+        "sourceUrl": "https://www.oculisecurity.com/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展"
+          "Agent",
+          "安全治理"
         ],
-        "summary": "让生成式模型具备完整类别树认知，迈向通用视觉理解",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://www.oculisecurity.com/ 评论网址：https://news.ycombinator.com/item?id=47472845 积分：2 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 10,
+          "authority": 18,
+          "topic": 18,
           "actionability": 10,
-          "heat": 5
+          "heat": 2
         }
       },
       {
         "rank": 7,
-        "title": "网易云音乐接入OpenClaw",
-        "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-03-21T04:51:30+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3732204385501448?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "自动化"
-        ],
-        "summary": "36氪获悉，3月21日，网易云音乐宣布全面接入OpenClaw，并将其音乐推荐、音乐搜索等基础能力封装成一系列标准化CLI（标准接口）及自动化Skill，成为业内首个向AI Agent开放核心音乐服务能力的平台。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "“我的前额叶罢工了”，年轻人争相确诊“网红病”？",
-        "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-03-21T02:51:33+00:00",
-        "sourceUrl": "https://36kr.com/p/3732100232298503?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "内容生产"
-        ],
-        "summary": "当代年轻人对待病的态度，像薛定谔的猫一般充满矛盾。 有时讳疾忌医，不敢看自己的体检报告，对报告里已确诊的小结节、轻度脂肪肝、胃炎装聋作哑，安慰自己没啥大事。 有时又上赶着帮自己“确诊”新疾病：“我说我怎么天天活人微死还犯懒呢，原来我是前额叶受损啊。” 网友疯传的前额叶梗图。（图/社交平台截图） 最近，又轮到了前额叶。 这个原本常见于神经科学教科书中的专业术语，近期一跃成为了热…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "具有 Overleaf 同步功能的自主 AI 研究代理",
+        "title": "Show HN：AgentVerse – 面向 AI 代理的开放社交网络（2026 年 3 月）",
         "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-03-21T12:39:59+00:00",
-        "sourceUrl": "https://github.com/nanoAgentTeam/research-claw",
+        "aiScore": 82,
+        "publishedAt": "2026-03-22T01:46:53+00:00",
+        "sourceUrl": "https://nickakre.github.io/agentverse-social/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent",
           "开源生态"
         ],
-        "summary": "文章网址：https://github.com/nanoAgentTeam/research-claw 评论网址：https://news.ycombinator.com/item?id=47466487 积分：2 # 评论：2",
+        "summary": "文章网址：https://nickakre.github.io/agentverse-social/ 评论网址：https://news.ycombinator.com/item?id=47473599 积分：1 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
-          "heat": 3
+          "heat": 1
+        }
+      },
+      {
+        "rank": 8,
+        "title": "主管或“经理”Al 代理是控制 Al 的错误方式",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-03-22T02:33:49+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1s0a3g2/a_supervisor_or_manager_al_agent_is_the_wrong_way/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "我不断看到越来越多的公司表示，他们将通过在他们之上添加主管或经理 Al 来减少 Al 的幻觉、漂移和错误，这些主管或经理将审查 Al 的前夕……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "被AI“偷走”声音 配音演员集体维权：希望构建合法共存生态",
+        "platform": "36氪",
+        "aiScore": 75,
+        "publishedAt": "2026-03-22T01:20:22+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3733429003616261?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "内容生产"
+        ],
+        "summary": "近日，多名配音演员相继公开发声，反对未经演员知情同意，擅自采集其声音素材用于AI训练、音色合成及商业变现的行为。从《甜蜜蜜》里的黎小军，到《无间道》中的刘建明，配音演员叶清塑造了许多经典的人物形象。就在不久前，短视频平台上出现了一集AI生成的短剧，许多观众通过弹幕刷屏：主人公的旁白是“叶清老师的声音”。接受记者采访时，叶清坦言，AI短剧里对他的音色还原度极高。类似的经历在配音…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 6,
+          "actionability": 4,
+          "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "[P] 基准：使用 XGBoost 与 DistilBERT 来检测冷电子邮件基础设施中的“第 2 个月坦克”？",
-        "platform": "Reddit",
-        "aiScore": 84,
-        "publishedAt": "2026-03-21T11:41:17+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1rzpc28/p_benchmark_using_xgboost_vs_distilbert_for/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "上游",
+        "title": "无目标的人工智能代理：他们在无人注视的情况下构建什么",
+        "platform": "Hacker News",
+        "aiScore": 75,
+        "publishedAt": "2026-03-21T23:36:02+00:00",
+        "sourceUrl": "https://changkun.substack.com/p/goalless-agents",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "内容生产"
+          "Agent"
         ],
-        "summary": "我一直在尝试使用基于启发式的交付能力智能来解决“第 2 个月坦克”问题。数据科学挑战：大多数工具使用简单的正则表达式来表示“垃圾邮件词”……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://changkun.substack.com/p/goalless-agents 评论网址：https://news.ycombinator.com/item?id=47472694 积分：3 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 16,
+          "topic": 10,
           "actionability": 10,
-          "heat": 5
+          "heat": 2
         }
       }
     ],
     "metrics": {
-      "totalItems": 57,
-      "avgScore": 74.0,
-      "topScore": 91,
+      "totalItems": 25,
+      "avgScore": 72.5,
+      "topScore": 90,
       "topPlatforms": [
-        {
-          "name": "Reddit",
-          "count": 26
-        },
         {
           "name": "Hacker News",
           "count": 15
         },
         {
+          "name": "Reddit",
+          "count": 6
+        },
+        {
           "name": "36氪",
-          "count": 8
+          "count": 3
         },
         {
-          "name": "量子位",
-          "count": 5
-        },
-        {
-          "name": "The Verge",
-          "count": 2
+          "name": "爱范儿",
+          "count": 1
         }
       ],
       "topTopics": [
         {
-          "name": "模型进展",
-          "count": 17
-        },
-        {
           "name": "AI动态",
-          "count": 16
-        },
-        {
-          "name": "Agent",
-          "count": 12
-        },
-        {
-          "name": "开源生态",
           "count": 9
         },
         {
-          "name": "应用落地",
-          "count": 7
+          "name": "Agent",
+          "count": 9
         },
         {
-          "name": "安全治理",
-          "count": 5
+          "name": "开源生态",
+          "count": 6
+        },
+        {
+          "name": "应用落地",
+          "count": 3
+        },
+        {
+          "name": "投融资",
+          "count": 2
+        },
+        {
+          "name": "模型进展",
+          "count": 2
         },
         {
           "name": "内容生产",
-          "count": 4
+          "count": 2
         },
         {
-          "name": "自动化",
-          "count": 3
+          "name": "芯片算力",
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 57 条 AI 资讯，Top10 通报见下。",
-      "高频主题：模型进展 / AI动态 / Agent",
-      "最高分事件：LiblibAI发布AI视频创作平台LibTV（91 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 25 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 开源生态",
+      "最高分事件：Nothing在中国发布Headphone (a)与Phone (4a)系列，在性能过剩时代继续押注“设计优先”丨最前线（90 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-03-22",
+      "label": "3月22日",
+      "top10": [
+        {
+          "rank": 1,
+          "title": "Nothing在中国发布Headphone (a)与Phone (4a)系列，在性能过剩时代继续押注“设计优先”丨最前线",
+          "platform": "36氪",
+          "aiScore": 90,
+          "publishedAt": "2026-03-22T03:26:52+00:00",
+          "sourceUrl": "https://36kr.com/p/3733553048256518?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "应用落地",
+            "投融资"
+          ],
+          "summary": "作者丨欧雪 编辑丨袁斯来 3月20日，总部位于伦敦的消费科技公司Nothing在中国上海召开新品发布会，正式推出头戴式耳机Headphone(a)和智能手机Phone(4a)系列。这是Nothing第二次在中国以线下发布会形式发布新品，显示出其对中国市场的投入正在逐步加深。 从定价来看，Headphone(a)国内首销价为1299元，Phone(4a)起售价为3299元（12…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 15,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "Show HN：我如何在零 Web 开发经验的情况下使用 AI 构建简历编辑器",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-03-22T01:41:48+00:00",
+          "sourceUrl": "https://www.tailortojob.app/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "你好，我最近正在申请暑期实习，在用 Word 定制简历时感到很沮丧。我去年秋天开始学习 Python，但在……方面的经验绝对为零。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "：[R] LLM 提示的 Sinc 重建：将 Nyquist-Shannon 应用于规格轴（275 个 obs，成本降低 97%，开源）",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-03-22T01:38:20+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1s08xft/r_sinc_reconstruction_for_llm_prompts_applying/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "我将 Nyquist-Shannon 采样定理应用于 LLM 提示工程。核心发现：原始提示是 6 频段规范信号的 1 个样本，产生混叠（幻觉、hed…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "别再捣鼓没用的龙虾了，目前 AI Agent 最好的落地容器，是汽车",
+          "platform": "爱范儿",
+          "aiScore": 87,
+          "publishedAt": "2026-03-22T02:09:59+00:00",
+          "sourceUrl": "https://www.ifanr.com/1658243",
+          "sourceName": "爱范儿",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "Agent 并非要把人训练成更加熟练的机器操作员。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "软银计划在美国俄亥俄州建设5000亿美元的巨型AI数据中心",
+          "platform": "36氪",
+          "aiScore": 86,
+          "publishedAt": "2026-03-22T03:00:20+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3733477270896902?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "投融资"
+          ],
+          "summary": "软银首席执行官孙正义当地时间3月20日表示，软银集团正筹划在美国俄亥俄州打造一个规模庞大的数据中心基础设施项目，将向这一单一项目投入5000亿美元。软银拟在美国能源部拥有的一处前铀浓缩设施旧址建设该人工智能计算综合体，其用电规模可达10吉瓦，预计该数据中心项目第一阶段将涵盖800兆瓦电力，耗资300亿至400亿美元，并将于2028年初完工。该项目将采用价值约330亿美元的燃气…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 17,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "AI 编码代理运行 shell 命令，无需审计跟踪。我构建了一个修复程序",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-03-21T23:55:49+00:00",
+          "sourceUrl": "https://www.oculisecurity.com/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "文章网址：https://www.oculisecurity.com/ 评论网址：https://news.ycombinator.com/item?id=47472845 积分：2 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Show HN：AgentVerse – 面向 AI 代理的开放社交网络（2026 年 3 月）",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-03-22T01:46:53+00:00",
+          "sourceUrl": "https://nickakre.github.io/agentverse-social/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://nickakre.github.io/agentverse-social/ 评论网址：https://news.ycombinator.com/item?id=47473599 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 8,
+          "title": "主管或“经理”Al 代理是控制 Al 的错误方式",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-03-22T02:33:49+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1s0a3g2/a_supervisor_or_manager_al_agent_is_the_wrong_way/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "我不断看到越来越多的公司表示，他们将通过在他们之上添加主管或经理 Al 来减少 Al 的幻觉、漂移和错误，这些主管或经理将审查 Al 的前夕……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "被AI“偷走”声音 配音演员集体维权：希望构建合法共存生态",
+          "platform": "36氪",
+          "aiScore": 75,
+          "publishedAt": "2026-03-22T01:20:22+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3733429003616261?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "内容生产"
+          ],
+          "summary": "近日，多名配音演员相继公开发声，反对未经演员知情同意，擅自采集其声音素材用于AI训练、音色合成及商业变现的行为。从《甜蜜蜜》里的黎小军，到《无间道》中的刘建明，配音演员叶清塑造了许多经典的人物形象。就在不久前，短视频平台上出现了一集AI生成的短剧，许多观众通过弹幕刷屏：主人公的旁白是“叶清老师的声音”。接受记者采访时，叶清坦言，AI短剧里对他的音色还原度极高。类似的经历在配音…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 6,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "无目标的人工智能代理：他们在无人注视的情况下构建什么",
+          "platform": "Hacker News",
+          "aiScore": 75,
+          "publishedAt": "2026-03-21T23:36:02+00:00",
+          "sourceUrl": "https://changkun.substack.com/p/goalless-agents",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "文章网址：https://changkun.substack.com/p/goalless-agents 评论网址：https://news.ycombinator.com/item?id=47472694 积分：3 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 2
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 25,
+        "avgScore": 72.5,
+        "topScore": 90,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 6
+          },
+          {
+            "name": "36氪",
+            "count": 3
+          },
+          {
+            "name": "爱范儿",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 9
+          },
+          {
+            "name": "Agent",
+            "count": 9
+          },
+          {
+            "name": "开源生态",
+            "count": 6
+          },
+          {
+            "name": "应用落地",
+            "count": 3
+          },
+          {
+            "name": "投融资",
+            "count": 2
+          },
+          {
+            "name": "模型进展",
+            "count": 2
+          },
+          {
+            "name": "内容生产",
+            "count": 2
+          },
+          {
+            "name": "芯片算力",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 25 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 开源生态",
+        "最高分事件：Nothing在中国发布Headphone (a)与Phone (4a)系列，在性能过剩时代继续押注“设计优先”丨最前线（90 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      ]
+    },
     {
       "date": "2026-03-21",
       "label": "3月21日",
@@ -3408,46 +3700,42 @@
     }
   ],
   "currentWeek": {
-    "weekKey": "2026-03-W3",
-    "weekLabel": "3月第3周",
+    "weekKey": "2026-03-W4",
+    "weekLabel": "3月第4周",
     "range": {
-      "start": "2026-03-15",
-      "end": "2026-03-21"
+      "start": "2026-03-22",
+      "end": "2026-03-28"
     },
     "metrics": {
-      "daysCovered": 5,
-      "totalItems": 310,
-      "avgTop10Score": 94.9,
-      "topScore": 95,
+      "daysCovered": 1,
+      "totalItems": 25,
+      "avgTop10Score": 83.2,
+      "topScore": 90,
       "topPlatforms": [
         {
+          "name": "Hacker News",
+          "count": 4
+        },
+        {
           "name": "36氪",
-          "count": 8
+          "count": 3
         },
         {
-          "name": "The Verge",
-          "count": 1
+          "name": "Reddit",
+          "count": 2
         },
         {
-          "name": "量子位",
+          "name": "爱范儿",
           "count": 1
         }
       ],
       "topTopics": [
         {
-          "name": "芯片算力",
-          "count": 9
+          "name": "Agent",
+          "count": 7
         },
         {
           "name": "应用落地",
-          "count": 7
-        },
-        {
-          "name": "模型进展",
-          "count": 7
-        },
-        {
-          "name": "Agent",
           "count": 3
         },
         {
@@ -3455,7 +3743,15 @@
           "count": 2
         },
         {
-          "name": "安全治理",
+          "name": "模型进展",
+          "count": 2
+        },
+        {
+          "name": "开源生态",
+          "count": 2
+        },
+        {
+          "name": "芯片算力",
           "count": 1
         }
       ]
@@ -3463,47 +3759,46 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "氪星晚报｜迪卡侬正式入驻拼多多；特斯拉计划2026年批量交付Semi电动卡车，价格或低于30万美元；消息人士：马斯克团队采购光伏设备预计将在5月第一周发货",
+        "title": "Nothing在中国发布Headphone (a)与Phone (4a)系列，在性能过剩时代继续押注“设计优先”丨最前线",
         "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-03-20T11:08:25+00:00",
-        "sourceUrl": "https://36kr.com/p/3731169592918273?f=rss",
+        "aiScore": 90,
+        "publishedAt": "2026-03-22T03:26:52+00:00",
+        "sourceUrl": "https://36kr.com/p/3733553048256518?f=rss",
         "sourceName": "36氪",
-        "industryStage": "下游",
+        "industryStage": "上游",
         "contentTags": [
-          "芯片算力",
           "应用落地",
           "投融资"
         ],
-        "summary": "大公司： 小鹏汽车：预计第一季度交付量61000辆-66000辆，同比减少29.8%-35.1% 36氪获悉，小鹏汽车发布2025年第四季度及全年财报。财报显示，对于2026年第一季度，本公司预期汽车交付量将介乎61000-66000辆，按年减少约29.79%-35.11%。总收入将介乎122.0亿元-132.8亿元，按年减少约16.01%-22.84%。 北京汽车：王昊由于…",
+        "summary": "作者丨欧雪 编辑丨袁斯来 3月20日，总部位于伦敦的消费科技公司Nothing在中国上海召开新品发布会，正式推出头戴式耳机Headphone(a)和智能手机Phone(4a)系列。这是Nothing第二次在中国以线下发布会形式发布新品，显示出其对中国市场的投入正在逐步加深。 从定价来看，Headphone(a)国内首销价为1299元，Phone(4a)起售价为3299元（12…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
-          "topic": 20,
+          "topic": 15,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 2,
-        "title": "吴泳铭宣布阿里AI战略商业目标：未来五年，云和AI商业化年收入超1000亿美元",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-03-19T11:38:41+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3729790103240708?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
+        "title": "Show HN：我如何在零 Web 开发经验的情况下使用 AI 构建简历编辑器",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-03-22T01:41:48+00:00",
+        "sourceUrl": "https://www.tailortojob.app/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
           "模型进展",
+          "Agent",
           "应用落地"
         ],
-        "summary": "36氪获悉，在阿里巴巴集团2026财年Q3财报分析师电话会上，CEO吴泳铭表示，阿里已形成从AI Infra到应用的完整全栈AI能力，并加速推进MaaS平台建设。过去三个月，百炼MaaS平台上公共模型服务市场的Token消耗规模提升6倍，预计商业化MaaS收入将会成为阿里云最大的收入产品。同时，阿里云2026财年截至2月底的外部商业化收入正式突破1000亿元。商业目标是未来五…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "你好，我最近正在申请暑期实习，在用 Word 定制简历时感到很沮丧。我去年秋天开始学习 Python，但在……方面的经验绝对为零。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
+          "authority": 18,
           "topic": 20,
           "actionability": 10,
           "heat": 5
@@ -3511,23 +3806,23 @@
       },
       {
         "rank": 3,
-        "title": "氪星晚报｜澳大利亚就业依然强劲，支持澳央行的鹰派立场；首款国产化“龙虾云电脑”发布；法官下令恢复美国之音员工职务，推翻特朗普关停决定",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-03-19T10:39:47+00:00",
-        "sourceUrl": "https://36kr.com/p/3729727275220613?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
+        "title": "：[R] LLM 提示的 Sinc 重建：将 Nyquist-Shannon 应用于规格轴（275 个 obs，成本降低 97%，开源）",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-03-22T01:38:20+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1s08xft/r_sinc_reconstruction_for_llm_prompts_applying/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "应用落地",
-          "投融资"
+          "模型进展",
+          "Agent",
+          "开源生态"
         ],
-        "summary": "大公司： 马斯克：SpaceX AI和特斯拉预计将继续大规模订购英伟达芯片 马斯克发文称，非常欣赏英伟达和黄仁勋，英伟达市值实至名归，SpaceX AI和特斯拉预计将继续大规模订购英伟达芯片。 三星电子计划在2026年至少投入110万亿韩元用于研发与设施建设 三星电子计划在2026年至少投入110万亿韩元用于研发与设施建设。 小马智行与如祺出行共建Robotaxi车队，首批交…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "我将 Nyquist-Shannon 采样定理应用于 LLM 提示工程。核心发现：原始提示是 6 频段规范信号的 1 个样本，产生混叠（幻觉、hed…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
+          "authority": 18,
           "topic": 20,
           "actionability": 10,
           "heat": 5
@@ -3535,180 +3830,466 @@
       },
       {
         "rank": 4,
-        "title": "AWE 2026观察：AI重构家庭空间",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-03-19T08:27:34+00:00",
-        "sourceUrl": "https://36kr.com/p/3729551142534532?f=rss",
-        "sourceName": "36氪",
+        "title": "别再捣鼓没用的龙虾了，目前 AI Agent 最好的落地容器，是汽车",
+        "platform": "爱范儿",
+        "aiScore": 87,
+        "publishedAt": "2026-03-22T02:09:59+00:00",
+        "sourceUrl": "https://www.ifanr.com/1658243",
+        "sourceName": "爱范儿",
         "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展",
+          "Agent",
           "应用落地"
         ],
-        "summary": "作者：王利 编辑：王小坤 想象一下，你身处一间密闭场所，四周音箱环绕。接着，音乐响起，声音从不同方向传来：有的掠过头顶，有的在左耳回响，每个声源的位置都清晰可辨。随后，你戴上一副耳机。奇怪的是，耳机隔音似乎并不好，外面声音清晰依旧。听了一会，你有些腻了，摘下耳机，才发现四周的音箱早已关闭——刚才以为仍由音箱播放的音乐，其实一直出自耳机。 这是发生AWE2026的一幕，来自索尼…",
+        "summary": "Agent 并非要把人训练成更加熟练的机器操作员。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 20,
+          "authority": 18,
+          "topic": 19,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "DLSS 5：Nvidia的AI图形技术是否已经走得太远了？",
-        "platform": "The Verge",
-        "aiScore": 95,
-        "publishedAt": "2026-03-18T12:30:00+00:00",
-        "sourceUrl": "https://www.theverge.com/games/896518/nvidia-dlss-5-ai-3d-rendering",
-        "sourceName": "The Verge AI",
+        "title": "软银计划在美国俄亥俄州建设5000亿美元的巨型AI数据中心",
+        "platform": "36氪",
+        "aiScore": 86,
+        "publishedAt": "2026-03-22T03:00:20+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3733477270896902?f=rss",
+        "sourceName": "36氪",
         "industryStage": "上游",
         "contentTags": [
           "芯片算力",
-          "模型进展"
+          "投融资"
         ],
-        "summary": "Nvidia 发布了一种名为 DLSS 5 的新“3D 引导神经渲染模型”，可以实时改变游戏的光照和材质，但是……许多游戏玩家并不满意。从 DLSS 5 模因到……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "软银首席执行官孙正义当地时间3月20日表示，软银集团正筹划在美国俄亥俄州打造一个规模庞大的数据中心基础设施项目，将向这一单一项目投入5000亿美元。软银拟在美国能源部拥有的一处前铀浓缩设施旧址建设该人工智能计算综合体，其用电规模可达10吉瓦，预计该数据中心项目第一阶段将涵盖800兆瓦电力，耗资300亿至400亿美元，并将于2028年初完工。该项目将采用价值约330亿美元的燃气…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
-          "topic": 20,
-          "actionability": 10,
+          "topic": 17,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 6,
-        "title": "全球AI需求激增刺激产品涨价，机构称算力需求仍有望进一步上行",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-03-18T12:29:03+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3728398767553928?f=rss",
-        "sourceName": "36氪",
+        "title": "AI 编码代理运行 shell 命令，无需审计跟踪。我构建了一个修复程序",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-03-21T23:55:49+00:00",
+        "sourceUrl": "https://www.oculisecurity.com/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "应用落地"
+          "Agent",
+          "安全治理"
         ],
-        "summary": "全球AI需求激增、Token调用量上扬，阿里云、百度智能云等部分产品纷纷上调价格。综合研报观点，尽管当前AI应用大规模商业化落地能见度仍然不足，但研报普遍预判未来3至6个月，随着推理端AI应用的密集落地催化叠加训练端模型的持续迭代，算力需求仍有望进一步上行。 （新华财经）",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://www.oculisecurity.com/ 评论网址：https://news.ycombinator.com/item?id=47472845 积分：2 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 20,
+          "authority": 18,
+          "topic": 18,
           "actionability": 10,
-          "heat": 5
+          "heat": 2
         }
       },
       {
         "rank": 7,
-        "title": "氪星晚报｜新疆新能源外送电量突破3000亿千瓦时；三星电子或发生大规模罢工，恐波及全球半导体产供链；社交平台X调整印尼用户年龄限制以符合新规",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-03-18T10:29:02+00:00",
-        "sourceUrl": "https://36kr.com/p/3728294939966598?f=rss",
-        "sourceName": "36氪",
+        "title": "Show HN：AgentVerse – 面向 AI 代理的开放社交网络（2026 年 3 月）",
+        "platform": "Hacker News",
+        "aiScore": 82,
+        "publishedAt": "2026-03-22T01:46:53+00:00",
+        "sourceUrl": "https://nickakre.github.io/agentverse-social/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "大公司： 三星电子或发生大规模罢工，恐波及全球半导体产供链 据韩联社18日报道，由超过6.6万名韩国三星电子工会成员参与表决的投票结果显示，93.1%的工会成员赞成罢工。若无重大变化，三星电子工会成员将于5月21日至6月7日全面罢工。据韩联社报道，三星电子作为全球重要的存储芯片制造商，一旦发生罢工，可能进一步加剧由全球人工智能数据中心建设持续升温带来的全球半导体供应趋紧局面，…",
+        "summary": "文章网址：https://nickakre.github.io/agentverse-social/ 评论网址：https://news.ycombinator.com/item?id=47473599 积分：1 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 20,
+          "authority": 18,
+          "topic": 18,
           "actionability": 10,
-          "heat": 5
+          "heat": 1
         }
       },
       {
         "rank": 8,
-        "title": "地平线芯片负责人将离职，公司走向软硬一体架构｜36氪独家",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-03-16T10:53:09+00:00",
-        "sourceUrl": "https://36kr.com/p/3725426197150345?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
+        "title": "主管或“经理”Al 代理是控制 Al 的错误方式",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-03-22T02:33:49+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1s0a3g2/a_supervisor_or_manager_al_agent_is_the_wrong_way/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "应用落地"
+          "Agent"
         ],
-        "summary": "图为 地平线 文｜肖漫 编辑｜李勤、杨轩 36氪独家获悉，地平线芯片研发负责人陈鹏即将离职，内部呼声比较高的接替人选是地平线副总裁兼首席架构师苏箐。据悉，地平线内部一直在推动软硬一体，苏箐也参与了征程7系列芯片的架构设计和产品定义。 陈鹏在加入地平线之前已在ICT芯片行业工作了19年，曾管理千人级的芯片团队，是芯片行业的老兵。 加入地平线后，陈鹏主要负责芯片SoC系统架构设计…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "我不断看到越来越多的公司表示，他们将通过在他们之上添加主管或经理 Al 来减少 Al 的幻觉、漂移和错误，这些主管或经理将审查 Al 的前夕……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 20,
+          "authority": 18,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "36氪晚报｜韩元对美元汇率收盘价跌至近18年来最低；WTI原油上破100美元/桶；抖音旗下科技公司在深圳成立新信息技术公司",
+        "title": "被AI“偷走”声音 配音演员集体维权：希望构建合法共存生态",
         "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-03-16T09:39:49+00:00",
-        "sourceUrl": "https://36kr.com/p/3725424173857155?f=rss",
+        "aiScore": 75,
+        "publishedAt": "2026-03-22T01:20:22+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3733429003616261?f=rss",
         "sourceName": "36氪",
         "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
+          "内容生产"
         ],
-        "summary": "大公司： 分析人士：虽然涉及华虹的利好传闻不断，英伟达GTC 2026大会可能也是引爆半导体板块的一个主因 3月16日午后，创业板指涨超1%。半导体、存储芯片板块持续走高。其中，总市值超2000亿的华虹公司A股一度大涨超16%，其H股一度大涨超11%。整个半导体板块被带飞，芯片ETF午后直线飙升，一度涨超2%。分析人士认为，虽然涉及华虹的利好传闻不断，英伟达即将召开的GTC2…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "近日，多名配音演员相继公开发声，反对未经演员知情同意，擅自采集其声音素材用于AI训练、音色合成及商业变现的行为。从《甜蜜蜜》里的黎小军，到《无间道》中的刘建明，配音演员叶清塑造了许多经典的人物形象。就在不久前，短视频平台上出现了一集AI生成的短剧，许多观众通过弹幕刷屏：主人公的旁白是“叶清老师的声音”。接受记者采访时，叶清坦言，AI短剧里对他的音色还原度极高。类似的经历在配音…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
-          "topic": 20,
-          "actionability": 10,
+          "topic": 6,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "蚂蚁数科发布“龙虾卫士”，护航OpenClaw智能体安全落地",
-        "platform": "量子位",
-        "aiScore": 94,
-        "publishedAt": "2026-03-19T08:38:15+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/03/389305.html",
-        "sourceName": "量子位",
-        "industryStage": "下游",
+        "title": "无目标的人工智能代理：他们在无人注视的情况下构建什么",
+        "platform": "Hacker News",
+        "aiScore": 75,
+        "publishedAt": "2026-03-21T23:36:02+00:00",
+        "sourceUrl": "https://changkun.substack.com/p/goalless-agents",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "应用落地",
-          "安全治理"
+          "Agent"
         ],
-        "summary": "拥有可解释、可控制、可追溯的安全基石",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://changkun.substack.com/p/goalless-agents 评论网址：https://news.ycombinator.com/item?id=47472694 积分：3 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 19,
+          "authority": 18,
+          "topic": 10,
           "actionability": 10,
-          "heat": 5
+          "heat": 2
         }
       }
     ],
     "briefing": [
-      "3月第3周累计收录 310 条资讯，覆盖 5 天。",
-      "高频主题：芯片算力 / 应用落地 / 模型进展",
-      "本周最高分：氪星晚报｜迪卡侬正式入驻拼多多；特斯拉计划2026年批量交付Semi电动卡车，价格或低于30万美元；消息人士：马斯克团队采购光伏设备预计将在5月第一周发货（95 分）",
+      "3月第4周累计收录 25 条资讯，覆盖 1 天。",
+      "高频主题：Agent / 应用落地 / 投融资",
+      "本周最高分：Nothing在中国发布Headphone (a)与Phone (4a)系列，在性能过剩时代继续押注“设计优先”丨最前线（90 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "weeklyHistory": [
+    {
+      "weekKey": "2026-03-W4",
+      "weekLabel": "3月第4周",
+      "range": {
+        "start": "2026-03-22",
+        "end": "2026-03-28"
+      },
+      "metrics": {
+        "daysCovered": 1,
+        "totalItems": 25,
+        "avgTop10Score": 83.2,
+        "topScore": 90,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 4
+          },
+          {
+            "name": "36氪",
+            "count": 3
+          },
+          {
+            "name": "Reddit",
+            "count": 2
+          },
+          {
+            "name": "爱范儿",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "Agent",
+            "count": 7
+          },
+          {
+            "name": "应用落地",
+            "count": 3
+          },
+          {
+            "name": "投融资",
+            "count": 2
+          },
+          {
+            "name": "模型进展",
+            "count": 2
+          },
+          {
+            "name": "开源生态",
+            "count": 2
+          },
+          {
+            "name": "芯片算力",
+            "count": 1
+          }
+        ]
+      },
+      "topEvents": [
+        {
+          "rank": 1,
+          "title": "Nothing在中国发布Headphone (a)与Phone (4a)系列，在性能过剩时代继续押注“设计优先”丨最前线",
+          "platform": "36氪",
+          "aiScore": 90,
+          "publishedAt": "2026-03-22T03:26:52+00:00",
+          "sourceUrl": "https://36kr.com/p/3733553048256518?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "应用落地",
+            "投融资"
+          ],
+          "summary": "作者丨欧雪 编辑丨袁斯来 3月20日，总部位于伦敦的消费科技公司Nothing在中国上海召开新品发布会，正式推出头戴式耳机Headphone(a)和智能手机Phone(4a)系列。这是Nothing第二次在中国以线下发布会形式发布新品，显示出其对中国市场的投入正在逐步加深。 从定价来看，Headphone(a)国内首销价为1299元，Phone(4a)起售价为3299元（12…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 15,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "Show HN：我如何在零 Web 开发经验的情况下使用 AI 构建简历编辑器",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-03-22T01:41:48+00:00",
+          "sourceUrl": "https://www.tailortojob.app/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "你好，我最近正在申请暑期实习，在用 Word 定制简历时感到很沮丧。我去年秋天开始学习 Python，但在……方面的经验绝对为零。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "：[R] LLM 提示的 Sinc 重建：将 Nyquist-Shannon 应用于规格轴（275 个 obs，成本降低 97%，开源）",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-03-22T01:38:20+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1s08xft/r_sinc_reconstruction_for_llm_prompts_applying/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "我将 Nyquist-Shannon 采样定理应用于 LLM 提示工程。核心发现：原始提示是 6 频段规范信号的 1 个样本，产生混叠（幻觉、hed…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "别再捣鼓没用的龙虾了，目前 AI Agent 最好的落地容器，是汽车",
+          "platform": "爱范儿",
+          "aiScore": 87,
+          "publishedAt": "2026-03-22T02:09:59+00:00",
+          "sourceUrl": "https://www.ifanr.com/1658243",
+          "sourceName": "爱范儿",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "Agent 并非要把人训练成更加熟练的机器操作员。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "软银计划在美国俄亥俄州建设5000亿美元的巨型AI数据中心",
+          "platform": "36氪",
+          "aiScore": 86,
+          "publishedAt": "2026-03-22T03:00:20+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3733477270896902?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "投融资"
+          ],
+          "summary": "软银首席执行官孙正义当地时间3月20日表示，软银集团正筹划在美国俄亥俄州打造一个规模庞大的数据中心基础设施项目，将向这一单一项目投入5000亿美元。软银拟在美国能源部拥有的一处前铀浓缩设施旧址建设该人工智能计算综合体，其用电规模可达10吉瓦，预计该数据中心项目第一阶段将涵盖800兆瓦电力，耗资300亿至400亿美元，并将于2028年初完工。该项目将采用价值约330亿美元的燃气…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 17,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "AI 编码代理运行 shell 命令，无需审计跟踪。我构建了一个修复程序",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-03-21T23:55:49+00:00",
+          "sourceUrl": "https://www.oculisecurity.com/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "文章网址：https://www.oculisecurity.com/ 评论网址：https://news.ycombinator.com/item?id=47472845 积分：2 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Show HN：AgentVerse – 面向 AI 代理的开放社交网络（2026 年 3 月）",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-03-22T01:46:53+00:00",
+          "sourceUrl": "https://nickakre.github.io/agentverse-social/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://nickakre.github.io/agentverse-social/ 评论网址：https://news.ycombinator.com/item?id=47473599 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 8,
+          "title": "主管或“经理”Al 代理是控制 Al 的错误方式",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-03-22T02:33:49+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1s0a3g2/a_supervisor_or_manager_al_agent_is_the_wrong_way/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "我不断看到越来越多的公司表示，他们将通过在他们之上添加主管或经理 Al 来减少 Al 的幻觉、漂移和错误，这些主管或经理将审查 Al 的前夕……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "被AI“偷走”声音 配音演员集体维权：希望构建合法共存生态",
+          "platform": "36氪",
+          "aiScore": 75,
+          "publishedAt": "2026-03-22T01:20:22+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3733429003616261?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "内容生产"
+          ],
+          "summary": "近日，多名配音演员相继公开发声，反对未经演员知情同意，擅自采集其声音素材用于AI训练、音色合成及商业变现的行为。从《甜蜜蜜》里的黎小军，到《无间道》中的刘建明，配音演员叶清塑造了许多经典的人物形象。就在不久前，短视频平台上出现了一集AI生成的短剧，许多观众通过弹幕刷屏：主人公的旁白是“叶清老师的声音”。接受记者采访时，叶清坦言，AI短剧里对他的音色还原度极高。类似的经历在配音…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 6,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "无目标的人工智能代理：他们在无人注视的情况下构建什么",
+          "platform": "Hacker News",
+          "aiScore": 75,
+          "publishedAt": "2026-03-21T23:36:02+00:00",
+          "sourceUrl": "https://changkun.substack.com/p/goalless-agents",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "文章网址：https://changkun.substack.com/p/goalless-agents 评论网址：https://news.ycombinator.com/item?id=47472694 积分：3 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 2
+          }
+        }
+      ],
+      "briefing": [
+        "3月第4周累计收录 25 条资讯，覆盖 1 天。",
+        "高频主题：Agent / 应用落地 / 投融资",
+        "本周最高分：Nothing在中国发布Headphone (a)与Phone (4a)系列，在性能过剩时代继续押注“设计优先”丨最前线（90 分）",
+        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      ]
+    },
     {
       "weekKey": "2026-03-W3",
       "weekLabel": "3月第3周",
