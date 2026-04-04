@@ -1,96 +1,26 @@
 {
-  "generatedAt": "2026-04-03T14:02:11.091829+00:00",
+  "generatedAt": "2026-04-04T03:32:16.466048+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-04-03",
-    "label": "4月3日",
+    "date": "2026-04-04",
+    "label": "4月4日",
     "top10": [
       {
-        "rank": 1,
-        "title": "智己汽车官宣刘翔成为品牌代言人",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-04-03T12:44:12+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3751088175907585?f=rss",
-        "sourceName": "36氪",
+        "rank": 8,
+        "title": "[P] GPU 友好的无损 12 位 BF16 格式，具有 0.03% 转义率和 1 个整数 ADD 解码，适用于 AMD 和 NVIDIA",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-04-04T00:55:50+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbv9jl/p_gpu_friendly_lossless_12bit_bf16_format_with/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "上游",
         "contentTags": [
           "芯片算力",
-          "Agent"
-        ],
-        "summary": "4月3日，智己汽车宣布，奥运冠军、世界级田径运动员刘翔正式成为品牌代言人。此外，智己LS8自3月26日开启预售以来，45分钟小订突破10000台。据了解，智己LS8集同级首发的全线控四轮转向、全满贯百万级底盘、英伟达Thor芯片+520线超视域激光雷达、AI超级智能体IM Ultra Agent 1.0、恒星超级增程系统等技术于一体，并将于4月16日正式上市。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 2,
-        "title": "神州数码2025年营收超1400亿，AI相关业务增长近五成｜最前线",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-04-03T12:08:53+00:00",
-        "sourceUrl": "https://36kr.com/p/3751046517129735?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "芯片算力",
           "模型进展",
-          "Agent"
+          "开源生态"
         ],
-        "summary": "作者｜黄楠 编辑｜袁斯来 神州数码（000034.SZ）2025年全年业绩报告近日发布。 财报显示，公司全年实现营业收入1438亿元，同比增长12%，营收规模连续三年稳步攀升。其中，AI相关业务成为核心增长引擎，全年收入达330亿元，同比增长了48%，正式迈入规模化落地期，成为与传统分销业务并重的当期增长极。 具体到业务板块，高价值战略业务呈现爆发式增长。以神州问学为核心的A…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "企业玩不转龙虾，是人的思维出错了",
-        "platform": "量子位",
-        "aiScore": 94,
-        "publishedAt": "2026-04-03T08:54:42+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/04/395307.html",
-        "sourceName": "量子位",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "MiniMax和腾讯云深度详解Agent大规模落地",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "[P] 我训练了一个 Mamba-3 日志异常检测器，在 HDFS 上达到了 0.9975 F1 — 我很好奇这能走多远",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-04-03T13:44:02+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbe0dk/p_i_trained_a_mamba3_log_anomaly_detector_that/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "实验#324 圆满结束。 ;) 这次我围绕日志异常检测构建了一个小项目。在大约两天的时间里，我从第一次运行时大约 60% 的效率提升到最终的 F1 分数……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "大家好，我来自澳大利亚:)我刚刚发布了一个新的研究原型，它是一种无损 BF16 压缩格式，通过用 4 位指数替换 8 位指数来以 12 位存储权重......",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -101,136 +31,41 @@
       },
       {
         "rank": 9,
-        "title": "小米MiMo大模型首次推出Token Plan，单次订阅可满足全模态Agent任务需求",
-        "platform": "量子位",
-        "aiScore": 88,
-        "publishedAt": "2026-04-03T05:44:33+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/04/395210.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "首购支持88折优惠",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "叽伴：用「共同经历」重新定义AI社交",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-04-03T02:00:34+00:00",
-        "sourceUrl": "https://36kr.com/p/3749816005657093?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "随着大语言模型和各类Agent的崛起，国内外涌现出一批以AI为核心的社交产品。然而在行业热闹背后，一个尴尬的现实是： 用户尝鲜热情高，留存率却惨淡。 聊得越久，越发现角色“失忆”——上周提过的重要事情这周就忘；OOC（性格漂移）——原本高冷的角色突然变得谄媚讨好；最终演变成编剧疲劳的独角戏，用户既要当体验者又要当编剧，负担过重，自然流失。 技术越进步，用户对虚拟陪伴的期待反而…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "AI开发者请就位！第二届“数龙杯”新增智能体赛道，你的“龙虾”准备好了吗？",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-04-03T00:30:48+00:00",
-        "sourceUrl": "https://36kr.com/p/3749811482297090?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "文 | 刘士武 近日，由世纪华通主办的第二届「数龙杯全球AI创新大赛」宣布将于4月初正式启动，并在参赛项目类型方面进行了全面升级。除了各类AI游戏与AI应用以外，本届大赛专门新增了AI智能体赛道，希望挖掘在这个领域真正有创造力、能解决实际问题的优秀项目。 第二届「数龙杯全球AI创新大赛」（文末附报名入口） 这一举措的背景，呼应了2026开年OpenClaw将AI行业发展推向的…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "阅文“AI拟真人大讲堂”：好故事才是AI时代的未来",
-        "platform": "36氪",
-        "aiScore": 87,
-        "publishedAt": "2026-04-03T06:15:06+00:00",
-        "sourceUrl": "https://36kr.com/p/3750704146072326?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地",
-          "内容生产"
-        ],
-        "summary": "如今内容行业风头正盛的莫过于AI拟真人剧。 它是从AI漫剧这一赛道中生长出来的内容形态，也是视频生成大模型飞跃式进步下的产物。 早在2025年下半年的时候，这一内容形态就已经崭露头角。彼时有一批从业者认为，AI拟真人剧的天花板相当于整个传统影视行业，要高于AI漫剧，于是在诸多技术问题尚未被解决的时候就决定入局。 今年1月以来，字节旗下Seedance2.0、生数科技Vidu…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "36氪首发丨前赛默飞员工创业黑灯实验室，实现国内100%交付，获近亿融资",
-        "platform": "36氪",
-        "aiScore": 87,
-        "publishedAt": "2026-04-03T04:00:00+00:00",
-        "sourceUrl": "https://36kr.com/p/3750417621795588?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "模型进展",
-          "应用落地",
-          "自动化"
-        ],
-        "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，北京戴纳实验科技股份有限公司（下称“戴纳科技”）已于近日完成近亿元B+轮融资。本轮由顺禧基金管理的北京市新材料产业投资基金（以下简称“北京新材料基金”）和北京市丰台区丰泽志远产业培育基金（以下简称“丰泽基金”）共同投资。资金将主要用于核心技术迭代、产能扩张，以及与北京化工大学联合搭建全球首个新材料CRO平台，加速AI+新材料研发服务的产业化…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "微软最新的开源项目：AI代理的运行时安全",
+        "title": "WTF兄弟做了什么？弧线 3 2026",
         "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-04-03T11:20:38+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbatl3/microsofts_newest_opensource_project_runtime/",
+        "aiScore": 88,
+        "publishedAt": "2026-04-03T23:30:44+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbtcoe/wtf_bro_did_what_arc_3_2026/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "安全治理"
+          "芯片算力",
+          "模型进展"
         ],
-        "summary": "由 /u/Fcking_Chuck 提交 [链接] [评论]",
+        "summary": "Physarum Explorer 是一种高速、仿生神经模型，专为 ARC 几何设计。以下是其当前状态的快照： 1. 模型大小架构：专门的……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Show HN：旅行黑客工具包 – 使用人工智能进行积分搜索和旅行规划",
+        "platform": "Hacker News",
+        "aiScore": 86,
+        "publishedAt": "2026-04-04T02:26:42+00:00",
+        "sourceUrl": "https://github.com/borski/travel-hacking-toolkit",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "我的大部分旅行都使用积分和里程。每次预订都会做出相同的决定：使用积分还是支付现金？要回答这个问题，您需要跨多个计划提供奖励，例如……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -239,77 +74,542 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 4,
+        "title": "只需 7 个步骤即可将自己上传到 AI 中",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-04-04T01:31:48+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbw1oi/upload_yourself_into_an_ai_in_7_steps/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "内容生产",
+          "安全治理"
+        ],
+        "summary": "根据您的 Reddit 历史记录创建数字孪生的分步指南 第 1 步：请求您的数据 转到 https://www.reddit.com/settings/data-request 第 2 步：选择您的司法管辖区请求...",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "千问3.6Plus大模型登顶全球模型调用排行榜首",
+        "platform": "36氪",
+        "aiScore": 85,
+        "publishedAt": "2026-04-04T03:17:19+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3751946475242243?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "36氪获悉，4月4日，发布仅1天的千问新模型Qwen3.6-Plus，冲上全球大模型API调用平台OpenRouter的日榜榜首，成为当下最受企业和开发者热捧的大模型。OpenRouter官方数据显示，Qwen3.6-Plus的日调用量突破1.4万亿Token，打破了该平台的单日单模型调用量的全球纪录。",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "ClawTrak – 免费工具，用于检查您的 AI 产品是否对 AI 代理不可见",
+        "platform": "Hacker News",
+        "aiScore": 84,
+        "publishedAt": "2026-04-04T02:08:02+00:00",
+        "sourceUrl": "https://clawtrak.com/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "文章网址：https://clawtrak.com/ 评论网址：https://news.ycombinator.com/item?id=47634921 积分：3 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 7,
+        "title": "显示 HN：MicroSafe-RL – 适用于 Edge AI 的确定性 1.18μs 安全层",
+        "platform": "Hacker News",
+        "aiScore": 80,
+        "publishedAt": "2026-04-04T02:51:38+00:00",
+        "sourceUrl": "https://github.com/Kretski/MicroSafe-RL",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态",
+          "安全治理"
+        ],
+        "summary": "我构建 MicroSafe-RL 是为了解决强化学习和 Edge LLM 部署过程中的“硬件破坏”问题。技术：它是一个使用 EMA+MAD 稳定性的裸机 C++ 拦截器……",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "早报｜Slack粗暴切断大中华区服务引发用户不满/小米手机涨价，卢伟冰：内存涨价远超预期/三大外卖平台被约谈，6月落实食品安全新规",
+        "platform": "爱范儿",
+        "aiScore": 79,
+        "publishedAt": "2026-04-04T00:27:47+00:00",
+        "sourceUrl": "https://www.ifanr.com/1661050",
+        "sourceName": "爱范儿",
+        "industryStage": "下游",
+        "contentTags": [
+          "应用落地",
+          "安全治理"
+        ],
+        "summary": "· 工信部预警：iOS 13 至 17.2.1 存在严重漏洞，建议尽快升级 · 苹果下架 Vibe Coding 应用 Anything · 曝 R 星母公司解散 AI 团队，七年研发成果戛然而止 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 17,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "[P] 遥感基础模型变得易于使用。",
+        "platform": "Reddit",
+        "aiScore": 79,
+        "publishedAt": "2026-04-03T19:36:59+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbnhcu/p_remote_sensing_foundation_models_made_easy_to/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "该项目实现了让遥感模型获取嵌入的想法，就像我们让卫星获取数据一样！ https://github.com/cybergis/rs-embed 由 /u/amritk110 提交...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "为什么克劳德会一遍又一遍地给我同样的回答，却给别人不同的答复？",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-04-04T01:50:41+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbwg3x/why_would_claude_give_me_the_same_response_over/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "我让克劳德“随机生成一个单词”，这样我就可以玩一些文字游戏。然后，在选择“新聊天”后，我在桌面上的新提示窗口中再次询问它，它给了我同样的词......",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "metrics": {
-      "totalItems": 66,
-      "avgScore": 73.6,
-      "topScore": 95,
+      "totalItems": 41,
+      "avgScore": 72.0,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 24
+          "count": 21
         },
         {
           "name": "Hacker News",
           "count": 15
         },
         {
-          "name": "量子位",
-          "count": 9
-        },
-        {
-          "name": "36氪",
-          "count": 8
+          "name": "爱范儿",
+          "count": 2
         },
         {
           "name": "The Verge",
-          "count": 5
+          "count": 2
+        },
+        {
+          "name": "36氪",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 27
+          "count": 15
         },
         {
           "name": "模型进展",
-          "count": 22
-        },
-        {
-          "name": "Agent",
           "count": 12
         },
         {
-          "name": "芯片算力",
-          "count": 8
-        },
-        {
-          "name": "应用落地",
+          "name": "开源生态",
           "count": 7
         },
         {
-          "name": "开源生态",
+          "name": "Agent",
           "count": 5
         },
         {
-          "name": "内容生产",
+          "name": "安全治理",
+          "count": 5
+        },
+        {
+          "name": "芯片算力",
           "count": 4
         },
         {
-          "name": "安全治理",
+          "name": "应用落地",
+          "count": 3
+        },
+        {
+          "name": "内容生产",
           "count": 3
         }
       ]
     },
     "briefing": [
-      "今日共收录 66 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：智己汽车官宣刘翔成为品牌代言人（95 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 41 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / 开源生态",
+      "最高分事件：[P] GPU 友好的无损 12 位 BF16 格式，具有 0.03% 转义率和 1 个整数 ADD 解码，适用于 AMD 和 NVIDIA（88 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-04-04",
+      "label": "4月4日",
+      "top10": [
+        {
+          "rank": 8,
+          "title": "[P] GPU 友好的无损 12 位 BF16 格式，具有 0.03% 转义率和 1 个整数 ADD 解码，适用于 AMD 和 NVIDIA",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-04T00:55:50+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbv9jl/p_gpu_friendly_lossless_12bit_bf16_format_with/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "大家好，我来自澳大利亚:)我刚刚发布了一个新的研究原型，它是一种无损 BF16 压缩格式，通过用 4 位指数替换 8 位指数来以 12 位存储权重......",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "WTF兄弟做了什么？弧线 3 2026",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-03T23:30:44+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbtcoe/wtf_bro_did_what_arc_3_2026/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "Physarum Explorer 是一种高速、仿生神经模型，专为 ARC 几何设计。以下是其当前状态的快照： 1. 模型大小架构：专门的……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Show HN：旅行黑客工具包 – 使用人工智能进行积分搜索和旅行规划",
+          "platform": "Hacker News",
+          "aiScore": 86,
+          "publishedAt": "2026-04-04T02:26:42+00:00",
+          "sourceUrl": "https://github.com/borski/travel-hacking-toolkit",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "我的大部分旅行都使用积分和里程。每次预订都会做出相同的决定：使用积分还是支付现金？要回答这个问题，您需要跨多个计划提供奖励，例如……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "只需 7 个步骤即可将自己上传到 AI 中",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-04-04T01:31:48+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbw1oi/upload_yourself_into_an_ai_in_7_steps/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "内容生产",
+            "安全治理"
+          ],
+          "summary": "根据您的 Reddit 历史记录创建数字孪生的分步指南 第 1 步：请求您的数据 转到 https://www.reddit.com/settings/data-request 第 2 步：选择您的司法管辖区请求...",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "千问3.6Plus大模型登顶全球模型调用排行榜首",
+          "platform": "36氪",
+          "aiScore": 85,
+          "publishedAt": "2026-04-04T03:17:19+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3751946475242243?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "36氪获悉，4月4日，发布仅1天的千问新模型Qwen3.6-Plus，冲上全球大模型API调用平台OpenRouter的日榜榜首，成为当下最受企业和开发者热捧的大模型。OpenRouter官方数据显示，Qwen3.6-Plus的日调用量突破1.4万亿Token，打破了该平台的单日单模型调用量的全球纪录。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "ClawTrak – 免费工具，用于检查您的 AI 产品是否对 AI 代理不可见",
+          "platform": "Hacker News",
+          "aiScore": 84,
+          "publishedAt": "2026-04-04T02:08:02+00:00",
+          "sourceUrl": "https://clawtrak.com/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "文章网址：https://clawtrak.com/ 评论网址：https://news.ycombinator.com/item?id=47634921 积分：3 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 7,
+          "title": "显示 HN：MicroSafe-RL – 适用于 Edge AI 的确定性 1.18μs 安全层",
+          "platform": "Hacker News",
+          "aiScore": 80,
+          "publishedAt": "2026-04-04T02:51:38+00:00",
+          "sourceUrl": "https://github.com/Kretski/MicroSafe-RL",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "安全治理"
+          ],
+          "summary": "我构建 MicroSafe-RL 是为了解决强化学习和 Edge LLM 部署过程中的“硬件破坏”问题。技术：它是一个使用 EMA+MAD 稳定性的裸机 C++ 拦截器……",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "早报｜Slack粗暴切断大中华区服务引发用户不满/小米手机涨价，卢伟冰：内存涨价远超预期/三大外卖平台被约谈，6月落实食品安全新规",
+          "platform": "爱范儿",
+          "aiScore": 79,
+          "publishedAt": "2026-04-04T00:27:47+00:00",
+          "sourceUrl": "https://www.ifanr.com/1661050",
+          "sourceName": "爱范儿",
+          "industryStage": "下游",
+          "contentTags": [
+            "应用落地",
+            "安全治理"
+          ],
+          "summary": "· 工信部预警：iOS 13 至 17.2.1 存在严重漏洞，建议尽快升级 · 苹果下架 Vibe Coding 应用 Anything · 曝 R 星母公司解散 AI 团队，七年研发成果戛然而止 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "[P] 遥感基础模型变得易于使用。",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-04-03T19:36:59+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbnhcu/p_remote_sensing_foundation_models_made_easy_to/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "该项目实现了让遥感模型获取嵌入的想法，就像我们让卫星获取数据一样！ https://github.com/cybergis/rs-embed 由 /u/amritk110 提交...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "为什么克劳德会一遍又一遍地给我同样的回答，却给别人不同的答复？",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-04-04T01:50:41+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbwg3x/why_would_claude_give_me_the_same_response_over/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "我让克劳德“随机生成一个单词”，这样我就可以玩一些文字游戏。然后，在选择“新聊天”后，我在桌面上的新提示窗口中再次询问它，它给了我同样的词......",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 41,
+        "avgScore": 72.0,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Reddit",
+            "count": 21
+          },
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "爱范儿",
+            "count": 2
+          },
+          {
+            "name": "The Verge",
+            "count": 2
+          },
+          {
+            "name": "36氪",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 15
+          },
+          {
+            "name": "模型进展",
+            "count": 12
+          },
+          {
+            "name": "开源生态",
+            "count": 7
+          },
+          {
+            "name": "Agent",
+            "count": 5
+          },
+          {
+            "name": "安全治理",
+            "count": 5
+          },
+          {
+            "name": "芯片算力",
+            "count": 4
+          },
+          {
+            "name": "应用落地",
+            "count": 3
+          },
+          {
+            "name": "内容生产",
+            "count": 3
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 41 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / 开源生态",
+        "最高分事件：[P] GPU 友好的无损 12 位 BF16 格式，具有 0.03% 转义率和 1 个整数 ADD 解码，适用于 AMD 和 NVIDIA（88 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      ]
+    },
     {
       "date": "2026-04-03",
       "label": "4月3日",
@@ -385,7 +685,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 10,
           "title": "[P] 我训练了一个 Mamba-3 日志异常检测器，在 HDFS 上达到了 0.9975 F1 — 我很好奇这能走多远",
           "platform": "Reddit",
           "aiScore": 88,
@@ -7437,44 +7737,48 @@
       "end": "2026-04-07"
     },
     "metrics": {
-      "daysCovered": 3,
-      "totalItems": 197,
+      "daysCovered": 4,
+      "totalItems": 238,
       "avgTop10Score": 92.8,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 6
+          "count": 5
         },
         {
-          "name": "量子位",
-          "count": 2
+          "name": "Reddit",
+          "count": 3
         },
         {
           "name": "The Verge",
           "count": 1
         },
         {
-          "name": "Reddit",
+          "name": "量子位",
           "count": 1
         }
       ],
       "topTopics": [
         {
+          "name": "芯片算力",
+          "count": 8
+        },
+        {
           "name": "Agent",
-          "count": 10
+          "count": 8
         },
         {
           "name": "模型进展",
           "count": 8
         },
         {
-          "name": "芯片算力",
-          "count": 6
-        },
-        {
           "name": "应用落地",
           "count": 2
+        },
+        {
+          "name": "开源生态",
+          "count": 1
         }
       ]
     },
@@ -7647,6 +7951,53 @@
       },
       {
         "rank": 8,
+        "title": "[P] GPU 友好的无损 12 位 BF16 格式，具有 0.03% 转义率和 1 个整数 ADD 解码，适用于 AMD 和 NVIDIA",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-04-04T00:55:50+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbv9jl/p_gpu_friendly_lossless_12bit_bf16_format_with/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "大家好，我来自澳大利亚:)我刚刚发布了一个新的研究原型，它是一种无损 BF16 压缩格式，通过用 4 位指数替换 8 位指数来以 12 位存储权重......",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "WTF兄弟做了什么？弧线 3 2026",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-04-03T23:30:44+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbtcoe/wtf_bro_did_what_arc_3_2026/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "Physarum Explorer 是一种高速、仿生神经模型，专为 ARC 几何设计。以下是其当前状态的快照： 1. 模型大小架构：专门的……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
         "title": "[P] 我训练了一个 Mamba-3 日志异常检测器，在 HDFS 上达到了 0.9975 F1 — 我很好奇这能走多远",
         "platform": "Reddit",
         "aiScore": 88,
@@ -7668,57 +8019,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 9,
-        "title": "小米MiMo大模型首次推出Token Plan，单次订阅可满足全模态Agent任务需求",
-        "platform": "量子位",
-        "aiScore": 88,
-        "publishedAt": "2026-04-03T05:44:33+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/04/395210.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "首购支持88折优惠",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "叽伴：用「共同经历」重新定义AI社交",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-04-03T02:00:34+00:00",
-        "sourceUrl": "https://36kr.com/p/3749816005657093?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "随着大语言模型和各类Agent的崛起，国内外涌现出一批以AI为核心的社交产品。然而在行业热闹背后，一个尴尬的现实是： 用户尝鲜热情高，留存率却惨淡。 聊得越久，越发现角色“失忆”——上周提过的重要事情这周就忘；OOC（性格漂移）——原本高冷的角色突然变得谄媚讨好；最终演变成编剧疲劳的独角戏，用户既要当体验者又要当编剧，负担过重，自然流失。 技术越进步，用户对虚拟陪伴的期待反而…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "4月第1周累计收录 197 条资讯，覆盖 3 天。",
-      "高频主题：Agent / 模型进展 / 芯片算力",
+      "4月第1周累计收录 238 条资讯，覆盖 4 天。",
+      "高频主题：芯片算力 / Agent / 模型进展",
       "本周最高分：智己汽车官宣刘翔成为品牌代言人（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
@@ -7732,44 +8037,48 @@
         "end": "2026-04-07"
       },
       "metrics": {
-        "daysCovered": 3,
-        "totalItems": 197,
+        "daysCovered": 4,
+        "totalItems": 238,
         "avgTop10Score": 92.8,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 6
+            "count": 5
           },
           {
-            "name": "量子位",
-            "count": 2
+            "name": "Reddit",
+            "count": 3
           },
           {
             "name": "The Verge",
             "count": 1
           },
           {
-            "name": "Reddit",
+            "name": "量子位",
             "count": 1
           }
         ],
         "topTopics": [
           {
+            "name": "芯片算力",
+            "count": 8
+          },
+          {
             "name": "Agent",
-            "count": 10
+            "count": 8
           },
           {
             "name": "模型进展",
             "count": 8
           },
           {
-            "name": "芯片算力",
-            "count": 6
-          },
-          {
             "name": "应用落地",
             "count": 2
+          },
+          {
+            "name": "开源生态",
+            "count": 1
           }
         ]
       },
@@ -7942,6 +8251,53 @@
         },
         {
           "rank": 8,
+          "title": "[P] GPU 友好的无损 12 位 BF16 格式，具有 0.03% 转义率和 1 个整数 ADD 解码，适用于 AMD 和 NVIDIA",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-04T00:55:50+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbv9jl/p_gpu_friendly_lossless_12bit_bf16_format_with/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "大家好，我来自澳大利亚:)我刚刚发布了一个新的研究原型，它是一种无损 BF16 压缩格式，通过用 4 位指数替换 8 位指数来以 12 位存储权重......",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "WTF兄弟做了什么？弧线 3 2026",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-03T23:30:44+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbtcoe/wtf_bro_did_what_arc_3_2026/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "Physarum Explorer 是一种高速、仿生神经模型，专为 ARC 几何设计。以下是其当前状态的快照： 1. 模型大小架构：专门的……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
           "title": "[P] 我训练了一个 Mamba-3 日志异常检测器，在 HDFS 上达到了 0.9975 F1 — 我很好奇这能走多远",
           "platform": "Reddit",
           "aiScore": 88,
@@ -7963,57 +8319,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 9,
-          "title": "小米MiMo大模型首次推出Token Plan，单次订阅可满足全模态Agent任务需求",
-          "platform": "量子位",
-          "aiScore": 88,
-          "publishedAt": "2026-04-03T05:44:33+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/04/395210.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "首购支持88折优惠",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "叽伴：用「共同经历」重新定义AI社交",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-04-03T02:00:34+00:00",
-          "sourceUrl": "https://36kr.com/p/3749816005657093?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "随着大语言模型和各类Agent的崛起，国内外涌现出一批以AI为核心的社交产品。然而在行业热闹背后，一个尴尬的现实是： 用户尝鲜热情高，留存率却惨淡。 聊得越久，越发现角色“失忆”——上周提过的重要事情这周就忘；OOC（性格漂移）——原本高冷的角色突然变得谄媚讨好；最终演变成编剧疲劳的独角戏，用户既要当体验者又要当编剧，负担过重，自然流失。 技术越进步，用户对虚拟陪伴的期待反而…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "4月第1周累计收录 197 条资讯，覆盖 3 天。",
-        "高频主题：Agent / 模型进展 / 芯片算力",
+        "4月第1周累计收录 238 条资讯，覆盖 4 天。",
+        "高频主题：芯片算力 / Agent / 模型进展",
         "本周最高分：智己汽车官宣刘翔成为品牌代言人（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
