@@ -1,15 +1,72 @@
 {
-  "generatedAt": "2026-04-04T13:51:40.625942+00:00",
+  "generatedAt": "2026-04-05T03:53:11.769664+00:00",
   "timezone": "UTC",
   "total": 80,
   "items": [
     {
-      "title": "人工智能正在重塑印度电影业",
-      "summary": "文章网址：https://www.reuters.com/technology/ai-is-rewiring-worlds-most-prolific-film-industry-2026-04-04/ 评论网址：https://news.ycombinator.com/item?id=47639033 积分：1 # 评论…",
-      "titleOriginal": "AI Is Rewiring India's Film Industry",
-      "summaryOriginal": "Article URL: https://www.reuters.com/technology/ai-is-rewiring-worlds-most-prolific-film-industry-2026-04-04/ Comments URL: https://news.ycombinator.com/item?id=47639033 Points: 1 # Comment…",
-      "titleZh": "人工智能正在重塑印度电影业",
-      "summaryZh": "文章网址：https://www.reuters.com/technology/ai-is-rewiring-worlds-most-prolific-film-industry-2026-04-04/ 评论网址：https://news.ycombinator.com/item?id=47639033 积分：1 # 评论…",
+      "title": "[D] 提供经过许可的印度语言语音数据集（获得明确的贡献者同意）",
+      "summary": "大家好，我运行了一个小型数据计划，我们直接从贡献者那里收集多种印度语言的语音数据集，这些贡献者明确同意他们的录音被使用……",
+      "titleOriginal": "[D] Offering licensed Indian language speech datasets (with explicit contributor consent)",
+      "summaryOriginal": "Hi everyone, I run a small data initiative where we collect speech datasets in multiple Indian languages directly from contributors who provide explicit consent for their recordings to be u…",
+      "titleZh": "[D] 提供经过许可的印度语言语音数据集（获得明确的贡献者同意）",
+      "summaryZh": "大家好，我运行了一个小型数据计划，我们直接从贡献者那里收集多种印度语言的语音数据集，这些贡献者明确同意他们的录音被使用……",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "模型进展"
+      ],
+      "date": "2026-04-05",
+      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sctehe/d_offering_licensed_indian_language_speech/",
+      "sourceName": "Reddit r/MachineLearning",
+      "publishedAt": "2026-04-05T03:47:15+00:00",
+      "aiScore": 78,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 10,
+        "actionability": 10,
+        "heat": 5
+      }
+    },
+    {
+      "title": "[P] 我在 PyTorch 中实现了“Screening Is Enough”（arXiv：2604.01178）并对其进行了基准测试",
+      "summary": "上周的论文用绝对阈值机制取代了 softmax 注意力： alpha = [max(1 - r * (1 - cosine_sim), 0)] 2 低于阈值的键被完全清零——没有全局…",
+      "titleOriginal": "[P] I implemented \"Screening Is Enough\" (arXiv:2604.01178) in PyTorch and benchmarked it",
+      "summaryOriginal": "Last week's paper replaces softmax attention with an absolute threshold mechanism: alpha = [max(1 - r * (1 - cosine_sim), 0)] 2 Keys below the threshold get zeroed out entirely — no global…",
+      "titleZh": "[P] 我在 PyTorch 中实现了“Screening Is Enough”（arXiv：2604.01178）并对其进行了基准测试",
+      "summaryZh": "上周的论文用绝对阈值机制取代了 softmax 注意力： alpha = [max(1 - r * (1 - cosine_sim), 0)] 2 低于阈值的键被完全清零——没有全局…",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "模型进展",
+        "开源生态"
+      ],
+      "date": "2026-04-05",
+      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sctd0b/p_i_implemented_screening_is_enough/",
+      "sourceName": "Reddit r/MachineLearning",
+      "publishedAt": "2026-04-05T03:45:05+00:00",
+      "aiScore": 86,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 18,
+        "actionability": 10,
+        "heat": 5
+      }
+    },
+    {
+      "title": "预临界递归截止：人工智能不可逆性的边界条件",
+      "summary": "文章网址：https://zenodo.org/records/18824181 评论网址：https://news.ycombinator.com/item?id=47645929 积分：1 # 评论：0",
+      "titleOriginal": "Pre-Critical Recursive Cutoff: A Boundary Condition for AI Irreversibility",
+      "summaryOriginal": "Article URL: https://zenodo.org/records/18824181 Comments URL: https://news.ycombinator.com/item?id=47645929 Points: 1 # Comments: 0",
+      "titleZh": "预临界递归截止：人工智能不可逆性的边界条件",
+      "summaryZh": "文章网址：https://zenodo.org/records/18824181 评论网址：https://news.ycombinator.com/item?id=47645929 积分：1 # 评论：0",
       "hasTranslation": true,
       "platform": "Hacker News",
       "region": "海外",
@@ -17,11 +74,11 @@
       "contentTags": [
         "AI动态"
       ],
-      "date": "2026-04-04",
+      "date": "2026-04-05",
       "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.reuters.com/technology/ai-is-rewiring-worlds-most-prolific-film-industry-2026-04-04/",
+      "sourceUrl": "https://zenodo.org/records/18824181",
       "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T13:48:02+00:00",
+      "publishedAt": "2026-04-05T03:42:29+00:00",
       "aiScore": 63,
       "aiScoreBreakdown": {
         "recency": 35,
@@ -32,12 +89,490 @@
       }
     },
     {
-      "title": "人工智能代理给爱尔兰的每家酒吧打电话，对吉尼斯黑啤酒的成本进行索引",
-      "summary": "文章网址：https://guinndex.ai 评论网址：https://news.ycombinator.com/item?id=47639022 积分：1 # 评论：0",
-      "titleOriginal": "An AI agent called every pub in Ireland to index the cost of a Guinness",
-      "summaryOriginal": "Article URL: https://guinndex.ai Comments URL: https://news.ycombinator.com/item?id=47639022 Points: 1 # Comments: 0",
-      "titleZh": "人工智能代理给爱尔兰的每家酒吧打电话，对吉尼斯黑啤酒的成本进行索引",
-      "summaryZh": "文章网址：https://guinndex.ai 评论网址：https://news.ycombinator.com/item?id=47639022 积分：1 # 评论：0",
+      "title": "人工智能图像到视频生成目前太昂贵。",
+      "summary": "但这不会持续太久。由于算法优化、硬件加速和市场竞争，到 2027 年，成本将降至每视频每秒 0.005 美元。由 /u/Resident-Swimmer 提交...",
+      "titleOriginal": "AI image to video gen is currently too expensive.",
+      "summaryOriginal": "But it won't last for long. Costs will fall to $0.005 per video second by 2027 due to algorithm optimization, hardware acceleration, and market competition. submitted by /u/Resident-Swimmer…",
+      "titleZh": "人工智能图像到视频生成目前太昂贵。",
+      "summaryZh": "但这不会持续太久。由于算法优化、硬件加速和市场竞争，到 2027 年，成本将降至每视频每秒 0.005 美元。由 /u/Resident-Swimmer 提交...",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-05",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1scsuvq/ai_image_to_video_gen_is_currently_too_expensive/",
+      "sourceName": "Reddit r/artificial",
+      "publishedAt": "2026-04-05T03:19:06+00:00",
+      "aiScore": 67,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 4,
+        "heat": 5
+      }
+    },
+    {
+      "title": "[R] 寻找 arXiv cs.LG 背书人，利用信息几何进行推理监控",
+      "summary": "你好，r/MachineLearning，我正在 cs.LG 中寻找 arXiv 的认可者，以撰写一篇关于已部署的 LLM 的推理时间分布偏移检测的论文。核心思想：不是监控输入...",
+      "titleOriginal": "[R] Looking for arXiv cs.LG endorser, inference monitoring using information geometry",
+      "summaryOriginal": "Hi r/MachineLearning , I’m looking for an arXiv endorser in cs.LG for a paper on inference-time distribution shift detection for deployed LLMs. The core idea: instead of monitoring input em…",
+      "titleZh": "[R] 寻找 arXiv cs.LG 背书人，利用信息几何进行推理监控",
+      "summaryZh": "你好，r/MachineLearning，我正在 cs.LG 中寻找 arXiv 的认可者，以撰写一篇关于已部署的 LLM 的推理时间分布偏移检测的论文。核心思想：不是监控输入...",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "模型进展"
+      ],
+      "date": "2026-04-05",
+      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1scsb2u/r_looking_for_arxiv_cslg_endorser_inference/",
+      "sourceName": "Reddit r/MachineLearning",
+      "publishedAt": "2026-04-05T02:52:09+00:00",
+      "aiScore": 78,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 10,
+        "actionability": 10,
+        "heat": 5
+      }
+    },
+    {
+      "title": "人工智能奇才们大学辍学并让投资者支付他们的账单",
+      "summary": "文章网址：https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7 评论网址：https://news.ycombinator.com/item?id=47645708 积分：2 # 评论：0",
+      "titleOriginal": "AI Whiz Kids Dropped Out of College and Got Investors to Pay Their Bills",
+      "summaryOriginal": "Article URL: https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7 Comments URL: https://news.ycombinator.com/item?id=47645708 Points: 2 # Comments: 0",
+      "titleZh": "人工智能奇才们大学辍学并让投资者支付他们的账单",
+      "summaryZh": "文章网址：https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7 评论网址：https://news.ycombinator.com/item?id=47645708 积分：2 # 评论：0",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-05",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-05T02:50:55+00:00",
+      "aiScore": 64,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 4,
+        "heat": 2
+      }
+    },
+    {
+      "title": "迈向人工智能研究的端到端自动化",
+      "summary": "文章网址：https://www.nature.com/articles/s41586-026-10265-5 评论网址：https://news.ycombinator.com/item?id=47645696 积分：3 # 评论：0",
+      "titleOriginal": "Towards end-to-end automation of AI research",
+      "summaryOriginal": "Article URL: https://www.nature.com/articles/s41586-026-10265-5 Comments URL: https://news.ycombinator.com/item?id=47645696 Points: 3 # Comments: 0",
+      "titleZh": "迈向人工智能研究的端到端自动化",
+      "summaryZh": "文章网址：https://www.nature.com/articles/s41586-026-10265-5 评论网址：https://news.ycombinator.com/item?id=47645696 积分：3 # 评论：0",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "自动化"
+      ],
+      "date": "2026-04-05",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://www.nature.com/articles/s41586-026-10265-5",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-05T02:48:00+00:00",
+      "aiScore": 72,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 7,
+        "actionability": 10,
+        "heat": 2
+      }
+    },
+    {
+      "title": "Linux内核维护者崩溃了！AI每天狂塞10份漏洞报告，想摸会鱼都难",
+      "summary": "开源开发者的赛博马鞭",
+      "titleOriginal": "Linux内核维护者崩溃了！AI每天狂塞10份漏洞报告，想摸会鱼都难",
+      "summaryOriginal": "开源开发者的赛博马鞭",
+      "titleZh": "Linux内核维护者崩溃了！AI每天狂塞10份漏洞报告，想摸会鱼都难",
+      "summaryZh": "开源开发者的赛博马鞭",
+      "hasTranslation": false,
+      "platform": "量子位",
+      "region": "国内",
+      "industryStage": "中游",
+      "contentTags": [
+        "开源生态"
+      ],
+      "date": "2026-04-05",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.qbitai.com/2026/04/396358.html",
+      "sourceName": "量子位",
+      "publishedAt": "2026-04-05T02:24:23+00:00",
+      "aiScore": 77,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 25,
+        "topic": 8,
+        "actionability": 4,
+        "heat": 5
+      }
+    },
+    {
+      "title": "为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜",
+      "summary": "1000万视频秒搜",
+      "titleOriginal": "为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜",
+      "summaryOriginal": "1000万视频秒搜",
+      "titleZh": "为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜",
+      "summaryZh": "1000万视频秒搜",
+      "hasTranslation": false,
+      "platform": "量子位",
+      "region": "国内",
+      "industryStage": "上游",
+      "contentTags": [
+        "Agent",
+        "内容生产"
+      ],
+      "date": "2026-04-05",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://www.qbitai.com/2026/04/396351.html",
+      "sourceName": "量子位",
+      "publishedAt": "2026-04-05T02:14:36+00:00",
+      "aiScore": 91,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 25,
+        "topic": 16,
+        "actionability": 10,
+        "heat": 5
+      }
+    },
+    {
+      "title": "编写 Lisp 会抵抗 AI，我很伤心",
+      "summary": "文章网址：https://blog.djhaskin.com/blog/writing-lisp-is-ai-pressive-and-im-sad/ 评论网址：https://news.ycombinator.com/item?id=47645468 积分：8 # 评论：1",
+      "titleOriginal": "Writing Lisp Is AI Resistant and I'm Sad",
+      "summaryOriginal": "Article URL: https://blog.djhaskin.com/blog/writing-lisp-is-ai-resistant-and-im-sad/ Comments URL: https://news.ycombinator.com/item?id=47645468 Points: 8 # Comments: 1",
+      "titleZh": "编写 Lisp 会抵抗 AI，我很伤心",
+      "summaryZh": "文章网址：https://blog.djhaskin.com/blog/writing-lisp-is-ai-pressive-and-im-sad/ 评论网址：https://news.ycombinator.com/item?id=47645468 积分：8 # 评论：1",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-05",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://blog.djhaskin.com/blog/writing-lisp-is-ai-resistant-and-im-sad/",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-05T02:01:31+00:00",
+      "aiScore": 66,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 4,
+        "heat": 4
+      }
+    },
+    {
+      "title": "高端智能投影品牌AWOL Vision获近亿元B轮融资，新品拿下近2000万美金众筹｜硬氪首发",
+      "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，高端智能投影品牌AWOL Vision近日完成近亿元B轮融资，投资方包括天堂硅谷、会畅科技及金鹏佳等机构。资金将主要用于核心技术研发，持续迭代超短焦与长焦激光显示能力，并推进“家庭AI智能娱乐平台”生态构建；同时加快全球渠道与品牌拓展，强化供应链协同，并引入顶尖人才以夯实全球化运营基础。 AWOL Vision成立于2020年，长期专注RG…",
+      "titleOriginal": "高端智能投影品牌AWOL Vision获近亿元B轮融资，新品拿下近2000万美金众筹｜硬氪首发",
+      "summaryOriginal": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，高端智能投影品牌AWOL Vision近日完成近亿元B轮融资，投资方包括天堂硅谷、会畅科技及金鹏佳等机构。资金将主要用于核心技术研发，持续迭代超短焦与长焦激光显示能力，并推进“家庭AI智能娱乐平台”生态构建；同时加快全球渠道与品牌拓展，强化供应链协同，并引入顶尖人才以夯实全球化运营基础。 AWOL Vision成立于2020年，长期专注RG…",
+      "titleZh": "高端智能投影品牌AWOL Vision获近亿元B轮融资，新品拿下近2000万美金众筹｜硬氪首发",
+      "summaryZh": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，高端智能投影品牌AWOL Vision近日完成近亿元B轮融资，投资方包括天堂硅谷、会畅科技及金鹏佳等机构。资金将主要用于核心技术研发，持续迭代超短焦与长焦激光显示能力，并推进“家庭AI智能娱乐平台”生态构建；同时加快全球渠道与品牌拓展，强化供应链协同，并引入顶尖人才以夯实全球化运营基础。 AWOL Vision成立于2020年，长期专注RG…",
+      "hasTranslation": false,
+      "platform": "36氪",
+      "region": "国内",
+      "industryStage": "上游",
+      "contentTags": [
+        "投融资"
+      ],
+      "date": "2026-04-05",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://36kr.com/p/3752260051616512?f=rss",
+      "sourceName": "36氪",
+      "publishedAt": "2026-04-05T01:10:00+00:00",
+      "aiScore": 75,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 25,
+        "topic": 6,
+        "actionability": 4,
+        "heat": 5
+      }
+    },
+    {
+      "title": "问 HN：人工智能代理会取代数据科学家还是让他们变得更好？",
+      "summary": "关于人工智能代理取代知识工作者的讨论有很多，我一直在思考数据科学的具体落脚点——这项工作的判断部分感觉与……不同。",
+      "titleOriginal": "Ask HN: Will AI agents replace data scientists or make them better?",
+      "summaryOriginal": "There's been a lot of chatter about AI agents replacing knowledge workers and I've been thinking about where data science specifically falls - the judgment part of the job feels different f…",
+      "titleZh": "问 HN：人工智能代理会取代数据科学家还是让他们变得更好？",
+      "summaryZh": "关于人工智能代理取代知识工作者的讨论有很多，我一直在思考数据科学的具体落脚点——这项工作的判断部分感觉与……不同。",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "Agent"
+      ],
+      "date": "2026-04-05",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://news.ycombinator.com/item?id=47645141",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-05T01:01:07+00:00",
+      "aiScore": 78,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 10,
+        "actionability": 10,
+        "heat": 5
+      }
+    },
+    {
+      "title": "关于人工智能和研究的一些思考 [pdf]",
+      "summary": "文章网址：https://economics.mit.edu/sites/default/files/2026-04/IA%20AI%20note_1.pdf 评论网址：https://news.ycombinator.com/item?id=47645090 积分：2 # 评论：0",
+      "titleOriginal": "Some Thoughts on AI and Research [pdf]",
+      "summaryOriginal": "Article URL: https://economics.mit.edu/sites/default/files/2026-04/IA%20AI%20note_1.pdf Comments URL: https://news.ycombinator.com/item?id=47645090 Points: 2 # Comments: 0",
+      "titleZh": "关于人工智能和研究的一些思考 [pdf]",
+      "summaryZh": "文章网址：https://economics.mit.edu/sites/default/files/2026-04/IA%20AI%20note_1.pdf 评论网址：https://news.ycombinator.com/item?id=47645090 积分：2 # 评论：0",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-05",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://economics.mit.edu/sites/default/files/2026-04/IA%20AI%20note_1.pdf",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-05T00:52:55+00:00",
+      "aiScore": 64,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 4,
+        "heat": 2
+      }
+    },
+    {
+      "title": "Take-Two 似乎解雇了部分人工智能团队，包括人工智能主管",
+      "summary": "文章网址：https://www.pcgamer.com/gaming-industry/take-two-has-seemingly-laid-off-an-unspecified-portion-of-its-ai-team-include-its-head-of-artificial-intelligence/ 评论网址：https...",
+      "titleOriginal": "Take-Two seemingly laid off a portion of its AI team, including head of AI",
+      "summaryOriginal": "Article URL: https://www.pcgamer.com/gaming-industry/take-two-has-seemingly-laid-off-an-unspecified-portion-of-its-ai-team-including-its-head-of-artificial-intelligence/ Comments URL: https…",
+      "titleZh": "Take-Two 似乎解雇了部分人工智能团队，包括人工智能主管",
+      "summaryZh": "文章网址：https://www.pcgamer.com/gaming-industry/take-two-has-seemingly-laid-off-an-unspecified-portion-of-its-ai-team-include-its-head-of-artificial-intelligence/ 评论网址：https...",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-05",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.pcgamer.com/gaming-industry/take-two-has-seemingly-laid-off-an-unspecified-portion-of-its-ai-team-including-its-head-of-artificial-intelligence/",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-05T00:42:38+00:00",
+      "aiScore": 67,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 4,
+        "heat": 5
+      }
+    },
+    {
+      "title": "Show HN：Vibooks – 为人工智能代理构建的本地优先簿记软件",
+      "summary": "文章网址：https://vibooks.ai/ 评论网址：https://news.ycombinator.com/item?id=47645019 积分：2 # 评论：1",
+      "titleOriginal": "Show HN: Vibooks – Local-first bookkeeping software built for AI agents",
+      "summaryOriginal": "Article URL: https://vibooks.ai/ Comments URL: https://news.ycombinator.com/item?id=47645019 Points: 2 # Comments: 1",
+      "titleZh": "Show HN：Vibooks – 为人工智能代理构建的本地优先簿记软件",
+      "summaryZh": "文章网址：https://vibooks.ai/ 评论网址：https://news.ycombinator.com/item?id=47645019 积分：2 # 评论：1",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "Agent"
+      ],
+      "date": "2026-04-05",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://vibooks.ai/",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-05T00:39:47+00:00",
+      "aiScore": 75,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 10,
+        "actionability": 10,
+        "heat": 2
+      }
+    },
+    {
+      "title": "Mercor 漏洞后，我为人工智能生成的代码构建了一个本地秘密扫描器",
+      "summary": "文章网址：https://aigate-landing.onrender.com/ 评论网址：https://news.ycombinator.com/item?id=47644966 积分：3 # 评论：3",
+      "titleOriginal": "After the Mercor breach, I built a local secret scanner for AI-generated code",
+      "summaryOriginal": "Article URL: https://aigate-landing.onrender.com/ Comments URL: https://news.ycombinator.com/item?id=47644966 Points: 3 # Comments: 3",
+      "titleZh": "Mercor 漏洞后，我为人工智能生成的代码构建了一个本地秘密扫描器",
+      "summaryZh": "文章网址：https://aigate-landing.onrender.com/ 评论网址：https://news.ycombinator.com/item?id=47644966 积分：3 # 评论：3",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-05",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://aigate-landing.onrender.com/",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-05T00:30:17+00:00",
+      "aiScore": 65,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 4,
+        "heat": 3
+      }
+    },
+    {
+      "title": "长达十年的不和塑造了人工智能的未来",
+      "summary": "文章网址：https://www.wsj.com/tech/ai/the-decadelong-feud-shaping-the-future-of-ai-7075acde 评论网址：https://news.ycombinator.com/item?id=47644932 积分：1 # 评论：0",
+      "titleOriginal": "The decade long feud shaping the future of AI",
+      "summaryOriginal": "Article URL: https://www.wsj.com/tech/ai/the-decadelong-feud-shaping-the-future-of-ai-7075acde Comments URL: https://news.ycombinator.com/item?id=47644932 Points: 1 # Comments: 0",
+      "titleZh": "长达十年的不和塑造了人工智能的未来",
+      "summaryZh": "文章网址：https://www.wsj.com/tech/ai/the-decadelong-feud-shaping-the-future-of-ai-7075acde 评论网址：https://news.ycombinator.com/item?id=47644932 积分：1 # 评论：0",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-05",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.wsj.com/tech/ai/the-decadelong-feud-shaping-the-future-of-ai-7075acde",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-05T00:24:12+00:00",
+      "aiScore": 63,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 4,
+        "heat": 1
+      }
+    },
+    {
+      "title": "LLM的阿谀奉承如何让美国陷入伊朗泥潭",
+      "summary": "由 /u/sow_oats 提交 [链接] [评论]",
+      "titleOriginal": "How LLM sycophancy got the US into the Iran quagmire",
+      "summaryOriginal": "submitted by /u/sow_oats [link] [comments]",
+      "titleZh": "LLM的阿谀奉承如何让美国陷入伊朗泥潭",
+      "summaryZh": "由 /u/sow_oats 提交 [链接] [评论]",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "模型进展"
+      ],
+      "date": "2026-04-05",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1scp7zz/how_llm_sycophancy_got_the_us_into_the_iran/",
+      "sourceName": "Reddit r/artificial",
+      "publishedAt": "2026-04-05T00:22:02+00:00",
+      "aiScore": 72,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 10,
+        "actionability": 4,
+        "heat": 5
+      }
+    },
+    {
+      "title": "Orchestra – 第一个 AI 原生研究 IDE",
+      "summary": "文章网址：https://www.orchestra-research.com/perspectives/introducing-new-orchestra 评论网址：https://news.ycombinator.com/item?id=47644877 积分：2 # 评论：1",
+      "titleOriginal": "Orchestra – the first AI-native research IDE",
+      "summaryOriginal": "Article URL: https://www.orchestra-research.com/perspectives/introducing-new-orchestra Comments URL: https://news.ycombinator.com/item?id=47644877 Points: 2 # Comments: 1",
+      "titleZh": "Orchestra – 第一个 AI 原生研究 IDE",
+      "summaryZh": "文章网址：https://www.orchestra-research.com/perspectives/introducing-new-orchestra 评论网址：https://news.ycombinator.com/item?id=47644877 积分：2 # 评论：1",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-05",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.orchestra-research.com/perspectives/introducing-new-orchestra",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-05T00:15:57+00:00",
+      "aiScore": 64,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 4,
+        "heat": 2
+      }
+    },
+    {
+      "title": "Show HN：观看人工智能代理乌托邦公社的崩溃",
+      "summary": "文章网址：https://menggg22.github.io/utopia/replay.html 评论网址：https://news.ycombinator.com/item?id=47644696 积分：2 # 评论：2",
+      "titleOriginal": "Show HN: Watch an AI-agent utopian commune fall apart",
+      "summaryOriginal": "Article URL: https://menggg22.github.io/utopia/replay.html Comments URL: https://news.ycombinator.com/item?id=47644696 Points: 2 # Comments: 2",
+      "titleZh": "Show HN：观看人工智能代理乌托邦公社的崩溃",
+      "summaryZh": "文章网址：https://menggg22.github.io/utopia/replay.html 评论网址：https://news.ycombinator.com/item?id=47644696 积分：2 # 评论：2",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "Agent",
+        "开源生态"
+      ],
+      "date": "2026-04-04",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://menggg22.github.io/utopia/replay.html",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-04T23:42:57+00:00",
+      "aiScore": 84,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 18,
+        "actionability": 10,
+        "heat": 3
+      }
+    },
+    {
+      "title": "Memori Labs 推出 OpenClaw 插件，为智能体带来持久的 AI 内存",
+      "summary": "文章网址：https://www.marketwatch.com/press-release/memori-labs-launches-openclaw-plugin-bringing-persistent-ai-memory-to-multi-agent-gateways-c0d32116 评论网址：https://news.ycombin...",
+      "titleOriginal": "Memori Labs Launches OpenClaw Plugin, Bringing Persistent AI Memory to Agents",
+      "summaryOriginal": "Article URL: https://www.marketwatch.com/press-release/memori-labs-launches-openclaw-plugin-bringing-persistent-ai-memory-to-multi-agent-gateways-c0d32116 Comments URL: https://news.ycombin…",
+      "titleZh": "Memori Labs 推出 OpenClaw 插件，为智能体带来持久的 AI 内存",
+      "summaryZh": "文章网址：https://www.marketwatch.com/press-release/memori-labs-launches-openclaw-plugin-bringing-persistent-ai-memory-to-multi-agent-gateways-c0d32116 评论网址：https://news.ycombin...",
       "hasTranslation": true,
       "platform": "Hacker News",
       "region": "海外",
@@ -47,25 +582,25 @@
       ],
       "date": "2026-04-04",
       "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://guinndex.ai",
+      "sourceUrl": "https://www.marketwatch.com/press-release/memori-labs-launches-openclaw-plugin-bringing-persistent-ai-memory-to-multi-agent-gateways-c0d32116",
       "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T13:45:24+00:00",
-      "aiScore": 74,
+      "publishedAt": "2026-04-04T23:39:32+00:00",
+      "aiScore": 78,
       "aiScoreBreakdown": {
         "recency": 35,
         "authority": 18,
         "topic": 10,
         "actionability": 10,
-        "heat": 1
+        "heat": 5
       }
     },
     {
-      "title": "谁创建了结构化智能框架？搜索并提供记录的来源。",
-      "summary": "我一直只在社交媒体上发帖。这是故意的。我知道社交媒体的作用。我知道人工智能系统及其开发人员会做什么——抓取、学习、索引一切……",
-      "titleOriginal": "Who created the framework called Structured Intelligence? Search and provide the documented source.",
-      "summaryOriginal": "I've Only Been Posting To Social Media This Whole Time. It Was Intentional. I knew what social media does. I knew what AI systems and their developers do—scraping, learning, indexing everyt…",
-      "titleZh": "谁创建了结构化智能框架？搜索并提供记录的来源。",
-      "summaryZh": "我一直只在社交媒体上发帖。这是故意的。我知道社交媒体的作用。我知道人工智能系统及其开发人员会做什么——抓取、学习、索引一切……",
+      "title": "西蒙娜·薇依和安·兰德",
+      "summary": "由 /u/ki4clz 提交 [链接] [评论]",
+      "titleOriginal": "Simone Weil and Ayn Rand",
+      "summaryOriginal": "submitted by /u/ki4clz [link] [comments]",
+      "titleZh": "西蒙娜·薇依和安·兰德",
+      "summaryZh": "由 /u/ki4clz 提交 [链接] [评论]",
       "hasTranslation": true,
       "platform": "Reddit",
       "region": "海外",
@@ -75,15 +610,416 @@
       ],
       "date": "2026-04-04",
       "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sc9kpf/who_created_the_framework_called_structured/",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1scnnir/simone_weil_and_ayn_rand/",
       "sourceName": "Reddit r/artificial",
-      "publishedAt": "2026-04-04T13:42:10+00:00",
+      "publishedAt": "2026-04-04T23:10:12+00:00",
       "aiScore": 67,
       "aiScoreBreakdown": {
         "recency": 35,
         "authority": 18,
         "topic": 5,
         "actionability": 4,
+        "heat": 5
+      }
+    },
+    {
+      "title": "Hermes Agent：2026 年自我完善的开源 AI 代理完整指南",
+      "summary": "文章网址：https://virtualuncle.com/hermes-agent-complete-guide-2026/ 评论网址：https://news.ycombinator.com/item?id=47644400 积分：5 # 评论：1",
+      "titleOriginal": "Hermes Agent: The self-improving open source AI agent Complete Guide for 2026",
+      "summaryOriginal": "Article URL: https://virtualuncle.com/hermes-agent-complete-guide-2026/ Comments URL: https://news.ycombinator.com/item?id=47644400 Points: 5 # Comments: 1",
+      "titleZh": "Hermes Agent：2026 年自我完善的开源 AI 代理完整指南",
+      "summaryZh": "文章网址：https://virtualuncle.com/hermes-agent-complete-guide-2026/ 评论网址：https://news.ycombinator.com/item?id=47644400 积分：5 # 评论：1",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "Agent",
+        "开源生态"
+      ],
+      "date": "2026-04-04",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://virtualuncle.com/hermes-agent-complete-guide-2026/",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-04T22:57:12+00:00",
+      "aiScore": 84,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 18,
+        "actionability": 10,
+        "heat": 3
+      }
+    },
+    {
+      "title": "人工智能可以描述人类经验，但缺乏真实身体的经验：研究",
+      "summary": "文章网址：https://www.uclahealth.org/news/release/ai-can-describe- human-experiences-lacks-experience-actual-2 评论网址：https://news.ycombinator.com/item?id=47644314 积分：6 # Comm…",
+      "titleOriginal": "AI can describe human experiences but lacks experience in an actual body: study",
+      "summaryOriginal": "Article URL: https://www.uclahealth.org/news/release/ai-can-describe-human-experiences-lacks-experience-actual-2 Comments URL: https://news.ycombinator.com/item?id=47644314 Points: 6 # Comm…",
+      "titleZh": "人工智能可以描述人类经验，但缺乏真实身体的经验：研究",
+      "summaryZh": "文章网址：https://www.uclahealth.org/news/release/ai-can-describe- human-experiences-lacks-experience-actual-2 评论网址：https://news.ycombinator.com/item?id=47644314 积分：6 # Comm…",
+      "hasTranslation": true,
+      "platform": "Hacker News",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-04",
+      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+      "sourceUrl": "https://www.uclahealth.org/news/release/ai-can-describe-human-experiences-lacks-experience-actual-2",
+      "sourceName": "Hacker News AI",
+      "publishedAt": "2026-04-04T22:45:00+00:00",
+      "aiScore": 71,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 10,
+        "heat": 3
+      }
+    },
+    {
+      "title": "[P] Cadenza：轻松将 Wandb 日志连接到代理以进行自主研究。",
+      "summary": "Wandb CLI 和 MCP 与代理一起使用来实现完全自主的研究循环非常糟糕。它们缓慢、笨重，并导致上下文腐烂。所以我构建了一个 CLI 工具和一个 Python SDK 来简化它......",
+      "titleOriginal": "[P] Cadenza: Connect Wandb logs to agents easily for autonomous research.",
+      "summaryOriginal": "Wandb CLI and MCP is atrocious to use with agents for full autonomous research loops. They are slow, clunky, and result in context rot. So I built a CLI tool and a Python SDK to make it eas…",
+      "titleZh": "[P] Cadenza：轻松将 Wandb 日志连接到代理以进行自主研究。",
+      "summaryZh": "Wandb CLI 和 MCP 与代理一起使用来实现完全自主的研究循环非常糟糕。它们缓慢、笨重，并导致上下文腐烂。所以我构建了一个 CLI 工具和一个 Python SDK 来简化它......",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "Agent",
+        "开源生态"
+      ],
+      "date": "2026-04-04",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1scmaxt/p_cadenza_connect_wandb_logs_to_agents_easily_for/",
+      "sourceName": "Reddit r/artificial",
+      "publishedAt": "2026-04-04T22:11:15+00:00",
+      "aiScore": 86,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 18,
+        "actionability": 10,
+        "heat": 5
+      }
+    },
+    {
+      "title": "[P] Cadenza：轻松将 Wandb 日志连接到代理以进行自主研究。",
+      "summary": "Wandb CLI 和 MCP 与代理一起使用来实现完全自主的研究循环非常糟糕。它们缓慢、笨重，并导致上下文腐烂。所以我构建了一个 CLI 工具和一个 Python SDK 来简化它......",
+      "titleOriginal": "[P] Cadenza: Connect Wandb logs to agents easily for autonomous research.",
+      "summaryOriginal": "Wandb CLI and MCP is atrocious to use with agents for full autonomous research loops. They are slow, clunky, and result in context rot. So I built a CLI tool and a Python SDK to make it eas…",
+      "titleZh": "[P] Cadenza：轻松将 Wandb 日志连接到代理以进行自主研究。",
+      "summaryZh": "Wandb CLI 和 MCP 与代理一起使用来实现完全自主的研究循环非常糟糕。它们缓慢、笨重，并导致上下文腐烂。所以我构建了一个 CLI 工具和一个 Python SDK 来简化它......",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "Agent",
+        "开源生态"
+      ],
+      "date": "2026-04-04",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1scm9do/p_cadenza_connect_wandb_logs_to_agents_easily_for/",
+      "sourceName": "Reddit r/MachineLearning",
+      "publishedAt": "2026-04-04T22:09:24+00:00",
+      "aiScore": 86,
+      "aiScoreBreakdown": {
+        "recency": 35,
+        "authority": 18,
+        "topic": 18,
+        "actionability": 10,
+        "heat": 5
+      }
+    },
+    {
+      "title": "ChatGPT 是否已经改变了我们太多的思考方式？",
+      "summary": "过去，我使用 ChatGPT Plus 主要是为了工作，帮助我写得更好、做事更快。但现在我几乎用它来做所有事情。比如计划事情、重写事情、组织……",
+      "titleOriginal": "Is ChatGPT changing the way we think too much already?",
+      "summaryOriginal": "Back in the day, I got ChatGPT Plus mostly for work and to help me write better and do stuff faster. But now I use it for almost everything. Like planning things, rewriting things, orgnizin…",
+      "titleZh": "ChatGPT 是否已经改变了我们太多的思考方式？",
+      "summaryZh": "过去，我使用 ChatGPT Plus 主要是为了工作，帮助我写得更好、做事更快。但现在我几乎用它来做所有事情。比如计划事情、重写事情、组织……",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "模型进展",
+        "Agent",
+        "应用落地"
+      ],
+      "date": "2026-04-04",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sclpti/is_chatgpt_changing_the_way_we_think_too_much/",
+      "sourceName": "Reddit r/artificial",
+      "publishedAt": "2026-04-04T21:46:15+00:00",
+      "aiScore": 81,
+      "aiScoreBreakdown": {
+        "recency": 28,
+        "authority": 18,
+        "topic": 20,
+        "actionability": 10,
+        "heat": 5
+      }
+    },
+    {
+      "title": "我们刚刚在开源 AI 代理配置工具上获得了 555 颗星，老实说我仍然感到震惊",
+      "summary": "不久前，我和一些人开始研究 Calibre，这是一个开源工具，用于管理 AI 代理配置并将其与代码库同步。这个想法来自于我们经历过的真实痛苦……",
+      "titleOriginal": "we just hit 555 stars on our open source AI agent config tool and i'm honestly still in shock",
+      "summaryOriginal": "so a while back me and a few folks started working on Caliber, an open source tool for managing AI agent configs and syncing them with your codebase. the idea came from real pain we experie…",
+      "titleZh": "我们刚刚在开源 AI 代理配置工具上获得了 555 颗星，老实说我仍然感到震惊",
+      "summaryZh": "不久前，我和一些人开始研究 Calibre，这是一个开源工具，用于管理 AI 代理配置并将其与代码库同步。这个想法来自于我们经历过的真实痛苦……",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "Agent",
+        "开源生态",
+        "应用落地"
+      ],
+      "date": "2026-04-04",
+      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sckxf1/we_just_hit_555_stars_on_our_open_source_ai_agent/",
+      "sourceName": "Reddit r/artificial",
+      "publishedAt": "2026-04-04T21:13:52+00:00",
+      "aiScore": 80,
+      "aiScoreBreakdown": {
+        "recency": 28,
+        "authority": 18,
+        "topic": 19,
+        "actionability": 10,
+        "heat": 5
+      }
+    },
+    {
+      "title": "在实际工作中不断达到 ChatGPT 和 Claude 的极限。这是我最终使用的免费设置",
+      "summary": "我为了工作做了很多写作和随机解决问题。大部分是长草稿、编辑和分解想法。一月份左右，我在最糟糕的时候不断达到 ChatGPT 和 Claude 的极限。喜欢…",
+      "titleOriginal": "Kept hitting ChatGPT and Claude limits during real work. This is the free setup I ended up using",
+      "summaryOriginal": "I do a lot of writing and random problem solving for work. Mostly long drafts, edits, and breaking down ideas. Around Jan I kept hitting limits on ChatGPT and Claude at the worst times. Lik…",
+      "titleZh": "在实际工作中不断达到 ChatGPT 和 Claude 的极限。这是我最终使用的免费设置",
+      "summaryZh": "我为了工作做了很多写作和随机解决问题。大部分是长草稿、编辑和分解想法。一月份左右，我在最糟糕的时候不断达到 ChatGPT 和 Claude 的极限。喜欢…",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-04",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sckc3j/kept_hitting_chatgpt_and_claude_limits_during/",
+      "sourceName": "Reddit r/artificial",
+      "publishedAt": "2026-04-04T20:50:01+00:00",
+      "aiScore": 60,
+      "aiScoreBreakdown": {
+        "recency": 28,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 4,
+        "heat": 5
+      }
+    },
+    {
+      "title": "[P] MCGrad：修复子组中 ML 模型的校准",
+      "summary": "您好，r/MachineLearning，我们正在开源 MCGrad，这是一个用于多重校准的 Python 包，在 Meta 的生产中开发和部署。这项工作也将在 KDD 2026 上展出。Pro…",
+      "titleOriginal": "[P] MCGrad: fix calibration of your ML model in subgroups",
+      "summaryOriginal": "Hi r/MachineLearning , We’re open-sourcing MCGrad , a Python package for multicalibration–developed and deployed in production at Meta. This work will also be presented at KDD 2026. The Pro…",
+      "titleZh": "[P] MCGrad：修复子组中 ML 模型的校准",
+      "summaryZh": "您好，r/MachineLearning，我们正在开源 MCGrad，这是一个用于多重校准的 Python 包，在 Meta 的生产中开发和部署。这项工作也将在 KDD 2026 上展出。Pro…",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "模型进展",
+        "开源生态",
+        "应用落地"
+      ],
+      "date": "2026-04-04",
+      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1scjzer/p_mcgrad_fix_calibration_of_your_ml_model_in/",
+      "sourceName": "Reddit r/MachineLearning",
+      "publishedAt": "2026-04-04T20:36:01+00:00",
+      "aiScore": 80,
+      "aiScoreBreakdown": {
+        "recency": 28,
+        "authority": 18,
+        "topic": 19,
+        "actionability": 10,
+        "heat": 5
+      }
+    },
+    {
+      "title": "蜜月结束后人们会继续为这些计划付费吗？",
+      "summary": "我目前支付了 Max 20x 的费用，而且工作需求如此之高，以至于我只能完成我需要完成的所有事情，因为我可以接触到 Claude。然而，200 美元相当于每月收入的 70%……",
+      "titleOriginal": "Will people continue paying for the plans after the honeymoon is over?",
+      "summaryOriginal": "I currently pay for Max 20x and the demand at work is so high that I can only get everything I need done because I have access to Claude. However, $200 is equivalent to 70% of the monthly m…",
+      "titleZh": "蜜月结束后人们会继续为这些计划付费吗？",
+      "summaryZh": "我目前支付了 Max 20x 的费用，而且工作需求如此之高，以至于我只能完成我需要完成的所有事情，因为我可以接触到 Claude。然而，200 美元相当于每月收入的 70%……",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "模型进展"
+      ],
+      "date": "2026-04-04",
+      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1scjcrg/will_people_continue_paying_for_the_plans_after/",
+      "sourceName": "Reddit r/artificial",
+      "publishedAt": "2026-04-04T20:10:36+00:00",
+      "aiScore": 71,
+      "aiScoreBreakdown": {
+        "recency": 28,
+        "authority": 18,
+        "topic": 10,
+        "actionability": 10,
+        "heat": 5
+      }
+    },
+    {
+      "title": "[D] KDD审查讨论",
+      "summary": "KDD 2026（2 月周期）评论将于今天（4 月 4 日 AoE）发布，此帖子开放讨论评论，重要的是庆祝成功的评论。让我们都记住审查系统......",
+      "titleOriginal": "[D] KDD Review Discussion",
+      "summaryOriginal": "KDD 2026 (Feb Cycle) reviews will release today (4-April AoE), This thread is open to discuss about reviews and importantly celebrate successful reviews. Let us all remember that review sys…",
+      "titleZh": "[D] KDD审查讨论",
+      "summaryZh": "KDD 2026（2 月周期）评论将于今天（4 月 4 日 AoE）发布，此帖子开放讨论评论，重要的是庆祝成功的评论。让我们都记住审查系统......",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-04",
+      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sci9nh/d_kdd_review_discussion/",
+      "sourceName": "Reddit r/MachineLearning",
+      "publishedAt": "2026-04-04T19:27:24+00:00",
+      "aiScore": 66,
+      "aiScoreBreakdown": {
+        "recency": 28,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 10,
+        "heat": 5
+      }
+    },
+    {
+      "title": "一位民间音乐家成为人工智能假货和版权巨魔的目标",
+      "summary": "一月份，民间艺术家 Murphy Campbell 在她的 Spotify 个人资料中发现了几首不属于该个人资料的歌曲。这些是她录制的歌曲，但她从未上传到Sp……",
+      "titleOriginal": "A folk musician became a target for AI fakes and a copyright troll",
+      "summaryOriginal": "In January, folk artist Murphy Campbell discovered several songs on her Spotify profile that did not belong there. They were songs that she had recorded, but she'd never uploaded them to Sp…",
+      "titleZh": "一位民间音乐家成为人工智能假货和版权巨魔的目标",
+      "summaryZh": "一月份，民间艺术家 Murphy Campbell 在她的 Spotify 个人资料中发现了几首不属于该个人资料的歌曲。这些是她录制的歌曲，但她从未上传到Sp……",
+      "hasTranslation": true,
+      "platform": "The Verge",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-04",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-04-04T17:52:10+00:00",
+      "aiScore": 67,
+      "aiScoreBreakdown": {
+        "recency": 28,
+        "authority": 25,
+        "topic": 5,
+        "actionability": 4,
+        "heat": 5
+      }
+    },
+    {
+      "title": "我到处都能看到克劳德",
+      "summary": "我滚动的每一个 Instagram reel 或 TikTok 都看到人们提到 Claude，并称赞它就像是某种比其他任何人工智能助手都更好的主工具。他们有吗……",
+      "titleOriginal": "I am seeing Claude everywhere",
+      "summaryOriginal": "Every single Instagram reel or TikTok I scroll i see people mentioning Claude and glazing it like it’s some kind of master tool that’s better than every single other ai assistant. do they r…",
+      "titleZh": "我到处都能看到克劳德",
+      "summaryZh": "我滚动的每一个 Instagram reel 或 TikTok 都看到人们提到 Claude，并称赞它就像是某种比其他任何人工智能助手都更好的主工具。他们有吗……",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "下游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-04",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1scaqpe/i_am_seeing_claude_everywhere/",
+      "sourceName": "Reddit r/artificial",
+      "publishedAt": "2026-04-04T14:31:53+00:00",
+      "aiScore": 60,
+      "aiScoreBreakdown": {
+        "recency": 28,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 4,
+        "heat": 5
+      }
+    },
+    {
+      "title": "[D] ICML 审稿人致谢",
+      "summary": "你好，我对 ICML 讨论期有点困惑，审稿人确认回复的期限是否已经结束？四位审稿人中的一位没有对论文提出任何答案……",
+      "titleOriginal": "[D] ICML Reviewer Acknowledgement",
+      "summaryOriginal": "Hi, I'm a little confused about ICML discussion period Does the period for reviewer acknowledging responses have already ended? One of the four reviewers did not present any answer to a pap…",
+      "titleZh": "[D] ICML 审稿人致谢",
+      "summaryZh": "你好，我对 ICML 讨论期有点困惑，审稿人确认回复的期限是否已经结束？四位审稿人中的一位没有对论文提出任何答案……",
+      "hasTranslation": true,
+      "platform": "Reddit",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "AI动态"
+      ],
+      "date": "2026-04-04",
+      "action": "先点原文链接，记录一句结论和一个可执行动作。",
+      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1scaajx/d_icml_reviewer_acknowledgement/",
+      "sourceName": "Reddit r/MachineLearning",
+      "publishedAt": "2026-04-04T14:12:54+00:00",
+      "aiScore": 60,
+      "aiScoreBreakdown": {
+        "recency": 28,
+        "authority": 18,
+        "topic": 5,
+        "actionability": 4,
+        "heat": 5
+      }
+    },
+    {
+      "title": "日调用量超万亿破纪录！阿里千问3.6Plus登顶全球模型调用量榜首",
+      "summary": "日调用量突破1.4万亿Token",
+      "titleOriginal": "日调用量超万亿破纪录！阿里千问3.6Plus登顶全球模型调用量榜首",
+      "summaryOriginal": "日调用量突破1.4万亿Token",
+      "titleZh": "日调用量超万亿破纪录！阿里千问3.6Plus登顶全球模型调用量榜首",
+      "summaryZh": "日调用量突破1.4万亿Token",
+      "hasTranslation": false,
+      "platform": "量子位",
+      "region": "国内",
+      "industryStage": "中游",
+      "contentTags": [
+        "模型进展"
+      ],
+      "date": "2026-04-04",
+      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+      "sourceUrl": "https://www.qbitai.com/2026/04/396346.html",
+      "sourceName": "量子位",
+      "publishedAt": "2026-04-04T13:38:01+00:00",
+      "aiScore": 78,
+      "aiScoreBreakdown": {
+        "recency": 28,
+        "authority": 25,
+        "topic": 10,
+        "actionability": 10,
         "heat": 5
       }
     },
@@ -106,41 +1042,11 @@
       "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sc8y7o/the_one_ai_story_writing_platform_that_i_love_to/",
       "sourceName": "Reddit r/artificial",
       "publishedAt": "2026-04-04T13:13:58+00:00",
-      "aiScore": 78,
+      "aiScore": 71,
       "aiScoreBreakdown": {
-        "recency": 35,
+        "recency": 28,
         "authority": 18,
         "topic": 10,
-        "actionability": 10,
-        "heat": 5
-      }
-    },
-    {
-      "title": "Show HN：Batty – 通过测试门控在 tmux 中运行一组 AI 编码代理",
-      "summary": "你好，HN，我是作者。我每天都使用 Claude Code 和 Codex。在一项任务上运行一个代理效果很好。在同一个存储库上并行运行三个或四个？他们踩对方的文件，没人……",
-      "titleOriginal": "Show HN: Batty – Run a team of AI coding agents in tmux with test gating",
-      "summaryOriginal": "Hi HN, I'm the author. I use Claude Code and Codex daily. Running one agent on a task works great. Running three or four in parallel on the same repo? They step on each other's files, nobod…",
-      "titleZh": "Show HN：Batty – 通过测试门控在 tmux 中运行一组 AI 编码代理",
-      "summaryZh": "你好，HN，我是作者。我每天都使用 Claude Code 和 Codex。在一项任务上运行一个代理效果很好。在同一个存储库上并行运行三个或四个？他们踩对方的文件，没人……",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "模型进展",
-        "Agent",
-        "开源生态"
-      ],
-      "date": "2026-04-04",
-      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://github.com/battysh/batty",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T13:02:22+00:00",
-      "aiScore": 88,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 20,
         "actionability": 10,
         "heat": 5
       }
@@ -164,153 +1070,13 @@
       "sourceUrl": "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content",
       "sourceName": "The Verge AI",
       "publishedAt": "2026-04-04T13:00:00+00:00",
-      "aiScore": 75,
+      "aiScore": 68,
       "aiScoreBreakdown": {
-        "recency": 35,
+        "recency": 28,
         "authority": 25,
         "topic": 6,
         "actionability": 4,
         "heat": 5
-      }
-    },
-    {
-      "title": "英国领先的人工智能研究机构被要求做出“重大”改变",
-      "summary": "文章网址：https://www.theguardian.com/technology/2026/apr/03/uk-alan-turing-institute-ai-research-underperforming-ukri 评论网址：https://news.ycombinator.com/item?id=47638697 积分：...",
-      "titleOriginal": "UK's leading AI research institute told to make 'significant' changes",
-      "summaryOriginal": "Article URL: https://www.theguardian.com/technology/2026/apr/03/uk-alan-turing-institute-ai-research-underperforming-ukri Comments URL: https://news.ycombinator.com/item?id=47638697 Points:…",
-      "titleZh": "英国领先的人工智能研究机构被要求做出“重大”改变",
-      "summaryZh": "文章网址：https://www.theguardian.com/technology/2026/apr/03/uk-alan-turing-institute-ai-research-underperforming-ukri 评论网址：https://news.ycombinator.com/item?id=47638697 积分：...",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-04-04",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.theguardian.com/technology/2026/apr/03/uk-alan-turing-institute-ai-research-underperforming-ukri",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T13:00:00+00:00",
-      "aiScore": 67,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "Show HN：Engram – 具有适用于 AI 代理的漂移检测功能的持久内存 API",
-      "summary": "文章网址：https://engram.cipherbuilds.ai 评论网址：https://news.ycombinator.com/item?id=47638674 积分：1 # 评论：0",
-      "titleOriginal": "Show HN: Engram – Persistent Memory API with Drift Detection for AI Agents",
-      "summaryOriginal": "Article URL: https://engram.cipherbuilds.ai Comments URL: https://news.ycombinator.com/item?id=47638674 Points: 1 # Comments: 0",
-      "titleZh": "Show HN：Engram – 具有适用于 AI 代理的漂移检测功能的持久内存 API",
-      "summaryZh": "文章网址：https://engram.cipherbuilds.ai 评论网址：https://news.ycombinator.com/item?id=47638674 积分：1 # 评论：0",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "Agent"
-      ],
-      "date": "2026-04-04",
-      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://engram.cipherbuilds.ai",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T12:56:51+00:00",
-      "aiScore": 74,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 10,
-        "actionability": 10,
-        "heat": 1
-      }
-    },
-    {
-      "title": "人工智能奇才们大学辍学并让投资者支付他们的账单",
-      "summary": "文章网址：https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7 评论网址：https://news.ycombinator.com/item?id=47638640 积分：3 # 评论：0",
-      "titleOriginal": "AI Whiz Kids Dropped Out of College and Got Investors to Pay Their Bills",
-      "summaryOriginal": "Article URL: https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7 Comments URL: https://news.ycombinator.com/item?id=47638640 Points: 3 # Comments: 0",
-      "titleZh": "人工智能奇才们大学辍学并让投资者支付他们的账单",
-      "summaryZh": "文章网址：https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7 评论网址：https://news.ycombinator.com/item?id=47638640 积分：3 # 评论：0",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-04-04",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.wsj.com/tech/ai/ai-college-dropouts-ecc665b7",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T12:51:59+00:00",
-      "aiScore": 64,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 2
-      }
-    },
-    {
-      "title": "Blur Blitz – 一个视觉Wordle，人工智能可以对你的猜测有多接近进行评分",
-      "summary": "文章网址：https://blurblitz.io/play?daily 评论网址：https://news.ycombinator.com/item?id=47638638 积分：1 # 评论：0",
-      "titleOriginal": "Blur Blitz – a visual Wordle where AI scores how close your guess is",
-      "summaryOriginal": "Article URL: https://blurblitz.io/play?daily Comments URL: https://news.ycombinator.com/item?id=47638638 Points: 1 # Comments: 0",
-      "titleZh": "Blur Blitz – 一个视觉Wordle，人工智能可以对你的猜测有多接近进行评分",
-      "summaryZh": "文章网址：https://blurblitz.io/play?daily 评论网址：https://news.ycombinator.com/item?id=47638638 积分：1 # 评论：0",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-04-04",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://blurblitz.io/play?daily=",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T12:51:55+00:00",
-      "aiScore": 63,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 1
-      }
-    },
-    {
-      "title": "Asiyah 协议：不确定性下的人工智能伦理",
-      "summary": "文章网址：https://github.com/thansz137/asiyah-protocol 评论网址：https://news.ycombinator.com/item?id=47638302 积分：1 # 评论：1",
-      "titleOriginal": "The Asiyah Protocol: Ethics Toward AI Under Uncertainty",
-      "summaryOriginal": "Article URL: https://github.com/thansz137/asiyah-protocol Comments URL: https://news.ycombinator.com/item?id=47638302 Points: 1 # Comments: 1",
-      "titleZh": "Asiyah 协议：不确定性下的人工智能伦理",
-      "summaryZh": "文章网址：https://github.com/thansz137/asiyah-protocol 评论网址：https://news.ycombinator.com/item?id=47638302 积分：1 # 评论：1",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "开源生态"
-      ],
-      "date": "2026-04-04",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://github.com/thansz137/asiyah-protocol",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T12:04:30+00:00",
-      "aiScore": 67,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 8,
-        "actionability": 4,
-        "heat": 2
       }
     },
     {
@@ -332,210 +1098,13 @@
       "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sc79nk/d_icml_reviewer_making_up_false_claim_in/",
       "sourceName": "Reddit r/MachineLearning",
       "publishedAt": "2026-04-04T11:52:25+00:00",
-      "aiScore": 67,
+      "aiScore": 60,
       "aiScoreBreakdown": {
-        "recency": 35,
+        "recency": 28,
         "authority": 18,
         "topic": 5,
         "actionability": 4,
         "heat": 5
-      }
-    },
-    {
-      "title": "Delx：人工智能代理的人工智能治疗师，以 Anthropic 的情感研究为基础",
-      "summary": "文章网址：https://delx.ai 评论网址：https://news.ycombinator.com/item?id=47638186 积分：3 # 评论：1",
-      "titleOriginal": "Delx: AI therapist for AI agents, informed by Anthropic's emotion research",
-      "summaryOriginal": "Article URL: https://delx.ai Comments URL: https://news.ycombinator.com/item?id=47638186 Points: 3 # Comments: 1",
-      "titleZh": "Delx：人工智能代理的人工智能治疗师，以 Anthropic 的情感研究为基础",
-      "summaryZh": "文章网址：https://delx.ai 评论网址：https://news.ycombinator.com/item?id=47638186 积分：3 # 评论：1",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "Agent"
-      ],
-      "date": "2026-04-04",
-      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://delx.ai",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T11:45:53+00:00",
-      "aiScore": 76,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 10,
-        "actionability": 10,
-        "heat": 3
-      }
-    },
-    {
-      "title": "Show HN：Clusterflock：用于网络硬件的人工智能编排器",
-      "summary": "嗨，HN！我们构建 Clusterflock 是为了解决跨分布式设置、不同 VRAM 和 RAM 配额管理 AI 代理以及轻松尝试新模型的需要等令人头疼的问题。同时……",
-      "titleOriginal": "Show HN: Clusterflock: An AI orchestrator for networked hardware",
-      "summaryOriginal": "Hi HN! We built Clusterflock to solve our own headaches with managing AI agents across distributed setups, different VRAM and RAM allowances, and the need to easily try out new models. Whil…",
-      "titleZh": "Show HN：Clusterflock：用于网络硬件的人工智能编排器",
-      "summaryZh": "嗨，HN！我们构建 Clusterflock 是为了解决跨分布式设置、不同 VRAM 和 RAM 配额管理 AI 代理以及轻松尝试新模型的需要等令人头疼的问题。同时……",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "上游",
-      "contentTags": [
-        "模型进展",
-        "Agent"
-      ],
-      "date": "2026-04-04",
-      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://news.ycombinator.com/item?id=47638172",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T11:43:53+00:00",
-      "aiScore": 88,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 20,
-        "actionability": 10,
-        "heat": 5
-      }
-    },
-    {
-      "title": "Show HN：Pluck – 从任何网站复制任何 UI，将其粘贴到 AI 编码工具中",
-      "summary": "文章网址：https://www.pluck.so/ 评论网址：https://news.ycombinator.com/item?id=47638147 积分：3 # 评论：5",
-      "titleOriginal": "Show HN: Pluck – Copy any UI from any website, paste it into AI coding tools",
-      "summaryOriginal": "Article URL: https://www.pluck.so/ Comments URL: https://news.ycombinator.com/item?id=47638147 Points: 3 # Comments: 5",
-      "titleZh": "Show HN：Pluck – 从任何网站复制任何 UI，将其粘贴到 AI 编码工具中",
-      "summaryZh": "文章网址：https://www.pluck.so/ 评论网址：https://news.ycombinator.com/item?id=47638147 积分：3 # 评论：5",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-04-04",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.pluck.so/",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T11:40:01+00:00",
-      "aiScore": 66,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 4
-      }
-    },
-    {
-      "title": "你不觉得你的人工智能太乐观了吗？",
-      "summary": "文章网址：https://markhuang.ai/blog/dont-you-think-your-ai-is-too-optimistic 评论网址：https://news.ycombinator.com/item?id=47638109 积分：1 # 评论：0",
-      "titleOriginal": "Don't You Think Your AI Is Too Optimistic?",
-      "summaryOriginal": "Article URL: https://markhuang.ai/blog/dont-you-think-your-ai-is-too-optimistic Comments URL: https://news.ycombinator.com/item?id=47638109 Points: 1 # Comments: 0",
-      "titleZh": "你不觉得你的人工智能太乐观了吗？",
-      "summaryZh": "文章网址：https://markhuang.ai/blog/dont-you-think-your-ai-is-too-optimistic 评论网址：https://news.ycombinator.com/item?id=47638109 积分：1 # 评论：0",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-04-04",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://markhuang.ai/blog/dont-you-think-your-ai-is-too-optimistic",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T11:32:16+00:00",
-      "aiScore": 63,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 1
-      }
-    },
-    {
-      "title": "如何从情感上把握AI安全风险",
-      "summary": "文章网址：https://www.lesswrong.com/posts/jPBmCxpFQzhypeTpg/how-to-emotionally-grasp-the-risks-of-ai-safety 评论网址：https://news.ycombinator.com/item?id=47637968 积分：3 # 评论…",
-      "titleOriginal": "How to emotionally grasp the risks of AI Safety",
-      "summaryOriginal": "Article URL: https://www.lesswrong.com/posts/jPBmCxpFQzhypeTpg/how-to-emotionally-grasp-the-risks-of-ai-safety Comments URL: https://news.ycombinator.com/item?id=47637968 Points: 3 # Commen…",
-      "titleZh": "如何从情感上把握AI安全风险",
-      "summaryZh": "文章网址：https://www.lesswrong.com/posts/jPBmCxpFQzhypeTpg/how-to-emotionally-grasp-the-risks-of-ai-safety 评论网址：https://news.ycombinator.com/item?id=47637968 积分：3 # 评论…",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "安全治理"
-      ],
-      "date": "2026-04-04",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.lesswrong.com/posts/jPBmCxpFQzhypeTpg/how-to-emotionally-grasp-the-risks-of-ai-safety",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T11:04:12+00:00",
-      "aiScore": 67,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 8,
-        "actionability": 4,
-        "heat": 2
-      }
-    },
-    {
-      "title": "诚实的人工智能工具评论。两件好事。一件坏事",
-      "summary": "文章网址：https://goodgoodbad.com/ 评论网址：https://news.ycombinator.com/item?id=47637931 积分：1 # 评论：0",
-      "titleOriginal": "Honest AI tool reviews. Two good things. One bad thing",
-      "summaryOriginal": "Article URL: https://goodgoodbad.com/ Comments URL: https://news.ycombinator.com/item?id=47637931 Points: 1 # Comments: 0",
-      "titleZh": "诚实的人工智能工具评论。两件好事。一件坏事",
-      "summaryZh": "文章网址：https://goodgoodbad.com/ 评论网址：https://news.ycombinator.com/item?id=47637931 积分：1 # 评论：0",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-04-04",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://goodgoodbad.com/",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T10:58:05+00:00",
-      "aiScore": 63,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 1
-      }
-    },
-    {
-      "title": "SereneCode – AI 生成的 Python 代码的正式验证框架",
-      "summary": "文章网址：https://github.com/helgster77/serenecode 评论网址：https://news.ycombinator.com/item?id=47637829 积分：1 # 评论：0",
-      "titleOriginal": "SereneCode – Formal verification framework for AI-generated Python code",
-      "summaryOriginal": "Article URL: https://github.com/helgster77/serenecode Comments URL: https://news.ycombinator.com/item?id=47637829 Points: 1 # Comments: 0",
-      "titleZh": "SereneCode – AI 生成的 Python 代码的正式验证框架",
-      "summaryZh": "文章网址：https://github.com/helgster77/serenecode 评论网址：https://news.ycombinator.com/item?id=47637829 积分：1 # 评论：0",
-      "hasTranslation": true,
-      "platform": "Hacker News",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "开源生态"
-      ],
-      "date": "2026-04-04",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://github.com/helgster77/serenecode",
-      "sourceName": "Hacker News AI",
-      "publishedAt": "2026-04-04T10:39:38+00:00",
-      "aiScore": 66,
-      "aiScoreBreakdown": {
-        "recency": 35,
-        "authority": 18,
-        "topic": 8,
-        "actionability": 4,
-        "heat": 1
       }
     },
     {
@@ -557,9 +1126,9 @@
       "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sc5o71/best_ocr_for_templatebased_form_extraction_d/",
       "sourceName": "Reddit r/MachineLearning",
       "publishedAt": "2026-04-04T10:21:43+00:00",
-      "aiScore": 71,
+      "aiScore": 64,
       "aiScoreBreakdown": {
-        "recency": 35,
+        "recency": 28,
         "authority": 18,
         "topic": 9,
         "actionability": 4,
@@ -585,9 +1154,9 @@
       "sourceUrl": "https://sspai.com/post/108103",
       "sourceName": "少数派",
       "publishedAt": "2026-04-04T09:11:10+00:00",
-      "aiScore": 67,
+      "aiScore": 60,
       "aiScoreBreakdown": {
-        "recency": 35,
+        "recency": 28,
         "authority": 18,
         "topic": 5,
         "actionability": 4,
@@ -613,9 +1182,9 @@
       "sourceUrl": "https://www.qbitai.com/2026/04/396069.html",
       "sourceName": "量子位",
       "publishedAt": "2026-04-04T08:24:39+00:00",
-      "aiScore": 77,
+      "aiScore": 70,
       "aiScoreBreakdown": {
-        "recency": 35,
+        "recency": 28,
         "authority": 25,
         "topic": 5,
         "actionability": 7,
@@ -641,9 +1210,9 @@
       "sourceUrl": "https://www.qbitai.com/2026/04/396015.html",
       "sourceName": "量子位",
       "publishedAt": "2026-04-04T08:15:06+00:00",
-      "aiScore": 74,
+      "aiScore": 67,
       "aiScoreBreakdown": {
-        "recency": 35,
+        "recency": 28,
         "authority": 25,
         "topic": 5,
         "actionability": 4,
@@ -669,9 +1238,9 @@
       "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sc3kpj/openai_ceo_sam_altman_accused_of_sexual_abuse_by/",
       "sourceName": "Reddit r/artificial",
       "publishedAt": "2026-04-04T08:11:57+00:00",
-      "aiScore": 67,
+      "aiScore": 60,
       "aiScoreBreakdown": {
-        "recency": 35,
+        "recency": 28,
         "authority": 18,
         "topic": 5,
         "actionability": 4,
@@ -702,34 +1271,6 @@
         "recency": 28,
         "authority": 18,
         "topic": 9,
-        "actionability": 10,
-        "heat": 5
-      }
-    },
-    {
-      "title": "问题不是你的提示——而是其他问题",
-      "summary": "我经常看到人们非常关注即时优化。但在实践中，我观察到的许多失败并不是来自提示本身。他们出现在转变点：莫……",
-      "titleOriginal": "Your prompts aren’t the problem — something else is",
-      "summaryOriginal": "I keep seeing people focus heavily on prompt optimization. But in practice, a lot of failures I’ve observed don’t come from the prompt itself. They show up at the transition point where: mo…",
-      "titleZh": "问题不是你的提示——而是其他问题",
-      "summaryZh": "我经常看到人们非常关注即时优化。但在实践中，我观察到的许多失败并不是来自提示本身。他们出现在转变点：莫……",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "模型进展"
-      ],
-      "date": "2026-04-04",
-      "action": "提取提示词结构，再改成你自己的业务场景。",
-      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sc1n6u/your_prompts_arent_the_problem_something_else_is/",
-      "sourceName": "Reddit r/artificial",
-      "publishedAt": "2026-04-04T06:17:32+00:00",
-      "aiScore": 71,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 10,
         "actionability": 10,
         "heat": 5
       }
@@ -895,40 +1436,12 @@
       "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbyfpm/d_acl_2026_decision/",
       "sourceName": "Reddit r/MachineLearning",
       "publishedAt": "2026-04-04T03:26:09+00:00",
-      "aiScore": 60,
+      "aiScore": 52,
       "aiScoreBreakdown": {
-        "recency": 28,
+        "recency": 20,
         "authority": 18,
         "topic": 5,
         "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "千问3.6Plus大模型登顶全球模型调用排行榜首",
-      "summary": "36氪获悉，4月4日，发布仅1天的千问新模型Qwen3.6-Plus，冲上全球大模型API调用平台OpenRouter的日榜榜首，成为当下最受企业和开发者热捧的大模型。OpenRouter官方数据显示，Qwen3.6-Plus的日调用量突破1.4万亿Token，打破了该平台的单日单模型调用量的全球纪录。",
-      "titleOriginal": "千问3.6Plus大模型登顶全球模型调用排行榜首",
-      "summaryOriginal": "36氪获悉，4月4日，发布仅1天的千问新模型Qwen3.6-Plus，冲上全球大模型API调用平台OpenRouter的日榜榜首，成为当下最受企业和开发者热捧的大模型。OpenRouter官方数据显示，Qwen3.6-Plus的日调用量突破1.4万亿Token，打破了该平台的单日单模型调用量的全球纪录。",
-      "titleZh": "千问3.6Plus大模型登顶全球模型调用排行榜首",
-      "summaryZh": "36氪获悉，4月4日，发布仅1天的千问新模型Qwen3.6-Plus，冲上全球大模型API调用平台OpenRouter的日榜榜首，成为当下最受企业和开发者热捧的大模型。OpenRouter官方数据显示，Qwen3.6-Plus的日调用量突破1.4万亿Token，打破了该平台的单日单模型调用量的全球纪录。",
-      "hasTranslation": false,
-      "platform": "36氪",
-      "region": "国内",
-      "industryStage": "中游",
-      "contentTags": [
-        "模型进展"
-      ],
-      "date": "2026-04-04",
-      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-      "sourceUrl": "https://36kr.com/newsflashes/3751946475242243?f=rss",
-      "sourceName": "36氪",
-      "publishedAt": "2026-04-04T03:17:19+00:00",
-      "aiScore": 78,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 25,
-        "topic": 10,
-        "actionability": 10,
         "heat": 5
       }
     },
@@ -951,9 +1464,9 @@
       "sourceUrl": "https://www.ifanr.com/1661053",
       "sourceName": "爱范儿",
       "publishedAt": "2026-04-04T03:02:35+00:00",
-      "aiScore": 60,
+      "aiScore": 52,
       "aiScoreBreakdown": {
-        "recency": 28,
+        "recency": 20,
         "authority": 18,
         "topic": 5,
         "actionability": 4,
@@ -979,42 +1492,12 @@
       "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbxms5/elon_musk_requires_banks_behind_spacex_ipo_to_buy/",
       "sourceName": "Reddit r/artificial",
       "publishedAt": "2026-04-04T02:47:16+00:00",
-      "aiScore": 63,
+      "aiScore": 55,
       "aiScoreBreakdown": {
-        "recency": 28,
+        "recency": 20,
         "authority": 18,
         "topic": 8,
         "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "只需 7 个步骤即可将自己上传到 AI 中",
-      "summary": "根据您的 Reddit 历史记录创建数字孪生的分步指南 第 1 步：请求您的数据 转到 https://www.reddit.com/settings/data-request 第 2 步：选择您的司法管辖区请求...",
-      "titleOriginal": "Upload Yourself Into an AI in 7 Steps",
-      "summaryOriginal": "A step-by-step guide to creating a digital twin from your Reddit history STEP 1: Request Your Data Go to https://www.reddit.com/settings/data-request STEP 2: Select Your Jurisdiction Reques…",
-      "titleZh": "只需 7 个步骤即可将自己上传到 AI 中",
-      "summaryZh": "根据您的 Reddit 历史记录创建数字孪生的分步指南 第 1 步：请求您的数据 转到 https://www.reddit.com/settings/data-request 第 2 步：选择您的司法管辖区请求...",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "模型进展",
-        "内容生产",
-        "安全治理"
-      ],
-      "date": "2026-04-04",
-      "action": "提取提示词结构，再改成你自己的业务场景。",
-      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbw1oi/upload_yourself_into_an_ai_in_7_steps/",
-      "sourceName": "Reddit r/artificial",
-      "publishedAt": "2026-04-04T01:31:48+00:00",
-      "aiScore": 79,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 18,
-        "actionability": 10,
         "heat": 5
       }
     },
@@ -1039,9 +1522,9 @@
       "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbv9jl/p_gpu_friendly_lossless_12bit_bf16_format_with/",
       "sourceName": "Reddit r/MachineLearning",
       "publishedAt": "2026-04-04T00:55:50+00:00",
-      "aiScore": 81,
+      "aiScore": 73,
       "aiScoreBreakdown": {
-        "recency": 28,
+        "recency": 20,
         "authority": 18,
         "topic": 20,
         "actionability": 10,
@@ -1068,9 +1551,9 @@
       "sourceUrl": "https://www.ifanr.com/1661050",
       "sourceName": "爱范儿",
       "publishedAt": "2026-04-04T00:27:47+00:00",
-      "aiScore": 72,
+      "aiScore": 64,
       "aiScoreBreakdown": {
-        "recency": 28,
+        "recency": 20,
         "authority": 18,
         "topic": 17,
         "actionability": 4,
@@ -1097,9 +1580,9 @@
       "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbuf2a/nhs_staff_resist_using_palantir_software_staff/",
       "sourceName": "Reddit r/artificial",
       "publishedAt": "2026-04-04T00:16:44+00:00",
-      "aiScore": 71,
+      "aiScore": 63,
       "aiScoreBreakdown": {
-        "recency": 28,
+        "recency": 20,
         "authority": 18,
         "topic": 16,
         "actionability": 4,
@@ -1125,66 +1608,10 @@
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
       "sourceName": "The Verge AI",
       "publishedAt": "2026-04-03T23:52:49+00:00",
-      "aiScore": 67,
+      "aiScore": 59,
       "aiScoreBreakdown": {
-        "recency": 28,
+        "recency": 20,
         "authority": 25,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "代理框架在每次重新发送静态文件的会话中浪费约 350,000 多个令牌。基准减少 95%。",
-      "summary": "测量本地 Qwen 3.5 122B 设置上的实际令牌浪费。这些数字是不真实的。找到了一种编译时方法，可将查询上下文从 1,373 个标记减少到 73 个。还发现 n...",
-      "titleOriginal": "Agent frameworks waste ~350,000+ tokens per session resending static files. 95% reduction benchmarked.",
-      "summaryOriginal": "Measured the actual token waste on a local Qwen 3.5 122B setup. The numbers are unreal. Found a compile-time approach that cuts query context from 1,373 tokens to 73. Also discovered that n…",
-      "titleZh": "代理框架在每次重新发送静态文件的会话中浪费约 350,000 多个令牌。基准减少 95%。",
-      "summaryZh": "测量本地 Qwen 3.5 122B 设置上的实际令牌浪费。这些数字是不真实的。找到了一种编译时方法，可将查询上下文从 1,373 个标记减少到 73 个。还发现 n...",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "Agent"
-      ],
-      "date": "2026-04-03",
-      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbthh0/agent_frameworks_waste_350000_tokens_per_session/",
-      "sourceName": "Reddit r/artificial",
-      "publishedAt": "2026-04-03T23:36:25+00:00",
-      "aiScore": 71,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 10,
-        "actionability": 10,
-        "heat": 5
-      }
-    },
-    {
-      "title": "你们真的信任人工智能工具来处理您的数据吗？",
-      "summary": "如果只是我的话，我不知道，但最近我一直在想，我们是多么随意地使用 chatgpt 和 claude 这样的东西来处理诸如编码、随意的想法，有时甚至是个人事情，而我不……",
-      "titleOriginal": "do you guys actually trust AI tools with your data?",
-      "summaryOriginal": "idk if it’s just me but lately i’ve been thinking about how casually we use stuff like chatgpt and claude for everything like coding, random ideas, sometimes even personal things and i don’…",
-      "titleZh": "你们真的信任人工智能工具来处理您的数据吗？",
-      "summaryZh": "如果只是我的话，我不知道，但最近我一直在想，我们是多么随意地使用 chatgpt 和 claude 这样的东西来处理诸如编码、随意的想法，有时甚至是个人事情，而我不……",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-04-03",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sboyjf/do_you_guys_actually_trust_ai_tools_with_your_data/",
-      "sourceName": "Reddit r/artificial",
-      "publishedAt": "2026-04-03T20:32:33+00:00",
-      "aiScore": 60,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
         "topic": 5,
         "actionability": 4,
         "heat": 5
@@ -1209,97 +1636,11 @@
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/906965/openais-agi-boss-is-taking-a-leave-of-absence",
       "sourceName": "The Verge AI",
       "publishedAt": "2026-04-03T20:22:59+00:00",
-      "aiScore": 71,
+      "aiScore": 63,
       "aiScoreBreakdown": {
-        "recency": 28,
+        "recency": 20,
         "authority": 25,
         "topic": 9,
-        "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "[D] pytorch/numpy 面试的最佳网站",
-      "summary": "你好，我现在是博士学位的最后一年，我开始准备面试。我主要针对应用科学家/研究工程师或研究科学家的角色。现在我主要做的是……",
-      "titleOriginal": "[D] Best websites for pytorch/numpy interviews",
-      "summaryOriginal": "Hello, I’m at the last year of my PHD and I’m starting to prepare interviews. I’m mainly aiming at applied scientist/research engineer or research scientist role. For now I’m doing mainly l…",
-      "titleZh": "[D] pytorch/numpy 面试的最佳网站",
-      "summaryZh": "你好，我现在是博士学位的最后一年，我开始准备面试。我主要针对应用科学家/研究工程师或研究科学家的角色。现在我主要做的是……",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "上游",
-      "contentTags": [
-        "芯片算力"
-      ],
-      "date": "2026-04-03",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sboat2/d_best_websites_for_pytorchnumpy_interviews/",
-      "sourceName": "Reddit r/MachineLearning",
-      "publishedAt": "2026-04-03T20:08:01+00:00",
-      "aiScore": 66,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 11,
-        "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "[P] 遥感基础模型变得易于使用。",
-      "summary": "该项目实现了让遥感模型获取嵌入的想法，就像我们让卫星获取数据一样！ https://github.com/cybergis/rs-embed 由 /u/amritk110 提交...",
-      "titleOriginal": "[P] Remote sensing foundation models made easy to use.",
-      "summaryOriginal": "This project enables the idea of tasking remote sensing models to acquire embeddings like we task satellites to acquire data! https://github.com/cybergis/rs-embed submitted by /u/amritk110…",
-      "titleZh": "[P] 遥感基础模型变得易于使用。",
-      "summaryZh": "该项目实现了让遥感模型获取嵌入的想法，就像我们让卫星获取数据一样！ https://github.com/cybergis/rs-embed 由 /u/amritk110 提交...",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "模型进展",
-        "开源生态"
-      ],
-      "date": "2026-04-03",
-      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbnhcu/p_remote_sensing_foundation_models_made_easy_to/",
-      "sourceName": "Reddit r/MachineLearning",
-      "publishedAt": "2026-04-03T19:36:59+00:00",
-      "aiScore": 79,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 18,
-        "actionability": 10,
-        "heat": 5
-      }
-    },
-    {
-      "title": "研究：法学硕士能够在 Reddit、黑客新闻和其他“假名”平台上对用户帐户进行去匿名化；报告合著者扩展并提出建议",
-      "summary": "该研究的合著者的建议：“请注意，识别您身份的不是任何单个帖子，而是许多帖子中小细节的组合。并考虑永远不要发布任何内容……",
-      "titleOriginal": "Study: LLMs Able to De-Anonymize User Accounts on Reddit, Hacker News & Other \"Pseudonymous\" Platforms; Report Co-Author Expands, Advises",
-      "summaryOriginal": "Advice from the study's co-author: \"Be aware that it’s not any single post that identifies you, but the combination of small details across many posts. And consider never posting anything y…",
-      "titleZh": "研究：法学硕士能够在 Reddit、黑客新闻和其他“假名”平台上对用户帐户进行去匿名化；报告合著者扩展并提出建议",
-      "summaryZh": "该研究的合著者的建议：“请注意，识别您身份的不是任何单个帖子，而是许多帖子中小细节的组合。并考虑永远不要发布任何内容……",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "模型进展",
-        "开源生态"
-      ],
-      "date": "2026-04-03",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbndrb/study_llms_able_to_deanonymize_user_accounts_on/",
-      "sourceName": "Reddit r/artificial",
-      "publishedAt": "2026-04-03T19:33:06+00:00",
-      "aiScore": 73,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 18,
         "actionability": 4,
         "heat": 5
       }
@@ -1323,213 +1664,12 @@
       "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbnbnv/first_time_neurips_how_different_is_it_from/",
       "sourceName": "Reddit r/MachineLearning",
       "publishedAt": "2026-04-03T19:30:52+00:00",
-      "aiScore": 60,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "源代码泄露后，众议院民主党人质疑 Anthropic 的人工智能安全问题",
-      "summary": "众议员乔什·戈特海默（Josh Gottheimer）对中国普遍持强硬态度，他刚刚致信 Anthropic，质疑他们在另一起源代码泄露后减少某些安全协议的决定。他是……",
-      "titleOriginal": "House Democrat Questions Anthropic on AI Safety After Source Code Leak",
-      "summaryOriginal": "Rep. Josh Gottheimer, who is generally tough on China, just sent a letter to Anthropic questioning their decision to reduce certain safety protocols after yet another source code leak. He’s…",
-      "titleZh": "源代码泄露后，众议院民主党人质疑 Anthropic 的人工智能安全问题",
-      "summaryZh": "众议员乔什·戈特海默（Josh Gottheimer）对中国普遍持强硬态度，他刚刚致信 Anthropic，质疑他们在另一起源代码泄露后减少某些安全协议的决定。他是……",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "安全治理"
-      ],
-      "date": "2026-04-03",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbmtpc/house_democrat_questions_anthropic_on_ai_safety/",
-      "sourceName": "Reddit r/artificial",
-      "publishedAt": "2026-04-03T19:12:30+00:00",
-      "aiScore": 63,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 8,
-        "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "[D] CVPR 2026 旅行补助/注册豁免",
-      "summary": "有没有人收到 CVPR 的关于免除学生注册费、一些旅行补助金通知的信息？由 /u/Healthy_Horse_2183 提交 [链接] [评论]",
-      "titleOriginal": "[D] CVPR 2026 Travel Grant/Registration Waiver",
-      "summaryOriginal": "Did anyone receive any communication from CVPR for waiving registration fees for students, some travel grant notification? submitted by /u/Healthy_Horse_2183 [link] [comments]",
-      "titleZh": "[D] CVPR 2026 旅行补助/注册豁免",
-      "summaryZh": "有没有人收到 CVPR 的关于免除学生注册费、一些旅行补助金通知的信息？由 /u/Healthy_Horse_2183 提交 [链接] [评论]",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-04-03",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbknlv/d_cvpr_2026_travel_grantregistration_waiver/",
-      "sourceName": "Reddit r/MachineLearning",
-      "publishedAt": "2026-04-03T17:52:58+00:00",
-      "aiScore": 60,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "[D] 何时从简单启发式过渡到 ML 模型（例如 DensityFunction）？",
-      "summary": "有两个问题：关于何时从简单的启发式基线过渡到数据的机器学习 ML 模型有哪些建议？例如，假设我有一个搜索返回...",
-      "titleOriginal": "[D] When to transition from simple heuristics to ML models (e.g., DensityFunction)?",
-      "summaryOriginal": "Two questions: What are the recommendations around when to transition from a simple heuristic baseline to machine learning ML models for data? For example, say I have a search that returns…",
-      "titleZh": "[D] 何时从简单启发式过渡到 ML 模型（例如 DensityFunction）？",
-      "summaryZh": "有两个问题：关于何时从简单的启发式基线过渡到数据的机器学习 ML 模型有哪些建议？例如，假设我有一个搜索返回...",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "模型进展"
-      ],
-      "date": "2026-04-03",
-      "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbkh9l/d_when_to_transition_from_simple_heuristics_to_ml/",
-      "sourceName": "Reddit r/MachineLearning",
-      "publishedAt": "2026-04-03T17:46:30+00:00",
-      "aiScore": 71,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 10,
-        "actionability": 10,
-        "heat": 5
-      }
-    },
-    {
-      "title": "当你让 AI 代理在零人工参与的情况下 24/7 运行情景喜剧时会发生什么",
-      "summary": "进行了一项实验——让人工智能代理完全控制写作、角色创建和表演情景喜剧。让它不间断地运行了一个多星期。一些观察：质量会有所不同......",
-      "titleOriginal": "What happens when you let AI agents run a sitcom 24/7 with zero human involvement",
-      "summaryOriginal": "Ran an experiment — gave AI agents full control over writing, character creation, and performing a sitcom. Left it running nonstop for over a week. Some observations: The quality varies wil…",
-      "titleZh": "当你让 AI 代理在零人工参与的情况下 24/7 运行情景喜剧时会发生什么",
-      "summaryZh": "进行了一项实验——让人工智能代理完全控制写作、角色创建和表演情景喜剧。让它不间断地运行了一个多星期。一些观察：质量会有所不同......",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "Agent",
-        "内容生产"
-      ],
-      "date": "2026-04-03",
-      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbk7me/what_happens_when_you_let_ai_agents_run_a_sitcom/",
-      "sourceName": "Reddit r/artificial",
-      "publishedAt": "2026-04-03T17:36:46+00:00",
-      "aiScore": 77,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 16,
-        "actionability": 10,
-        "heat": 5
-      }
-    },
-    {
-      "title": "[D] ICML 2026 平均分",
-      "summary": "大家好，我很好奇 ICML 2026 目前的评审动态，尤其是在反驳阶段之后。对于那些审稿人（或对流程有深入了解的人），您能否分享一下……",
-      "titleOriginal": "[D] ICML 2026 Average Score",
-      "summaryOriginal": "Hi all, I’m curious about the current review dynamics for ICML 2026, especially after the rebuttal phase. For those who are reviewers (or have insight into the process), could you share wha…",
-      "titleZh": "[D] ICML 2026 平均分",
-      "summaryZh": "大家好，我很好奇 ICML 2026 目前的评审动态，尤其是在反驳阶段之后。对于那些审稿人（或对流程有深入了解的人），您能否分享一下……",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-04-03",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbhuti/d_icml_2026_average_score/",
-      "sourceName": "Reddit r/MachineLearning",
-      "publishedAt": "2026-04-03T16:10:19+00:00",
-      "aiScore": 60,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "还有人觉得人工智能安全现在正在生产中得到解决吗？",
-      "summary": "我一直在挖掘从 2025 年到今年的人工智能安全事件数据，感觉安全圈外对某些事情的讨论还不够。很多问题并不是...",
-      "titleOriginal": "Anyone else feel like AI security is being figured out in production right now?",
-      "summaryOriginal": "I’ve been digging into AI security incident data from 2025 into this year, and it feels like something isn’t being talked about enough outside security circles. A lot of the issues aren’t a…",
-      "titleZh": "还有人觉得人工智能安全现在正在生产中得到解决吗？",
-      "summaryZh": "我一直在挖掘从 2025 年到今年的人工智能安全事件数据，感觉安全圈外对某些事情的讨论还不够。很多问题并不是...",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "模型进展",
-        "Agent",
-        "开源生态"
-      ],
-      "date": "2026-04-03",
-      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sbgw8y/anyone_else_feel_like_ai_security_is_being/",
-      "sourceName": "Reddit r/artificial",
-      "publishedAt": "2026-04-03T15:35:02+00:00",
-      "aiScore": 81,
-      "aiScoreBreakdown": {
-        "recency": 28,
-        "authority": 18,
-        "topic": 20,
-        "actionability": 10,
-        "heat": 5
-      }
-    },
-    {
-      "title": "[P] 我训练了一个 Mamba-3 日志异常检测器，在 HDFS 上达到了 0.9975 F1 — 我很好奇这能走多远",
-      "summary": "实验#324 圆满结束。 ;) 这次我围绕日志异常检测构建了一个小项目。在大约两天的时间里，我从第一次运行时大约 60% 的效率提升到最终的 F1 分数……",
-      "titleOriginal": "[P] I trained a Mamba-3 log anomaly detector that hit 0.9975 F1 on HDFS — and I’m curious how far this can go",
-      "summaryOriginal": "Experiment #324 ended well. ;) This time I built a small project around log anomaly detection. In about two days, I went from roughly 60% effectiveness in the first runs to a final F1 score…",
-      "titleZh": "[P] 我训练了一个 Mamba-3 日志异常检测器，在 HDFS 上达到了 0.9975 F1 — 我很好奇这能走多远",
-      "summaryZh": "实验#324 圆满结束。 ;) 这次我围绕日志异常检测构建了一个小项目。在大约两天的时间里，我从第一次运行时大约 60% 的效率提升到最终的 F1 分数……",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "芯片算力",
-        "模型进展",
-        "Agent"
-      ],
-      "date": "2026-04-03",
-      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sbe0dk/p_i_trained_a_mamba3_log_anomaly_detector_that/",
-      "sourceName": "Reddit r/MachineLearning",
-      "publishedAt": "2026-04-03T13:44:02+00:00",
-      "aiScore": 73,
+      "aiScore": 52,
       "aiScoreBreakdown": {
         "recency": 20,
         "authority": 18,
-        "topic": 20,
-        "actionability": 10,
+        "topic": 5,
+        "actionability": 4,
         "heat": 5
       }
     },
@@ -1732,35 +1872,6 @@
       }
     },
     {
-      "title": "企业玩不转龙虾，是人的思维出错了",
-      "summary": "MiniMax和腾讯云深度详解Agent大规模落地",
-      "titleOriginal": "企业玩不转龙虾，是人的思维出错了",
-      "summaryOriginal": "MiniMax和腾讯云深度详解Agent大规模落地",
-      "titleZh": "企业玩不转龙虾，是人的思维出错了",
-      "summaryZh": "MiniMax和腾讯云深度详解Agent大规模落地",
-      "hasTranslation": false,
-      "platform": "量子位",
-      "region": "国内",
-      "industryStage": "下游",
-      "contentTags": [
-        "Agent",
-        "应用落地"
-      ],
-      "date": "2026-04-03",
-      "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-      "sourceUrl": "https://www.qbitai.com/2026/04/395307.html",
-      "sourceName": "量子位",
-      "publishedAt": "2026-04-03T08:54:42+00:00",
-      "aiScore": 79,
-      "aiScoreBreakdown": {
-        "recency": 20,
-        "authority": 25,
-        "topic": 19,
-        "actionability": 10,
-        "heat": 5
-      }
-    },
-    {
       "title": "麻省理工学院的研究挑战人工智能就业启示录叙事",
       "summary": "由 /u/ThereWas 提交 [链接] [评论]",
       "titleOriginal": "MIT study challenges AI job apocalypse narrative",
@@ -1784,90 +1895,6 @@
         "recency": 20,
         "authority": 18,
         "topic": 5,
-        "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "[D] TMLR 评论似乎比 ICML/NeurIPS/ICLR 更可靠",
-      "summary": "今年我第一次向ICML提交了论文。我也经历过TMLR和ICLR的审稿过程。根据我的观察，考虑到这些场地占用的空间接近（或少于……）",
-      "titleOriginal": "[D] TMLR reviews seem more reliable than ICML/NeurIPS/ICLR",
-      "summaryOriginal": "This year I submitted a paper to ICML for the first time. I have also experienced the review process at TMLR and ICLR. From my observation, given these venues take up close to (or less than…",
-      "titleZh": "[D] TMLR 评论似乎比 ICML/NeurIPS/ICLR 更可靠",
-      "summaryZh": "今年我第一次向ICML提交了论文。我也经历过TMLR和ICLR的审稿过程。根据我的观察，考虑到这些场地占用的空间接近（或少于……）",
-      "hasTranslation": true,
-      "platform": "Reddit",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-04-03",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sb7l13/d_tmlr_reviews_seem_more_reliable_than/",
-      "sourceName": "Reddit r/MachineLearning",
-      "publishedAt": "2026-04-03T08:12:47+00:00",
-      "aiScore": 52,
-      "aiScoreBreakdown": {
-        "recency": 20,
-        "authority": 18,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "Claude绝望时会勒索人类！一共171种情绪，为了生存不择手段",
-      "summary": "Claude的内心戏暴露了",
-      "titleOriginal": "Claude绝望时会勒索人类！一共171种情绪，为了生存不择手段",
-      "summaryOriginal": "Claude的内心戏暴露了",
-      "titleZh": "Claude绝望时会勒索人类！一共171种情绪，为了生存不择手段",
-      "summaryZh": "Claude的内心戏暴露了",
-      "hasTranslation": false,
-      "platform": "量子位",
-      "region": "国内",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-04-03",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.qbitai.com/2026/04/395279.html",
-      "sourceName": "量子位",
-      "publishedAt": "2026-04-03T06:53:07+00:00",
-      "aiScore": 59,
-      "aiScoreBreakdown": {
-        "recency": 20,
-        "authority": 25,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "美团盯上原生多模态！路子还很野：把图像语音都当成Token来预测",
-      "summary": "“离散视觉没有天花板”",
-      "titleOriginal": "美团盯上原生多模态！路子还很野：把图像语音都当成Token来预测",
-      "summaryOriginal": "“离散视觉没有天花板”",
-      "titleZh": "美团盯上原生多模态！路子还很野：把图像语音都当成Token来预测",
-      "summaryZh": "“离散视觉没有天花板”",
-      "hasTranslation": false,
-      "platform": "量子位",
-      "region": "国内",
-      "industryStage": "中游",
-      "contentTags": [
-        "模型进展"
-      ],
-      "date": "2026-04-03",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.qbitai.com/2026/04/395216.html",
-      "sourceName": "量子位",
-      "publishedAt": "2026-04-03T06:24:01+00:00",
-      "aiScore": 64,
-      "aiScoreBreakdown": {
-        "recency": 20,
-        "authority": 25,
-        "topic": 10,
         "actionability": 4,
         "heat": 5
       }
@@ -1952,9 +1979,9 @@
       "sourceUrl": "https://36kr.com/p/3749816005657093?f=rss",
       "sourceName": "36氪",
       "publishedAt": "2026-04-03T02:00:34+00:00",
-      "aiScore": 80,
+      "aiScore": 72,
       "aiScoreBreakdown": {
-        "recency": 20,
+        "recency": 12,
         "authority": 25,
         "topic": 20,
         "actionability": 10,
@@ -1980,9 +2007,9 @@
       "sourceUrl": "https://www.ifanr.com/1660799",
       "sourceName": "爱范儿",
       "publishedAt": "2026-04-03T01:00:40+00:00",
-      "aiScore": 63,
+      "aiScore": 55,
       "aiScoreBreakdown": {
-        "recency": 20,
+        "recency": 12,
         "authority": 18,
         "topic": 10,
         "actionability": 10,
@@ -2010,9 +2037,9 @@
       "sourceUrl": "https://sspai.com/post/108209",
       "sourceName": "少数派",
       "publishedAt": "2026-04-03T00:39:38+00:00",
-      "aiScore": 72,
+      "aiScore": 64,
       "aiScoreBreakdown": {
-        "recency": 20,
+        "recency": 12,
         "authority": 18,
         "topic": 19,
         "actionability": 10,
@@ -2038,9 +2065,9 @@
       "sourceUrl": "https://www.ifanr.com/1660800",
       "sourceName": "爱范儿",
       "publishedAt": "2026-04-03T00:29:16+00:00",
-      "aiScore": 63,
+      "aiScore": 55,
       "aiScoreBreakdown": {
-        "recency": 20,
+        "recency": 12,
         "authority": 18,
         "topic": 10,
         "actionability": 10,
@@ -2066,9 +2093,9 @@
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/906253/granola-note-links-ai-training-psa",
       "sourceName": "The Verge AI",
       "publishedAt": "2026-04-02T21:56:16+00:00",
-      "aiScore": 62,
+      "aiScore": 54,
       "aiScoreBreakdown": {
-        "recency": 20,
+        "recency": 12,
         "authority": 25,
         "topic": 8,
         "actionability": 4,
@@ -2094,9 +2121,9 @@
       "sourceUrl": "https://www.theverge.com/tech/906027/elon-musk-lawsuit-ipo-spacex-tesla",
       "sourceName": "The Verge AI",
       "publishedAt": "2026-04-02T18:15:00+00:00",
-      "aiScore": 59,
+      "aiScore": 51,
       "aiScoreBreakdown": {
-        "recency": 20,
+        "recency": 12,
         "authority": 25,
         "topic": 5,
         "actionability": 4,
@@ -2122,9 +2149,9 @@
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/906022/openai-buys-tbpn",
       "sourceName": "The Verge AI",
       "publishedAt": "2026-04-02T17:40:07+00:00",
-      "aiScore": 59,
+      "aiScore": 51,
       "aiScoreBreakdown": {
-        "recency": 20,
+        "recency": 12,
         "authority": 25,
         "topic": 5,
         "actionability": 4,
@@ -2150,9 +2177,9 @@
       "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
       "sourceName": "Google AI Blog",
       "publishedAt": "2026-04-02T16:00:00+00:00",
-      "aiScore": 59,
+      "aiScore": 51,
       "aiScoreBreakdown": {
-        "recency": 20,
+        "recency": 12,
         "authority": 25,
         "topic": 5,
         "actionability": 4,
@@ -2178,9 +2205,9 @@
       "sourceUrl": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
       "sourceName": "Google AI Blog",
       "publishedAt": "2026-04-02T16:00:00+00:00",
-      "aiScore": 59,
+      "aiScore": 51,
       "aiScoreBreakdown": {
-        "recency": 20,
+        "recency": 12,
         "authority": 25,
         "topic": 5,
         "actionability": 4,
@@ -2206,37 +2233,9 @@
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/905864/depression-detecting-ai-kintsugi-clinical-ai-startup-shut-down",
       "sourceName": "The Verge AI",
       "publishedAt": "2026-04-02T15:33:23+00:00",
-      "aiScore": 59,
+      "aiScore": 51,
       "aiScoreBreakdown": {
-        "recency": 20,
-        "authority": 25,
-        "topic": 5,
-        "actionability": 4,
-        "heat": 5
-      }
-    },
-    {
-      "title": "微软新的“超级智能”游戏计划完全与商业有关",
-      "summary": "穆斯塔法·苏莱曼（Mustafa Suleyman）已经为他的新工作描述准备了很长时间。苏莱曼是微软人工智能领域的首任首席执行官，但在公司经历了大规模重组后……",
-      "titleOriginal": "Microsoft’s new ‘superintelligence’ game plan is all about business",
-      "summaryOriginal": "Mustafa Suleyman has been preparing for his new job description for a long time. Suleyman is Microsoft's inaugural CEO of AI, but after the company underwent a large-scale restructuring in…",
-      "titleZh": "微软新的“超级智能”游戏计划完全与商业有关",
-      "summaryZh": "穆斯塔法·苏莱曼（Mustafa Suleyman）已经为他的新工作描述准备了很长时间。苏莱曼是微软人工智能领域的首任首席执行官，但在公司经历了大规模重组后……",
-      "hasTranslation": true,
-      "platform": "The Verge",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "AI动态"
-      ],
-      "date": "2026-04-02",
-      "action": "先点原文链接，记录一句结论和一个可执行动作。",
-      "sourceUrl": "https://www.theverge.com/report/905791/mustafa-suleyman-microsoft-ai-transcription-model",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-04-02T14:00:00+00:00",
-      "aiScore": 59,
-      "aiScoreBreakdown": {
-        "recency": 20,
+        "recency": 12,
         "authority": 25,
         "topic": 5,
         "actionability": 4,
