@@ -1,15 +1,130 @@
 {
-  "generatedAt": "2026-04-05T03:53:11.769664+00:00",
+  "generatedAt": "2026-04-05T13:53:51.632673+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-04-05",
     "label": "4月5日",
     "top10": [
       {
-        "rank": 8,
+        "rank": 1,
+        "title": "Show HN：Vektor——AI 代理的本地优先联想记忆",
+        "platform": "Hacker News",
+        "aiScore": 87,
+        "publishedAt": "2026-04-05T09:59:23+00:00",
+        "sourceUrl": "https://vektormemory.com/docs/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "通过 SQLite 中的 MAGMA 图实现 4 层内存。 AUDN 管理循环（添加/更新/删除/无操作）。 REM 背景压缩。克劳德的工具。没有云。 npm i vektor-slipstream 如果有人有深入的经验...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "36氪首发 | 清华系团队研发矿石AI智能分选机，完成近2亿元C轮融资",
+        "platform": "36氪",
+        "aiScore": 87,
+        "publishedAt": "2026-04-05T06:05:09+00:00",
+        "sourceUrl": "https://36kr.com/p/3753526848897792?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
+        "contentTags": [
+          "模型进展",
+          "开源生态",
+          "应用落地"
+        ],
+        "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，矿石AI智能分选设备企业——北京霍里思特科技有限公司（下称“霍里思特”）已完成近2亿元C轮融资，由招商局资本领投，京国瑞、大兴产投、北创投、开源思创及初辉资本跟投。本轮资金将主要用于核心技术研发、全球化业务拓展及团队建设。 霍里思特成立于2010年，是国内在全矿种（有色、黑色、非金属、放射性及煤矿）均有智能分选大量落地应用的设备供应商。公司…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "我做了一个批发代理，这就是它的作用",
+        "platform": "Reddit",
+        "aiScore": 85,
+        "publishedAt": "2026-04-05T13:25:49+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sd3l0r/ive_made_a_wholesale_agent_this_is_what_it_does/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "自动化"
+        ],
+        "summary": "您可以上传潜在客户，助理将跟进、跟踪信息、回复所有消息，甚至根据时间表安排拜访。它包括一个内置报价计算器和...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 17,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "OpenAI新模型不是GPTX！全新预训练“土豆”曝光，Sora成弃子的原因找到了",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-04-05T09:06:59+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/04/396535.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "正面回应了和Anthropic的竞争",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "使用脑部扫描数据构建公众人物的行为反应模型（使用心理建模预测他们的下一步行动）[P]",
+        "platform": "Reddit",
+        "aiScore": 84,
+        "publishedAt": "2026-04-05T12:26:08+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sd2blx/building_behavioural_response_models_of_public/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "内容生产"
+        ],
+        "summary": "大家好，我是地理定位工具 Netryx V2 的创建者。我一直在研究一种叫做 COGNEX 的新东西。它学习一个人对情况的反应，然后使用该模式来……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 16,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
         "title": "为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜",
         "platform": "量子位",
-        "aiScore": 91,
+        "aiScore": 84,
         "publishedAt": "2026-04-05T02:14:36+00:00",
         "sourceUrl": "https://www.qbitai.com/2026/04/396351.html",
         "sourceName": "量子位",
@@ -21,7 +136,7 @@
         "summary": "1000万视频秒搜",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 16,
           "actionability": 10,
@@ -29,135 +144,89 @@
         }
       },
       {
-        "rank": 2,
-        "title": "[P] 我在 PyTorch 中实现了“Screening Is Enough”（arXiv：2604.01178）并对其进行了基准测试",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-04-05T03:45:05+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sctd0b/p_i_implemented_screening_is_enough/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "上周的论文用绝对阈值机制取代了 softmax 注意力： alpha = [max(1 - r * (1 - cosine_sim), 0)] 2 低于阈值的键被完全清零——没有全局…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "[P] Cadenza：轻松将 Wandb 日志连接到代理以进行自主研究。",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-04-04T22:11:15+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1scmaxt/p_cadenza_connect_wandb_logs_to_agents_easily_for/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "Wandb CLI 和 MCP 与代理一起使用来实现完全自主的研究循环非常糟糕。它们缓慢、笨重，并导致上下文腐烂。所以我构建了一个 CLI 工具和一个 Python SDK 来简化它......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "[P] Cadenza：轻松将 Wandb 日志连接到代理以进行自主研究。",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-04-04T22:09:24+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1scm9do/p_cadenza_connect_wandb_logs_to_agents_easily_for/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "Wandb CLI 和 MCP 与代理一起使用来实现完全自主的研究循环非常糟糕。它们缓慢、笨重，并导致上下文腐烂。所以我构建了一个 CLI 工具和一个 Python SDK 来简化它......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "Show HN：观看人工智能代理乌托邦公社的崩溃",
-        "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-04-04T23:42:57+00:00",
-        "sourceUrl": "https://menggg22.github.io/utopia/replay.html",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "文章网址：https://menggg22.github.io/utopia/replay.html 评论网址：https://news.ycombinator.com/item?id=47644696 积分：2 # 评论：2",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 3
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Hermes Agent：2026 年自我完善的开源 AI 代理完整指南",
-        "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-04-04T22:57:12+00:00",
-        "sourceUrl": "https://virtualuncle.com/hermes-agent-complete-guide-2026/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "文章网址：https://virtualuncle.com/hermes-agent-complete-guide-2026/ 评论网址：https://news.ycombinator.com/item?id=47644400 积分：5 # 评论：1",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 3
-        }
-      },
-      {
         "rank": 7,
-        "title": "ChatGPT 是否已经改变了我们太多的思考方式？",
+        "title": "显示 HN：在 OpenCode 中恢复 Claude Pro/Max 的 AI 代理指令",
+        "platform": "Hacker News",
+        "aiScore": 82,
+        "publishedAt": "2026-04-05T13:21:03+00:00",
+        "sourceUrl": "https://github.com/jcubic/opencode-claude-plan",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/jcubic/opencode-claude-plan 评论网址：https://news.ycombinator.com/item?id=47649178 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 8,
+        "title": "Satsgate：使用 Lightning L402 将 AI 代理和 API 货币化",
+        "platform": "Hacker News",
+        "aiScore": 82,
+        "publishedAt": "2026-04-05T08:12:33+00:00",
+        "sourceUrl": "https://github.com/Mike-io-hash/satsgate",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/Mike-io-hash/satsgate 评论网址：https://news.ycombinator.com/item?id=47647255 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 9,
+        "title": "修订：用于 RSpec 到 Minitest 迁移的 6 门 AI 管道",
+        "platform": "Hacker News",
+        "aiScore": 81,
+        "publishedAt": "2026-04-05T13:27:01+00:00",
+        "sourceUrl": "https://augmentedcode.dev/multi-agent-pipeline-minitest-migration/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "自动化"
+        ],
+        "summary": "文章网址：https://augmentedcode.dev/multi-agent-pipeline-minitest-migration/ 评论网址：https://news.ycombinator.com/item?id=47649235 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 17,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 10,
+        "title": "自动代理 - 自我完善领域专业知识代理",
         "platform": "Reddit",
         "aiScore": 81,
-        "publishedAt": "2026-04-04T21:46:15+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sclpti/is_chatgpt_changing_the_way_we_think_too_much/",
+        "publishedAt": "2026-04-05T07:22:29+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1scx9kw/auto_agent_self_improving_domain_expertise_agent/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "Agent",
-          "应用落地"
+          "开源生态"
         ],
-        "summary": "过去，我使用 ChatGPT Plus 主要是为了工作，帮助我写得更好、做事更快。但现在我几乎用它来做所有事情。比如计划事情、重写事情、组织……",
+        "summary": "有人开源了一个人工智能代理，该代理在 24 小时内自动将自己升级到跨多个域的#1……然后开源了整个东西，但这就是它真正起作用的原因： - 代理......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 28,
@@ -166,143 +235,73 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 8,
-        "title": "我们刚刚在开源 AI 代理配置工具上获得了 555 颗星，老实说我仍然感到震惊",
-        "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-04-04T21:13:52+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sckxf1/we_just_hit_555_stars_on_our_open_source_ai_agent/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态",
-          "应用落地"
-        ],
-        "summary": "不久前，我和一些人开始研究 Calibre，这是一个开源工具，用于管理 AI 代理配置并将其与代码库同步。这个想法来自于我们经历过的真实痛苦……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "[P] MCGrad：修复子组中 ML 模型的校准",
-        "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-04-04T20:36:01+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1scjzer/p_mcgrad_fix_calibration_of_your_ml_model_in/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "开源生态",
-          "应用落地"
-        ],
-        "summary": "您好，r/MachineLearning，我们正在开源 MCGrad，这是一个用于多重校准的 Python 包，在 Meta 的生产中开发和部署。这项工作也将在 KDD 2026 上展出。Pro…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "[D] 提供经过许可的印度语言语音数据集（获得明确的贡献者同意）",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-04-05T03:47:15+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sctehe/d_offering_licensed_indian_language_speech/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "大家好，我运行了一个小型数据计划，我们直接从贡献者那里收集多种印度语言的语音数据集，这些贡献者明确同意他们的录音被使用……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "metrics": {
-      "totalItems": 33,
-      "avgScore": 73.5,
-      "topScore": 91,
+      "totalItems": 44,
+      "avgScore": 72.2,
+      "topScore": 87,
       "topPlatforms": [
+        {
+          "name": "Reddit",
+          "count": 18
+        },
         {
           "name": "Hacker News",
           "count": 15
         },
         {
-          "name": "Reddit",
-          "count": 14
-        },
-        {
           "name": "量子位",
-          "count": 2
+          "count": 6
         },
         {
           "name": "36氪",
-          "count": 1
+          "count": 3
         },
         {
           "name": "The Verge",
-          "count": 1
+          "count": 2
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 14
+          "count": 18
         },
         {
           "name": "Agent",
-          "count": 10
+          "count": 13
         },
         {
           "name": "开源生态",
-          "count": 8
+          "count": 9
         },
         {
           "name": "模型进展",
-          "count": 7
+          "count": 9
         },
         {
           "name": "应用落地",
-          "count": 3
+          "count": 6
         },
         {
           "name": "自动化",
-          "count": 1
+          "count": 2
         },
         {
           "name": "内容生产",
-          "count": 1
+          "count": 2
         },
         {
-          "name": "投融资",
+          "name": "芯片算力",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 33 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 44 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / Agent / 开源生态",
-      "最高分事件：为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜（91 分）",
+      "最高分事件：Show HN：Vektor——AI 代理的本地优先联想记忆（87 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -312,10 +311,125 @@
       "label": "4月5日",
       "top10": [
         {
-          "rank": 8,
+          "rank": 1,
+          "title": "Show HN：Vektor——AI 代理的本地优先联想记忆",
+          "platform": "Hacker News",
+          "aiScore": 87,
+          "publishedAt": "2026-04-05T09:59:23+00:00",
+          "sourceUrl": "https://vektormemory.com/docs/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "通过 SQLite 中的 MAGMA 图实现 4 层内存。 AUDN 管理循环（添加/更新/删除/无操作）。 REM 背景压缩。克劳德的工具。没有云。 npm i vektor-slipstream 如果有人有深入的经验...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "36氪首发 | 清华系团队研发矿石AI智能分选机，完成近2亿元C轮融资",
+          "platform": "36氪",
+          "aiScore": 87,
+          "publishedAt": "2026-04-05T06:05:09+00:00",
+          "sourceUrl": "https://36kr.com/p/3753526848897792?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "应用落地"
+          ],
+          "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，矿石AI智能分选设备企业——北京霍里思特科技有限公司（下称“霍里思特”）已完成近2亿元C轮融资，由招商局资本领投，京国瑞、大兴产投、北创投、开源思创及初辉资本跟投。本轮资金将主要用于核心技术研发、全球化业务拓展及团队建设。 霍里思特成立于2010年，是国内在全矿种（有色、黑色、非金属、放射性及煤矿）均有智能分选大量落地应用的设备供应商。公司…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "我做了一个批发代理，这就是它的作用",
+          "platform": "Reddit",
+          "aiScore": 85,
+          "publishedAt": "2026-04-05T13:25:49+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sd3l0r/ive_made_a_wholesale_agent_this_is_what_it_does/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "您可以上传潜在客户，助理将跟进、跟踪信息、回复所有消息，甚至根据时间表安排拜访。它包括一个内置报价计算器和...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "OpenAI新模型不是GPTX！全新预训练“土豆”曝光，Sora成弃子的原因找到了",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-04-05T09:06:59+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/04/396535.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "正面回应了和Anthropic的竞争",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "使用脑部扫描数据构建公众人物的行为反应模型（使用心理建模预测他们的下一步行动）[P]",
+          "platform": "Reddit",
+          "aiScore": 84,
+          "publishedAt": "2026-04-05T12:26:08+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sd2blx/building_behavioural_response_models_of_public/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "内容生产"
+          ],
+          "summary": "大家好，我是地理定位工具 Netryx V2 的创建者。我一直在研究一种叫做 COGNEX 的新东西。它学习一个人对情况的反应，然后使用该模式来……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 16,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
           "title": "为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜",
           "platform": "量子位",
-          "aiScore": 91,
+          "aiScore": 84,
           "publishedAt": "2026-04-05T02:14:36+00:00",
           "sourceUrl": "https://www.qbitai.com/2026/04/396351.html",
           "sourceName": "量子位",
@@ -327,7 +441,7 @@
           "summary": "1000万视频秒搜",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 16,
             "actionability": 10,
@@ -335,135 +449,89 @@
           }
         },
         {
-          "rank": 2,
-          "title": "[P] 我在 PyTorch 中实现了“Screening Is Enough”（arXiv：2604.01178）并对其进行了基准测试",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-04-05T03:45:05+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sctd0b/p_i_implemented_screening_is_enough/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "开源生态"
-          ],
-          "summary": "上周的论文用绝对阈值机制取代了 softmax 注意力： alpha = [max(1 - r * (1 - cosine_sim), 0)] 2 低于阈值的键被完全清零——没有全局…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "[P] Cadenza：轻松将 Wandb 日志连接到代理以进行自主研究。",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-04-04T22:11:15+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1scmaxt/p_cadenza_connect_wandb_logs_to_agents_easily_for/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "Wandb CLI 和 MCP 与代理一起使用来实现完全自主的研究循环非常糟糕。它们缓慢、笨重，并导致上下文腐烂。所以我构建了一个 CLI 工具和一个 Python SDK 来简化它......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "[P] Cadenza：轻松将 Wandb 日志连接到代理以进行自主研究。",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-04-04T22:09:24+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1scm9do/p_cadenza_connect_wandb_logs_to_agents_easily_for/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "Wandb CLI 和 MCP 与代理一起使用来实现完全自主的研究循环非常糟糕。它们缓慢、笨重，并导致上下文腐烂。所以我构建了一个 CLI 工具和一个 Python SDK 来简化它......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "Show HN：观看人工智能代理乌托邦公社的崩溃",
-          "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-04-04T23:42:57+00:00",
-          "sourceUrl": "https://menggg22.github.io/utopia/replay.html",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://menggg22.github.io/utopia/replay.html 评论网址：https://news.ycombinator.com/item?id=47644696 积分：2 # 评论：2",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 3
-          }
-        },
-        {
-          "rank": 6,
-          "title": "Hermes Agent：2026 年自我完善的开源 AI 代理完整指南",
-          "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-04-04T22:57:12+00:00",
-          "sourceUrl": "https://virtualuncle.com/hermes-agent-complete-guide-2026/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://virtualuncle.com/hermes-agent-complete-guide-2026/ 评论网址：https://news.ycombinator.com/item?id=47644400 积分：5 # 评论：1",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 3
-          }
-        },
-        {
           "rank": 7,
-          "title": "ChatGPT 是否已经改变了我们太多的思考方式？",
+          "title": "显示 HN：在 OpenCode 中恢复 Claude Pro/Max 的 AI 代理指令",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-04-05T13:21:03+00:00",
+          "sourceUrl": "https://github.com/jcubic/opencode-claude-plan",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/jcubic/opencode-claude-plan 评论网址：https://news.ycombinator.com/item?id=47649178 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Satsgate：使用 Lightning L402 将 AI 代理和 API 货币化",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-04-05T08:12:33+00:00",
+          "sourceUrl": "https://github.com/Mike-io-hash/satsgate",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/Mike-io-hash/satsgate 评论网址：https://news.ycombinator.com/item?id=47647255 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 9,
+          "title": "修订：用于 RSpec 到 Minitest 迁移的 6 门 AI 管道",
+          "platform": "Hacker News",
+          "aiScore": 81,
+          "publishedAt": "2026-04-05T13:27:01+00:00",
+          "sourceUrl": "https://augmentedcode.dev/multi-agent-pipeline-minitest-migration/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "文章网址：https://augmentedcode.dev/multi-agent-pipeline-minitest-migration/ 评论网址：https://news.ycombinator.com/item?id=47649235 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 10,
+          "title": "自动代理 - 自我完善领域专业知识代理",
           "platform": "Reddit",
           "aiScore": 81,
-          "publishedAt": "2026-04-04T21:46:15+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sclpti/is_chatgpt_changing_the_way_we_think_too_much/",
+          "publishedAt": "2026-04-05T07:22:29+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1scx9kw/auto_agent_self_improving_domain_expertise_agent/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
             "Agent",
-            "应用落地"
+            "开源生态"
           ],
-          "summary": "过去，我使用 ChatGPT Plus 主要是为了工作，帮助我写得更好、做事更快。但现在我几乎用它来做所有事情。比如计划事情、重写事情、组织……",
+          "summary": "有人开源了一个人工智能代理，该代理在 24 小时内自动将自己升级到跨多个域的#1……然后开源了整个东西，但这就是它真正起作用的原因： - 代理......",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 28,
@@ -472,143 +540,73 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 8,
-          "title": "我们刚刚在开源 AI 代理配置工具上获得了 555 颗星，老实说我仍然感到震惊",
-          "platform": "Reddit",
-          "aiScore": 80,
-          "publishedAt": "2026-04-04T21:13:52+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sckxf1/we_just_hit_555_stars_on_our_open_source_ai_agent/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "应用落地"
-          ],
-          "summary": "不久前，我和一些人开始研究 Calibre，这是一个开源工具，用于管理 AI 代理配置并将其与代码库同步。这个想法来自于我们经历过的真实痛苦……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "[P] MCGrad：修复子组中 ML 模型的校准",
-          "platform": "Reddit",
-          "aiScore": 80,
-          "publishedAt": "2026-04-04T20:36:01+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1scjzer/p_mcgrad_fix_calibration_of_your_ml_model_in/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "开源生态",
-            "应用落地"
-          ],
-          "summary": "您好，r/MachineLearning，我们正在开源 MCGrad，这是一个用于多重校准的 Python 包，在 Meta 的生产中开发和部署。这项工作也将在 KDD 2026 上展出。Pro…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "[D] 提供经过许可的印度语言语音数据集（获得明确的贡献者同意）",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-04-05T03:47:15+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sctehe/d_offering_licensed_indian_language_speech/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "大家好，我运行了一个小型数据计划，我们直接从贡献者那里收集多种印度语言的语音数据集，这些贡献者明确同意他们的录音被使用……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "metrics": {
-        "totalItems": 33,
-        "avgScore": 73.5,
-        "topScore": 91,
+        "totalItems": 44,
+        "avgScore": 72.2,
+        "topScore": 87,
         "topPlatforms": [
+          {
+            "name": "Reddit",
+            "count": 18
+          },
           {
             "name": "Hacker News",
             "count": 15
           },
           {
-            "name": "Reddit",
-            "count": 14
-          },
-          {
             "name": "量子位",
-            "count": 2
+            "count": 6
           },
           {
             "name": "36氪",
-            "count": 1
+            "count": 3
           },
           {
             "name": "The Verge",
-            "count": 1
+            "count": 2
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 14
+            "count": 18
           },
           {
             "name": "Agent",
-            "count": 10
+            "count": 13
           },
           {
             "name": "开源生态",
-            "count": 8
+            "count": 9
           },
           {
             "name": "模型进展",
-            "count": 7
+            "count": 9
           },
           {
             "name": "应用落地",
-            "count": 3
+            "count": 6
           },
           {
             "name": "自动化",
-            "count": 1
+            "count": 2
           },
           {
             "name": "内容生产",
-            "count": 1
+            "count": 2
           },
           {
-            "name": "投融资",
+            "name": "芯片算力",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 33 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 44 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / Agent / 开源生态",
-        "最高分事件：为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜（91 分）",
+        "最高分事件：Show HN：Vektor——AI 代理的本地优先联想记忆（87 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -617,7 +615,7 @@
       "label": "4月4日",
       "top10": [
         {
-          "rank": 9,
+          "rank": 8,
           "title": "Show HN：Batty – 通过测试门控在 tmux 中运行一组 AI 编码代理",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -641,7 +639,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "Show HN：Clusterflock：用于网络硬件的人工智能编排器",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -8043,17 +8041,13 @@
     },
     "metrics": {
       "daysCovered": 5,
-      "totalItems": 282,
-      "avgTop10Score": 93.1,
+      "totalItems": 293,
+      "avgTop10Score": 92.8,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 5
-        },
-        {
-          "name": "量子位",
-          "count": 2
+          "count": 6
         },
         {
           "name": "Hacker News",
@@ -8062,32 +8056,32 @@
         {
           "name": "The Verge",
           "count": 1
+        },
+        {
+          "name": "量子位",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "Agent",
-          "count": 10
+          "count": 9
         },
         {
           "name": "模型进展",
-          "count": 7
+          "count": 8
         },
         {
           "name": "芯片算力",
-          "count": 5
+          "count": 6
         },
         {
           "name": "应用落地",
           "count": 2
         },
         {
-          "name": "内容生产",
-          "count": 1
-        },
-        {
           "name": "开源生态",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -8260,29 +8254,6 @@
       },
       {
         "rank": 8,
-        "title": "为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜",
-        "platform": "量子位",
-        "aiScore": 91,
-        "publishedAt": "2026-04-05T02:14:36+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/04/396351.html",
-        "sourceName": "量子位",
-        "industryStage": "上游",
-        "contentTags": [
-          "Agent",
-          "内容生产"
-        ],
-        "summary": "1000万视频秒搜",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 16,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
         "title": "Show HN：Batty – 通过测试门控在 tmux 中运行一组 AI 编码代理",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -8306,7 +8277,7 @@
         }
       },
       {
-        "rank": 10,
+        "rank": 9,
         "title": "Show HN：Clusterflock：用于网络硬件的人工智能编排器",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -8327,10 +8298,34 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 10,
+        "title": "一群00后极客和这家机器人公司共处72小时",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-04-04T06:11:10+00:00",
+        "sourceUrl": "https://36kr.com/p/3752115857638145?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "2026年3月29日下午5点，在我们抵达深圳科创学院四楼时，参加“全球首届具身智能开发者大会”的20组选手，已经在这里持续开发了60个小时。 现场弥漫着一股咖啡混合着冷气的味道，随处可见没吃完的奶茶和果切，楼道里和墙角支着一个个帐篷，有选手在里面补觉，“前一天熬到凌晨4点”。 图片由智能涌现拍摄 和开发应用/软件的黑客松不同，在这场具身智能开发者大会上，看得见的，有近百台高性…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "briefing": [
-      "4月第1周累计收录 282 条资讯，覆盖 5 天。",
+      "4月第1周累计收录 293 条资讯，覆盖 5 天。",
       "高频主题：Agent / 模型进展 / 芯片算力",
       "本周最高分：智己汽车官宣刘翔成为品牌代言人（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -8346,17 +8341,13 @@
       },
       "metrics": {
         "daysCovered": 5,
-        "totalItems": 282,
-        "avgTop10Score": 93.1,
+        "totalItems": 293,
+        "avgTop10Score": 92.8,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 5
-          },
-          {
-            "name": "量子位",
-            "count": 2
+            "count": 6
           },
           {
             "name": "Hacker News",
@@ -8365,32 +8356,32 @@
           {
             "name": "The Verge",
             "count": 1
+          },
+          {
+            "name": "量子位",
+            "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "Agent",
-            "count": 10
+            "count": 9
           },
           {
             "name": "模型进展",
-            "count": 7
+            "count": 8
           },
           {
             "name": "芯片算力",
-            "count": 5
+            "count": 6
           },
           {
             "name": "应用落地",
             "count": 2
           },
           {
-            "name": "内容生产",
-            "count": 1
-          },
-          {
             "name": "开源生态",
-            "count": 1
+            "count": 2
           }
         ]
       },
@@ -8563,29 +8554,6 @@
         },
         {
           "rank": 8,
-          "title": "为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜",
-          "platform": "量子位",
-          "aiScore": 91,
-          "publishedAt": "2026-04-05T02:14:36+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/04/396351.html",
-          "sourceName": "量子位",
-          "industryStage": "上游",
-          "contentTags": [
-            "Agent",
-            "内容生产"
-          ],
-          "summary": "1000万视频秒搜",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
           "title": "Show HN：Batty – 通过测试门控在 tmux 中运行一组 AI 编码代理",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -8609,7 +8577,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "Show HN：Clusterflock：用于网络硬件的人工智能编排器",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -8630,10 +8598,34 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 10,
+          "title": "一群00后极客和这家机器人公司共处72小时",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-04-04T06:11:10+00:00",
+          "sourceUrl": "https://36kr.com/p/3752115857638145?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "2026年3月29日下午5点，在我们抵达深圳科创学院四楼时，参加“全球首届具身智能开发者大会”的20组选手，已经在这里持续开发了60个小时。 现场弥漫着一股咖啡混合着冷气的味道，随处可见没吃完的奶茶和果切，楼道里和墙角支着一个个帐篷，有选手在里面补觉，“前一天熬到凌晨4点”。 图片由智能涌现拍摄 和开发应用/软件的黑客松不同，在这场具身智能开发者大会上，看得见的，有近百台高性…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "4月第1周累计收录 282 条资讯，覆盖 5 天。",
+        "4月第1周累计收录 293 条资讯，覆盖 5 天。",
         "高频主题：Agent / 模型进展 / 芯片算力",
         "本周最高分：智己汽车官宣刘翔成为品牌代言人（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
