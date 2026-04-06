@@ -1,15 +1,39 @@
 {
-  "generatedAt": "2026-04-06T03:56:58.580211+00:00",
+  "generatedAt": "2026-04-06T14:09:57.824260+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-04-06",
     "label": "4月6日",
     "top10": [
       {
-        "rank": 1,
+        "rank": 8,
+        "title": "我构建了一个 AI 内容引擎，可将一篇内容转换为适用于 9 个平台的帖子 — 使用 n8n 完全自动化",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-04-06T13:27:57+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sdyvew/i_built_an_ai_content_engine_that_turns_one_piece/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "内容生产"
+        ],
+        "summary": "它的作用：你给它任何输入——博客 URL、YouTube 视频、原始文本或只是一个主题——它会立即为 9 个平台生成优化的帖子：Instagram、Twitter/X、LinkedIn、Face…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
         "title": "众筹300万美元的Agent盒子，想彻底解决你的算力焦虑",
         "platform": "36氪",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-04-06T03:53:43+00:00",
         "sourceUrl": "https://36kr.com/p/3754812277998083?f=rss",
         "sourceName": "36氪",
@@ -22,7 +46,7 @@
         "summary": "作者 | 张子怡 编辑 | 袁斯来 AI硬件赛道，似乎一夜之间跨入新世界。 上一个月，投资人还在打听硬件大厂高P创始人，这一个月，他们已经开始寻觅“下一个Mac mini”。 狂欢的起点，来自开源智能体框架OpenClaw（圈子里称为：龙虾）。从抢购大内存的Mac mini到各类软硬大厂的联名主机，FOMO恐惧症席卷着所有人。承载AI的硬件，如今成了不可错失的入口。 此前更多…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -30,34 +54,126 @@
         }
       },
       {
-        "rank": 8,
-        "title": "商务部等6部门：发展“人工智能+电商”，引导电商企业加强人工智能大模型等技术研发应用",
-        "platform": "36氪",
-        "aiScore": 94,
-        "publishedAt": "2026-04-06T02:11:41+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3754713105957637?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
+        "rank": 3,
+        "title": "询问 HN：您如何在生产中协调多代理人工智能工作流程？",
+        "platform": "Hacker News",
+        "aiScore": 87,
+        "publishedAt": "2026-04-06T13:34:15+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=47660705",
+        "sourceName": "Hacker News AI",
+        "industryStage": "下游",
         "contentTags": [
-          "模型进展",
+          "Agent",
           "应用落地",
-          "投融资"
+          "自动化"
         ],
-        "summary": "据商务部网站，商务部等6部门发布关于更好服务实体经济、推进电子商务高质量发展的指导意见。意见提出，加快技术创新应用。支持头部电商企业加大研发投入，加强重点领域核心技术攻关，构建“产研协同、学用转化”创新生态。发展“人工智能+电商”，引导电商企业加强人工智能大模型等技术研发应用，优化消费体验、降低运营成本、提升流通效能。鼓励电商企业科技向善，统筹各方利益优化算法规则。加强电商领…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "在过去的一年里，我一直在构建人工智能代理管道，并好奇其他人如何处理它。具体来说： - 你使用框架（LangChain、CrewAI）还是自己开发 - 你如何处理年龄......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
+          "authority": 18,
           "topic": 19,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 10,
+        "rank": 4,
+        "title": "日本正在采用机器人技术和物理人工智能，其模式是初创公司创新、企业提供规模",
+        "platform": "Reddit",
+        "aiScore": 87,
+        "publishedAt": "2026-04-06T12:14:01+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sdx5ih/japan_is_adopting_robotics_and_physical_ai_with_a/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "物理人工智能正在成为下一个主要的工业战场之一，日本的推动更多是出于必要性。随着劳动力的减少和压力的增加......",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "科氪 | 荣耀与京东签订战略合作协议 推进AI、机器人、C2M共创合作",
+        "platform": "36氪",
+        "aiScore": 85,
+        "publishedAt": "2026-04-06T09:48:30+00:00",
+        "sourceUrl": "https://36kr.com/p/3755161993675523?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "4月2日，荣耀与京东签订战略合作协议，正式建立全方位战略合作伙伴关系，双方将围绕产品共创、用户共营、生态共享三大核心领域，构建全面覆盖、深度融合、价值共生的新型合作体系，致力于实现三年累计规模超1000亿元的全领域合作目标。 官方图片 产品共创方面，荣耀与京东将围绕手机、全场景、AIoT、机器人等各领域产品的全生命周期进行深度协作。双方将推进战略新品首发合作，共同打造行业爆品…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "Show HN：我为任何 AI 代理工具构建了一个自我修复语义层",
+        "platform": "Hacker News",
+        "aiScore": 84,
+        "publishedAt": "2026-04-06T12:18:16+00:00",
+        "sourceUrl": "https://github.com/kwstx/engram_translator",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/kwstx/engram_translator 评论网址：https://news.ycombinator.com/item?id=47659947 积分：4 # 评论：2",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 3
+        }
+      },
+      {
+        "rank": 7,
+        "title": "[R] 寻找高精度的背景清理工具。",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-04-06T07:15:25+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sdrunm/r_looking_for_a_highly_accurate_background/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "我正在寻找一个工作流程或工具来处理对象提取和背景替换，重点是绝对的真实感。我尝试过标准的法学硕士和基本的人工智能去除器（重新……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
         "title": "我们正在举办为期 4 周的在线黑客马拉松系列，奖金为 4,000 美元，向所有技能水平开放！",
         "platform": "Reddit",
-        "aiScore": 88,
+        "aiScore": 81,
         "publishedAt": "2026-04-06T00:10:30+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sdjfx9/were_running_an_online_4week_hackathon_series/",
         "sourceName": "Reddit r/artificial",
@@ -69,7 +185,7 @@
         "summary": "大多数黑客马拉松都会奖励演讲。精美的幻灯片、排练的演示、充满流行语的推介。我们不会那样做。 Locus Paygentic 黑客马拉松系列赛为期 4 周，有 4 条赛道，奖金 4,000 美元……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
@@ -77,10 +193,10 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 9,
         "title": "[R] 通过探针介导的自适应审计来发现 AudiBench 模型生物的参考模型自由行为",
         "platform": "Reddit",
-        "aiScore": 88,
+        "aiScore": 81,
         "publishedAt": "2026-04-05T23:24:38+00:00",
         "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sdieuq/r_reference_model_free_behavioral_discovery_of/",
         "sourceName": "Reddit r/MachineLearning",
@@ -93,7 +209,7 @@
         "summary": "TL;DR：我构建了一种无参考方法来检测 LLM 中秘密植入的行为 - 不需要基础模型。它匹配或超过 Anthropic 在 3/4 AuditBench 生物体上的已知来源基线......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
@@ -101,10 +217,10 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 10,
         "title": "[P] Dante-2B：我正在2×H200上从头开始训练2.1B双语完全开放的意大利语/英语LLM。第一阶段已完成——这就是我所构建的。",
         "platform": "Reddit",
-        "aiScore": 88,
+        "aiScore": 81,
         "publishedAt": "2026-04-05T22:24:36+00:00",
         "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sdh08w/p_dante2b_im_training_a_21b_bilingual_fully_open/",
         "sourceName": "Reddit r/MachineLearning",
@@ -117,138 +233,22 @@
         "summary": "问题如果您使用意大利文本和本地模型，您就会知道其中的痛苦。每个开源法学硕士都将意大利语视为事后的想法——英语优先的分词器、英语优先的数据……",
         "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Show HN: md-redline - Markdown 的内联评论评论，可由 AI 代理读取",
-        "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-04-06T03:08:01+00:00",
-        "sourceUrl": "https://github.com/dejuknow/md-redline",
-        "sourceName": "Hacker News AI",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "开源生态",
-          "自动化"
-        ],
-        "summary": "作为产品经理，我再也不会写规格或故事了。人工智能生成，我审查/提供反馈，人工智能更新，然后我移交给开发人员（人类或代理）来实施。但反馈循环很笨拙……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "中国AI大模型周调用量增31.48%，连续五周超美国",
-        "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-04-06T03:29:06+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3754746077921799?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "根据OpenRouter最新数据测算，上周（3月30日至4月5日）全球AI大模型总调用量为27万亿Token，环比增长18.9%。其中，上榜的AI大模型中，中国AI大模型的周调用量上升至12.96万亿Token，较此前一周上涨31.48%；美国AI大模型周调用量为3.03万亿Token，环比增长0.76%。中国AI大模型周调用量连续五周增长，且连续五周超越美国。（每日经济新闻）",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "AI 代理的本地搜索引擎",
-        "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-04-06T03:17:50+00:00",
-        "sourceUrl": "https://github.com/itsmostafa/qi",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "文章网址：https://github.com/itsmostafa/qi 评论网址：https://news.ycombinator.com/item?id=47656597 积分：4 # 评论：1",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 3
-        }
-      },
-      {
-        "rank": 9,
-        "title": "[P] Pure Triton 中的融合 MoE 调度：以推理批量大小击败 CUDA 优化的巨型块",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-04-05T18:07:34+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sdaknc/p_fused_moe_dispatch_in_pure_triton_beating/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "我在纯 Triton 中构建了一个融合的 MoE 调度内核，用于处理混合专家模型的完整前向传递。没有 CUDA，没有特定于供应商的代码。在 Mixtral-8x7B (A100) 上，它击败了 Staf...",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
           "recency": 28,
           "authority": 18,
           "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "我已经编码 11 年了，上个月我发现自己完全无法在没有人工智能帮助的情况下调试问题。这让我害怕...",
-        "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-04-05T20:52:31+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sderg4/i_have_been_coding_for_11_years_and_i_caught/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "我想诚实地讲述发生在我身上的事情，因为我认为这比人们承认的更常见。上个月，我在两年前自己编写的服务中遇到了一个错误。网络超时…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 19,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 36,
-      "avgScore": 74.4,
-      "topScore": 95,
+      "totalItems": 48,
+      "avgScore": 72.1,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 17
+          "count": 22
         },
         {
           "name": "Hacker News",
@@ -256,52 +256,56 @@
         },
         {
           "name": "36氪",
-          "count": 3
+          "count": 5
         },
         {
-          "name": "The Verge",
+          "name": "量子位",
+          "count": 4
+        },
+        {
+          "name": "OpenAI",
           "count": 1
         }
       ],
       "topTopics": [
         {
-          "name": "开源生态",
-          "count": 11
-        },
-        {
-          "name": "Agent",
-          "count": 11
-        },
-        {
           "name": "AI动态",
-          "count": 11
+          "count": 21
         },
         {
           "name": "模型进展",
-          "count": 9
+          "count": 12
+        },
+        {
+          "name": "Agent",
+          "count": 12
+        },
+        {
+          "name": "开源生态",
+          "count": 8
         },
         {
           "name": "芯片算力",
           "count": 4
         },
         {
-          "name": "内容生产",
-          "count": 2
-        },
-        {
           "name": "应用落地",
+          "count": 3
+        },
+        {
+          "name": "自动化",
           "count": 2
         },
         {
-          "name": "安全治理",
+          "name": "内容生产",
           "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 36 条 AI 资讯，Top10 通报见下。",
-      "高频主题：开源生态 / Agent / AI动态",
-      "最高分事件：众筹300万美元的Agent盒子，想彻底解决你的算力焦虑（95 分）",
+      "今日共收录 48 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：我构建了一个 AI 内容引擎，可将一篇内容转换为适用于 9 个平台的帖子 — 使用 n8n 完全自动化（88 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -311,10 +315,34 @@
       "label": "4月6日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 8,
+          "title": "我构建了一个 AI 内容引擎，可将一篇内容转换为适用于 9 个平台的帖子 — 使用 n8n 完全自动化",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-06T13:27:57+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sdyvew/i_built_an_ai_content_engine_that_turns_one_piece/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "内容生产"
+          ],
+          "summary": "它的作用：你给它任何输入——博客 URL、YouTube 视频、原始文本或只是一个主题——它会立即为 9 个平台生成优化的帖子：Instagram、Twitter/X、LinkedIn、Face…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
           "title": "众筹300万美元的Agent盒子，想彻底解决你的算力焦虑",
           "platform": "36氪",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-04-06T03:53:43+00:00",
           "sourceUrl": "https://36kr.com/p/3754812277998083?f=rss",
           "sourceName": "36氪",
@@ -327,7 +355,7 @@
           "summary": "作者 | 张子怡 编辑 | 袁斯来 AI硬件赛道，似乎一夜之间跨入新世界。 上一个月，投资人还在打听硬件大厂高P创始人，这一个月，他们已经开始寻觅“下一个Mac mini”。 狂欢的起点，来自开源智能体框架OpenClaw（圈子里称为：龙虾）。从抢购大内存的Mac mini到各类软硬大厂的联名主机，FOMO恐惧症席卷着所有人。承载AI的硬件，如今成了不可错失的入口。 此前更多…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -335,34 +363,126 @@
           }
         },
         {
-          "rank": 8,
-          "title": "商务部等6部门：发展“人工智能+电商”，引导电商企业加强人工智能大模型等技术研发应用",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-04-06T02:11:41+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3754713105957637?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
+          "rank": 3,
+          "title": "询问 HN：您如何在生产中协调多代理人工智能工作流程？",
+          "platform": "Hacker News",
+          "aiScore": 87,
+          "publishedAt": "2026-04-06T13:34:15+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=47660705",
+          "sourceName": "Hacker News AI",
+          "industryStage": "下游",
           "contentTags": [
-            "模型进展",
+            "Agent",
             "应用落地",
-            "投融资"
+            "自动化"
           ],
-          "summary": "据商务部网站，商务部等6部门发布关于更好服务实体经济、推进电子商务高质量发展的指导意见。意见提出，加快技术创新应用。支持头部电商企业加大研发投入，加强重点领域核心技术攻关，构建“产研协同、学用转化”创新生态。发展“人工智能+电商”，引导电商企业加强人工智能大模型等技术研发应用，优化消费体验、降低运营成本、提升流通效能。鼓励电商企业科技向善，统筹各方利益优化算法规则。加强电商领…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "在过去的一年里，我一直在构建人工智能代理管道，并好奇其他人如何处理它。具体来说： - 你使用框架（LangChain、CrewAI）还是自己开发 - 你如何处理年龄......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 25,
+            "authority": 18,
             "topic": 19,
             "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 10,
+          "rank": 4,
+          "title": "日本正在采用机器人技术和物理人工智能，其模式是初创公司创新、企业提供规模",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-04-06T12:14:01+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sdx5ih/japan_is_adopting_robotics_and_physical_ai_with_a/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "物理人工智能正在成为下一个主要的工业战场之一，日本的推动更多是出于必要性。随着劳动力的减少和压力的增加......",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "科氪 | 荣耀与京东签订战略合作协议 推进AI、机器人、C2M共创合作",
+          "platform": "36氪",
+          "aiScore": 85,
+          "publishedAt": "2026-04-06T09:48:30+00:00",
+          "sourceUrl": "https://36kr.com/p/3755161993675523?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "4月2日，荣耀与京东签订战略合作协议，正式建立全方位战略合作伙伴关系，双方将围绕产品共创、用户共营、生态共享三大核心领域，构建全面覆盖、深度融合、价值共生的新型合作体系，致力于实现三年累计规模超1000亿元的全领域合作目标。 官方图片 产品共创方面，荣耀与京东将围绕手机、全场景、AIoT、机器人等各领域产品的全生命周期进行深度协作。双方将推进战略新品首发合作，共同打造行业爆品…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Show HN：我为任何 AI 代理工具构建了一个自我修复语义层",
+          "platform": "Hacker News",
+          "aiScore": 84,
+          "publishedAt": "2026-04-06T12:18:16+00:00",
+          "sourceUrl": "https://github.com/kwstx/engram_translator",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/kwstx/engram_translator 评论网址：https://news.ycombinator.com/item?id=47659947 积分：4 # 评论：2",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 3
+          }
+        },
+        {
+          "rank": 7,
+          "title": "[R] 寻找高精度的背景清理工具。",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-04-06T07:15:25+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sdrunm/r_looking_for_a_highly_accurate_background/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "我正在寻找一个工作流程或工具来处理对象提取和背景替换，重点是绝对的真实感。我尝试过标准的法学硕士和基本的人工智能去除器（重新……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
           "title": "我们正在举办为期 4 周的在线黑客马拉松系列，奖金为 4,000 美元，向所有技能水平开放！",
           "platform": "Reddit",
-          "aiScore": 88,
+          "aiScore": 81,
           "publishedAt": "2026-04-06T00:10:30+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sdjfx9/were_running_an_online_4week_hackathon_series/",
           "sourceName": "Reddit r/artificial",
@@ -374,7 +494,7 @@
           "summary": "大多数黑客马拉松都会奖励演讲。精美的幻灯片、排练的演示、充满流行语的推介。我们不会那样做。 Locus Paygentic 黑客马拉松系列赛为期 4 周，有 4 条赛道，奖金 4,000 美元……",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 20,
             "actionability": 10,
@@ -382,10 +502,10 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 9,
           "title": "[R] 通过探针介导的自适应审计来发现 AudiBench 模型生物的参考模型自由行为",
           "platform": "Reddit",
-          "aiScore": 88,
+          "aiScore": 81,
           "publishedAt": "2026-04-05T23:24:38+00:00",
           "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sdieuq/r_reference_model_free_behavioral_discovery_of/",
           "sourceName": "Reddit r/MachineLearning",
@@ -398,7 +518,7 @@
           "summary": "TL;DR：我构建了一种无参考方法来检测 LLM 中秘密植入的行为 - 不需要基础模型。它匹配或超过 Anthropic 在 3/4 AuditBench 生物体上的已知来源基线......",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 20,
             "actionability": 10,
@@ -406,10 +526,10 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 10,
           "title": "[P] Dante-2B：我正在2×H200上从头开始训练2.1B双语完全开放的意大利语/英语LLM。第一阶段已完成——这就是我所构建的。",
           "platform": "Reddit",
-          "aiScore": 88,
+          "aiScore": 81,
           "publishedAt": "2026-04-05T22:24:36+00:00",
           "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sdh08w/p_dante2b_im_training_a_21b_bilingual_fully_open/",
           "sourceName": "Reddit r/MachineLearning",
@@ -422,138 +542,22 @@
           "summary": "问题如果您使用意大利文本和本地模型，您就会知道其中的痛苦。每个开源法学硕士都将意大利语视为事后的想法——英语优先的分词器、英语优先的数据……",
           "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "Show HN: md-redline - Markdown 的内联评论评论，可由 AI 代理读取",
-          "platform": "Hacker News",
-          "aiScore": 86,
-          "publishedAt": "2026-04-06T03:08:01+00:00",
-          "sourceUrl": "https://github.com/dejuknow/md-redline",
-          "sourceName": "Hacker News AI",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "自动化"
-          ],
-          "summary": "作为产品经理，我再也不会写规格或故事了。人工智能生成，我审查/提供反馈，人工智能更新，然后我移交给开发人员（人类或代理）来实施。但反馈循环很笨拙……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "中国AI大模型周调用量增31.48%，连续五周超美国",
-          "platform": "36氪",
-          "aiScore": 85,
-          "publishedAt": "2026-04-06T03:29:06+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3754746077921799?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "根据OpenRouter最新数据测算，上周（3月30日至4月5日）全球AI大模型总调用量为27万亿Token，环比增长18.9%。其中，上榜的AI大模型中，中国AI大模型的周调用量上升至12.96万亿Token，较此前一周上涨31.48%；美国AI大模型周调用量为3.03万亿Token，环比增长0.76%。中国AI大模型周调用量连续五周增长，且连续五周超越美国。（每日经济新闻）",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "AI 代理的本地搜索引擎",
-          "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-04-06T03:17:50+00:00",
-          "sourceUrl": "https://github.com/itsmostafa/qi",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://github.com/itsmostafa/qi 评论网址：https://news.ycombinator.com/item?id=47656597 积分：4 # 评论：1",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 3
-          }
-        },
-        {
-          "rank": 9,
-          "title": "[P] Pure Triton 中的融合 MoE 调度：以推理批量大小击败 CUDA 优化的巨型块",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-04-05T18:07:34+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sdaknc/p_fused_moe_dispatch_in_pure_triton_beating/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "开源生态"
-          ],
-          "summary": "我在纯 Triton 中构建了一个融合的 MoE 调度内核，用于处理混合专家模型的完整前向传递。没有 CUDA，没有特定于供应商的代码。在 Mixtral-8x7B (A100) 上，它击败了 Staf...",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
             "recency": 28,
             "authority": 18,
             "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "我已经编码 11 年了，上个月我发现自己完全无法在没有人工智能帮助的情况下调试问题。这让我害怕...",
-          "platform": "Reddit",
-          "aiScore": 80,
-          "publishedAt": "2026-04-05T20:52:31+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sderg4/i_have_been_coding_for_11_years_and_i_caught/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "我想诚实地讲述发生在我身上的事情，因为我认为这比人们承认的更常见。上个月，我在两年前自己编写的服务中遇到了一个错误。网络超时…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 19,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 36,
-        "avgScore": 74.4,
-        "topScore": 95,
+        "totalItems": 48,
+        "avgScore": 72.1,
+        "topScore": 88,
         "topPlatforms": [
           {
             "name": "Reddit",
-            "count": 17
+            "count": 22
           },
           {
             "name": "Hacker News",
@@ -561,52 +565,56 @@
           },
           {
             "name": "36氪",
-            "count": 3
+            "count": 5
           },
           {
-            "name": "The Verge",
+            "name": "量子位",
+            "count": 4
+          },
+          {
+            "name": "OpenAI",
             "count": 1
           }
         ],
         "topTopics": [
           {
-            "name": "开源生态",
-            "count": 11
-          },
-          {
-            "name": "Agent",
-            "count": 11
-          },
-          {
             "name": "AI动态",
-            "count": 11
+            "count": 21
           },
           {
             "name": "模型进展",
-            "count": 9
+            "count": 12
+          },
+          {
+            "name": "Agent",
+            "count": 12
+          },
+          {
+            "name": "开源生态",
+            "count": 8
           },
           {
             "name": "芯片算力",
             "count": 4
           },
           {
-            "name": "内容生产",
-            "count": 2
-          },
-          {
             "name": "应用落地",
+            "count": 3
+          },
+          {
+            "name": "自动化",
             "count": 2
           },
           {
-            "name": "安全治理",
+            "name": "内容生产",
             "count": 2
           }
         ]
       },
       "briefing": [
-        "今日共收录 36 条 AI 资讯，Top10 通报见下。",
-        "高频主题：开源生态 / Agent / AI动态",
-        "最高分事件：众筹300万美元的Agent盒子，想彻底解决你的算力焦虑（95 分）",
+        "今日共收录 48 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：我构建了一个 AI 内容引擎，可将一篇内容转换为适用于 9 个平台的帖子 — 使用 n8n 完全自动化（88 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -919,7 +927,7 @@
       "label": "4月4日",
       "top10": [
         {
-          "rank": 8,
+          "rank": 10,
           "title": "Show HN：Batty – 通过测试门控在 tmux 中运行一组 AI 编码代理",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -1222,7 +1230,7 @@
       "label": "4月3日",
       "top10": [
         {
-          "rank": 2,
+          "rank": 1,
           "title": "智己汽车官宣刘翔成为品牌代言人",
           "platform": "36氪",
           "aiScore": 95,
@@ -1245,7 +1253,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 2,
           "title": "神州数码2025年营收超1400亿，AI相关业务增长近五成｜最前线",
           "platform": "36氪",
           "aiScore": 95,
@@ -1269,7 +1277,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 7,
           "title": "企业玩不转龙虾，是人的思维出错了",
           "platform": "量子位",
           "aiScore": 94,
@@ -1530,7 +1538,7 @@
       "label": "4月2日",
       "top10": [
         {
-          "rank": 4,
+          "rank": 3,
           "title": "36氪晚报｜AI大模型产品“奇趣”完成千万级融资；阶跃星辰上线Step 3.5 Flash 2603模型；沃尔沃汽车第一季度全球销量同比下降11%",
           "platform": "36氪",
           "aiScore": 95,
@@ -1840,7 +1848,7 @@
       "label": "4月1日",
       "top10": [
         {
-          "rank": 5,
+          "rank": 4,
           "title": "AI 可以为您推送 Stream Deck 按钮",
           "platform": "The Verge",
           "aiScore": 95,
@@ -1864,7 +1872,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "小牛电动胡依林：一家成立12年的两轮电动车厂商决定转型AI，“all in or nothing”",
           "platform": "36氪",
           "aiScore": 95,
@@ -1888,7 +1896,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "氪星晚报｜特斯拉正式停产Model S和Model X两款车型；马斯克：FSD 14.3版本预计将于本周末发布；阿里发布Wan2.7-Image",
           "platform": "36氪",
           "aiScore": 95,
@@ -8345,13 +8353,13 @@
     },
     "metrics": {
       "daysCovered": 6,
-      "totalItems": 329,
-      "avgTop10Score": 94.1,
+      "totalItems": 341,
+      "avgTop10Score": 92.8,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 7
+          "count": 6
         },
         {
           "name": "The Verge",
@@ -8364,27 +8372,35 @@
         {
           "name": "Reddit",
           "count": 1
+        },
+        {
+          "name": "Hacker News",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "Agent",
-          "count": 9
-        },
-        {
-          "name": "芯片算力",
-          "count": 7
+          "count": 10
         },
         {
           "name": "模型进展",
-          "count": 7
+          "count": 8
+        },
+        {
+          "name": "芯片算力",
+          "count": 6
         },
         {
           "name": "应用落地",
-          "count": 3
+          "count": 2
         },
         {
-          "name": "投融资",
+          "name": "内容生产",
+          "count": 1
+        },
+        {
+          "name": "开源生态",
           "count": 1
         }
       ]
@@ -8392,30 +8408,6 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "众筹300万美元的Agent盒子，想彻底解决你的算力焦虑",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-04-06T03:53:43+00:00",
-        "sourceUrl": "https://36kr.com/p/3754812277998083?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "作者 | 张子怡 编辑 | 袁斯来 AI硬件赛道，似乎一夜之间跨入新世界。 上一个月，投资人还在打听硬件大厂高P创始人，这一个月，他们已经开始寻觅“下一个Mac mini”。 狂欢的起点，来自开源智能体框架OpenClaw（圈子里称为：龙虾）。从抢购大内存的Mac mini到各类软硬大厂的联名主机，FOMO恐惧症席卷着所有人。承载AI的硬件，如今成了不可错失的入口。 此前更多…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 2,
         "title": "智己汽车官宣刘翔成为品牌代言人",
         "platform": "36氪",
         "aiScore": 95,
@@ -8438,7 +8430,7 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 2,
         "title": "神州数码2025年营收超1400亿，AI相关业务增长近五成｜最前线",
         "platform": "36氪",
         "aiScore": 95,
@@ -8462,7 +8454,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 3,
         "title": "36氪晚报｜AI大模型产品“奇趣”完成千万级融资；阶跃星辰上线Step 3.5 Flash 2603模型；沃尔沃汽车第一季度全球销量同比下降11%",
         "platform": "36氪",
         "aiScore": 95,
@@ -8486,7 +8478,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 4,
         "title": "AI 可以为您推送 Stream Deck 按钮",
         "platform": "The Verge",
         "aiScore": 95,
@@ -8510,7 +8502,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 5,
         "title": "小牛电动胡依林：一家成立12年的两轮电动车厂商决定转型AI，“all in or nothing”",
         "platform": "36氪",
         "aiScore": 95,
@@ -8534,7 +8526,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "氪星晚报｜特斯拉正式停产Model S和Model X两款车型；马斯克：FSD 14.3版本预计将于本周末发布；阿里发布Wan2.7-Image",
         "platform": "36氪",
         "aiScore": 95,
@@ -8558,31 +8550,7 @@
         }
       },
       {
-        "rank": 8,
-        "title": "商务部等6部门：发展“人工智能+电商”，引导电商企业加强人工智能大模型等技术研发应用",
-        "platform": "36氪",
-        "aiScore": 94,
-        "publishedAt": "2026-04-06T02:11:41+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3754713105957637?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地",
-          "投融资"
-        ],
-        "summary": "据商务部网站，商务部等6部门发布关于更好服务实体经济、推进电子商务高质量发展的指导意见。意见提出，加快技术创新应用。支持头部电商企业加大研发投入，加强重点领域核心技术攻关，构建“产研协同、学用转化”创新生态。发展“人工智能+电商”，引导电商企业加强人工智能大模型等技术研发应用，优化消费体验、降低运营成本、提升流通效能。鼓励电商企业科技向善，统筹各方利益优化算法规则。加强电商领…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
+        "rank": 7,
         "title": "企业玩不转龙虾，是人的思维出错了",
         "platform": "量子位",
         "aiScore": 94,
@@ -8605,19 +8573,68 @@
         }
       },
       {
-        "rank": 10,
-        "title": "我们正在举办为期 4 周的在线黑客马拉松系列，奖金为 4,000 美元，向所有技能水平开放！",
+        "rank": 8,
+        "title": "我构建了一个 AI 内容引擎，可将一篇内容转换为适用于 9 个平台的帖子 — 使用 n8n 完全自动化",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-04-06T00:10:30+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sdjfx9/were_running_an_online_4week_hackathon_series/",
+        "publishedAt": "2026-04-06T13:27:57+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sdyvew/i_built_an_ai_content_engine_that_turns_one_piece/",
         "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "内容生产"
+        ],
+        "summary": "它的作用：你给它任何输入——博客 URL、YouTube 视频、原始文本或只是一个主题——它会立即为 9 个平台生成优化的帖子：Instagram、Twitter/X、LinkedIn、Face…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "众筹300万美元的Agent盒子，想彻底解决你的算力焦虑",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-04-06T03:53:43+00:00",
+        "sourceUrl": "https://36kr.com/p/3754812277998083?f=rss",
+        "sourceName": "36氪",
         "industryStage": "上游",
         "contentTags": [
           "芯片算力",
+          "模型进展",
           "Agent"
         ],
-        "summary": "大多数黑客马拉松都会奖励演讲。精美的幻灯片、排练的演示、充满流行语的推介。我们不会那样做。 Locus Paygentic 黑客马拉松系列赛为期 4 周，有 4 条赛道，奖金 4,000 美元……",
+        "summary": "作者 | 张子怡 编辑 | 袁斯来 AI硬件赛道，似乎一夜之间跨入新世界。 上一个月，投资人还在打听硬件大厂高P创始人，这一个月，他们已经开始寻觅“下一个Mac mini”。 狂欢的起点，来自开源智能体框架OpenClaw（圈子里称为：龙虾）。从抢购大内存的Mac mini到各类软硬大厂的联名主机，FOMO恐惧症席卷着所有人。承载AI的硬件，如今成了不可错失的入口。 此前更多…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "Show HN：Batty – 通过测试门控在 tmux 中运行一组 AI 编码代理",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-04-04T13:02:22+00:00",
+        "sourceUrl": "https://github.com/battysh/batty",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "你好，HN，我是作者。我每天都使用 Claude Code 和 Codex。在一项任务上运行一个代理效果很好。在同一个存储库上并行运行三个或四个？他们踩对方的文件，没人……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -8629,9 +8646,9 @@
       }
     ],
     "briefing": [
-      "4月第1周累计收录 329 条资讯，覆盖 6 天。",
-      "高频主题：Agent / 芯片算力 / 模型进展",
-      "本周最高分：众筹300万美元的Agent盒子，想彻底解决你的算力焦虑（95 分）",
+      "4月第1周累计收录 341 条资讯，覆盖 6 天。",
+      "高频主题：Agent / 模型进展 / 芯片算力",
+      "本周最高分：智己汽车官宣刘翔成为品牌代言人（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -8645,13 +8662,13 @@
       },
       "metrics": {
         "daysCovered": 6,
-        "totalItems": 329,
-        "avgTop10Score": 94.1,
+        "totalItems": 341,
+        "avgTop10Score": 92.8,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 7
+            "count": 6
           },
           {
             "name": "The Verge",
@@ -8664,27 +8681,35 @@
           {
             "name": "Reddit",
             "count": 1
+          },
+          {
+            "name": "Hacker News",
+            "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "Agent",
-            "count": 9
-          },
-          {
-            "name": "芯片算力",
-            "count": 7
+            "count": 10
           },
           {
             "name": "模型进展",
-            "count": 7
+            "count": 8
+          },
+          {
+            "name": "芯片算力",
+            "count": 6
           },
           {
             "name": "应用落地",
-            "count": 3
+            "count": 2
           },
           {
-            "name": "投融资",
+            "name": "内容生产",
+            "count": 1
+          },
+          {
+            "name": "开源生态",
             "count": 1
           }
         ]
@@ -8692,30 +8717,6 @@
       "topEvents": [
         {
           "rank": 1,
-          "title": "众筹300万美元的Agent盒子，想彻底解决你的算力焦虑",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-04-06T03:53:43+00:00",
-          "sourceUrl": "https://36kr.com/p/3754812277998083?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "作者 | 张子怡 编辑 | 袁斯来 AI硬件赛道，似乎一夜之间跨入新世界。 上一个月，投资人还在打听硬件大厂高P创始人，这一个月，他们已经开始寻觅“下一个Mac mini”。 狂欢的起点，来自开源智能体框架OpenClaw（圈子里称为：龙虾）。从抢购大内存的Mac mini到各类软硬大厂的联名主机，FOMO恐惧症席卷着所有人。承载AI的硬件，如今成了不可错失的入口。 此前更多…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
           "title": "智己汽车官宣刘翔成为品牌代言人",
           "platform": "36氪",
           "aiScore": 95,
@@ -8738,7 +8739,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 2,
           "title": "神州数码2025年营收超1400亿，AI相关业务增长近五成｜最前线",
           "platform": "36氪",
           "aiScore": 95,
@@ -8762,7 +8763,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 3,
           "title": "36氪晚报｜AI大模型产品“奇趣”完成千万级融资；阶跃星辰上线Step 3.5 Flash 2603模型；沃尔沃汽车第一季度全球销量同比下降11%",
           "platform": "36氪",
           "aiScore": 95,
@@ -8786,7 +8787,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "AI 可以为您推送 Stream Deck 按钮",
           "platform": "The Verge",
           "aiScore": 95,
@@ -8810,7 +8811,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "小牛电动胡依林：一家成立12年的两轮电动车厂商决定转型AI，“all in or nothing”",
           "platform": "36氪",
           "aiScore": 95,
@@ -8834,7 +8835,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "氪星晚报｜特斯拉正式停产Model S和Model X两款车型；马斯克：FSD 14.3版本预计将于本周末发布；阿里发布Wan2.7-Image",
           "platform": "36氪",
           "aiScore": 95,
@@ -8858,31 +8859,7 @@
           }
         },
         {
-          "rank": 8,
-          "title": "商务部等6部门：发展“人工智能+电商”，引导电商企业加强人工智能大模型等技术研发应用",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-04-06T02:11:41+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3754713105957637?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "投融资"
-          ],
-          "summary": "据商务部网站，商务部等6部门发布关于更好服务实体经济、推进电子商务高质量发展的指导意见。意见提出，加快技术创新应用。支持头部电商企业加大研发投入，加强重点领域核心技术攻关，构建“产研协同、学用转化”创新生态。发展“人工智能+电商”，引导电商企业加强人工智能大模型等技术研发应用，优化消费体验、降低运营成本、提升流通效能。鼓励电商企业科技向善，统筹各方利益优化算法规则。加强电商领…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
+          "rank": 7,
           "title": "企业玩不转龙虾，是人的思维出错了",
           "platform": "量子位",
           "aiScore": 94,
@@ -8905,19 +8882,68 @@
           }
         },
         {
-          "rank": 10,
-          "title": "我们正在举办为期 4 周的在线黑客马拉松系列，奖金为 4,000 美元，向所有技能水平开放！",
+          "rank": 8,
+          "title": "我构建了一个 AI 内容引擎，可将一篇内容转换为适用于 9 个平台的帖子 — 使用 n8n 完全自动化",
           "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-04-06T00:10:30+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sdjfx9/were_running_an_online_4week_hackathon_series/",
+          "publishedAt": "2026-04-06T13:27:57+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sdyvew/i_built_an_ai_content_engine_that_turns_one_piece/",
           "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "内容生产"
+          ],
+          "summary": "它的作用：你给它任何输入——博客 URL、YouTube 视频、原始文本或只是一个主题——它会立即为 9 个平台生成优化的帖子：Instagram、Twitter/X、LinkedIn、Face…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "众筹300万美元的Agent盒子，想彻底解决你的算力焦虑",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-04-06T03:53:43+00:00",
+          "sourceUrl": "https://36kr.com/p/3754812277998083?f=rss",
+          "sourceName": "36氪",
           "industryStage": "上游",
           "contentTags": [
             "芯片算力",
+            "模型进展",
             "Agent"
           ],
-          "summary": "大多数黑客马拉松都会奖励演讲。精美的幻灯片、排练的演示、充满流行语的推介。我们不会那样做。 Locus Paygentic 黑客马拉松系列赛为期 4 周，有 4 条赛道，奖金 4,000 美元……",
+          "summary": "作者 | 张子怡 编辑 | 袁斯来 AI硬件赛道，似乎一夜之间跨入新世界。 上一个月，投资人还在打听硬件大厂高P创始人，这一个月，他们已经开始寻觅“下一个Mac mini”。 狂欢的起点，来自开源智能体框架OpenClaw（圈子里称为：龙虾）。从抢购大内存的Mac mini到各类软硬大厂的联名主机，FOMO恐惧症席卷着所有人。承载AI的硬件，如今成了不可错失的入口。 此前更多…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "Show HN：Batty – 通过测试门控在 tmux 中运行一组 AI 编码代理",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-04-04T13:02:22+00:00",
+          "sourceUrl": "https://github.com/battysh/batty",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "你好，HN，我是作者。我每天都使用 Claude Code 和 Codex。在一项任务上运行一个代理效果很好。在同一个存储库上并行运行三个或四个？他们踩对方的文件，没人……",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -8929,9 +8955,9 @@
         }
       ],
       "briefing": [
-        "4月第1周累计收录 329 条资讯，覆盖 6 天。",
-        "高频主题：Agent / 芯片算力 / 模型进展",
-        "本周最高分：众筹300万美元的Agent盒子，想彻底解决你的算力焦虑（95 分）",
+        "4月第1周累计收录 341 条资讯，覆盖 6 天。",
+        "高频主题：Agent / 模型进展 / 芯片算力",
+        "本周最高分：智己汽车官宣刘翔成为品牌代言人（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
