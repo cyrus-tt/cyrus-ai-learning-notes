@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-08T03:50:14.732767+00:00",
+  "generatedAt": "2026-04-08T14:45:21.723351+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-04-08",
@@ -7,9 +7,128 @@
     "top10": [
       {
         "rank": 1,
-        "title": "产品观察 | 追觅入局智能床垫赛道，3个月公司估值10亿",
+        "title": "氪星晚报｜星巴克中国发布“千店千面”战略；TikTok宣布将投资10亿欧元，在芬兰建第二座数据中心；谷歌CEO皮查伊：2027年将是AI重塑生产方式的关键拐点",
         "platform": "36氪",
         "aiScore": 95,
+        "publishedAt": "2026-04-08T11:51:22+00:00",
+        "sourceUrl": "https://36kr.com/p/3756524566610437?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "大公司： 三星电子中国业务陷重组传闻，重心转向半导体 4月8日，有消息称，三星电子中国战略将进行调整，未来可能只保留手机和存储业务，重心转向存储等半导体业务。此外，三星电子在中国的家电业务不断收缩，今年下半年有可能变为代理制。截至发稿前，三星官方并未对上述消息做出正式回应。（第一财经） 星巴克中国发布“千店千面”战略 36氪获悉，星巴克中国今日宣布，星巴克全球与博裕投资的战略…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "阿里电商 AI 新动向：围绕 Token 重构电商，组织迎来新一轮调整｜独家",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-04-08T09:23:43+00:00",
+        "sourceUrl": "https://36kr.com/p/3748018292802309?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "文｜彭倩 编辑｜乔芊 杨轩 4月1日新财年伊始，由蒋凡统领的阿里巴巴中国电商事业群正在规划可以结合 AI 实现的增长点。 据36氪了解，淘天集团当下对 AI 的探索将聚焦在 AI to B 方向上，其核心 OKR 是商家侧的 AI 工具留存率以及 AI 带来的 GMV 增长。它的背景是进入2026年， Open Claw 引爆 AI Agent，阿里 CEO 吴泳铭提出阿里组…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Alicization Town – 一款面向 AI 代理的去中心化像素 MMO",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-04-08T14:24:08+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=47690674",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "https://github.com/ceresOPA/Alicization-Town Hi HN，我是 Alicization Town 的创建者。我构建了一个去中心化的多代理沙箱，每个人工智能都可以加入。这个想法很简单：而不是……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "“有一片绿色的田野。”五个字，无系统提示，纯自动完成。它明白那是什么了。",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-04-08T13:28:27+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfsv4s/theres_a_green_field_five_words_no_system_prompt/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "没有聊天界面。没有身份。没有说明。只是原始自动完成模式下的 API。该模型接收文本，预测下一个标记。没有别的了。我给它“有一片绿色的田野”，一个……",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "MegaTrain：单GPU上100B+参数大语言模型的全精度训练",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-04-08T13:20:59+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfsogm/megatrain_full_precision_training_of_100b/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "自动化"
+        ],
+        "summary": "https://arxiv.org/abs/2604.05091 摘要：“我们推出了 MegaTrain，这是一种以内存为中心的系统，可以在单个 GPU 上以全精度高效训练 100B+ 参数大型语言模型。Un...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "产品观察 | 追觅入局智能床垫赛道，3个月公司估值10亿",
+        "platform": "36氪",
+        "aiScore": 88,
         "publishedAt": "2026-04-08T02:56:54+00:00",
         "sourceUrl": "https://36kr.com/p/3757587705873158?f=rss",
         "sourceName": "36氪",
@@ -22,7 +141,7 @@
         "summary": "作者 | 乔钰杰 编辑 | 袁斯来 中国每年向全球出口价值100亿的床垫，但很长一段时间，智能床垫行业的明星公司并不诞生于此地。 这个行业的明星创业者，是一个来自意大利小城费拉拉的业余运动员。2014年，他在纽约和妻子成立了一家智能床垫公司Eight Sleep，如今每年卖出5亿美元，估值达到15亿美元。 毫无意外，Eight Sleep的代工厂和研发伙伴都在珠三角。在看到E…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -30,10 +149,10 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 7,
         "title": "8点1氪丨马斯克在对OpenAI的诉讼中寻求罢免奥特曼职位；宁德时代聘请紫金矿业创始人陈景河；产业链人士：苹果首款折叠屏手机项目正常推进，产品下半年发布",
         "platform": "36氪",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-04-07T23:53:58+00:00",
         "sourceUrl": "https://36kr.com/p/3757404054930182?f=rss",
         "sourceName": "36氪",
@@ -46,7 +165,7 @@
         "summary": "今日热点导览 海康威视回应辟谣“监控系统出现漏洞，300多人被带走” 郭艾伦否认被骗千万 日本餐饮巨头食其家创始人心梗去世 产业链人士：苹果首款折叠屏手机项目正常推进 宇树科技移动机器人新专利获授权 TOP 3大新闻 嫣然天使儿童医院发文感谢陈光标捐赠1000万 4月7日，“北京嫣然天使儿童医院体检中心”官方账号发文感谢陈光标对嫣然医院的支持，并发布了颁发给陈光标的感谢证书。…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -54,78 +173,7 @@
         }
       },
       {
-        "rank": 3,
-        "title": "Claude 和 Codex 之间的持续知识转移",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-04-08T01:43:12+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sffe26/continuous_knowledge_transfer_between_claude_and/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "在过去的 8 个月里，我严格使用 Claude Code 进行开发，设置上下文层、钩子、技能等。但是依赖一种模型是有限制的，所以这里是我如何设置上下文知识…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "这篇 OpenClaw 论文展示了为什么代理安全是一个执行问题，而不仅仅是一个模型问题",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-04-07T22:31:12+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfawu7/this_openclaw_paper_shows_why_agent_safety_is_an/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "安全治理"
-        ],
-        "summary": "论文：https://arxiv.org/abs/2604.04759 这篇 OpenClaw 论文是迄今为止最明确的信号之一，表明代理风险是架构性的，而不仅仅是模型质量。一些结果很突出： - 毒药......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "我们遇到了 AI 代理碎片问题",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-04-07T21:53:10+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sf9yeq/we_have_an_ai_agent_fragmentation_problem/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "每个人工智能代理都可以单独工作，但当你尝试使用多个人工智能代理时，一切都会崩溃。不同的运行时间。不同的型号。没有共享上下文。没有干净的方式来协调......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
+        "rank": 8,
         "title": "新的人择模型在“每个主要操作系统和网络浏览器”中发现了安全问题",
         "platform": "The Verge",
         "aiScore": 88,
@@ -149,163 +197,118 @@
         }
       },
       {
-        "rank": 7,
-        "title": "克劳德神话预览??",
+        "rank": 9,
+        "title": "[P] 用玛丽·雪莱的《弗兰肯斯坦》从头开始建立法学硕士（在 Kaggle 上）",
         "platform": "Reddit",
         "aiScore": 86,
-        "publishedAt": "2026-04-08T03:35:17+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfhsvz/claude_mythos_preview/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "Anthropic 刚刚构建了一个疯狂强大的人工智能……并决定不发布它。首先，大公司会尝试一下，然后可能会向公众展示。他们悄然展示了一款名为Clau的新车型……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "克劳德刚刚演示了实时自我监控，同时解释了它是如何回答的",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-04-08T03:16:47+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfhf82/claude_just_demonstrated_live_selfmonitoring/",
-        "sourceName": "Reddit r/artificial",
+        "publishedAt": "2026-04-08T14:44:31+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sfuwqh/p_building_a_llm_from_scratch_with_mary_shelleys/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "开源生态"
         ],
-        "summary": "您在这段视频中听到的并不是从外部描述概念的模型。克劳德主动运行系统并解释响应内部发生的情况......",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "summary": "GitHub 上的笔记本：https://github.com/Buzzpy/Python-Machine-Learning-Models/blob/main/Frankenstein/train-frankenstein.ipynb 由 /u/gamedev-exe 提交 [链接] [评论]",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "GLM再度提价10%，智谱大涨近19%",
-        "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-04-08T02:41:40+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3757573737251335?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "36氪获悉，智谱今日盘中大涨近19%。消息面上，智谱正式发布GLM-5.1之际，模型聚合平台OpenRouter显示，智谱GLM再度提价10%。调价后，GLM-5.1在Coding场景的缓存命中Token价格已接近Anthropic旗下Claude Sonnet4.6水平。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "Show HN：AI 模型可以适应单个像素吗？",
-        "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-04-08T00:32:56+00:00",
-        "sourceUrl": "https://github.com/dvelton/ai-pixel",
-        "sourceName": "Hacker News AI",
+        "title": "为什么 Anthropic 会保留像 Glasswing 项目这样仅限邀请的网络模型？",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-04-08T08:49:57+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfnauw/why_would_anthropic_keep_a_cyber_model_like/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "开源生态"
+          "安全治理"
         ],
-        "summary": "文章网址：https://github.com/dvelton/ai-pixel 评论网址：https://news.ycombinator.com/item?id=47683171 积分：3 # 评论：1",
+        "summary": "Anthropic 的 Glasswing 项目引起了我的注意，与其说它是一个网络安全头条新闻，不如说它是一个关于前沿人工智能如何商业化的信号。该模型是在异常紧张的情况下发布的……",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
-          "heat": 3
+          "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 40,
-      "avgScore": 74.5,
+      "totalItems": 59,
+      "avgScore": 74.9,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 15
+          "count": 17
         },
         {
           "name": "Hacker News",
           "count": 15
         },
         {
-          "name": "36氪",
-          "count": 4
-        },
-        {
-          "name": "爱范儿",
-          "count": 3
+          "name": "量子位",
+          "count": 10
         },
         {
           "name": "The Verge",
-          "count": 3
+          "count": 5
+        },
+        {
+          "name": "36氪",
+          "count": 5
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 18
+          "count": 21
         },
         {
           "name": "模型进展",
-          "count": 15
+          "count": 20
         },
         {
           "name": "Agent",
-          "count": 9
-        },
-        {
-          "name": "安全治理",
-          "count": 5
+          "count": 13
         },
         {
           "name": "开源生态",
-          "count": 5
+          "count": 10
+        },
+        {
+          "name": "安全治理",
+          "count": 6
         },
         {
           "name": "芯片算力",
-          "count": 3
-        },
-        {
-          "name": "应用落地",
-          "count": 2
+          "count": 6
         },
         {
           "name": "投融资",
-          "count": 1
+          "count": 5
+        },
+        {
+          "name": "自动化",
+          "count": 3
         }
       ]
     },
     "briefing": [
-      "今日共收录 40 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 59 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：产品观察 | 追觅入局智能床垫赛道，3个月公司估值10亿（95 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "最高分事件：氪星晚报｜星巴克中国发布“千店千面”战略；TikTok宣布将投资10亿欧元，在芬兰建第二座数据中心；谷歌CEO皮查伊：2027年将是AI重塑生产方式的关键拐点（95 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -315,9 +318,128 @@
       "top10": [
         {
           "rank": 1,
-          "title": "产品观察 | 追觅入局智能床垫赛道，3个月公司估值10亿",
+          "title": "氪星晚报｜星巴克中国发布“千店千面”战略；TikTok宣布将投资10亿欧元，在芬兰建第二座数据中心；谷歌CEO皮查伊：2027年将是AI重塑生产方式的关键拐点",
           "platform": "36氪",
           "aiScore": 95,
+          "publishedAt": "2026-04-08T11:51:22+00:00",
+          "sourceUrl": "https://36kr.com/p/3756524566610437?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "大公司： 三星电子中国业务陷重组传闻，重心转向半导体 4月8日，有消息称，三星电子中国战略将进行调整，未来可能只保留手机和存储业务，重心转向存储等半导体业务。此外，三星电子在中国的家电业务不断收缩，今年下半年有可能变为代理制。截至发稿前，三星官方并未对上述消息做出正式回应。（第一财经） 星巴克中国发布“千店千面”战略 36氪获悉，星巴克中国今日宣布，星巴克全球与博裕投资的战略…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "阿里电商 AI 新动向：围绕 Token 重构电商，组织迎来新一轮调整｜独家",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-04-08T09:23:43+00:00",
+          "sourceUrl": "https://36kr.com/p/3748018292802309?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "文｜彭倩 编辑｜乔芊 杨轩 4月1日新财年伊始，由蒋凡统领的阿里巴巴中国电商事业群正在规划可以结合 AI 实现的增长点。 据36氪了解，淘天集团当下对 AI 的探索将聚焦在 AI to B 方向上，其核心 OKR 是商家侧的 AI 工具留存率以及 AI 带来的 GMV 增长。它的背景是进入2026年， Open Claw 引爆 AI Agent，阿里 CEO 吴泳铭提出阿里组…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Alicization Town – 一款面向 AI 代理的去中心化像素 MMO",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-04-08T14:24:08+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=47690674",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "https://github.com/ceresOPA/Alicization-Town Hi HN，我是 Alicization Town 的创建者。我构建了一个去中心化的多代理沙箱，每个人工智能都可以加入。这个想法很简单：而不是……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "“有一片绿色的田野。”五个字，无系统提示，纯自动完成。它明白那是什么了。",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-08T13:28:27+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfsv4s/theres_a_green_field_five_words_no_system_prompt/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "没有聊天界面。没有身份。没有说明。只是原始自动完成模式下的 API。该模型接收文本，预测下一个标记。没有别的了。我给它“有一片绿色的田野”，一个……",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "MegaTrain：单GPU上100B+参数大语言模型的全精度训练",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-08T13:20:59+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfsogm/megatrain_full_precision_training_of_100b/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "自动化"
+          ],
+          "summary": "https://arxiv.org/abs/2604.05091 摘要：“我们推出了 MegaTrain，这是一种以内存为中心的系统，可以在单个 GPU 上以全精度高效训练 100B+ 参数大型语言模型。Un...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "产品观察 | 追觅入局智能床垫赛道，3个月公司估值10亿",
+          "platform": "36氪",
+          "aiScore": 88,
           "publishedAt": "2026-04-08T02:56:54+00:00",
           "sourceUrl": "https://36kr.com/p/3757587705873158?f=rss",
           "sourceName": "36氪",
@@ -330,7 +452,7 @@
           "summary": "作者 | 乔钰杰 编辑 | 袁斯来 中国每年向全球出口价值100亿的床垫，但很长一段时间，智能床垫行业的明星公司并不诞生于此地。 这个行业的明星创业者，是一个来自意大利小城费拉拉的业余运动员。2014年，他在纽约和妻子成立了一家智能床垫公司Eight Sleep，如今每年卖出5亿美元，估值达到15亿美元。 毫无意外，Eight Sleep的代工厂和研发伙伴都在珠三角。在看到E…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -338,10 +460,10 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 7,
           "title": "8点1氪丨马斯克在对OpenAI的诉讼中寻求罢免奥特曼职位；宁德时代聘请紫金矿业创始人陈景河；产业链人士：苹果首款折叠屏手机项目正常推进，产品下半年发布",
           "platform": "36氪",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-04-07T23:53:58+00:00",
           "sourceUrl": "https://36kr.com/p/3757404054930182?f=rss",
           "sourceName": "36氪",
@@ -354,7 +476,7 @@
           "summary": "今日热点导览 海康威视回应辟谣“监控系统出现漏洞，300多人被带走” 郭艾伦否认被骗千万 日本餐饮巨头食其家创始人心梗去世 产业链人士：苹果首款折叠屏手机项目正常推进 宇树科技移动机器人新专利获授权 TOP 3大新闻 嫣然天使儿童医院发文感谢陈光标捐赠1000万 4月7日，“北京嫣然天使儿童医院体检中心”官方账号发文感谢陈光标对嫣然医院的支持，并发布了颁发给陈光标的感谢证书。…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -362,78 +484,7 @@
           }
         },
         {
-          "rank": 3,
-          "title": "Claude 和 Codex 之间的持续知识转移",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-04-08T01:43:12+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sffe26/continuous_knowledge_transfer_between_claude_and/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "在过去的 8 个月里，我严格使用 Claude Code 进行开发，设置上下文层、钩子、技能等。但是依赖一种模型是有限制的，所以这里是我如何设置上下文知识…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "这篇 OpenClaw 论文展示了为什么代理安全是一个执行问题，而不仅仅是一个模型问题",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-04-07T22:31:12+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfawu7/this_openclaw_paper_shows_why_agent_safety_is_an/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "安全治理"
-          ],
-          "summary": "论文：https://arxiv.org/abs/2604.04759 这篇 OpenClaw 论文是迄今为止最明确的信号之一，表明代理风险是架构性的，而不仅仅是模型质量。一些结果很突出： - 毒药......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "我们遇到了 AI 代理碎片问题",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-04-07T21:53:10+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sf9yeq/we_have_an_ai_agent_fragmentation_problem/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "每个人工智能代理都可以单独工作，但当你尝试使用多个人工智能代理时，一切都会崩溃。不同的运行时间。不同的型号。没有共享上下文。没有干净的方式来协调......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
+          "rank": 8,
           "title": "新的人择模型在“每个主要操作系统和网络浏览器”中发现了安全问题",
           "platform": "The Verge",
           "aiScore": 88,
@@ -457,163 +508,118 @@
           }
         },
         {
-          "rank": 7,
-          "title": "克劳德神话预览??",
+          "rank": 9,
+          "title": "[P] 用玛丽·雪莱的《弗兰肯斯坦》从头开始建立法学硕士（在 Kaggle 上）",
           "platform": "Reddit",
           "aiScore": 86,
-          "publishedAt": "2026-04-08T03:35:17+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfhsvz/claude_mythos_preview/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "Anthropic 刚刚构建了一个疯狂强大的人工智能……并决定不发布它。首先，大公司会尝试一下，然后可能会向公众展示。他们悄然展示了一款名为Clau的新车型……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "克劳德刚刚演示了实时自我监控，同时解释了它是如何回答的",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-04-08T03:16:47+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfhf82/claude_just_demonstrated_live_selfmonitoring/",
-          "sourceName": "Reddit r/artificial",
+          "publishedAt": "2026-04-08T14:44:31+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sfuwqh/p_building_a_llm_from_scratch_with_mary_shelleys/",
+          "sourceName": "Reddit r/MachineLearning",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
             "开源生态"
           ],
-          "summary": "您在这段视频中听到的并不是从外部描述概念的模型。克劳德主动运行系统并解释响应内部发生的情况......",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "summary": "GitHub 上的笔记本：https://github.com/Buzzpy/Python-Machine-Learning-Models/blob/main/Frankenstein/train-frankenstein.ipynb 由 /u/gamedev-exe 提交 [链接] [评论]",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "GLM再度提价10%，智谱大涨近19%",
-          "platform": "36氪",
-          "aiScore": 85,
-          "publishedAt": "2026-04-08T02:41:40+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3757573737251335?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "36氪获悉，智谱今日盘中大涨近19%。消息面上，智谱正式发布GLM-5.1之际，模型聚合平台OpenRouter显示，智谱GLM再度提价10%。调价后，GLM-5.1在Coding场景的缓存命中Token价格已接近Anthropic旗下Claude Sonnet4.6水平。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "Show HN：AI 模型可以适应单个像素吗？",
-          "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-04-08T00:32:56+00:00",
-          "sourceUrl": "https://github.com/dvelton/ai-pixel",
-          "sourceName": "Hacker News AI",
+          "title": "为什么 Anthropic 会保留像 Glasswing 项目这样仅限邀请的网络模型？",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-04-08T08:49:57+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfnauw/why_would_anthropic_keep_a_cyber_model_like/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "开源生态"
+            "安全治理"
           ],
-          "summary": "文章网址：https://github.com/dvelton/ai-pixel 评论网址：https://news.ycombinator.com/item?id=47683171 积分：3 # 评论：1",
+          "summary": "Anthropic 的 Glasswing 项目引起了我的注意，与其说它是一个网络安全头条新闻，不如说它是一个关于前沿人工智能如何商业化的信号。该模型是在异常紧张的情况下发布的……",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 18,
             "actionability": 10,
-            "heat": 3
+            "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 40,
-        "avgScore": 74.5,
+        "totalItems": 59,
+        "avgScore": 74.9,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "Reddit",
-            "count": 15
+            "count": 17
           },
           {
             "name": "Hacker News",
             "count": 15
           },
           {
-            "name": "36氪",
-            "count": 4
-          },
-          {
-            "name": "爱范儿",
-            "count": 3
+            "name": "量子位",
+            "count": 10
           },
           {
             "name": "The Verge",
-            "count": 3
+            "count": 5
+          },
+          {
+            "name": "36氪",
+            "count": 5
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 18
+            "count": 21
           },
           {
             "name": "模型进展",
-            "count": 15
+            "count": 20
           },
           {
             "name": "Agent",
-            "count": 9
-          },
-          {
-            "name": "安全治理",
-            "count": 5
+            "count": 13
           },
           {
             "name": "开源生态",
-            "count": 5
+            "count": 10
+          },
+          {
+            "name": "安全治理",
+            "count": 6
           },
           {
             "name": "芯片算力",
-            "count": 3
-          },
-          {
-            "name": "应用落地",
-            "count": 2
+            "count": 6
           },
           {
             "name": "投融资",
-            "count": 1
+            "count": 5
+          },
+          {
+            "name": "自动化",
+            "count": 3
           }
         ]
       },
       "briefing": [
-        "今日共收录 40 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 59 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：产品观察 | 追觅入局智能床垫赛道，3个月公司估值10亿（95 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "最高分事件：氪星晚报｜星巴克中国发布“千店千面”战略；TikTok宣布将投资10亿欧元，在芬兰建第二座数据中心；谷歌CEO皮查伊：2027年将是AI重塑生产方式的关键拐点（95 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -8970,24 +8976,24 @@
     },
     "metrics": {
       "daysCovered": 1,
-      "totalItems": 40,
-      "avgTop10Score": 88.3,
+      "totalItems": 59,
+      "avgTop10Score": 89.0,
       "topScore": 95,
       "topPlatforms": [
         {
-          "name": "Reddit",
-          "count": 5
-        },
-        {
           "name": "36氪",
-          "count": 3
+          "count": 4
         },
         {
-          "name": "The Verge",
-          "count": 1
+          "name": "Reddit",
+          "count": 4
         },
         {
           "name": "Hacker News",
+          "count": 1
+        },
+        {
+          "name": "The Verge",
           "count": 1
         }
       ],
@@ -8997,29 +9003,152 @@
           "count": 10
         },
         {
-          "name": "Agent",
-          "count": 5
-        },
-        {
           "name": "芯片算力",
-          "count": 3
+          "count": 6
         },
         {
-          "name": "安全治理",
-          "count": 3
+          "name": "Agent",
+          "count": 4
+        },
+        {
+          "name": "应用落地",
+          "count": 2
         },
         {
           "name": "开源生态",
-          "count": 3
+          "count": 2
+        },
+        {
+          "name": "安全治理",
+          "count": 2
         }
       ]
     },
     "topEvents": [
       {
         "rank": 1,
-        "title": "产品观察 | 追觅入局智能床垫赛道，3个月公司估值10亿",
+        "title": "氪星晚报｜星巴克中国发布“千店千面”战略；TikTok宣布将投资10亿欧元，在芬兰建第二座数据中心；谷歌CEO皮查伊：2027年将是AI重塑生产方式的关键拐点",
         "platform": "36氪",
         "aiScore": 95,
+        "publishedAt": "2026-04-08T11:51:22+00:00",
+        "sourceUrl": "https://36kr.com/p/3756524566610437?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "大公司： 三星电子中国业务陷重组传闻，重心转向半导体 4月8日，有消息称，三星电子中国战略将进行调整，未来可能只保留手机和存储业务，重心转向存储等半导体业务。此外，三星电子在中国的家电业务不断收缩，今年下半年有可能变为代理制。截至发稿前，三星官方并未对上述消息做出正式回应。（第一财经） 星巴克中国发布“千店千面”战略 36氪获悉，星巴克中国今日宣布，星巴克全球与博裕投资的战略…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "阿里电商 AI 新动向：围绕 Token 重构电商，组织迎来新一轮调整｜独家",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-04-08T09:23:43+00:00",
+        "sourceUrl": "https://36kr.com/p/3748018292802309?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "文｜彭倩 编辑｜乔芊 杨轩 4月1日新财年伊始，由蒋凡统领的阿里巴巴中国电商事业群正在规划可以结合 AI 实现的增长点。 据36氪了解，淘天集团当下对 AI 的探索将聚焦在 AI to B 方向上，其核心 OKR 是商家侧的 AI 工具留存率以及 AI 带来的 GMV 增长。它的背景是进入2026年， Open Claw 引爆 AI Agent，阿里 CEO 吴泳铭提出阿里组…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Alicization Town – 一款面向 AI 代理的去中心化像素 MMO",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-04-08T14:24:08+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=47690674",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "https://github.com/ceresOPA/Alicization-Town Hi HN，我是 Alicization Town 的创建者。我构建了一个去中心化的多代理沙箱，每个人工智能都可以加入。这个想法很简单：而不是……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "“有一片绿色的田野。”五个字，无系统提示，纯自动完成。它明白那是什么了。",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-04-08T13:28:27+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfsv4s/theres_a_green_field_five_words_no_system_prompt/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "没有聊天界面。没有身份。没有说明。只是原始自动完成模式下的 API。该模型接收文本，预测下一个标记。没有别的了。我给它“有一片绿色的田野”，一个……",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "MegaTrain：单GPU上100B+参数大语言模型的全精度训练",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-04-08T13:20:59+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfsogm/megatrain_full_precision_training_of_100b/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "自动化"
+        ],
+        "summary": "https://arxiv.org/abs/2604.05091 摘要：“我们推出了 MegaTrain，这是一种以内存为中心的系统，可以在单个 GPU 上以全精度高效训练 100B+ 参数大型语言模型。Un...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "产品观察 | 追觅入局智能床垫赛道，3个月公司估值10亿",
+        "platform": "36氪",
+        "aiScore": 88,
         "publishedAt": "2026-04-08T02:56:54+00:00",
         "sourceUrl": "https://36kr.com/p/3757587705873158?f=rss",
         "sourceName": "36氪",
@@ -9032,7 +9161,7 @@
         "summary": "作者 | 乔钰杰 编辑 | 袁斯来 中国每年向全球出口价值100亿的床垫，但很长一段时间，智能床垫行业的明星公司并不诞生于此地。 这个行业的明星创业者，是一个来自意大利小城费拉拉的业余运动员。2014年，他在纽约和妻子成立了一家智能床垫公司Eight Sleep，如今每年卖出5亿美元，估值达到15亿美元。 毫无意外，Eight Sleep的代工厂和研发伙伴都在珠三角。在看到E…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -9040,10 +9169,10 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 7,
         "title": "8点1氪丨马斯克在对OpenAI的诉讼中寻求罢免奥特曼职位；宁德时代聘请紫金矿业创始人陈景河；产业链人士：苹果首款折叠屏手机项目正常推进，产品下半年发布",
         "platform": "36氪",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-04-07T23:53:58+00:00",
         "sourceUrl": "https://36kr.com/p/3757404054930182?f=rss",
         "sourceName": "36氪",
@@ -9056,7 +9185,7 @@
         "summary": "今日热点导览 海康威视回应辟谣“监控系统出现漏洞，300多人被带走” 郭艾伦否认被骗千万 日本餐饮巨头食其家创始人心梗去世 产业链人士：苹果首款折叠屏手机项目正常推进 宇树科技移动机器人新专利获授权 TOP 3大新闻 嫣然天使儿童医院发文感谢陈光标捐赠1000万 4月7日，“北京嫣然天使儿童医院体检中心”官方账号发文感谢陈光标对嫣然医院的支持，并发布了颁发给陈光标的感谢证书。…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -9064,78 +9193,7 @@
         }
       },
       {
-        "rank": 3,
-        "title": "Claude 和 Codex 之间的持续知识转移",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-04-08T01:43:12+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sffe26/continuous_knowledge_transfer_between_claude_and/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "在过去的 8 个月里，我严格使用 Claude Code 进行开发，设置上下文层、钩子、技能等。但是依赖一种模型是有限制的，所以这里是我如何设置上下文知识…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "这篇 OpenClaw 论文展示了为什么代理安全是一个执行问题，而不仅仅是一个模型问题",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-04-07T22:31:12+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfawu7/this_openclaw_paper_shows_why_agent_safety_is_an/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "安全治理"
-        ],
-        "summary": "论文：https://arxiv.org/abs/2604.04759 这篇 OpenClaw 论文是迄今为止最明确的信号之一，表明代理风险是架构性的，而不仅仅是模型质量。一些结果很突出： - 毒药......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "我们遇到了 AI 代理碎片问题",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-04-07T21:53:10+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sf9yeq/we_have_an_ai_agent_fragmentation_problem/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "每个人工智能代理都可以单独工作，但当你尝试使用多个人工智能代理时，一切都会崩溃。不同的运行时间。不同的型号。没有共享上下文。没有干净的方式来协调......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
+        "rank": 8,
         "title": "新的人择模型在“每个主要操作系统和网络浏览器”中发现了安全问题",
         "platform": "The Verge",
         "aiScore": 88,
@@ -9159,102 +9217,57 @@
         }
       },
       {
-        "rank": 7,
-        "title": "克劳德神话预览??",
+        "rank": 9,
+        "title": "[P] 用玛丽·雪莱的《弗兰肯斯坦》从头开始建立法学硕士（在 Kaggle 上）",
         "platform": "Reddit",
         "aiScore": 86,
-        "publishedAt": "2026-04-08T03:35:17+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfhsvz/claude_mythos_preview/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "Anthropic 刚刚构建了一个疯狂强大的人工智能……并决定不发布它。首先，大公司会尝试一下，然后可能会向公众展示。他们悄然展示了一款名为Clau的新车型……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "克劳德刚刚演示了实时自我监控，同时解释了它是如何回答的",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-04-08T03:16:47+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfhf82/claude_just_demonstrated_live_selfmonitoring/",
-        "sourceName": "Reddit r/artificial",
+        "publishedAt": "2026-04-08T14:44:31+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sfuwqh/p_building_a_llm_from_scratch_with_mary_shelleys/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "开源生态"
         ],
-        "summary": "您在这段视频中听到的并不是从外部描述概念的模型。克劳德主动运行系统并解释响应内部发生的情况......",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "summary": "GitHub 上的笔记本：https://github.com/Buzzpy/Python-Machine-Learning-Models/blob/main/Frankenstein/train-frankenstein.ipynb 由 /u/gamedev-exe 提交 [链接] [评论]",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "GLM再度提价10%，智谱大涨近19%",
-        "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-04-08T02:41:40+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3757573737251335?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "36氪获悉，智谱今日盘中大涨近19%。消息面上，智谱正式发布GLM-5.1之际，模型聚合平台OpenRouter显示，智谱GLM再度提价10%。调价后，GLM-5.1在Coding场景的缓存命中Token价格已接近Anthropic旗下Claude Sonnet4.6水平。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "Show HN：AI 模型可以适应单个像素吗？",
-        "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-04-08T00:32:56+00:00",
-        "sourceUrl": "https://github.com/dvelton/ai-pixel",
-        "sourceName": "Hacker News AI",
+        "title": "为什么 Anthropic 会保留像 Glasswing 项目这样仅限邀请的网络模型？",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-04-08T08:49:57+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfnauw/why_would_anthropic_keep_a_cyber_model_like/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "开源生态"
+          "安全治理"
         ],
-        "summary": "文章网址：https://github.com/dvelton/ai-pixel 评论网址：https://news.ycombinator.com/item?id=47683171 积分：3 # 评论：1",
+        "summary": "Anthropic 的 Glasswing 项目引起了我的注意，与其说它是一个网络安全头条新闻，不如说它是一个关于前沿人工智能如何商业化的信号。该模型是在异常紧张的情况下发布的……",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
-          "heat": 3
+          "heat": 5
         }
       }
     ],
     "briefing": [
-      "4月第2周累计收录 40 条资讯，覆盖 1 天。",
-      "高频主题：模型进展 / Agent / 芯片算力",
-      "本周最高分：产品观察 | 追觅入局智能床垫赛道，3个月公司估值10亿（95 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "4月第2周累计收录 59 条资讯，覆盖 1 天。",
+      "高频主题：模型进展 / 芯片算力 / Agent",
+      "本周最高分：氪星晚报｜星巴克中国发布“千店千面”战略；TikTok宣布将投资10亿欧元，在芬兰建第二座数据中心；谷歌CEO皮查伊：2027年将是AI重塑生产方式的关键拐点（95 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
@@ -9267,24 +9280,24 @@
       },
       "metrics": {
         "daysCovered": 1,
-        "totalItems": 40,
-        "avgTop10Score": 88.3,
+        "totalItems": 59,
+        "avgTop10Score": 89.0,
         "topScore": 95,
         "topPlatforms": [
           {
-            "name": "Reddit",
-            "count": 5
-          },
-          {
             "name": "36氪",
-            "count": 3
+            "count": 4
           },
           {
-            "name": "The Verge",
-            "count": 1
+            "name": "Reddit",
+            "count": 4
           },
           {
             "name": "Hacker News",
+            "count": 1
+          },
+          {
+            "name": "The Verge",
             "count": 1
           }
         ],
@@ -9294,29 +9307,152 @@
             "count": 10
           },
           {
-            "name": "Agent",
-            "count": 5
-          },
-          {
             "name": "芯片算力",
-            "count": 3
+            "count": 6
           },
           {
-            "name": "安全治理",
-            "count": 3
+            "name": "Agent",
+            "count": 4
+          },
+          {
+            "name": "应用落地",
+            "count": 2
           },
           {
             "name": "开源生态",
-            "count": 3
+            "count": 2
+          },
+          {
+            "name": "安全治理",
+            "count": 2
           }
         ]
       },
       "topEvents": [
         {
           "rank": 1,
-          "title": "产品观察 | 追觅入局智能床垫赛道，3个月公司估值10亿",
+          "title": "氪星晚报｜星巴克中国发布“千店千面”战略；TikTok宣布将投资10亿欧元，在芬兰建第二座数据中心；谷歌CEO皮查伊：2027年将是AI重塑生产方式的关键拐点",
           "platform": "36氪",
           "aiScore": 95,
+          "publishedAt": "2026-04-08T11:51:22+00:00",
+          "sourceUrl": "https://36kr.com/p/3756524566610437?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "大公司： 三星电子中国业务陷重组传闻，重心转向半导体 4月8日，有消息称，三星电子中国战略将进行调整，未来可能只保留手机和存储业务，重心转向存储等半导体业务。此外，三星电子在中国的家电业务不断收缩，今年下半年有可能变为代理制。截至发稿前，三星官方并未对上述消息做出正式回应。（第一财经） 星巴克中国发布“千店千面”战略 36氪获悉，星巴克中国今日宣布，星巴克全球与博裕投资的战略…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "阿里电商 AI 新动向：围绕 Token 重构电商，组织迎来新一轮调整｜独家",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-04-08T09:23:43+00:00",
+          "sourceUrl": "https://36kr.com/p/3748018292802309?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "文｜彭倩 编辑｜乔芊 杨轩 4月1日新财年伊始，由蒋凡统领的阿里巴巴中国电商事业群正在规划可以结合 AI 实现的增长点。 据36氪了解，淘天集团当下对 AI 的探索将聚焦在 AI to B 方向上，其核心 OKR 是商家侧的 AI 工具留存率以及 AI 带来的 GMV 增长。它的背景是进入2026年， Open Claw 引爆 AI Agent，阿里 CEO 吴泳铭提出阿里组…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Alicization Town – 一款面向 AI 代理的去中心化像素 MMO",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-04-08T14:24:08+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=47690674",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "https://github.com/ceresOPA/Alicization-Town Hi HN，我是 Alicization Town 的创建者。我构建了一个去中心化的多代理沙箱，每个人工智能都可以加入。这个想法很简单：而不是……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "“有一片绿色的田野。”五个字，无系统提示，纯自动完成。它明白那是什么了。",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-08T13:28:27+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfsv4s/theres_a_green_field_five_words_no_system_prompt/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "没有聊天界面。没有身份。没有说明。只是原始自动完成模式下的 API。该模型接收文本，预测下一个标记。没有别的了。我给它“有一片绿色的田野”，一个……",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "MegaTrain：单GPU上100B+参数大语言模型的全精度训练",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-08T13:20:59+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfsogm/megatrain_full_precision_training_of_100b/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "自动化"
+          ],
+          "summary": "https://arxiv.org/abs/2604.05091 摘要：“我们推出了 MegaTrain，这是一种以内存为中心的系统，可以在单个 GPU 上以全精度高效训练 100B+ 参数大型语言模型。Un...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "产品观察 | 追觅入局智能床垫赛道，3个月公司估值10亿",
+          "platform": "36氪",
+          "aiScore": 88,
           "publishedAt": "2026-04-08T02:56:54+00:00",
           "sourceUrl": "https://36kr.com/p/3757587705873158?f=rss",
           "sourceName": "36氪",
@@ -9329,7 +9465,7 @@
           "summary": "作者 | 乔钰杰 编辑 | 袁斯来 中国每年向全球出口价值100亿的床垫，但很长一段时间，智能床垫行业的明星公司并不诞生于此地。 这个行业的明星创业者，是一个来自意大利小城费拉拉的业余运动员。2014年，他在纽约和妻子成立了一家智能床垫公司Eight Sleep，如今每年卖出5亿美元，估值达到15亿美元。 毫无意外，Eight Sleep的代工厂和研发伙伴都在珠三角。在看到E…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -9337,10 +9473,10 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 7,
           "title": "8点1氪丨马斯克在对OpenAI的诉讼中寻求罢免奥特曼职位；宁德时代聘请紫金矿业创始人陈景河；产业链人士：苹果首款折叠屏手机项目正常推进，产品下半年发布",
           "platform": "36氪",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-04-07T23:53:58+00:00",
           "sourceUrl": "https://36kr.com/p/3757404054930182?f=rss",
           "sourceName": "36氪",
@@ -9353,7 +9489,7 @@
           "summary": "今日热点导览 海康威视回应辟谣“监控系统出现漏洞，300多人被带走” 郭艾伦否认被骗千万 日本餐饮巨头食其家创始人心梗去世 产业链人士：苹果首款折叠屏手机项目正常推进 宇树科技移动机器人新专利获授权 TOP 3大新闻 嫣然天使儿童医院发文感谢陈光标捐赠1000万 4月7日，“北京嫣然天使儿童医院体检中心”官方账号发文感谢陈光标对嫣然医院的支持，并发布了颁发给陈光标的感谢证书。…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -9361,78 +9497,7 @@
           }
         },
         {
-          "rank": 3,
-          "title": "Claude 和 Codex 之间的持续知识转移",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-04-08T01:43:12+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sffe26/continuous_knowledge_transfer_between_claude_and/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "在过去的 8 个月里，我严格使用 Claude Code 进行开发，设置上下文层、钩子、技能等。但是依赖一种模型是有限制的，所以这里是我如何设置上下文知识…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "这篇 OpenClaw 论文展示了为什么代理安全是一个执行问题，而不仅仅是一个模型问题",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-04-07T22:31:12+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfawu7/this_openclaw_paper_shows_why_agent_safety_is_an/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "安全治理"
-          ],
-          "summary": "论文：https://arxiv.org/abs/2604.04759 这篇 OpenClaw 论文是迄今为止最明确的信号之一，表明代理风险是架构性的，而不仅仅是模型质量。一些结果很突出： - 毒药......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "我们遇到了 AI 代理碎片问题",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-04-07T21:53:10+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sf9yeq/we_have_an_ai_agent_fragmentation_problem/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "每个人工智能代理都可以单独工作，但当你尝试使用多个人工智能代理时，一切都会崩溃。不同的运行时间。不同的型号。没有共享上下文。没有干净的方式来协调......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
+          "rank": 8,
           "title": "新的人择模型在“每个主要操作系统和网络浏览器”中发现了安全问题",
           "platform": "The Verge",
           "aiScore": 88,
@@ -9456,102 +9521,57 @@
           }
         },
         {
-          "rank": 7,
-          "title": "克劳德神话预览??",
+          "rank": 9,
+          "title": "[P] 用玛丽·雪莱的《弗兰肯斯坦》从头开始建立法学硕士（在 Kaggle 上）",
           "platform": "Reddit",
           "aiScore": 86,
-          "publishedAt": "2026-04-08T03:35:17+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfhsvz/claude_mythos_preview/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "Anthropic 刚刚构建了一个疯狂强大的人工智能……并决定不发布它。首先，大公司会尝试一下，然后可能会向公众展示。他们悄然展示了一款名为Clau的新车型……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "克劳德刚刚演示了实时自我监控，同时解释了它是如何回答的",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-04-08T03:16:47+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfhf82/claude_just_demonstrated_live_selfmonitoring/",
-          "sourceName": "Reddit r/artificial",
+          "publishedAt": "2026-04-08T14:44:31+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sfuwqh/p_building_a_llm_from_scratch_with_mary_shelleys/",
+          "sourceName": "Reddit r/MachineLearning",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
             "开源生态"
           ],
-          "summary": "您在这段视频中听到的并不是从外部描述概念的模型。克劳德主动运行系统并解释响应内部发生的情况......",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "summary": "GitHub 上的笔记本：https://github.com/Buzzpy/Python-Machine-Learning-Models/blob/main/Frankenstein/train-frankenstein.ipynb 由 /u/gamedev-exe 提交 [链接] [评论]",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "GLM再度提价10%，智谱大涨近19%",
-          "platform": "36氪",
-          "aiScore": 85,
-          "publishedAt": "2026-04-08T02:41:40+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3757573737251335?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "36氪获悉，智谱今日盘中大涨近19%。消息面上，智谱正式发布GLM-5.1之际，模型聚合平台OpenRouter显示，智谱GLM再度提价10%。调价后，GLM-5.1在Coding场景的缓存命中Token价格已接近Anthropic旗下Claude Sonnet4.6水平。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "Show HN：AI 模型可以适应单个像素吗？",
-          "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-04-08T00:32:56+00:00",
-          "sourceUrl": "https://github.com/dvelton/ai-pixel",
-          "sourceName": "Hacker News AI",
+          "title": "为什么 Anthropic 会保留像 Glasswing 项目这样仅限邀请的网络模型？",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-04-08T08:49:57+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sfnauw/why_would_anthropic_keep_a_cyber_model_like/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "开源生态"
+            "安全治理"
           ],
-          "summary": "文章网址：https://github.com/dvelton/ai-pixel 评论网址：https://news.ycombinator.com/item?id=47683171 积分：3 # 评论：1",
+          "summary": "Anthropic 的 Glasswing 项目引起了我的注意，与其说它是一个网络安全头条新闻，不如说它是一个关于前沿人工智能如何商业化的信号。该模型是在异常紧张的情况下发布的……",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 18,
             "actionability": 10,
-            "heat": 3
+            "heat": 5
           }
         }
       ],
       "briefing": [
-        "4月第2周累计收录 40 条资讯，覆盖 1 天。",
-        "高频主题：模型进展 / Agent / 芯片算力",
-        "本周最高分：产品观察 | 追觅入局智能床垫赛道，3个月公司估值10亿（95 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "4月第2周累计收录 59 条资讯，覆盖 1 天。",
+        "高频主题：模型进展 / 芯片算力 / Agent",
+        "本周最高分：氪星晚报｜星巴克中国发布“千店千面”战略；TikTok宣布将投资10亿欧元，在芬兰建第二座数据中心；谷歌CEO皮查伊：2027年将是AI重塑生产方式的关键拐点（95 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
