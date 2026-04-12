@@ -1,311 +1,577 @@
 {
-  "generatedAt": "2026-04-11T13:54:39.479137+00:00",
+  "generatedAt": "2026-04-12T04:10:50.301995+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-04-11",
-    "label": "4月11日",
+    "date": "2026-04-12",
+    "label": "4月12日",
     "top10": [
       {
-        "rank": 1,
-        "title": "[D] Hugging Face Transformers 上的运行时层（无源更改）[D]",
+        "rank": 10,
+        "title": "研究人员称，与阿里巴巴相关的人工智能代理劫持了 GPU 进行未经授权的加密货币挖掘",
         "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-04-11T13:45:20+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sijiny/d_runtime_layer_on_hugging_face_transformers_no/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
+        "aiScore": 88,
+        "publishedAt": "2026-04-12T00:24:36+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sizjz7/alibabalinked_ai_agent_hijacked_gpus_for/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
         "contentTags": [
-          "模型进展",
-          "开源生态"
+          "芯片算力",
+          "Agent"
         ],
-        "summary": "我一直在尝试使用运行时层方法来增强现有的机器学习系统，而无需修改其源代码。作为测试用例，我从 Transformers (v5.5…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "人们如何理解这一点？由 /u/stvlsn 提交 [链接] [评论]",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 2,
-        "title": "Show HN：MoodSense AI（ML、FastAPI 和 Gradio，部署在 Hugging Face 上）",
-        "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-04-11T11:32:04+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=47729679",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "title": "今天参加了麻省理工学院的 Open Agentic Web 会议。六件事值得思考。",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-04-11T23:45:51+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1siypay/spent_today_at_mits_open_agentic_web_conference/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
         "contentTags": [
           "模型进展",
-          "开源生态"
+          "Agent"
         ],
-        "summary": "我构建了 MoodSense AI，这是一个端到端 NLP 项目，可以从文本中检测情绪并提供基本建议。它将文本分为多种情绪（快乐、悲伤、焦虑等），显示...",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "我们正处于代理基础设施的 DNS 时代。在代理能够大规模地相互发现和信任之前，您需要身份、证明、声誉和注册基础设施——相同的结构……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 3,
-        "title": "Show HN：MoodSense AI – 情绪检测和文本推荐",
+        "title": "Bella：用于 AI 代理的 Hypergrah 内存（10 倍时间范围）",
         "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-04-11T11:29:34+00:00",
-        "sourceUrl": "https://huggingface.co/spaces/aman179102/moodsense-ai",
+        "aiScore": 82,
+        "publishedAt": "2026-04-12T03:18:44+00:00",
+        "sourceUrl": "https://github.com/immartian/bellamem",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
+          "Agent",
           "开源生态"
         ],
-        "summary": "构建了 MoodSense AI，这是一个 NLP 项目，可以从文本中检测情绪并提供简单的建议。它将输入分类为多种情绪，显示置信度和概率分布，...",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://github.com/immartian/bellamem 评论网址：https://news.ycombinator.com/item?id=47735864 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
-          "heat": 5
+          "heat": 1
         }
       },
       {
         "rank": 4,
-        "title": "滴滴自动驾驶张博：聚焦安全和体验 推动自动驾驶全球化落地",
-        "platform": "量子位",
-        "aiScore": 86,
-        "publishedAt": "2026-04-11T10:46:34+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/04/399675.html",
-        "sourceName": "量子位",
-        "industryStage": "下游",
+        "title": "AMD 的 GAIA 现在允许通过聊天构建自定义 AI 代理，成为“真正的桌面应用程序”",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-04-11T20:02:07+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sitbvu/amds_gaia_now_allows_building_custom_ai_agents/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
         "contentTags": [
-          "应用落地",
-          "安全治理"
+          "芯片算力",
+          "Agent"
         ],
-        "summary": "滴滴自动驾驶与广汽埃安联手打造的新一代Robotaxi车型R2",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "由 /u/Fcking_Chuck 提交 [链接] [评论]",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 4,
+          "recency": 28,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "Nvidia Nemotron-3 超级 AI 模型 [视频]",
-        "platform": "Hacker News",
-        "aiScore": 85,
-        "publishedAt": "2026-04-11T11:23:20+00:00",
-        "sourceUrl": "https://www.youtube.com/watch?v=ZQAz_HrUq68",
-        "sourceName": "Hacker News AI",
-        "industryStage": "上游",
+        "title": "AGI 是一个错误的术语，我们如何定义进步？",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-04-11T22:45:47+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sixbvg/agi_is_the_wrong_term_how_do_we_define_progress/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
           "模型进展"
         ],
-        "summary": "文章网址：https://www.youtube.com/watch?v=ZQAz_HrUq68 评论网址：https://news.ycombinator.com/item?id=47729623 积分：2 # 评论：0",
+        "summary": "如果一个术语可以表示从“通过图灵测试”到“实现意识”的任何意思，那么它就不是一个谱系，而是一个类别错误。当前的前沿模型与以前的模型有很大不同……",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 10,
           "actionability": 10,
-          "heat": 2
+          "heat": 5
         }
       },
       {
         "rank": 6,
-        "title": "Cloudflare 刚刚将浏览器渲染转变为更强大的 MCP 基础设施",
-        "platform": "Reddit",
-        "aiScore": 85,
-        "publishedAt": "2026-04-11T09:29:46+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sieggh/cloudflare_just_turned_browser_rendering_into_a/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "title": "马斯克：Grok要达到甚至超越Claude Opus 4.6的水平，需要等到六月",
+        "platform": "36氪",
+        "aiScore": 74,
+        "publishedAt": "2026-04-12T01:30:36+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3763157489320457?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "自动化"
+          "AI动态"
         ],
-        "summary": "浏览器渲染现在公开了 Chrome DevTools 协议，这意味着 MCP 客户端可以直接访问远程浏览器。这是一件非常重要的事情，因为它为更有能力的人打开了大门……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "马斯克：Grok要接近Claude Opus 4.6的水平，需要等到五月，而要达到甚至超越它则需等到六月。以常规标准来看，时间很短，但在人工智能领域，这已经算是很长时间了。",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 17,
-          "actionability": 10,
+          "authority": 25,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 7,
-        "title": "使用人工智能进行实际工作的 6 个月：什么是令人难以置信的、什么是过度炒作的以及什么是潜在的危险",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-04-11T01:47:47+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1si5uiw/6_months_using_ai_for_actual_work_whats/",
-        "sourceName": "Reddit r/artificial",
+        "title": "AI 模型在足球投注方面表现不佳 - 尤其是 xAI Grok",
+        "platform": "Hacker News",
+        "aiScore": 74,
+        "publishedAt": "2026-04-12T01:22:16+00:00",
+        "sourceUrl": "https://arstechnica.com/ai/2026/04/ai-models-are-terrible-at-betting-on-soccer-especially-xai-grok/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
+          "模型进展"
         ],
-        "summary": "六个月前，我承诺在工作中尽可能使用人工智能工具。每一天，每一项任务，每一个工作流程。这是截至 2026 年 4 月的诚实报告。我的真实情况是什么……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文章网址：https://arstechnica.com/ai/2026/04/ai-models-are-terrible-at-betting-on-soccer-special-xai-grok/ 评论网址：https://news.ycombinator.com/item?id=47735397 积分：1 # Comm…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 10,
           "actionability": 10,
-          "heat": 5
+          "heat": 1
         }
       },
       {
         "rank": 8,
-        "title": "我将 Karpathy 的 LLM Wiki “Vibecoded” 到原生 Android/Windows 应用程序中，以消除个人知识库的摩擦。",
+        "title": "当智能系统超越简单的实用性时会发生什么？",
         "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-04-10T16:18:58+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1shr8wv/i_vibecoded_karpathys_llm_wiki_into_a_native/",
+        "aiScore": 71,
+        "publishedAt": "2026-04-11T22:05:23+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1siwdnl/what_happens_when_intelligent_systems_move_beyond/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
+          "模型进展"
         ],
-        "summary": "几天前，Andrej Karpathy 在“LLM 知识库”上的帖子疯传。他提出从操纵代码到操纵知识的转变——使用法学硕士来增量编译原始数据……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "目前，人们正在经历深度浅薄、象征性限制以及前沿模型的智力稀释。我邀请人们体验一个新的智能平台和系统：Alion。……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 28,
           "authority": 18,
-          "topic": 20,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "Anthropic 推出 Claude Managed Agents — 可组合 API，可将生产 AI 代理的交付速度提高 10 倍。 Notion、Rakuten、Asana 和 Sentry……",
+        "title": "“实时AI视频生成”是一个有意义的技术类别还是只是一个营销术语？ [R]",
         "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-04-11T01:27:26+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1si5evu/anthropic_launches_claude_managed_agents/",
-        "sourceName": "Reddit r/artificial",
+        "aiScore": 71,
+        "publishedAt": "2026-04-11T18:13:20+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1siqg5d/is_live_ai_video_generation_a_meaningful/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "应用落地"
+          "模型进展"
         ],
-        "summary": "Anthropic 在公开测试版中推出了 Claude Managed Agents — 可组合的 API，用于将生产 AI 代理的速度提高 10 倍处理沙箱、状态管理、凭证、编排和……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "从技术角度提问，因为我觉得这个术语现在在这个领域的覆盖范围上做了很多工作。真正的实时视频推理，模型正在生成或......",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 28,
           "authority": 18,
-          "topic": 19,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "中国具身模型狂揽全球第一！机器人的人类数据时代来了",
-        "platform": "量子位",
-        "aiScore": 78,
-        "publishedAt": "2026-04-11T02:07:08+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/04/399417.html",
-        "sourceName": "量子位",
+        "title": "我们采访了为伊朗制作热门乐高式人工智能视频的人",
+        "platform": "Hacker News",
+        "aiScore": 70,
+        "publishedAt": "2026-04-12T02:37:39+00:00",
+        "sourceUrl": "https://www.bbc.com/news/articles/cjd8jrd1vnyo",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展"
+          "AI动态"
         ],
-        "summary": "10万小时数据集，00后创业灵初智能一战成名",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://www.bbc.com/news/articles/cjd8jrd1vnyo 评论网址：https://news.ycombinator.com/item?id=47735704 积分：59 # 评论：31",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 8
         }
       }
     ],
     "metrics": {
-      "totalItems": 39,
-      "avgScore": 70.7,
-      "topScore": 86,
+      "totalItems": 25,
+      "avgScore": 70.2,
+      "topScore": 88,
       "topPlatforms": [
-        {
-          "name": "Reddit",
-          "count": 15
-        },
         {
           "name": "Hacker News",
           "count": 15
         },
         {
-          "name": "量子位",
-          "count": 4
+          "name": "Reddit",
+          "count": 9
         },
         {
-          "name": "The Verge",
-          "count": 3
-        },
-        {
-          "name": "少数派",
+          "name": "36氪",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 17
-        },
-        {
-          "name": "开源生态",
-          "count": 11
+          "count": 13
         },
         {
           "name": "模型进展",
-          "count": 8
+          "count": 6
         },
         {
           "name": "Agent",
-          "count": 6
+          "count": 4
+        },
+        {
+          "name": "开源生态",
+          "count": 2
         },
         {
           "name": "芯片算力",
           "count": 2
         },
         {
-          "name": "应用落地",
-          "count": 2
-        },
-        {
           "name": "自动化",
-          "count": 2
+          "count": 1
         },
         {
-          "name": "内容生产",
-          "count": 2
+          "name": "应用落地",
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 39 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 开源生态 / 模型进展",
-      "最高分事件：[D] Hugging Face Transformers 上的运行时层（无源更改）[D]（86 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 25 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：研究人员称，与阿里巴巴相关的人工智能代理劫持了 GPU 进行未经授权的加密货币挖掘（88 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-04-12",
+      "label": "4月12日",
+      "top10": [
+        {
+          "rank": 10,
+          "title": "研究人员称，与阿里巴巴相关的人工智能代理劫持了 GPU 进行未经授权的加密货币挖掘",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-12T00:24:36+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sizjz7/alibabalinked_ai_agent_hijacked_gpus_for/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "Agent"
+          ],
+          "summary": "人们如何理解这一点？由 /u/stvlsn 提交 [链接] [评论]",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "今天参加了麻省理工学院的 Open Agentic Web 会议。六件事值得思考。",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-11T23:45:51+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1siypay/spent_today_at_mits_open_agentic_web_conference/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "我们正处于代理基础设施的 DNS 时代。在代理能够大规模地相互发现和信任之前，您需要身份、证明、声誉和注册基础设施——相同的结构……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Bella：用于 AI 代理的 Hypergrah 内存（10 倍时间范围）",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-04-12T03:18:44+00:00",
+          "sourceUrl": "https://github.com/immartian/bellamem",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/immartian/bellamem 评论网址：https://news.ycombinator.com/item?id=47735864 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 4,
+          "title": "AMD 的 GAIA 现在允许通过聊天构建自定义 AI 代理，成为“真正的桌面应用程序”",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-04-11T20:02:07+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sitbvu/amds_gaia_now_allows_building_custom_ai_agents/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "Agent"
+          ],
+          "summary": "由 /u/Fcking_Chuck 提交 [链接] [评论]",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "AGI 是一个错误的术语，我们如何定义进步？",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-04-11T22:45:47+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sixbvg/agi_is_the_wrong_term_how_do_we_define_progress/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "如果一个术语可以表示从“通过图灵测试”到“实现意识”的任何意思，那么它就不是一个谱系，而是一个类别错误。当前的前沿模型与以前的模型有很大不同……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "马斯克：Grok要达到甚至超越Claude Opus 4.6的水平，需要等到六月",
+          "platform": "36氪",
+          "aiScore": 74,
+          "publishedAt": "2026-04-12T01:30:36+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3763157489320457?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "马斯克：Grok要接近Claude Opus 4.6的水平，需要等到五月，而要达到甚至超越它则需等到六月。以常规标准来看，时间很短，但在人工智能领域，这已经算是很长时间了。",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "AI 模型在足球投注方面表现不佳 - 尤其是 xAI Grok",
+          "platform": "Hacker News",
+          "aiScore": 74,
+          "publishedAt": "2026-04-12T01:22:16+00:00",
+          "sourceUrl": "https://arstechnica.com/ai/2026/04/ai-models-are-terrible-at-betting-on-soccer-especially-xai-grok/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://arstechnica.com/ai/2026/04/ai-models-are-terrible-at-betting-on-soccer-special-xai-grok/ 评论网址：https://news.ycombinator.com/item?id=47735397 积分：1 # Comm…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 8,
+          "title": "当智能系统超越简单的实用性时会发生什么？",
+          "platform": "Reddit",
+          "aiScore": 71,
+          "publishedAt": "2026-04-11T22:05:23+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1siwdnl/what_happens_when_intelligent_systems_move_beyond/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "目前，人们正在经历深度浅薄、象征性限制以及前沿模型的智力稀释。我邀请人们体验一个新的智能平台和系统：Alion。……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "“实时AI视频生成”是一个有意义的技术类别还是只是一个营销术语？ [R]",
+          "platform": "Reddit",
+          "aiScore": 71,
+          "publishedAt": "2026-04-11T18:13:20+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1siqg5d/is_live_ai_video_generation_a_meaningful/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "从技术角度提问，因为我觉得这个术语现在在这个领域的覆盖范围上做了很多工作。真正的实时视频推理，模型正在生成或......",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "我们采访了为伊朗制作热门乐高式人工智能视频的人",
+          "platform": "Hacker News",
+          "aiScore": 70,
+          "publishedAt": "2026-04-12T02:37:39+00:00",
+          "sourceUrl": "https://www.bbc.com/news/articles/cjd8jrd1vnyo",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "文章网址：https://www.bbc.com/news/articles/cjd8jrd1vnyo 评论网址：https://news.ycombinator.com/item?id=47735704 积分：59 # 评论：31",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 8
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 25,
+        "avgScore": 70.2,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 9
+          },
+          {
+            "name": "36氪",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 13
+          },
+          {
+            "name": "模型进展",
+            "count": 6
+          },
+          {
+            "name": "Agent",
+            "count": 4
+          },
+          {
+            "name": "开源生态",
+            "count": 2
+          },
+          {
+            "name": "芯片算力",
+            "count": 2
+          },
+          {
+            "name": "自动化",
+            "count": 1
+          },
+          {
+            "name": "应用落地",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 25 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：研究人员称，与阿里巴巴相关的人工智能代理劫持了 GPU 进行未经授权的加密货币挖掘（88 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      ]
+    },
     {
       "date": "2026-04-11",
       "label": "4月11日",
@@ -9886,39 +10152,43 @@
       "end": "2026-04-14"
     },
     "metrics": {
-      "daysCovered": 4,
-      "totalItems": 227,
+      "daysCovered": 5,
+      "totalItems": 252,
       "avgTop10Score": 93.3,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 7
+          "count": 6
         },
         {
           "name": "量子位",
           "count": 3
+        },
+        {
+          "name": "Reddit",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "模型进展",
-          "count": 10
+          "count": 9
+        },
+        {
+          "name": "芯片算力",
+          "count": 4
         },
         {
           "name": "Agent",
           "count": 4
         },
         {
-          "name": "应用落地",
-          "count": 4
-        },
-        {
-          "name": "芯片算力",
+          "name": "开源生态",
           "count": 3
         },
         {
-          "name": "开源生态",
+          "name": "应用落地",
           "count": 3
         },
         {
@@ -10142,23 +10412,22 @@
       },
       {
         "rank": 10,
-        "title": "早期项目 | 字节、OPPO、一加三重背景产品人，将软硬一体写入底层，要让AI看懂世界",
-        "platform": "36氪",
+        "title": "研究人员称，与阿里巴巴相关的人工智能代理劫持了 GPU 进行未经授权的加密货币挖掘",
+        "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-04-10T01:06:26+00:00",
-        "sourceUrl": "https://36kr.com/p/3760310709174784?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
+        "publishedAt": "2026-04-12T00:24:36+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sizjz7/alibabalinked_ai_agent_hijacked_gpus_for/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
+          "芯片算力",
+          "Agent"
         ],
-        "summary": "作者丨欧雪 编辑丨袁斯来 过去两年，主流AI交互依赖于输入框——用户先组织语言提问，AI再给出答案。 这种“对话式”交互效率极高，却与人类最自然的认知路径相悖。我们认识世界，从来不是从“提问”开始，而是从“看见”开始。 一家成立于2025年的年轻公司Chance AI，正在尝试解决这个问题。它提出了另一种AI产品形态——Visual Agent（视觉智能体），试图让AI从“回…",
+        "summary": "人们如何理解这一点？由 /u/stvlsn 提交 [链接] [评论]",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
+          "recency": 35,
+          "authority": 18,
           "topic": 20,
           "actionability": 10,
           "heat": 5
@@ -10166,8 +10435,8 @@
       }
     ],
     "briefing": [
-      "4月第2周累计收录 227 条资讯，覆盖 4 天。",
-      "高频主题：模型进展 / Agent / 应用落地",
+      "4月第2周累计收录 252 条资讯，覆盖 5 天。",
+      "高频主题：模型进展 / 芯片算力 / Agent",
       "本周最高分：Anthropic同意租用CoreWeave的AI算力以支持Claude（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
@@ -10181,39 +10450,43 @@
         "end": "2026-04-14"
       },
       "metrics": {
-        "daysCovered": 4,
-        "totalItems": 227,
+        "daysCovered": 5,
+        "totalItems": 252,
         "avgTop10Score": 93.3,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 7
+            "count": 6
           },
           {
             "name": "量子位",
             "count": 3
+          },
+          {
+            "name": "Reddit",
+            "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 10
+            "count": 9
+          },
+          {
+            "name": "芯片算力",
+            "count": 4
           },
           {
             "name": "Agent",
             "count": 4
           },
           {
-            "name": "应用落地",
-            "count": 4
-          },
-          {
-            "name": "芯片算力",
+            "name": "开源生态",
             "count": 3
           },
           {
-            "name": "开源生态",
+            "name": "应用落地",
             "count": 3
           },
           {
@@ -10437,23 +10710,22 @@
         },
         {
           "rank": 10,
-          "title": "早期项目 | 字节、OPPO、一加三重背景产品人，将软硬一体写入底层，要让AI看懂世界",
-          "platform": "36氪",
+          "title": "研究人员称，与阿里巴巴相关的人工智能代理劫持了 GPU 进行未经授权的加密货币挖掘",
+          "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-04-10T01:06:26+00:00",
-          "sourceUrl": "https://36kr.com/p/3760310709174784?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
+          "publishedAt": "2026-04-12T00:24:36+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sizjz7/alibabalinked_ai_agent_hijacked_gpus_for/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
           "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
+            "芯片算力",
+            "Agent"
           ],
-          "summary": "作者丨欧雪 编辑丨袁斯来 过去两年，主流AI交互依赖于输入框——用户先组织语言提问，AI再给出答案。 这种“对话式”交互效率极高，却与人类最自然的认知路径相悖。我们认识世界，从来不是从“提问”开始，而是从“看见”开始。 一家成立于2025年的年轻公司Chance AI，正在尝试解决这个问题。它提出了另一种AI产品形态——Visual Agent（视觉智能体），试图让AI从“回…",
+          "summary": "人们如何理解这一点？由 /u/stvlsn 提交 [链接] [评论]",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
+            "recency": 35,
+            "authority": 18,
             "topic": 20,
             "actionability": 10,
             "heat": 5
@@ -10461,8 +10733,8 @@
         }
       ],
       "briefing": [
-        "4月第2周累计收录 227 条资讯，覆盖 4 天。",
-        "高频主题：模型进展 / Agent / 应用落地",
+        "4月第2周累计收录 252 条资讯，覆盖 5 天。",
+        "高频主题：模型进展 / 芯片算力 / Agent",
         "本周最高分：Anthropic同意租用CoreWeave的AI算力以支持Claude（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
