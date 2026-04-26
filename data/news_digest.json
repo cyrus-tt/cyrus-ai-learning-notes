@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T04:21:43.666766+00:00",
+  "generatedAt": "2026-04-26T14:04:25.204818+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-04-26",
@@ -7,22 +7,22 @@
     "top10": [
       {
         "rank": 1,
-        "title": "芯擎科技发布新一代AI座舱芯片“龍鹰二号”，将于2027年Q1启动适配",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-04-26T03:08:34+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3783080587926793?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
+        "title": "从 3B/7B 密集到 Nemotron 3 Nano（混合 Mamba-MoE）进行多任务推理 - 微调手册有何变化？ [D]",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-04-26T11:42:28+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sw5b44/going_from_3b7b_dense_to_nemotron_3_nano_hybrid/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
         "contentTags": [
           "芯片算力",
           "模型进展"
         ],
-        "summary": "在2026北京车展上，高性能车规和工业数字平台供应商芯擎科技发布全新AI座舱芯片“龍鹰二号”，在中央计算平台领域实现了前瞻布局，将于2027年第一季度启动适配。该芯片覆盖AI座舱、舱驾融合全场景需求，采用柔性架构，灵活适配主机厂从入门级到旗舰级的中央计算平台演进。芯片AI算力高达200 TOPS，原生支持7B+多模态大模型，内置多核CPU 360KDMIPS，GPU 2800…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "跟进我几天前发布的有关多任务推理微调的内容。从那时起，我读了很多书，并且已经超越了密集的 3B 与 7B 问题 - 登陆 Nemotron 3...",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
+          "authority": 18,
           "topic": 20,
           "actionability": 10,
           "heat": 5
@@ -30,9 +30,57 @@
       },
       {
         "rank": 2,
+        "title": "我们构建了一个开源代理，在 API 层强制执行 LLM 代理规则 - 700 GitHub star",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-04-26T10:02:24+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sw3hij/we_built_an_opensource_proxy_that_enforces_llm/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "在这里交叉发布是因为这个问题影响到每个使用 AI 代理进行构建的人。基于提示的护栏失效。该模型在演示中遵循系统提示，然后在发生冲突时忽略规则……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "欧莱雅BRANDSTORM 2026中国总决赛落幕，AI成美妆创新核心议题｜最前线",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-04-26T06:00:34+00:00",
+        "sourceUrl": "https://36kr.com/p/3783249100397570?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "欧莱雅全球青年创新策划大赛BRANDSTORM 2026中国总决赛于4月24日在上海收官。本届赛事聚焦奢华香氛领域，中国赛区吸引超72000人报名，经多轮选拔后六支队伍进入总决赛。最终，UNIBLOCK、SOS和Move with Scent三支队伍分获冠亚季军，将代表中国赛区赴巴黎参加全球总决赛。 BRANDSTORM大赛已举办34年，覆盖全球40多个国家和地区，累计参与人…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
         "title": "润芯微“国产软硬一体AI智能基座”发布，破解行业稀缺难题带动多端智能变革",
         "platform": "36氪",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-04-26T00:08:39+00:00",
         "sourceUrl": "https://36kr.com/p/3782901034785801?f=rss",
         "sourceName": "36氪",
@@ -45,7 +93,7 @@
         "summary": "4月25日，以“芯视野·新格局”为主题的润芯微战略与产品发布会在北京车展期间举行。作为行业稀缺的“芯片+操作系统+AI”全栈解决方案提供商，润芯微首次完整展示已打造的可应用于多端场景的“国产软硬一体AI智能基座”。本次发布会通过战略、技术、产品、生态的完整呈现，全面展现润芯微在多端智能领域的进展情况。从百万量产上车到openvela通过兼容性认证，从车载座舱到两轮车智能终端、…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -53,10 +101,79 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 5,
+        "title": "发现错误的新 Linux 内核 AI 机器人是 Framework Desktop + AMD Ryzen AI Max 上的本地 LLM",
+        "platform": "Reddit",
+        "aiScore": 82,
+        "publishedAt": "2026-04-26T11:56:08+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sw5kl3/the_new_linux_kernel_ai_bot_uncovering_bugs_is_a/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "由 /u/Fcking_Chuck 提交 [链接] [评论]",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "跳出框框思考：沙盒人工智能代理中的新攻击面",
+        "platform": "Hacker News",
+        "aiScore": 82,
+        "publishedAt": "2026-04-26T09:23:05+00:00",
+        "sourceUrl": "https://www.lasso.security/blog/sandboxed-ai-agents-attack-surface",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "文章网址：https://www.lasso.security/blog/sandboxed-ai-agents-attack-surface 评论网址：https://news.ycombinator.com/item?id=47908789 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 7,
+        "title": "我测试了 6 个用于广告/内容的 AI 视频工具，以下是我的发现",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-04-26T08:30:39+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sw1xos/i_tested_6_ai_video_tools_for_adscontent_and/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "内容生产",
+          "自动化"
+        ],
+        "summary": "最近一直在尝试一些人工智能视频工具来加速内容+广告创建，我想我应该分享一下真正突出的东西这些工具变得非常好，特别是如果你不......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 13,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
         "title": "人工智能代理是否真的给人们带来了投资回报，或者只是节省了时间？",
         "platform": "Reddit",
-        "aiScore": 87,
+        "aiScore": 80,
         "publishedAt": "2026-04-25T22:57:35+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1svqm2m/are_ai_agents_actually_giving_people_roi_yet_or/",
         "sourceName": "Reddit r/artificial",
@@ -69,7 +186,7 @@
         "summary": "我很好奇除了生产力之外，人们如何看待座席的投资回报率。很多讨论仍然围绕“这节省了我 3 个小时”（在某些情况下浪费了更多时间，哈哈）或“这个自动......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 19,
           "actionability": 10,
@@ -77,33 +194,10 @@
         }
       },
       {
-        "rank": 4,
-        "title": "（免费 150 美元？）Claude Opus 可能真的回来了……有人尝试过吗？",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-04-26T04:17:29+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1svxb2d/free_150_claude_opus_might_actually_be_back/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "我什至没有在寻找这个，但我只是偶然发现了一些有点疯狂的东西。看起来 Claude Opus 可以通过代理路由器再次访问，据说他们正在提供......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
+        "rank": 9,
         "title": "介绍 AutoMuon，AdamW 的单行插入 [P]",
         "platform": "Reddit",
-        "aiScore": 86,
+        "aiScore": 79,
         "publishedAt": "2026-04-26T03:23:46+00:00",
         "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1svw92f/introducing_automuon_a_one_line_drop_in_for_adamw/",
         "sourceName": "Reddit r/MachineLearning",
@@ -116,7 +210,7 @@
         "summary": "大家好，我一直在开发一个名为 AutoMuon 的小型 Python 包，它使 Muon 优化器可以在任意 PyTorch 训练管道中用作 AdamW 的直接替代品。特…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
@@ -124,175 +218,86 @@
         }
       },
       {
-        "rank": 6,
-        "title": "超算互联网推出DeepSeek-V4限时免费对话服务",
-        "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-04-26T02:40:31+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3783020652518401?f=rss",
-        "sourceName": "36氪",
+        "rank": 10,
+        "title": "仅供参考：人类现在正在审查不断扩大的系统性故障。",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-04-26T13:18:53+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sw7c4t/fyi_anthropic_is_now_censoring_an_expanding/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "36氪获悉，4月26日，国家超算互联网推出DeepSeek-V4限时免费对话服务。企业、科研机构及个人开发者只需登录超算互联网进入Chat页面，即可免费体验DeepSeek-V4的百万Token超长上下文实时、流畅对话。此外，开发者还可在超算互联网AI社区下载DeepSeek-V4模型文件，并基于众智FlagOS统一软件栈和超算互联网核心节点部署的万卡超集群系统进行快速部署、…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "北京发布土地经营权流转价格模型",
-        "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-04-26T02:25:36+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3783019761933318?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "今后，北京农村的土地经营权流转价格不再“雾里看花”，而是可以通过手机小程序“一键算清”。日前，北京市召开农村产权流转交易工作推进会，正式发布农村土地经营权流转价格模型。该模型依托大数据技术搭建，并嵌入北京市农村产权流转交易平台，实现“一地一价、即算即知”，为全市土地流转提供了科学透明的定价工具。（北京日报）",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "DeepSeek-V4-Pro模型API官宣限时2.5折优惠",
-        "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-04-26T01:00:01+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3782954220608512?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "36氪获悉，4月25日，DeepSeek官网更新的API文档显示，DeepSeek-V4-Pro模型API开启限时2.5折优惠活动，优惠期至2026年5月5日。优惠后，百万tokens输入价格（缓存命中）为0.25元，百万tokens输入价格（缓存未命中）为3元，百万tokens输出价格为6元。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "多智能体人工智能系统正在吞噬单智能体",
-        "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-04-26T02:21:21+00:00",
-        "sourceUrl": "https://aistackinsights.ai/blog/multi-agent-ai-systems-langgraph-crewai-production-guide",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "文章网址：https://aistackinsights.ai/blog/multi-agent-ai-systems-langgraph-crewai-product-guide 评论网址：https://news.ycombinator.com/item?id=47906692 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "我一周前发布的关于 Opus 4.7 的帖子被接受了，正如你所看到的，这种体验很普遍。 （无法跨帖子画廊，4.7 的屏幕截图和更多有关 4.6 的信息可在…",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 10,
-        "title": "湖南AI中心落地湘江新区",
-        "platform": "36氪",
-        "aiScore": 84,
-        "publishedAt": "2026-04-26T01:24:07+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3782957337926921?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "应用落地"
-        ],
-        "summary": "4月24日，省级人工智能产业应用创新赋能平台——湖南AI中心在湖南湘江新区世界计算·长沙智谷正式发布。该中心由五八科创集团打造并全权运营，深度扎根智谷，聚焦人工智能应用场景创新，集展示体验、场景研发、供需对接和生态培育四大核心功能于一体，致力于构建“可看、可体验、可合作、可落地”的AI产业综合体。（湖南日报）",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 9,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 36,
-      "avgScore": 73.6,
-      "topScore": 95,
+      "totalItems": 38,
+      "avgScore": 71.3,
+      "topScore": 88,
       "topPlatforms": [
+        {
+          "name": "Reddit",
+          "count": 18
+        },
         {
           "name": "Hacker News",
           "count": 15
         },
         {
-          "name": "Reddit",
-          "count": 13
-        },
-        {
           "name": "36氪",
-          "count": 8
+          "count": 5
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 14
+          "count": 18
         },
         {
           "name": "模型进展",
-          "count": 12
+          "count": 10
         },
         {
           "name": "Agent",
-          "count": 7
-        },
-        {
-          "name": "应用落地",
-          "count": 5
+          "count": 6
         },
         {
           "name": "开源生态",
-          "count": 3
+          "count": 5
+        },
+        {
+          "name": "芯片算力",
+          "count": 4
+        },
+        {
+          "name": "应用落地",
+          "count": 4
         },
         {
           "name": "自动化",
           "count": 3
         },
         {
-          "name": "芯片算力",
-          "count": 2
-        },
-        {
           "name": "内容生产",
-          "count": 1
+          "count": 3
         }
       ]
     },
     "briefing": [
-      "今日共收录 36 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 38 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：芯擎科技发布新一代AI座舱芯片“龍鹰二号”，将于2027年Q1启动适配（95 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "最高分事件：从 3B/7B 密集到 Nemotron 3 Nano（混合 Mamba-MoE）进行多任务推理 - 微调手册有何变化？ [D]（88 分）",
+      "首要动作：提取提示词结构，再改成你自己的业务场景。"
     ]
   },
   "dailyHistory": [
@@ -302,22 +307,22 @@
       "top10": [
         {
           "rank": 1,
-          "title": "芯擎科技发布新一代AI座舱芯片“龍鹰二号”，将于2027年Q1启动适配",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-04-26T03:08:34+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3783080587926793?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
+          "title": "从 3B/7B 密集到 Nemotron 3 Nano（混合 Mamba-MoE）进行多任务推理 - 微调手册有何变化？ [D]",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-26T11:42:28+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1sw5b44/going_from_3b7b_dense_to_nemotron_3_nano_hybrid/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
           "contentTags": [
             "芯片算力",
             "模型进展"
           ],
-          "summary": "在2026北京车展上，高性能车规和工业数字平台供应商芯擎科技发布全新AI座舱芯片“龍鹰二号”，在中央计算平台领域实现了前瞻布局，将于2027年第一季度启动适配。该芯片覆盖AI座舱、舱驾融合全场景需求，采用柔性架构，灵活适配主机厂从入门级到旗舰级的中央计算平台演进。芯片AI算力高达200 TOPS，原生支持7B+多模态大模型，内置多核CPU 360KDMIPS，GPU 2800…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "跟进我几天前发布的有关多任务推理微调的内容。从那时起，我读了很多书，并且已经超越了密集的 3B 与 7B 问题 - 登陆 Nemotron 3...",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 25,
+            "authority": 18,
             "topic": 20,
             "actionability": 10,
             "heat": 5
@@ -325,9 +330,57 @@
         },
         {
           "rank": 2,
+          "title": "我们构建了一个开源代理，在 API 层强制执行 LLM 代理规则 - 700 GitHub star",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-26T10:02:24+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sw3hij/we_built_an_opensource_proxy_that_enforces_llm/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "在这里交叉发布是因为这个问题影响到每个使用 AI 代理进行构建的人。基于提示的护栏失效。该模型在演示中遵循系统提示，然后在发生冲突时忽略规则……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "欧莱雅BRANDSTORM 2026中国总决赛落幕，AI成美妆创新核心议题｜最前线",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-04-26T06:00:34+00:00",
+          "sourceUrl": "https://36kr.com/p/3783249100397570?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "欧莱雅全球青年创新策划大赛BRANDSTORM 2026中国总决赛于4月24日在上海收官。本届赛事聚焦奢华香氛领域，中国赛区吸引超72000人报名，经多轮选拔后六支队伍进入总决赛。最终，UNIBLOCK、SOS和Move with Scent三支队伍分获冠亚季军，将代表中国赛区赴巴黎参加全球总决赛。 BRANDSTORM大赛已举办34年，覆盖全球40多个国家和地区，累计参与人…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
           "title": "润芯微“国产软硬一体AI智能基座”发布，破解行业稀缺难题带动多端智能变革",
           "platform": "36氪",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-04-26T00:08:39+00:00",
           "sourceUrl": "https://36kr.com/p/3782901034785801?f=rss",
           "sourceName": "36氪",
@@ -340,7 +393,7 @@
           "summary": "4月25日，以“芯视野·新格局”为主题的润芯微战略与产品发布会在北京车展期间举行。作为行业稀缺的“芯片+操作系统+AI”全栈解决方案提供商，润芯微首次完整展示已打造的可应用于多端场景的“国产软硬一体AI智能基座”。本次发布会通过战略、技术、产品、生态的完整呈现，全面展现润芯微在多端智能领域的进展情况。从百万量产上车到openvela通过兼容性认证，从车载座舱到两轮车智能终端、…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -348,10 +401,79 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 5,
+          "title": "发现错误的新 Linux 内核 AI 机器人是 Framework Desktop + AMD Ryzen AI Max 上的本地 LLM",
+          "platform": "Reddit",
+          "aiScore": 82,
+          "publishedAt": "2026-04-26T11:56:08+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sw5kl3/the_new_linux_kernel_ai_bot_uncovering_bugs_is_a/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "由 /u/Fcking_Chuck 提交 [链接] [评论]",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "跳出框框思考：沙盒人工智能代理中的新攻击面",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-04-26T09:23:05+00:00",
+          "sourceUrl": "https://www.lasso.security/blog/sandboxed-ai-agents-attack-surface",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "文章网址：https://www.lasso.security/blog/sandboxed-ai-agents-attack-surface 评论网址：https://news.ycombinator.com/item?id=47908789 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 7,
+          "title": "我测试了 6 个用于广告/内容的 AI 视频工具，以下是我的发现",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-04-26T08:30:39+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sw1xos/i_tested_6_ai_video_tools_for_adscontent_and/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "内容生产",
+            "自动化"
+          ],
+          "summary": "最近一直在尝试一些人工智能视频工具来加速内容+广告创建，我想我应该分享一下真正突出的东西这些工具变得非常好，特别是如果你不......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 13,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
           "title": "人工智能代理是否真的给人们带来了投资回报，或者只是节省了时间？",
           "platform": "Reddit",
-          "aiScore": 87,
+          "aiScore": 80,
           "publishedAt": "2026-04-25T22:57:35+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1svqm2m/are_ai_agents_actually_giving_people_roi_yet_or/",
           "sourceName": "Reddit r/artificial",
@@ -364,7 +486,7 @@
           "summary": "我很好奇除了生产力之外，人们如何看待座席的投资回报率。很多讨论仍然围绕“这节省了我 3 个小时”（在某些情况下浪费了更多时间，哈哈）或“这个自动......",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 19,
             "actionability": 10,
@@ -372,33 +494,10 @@
           }
         },
         {
-          "rank": 4,
-          "title": "（免费 150 美元？）Claude Opus 可能真的回来了……有人尝试过吗？",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-04-26T04:17:29+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1svxb2d/free_150_claude_opus_might_actually_be_back/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "我什至没有在寻找这个，但我只是偶然发现了一些有点疯狂的东西。看起来 Claude Opus 可以通过代理路由器再次访问，据说他们正在提供......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
+          "rank": 9,
           "title": "介绍 AutoMuon，AdamW 的单行插入 [P]",
           "platform": "Reddit",
-          "aiScore": 86,
+          "aiScore": 79,
           "publishedAt": "2026-04-26T03:23:46+00:00",
           "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1svw92f/introducing_automuon_a_one_line_drop_in_for_adamw/",
           "sourceName": "Reddit r/MachineLearning",
@@ -411,7 +510,7 @@
           "summary": "大家好，我一直在开发一个名为 AutoMuon 的小型 Python 包，它使 Muon 优化器可以在任意 PyTorch 训练管道中用作 AdamW 的直接替代品。特…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 18,
             "actionability": 10,
@@ -419,175 +518,86 @@
           }
         },
         {
-          "rank": 6,
-          "title": "超算互联网推出DeepSeek-V4限时免费对话服务",
-          "platform": "36氪",
-          "aiScore": 85,
-          "publishedAt": "2026-04-26T02:40:31+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3783020652518401?f=rss",
-          "sourceName": "36氪",
+          "rank": 10,
+          "title": "仅供参考：人类现在正在审查不断扩大的系统性故障。",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-04-26T13:18:53+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sw7c4t/fyi_anthropic_is_now_censoring_an_expanding/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展"
           ],
-          "summary": "36氪获悉，4月26日，国家超算互联网推出DeepSeek-V4限时免费对话服务。企业、科研机构及个人开发者只需登录超算互联网进入Chat页面，即可免费体验DeepSeek-V4的百万Token超长上下文实时、流畅对话。此外，开发者还可在超算互联网AI社区下载DeepSeek-V4模型文件，并基于众智FlagOS统一软件栈和超算互联网核心节点部署的万卡超集群系统进行快速部署、…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "北京发布土地经营权流转价格模型",
-          "platform": "36氪",
-          "aiScore": 85,
-          "publishedAt": "2026-04-26T02:25:36+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3783019761933318?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "今后，北京农村的土地经营权流转价格不再“雾里看花”，而是可以通过手机小程序“一键算清”。日前，北京市召开农村产权流转交易工作推进会，正式发布农村土地经营权流转价格模型。该模型依托大数据技术搭建，并嵌入北京市农村产权流转交易平台，实现“一地一价、即算即知”，为全市土地流转提供了科学透明的定价工具。（北京日报）",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "DeepSeek-V4-Pro模型API官宣限时2.5折优惠",
-          "platform": "36氪",
-          "aiScore": 85,
-          "publishedAt": "2026-04-26T01:00:01+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3782954220608512?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "36氪获悉，4月25日，DeepSeek官网更新的API文档显示，DeepSeek-V4-Pro模型API开启限时2.5折优惠活动，优惠期至2026年5月5日。优惠后，百万tokens输入价格（缓存命中）为0.25元，百万tokens输入价格（缓存未命中）为3元，百万tokens输出价格为6元。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "多智能体人工智能系统正在吞噬单智能体",
-          "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-04-26T02:21:21+00:00",
-          "sourceUrl": "https://aistackinsights.ai/blog/multi-agent-ai-systems-langgraph-crewai-production-guide",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "文章网址：https://aistackinsights.ai/blog/multi-agent-ai-systems-langgraph-crewai-product-guide 评论网址：https://news.ycombinator.com/item?id=47906692 积分：2 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "我一周前发布的关于 Opus 4.7 的帖子被接受了，正如你所看到的，这种体验很普遍。 （无法跨帖子画廊，4.7 的屏幕截图和更多有关 4.6 的信息可在…",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 10,
-          "title": "湖南AI中心落地湘江新区",
-          "platform": "36氪",
-          "aiScore": 84,
-          "publishedAt": "2026-04-26T01:24:07+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3782957337926921?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "应用落地"
-          ],
-          "summary": "4月24日，省级人工智能产业应用创新赋能平台——湖南AI中心在湖南湘江新区世界计算·长沙智谷正式发布。该中心由五八科创集团打造并全权运营，深度扎根智谷，聚焦人工智能应用场景创新，集展示体验、场景研发、供需对接和生态培育四大核心功能于一体，致力于构建“可看、可体验、可合作、可落地”的AI产业综合体。（湖南日报）",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 9,
+            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 36,
-        "avgScore": 73.6,
-        "topScore": 95,
+        "totalItems": 38,
+        "avgScore": 71.3,
+        "topScore": 88,
         "topPlatforms": [
+          {
+            "name": "Reddit",
+            "count": 18
+          },
           {
             "name": "Hacker News",
             "count": 15
           },
           {
-            "name": "Reddit",
-            "count": 13
-          },
-          {
             "name": "36氪",
-            "count": 8
+            "count": 5
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 14
+            "count": 18
           },
           {
             "name": "模型进展",
-            "count": 12
+            "count": 10
           },
           {
             "name": "Agent",
-            "count": 7
-          },
-          {
-            "name": "应用落地",
-            "count": 5
+            "count": 6
           },
           {
             "name": "开源生态",
-            "count": 3
+            "count": 5
+          },
+          {
+            "name": "芯片算力",
+            "count": 4
+          },
+          {
+            "name": "应用落地",
+            "count": 4
           },
           {
             "name": "自动化",
             "count": 3
           },
           {
-            "name": "芯片算力",
-            "count": 2
-          },
-          {
             "name": "内容生产",
-            "count": 1
+            "count": 3
           }
         ]
       },
       "briefing": [
-        "今日共收录 36 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 38 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：芯擎科技发布新一代AI座舱芯片“龍鹰二号”，将于2027年Q1启动适配（95 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "最高分事件：从 3B/7B 密集到 Nemotron 3 Nano（混合 Mamba-MoE）进行多任务推理 - 微调手册有何变化？ [D]（88 分）",
+        "首要动作：提取提示词结构，再改成你自己的业务场景。"
       ]
     },
     {
@@ -903,7 +913,7 @@
       "label": "4月24日",
       "top10": [
         {
-          "rank": 3,
+          "rank": 1,
           "title": "最前线｜中科天塔发布新一代星载激光通信终端 ，要做未来的「太空智驾」",
           "platform": "36氪",
           "aiScore": 95,
@@ -927,7 +937,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 2,
           "title": "氪星晚报｜美团万亿级参数大模型开放测试，训练全程由国产算力集群完成；百度联盟正式发布海外App业务；央行等八部门发布金融产品网络营销管理办法",
           "platform": "36氪",
           "aiScore": 95,
@@ -1212,7 +1222,7 @@
       "label": "4月23日",
       "top10": [
         {
-          "rank": 5,
+          "rank": 3,
           "title": "Anthropic拟高薪招聘专员洽谈数据中心合作，助力欧洲AI业务扩张",
           "platform": "36氪",
           "aiScore": 95,
@@ -1235,7 +1245,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 4,
           "title": "鸿蒙座舱HarmonySpace 6发布",
           "platform": "36氪",
           "aiScore": 95,
@@ -1258,7 +1268,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 5,
           "title": "破局“智驾双雄”，千里科技如何以AI之力重塑行业格局",
           "platform": "36氪",
           "aiScore": 95,
@@ -1282,7 +1292,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 6,
           "title": "乾崑智驾ADS 5发布，为自动驾驶做好准备",
           "platform": "36氪",
           "aiScore": 95,
@@ -1306,7 +1316,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 7,
           "title": "微软在 Word、Excel 和 PowerPoint 中推出“vibeworking”",
           "platform": "The Verge",
           "aiScore": 95,
@@ -1329,7 +1339,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 8,
           "title": "氪星晚报｜ThinkPad发布AI主机，可一键部署“龙虾”、较云主机三年总成本可节省48%；量化投资先驱马丁·卢克警告勿将交易决策全盘交予人工智能；国家知识产权局：2025年我国共授权发明专利97.2万件",
           "platform": "36氪",
           "aiScore": 95,
@@ -14494,7 +14504,7 @@
     },
     "metrics": {
       "daysCovered": 5,
-      "totalItems": 305,
+      "totalItems": 307,
       "avgTop10Score": 95.0,
       "topScore": 95,
       "topPlatforms": [
@@ -14510,11 +14520,11 @@
       "topTopics": [
         {
           "name": "模型进展",
-          "count": 10
+          "count": 8
         },
         {
           "name": "Agent",
-          "count": 8
+          "count": 7
         },
         {
           "name": "芯片算力",
@@ -14522,7 +14532,7 @@
         },
         {
           "name": "应用落地",
-          "count": 1
+          "count": 3
         },
         {
           "name": "安全治理",
@@ -14537,53 +14547,6 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "芯擎科技发布新一代AI座舱芯片“龍鹰二号”，将于2027年Q1启动适配",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-04-26T03:08:34+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3783080587926793?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展"
-        ],
-        "summary": "在2026北京车展上，高性能车规和工业数字平台供应商芯擎科技发布全新AI座舱芯片“龍鹰二号”，在中央计算平台领域实现了前瞻布局，将于2027年第一季度启动适配。该芯片覆盖AI座舱、舱驾融合全场景需求，采用柔性架构，灵活适配主机厂从入门级到旗舰级的中央计算平台演进。芯片AI算力高达200 TOPS，原生支持7B+多模态大模型，内置多核CPU 360KDMIPS，GPU 2800…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 2,
-        "title": "润芯微“国产软硬一体AI智能基座”发布，破解行业稀缺难题带动多端智能变革",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-04-26T00:08:39+00:00",
-        "sourceUrl": "https://36kr.com/p/3782901034785801?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "4月25日，以“芯视野·新格局”为主题的润芯微战略与产品发布会在北京车展期间举行。作为行业稀缺的“芯片+操作系统+AI”全栈解决方案提供商，润芯微首次完整展示已打造的可应用于多端场景的“国产软硬一体AI智能基座”。本次发布会通过战略、技术、产品、生态的完整呈现，全面展现润芯微在多端智能领域的进展情况。从百万量产上车到openvela通过兼容性认证，从车载座舱到两轮车智能终端、…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
         "title": "最前线｜中科天塔发布新一代星载激光通信终端 ，要做未来的「太空智驾」",
         "platform": "36氪",
         "aiScore": 95,
@@ -14607,7 +14570,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 2,
         "title": "氪星晚报｜美团万亿级参数大模型开放测试，训练全程由国产算力集群完成；百度联盟正式发布海外App业务；央行等八部门发布金融产品网络营销管理办法",
         "platform": "36氪",
         "aiScore": 95,
@@ -14631,7 +14594,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 3,
         "title": "Anthropic拟高薪招聘专员洽谈数据中心合作，助力欧洲AI业务扩张",
         "platform": "36氪",
         "aiScore": 95,
@@ -14654,7 +14617,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 4,
         "title": "鸿蒙座舱HarmonySpace 6发布",
         "platform": "36氪",
         "aiScore": 95,
@@ -14677,7 +14640,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 5,
         "title": "破局“智驾双雄”，千里科技如何以AI之力重塑行业格局",
         "platform": "36氪",
         "aiScore": 95,
@@ -14701,7 +14664,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 6,
         "title": "乾崑智驾ADS 5发布，为自动驾驶做好准备",
         "platform": "36氪",
         "aiScore": 95,
@@ -14725,7 +14688,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 7,
         "title": "微软在 Word、Excel 和 PowerPoint 中推出“vibeworking”",
         "platform": "The Verge",
         "aiScore": 95,
@@ -14748,7 +14711,7 @@
         }
       },
       {
-        "rank": 10,
+        "rank": 8,
         "title": "氪星晚报｜ThinkPad发布AI主机，可一键部署“龙虾”、较云主机三年总成本可节省48%；量化投资先驱马丁·卢克警告勿将交易决策全盘交予人工智能；国家知识产权局：2025年我国共授权发明专利97.2万件",
         "platform": "36氪",
         "aiScore": 95,
@@ -14770,13 +14733,60 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 9,
+        "title": "创·问｜炜璨医疗李强：从理解规则，到建立规则——重塑植入式给药路径",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-04-23T09:51:25+00:00",
+        "sourceUrl": "https://36kr.com/p/3779145497515269?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
+        "contentTags": [
+          "芯片算力",
+          "应用落地",
+          "投融资"
+        ],
+        "summary": "优秀的企业长什么样，成功的创业者都有哪些特质？在他们的奋斗路上，有哪些需要避开的“坑”，最重要的改变是什么？ 创·问 向一些优秀的华创派、投资人、业界牛人抛出问题，也希望分享他们的想法给你。 本期主角是炜璨医疗创始人、董事长李强。炜璨医疗是目前全球首个涵盖静脉、动脉、脊柱、腹腔、透析、颅内等全场景植入式给药装置+智能化植入式自体给药装置的创新型医疗器械公司，公司依靠自研团队开…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "固态激光雷达“像素竞赛”加速，速腾聚创VGA大面阵SPAD-SoC产品发布｜最前线",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-04-23T09:37:09+00:00",
+        "sourceUrl": "https://36kr.com/p/3779194648876292?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "应用落地"
+        ],
+        "summary": "作者｜黄楠 编辑｜袁斯来 近日，RoboSense速腾聚创正式发布了全新“创世”数字化架构及基于该架构的两款旗舰芯片。“创世”架构是一套可快速迭代的SPAD-SoC芯片级解决方案平台，可为激光雷达的规模化与高性能迭代提供核心支撑。 基于该架构推出的凤凰芯片，是全球首颗单片集成原生2160线的车规级SPAD-SoC，实现超400万像素分辨率与600米超远距探测，将于2026年内…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "briefing": [
-      "4月第4周累计收录 305 条资讯，覆盖 5 天。",
+      "4月第4周累计收录 307 条资讯，覆盖 5 天。",
       "高频主题：模型进展 / Agent / 芯片算力",
-      "本周最高分：芯擎科技发布新一代AI座舱芯片“龍鹰二号”，将于2027年Q1启动适配（95 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "本周最高分：最前线｜中科天塔发布新一代星载激光通信终端 ，要做未来的「太空智驾」（95 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
@@ -14789,7 +14799,7 @@
       },
       "metrics": {
         "daysCovered": 5,
-        "totalItems": 305,
+        "totalItems": 307,
         "avgTop10Score": 95.0,
         "topScore": 95,
         "topPlatforms": [
@@ -14805,11 +14815,11 @@
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 10
+            "count": 8
           },
           {
             "name": "Agent",
-            "count": 8
+            "count": 7
           },
           {
             "name": "芯片算力",
@@ -14817,7 +14827,7 @@
           },
           {
             "name": "应用落地",
-            "count": 1
+            "count": 3
           },
           {
             "name": "安全治理",
@@ -14832,53 +14842,6 @@
       "topEvents": [
         {
           "rank": 1,
-          "title": "芯擎科技发布新一代AI座舱芯片“龍鹰二号”，将于2027年Q1启动适配",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-04-26T03:08:34+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3783080587926793?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "在2026北京车展上，高性能车规和工业数字平台供应商芯擎科技发布全新AI座舱芯片“龍鹰二号”，在中央计算平台领域实现了前瞻布局，将于2027年第一季度启动适配。该芯片覆盖AI座舱、舱驾融合全场景需求，采用柔性架构，灵活适配主机厂从入门级到旗舰级的中央计算平台演进。芯片AI算力高达200 TOPS，原生支持7B+多模态大模型，内置多核CPU 360KDMIPS，GPU 2800…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
-          "title": "润芯微“国产软硬一体AI智能基座”发布，破解行业稀缺难题带动多端智能变革",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-04-26T00:08:39+00:00",
-          "sourceUrl": "https://36kr.com/p/3782901034785801?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "4月25日，以“芯视野·新格局”为主题的润芯微战略与产品发布会在北京车展期间举行。作为行业稀缺的“芯片+操作系统+AI”全栈解决方案提供商，润芯微首次完整展示已打造的可应用于多端场景的“国产软硬一体AI智能基座”。本次发布会通过战略、技术、产品、生态的完整呈现，全面展现润芯微在多端智能领域的进展情况。从百万量产上车到openvela通过兼容性认证，从车载座舱到两轮车智能终端、…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
           "title": "最前线｜中科天塔发布新一代星载激光通信终端 ，要做未来的「太空智驾」",
           "platform": "36氪",
           "aiScore": 95,
@@ -14902,7 +14865,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 2,
           "title": "氪星晚报｜美团万亿级参数大模型开放测试，训练全程由国产算力集群完成；百度联盟正式发布海外App业务；央行等八部门发布金融产品网络营销管理办法",
           "platform": "36氪",
           "aiScore": 95,
@@ -14926,7 +14889,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 3,
           "title": "Anthropic拟高薪招聘专员洽谈数据中心合作，助力欧洲AI业务扩张",
           "platform": "36氪",
           "aiScore": 95,
@@ -14949,7 +14912,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 4,
           "title": "鸿蒙座舱HarmonySpace 6发布",
           "platform": "36氪",
           "aiScore": 95,
@@ -14972,7 +14935,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 5,
           "title": "破局“智驾双雄”，千里科技如何以AI之力重塑行业格局",
           "platform": "36氪",
           "aiScore": 95,
@@ -14996,7 +14959,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 6,
           "title": "乾崑智驾ADS 5发布，为自动驾驶做好准备",
           "platform": "36氪",
           "aiScore": 95,
@@ -15020,7 +14983,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 7,
           "title": "微软在 Word、Excel 和 PowerPoint 中推出“vibeworking”",
           "platform": "The Verge",
           "aiScore": 95,
@@ -15043,7 +15006,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 8,
           "title": "氪星晚报｜ThinkPad发布AI主机，可一键部署“龙虾”、较云主机三年总成本可节省48%；量化投资先驱马丁·卢克警告勿将交易决策全盘交予人工智能；国家知识产权局：2025年我国共授权发明专利97.2万件",
           "platform": "36氪",
           "aiScore": 95,
@@ -15065,13 +15028,60 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 9,
+          "title": "创·问｜炜璨医疗李强：从理解规则，到建立规则——重塑植入式给药路径",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-04-23T09:51:25+00:00",
+          "sourceUrl": "https://36kr.com/p/3779145497515269?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "芯片算力",
+            "应用落地",
+            "投融资"
+          ],
+          "summary": "优秀的企业长什么样，成功的创业者都有哪些特质？在他们的奋斗路上，有哪些需要避开的“坑”，最重要的改变是什么？ 创·问 向一些优秀的华创派、投资人、业界牛人抛出问题，也希望分享他们的想法给你。 本期主角是炜璨医疗创始人、董事长李强。炜璨医疗是目前全球首个涵盖静脉、动脉、脊柱、腹腔、透析、颅内等全场景植入式给药装置+智能化植入式自体给药装置的创新型医疗器械公司，公司依靠自研团队开…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "固态激光雷达“像素竞赛”加速，速腾聚创VGA大面阵SPAD-SoC产品发布｜最前线",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-04-23T09:37:09+00:00",
+          "sourceUrl": "https://36kr.com/p/3779194648876292?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "应用落地"
+          ],
+          "summary": "作者｜黄楠 编辑｜袁斯来 近日，RoboSense速腾聚创正式发布了全新“创世”数字化架构及基于该架构的两款旗舰芯片。“创世”架构是一套可快速迭代的SPAD-SoC芯片级解决方案平台，可为激光雷达的规模化与高性能迭代提供核心支撑。 基于该架构推出的凤凰芯片，是全球首颗单片集成原生2160线的车规级SPAD-SoC，实现超400万像素分辨率与600米超远距探测，将于2026年内…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "4月第4周累计收录 305 条资讯，覆盖 5 天。",
+        "4月第4周累计收录 307 条资讯，覆盖 5 天。",
         "高频主题：模型进展 / Agent / 芯片算力",
-        "本周最高分：芯擎科技发布新一代AI座舱芯片“龍鹰二号”，将于2027年Q1启动适配（95 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "本周最高分：最前线｜中科天塔发布新一代星载激光通信终端 ，要做未来的「太空智驾」（95 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
