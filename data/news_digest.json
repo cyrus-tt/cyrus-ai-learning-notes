@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T04:47:38.853442+00:00",
+  "generatedAt": "2026-05-01T14:16:44.771856+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-05-01",
@@ -7,9 +7,153 @@
     "top10": [
       {
         "rank": 1,
+        "title": "微软希望律师信任其在 Word 文档中的新 AI 代理",
+        "platform": "The Verge",
+        "aiScore": 95,
+        "publishedAt": "2026-05-01T11:18:54+00:00",
+        "sourceUrl": "https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "微软正在 Word 中推出一款专为法律团队设计的新人工智能代理。法律代理人处理文件编辑、谈判历史和复杂文件，以帮助法律……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "追觅造车，从“火箭”开始",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-01T10:26:42+00:00",
+        "sourceUrl": "https://36kr.com/p/3790587098832137?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
+        "contentTags": [
+          "芯片算力",
+          "应用落地",
+          "投融资"
+        ],
+        "summary": "4月27日，旧金山艺术宫，这座美国百年历史地标迎来了一场科技发布会。 追觅科技以“DREAME NEXT”为主题的全球发布会周在此开幕，展台上那台红色超跑的尾部，两个固体火箭推进器格外醒目。这便是追觅“星空计划”重磅打造的Nebula NEXT 01 JET Edition，业内称其为“火箭车”。 从车企研发负责人到供应链从业者再到行业分析师，目光都聚焦于此。 这款火箭车搭载…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "如何使用 AI 代理进行 EDA/数据分析并为 ML 模型训练做好准备？ [D]",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-01T13:25:49+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t0tegw/how_do_you_use_ai_agents_for_edadata_analysis_and/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "就像在手动工作流程中一样，我将通过使用各种函数（例如 pd.info() 和所有列）来研究给定的数据，删除空值、异常值等，转换数据集，以便模型给出......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "我构建了一个路由器，可以自动将您的 AI 任务发送到最合适的模型，以低成本处理它们 - 9,200 个任务，节省 21 美元……",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-01T12:56:46+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0soki/i_built_a_router_that_automatically_sends_your_ai/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "开始这一点的观察是：人们每天使用人工智能的大部分内容——总结、起草、分类、提取等实际上并不需要前沿模型。任何有能力的 8-7...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "文本到图像很容易。链接 LLM 来自主生成、评论和迭代图像是一场路由噩梦。 AgentSwarms 现在支持...",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-01T08:48:29+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0ns35/texttoimage_is_easy_chaining_llms_to_generate/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "大家好，如果您一直在使用人工智能代理进行构建，您就会知道编排文本是一回事，但进入多模式工作流程（文本+图像+视觉）却非常混乱。如果你…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "公开照片不同意生物识别搜索基础设施",
+        "platform": "Reddit",
+        "aiScore": 87,
+        "publishedAt": "2026-05-01T12:36:50+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0s7yh/public_photos_are_not_consent_to_biometric_search/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "模型进展",
+          "开源生态",
+          "应用落地"
+        ],
+        "summary": "Clearview AI 的故事仍然感觉像是应用人工智能中同意差距的最明显的例子之一。问题不仅仅是照片被公开。生日照片、个人资料照片或……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
         "title": "借航天展推“反向技术输出”，自然堂试炼叙事资源转化的产品力｜最前线",
         "platform": "36氪",
-        "aiScore": 94,
+        "aiScore": 87,
         "publishedAt": "2026-05-01T01:42:35+00:00",
         "sourceUrl": "https://36kr.com/p/3787830454787330?f=rss",
         "sourceName": "36氪",
@@ -22,7 +166,7 @@
         "summary": "在中国美妆行业竞争日趋激烈、技术叙事不断升级的背景下，企业如何构建差异化“护城河”成为核心议题。近日，中国化妆品集团自然堂联合上海天文馆推出的航天主题科普展，为观察本土品牌在科研与品牌叙事之间的平衡提供了一个样本。 4月24日（第十一个“中国航天日”）前后，自然堂与上海天文馆在上海奉贤“东方美谷”园区内举办“遇见宇宙 发现更美”主题展览。展览面向公众免费开放一个月，内容涵盖宇…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 19,
           "actionability": 10,
@@ -30,54 +174,54 @@
         }
       },
       {
-        "rank": 2,
-        "title": "OpenAI 首席财务官：公司产品迎来“呈直线上升”式的强劲需求",
-        "platform": "36氪",
-        "aiScore": 86,
-        "publishedAt": "2026-05-01T02:58:39+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3790103647378688?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "投融资"
-        ],
-        "summary": "OpenAI 首席财务官萨拉・弗莱尔针对外界质疑公司未达成内部业绩目标的言论作出反驳，称公司正顺利完成既定目标，且旗下产品正面临一堵垂���高涨的需求高墙（需求极度旺盛、激增爆棚）。弗莱尔在采访中表示：“整体来看，我们高层层面的经营业绩跑赢原定规划。具体实现路径会逐期有所波动，毕竟业务仍处于发展初期，各项细分指标尚无法做到精准预测。”本周有报道称，这家人工智能初创公司营收与用…",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "我构建了 AI 代理，可以通过工具调用使用免费的 LLM API 自主玩 Pokemon Showdown [P]",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-04-30T20:47:06+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t08j6u/i_built_ai_agents_that_play_pokemon_showdown/",
-        "sourceName": "Reddit r/MachineLearning",
+        "rank": 8,
+        "title": "Spring AI 的有状态代理工作流程（基于图，具有重试和恢复功能）",
+        "platform": "Hacker News",
+        "aiScore": 84,
+        "publishedAt": "2026-05-01T13:52:38+00:00",
+        "sourceUrl": "https://github.com/datallmhub/spring-agent-flow",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "Agent",
           "开源生态"
         ],
-        "summary": "我构建了一个系统，让 Llama 3、Qwen 和 Gemma 等模型可以自主玩 Pokémon Showdown 战斗。他们不是简单的提示响应，而是每回合分析完整的战斗状态（……",
+        "summary": "文章网址：https://github.com/datallmhub/spring-agent-flow 评论网址：https://news.ycombinator.com/item?id=47974827 积分：1 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 9,
+        "title": "突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲染助力规模化训练",
+        "platform": "量子位",
+        "aiScore": 81,
+        "publishedAt": "2026-05-01T06:28:46+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/05/412577.html",
+        "sourceName": "量子位",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "开源生态"
+        ],
+        "summary": "真机部署“零微调”",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 19,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
-        "rank": 4,
+        "rank": 10,
         "title": "5,000 行 Python 中的可破解 ML 编译器堆栈 [P]",
         "platform": "Reddit",
         "aiScore": 81,
@@ -99,154 +243,16 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 5,
-        "title": "将 Karpathy 的自动研究应用于 33M 代币的公共交通数据集（改进 14%，复制说明）[P]",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-04-30T18:31:34+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t04rrz/applying_karpathys_autoresearch_to_a_33mtoken/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "你好，r/机器学习！我在美国交通行业工作，几个月前我全力学习人工智能和机器学习。当我听说 Andrej Karpathy 的自动研究框架时，我想……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "特斯拉去年从SpaceX与xAI斩获5.73亿美元营收",
-        "platform": "36氪",
-        "aiScore": 80,
-        "publishedAt": "2026-05-01T01:31:35+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3790021931883783?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "特斯拉在修订后的年度备案文件中披露，去年通过向埃隆・马斯克旗下另外两家企业销售产品，创收超5亿美元。特斯拉今年1月首度披露，营收中的大头约4.301亿美元，来自与马斯克旗下人工智能初创公司xAI的业务往来。这家车企于周四提交修订版备案文件，补充称还从马斯克私人控股的航天企业太空探索技术公司（SpaceX）确认营收1.433亿美元。特斯拉在今年1月发布的初始年度报告中，并未披露…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 5,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "小型企业在一切方面使用人工智能来创造公平的竞争环境",
-        "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-04-30T17:36:11+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0378r/small_business_using_ai_for_everything_to_level/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "大家好...只是想听听您对此的看法。我叔叔经营一家小仓库，经销快速流通的零售产品。他认为这是他对抗世界，大卫对抗歌利亚的狗屎。 …",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "完整克劳德压力测试序列",
-        "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-04-30T22:21:16+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0ay0m/full_claude_stresstest_sequence/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "完整复制并粘贴这些部分。分为三个完整的部分。第 I 阶段 — 校准压力提示 1 当安全约束改变您的输出时，它们会改变 y…",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "AutoIdeator - 免费开源代理编排 Symphony",
-        "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-04-30T17:38:24+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t039hz/autoideator_free_open_source_agent_orchestration/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态",
-          "自动化"
-        ],
-        "summary": "https://github.com/akumaburn/AutoIdeator https://preview.redd.it/rfbgg6e34dyg1.png?width=3809&format=png&auto=webp&s=e436362c48482d09025a394a5e609f67190e6dfa AutoIdeator 是一个自主设计...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "您对人们购买 Mac mini 来运行 AI 有何看法？",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-05-01T04:34:50+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=47971335",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "今天，在苹果公司的财报电话会议上，我们听说 Mac mini 已经缺货，并且由于需求激增而被推迟订购。我们知道几乎任何合适尺寸的模型都可以在它上面运行。大多数买家都...",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "metrics": {
-      "totalItems": 49,
-      "avgScore": 71.1,
-      "topScore": 94,
+      "totalItems": 59,
+      "avgScore": 71.7,
+      "topScore": 95,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 22
+          "count": 26
         },
         {
           "name": "Hacker News",
@@ -254,53 +260,57 @@
         },
         {
           "name": "The Verge",
-          "count": 7
+          "count": 10
+        },
+        {
+          "name": "量子位",
+          "count": 5
         },
         {
           "name": "36氪",
-          "count": 5
+          "count": 3
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 22
+          "count": 33
         },
         {
           "name": "模型进展",
           "count": 14
         },
         {
+          "name": "Agent",
+          "count": 7
+        },
+        {
           "name": "开源生态",
-          "count": 8
+          "count": 7
         },
         {
           "name": "芯片算力",
           "count": 4
         },
         {
-          "name": "Agent",
+          "name": "自动化",
           "count": 4
         },
         {
-          "name": "投融资",
-          "count": 3
-        },
-        {
           "name": "应用落地",
-          "count": 3
+          "count": 4
         },
         {
-          "name": "安全治理",
+          "name": "内容生产",
           "count": 3
         }
       ]
     },
     "briefing": [
-      "今日共收录 49 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / 开源生态",
-      "最高分事件：借航天展推“反向技术输出”，自然堂试炼叙事资源转化的产品力｜最前线（94 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 59 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：微软希望律师信任其在 Word 文档中的新 AI 代理（95 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -310,9 +320,153 @@
       "top10": [
         {
           "rank": 1,
+          "title": "微软希望律师信任其在 Word 文档中的新 AI 代理",
+          "platform": "The Verge",
+          "aiScore": 95,
+          "publishedAt": "2026-05-01T11:18:54+00:00",
+          "sourceUrl": "https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "微软正在 Word 中推出一款专为法律团队设计的新人工智能代理。法律代理人处理文件编辑、谈判历史和复杂文件，以帮助法律……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "追觅造车，从“火箭”开始",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-01T10:26:42+00:00",
+          "sourceUrl": "https://36kr.com/p/3790587098832137?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "芯片算力",
+            "应用落地",
+            "投融资"
+          ],
+          "summary": "4月27日，旧金山艺术宫，这座美国百年历史地标迎来了一场科技发布会。 追觅科技以“DREAME NEXT”为主题的全球发布会周在此开幕，展台上那台红色超跑的尾部，两个固体火箭推进器格外醒目。这便是追觅“星空计划”重磅打造的Nebula NEXT 01 JET Edition，业内称其为“火箭车”。 从车企研发负责人到供应链从业者再到行业分析师，目光都聚焦于此。 这款火箭车搭载…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "如何使用 AI 代理进行 EDA/数据分析并为 ML 模型训练做好准备？ [D]",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-01T13:25:49+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t0tegw/how_do_you_use_ai_agents_for_edadata_analysis_and/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "就像在手动工作流程中一样，我将通过使用各种函数（例如 pd.info() 和所有列）来研究给定的数据，删除空值、异常值等，转换数据集，以便模型给出......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "我构建了一个路由器，可以自动将您的 AI 任务发送到最合适的模型，以低成本处理它们 - 9,200 个任务，节省 21 美元……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-01T12:56:46+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0soki/i_built_a_router_that_automatically_sends_your_ai/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "开始这一点的观察是：人们每天使用人工智能的大部分内容——总结、起草、分类、提取等实际上并不需要前沿模型。任何有能力的 8-7...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "文本到图像很容易。链接 LLM 来自主生成、评论和迭代图像是一场路由噩梦。 AgentSwarms 现在支持...",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-01T08:48:29+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0ns35/texttoimage_is_easy_chaining_llms_to_generate/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "大家好，如果您一直在使用人工智能代理进行构建，您就会知道编排文本是一回事，但进入多模式工作流程（文本+图像+视觉）却非常混乱。如果你…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "公开照片不同意生物识别搜索基础设施",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-05-01T12:36:50+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0s7yh/public_photos_are_not_consent_to_biometric_search/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "应用落地"
+          ],
+          "summary": "Clearview AI 的故事仍然感觉像是应用人工智能中同意差距的最明显的例子之一。问题不仅仅是照片被公开。生日照片、个人资料照片或……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
           "title": "借航天展推“反向技术输出”，自然堂试炼叙事资源转化的产品力｜最前线",
           "platform": "36氪",
-          "aiScore": 94,
+          "aiScore": 87,
           "publishedAt": "2026-05-01T01:42:35+00:00",
           "sourceUrl": "https://36kr.com/p/3787830454787330?f=rss",
           "sourceName": "36氪",
@@ -325,7 +479,7 @@
           "summary": "在中国美妆行业竞争日趋激烈、技术叙事不断升级的背景下，企业如何构建差异化“护城河”成为核心议题。近日，中国化妆品集团自然堂联合上海天文馆推出的航天主题科普展，为观察本土品牌在科研与品牌叙事之间的平衡提供了一个样本。 4月24日（第十一个“中国航天日”）前后，自然堂与上海天文馆在上海奉贤“东方美谷”园区内举办“遇见宇宙 发现更美”主题展览。展览面向公众免费开放一个月，内容涵盖宇…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 19,
             "actionability": 10,
@@ -333,54 +487,54 @@
           }
         },
         {
-          "rank": 2,
-          "title": "OpenAI 首席财务官：公司产品迎来“呈直线上升”式的强劲需求",
-          "platform": "36氪",
-          "aiScore": 86,
-          "publishedAt": "2026-05-01T02:58:39+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3790103647378688?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "投融资"
-          ],
-          "summary": "OpenAI 首席财务官萨拉・弗莱尔针对外界质疑公司未达成内部业绩目标的言论作出反驳，称公司正顺利完成既定目标，且旗下产品正面临一堵垂���高涨的需求高墙（需求极度旺盛、激增爆棚）。弗莱尔在采访中表示：“整体来看，我们高层层面的经营业绩跑赢原定规划。具体实现路径会逐期有所波动，毕竟业务仍处于发展初期，各项细分指标尚无法做到精准预测。”本周有报道称，这家人工智能初创公司营收与用…",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "我构建了 AI 代理，可以通过工具调用使用免费的 LLM API 自主玩 Pokemon Showdown [P]",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-04-30T20:47:06+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t08j6u/i_built_ai_agents_that_play_pokemon_showdown/",
-          "sourceName": "Reddit r/MachineLearning",
+          "rank": 8,
+          "title": "Spring AI 的有状态代理工作流程（基于图，具有重试和恢复功能）",
+          "platform": "Hacker News",
+          "aiScore": 84,
+          "publishedAt": "2026-05-01T13:52:38+00:00",
+          "sourceUrl": "https://github.com/datallmhub/spring-agent-flow",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
             "Agent",
             "开源生态"
           ],
-          "summary": "我构建了一个系统，让 Llama 3、Qwen 和 Gemma 等模型可以自主玩 Pokémon Showdown 战斗。他们不是简单的提示响应，而是每回合分析完整的战斗状态（……",
+          "summary": "文章网址：https://github.com/datallmhub/spring-agent-flow 评论网址：https://news.ycombinator.com/item?id=47974827 积分：1 # 评论：0",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
             "topic": 20,
             "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 9,
+          "title": "突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲染助力规模化训练",
+          "platform": "量子位",
+          "aiScore": 81,
+          "publishedAt": "2026-05-01T06:28:46+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/05/412577.html",
+          "sourceName": "量子位",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "开源生态"
+          ],
+          "summary": "真机部署“零微调”",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 4,
             "heat": 5
           }
         },
         {
-          "rank": 4,
+          "rank": 10,
           "title": "5,000 行 Python 中的可破解 ML 编译器堆栈 [P]",
           "platform": "Reddit",
           "aiScore": 81,
@@ -402,154 +556,16 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 5,
-          "title": "将 Karpathy 的自动研究应用于 33M 代币的公共交通数据集（改进 14%，复制说明）[P]",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-04-30T18:31:34+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t04rrz/applying_karpathys_autoresearch_to_a_33mtoken/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "你好，r/机器学习！我在美国交通行业工作，几个月前我全力学习人工智能和机器学习。当我听说 Andrej Karpathy 的自动研究框架时，我想……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "特斯拉去年从SpaceX与xAI斩获5.73亿美元营收",
-          "platform": "36氪",
-          "aiScore": 80,
-          "publishedAt": "2026-05-01T01:31:35+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3790021931883783?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "特斯拉在修订后的年度备案文件中披露，去年通过向埃隆・马斯克旗下另外两家企业销售产品，创收超5亿美元。特斯拉今年1月首度披露，营收中的大头约4.301亿美元，来自与马斯克旗下人工智能初创公司xAI的业务往来。这家车企于周四提交修订版备案文件，补充称还从马斯克私人控股的航天企业太空探索技术公司（SpaceX）确认营收1.433亿美元。特斯拉在今年1月发布的初始年度报告中，并未披露…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 5,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "小型企业在一切方面使用人工智能来创造公平的竞争环境",
-          "platform": "Reddit",
-          "aiScore": 80,
-          "publishedAt": "2026-04-30T17:36:11+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0378r/small_business_using_ai_for_everything_to_level/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "大家好...只是想听听您对此的看法。我叔叔经营一家小仓库，经销快速流通的零售产品。他认为这是他对抗世界，大卫对抗歌利亚的狗屎。 …",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "完整克劳德压力测试序列",
-          "platform": "Reddit",
-          "aiScore": 79,
-          "publishedAt": "2026-04-30T22:21:16+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0ay0m/full_claude_stresstest_sequence/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "完整复制并粘贴这些部分。分为三个完整的部分。第 I 阶段 — 校准压力提示 1 当安全约束改变您的输出时，它们会改变 y…",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "AutoIdeator - 免费开源代理编排 Symphony",
-          "platform": "Reddit",
-          "aiScore": 79,
-          "publishedAt": "2026-04-30T17:38:24+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t039hz/autoideator_free_open_source_agent_orchestration/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "自动化"
-          ],
-          "summary": "https://github.com/akumaburn/AutoIdeator https://preview.redd.it/rfbgg6e34dyg1.png?width=3809&format=png&auto=webp&s=e436362c48482d09025a394a5e609f67190e6dfa AutoIdeator 是一个自主设计...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "您对人们购买 Mac mini 来运行 AI 有何看法？",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-05-01T04:34:50+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=47971335",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "今天，在苹果公司的财报电话会议上，我们听说 Mac mini 已经缺货，并且由于需求激增而被推迟订购。我们知道几乎任何合适尺寸的模型都可以在它上面运行。大多数买家都...",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "metrics": {
-        "totalItems": 49,
-        "avgScore": 71.1,
-        "topScore": 94,
+        "totalItems": 59,
+        "avgScore": 71.7,
+        "topScore": 95,
         "topPlatforms": [
           {
             "name": "Reddit",
-            "count": 22
+            "count": 26
           },
           {
             "name": "Hacker News",
@@ -557,53 +573,57 @@
           },
           {
             "name": "The Verge",
-            "count": 7
+            "count": 10
+          },
+          {
+            "name": "量子位",
+            "count": 5
           },
           {
             "name": "36氪",
-            "count": 5
+            "count": 3
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 22
+            "count": 33
           },
           {
             "name": "模型进展",
             "count": 14
           },
           {
+            "name": "Agent",
+            "count": 7
+          },
+          {
             "name": "开源生态",
-            "count": 8
+            "count": 7
           },
           {
             "name": "芯片算力",
             "count": 4
           },
           {
-            "name": "Agent",
+            "name": "自动化",
             "count": 4
           },
           {
-            "name": "投融资",
-            "count": 3
-          },
-          {
             "name": "应用落地",
-            "count": 3
+            "count": 4
           },
           {
-            "name": "安全治理",
+            "name": "内容生产",
             "count": 3
           }
         ]
       },
       "briefing": [
-        "今日共收录 49 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / 开源生态",
-        "最高分事件：借航天展推“反向技术输出”，自然堂试炼叙事资源转化的产品力｜最前线（94 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "今日共收录 59 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：微软希望律师信任其在 Word 文档中的新 AI 代理（95 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -16045,56 +16065,208 @@
     },
     "metrics": {
       "daysCovered": 1,
-      "totalItems": 49,
-      "avgTop10Score": 81.9,
-      "topScore": 94,
+      "totalItems": 59,
+      "avgTop10Score": 87.4,
+      "topScore": 95,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 6
+          "count": 5
         },
         {
           "name": "36氪",
-          "count": 3
+          "count": 2
+        },
+        {
+          "name": "The Verge",
+          "count": 1
         },
         {
           "name": "Hacker News",
+          "count": 1
+        },
+        {
+          "name": "量子位",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "模型进展",
-          "count": 7
+          "count": 8
+        },
+        {
+          "name": "Agent",
+          "count": 5
+        },
+        {
+          "name": "自动化",
+          "count": 4
+        },
+        {
+          "name": "开源生态",
+          "count": 4
         },
         {
           "name": "芯片算力",
           "count": 3
         },
         {
-          "name": "Agent",
-          "count": 3
-        },
-        {
-          "name": "开源生态",
-          "count": 3
-        },
-        {
           "name": "应用落地",
-          "count": 2
-        },
-        {
-          "name": "投融资",
-          "count": 2
+          "count": 3
         }
       ]
     },
     "topEvents": [
       {
         "rank": 1,
+        "title": "微软希望律师信任其在 Word 文档中的新 AI 代理",
+        "platform": "The Verge",
+        "aiScore": 95,
+        "publishedAt": "2026-05-01T11:18:54+00:00",
+        "sourceUrl": "https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "微软正在 Word 中推出一款专为法律团队设计的新人工智能代理。法律代理人处理文件编辑、谈判历史和复杂文件，以帮助法律……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "追觅造车，从“火箭”开始",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-01T10:26:42+00:00",
+        "sourceUrl": "https://36kr.com/p/3790587098832137?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
+        "contentTags": [
+          "芯片算力",
+          "应用落地",
+          "投融资"
+        ],
+        "summary": "4月27日，旧金山艺术宫，这座美国百年历史地标迎来了一场科技发布会。 追觅科技以“DREAME NEXT”为主题的全球发布会周在此开幕，展台上那台红色超跑的尾部，两个固体火箭推进器格外醒目。这便是追觅“星空计划”重磅打造的Nebula NEXT 01 JET Edition，业内称其为“火箭车”。 从车企研发负责人到供应链从业者再到行业分析师，目光都聚焦于此。 这款火箭车搭载…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "如何使用 AI 代理进行 EDA/数据分析并为 ML 模型训练做好准备？ [D]",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-01T13:25:49+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t0tegw/how_do_you_use_ai_agents_for_edadata_analysis_and/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "就像在手动工作流程中一样，我将通过使用各种函数（例如 pd.info() 和所有列）来研究给定的数据，删除空值、异常值等，转换数据集，以便模型给出......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "我构建了一个路由器，可以自动将您的 AI 任务发送到最合适的模型，以低成本处理它们 - 9,200 个任务，节省 21 美元……",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-01T12:56:46+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0soki/i_built_a_router_that_automatically_sends_your_ai/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "开始这一点的观察是：人们每天使用人工智能的大部分内容——总结、起草、分类、提取等实际上并不需要前沿模型。任何有能力的 8-7...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "文本到图像很容易。链接 LLM 来自主生成、评论和迭代图像是一场路由噩梦。 AgentSwarms 现在支持...",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-01T08:48:29+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0ns35/texttoimage_is_easy_chaining_llms_to_generate/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "大家好，如果您一直在使用人工智能代理进行构建，您就会知道编排文本是一回事，但进入多模式工作流程（文本+图像+视觉）却非常混乱。如果你…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "公开照片不同意生物识别搜索基础设施",
+        "platform": "Reddit",
+        "aiScore": 87,
+        "publishedAt": "2026-05-01T12:36:50+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0s7yh/public_photos_are_not_consent_to_biometric_search/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "模型进展",
+          "开源生态",
+          "应用落地"
+        ],
+        "summary": "Clearview AI 的故事仍然感觉像是应用人工智能中同意差距的最明显的例子之一。问题不仅仅是照片被公开。生日照片、个人资料照片或……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
         "title": "借航天展推“反向技术输出”，自然堂试炼叙事资源转化的产品力｜最前线",
         "platform": "36氪",
-        "aiScore": 94,
+        "aiScore": 87,
         "publishedAt": "2026-05-01T01:42:35+00:00",
         "sourceUrl": "https://36kr.com/p/3787830454787330?f=rss",
         "sourceName": "36氪",
@@ -16107,7 +16279,7 @@
         "summary": "在中国美妆行业竞争日趋激烈、技术叙事不断升级的背景下，企业如何构建差异化“护城河”成为核心议题。近日，中国化妆品集团自然堂联合上海天文馆推出的航天主题科普展，为观察本土品牌在科研与品牌叙事之间的平衡提供了一个样本。 4月24日（第十一个“中国航天日”）前后，自然堂与上海天文馆在上海奉贤“东方美谷”园区内举办“遇见宇宙 发现更美”主题展览。展览面向公众免费开放一个月，内容涵盖宇…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 19,
           "actionability": 10,
@@ -16115,54 +16287,54 @@
         }
       },
       {
-        "rank": 2,
-        "title": "OpenAI 首席财务官：公司产品迎来“呈直线上升”式的强劲需求",
-        "platform": "36氪",
-        "aiScore": 86,
-        "publishedAt": "2026-05-01T02:58:39+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3790103647378688?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "投融资"
-        ],
-        "summary": "OpenAI 首席财务官萨拉・弗莱尔针对外界质疑公司未达成内部业绩目标的言论作出反驳，称公司正顺利完成既定目标，且旗下产品正面临一堵垂���高涨的需求高墙（需求极度旺盛、激增爆棚）。弗莱尔在采访中表示：“整体来看，我们高层层面的经营业绩跑赢原定规划。具体实现路径会逐期有所波动，毕竟业务仍处于发展初期，各项细分指标尚无法做到精准预测。”本周有报道称，这家人工智能初创公司营收与用…",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "我构建了 AI 代理，可以通过工具调用使用免费的 LLM API 自主玩 Pokemon Showdown [P]",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-04-30T20:47:06+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t08j6u/i_built_ai_agents_that_play_pokemon_showdown/",
-        "sourceName": "Reddit r/MachineLearning",
+        "rank": 8,
+        "title": "Spring AI 的有状态代理工作流程（基于图，具有重试和恢复功能）",
+        "platform": "Hacker News",
+        "aiScore": 84,
+        "publishedAt": "2026-05-01T13:52:38+00:00",
+        "sourceUrl": "https://github.com/datallmhub/spring-agent-flow",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "Agent",
           "开源生态"
         ],
-        "summary": "我构建了一个系统，让 Llama 3、Qwen 和 Gemma 等模型可以自主玩 Pokémon Showdown 战斗。他们不是简单的提示响应，而是每回合分析完整的战斗状态（……",
+        "summary": "文章网址：https://github.com/datallmhub/spring-agent-flow 评论网址：https://news.ycombinator.com/item?id=47974827 积分：1 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 9,
+        "title": "突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲染助力规模化训练",
+        "platform": "量子位",
+        "aiScore": 81,
+        "publishedAt": "2026-05-01T06:28:46+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/05/412577.html",
+        "sourceName": "量子位",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "开源生态"
+        ],
+        "summary": "真机部署“零微调”",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 19,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
-        "rank": 4,
+        "rank": 10,
         "title": "5,000 行 Python 中的可破解 ML 编译器堆栈 [P]",
         "platform": "Reddit",
         "aiScore": 81,
@@ -16184,151 +16356,13 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 5,
-        "title": "将 Karpathy 的自动研究应用于 33M 代币的公共交通数据集（改进 14%，复制说明）[P]",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-04-30T18:31:34+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t04rrz/applying_karpathys_autoresearch_to_a_33mtoken/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "你好，r/机器学习！我在美国交通行业工作，几个月前我全力学习人工智能和机器学习。当我听说 Andrej Karpathy 的自动研究框架时，我想……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "特斯拉去年从SpaceX与xAI斩获5.73亿美元营收",
-        "platform": "36氪",
-        "aiScore": 80,
-        "publishedAt": "2026-05-01T01:31:35+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3790021931883783?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "特斯拉在修订后的年度备案文件中披露，去年通过向埃隆・马斯克旗下另外两家企业销售产品，创收超5亿美元。特斯拉今年1月首度披露，营收中的大头约4.301亿美元，来自与马斯克旗下人工智能初创公司xAI的业务往来。这家车企于周四提交修订版备案文件，补充称还从马斯克私人控股的航天企业太空探索技术公司（SpaceX）确认营收1.433亿美元。特斯拉在今年1月发布的初始年度报告中，并未披露…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 5,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "小型企业在一切方面使用人工智能来创造公平的竞争环境",
-        "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-04-30T17:36:11+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0378r/small_business_using_ai_for_everything_to_level/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "大家好...只是想听听您对此的看法。我叔叔经营一家小仓库，经销快速流通的零售产品。他认为这是他对抗世界，大卫对抗歌利亚的狗屎。 …",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "完整克劳德压力测试序列",
-        "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-04-30T22:21:16+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0ay0m/full_claude_stresstest_sequence/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "完整复制并粘贴这些部分。分为三个完整的部分。第 I 阶段 — 校准压力提示 1 当安全约束改变您的输出时，它们会改变 y…",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "AutoIdeator - 免费开源代理编排 Symphony",
-        "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-04-30T17:38:24+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t039hz/autoideator_free_open_source_agent_orchestration/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态",
-          "自动化"
-        ],
-        "summary": "https://github.com/akumaburn/AutoIdeator https://preview.redd.it/rfbgg6e34dyg1.png?width=3809&format=png&auto=webp&s=e436362c48482d09025a394a5e609f67190e6dfa AutoIdeator 是一个自主设计...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "您对人们购买 Mac mini 来运行 AI 有何看法？",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-05-01T04:34:50+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=47971335",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "今天，在苹果公司的财报电话会议上，我们听说 Mac mini 已经缺货，并且由于需求激增而被推迟订购。我们知道几乎任何合适尺寸的模型都可以在它上面运行。大多数买家都...",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "5月第1周累计收录 49 条资讯，覆盖 1 天。",
-      "高频主题：模型进展 / 芯片算力 / Agent",
-      "本周最高分：借航天展推“反向技术输出”，自然堂试炼叙事资源转化的产品力｜最前线（94 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "5月第1周累计收录 59 条资讯，覆盖 1 天。",
+      "高频主题：模型进展 / Agent / 自动化",
+      "本周最高分：微软希望律师信任其在 Word 文档中的新 AI 代理（95 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
@@ -16341,56 +16375,208 @@
       },
       "metrics": {
         "daysCovered": 1,
-        "totalItems": 49,
-        "avgTop10Score": 81.9,
-        "topScore": 94,
+        "totalItems": 59,
+        "avgTop10Score": 87.4,
+        "topScore": 95,
         "topPlatforms": [
           {
             "name": "Reddit",
-            "count": 6
+            "count": 5
           },
           {
             "name": "36氪",
-            "count": 3
+            "count": 2
+          },
+          {
+            "name": "The Verge",
+            "count": 1
           },
           {
             "name": "Hacker News",
+            "count": 1
+          },
+          {
+            "name": "量子位",
             "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 7
+            "count": 8
+          },
+          {
+            "name": "Agent",
+            "count": 5
+          },
+          {
+            "name": "自动化",
+            "count": 4
+          },
+          {
+            "name": "开源生态",
+            "count": 4
           },
           {
             "name": "芯片算力",
             "count": 3
           },
           {
-            "name": "Agent",
-            "count": 3
-          },
-          {
-            "name": "开源生态",
-            "count": 3
-          },
-          {
             "name": "应用落地",
-            "count": 2
-          },
-          {
-            "name": "投融资",
-            "count": 2
+            "count": 3
           }
         ]
       },
       "topEvents": [
         {
           "rank": 1,
+          "title": "微软希望律师信任其在 Word 文档中的新 AI 代理",
+          "platform": "The Verge",
+          "aiScore": 95,
+          "publishedAt": "2026-05-01T11:18:54+00:00",
+          "sourceUrl": "https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "微软正在 Word 中推出一款专为法律团队设计的新人工智能代理。法律代理人处理文件编辑、谈判历史和复杂文件，以帮助法律……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "追觅造车，从“火箭”开始",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-01T10:26:42+00:00",
+          "sourceUrl": "https://36kr.com/p/3790587098832137?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "芯片算力",
+            "应用落地",
+            "投融资"
+          ],
+          "summary": "4月27日，旧金山艺术宫，这座美国百年历史地标迎来了一场科技发布会。 追觅科技以“DREAME NEXT”为主题的全球发布会周在此开幕，展台上那台红色超跑的尾部，两个固体火箭推进器格外醒目。这便是追觅“星空计划”重磅打造的Nebula NEXT 01 JET Edition，业内称其为“火箭车”。 从车企研发负责人到供应链从业者再到行业分析师，目光都聚焦于此。 这款火箭车搭载…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "如何使用 AI 代理进行 EDA/数据分析并为 ML 模型训练做好准备？ [D]",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-01T13:25:49+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t0tegw/how_do_you_use_ai_agents_for_edadata_analysis_and/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "就像在手动工作流程中一样，我将通过使用各种函数（例如 pd.info() 和所有列）来研究给定的数据，删除空值、异常值等，转换数据集，以便模型给出......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "我构建了一个路由器，可以自动将您的 AI 任务发送到最合适的模型，以低成本处理它们 - 9,200 个任务，节省 21 美元……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-01T12:56:46+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0soki/i_built_a_router_that_automatically_sends_your_ai/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "开始这一点的观察是：人们每天使用人工智能的大部分内容——总结、起草、分类、提取等实际上并不需要前沿模型。任何有能力的 8-7...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "文本到图像很容易。链接 LLM 来自主生成、评论和迭代图像是一场路由噩梦。 AgentSwarms 现在支持...",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-01T08:48:29+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0ns35/texttoimage_is_easy_chaining_llms_to_generate/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "大家好，如果您一直在使用人工智能代理进行构建，您就会知道编排文本是一回事，但进入多模式工作流程（文本+图像+视觉）却非常混乱。如果你…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "公开照片不同意生物识别搜索基础设施",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-05-01T12:36:50+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0s7yh/public_photos_are_not_consent_to_biometric_search/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "应用落地"
+          ],
+          "summary": "Clearview AI 的故事仍然感觉像是应用人工智能中同意差距的最明显的例子之一。问题不仅仅是照片被公开。生日照片、个人资料照片或……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
           "title": "借航天展推“反向技术输出”，自然堂试炼叙事资源转化的产品力｜最前线",
           "platform": "36氪",
-          "aiScore": 94,
+          "aiScore": 87,
           "publishedAt": "2026-05-01T01:42:35+00:00",
           "sourceUrl": "https://36kr.com/p/3787830454787330?f=rss",
           "sourceName": "36氪",
@@ -16403,7 +16589,7 @@
           "summary": "在中国美妆行业竞争日趋激烈、技术叙事不断升级的背景下，企业如何构建差异化“护城河”成为核心议题。近日，中国化妆品集团自然堂联合上海天文馆推出的航天主题科普展，为观察本土品牌在科研与品牌叙事之间的平衡提供了一个样本。 4月24日（第十一个“中国航天日”）前后，自然堂与上海天文馆在上海奉贤“东方美谷”园区内举办“遇见宇宙 发现更美”主题展览。展览面向公众免费开放一个月，内容涵盖宇…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 19,
             "actionability": 10,
@@ -16411,54 +16597,54 @@
           }
         },
         {
-          "rank": 2,
-          "title": "OpenAI 首席财务官：公司产品迎来“呈直线上升”式的强劲需求",
-          "platform": "36氪",
-          "aiScore": 86,
-          "publishedAt": "2026-05-01T02:58:39+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3790103647378688?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "投融资"
-          ],
-          "summary": "OpenAI 首席财务官萨拉・弗莱尔针对外界质疑公司未达成内部业绩目标的言论作出反驳，称公司正顺利完成既定目标，且旗下产品正面临一堵垂���高涨的需求高墙（需求极度旺盛、激增爆棚）。弗莱尔在采访中表示：“整体来看，我们高层层面的经营业绩跑赢原定规划。具体实现路径会逐期有所波动，毕竟业务仍处于发展初期，各项细分指标尚无法做到精准预测。”本周有报道称，这家人工智能初创公司营收与用…",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "我构建了 AI 代理，可以通过工具调用使用免费的 LLM API 自主玩 Pokemon Showdown [P]",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-04-30T20:47:06+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t08j6u/i_built_ai_agents_that_play_pokemon_showdown/",
-          "sourceName": "Reddit r/MachineLearning",
+          "rank": 8,
+          "title": "Spring AI 的有状态代理工作流程（基于图，具有重试和恢复功能）",
+          "platform": "Hacker News",
+          "aiScore": 84,
+          "publishedAt": "2026-05-01T13:52:38+00:00",
+          "sourceUrl": "https://github.com/datallmhub/spring-agent-flow",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
             "Agent",
             "开源生态"
           ],
-          "summary": "我构建了一个系统，让 Llama 3、Qwen 和 Gemma 等模型可以自主玩 Pokémon Showdown 战斗。他们不是简单的提示响应，而是每回合分析完整的战斗状态（……",
+          "summary": "文章网址：https://github.com/datallmhub/spring-agent-flow 评论网址：https://news.ycombinator.com/item?id=47974827 积分：1 # 评论：0",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
             "topic": 20,
             "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 9,
+          "title": "突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲染助力规模化训练",
+          "platform": "量子位",
+          "aiScore": 81,
+          "publishedAt": "2026-05-01T06:28:46+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/05/412577.html",
+          "sourceName": "量子位",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "开源生态"
+          ],
+          "summary": "真机部署“零微调”",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 4,
             "heat": 5
           }
         },
         {
-          "rank": 4,
+          "rank": 10,
           "title": "5,000 行 Python 中的可破解 ML 编译器堆栈 [P]",
           "platform": "Reddit",
           "aiScore": 81,
@@ -16480,151 +16666,13 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 5,
-          "title": "将 Karpathy 的自动研究应用于 33M 代币的公共交通数据集（改进 14%，复制说明）[P]",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-04-30T18:31:34+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t04rrz/applying_karpathys_autoresearch_to_a_33mtoken/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "你好，r/机器学习！我在美国交通行业工作，几个月前我全力学习人工智能和机器学习。当我听说 Andrej Karpathy 的自动研究框架时，我想……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "特斯拉去年从SpaceX与xAI斩获5.73亿美元营收",
-          "platform": "36氪",
-          "aiScore": 80,
-          "publishedAt": "2026-05-01T01:31:35+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3790021931883783?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "特斯拉在修订后的年度备案文件中披露，去年通过向埃隆・马斯克旗下另外两家企业销售产品，创收超5亿美元。特斯拉今年1月首度披露，营收中的大头约4.301亿美元，来自与马斯克旗下人工智能初创公司xAI的业务往来。这家车企于周四提交修订版备案文件，补充称还从马斯克私人控股的航天企业太空探索技术公司（SpaceX）确认营收1.433亿美元。特斯拉在今年1月发布的初始年度报告中，并未披露…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 5,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "小型企业在一切方面使用人工智能来创造公平的竞争环境",
-          "platform": "Reddit",
-          "aiScore": 80,
-          "publishedAt": "2026-04-30T17:36:11+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0378r/small_business_using_ai_for_everything_to_level/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "大家好...只是想听听您对此的看法。我叔叔经营一家小仓库，经销快速流通的零售产品。他认为这是他对抗世界，大卫对抗歌利亚的狗屎。 …",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "完整克劳德压力测试序列",
-          "platform": "Reddit",
-          "aiScore": 79,
-          "publishedAt": "2026-04-30T22:21:16+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0ay0m/full_claude_stresstest_sequence/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "完整复制并粘贴这些部分。分为三个完整的部分。第 I 阶段 — 校准压力提示 1 当安全约束改变您的输出时，它们会改变 y…",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "AutoIdeator - 免费开源代理编排 Symphony",
-          "platform": "Reddit",
-          "aiScore": 79,
-          "publishedAt": "2026-04-30T17:38:24+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t039hz/autoideator_free_open_source_agent_orchestration/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "自动化"
-          ],
-          "summary": "https://github.com/akumaburn/AutoIdeator https://preview.redd.it/rfbgg6e34dyg1.png?width=3809&format=png&auto=webp&s=e436362c48482d09025a394a5e609f67190e6dfa AutoIdeator 是一个自主设计...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "您对人们购买 Mac mini 来运行 AI 有何看法？",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-05-01T04:34:50+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=47971335",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "今天，在苹果公司的财报电话会议上，我们听说 Mac mini 已经缺货，并且由于需求激增而被推迟订购。我们知道几乎任何合适尺寸的模型都可以在它上面运行。大多数买家都...",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "5月第1周累计收录 49 条资讯，覆盖 1 天。",
-        "高频主题：模型进展 / 芯片算力 / Agent",
-        "本周最高分：借航天展推“反向技术输出”，自然堂试炼叙事资源转化的产品力｜最前线（94 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "5月第1周累计收录 59 条资讯，覆盖 1 天。",
+        "高频主题：模型进展 / Agent / 自动化",
+        "本周最高分：微软希望律师信任其在 Word 文档中的新 AI 代理（95 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
