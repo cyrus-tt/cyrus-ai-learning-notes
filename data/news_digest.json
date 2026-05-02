@@ -1,41 +1,65 @@
 {
-  "generatedAt": "2026-05-02T04:17:27.163996+00:00",
+  "generatedAt": "2026-05-02T14:09:41.252927+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-05-02",
     "label": "5月2日",
     "top10": [
       {
-        "rank": 3,
-        "title": "马斯克翻车了！一边告OpenAI，一边偷偷蒸馏ChatGPT",
+        "rank": 1,
+        "title": "卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线",
         "platform": "36氪",
-        "aiScore": 93,
-        "publishedAt": "2026-05-02T01:25:01+00:00",
-        "sourceUrl": "https://36kr.com/p/3791460373929221?f=rss",
+        "aiScore": 95,
+        "publishedAt": "2026-05-02T13:17:06+00:00",
+        "sourceUrl": "https://36kr.com/p/3789475357400068?f=rss",
         "sourceName": "36氪",
         "industryStage": "中游",
         "contentTags": [
+          "芯片算力",
           "模型进展",
-          "开源生态",
-          "投融资"
+          "Agent"
         ],
-        "summary": "编辑：桃子 【新智元导读】大型翻车现场！起诉OpenAI「背叛使命」的马斯克，竟亲口承认自家Grok模型蒸馏了ChatGPT。 对薄公堂第四天，马斯克爆出了大瓜！ 4月30日，加州奥克兰联邦法院，马斯克诉OpenAI案进入第四天。 现场，OpenAI首席律师William Savitt站起来，问了一个让整个法庭安静了三秒的问题： xAI是否蒸馏了OpenAI的模型？ 马斯克先…",
+        "summary": "文｜肖漫 编辑｜李勤 当下的智能汽车领域，物理 AI 已成为高频词汇，绝大多数智能驾驶算法厂商都在往“物理AI”转型。 卓驭在北京车展上也发布了面向移动物理 AI 的原生多模态基础模型。在卓驭科技副总裁于贝贝看来，算法厂商向物理AI转型不是为了迎合资本市场而编织的想象空间，而是一条关乎厂商存亡的生存法则。 “如果不上这条技术路线，很可能今后就跑不出来了。”于贝贝说。 在新的竞…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
-          "topic": 18,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "使用这种自我修改代理系统，我将 Claude API 成本降低了 50%",
+        "title": "在硅谷，中美具身公司聊了聊了4个问题的解法",
+        "platform": "36氪",
+        "aiScore": 94,
+        "publishedAt": "2026-05-02T13:01:36+00:00",
+        "sourceUrl": "https://36kr.com/p/3792155815304450?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
+        "contentTags": [
+          "模型进展",
+          "应用落地",
+          "内容生产"
+        ],
+        "summary": "文｜周鑫雨 编辑｜杨轩 规模化落地，今年的具身公司都在谈这个。 数字竞速，不约而同出现在具身公司的产线、招股书、出货量上——2026年4月以来，智元机器人宣布第1万台机器人量产下线，5000到10000，只用了三个多月；宇树科技的IPO招股书也摊开了激进商业化的一角：2025年营收17.07亿元，出货量超过5500台。 激进的数字背后，是“低价、高性能”的中国机器人在全球的扩…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "我们开源了 AI 代理配置管理工具——888 颗星，近 100 个分叉——请求社区反馈",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-05-02T04:15:50+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1fjek/i_cut_claude_api_costs_by_50_using_this_self/",
+        "publishedAt": "2026-05-02T09:27:30+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1l564/we_opensourced_our_ai_agent_config_management/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
@@ -43,7 +67,7 @@
           "Agent",
           "开源生态"
         ],
-        "summary": "我一直在开发一个自我修改的人工智能代理系统，它可以有效地将我的 Claude API 使用量减少一半，Claude 认为，然后我基本上只是复制/粘贴 Claude 的那个时代的指令......",
+        "summary": "我们一直在构建 Calibre 来解决 AI 代理配置管理问题，并将我们的完整设置作为开源发布。反响非常好——888 个 GitHub star 和接近 100 个分叉……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -54,24 +78,72 @@
         }
       },
       {
-        "rank": 5,
-        "title": "Sentient OS：一个定制的设备上视觉法学硕士，它了解您的整个数字生活（每个屏幕截图、笔记、文件、电子邮件...），而您的...",
+        "rank": 6,
+        "title": "社区一直在构建的开源 AI 代理配置存储库刚刚获得 888 颗星——寻求反馈和功能想法",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-05-02T00:56:18+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1bdq1/sentient_os_a_custom_ondevice_vision_llm_that/",
+        "publishedAt": "2026-05-02T09:17:24+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1kyx5/the_opensource_ai_agent_config_repo_the_community/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
           "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "99% 的“AI”应用程序只是 GPT 包装器，将您的数据传输到云 LLM 并将其称为产品。没有人创建过一个能够理解您整个数字生活（所有您的……）的智能层。",
+        "summary": "在过去的一年里，我们的团队和社区一直在构建 AI 代理配置的开源集合：生产就绪的系统提示、工具调用模式、RAG 设置、多代理或……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "“即时工程”证书就是一个笑话。因此，我们构建了一个免费的 Agentic AI 从业者考试，实际上迫使您构建工作群来……",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-02T08:36:54+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1k9mr/prompt_engineering_certs_are_a_joke_so_we_built_a/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "大家好，如果你看看现在的人工智能教育领域，你会发现里面充斥着基本的“提示工程”证书，你只需知道系统提示是什么就可以通过这些证书。但作为一个...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "又一算力独角兽，冲击IPO",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-05-02T07:38:58+00:00",
+        "sourceUrl": "https://36kr.com/p/3791796527602951?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "应用落地",
+          "投融资"
+        ],
+        "summary": "作者丨韦香惠 来源丨东四十条资本 A股即将迎来一只“算力独角兽”，估值已站上500亿元门槛。 主角是来自河南的超聚变数字技术股份有限公司。从今年1月提交上市辅导备案，到IPO辅导工作完成，仅用四个多月时间。 这家公司并非“从零起步”，其前身是华为X86服务器业务，2021年受外部环境影响被整体剥离，并独立运营。随后，河南超聚能科技有限公司成为控股股东，持股31.38%，后者大…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
           "topic": 20,
           "actionability": 10,
           "heat": 5
@@ -79,42 +151,43 @@
       },
       {
         "rank": 9,
-        "title": "续集没翻车 ，但这次“女魔头”也顶不住了",
+        "title": "苹果官方App误打包了Claude.md，这么大的公司也Vibe Coding啊？",
         "platform": "36氪",
-        "aiScore": 87,
-        "publishedAt": "2026-05-02T02:51:10+00:00",
-        "sourceUrl": "https://36kr.com/p/3791555958922504?f=rss",
+        "aiScore": 88,
+        "publishedAt": "2026-05-02T06:52:34+00:00",
+        "sourceUrl": "https://36kr.com/p/3791662444911617?f=rss",
         "sourceName": "36氪",
-        "industryStage": "中游",
+        "industryStage": "下游",
         "contentTags": [
-          "内容生产",
-          "投融资"
+          "模型进展",
+          "Agent",
+          "应用落地"
         ],
-        "summary": "图/《穿普拉达的女王2》 作者 | 易天天 编辑 | Felicia 题图 | 《穿普拉达的女王2》 再次回到《穿普拉达的女王》系列影片的片场，饰演米兰达的知名演员“梅姨”，也就是梅丽尔·斯特里普，心跳有点加速。 眼前是警察为安保设置的重重路障，街对面有数百上千名粉丝等着她和安妮·海瑟薇出现。平时不刷社交媒体的斯特里普，根本没预料到如此阵仗。她被突然推到镜头前，肾上腺素飙升，…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "梦晨 发自 凹非寺 苹果大失误！把自用的Claude.md打包到了官方App里。 这下直接被坐实了： 苹果内部在使用Claude Code构建生产级应用 。 这么大的公司，也在Vibe Coding？ 苹果内部在使用Claude Code构建生产级应用 项目级的Claude.md通常用来告诉AI这个项目是什么、怎么构建、要遵循哪些规范、避免哪些雷区…… 这家全球最注重保密的科…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
-          "topic": 12,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 10,
-        "title": "寻求有关 OpenVidya 的反馈：NCERT/CBSE 的开源 AI 课堂层 [R]",
+        "rank": 8,
+        "title": "作为一名 BTech 学生，我应该购买 Claude Pro吗——尤其是对于代理/编码方面？诚实需要通缉",
         "platform": "Reddit",
         "aiScore": 87,
-        "publishedAt": "2026-05-02T02:47:35+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t1dqwo/looking_for_feedback_on_openvidya_an_opensource/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
+        "publishedAt": "2026-05-02T13:16:39+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1pn7i/should_i_buy_claude_pro_as_a_btech_student/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
         "contentTags": [
           "Agent",
-          "开源生态",
-          "应用落地"
+          "应用落地",
+          "自动化"
         ],
-        "summary": "我一直在尝试一个名为 OpenVidya 的开源项目，它是 OpenMAIC 的一个分支。目标是适应印度教育的多智能体人工智能课堂生成，而不是……",
+        "summary": "大家好，我是一名 BTech（AI/ML）学生，正在考虑 Claude Pro（20 美元/月），但希望将真正的价值与营销分开。我想在……之前澄清一下我*认为*Pro 包含的内容。",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -125,135 +198,68 @@
         }
       },
       {
-        "rank": 6,
-        "title": "[R] 我们对所有 3 种代理支付协议 (x402/MPP/Lightning) 建立了索引。以下是 1,551 项服务的外观。 [R]",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-05-02T02:52:57+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t1duye/r_we_indexed_all_3_agent_payment_protocols/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "几周前，我发布了有关测试 x402 服务的文章，发现平均质量为 34/100。从那时起，一些人询问了其他协议（来自 Stripe 的 MPP、来自 Lightnin 的 L402……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "Meta收购机器人AI公司，加速布局人形机器人技术",
-        "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-05-02T01:56:47+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3791455361113344?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "Meta Platforms已完成对机器人人工智能初创公司Assured Robot Intelligence的收购，以加速其人形机器人技术的研发进程。该收购于5月1日完成，具体财务条款未予披露。Assured Robot Intelligence专注于为机器人开发AI模型，其技术旨在使机器人���够在复杂动态环境中理解、预测并适应人类行为。Meta发言人表示，该初创公司“处…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "Wirken：安全 AI 代理网关。加密金库。单个静态二进制文件",
-        "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-05-02T03:20:40+00:00",
-        "sourceUrl": "https://github.com/gebruder/wirken",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "文章网址：https://github.com/gebruder/wirken 评论网址：https://news.ycombinator.com/item?id=47982994 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
         "rank": 9,
-        "title": "AI 失调的开源诊断。模型不可知，行业不可知。免费运行。",
+        "title": "Uber 在 4 个月内耗尽了 2026 年全部 AI 编码预算——每位工程师每月 500-2000 美元",
         "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-05-01T18:54:37+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t12f08/opensource_diagnostic_for_ai_misalignment_model/",
+        "aiScore": 87,
+        "publishedAt": "2026-05-02T10:44:48+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1mhx6/uber_burned_its_entire_2026_ai_coding_budget_in_4/",
         "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
+        "industryStage": "上游",
         "contentTags": [
-          "模型进展",
-          "开源生态"
+          "Agent",
+          "应用落地"
         ],
-        "summary": "我们本周早些时候发货了 iFixAi。人工智能失调的开源诊断。涉及捏造、操纵、欺骗、不可预测性和不透明性的 32 项测试。开源且免费……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "Uber 于 2025 年 12 月向工程师部署了 Claude Code。到 2026 年 4 月，该公司已经耗尽了全部年度人工智能预算 - 不是因为该工具失败，而是因为采用速度很快……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 19,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "考虑用户感受的人工智能模型更容易出错",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-05-01T22:51:01+00:00",
-        "sourceUrl": "https://arstechnica.com/ai/2026/05/study-ai-models-that-consider-users-feeling-are-more-likely-to-make-errors/",
-        "sourceName": "Hacker News AI",
+        "title": "周杰伦伙伴，要被卖了",
+        "platform": "36氪",
+        "aiScore": 87,
+        "publishedAt": "2026-05-02T09:37:20+00:00",
+        "sourceUrl": "https://36kr.com/p/3791838183234816?f=rss",
+        "sourceName": "36氪",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展"
+          "内容生产",
+          "投融资"
         ],
-        "summary": "文章网址：https://arstechnica.com/ai/2026/05/study-ai-models-that-c​​onsider-users-feeling-are-more-likely-to-make-errors/ 评论网址：https://news.ycombinator.com/item?id=47981420 点...",
+        "summary": "图片来源：视觉中国 作者/吴琼 报道/投资界PEdaily 音乐顶流也迎来了卖身结局。 近日，华尔街大佬比尔·阿克曼旗下潘兴广场正式向环球音乐（UMG）发出一份收购要约——以现金加股票的方式收购环球音乐。由此，后者估值高达约640亿美元（约合人民币4300亿元）。 你或许不熟悉环球音乐，但一定听过来自这里的歌——周杰伦、陈奕迅、泰勒·斯威夫特、贾斯汀·比伯、防弹少年团……这些…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 10,
+          "authority": 25,
+          "topic": 12,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 37,
-      "avgScore": 72.8,
-      "topScore": 93,
+      "totalItems": 43,
+      "avgScore": 73.0,
+      "topScore": 95,
       "topPlatforms": [
+        {
+          "name": "Reddit",
+          "count": 19
+        },
         {
           "name": "Hacker News",
           "count": 15
         },
         {
-          "name": "Reddit",
-          "count": 14
-        },
-        {
           "name": "36氪",
-          "count": 6
+          "count": 7
         },
         {
           "name": "量子位",
@@ -267,42 +273,42 @@
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 16
-        },
-        {
-          "name": "开源生态",
-          "count": 9
+          "count": 20
         },
         {
           "name": "Agent",
-          "count": 7
-        },
-        {
-          "name": "模型进展",
-          "count": 6
-        },
-        {
-          "name": "安全治理",
-          "count": 3
+          "count": 11
         },
         {
           "name": "应用落地",
-          "count": 3
+          "count": 11
+        },
+        {
+          "name": "模型进展",
+          "count": 9
+        },
+        {
+          "name": "开源生态",
+          "count": 5
         },
         {
           "name": "内容生产",
-          "count": 2
+          "count": 4
         },
         {
           "name": "投融资",
-          "count": 2
+          "count": 4
+        },
+        {
+          "name": "自动化",
+          "count": 3
         }
       ]
     },
     "briefing": [
-      "今日共收录 37 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 开源生态 / Agent",
-      "最高分事件：马斯克翻车了！一边告OpenAI，一边偷偷蒸馏ChatGPT（93 分）",
+      "今日共收录 43 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 应用落地",
+      "最高分事件：卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线（95 分）",
       "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
@@ -312,36 +318,60 @@
       "label": "5月2日",
       "top10": [
         {
-          "rank": 3,
-          "title": "马斯克翻车了！一边告OpenAI，一边偷偷蒸馏ChatGPT",
+          "rank": 1,
+          "title": "卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线",
           "platform": "36氪",
-          "aiScore": 93,
-          "publishedAt": "2026-05-02T01:25:01+00:00",
-          "sourceUrl": "https://36kr.com/p/3791460373929221?f=rss",
+          "aiScore": 95,
+          "publishedAt": "2026-05-02T13:17:06+00:00",
+          "sourceUrl": "https://36kr.com/p/3789475357400068?f=rss",
           "sourceName": "36氪",
           "industryStage": "中游",
           "contentTags": [
+            "芯片算力",
             "模型进展",
-            "开源生态",
-            "投融资"
+            "Agent"
           ],
-          "summary": "编辑：桃子 【新智元导读】大型翻车现场！起诉OpenAI「背叛使命」的马斯克，竟亲口承认自家Grok模型蒸馏了ChatGPT。 对薄公堂第四天，马斯克爆出了大瓜！ 4月30日，加州奥克兰联邦法院，马斯克诉OpenAI案进入第四天。 现场，OpenAI首席律师William Savitt站起来，问了一个让整个法庭安静了三秒的问题： xAI是否蒸馏了OpenAI的模型？ 马斯克先…",
+          "summary": "文｜肖漫 编辑｜李勤 当下的智能汽车领域，物理 AI 已成为高频词汇，绝大多数智能驾驶算法厂商都在往“物理AI”转型。 卓驭在北京车展上也发布了面向移动物理 AI 的原生多模态基础模型。在卓驭科技副总裁于贝贝看来，算法厂商向物理AI转型不是为了迎合资本市场而编织的想象空间，而是一条关乎厂商存亡的生存法则。 “如果不上这条技术路线，很可能今后就跑不出来了。”于贝贝说。 在新的竞…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
-            "topic": 18,
+            "topic": 20,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 4,
-          "title": "使用这种自我修改代理系统，我将 Claude API 成本降低了 50%",
+          "title": "在硅谷，中美具身公司聊了聊了4个问题的解法",
+          "platform": "36氪",
+          "aiScore": 94,
+          "publishedAt": "2026-05-02T13:01:36+00:00",
+          "sourceUrl": "https://36kr.com/p/3792155815304450?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "模型进展",
+            "应用落地",
+            "内容生产"
+          ],
+          "summary": "文｜周鑫雨 编辑｜杨轩 规模化落地，今年的具身公司都在谈这个。 数字竞速，不约而同出现在具身公司的产线、招股书、出货量上——2026年4月以来，智元机器人宣布第1万台机器人量产下线，5000到10000，只用了三个多月；宇树科技的IPO招股书也摊开了激进商业化的一角：2025年营收17.07亿元，出货量超过5500台。 激进的数字背后，是“低价、高性能”的中国机器人在全球的扩…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "我们开源了 AI 代理配置管理工具——888 颗星，近 100 个分叉——请求社区反馈",
           "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-05-02T04:15:50+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1fjek/i_cut_claude_api_costs_by_50_using_this_self/",
+          "publishedAt": "2026-05-02T09:27:30+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1l564/we_opensourced_our_ai_agent_config_management/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
@@ -349,7 +379,7 @@
             "Agent",
             "开源生态"
           ],
-          "summary": "我一直在开发一个自我修改的人工智能代理系统，它可以有效地将我的 Claude API 使用量减少一半，Claude 认为，然后我基本上只是复制/粘贴 Claude 的那个时代的指令......",
+          "summary": "我们一直在构建 Calibre 来解决 AI 代理配置管理问题，并将我们的完整设置作为开源发布。反响非常好——888 个 GitHub star 和接近 100 个分叉……",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -360,24 +390,72 @@
           }
         },
         {
-          "rank": 5,
-          "title": "Sentient OS：一个定制的设备上视觉法学硕士，它了解您的整个数字生活（每个屏幕截图、笔记、文件、电子邮件...），而您的...",
+          "rank": 6,
+          "title": "社区一直在构建的开源 AI 代理配置存储库刚刚获得 888 颗星——寻求反馈和功能想法",
           "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-05-02T00:56:18+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1bdq1/sentient_os_a_custom_ondevice_vision_llm_that/",
+          "publishedAt": "2026-05-02T09:17:24+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1kyx5/the_opensource_ai_agent_config_repo_the_community/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "芯片算力",
             "模型进展",
-            "Agent"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "99% 的“AI”应用程序只是 GPT 包装器，将您的数据传输到云 LLM 并将其称为产品。没有人创建过一个能够理解您整个数字生活（所有您的……）的智能层。",
+          "summary": "在过去的一年里，我们的团队和社区一直在构建 AI 代理配置的开源集合：生产就绪的系统提示、工具调用模式、RAG 设置、多代理或……",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "“即时工程”证书就是一个笑话。因此，我们构建了一个免费的 Agentic AI 从业者考试，实际上迫使您构建工作群来……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-02T08:36:54+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1k9mr/prompt_engineering_certs_are_a_joke_so_we_built_a/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "大家好，如果你看看现在的人工智能教育领域，你会发现里面充斥着基本的“提示工程”证书，你只需知道系统提示是什么就可以通过这些证书。但作为一个...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "又一算力独角兽，冲击IPO",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-05-02T07:38:58+00:00",
+          "sourceUrl": "https://36kr.com/p/3791796527602951?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "应用落地",
+            "投融资"
+          ],
+          "summary": "作者丨韦香惠 来源丨东四十条资本 A股即将迎来一只“算力独角兽”，估值已站上500亿元门槛。 主角是来自河南的超聚变数字技术股份有限公司。从今年1月提交上市辅导备案，到IPO辅导工作完成，仅用四个多月时间。 这家公司并非“从零起步”，其前身是华为X86服务器业务，2021年受外部环境影响被整体剥离，并独立运营。随后，河南超聚能科技有限公司成为控股股东，持股31.38%，后者大…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
             "topic": 20,
             "actionability": 10,
             "heat": 5
@@ -385,42 +463,43 @@
         },
         {
           "rank": 9,
-          "title": "续集没翻车 ，但这次“女魔头”也顶不住了",
+          "title": "苹果官方App误打包了Claude.md，这么大的公司也Vibe Coding啊？",
           "platform": "36氪",
-          "aiScore": 87,
-          "publishedAt": "2026-05-02T02:51:10+00:00",
-          "sourceUrl": "https://36kr.com/p/3791555958922504?f=rss",
+          "aiScore": 88,
+          "publishedAt": "2026-05-02T06:52:34+00:00",
+          "sourceUrl": "https://36kr.com/p/3791662444911617?f=rss",
           "sourceName": "36氪",
-          "industryStage": "中游",
+          "industryStage": "下游",
           "contentTags": [
-            "内容生产",
-            "投融资"
+            "模型进展",
+            "Agent",
+            "应用落地"
           ],
-          "summary": "图/《穿普拉达的女王2》 作者 | 易天天 编辑 | Felicia 题图 | 《穿普拉达的女王2》 再次回到《穿普拉达的女王》系列影片的片场，饰演米兰达的知名演员“梅姨”，也就是梅丽尔·斯特里普，心跳有点加速。 眼前是警察为安保设置的重重路障，街对面有数百上千名粉丝等着她和安妮·海瑟薇出现。平时不刷社交媒体的斯特里普，根本没预料到如此阵仗。她被突然推到镜头前，肾上腺素飙升，…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "梦晨 发自 凹非寺 苹果大失误！把自用的Claude.md打包到了官方App里。 这下直接被坐实了： 苹果内部在使用Claude Code构建生产级应用 。 这么大的公司，也在Vibe Coding？ 苹果内部在使用Claude Code构建生产级应用 项目级的Claude.md通常用来告诉AI这个项目是什么、怎么构建、要遵循哪些规范、避免哪些雷区…… 这家全球最注重保密的科…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
-            "topic": 12,
+            "topic": 20,
             "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 10,
-          "title": "寻求有关 OpenVidya 的反馈：NCERT/CBSE 的开源 AI 课堂层 [R]",
+          "rank": 8,
+          "title": "作为一名 BTech 学生，我应该购买 Claude Pro吗——尤其是对于代理/编码方面？诚实需要通缉",
           "platform": "Reddit",
           "aiScore": 87,
-          "publishedAt": "2026-05-02T02:47:35+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t1dqwo/looking_for_feedback_on_openvidya_an_opensource/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
+          "publishedAt": "2026-05-02T13:16:39+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1pn7i/should_i_buy_claude_pro_as_a_btech_student/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
           "contentTags": [
             "Agent",
-            "开源生态",
-            "应用落地"
+            "应用落地",
+            "自动化"
           ],
-          "summary": "我一直在尝试一个名为 OpenVidya 的开源项目，它是 OpenMAIC 的一个分支。目标是适应印度教育的多智能体人工智能课堂生成，而不是……",
+          "summary": "大家好，我是一名 BTech（AI/ML）学生，正在考虑 Claude Pro（20 美元/月），但希望将真正的价值与营销分开。我想在……之前澄清一下我*认为*Pro 包含的内容。",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -431,135 +510,68 @@
           }
         },
         {
-          "rank": 6,
-          "title": "[R] 我们对所有 3 种代理支付协议 (x402/MPP/Lightning) 建立了索引。以下是 1,551 项服务的外观。 [R]",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-05-02T02:52:57+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t1duye/r_we_indexed_all_3_agent_payment_protocols/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "几周前，我发布了有关测试 x402 服务的文章，发现平均质量为 34/100。从那时起，一些人询问了其他协议（来自 Stripe 的 MPP、来自 Lightnin 的 L402……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "Meta收购机器人AI公司，加速布局人形机器人技术",
-          "platform": "36氪",
-          "aiScore": 85,
-          "publishedAt": "2026-05-02T01:56:47+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3791455361113344?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "Meta Platforms已完成对机器人人工智能初创公司Assured Robot Intelligence的收购，以加速其人形机器人技术的研发进程。该收购于5月1日完成，具体财务条款未予披露。Assured Robot Intelligence专注于为机器人开发AI模型，其技术旨在使机器人���够在复杂动态环境中理解、预测并适应人类行为。Meta发言人表示，该初创公司“处…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "Wirken：安全 AI 代理网关。加密金库。单个静态二进制文件",
-          "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-05-02T03:20:40+00:00",
-          "sourceUrl": "https://github.com/gebruder/wirken",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://github.com/gebruder/wirken 评论网址：https://news.ycombinator.com/item?id=47982994 积分：2 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
           "rank": 9,
-          "title": "AI 失调的开源诊断。模型不可知，行业不可知。免费运行。",
+          "title": "Uber 在 4 个月内耗尽了 2026 年全部 AI 编码预算——每位工程师每月 500-2000 美元",
           "platform": "Reddit",
-          "aiScore": 79,
-          "publishedAt": "2026-05-01T18:54:37+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t12f08/opensource_diagnostic_for_ai_misalignment_model/",
+          "aiScore": 87,
+          "publishedAt": "2026-05-02T10:44:48+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1mhx6/uber_burned_its_entire_2026_ai_coding_budget_in_4/",
           "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
+          "industryStage": "上游",
           "contentTags": [
-            "模型进展",
-            "开源生态"
+            "Agent",
+            "应用落地"
           ],
-          "summary": "我们本周早些时候发货了 iFixAi。人工智能失调的开源诊断。涉及捏造、操纵、欺骗、不可预测性和不透明性的 32 项测试。开源且免费……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "Uber 于 2025 年 12 月向工程师部署了 Claude Code。到 2026 年 4 月，该公司已经耗尽了全部年度人工智能预算 - 不是因为该工具失败，而是因为采用速度很快……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
-            "topic": 18,
+            "topic": 19,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "考虑用户感受的人工智能模型更容易出错",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-05-01T22:51:01+00:00",
-          "sourceUrl": "https://arstechnica.com/ai/2026/05/study-ai-models-that-consider-users-feeling-are-more-likely-to-make-errors/",
-          "sourceName": "Hacker News AI",
+          "title": "周杰伦伙伴，要被卖了",
+          "platform": "36氪",
+          "aiScore": 87,
+          "publishedAt": "2026-05-02T09:37:20+00:00",
+          "sourceUrl": "https://36kr.com/p/3791838183234816?f=rss",
+          "sourceName": "36氪",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展"
+            "内容生产",
+            "投融资"
           ],
-          "summary": "文章网址：https://arstechnica.com/ai/2026/05/study-ai-models-that-c​​onsider-users-feeling-are-more-likely-to-make-errors/ 评论网址：https://news.ycombinator.com/item?id=47981420 点...",
+          "summary": "图片来源：视觉中国 作者/吴琼 报道/投资界PEdaily 音乐顶流也迎来了卖身结局。 近日，华尔街大佬比尔·阿克曼旗下潘兴广场正式向环球音乐（UMG）发出一份收购要约——以现金加股票的方式收购环球音乐。由此，后者估值高达约640亿美元（约合人民币4300亿元）。 你或许不熟悉环球音乐，但一定听过来自这里的歌——周杰伦、陈奕迅、泰勒·斯威夫特、贾斯汀·比伯、防弹少年团……这些…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 10,
+            "authority": 25,
+            "topic": 12,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 37,
-        "avgScore": 72.8,
-        "topScore": 93,
+        "totalItems": 43,
+        "avgScore": 73.0,
+        "topScore": 95,
         "topPlatforms": [
+          {
+            "name": "Reddit",
+            "count": 19
+          },
           {
             "name": "Hacker News",
             "count": 15
           },
           {
-            "name": "Reddit",
-            "count": 14
-          },
-          {
             "name": "36氪",
-            "count": 6
+            "count": 7
           },
           {
             "name": "量子位",
@@ -573,42 +585,42 @@
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 16
-          },
-          {
-            "name": "开源生态",
-            "count": 9
+            "count": 20
           },
           {
             "name": "Agent",
-            "count": 7
-          },
-          {
-            "name": "模型进展",
-            "count": 6
-          },
-          {
-            "name": "安全治理",
-            "count": 3
+            "count": 11
           },
           {
             "name": "应用落地",
-            "count": 3
+            "count": 11
+          },
+          {
+            "name": "模型进展",
+            "count": 9
+          },
+          {
+            "name": "开源生态",
+            "count": 5
           },
           {
             "name": "内容生产",
-            "count": 2
+            "count": 4
           },
           {
             "name": "投融资",
-            "count": 2
+            "count": 4
+          },
+          {
+            "name": "自动化",
+            "count": 3
           }
         ]
       },
       "briefing": [
-        "今日共收录 37 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 开源生态 / Agent",
-        "最高分事件：马斯克翻车了！一边告OpenAI，一边偷偷蒸馏ChatGPT（93 分）",
+        "今日共收录 43 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 应用落地",
+        "最高分事件：卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线（95 分）",
         "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
@@ -617,7 +629,7 @@
       "label": "5月1日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 2,
           "title": "微软希望律师信任其在 Word 文档中的新 AI 代理",
           "platform": "The Verge",
           "aiScore": 95,
@@ -641,7 +653,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "title": "追觅造车，从“火箭”开始",
           "platform": "36氪",
           "aiScore": 95,
@@ -665,7 +677,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 10,
           "title": "如何使用 AI 代理进行 EDA/数据分析并为 ML 模型训练做好准备？ [D]",
           "platform": "Reddit",
           "aiScore": 88,
@@ -16363,17 +16375,17 @@
     },
     "metrics": {
       "daysCovered": 2,
-      "totalItems": 96,
-      "avgTop10Score": 89.7,
+      "totalItems": 102,
+      "avgTop10Score": 90.7,
       "topScore": 95,
       "topPlatforms": [
         {
-          "name": "Reddit",
-          "count": 6
+          "name": "36氪",
+          "count": 5
         },
         {
-          "name": "36氪",
-          "count": 3
+          "name": "Reddit",
+          "count": 4
         },
         {
           "name": "The Verge",
@@ -16383,26 +16395,26 @@
       "topTopics": [
         {
           "name": "模型进展",
-          "count": 7
+          "count": 8
         },
         {
           "name": "Agent",
           "count": 7
         },
         {
-          "name": "自动化",
-          "count": 4
-        },
-        {
-          "name": "投融资",
-          "count": 3
-        },
-        {
-          "name": "开源生态",
-          "count": 3
+          "name": "应用落地",
+          "count": 5
         },
         {
           "name": "芯片算力",
+          "count": 3
+        },
+        {
+          "name": "自动化",
+          "count": 2
+        },
+        {
+          "name": "投融资",
           "count": 2
         }
       ]
@@ -16410,6 +16422,30 @@
     "topEvents": [
       {
         "rank": 1,
+        "title": "卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-02T13:17:06+00:00",
+        "sourceUrl": "https://36kr.com/p/3789475357400068?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "文｜肖漫 编辑｜李勤 当下的智能汽车领域，物理 AI 已成为高频词汇，绝大多数智能驾驶算法厂商都在往“物理AI”转型。 卓驭在北京车展上也发布了面向移动物理 AI 的原生多模态基础模型。在卓驭科技副总裁于贝贝看来，算法厂商向物理AI转型不是为了迎合资本市场而编织的想象空间，而是一条关乎厂商存亡的生存法则。 “如果不上这条技术路线，很可能今后就跑不出来了。”于贝贝说。 在新的竞…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
         "title": "微软希望律师信任其在 Word 文档中的新 AI 代理",
         "platform": "The Verge",
         "aiScore": 95,
@@ -16433,7 +16469,7 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 3,
         "title": "追觅造车，从“火箭”开始",
         "platform": "36氪",
         "aiScore": 95,
@@ -16457,36 +16493,36 @@
         }
       },
       {
-        "rank": 3,
-        "title": "马斯克翻车了！一边告OpenAI，一边偷偷蒸馏ChatGPT",
+        "rank": 4,
+        "title": "在硅谷，中美具身公司聊了聊了4个问题的解法",
         "platform": "36氪",
-        "aiScore": 93,
-        "publishedAt": "2026-05-02T01:25:01+00:00",
-        "sourceUrl": "https://36kr.com/p/3791460373929221?f=rss",
+        "aiScore": 94,
+        "publishedAt": "2026-05-02T13:01:36+00:00",
+        "sourceUrl": "https://36kr.com/p/3792155815304450?f=rss",
         "sourceName": "36氪",
-        "industryStage": "中游",
+        "industryStage": "下游",
         "contentTags": [
           "模型进展",
-          "开源生态",
-          "投融资"
+          "应用落地",
+          "内容生产"
         ],
-        "summary": "编辑：桃子 【新智元导读】大型翻车现场！起诉OpenAI「背叛使命」的马斯克，竟亲口承认自家Grok模型蒸馏了ChatGPT。 对薄公堂第四天，马斯克爆出了大瓜！ 4月30日，加州奥克兰联邦法院，马斯克诉OpenAI案进入第四天。 现场，OpenAI首席律师William Savitt站起来，问了一个让整个法庭安静了三秒的问题： xAI是否蒸馏了OpenAI的模型？ 马斯克先…",
+        "summary": "文｜周鑫雨 编辑｜杨轩 规模化落地，今年的具身公司都在谈这个。 数字竞速，不约而同出现在具身公司的产线、招股书、出货量上——2026年4月以来，智元机器人宣布第1万台机器人量产下线，5000到10000，只用了三个多月；宇树科技的IPO招股书也摊开了激进商业化的一角：2025年营收17.07亿元，出货量超过5500台。 激进的数字背后，是“低价、高性能”的中国机器人在全球的扩…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
-          "topic": 18,
+          "topic": 19,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 4,
-        "title": "使用这种自我修改代理系统，我将 Claude API 成本降低了 50%",
+        "rank": 5,
+        "title": "我们开源了 AI 代理配置管理工具——888 颗星，近 100 个分叉——请求社区反馈",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-05-02T04:15:50+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1fjek/i_cut_claude_api_costs_by_50_using_this_self/",
+        "publishedAt": "2026-05-02T09:27:30+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1l564/we_opensourced_our_ai_agent_config_management/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
@@ -16494,31 +16530,7 @@
           "Agent",
           "开源生态"
         ],
-        "summary": "我一直在开发一个自我修改的人工智能代理系统，它可以有效地将我的 Claude API 使用量减少一半，Claude 认为，然后我基本上只是复制/粘贴 Claude 的那个时代的指令......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "Sentient OS：一个定制的设备上视觉法学硕士，它了解您的整个数字生活（每个屏幕截图、笔记、文件、电子邮件...），而您的...",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-05-02T00:56:18+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1bdq1/sentient_os_a_custom_ondevice_vision_llm_that/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "99% 的“AI”应用程序只是 GPT 包装器，将您的数据传输到云 LLM 并将其称为产品。没有人创建过一个能够理解您整个数字生活（所有您的……）的智能层。",
+        "summary": "我们一直在构建 Calibre 来解决 AI 代理配置管理问题，并将我们的完整设置作为开源发布。反响非常好——888 个 GitHub star 和接近 100 个分叉……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -16530,6 +16542,102 @@
       },
       {
         "rank": 6,
+        "title": "社区一直在构建的开源 AI 代理配置存储库刚刚获得 888 颗星——寻求反馈和功能想法",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-02T09:17:24+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1kyx5/the_opensource_ai_agent_config_repo_the_community/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "在过去的一年里，我们的团队和社区一直在构建 AI 代理配置的开源集合：生产就绪的系统提示、工具调用模式、RAG 设置、多代理或……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "“即时工程”证书就是一个笑话。因此，我们构建了一个免费的 Agentic AI 从业者考试，实际上迫使您构建工作群来……",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-02T08:36:54+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1k9mr/prompt_engineering_certs_are_a_joke_so_we_built_a/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "大家好，如果你看看现在的人工智能教育领域，你会发现里面充斥着基本的“提示工程”证书，你只需知道系统提示是什么就可以通过这些证书。但作为一个...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "又一算力独角兽，冲击IPO",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-05-02T07:38:58+00:00",
+        "sourceUrl": "https://36kr.com/p/3791796527602951?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "应用落地",
+          "投融资"
+        ],
+        "summary": "作者丨韦香惠 来源丨东四十条资本 A股即将迎来一只“算力独角兽”，估值已站上500亿元门槛。 主角是来自河南的超聚变数字技术股份有限公司。从今年1月提交上市辅导备案，到IPO辅导工作完成，仅用四个多月时间。 这家公司并非“从零起步”，其前身是华为X86服务器业务，2021年受外部环境影响被整体剥离，并独立运营。随后，河南超聚能科技有限公司成为控股股东，持股31.38%，后者大…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "苹果官方App误打包了Claude.md，这么大的公司也Vibe Coding啊？",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-05-02T06:52:34+00:00",
+        "sourceUrl": "https://36kr.com/p/3791662444911617?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "梦晨 发自 凹非寺 苹果大失误！把自用的Claude.md打包到了官方App里。 这下直接被坐实了： 苹果内部在使用Claude Code构建生产级应用 。 这么大的公司，也在Vibe Coding？ 苹果内部在使用Claude Code构建生产级应用 项目级的Claude.md通常用来告诉AI这个项目是什么、怎么构建、要遵循哪些规范、避免哪些雷区…… 这家全球最注重保密的科…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
         "title": "如何使用 AI 代理进行 EDA/数据分析并为 ML 模型训练做好准备？ [D]",
         "platform": "Reddit",
         "aiScore": 88,
@@ -16551,108 +16659,13 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 7,
-        "title": "我构建了一个路由器，可以自动将您的 AI 任务发送到最合适的模型，以低成本处理它们 - 9,200 个任务，节省 21 美元……",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-05-01T12:56:46+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0soki/i_built_a_router_that_automatically_sends_your_ai/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "自动化"
-        ],
-        "summary": "开始这一点的观察是：人们每天使用人工智能的大部分内容——总结、起草、分类、提取等实际上并不需要前沿模型。任何有能力的 8-7...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "文本到图像很容易。链接 LLM 来自主生成、评论和迭代图像是一场路由噩梦。 AgentSwarms 现在支持...",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-05-01T08:48:29+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0ns35/texttoimage_is_easy_chaining_llms_to_generate/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "自动化"
-        ],
-        "summary": "大家好，如果您一直在使用人工智能代理进行构建，您就会知道编排文本是一回事，但进入多模式工作流程（文本+图像+视觉）却非常混乱。如果你…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "续集没翻车 ，但这次“女魔头”也顶不住了",
-        "platform": "36氪",
-        "aiScore": 87,
-        "publishedAt": "2026-05-02T02:51:10+00:00",
-        "sourceUrl": "https://36kr.com/p/3791555958922504?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "内容生产",
-          "投融资"
-        ],
-        "summary": "图/《穿普拉达的女王2》 作者 | 易天天 编辑 | Felicia 题图 | 《穿普拉达的女王2》 再次回到《穿普拉达的女王》系列影片的片场，饰演米兰达的知名演员“梅姨”，也就是梅丽尔·斯特里普，心跳有点加速。 眼前是警察为安保设置的重重路障，街对面有数百上千名粉丝等着她和安妮·海瑟薇出现。平时不刷社交媒体的斯特里普，根本没预料到如此阵仗。她被突然推到镜头前，肾上腺素飙升，…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 12,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "寻求有关 OpenVidya 的反馈：NCERT/CBSE 的开源 AI 课堂层 [R]",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-05-02T02:47:35+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t1dqwo/looking_for_feedback_on_openvidya_an_opensource/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态",
-          "应用落地"
-        ],
-        "summary": "我一直在尝试一个名为 OpenVidya 的开源项目，它是 OpenMAIC 的一个分支。目标是适应印度教育的多智能体人工智能课堂生成，而不是……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "5月第1周累计收录 96 条资讯，覆盖 2 天。",
-      "高频主题：模型进展 / Agent / 自动化",
-      "本周最高分：微软希望律师信任其在 Word 文档中的新 AI 代理（95 分）",
-      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "5月第1周累计收录 102 条资讯，覆盖 2 天。",
+      "高频主题：模型进展 / Agent / 应用落地",
+      "本周最高分：卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线（95 分）",
+      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "weeklyHistory": [
@@ -16665,17 +16678,17 @@
       },
       "metrics": {
         "daysCovered": 2,
-        "totalItems": 96,
-        "avgTop10Score": 89.7,
+        "totalItems": 102,
+        "avgTop10Score": 90.7,
         "topScore": 95,
         "topPlatforms": [
           {
-            "name": "Reddit",
-            "count": 6
+            "name": "36氪",
+            "count": 5
           },
           {
-            "name": "36氪",
-            "count": 3
+            "name": "Reddit",
+            "count": 4
           },
           {
             "name": "The Verge",
@@ -16685,26 +16698,26 @@
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 7
+            "count": 8
           },
           {
             "name": "Agent",
             "count": 7
           },
           {
-            "name": "自动化",
-            "count": 4
-          },
-          {
-            "name": "投融资",
-            "count": 3
-          },
-          {
-            "name": "开源生态",
-            "count": 3
+            "name": "应用落地",
+            "count": 5
           },
           {
             "name": "芯片算力",
+            "count": 3
+          },
+          {
+            "name": "自动化",
+            "count": 2
+          },
+          {
+            "name": "投融资",
             "count": 2
           }
         ]
@@ -16712,6 +16725,30 @@
       "topEvents": [
         {
           "rank": 1,
+          "title": "卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-02T13:17:06+00:00",
+          "sourceUrl": "https://36kr.com/p/3789475357400068?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "文｜肖漫 编辑｜李勤 当下的智能汽车领域，物理 AI 已成为高频词汇，绝大多数智能驾驶算法厂商都在往“物理AI”转型。 卓驭在北京车展上也发布了面向移动物理 AI 的原生多模态基础模型。在卓驭科技副总裁于贝贝看来，算法厂商向物理AI转型不是为了迎合资本市场而编织的想象空间，而是一条关乎厂商存亡的生存法则。 “如果不上这条技术路线，很可能今后就跑不出来了。”于贝贝说。 在新的竞…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
           "title": "微软希望律师信任其在 Word 文档中的新 AI 代理",
           "platform": "The Verge",
           "aiScore": 95,
@@ -16735,7 +16772,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "title": "追觅造车，从“火箭”开始",
           "platform": "36氪",
           "aiScore": 95,
@@ -16759,36 +16796,36 @@
           }
         },
         {
-          "rank": 3,
-          "title": "马斯克翻车了！一边告OpenAI，一边偷偷蒸馏ChatGPT",
+          "rank": 4,
+          "title": "在硅谷，中美具身公司聊了聊了4个问题的解法",
           "platform": "36氪",
-          "aiScore": 93,
-          "publishedAt": "2026-05-02T01:25:01+00:00",
-          "sourceUrl": "https://36kr.com/p/3791460373929221?f=rss",
+          "aiScore": 94,
+          "publishedAt": "2026-05-02T13:01:36+00:00",
+          "sourceUrl": "https://36kr.com/p/3792155815304450?f=rss",
           "sourceName": "36氪",
-          "industryStage": "中游",
+          "industryStage": "下游",
           "contentTags": [
             "模型进展",
-            "开源生态",
-            "投融资"
+            "应用落地",
+            "内容生产"
           ],
-          "summary": "编辑：桃子 【新智元导读】大型翻车现场！起诉OpenAI「背叛使命」的马斯克，竟亲口承认自家Grok模型蒸馏了ChatGPT。 对薄公堂第四天，马斯克爆出了大瓜！ 4月30日，加州奥克兰联邦法院，马斯克诉OpenAI案进入第四天。 现场，OpenAI首席律师William Savitt站起来，问了一个让整个法庭安静了三秒的问题： xAI是否蒸馏了OpenAI的模型？ 马斯克先…",
+          "summary": "文｜周鑫雨 编辑｜杨轩 规模化落地，今年的具身公司都在谈这个。 数字竞速，不约而同出现在具身公司的产线、招股书、出货量上——2026年4月以来，智元机器人宣布第1万台机器人量产下线，5000到10000，只用了三个多月；宇树科技的IPO招股书也摊开了激进商业化的一角：2025年营收17.07亿元，出货量超过5500台。 激进的数字背后，是“低价、高性能”的中国机器人在全球的扩…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
-            "topic": 18,
+            "topic": 19,
             "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 4,
-          "title": "使用这种自我修改代理系统，我将 Claude API 成本降低了 50%",
+          "rank": 5,
+          "title": "我们开源了 AI 代理配置管理工具——888 颗星，近 100 个分叉——请求社区反馈",
           "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-05-02T04:15:50+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1fjek/i_cut_claude_api_costs_by_50_using_this_self/",
+          "publishedAt": "2026-05-02T09:27:30+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1l564/we_opensourced_our_ai_agent_config_management/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
@@ -16796,31 +16833,7 @@
             "Agent",
             "开源生态"
           ],
-          "summary": "我一直在开发一个自我修改的人工智能代理系统，它可以有效地将我的 Claude API 使用量减少一半，Claude 认为，然后我基本上只是复制/粘贴 Claude 的那个时代的指令......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "Sentient OS：一个定制的设备上视觉法学硕士，它了解您的整个数字生活（每个屏幕截图、笔记、文件、电子邮件...），而您的...",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-02T00:56:18+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1bdq1/sentient_os_a_custom_ondevice_vision_llm_that/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "99% 的“AI”应用程序只是 GPT 包装器，将您的数据传输到云 LLM 并将其称为产品。没有人创建过一个能够理解您整个数字生活（所有您的……）的智能层。",
+          "summary": "我们一直在构建 Calibre 来解决 AI 代理配置管理问题，并将我们的完整设置作为开源发布。反响非常好——888 个 GitHub star 和接近 100 个分叉……",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -16832,6 +16845,102 @@
         },
         {
           "rank": 6,
+          "title": "社区一直在构建的开源 AI 代理配置存储库刚刚获得 888 颗星——寻求反馈和功能想法",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-02T09:17:24+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1kyx5/the_opensource_ai_agent_config_repo_the_community/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "在过去的一年里，我们的团队和社区一直在构建 AI 代理配置的开源集合：生产就绪的系统提示、工具调用模式、RAG 设置、多代理或……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "“即时工程”证书就是一个笑话。因此，我们构建了一个免费的 Agentic AI 从业者考试，实际上迫使您构建工作群来……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-02T08:36:54+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1k9mr/prompt_engineering_certs_are_a_joke_so_we_built_a/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "大家好，如果你看看现在的人工智能教育领域，你会发现里面充斥着基本的“提示工程”证书，你只需知道系统提示是什么就可以通过这些证书。但作为一个...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "又一算力独角兽，冲击IPO",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-05-02T07:38:58+00:00",
+          "sourceUrl": "https://36kr.com/p/3791796527602951?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "应用落地",
+            "投融资"
+          ],
+          "summary": "作者丨韦香惠 来源丨东四十条资本 A股即将迎来一只“算力独角兽”，估值已站上500亿元门槛。 主角是来自河南的超聚变数字技术股份有限公司。从今年1月提交上市辅导备案，到IPO辅导工作完成，仅用四个多月时间。 这家公司并非“从零起步”，其前身是华为X86服务器业务，2021年受外部环境影响被整体剥离，并独立运营。随后，河南超聚能科技有限公司成为控股股东，持股31.38%，后者大…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "苹果官方App误打包了Claude.md，这么大的公司也Vibe Coding啊？",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-05-02T06:52:34+00:00",
+          "sourceUrl": "https://36kr.com/p/3791662444911617?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "梦晨 发自 凹非寺 苹果大失误！把自用的Claude.md打包到了官方App里。 这下直接被坐实了： 苹果内部在使用Claude Code构建生产级应用 。 这么大的公司，也在Vibe Coding？ 苹果内部在使用Claude Code构建生产级应用 项目级的Claude.md通常用来告诉AI这个项目是什么、怎么构建、要遵循哪些规范、避免哪些雷区…… 这家全球最注重保密的科…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
           "title": "如何使用 AI 代理进行 EDA/数据分析并为 ML 模型训练做好准备？ [D]",
           "platform": "Reddit",
           "aiScore": 88,
@@ -16853,108 +16962,13 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 7,
-          "title": "我构建了一个路由器，可以自动将您的 AI 任务发送到最合适的模型，以低成本处理它们 - 9,200 个任务，节省 21 美元……",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-01T12:56:46+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0soki/i_built_a_router_that_automatically_sends_your_ai/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "自动化"
-          ],
-          "summary": "开始这一点的观察是：人们每天使用人工智能的大部分内容——总结、起草、分类、提取等实际上并不需要前沿模型。任何有能力的 8-7...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "文本到图像很容易。链接 LLM 来自主生成、评论和迭代图像是一场路由噩梦。 AgentSwarms 现在支持...",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-01T08:48:29+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t0ns35/texttoimage_is_easy_chaining_llms_to_generate/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "自动化"
-          ],
-          "summary": "大家好，如果您一直在使用人工智能代理进行构建，您就会知道编排文本是一回事，但进入多模式工作流程（文本+图像+视觉）却非常混乱。如果你…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "续集没翻车 ，但这次“女魔头”也顶不住了",
-          "platform": "36氪",
-          "aiScore": 87,
-          "publishedAt": "2026-05-02T02:51:10+00:00",
-          "sourceUrl": "https://36kr.com/p/3791555958922504?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "内容生产",
-            "投融资"
-          ],
-          "summary": "图/《穿普拉达的女王2》 作者 | 易天天 编辑 | Felicia 题图 | 《穿普拉达的女王2》 再次回到《穿普拉达的女王》系列影片的片场，饰演米兰达的知名演员“梅姨”，也就是梅丽尔·斯特里普，心跳有点加速。 眼前是警察为安保设置的重重路障，街对面有数百上千名粉丝等着她和安妮·海瑟薇出现。平时不刷社交媒体的斯特里普，根本没预料到如此阵仗。她被突然推到镜头前，肾上腺素飙升，…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 12,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "寻求有关 OpenVidya 的反馈：NCERT/CBSE 的开源 AI 课堂层 [R]",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-05-02T02:47:35+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t1dqwo/looking_for_feedback_on_openvidya_an_opensource/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "应用落地"
-          ],
-          "summary": "我一直在尝试一个名为 OpenVidya 的开源项目，它是 OpenMAIC 的一个分支。目标是适应印度教育的多智能体人工智能课堂生成，而不是……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "5月第1周累计收录 96 条资讯，覆盖 2 天。",
-        "高频主题：模型进展 / Agent / 自动化",
-        "本周最高分：微软希望律师信任其在 Word 文档中的新 AI 代理（95 分）",
-        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "5月第1周累计收录 102 条资讯，覆盖 2 天。",
+        "高频主题：模型进展 / Agent / 应用落地",
+        "本周最高分：卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线（95 分）",
+        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
