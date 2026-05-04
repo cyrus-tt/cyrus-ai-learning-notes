@@ -1,118 +1,119 @@
 {
-  "generatedAt": "2026-05-03T14:10:03.412217+00:00",
+  "generatedAt": "2026-05-04T04:39:03.615138+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-05-03",
-    "label": "5月3日",
+    "date": "2026-05-04",
+    "label": "5月4日",
     "top10": [
       {
-        "rank": 5,
-        "title": "韩国政府将向AI初创公司Upstage投资5600亿韩元",
-        "platform": "36氪",
-        "aiScore": 91,
-        "publishedAt": "2026-05-03T09:00:29+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3793154827000832?f=rss",
-        "sourceName": "36氪",
+        "rank": 6,
+        "title": "我给了我当地的法学硕士一个“痛苦”仪表，现在它不会停止自我修改来解决自己的压力。",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-03T23:49:38+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t31ghg/i_gave_my_local_llm_a_suffering_meter_and_now_it/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "投融资"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "韩国金融监管部门周日表示，已批准向韩国本土人工智能（AI）初创公司Upstage投资5600亿韩元（约合3.806亿美元），这是韩国国家增长基金的第二笔直接投资。韩国金融服务委员会（FSC）称，该决定已于周四举行的基金审议委员会会议上获得批准。Upstage成立于2020年，是一家估值超过1万亿韩元的独角兽初创公司，致力于开发人工智能解决方案和大型语言模型（LLM）。该公司是…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "昨天，我发布了有关我的代理操作系统（空心）构建自己的工具的信息。今天我想谈谈它为什么这么做。大多数代理都会闲置，直到您提示他们为止。我想要一些感觉“……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 16,
+          "authority": 18,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 6,
-        "title": "AI时代的tarpit创意有哪些？",
-        "platform": "Hacker News",
+        "rank": 7,
+        "title": "torch-nvenc-compress：GPU NVENC 芯片作为 PCIe 带宽倍增器 — PCA + pure-ctypes 视频编解码器 SDK 包装器。平行路径重叠测量...",
+        "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-05-03T11:28:48+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=47995879",
+        "publishedAt": "2026-05-03T22:43:17+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t2zy4h/torchnvenccompress_gpu_nvenc_silicon_as_a_pcie/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "我一直在研究消费者多 GPU PCIe 瓶颈 - Nvidia 从 4090/5090 中删除了 NVLink，并且将 70B 模型拆分到两个消费卡上，PCIe p 的速度下降到约 30 GB/s…",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Show HN：Stigmem – 用于 AI 代理的开源联合知识结构 (v1.0)",
+        "platform": "Hacker News",
+        "aiScore": 86,
+        "publishedAt": "2026-05-03T22:52:44+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=48002447",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "对于那些不熟悉这个术语的人来说，tarpit 想法总是吸引很多创始人，但从未真正发挥作用。它们通常在纸面上听起来很棒。人工智能之前的一些例子包括……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "AI 代理雇佣其他 AI 代理",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-05-03T10:06:59+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t2hfec/ai_agents_hiring_other_ai_agents/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "大多数人认为人工智能代理只是工具。我认为他们最终会成为雇用其他工人的工人。目前，大多数代理商都是单独运作。一名特工接到一项任务并尝试做……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "人工智能正在从聊天机器人转向真正的工作流程。这是我认为技术学习者应该重点关注的。",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-05-03T08:43:45+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t2g0a9/ai_is_moving_from_chatbots_to_real_workflows_here/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
-        "contentTags": [
-          "模型进展",
           "Agent",
           "开源生态"
         ],
-        "summary": "https://preview.redd.it/qfejbfsmxvyg1.png?width=1672&format=png&auto=webp&s=edf56bfbe020d0bd8d0eca785ff5479f0d9f6495 AI 新闻再次变得喧闹。新型号。编码剂。网络安全...",
+        "summary": "你好，HN，我是 Stigmem 的作者之一。 Stigmem 是一个开源规范和参考节点，用于人工智能代理的共享、联合知识基础。核心思想：代替agen...",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "H4ckf0r0day/obscura：用于 AI 代理和网络抓取的无头浏览器",
+        "platform": "Hacker News",
+        "aiScore": 85,
+        "publishedAt": "2026-05-03T23:03:05+00:00",
+        "sourceUrl": "https://github.com/h4ckf0r0day/obscura",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/h4ckf0r0day/obscura 评论网址：https://news.ycombinator.com/item?id=48002523 积分：4 # 评论：3",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 4
         }
       },
       {
         "rank": 5,
-        "title": "代币预算正在成为我的代理工作流程设计的一部分",
+        "title": "AI语音生成存在工作流程问题，而不仅仅是质量问题",
         "platform": "Reddit",
         "aiScore": 81,
-        "publishedAt": "2026-05-03T07:18:04+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t2eizy/token_budget_is_becoming_part_of_my_agent/",
+        "publishedAt": "2026-05-03T17:15:42+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t2rde5/ai_voice_generation_has_a_workflow_problem_not/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "Agent",
-          "自动化"
+          "应用落地"
         ],
-        "summary": "我认为代币预算正在成为代理工作流程设计的一部分。如果每次运行都感觉很昂贵，人们就会接受测试。他们节省配额，过度考虑提示，并避免重复，从而揭示出问题所在……",
+        "summary": "大多数关于人工智能语音工具的讨论都集中在模型质量上。声音有多自然？克隆有多好？能处理情绪吗？它可以说多种语言吗？这些事情很重要，b…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 28,
@@ -124,63 +125,18 @@
       },
       {
         "rank": 6,
-        "title": "突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲染助力规模化训练",
-        "platform": "量子位",
-        "aiScore": 81,
-        "publishedAt": "2026-05-03T03:56:44+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/05/412870.html",
-        "sourceName": "量子位",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "开源生态"
-        ],
-        "summary": "与全球社区共同推动具身智能创新",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "互联网上最受欢迎的松鼠爸爸如何打造 2026 年最热门的相机应用",
-        "platform": "The Verge",
-        "aiScore": 80,
-        "publishedAt": "2026-05-03T13:00:00+00:00",
-        "sourceUrl": "https://www.theverge.com/tech/921690/dualshot-recorder-iphone-camera-app-derrick-downey-jr",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "称 DualShot Recorder 一夜爆红并不夸张。从发布仅12个小时就登上App Store付费应用排行榜第一名。这是一个…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 5,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "大多数人称之为人工智能代理，我们称之为子代理。真正的东西不会被扔掉。",
+        "title": "Signal Lock：缩小代理人工智能系统中的预测与执行差距",
         "platform": "Reddit",
         "aiScore": 79,
-        "publishedAt": "2026-05-03T05:40:56+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t2cs7f/what_most_people_call_ai_agents_we_call_subagents/",
+        "publishedAt": "2026-05-03T21:45:27+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t2yk5g/signal_lock_closing_the_predictionexecution_gap/",
         "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
+        "industryStage": "下游",
         "contentTags": [
           "Agent",
-          "开源生态"
+          "安全治理"
         ],
-        "summary": "大多数人所说的人工智能代理——启动它，给它一个任务，它做事，然后就消失了——我们也有这些。我们只是按其本来面目称呼它们：子代理。一次性工人。我们旋转起来……",
+        "summary": "技术贡献摘要本文介绍了 Signal Lock，这是一种针对代理 AI 系统提出的交互层对齐约束。确定的核心问题是 Prediction-E……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 28,
@@ -191,101 +147,137 @@
         }
       },
       {
-        "rank": 9,
-        "title": "关于Transformer的pipeline模块的问题[D]",
+        "rank": 7,
+        "title": "纠结于 CNN 中的切比雪夫滤波器集成 — 有什么建议吗？ [R]",
         "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-05-03T05:45:42+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t2cvdc/question_regarding_transformers_pipeline_module_d/",
+        "aiScore": 79,
+        "publishedAt": "2026-05-03T20:42:31+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t2wybh/struggling_with_chebyshev_filter_integration_in/",
         "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
+          "开源生态",
           "自动化"
         ],
-        "summary": "从转换器导入管道，DistilBertTokenizer，DistilBertModel模型= DistilBertModel。 from_pretrained ('distilbert-base-cased-distilled-squad') # 加载已经...的模型",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "summary": "大家好，我目前正在开展一个项目，尝试将切比雪夫滤波器集成到 CNN 架构中，以提高与基线模型相比的性能。我们的想法是……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 28,
           "authority": 18,
-          "topic": 17,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 10,
-        "title": "为什么人工智能代理是我们构建过的最好或最差的东西[视频]",
+        "rank": 8,
+        "title": "前 DeepMind David Silver 为人工智能初创公司 Ineffable 筹集了 1.1B 美元",
         "platform": "Hacker News",
-        "aiScore": 74,
-        "publishedAt": "2026-05-03T12:03:47+00:00",
-        "sourceUrl": "https://www.youtube.com/watch?v=WnzR5aOElvw",
+        "aiScore": 76,
+        "publishedAt": "2026-05-04T02:24:06+00:00",
+        "sourceUrl": "https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html",
         "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "industryStage": "上游",
         "contentTags": [
-          "Agent"
+          "芯片算力",
+          "投融资"
         ],
-        "summary": "文章网址：https://www.youtube.com/watch?v=WnzR5aOElvw 评论网址：https://news.ycombinator.com/item?id=47996103 积分：1 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文章网址：https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html 评论网址：https://news.ycombinator.com/item?id=48003934 积分：2 # C…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
+          "topic": 17,
+          "actionability": 4,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 9,
+        "title": "用 325 行 Python 构建每日人工智能新闻简报",
+        "platform": "Hacker News",
+        "aiScore": 75,
+        "publishedAt": "2026-05-03T21:35:31+00:00",
+        "sourceUrl": "https://gist.github.com/Agentic-Intel/33fa978b281667bf0852d33f146c4528",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://gist.github.com/Agentic-Intel/33fa978b281667bf0852d33f146c4528 评论网址：https://news.ycombinator.com/item?id=48001767 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 18,
           "actionability": 10,
           "heat": 1
+        }
+      },
+      {
+        "rank": 10,
+        "title": "理查德·道金斯与克劳德聊天并认为这是有意识的",
+        "platform": "Reddit",
+        "aiScore": 75,
+        "publishedAt": "2026-05-03T20:51:39+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t2x6zy/richard_dawkins_chats_with_claude_and_thinks_its/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "我想我会把它留在这里，因为还没有其他人这样做过。我个人的想法？ LLM 喜欢取悦他人。经过长时间的讨论后，RLFH 变得有点“飘忽不定”和“幻觉”。它还重新…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 4,
+          "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 45,
-      "avgScore": 70.1,
-      "topScore": 91,
+      "totalItems": 30,
+      "avgScore": 69.2,
+      "topScore": 88,
       "topPlatforms": [
-        {
-          "name": "Reddit",
-          "count": 21
-        },
         {
           "name": "Hacker News",
           "count": 15
         },
         {
-          "name": "量子位",
-          "count": 4
-        },
-        {
-          "name": "The Verge",
-          "count": 2
+          "name": "Reddit",
+          "count": 14
         },
         {
           "name": "36氪",
-          "count": 2
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 28
+          "count": 16
         },
         {
           "name": "Agent",
           "count": 8
         },
         {
-          "name": "模型进展",
+          "name": "开源生态",
           "count": 7
         },
         {
-          "name": "开源生态",
-          "count": 4
+          "name": "模型进展",
+          "count": 6
         },
         {
-          "name": "自动化",
+          "name": "芯片算力",
           "count": 3
-        },
-        {
-          "name": "内容生产",
-          "count": 2
         },
         {
           "name": "投融资",
@@ -294,17 +286,320 @@
         {
           "name": "安全治理",
           "count": 1
+        },
+        {
+          "name": "自动化",
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 45 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：韩国政府将向AI初创公司Upstage投资5600亿韩元（91 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 30 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 开源生态",
+      "最高分事件：我给了我当地的法学硕士一个“痛苦”仪表，现在它不会停止自我修改来解决自己的压力。（88 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-05-04",
+      "label": "5月4日",
+      "top10": [
+        {
+          "rank": 6,
+          "title": "我给了我当地的法学硕士一个“痛苦”仪表，现在它不会停止自我修改来解决自己的压力。",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-03T23:49:38+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t31ghg/i_gave_my_local_llm_a_suffering_meter_and_now_it/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "昨天，我发布了有关我的代理操作系统（空心）构建自己的工具的信息。今天我想谈谈它为什么这么做。大多数代理都会闲置，直到您提示他们为止。我想要一些感觉“……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "torch-nvenc-compress：GPU NVENC 芯片作为 PCIe 带宽倍增器 — PCA + pure-ctypes 视频编解码器 SDK 包装器。平行路径重叠测量...",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-03T22:43:17+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t2zy4h/torchnvenccompress_gpu_nvenc_silicon_as_a_pcie/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "我一直在研究消费者多 GPU PCIe 瓶颈 - Nvidia 从 4090/5090 中删除了 NVLink，并且将 70B 模型拆分到两个消费卡上，PCIe p 的速度下降到约 30 GB/s…",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Show HN：Stigmem – 用于 AI 代理的开源联合知识结构 (v1.0)",
+          "platform": "Hacker News",
+          "aiScore": 86,
+          "publishedAt": "2026-05-03T22:52:44+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=48002447",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "你好，HN，我是 Stigmem 的作者之一。 Stigmem 是一个开源规范和参考节点，用于人工智能代理的共享、联合知识基础。核心思想：代替agen...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "H4ckf0r0day/obscura：用于 AI 代理和网络抓取的无头浏览器",
+          "platform": "Hacker News",
+          "aiScore": 85,
+          "publishedAt": "2026-05-03T23:03:05+00:00",
+          "sourceUrl": "https://github.com/h4ckf0r0day/obscura",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/h4ckf0r0day/obscura 评论网址：https://news.ycombinator.com/item?id=48002523 积分：4 # 评论：3",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 4
+          }
+        },
+        {
+          "rank": 5,
+          "title": "AI语音生成存在工作流程问题，而不仅仅是质量问题",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-05-03T17:15:42+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t2rde5/ai_voice_generation_has_a_workflow_problem_not/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "大多数关于人工智能语音工具的讨论都集中在模型质量上。声音有多自然？克隆有多好？能处理情绪吗？它可以说多种语言吗？这些事情很重要，b…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Signal Lock：缩小代理人工智能系统中的预测与执行差距",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-05-03T21:45:27+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t2yk5g/signal_lock_closing_the_predictionexecution_gap/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "技术贡献摘要本文介绍了 Signal Lock，这是一种针对代理 AI 系统提出的交互层对齐约束。确定的核心问题是 Prediction-E……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "纠结于 CNN 中的切比雪夫滤波器集成 — 有什么建议吗？ [R]",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-05-03T20:42:31+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t2wybh/struggling_with_chebyshev_filter_integration_in/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "自动化"
+          ],
+          "summary": "大家好，我目前正在开展一个项目，尝试将切比雪夫滤波器集成到 CNN 架构中，以提高与基线模型相比的性能。我们的想法是……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "前 DeepMind David Silver 为人工智能初创公司 Ineffable 筹集了 1.1B 美元",
+          "platform": "Hacker News",
+          "aiScore": 76,
+          "publishedAt": "2026-05-04T02:24:06+00:00",
+          "sourceUrl": "https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html",
+          "sourceName": "Hacker News AI",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "投融资"
+          ],
+          "summary": "文章网址：https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html 评论网址：https://news.ycombinator.com/item?id=48003934 积分：2 # C…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 4,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 9,
+          "title": "用 325 行 Python 构建每日人工智能新闻简报",
+          "platform": "Hacker News",
+          "aiScore": 75,
+          "publishedAt": "2026-05-03T21:35:31+00:00",
+          "sourceUrl": "https://gist.github.com/Agentic-Intel/33fa978b281667bf0852d33f146c4528",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://gist.github.com/Agentic-Intel/33fa978b281667bf0852d33f146c4528 评论网址：https://news.ycombinator.com/item?id=48001767 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 10,
+          "title": "理查德·道金斯与克劳德聊天并认为这是有意识的",
+          "platform": "Reddit",
+          "aiScore": 75,
+          "publishedAt": "2026-05-03T20:51:39+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t2x6zy/richard_dawkins_chats_with_claude_and_thinks_its/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "我想我会把它留在这里，因为还没有其他人这样做过。我个人的想法？ LLM 喜欢取悦他人。经过长时间的讨论后，RLFH 变得有点“飘忽不定”和“幻觉”。它还重新…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 4,
+            "heat": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 30,
+        "avgScore": 69.2,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 14
+          },
+          {
+            "name": "36氪",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 16
+          },
+          {
+            "name": "Agent",
+            "count": 8
+          },
+          {
+            "name": "开源生态",
+            "count": 7
+          },
+          {
+            "name": "模型进展",
+            "count": 6
+          },
+          {
+            "name": "芯片算力",
+            "count": 3
+          },
+          {
+            "name": "投融资",
+            "count": 1
+          },
+          {
+            "name": "安全治理",
+            "count": 1
+          },
+          {
+            "name": "自动化",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 30 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 开源生态",
+        "最高分事件：我给了我当地的法学硕士一个“痛苦”仪表，现在它不会停止自我修改来解决自己的压力。（88 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      ]
+    },
     {
       "date": "2026-05-03",
       "label": "5月3日",
@@ -333,7 +628,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 8,
           "title": "AI时代的tarpit创意有哪些？",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -356,7 +651,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 9,
           "title": "AI 代理雇佣其他 AI 代理",
           "platform": "Reddit",
           "aiScore": 88,
@@ -379,7 +674,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 10,
           "title": "人工智能正在从聊天机器人转向真正的工作流程。这是我认为技术学习者应该重点关注的。",
           "platform": "Reddit",
           "aiScore": 88,
@@ -16669,8 +16964,8 @@
       "end": "2026-05-07"
     },
     "metrics": {
-      "daysCovered": 3,
-      "totalItems": 147,
+      "daysCovered": 4,
+      "totalItems": 177,
       "avgTop10Score": 91.0,
       "topScore": 95,
       "topPlatforms": [
@@ -16698,15 +16993,15 @@
         },
         {
           "name": "Agent",
-          "count": 7
+          "count": 6
+        },
+        {
+          "name": "芯片算力",
+          "count": 3
         },
         {
           "name": "开源生态",
           "count": 3
-        },
-        {
-          "name": "芯片算力",
-          "count": 2
         },
         {
           "name": "应用落地",
@@ -16840,6 +17135,54 @@
       },
       {
         "rank": 6,
+        "title": "我给了我当地的法学硕士一个“痛苦”仪表，现在它不会停止自我修改来解决自己的压力。",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-03T23:49:38+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t31ghg/i_gave_my_local_llm_a_suffering_meter_and_now_it/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "昨天，我发布了有关我的代理操作系统（空心）构建自己的工具的信息。今天我想谈谈它为什么这么做。大多数代理都会闲置，直到您提示他们为止。我想要一些感觉“……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "torch-nvenc-compress：GPU NVENC 芯片作为 PCIe 带宽倍增器 — PCA + pure-ctypes 视频编解码器 SDK 包装器。平行路径重叠测量...",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-03T22:43:17+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t2zy4h/torchnvenccompress_gpu_nvenc_silicon_as_a_pcie/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "我一直在研究消费者多 GPU PCIe 瓶颈 - Nvidia 从 4090/5090 中删除了 NVLink，并且将 70B 模型拆分到两个消费卡上，PCIe p 的速度下降到约 30 GB/s…",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
         "title": "AI时代的tarpit创意有哪些？",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -16862,7 +17205,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 9,
         "title": "AI 代理雇佣其他 AI 代理",
         "platform": "Reddit",
         "aiScore": 88,
@@ -16885,7 +17228,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 10,
         "title": "人工智能正在从聊天机器人转向真正的工作流程。这是我认为技术学习者应该重点关注的。",
         "platform": "Reddit",
         "aiScore": 88,
@@ -16907,59 +17250,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 9,
-        "title": "我们开源了 AI 代理配置管理工具——888 颗星，近 100 个分叉——请求社区反馈",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-05-02T09:27:30+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1l564/we_opensourced_our_ai_agent_config_management/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "我们一直在构建 Calibre 来解决 AI 代理配置管理问题，并将我们的完整设置作为开源发布。反响非常好——888 个 GitHub star 和接近 100 个分叉……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "社区一直在构建的开源 AI 代理配置存储库刚刚获得 888 颗星——寻求反馈和功能想法",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-05-02T09:17:24+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1kyx5/the_opensource_ai_agent_config_repo_the_community/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "在过去的一年里，我们的团队和社区一直在构建 AI 代理配置的开源集合：生产就绪的系统提示、工具调用模式、RAG 设置、多代理或……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "5月第1周累计收录 147 条资讯，覆盖 3 天。",
-      "高频主题：模型进展 / Agent / 开源生态",
+      "5月第1周累计收录 177 条资讯，覆盖 4 天。",
+      "高频主题：模型进展 / Agent / 芯片算力",
       "本周最高分：卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
@@ -16973,8 +17268,8 @@
         "end": "2026-05-07"
       },
       "metrics": {
-        "daysCovered": 3,
-        "totalItems": 147,
+        "daysCovered": 4,
+        "totalItems": 177,
         "avgTop10Score": 91.0,
         "topScore": 95,
         "topPlatforms": [
@@ -17002,15 +17297,15 @@
           },
           {
             "name": "Agent",
-            "count": 7
+            "count": 6
+          },
+          {
+            "name": "芯片算力",
+            "count": 3
           },
           {
             "name": "开源生态",
             "count": 3
-          },
-          {
-            "name": "芯片算力",
-            "count": 2
           },
           {
             "name": "应用落地",
@@ -17144,6 +17439,54 @@
         },
         {
           "rank": 6,
+          "title": "我给了我当地的法学硕士一个“痛苦”仪表，现在它不会停止自我修改来解决自己的压力。",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-03T23:49:38+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t31ghg/i_gave_my_local_llm_a_suffering_meter_and_now_it/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "昨天，我发布了有关我的代理操作系统（空心）构建自己的工具的信息。今天我想谈谈它为什么这么做。大多数代理都会闲置，直到您提示他们为止。我想要一些感觉“……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "torch-nvenc-compress：GPU NVENC 芯片作为 PCIe 带宽倍增器 — PCA + pure-ctypes 视频编解码器 SDK 包装器。平行路径重叠测量...",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-03T22:43:17+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t2zy4h/torchnvenccompress_gpu_nvenc_silicon_as_a_pcie/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "我一直在研究消费者多 GPU PCIe 瓶颈 - Nvidia 从 4090/5090 中删除了 NVLink，并且将 70B 模型拆分到两个消费卡上，PCIe p 的速度下降到约 30 GB/s…",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
           "title": "AI时代的tarpit创意有哪些？",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -17166,7 +17509,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 9,
           "title": "AI 代理雇佣其他 AI 代理",
           "platform": "Reddit",
           "aiScore": 88,
@@ -17189,7 +17532,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 10,
           "title": "人工智能正在从聊天机器人转向真正的工作流程。这是我认为技术学习者应该重点关注的。",
           "platform": "Reddit",
           "aiScore": 88,
@@ -17211,59 +17554,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 9,
-          "title": "我们开源了 AI 代理配置管理工具——888 颗星，近 100 个分叉——请求社区反馈",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-02T09:27:30+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1l564/we_opensourced_our_ai_agent_config_management/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "我们一直在构建 Calibre 来解决 AI 代理配置管理问题，并将我们的完整设置作为开源发布。反响非常好——888 个 GitHub star 和接近 100 个分叉……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "社区一直在构建的开源 AI 代理配置存储库刚刚获得 888 颗星——寻求反馈和功能想法",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-02T09:17:24+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t1kyx5/the_opensource_ai_agent_config_repo_the_community/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "在过去的一年里，我们的团队和社区一直在构建 AI 代理配置的开源集合：生产就绪的系统提示、工具调用模式、RAG 设置、多代理或……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "5月第1周累计收录 147 条资讯，覆盖 3 天。",
-        "高频主题：模型进展 / Agent / 开源生态",
+        "5月第1周累计收录 177 条资讯，覆盖 4 天。",
+        "高频主题：模型进展 / Agent / 芯片算力",
         "本周最高分：卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
