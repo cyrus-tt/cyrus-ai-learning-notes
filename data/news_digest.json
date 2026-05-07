@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T04:33:21.174263+00:00",
+  "generatedAt": "2026-05-07T15:28:01.765277+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-05-07",
@@ -7,20 +7,20 @@
     "top10": [
       {
         "rank": 1,
-        "title": "腾讯Hy3 preview上线两周Token调用增10倍",
+        "title": "在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？",
         "platform": "36氪",
         "aiScore": 95,
-        "publishedAt": "2026-05-07T02:07:24+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3798591810067718?f=rss",
+        "publishedAt": "2026-05-07T11:31:32+00:00",
+        "sourceUrl": "https://36kr.com/p/3786528811572481?f=rss",
         "sourceName": "36氪",
         "industryStage": "下游",
         "contentTags": [
+          "芯片算力",
           "模型进展",
-          "Agent",
-          "应用落地"
+          "Agent"
         ],
-        "summary": "36氪获悉，5月7日，腾讯混元公布最新数据，自上线以来，Hy3 preview的Token调用量持续增加，目前总量已经超过上一代版本模型Hy2的10倍，尤其是代码和智能体类场景的Token调用量增加明显，并且腾讯的WorkBuddy/Codebuddy以及Qclaw类应用中的总增长幅度超过16.5倍。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文｜王毓婵 周鑫雨 编辑｜杨轩 “看流水（即营收），AI视频类这些项目的表现确实很不错，可以说是AI最赚钱的细分赛道之一。”投资行业人士对36氪说。 中国 AI 视频生成赛道，正在经历大厂模型能力疯狂增长的巨大红利。来自字节跳动的Seedance和来自快手的可灵这两款“超级底座”正在进行一周一小版、两月一大版的高频迭代。阿里巴巴也在4月底，对视频生成模型HappyHorse…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
@@ -31,9 +31,102 @@
       },
       {
         "rank": 2,
+        "title": "Parloa 建立客户想要交谈的服务代理",
+        "platform": "OpenAI",
+        "aiScore": 95,
+        "publishedAt": "2026-05-07T11:00:00+00:00",
+        "sourceUrl": "https://openai.com/index/parloa",
+        "sourceName": "OpenAI News",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "Parloa 利用 OpenAI 模型为可扩展、语音驱动的 AI 客户服务代理提供支持，使企业能够设计、模拟和部署可靠的实时交互。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "2026 年中期 ROCm 状况 [D]",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-07T14:44:45+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t6cng3/rocm_status_in_mid_2026_d/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "大家好，我开始听说 ROCm 现在可以很好地进行推理。但是，我还没有看到任何关于其培训可行性的报告。我有几台 RTX 3090 用于制作原型……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "如果初始潜在噪声固定，由相同扩散模型生成的视频在不同 GPU 架构之间会有多大差异？ [D]",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-07T12:41:32+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t69dvx/how_much_can_a_video_generated_by_the_same/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "你好！我正在尝试对扩散视频生成再现性的假设进行健全性检查。假设我在两个不同的 GPU 架构上运行相同的视频扩散模型，其中：identica...",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "00后下场整顿Agent：啥都不学就能用好AI，这才是正确打开方式",
+        "platform": "量子位",
+        "aiScore": 88,
+        "publishedAt": "2026-05-07T07:14:28+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/05/413612.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "低提示词，挑战主流模型的交互逻辑",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
         "title": "像素绽放PixelBloom完成C轮融资，全面发力AI办公解决方案Agent：从“一分钟生成PPT”到“交付商用级结果”",
         "platform": "36氪",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-05-07T01:00:00+00:00",
         "sourceUrl": "https://36kr.com/p/3797787228151048?f=rss",
         "sourceName": "36氪",
@@ -46,7 +139,7 @@
         "summary": "作者｜梁键强 △图片来源：像素绽放PixelBloom AI办公正在进入下一个阶段。 随着AI进入办公场景，写文档、做设计、生成PPT等原本耗时耗力的工作，开始被AI快速接手。但到目前为止，大多数AI办公产品仍停留在“生成内容”和“提升效率”的阶段。相比一个只会辅助完成任务的工具，市场更需要的，是一个能够直接理解需求、输出完整方案、交付结果的AI助手。 近日，像素绽放Pixe…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -54,10 +147,10 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 7,
         "title": "8点1氪丨三星宣布停止在中国大陆市场销售所有家电产品；李嘉诚抛售资产套现约455亿；月之暗面将完成20亿美元新融资，估值破200亿美元",
         "platform": "36氪",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-05-06T23:58:15+00:00",
         "sourceUrl": "https://36kr.com/p/3798462137637892?f=rss",
         "sourceName": "36氪",
@@ -70,7 +163,7 @@
         "summary": "今日热点导览 小米汽车：新一代SU7上市仅48天，锁单已超过80000台 胖东来19名管理人员被降级，1名管理人员被免职 追觅俞浩：建议年轻人别炒股 五一档票房7.58亿元 三星电子借AI热潮市值突破1万亿美元 TOP3大新闻 三星宣布停止在中国大陆市场销售所有家电产品 5月6日，三星电子在官网发布公告称，为应对急剧变化的市场环境，经慎重研究，三星电子决定在中国大陆市场停止销…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -78,10 +171,34 @@
         }
       },
       {
-        "rank": 10,
+        "rank": 8,
+        "title": "人工智能使用的水比公众想象的要少，软件工程师的职位发布正在迅速上升，以及黑客新闻中的许多其他人工智能链接",
+        "platform": "Reddit",
+        "aiScore": 87,
+        "publishedAt": "2026-05-07T14:25:45+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t6c3tr/ai_uses_less_water_than_the_public_thinks_job/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "应用落地",
+          "内容生产"
+        ],
+        "summary": "大家好，我刚刚发送了《AI 黑客新闻通讯》第 31 期，这是《黑客新闻》中最佳 AI 链接的每周综述。以下是一些标题示例：AI Vibe 编码的三个逆定律……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
         "title": "斯坦福博士后创立的柔性触觉传感器公司获超亿元融资，低成本触觉手套将量产落地｜硬氪首发",
         "platform": "36氪",
-        "aiScore": 94,
+        "aiScore": 87,
         "publishedAt": "2026-05-07T01:30:00+00:00",
         "sourceUrl": "https://36kr.com/p/3797155747748867?f=rss",
         "sourceName": "36氪",
@@ -94,7 +211,7 @@
         "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，途见科技（北京）有限公司（以下简称“途见科技”）近日完成Pre-A轮、Pre-A+轮融资，两轮累计金额超亿元，投资方包括联想之星、华控基金、元禾璞华、元禾控股、洪泰基金等。资金将主要用于核心技术研发，机器人全身触觉、触觉手套、触觉数据采集工具链等产品矩阵拓展和生产体系升级，加速市场化落地验证。 途见科技成立于2020年1月，聚焦可拉伸多模态…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 19,
           "actionability": 10,
@@ -102,211 +219,96 @@
         }
       },
       {
-        "rank": 5,
-        "title": "汇丰上调香港2026年经济增长预期至3.8%",
-        "platform": "36氪",
-        "aiScore": 89,
-        "publishedAt": "2026-05-07T02:13:40+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3798597969042440?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "投融资",
-          "安全治理"
-        ],
-        "summary": "汇丰环球投资研究5月7日发布最新香港经济报告，将2026年及2027年香港本地生产总值（GDP）增长预期分别上调至3.8%及3.0%。报告指出，本地增长正在巩固；鉴于香港的经济结构，预期中东冲突影响相对有限；“安全港”和互联互通吸引资本和人才，财富拉动消费，人工智能推动投资。（界面）",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 14,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "150k+ 粪便图像数据集，但不知道如何充分利用它 [D]",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-05-07T01:13:15+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t5vy2i/dataset_of_150k_stool_images_and_not_sure_how_to/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "自动化"
-        ],
-        "summary": "我有一个包含大约 15 万张粪便图像的数据集，我正在尝试更好地理解使用它来训练计算机视觉模型的“正确”方法。目前，我们的流程非常手动。我们…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "eTPS — 每秒有效令牌：衡量本地 LLM 绩效的更好方法",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-05-06T23:26:33+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t5tije/etps_effective_tokens_per_second_a_better_way_to/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "我们痴迷于每秒的原始令牌。每个硬件帖子都以它为主导。每次量化比较都按其排名。这是每个人都同意报告的一个数字。这也是衡量…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "米拉·穆拉蒂 (Mira Murati) 告诉法庭，她不能相信萨姆·奥尔特曼 (Sam Altman) 的话",
-        "platform": "The Verge",
-        "aiScore": 86,
-        "publishedAt": "2026-05-06T17:55:53+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "OpenAI 前首席技术官米拉·穆拉蒂 (Mira Murati) 宣誓作证，称首席执行官萨姆·奥尔特曼 (Sam Altman) 在新人工智能模型的安全标准问题上向她撒谎。在马斯克正在进行的会议期间播放的视频证词中……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "Token需求狂飙千倍，22亿热钱涌向这家AGI Infra头号玩家",
-        "platform": "量子位",
-        "aiScore": 85,
-        "publishedAt": "2026-05-07T02:46:50+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/05/413591.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "中国大模型的共同依赖",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
         "rank": 10,
-        "title": "Anthropic 刚刚与 SpaceX 合作，并将克劳德代码速率限制提高了一倍，即日生效",
+        "title": "部署前人工智能评估",
         "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-05-06T18:20:46+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t5l92i/anthropic_just_partnered_with_spacex_and_doubled/",
+        "aiScore": 86,
+        "publishedAt": "2026-05-07T13:28:57+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t6al9u/predeployment_ai_evaluations/",
         "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展"
+          "模型进展",
+          "内容生产",
+          "安全治理"
         ],
-        "summary": "Anthropic 刚刚与 SpaceX 合作，并将今天生效的克劳德代码速率限制提高了一倍，今天早上发布了重大消息。 Anthropic 签署了一项协议，使用 SpaceX Colos 的所有计算能力……",
+        "summary": "美国政府与谷歌 DeepMind、微软和 xAI 签署了协议，在公开发布之前评估前沿人工智能模型。中国2023年生成式人工智能规则已要求预发布……",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 49,
-      "avgScore": 73.8,
+      "totalItems": 62,
+      "avgScore": 73.6,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 17
+          "count": 23
         },
         {
           "name": "Hacker News",
           "count": 15
         },
         {
-          "name": "36氪",
-          "count": 7
+          "name": "量子位",
+          "count": 8
         },
         {
           "name": "The Verge",
-          "count": 4
+          "count": 6
         },
         {
-          "name": "量子位",
-          "count": 2
+          "name": "36氪",
+          "count": 5
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 22
+          "count": 25
         },
         {
           "name": "模型进展",
-          "count": 17
+          "count": 21
         },
         {
           "name": "Agent",
-          "count": 8
-        },
-        {
-          "name": "应用落地",
-          "count": 5
+          "count": 13
         },
         {
           "name": "开源生态",
-          "count": 5
+          "count": 10
         },
         {
           "name": "芯片算力",
-          "count": 4
+          "count": 7
         },
         {
-          "name": "安全治理",
+          "name": "应用落地",
+          "count": 6
+        },
+        {
+          "name": "内容生产",
           "count": 3
         },
         {
-          "name": "自动化",
+          "name": "安全治理",
           "count": 3
         }
       ]
     },
     "briefing": [
-      "今日共收录 49 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 62 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：腾讯Hy3 preview上线两周Token调用增10倍（95 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "最高分事件：在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？（95 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -316,20 +318,20 @@
       "top10": [
         {
           "rank": 1,
-          "title": "腾讯Hy3 preview上线两周Token调用增10倍",
+          "title": "在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？",
           "platform": "36氪",
           "aiScore": 95,
-          "publishedAt": "2026-05-07T02:07:24+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3798591810067718?f=rss",
+          "publishedAt": "2026-05-07T11:31:32+00:00",
+          "sourceUrl": "https://36kr.com/p/3786528811572481?f=rss",
           "sourceName": "36氪",
           "industryStage": "下游",
           "contentTags": [
+            "芯片算力",
             "模型进展",
-            "Agent",
-            "应用落地"
+            "Agent"
           ],
-          "summary": "36氪获悉，5月7日，腾讯混元公布最新数据，自上线以来，Hy3 preview的Token调用量持续增加，目前总量已经超过上一代版本模型Hy2的10倍，尤其是代码和智能体类场景的Token调用量增加明显，并且腾讯的WorkBuddy/Codebuddy以及Qclaw类应用中的总增长幅度超过16.5倍。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "文｜王毓婵 周鑫雨 编辑｜杨轩 “看流水（即营收），AI视频类这些项目的表现确实很不错，可以说是AI最赚钱的细分赛道之一。”投资行业人士对36氪说。 中国 AI 视频生成赛道，正在经历大厂模型能力疯狂增长的巨大红利。来自字节跳动的Seedance和来自快手的可灵这两款“超级底座”正在进行一周一小版、两月一大版的高频迭代。阿里巴巴也在4月底，对视频生成模型HappyHorse…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
@@ -340,9 +342,102 @@
         },
         {
           "rank": 2,
+          "title": "Parloa 建立客户想要交谈的服务代理",
+          "platform": "OpenAI",
+          "aiScore": 95,
+          "publishedAt": "2026-05-07T11:00:00+00:00",
+          "sourceUrl": "https://openai.com/index/parloa",
+          "sourceName": "OpenAI News",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "Parloa 利用 OpenAI 模型为可扩展、语音驱动的 AI 客户服务代理提供支持，使企业能够设计、模拟和部署可靠的实时交互。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "2026 年中期 ROCm 状况 [D]",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-07T14:44:45+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t6cng3/rocm_status_in_mid_2026_d/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "大家好，我开始听说 ROCm 现在可以很好地进行推理。但是，我还没有看到任何关于其培训可行性的报告。我有几台 RTX 3090 用于制作原型……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "如果初始潜在噪声固定，由相同扩散模型生成的视频在不同 GPU 架构之间会有多大差异？ [D]",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-07T12:41:32+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t69dvx/how_much_can_a_video_generated_by_the_same/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "你好！我正在尝试对扩散视频生成再现性的假设进行健全性检查。假设我在两个不同的 GPU 架构上运行相同的视频扩散模型，其中：identica...",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "00后下场整顿Agent：啥都不学就能用好AI，这才是正确打开方式",
+          "platform": "量子位",
+          "aiScore": 88,
+          "publishedAt": "2026-05-07T07:14:28+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/05/413612.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "低提示词，挑战主流模型的交互逻辑",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
           "title": "像素绽放PixelBloom完成C轮融资，全面发力AI办公解决方案Agent：从“一分钟生成PPT”到“交付商用级结果”",
           "platform": "36氪",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-05-07T01:00:00+00:00",
           "sourceUrl": "https://36kr.com/p/3797787228151048?f=rss",
           "sourceName": "36氪",
@@ -355,7 +450,7 @@
           "summary": "作者｜梁键强 △图片来源：像素绽放PixelBloom AI办公正在进入下一个阶段。 随着AI进入办公场景，写文档、做设计、生成PPT等原本耗时耗力的工作，开始被AI快速接手。但到目前为止，大多数AI办公产品仍停留在“生成内容”和“提升效率”的阶段。相比一个只会辅助完成任务的工具，市场更需要的，是一个能够直接理解需求、输出完整方案、交付结果的AI助手。 近日，像素绽放Pixe…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -363,10 +458,10 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 7,
           "title": "8点1氪丨三星宣布停止在中国大陆市场销售所有家电产品；李嘉诚抛售资产套现约455亿；月之暗面将完成20亿美元新融资，估值破200亿美元",
           "platform": "36氪",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-05-06T23:58:15+00:00",
           "sourceUrl": "https://36kr.com/p/3798462137637892?f=rss",
           "sourceName": "36氪",
@@ -379,7 +474,7 @@
           "summary": "今日热点导览 小米汽车：新一代SU7上市仅48天，锁单已超过80000台 胖东来19名管理人员被降级，1名管理人员被免职 追觅俞浩：建议年轻人别炒股 五一档票房7.58亿元 三星电子借AI热潮市值突破1万亿美元 TOP3大新闻 三星宣布停止在中国大陆市场销售所有家电产品 5月6日，三星电子在官网发布公告称，为应对急剧变化的市场环境，经慎重研究，三星电子决定在中国大陆市场停止销…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -387,10 +482,34 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 8,
+          "title": "人工智能使用的水比公众想象的要少，软件工程师的职位发布正在迅速上升，以及黑客新闻中的许多其他人工智能链接",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-05-07T14:25:45+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t6c3tr/ai_uses_less_water_than_the_public_thinks_job/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "应用落地",
+            "内容生产"
+          ],
+          "summary": "大家好，我刚刚发送了《AI 黑客新闻通讯》第 31 期，这是《黑客新闻》中最佳 AI 链接的每周综述。以下是一些标题示例：AI Vibe 编码的三个逆定律……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
           "title": "斯坦福博士后创立的柔性触觉传感器公司获超亿元融资，低成本触觉手套将量产落地｜硬氪首发",
           "platform": "36氪",
-          "aiScore": 94,
+          "aiScore": 87,
           "publishedAt": "2026-05-07T01:30:00+00:00",
           "sourceUrl": "https://36kr.com/p/3797155747748867?f=rss",
           "sourceName": "36氪",
@@ -403,7 +522,7 @@
           "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，途见科技（北京）有限公司（以下简称“途见科技”）近日完成Pre-A轮、Pre-A+轮融资，两轮累计金额超亿元，投资方包括联想之星、华控基金、元禾璞华、元禾控股、洪泰基金等。资金将主要用于核心技术研发，机器人全身触觉、触觉手套、触觉数据采集工具链等产品矩阵拓展和生产体系升级，加速市场化落地验证。 途见科技成立于2020年1月，聚焦可拉伸多模态…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 19,
             "actionability": 10,
@@ -411,211 +530,96 @@
           }
         },
         {
-          "rank": 5,
-          "title": "汇丰上调香港2026年经济增长预期至3.8%",
-          "platform": "36氪",
-          "aiScore": 89,
-          "publishedAt": "2026-05-07T02:13:40+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3798597969042440?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "投融资",
-            "安全治理"
-          ],
-          "summary": "汇丰环球投资研究5月7日发布最新香港经济报告，将2026年及2027年香港本地生产总值（GDP）增长预期分别上调至3.8%及3.0%。报告指出，本地增长正在巩固；鉴于香港的经济结构，预期中东冲突影响相对有限；“安全港”和互联互通吸引资本和人才，财富拉动消费，人工智能推动投资。（界面）",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 14,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "150k+ 粪便图像数据集，但不知道如何充分利用它 [D]",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-07T01:13:15+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t5vy2i/dataset_of_150k_stool_images_and_not_sure_how_to/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "自动化"
-          ],
-          "summary": "我有一个包含大约 15 万张粪便图像的数据集，我正在尝试更好地理解使用它来训练计算机视觉模型的“正确”方法。目前，我们的流程非常手动。我们…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "eTPS — 每秒有效令牌：衡量本地 LLM 绩效的更好方法",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-06T23:26:33+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t5tije/etps_effective_tokens_per_second_a_better_way_to/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "我们痴迷于每秒的原始令牌。每个硬件帖子都以它为主导。每次量化比较都按其排名。这是每个人都同意报告的一个数字。这也是衡量…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "米拉·穆拉蒂 (Mira Murati) 告诉法庭，她不能相信萨姆·奥尔特曼 (Sam Altman) 的话",
-          "platform": "The Verge",
-          "aiScore": 86,
-          "publishedAt": "2026-05-06T17:55:53+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "OpenAI 前首席技术官米拉·穆拉蒂 (Mira Murati) 宣誓作证，称首席执行官萨姆·奥尔特曼 (Sam Altman) 在新人工智能模型的安全标准问题上向她撒谎。在马斯克正在进行的会议期间播放的视频证词中……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "Token需求狂飙千倍，22亿热钱涌向这家AGI Infra头号玩家",
-          "platform": "量子位",
-          "aiScore": 85,
-          "publishedAt": "2026-05-07T02:46:50+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/05/413591.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "中国大模型的共同依赖",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
           "rank": 10,
-          "title": "Anthropic 刚刚与 SpaceX 合作，并将克劳德代码速率限制提高了一倍，即日生效",
+          "title": "部署前人工智能评估",
           "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-05-06T18:20:46+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t5l92i/anthropic_just_partnered_with_spacex_and_doubled/",
+          "aiScore": 86,
+          "publishedAt": "2026-05-07T13:28:57+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t6al9u/predeployment_ai_evaluations/",
           "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
+          "industryStage": "中游",
           "contentTags": [
-            "芯片算力",
-            "模型进展"
+            "模型进展",
+            "内容生产",
+            "安全治理"
           ],
-          "summary": "Anthropic 刚刚与 SpaceX 合作，并将今天生效的克劳德代码速率限制提高了一倍，今天早上发布了重大消息。 Anthropic 签署了一项协议，使用 SpaceX Colos 的所有计算能力……",
+          "summary": "美国政府与谷歌 DeepMind、微软和 xAI 签署了协议，在公开发布之前评估前沿人工智能模型。中国2023年生成式人工智能规则已要求预发布……",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
-            "topic": 20,
+            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 49,
-        "avgScore": 73.8,
+        "totalItems": 62,
+        "avgScore": 73.6,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "Reddit",
-            "count": 17
+            "count": 23
           },
           {
             "name": "Hacker News",
             "count": 15
           },
           {
-            "name": "36氪",
-            "count": 7
+            "name": "量子位",
+            "count": 8
           },
           {
             "name": "The Verge",
-            "count": 4
+            "count": 6
           },
           {
-            "name": "量子位",
-            "count": 2
+            "name": "36氪",
+            "count": 5
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 22
+            "count": 25
           },
           {
             "name": "模型进展",
-            "count": 17
+            "count": 21
           },
           {
             "name": "Agent",
-            "count": 8
-          },
-          {
-            "name": "应用落地",
-            "count": 5
+            "count": 13
           },
           {
             "name": "开源生态",
-            "count": 5
+            "count": 10
           },
           {
             "name": "芯片算力",
-            "count": 4
+            "count": 7
           },
           {
-            "name": "安全治理",
+            "name": "应用落地",
+            "count": 6
+          },
+          {
+            "name": "内容生产",
             "count": 3
           },
           {
-            "name": "自动化",
+            "name": "安全治理",
             "count": 3
           }
         ]
       },
       "briefing": [
-        "今日共收录 49 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 62 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：腾讯Hy3 preview上线两周Token调用增10倍（95 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "最高分事件：在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？（95 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -623,7 +627,7 @@
       "label": "5月6日",
       "top10": [
         {
-          "rank": 4,
+          "rank": 3,
           "title": "氪星晚报｜三星电子借AI热潮市值突破1万亿美元；智源发布业内首个心脏磁共振多模态诊断智能体BAAI Cardiac Agent；财政部今年将在香港发行840亿元人民币国债",
           "platform": "36氪",
           "aiScore": 95,
@@ -1234,7 +1238,7 @@
       "label": "5月4日",
       "top10": [
         {
-          "rank": 5,
+          "rank": 4,
           "title": "五月，适合想清楚一件事｜幕启",
           "platform": "36氪",
           "aiScore": 95,
@@ -1258,7 +1262,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线",
           "platform": "36氪",
           "aiScore": 95,
@@ -1532,7 +1536,7 @@
       "label": "5月3日",
       "top10": [
         {
-          "rank": 8,
+          "rank": 10,
           "title": "韩国政府将向AI初创公司Upstage投资5600亿韩元",
           "platform": "36氪",
           "aiScore": 91,
@@ -1835,7 +1839,7 @@
       "label": "5月2日",
       "top10": [
         {
-          "rank": 7,
+          "rank": 6,
           "title": "卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线",
           "platform": "36氪",
           "aiScore": 95,
@@ -1859,7 +1863,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 9,
           "title": "在硅谷，中美具身公司聊了聊了4个问题的解法",
           "platform": "36氪",
           "aiScore": 94,
@@ -2146,7 +2150,7 @@
       "label": "5月1日",
       "top10": [
         {
-          "rank": 8,
+          "rank": 7,
           "title": "微软希望律师信任其在 Word 文档中的新 AI 代理",
           "platform": "The Verge",
           "aiScore": 95,
@@ -2170,7 +2174,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "追觅造车，从“火箭”开始",
           "platform": "36氪",
           "aiScore": 95,
@@ -17892,13 +17896,17 @@
     },
     "metrics": {
       "daysCovered": 7,
-      "totalItems": 334,
-      "avgTop10Score": 94.9,
+      "totalItems": 347,
+      "avgTop10Score": 94.5,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 9
+          "count": 8
+        },
+        {
+          "name": "OpenAI",
+          "count": 1
         },
         {
           "name": "The Verge",
@@ -17912,7 +17920,7 @@
         },
         {
           "name": "Agent",
-          "count": 7
+          "count": 6
         },
         {
           "name": "芯片算力",
@@ -17920,10 +17928,10 @@
         },
         {
           "name": "应用落地",
-          "count": 4
+          "count": 2
         },
         {
-          "name": "自动化",
+          "name": "投融资",
           "count": 2
         },
         {
@@ -17935,20 +17943,20 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "腾讯Hy3 preview上线两周Token调用增10倍",
+        "title": "在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？",
         "platform": "36氪",
         "aiScore": 95,
-        "publishedAt": "2026-05-07T02:07:24+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3798591810067718?f=rss",
+        "publishedAt": "2026-05-07T11:31:32+00:00",
+        "sourceUrl": "https://36kr.com/p/3786528811572481?f=rss",
         "sourceName": "36氪",
         "industryStage": "下游",
         "contentTags": [
+          "芯片算力",
           "模型进展",
-          "Agent",
-          "应用落地"
+          "Agent"
         ],
-        "summary": "36氪获悉，5月7日，腾讯混元公布最新数据，自上线以来，Hy3 preview的Token调用量持续增加，目前总量已经超过上一代版本模型Hy2的10倍，尤其是代码和智能体类场景的Token调用量增加明显，并且腾讯的WorkBuddy/Codebuddy以及Qclaw类应用中的总增长幅度超过16.5倍。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文｜王毓婵 周鑫雨 编辑｜杨轩 “看流水（即营收），AI视频类这些项目的表现确实很不错，可以说是AI最赚钱的细分赛道之一。”投资行业人士对36氪说。 中国 AI 视频生成赛道，正在经历大厂模型能力疯狂增长的巨大红利。来自字节跳动的Seedance和来自快手的可灵这两款“超级底座”正在进行一周一小版、两月一大版的高频迭代。阿里巴巴也在4月底，对视频生成模型HappyHorse…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
@@ -17959,19 +17967,18 @@
       },
       {
         "rank": 2,
-        "title": "像素绽放PixelBloom完成C轮融资，全面发力AI办公解决方案Agent：从“一分钟生成PPT”到“交付商用级结果”",
-        "platform": "36氪",
+        "title": "Parloa 建立客户想要交谈的服务代理",
+        "platform": "OpenAI",
         "aiScore": 95,
-        "publishedAt": "2026-05-07T01:00:00+00:00",
-        "sourceUrl": "https://36kr.com/p/3797787228151048?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
+        "publishedAt": "2026-05-07T11:00:00+00:00",
+        "sourceUrl": "https://openai.com/index/parloa",
+        "sourceName": "OpenAI News",
+        "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
-          "应用落地"
+          "Agent"
         ],
-        "summary": "作者｜梁键强 △图片来源：像素绽放PixelBloom AI办公正在进入下一个阶段。 随着AI进入办公场景，写文档、做设计、生成PPT等原本耗时耗力的工作，开始被AI快速接手。但到目前为止，大多数AI办公产品仍停留在“生成内容”和“提升效率”的阶段。相比一个只会辅助完成任务的工具，市场更需要的，是一个能够直接理解需求、输出完整方案、交付结果的AI助手。 近日，像素绽放Pixe…",
+        "summary": "Parloa 利用 OpenAI 模型为可扩展、语音驱动的 AI 客户服务代理提供支持，使企业能够设计、模拟和部署可靠的实时交互。",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -17983,30 +17990,6 @@
       },
       {
         "rank": 3,
-        "title": "8点1氪丨三星宣布停止在中国大陆市场销售所有家电产品；李嘉诚抛售资产套现约455亿；月之暗面将完成20亿美元新融资，估值破200亿美元",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-06T23:58:15+00:00",
-        "sourceUrl": "https://36kr.com/p/3798462137637892?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "今日热点导览 小米汽车：新一代SU7上市仅48天，锁单已超过80000台 胖东来19名管理人员被降级，1名管理人员被免职 追觅俞浩：建议年轻人别炒股 五一档票房7.58亿元 三星电子借AI热潮市值突破1万亿美元 TOP3大新闻 三星宣布停止在中国大陆市场销售所有家电产品 5月6日，三星电子在官网发布公告称，为应对急剧变化的市场环境，经慎重研究，三星电子决定在中国大陆市场停止销…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
         "title": "氪星晚报｜三星电子借AI热潮市值突破1万亿美元；智源发布业内首个心脏磁共振多模态诊断智能体BAAI Cardiac Agent；财政部今年将在香港发行840亿元人民币国债",
         "platform": "36氪",
         "aiScore": 95,
@@ -18030,7 +18013,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 4,
         "title": "五月，适合想清楚一件事｜幕启",
         "platform": "36氪",
         "aiScore": 95,
@@ -18054,7 +18037,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 5,
         "title": "豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线",
         "platform": "36氪",
         "aiScore": 95,
@@ -18077,7 +18060,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线",
         "platform": "36氪",
         "aiScore": 95,
@@ -18101,7 +18084,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 7,
         "title": "微软希望律师信任其在 Word 文档中的新 AI 代理",
         "platform": "The Verge",
         "aiScore": 95,
@@ -18125,7 +18108,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 8,
         "title": "追觅造车，从“火箭”开始",
         "platform": "36氪",
         "aiScore": 95,
@@ -18149,21 +18132,21 @@
         }
       },
       {
-        "rank": 10,
-        "title": "斯坦福博士后创立的柔性触觉传感器公司获超亿元融资，低成本触觉手套将量产落地｜硬氪首发",
+        "rank": 9,
+        "title": "在硅谷，中美具身公司聊了聊了4个问题的解法",
         "platform": "36氪",
         "aiScore": 94,
-        "publishedAt": "2026-05-07T01:30:00+00:00",
-        "sourceUrl": "https://36kr.com/p/3797155747748867?f=rss",
+        "publishedAt": "2026-05-02T13:01:36+00:00",
+        "sourceUrl": "https://36kr.com/p/3792155815304450?f=rss",
         "sourceName": "36氪",
         "industryStage": "下游",
         "contentTags": [
           "模型进展",
           "应用落地",
-          "自动化"
+          "内容生产"
         ],
-        "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，途见科技（北京）有限公司（以下简称“途见科技”）近日完成Pre-A轮、Pre-A+轮融资，两轮累计金额超亿元，投资方包括联想之星、华控基金、元禾璞华、元禾控股、洪泰基金等。资金将主要用于核心技术研发，机器人全身触觉、触觉手套、触觉数据采集工具链等产品矩阵拓展和生产体系升级，加速市场化落地验证。 途见科技成立于2020年1月，聚焦可拉伸多模态…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文｜周鑫雨 编辑｜杨轩 规模化落地，今年的具身公司都在谈这个。 数字竞速，不约而同出现在具身公司的产线、招股书、出货量上——2026年4月以来，智元机器人宣布第1万台机器人量产下线，5000到10000，只用了三个多月；宇树科技的IPO招股书也摊开了激进商业化的一角：2025年营收17.07亿元，出货量超过5500台。 激进的数字背后，是“低价、高性能”的中国机器人在全球的扩…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
@@ -18171,13 +18154,36 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 10,
+        "title": "韩国政府将向AI初创公司Upstage投资5600亿韩元",
+        "platform": "36氪",
+        "aiScore": 91,
+        "publishedAt": "2026-05-03T09:00:29+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3793154827000832?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "投融资"
+        ],
+        "summary": "韩国金融监管部门周日表示，已批准向韩国本土人工智能（AI）初创公司Upstage投资5600亿韩元（约合3.806亿美元），这是韩国国家增长基金的第二笔直接投资。韩国金融服务委员会（FSC）称，该决定已于周四举行的基金审议委员会会议上获得批准。Upstage成立于2020年，是一家估值超过1万亿韩元的独角兽初创公司，致力于开发人工智能解决方案和大型语言模型（LLM）。该公司是…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 16,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "briefing": [
-      "5月第1周累计收录 334 条资讯，覆盖 7 天。",
+      "5月第1周累计收录 347 条资讯，覆盖 7 天。",
       "高频主题：模型进展 / Agent / 芯片算力",
-      "本周最高分：腾讯Hy3 preview上线两周Token调用增10倍（95 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "本周最高分：在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？（95 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
@@ -18190,13 +18196,17 @@
       },
       "metrics": {
         "daysCovered": 7,
-        "totalItems": 334,
-        "avgTop10Score": 94.9,
+        "totalItems": 347,
+        "avgTop10Score": 94.5,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 9
+            "count": 8
+          },
+          {
+            "name": "OpenAI",
+            "count": 1
           },
           {
             "name": "The Verge",
@@ -18210,7 +18220,7 @@
           },
           {
             "name": "Agent",
-            "count": 7
+            "count": 6
           },
           {
             "name": "芯片算力",
@@ -18218,10 +18228,10 @@
           },
           {
             "name": "应用落地",
-            "count": 4
+            "count": 2
           },
           {
-            "name": "自动化",
+            "name": "投融资",
             "count": 2
           },
           {
@@ -18233,20 +18243,20 @@
       "topEvents": [
         {
           "rank": 1,
-          "title": "腾讯Hy3 preview上线两周Token调用增10倍",
+          "title": "在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？",
           "platform": "36氪",
           "aiScore": 95,
-          "publishedAt": "2026-05-07T02:07:24+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3798591810067718?f=rss",
+          "publishedAt": "2026-05-07T11:31:32+00:00",
+          "sourceUrl": "https://36kr.com/p/3786528811572481?f=rss",
           "sourceName": "36氪",
           "industryStage": "下游",
           "contentTags": [
+            "芯片算力",
             "模型进展",
-            "Agent",
-            "应用落地"
+            "Agent"
           ],
-          "summary": "36氪获悉，5月7日，腾讯混元公布最新数据，自上线以来，Hy3 preview的Token调用量持续增加，目前总量已经超过上一代版本模型Hy2的10倍，尤其是代码和智能体类场景的Token调用量增加明显，并且腾讯的WorkBuddy/Codebuddy以及Qclaw类应用中的总增长幅度超过16.5倍。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "文｜王毓婵 周鑫雨 编辑｜杨轩 “看流水（即营收），AI视频类这些项目的表现确实很不错，可以说是AI最赚钱的细分赛道之一。”投资行业人士对36氪说。 中国 AI 视频生成赛道，正在经历大厂模型能力疯狂增长的巨大红利。来自字节跳动的Seedance和来自快手的可灵这两款“超级底座”正在进行一周一小版、两月一大版的高频迭代。阿里巴巴也在4月底，对视频生成模型HappyHorse…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
@@ -18257,19 +18267,18 @@
         },
         {
           "rank": 2,
-          "title": "像素绽放PixelBloom完成C轮融资，全面发力AI办公解决方案Agent：从“一分钟生成PPT”到“交付商用级结果”",
-          "platform": "36氪",
+          "title": "Parloa 建立客户想要交谈的服务代理",
+          "platform": "OpenAI",
           "aiScore": 95,
-          "publishedAt": "2026-05-07T01:00:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3797787228151048?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
+          "publishedAt": "2026-05-07T11:00:00+00:00",
+          "sourceUrl": "https://openai.com/index/parloa",
+          "sourceName": "OpenAI News",
+          "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent",
-            "应用落地"
+            "Agent"
           ],
-          "summary": "作者｜梁键强 △图片来源：像素绽放PixelBloom AI办公正在进入下一个阶段。 随着AI进入办公场景，写文档、做设计、生成PPT等原本耗时耗力的工作，开始被AI快速接手。但到目前为止，大多数AI办公产品仍停留在“生成内容”和“提升效率”的阶段。相比一个只会辅助完成任务的工具，市场更需要的，是一个能够直接理解需求、输出完整方案、交付结果的AI助手。 近日，像素绽放Pixe…",
+          "summary": "Parloa 利用 OpenAI 模型为可扩展、语音驱动的 AI 客户服务代理提供支持，使企业能够设计、模拟和部署可靠的实时交互。",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -18281,30 +18290,6 @@
         },
         {
           "rank": 3,
-          "title": "8点1氪丨三星宣布停止在中国大陆市场销售所有家电产品；李嘉诚抛售资产套现约455亿；月之暗面将完成20亿美元新融资，估值破200亿美元",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-06T23:58:15+00:00",
-          "sourceUrl": "https://36kr.com/p/3798462137637892?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 小米汽车：新一代SU7上市仅48天，锁单已超过80000台 胖东来19名管理人员被降级，1名管理人员被免职 追觅俞浩：建议年轻人别炒股 五一档票房7.58亿元 三星电子借AI热潮市值突破1万亿美元 TOP3大新闻 三星宣布停止在中国大陆市场销售所有家电产品 5月6日，三星电子在官网发布公告称，为应对急剧变化的市场环境，经慎重研究，三星电子决定在中国大陆市场停止销…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
           "title": "氪星晚报｜三星电子借AI热潮市值突破1万亿美元；智源发布业内首个心脏磁共振多模态诊断智能体BAAI Cardiac Agent；财政部今年将在香港发行840亿元人民币国债",
           "platform": "36氪",
           "aiScore": 95,
@@ -18328,7 +18313,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "五月，适合想清楚一件事｜幕启",
           "platform": "36氪",
           "aiScore": 95,
@@ -18352,7 +18337,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线",
           "platform": "36氪",
           "aiScore": 95,
@@ -18375,7 +18360,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线",
           "platform": "36氪",
           "aiScore": 95,
@@ -18399,7 +18384,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "微软希望律师信任其在 Word 文档中的新 AI 代理",
           "platform": "The Verge",
           "aiScore": 95,
@@ -18423,7 +18408,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "追觅造车，从“火箭”开始",
           "platform": "36氪",
           "aiScore": 95,
@@ -18447,21 +18432,21 @@
           }
         },
         {
-          "rank": 10,
-          "title": "斯坦福博士后创立的柔性触觉传感器公司获超亿元融资，低成本触觉手套将量产落地｜硬氪首发",
+          "rank": 9,
+          "title": "在硅谷，中美具身公司聊了聊了4个问题的解法",
           "platform": "36氪",
           "aiScore": 94,
-          "publishedAt": "2026-05-07T01:30:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3797155747748867?f=rss",
+          "publishedAt": "2026-05-02T13:01:36+00:00",
+          "sourceUrl": "https://36kr.com/p/3792155815304450?f=rss",
           "sourceName": "36氪",
           "industryStage": "下游",
           "contentTags": [
             "模型进展",
             "应用落地",
-            "自动化"
+            "内容生产"
           ],
-          "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，途见科技（北京）有限公司（以下简称“途见科技”）近日完成Pre-A轮、Pre-A+轮融资，两轮累计金额超亿元，投资方包括联想之星、华控基金、元禾璞华、元禾控股、洪泰基金等。资金将主要用于核心技术研发，机器人全身触觉、触觉手套、触觉数据采集工具链等产品矩阵拓展和生产体系升级，加速市场化落地验证。 途见科技成立于2020年1月，聚焦可拉伸多模态…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "文｜周鑫雨 编辑｜杨轩 规模化落地，今年的具身公司都在谈这个。 数字竞速，不约而同出现在具身公司的产线、招股书、出货量上——2026年4月以来，智元机器人宣布第1万台机器人量产下线，5000到10000，只用了三个多月；宇树科技的IPO招股书也摊开了激进商业化的一角：2025年营收17.07亿元，出货量超过5500台。 激进的数字背后，是“低价、高性能”的中国机器人在全球的扩…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
@@ -18469,13 +18454,36 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 10,
+          "title": "韩国政府将向AI初创公司Upstage投资5600亿韩元",
+          "platform": "36氪",
+          "aiScore": 91,
+          "publishedAt": "2026-05-03T09:00:29+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3793154827000832?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "投融资"
+          ],
+          "summary": "韩国金融监管部门周日表示，已批准向韩国本土人工智能（AI）初创公司Upstage投资5600亿韩元（约合3.806亿美元），这是韩国国家增长基金的第二笔直接投资。韩国金融服务委员会（FSC）称，该决定已于周四举行的基金审议委员会会议上获得批准。Upstage成立于2020年，是一家估值超过1万亿韩元的独角兽初创公司，致力于开发人工智能解决方案和大型语言模型（LLM）。该公司是…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 16,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "5月第1周累计收录 334 条资讯，覆盖 7 天。",
+        "5月第1周累计收录 347 条资讯，覆盖 7 天。",
         "高频主题：模型进展 / Agent / 芯片算力",
-        "本周最高分：腾讯Hy3 preview上线两周Token调用增10倍（95 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "本周最高分：在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？（95 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
