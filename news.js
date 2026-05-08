@@ -234,6 +234,10 @@ async function bootstrap() {
   renderSourceChips();
   renderLoadingState();
   await reloadSourceData({ keepFilters: false });
+
+  if (window.location.hash === "#digest" && elements.digestPanel) {
+    elements.digestPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 }
 
 function bindEvents() {
@@ -1197,7 +1201,7 @@ function renderChips(container, values, active, onSelect, labelMapper) {
 function getFilteredNews() {
   const queryLower = state.query.toLowerCase();
 
-  return newsItems.filter((item) => {
+  const filtered = newsItems.filter((item) => {
     const pool = `${item.titleOriginal || item.title || ""} ${item.titleZh || ""} ${item.summaryOriginal || item.summary || ""} ${item.summaryZh || ""} ${item.action || ""} ${item.platform || ""} ${item.region || ""} ${(item.contentTags || []).join(" ")}`.toLowerCase();
 
     const matchesQuery = !queryLower || pool.includes(queryLower);
@@ -1208,6 +1212,17 @@ function getFilteredNews() {
 
     return matchesQuery && matchesPlatform && matchesStage && matchesTopic && matchesDate;
   });
+
+  if (state.source === "ai") {
+    filtered.sort((a, b) => {
+      const sa = Number(a.aiScore) || 0;
+      const sb = Number(b.aiScore) || 0;
+      if (sb !== sa) return sb - sa;
+      return (b.publishedAt || b.date || "").localeCompare(a.publishedAt || a.date || "");
+    });
+  }
+
+  return filtered;
 }
 
 function getItemDateKey(item) {
@@ -1325,10 +1340,13 @@ function renderCard(item, index) {
   const signal = normalizeSignal(item.signal);
   const metrics = normalizeMetrics(item.metrics);
 
+  const actionText = (item.action || "").trim();
+
   return `
     <article class="card card-animate" style="--stagger:${index};">
       <div class="card-top">
         <div class="card-title-wrap">
+          ${aiScore !== null ? `<span class="score-pill">${escapeHtml(String(aiScore))}</span>` : ""}
           <h3>${escapeHtml(title || "")}</h3>
         </div>
         ${
@@ -1341,17 +1359,14 @@ function renderCard(item, index) {
         }
       </div>
 
+      ${actionText ? `<div class="takeaway-box">${escapeHtml(actionText)}</div>` : ""}
+
       <p>${escapeHtml(summary || "")}</p>
 
       <div class="meta-line">
         <span class="badge tag">${escapeHtml(item.platform || "")}</span>
         <span class="badge date">${escapeHtml(item.region || "")} · ${formatDate(item.date)}</span>
         <span class="badge stage">${escapeHtml(stage)}</span>
-        ${
-          aiScore !== null
-            ? `<span class="badge score">AI分 ${escapeHtml(String(aiScore))}</span>`
-            : ""
-        }
         ${signal ? `<span class="badge signal">${escapeHtml(signal)}</span>` : ""}
       </div>
 
@@ -1364,8 +1379,6 @@ function renderCard(item, index) {
       }
 
       ${renderItemMetrics(item, metrics)}
-
-      <div class="takeaway-box">可执行动作：${escapeHtml(item.action || "")}</div>
 
       <div class="meta-line">
         ${sourceLinkHtml}

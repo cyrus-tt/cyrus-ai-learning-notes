@@ -1,222 +1,100 @@
-(() => {
+(function () {
+  "use strict";
+
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const desktopPointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
-  function setupAmbientUI() {
-    if (!document.body) {
-      return;
-    }
+  // Theme
+  const savedTheme = localStorage.getItem("cy_theme") || "light";
+  document.documentElement.setAttribute("data-theme", savedTheme);
 
-    if (!document.querySelector(".bg-aurora")) {
-      const aurora = document.createElement("div");
-      aurora.className = "bg-aurora";
-      aurora.setAttribute("aria-hidden", "true");
-      document.body.prepend(aurora);
-    }
-
-    if (!document.querySelector(".scroll-progress")) {
-      const progress = document.createElement("div");
-      progress.className = "scroll-progress";
-      progress.setAttribute("aria-hidden", "true");
-
-      const bar = document.createElement("div");
-      bar.className = "scroll-progress__bar";
-      progress.append(bar);
-
-      document.body.prepend(progress);
-    }
-
-    if (desktopPointer && !reduceMotion && !document.querySelector(".cursor-glow")) {
-      const glow = document.createElement("div");
-      glow.className = "cursor-glow";
-      glow.setAttribute("aria-hidden", "true");
-      document.body.prepend(glow);
-    }
+  function toggleTheme() {
+    const cur = document.documentElement.getAttribute("data-theme");
+    const next = cur === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem("cy_theme", next);
   }
 
-  function setupScrollProgress() {
-    const bar = document.querySelector(".scroll-progress__bar");
-    if (!bar) {
-      return;
-    }
+  const themeBtn = document.getElementById("themeToggle");
+  if (themeBtn) themeBtn.addEventListener("click", toggleTheme);
 
-    let rafId = 0;
+  // Terminal typing animation
+  const termScript = [
+    { t: "prompt", user: "cyrus", host: "xhs", path: "~", cmd: "whoami" },
+    { t: "out", text: "Cyrus — AI 炼金术士" },
+    { t: "prompt", user: "cyrus", host: "xhs", path: "~", cmd: "cat bio.txt" },
+    { t: "out", text: "hi，我是 Cyrus 宇。" },
+    { t: "out", text: "一个对 AI 好奇、热爱的朋友。" },
+    { t: "out", text: "欢迎一起学习，抓住 AI 时代红利。" },
+    { t: "prompt", user: "cyrus", host: "xhs", path: "~", cmd: "ls ./notes" },
+    { t: "out-html", text: '<span class="jn-term-dim">drwxr-xr-x</span>  <span class="jn-term-str">ai_news/</span>       <span class="jn-term-dim">1,284 条</span>' },
+    { t: "out-html", text: '<span class="jn-term-dim">drwxr-xr-x</span>  <span class="jn-term-str">ai_resources/</span>  <span class="jn-term-dim">47 条</span>' },
+    { t: "prompt", user: "cyrus", host: "xhs", path: "~", cmd: "./start.sh" },
+    { t: "out-html", text: '<span class="jn-term-ok">✓</span> 先看资讯，再拿干货执行。' },
+  ];
 
-    const update = () => {
-      rafId = 0;
-      const doc = document.documentElement;
-      const scrollTop = doc.scrollTop || document.body.scrollTop || 0;
-      const max = doc.scrollHeight - doc.clientHeight;
-      const progress = max <= 4 ? 1 : Math.min(1, Math.max(0, scrollTop / max));
-      bar.style.width = `${(progress * 100).toFixed(2)}%`;
-    };
+  let termTimer = null;
+  function startTerminal() {
+    const host = document.getElementById("termOutput");
+    if (!host || reduceMotion) return;
+    if (termTimer) clearTimeout(termTimer);
+    host.innerHTML = "";
 
-    const onScroll = () => {
-      if (rafId) {
+    let i = 0;
+    function step() {
+      if (i >= termScript.length) {
+        const lines = host.querySelectorAll(".jn-term-line");
+        if (lines.length) {
+          const last = lines[lines.length - 1];
+          if (!last.querySelector(".cursor")) {
+            last.insertAdjacentHTML("beforeend", '<span class="cursor"></span>');
+          }
+        }
         return;
       }
-      rafId = requestAnimationFrame(update);
-    };
-
-    update();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll, { passive: true });
-  }
-
-  function setupCursorGlow() {
-    const glow = document.querySelector(".cursor-glow");
-    if (!glow) {
-      return;
-    }
-
-    const halfSize = 260;
-    let rafId = 0;
-    let targetX = -9999;
-    let targetY = -9999;
-
-    const render = () => {
-      rafId = 0;
-      glow.style.transform = `translate3d(${(targetX - halfSize).toFixed(1)}px, ${(targetY - halfSize).toFixed(1)}px, 0)`;
-    };
-
-    const onMove = (event) => {
-      targetX = event.clientX;
-      targetY = event.clientY;
-      if (rafId) {
-        return;
+      const ev = termScript[i++];
+      const line = document.createElement("span");
+      line.className = "jn-term-line";
+      if (ev.t === "prompt") {
+        line.innerHTML = `<span class="jn-term-user">${ev.user}@${ev.host}</span><span class="jn-term-dim">:${ev.path}</span><span class="jn-term-prompt">$</span> ${ev.cmd}`;
+      } else if (ev.t === "out") {
+        line.innerHTML = `<span>${ev.text}</span>`;
+      } else if (ev.t === "out-html") {
+        line.innerHTML = ev.text;
       }
-      rafId = requestAnimationFrame(render);
-    };
-
-    window.addEventListener("pointermove", onMove, { passive: true });
-    document.addEventListener(
-      "mouseleave",
-      () => {
-        glow.style.transform = "translate3d(-9999px, -9999px, 0)";
-      },
-      { passive: true }
-    );
-    window.addEventListener(
-      "blur",
-      () => {
-        glow.style.transform = "translate3d(-9999px, -9999px, 0)";
-      },
-      { passive: true }
-    );
+      host.appendChild(line);
+      host.scrollTop = host.scrollHeight;
+      const delay = ev.t === "prompt" ? 700 : 420;
+      termTimer = setTimeout(step, delay);
+    }
+    step();
   }
 
-  function setupReveal() {
-    const targets = Array.from(
-      document.querySelectorAll(".hero, .entry-grid, .soft-panel, .filter-toolbar, .card-grid, .legal-panel, .site-footer")
-    );
+  // Start terminal on index page
+  if (document.getElementById("termOutput")) {
+    startTerminal();
+  }
 
-    targets.forEach((el, index) => {
-      el.classList.add("reveal");
-      el.style.setProperty("--reveal-delay", `${Math.min(index * 65, 380)}ms`);
-    });
-
-    if (reduceMotion || !("IntersectionObserver" in window)) {
-      targets.forEach((el) => el.classList.add("is-visible"));
-      return;
-    }
-
+  // Fade-up observer
+  if (!reduceMotion) {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (!entry.isIntersecting) {
-            return;
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
           }
-          entry.target.classList.add("is-visible");
-          observer.unobserve(entry.target);
         });
       },
-      {
-        threshold: 0.12,
-        rootMargin: "0px 0px -10% 0px"
-      }
+      { threshold: 0.08 }
     );
 
-    targets.forEach((el) => observer.observe(el));
-  }
+    document.querySelectorAll(".fade-up, .mg-entry, .mg-disp, .digest-card, .card-grid").forEach((el) => {
+      observer.observe(el);
+    });
 
-  function setupHeaderState() {
-    const header = document.querySelector(".site-header");
-    if (!header) {
-      return;
-    }
-
-    const onScroll = () => {
-      header.classList.toggle("scrolled", window.scrollY > 16);
-    };
-
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-  }
-
-  function setupCardTilt() {
-    if (reduceMotion) {
-      return;
-    }
-
-    const bindCardTilt = (card) => {
-      if (card.dataset.tiltBound === "true") {
-        return;
-      }
-      card.dataset.tiltBound = "true";
-
-      let rafId = 0;
-
-      const reset = () => {
-        card.style.setProperty("--rx", "0deg");
-        card.style.setProperty("--ry", "0deg");
-        card.style.setProperty("--glow-x", "50%");
-        card.style.setProperty("--glow-y", "50%");
-      };
-
-      card.addEventListener("pointermove", (event) => {
-        const rect = card.getBoundingClientRect();
-        const px = (event.clientX - rect.left) / rect.width;
-        const py = (event.clientY - rect.top) / rect.height;
-
-        if (rafId) {
-          cancelAnimationFrame(rafId);
-        }
-
-        rafId = requestAnimationFrame(() => {
-          const rx = (px - 0.5) * 7;
-          const ry = (0.5 - py) * 7;
-
-          card.style.setProperty("--rx", `${rx.toFixed(2)}deg`);
-          card.style.setProperty("--ry", `${ry.toFixed(2)}deg`);
-          card.style.setProperty("--glow-x", `${(px * 100).toFixed(1)}%`);
-          card.style.setProperty("--glow-y", `${(py * 100).toFixed(1)}%`);
-        });
-      });
-
-      card.addEventListener("pointerleave", reset);
-      card.addEventListener("pointercancel", reset);
-    };
-
-    const refreshTiltTargets = () => {
-      document.querySelectorAll(".entry-card, .card").forEach(bindCardTilt);
-    };
-
-    refreshTiltTargets();
-    window.addEventListener("cyrus:cards-rendered", refreshTiltTargets);
-  }
-
-  function setup() {
-    setupAmbientUI();
-    setupReveal();
-    setupHeaderState();
-    setupCardTilt();
-    setupScrollProgress();
-    setupCursorGlow();
-  }
-
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", setup);
-  } else {
-    setup();
+    // Re-observe after dynamic card rendering
+    window.addEventListener("cyrus:cards-rendered", () => {
+      document.querySelectorAll(".card-animate").forEach((el) => observer.observe(el));
+    });
   }
 })();

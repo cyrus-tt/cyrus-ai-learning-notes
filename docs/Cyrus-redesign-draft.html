@@ -1,0 +1,3626 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cyrus 个人网站 · 重新设计</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+/* =========================================================
+   TOKENS — warm minimal, light + dark
+   ========================================================= */
+:root {
+  --paper: #f4ede0;
+  --paper-2: #ede5d4;
+  --paper-3: #e3d9c3;
+  --ink: #1a1613;
+  --ink-2: #3b332c;
+  --muted: #7a6f60;
+  --muted-2: #9b907f;
+  --line: #d9cfb9;
+  --line-soft: #e6dcc5;
+  --accent: #b5451f;   /* warm terracotta */
+  --accent-2: #1a1613;
+  --ok: #5a7a3b;
+  --term-bg: #1a1613;
+  --term-fg: #f0e9db;
+  --term-muted: #928876;
+  --term-prompt: #d9a84b;
+  --term-str: #a8b97a;
+  --shadow-1: 0 1px 0 rgba(26,22,19,.06);
+  --shadow-2: 0 10px 28px rgba(26,22,19,.08);
+  --radius: 10px;
+  --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+  --font-sans: "Inter", "Noto Sans SC", "PingFang SC", -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+html[data-theme="dark"] {
+  --paper: #17140f;
+  --paper-2: #1f1a14;
+  --paper-3: #2a2319;
+  --ink: #f0e9db;
+  --ink-2: #d6cdbb;
+  --muted: #9b907f;
+  --muted-2: #7a6f60;
+  --line: #332b20;
+  --line-soft: #261f17;
+  --accent: #e58a5d;
+  --term-bg: #0e0b08;
+  --term-fg: #f0e9db;
+  --shadow-2: 0 10px 28px rgba(0,0,0,.35);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: var(--font-sans);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "ss01", "cv11";
+  transition: background-color .3s ease, color .3s ease;
+}
+a { color: inherit; text-decoration: none; }
+button { font: inherit; cursor: pointer; }
+
+/* Paper texture — subtle, purely CSS */
+body::before {
+  content: "";
+  position: fixed; inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(1px 1px at 23% 17%, rgba(26,22,19,.04) 50%, transparent 51%),
+    radial-gradient(1px 1px at 67% 43%, rgba(26,22,19,.035) 50%, transparent 51%),
+    radial-gradient(1.2px 1.2px at 81% 79%, rgba(26,22,19,.03) 50%, transparent 51%),
+    radial-gradient(1px 1px at 11% 87%, rgba(26,22,19,.04) 50%, transparent 51%);
+  background-size: 140px 140px, 180px 180px, 210px 210px, 160px 160px;
+  opacity: .8;
+}
+html[data-theme="dark"] body::before { opacity: .35; }
+
+/* =========================================================
+   SHELL — viewport chooser at the top (variant switcher)
+   ========================================================= */
+.shell {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 22px 28px 80px;
+  position: relative;
+  z-index: 1;
+}
+.showcase-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px 18px;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--paper-2) 85%, transparent);
+  border-radius: 14px;
+  margin-bottom: 26px;
+  backdrop-filter: blur(8px);
+}
+.showcase-bar h1 {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: .02em;
+}
+.showcase-bar h1 em {
+  font-style: normal;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: .1em;
+  margin-left: 10px;
+}
+.variant-switch {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
+  background: var(--paper-3);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
+.variant-switch button {
+  padding: 6px 16px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 999px;
+  transition: all .2s;
+  font-family: var(--font-mono);
+}
+.variant-switch button.on {
+  background: var(--ink);
+  color: var(--paper);
+}
+.showcase-tools {
+  display: inline-flex; gap: 10px; align-items: center;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+.theme-toggle {
+  width: 42px; height: 22px;
+  background: var(--paper-3);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  position: relative;
+  padding: 0;
+}
+.theme-toggle::after {
+  content: "";
+  position: absolute;
+  top: 2px; left: 2px;
+  width: 16px; height: 16px;
+  background: var(--ink);
+  border-radius: 50%;
+  transition: transform .25s ease;
+}
+html[data-theme="dark"] .theme-toggle::after { transform: translateX(20px); background: var(--accent); }
+
+/* Page frame — simulates the real site */
+.page-frame {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: var(--shadow-2);
+  min-height: 900px;
+}
+.page-frame-head {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line-soft);
+  background: var(--paper-2);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+.page-frame-head .dots { display: flex; gap: 6px; }
+.page-frame-head .dots span { width: 10px; height: 10px; border-radius: 50%; background: var(--line); }
+.page-frame-head .url {
+  flex: 1;
+  padding: 4px 12px;
+  background: var(--paper);
+  border: 1px solid var(--line-soft);
+  border-radius: 6px;
+  font-size: 11.5px;
+}
+
+.view { display: none; }
+.view.active { display: block; }
+
+/* =========================================================
+   VARIANT A — JOURNAL
+   warm paper, editorial, serif headlines, rule lines
+   ========================================================= */
+.v-a {
+  --v-accent: #b5451f;
+}
+html[data-theme="dark"] .v-a { --v-accent: #e58a5d; }
+
+/* Top bar */
+.jn-header {
+  padding: 22px 56px 18px;
+  border-bottom: 1px solid var(--ink);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.jn-brand {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  line-height: 1;
+}
+.jn-brand small {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 400;
+  color: var(--muted);
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+.jn-meta {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  display: flex; gap: 18px;
+  letter-spacing: .06em;
+}
+.jn-nav {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  font-family: var(--font-serif);
+  font-size: 15px;
+}
+.jn-nav a {
+  position: relative;
+  padding: 4px 0;
+  color: var(--ink-2);
+  transition: color .2s;
+}
+.jn-nav a:hover, .jn-nav a.on { color: var(--ink); }
+.jn-nav a.on::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -2px;
+  height: 2px; background: var(--v-accent);
+}
+
+/* Body grid */
+.jn-body {
+  padding: 40px 56px 64px;
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 56px;
+}
+
+/* Terminal hero */
+.jn-term {
+  background: var(--term-bg);
+  border-radius: 12px;
+  padding: 18px 22px 22px;
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  color: var(--term-fg);
+  line-height: 1.8;
+  box-shadow: var(--shadow-2);
+  position: relative;
+  overflow: hidden;
+}
+.jn-term::before {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,.03) 0%, transparent 30%);
+  pointer-events: none;
+}
+.jn-term-bar {
+  display: flex; gap: 6px; margin-bottom: 14px; align-items: center;
+}
+.jn-term-bar span { width: 11px; height: 11px; border-radius: 50%; }
+.jn-term-bar span:nth-child(1) { background: #ff5f56; }
+.jn-term-bar span:nth-child(2) { background: #ffbd2e; }
+.jn-term-bar span:nth-child(3) { background: #27c93f; }
+.jn-term-bar em {
+  margin-left: auto;
+  font-style: normal;
+  font-size: 11px;
+  color: var(--term-muted);
+  letter-spacing: .1em;
+}
+.jn-term-line { display: block; min-height: 1.8em; }
+.jn-term-line.pending { opacity: 0; }
+.jn-term-prompt { color: var(--term-prompt); }
+.jn-term-user { color: #7dc4ff; }
+.jn-term-str { color: var(--term-str); }
+.jn-term-dim { color: var(--term-muted); }
+.jn-term-ok { color: #9ae47a; }
+.cursor {
+  display: inline-block;
+  width: 8px; height: 16px;
+  background: var(--term-fg);
+  vertical-align: -3px;
+  margin-left: 3px;
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+/* Hero title */
+.jn-hero-title {
+  margin: 36px 0 8px;
+  font-family: var(--font-serif);
+  font-size: clamp(42px, 5.4vw, 72px);
+  line-height: 1.04;
+  letter-spacing: -.02em;
+  font-weight: 600;
+  text-wrap: balance;
+}
+.jn-hero-title em {
+  font-style: italic;
+  color: var(--v-accent);
+  font-weight: 500;
+}
+.jn-hero-kicker {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--v-accent);
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+}
+.jn-hero-sub {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  color: var(--muted);
+  max-width: 52ch;
+  margin: 14px 0 0;
+  line-height: 1.55;
+}
+
+/* Section rule */
+.jn-rule {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 48px 0 20px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.jn-rule::before, .jn-rule::after {
+  content: ""; flex: 1; height: 1px; background: var(--line);
+}
+.jn-rule::before { flex: 0 0 24px; }
+
+/* Entry pair */
+.jn-entries {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 8px;
+}
+.jn-entry {
+  display: block;
+  padding: 24px 26px 22px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper-2);
+  transition: transform .25s ease, border-color .25s ease, background .25s;
+  position: relative;
+  overflow: hidden;
+}
+.jn-entry:hover {
+  transform: translateY(-3px);
+  border-color: var(--ink-2);
+  background: color-mix(in srgb, var(--paper-2) 80%, var(--paper-3));
+}
+.jn-entry-no {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: .16em;
+}
+.jn-entry h3 {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  font-weight: 600;
+  margin: 6px 0 8px;
+  letter-spacing: -.01em;
+}
+.jn-entry p {
+  color: var(--muted);
+  font-size: 14.5px;
+  margin: 0 0 22px;
+  line-height: 1.6;
+}
+.jn-entry .go {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink);
+  letter-spacing: .1em;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 2px;
+  transition: gap .2s;
+}
+.jn-entry:hover .go { gap: 12px; }
+
+/* Sidebar in journal layout */
+.jn-side { position: sticky; top: 28px; align-self: start; }
+.jn-side-card {
+  border: 1px solid var(--line);
+  background: var(--paper-2);
+  border-radius: 12px;
+  padding: 22px 24px;
+  margin-bottom: 18px;
+}
+.jn-side-card h4 {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 14px;
+}
+.jn-side-card .avatar {
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  background:
+    repeating-linear-gradient(45deg, var(--paper-3) 0 8px, var(--paper-2) 8px 16px);
+  border: 1px solid var(--line);
+  margin-bottom: 14px;
+  position: relative;
+  overflow: hidden;
+}
+.jn-side-card .avatar::after {
+  content: "C";
+  position: absolute; inset: 0;
+  display: grid; place-items: center;
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.jn-side-card .name {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+.jn-side-card .handle {
+  font-family: var(--font-mono);
+  color: var(--muted);
+  font-size: 12px;
+  margin: 2px 0 12px;
+}
+.jn-side-card .bio {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--ink-2);
+  margin: 0;
+}
+.jn-side-list { list-style: none; padding: 0; margin: 0; }
+.jn-side-list li {
+  display: flex; justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--line);
+  font-size: 13.5px;
+}
+.jn-side-list li:last-child { border-bottom: 0; }
+.jn-side-list .k { color: var(--muted); font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .06em; }
+.jn-side-list .v { font-weight: 500; font-variant-numeric: tabular-nums; }
+.jn-side-cta {
+  display: flex; gap: 8px; margin-top: 10px;
+}
+.jn-side-cta a {
+  flex: 1;
+  text-align: center;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-family: var(--font-mono);
+  border: 1px solid var(--ink);
+  border-radius: 8px;
+  color: var(--ink);
+  transition: background .2s, color .2s;
+}
+.jn-side-cta a:hover { background: var(--ink); color: var(--paper); }
+.jn-side-cta a.primary { background: var(--ink); color: var(--paper); }
+.jn-side-cta a.primary:hover { background: var(--v-accent); border-color: var(--v-accent); }
+
+/* Notes list on index */
+.jn-notes { margin-top: 6px; }
+.jn-note {
+  display: grid;
+  grid-template-columns: 88px 1fr auto;
+  gap: 24px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line-soft);
+  align-items: baseline;
+}
+.jn-note:last-child { border-bottom: 0; }
+.jn-note .date {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  letter-spacing: .06em;
+  white-space: nowrap;
+}
+.jn-note h4 {
+  font-family: var(--font-serif);
+  font-size: 19px;
+  margin: 0 0 4px;
+  font-weight: 500;
+  letter-spacing: -.005em;
+}
+.jn-note p {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0;
+}
+.jn-note .tag {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--muted);
+  letter-spacing: .1em;
+  padding: 3px 8px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  white-space: nowrap;
+}
+
+/* Footer */
+.jn-foot {
+  padding: 36px 56px 40px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  letter-spacing: .06em;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.jn-foot a { color: var(--ink-2); }
+.jn-foot a:hover { color: var(--v-accent); }
+.jn-foot-links { display: flex; gap: 18px; flex-wrap: wrap; }
+
+/* =========================================================
+   NEWS PAGE (shared structure, variant styles overlay)
+   ========================================================= */
+.page-news-hero {
+  padding: 28px 0 12px;
+}
+.page-news-hero h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(36px, 4.6vw, 58px);
+  margin: 8px 0 10px;
+  font-weight: 600;
+  letter-spacing: -.02em;
+  line-height: 1.06;
+}
+.page-news-hero p {
+  color: var(--muted);
+  font-size: 16px;
+  max-width: 60ch;
+  margin: 0;
+}
+
+/* Filter toolbar — warm minimal */
+.filter-bar {
+  border: 1px solid var(--line);
+  background: var(--paper-2);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin: 26px 0;
+}
+.filter-search {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.filter-search input {
+  padding: 11px 14px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: var(--font-sans);
+  outline: none;
+  transition: border-color .2s;
+}
+.filter-search input:focus { border-color: var(--ink); }
+.filter-btn {
+  padding: 11px 16px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 8px;
+  font-size: 13px;
+  font-family: var(--font-mono);
+  letter-spacing: .04em;
+  transition: all .2s;
+}
+.filter-btn:hover { border-color: var(--ink); }
+.filter-btn.primary { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.filter-meta {
+  display: flex; gap: 20px; flex-wrap: wrap;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  letter-spacing: .04em;
+  padding: 8px 2px 14px;
+  border-bottom: 1px dashed var(--line);
+  margin-bottom: 14px;
+}
+.filter-meta strong { color: var(--ink); font-weight: 600; }
+.filter-groups {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.filter-group-title {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  padding: 5px 12px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink-2);
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-family: var(--font-sans);
+  transition: all .2s;
+}
+.chip:hover { border-color: var(--ink); }
+.chip.on {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+/* Digest panel */
+.digest {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 18px;
+  margin-bottom: 32px;
+}
+.digest-card {
+  border: 1px solid var(--line);
+  background: var(--paper-2);
+  border-radius: 14px;
+  padding: 22px 24px;
+}
+.digest-card .kicker {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--v-accent);
+  margin: 0 0 6px;
+}
+.digest-card h3 {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  margin: 0 0 4px;
+  font-weight: 600;
+}
+.digest-card .label {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  margin: 0 0 16px;
+}
+.digest-list { list-style: none; padding: 0; margin: 0; counter-reset: d; }
+.digest-list li {
+  counter-increment: d;
+  display: grid;
+  grid-template-columns: 32px 1fr auto;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid var(--line-soft);
+  font-size: 14px;
+  align-items: baseline;
+}
+.digest-list li:first-child { border-top: 0; }
+.digest-list li::before {
+  content: counter(d, decimal-leading-zero);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: .05em;
+}
+.digest-list .src {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--muted);
+  letter-spacing: .06em;
+}
+
+/* News cards */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.news-card {
+  border: 1px solid var(--line);
+  background: var(--paper-2);
+  border-radius: 12px;
+  padding: 18px 20px 20px;
+  transition: border-color .2s, transform .25s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.news-card:hover {
+  border-color: var(--ink-2);
+  transform: translateY(-2px);
+}
+.news-card .nc-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--muted);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.news-card .nc-top .platform {
+  color: var(--v-accent);
+  font-weight: 600;
+}
+.news-card h4 {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  line-height: 1.35;
+}
+.news-card .nc-body {
+  color: var(--muted);
+  font-size: 13.5px;
+  line-height: 1.6;
+  margin: 0;
+}
+.news-card .nc-foot {
+  display: flex; gap: 6px; flex-wrap: wrap;
+  margin-top: 4px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
+}
+.news-card .pill {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: .08em;
+  padding: 2px 7px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+.news-card .pill.upstream { color: var(--v-accent); border-color: color-mix(in srgb, var(--v-accent) 40%, var(--line)); }
+.news-card .pill.mid { color: #5a7a3b; border-color: color-mix(in srgb, #5a7a3b 40%, var(--line)); }
+.news-card .pill.down { color: #7a5a3b; border-color: color-mix(in srgb, #7a5a3b 40%, var(--line)); }
+
+/* Resources */
+.res-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.res-card {
+  border: 1px solid var(--line);
+  background: var(--paper-2);
+  border-radius: 12px;
+  padding: 22px 24px 24px;
+  transition: border-color .2s, transform .25s;
+}
+.res-card:hover { border-color: var(--ink-2); transform: translateY(-2px); }
+.res-card .rc-top {
+  display: flex; gap: 10px; align-items: center;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.res-card .rc-top .tag {
+  color: var(--ink);
+  padding: 3px 8px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+.res-card .rc-top .lvl.h { color: var(--v-accent); }
+.res-card h4 {
+  font-family: var(--font-serif);
+  font-size: 21px;
+  margin: 0 0 8px;
+  font-weight: 600;
+  letter-spacing: -.005em;
+}
+.res-card p {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 0 16px;
+  line-height: 1.6;
+}
+.res-card ol {
+  margin: 0 0 16px;
+  padding-left: 0;
+  list-style: none;
+  counter-reset: s;
+}
+.res-card ol li {
+  counter-increment: s;
+  position: relative;
+  padding: 5px 0 5px 28px;
+  font-size: 13.5px;
+  color: var(--ink-2);
+}
+.res-card ol li::before {
+  content: counter(s, decimal-leading-zero);
+  position: absolute; left: 0; top: 5px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--v-accent);
+  letter-spacing: .05em;
+}
+.res-card .prompt {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink-2);
+  line-height: 1.6;
+  position: relative;
+}
+.res-card .prompt::before {
+  content: "PROMPT";
+  position: absolute; top: -8px; left: 10px;
+  padding: 0 6px;
+  background: var(--paper-2);
+  font-size: 9.5px;
+  color: var(--v-accent);
+  letter-spacing: .22em;
+}
+
+/* Legal pages */
+.legal {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.legal h2 {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 32px 0 10px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.legal h2:first-of-type { padding-top: 0; border-top: 0; }
+.legal p {
+  color: var(--ink-2);
+  font-size: 15px;
+  line-height: 1.75;
+  margin: 0 0 12px;
+}
+
+/* 404 */
+.four {
+  min-height: 620px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+.four .code {
+  font-family: var(--font-mono);
+  font-size: 120px;
+  font-weight: 500;
+  letter-spacing: -.04em;
+  line-height: 1;
+  color: var(--v-accent);
+  margin: 0 0 16px;
+}
+.four h2 {
+  font-family: var(--font-serif);
+  font-size: 36px;
+  margin: 0 0 10px;
+}
+.four p { color: var(--muted); font-size: 15px; margin: 0 0 22px; }
+.four .four-cta { display: inline-flex; gap: 10px; }
+
+/* Sub-nav used on news/resources for the journal variant */
+.jn-subnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 14px 0 10px;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  letter-spacing: .08em;
+  margin-bottom: 8px;
+}
+.jn-subnav .crumb a { color: var(--muted); }
+.jn-subnav .crumb strong { color: var(--ink); font-weight: 600; }
+.jn-subnav .back {
+  border: 1px solid var(--line);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+.jn-subnav .back:hover { border-color: var(--ink); color: var(--ink); }
+
+/* =========================================================
+   VARIANT B — CARD
+   asymmetric grid, bigger photo card, tactile
+   ========================================================= */
+.v-b { --v-accent: #b5451f; }
+html[data-theme="dark"] .v-b { --v-accent: #e58a5d; }
+
+.cc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 44px;
+  border-bottom: 1px solid var(--line-soft);
+}
+.cc-brand {
+  display: flex; align-items: center; gap: 12px;
+  font-family: var(--font-serif);
+  font-size: 16px;
+  font-weight: 600;
+}
+.cc-brand .dot {
+  width: 28px; height: 28px;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 8px;
+  display: grid; place-items: center;
+  font-family: var(--font-serif);
+  font-size: 15px;
+}
+.cc-nav { display: flex; gap: 4px; }
+.cc-nav a {
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 13.5px;
+  color: var(--muted);
+  transition: all .2s;
+}
+.cc-nav a:hover { color: var(--ink); background: var(--paper-2); }
+.cc-nav a.on { color: var(--ink); background: var(--paper-3); font-weight: 500; }
+
+.cc-body {
+  padding: 32px 44px 56px;
+}
+
+/* Card hero grid */
+.cc-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+/* Left card: big typography + terminal */
+.cc-hero-left {
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 36px 36px 32px;
+  position: relative;
+  overflow: hidden;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cc-hero-left .tape {
+  position: absolute; top: -8px; left: 40px;
+  width: 70px; height: 22px;
+  background: color-mix(in srgb, var(--v-accent) 40%, transparent);
+  transform: rotate(-2deg);
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+.cc-hero-left .cc-kicker {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--v-accent);
+  margin: 24px 0 12px;
+}
+.cc-hero-left h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(40px, 4.6vw, 64px);
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -.025em;
+  margin: 0 0 16px;
+}
+.cc-hero-left h2 em {
+  font-style: italic;
+  color: var(--v-accent);
+  font-weight: 500;
+}
+.cc-hero-left .lede {
+  font-family: var(--font-serif);
+  color: var(--muted);
+  font-size: 17px;
+  max-width: 38ch;
+  margin: 0;
+  line-height: 1.55;
+}
+.cc-hero-left .chips-row {
+  display: flex; gap: 8px; flex-wrap: wrap;
+  margin-top: 24px;
+}
+.cc-hero-left .chips-row span {
+  padding: 4px 11px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-2);
+  letter-spacing: .04em;
+}
+
+/* Right stack */
+.cc-hero-right {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 18px;
+}
+
+/* Terminal card (smaller) */
+.cc-term {
+  background: var(--term-bg);
+  border-radius: 18px;
+  padding: 20px 22px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--term-fg);
+  line-height: 1.8;
+  position: relative;
+  overflow: hidden;
+  min-height: 280px;
+  display: flex; flex-direction: column;
+}
+.cc-term-bar { display: flex; gap: 6px; margin-bottom: 12px; align-items: center; }
+.cc-term-bar span { width: 10px; height: 10px; border-radius: 50%; }
+.cc-term-bar span:nth-child(1) { background: #ff5f56; }
+.cc-term-bar span:nth-child(2) { background: #ffbd2e; }
+.cc-term-bar span:nth-child(3) { background: #27c93f; }
+.cc-term-bar em { margin-left: auto; color: var(--term-muted); font-size: 10.5px; font-style: normal; letter-spacing: .08em; }
+
+/* Profile card */
+.cc-profile {
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 20px 22px;
+  display: grid;
+  grid-template-columns: 56px 1fr auto;
+  gap: 14px;
+  align-items: center;
+}
+.cc-profile .av {
+  width: 56px; height: 56px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--v-accent) 0%, color-mix(in srgb, var(--v-accent) 40%, var(--ink)) 100%);
+  display: grid; place-items: center;
+  font-family: var(--font-serif);
+  font-size: 26px;
+  color: var(--paper);
+  font-weight: 600;
+}
+.cc-profile .name { font-family: var(--font-serif); font-weight: 600; font-size: 18px; margin: 0; }
+.cc-profile .name small { display: block; font-family: var(--font-mono); font-size: 11px; color: var(--muted); letter-spacing: .08em; font-weight: 400; margin-top: 2px; }
+.cc-profile .xhs {
+  padding: 8px 14px;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  letter-spacing: .1em;
+  transition: background .2s;
+}
+.cc-profile .xhs:hover { background: var(--v-accent); }
+
+/* Entries row for card variant */
+.cc-entries {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.cc-entry {
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 28px 30px;
+  background: var(--paper-2);
+  position: relative;
+  overflow: hidden;
+  transition: transform .3s ease, border-color .3s;
+}
+.cc-entry:hover { transform: translateY(-4px); border-color: var(--ink-2); }
+.cc-entry::after {
+  content: "";
+  position: absolute; right: -30px; bottom: -30px;
+  width: 120px; height: 120px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  transition: transform .3s;
+}
+.cc-entry:hover::after { transform: scale(1.1); }
+.cc-entry .ce-no {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--v-accent);
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+.cc-entry h3 {
+  font-family: var(--font-serif);
+  font-size: 30px;
+  font-weight: 600;
+  margin: 10px 0 12px;
+  letter-spacing: -.01em;
+}
+.cc-entry p {
+  color: var(--muted);
+  font-size: 14.5px;
+  margin: 0 0 28px;
+  line-height: 1.55;
+  max-width: 32ch;
+}
+.cc-entry .arrow {
+  display: inline-flex;
+  width: 40px; height: 40px;
+  border: 1px solid var(--ink);
+  border-radius: 50%;
+  align-items: center; justify-content: center;
+  transition: background .2s, color .2s, transform .25s;
+}
+.cc-entry:hover .arrow {
+  background: var(--ink); color: var(--paper);
+  transform: translateX(4px);
+}
+
+/* Notes on index for card variant */
+.cc-notes {
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+}
+.cc-notes-title {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+.cc-notes-title small {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  margin-top: 6px;
+  font-weight: 400;
+}
+.cc-notes-list { display: grid; gap: 10px; }
+.cc-note {
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  gap: 16px;
+  align-items: baseline;
+  padding: 12px 16px;
+  background: var(--paper-2);
+  border: 1px solid var(--line-soft);
+  border-radius: 12px;
+  transition: border-color .2s, transform .2s;
+}
+.cc-note:hover { border-color: var(--ink-2); transform: translateX(2px); }
+.cc-note .date { font-family: var(--font-mono); font-size: 11px; color: var(--muted); letter-spacing: .05em; }
+.cc-note h5 { font-family: var(--font-serif); font-size: 16px; margin: 0; font-weight: 500; }
+.cc-note .tag { font-family: var(--font-mono); font-size: 10px; color: var(--muted); letter-spacing: .1em; text-transform: uppercase; }
+
+/* Card footer */
+.cc-foot {
+  margin-top: 48px;
+  padding: 28px 44px;
+  border-top: 1px solid var(--line-soft);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 20px;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  letter-spacing: .06em;
+}
+.cc-foot .center { text-align: center; }
+.cc-foot .right { text-align: right; display: flex; gap: 16px; justify-content: flex-end; flex-wrap: wrap; }
+
+/* =========================================================
+   MOTION
+   ========================================================= */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fadeUp .55s ease both; }
+.fade-up.d1 { animation-delay: .08s; }
+.fade-up.d2 { animation-delay: .16s; }
+.fade-up.d3 { animation-delay: .24s; }
+.fade-up.d4 { animation-delay: .32s; }
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width: 960px) {
+  .jn-body { grid-template-columns: 1fr; padding: 28px 24px 48px; }
+  .jn-header { padding: 18px 24px; flex-direction: column; align-items: flex-start; }
+  .jn-entries, .cc-entries, .news-grid, .res-grid, .digest, .filter-groups { grid-template-columns: 1fr; }
+  .cc-hero { grid-template-columns: 1fr; }
+  .cc-header, .cc-body { padding-left: 20px; padding-right: 20px; }
+  .cc-foot { padding: 20px; grid-template-columns: 1fr; text-align: center; }
+  .cc-foot .right { justify-content: center; }
+  .cc-notes { grid-template-columns: 1fr; }
+  .jn-note { grid-template-columns: 70px 1fr; }
+  .jn-note .tag { grid-column: 2; }
+}
+
+/* =========================================================
+   VARIANT C — MAGAZINE / SHOWSTOPPER
+   ========================================================= */
+.v-c {
+  --mg-ink: #111;
+  --mg-paper: #f3ece0;
+  --mg-paper-2: #e8dfcc;
+  --mg-accent: #d84315;
+  --mg-accent-2: #f4c430;
+  --mg-muted: #6d6458;
+  --mg-line: #111;
+  --mg-line-soft: #b9ae98;
+  --font-display: "Bodoni Moda", "Noto Serif SC", "Playfair Display", serif;
+  background: var(--mg-paper);
+  color: var(--mg-ink);
+}
+html[data-theme="dark"] .v-c {
+  --mg-ink: #f2ead8;
+  --mg-paper: #0d0b08;
+  --mg-paper-2: #181410;
+  --mg-accent: #ff7a45;
+  --mg-accent-2: #ffd76a;
+  --mg-line: #f2ead8;
+  --mg-line-soft: #3b3226;
+  background: var(--mg-paper);
+  color: var(--mg-ink);
+}
+
+/* Ticker */
+.mg-ticker {
+  overflow: hidden;
+  background: var(--mg-ink);
+  color: var(--mg-paper);
+  border-bottom: 1px solid var(--mg-line);
+  padding: 10px 0;
+  position: relative;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+}
+.mg-ticker-track {
+  display: inline-flex;
+  gap: 28px;
+  white-space: nowrap;
+  animation: mgTicker 38s linear infinite;
+  padding-left: 28px;
+}
+.mg-ticker-track span:not(:first-child) { }
+@keyframes mgTicker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Masthead */
+.mg-mast {
+  padding: 28px 56px 24px;
+  border-bottom: 3px double var(--mg-line);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  align-items: end;
+  position: relative;
+}
+.mg-issue {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .28em;
+  color: var(--mg-muted);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.mg-logo {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(44px, 7.2vw, 108px);
+  line-height: .9;
+  letter-spacing: -.02em;
+  display: flex;
+  gap: .04em;
+  flex-wrap: wrap;
+}
+.mg-logo em {
+  font-style: italic;
+  color: var(--mg-accent);
+  margin: 0 .1em;
+  font-weight: 500;
+}
+.mg-logo span {
+  display: inline-block;
+  animation: mgDrop .9s cubic-bezier(.2,.8,.2,1) both;
+}
+.mg-logo span:nth-child(1){animation-delay:.02s}
+.mg-logo span:nth-child(2){animation-delay:.06s}
+.mg-logo span:nth-child(3){animation-delay:.10s}
+.mg-logo span:nth-child(4){animation-delay:.14s}
+.mg-logo span:nth-child(5){animation-delay:.18s}
+.mg-logo span:nth-child(7){animation-delay:.26s}
+.mg-logo span:nth-child(8){animation-delay:.30s}
+.mg-logo span:nth-child(9){animation-delay:.34s}
+.mg-logo span:nth-child(10){animation-delay:.38s}
+.mg-logo span:nth-child(11){animation-delay:.42s}
+.mg-logo span:nth-child(12){animation-delay:.46s}
+.mg-logo span:nth-child(13){animation-delay:.50s}
+.mg-logo span:nth-child(14){animation-delay:.54s}
+.mg-logo span:nth-child(15){animation-delay:.58s}
+@keyframes mgDrop {
+  from { transform: translateY(-28px) rotate(-3deg); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+.mg-sub {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11.5px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--mg-muted);
+  margin-top: 14px;
+}
+.mg-nav {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mg-nav a {
+  padding: 8px 14px;
+  font-family: var(--font-display);
+  font-size: 16px;
+  letter-spacing: .02em;
+  color: var(--mg-ink);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  transition: background .2s, color .2s, border-color .2s;
+}
+.mg-nav a:hover { background: var(--mg-ink); color: var(--mg-paper); }
+.mg-nav a.on { background: var(--mg-accent); color: #fff; border-color: var(--mg-accent); font-style: italic; }
+
+/* Cover */
+.mg-cover {
+  position: relative;
+  padding: 44px 56px 24px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--mg-line);
+}
+.mg-halo {
+  position: absolute;
+  right: -140px;
+  top: 20px;
+  width: 760px;
+  height: 760px;
+  color: var(--mg-ink);
+  opacity: .5;
+  animation: mgHaloSpin 120s linear infinite;
+  pointer-events: none;
+}
+@keyframes mgHaloSpin {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}
+
+.mg-cover-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 48px;
+  position: relative;
+  z-index: 2;
+}
+.mg-tag-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.mg-tag {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border: 1px solid var(--mg-line);
+  border-radius: 999px;
+  background: var(--mg-paper);
+  color: var(--mg-ink);
+  display: inline-flex; align-items: center; gap: 6px;
+}
+.mg-tag.live {
+  background: var(--mg-accent);
+  color: #fff;
+  border-color: var(--mg-accent);
+}
+.mg-tag.live i {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: #fff;
+  animation: mgBlink 1.1s ease-in-out infinite;
+}
+@keyframes mgBlink { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+
+.mg-headline {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(54px, 9vw, 150px);
+  line-height: .88;
+  letter-spacing: -.035em;
+  margin: 8px 0 12px;
+  text-wrap: balance;
+}
+.mg-headline span { display: block; overflow: hidden; padding-bottom: .04em; }
+.mg-headline .l1 em, .mg-headline .l3 em {
+  font-style: italic;
+  color: var(--mg-accent);
+  font-weight: 500;
+  padding: 0 .06em;
+}
+.mg-headline .l2 { font-style: italic; color: var(--mg-muted); margin-left: .6em; }
+.mg-headline .l1 { animation: mgSlide .7s .1s cubic-bezier(.2,.8,.2,1) both; }
+.mg-headline .l2 { animation: mgSlide .7s .25s cubic-bezier(.2,.8,.2,1) both; }
+.mg-headline .l3 { animation: mgSlide .7s .4s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes mgSlide {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+
+.mg-kicker-cn {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2.6vw, 32px);
+  color: var(--mg-ink);
+  margin: 18px 0 18px;
+  font-weight: 500;
+}
+.mg-kicker-cn b {
+  background: linear-gradient(120deg, transparent 0 8%, var(--mg-accent-2) 8% 92%, transparent 92%);
+  color: var(--mg-ink);
+  padding: 0 .12em;
+  font-weight: 600;
+}
+
+.mg-dek {
+  font-family: var(--font-display);
+  font-size: 17px;
+  color: var(--mg-muted);
+  line-height: 1.6;
+  max-width: 44ch;
+  margin: 0 0 28px;
+}
+.mg-dek b { color: var(--mg-ink); font-weight: 600; font-style: italic; }
+
+.mg-cta {
+  display: flex; gap: 10px; flex-wrap: wrap;
+  margin-bottom: 36px;
+}
+.mg-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 22px;
+  border: 1.5px solid var(--mg-line);
+  border-radius: 999px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12.5px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--mg-ink);
+  background: var(--mg-paper);
+  transition: transform .25s, background .25s, color .25s;
+}
+.mg-btn:hover { transform: translateY(-2px); background: var(--mg-ink); color: var(--mg-paper); }
+.mg-btn b { font-weight: 400; transition: transform .2s; }
+.mg-btn:hover b { transform: translateX(4px); }
+.mg-btn.primary { background: var(--mg-accent); color: #fff; border-color: var(--mg-accent); }
+.mg-btn.primary:hover { background: var(--mg-ink); border-color: var(--mg-ink); color: var(--mg-paper); }
+.mg-btn.ghost { border-style: dashed; }
+
+.mg-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  border-top: 1px solid var(--mg-line);
+  border-bottom: 1px solid var(--mg-line);
+  padding: 18px 0;
+}
+.mg-stats > div { padding: 0 8px; border-left: 1px dashed var(--mg-line-soft); }
+.mg-stats > div:first-child { border-left: 0; }
+.mg-stats b {
+  display: block;
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 600;
+  letter-spacing: -.02em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.mg-stats span {
+  display: block;
+  margin-top: 6px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--mg-muted);
+}
+
+/* Right column of cover: portrait + terminal */
+.mg-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mg-portrait {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  border: 1.5px solid var(--mg-line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--mg-paper-2);
+}
+.mg-portrait-inner {
+  position: absolute; inset: 0;
+  display: grid; place-items: center;
+}
+.mg-stripes {
+  position: absolute; inset: 0;
+  background:
+    repeating-linear-gradient(45deg,
+      var(--mg-paper-2) 0 18px,
+      color-mix(in srgb, var(--mg-paper-2) 70%, var(--mg-ink)) 18px 19px);
+  opacity: .7;
+}
+.mg-portrait-c {
+  position: relative;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(180px, 22vw, 360px);
+  color: var(--mg-accent);
+  line-height: 1;
+  letter-spacing: -.08em;
+  text-shadow:
+    6px 6px 0 var(--mg-ink),
+    -1px -1px 0 var(--mg-paper);
+  transform: translateY(6%);
+  animation: mgFloat 8s ease-in-out infinite;
+}
+@keyframes mgFloat {
+  0%, 100% { transform: translateY(6%); }
+  50% { transform: translateY(3%); }
+}
+.mg-portrait-tag {
+  position: absolute;
+  top: 14px; left: 14px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: .2em;
+  background: var(--mg-ink);
+  color: var(--mg-paper);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+.mg-portrait-sig {
+  position: absolute;
+  bottom: 16px; left: 16px; right: 16px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--mg-ink);
+  border-top: 1px solid var(--mg-ink);
+  padding-top: 8px;
+  letter-spacing: .01em;
+}
+.mg-portrait-badge {
+  position: absolute;
+  top: 14px; right: 14px;
+  width: 82px; height: 82px;
+  border-radius: 50%;
+  background: var(--mg-paper);
+  border: 1px solid var(--mg-line);
+  display: grid;
+  place-items: center;
+  color: var(--mg-accent);
+  font-size: 22px;
+  animation: mgBadgeSpin 16s linear infinite;
+}
+.mg-badge-svg {
+  position: absolute; inset: 0;
+  color: var(--mg-ink);
+}
+@keyframes mgBadgeSpin { to { transform: rotate(360deg); } }
+
+/* Mini terminal */
+.mg-term {
+  background: #0e0b08;
+  color: #f0e9db;
+  border-radius: 14px;
+  padding: 16px 18px 18px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12.5px;
+  line-height: 1.75;
+  border: 1.5px solid var(--mg-line);
+  box-shadow: 6px 6px 0 var(--mg-ink);
+}
+.mg-term-bar { display: flex; gap: 6px; margin-bottom: 10px; align-items: center; }
+.mg-term-bar span { width: 10px; height: 10px; border-radius: 50%; }
+.mg-term-bar span:nth-child(1){background:#ff5f56}
+.mg-term-bar span:nth-child(2){background:#ffbd2e}
+.mg-term-bar span:nth-child(3){background:#27c93f}
+.mg-term-bar em { margin-left: auto; color: #928876; font-style: normal; font-size: 10.5px; letter-spacing: .08em; }
+
+/* Marquee big type */
+.mg-marquee {
+  overflow: hidden;
+  border-bottom: 1px solid var(--mg-line);
+  background: var(--mg-paper);
+  padding: 18px 0;
+}
+.mg-marquee-track {
+  display: inline-flex;
+  gap: 28px;
+  white-space: nowrap;
+  align-items: center;
+  animation: mgTicker 44s linear infinite;
+  padding-left: 28px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(54px, 9vw, 128px);
+  line-height: 1;
+  letter-spacing: -.02em;
+}
+.mg-marquee-track .italic { font-style: italic; color: var(--mg-accent); font-weight: 500; }
+.mg-marquee-track .star { font-size: .5em; color: var(--mg-accent-2); }
+
+/* Entries */
+.mg-entries {
+  padding: 40px 56px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  border-bottom: 1px solid var(--mg-line);
+}
+.mg-entry {
+  position: relative;
+  display: block;
+  padding: 36px 36px 32px;
+  border: 1.5px solid var(--mg-line);
+  border-radius: 18px;
+  background: var(--mg-paper);
+  overflow: hidden;
+  transition: transform .35s cubic-bezier(.2,.8,.2,1), box-shadow .35s;
+}
+.mg-entry.e1 { background: var(--mg-paper-2); }
+.mg-entry.e2 { background: var(--mg-ink); color: var(--mg-paper); }
+.mg-entry.e2 .mg-entry-head, .mg-entry.e2 .mg-entry-meta { color: var(--mg-paper-2); }
+.mg-entry.e2 h2 em { color: var(--mg-accent-2); }
+.mg-entry:hover {
+  transform: translateY(-6px) rotate(-.4deg);
+  box-shadow: 8px 8px 0 var(--mg-line);
+}
+.mg-entry::after {
+  content: "";
+  position: absolute;
+  right: -80px; bottom: -80px;
+  width: 240px; height: 240px;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  opacity: .08;
+  transition: transform .5s;
+}
+.mg-entry:hover::after { transform: scale(1.2) rotate(20deg); opacity: .15; }
+.mg-entry-head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--mg-muted);
+  margin-bottom: 10px;
+}
+.mg-num {
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--mg-accent);
+  letter-spacing: -.03em;
+  line-height: .8;
+}
+.mg-entry h2 {
+  font-family: var(--font-display);
+  font-size: clamp(44px, 5.4vw, 82px);
+  font-weight: 600;
+  letter-spacing: -.03em;
+  line-height: .92;
+  margin: 6px 0 14px;
+}
+.mg-entry h2 em { font-style: italic; color: var(--mg-accent); font-weight: 500; }
+.mg-entry p {
+  font-family: var(--font-display);
+  font-size: 16px;
+  color: var(--mg-muted);
+  line-height: 1.55;
+  margin: 0 0 28px;
+  max-width: 32ch;
+}
+.mg-entry.e2 p { color: color-mix(in srgb, var(--mg-paper) 75%, transparent); }
+.mg-entry-meta {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-top: 16px;
+  border-top: 1px dashed currentColor;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--mg-muted);
+  flex-wrap: wrap;
+}
+.mg-go {
+  margin-left: auto;
+  padding: 6px 12px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  color: inherit;
+  font-weight: 500;
+}
+
+/* Pull quote */
+.mg-quote {
+  padding: 80px 56px 70px;
+  text-align: center;
+  background: var(--mg-paper-2);
+  border-bottom: 1px solid var(--mg-line);
+  position: relative;
+}
+.mg-quote-open {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(120px, 15vw, 220px);
+  line-height: .6;
+  color: var(--mg-accent);
+  margin-bottom: -20px;
+}
+.mg-quote blockquote {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 4vw, 56px);
+  font-weight: 500;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+  margin: 0 auto;
+  max-width: 22ch;
+  color: var(--mg-ink);
+  text-wrap: balance;
+}
+.mg-quote blockquote em {
+  font-style: italic;
+  color: var(--mg-accent);
+  padding: 0 .1em;
+  background: linear-gradient(transparent 60%, color-mix(in srgb, var(--mg-accent-2) 80%, transparent) 60% 90%, transparent 90%);
+}
+.mg-quote-sig {
+  margin-top: 30px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .3em;
+  color: var(--mg-muted);
+}
+
+/* Dispatch */
+.mg-dispatch { padding: 48px 56px; border-bottom: 1px solid var(--mg-line); }
+.mg-section-head {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 3px double var(--mg-line);
+  margin-bottom: 28px;
+}
+.mg-dept-num, .mg-dept-meta {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--mg-muted);
+}
+.mg-section-head h3 {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 600;
+  letter-spacing: -.02em;
+  margin: 0;
+}
+.mg-dispatch-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 48px;
+}
+.mg-disp {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 14px;
+  padding: 18px 0;
+  border-top: 1px solid var(--mg-line-soft);
+  align-items: baseline;
+  transition: background .2s, padding .2s;
+}
+.mg-disp:hover { padding-left: 10px; background: color-mix(in srgb, var(--mg-accent-2) 24%, transparent); }
+.mg-disp-no {
+  font-family: var(--font-display);
+  font-size: 44px;
+  font-weight: 600;
+  color: var(--mg-accent);
+  letter-spacing: -.04em;
+  line-height: .8;
+}
+.mg-disp-top {
+  display: flex;
+  justify-content: space-between;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--mg-muted);
+  margin-bottom: 6px;
+}
+.mg-disp-src { color: var(--mg-accent); font-weight: 600; }
+.mg-disp h4 {
+  font-family: var(--font-display);
+  font-size: 21px;
+  font-weight: 600;
+  margin: 0 0 6px;
+  letter-spacing: -.01em;
+  line-height: 1.25;
+}
+.mg-disp p {
+  font-family: var(--font-display);
+  font-size: 14.5px;
+  color: var(--mg-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Footer */
+.mg-foot {
+  padding: 56px 56px 44px;
+  background: var(--mg-ink);
+  color: var(--mg-paper);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+}
+.mg-foot.compact { grid-template-columns: 1fr; padding: 32px 56px; }
+.mg-foot-logo { display: flex; gap: 16px; align-items: center; }
+.mg-foot-c {
+  width: 64px; height: 64px;
+  background: var(--mg-accent);
+  color: #fff;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 36px;
+}
+.mg-foot-logo b {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  letter-spacing: .02em;
+}
+.mg-foot-logo small {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--mg-paper) 65%, transparent);
+  display: block;
+  margin-top: 6px;
+}
+.mg-foot-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.mg-foot-cols h5 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: .28em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--mg-paper) 60%, transparent);
+  margin: 0 0 14px;
+  font-weight: 500;
+}
+.mg-foot-cols a {
+  display: block;
+  padding: 5px 0;
+  font-family: var(--font-display);
+  font-size: 16px;
+  color: var(--mg-paper);
+  transition: color .2s, padding-left .2s;
+  border-bottom: 1px solid color-mix(in srgb, var(--mg-paper) 12%, transparent);
+}
+.mg-foot-cols a:hover { color: var(--mg-accent-2); padding-left: 8px; }
+.mg-foot-meta {
+  grid-column: 1 / -1;
+  padding-top: 28px;
+  margin-top: 8px;
+  border-top: 1px solid color-mix(in srgb, var(--mg-paper) 16%, transparent);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--mg-paper) 65%, transparent);
+}
+
+/* Page inner (news/resources/legal) */
+.mg-inner { padding: 48px 56px 56px; }
+.mg-crumb {
+  display: flex;
+  gap: 14px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--mg-muted);
+  margin-bottom: 28px;
+}
+.mg-crumb a { color: var(--mg-ink); }
+.mg-crumb a:hover { color: var(--mg-accent); }
+
+.mg-page-hero { margin-bottom: 34px; }
+.mg-page-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(52px, 8.5vw, 130px);
+  line-height: .9;
+  letter-spacing: -.035em;
+  margin: 14px 0 18px;
+  text-wrap: balance;
+}
+.mg-page-title em { font-style: italic; color: var(--mg-accent); font-weight: 500; padding: 0 .04em; }
+.mg-page-kicker {
+  font-family: var(--font-display);
+  font-size: 18px;
+  color: var(--mg-muted);
+  margin: 0;
+  max-width: 56ch;
+  line-height: 1.55;
+}
+
+.mg-section-rule {
+  margin: 32px 0 20px;
+  padding-bottom: 14px;
+  border-bottom: 3px double var(--mg-line);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--mg-muted);
+}
+
+/* Legal in magazine */
+.mg-legal h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: -.01em;
+}
+
+/* 404 magazine */
+.mg-404 {
+  padding: 60px 0;
+  text-align: center;
+}
+.mg-404-num {
+  font-family: var(--font-display);
+  font-size: clamp(200px, 30vw, 440px);
+  font-weight: 600;
+  line-height: .8;
+  letter-spacing: -.06em;
+  color: var(--mg-ink);
+  margin: 0 0 20px;
+}
+.mg-404-num em {
+  font-style: italic;
+  color: var(--mg-accent);
+}
+.mg-404 h2 {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4vw, 56px);
+  font-weight: 600;
+  margin: 0 0 14px;
+}
+.mg-404 p {
+  font-family: var(--font-display);
+  color: var(--mg-muted);
+  font-size: 18px;
+  margin: 0 0 28px;
+}
+.mg-404 .four-cta { display: inline-flex; gap: 12px; }
+
+/* Override filter-bar & cards inside v-c for magazine tone */
+.v-c .filter-bar {
+  background: var(--mg-paper-2);
+  border: 1.5px solid var(--mg-line);
+  border-radius: 14px;
+  box-shadow: 6px 6px 0 var(--mg-line);
+}
+.v-c .filter-bar input {
+  background: var(--mg-paper);
+  border: 1.5px solid var(--mg-line);
+  color: var(--mg-ink);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  letter-spacing: .04em;
+}
+.v-c .filter-btn {
+  background: var(--mg-paper);
+  border: 1.5px solid var(--mg-line);
+  color: var(--mg-ink);
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: 11px;
+}
+.v-c .filter-btn.primary { background: var(--mg-accent); color: #fff; border-color: var(--mg-accent); }
+.v-c .chip {
+  background: var(--mg-paper);
+  border: 1.5px solid var(--mg-line);
+  color: var(--mg-ink);
+  font-family: var(--font-display);
+  font-size: 14px;
+  padding: 6px 14px;
+}
+.v-c .chip.on { background: var(--mg-ink); color: var(--mg-paper); border-color: var(--mg-ink); font-style: italic; }
+.v-c .digest-card {
+  border: 1.5px solid var(--mg-line);
+  background: var(--mg-paper);
+  border-radius: 14px;
+  box-shadow: 6px 6px 0 var(--mg-line);
+}
+.v-c .digest-card h3 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  letter-spacing: -.01em;
+}
+.v-c .digest-card .kicker { color: var(--mg-accent); }
+.v-c .digest-list li { border-top-color: var(--mg-line-soft); }
+.v-c .news-card, .v-c .res-card {
+  background: var(--mg-paper);
+  border: 1.5px solid var(--mg-line);
+  border-radius: 14px;
+  transition: transform .3s, box-shadow .3s;
+}
+.v-c .news-card:hover, .v-c .res-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 6px 6px 0 var(--mg-line);
+}
+.v-c .news-card h4, .v-c .res-card h4 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -.01em;
+}
+.v-c .news-card .nc-top .platform { color: var(--mg-accent); }
+.v-c .res-card .prompt {
+  background: var(--mg-paper-2);
+  border-color: var(--mg-line);
+}
+.v-c .res-card .prompt::before { color: var(--mg-accent); background: var(--mg-paper); }
+
+@media (max-width: 960px) {
+  .mg-mast, .mg-cover, .mg-entries, .mg-quote, .mg-dispatch, .mg-foot, .mg-inner { padding-left: 22px; padding-right: 22px; }
+  .mg-cover-grid, .mg-entries, .mg-dispatch-list, .mg-foot, .mg-foot-cols { grid-template-columns: 1fr; }
+  .mg-mast { grid-template-columns: 1fr; }
+  .mg-halo { display: none; }
+  .mg-stats { grid-template-columns: repeat(2, 1fr); }
+  .mg-foot.compact { padding: 24px 22px; }
+}
+
+/* =========================================================
+   TWEAKS PANEL
+   ========================================================= */
+.tweaks-panel {
+  position: fixed;
+  bottom: 20px; right: 20px;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: var(--shadow-2);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  z-index: 100;
+  display: none;
+}
+.tweaks-panel.on { display: block; }
+.tweaks-panel .title {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 10px;
+}
+.tweaks-panel .row {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 14px;
+  padding: 6px 0;
+  min-width: 200px;
+}
+.tweaks-panel .row span { color: var(--ink-2); }
+
+/* Scrollbar (webkit) */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--paper); }
+::-webkit-scrollbar-thumb { background: var(--line); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted-2); }
+</style>
+</head>
+<body>
+
+<div class="shell">
+
+  <!-- SHOWCASE TOOLBAR -->
+  <div class="showcase-bar">
+    <h1>Cyrus 的个人网站 · 重新设计 <em>v1 / warm minimal</em></h1>
+    <div class="variant-switch" role="tablist" aria-label="方案切换">
+      <button data-variant="a">A · Journal</button>
+      <button data-variant="b">B · Card</button>
+      <button class="on" data-variant="c">C · Magazine ✦</button>
+    </div>
+    <div class="showcase-tools">
+      <span id="pageLabel">INDEX</span>
+      <button class="theme-toggle" id="themeToggle" aria-label="切换明暗"></button>
+    </div>
+  </div>
+
+  <!-- PAGE FRAME -->
+  <div class="page-frame">
+    <div class="page-frame-head">
+      <div class="dots"><span></span><span></span><span></span></div>
+      <div class="url" id="urlBar">cyrustyj.xyz/</div>
+      <span id="variantLabel">A · Journal</span>
+    </div>
+
+    <!-- ============================================================
+         VARIANT A — JOURNAL
+         ============================================================ -->
+    <div class="variant v-a" id="variant-a">
+
+      <header class="jn-header">
+        <div>
+          <div class="jn-brand">Cyrus 的 AI 学习笔记
+            <small>Est. 2025 · Personal Notes</small>
+          </div>
+        </div>
+        <nav class="jn-nav">
+          <a href="#" data-route="index" class="on">首页</a>
+          <a href="#" data-route="news">AI资讯</a>
+          <a href="#" data-route="resources">AI干货</a>
+          <a href="#" data-route="privacy">隐私</a>
+          <a href="#" data-route="disclaimer">免责</a>
+        </nav>
+        <div class="jn-meta">
+          <span id="jnDate">2026.04.18</span>
+          <span>第 16 周 · Vol.47</span>
+        </div>
+      </header>
+
+      <!-- INDEX -->
+      <main class="view active" data-view="index">
+        <div class="jn-body">
+          <div>
+            <!-- Terminal -->
+            <div class="jn-term fade-up" aria-label="terminal hero">
+              <div class="jn-term-bar">
+                <span></span><span></span><span></span>
+                <em>cyrus@xhs — zsh — 84×20</em>
+              </div>
+              <div id="termOutput"></div>
+            </div>
+
+            <p class="jn-hero-kicker fade-up d1">// hello world · 2026</p>
+            <h1 class="jn-hero-title fade-up d2">先看资讯，<br>再拿<em>干货</em>执行。</h1>
+            <p class="jn-hero-sub fade-up d3">AI 资讯负责看趋势，AI 干货负责落地。<br>两个入口，一个目标——抓住这波 AI 时代红利。</p>
+
+            <!-- Entries -->
+            <div class="jn-rule"><span>入口 · ENTRANCES</span></div>
+            <div class="jn-entries">
+              <a class="jn-entry" href="#" data-route="news">
+                <div class="jn-entry-no">ENTRY 01 / NEWS</div>
+                <h3>AI 资讯</h3>
+                <p>聚合国内外社媒平台的 AI 信息，附一句可执行结论。六大情报源实时追踪。</p>
+                <span class="go">进入 →</span>
+              </a>
+              <a class="jn-entry" href="#" data-route="resources">
+                <div class="jn-entry-no">ENTRY 02 / RESOURCES</div>
+                <h3>AI 干货</h3>
+                <p>面向生产力的模板与工作流，拿来就能用。提示词、流程、复盘清单。</p>
+                <span class="go">进入 →</span>
+              </a>
+            </div>
+
+            <!-- Latest notes -->
+            <div class="jn-rule"><span>最近笔记 · FIELD NOTES</span></div>
+            <div class="jn-notes">
+              <a class="jn-note" href="#" data-route="news">
+                <div class="date">04.18</div>
+                <div>
+                  <h4>OpenAI 发布 GPT-5 Turbo，API 价格再降 40%</h4>
+                  <p>上下文窗口从 128k 提升到 400k，多模态端到端推理延迟 &lt; 800ms。</p>
+                </div>
+                <span class="tag">MODEL</span>
+              </a>
+              <a class="jn-note" href="#" data-route="news">
+                <div class="date">04.17</div>
+                <div>
+                  <h4>Anthropic 与国内厂商合作，推出企业级 Agent 套件</h4>
+                  <p>面向金融、法律、医疗三个行业，支持本地化部署与审计日志。</p>
+                </div>
+                <span class="tag">AGENT</span>
+              </a>
+              <a class="jn-note" href="#" data-route="resources">
+                <div class="date">04.15</div>
+                <div>
+                  <h4>周复盘三段法 · 模板更新</h4>
+                  <p>把「继续 / 停止 / 尝试」压缩到 20 分钟，仅保留下周最重要 3 件事。</p>
+                </div>
+                <span class="tag">RESOURCE</span>
+              </a>
+              <a class="jn-note" href="#" data-route="news">
+                <div class="date">04.14</div>
+                <div>
+                  <h4>NVIDIA 推出 B200 推理专用版，功耗下降 22%</h4>
+                  <p>针对超大参数模型推理场景，单卡吞吐相比 H100 提升 3.2 倍。</p>
+                </div>
+                <span class="tag">CHIP</span>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="jn-side">
+            <div class="jn-side-card fade-up d2">
+              <div class="avatar"></div>
+              <h4 style="margin:0;font-family:var(--font-mono);font-size:11px;color:var(--muted);letter-spacing:.22em;">ABOUT</h4>
+              <p class="name" style="margin:8px 0 0;">Cyrus 宇</p>
+              <p class="handle">@cyrus · AI 炼金术士</p>
+              <p class="bio">一个对 AI 好奇、热爱的炼金术士。白天做产品，晚上写笔记。欢迎一起学习。</p>
+              <div class="jn-side-cta" style="margin-top:16px;">
+                <a class="primary" href="#">小红书 ↗</a>
+                <a href="#">订阅更新</a>
+              </div>
+            </div>
+            <div class="jn-side-card">
+              <h4>STATS · 本周</h4>
+              <ul class="jn-side-list">
+                <li><span class="k">抓取条目</span><span class="v">1,284</span></li>
+                <li><span class="k">监控博主</span><span class="v">142</span></li>
+                <li><span class="k">干货模板</span><span class="v">47</span></li>
+                <li><span class="k">访问量</span><span class="v">12.4k</span></li>
+                <li><span class="k">最近更新</span><span class="v">2h 前</span></li>
+              </ul>
+            </div>
+            <div class="jn-side-card">
+              <h4>COLOPHON</h4>
+              <p style="margin:0;font-size:13px;color:var(--muted);line-height:1.65;">
+                本站使用 Noto Serif SC、Inter、JetBrains Mono 渲染。<br>
+                托管于 Cloudflare Pages。自动抓取每日两次。
+              </p>
+            </div>
+          </aside>
+        </div>
+
+        <footer class="jn-foot">
+          <div>© 2026 Cyrus 的 AI 学习笔记 · 访问统计 12,483</div>
+          <div class="jn-foot-links">
+            <a href="#" data-route="privacy">隐私政策</a>
+            <a href="#" data-route="disclaimer">免责声明</a>
+            <a href="#">小红书主页 ↗</a>
+            <a href="#">Sitemap</a>
+          </div>
+        </footer>
+      </main>
+
+      <!-- NEWS -->
+      <main class="view" data-view="news">
+        <div class="jn-body" style="grid-template-columns: 1fr;">
+          <div>
+            <nav class="jn-subnav">
+              <div class="crumb">首页 / <strong>AI资讯</strong></div>
+              <a class="back" href="#" data-route="index">← 返回</a>
+            </nav>
+
+            <section class="page-news-hero fade-up">
+              <p class="jn-hero-kicker">// ai_news · 2026</p>
+              <h2>跨平台资讯 · 实时新闻<br>X 监控 · 小红书 · GitHub · YouTube</h2>
+              <p>六个情报源实时追踪，附一句可执行结论。</p>
+            </section>
+
+            <section class="filter-bar fade-up d1">
+              <div class="filter-search">
+                <input type="search" placeholder="搜索资讯：OpenAI / 跨境电商 / 国家政策 / @elonmusk …" />
+                <button class="filter-btn">搜索博主</button>
+                <button class="filter-btn primary">云端查询</button>
+              </div>
+              <div class="filter-meta">
+                <span>共 <strong>1,284</strong> 条资讯</span>
+                <span>最近更新：<strong>2h 前</strong></span>
+                <span>当前数据源：<strong>AI资讯（站内）</strong></span>
+                <span style="margin-left:auto;">我关注的博主：<strong>12</strong></span>
+              </div>
+              <div class="filter-groups">
+                <div>
+                  <p class="filter-group-title">情报源</p>
+                  <div class="chips">
+                    <button class="chip on">AI资讯</button>
+                    <button class="chip">实时新闻</button>
+                    <button class="chip">X 监控</button>
+                    <button class="chip">小红书</button>
+                    <button class="chip">GitHub</button>
+                    <button class="chip">YouTube</button>
+                  </div>
+                </div>
+                <div>
+                  <p class="filter-group-title">产业链</p>
+                  <div class="chips">
+                    <button class="chip on">全部</button>
+                    <button class="chip">上游</button>
+                    <button class="chip">中游</button>
+                    <button class="chip">下游</button>
+                  </div>
+                </div>
+                <div>
+                  <p class="filter-group-title">内容标签</p>
+                  <div class="chips">
+                    <button class="chip on">全部</button>
+                    <button class="chip">Agent</button>
+                    <button class="chip">模型进展</button>
+                    <button class="chip">芯片算力</button>
+                    <button class="chip">应用落地</button>
+                    <button class="chip">政策</button>
+                  </div>
+                </div>
+                <div>
+                  <p class="filter-group-title">平台</p>
+                  <div class="chips">
+                    <button class="chip on">全部</button>
+                    <button class="chip">Twitter/X</button>
+                    <button class="chip">小红书</button>
+                    <button class="chip">GitHub</button>
+                    <button class="chip">YouTube</button>
+                    <button class="chip">Hacker News</button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Digest -->
+            <section class="digest fade-up d2">
+              <article class="digest-card">
+                <p class="kicker">日报通报 · DAILY TOP10</p>
+                <h3>今日 Top 10 资讯</h3>
+                <p class="label">2026 年 4 月 18 日 · 周六 · 北京时间</p>
+                <ol class="digest-list">
+                  <li><span>OpenAI 发布 GPT-5 Turbo，API 价格再降 40%</span><span class="src">OPENAI</span></li>
+                  <li><span>Anthropic 推出企业级 Agent 套件，覆盖金融法律医疗</span><span class="src">ANTHROPIC</span></li>
+                  <li><span>NVIDIA B200 推理版发布，单卡吞吐提升 3.2×</span><span class="src">NVIDIA</span></li>
+                  <li><span>国内某大厂开源多模态 Agent 框架，Star 破 10k</span><span class="src">GITHUB</span></li>
+                  <li><span>Sora 2 视频时长提升至 3 分钟，API 开放试用</span><span class="src">OPENAI</span></li>
+                  <li><span>Apple 推出 On-Device LLM SDK，iOS 19 内置</span><span class="src">APPLE</span></li>
+                  <li><span>Meta Llama 4 路线图曝光，MoE 架构继续演进</span><span class="src">META</span></li>
+                </ol>
+              </article>
+              <article class="digest-card">
+                <p class="kicker">周维度总结 · WEEK 16</p>
+                <h3>4 月第 3 周</h3>
+                <p class="label">04.12 — 04.18 · 共 287 条高分资讯</p>
+                <ol class="digest-list">
+                  <li><span>多模态模型集中发布窗口</span><span class="src">TREND</span></li>
+                  <li><span>推理芯片算力进入每瓦竞争时代</span><span class="src">TREND</span></li>
+                  <li><span>Agent 框架从开源走向企业部署</span><span class="src">TREND</span></li>
+                  <li><span>国内 AI 政策迎来新一轮调整</span><span class="src">POLICY</span></li>
+                </ol>
+              </article>
+            </section>
+
+            <!-- News cards -->
+            <div class="jn-rule"><span>资讯流 · 1,284 条</span></div>
+            <section class="news-grid"></section>
+          </div>
+        </div>
+      </main>
+
+      <!-- RESOURCES -->
+      <main class="view" data-view="resources">
+        <div class="jn-body" style="grid-template-columns: 1fr;">
+          <div>
+            <nav class="jn-subnav">
+              <div class="crumb">首页 / <strong>AI干货</strong></div>
+              <a class="back" href="#" data-route="index">← 返回</a>
+            </nav>
+
+            <section class="page-news-hero fade-up">
+              <p class="jn-hero-kicker">// ai_resources · templates</p>
+              <h2>帮助你直接<br>提升生产力。</h2>
+              <p>这里不是资讯流，而是可复用的方法、模板和提示词。搜索后直接拿去执行。</p>
+            </section>
+
+            <section class="filter-bar fade-up d1">
+              <div class="filter-search" style="grid-template-columns: 1fr auto;">
+                <input type="search" placeholder="搜索干货：选题 / 复盘 / 自动化 / 日报 …" />
+                <button class="filter-btn primary">搜索</button>
+              </div>
+              <div class="filter-meta">
+                <span>共 <strong>47</strong> 条干货</span>
+                <span>最近新增：<strong>04.15</strong></span>
+              </div>
+              <div class="filter-groups" style="grid-template-columns: 1fr;">
+                <div>
+                  <p class="filter-group-title">分类</p>
+                  <div class="chips">
+                    <button class="chip on">全部</button>
+                    <button class="chip">内容生产</button>
+                    <button class="chip">信息整理</button>
+                    <button class="chip">复盘</button>
+                    <button class="chip">自动化</button>
+                    <button class="chip">沟通效率</button>
+                    <button class="chip">流程设计</button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div class="jn-rule"><span>模板库 · TEMPLATES</span></div>
+            <section class="res-grid"></section>
+          </div>
+        </div>
+      </main>
+
+      <!-- PRIVACY -->
+      <main class="view" data-view="privacy">
+        <div class="jn-body" style="grid-template-columns: 1fr;">
+          <div>
+            <nav class="jn-subnav">
+              <div class="crumb">首页 / <strong>隐私政策</strong></div>
+              <a class="back" href="#" data-route="index">← 返回</a>
+            </nav>
+            <section class="page-news-hero fade-up">
+              <p class="jn-hero-kicker">// legal · policy</p>
+              <h2>隐私政策</h2>
+              <p>最后更新：2026-04-18</p>
+            </section>
+            <section class="legal fade-up d1">
+              <h2>1. 我们收集什么</h2>
+              <p>当前站点无注册和登录功能，不主动收集你的姓名、手机号、邮箱等个人身份信息。</p>
+              <p>站点运行过程可能由基础设施服务商自动记录访问日志（如 IP、浏览器类型、访问时间），用于安全和稳定性保障。</p>
+
+              <h2>2. 我们如何使用数据</h2>
+              <p>仅用于提供页面访问、资讯展示、故障排查和基础性能优化，不用于出售或共享个人信息。</p>
+
+              <h2>3. AI 资讯数据来源</h2>
+              <p>AI 资讯内容来自公开 RSS/Atom 信息源，页面保留原文链接。本站对内容进行聚合、标签分类与翻译辅助，版权归原作者或原平台所有。</p>
+
+              <h2>4. 第三方服务</h2>
+              <p>站点当前使用 Cloudflare Pages/Workers、GitHub Actions 等服务提供托管和自动更新能力。第三方服务的日志与隐私处理遵循其各自政策。</p>
+
+              <h2>5. Cookie 与本地存储</h2>
+              <p>页面可能使用浏览器本地状态（如筛选项、卡片语言切换）改善体验，不会用于跨站广告追踪。</p>
+
+              <h2>6. 联系方式</h2>
+              <p>如对本政策有疑问，当前可通过小红书私信联系站点维护者 Cyrus。</p>
+            </section>
+          </div>
+        </div>
+      </main>
+
+      <!-- DISCLAIMER -->
+      <main class="view" data-view="disclaimer">
+        <div class="jn-body" style="grid-template-columns: 1fr;">
+          <div>
+            <nav class="jn-subnav">
+              <div class="crumb">首页 / <strong>免责声明</strong></div>
+              <a class="back" href="#" data-route="index">← 返回</a>
+            </nav>
+            <section class="page-news-hero fade-up">
+              <p class="jn-hero-kicker">// legal · disclaimer</p>
+              <h2>免责声明</h2>
+              <p>最后更新：2026-04-18</p>
+            </section>
+            <section class="legal fade-up d1">
+              <h2>1. 内容性质</h2>
+              <p>本站内容仅用于个人学习、信息整理与效率提升参考，不构成投资、法律、医疗、就业或其他专业建议。</p>
+              <h2>2. 自动聚合与翻译说明</h2>
+              <p>AI 资讯内容由自动化流程抓取公开源并生成摘要 / 标签 / 翻译，可能存在延迟、偏差或不完整。请以原文链接为准。</p>
+              <h2>3. 外部链接责任</h2>
+              <p>本站包含第三方网站链接。链接站点的可用性、准确性与合规性由其自身负责，本站不对其内容承担担保责任。</p>
+              <h2>4. 版权与引用</h2>
+              <p>资讯卡片会尽量保留来源平台和原文链接。原始内容的版权归原作者或平台所有。如有侵权或不当引用，请联系维护者处理。</p>
+              <h2>5. 服务可用性</h2>
+              <p>本站按「现状」提供，不承诺持续无中断、无错误或完全实时更新。你在使用本站信息时应自行判断风险。</p>
+            </section>
+          </div>
+        </div>
+      </main>
+
+      <!-- 404 -->
+      <main class="view" data-view="404">
+        <div class="jn-body" style="grid-template-columns: 1fr;">
+          <div class="four">
+            <p class="code">404</p>
+            <h2>这一页走丢了。</h2>
+            <p>你访问的链接可能已失效，或地址里藏着一个 typo。<br>回到首页，或去看看今天的 AI 资讯。</p>
+            <div class="four-cta">
+              <a class="filter-btn primary" href="#" data-route="index">返回首页</a>
+              <a class="filter-btn" href="#" data-route="news">去看 AI 资讯</a>
+            </div>
+          </div>
+        </div>
+      </main>
+
+    </div>
+
+    <!-- ============================================================
+         VARIANT B — CARD
+         ============================================================ -->
+    <div class="variant v-b" id="variant-b" style="display:none;">
+
+      <header class="cc-header">
+        <div class="cc-brand">
+          <div class="dot">C</div>
+          <div>Cyrus 的 AI 学习笔记</div>
+        </div>
+        <nav class="cc-nav">
+          <a href="#" data-route="index" class="on">首页</a>
+          <a href="#" data-route="news">AI资讯</a>
+          <a href="#" data-route="resources">AI干货</a>
+          <a href="#" data-route="privacy">隐私</a>
+          <a href="#" data-route="disclaimer">免责</a>
+        </nav>
+      </header>
+
+      <!-- INDEX -->
+      <main class="view active cc-body" data-view="index">
+
+        <section class="cc-hero">
+          <div class="cc-hero-left fade-up">
+            <div class="tape"></div>
+            <div>
+              <p class="cc-kicker">hello world · 2026.04</p>
+              <h2>嗨，我是<br>Cyrus 宇 —<br><em>AI 炼金术士</em>。</h2>
+              <p class="lede">一个对 AI 好奇、热爱的朋友。<br>这里是我的笔记 —— 一半给自己，一半给你。</p>
+            </div>
+            <div class="chips-row">
+              <span>XHS @cyrus</span>
+              <span>HQ · 深圳</span>
+              <span>EST · 2025</span>
+            </div>
+          </div>
+
+          <div class="cc-hero-right fade-up d1">
+            <div class="cc-term">
+              <div class="cc-term-bar">
+                <span></span><span></span><span></span>
+                <em>cyrus@site — 72×14</em>
+              </div>
+              <div id="termOutputB"></div>
+            </div>
+            <div class="cc-profile">
+              <div class="av">C</div>
+              <div>
+                <p class="name">Cyrus<small>@cyrus · xiaohongshu</small></p>
+              </div>
+              <a class="xhs" href="#">前往小红书 →</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="cc-entries">
+          <a class="cc-entry fade-up d2" href="#" data-route="news">
+            <div class="ce-no">ENTRY 01 · NEWS</div>
+            <h3>AI 资讯</h3>
+            <p>聚合国内外社媒平台的 AI 信息，附一句可执行结论。</p>
+            <div class="arrow">→</div>
+          </a>
+          <a class="cc-entry fade-up d3" href="#" data-route="resources">
+            <div class="ce-no">ENTRY 02 · RESOURCES</div>
+            <h3>AI 干货</h3>
+            <p>面向生产力的模板与工作流，拿来就能用。</p>
+            <div class="arrow">→</div>
+          </a>
+        </section>
+
+        <section class="cc-notes fade-up d4">
+          <div>
+            <h3 class="cc-notes-title">最近笔记<small>// field notes</small></h3>
+          </div>
+          <div class="cc-notes-list">
+            <a class="cc-note" href="#" data-route="news">
+              <div class="date">04.18</div>
+              <h5>GPT-5 Turbo 发布，API 价格再降 40%</h5>
+              <span class="tag">MODEL</span>
+            </a>
+            <a class="cc-note" href="#" data-route="news">
+              <div class="date">04.17</div>
+              <h5>Anthropic 推出企业级 Agent 套件</h5>
+              <span class="tag">AGENT</span>
+            </a>
+            <a class="cc-note" href="#" data-route="resources">
+              <div class="date">04.15</div>
+              <h5>周复盘三段法 · 模板更新</h5>
+              <span class="tag">RESOURCE</span>
+            </a>
+            <a class="cc-note" href="#" data-route="news">
+              <div class="date">04.14</div>
+              <h5>NVIDIA B200 推理版，单卡吞吐提升 3.2×</h5>
+              <span class="tag">CHIP</span>
+            </a>
+          </div>
+        </section>
+
+        <footer class="cc-foot">
+          <div>© 2026 Cyrus</div>
+          <div class="center">访问统计 · 12,483</div>
+          <div class="right">
+            <a href="#" data-route="privacy">隐私</a>
+            <a href="#" data-route="disclaimer">免责</a>
+            <a href="#">小红书 ↗</a>
+          </div>
+        </footer>
+      </main>
+
+      <!-- NEWS -->
+      <main class="view cc-body" data-view="news">
+        <nav class="jn-subnav">
+          <div class="crumb">首页 / <strong>AI资讯</strong></div>
+          <a class="back" href="#" data-route="index">← 返回</a>
+        </nav>
+
+        <section class="page-news-hero fade-up">
+          <p class="jn-hero-kicker">// ai_news · 2026</p>
+          <h2>跨平台资讯<br>实时追踪 · 一句可执行。</h2>
+          <p>六个情报源：AI资讯 / 实时新闻 / X / 小红书 / GitHub / YouTube。</p>
+        </section>
+
+        <section class="filter-bar fade-up d1">
+          <div class="filter-search">
+            <input type="search" placeholder="搜索资讯：OpenAI / 跨境电商 / 国家政策 / @elonmusk …" />
+            <button class="filter-btn">搜索博主</button>
+            <button class="filter-btn primary">云端查询</button>
+          </div>
+          <div class="filter-meta">
+            <span>共 <strong>1,284</strong> 条</span>
+            <span>更新：<strong>2h 前</strong></span>
+            <span>数据源：<strong>AI资讯</strong></span>
+          </div>
+          <div class="filter-groups">
+            <div>
+              <p class="filter-group-title">情报源</p>
+              <div class="chips">
+                <button class="chip on">AI资讯</button>
+                <button class="chip">实时</button>
+                <button class="chip">X</button>
+                <button class="chip">小红书</button>
+                <button class="chip">GitHub</button>
+                <button class="chip">YouTube</button>
+              </div>
+            </div>
+            <div>
+              <p class="filter-group-title">产业链</p>
+              <div class="chips">
+                <button class="chip on">全部</button>
+                <button class="chip">上游</button>
+                <button class="chip">中游</button>
+                <button class="chip">下游</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="digest fade-up d2">
+          <article class="digest-card">
+            <p class="kicker">日报 · DAILY TOP10</p>
+            <h3>今日 Top 10</h3>
+            <p class="label">2026.04.18 · 北京时间</p>
+            <ol class="digest-list">
+              <li><span>GPT-5 Turbo 发布，API 价格再降 40%</span><span class="src">OPENAI</span></li>
+              <li><span>Anthropic 企业级 Agent 套件发布</span><span class="src">ANTHROPIC</span></li>
+              <li><span>NVIDIA B200 推理版单卡吞吐 3.2×</span><span class="src">NVIDIA</span></li>
+              <li><span>国内开源多模态 Agent 框架 Star 破 10k</span><span class="src">GITHUB</span></li>
+              <li><span>Sora 2 视频时长提升至 3 分钟</span><span class="src">OPENAI</span></li>
+              <li><span>Apple On-Device LLM SDK 内置 iOS 19</span><span class="src">APPLE</span></li>
+            </ol>
+          </article>
+          <article class="digest-card">
+            <p class="kicker">周报 · WEEK 16</p>
+            <h3>4 月第 3 周</h3>
+            <p class="label">04.12 — 04.18 · 287 条</p>
+            <ol class="digest-list">
+              <li><span>多模态模型集中发布窗口</span><span class="src">TREND</span></li>
+              <li><span>推理芯片进入每瓦竞争时代</span><span class="src">TREND</span></li>
+              <li><span>Agent 框架走向企业部署</span><span class="src">TREND</span></li>
+              <li><span>国内 AI 政策新一轮调整</span><span class="src">POLICY</span></li>
+            </ol>
+          </article>
+        </section>
+
+        <section class="news-grid" id="ccNewsGrid"></section>
+
+        <footer class="cc-foot" style="margin-top:40px;">
+          <div>© 2026 Cyrus</div>
+          <div class="center">访问统计 · 12,483</div>
+          <div class="right">
+            <a href="#" data-route="privacy">隐私</a>
+            <a href="#" data-route="disclaimer">免责</a>
+          </div>
+        </footer>
+      </main>
+
+      <!-- RESOURCES -->
+      <main class="view cc-body" data-view="resources">
+        <nav class="jn-subnav">
+          <div class="crumb">首页 / <strong>AI干货</strong></div>
+          <a class="back" href="#" data-route="index">← 返回</a>
+        </nav>
+        <section class="page-news-hero fade-up">
+          <p class="jn-hero-kicker">// ai_resources</p>
+          <h2>拿来即用的<br>模板与工作流。</h2>
+          <p>不是资讯，是方法。搜索后直接执行。</p>
+        </section>
+        <section class="filter-bar fade-up d1">
+          <div class="filter-search" style="grid-template-columns: 1fr auto;">
+            <input type="search" placeholder="搜索干货：选题 / 复盘 / 自动化 …" />
+            <button class="filter-btn primary">搜索</button>
+          </div>
+          <div class="filter-meta">
+            <span>共 <strong>47</strong> 条</span>
+            <span>最近：<strong>04.15</strong></span>
+          </div>
+          <div class="filter-groups" style="grid-template-columns:1fr;">
+            <div>
+              <p class="filter-group-title">分类</p>
+              <div class="chips">
+                <button class="chip on">全部</button>
+                <button class="chip">内容生产</button>
+                <button class="chip">信息整理</button>
+                <button class="chip">复盘</button>
+                <button class="chip">自动化</button>
+                <button class="chip">沟通效率</button>
+                <button class="chip">流程设计</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="res-grid" id="ccResGrid"></section>
+
+        <footer class="cc-foot" style="margin-top:40px;">
+          <div>© 2026 Cyrus</div>
+          <div class="center">访问统计 · 12,483</div>
+          <div class="right"><a href="#" data-route="privacy">隐私</a><a href="#" data-route="disclaimer">免责</a></div>
+        </footer>
+      </main>
+
+      <!-- PRIVACY -->
+      <main class="view cc-body" data-view="privacy">
+        <nav class="jn-subnav">
+          <div class="crumb">首页 / <strong>隐私政策</strong></div>
+          <a class="back" href="#" data-route="index">← 返回</a>
+        </nav>
+        <section class="page-news-hero fade-up">
+          <p class="jn-hero-kicker">// legal</p>
+          <h2>隐私政策</h2>
+          <p>最后更新：2026-04-18</p>
+        </section>
+        <section class="legal fade-up d1">
+          <h2>1. 我们收集什么</h2>
+          <p>当前站点无注册和登录功能，不主动收集你的姓名、手机号、邮箱等个人身份信息。站点运行过程可能由基础设施服务商自动记录访问日志（如 IP、浏览器类型、访问时间），用于安全和稳定性保障。</p>
+          <h2>2. 我们如何使用数据</h2>
+          <p>仅用于提供页面访问、资讯展示、故障排查和基础性能优化，不用于出售或共享个人信息。</p>
+          <h2>3. AI 资讯数据来源</h2>
+          <p>AI 资讯内容来自公开 RSS/Atom 信息源，页面保留原文链接。版权归原作者或原平台所有。</p>
+          <h2>4. 第三方服务</h2>
+          <p>站点使用 Cloudflare Pages/Workers、GitHub Actions 提供托管和自动更新能力。第三方服务遵循其各自政策。</p>
+          <h2>5. Cookie 与本地存储</h2>
+          <p>页面使用浏览器本地状态（如筛选项、语言切换）改善体验，不会用于跨站广告追踪。</p>
+          <h2>6. 联系方式</h2>
+          <p>如有疑问，可通过小红书私信联系 Cyrus。</p>
+        </section>
+      </main>
+
+      <!-- DISCLAIMER -->
+      <main class="view cc-body" data-view="disclaimer">
+        <nav class="jn-subnav">
+          <div class="crumb">首页 / <strong>免责声明</strong></div>
+          <a class="back" href="#" data-route="index">← 返回</a>
+        </nav>
+        <section class="page-news-hero fade-up">
+          <p class="jn-hero-kicker">// legal</p>
+          <h2>免责声明</h2>
+          <p>最后更新：2026-04-18</p>
+        </section>
+        <section class="legal fade-up d1">
+          <h2>1. 内容性质</h2>
+          <p>本站内容仅用于个人学习、信息整理与效率提升参考，不构成投资、法律、医疗、就业或其他专业建议。</p>
+          <h2>2. 自动聚合与翻译说明</h2>
+          <p>AI 资讯内容由自动化流程抓取公开源生成摘要 / 标签 / 翻译，可能存在延迟或偏差。请以原文链接为准。</p>
+          <h2>3. 外部链接责任</h2>
+          <p>本站包含第三方网站链接，其可用性、准确性与合规性由其自身负责。</p>
+          <h2>4. 版权与引用</h2>
+          <p>资讯卡片保留来源平台和原文链接。原始内容版权归原作者或平台所有。</p>
+          <h2>5. 服务可用性</h2>
+          <p>本站按「现状」提供，不承诺持续无中断或完全实时。</p>
+        </section>
+      </main>
+
+      <!-- 404 -->
+      <main class="view cc-body" data-view="404">
+        <div class="four">
+          <p class="code">404</p>
+          <h2>这一页走丢了。</h2>
+          <p>链接可能已失效，或地址有 typo。<br>回首页，或去看看今天的 AI 资讯。</p>
+          <div class="four-cta">
+            <a class="filter-btn primary" href="#" data-route="index">返回首页</a>
+            <a class="filter-btn" href="#" data-route="news">AI 资讯</a>
+          </div>
+        </div>
+      </main>
+
+    </div>
+
+    <!-- ============================================================
+         VARIANT C — MAGAZINE / SHOWSTOPPER
+         ============================================================ -->
+    <div class="variant v-c" id="variant-c">
+
+      <!-- INDEX -->
+      <main class="view active" data-view="index">
+
+        <!-- Ticker -->
+        <div class="mg-ticker" aria-hidden="true">
+          <div class="mg-ticker-track">
+            <span>VOL.47 — APRIL 2026</span><span>✦</span>
+            <span>AI ALCHEMIST · CYRUS 宇</span><span>✦</span>
+            <span>1,284 NEWS · 47 TEMPLATES · 142 CREATORS</span><span>✦</span>
+            <span>先看资讯 · 再拿干货执行</span><span>✦</span>
+            <span>NOW PLAYING — GPT-5 TURBO</span><span>✦</span>
+            <span>VOL.47 — APRIL 2026</span><span>✦</span>
+            <span>AI ALCHEMIST · CYRUS 宇</span><span>✦</span>
+            <span>1,284 NEWS · 47 TEMPLATES · 142 CREATORS</span><span>✦</span>
+            <span>先看资讯 · 再拿干货执行</span><span>✦</span>
+            <span>NOW PLAYING — GPT-5 TURBO</span><span>✦</span>
+          </div>
+        </div>
+
+        <!-- Masthead -->
+        <header class="mg-mast">
+          <div class="mg-mast-left">
+            <div class="mg-issue">ISSUE № 047 / WEEK 16 / 2026</div>
+            <div class="mg-logo">
+              <span>C</span><span>Y</span><span>R</span><span>U</span><span>S</span>
+              <em>·</em>
+              <span>Q</span><span>U</span><span>A</span><span>R</span><span>T</span><span>E</span><span>R</span><span>L</span><span>Y</span>
+            </div>
+            <div class="mg-sub">A FIELD GUIDE TO THE AI AGE &nbsp;·&nbsp; 由 CYRUS 宇 编辑 &nbsp;·&nbsp; 中国深圳</div>
+          </div>
+          <nav class="mg-nav">
+            <a href="#" data-route="index" class="on">首页</a>
+            <a href="#" data-route="news">AI资讯</a>
+            <a href="#" data-route="resources">AI干货</a>
+            <a href="#" data-route="privacy">隐私</a>
+            <a href="#" data-route="disclaimer">免责</a>
+          </nav>
+        </header>
+
+        <!-- HERO COVER -->
+        <section class="mg-cover">
+          <!-- SVG text behind -->
+          <svg class="mg-halo" viewBox="0 0 800 800" aria-hidden="true">
+            <defs>
+              <path id="mgCircle" d="M400,400 m-320,0 a320,320 0 1,1 640,0 a320,320 0 1,1 -640,0"/>
+            </defs>
+            <text font-family="'Bodoni Moda', 'Noto Serif SC', serif" font-size="34" fill="currentColor" opacity=".35" letter-spacing="8">
+              <textPath href="#mgCircle">✦ CYRUS ALCHEMIST · ✦ AI FIELD NOTES · ✦ VOLUME 47 · ✦ AI 炼金术士 · ✦ CYRUS ALCHEMIST · ✦ AI FIELD NOTES · ✦</textPath>
+            </text>
+          </svg>
+
+          <div class="mg-cover-grid">
+            <div class="mg-left">
+              <div class="mg-tag-row">
+                <span class="mg-tag live"><i></i>LIVE · 2h ago</span>
+                <span class="mg-tag">COVER STORY</span>
+                <span class="mg-tag">FEATURED</span>
+              </div>
+
+              <h1 class="mg-headline">
+                <span class="l1">An<em>AI</em></span>
+                <span class="l2">Alchemist's</span>
+                <span class="l3"><em>Field</em> Notes.</span>
+              </h1>
+
+              <p class="mg-kicker-cn">一个 AI 炼金术士的<b>田野笔记</b>。</p>
+
+              <p class="mg-dek">hi，我是 <b>Cyrus 宇</b> —— 一个对 AI 好奇、热爱的朋友。白天做产品，晚上写笔记；这里是我把 AI 信息炼成可执行动作的地方。</p>
+
+              <div class="mg-cta">
+                <a href="#" data-route="news" class="mg-btn primary">
+                  <span>进入 AI 资讯</span>
+                  <b>→</b>
+                </a>
+                <a href="#" data-route="resources" class="mg-btn">
+                  <span>AI 干货模板</span>
+                  <b>→</b>
+                </a>
+                <a href="#" class="mg-btn ghost">小红书 ↗</a>
+              </div>
+
+              <div class="mg-stats">
+                <div><b>1,284</b><span>条资讯</span></div>
+                <div><b>47</b><span>条干货</span></div>
+                <div><b>142</b><span>位博主</span></div>
+                <div><b>12.4k</b><span>访问</span></div>
+              </div>
+            </div>
+
+            <div class="mg-right">
+              <!-- Portrait / terminal composite -->
+              <div class="mg-portrait">
+                <div class="mg-portrait-inner">
+                  <div class="mg-stripes"></div>
+                  <div class="mg-portrait-c">C</div>
+                  <div class="mg-portrait-tag">No. 047 / 100</div>
+                  <div class="mg-portrait-sig">— Cyrus 宇, est. 2025</div>
+                  <div class="mg-portrait-badge">
+                    <svg viewBox="0 0 120 120" class="mg-badge-svg" aria-hidden="true">
+                      <defs>
+                        <path id="mgBadge" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/>
+                      </defs>
+                      <text font-family="JetBrains Mono, monospace" font-size="9" fill="currentColor" letter-spacing="4">
+                        <textPath href="#mgBadge">AI ALCHEMIST · EST 2025 · AI ALCHEMIST · EST 2025 · </textPath>
+                      </text>
+                    </svg>
+                    ✦
+                  </div>
+                </div>
+              </div>
+
+              <!-- Mini terminal -->
+              <div class="mg-term">
+                <div class="mg-term-bar">
+                  <span></span><span></span><span></span>
+                  <em>cyrus@xhs — 72×12</em>
+                </div>
+                <div id="termOutputC"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- MARQUEE BIG TYPE -->
+        <section class="mg-marquee" aria-hidden="true">
+          <div class="mg-marquee-track">
+            <span>AI&nbsp;NEWS</span>
+            <span class="star">✦</span>
+            <span class="italic">FIELD&nbsp;NOTES</span>
+            <span class="star">✦</span>
+            <span>AI&nbsp;干货</span>
+            <span class="star">✦</span>
+            <span class="italic">Templates</span>
+            <span class="star">✦</span>
+            <span>AI&nbsp;NEWS</span>
+            <span class="star">✦</span>
+            <span class="italic">FIELD&nbsp;NOTES</span>
+            <span class="star">✦</span>
+            <span>AI&nbsp;干货</span>
+            <span class="star">✦</span>
+            <span class="italic">Templates</span>
+            <span class="star">✦</span>
+          </div>
+        </section>
+
+        <!-- TWO ENTRIES, BIG -->
+        <section class="mg-entries">
+          <a class="mg-entry e1" href="#" data-route="news">
+            <div class="mg-entry-head">
+              <span class="mg-num">01</span>
+              <span class="mg-dept">DEPARTMENT · NEWS</span>
+            </div>
+            <h2>AI&nbsp;<em>资讯</em></h2>
+            <p>聚合六个情报源，每条配一句可执行结论。<br>先看趋势，再下判断。</p>
+            <div class="mg-entry-meta">
+              <span>1,284 条</span>
+              <span>六大情报源</span>
+              <span>更新 2h 前</span>
+              <b class="mg-go">READ →</b>
+            </div>
+          </a>
+          <a class="mg-entry e2" href="#" data-route="resources">
+            <div class="mg-entry-head">
+              <span class="mg-num">02</span>
+              <span class="mg-dept">DEPARTMENT · RESOURCES</span>
+            </div>
+            <h2>AI&nbsp;<em>干货</em></h2>
+            <p>模板、提示词、复盘清单。<br>拿来就能用，今天就能跑一遍。</p>
+            <div class="mg-entry-meta">
+              <span>47 条</span>
+              <span>6 个分类</span>
+              <span>最近 04.15</span>
+              <b class="mg-go">USE →</b>
+            </div>
+          </a>
+        </section>
+
+        <!-- EDITORIAL PULL QUOTE -->
+        <section class="mg-quote">
+          <div class="mg-quote-open">“</div>
+          <blockquote>
+            先看资讯，再拿干货执行 ——<br>
+            把 AI 信息 <em>炼</em> 成可执行动作。
+          </blockquote>
+          <div class="mg-quote-sig">— CYRUS, FROM THE EDITOR</div>
+        </section>
+
+        <!-- DISPATCH NOTES -->
+        <section class="mg-dispatch">
+          <header class="mg-section-head">
+            <span class="mg-dept-num">§ 03</span>
+            <h3>DISPATCH · 最近笔记</h3>
+            <span class="mg-dept-meta">04.12 — 04.18 &nbsp;/&nbsp; 04 记</span>
+          </header>
+          <div class="mg-dispatch-list">
+            <a class="mg-disp" href="#" data-route="news">
+              <span class="mg-disp-no">01</span>
+              <div>
+                <div class="mg-disp-top"><span class="mg-disp-src">OPENAI</span><span>04.18</span></div>
+                <h4>GPT-5 Turbo 发布，API 价格再降 40%</h4>
+                <p>上下文 400k · 多模态延迟 &lt; 800ms · 6 月面向企业开放。</p>
+              </div>
+            </a>
+            <a class="mg-disp" href="#" data-route="news">
+              <span class="mg-disp-no">02</span>
+              <div>
+                <div class="mg-disp-top"><span class="mg-disp-src">ANTHROPIC</span><span>04.17</span></div>
+                <h4>Anthropic 推出企业级 Agent 套件</h4>
+                <p>覆盖金融、法律、医疗；支持本地化部署与审计日志。</p>
+              </div>
+            </a>
+            <a class="mg-disp" href="#" data-route="resources">
+              <span class="mg-disp-no">03</span>
+              <div>
+                <div class="mg-disp-top"><span class="mg-disp-src">TEMPLATE</span><span>04.15</span></div>
+                <h4>周复盘三段法 · 模板更新</h4>
+                <p>20 分钟闭环，只保留下周最重要 3 件事。</p>
+              </div>
+            </a>
+            <a class="mg-disp" href="#" data-route="news">
+              <span class="mg-disp-no">04</span>
+              <div>
+                <div class="mg-disp-top"><span class="mg-disp-src">NVIDIA</span><span>04.14</span></div>
+                <h4>B200 推理版单卡吞吐提升 3.2×</h4>
+                <p>功耗下降 22%；针对超大参数模型推理场景。</p>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <!-- COLOPHON FOOTER -->
+        <footer class="mg-foot">
+          <div class="mg-foot-logo">
+            <div class="mg-foot-c">C</div>
+            <div>
+              <b>CYRUS QUARTERLY</b>
+              <small>A FIELD GUIDE TO THE AI AGE</small>
+            </div>
+          </div>
+          <div class="mg-foot-cols">
+            <div>
+              <h5>SITE</h5>
+              <a href="#" data-route="news">AI 资讯</a>
+              <a href="#" data-route="resources">AI 干货</a>
+              <a href="#">Sitemap</a>
+            </div>
+            <div>
+              <h5>LEGAL</h5>
+              <a href="#" data-route="privacy">隐私政策</a>
+              <a href="#" data-route="disclaimer">免责声明</a>
+            </div>
+            <div>
+              <h5>FOLLOW</h5>
+              <a href="#">小红书 @cyrus ↗</a>
+              <a href="#">订阅更新</a>
+            </div>
+          </div>
+          <div class="mg-foot-meta">
+            <span>© 2026 CYRUS 的 AI 学习笔记 · 访问 12,483</span>
+            <span>SET IN BODONI MODA · NOTO SERIF SC · INTER · JETBRAINS MONO</span>
+          </div>
+        </footer>
+      </main>
+
+      <!-- NEWS -->
+      <main class="view" data-view="news">
+        <div class="mg-ticker" aria-hidden="true">
+          <div class="mg-ticker-track">
+            <span>AI NEWS · LIVE</span><span>✦</span><span>1,284 ITEMS</span><span>✦</span><span>UPDATED 2H AGO</span><span>✦</span>
+            <span>AI NEWS · LIVE</span><span>✦</span><span>1,284 ITEMS</span><span>✦</span><span>UPDATED 2H AGO</span><span>✦</span>
+          </div>
+        </div>
+
+        <div class="mg-inner">
+          <nav class="mg-crumb">
+            <a href="#" data-route="index">← CYRUS QUARTERLY</a>
+            <span>/ AI NEWS · 资讯</span>
+          </nav>
+
+          <section class="mg-page-hero">
+            <div class="mg-tag-row"><span class="mg-tag live"><i></i>LIVE</span><span class="mg-tag">§ 01 · NEWS</span></div>
+            <h2 class="mg-page-title"><em>What's</em> happening<br>in <em>AI</em>, now.</h2>
+            <p class="mg-page-kicker">跨平台资讯 · 实时追踪 · 一句话可执行。<br>六个情报源：AI资讯 / 实时新闻 / X / 小红书 / GitHub / YouTube</p>
+          </section>
+
+          <section class="filter-bar fade-up">
+            <div class="filter-search">
+              <input type="search" placeholder="SEARCH · OpenAI / 跨境电商 / @elonmusk …" />
+              <button class="filter-btn">搜索博主</button>
+              <button class="filter-btn primary">云端查询</button>
+            </div>
+            <div class="filter-meta">
+              <span>共 <strong>1,284</strong> 条</span>
+              <span>最近更新：<strong>2h 前</strong></span>
+              <span>数据源：<strong>AI资讯</strong></span>
+              <span style="margin-left:auto;">我关注的：<strong>12</strong></span>
+            </div>
+            <div class="filter-groups">
+              <div>
+                <p class="filter-group-title">情报源</p>
+                <div class="chips">
+                  <button class="chip on">AI资讯</button><button class="chip">实时新闻</button><button class="chip">X 监控</button>
+                  <button class="chip">小红书</button><button class="chip">GitHub</button><button class="chip">YouTube</button>
+                </div>
+              </div>
+              <div>
+                <p class="filter-group-title">产业链</p>
+                <div class="chips">
+                  <button class="chip on">全部</button><button class="chip">上游</button><button class="chip">中游</button><button class="chip">下游</button>
+                </div>
+              </div>
+              <div>
+                <p class="filter-group-title">内容标签</p>
+                <div class="chips">
+                  <button class="chip on">全部</button><button class="chip">Agent</button><button class="chip">模型</button>
+                  <button class="chip">芯片</button><button class="chip">应用</button><button class="chip">政策</button>
+                </div>
+              </div>
+              <div>
+                <p class="filter-group-title">平台</p>
+                <div class="chips">
+                  <button class="chip on">全部</button><button class="chip">X</button><button class="chip">小红书</button>
+                  <button class="chip">GitHub</button><button class="chip">YouTube</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="digest fade-up d1">
+            <article class="digest-card">
+              <p class="kicker">§ DAILY TOP 10</p>
+              <h3>今日 Top 10 资讯</h3>
+              <p class="label">2026.04.18 · 周六 · 北京时间</p>
+              <ol class="digest-list">
+                <li><span>GPT-5 Turbo 发布，API 价格再降 40%</span><span class="src">OPENAI</span></li>
+                <li><span>Anthropic 企业级 Agent 套件发布</span><span class="src">ANTHROPIC</span></li>
+                <li><span>NVIDIA B200 推理版单卡吞吐 3.2×</span><span class="src">NVIDIA</span></li>
+                <li><span>国内开源多模态 Agent 框架 Star 破 10k</span><span class="src">GITHUB</span></li>
+                <li><span>Sora 2 视频时长 3 分钟，API 开放试用</span><span class="src">OPENAI</span></li>
+                <li><span>Apple On-Device LLM SDK 内置 iOS 19</span><span class="src">APPLE</span></li>
+              </ol>
+            </article>
+            <article class="digest-card">
+              <p class="kicker">§ WEEK 16</p>
+              <h3>4 月第 3 周</h3>
+              <p class="label">04.12 — 04.18 · 287 条高分</p>
+              <ol class="digest-list">
+                <li><span>多模态模型集中发布窗口</span><span class="src">TREND</span></li>
+                <li><span>推理芯片进入每瓦竞争时代</span><span class="src">TREND</span></li>
+                <li><span>Agent 框架走向企业部署</span><span class="src">TREND</span></li>
+                <li><span>国内 AI 政策新一轮调整</span><span class="src">POLICY</span></li>
+              </ol>
+            </article>
+          </section>
+
+          <div class="mg-section-rule"><span>§ 04 · DISPATCH FEED</span></div>
+          <section class="news-grid" id="mgNewsGrid"></section>
+        </div>
+
+        <footer class="mg-foot compact">
+          <div class="mg-foot-meta" style="justify-content:center;text-align:center;">
+            <span>© 2026 CYRUS QUARTERLY · 访问 12,483</span>
+          </div>
+        </footer>
+      </main>
+
+      <!-- RESOURCES -->
+      <main class="view" data-view="resources">
+        <div class="mg-ticker" aria-hidden="true">
+          <div class="mg-ticker-track">
+            <span>AI RESOURCES · TEMPLATES</span><span>✦</span><span>47 ITEMS · 6 CATEGORIES</span><span>✦</span><span>拿来就能用</span><span>✦</span>
+            <span>AI RESOURCES · TEMPLATES</span><span>✦</span><span>47 ITEMS · 6 CATEGORIES</span><span>✦</span><span>拿来就能用</span><span>✦</span>
+          </div>
+        </div>
+        <div class="mg-inner">
+          <nav class="mg-crumb">
+            <a href="#" data-route="index">← CYRUS QUARTERLY</a>
+            <span>/ AI RESOURCES · 干货</span>
+          </nav>
+          <section class="mg-page-hero">
+            <div class="mg-tag-row"><span class="mg-tag">§ 02 · TEMPLATES</span></div>
+            <h2 class="mg-page-title">Templates<br>to <em>ship</em> today.</h2>
+            <p class="mg-page-kicker">不是资讯流，是可复用方法、模板、提示词。<br>搜索后直接拿去执行。</p>
+          </section>
+          <section class="filter-bar fade-up">
+            <div class="filter-search" style="grid-template-columns: 1fr auto;">
+              <input type="search" placeholder="SEARCH · 选题 / 复盘 / 自动化 …" />
+              <button class="filter-btn primary">搜索</button>
+            </div>
+            <div class="filter-meta">
+              <span>共 <strong>47</strong> 条</span>
+              <span>最近：<strong>04.15</strong></span>
+            </div>
+            <div class="filter-groups" style="grid-template-columns:1fr;">
+              <div>
+                <p class="filter-group-title">分类</p>
+                <div class="chips">
+                  <button class="chip on">全部</button><button class="chip">内容生产</button><button class="chip">信息整理</button>
+                  <button class="chip">复盘</button><button class="chip">自动化</button><button class="chip">沟通效率</button>
+                  <button class="chip">流程设计</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="mg-section-rule"><span>§ 05 · TEMPLATES</span></div>
+          <section class="res-grid" id="mgResGrid"></section>
+        </div>
+        <footer class="mg-foot compact">
+          <div class="mg-foot-meta" style="justify-content:center;text-align:center;">
+            <span>© 2026 CYRUS QUARTERLY · 访问 12,483</span>
+          </div>
+        </footer>
+      </main>
+
+      <!-- PRIVACY -->
+      <main class="view" data-view="privacy">
+        <div class="mg-inner">
+          <nav class="mg-crumb"><a href="#" data-route="index">← CYRUS QUARTERLY</a><span>/ 隐私政策</span></nav>
+          <section class="mg-page-hero">
+            <div class="mg-tag-row"><span class="mg-tag">§ LEGAL</span></div>
+            <h2 class="mg-page-title">Privacy.</h2>
+            <p class="mg-page-kicker">最后更新 · 2026-04-18</p>
+          </section>
+          <section class="legal mg-legal">
+            <h2>1. 我们收集什么</h2>
+            <p>当前站点无注册和登录功能，不主动收集你的姓名、手机号、邮箱等个人身份信息。站点运行过程可能由基础设施服务商自动记录访问日志（如 IP、浏览器类型、访问时间），用于安全和稳定性保障。</p>
+            <h2>2. 我们如何使用数据</h2>
+            <p>仅用于提供页面访问、资讯展示、故障排查和基础性能优化，不用于出售或共享个人信息。</p>
+            <h2>3. AI 资讯数据来源</h2>
+            <p>AI 资讯内容来自公开 RSS/Atom 信息源，页面保留原文链接。版权归原作者或原平台所有。</p>
+            <h2>4. 第三方服务</h2>
+            <p>站点使用 Cloudflare Pages/Workers、GitHub Actions 提供托管和自动更新能力。第三方服务遵循其各自政策。</p>
+            <h2>5. Cookie 与本地存储</h2>
+            <p>页面使用浏览器本地状态（如筛选项、语言切换）改善体验，不会用于跨站广告追踪。</p>
+            <h2>6. 联系方式</h2>
+            <p>如有疑问，可通过小红书私信联系 Cyrus。</p>
+          </section>
+        </div>
+      </main>
+
+      <!-- DISCLAIMER -->
+      <main class="view" data-view="disclaimer">
+        <div class="mg-inner">
+          <nav class="mg-crumb"><a href="#" data-route="index">← CYRUS QUARTERLY</a><span>/ 免责声明</span></nav>
+          <section class="mg-page-hero">
+            <div class="mg-tag-row"><span class="mg-tag">§ LEGAL</span></div>
+            <h2 class="mg-page-title">Disclaimer.</h2>
+            <p class="mg-page-kicker">最后更新 · 2026-04-18</p>
+          </section>
+          <section class="legal mg-legal">
+            <h2>1. 内容性质</h2>
+            <p>本站内容仅用于个人学习、信息整理与效率提升参考，不构成投资、法律、医疗、就业或其他专业建议。</p>
+            <h2>2. 自动聚合与翻译说明</h2>
+            <p>AI 资讯内容由自动化流程抓取公开源生成摘要 / 标签 / 翻译，可能存在延迟或偏差。请以原文链接为准。</p>
+            <h2>3. 外部链接责任</h2>
+            <p>本站包含第三方网站链接，其可用性、准确性与合规性由其自身负责。</p>
+            <h2>4. 版权与引用</h2>
+            <p>资讯卡片保留来源平台和原文链接。原始内容版权归原作者或平台所有。</p>
+            <h2>5. 服务可用性</h2>
+            <p>本站按「现状」提供，不承诺持续无中断或完全实时。</p>
+          </section>
+        </div>
+      </main>
+
+      <!-- 404 -->
+      <main class="view" data-view="404">
+        <div class="mg-inner">
+          <div class="mg-404">
+            <div class="mg-404-num">4<em>0</em>4</div>
+            <h2>Page not found.</h2>
+            <p>你访问的链接可能已失效，或地址里藏着一个 typo。</p>
+            <div class="four-cta">
+              <a class="mg-btn primary" href="#" data-route="index"><span>返回首页</span><b>→</b></a>
+              <a class="mg-btn" href="#" data-route="news"><span>AI 资讯</span><b>→</b></a>
+            </div>
+          </div>
+        </div>
+      </main>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- Tweaks panel -->
+<div class="tweaks-panel" id="tweaksPanel">
+  <p class="title">TWEAKS</p>
+  <div class="row"><span>明暗模式</span><button class="theme-toggle" id="tweakTheme"></button></div>
+</div>
+
+<script>
+/* =========================================================
+   DATA
+   ========================================================= */
+const NEWS_DATA = [
+  {title:"OpenAI 发布 GPT-5 Turbo，API 价格再降 40%", body:"上下文窗口从 128k 提升到 400k，多模态端到端推理延迟小于 800ms。企业客户预计 6 月可用。", platform:"OPENAI", stage:"up", tag:"模型", date:"04.18", time:"14:22"},
+  {title:"Anthropic 推出企业级 Agent 套件，覆盖金融/法律/医疗", body:"支持本地化部署、审计日志、细粒度权限控制，首批合作方已公布。", platform:"ANTHROPIC", stage:"mid", tag:"Agent", date:"04.17", time:"09:48"},
+  {title:"NVIDIA B200 推理专用版发布，功耗下降 22%", body:"针对超大参数模型推理场景，单卡吞吐相比 H100 提升 3.2 倍。", platform:"NVIDIA", stage:"up", tag:"芯片", date:"04.17", time:"03:10"},
+  {title:"国内开源多模态 Agent 框架，GitHub Star 破 10k", body:"支持 20+ 模型接入、工作流编排与可视化调试，社区活跃度周环比 +180%。", platform:"GITHUB", stage:"mid", tag:"Agent", date:"04.16", time:"22:05"},
+  {title:"Sora 2 视频时长提升至 3 分钟，API 开放试用", body:"新版本支持连续镜头切换与角色一致性，生成速度较上一版提升 2.4 倍。", platform:"OPENAI", stage:"down", tag:"应用", date:"04.16", time:"18:34"},
+  {title:"Apple 推出 On-Device LLM SDK，iOS 19 内置", body:"3B 参数模型，在 A19 芯片上推理延迟 120ms。面向隐私优先的开发者。", platform:"APPLE", stage:"down", tag:"应用", date:"04.16", time:"10:12"},
+  {title:"Meta 开源 Llama 4，MoE 架构激活参数 8B", body:"总参 400B，激活 8B，推理成本接近 Llama 3 8B，基准超过 3 70B。", platform:"META", stage:"up", tag:"模型", date:"04.15", time:"20:44"},
+  {title:"国家发改委：AI 算力中心纳入新基建名录", body:"新一轮补贴覆盖华东、华南、西部三大片区，企业申报 6 月启动。", platform:"POLICY", stage:"up", tag:"政策", date:"04.15", time:"16:18"},
+  {title:"跨境电商卖家：用 Claude 做产品上架提速 8 倍", body:"选品、标题、长图文、翻译一条龙。某中型卖家月上架量从 200 提升到 1600。", platform:"XHS", stage:"down", tag:"应用", date:"04.14", time:"12:00"},
+  {title:"@elonmusk：xAI Grok 4 将支持真实世界 Agent", body:"可直接操作 X、Tesla、特斯拉机器人。演示视频引发 2.3M 转发。", platform:"X", stage:"mid", tag:"Agent", date:"04.14", time:"08:22"},
+];
+
+const RES_DATA = [
+  {title:"爆款选题 30 分钟冲刺模板", tag:"内容生产", lvl:"中", desc:"30 分钟产出 5 个可发选题，并附开头钩子。", steps:["先列 3 个高频问题","让 AI 输出教程 / 避坑 / 对比角度","筛掉无法 1 分钟讲清的问题"], prompt:"你是短内容策划，请基于 [用户问题] 输出 5 个小红书 AI 选题，每个包含：标题、开头钩子、30 秒核心观点。"},
+  {title:"AI 资讯日报整理模板", tag:"信息整理", lvl:"低", desc:"每天固定整理 5 条信息并统一格式，便于复盘与发布。", steps:["固定 3 – 5 个来源池","按「发生了什么 / 为什么重要 / 可执行动作」写","最后补一条个人观点"], prompt:"请把以下资讯整理成日报格式：事件摘要、影响、今日可执行动作。输出 Markdown 表格。"},
+  {title:"周复盘三段法", tag:"复盘", lvl:"低", desc:"20 分钟复盘一周产出，沉淀下周优先动作。", steps:["列出本周完成事项和卡点","按「继续 / 停止 / 尝试」分类","只保留下周最重要 3 件事"], prompt:"请根据本周记录输出复盘报告：做得好、需改进、下周三件事。每件事附衡量标准。"},
+  {title:"口播转图文生产线", tag:"内容生产", lvl:"中", desc:"把短视频口播快速转成图文，提升一稿多用效率。", steps:["转写语音并清理口头禅","按「问题 - 解决 - 步骤 - 结果」重组","加「常见误区」段落提升收藏率"], prompt:"把以下口播改写成小红书图文，包含标题、3 段正文、结尾行动引导。"},
+  {title:"日报自动汇总工作流", tag:"自动化", lvl:"中", desc:"把分散记录自动汇总成日报草稿，减少重复整理。", steps:["统一输入池（表格或文档）","按固定时间触发自动总结","输出固定格式"], prompt:"请把以下零散记录汇总成日报：今日进展、风险、明日动作。最多 300 字。"},
+  {title:"高频问题标准答复模板", tag:"沟通效率", lvl:"低", desc:"把重复问题沉淀成标准答复，提升私信与评论区效率。", steps:["收集最近 30 条高频问题","按「结论 + 三步建议 + 风险提示」回答","每周复盘并更新版本"], prompt:"请把以下问题改写为标准答复：先给结论，再给三步建议，最后补一个注意事项。"},
+  {title:"AI 任务拆分清单", tag:"流程设计", lvl:"高", desc:"把复杂任务拆分为可交付节点，减少 AI 输出失控。", steps:["定义任务终点和验收标准","拆成「信息收集 - 草稿 - 审校 - 发布」节点","每个节点只允许一个核心目标"], prompt:"请将以下任务拆分为可执行流程，每一步给输入、输出、检查标准。"},
+  {title:"个人知识库最小字段模板", tag:"信息整理", lvl:"低", desc:"先统一字段再选工具，避免后续迁移成本。", steps:["每条记录包含主题、结论、动作、来源","每周清理重复记录","按场景聚合，不按工具聚合"], prompt:"请将以下笔记整理为知识库条目，字段为：主题、结论、动作、来源。"},
+];
+
+/* =========================================================
+   RENDERERS
+   ========================================================= */
+function renderNewsCards(host) {
+  host.innerHTML = NEWS_DATA.map(n => `
+    <article class="news-card">
+      <div class="nc-top">
+        <span class="platform">${n.platform}</span>
+        <span>${n.date} · ${n.time}</span>
+      </div>
+      <h4>${n.title}</h4>
+      <p class="nc-body">${n.body}</p>
+      <div class="nc-foot">
+        <span class="pill ${n.stage}">${n.stage==='up'?'上游':n.stage==='mid'?'中游':'下游'}</span>
+        <span class="pill">${n.tag}</span>
+        <span class="pill" style="margin-left:auto;">原文 ↗</span>
+      </div>
+    </article>
+  `).join('');
+}
+
+function renderResCards(host) {
+  host.innerHTML = RES_DATA.map(r => `
+    <article class="res-card">
+      <div class="rc-top">
+        <span class="tag">${r.tag}</span>
+        <span class="lvl ${r.lvl==='高'?'h':''}">难度 · ${r.lvl}</span>
+      </div>
+      <h4>${r.title}</h4>
+      <p>${r.desc}</p>
+      <ol>
+        ${r.steps.map(s => `<li>${s}</li>`).join('')}
+      </ol>
+      <div class="prompt">${r.prompt}</div>
+    </article>
+  `).join('');
+}
+
+document.querySelectorAll('#variant-a [data-view="news"] .news-grid').forEach(el => renderNewsCards(el));
+document.querySelectorAll('#variant-a [data-view="resources"] .res-grid').forEach(el => renderResCards(el));
+renderNewsCards(document.getElementById('ccNewsGrid'));
+renderResCards(document.getElementById('ccResGrid'));
+renderNewsCards(document.getElementById('mgNewsGrid'));
+renderResCards(document.getElementById('mgResGrid'));
+
+/* =========================================================
+   ROUTER
+   ========================================================= */
+const ROUTES = {
+  index: "/",
+  news: "/news.html",
+  resources: "/resources.html",
+  privacy: "/privacy.html",
+  disclaimer: "/disclaimer.html",
+  "404": "/404"
+};
+const LABELS = {index:"INDEX", news:"NEWS", resources:"RESOURCES", privacy:"PRIVACY", disclaimer:"DISCLAIMER", "404":"404"};
+
+let currentVariant = localStorage.getItem('cy_variant') || 'a';
+let currentRoute = localStorage.getItem('cy_route') || 'index';
+
+function applyRoute(route) {
+  currentRoute = route;
+  localStorage.setItem('cy_route', route);
+
+  document.querySelectorAll('.variant .view').forEach(v => v.classList.remove('active'));
+  document.querySelectorAll(`#variant-${currentVariant} [data-view="${route}"]`).forEach(v => v.classList.add('active'));
+
+  document.querySelectorAll('.variant [data-route]').forEach(a => {
+    a.classList.toggle('on', a.dataset.route === route);
+  });
+
+  document.getElementById('urlBar').textContent = 'cyrustyj.xyz' + ROUTES[route];
+  document.getElementById('pageLabel').textContent = LABELS[route];
+
+  // retrigger fade-up
+  const scope = document.querySelector(`#variant-${currentVariant} [data-view="${route}"]`);
+  if (scope) {
+    scope.querySelectorAll('.fade-up').forEach(el => {
+      el.style.animation = 'none';
+      void el.offsetWidth;
+      el.style.animation = '';
+    });
+  }
+
+  if (route === 'index') startTerminal();
+}
+
+function applyVariant(v) {
+  currentVariant = v;
+  localStorage.setItem('cy_variant', v);
+  document.getElementById('variant-a').style.display = v==='a' ? '' : 'none';
+  document.getElementById('variant-b').style.display = v==='b' ? '' : 'none';
+  document.getElementById('variant-c').style.display = v==='c' ? '' : 'none';
+  document.getElementById('variantLabel').textContent = v==='a' ? 'A · Journal' : v==='b' ? 'B · Card' : 'C · Magazine';
+  document.querySelectorAll('.variant-switch button').forEach(b => b.classList.toggle('on', b.dataset.variant===v));
+  applyRoute(currentRoute);
+}
+
+document.addEventListener('click', (e) => {
+  const a = e.target.closest('[data-route]');
+  if (a) {
+    e.preventDefault();
+    applyRoute(a.dataset.route);
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+  const vb = e.target.closest('.variant-switch [data-variant]');
+  if (vb) applyVariant(vb.dataset.variant);
+});
+
+/* =========================================================
+   THEME
+   ========================================================= */
+const savedTheme = localStorage.getItem('cy_theme') || 'light';
+document.documentElement.setAttribute('data-theme', savedTheme);
+
+function toggleTheme() {
+  const cur = document.documentElement.getAttribute('data-theme');
+  const next = cur === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('cy_theme', next);
+}
+document.getElementById('themeToggle').addEventListener('click', toggleTheme);
+document.getElementById('tweakTheme').addEventListener('click', toggleTheme);
+
+/* =========================================================
+   TERMINAL HERO
+   ========================================================= */
+const termScript = [
+  {t:'prompt', user:'cyrus', host:'xhs', path:'~', cmd:'whoami'},
+  {t:'out', text:'Cyrus — AI 炼金术士'},
+  {t:'prompt', user:'cyrus', host:'xhs', path:'~', cmd:'cat bio.txt'},
+  {t:'out', text:'hi，我是 Cyrus 宇。'},
+  {t:'out', text:'一个对 AI 好奇、热爱的朋友。'},
+  {t:'out', text:'欢迎一起学习，抓住 AI 时代红利。'},
+  {t:'prompt', user:'cyrus', host:'xhs', path:'~', cmd:'ls ./notes'},
+  {t:'out-html', text:'<span class="jn-term-dim">drwxr-xr-x</span>  <span class="jn-term-str">ai_news/</span>       <span class="jn-term-dim">1,284 条</span>'},
+  {t:'out-html', text:'<span class="jn-term-dim">drwxr-xr-x</span>  <span class="jn-term-str">ai_resources/</span>  <span class="jn-term-dim">47 条</span>'},
+  {t:'prompt', user:'cyrus', host:'xhs', path:'~', cmd:'./start.sh', last: true},
+  {t:'out-html', text:'<span class="jn-term-ok">✓</span> 先看资讯，再拿干货执行。'},
+];
+
+let termTimer = null;
+function startTerminal() {
+  const hosts = [document.getElementById('termOutput'), document.getElementById('termOutputB'), document.getElementById('termOutputC')].filter(Boolean);
+  if (termTimer) clearInterval(termTimer);
+  hosts.forEach(h => h.innerHTML = '');
+
+  let i = 0;
+  function step() {
+    if (i >= termScript.length) {
+      hosts.forEach(h => {
+        const lines = h.querySelectorAll('.jn-term-line');
+        if (lines.length) {
+          const last = lines[lines.length - 1];
+          if (!last.querySelector('.cursor')) last.insertAdjacentHTML('beforeend', '<span class="cursor"></span>');
+        }
+      });
+      return;
+    }
+    const ev = termScript[i++];
+    hosts.forEach(h => {
+      const line = document.createElement('span');
+      line.className = 'jn-term-line';
+      if (ev.t === 'prompt') {
+        line.innerHTML = `<span class="jn-term-user">${ev.user}@${ev.host}</span><span class="jn-term-dim">:${ev.path}</span><span class="jn-term-prompt">$</span> ${ev.cmd}`;
+      } else if (ev.t === 'out') {
+        line.innerHTML = `<span>${ev.text}</span>`;
+      } else if (ev.t === 'out-html') {
+        line.innerHTML = ev.text;
+      }
+      h.appendChild(line);
+      h.scrollTop = h.scrollHeight;
+    });
+    // pacing
+    const delay = ev.t === 'prompt' ? 700 : 420;
+    termTimer = setTimeout(step, delay);
+  }
+  step();
+}
+
+/* =========================================================
+   INIT
+   ========================================================= */
+// Tweaks panel listener
+window.addEventListener('message', (e) => {
+  if (!e.data) return;
+  if (e.data.type === '__activate_edit_mode') document.getElementById('tweaksPanel').classList.add('on');
+  if (e.data.type === '__deactivate_edit_mode') document.getElementById('tweaksPanel').classList.remove('on');
+});
+window.parent.postMessage({type: '__edit_mode_available'}, '*');
+
+applyVariant(currentVariant);
+</script>
+</body>
+</html>

@@ -15,7 +15,9 @@
 
 - `index.html`：双入口首页
 - `news.html`：AI资讯页面
+- `news-report-48h.html`：近 48 小时 AI资讯可视化报告
 - `news.js`：资讯渲染逻辑（支持情报源切换、云端查询、日报/周报视图）
+- `news-report-48h.js`：48 小时报告渲染逻辑
 - `functions/api/news.js`：AI资讯 API（拉取 GitHub `data/news.json`）
 - `functions/api/digest.js`：AI资讯日报/周报 API（拉取 GitHub `data/news_digest.json`）
 - `functions/api/live-news.js`：普通实时新闻 API（Google News RSS 聚合）
@@ -39,6 +41,7 @@
 - `data/news_sources.json`：抓取源配置
 - `data/translation_cache.json`：翻译缓存（自动生成）
 - `scripts/update_news.py`：抓取脚本
+- `scripts/build_news_48h_report.py`：48 小时报告 JSON 生成脚本
 - `scripts/build_x_watchlist.py`：X 账号发现+评分+watchlist/feed 生成脚本
 - `scripts/build_github_trending.py`：GitHub 项目抓取与双语归一化脚本
 - `scripts/build_yt_watchlist.py`：YouTube RSS 抓取与双语归一化脚本
@@ -86,10 +89,13 @@ python3 -m http.server 8080
 cd /path/to/project
 python3 -m pip install -r scripts/news_requirements.txt
 python3 scripts/update_news.py
+python3 scripts/build_news_48h_report.py
 python3 scripts/build_x_watchlist.py
 python3 scripts/build_github_trending.py
 python3 scripts/build_yt_watchlist.py
 ```
+
+完成后可直接打开：`http://localhost:8080/news-report-48h.html`
 
 ### D1 数据库存储（已接入）
 

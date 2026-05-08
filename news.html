@@ -38,7 +38,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Noto+Serif+SC:wght@400;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
     />
     <link rel="stylesheet" href="./styles.css" />
 
@@ -58,36 +58,54 @@
     </script>
   </head>
   <body>
-    <header class="site-header">
-      <div class="wrap header-inner">
-        <a class="brand" href="/">Cyrus的AI学习笔记</a>
-        <nav class="top-nav" aria-label="主导航">
-          <a href="/news.html" aria-current="page">AI资讯</a>
+    <!-- Ticker -->
+    <div class="mg-ticker" aria-hidden="true">
+      <div class="mg-ticker-track">
+        <span>AI NEWS · LIVE</span><span>✦</span><span>UPDATED</span><span>✦</span>
+        <span>AI NEWS · LIVE</span><span>✦</span><span>UPDATED</span><span>✦</span>
+      </div>
+    </div>
+
+    <!-- Masthead -->
+    <header class="mg-mast">
+      <div class="mg-mast-left">
+        <div class="mg-issue">NEWS DEPARTMENT</div>
+        <a href="/" class="mg-logo" style="font-size:clamp(28px,5vw,56px);text-decoration:none;">
+          <span>C</span><span>Y</span><span>R</span><span>U</span><span>S</span>
+        </a>
+      </div>
+      <div class="header-inner">
+        <nav class="mg-nav">
+          <a href="/">首页</a>
+          <a href="/news.html" class="on">AI资讯</a>
+          <a href="/news.html#digest">AI日报</a>
           <a href="/resources.html">AI干货</a>
-          <a href="/">返回首页</a>
         </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="切换明暗"></button>
       </div>
     </header>
 
-    <main class="wrap page-main">
-      <section class="hero">
-        <p class="eyebrow">AI资讯</p>
-        <h1 class="hero-title-news">
-          <span class="title-desktop">跨平台资讯 · 实时新闻 · X监控 · 小红书 · GitHub开源 · YouTube</span>
-          <span class="title-mobile">AI 资讯聚合 · 6 大平台实时追踪</span>
-        </h1>
+    <!-- Inner content -->
+    <div class="mg-inner">
+
+      <!-- Breadcrumb -->
+      <nav class="mg-crumb">
+        <a href="/">← CYRUS QUARTERLY</a>
+        <span>/ AI NEWS · 资讯</span>
+      </nav>
+
+      <!-- Page hero -->
+      <section class="mg-page-hero">
+        <div class="mg-tag-row"><span class="mg-tag live"><i></i>LIVE</span><span class="mg-tag">§ 01 · NEWS</span></div>
+        <h1 class="mg-page-title"><em>What's</em> happening<br>in <em>AI</em>, now.</h1>
+        <p class="mg-page-kicker">跨平台资讯 · 实时追踪 · 一句话可执行。<br>六个情报源：AI资讯 / 实时新闻 / X / 小红书 / GitHub / YouTube</p>
       </section>
 
+      <!-- Filter toolbar -->
       <section class="filter-toolbar" aria-label="资讯筛选">
         <label class="search-field" for="newsSearch">
           <span>搜索资讯</span>
-          <input
-            id="newsSearch"
-            type="search"
-            placeholder="例如：OpenAI、跨境电商、国家政策、@elonmusk..."
-            autocomplete="off"
-            maxlength="80"
-          />
+          <input id="newsSearch" type="search" placeholder="SEARCH · OpenAI / 跨境电商 / @elonmusk …" autocomplete="off" maxlength="80" />
         </label>
 
         <div class="meta-row">
@@ -144,22 +162,18 @@
             <span class="filter-title">情报源</span>
             <div id="newsSourceTags" class="chips" role="group" aria-label="情报源切换"></div>
           </div>
-
           <div class="filter-group">
             <span class="filter-title">平台</span>
             <div id="newsPlatformTags" class="chips" role="group" aria-label="平台筛选"></div>
           </div>
-
           <div class="filter-group">
             <span class="filter-title">产业链</span>
             <div id="newsStageTags" class="chips" role="group" aria-label="上下游筛选"></div>
           </div>
-
           <div class="filter-group">
             <span class="filter-title">内容标签</span>
             <div id="newsTopicTags" class="chips" role="group" aria-label="标签筛选"></div>
           </div>
-
           <div class="filter-group">
             <span class="filter-title">按日期筛选</span>
             <div class="date-filter-row">
@@ -170,6 +184,7 @@
         </div>
       </section>
 
+      <!-- Digest panel -->
       <section id="newsDigest" class="digest-panel" aria-label="日报与周报" hidden>
         <div class="digest-grid">
           <article class="digest-card">
@@ -185,11 +200,9 @@
                 <button type="button" class="chip" data-digest-view="brief">简报</button>
               </div>
             </div>
-
             <div id="digestTop10Meta" class="meta-line digest-meta"></div>
             <div id="digestTop10Body" class="digest-body" aria-live="polite"></div>
           </article>
-
           <article class="digest-card digest-card-weekly">
             <div class="digest-head">
               <div>
@@ -198,30 +211,27 @@
                 <p id="digestWeekRange" class="digest-label">--</p>
               </div>
             </div>
-
             <div id="digestWeekMeta" class="meta-line digest-meta"></div>
             <ul id="digestWeekBriefing" class="digest-brief-list"></ul>
-
             <h3 class="digest-subtitle">本周 Top 事件</h3>
             <ol id="digestWeekTopEvents" class="digest-event-list"></ol>
           </article>
         </div>
       </section>
 
+      <!-- Cards grid -->
+      <div class="mg-section-rule">§ DISPATCH FEED</div>
       <section id="newsCards" class="card-grid" aria-live="polite"></section>
-    </main>
 
-    <footer class="site-footer">
-      <div class="wrap footer-inner">
-        <p>© 2026 Cyrus的AI学习笔记</p>
-        <p id="visitStats" class="visit-stats" aria-live="polite">访问统计：加载中...</p>
-        <div class="footer-links">
-          <a href="/resources.html">AI干货</a>
-          <a href="/privacy.html">隐私政策</a>
-          <a href="/disclaimer.html">免责声明</a>
-          <a href="/">首页</a>
-        </div>
+    </div><!-- /.mg-inner -->
+
+    <!-- Footer -->
+    <footer class="mg-foot compact">
+      <div class="mg-foot-meta" style="justify-content:center;text-align:center;">
+        <span>© 2026 CYRUS QUARTERLY</span>
+        <span><a href="/resources.html">AI干货</a> · <a href="/privacy.html">隐私</a> · <a href="/disclaimer.html">免责</a> · <a href="/">首页</a></span>
       </div>
+      <p id="visitStats" class="visit-stats" aria-live="polite">访问统计：加载中...</p>
     </footer>
 
     <script src="./ui.js"></script>

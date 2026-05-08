@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>近48小时 AI资讯报告 | Cyrus的AI学习笔记</title>
+    <meta
+      name="description"
+      content="基于站内 AI资讯聚合数据生成的近48小时可视化报告，展示平台分布、标签分布、时间线与高分资讯。"
+    />
+    <meta name="theme-color" content="#f2f4f7" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/">Cyrus的AI学习笔记</a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/news.html">AI资讯</a>
+          <a href="/news-report-48h.html" aria-current="page">48小时报告</a>
+          <a href="/resources.html">AI干货</a>
+          <a href="/">返回首页</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap page-main report-page">
+      <section class="hero report-hero">
+        <p class="eyebrow">AI情报快照</p>
+        <h1 class="hero-title-news">近 48 小时 AI 资讯可视化报告</h1>
+        <p id="reportMetaSummary" class="report-hero-copy">正在读取本地聚合结果...</p>
+        <div class="report-hero-actions">
+          <a class="report-link-btn" href="/news.html">返回 AI资讯总览</a>
+        </div>
+      </section>
+
+      <section class="report-toolbar" aria-label="报告说明">
+        <div class="report-toolbar-card">
+          <span class="report-toolbar-label">报告窗口</span>
+          <strong id="reportWindowLabel">--</strong>
+        </div>
+        <div class="report-toolbar-card">
+          <span class="report-toolbar-label">生成时间</span>
+          <strong id="reportGeneratedAt">--</strong>
+        </div>
+        <div class="report-toolbar-card">
+          <span class="report-toolbar-label">时区</span>
+          <strong id="reportTimezone">--</strong>
+        </div>
+      </section>
+
+      <section id="reportKpis" class="report-kpi-grid" aria-label="报告关键指标"></section>
+
+      <section class="report-grid report-grid-primary">
+        <article class="report-panel">
+          <div class="report-panel-head">
+            <div>
+              <p class="digest-kicker">时间线</p>
+              <h2>48 小时发布节奏</h2>
+            </div>
+          </div>
+          <div id="reportTimeline" class="timeline-panel"></div>
+        </article>
+
+        <article class="report-panel">
+          <div class="report-panel-head">
+            <div>
+              <p class="digest-kicker">结构分布</p>
+              <h2>平台 / 产业链 / 标签</h2>
+            </div>
+          </div>
+          <div class="report-breakdown-stack">
+            <div>
+              <h3 class="report-subtitle">平台分布</h3>
+              <div id="reportPlatformBreakdown" class="report-breakdown-list"></div>
+            </div>
+            <div>
+              <h3 class="report-subtitle">产业链分布</h3>
+              <div id="reportStageBreakdown" class="report-breakdown-list"></div>
+            </div>
+            <div>
+              <h3 class="report-subtitle">热点标签</h3>
+              <div id="reportTagBreakdown" class="report-breakdown-list"></div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="report-grid">
+        <article class="report-panel">
+          <div class="report-panel-head">
+            <div>
+              <p class="digest-kicker">来源质量</p>
+              <h2>来源分布与平均 AI 分</h2>
+            </div>
+          </div>
+          <div id="reportSourceTable" class="report-source-table"></div>
+        </article>
+      </section>
+
+      <section class="report-grid">
+        <article class="report-panel">
+          <div class="report-panel-head">
+            <div>
+              <p class="digest-kicker">高优先级</p>
+              <h2>Top 资讯</h2>
+            </div>
+          </div>
+          <div id="reportTopItems" class="report-top-grid"></div>
+        </article>
+      </section>
+
+      <section class="report-grid">
+        <article class="report-panel">
+          <div class="report-panel-head">
+            <div>
+              <p class="digest-kicker">最新流入</p>
+              <h2>最近抓到的资讯</h2>
+            </div>
+          </div>
+          <div id="reportLatestItems" class="report-latest-list"></div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>© 2026 Cyrus的AI学习笔记</p>
+        <div class="footer-links">
+          <a href="/news.html">AI资讯</a>
+          <a href="/resources.html">AI干货</a>
+          <a href="/privacy.html">隐私政策</a>
+          <a href="/disclaimer.html">免责声明</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./news-report-48h.js" defer></script>
+  </body>
+</html>

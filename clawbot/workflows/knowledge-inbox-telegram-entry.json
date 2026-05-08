@@ -1,0 +1,227 @@
+{
+  "updatedAt": "2026-03-30T11:43:45.179Z",
+  "createdAt": "2026-03-22T11:23:57.376Z",
+  "id": "V3vHyYt8JdKp1sQn",
+  "name": "Knowledge Inbox - Telegram Entry",
+  "description": null,
+  "active": true,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "telegram-inbox",
+        "responseMode": "onReceived",
+        "additionalFields": {}
+      },
+      "id": "1c41d2e1-b063-4e4a-a4db-6aebad095bea",
+      "name": "Telegram Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        260,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const raw = $input.first().json;\nconst update = raw.body && typeof raw.body === 'object' ? raw.body : raw;\nconst message = update.message ?? update.edited_message ?? update.channel_post;\nif (!message) {\n  throw new Error('Telegram payload does not contain a message');\n}\n\nconst incomingText = String(message.text ?? message.caption ?? '').trim();\nconst urlMatch = incomingText.match(/https?:\\/\\/\\S+/i);\nconst url = urlMatch ? urlMatch[0] : '';\nconst note = url ? incomingText.replace(url, '').trim() : '';\nconst from = message.from ?? {};\nconst author = from.username\n  ? `@${from.username}`\n  : [from.first_name, from.last_name].filter(Boolean).join(' ').trim();\n\nreturn [{\n  json: {\n    chatId: message.chat?.id ?? null,\n    replyToMessageId: message.message_id ?? null,\n    incomingText,\n    url,\n    note,\n    author,\n    source: 'telegram',\n    hasUrl: Boolean(url),\n  },\n}];"
+      },
+      "id": "1a8ae4ac-1b96-4ad8-8635-e4601c0ac14c",
+      "name": "Normalize Telegram Message",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        520,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "734bc2b2-c22f-4f6f-bf77-caf7d0835a3d",
+              "leftValue": "={{ $json.url }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "c66f8c84-51a1-4f53-b94a-693e8e0d9e0d",
+      "name": "Has URL?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        780,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.KNOWLEDGE_CORE_WEBHOOK_URL || 'http://localhost:5678/webhook/knowledge-inbox' }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ url: $json.url, note: $json.note || '', author: $json.author || '', source: 'telegram', chatId: $json.chatId, replyToMessageId: $json.replyToMessageId }) }}",
+        "options": {}
+      },
+      "id": "ab1c84c2-2014-4123-b6c5-9d7853d31c6d",
+      "name": "Send to Core Workflow",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1040,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $json.chatId }}",
+        "text": "={{ '✅ 已保存到知识库\\n标题: ' + ($json.title || 'Untitled') + '\\n分类: ' + ($json.category || '未分类') + '\\n标签: ' + ((Array.isArray($json.tags) ? $json.tags.join(', ') : '') || '无') + '\\n文件: ' + ($json.noteFileName || $json.fileName || 'unknown') }}",
+        "additionalFields": {
+          "reply_to_message_id": "={{ $json.replyToMessageId }}"
+        }
+      },
+      "id": "0f91979d-8169-41b8-b4d3-0bf1d93ae1fb",
+      "name": "Reply Success",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1300,
+        200
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "bTiOI4JXkcAiXViE",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $json.chatId }}",
+        "text": "请直接发送一个网页链接，可附带一段备注。",
+        "additionalFields": {
+          "reply_to_message_id": "={{ $json.replyToMessageId }}"
+        }
+      },
+      "id": "6db1f8b7-23ba-47eb-8e71-03f02b475c6f",
+      "name": "Reply Missing URL",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1040,
+        420
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "bTiOI4JXkcAiXViE",
+          "name": "Telegram account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Telegram Webhook": {
+      "main": [
+        [
+          {
+            "node": "Normalize Telegram Message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalize Telegram Message": {
+      "main": [
+        [
+          {
+            "node": "Has URL?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Has URL?": {
+      "main": [
+        [
+          {
+            "node": "Send to Core Workflow",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Reply Missing URL",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send to Core Workflow": {
+      "main": [
+        [
+          {
+            "node": "Reply Success",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "pinData": {},
+  "versionId": "b28c4c72-6209-4177-a048-132ed957ddc0",
+  "activeVersionId": "b28c4c72-6209-4177-a048-132ed957ddc0",
+  "versionCounter": 10,
+  "triggerCount": 1,
+  "tags": [],
+  "shared": [
+    {
+      "updatedAt": "2026-03-22T11:23:57.384Z",
+      "createdAt": "2026-03-22T11:23:57.384Z",
+      "role": "workflow:owner",
+      "workflowId": "V3vHyYt8JdKp1sQn",
+      "projectId": "3HdaxDgBSoRMwFLQ",
+      "project": {
+        "updatedAt": "2026-03-21T10:20:21.518Z",
+        "createdAt": "2026-03-21T10:19:11.975Z",
+        "id": "3HdaxDgBSoRMwFLQ",
+        "name": "cyrus tyj <cyrusttyj@gmail.com>",
+        "type": "personal",
+        "icon": null,
+        "description": null,
+        "creatorId": "f99cdbfe-3ab1-4cab-be36-b92dad5dcd4d"
+      }
+    }
+  ],
+  "versionMetadata": {
+    "name": null,
+    "description": null
+  }
+}

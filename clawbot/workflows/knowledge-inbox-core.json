@@ -1,0 +1,201 @@
+[
+  {
+    "updatedAt": "2026-03-30T12:33:04.062Z",
+    "createdAt": "2026-03-21T11:24:19.066Z",
+    "id": "2qk74mQ8bW0bTQIH",
+    "name": "Knowledge Inbox - Core",
+    "description": null,
+    "active": true,
+    "isArchived": false,
+    "nodes": [
+      {
+        "parameters": {
+          "httpMethod": "POST",
+          "path": "knowledge-inbox",
+          "responseMode": "onReceived",
+          "options": {}
+        },
+        "id": "f0952044-3b3d-485e-b0d7-d0ae9477b6d3",
+        "name": "Webhook",
+        "type": "n8n-nodes-base.webhook",
+        "typeVersion": 2,
+        "position": [
+          260,
+          300
+        ],
+        "webhookId": "53dbddf3-a699-47eb-a2bf-d5d923e0d1c1"
+      },
+      {
+        "parameters": {
+          "jsCode": "const raw = $input.first().json;\nconst payload = raw.body && typeof raw.body === 'object' ? raw.body : raw;\nconst query = raw.query && typeof raw.query === 'object' ? raw.query : {};\n\nconst rawUrlInput = String(payload.url ?? query.url ?? '').trim();\nconst urlMatch = rawUrlInput.match(/https?:\\/\\/[^\\s\"'<>]+/i);\nconst rawUrl = (urlMatch ? urlMatch[0] : rawUrlInput)\n  .replace(/[)\\],，。！？；]+$/u, '')\n  .trim();\n\nconst note = String(payload.note ?? query.note ?? '').trim();\nconst author = String(payload.author ?? payload.username ?? '').trim();\nconst source = String(payload.source ?? 'wechat').trim();\nconst chatId = payload.chatId ?? null;\nconst replyToMessageId = payload.replyToMessageId ?? null;\n\nif (!rawUrl) {\n  throw new Error('Missing url in webhook body or query string');\n}\n\nasync function resolveShareUrl(inputUrl) {\n  return {\n    resolvedUrl: inputUrl,\n    resolveError: null,\n  };\n}\n\nasync function main() {\n  const { resolvedUrl, resolveError } = await resolveShareUrl(rawUrl);\n\n  return [\n    {\n      json: {\n        url: resolvedUrl,\n        originalUrl: rawUrl,\n        resolvedUrl,\n        resolveError,\n        note,\n        author,\n        source,\n        chatId,\n        replyToMessageId,\n        receivedAt: new Date().toISOString(),\n      },\n    },\n  ];\n}\n\nreturn main();\n"
+        },
+        "id": "8e9ea583-50d6-49dd-8722-386c59ed6058",
+        "name": "Normalize Input",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          520,
+          300
+        ]
+      },
+      {
+        "parameters": {
+          "jsCode": "const meta = $('Normalize Input').first().json;\nconst requestUrl = String(meta.resolvedUrl || meta.url || '').trim();\n\nif (!requestUrl) {\n  throw new Error('Missing URL after Normalize Input');\n}\n\nfunction cleanText(value) {\n  return String(value ?? '')\n    .replace(/\u0000/g, ' ')\n    .replace(/\\r/g, '')\n    .replace(/\\t/g, ' ')\n    .replace(/ /g, ' ')\n    .replace(/[ \\f\\v]+/g, ' ')\n    .replace(/\\n{3,}/g, '\\n\\n')\n    .trim();\n}\n\nfunction decodeHtmlEntities(value) {\n  return String(value ?? '')\n    .replace(/&nbsp;/g, ' ')\n    .replace(/&amp;/g, '&')\n    .replace(/&quot;/g, '\"')\n    .replace(/&#0*39;/g, \"'\")\n    .replace(/&#x0*27;/g, \"'\")\n    .replace(/&apos;/g, \"'\")\n    .replace(/&lt;/g, '<')\n    .replace(/&gt;/g, '>')\n    .replace(/&#(\\d+);/g, (_, n) => String.fromCharCode(Number(n)))\n    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16)));\n}\n\nfunction removeBoilerplate(html) {\n  return html\n    .replace(/<header[\\s\\S]*?<\\/header>/gi, ' ')\n    .replace(/<footer[\\s\\S]*?<\\/footer>/gi, ' ')\n    .replace(/<nav[\\s\\S]*?<\\/nav>/gi, ' ')\n    .replace(/<aside[\\s\\S]*?<\\/aside>/gi, ' ')\n    .replace(/<script[\\s\\S]*?<\\/script>/gi, ' ')\n    .replace(/<style[\\s\\S]*?<\\/style>/gi, ' ')\n    .replace(/<noscript[\\s\\S]*?<\\/noscript>/gi, ' ')\n    .replace(/<iframe[\\s\\S]*?<\\/iframe>/gi, ' ')\n    .replace(/<svg[\\s\\S]*?<\\/svg>/gi, ' ')\n    .replace(/<!--[\\s\\S]*?-->/g, ' ');\n}\n\nfunction extractImages(html, baseUrl) {\n  const images = [];\n  const seen = new Set();\n  const regex = /<img[^>]+src\\s*=\\s*[\"']([^\"']+)[\"'][^>]*>/gi;\n  let match;\n  while ((match = regex.exec(html)) !== null) {\n    let src = match[0];\n    let url = match[1];\n    if (!url || url.startsWith('data:') || url.length < 10) continue;\n\n    const alt = (src.match(/alt\\s*=\\s*[\"']([^\"']*?)[\"']/i) || [])[1] || '';\n\n    if (url.startsWith('//')) url = 'https:' + url;\n    else if (url.startsWith('/') && baseUrl) {\n      const origin = baseUrl.match(/^https?:\\/\\/[^/?#]+/i);\n      if (origin) url = origin[0] + url;\n    }\n\n    const ext = (url.match(/\\.(jpe?g|png|gif|webp|avif|svg)/i) || [])[1] || '';\n    const wVal = Number((src.match(/width\\s*[:=]\\s*[\"']?(\\d+)/i) || [])[1]) || 0;\n    const hVal = Number((src.match(/height\\s*[:=]\\s*[\"']?(\\d+)/i) || [])[1]) || 0;\n    const isTiny = (wVal > 0 && wVal < 80) || (hVal > 0 && hVal < 80);\n    const isIcon = /icon|logo|avatar|badge|emoji|spacer|pixel|track/i.test(url);\n    if (isTiny || isIcon) continue;\n\n    const key = url.replace(/[?#].*$/, '');\n    if (seen.has(key)) continue;\n    seen.add(key);\n\n    images.push({ url, alt: decodeHtmlEntities(alt), ext: ext || 'jpg' });\n  }\n  return images;\n}\n\nfunction stripHtml(value) {\n  return cleanText(\n    decodeHtmlEntities(\n      removeBoilerplate(String(value ?? ''))\n    ).replace(/<[^>]+>/g, ' ')\n  );\n}\n\nfunction extractArticleBody(html) {\n  const candidates = [\n    /<article[\\s\\S]*?<\\/article>/i,\n    /<main[\\s\\S]*?<\\/main>/i,\n    /<div[^>]+class\\s*=\\s*[\"'][^\"']*(?:article|post|entry|content|body)[\\s\\S]*?<\\/div>/i,\n  ];\n  for (const re of candidates) {\n    const m = html.match(re);\n    if (m && m[0].length > 500) return m[0];\n  }\n  return null;\n}\n\nfunction buildGenericArticle(html) {\n  const title =\n    cleanText(decodeHtmlEntities(\n      html.match(/<meta[^>]+(?:property|name)=\"og:title\"[^>]+content=\"([^\"]+)\"/i)?.[1] ||\n      html.match(/<title[^>]*>([\\s\\S]*?)<\\/title>/i)?.[1] || ''\n    )) || 'Untitled';\n\n  const description = cleanText(decodeHtmlEntities(\n    html.match(/<meta[^>]+(?:property=\"og:description\"|name=\"description\")[^>]+content=\"([^\"]+)\"/i)?.[1] || ''\n  ));\n\n  const articleHtml = extractArticleBody(html) || html;\n  let images = extractImages(html, requestUrl);\n  if (images.length === 0) {\n    const ogImg = html.match(/<meta[^>]+(?:property|name)=\"og:image\"[^>]+content=\"([^\"]+)\"/i)?.[1];\n    if (ogImg) images.push({ url: ogImg.startsWith('//') ? 'https:' + ogImg : ogImg, alt: title, ext: 'jpg' });\n  }\n  const bodyText = stripHtml(articleHtml);\n\n  const parts = [title];\n  if (description) parts.push('', description);\n  if (bodyText) parts.push('', bodyText);\n\n  return {\n    title,\n    text: cleanText(parts.join('\\n')),\n    author: cleanText(decodeHtmlEntities(\n      html.match(/<meta[^>]+(?:name=\"author\"|property=\"article:author\")[^>]+content=\"([^\"]+)\"/i)?.[1] || ''\n    )) || cleanText(meta.author),\n    images,\n  };\n}\n\nfunction extractBalancedObject(source, marker) {\n  const markerIndex = source.indexOf(marker);\n  if (markerIndex === -1) return null;\n  let start = source.indexOf('{', markerIndex + marker.length);\n  if (start === -1) return null;\n  let depth = 0;\n  let inString = false;\n  let quote = '';\n  let escaping = false;\n  for (let index = start; index < source.length; index += 1) {\n    const ch = source[index];\n    if (inString) {\n      if (escaping) { escaping = false; continue; }\n      if (ch === '\\\\') { escaping = true; continue; }\n      if (ch === quote) { inString = false; quote = ''; }\n      continue;\n    }\n    if (ch === '\"' || ch === \"'\") { inString = true; quote = ch; continue; }\n    if (ch === '{') { depth += 1; continue; }\n    if (ch === '}') { depth -= 1; if (depth === 0) return source.slice(start, index + 1); }\n  }\n  return null;\n}\n\nfunction getXhsNote(state) {\n  const noteMap = state?.note?.noteDetailMap ?? state?.noteDetailMap ?? state?.note?.detailMap ?? null;\n  if (!noteMap || typeof noteMap !== 'object') return null;\n  const firstEntry = Object.values(noteMap)[0];\n  return firstEntry?.note ?? firstEntry ?? null;\n}\n\nfunction buildXhsArticle(html) {\n  const stateSource =\n    extractBalancedObject(html, 'window.__INITIAL_STATE__=') ||\n    extractBalancedObject(html, 'window.__INITIAL_STATE__ =');\n\n  let note = null;\n  if (stateSource) {\n    try {\n      const cleaned = stateSource.replace(/\\bundefined\\b/g, 'null');\n      note = getXhsNote(JSON.parse(cleaned));\n    } catch {}\n  }\n\n  const title =\n    cleanText(note?.title) ||\n    cleanText(decodeHtmlEntities(\n      html.match(/<meta[^>]+(?:property|name)=\"og:title\"[^>]+content=\"([^\"]+)\"/i)?.[1] || ''\n    )) || 'Untitled';\n\n  const description =\n    cleanText(note?.desc) ||\n    cleanText(decodeHtmlEntities(\n      html.match(/<meta[^>]+name=\"description\"[^>]+content=\"([^\"]+)\"/i)?.[1] || ''\n    )) || '';\n\n  const author =\n    cleanText(note?.user?.nickname) ||\n    cleanText(decodeHtmlEntities(\n      html.match(/<meta[^>]+name=\"author\"[^>]+content=\"([^\"]+)\"/i)?.[1] || ''\n    )) || cleanText(meta.author);\n\n  const tags = Array.isArray(note?.tagList)\n    ? note.tagList.map((item) => cleanText(item?.name)).filter(Boolean)\n    : [];\n\n  const images = [];\n  if (Array.isArray(note?.imageList)) {\n    for (const img of note.imageList) {\n      const url = img?.urlDefault || img?.url || '';\n      if (url) images.push({ url: url.startsWith('//') ? 'https:' + url : url, alt: title, ext: 'jpg' });\n    }\n  }\n  if (images.length === 0) {\n    const ogImg = html.match(/<meta[^>]+(?:property|name)=\"og:image\"[^>]+content=\"([^\"]+)\"/i)?.[1];\n    if (ogImg) images.push({ url: ogImg.startsWith('//') ? 'https:' + ogImg : ogImg, alt: title, ext: 'jpg' });\n  }\n\n  if (title === 'Untitled') {\n    const bodyText = stripHtml(html);\n    const lines = bodyText.split('\\n').map(l => l.trim()).filter(l =>\n      l.length > 10 && !l.startsWith('http') && !/^untitled$/i.test(l) && !/^小红书/i.test(l)\n    );\n    if (lines.length > 0) title = lines[0].replace(/^【[^】]*】/, '').slice(0, 80) || lines[0].slice(0, 80);\n  }\n\n  const parts = [title];\n  if (description) parts.push('', description);\n  if (tags.length) parts.push('', '话题: ' + tags.map((tag) => '#' + tag).join(' '));\n  if (author) parts.push('', '作者: ' + author);\n\n  return {\n    title,\n    text: cleanText(parts.join('\\n')),\n    author: author || meta.author || '',\n    images,\n  };\n}\n\nasync function fetchText(url) {\n  const response = await helpers.httpRequest({\n    method: 'GET',\n    url,\n    headers: {\n      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36',\n      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',\n      'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',\n    },\n    followRedirect: true,\n    resolveWithFullResponse: true,\n    simple: false,\n    json: false,\n  });\n\n  const body =\n    typeof response?.body === 'string' ? response.body\n    : typeof response?.data === 'string' ? response.data\n    : String(response ?? '');\n\n  const finalUrl =\n    response?.request?.uri?.href || response?.request?.href || response?.headers?.location || url;\n\n  return { statusCode: Number(response?.statusCode || 200), body, finalUrl };\n}\n\nasync function fetchViaJina(url) {\n  const jinaUrl = 'https://r.jina.ai/' + url;\n  const response = await helpers.httpRequest({\n    method: 'GET',\n    url: jinaUrl,\n    headers: {\n      accept: 'text/markdown',\n      'x-return-format': 'markdown',\n      'x-with-images': 'true',\n    },\n    resolveWithFullResponse: true,\n    simple: false,\n    json: false,\n    timeout: 30000,\n  });\n\n  const body =\n    typeof response?.body === 'string' ? response.body\n    : typeof response?.data === 'string' ? response.data\n    : String(response ?? '');\n\n  const status = Number(response?.statusCode || 0);\n  if (status >= 400 || !body || body.length < 100) return null;\n  return body;\n}\n\nfunction parseJinaMarkdown(md, originalUrl) {\n  const lines = md.split('\\n');\n  let title = 'Untitled';\n  for (const line of lines) {\n    const m = line.match(/^#{1,2}\\s+(.+)/);\n    if (m && m[1].trim()) { title = cleanText(m[1]); break; }\n  }\n  if (title === 'Untitled') {\n    const firstLine = lines.find(l => l.trim().length > 5 && !l.startsWith('![') && !l.startsWith('http'));\n    if (firstLine) title = cleanText(firstLine).slice(0, 120);\n  }\n\n  const images = [];\n  const imgRegex = /!\\[([^\\]]*)\\]\\(([^)]+)\\)/g;\n  let imgMatch;\n  while ((imgMatch = imgRegex.exec(md)) !== null) {\n    const imgUrl = imgMatch[2];\n    if (imgUrl.startsWith('data:') || imgUrl.length < 10) continue;\n    if (/icon|logo|avatar|badge|spacer|pixel/i.test(imgUrl)) continue;\n    images.push({ url: imgUrl, alt: imgMatch[1] || '' });\n  }\n\n  const text = cleanText(md\n    .replace(/!\\[[^\\]]*\\]\\([^)]+\\)/g, '')\n    .replace(/\\[([^\\]]+)\\]\\([^)]+\\)/g, '$1')\n  );\n\n  return { title, text, images };\n}\n\nfunction getHostname(url) {\n  const match = String(url).match(/^https?:\\/\\/([^/?#]+)/i);\n  return match ? match[1].toLowerCase() : '';\n}\n\nasync function main() {\n  const hostname = getHostname(requestUrl);\n  if (!hostname) throw new Error('Invalid URL: ' + requestUrl);\n\n  let article = null;\n  let finalUrl = requestUrl;\n\n  const jinaMd = await fetchViaJina(requestUrl);\n  if (jinaMd) {\n    const parsed = parseJinaMarkdown(jinaMd, requestUrl);\n    const textLen = cleanText(parsed.text).length;\n    const isGenericPage = /登录|你的生活|请使用|验证码|sign.?in/i.test(parsed.title);\n    if (textLen > 500 && !isGenericPage) {\n      article = {\n        title: parsed.title,\n        text: parsed.text,\n        author: meta.author || '',\n        images: parsed.images,\n      };\n    }\n  }\n\n  if (!article) {\n    const htmlResult = await fetchText(requestUrl);\n    finalUrl = htmlResult.finalUrl || requestUrl;\n    const isXiaohongshu =\n      hostname === 'xhslink.com' || hostname === 'www.xhslink.com' || hostname.endsWith('xiaohongshu.com');\n    if (isXiaohongshu) {\n      article = buildXhsArticle(htmlResult.body);\n    } else {\n      article = buildGenericArticle(htmlResult.body);\n    }\n  }\n\n  if (!cleanText(article.text)) throw new Error('Extractor returned empty content');\n\n  return [{\n    json: {\n      ...meta,\n      url: finalUrl,\n      resolvedUrl: finalUrl,\n      titleOverride: article.title === 'Untitled' ? '' : article.title,\n      author: article.author || meta.author || '',\n      data: cleanText(article.text).slice(0, 20000),\n      images: (article.images || []).slice(0, 20).map((img) => ({ url: img.url, alt: img.alt || '' })),\n    },\n  }];\n}\n\nreturn main();\n"
+        },
+        "id": "db6ac2b8-df28-485c-8814-c87fcb9e14a5",
+        "name": "Fetch Content",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          780,
+          300
+        ]
+      },
+      {
+        "parameters": {
+          "jsCode": "const meta = $input.first().json;\nconst rawText = String(meta.data ?? '').trim();\nif (!rawText) {\n  throw new Error('Extractor returned empty content');\n}\n\nlet title = String(meta.titleOverride || '').trim();\nif (!title) {\n  const lines = rawText.split(/\\r?\\n/).map((line) => line.trim()).filter(Boolean);\n  for (const line of lines) {\n    const cleaned = line.replace(/^#+\\s*/, '').trim();\n    if (cleaned && !/^untitled$/i.test(cleaned) && cleaned.length > 5) {\n      title = cleaned.slice(0, 120);\n      break;\n    }\n  }\n}\nif (!title) title = 'Untitled';\n\nconst articleText = rawText.slice(0, 15000);\nconst prompt = [\n  '你是知识整理助手。请只输出严格 JSON，不要 Markdown，不要额外解释。',\n  'JSON 必须包含 summary, tags, category 三个字段。',\n  'summary: 一句话中文摘要。',\n  'tags: 5-10 个标签，数组格式，兼顾主题/技术/领域。',\n  'category: 只能是以下之一：AI技术、AI商业、运营方法、产品思维、技术实操、职业发展、生活洞察。',\n  '',\n  `source=${meta.source}`,\n  `url=${meta.url}`,\n  `title=${title}`,\n  `note=${meta.note || ''}`,\n  'text=',\n  articleText,\n].join('\\n');\n\nreturn [{\n  json: {\n    ...meta,\n    title,\n    articleText,\n    prompt,\n  }\n}];"
+        },
+        "id": "3aee1ed4-e257-465c-8ce4-92a5bb3b7f8f",
+        "name": "Prepare Prompt",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          1040,
+          300
+        ]
+      },
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "={{ ($env.KNOWLEDGE_OLLAMA_URL || 'http://host.docker.internal:11434').replace(/\\/$/, '') + '/api/chat' }}",
+          "sendBody": true,
+          "specifyBody": "json",
+          "jsonBody": "={{ JSON.stringify({ model: $env.KNOWLEDGE_OLLAMA_MODEL || 'qwen3:8b', stream: false, think: false, messages: [ { role: 'system', content: '你是知识整理助手，只输出 JSON。' }, { role: 'user', content: $json.prompt } ] }) }}",
+          "options": {}
+        },
+        "id": "720683f9-6436-49c6-b84d-9d7b50936ded",
+        "name": "Summarize with Ollama",
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1300,
+          300
+        ]
+      },
+      {
+        "parameters": {
+          "jsCode": "const meta = $('Prepare Prompt').first().json;\nconst llm = $input.first().json;\nconst rawOutput = String(llm.message?.content ?? llm.choices?.[0]?.message?.content ?? '').trim();\n\nlet parsed;\ntry {\n  let candidate = rawOutput;\n  if (candidate.startsWith('```')) {\n    candidate = candidate.replace(/^```(?:json)?/i, '').replace(/```$/i, '').trim();\n  }\n  if (!candidate.startsWith('{')) {\n    const match = candidate.match(/\\{[\\s\\S]*\\}/);\n    if (match) candidate = match[0];\n  }\n  parsed = JSON.parse(candidate);\n} catch {\n  parsed = {\n    summary: meta.articleText.slice(0, 100),\n    tags: ['知识管理', '内容沉淀', '自动化工作流'],\n    category: '未分类',\n  };\n}\n\nconst summary = String(parsed.summary || meta.articleText.slice(0, 100)).trim();\nconst categoryOptions = new Set(['AI技术', 'AI商业', '运营方法', '产品思维', '技术实操', '职业发展', '生活洞察']);\nconst category = categoryOptions.has(parsed.category) ? parsed.category : '未分类';\nconst rawTags = Array.isArray(parsed.tags) ? parsed.tags : [parsed.tags].filter(Boolean);\nconst tags = [];\nfor (const tag of rawTags.map((value) => String(value).trim()).filter(Boolean)) {\n  if (!tags.includes(tag)) tags.push(tag);\n}\nfor (const fallback of [category, '知识管理', '内容沉淀', '自动化工作流']) {\n  if (fallback && !tags.includes(fallback)) tags.push(fallback);\n}\nconst finalTags = tags.slice(0, 10);\n\nconst safeTitle = String(meta.title || 'note')\n  .replace(/[<>:\"/\\\\|?*\\n\\r\\t]/g, ' ')\n  .replace(/\\s+/g, ' ')\n  .trim()\n  .slice(0, 160) || 'note';\nconst timestamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\\..+/, '').replace('T', '-');\nconst noteFileName = `${safeTitle}-${timestamp}.md`;\n\nconst images = Array.isArray(meta.images) ? meta.images : [];\n\nconst frontmatter = [\n  '---',\n  `title: \"${String(meta.title || '').replace(/\"/g, '\\\\\"')}\"`,\n  `date: ${new Date().toISOString()}`,\n  'type: article',\n  `category: ${category}`,\n  'tags:',\n  ...finalTags.map((tag) => `  - ${tag}`),\n  `source: \"${String(meta.url).replace(/\"/g, '\\\\\"')}\"`,\n  `author: \"${String(meta.author || '').replace(/\"/g, '\\\\\"')}\"`,\n  'status: inbox',\n  '---',\n].join('\\n');\n\nconst noteSection = meta.note ? `\\n## 我的备注\\n\\n${meta.note}\\n` : '';\n\nlet imageSection = '';\nif (images.length > 0) {\n  const lines = images.map((img) => `![${(img.alt || '').slice(0, 80)}](${img.url})`);\n  imageSection = `\\n## 图片\\n\\n${lines.join('\\n\\n')}\\n`;\n}\n\nconst markdown = `${frontmatter}\\n\\n> **摘要**: ${summary}\\n${noteSection}${imageSection}\\n## 原文内容\\n\\n${meta.articleText}\\n\\n---\\n\\n🔗 [原文链接](${meta.url})\\n`;\n\nreturn [{\n  json: {\n    title: meta.title,\n    category,\n    tags: finalTags,\n    summary,\n    sourceUrl: meta.url,\n    noteFileName,\n    author: meta.author || '',\n    source: meta.source || 'telegram',\n    chatId: meta.chatId ?? null,\n    replyToMessageId: meta.replyToMessageId ?? null,\n  },\n  binary: {\n    data: {\n      data: Buffer.from(markdown, 'utf8').toString('base64'),\n      mimeType: 'text/markdown',\n      fileName: noteFileName,\n    },\n  },\n}];\n"
+        },
+        "id": "b4ed87f8-2a15-4496-bebc-cce29c03f1bd",
+        "name": "Build Markdown File",
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          1560,
+          300
+        ]
+      },
+      {
+        "parameters": {
+          "operation": "write",
+          "fileName": "={{ (($env.KNOWLEDGE_INBOX_DIR || '/files/inbox').replace(/\\/$/, '')) + '/' + $binary.data.fileName }}",
+          "dataPropertyName": "data",
+          "options": {}
+        },
+        "id": "ddf44f3e-8d0f-4a23-aef1-e65542da2304",
+        "name": "Write to Inbox",
+        "type": "n8n-nodes-base.readWriteFile",
+        "typeVersion": 1,
+        "position": [
+          1820,
+          300
+        ]
+      }
+    ],
+    "connections": {
+      "Webhook": {
+        "main": [
+          [
+            {
+              "node": "Normalize Input",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Normalize Input": {
+        "main": [
+          [
+            {
+              "node": "Fetch Content",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Prepare Prompt": {
+        "main": [
+          [
+            {
+              "node": "Summarize with Ollama",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Summarize with Ollama": {
+        "main": [
+          [
+            {
+              "node": "Build Markdown File",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Build Markdown File": {
+        "main": [
+          [
+            {
+              "node": "Write to Inbox",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Fetch Content": {
+        "main": [
+          [
+            {
+              "node": "Prepare Prompt",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      }
+    },
+    "settings": {
+      "executionOrder": "v1"
+    },
+    "staticData": null,
+    "meta": {
+      "templateCredsSetupCompleted": true,
+      "responseMode": "lastNode",
+      "options": {}
+    },
+    "pinData": {},
+    "versionId": "99fd066d-48cf-41d8-9436-f979c3b73b7c",
+    "activeVersionId": "99fd066d-48cf-41d8-9436-f979c3b73b7c",
+    "versionCounter": 33,
+    "triggerCount": 1,
+    "tags": [],
+    "shared": [],
+    "versionMetadata": null
+  }
+]

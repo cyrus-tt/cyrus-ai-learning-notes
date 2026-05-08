@@ -97,6 +97,7 @@ fi
 mkdir -p "$PROJECT_DIR/logs"
 
 "$PYTHON_BIN" "$PROJECT_DIR/scripts/update_news.py"
+"$PYTHON_BIN" "$PROJECT_DIR/scripts/build_news_48h_report.py"
 
 if [ -z "${TWITTER_TOKEN:-}" ] || [ "${TWITTER_TOKEN:-}" = "replace_me" ]; then
   export TWITTER_TOKEN="$(load_secret CYRUS_TWITTER_TOKEN)"
