@@ -93,6 +93,13 @@
         <div id="search"></div>
       </section>
 
+      <!-- TIL -->
+      <section class="content">
+        <div class="section-label">TIL · Today I Learned</div>
+        <div id="til-latest"></div>
+        <a href="/til/" class="section-more">查看全部 →</a>
+      </section>
+
       <!-- Latest Field Notes -->
       <section class="content">
         <div class="section-label">Latest</div>
@@ -118,11 +125,18 @@
         </ul>
       </section>
 
+      <!-- Cyrus Weekly -->
+      <section class="content">
+        <div class="section-label">Cyrus Weekly</div>
+        <div id="weekly-latest"></div>
+        <a href="/weekly/" class="section-more">查看全部 →</a>
+      </section>
+
       <!-- AI News promo -->
       <section class="content">
         <div class="section-label">AI 资讯</div>
         <p style="color:var(--muted);font-size:15px;margin:0 0 12px;">每日聚合全球 AI 动态，附一句可执行结论。</p>
-        <a href="/news.html" style="font-size:14px;color:var(--accent);text-decoration:none;">进入资讯 →</a>
+        <a href="/news.html" class="section-more">进入资讯 →</a>
       </section>
 
       <!-- Subscribe -->
@@ -146,6 +160,7 @@
     <script src="./ui.js"></script>
     <script src="./visit-stats.js"></script>
     <script src="./js/components/subscribe.js"></script>
+    <script src="./js/components/home-feed.js"></script>
     <script src="/pagefind/pagefind-ui.js"></script>
     <script>
       window.addEventListener('DOMContentLoaded', function() {

@@ -236,6 +236,10 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.06em;
 }
 
+/* ─── Section More Link ─── */
+.section-more { display: inline-block; font-size: 14px; color: var(--accent); text-decoration: none; margin-top: 8px; }
+.section-more:hover { text-decoration: underline; }
+
 /* ─── 7. News Promo (.news-promo) ────────────────────────────── */
 
 .news-promo {
