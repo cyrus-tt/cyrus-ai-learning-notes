@@ -1,0 +1,941 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cloudflare Pages 零成本建站完全指南 | 实验室 · Cyrus的AI学习笔记</title>
+    <meta
+      name="description"
+      content="从零开始用 Cloudflare Pages 搭建永久免费的个人网站：自定义域名、Serverless API、D1 数据库、GitHub Actions 自动部署，全部 $0。这是一篇来自实践的完整教程。"
+    />
+    <meta
+      name="keywords"
+      content="Cloudflare Pages,免费建站,零成本,个人网站,Serverless,D1数据库,Pages Functions,GitHub Actions,自动部署"
+    />
+    <meta name="theme-color" content="#f2f4f7" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://cyrustyj.xyz/field-notes/cloudflare-pages-guide/" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+    <meta property="og:title" content="Cloudflare Pages 零成本建站完全指南 | 实验室" />
+    <meta
+      property="og:description"
+      content="从零开始用 Cloudflare Pages 搭建永久免费的个人网站：自定义域名、Serverless API、D1 数据库、GitHub Actions 自动部署。"
+    />
+    <meta property="og:url" content="https://cyrustyj.xyz/field-notes/cloudflare-pages-guide/" />
+    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.svg" />
+    <meta property="article:published_time" content="2026-05-08T00:00:00+08:00" />
+    <meta property="article:author" content="Cyrus" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cloudflare Pages 零成本建站完全指南" />
+    <meta name="twitter:description" content="从零搭建永久免费的个人网站：域名、API、数据库、自动部署，全部 $0。" />
+    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- Structured Data: HowTo -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Cloudflare Pages 零成本建站完全指南",
+        "description": "从零开始用 Cloudflare Pages 搭建永久免费的个人网站，包含自定义域名、Serverless API、D1 数据库和自动部署",
+        "step": [
+          {"@type": "HowToStep", "name": "准备 GitHub 仓库", "text": "创建一个 GitHub 仓库，推送基本的 index.html 文件，无需构建步骤"},
+          {"@type": "HowToStep", "name": "连接 Cloudflare Pages", "text": "在 Cloudflare 创建项目并连接 GitHub 仓库，首次部署约 30 秒完成"},
+          {"@type": "HowToStep", "name": "绑定自定义域名", "text": "在 Pages 设置中添加自定义域名，DNS 自动配置，SSL 自动签发"},
+          {"@type": "HowToStep", "name": "添加 Pages Functions", "text": "在 functions/ 目录下创建 JS 文件实现 Serverless API，文件路径即路由"},
+          {"@type": "HowToStep", "name": "接入 D1 数据库", "text": "创建 D1 数据库并绑定到 Pages 项目，在 Functions 中通过 env.DB 访问"},
+          {"@type": "HowToStep", "name": "配置 GitHub Actions 自动更新", "text": "设置定时工作流更新数据并触发自动部署，让静态站拥有动态内容"}
+        ],
+        "author": {"@type": "Person", "name": "Cyrus", "url": "https://cyrustyj.xyz/about.html"},
+        "datePublished": "2026-05-08",
+        "dateModified": "2026-05-08",
+        "inLanguage": "zh-CN"
+      }
+    </script>
+
+    <!-- Structured Data: FAQPage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Cloudflare Pages 和 Cloudflare Workers 什么关系？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pages 是专门用来托管静态网站的服务，Workers 是通用的 Serverless 计算平台。Pages Functions 底层跑在 Workers 上，但不需要你单独管理 Workers。可以理解为：Pages = 静态托管 + 自动集成的 Workers。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "免费额度用完了会怎样？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pages 静态托管没有带宽限制，永远免费。Functions 免费额度是每天 10 万次请求，D1 免费额度是 5GB 存储 + 每天 500 万行读取。超出后服务会返回错误，不会自动扣费。对个人站来说，这些额度基本用不完。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "可以用 React/Vue/Next.js 吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "完全可以。Cloudflare Pages 原生支持大多数前端框架，只需在创建项目时指定构建命令（如 npm run build）和输出目录（如 dist 或 build）。本文用原生 HTML 是因为这个站不需要框架，但 Pages 对框架的支持非常完善。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Pages Functions 有什么限制？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "主要限制：(1) 运行时是 V8 isolates 而非 Node.js，部分 Node.js 模块不可用；(2) 免费版单次请求 CPU 时间 10ms；(3) 免费版每日 10 万次请求；(4) 请求体最大 100MB。对绝大多数个人站场景来说，这些限制完全够用。"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Structured Data: BreadcrumbList -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://cyrustyj.xyz/"},
+          {"@type": "ListItem", "position": 2, "name": "实验室", "item": "https://cyrustyj.xyz/field-notes/"},
+          {"@type": "ListItem", "position": 3, "name": "Cloudflare Pages 零成本建站完全指南"}
+        ]
+      }
+    </script>
+
+    <style>
+      /* ─── Article Body ─────────────────────────────────────────────── */
+      .article-body {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 0 0 48px;
+        font-size: 16px;
+        line-height: 1.85;
+        color: var(--mg-ink);
+      }
+
+      .article-body > p {
+        margin: 0 0 18px;
+      }
+
+      .article-body > p:first-child {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        line-height: 1.9;
+        color: var(--mg-muted);
+        border-left: 3px solid var(--mg-accent);
+        padding-left: 18px;
+        margin-bottom: 32px;
+      }
+
+      .article-body h2 {
+        font-family: var(--font-sans);
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -.02em;
+        margin: 48px 0 18px;
+        padding-bottom: 10px;
+        border-bottom: 1.5px solid var(--mg-line);
+      }
+
+      .article-body h3 {
+        font-family: var(--font-sans);
+        font-size: 20px;
+        font-weight: 600;
+        margin: 32px 0 12px;
+        color: var(--mg-ink);
+      }
+
+      .article-body strong {
+        font-weight: 600;
+      }
+
+      .article-body ul,
+      .article-body ol {
+        padding-left: 24px;
+        margin: 0 0 18px;
+      }
+
+      .article-body li {
+        margin-bottom: 8px;
+      }
+
+      .article-body a {
+        color: var(--mg-accent);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
+      .article-body a:hover {
+        color: var(--mg-ink);
+      }
+
+      /* Code: inline */
+      .article-body code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--mg-paper-2);
+        border: 1px solid var(--mg-line-soft);
+        border-radius: 4px;
+        padding: 2px 6px;
+        word-break: break-word;
+      }
+
+      /* Code: blocks */
+      .article-body pre {
+        background: var(--term-bg);
+        color: var(--term-fg);
+        font-family: var(--font-mono);
+        font-size: 13.5px;
+        line-height: 1.7;
+        border-radius: 12px;
+        padding: 20px 22px;
+        overflow-x: auto;
+        margin: 18px 0 24px;
+        position: relative;
+      }
+
+      .article-body pre code {
+        background: none;
+        border: none;
+        padding: 0;
+        font-size: inherit;
+        color: inherit;
+      }
+
+      .article-body pre .code-label {
+        display: block;
+        font-size: 10.5px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--term-muted);
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(255,255,255,.08);
+      }
+
+      .article-body pre .term-dots {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 12px;
+      }
+
+      .article-body pre .term-dots span {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--term-muted);
+        opacity: .45;
+      }
+
+      /* Tip box */
+      .tip-box {
+        background: color-mix(in srgb, var(--ok) 8%, var(--mg-paper));
+        border: 1px solid color-mix(in srgb, var(--ok) 25%, var(--mg-line-soft));
+        border-left: 4px solid var(--ok);
+        border-radius: 0 10px 10px 0;
+        padding: 16px 20px;
+        margin: 20px 0 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      .tip-box::before {
+        content: "TIP";
+        display: block;
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .22em;
+        font-weight: 600;
+        color: var(--ok);
+        margin-bottom: 6px;
+      }
+
+      /* Pitfall box */
+      .pitfall-box {
+        background: color-mix(in srgb, var(--mg-accent) 6%, var(--mg-paper));
+        border: 1px solid color-mix(in srgb, var(--mg-accent) 20%, var(--mg-line-soft));
+        border-left: 4px solid var(--mg-accent);
+        border-radius: 0 10px 10px 0;
+        padding: 16px 20px;
+        margin: 20px 0 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      .pitfall-box::before {
+        content: "PITFALL";
+        display: block;
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .22em;
+        font-weight: 600;
+        color: var(--mg-accent);
+        margin-bottom: 6px;
+      }
+
+      /* Article meta line */
+      .article-meta {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        font-family: var(--font-mono);
+        font-size: 12px;
+        letter-spacing: .06em;
+        color: var(--mg-muted);
+        margin-top: 14px;
+      }
+
+      /* Cost table */
+      .cost-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 18px 0 24px;
+        font-size: 14.5px;
+      }
+
+      .cost-table th,
+      .cost-table td {
+        text-align: left;
+        padding: 10px 14px;
+        border-bottom: 1px solid var(--mg-line-soft);
+      }
+
+      .cost-table th {
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .15em;
+        text-transform: uppercase;
+        color: var(--mg-muted);
+        font-weight: 600;
+      }
+
+      .cost-table td:last-child {
+        font-family: var(--font-mono);
+        font-weight: 600;
+        color: var(--ok);
+      }
+
+      /* FAQ accordion */
+      .article-faq {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 32px 0 48px;
+        border-top: 1.5px solid var(--mg-line);
+      }
+
+      .article-faq h2 {
+        font-family: var(--font-sans);
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0 0 24px;
+      }
+
+      .article-faq details {
+        border: 1px solid var(--mg-line-soft);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background: var(--mg-paper);
+        transition: box-shadow .2s;
+      }
+
+      .article-faq details[open] {
+        box-shadow: 4px 4px 0 var(--mg-line-soft);
+      }
+
+      .article-faq summary {
+        cursor: pointer;
+        font-family: var(--font-sans);
+        font-weight: 600;
+        font-size: 15px;
+        padding: 14px 18px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+      }
+
+      .article-faq summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .article-faq summary::after {
+        content: "+";
+        font-family: var(--font-mono);
+        font-size: 18px;
+        color: var(--mg-accent);
+        flex-shrink: 0;
+        transition: transform .2s;
+      }
+
+      .article-faq details[open] summary::after {
+        transform: rotate(45deg);
+      }
+
+      .article-faq .faq-answer {
+        padding: 0 18px 16px;
+        font-size: 14.5px;
+        line-height: 1.75;
+        color: var(--mg-muted);
+      }
+
+      .article-faq .faq-answer code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--mg-paper-2);
+        border: 1px solid var(--mg-line-soft);
+        border-radius: 4px;
+        padding: 2px 6px;
+      }
+
+      /* Related / CTA */
+      .article-cta {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 0 0 48px;
+      }
+
+      .cta-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .cta-card a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1.5px solid var(--mg-line);
+        border-radius: 14px;
+        padding: 28px 20px;
+        text-decoration: none;
+        color: var(--mg-ink);
+        background: var(--mg-paper);
+        transition: transform .25s, box-shadow .25s;
+      }
+
+      .cta-card a:hover {
+        transform: translateY(-4px);
+        box-shadow: 6px 6px 0 var(--mg-line);
+      }
+
+      .cta-card a .cta-label {
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--mg-accent);
+        margin-bottom: 8px;
+      }
+
+      .cta-card a .cta-title {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .cta-card a .cta-desc {
+        font-size: 13px;
+        color: var(--mg-muted);
+        margin-top: 6px;
+      }
+
+      /* Dark mode overrides */
+      html[data-theme="dark"] .tip-box {
+        background: color-mix(in srgb, var(--ok) 10%, var(--mg-paper));
+        border-color: color-mix(in srgb, var(--ok) 20%, var(--mg-line-soft));
+      }
+
+      html[data-theme="dark"] .pitfall-box {
+        background: color-mix(in srgb, var(--mg-accent) 8%, var(--mg-paper));
+        border-color: color-mix(in srgb, var(--mg-accent) 15%, var(--mg-line-soft));
+      }
+
+      html[data-theme="dark"] .article-faq details {
+        background: var(--mg-paper-2);
+        border-color: var(--mg-line-soft);
+      }
+
+      html[data-theme="dark"] .cta-card a {
+        background: var(--mg-paper-2);
+      }
+
+      html[data-theme="dark"] .cost-table th {
+        color: var(--mg-muted);
+      }
+
+      /* Responsive */
+      @media (max-width: 960px) {
+        .cta-card {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="site-nav">
+      <a href="/" class="site-nav-brand">Cyrus</a>
+      <div class="site-nav-links">
+        <a href="/">首页</a>
+        <a href="/about.html">关于</a>
+        <a href="/field-notes/" class="on">实验室</a>
+        <a href="/news.html">资讯</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
+      </div>
+    </nav>
+
+    <!-- Inner content -->
+    <div class="mg-inner">
+
+      <!-- Breadcrumb -->
+      <nav class="mg-crumb">
+        <a href="/">← CYRUS QUARTERLY</a>
+        <span>/ <a href="/field-notes/">Field Notes</a></span>
+        <span>/ Cloudflare Pages 零成本建站完全指南</span>
+      </nav>
+
+      <!-- Article hero -->
+      <section class="mg-page-hero">
+        <div class="mg-tag-row">
+          <span class="mg-tag">TUTORIAL</span>
+        </div>
+        <h1 class="mg-page-title">Cloudflare Pages<br>零成本建站<em>完全指南</em></h1>
+        <div class="article-meta">
+          <time datetime="2026-05-08">2026.05.08</time>
+          <span>&middot;</span>
+          <span>约 12 分钟阅读</span>
+        </div>
+      </section>
+
+      <!-- Article body -->
+      <article class="article-body">
+
+        <p>我用 Cloudflare Pages 搭了这整个站 &mdash; 新闻聚合、API 端点、数据库、自定义域名 &mdash; 总成本 $0。不是「免费试用期 $0」，是真正的、永久的、$0。这篇教程把从建仓库到上线运行的每一步都写清楚，包括我自己踩过的坑。</p>
+
+        <h2>为什么选 Cloudflare Pages</h2>
+
+        <p>我对比过几个主流的免费托管方案，最后选了 Cloudflare Pages，原因很简单：<strong>它不只是托管静态文件，而是给你一整套后端能力</strong>。</p>
+
+        <ul>
+          <li><strong>真正无限带宽</strong> &mdash; 没有带宽上限，不像某些平台免费版限 100GB/月</li>
+          <li><strong>全球 CDN</strong> &mdash; Cloudflare 在全球 300+ 节点，访问速度天然快</li>
+          <li><strong>Pages Functions</strong> &mdash; 在 <code>functions/</code> 目录下写 JS 文件就能创建 Serverless API，无需单独部署后端</li>
+          <li><strong>D1 数据库</strong> &mdash; Serverless SQLite，免费 5GB 存储，够个人站用很久</li>
+          <li><strong>500 次构建/月</strong> &mdash; 个人站绰绰有余</li>
+          <li><strong>自定义域名 + 自动 SSL</strong> &mdash; 免费</li>
+        </ul>
+
+        <p>对比一下：</p>
+
+        <ul>
+          <li><strong>GitHub Pages</strong> &mdash; 纯静态托管，没有 Serverless Functions，没有数据库，带宽限 100GB/月</li>
+          <li><strong>Vercel 免费版</strong> &mdash; 有 Serverless Functions，但带宽限 100GB/月，商业项目需付费</li>
+          <li><strong>Cloudflare Pages</strong> &mdash; 无限带宽 + Functions + D1 数据库，免费版对个人站几乎没有实质限制</li>
+        </ul>
+
+        <div class="tip-box">
+          <strong>给完全不懂技术的读者：</strong>可以把 Cloudflare Pages 想成一个免费的网站托管服务，它不仅帮你把网页放上去让全世界能访问，还额外送你一个 API 后端和一个数据库。传统方案里这三样东西（托管 + 后端 + 数据库）要分别购买和部署，这里全免费打包了。
+        </div>
+
+        <h2>Step 1 &mdash; 准备 GitHub 仓库</h2>
+
+        <p>Cloudflare Pages 通过 GitHub 仓库拉取代码。第一步就是创建一个仓库并推送你的网站文件。</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span># 创建项目目录
+mkdir my-site && cd my-site
+git init
+
+# 创建一个最简单的首页
+cat &lt;&lt;'EOF' &gt; index.html
+&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;head&gt;&lt;title&gt;My Site&lt;/title&gt;&lt;/head&gt;
+  &lt;body&gt;&lt;h1&gt;Hello World&lt;/h1&gt;&lt;/body&gt;
+&lt;/html&gt;
+EOF
+
+# 推送到 GitHub
+git add .
+git commit -m "init: first page"
+git remote add origin https://github.com/your-name/my-site.git
+git push -u origin main</code></pre>
+
+        <p>就这么简单。不需要 <code>package.json</code>，不需要构建脚本，不需要任何框架。<strong>一个 HTML 文件就能部署。</strong></p>
+
+        <div class="tip-box">
+          你不需要 React、Vue、Next.js 或任何框架就能开始。这个站（cyrustyj.xyz）用的就是原生 HTML + CSS + JS，没有构建步骤。框架是锦上添花，不是前置条件。
+        </div>
+
+        <h2>Step 2 &mdash; 连接 Cloudflare Pages</h2>
+
+        <p>接下来把 GitHub 仓库和 Cloudflare Pages 连起来：</p>
+
+        <ol>
+          <li>注册 <a href="https://dash.cloudflare.com/" target="_blank" rel="noopener">Cloudflare 账号</a>（免费）</li>
+          <li>进入 Dashboard &rarr; <strong>Workers &amp; Pages</strong> &rarr; <strong>Create</strong></li>
+          <li>选择 <strong>Pages</strong> &rarr; <strong>Connect to Git</strong></li>
+          <li>授权 GitHub，选择你的仓库</li>
+          <li>构建设置：
+            <ul>
+              <li><strong>Build command</strong>：留空（纯静态站不需要构建）</li>
+              <li><strong>Build output directory</strong>：<code>/</code>（项目根目录就是输出目录）</li>
+            </ul>
+          </li>
+          <li>点击 <strong>Save and Deploy</strong></li>
+        </ol>
+
+        <p>大约 30 秒后，你的站就上线了。Cloudflare 会分配一个 <code>*.pages.dev</code> 的临时域名，比如 <code>my-site-abc.pages.dev</code>，可以直接访问。</p>
+
+        <p>从现在开始，<strong>每次你 push 代码到 main 分支，Cloudflare Pages 都会自动部署</strong>。不需要手动操作。</p>
+
+        <h2>Step 3 &mdash; 绑定自定义域名</h2>
+
+        <p>用 <code>*.pages.dev</code> 域名也能凑合，但自定义域名更专业。步骤：</p>
+
+        <ol>
+          <li>在 Cloudflare Pages 项目的 <strong>Custom domains</strong> 标签页点击 <strong>Set up a custom domain</strong></li>
+          <li>输入你的域名（比如 <code>cyrustyj.xyz</code>）</li>
+          <li>如果你的域名 DNS 已经托管在 Cloudflare（推荐），CNAME 记录会自动创建</li>
+          <li>等待 DNS 生效（通常几分钟），SSL 证书自动签发</li>
+        </ol>
+
+        <div class="pitfall-box">
+          <strong>我踩过的坑：部署成功但访问 403</strong><br>
+          我第一次部署时，Cloudflare Pages 显示部署成功，<code>*.pages.dev</code> 域名也能正常访问，但自定义域名 <code>cyrustyj.xyz</code> 返回 403 Forbidden。排查了半天，原因很简单：<strong>部署成功不代表域名自动绑定</strong>。你必须在 Pages 项目的 Custom Domains 里手动添加你的域名。Cloudflare 不会自动把你的域名关联到 Pages 项目，即使这个域名的 DNS 就在 Cloudflare 上。
+        </div>
+
+        <div class="tip-box">
+          如果你的域名还没有注册，直接在 Cloudflare 买。它卖域名是成本价（不加利润），而且 DNS 天然就托管在 Cloudflare 上，省去了在第三方注册商那边改 nameserver 的步骤。
+        </div>
+
+        <h2>Step 4 &mdash; Pages Functions（免费 API）</h2>
+
+        <p>这是 Cloudflare Pages 最让我惊喜的部分：<strong>不需要单独部署后端，在项目里放一个 JS 文件就能创建 API 端点</strong>。</p>
+
+        <h3>文件路由</h3>
+
+        <p>Pages Functions 用文件路径决定 API 路由：</p>
+
+        <pre><code><span class="code-label">目录结构 → API 路由</span>functions/
+  api/
+    visits.js      →  /api/visits
+    favorites.js   →  /api/favorites
+    news.js        →  /api/news</code></pre>
+
+        <p>放进去，push 到 GitHub，API 就自动上线了。</p>
+
+        <h3>实际例子：访问计数器</h3>
+
+        <p>这是我这个站真实在用的访问计数 API（简化版）：</p>
+
+        <pre><code><span class="code-label">functions/api/visits.js（简化版）</span>export async function onRequest(context) {
+  const { request, env } = context;
+  const url = new URL(request.url);
+  const path = url.searchParams.get("path") || "/";
+  const db = env.DB;  // D1 数据库绑定
+
+  if (!db) {
+    return Response.json({ ok: true, totalVisits: 0 });
+  }
+
+  // 记录访问
+  const today = new Date().toISOString().slice(0, 10);
+  await db.prepare(
+    "INSERT OR IGNORE INTO page_visits (path, visit_date) VALUES (?, ?)"
+  ).bind(path, today).run();
+
+  // 查询统计
+  const row = await db.prepare(
+    "SELECT COUNT(*) AS count FROM page_visits WHERE path = ?"
+  ).bind(path).first();
+
+  return Response.json({
+    ok: true,
+    path,
+    totalVisits: row?.count || 0
+  });
+}</code></pre>
+
+        <p>核心就这么多。<code>onRequest</code> 是 Pages Functions 的入口函数，<code>context</code> 里包含 <code>request</code>（HTTP 请求）和 <code>env</code>（环境变量和数据库绑定）。</p>
+
+        <div class="tip-box">
+          Pages Functions 运行在 Cloudflare Workers 的 V8 isolates 上，<strong>不是 Node.js</strong>。大多数标准 Web API（<code>fetch</code>、<code>Request</code>、<code>Response</code>、<code>URL</code>、<code>crypto</code>）都能用，但 <code>fs</code>、<code>path</code> 等 Node.js 专有模块不可用。好消息是，写 API 端点基本不需要那些模块。
+        </div>
+
+        <h2>Step 5 &mdash; D1 数据库</h2>
+
+        <p>光有 API 还不够，数据总得存在某个地方。Cloudflare D1 是一个 Serverless 的 SQLite 数据库，免费版给 5GB 存储。</p>
+
+        <h3>创建 D1 数据库</h3>
+
+        <ol>
+          <li>在 Cloudflare Dashboard &rarr; <strong>Workers &amp; Pages</strong> &rarr; <strong>D1 SQL Database</strong> &rarr; <strong>Create</strong></li>
+          <li>给数据库起个名字，比如 <code>my-site-db</code></li>
+          <li>创建完成后，记住数据库的 ID</li>
+        </ol>
+
+        <h3>绑定到 Pages 项目</h3>
+
+        <p>回到 Pages 项目 &rarr; <strong>Settings</strong> &rarr; <strong>Bindings</strong> &rarr; <strong>Add</strong> &rarr; 选择 <strong>D1 Database</strong>：</p>
+
+        <ul>
+          <li><strong>Variable name</strong>：<code>DB</code>（这就是你在 Functions 里通过 <code>env.DB</code> 访问数据库的名字）</li>
+          <li><strong>D1 Database</strong>：选择你刚创建的数据库</li>
+        </ul>
+
+        <div class="pitfall-box">
+          <strong>绑定后必须重新部署</strong><br>
+          D1 绑定添加后，已部署的版本不会自动获得绑定。你需要触发一次新的部署（push 一个 commit 或手动在 Dashboard 点 Retry deployment）。否则 <code>env.DB</code> 会是 <code>undefined</code>，你的 Functions 找不到数据库。
+        </div>
+
+        <h3>表结构示例</h3>
+
+        <p>你可以在 D1 的控制台直接执行 SQL，也可以在 Functions 里自动建表。这是我这个站用的访问记录表：</p>
+
+        <pre><code><span class="code-label">SQL — 建表</span>CREATE TABLE IF NOT EXISTS page_visits (
+  id         INTEGER PRIMARY KEY AUTOINCREMENT,
+  path       TEXT NOT NULL,
+  visit_date TEXT NOT NULL,
+  visitor_hash TEXT NOT NULL,
+  created_at TEXT NOT NULL,
+  UNIQUE(path, visit_date, visitor_hash)
+);
+
+CREATE INDEX IF NOT EXISTS idx_visits_path
+  ON page_visits(path);
+CREATE INDEX IF NOT EXISTS idx_visits_path_date
+  ON page_visits(path, visit_date);</code></pre>
+
+        <p>D1 用的是标准 SQLite 语法，如果你写过 SQL，上手零成本。</p>
+
+        <h2>Step 6 &mdash; GitHub Actions 自动更新</h2>
+
+        <p>到这里你已经有了一个带 API 和数据库的静态站。但如果你想要「动态内容」呢？比如这个站的 AI 新闻聚合，每天自动更新两次。</p>
+
+        <p>秘密很简单：<strong>用 GitHub Actions 定时跑脚本更新数据文件，commit 并 push，Cloudflare Pages 自动重新部署</strong>。</p>
+
+        <pre><code><span class="code-label">.github/workflows/update-news.yml（简化版）</span>name: Update AI News
+
+on:
+  schedule:
+    # UTC 01:00 / 13:00 → 北京时间 09:00 / 21:00
+    - cron: "0 1,13 * * *"
+  workflow_dispatch:  # 手动触发
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build news data
+        run: python scripts/update_news.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          # 只在有变更时提交
+          git diff --staged --quiet || git commit -m "chore: auto-update AI news"
+          git push</code></pre>
+
+        <p>这个工作流每天在北京时间 09:00 和 21:00 执行。脚本从各个 API 拉取新闻数据，生成 JSON 文件，提交到仓库。GitHub push 触发 Cloudflare Pages 自动部署 &mdash; 用户看到的是最新的内容。</p>
+
+        <div class="tip-box">
+          这就是让静态站拥有「动态感」的技巧 &mdash; 内容本身是静态的 JSON 文件，但通过定时构建实现了自动更新。不需要服务器、不需要数据库查询、不需要后端渲染。GitHub Actions 免费版每月提供 2000 分钟构建时间，每天跑两次完全够用。
+        </div>
+
+        <h2>成本清单</h2>
+
+        <p>把这个站所有用到的服务列出来：</p>
+
+        <table class="cost-table">
+          <thead>
+            <tr>
+              <th>服务</th>
+              <th>用途</th>
+              <th>免费额度</th>
+              <th>实际费用</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cloudflare Pages</td>
+              <td>静态托管 + CDN</td>
+              <td>无限带宽，500 次构建/月</td>
+              <td>$0</td>
+            </tr>
+            <tr>
+              <td>Pages Functions</td>
+              <td>Serverless API</td>
+              <td>10 万次请求/天</td>
+              <td>$0</td>
+            </tr>
+            <tr>
+              <td>Cloudflare D1</td>
+              <td>数据库</td>
+              <td>5GB 存储，500 万行读取/天</td>
+              <td>$0</td>
+            </tr>
+            <tr>
+              <td>GitHub Actions</td>
+              <td>定时构建</td>
+              <td>2000 分钟/月</td>
+              <td>$0</td>
+            </tr>
+            <tr>
+              <td>自定义域名</td>
+              <td>cyrustyj.xyz</td>
+              <td>Cloudflare 成本价注册</td>
+              <td>~$9/年</td>
+            </tr>
+            <tr>
+              <td>SSL 证书</td>
+              <td>HTTPS</td>
+              <td>自动签发</td>
+              <td>$0</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>除了域名注册费（严格来说不到 $1/月），<strong>运行成本是零</strong>。如果你不介意用 <code>*.pages.dev</code> 域名，连域名费都省了。</p>
+
+        <h2>踩坑记录</h2>
+
+        <p>除了前面提到的 403 和 D1 绑定问题，再补充几个：</p>
+
+        <div class="pitfall-box">
+          <strong>Functions 日志不好看</strong><br>
+          Pages Functions 的日志在 Dashboard 里不太直观。调试 API 时建议在本地用 <code>wrangler pages dev</code> 启动开发服务器，可以看到完整的 console.log 输出。安装方式：<code>npm install -g wrangler</code>。
+        </div>
+
+        <div class="pitfall-box">
+          <strong>D1 的 SQL 方言问题</strong><br>
+          D1 底层是 SQLite，不是 MySQL 或 PostgreSQL。一些习惯性写法可能不兼容，比如 <code>UPSERT</code> 语法、日期函数、JSON 函数的行为都跟 MySQL 不同。遇到报错先查 <a href="https://www.sqlite.org/lang.html" target="_blank" rel="noopener">SQLite 文档</a>，不要照着 MySQL 教程写。
+        </div>
+
+        <div class="pitfall-box">
+          <strong>GitHub Actions 的 cron 时间不精确</strong><br>
+          GitHub Actions 的 schedule 触发通常会延迟 5-30 分钟（官方说法：「负载高时可能延迟更多」）。不要依赖它做精确定时任务。对新闻更新来说，延迟半小时完全无所谓，但如果你需要精确调度，考虑用 Cloudflare 自带的 Cron Triggers。
+        </div>
+
+        <h2>总结</h2>
+
+        <p>整个流程回顾：</p>
+
+        <ol>
+          <li><strong>GitHub 仓库</strong> &mdash; 放你的 HTML/CSS/JS 文件</li>
+          <li><strong>Cloudflare Pages</strong> &mdash; 连接仓库，自动部署，全球 CDN</li>
+          <li><strong>Custom Domains</strong> &mdash; 绑定自定义域名（记得手动添加，不会自动关联）</li>
+          <li><strong>Pages Functions</strong> &mdash; <code>functions/</code> 目录下写 JS = Serverless API</li>
+          <li><strong>D1 数据库</strong> &mdash; 创建后绑定到 Pages 项目，通过 <code>env.DB</code> 使用</li>
+          <li><strong>GitHub Actions</strong> &mdash; 定时更新数据 + 自动部署 = 静态站的动态内容</li>
+        </ol>
+
+        <p>对个人站来说，这套组合基本是目前能找到的最优免费方案。不用管服务器、不用管扩容、不用管 SSL &mdash; push 代码就上线。</p>
+
+      </article>
+
+      <!-- FAQ Section -->
+      <section class="article-faq">
+        <h2>常见问题</h2>
+
+        <details>
+          <summary>Cloudflare Pages 和 Cloudflare Workers 什么关系？</summary>
+          <div class="faq-answer">
+            <p>Pages 是专门用来托管静态网站的服务，Workers 是通用的 Serverless 计算平台。Pages Functions 底层跑在 Workers 上，但你不需要单独管理 Workers 的部署和路由。</p>
+            <p>可以理解为：<strong>Pages = 静态托管 + 自动集成的 Workers</strong>。如果你的需求是「托管网站 + 几个 API 端点」，用 Pages 就够了。如果你需要复杂的后端逻辑（比如 WebSocket、定时任务、队列处理），再单独用 Workers。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>免费额度用完了会怎样？</summary>
+          <div class="faq-answer">
+            <p>Pages 静态托管没有带宽限制，永远免费。Functions 免费额度是每天 10 万次请求，D1 免费额度是 5GB 存储 + 每天 500 万行读取。</p>
+            <p>超出后服务会返回错误（429 或 503），<strong>不会自动扣费</strong>。Cloudflare 的免费版不绑信用卡就不会产生费用。对个人站来说，每天 10 万次 API 请求基本不可能用完。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>可以用 React/Vue/Next.js 吗？</summary>
+          <div class="faq-answer">
+            <p>完全可以。Cloudflare Pages 原生支持大多数前端框架，在创建项目时指定构建命令和输出目录即可：</p>
+            <p><strong>React (Vite)</strong>：Build command = <code>npm run build</code>，Output = <code>dist</code><br>
+            <strong>Next.js</strong>：Build command = <code>npx @cloudflare/next-on-pages</code>，Output = <code>.vercel/output/static</code><br>
+            <strong>Vue</strong>：Build command = <code>npm run build</code>，Output = <code>dist</code></p>
+            <p>本文用原生 HTML 是因为这个站不需要框架的复杂性，但 Pages 对框架的支持非常完善。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Pages Functions 有什么限制？</summary>
+          <div class="faq-answer">
+            <p>主要限制：</p>
+            <p>(1) 运行时是 V8 isolates 而非 Node.js，<code>fs</code>、<code>path</code>、<code>child_process</code> 等 Node 模块不可用<br>
+            (2) 免费版单次请求 CPU 时间上限 10ms（对简单 API 够用）<br>
+            (3) 免费版每日 10 万次请求<br>
+            (4) 请求体最大 100MB</p>
+            <p>对绝大多数个人站场景来说，这些限制根本碰不到。如果真的需要更多，付费版（$5/月起）的额度提升非常大。</p>
+          </div>
+        </details>
+      </section>
+
+      <!-- Related / CTA -->
+      <section class="article-cta">
+        <div class="cta-card">
+          <a href="/field-notes/">
+            <span class="cta-label">FIELD NOTES</span>
+            <span class="cta-title">实验室</span>
+            <span class="cta-desc">更多教程、模板、复盘和工具评测</span>
+          </a>
+          <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">
+            <span class="cta-label">XIAOHONGSHU</span>
+            <span class="cta-title">小红书 @Cyrus 宇</span>
+            <span class="cta-desc">AI 实践、工具评测、提效方法论</span>
+          </a>
+        </div>
+      </section>
+
+    </div><!-- /.mg-inner -->
+
+    <footer class="site-footer">
+      <span>&copy; 2026 Cyrus</span>
+      <span>
+        <a href="/about.html">关于</a> &middot;
+        <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> &middot;
+        <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+      </span>
+    </footer>
+
+    <script src="/ui.js"></script>
+    <script src="/visit-stats.js"></script>
+  </body>
+</html>
