@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Build RSS 2.0 feed from field-notes articles.
+"""Build RSS 2.0 feed from field-notes articles and TIL entries.
 
 Scans field-notes/*/index.html, extracts metadata from <meta> and <title> tags,
+loads TIL entries from til/entries.json,
 and generates a valid RSS 2.0 feed at feed.xml in the project root.
 
 Stdlib only — no pip dependencies required.
 """
 
 import glob
+import json
 import os
 import re
 from datetime import datetime, timezone, timedelta
@@ -16,14 +18,15 @@ from html import escape as html_escape
 # ── Config ──────────────────────────────────────────────────────────────────
 
 SITE_URL = "https://cyrustyj.xyz"
-FEED_TITLE = "Cyrus Field Notes"
-FEED_DESC = "AI 全栈实践者 Cyrus 的田野笔记"
+FEED_TITLE = "Cyrus Field Notes & TIL"
+FEED_DESC = "AI 全栈实践者 Cyrus 的田野笔记与每日所学"
 FEED_LANG = "zh-CN"
 TITLE_SUFFIX = " | 实验室 · Cyrus的AI学习笔记"
 
 # Paths (relative to project root)
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIELD_NOTES_DIR = os.path.join(PROJECT_ROOT, "field-notes")
+TIL_ENTRIES_FILE = os.path.join(PROJECT_ROOT, "til", "entries.json")
 OUTPUT_FILE = os.path.join(PROJECT_ROOT, "feed.xml")
 
 # Beijing time offset
@@ -131,6 +134,51 @@ def scan_articles() -> list[dict]:
     return articles
 
 
+def scan_til_entries() -> list[dict]:
+    """Load TIL entries from til/entries.json and convert to feed items."""
+    if not os.path.isfile(TIL_ENTRIES_FILE):
+        print(f"  TIL file not found: {TIL_ENTRIES_FILE}")
+        return []
+
+    with open(TIL_ENTRIES_FILE, "r", encoding="utf-8") as f:
+        entries = json.load(f)
+
+    items = []
+    for entry in entries:
+        title = entry.get("title")
+        date_str = entry.get("date")  # format: 2026-05-08
+        if not title or not date_str:
+            print(f"  WARN: TIL entry missing title or date, skipped: {entry}")
+            continue
+
+        entry_id = entry.get("id", "")
+        body = entry.get("body", "")
+
+        # Parse the date and set to midnight Beijing time
+        try:
+            dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=TZ_BEIJING)
+            rfc_date = dt.strftime("%a, %d %b %Y %H:%M:%S %z")
+        except ValueError as e:
+            print(f"  WARN: TIL '{title}' — bad date '{date_str}': {e}, skipped")
+            continue
+
+        link = f"{SITE_URL}/til/#{entry_id}" if entry_id else f"{SITE_URL}/til/"
+
+        items.append(
+            {
+                "title": f"TIL: {title}",
+                "description": body,
+                "link": link,
+                "pub_date": rfc_date,
+                "sort_key": dt,
+                "slug": f"til/{entry_id}",
+            }
+        )
+        print(f"  ok: til/{entry_id} — TIL: {title}")
+
+    return items
+
+
 def build_feed(articles: list[dict]) -> None:
     """Generate RSS 2.0 XML and write to OUTPUT_FILE."""
     now = datetime.now(TZ_BEIJING)
@@ -170,13 +218,21 @@ def main() -> None:
     print(f"Scanning {FIELD_NOTES_DIR}/ ...")
     articles = scan_articles()
 
-    if not articles:
-        print("\nNo articles found — feed.xml not generated.")
+    print(f"\nScanning {TIL_ENTRIES_FILE} ...")
+    til_items = scan_til_entries()
+
+    # Merge all items and sort newest first
+    all_items = articles + til_items
+    all_items.sort(key=lambda a: a["sort_key"], reverse=True)
+
+    if not all_items:
+        print("\nNo items found — feed.xml not generated.")
         return
 
-    build_feed(articles)
+    build_feed(all_items)
     print(f"\nGenerated {OUTPUT_FILE}")
-    print(f"  {len(articles)} item(s), newest: {articles[0]['title']}")
+    print(f"  {len(all_items)} item(s) ({len(articles)} field-notes, {len(til_items)} TIL)")
+    print(f"  newest: {all_items[0]['title']}")
 
 
 if __name__ == "__main__":

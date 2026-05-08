@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cyrus Field Notes</title>
+    <title>Cyrus Field Notes &amp; TIL</title>
     <link>https://cyrustyj.xyz</link>
-    <description>AI 全栈实践者 Cyrus 的田野笔记</description>
+    <description>AI 全栈实践者 Cyrus 的田野笔记与每日所学</description>
     <language>zh-CN</language>
     <atom:link href="https://cyrustyj.xyz/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 08 May 2026 21:35:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 22:17:30 +0800</lastBuildDate>
     <item>
       <title>Claude Code 自定义 Skill 完全指南</title>
       <link>https://cyrustyj.xyz/field-notes/claude-code-skills-guide/</link>
@@ -27,6 +27,41 @@
       <description>从零搭建本地 AI 知识管道：用 n8n + Ollama 把微信/Telegram 分享的链接自动抓取、摘要、打标、写入 Obsidian。零成本、全本地、隐私安全。</description>
       <pubDate>Fri, 08 May 2026 00:00:00 +0800</pubDate>
       <guid isPermaLink="true">https://cyrustyj.xyz/field-notes/n8n-ollama-local-pipeline/</guid>
+    </item>
+    <item>
+      <title>TIL: Ollama 的 think 参数可以关掉推理链</title>
+      <link>https://cyrustyj.xyz/til/#2026-05-08-ollama-think-param</link>
+      <description>调用 Ollama API 时传 `think: false` 可以跳过模型的内部推理过程，直接输出结果。在知识管道里需要结构化 JSON 输出时（比如摘要+标签），关掉 think 能显著减少输出 token，响应速度快一倍以上。实测 qwen3:8b 关 think 后从 8 秒降到 3 秒。</description>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://cyrustyj.xyz/til/#2026-05-08-ollama-think-param</guid>
+    </item>
+    <item>
+      <title>TIL: Cloudflare D1 是 SQLite 方言，不是 MySQL</title>
+      <link>https://cyrustyj.xyz/til/#2026-05-08-d1-sqlite-dialect</link>
+      <description>D1 底层是 SQLite，不支持 ALTER TABLE ADD COLUMN IF NOT EXISTS、不支持 RIGHT JOIN、日期函数用 SQLite 的写法（`date(&#x27;now&#x27;)`）。踩过坑：习惯性写了 MySQL 语法，本地 wrangler dev 测试通过但线上报错。原因是 wrangler dev 用的 SQLite 版本和 D1 生产环境的版本有微妙差异。</description>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://cyrustyj.xyz/til/#2026-05-08-d1-sqlite-dialect</guid>
+    </item>
+    <item>
+      <title>TIL: Pagefind 只索引有 data-pagefind-body 的元素</title>
+      <link>https://cyrustyj.xyz/til/#2026-05-08-pagefind-body-attr</link>
+      <description>Pagefind 默认索引整个页面的所有文本，包括导航栏和页脚。加了 `data-pagefind-body` 属性后，它只索引标记的元素。反过来，`data-pagefind-ignore` 可以排除特定区域。不加这些属性的话，搜索 &#x27;GitHub&#x27; 会命中每个页面的 footer 链接，结果全是噪音。</description>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://cyrustyj.xyz/til/#2026-05-08-pagefind-body-attr</guid>
+    </item>
+    <item>
+      <title>TIL: Jina Reader 是免费的网页内容提取 API</title>
+      <link>https://cyrustyj.xyz/til/#2026-05-08-jina-reader-fallback</link>
+      <description>在 URL 前面加 `https://r.jina.ai/` 就能拿到干净的 Markdown 格式正文，免费、不需要 API key。对于 JS 渲染的页面特别有用，因为普通 HTTP GET 拿到的是空壳 HTML。ClawBot 的策略是先试 Jina Reader，失败了再 fallback 到直接 HTTP 抓取 + HTML 解析。两层保险，成功率从 70% 提升到 95%+。</description>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://cyrustyj.xyz/til/#2026-05-08-jina-reader-fallback</guid>
+    </item>
+    <item>
+      <title>TIL: GitHub Actions cron 是 UTC 时区，不是北京时间</title>
+      <link>https://cyrustyj.xyz/til/#2026-05-08-github-actions-cron-utc</link>
+      <description>GitHub Actions 的 schedule cron 表达式用的是 UTC 时区。写 `cron: &#x27;0 9 * * *&#x27;` 实际上是北京时间下午 5 点执行，不是早上 9 点。要在北京时间 9 点执行，应该写 `cron: &#x27;0 1 * * *&#x27;`（UTC 凌晨 1 点 = 北京 9 点）。另外 GitHub 不保证 cron 准时触发，高峰期可能延迟 5-15 分钟。</description>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://cyrustyj.xyz/til/#2026-05-08-github-actions-cron-utc</guid>
     </item>
   </channel>
 </rss>
