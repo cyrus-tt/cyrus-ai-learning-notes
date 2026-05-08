@@ -1196,3 +1196,32 @@ html[data-theme="dark"] .theme-toggle::after {
 @media (max-width: 768px) {
   .search-section { padding: 0 16px 8px; }
 }
+
+/* ─── 14. Weekly Digest Grid ───────────────────────────────── */
+
+.weekly-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding: 8px 0 24px;
+}
+
+.weekly-item h3 {
+  font-size: 18px;
+}
+
+.weekly-item h3 a {
+  text-decoration: none;
+  color: var(--ink);
+  transition: color 0.15s;
+}
+
+.weekly-item h3 a:hover {
+  color: var(--accent);
+}
+
+@media (min-width: 769px) {
+  .weekly-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

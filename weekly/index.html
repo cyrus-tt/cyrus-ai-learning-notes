@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cyrus Weekly | Cyrus的AI学习笔记</title>
+    <meta
+      name="description"
+      content="Cyrus Weekly：每周 AI 资讯 Top 10，附一句可执行结论。"
+    />
+    <meta
+      name="keywords"
+      content="AI周报,AI资讯,每周AI,AI Weekly,Cyrus Weekly"
+    />
+    <meta name="theme-color" content="#f2f4f7" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://cyrustyj.xyz/weekly/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+    <meta property="og:title" content="Cyrus Weekly | Cyrus的AI学习笔记" />
+    <meta
+      property="og:description"
+      content="每周 AI 资讯 Top 10，附一句可执行结论。"
+    />
+    <meta property="og:url" content="https://cyrustyj.xyz/weekly/" />
+    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cyrus Weekly" />
+    <meta name="twitter:description" content="每周 AI 资讯 Top 10，附一句可执行结论。" />
+    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Cyrus Weekly",
+        "url": "https://cyrustyj.xyz/weekly/",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Cyrus的AI学习笔记",
+          "url": "https://cyrustyj.xyz/"
+        },
+        "inLanguage": "zh-CN"
+      }
+    </script>
+  </head>
+  <body>
+    <nav class="site-nav">
+      <a href="/" class="site-nav-brand">Cyrus</a>
+      <div class="site-nav-links">
+        <a href="/">首页</a>
+        <a href="/about.html">关于</a>
+        <a href="/field-notes/">实验室</a>
+        <a href="/news.html">资讯</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
+      </div>
+    </nav>
+
+    <div class="mg-inner">
+
+      <!-- Breadcrumb -->
+      <nav class="mg-crumb">
+        <a href="/">← CYRUS QUARTERLY</a>
+        <span>/ Weekly</span>
+      </nav>
+
+      <!-- Page hero -->
+      <section class="mg-page-hero">
+        <div class="mg-tag-row"><span class="mg-tag">§ WEEKLY DIGEST</span></div>
+        <h1 class="mg-page-title"><em>Cyrus</em> Weekly</h1>
+        <p class="mg-page-kicker">每周 AI 资讯 Top 10，附一句可执行结论。</p>
+      </section>
+
+      <!-- Weekly list -->
+      <div class="mg-section-rule">&sect; ALL ISSUES</div>
+      <section class="content" style="max-width:var(--max-w-wide);padding-top:0;">
+        <ul id="weeklyList" class="post-list">
+          <li class="empty-note">加载中...</li>
+        </ul>
+      </section>
+
+    </div><!-- /.mg-inner -->
+
+    <footer class="site-footer">
+      <span>&copy; 2026 Cyrus</span>
+      <span>
+        <a href="/about.html">关于</a> &middot;
+        <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> &middot;
+        <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+      </span>
+    </footer>
+
+    <script src="/ui.js"></script>
+    <script src="/visit-stats.js"></script>
+    <script>
+      (function () {
+        var list = document.getElementById('weeklyList');
+        fetch('/weekly/index.json')
+          .then(function (r) { return r.json(); })
+          .then(function (issues) {
+            if (!issues || !issues.length) {
+              list.innerHTML = '<li class="empty-note">暂无周报</li>';
+              return;
+            }
+            var html = '';
+            issues.forEach(function (issue) {
+              var weekNum = issue.week.split('-W')[1] || issue.week;
+              html += '<li><a href="/weekly/' + issue.file + '">'
+                + '<span class="post-title">Cyrus Weekly #' + parseInt(weekNum, 10) + '</span>'
+                + '<span class="post-date">' + issue.dateRange + '</span>'
+                + '</a></li>';
+            });
+            list.innerHTML = html;
+          })
+          .catch(function () {
+            list.innerHTML = '<li class="empty-note">加载失败</li>';
+          });
+      })();
+    </script>
+  </body>
+</html>
