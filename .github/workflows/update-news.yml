@@ -77,6 +77,9 @@ jobs:
           fi
           wrangler d1 execute cyrus-ai-news --remote --file d1/migration_002_watchlist.sql || echo "Migration skipped or already applied"
 
+      - name: Build RSS feed
+        run: python scripts/build_rss.py
+
       - name: Detect data changes
         id: detect
         run: |
@@ -93,7 +96,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/news_digest.json data/translation_cache.json data/x_watchlist.json data/x_feed.json data/github_trending.json data/yt_watchlist.json data/yt_feed.json
+          git add data/news.json data/news_digest.json data/translation_cache.json data/x_watchlist.json data/x_feed.json data/github_trending.json data/yt_watchlist.json data/yt_feed.json feed.xml
           git commit -m "chore: auto-update AI news"
           git push
 
