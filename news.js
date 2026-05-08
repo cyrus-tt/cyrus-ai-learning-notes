@@ -1370,7 +1370,7 @@ function renderCard(item, index) {
     <article class="card card-animate" style="--stagger:${index};">
       <div class="card-top">
         <div class="card-title-wrap">
-          ${aiScore !== null ? `<span class="score-pill">${escapeHtml(String(aiScore))}</span>` : ""}
+          ${aiScore !== null ? `<span class="score-pill ${aiScore >= 80 ? 'score-high' : aiScore >= 60 ? 'score-mid' : 'score-low'}">${escapeHtml(String(aiScore))}</span>` : ""}
           <h3>${escapeHtml(title || "")}</h3>
         </div>
         ${
