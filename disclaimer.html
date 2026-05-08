@@ -12,19 +12,22 @@
     <link rel="canonical" href="https://cyrustyj.xyz/disclaimer.html" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="wrap header-inner">
-        <a class="brand" href="/">Cyrus的AI学习笔记</a>
-        <nav class="top-nav" aria-label="主导航">
-          <a href="/news.html">AI资讯</a>
-          <a href="/resources.html">AI干货</a>
-          <a href="/" aria-current="page">返回首页</a>
-        </nav>
+    <nav class="site-nav">
+      <a href="/" class="site-nav-brand">Cyrus</a>
+      <div class="site-nav-links">
+        <a href="/">首页</a>
+        <a href="/about.html">关于</a>
+        <a href="/field-notes/">实验室</a>
+        <a href="/news.html">资讯</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
       </div>
-    </header>
+    </nav>
 
     <main class="wrap page-main">
       <section class="hero">
@@ -62,14 +65,12 @@
     </main>
 
     <footer class="site-footer">
-      <div class="wrap footer-inner">
-        <p>© 2026 Cyrus的AI学习笔记</p>
-        <div class="footer-links">
-          <a href="/privacy.html">隐私政策</a>
-          <a href="/news.html">AI资讯</a>
-          <a href="/resources.html">AI干货</a>
-        </div>
-      </div>
+      <span>&copy; 2026 Cyrus</span>
+      <span>
+        <a href="/about.html">关于</a> &middot;
+        <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> &middot;
+        <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+      </span>
     </footer>
 
     <script src="./ui.js"></script>

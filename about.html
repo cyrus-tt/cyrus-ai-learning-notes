@@ -27,7 +27,7 @@
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Noto+Serif+SC:wght@400;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" />
   <link rel="stylesheet" href="./styles.css" />
 
   <script type="application/ld+json">
@@ -54,7 +54,7 @@
     }
 
     .about-hero-name {
-      font-family: var(--font-display);
+      font-family: var(--font-sans);
       font-size: clamp(48px, 10vw, 96px);
       font-weight: 700;
       line-height: .95;
@@ -72,7 +72,7 @@
     }
 
     .about-hero-oneliner {
-      font-family: var(--font-serif);
+      font-family: var(--font-sans);
       font-size: 20px;
       color: var(--mg-muted);
       margin: 14px auto 0;
@@ -162,7 +162,7 @@
     }
 
     .about-project-num {
-      font-family: var(--font-display);
+      font-family: var(--font-sans);
       font-size: 36px;
       font-weight: 700;
       line-height: 1;
@@ -170,7 +170,7 @@
     }
 
     .about-project-card h3 {
-      font-family: var(--font-display);
+      font-family: var(--font-sans);
       font-size: 20px;
       font-weight: 600;
       margin: 10px 0 8px;
@@ -208,7 +208,7 @@
     }
 
     .about-quote-open {
-      font-family: var(--font-display);
+      font-family: var(--font-sans);
       font-size: 96px;
       line-height: 1;
       color: var(--mg-line-soft);
@@ -221,7 +221,7 @@
 
     .about-quote blockquote {
       margin: 0;
-      font-family: var(--font-display);
+      font-family: var(--font-sans);
       font-size: clamp(20px, 3.2vw, 32px);
       font-weight: 400;
       font-style: italic;
@@ -285,32 +285,16 @@
 </head>
 <body>
 
-<!-- Ticker -->
-<div class="mg-ticker" aria-hidden="true">
-  <div class="mg-ticker-track">
-    <span>ABOUT · CYRUS</span><span>✦</span><span>AI BUILDER</span><span>✦</span>
-    <span>ABOUT · CYRUS</span><span>✦</span><span>AI BUILDER</span><span>✦</span>
+<nav class="site-nav">
+  <a href="/" class="site-nav-brand">Cyrus</a>
+  <div class="site-nav-links">
+    <a href="/">首页</a>
+    <a href="/about.html" class="on">关于</a>
+    <a href="/field-notes/">实验室</a>
+    <a href="/news.html">资讯</a>
+    <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
   </div>
-</div>
-
-<!-- Masthead -->
-<header class="mg-mast">
-  <div class="mg-mast-left">
-    <div class="mg-issue">ABOUT</div>
-    <a href="/" class="mg-logo" style="font-size:clamp(28px,5vw,56px);text-decoration:none;">
-      <span>C</span><span>Y</span><span>R</span><span>U</span><span>S</span>
-    </a>
-  </div>
-  <div class="header-inner">
-    <nav class="mg-nav">
-      <a href="/">首页</a>
-      <a href="/about.html" class="on">关于</a>
-      <a href="/field-notes/">实验室</a>
-      <a href="/news.html">资讯</a>
-    </nav>
-    <button class="theme-toggle" id="themeToggle" aria-label="切换明暗"></button>
-  </div>
-</header>
+</nav>
 
 <!-- Inner content -->
 <div class="mg-inner">
@@ -391,13 +375,13 @@
 
 </div><!-- /.mg-inner -->
 
-<!-- Footer -->
-<footer class="mg-foot compact">
-  <div class="mg-foot-meta" style="justify-content:center;text-align:center;">
-    <span>© 2026 CYRUS QUARTERLY</span>
-    <span><a href="/field-notes/">实验室</a> · <a href="/news.html">资讯</a> · <a href="/privacy.html">隐私</a> · <a href="/">首页</a></span>
-  </div>
-  <p id="visitStats" class="visit-stats" aria-live="polite">访问统计：加载中...</p>
+<footer class="site-footer">
+  <span>&copy; 2026 Cyrus</span>
+  <span>
+    <a href="/about.html">关于</a> &middot;
+    <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> &middot;
+    <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+  </span>
 </footer>
 
 <script src="./ui.js"></script>

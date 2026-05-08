@@ -1,75 +1,74 @@
-/* ================================================================
-   MAGAZINE (Variant C) — Cyrus AI Learning Notes
-   Design tokens + full component library
-   ================================================================ */
+/* ═══════════════════════════════════════════════════════════════
+   styles.css — Minimal Professional Design
+   ═══════════════════════════════════════════════════════════════ */
 
-/* ─── 1. Design Tokens ─────────────────────────────────────────── */
+/* ─── 1. Design Tokens + Aliases ─────────────────────────────── */
 
 :root {
-  --paper: #f4ede0;
-  --paper-2: #ede5d4;
-  --paper-3: #e3d9c3;
-  --ink: #1a1613;
-  --ink-2: #3b332c;
-  --muted: #7a6f60;
-  --muted-2: #9b907f;
-  --line: #d9cfb9;
-  --line-soft: #e6dcc5;
-  --accent: #b5451f;
-  --accent-2: #1a1613;
-  --ok: #5a7a3b;
-  --term-bg: #1a1613;
-  --term-fg: #f0e9db;
-  --term-muted: #928876;
-  --term-prompt: #d9a84b;
-  --term-str: #a8b97a;
-  --shadow-1: 0 1px 0 rgba(26,22,19,.06);
-  --shadow-2: 0 10px 28px rgba(26,22,19,.08);
-  --radius: 10px;
-  --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
-  --font-sans: "Inter", "Noto Sans SC", "PingFang SC", -apple-system, sans-serif;
+  --bg: #ffffff;
+  --bg-2: #f7f7f7;
+  --ink: #111;
+  --ink-2: #333;
+  --muted: #666;
+  --muted-2: #999;
+  --line: #e5e5e5;
+  --line-soft: #f0f0f0;
+  --accent: #e8450e;
+  --ok: #16a34a;
+  --font-sans: "Inter", "Noto Sans SC", -apple-system, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
-  --font-display: "Bodoni Moda", "Noto Serif SC", "Playfair Display", serif;
-  /* Magazine-specific tokens */
-  --mg-ink: #111;
-  --mg-paper: #f3ece0;
-  --mg-paper-2: #e8dfcc;
-  --mg-accent: #d84315;
-  --mg-accent-2: #f4c430;
-  --mg-muted: #6d6458;
-  --mg-line: #111;
-  --mg-line-soft: #b9ae98;
-}
+  --radius: 8px;
+  --max-w: 680px;
+  --max-w-wide: 1100px;
 
-/* ─── Dark Mode Tokens ─────────────────────────────────────────── */
+  /* Aliases for backward compatibility with existing JS/HTML */
+  --mg-paper: var(--bg);
+  --mg-paper-2: var(--bg-2);
+  --mg-ink: var(--ink);
+  --mg-accent: var(--accent);
+  --mg-accent-2: var(--accent);
+  --mg-muted: var(--muted);
+  --mg-line: var(--line);
+  --mg-line-soft: var(--line-soft);
+  --paper: var(--bg);
+  --paper-2: var(--bg-2);
+  /* Font aliases */
+  --font-display: var(--font-sans);
+  --font-serif: var(--font-sans);
+}
 
 html[data-theme="dark"] {
-  --paper: #17140f;
-  --paper-2: #1f1a14;
-  --paper-3: #2a2319;
-  --ink: #f0e9db;
-  --ink-2: #d6cdbb;
-  --muted: #9b907f;
-  --muted-2: #7a6f60;
-  --line: #332b20;
-  --line-soft: #261f17;
-  --accent: #e58a5d;
-  --term-bg: #0e0b08;
-  --term-fg: #f0e9db;
-  --shadow-2: 0 10px 28px rgba(0,0,0,.35);
-  --mg-ink: #f2ead8;
-  --mg-paper: #0d0b08;
-  --mg-paper-2: #181410;
-  --mg-accent: #ff7a45;
-  --mg-accent-2: #ffd76a;
-  --mg-line: #f2ead8;
-  --mg-line-soft: #3b3226;
+  --bg: #111;
+  --bg-2: #1a1a1a;
+  --ink: #fafafa;
+  --ink-2: #ddd;
+  --muted: #999;
+  --muted-2: #666;
+  --line: #2a2a2a;
+  --line-soft: #1e1e1e;
+  --accent: #ff6b3d;
+
+  /* Aliases (dark) */
+  --mg-paper: var(--bg);
+  --mg-paper-2: var(--bg-2);
+  --mg-ink: var(--ink);
+  --mg-accent: var(--accent);
+  --mg-accent-2: var(--accent);
+  --mg-muted: var(--muted);
+  --mg-line: var(--line);
+  --mg-line-soft: var(--line-soft);
+  --paper: var(--bg);
+  --paper-2: var(--bg-2);
+  --font-display: var(--font-sans);
+  --font-serif: var(--font-sans);
 }
 
-/* ─── 2. Reset & Base Body ─────────────────────────────────────── */
+/* ─── 2. Reset + Base Body ───────────────────────────────────── */
 
 *, *::before, *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -77,841 +76,281 @@ html {
 }
 
 body {
-  margin: 0;
   font-family: var(--font-sans);
-  background: var(--mg-paper);
-  color: var(--mg-ink);
+  background: var(--bg);
+  color: var(--ink);
   line-height: 1.6;
-  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.04'/%3E%3C/svg%3E");
-  opacity: .45;
-}
+a { color: inherit; }
+img { max-width: 100%; display: block; }
 
-/* ─── 3. Magazine Ticker ───────────────────────────────────────── */
+/* ─── 3. Minimal Nav (.site-nav) ─────────────────────────────── */
 
-.mg-ticker {
-  overflow: hidden;
-  white-space: nowrap;
-  background: var(--mg-ink);
-  color: var(--mg-paper);
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: .08em;
-  padding: 6px 0;
-}
-
-.mg-ticker-track {
-  display: inline-block;
-  animation: mgTicker 30s linear infinite;
-}
-
-@keyframes mgTicker {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
-
-/* ─── 4. Magazine Masthead ─────────────────────────────────────── */
-
-.mg-mast {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  gap: 16px;
-  padding: 18px 48px;
-  border-bottom: 2px solid var(--mg-line);
-}
-
-.mg-issue {
-  font-family: var(--font-mono);
-  font-size: 10.5px;
-  letter-spacing: .18em;
-  text-transform: uppercase;
-  color: var(--mg-muted);
-}
-
-.mg-logo {
-  font-family: var(--font-display);
-  font-size: clamp(28px, 5vw, 48px);
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: .04em;
-  text-decoration: none;
-  color: var(--mg-ink);
-}
-
-.mg-logo::first-letter {
-  font-size: 1.18em;
-  animation: mgLetterDrop .6s ease both;
-}
-
-@keyframes mgLetterDrop {
-  from { opacity: 0; transform: translateY(-12px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-.mg-sub {
-  font-family: var(--font-mono);
-  font-size: 10.5px;
-  letter-spacing: .12em;
-  color: var(--mg-muted);
-  text-transform: uppercase;
-}
-
-.mg-nav {
+.site-nav {
   display: flex;
-  gap: 4px;
-  justify-content: center;
-  padding: 10px 48px;
-  border-bottom: 1px solid var(--mg-line-soft);
-}
-
-.mg-nav a {
-  font-family: var(--font-mono);
-  font-size: 11.5px;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var(--mg-muted);
-  padding: 6px 14px;
-  border-radius: 999px;
-  transition: color .2s, background .2s;
-}
-
-.mg-nav a:hover,
-.mg-nav a[aria-current="page"] {
-  color: var(--mg-ink);
-  background: var(--mg-paper-2);
-}
-
-/* ─── 5. Magazine Cover ────────────────────────────────────────── */
-
-.mg-cover {
-  position: relative;
-  padding: 80px 48px 60px;
-  overflow: hidden;
-}
-
-.mg-halo {
-  position: absolute;
-  top: -120px;
-  right: -80px;
-  width: 480px;
-  height: 480px;
-  border-radius: 50%;
-  border: 1.5px solid var(--mg-line-soft);
-  opacity: .25;
-  animation: mgHaloSpin 40s linear infinite;
-  pointer-events: none;
-}
-
-@keyframes mgHaloSpin {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
-}
-
-.mg-cover-grid {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 48px;
   align-items: center;
+  justify-content: space-between;
+  max-width: var(--max-w-wide);
+  margin: 0 auto;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--line);
 }
 
-.mg-tag-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 14px;
-}
-
-.mg-tag {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: .22em;
-  text-transform: uppercase;
-  color: var(--mg-accent);
-  border: 1px solid var(--mg-accent);
-  padding: 3px 10px;
-  border-radius: 999px;
-}
-
-.mg-headline {
-  font-family: var(--font-display);
-  font-size: clamp(48px, 8vw, 96px);
-  font-weight: 700;
-  line-height: .95;
-  letter-spacing: -.03em;
-  margin: 0;
-  animation: mgHeadSlide .7s ease both;
-}
-
-@keyframes mgHeadSlide {
-  from { opacity: 0; transform: translateY(20px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-.mg-kicker-cn {
-  font-family: var(--font-serif);
+.site-nav-brand {
+  font-weight: 600;
   font-size: 18px;
-  color: var(--mg-muted);
-  margin: 10px 0 0;
+  text-decoration: none;
+  color: var(--ink);
+  letter-spacing: -0.02em;
 }
 
-.mg-dek {
-  font-size: 15px;
-  color: var(--mg-muted);
+.site-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.site-nav-links a {
+  font-size: 14px;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.site-nav-links a:hover,
+.site-nav-links a.on {
+  color: var(--ink);
+}
+
+/* ─── 4. Homepage Hero (.hero) ───────────────────────────────── */
+
+.hero {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 80px 24px 48px;
+}
+
+.hero-title {
+  font-size: clamp(40px, 8vw, 72px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  margin: 0;
+}
+
+.hero-bio {
+  font-size: 18px;
+  color: var(--muted);
   margin: 16px 0 0;
-  max-width: 52ch;
-  line-height: 1.7;
+  line-height: 1.6;
+  max-width: 48ch;
 }
 
-.mg-cta {
+.hero-links {
   display: flex;
   gap: 12px;
   margin-top: 24px;
 }
 
-.mg-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-mono);
-  font-size: 12px;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 12px 28px;
-  border: 1.5px solid var(--mg-line);
-  border-radius: 999px;
-  color: var(--mg-ink);
-  background: transparent;
-  cursor: pointer;
-  transition: background .2s, color .2s, transform .2s;
-}
-
-.mg-btn:hover {
-  background: var(--mg-ink);
-  color: var(--mg-paper);
-  transform: translateY(-2px);
-}
-
-.mg-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
-  margin-top: 32px;
-}
-
-.mg-stats dt {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: .18em;
-  text-transform: uppercase;
-  color: var(--mg-muted);
-}
-
-.mg-stats dd {
-  margin: 4px 0 0;
-  font-family: var(--font-display);
-  font-size: 28px;
-  font-weight: 600;
-}
-
-/* ─── 6. Magazine Portrait ─────────────────────────────────────── */
-
-.mg-portrait {
-  position: relative;
-}
-
-.mg-portrait-inner {
-  position: relative;
-  border: 1.5px solid var(--mg-line);
-  border-radius: 18px;
-  overflow: hidden;
-  background: var(--mg-paper-2);
-}
-
-.mg-stripes {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: repeating-linear-gradient(
-    45deg,
-    transparent,
-    transparent 8px,
-    var(--mg-line-soft) 8px,
-    var(--mg-line-soft) 9px
-  );
-  opacity: .15;
-}
-
-.mg-portrait-c {
-  display: block;
-  width: 100%;
-  height: auto;
-  animation: mgFloat 6s ease-in-out infinite alternate;
-}
-
-@keyframes mgFloat {
-  from { transform: translateY(0); }
-  to   { transform: translateY(-8px); }
-}
-
-.mg-portrait-tag {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  font-family: var(--font-mono);
-  font-size: 9.5px;
-  letter-spacing: .22em;
-  text-transform: uppercase;
-  color: var(--mg-accent);
-  background: var(--mg-paper);
-  padding: 4px 10px;
-  border-radius: 999px;
-}
-
-.mg-portrait-sig {
-  position: absolute;
-  bottom: 14px;
-  right: 14px;
-  font-family: var(--font-display);
+.hero-links a {
   font-size: 14px;
-  font-style: italic;
-  color: var(--mg-muted);
-}
-
-.mg-portrait-badge {
-  position: absolute;
-  bottom: -12px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: .18em;
-  text-transform: uppercase;
-  background: var(--mg-ink);
-  color: var(--mg-paper);
-  padding: 6px 16px;
+  padding: 8px 20px;
+  border: 1px solid var(--line);
   border-radius: 999px;
-}
-
-/* ─── 7. Magazine Terminal ─────────────────────────────────────── */
-
-.mg-term {
-  background: var(--term-bg);
-  color: var(--term-fg);
-  border-radius: 14px;
-  overflow: hidden;
-  font-family: var(--font-mono);
-  font-size: 13px;
-  line-height: 1.7;
-  padding: 20px 22px;
-}
-
-.mg-term-bar {
-  display: flex;
-  gap: 7px;
-  margin-bottom: 14px;
-}
-
-.mg-term-bar::before,
-.mg-term-bar::after,
-.mg-term-bar span {
-  content: "";
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background: var(--term-muted);
-  opacity: .5;
-}
-
-/* ─── 8. Magazine Marquee ──────────────────────────────────────── */
-
-.mg-marquee {
-  overflow: hidden;
-  white-space: nowrap;
-  padding: 24px 0;
-  border-top: 1.5px solid var(--mg-line);
-  border-bottom: 1.5px solid var(--mg-line);
-}
-
-.mg-marquee-track {
-  display: inline-block;
-  font-family: var(--font-display);
-  font-size: clamp(32px, 6vw, 64px);
-  font-weight: 700;
-  letter-spacing: .02em;
-  animation: mgTicker 20s linear infinite;
-}
-
-/* ─── 9. Magazine Entries ──────────────────────────────────────── */
-
-.mg-entries {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
-  padding: 48px;
-}
-
-.mg-entry {
-  border: 1.5px solid var(--mg-line);
-  border-radius: 14px;
-  padding: 28px 26px;
-  background: var(--mg-paper);
-  transition: transform .25s, box-shadow .25s;
-}
-
-.mg-entry:hover {
-  transform: translateY(-4px);
-  box-shadow: 6px 6px 0 var(--mg-line);
-}
-
-.mg-entry-head {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 14px;
-}
-
-.mg-num {
-  font-family: var(--font-display);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1;
-  color: var(--mg-accent);
-}
-
-.mg-entry h2 {
-  font-family: var(--font-display);
-  font-size: 22px;
-  font-weight: 600;
-  margin: 0;
-  line-height: 1.3;
-}
-
-.mg-entry-meta {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: .08em;
-  color: var(--mg-muted);
-  margin-top: 10px;
-}
-
-.mg-go {
-  display: inline-flex;
-  align-items: center;
-  margin-top: 14px;
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: .14em;
-  text-transform: uppercase;
   text-decoration: none;
-  color: var(--mg-accent);
-  transition: gap .2s;
-  gap: 6px;
+  color: var(--ink);
+  transition: background 0.15s, color 0.15s;
 }
 
-.mg-go:hover {
-  gap: 10px;
+.hero-links a:hover {
+  background: var(--ink);
+  color: var(--bg);
 }
 
-/* Entry variants */
-.mg-entry.e1 {
-  grid-column: 1 / -1;
-}
+/* ─── 5. Content Section (.content) ──────────────────────────── */
 
-.mg-entry.e2 {
-  border-style: dashed;
-}
-
-/* ─── 10. Magazine Quote ───────────────────────────────────────── */
-
-.mg-quote {
-  position: relative;
-  padding: 60px 48px;
-  text-align: center;
-}
-
-.mg-quote-open {
-  font-family: var(--font-display);
-  font-size: 96px;
-  line-height: 1;
-  color: var(--mg-line-soft);
-  position: absolute;
-  top: 10px;
-  left: 48px;
-  pointer-events: none;
-}
-
-.mg-quote blockquote {
-  margin: 0;
-  font-family: var(--font-display);
-  font-size: clamp(22px, 3.5vw, 36px);
-  font-weight: 400;
-  font-style: italic;
-  line-height: 1.5;
-  max-width: 44ch;
+.content {
+  max-width: var(--max-w);
   margin: 0 auto;
+  padding: 0 24px 48px;
 }
 
-.mg-quote-sig {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: .18em;
+.section-label {
+  font-size: 12px;
+  font-weight: 600;
   text-transform: uppercase;
-  color: var(--mg-muted);
-  margin-top: 18px;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 16px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
 }
 
-/* ─── 11. Magazine Dispatch ────────────────────────────────────── */
+/* ─── 6. Post List (.post-list) ──────────────────────────────── */
 
-.mg-dispatch {
-  padding: 48px;
-}
-
-.mg-section-head {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 28px;
-}
-
-.mg-section-head::after {
-  content: "";
-  flex: 1;
-  height: 1.5px;
-  background: var(--mg-line);
-}
-
-.mg-section-head h2 {
-  font-family: var(--font-display);
-  font-size: 28px;
-  font-weight: 700;
+.post-list {
+  list-style: none;
+  padding: 0;
   margin: 0;
-  white-space: nowrap;
 }
 
-.mg-dispatch-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+.post-list li {
+  border-bottom: 1px solid var(--line-soft);
 }
 
-.mg-disp {
-  border: 1px solid var(--mg-line-soft);
-  border-radius: 10px;
-  padding: 18px 16px;
-  background: var(--mg-paper);
-  transition: transform .2s, box-shadow .2s;
-}
-
-.mg-disp:hover {
-  transform: translateY(-3px);
-  box-shadow: 4px 4px 0 var(--mg-line-soft);
-}
-
-/* ─── 12. Magazine Footer ──────────────────────────────────────── */
-
-.mg-foot {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 32px;
-  padding: 48px;
-  border-top: 2px solid var(--mg-line);
-}
-
-.mg-foot-logo {
-  font-family: var(--font-display);
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.mg-foot-c {
-  color: var(--mg-muted);
-  font-size: 13px;
-  margin: 6px 0 0;
-}
-
-.mg-foot-cols {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 32px;
-}
-
-.mg-foot-cols a {
-  font-family: var(--font-mono);
-  font-size: 11.5px;
-  letter-spacing: .06em;
-  text-decoration: none;
-  color: var(--mg-muted);
-  transition: color .2s;
-}
-
-.mg-foot-cols a:hover {
-  color: var(--mg-ink);
-}
-
-.mg-foot-meta {
-  grid-column: 1 / -1;
+.post-list a {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-top: 18px;
-  border-top: 1px solid var(--mg-line-soft);
-  font-family: var(--font-mono);
-  font-size: 10.5px;
-  color: var(--mg-muted);
-  letter-spacing: .06em;
+  align-items: baseline;
+  padding: 16px 0;
+  text-decoration: none;
+  color: var(--ink);
+  gap: 16px;
+  transition: color 0.15s;
 }
 
-.mg-foot.compact {
-  padding: 32px 48px;
-  grid-template-columns: 1fr;
-  text-align: center;
+.post-list a:hover {
+  color: var(--accent);
 }
 
-/* ─── 13. Magazine Inner Pages ─────────────────────────────────── */
-
-.mg-inner {
-  padding: 0 48px;
-  max-width: 1200px;
-  margin: 0 auto;
+.post-title {
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.mg-crumb {
-  display: flex;
-  gap: 6px;
-  font-family: var(--font-mono);
+.post-date {
+  font-size: 13px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.post-tag {
   font-size: 11px;
-  letter-spacing: .08em;
-  color: var(--mg-muted);
-  padding: 18px 0;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
-.mg-crumb a {
-  color: var(--mg-muted);
+/* ─── 7. News Promo (.news-promo) ────────────────────────────── */
+
+.news-promo {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 24px 48px;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+.news-promo a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.news-promo a:hover {
+  text-decoration: underline;
+}
+
+/* ─── 8. Minimal Footer (.site-footer) ──────────────────────── */
+
+.site-footer {
+  max-width: var(--max-w-wide);
+  margin: 0 auto;
+  padding: 24px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.site-footer a {
+  color: var(--muted);
   text-decoration: none;
 }
 
-.mg-crumb a:hover {
-  color: var(--mg-ink);
+.site-footer a:hover {
+  color: var(--ink);
+}
+
+/* ─── 9. Inner Pages ─────────────────────────────────────────── */
+
+.mg-inner {
+  max-width: var(--max-w-wide);
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 .mg-page-hero {
-  padding: 40px 0 32px;
-  border-bottom: 1.5px solid var(--mg-line);
-  margin-bottom: 32px;
+  padding: 40px 0 24px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 24px;
 }
 
 .mg-page-title {
-  font-family: var(--font-display);
-  font-size: clamp(40px, 8vw, 80px);
+  font-size: clamp(32px, 6vw, 56px);
   font-weight: 700;
-  line-height: .95;
-  letter-spacing: -.03em;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
   margin: 0;
 }
 
 .mg-page-kicker {
-  font-family: var(--font-serif);
-  font-size: 16px;
-  color: var(--mg-muted);
-  margin: 10px 0 0;
+  font-size: 15px;
+  color: var(--muted);
+  margin: 8px 0 0;
 }
+
+.mg-crumb {
+  font-size: 13px;
+  color: var(--muted);
+  padding: 16px 0;
+}
+
+.mg-crumb a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.mg-crumb a:hover { color: var(--ink); }
 
 .mg-section-rule {
-  border: none;
-  border-top: 1.5px solid var(--mg-line);
-  margin: 32px 0;
-}
-
-.mg-legal {
-  font-size: 14px;
-  line-height: 1.8;
-  color: var(--mg-ink);
-  max-width: 72ch;
-}
-
-.mg-legal h2 {
-  font-family: var(--font-display);
-  font-size: 22px;
+  font-size: 12px;
   font-weight: 600;
-  margin: 28px 0 10px;
-}
-
-.mg-legal p {
-  margin: 0 0 14px;
-  color: var(--ink-2);
-}
-
-/* ─── 14. Magazine 404 ─────────────────────────────────────────── */
-
-.mg-404 {
-  text-align: center;
-  padding: 120px 48px;
-}
-
-.mg-404-num {
-  font-family: var(--font-display);
-  font-size: clamp(80px, 20vw, 200px);
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: -.04em;
-  color: var(--mg-line-soft);
-}
-
-/* ─── 15. Terminal Hero (Shared) ───────────────────────────────── */
-
-.jn-term {
-  background: var(--term-bg);
-  color: var(--term-fg);
-  border-radius: 14px;
-  overflow: hidden;
-  font-family: var(--font-mono);
-  font-size: 13px;
-  line-height: 1.7;
-  padding: 20px 22px;
-}
-
-.jn-term-bar {
-  display: flex;
-  gap: 7px;
-  margin-bottom: 14px;
-}
-
-.jn-term-bar::before {
-  content: "";
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background: #ff5f56;
-}
-
-.jn-term-bar::after {
-  content: "";
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background: #27c93f;
-}
-
-.jn-term-bar span {
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background: #ffbd2e;
-}
-
-.jn-term-line {
-  margin: 2px 0;
-}
-
-.jn-term-prompt {
-  color: var(--term-prompt);
-}
-
-.jn-term-user {
-  color: var(--term-fg);
-}
-
-.jn-term-str {
-  color: var(--term-str);
-}
-
-.jn-term-dim {
-  color: var(--term-muted);
-}
-
-.jn-term-ok {
-  color: var(--ok);
-}
-
-.cursor {
-  display: inline-block;
-  width: 8px;
-  height: 16px;
-  background: var(--term-fg);
-  vertical-align: text-bottom;
-  animation: cursorBlink 1s step-end infinite;
-}
-
-@keyframes cursorBlink {
-  0%, 100% { opacity: 1; }
-  50%      { opacity: 0; }
-}
-
-/* ─── 16. Filter Bar ───────────────────────────────────────────── */
-
-.filter-bar {
-  background: var(--mg-paper-2);
-  border: 1.5px solid var(--mg-line);
-  border-radius: 14px;
-  padding: 18px 20px;
-  box-shadow: 6px 6px 0 var(--mg-line);
-}
-
-/* ─── 17. Filter Search ────────────────────────────────────────── */
-
-.filter-search {
-  display: grid;
-  gap: 8px;
-}
-
-.filter-search input {
-  width: 100%;
-  padding: 10px 14px;
-  background: var(--mg-paper);
-  border: 1.5px solid var(--mg-line);
-  border-radius: 8px;
-  color: var(--mg-ink);
-  font-size: 14px;
-  font-family: var(--font-mono);
-  outline: none;
-  transition: border-color .2s;
-}
-
-.filter-search input:focus {
-  border-color: var(--mg-accent);
-}
-
-/* ─── 18. Filter Meta ──────────────────────────────────────────── */
-
-.filter-meta {
-  font-family: var(--font-mono);
-  font-size: 11.5px;
-  color: var(--mg-muted);
-  letter-spacing: .04em;
-}
-
-/* ─── 19. Filter Groups ────────────────────────────────────────── */
-
-.filter-groups {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
-}
-
-.filter-group-title {
-  font-family: var(--font-mono);
-  font-size: 10.5px;
-  letter-spacing: .18em;
   text-transform: uppercase;
-  color: var(--mg-muted);
-  margin: 0 0 8px;
-  display: block;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+  margin: 24px 0 16px;
 }
 
-/* ─── 20. Chips ────────────────────────────────────────────────── */
+.mg-tag-row { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.mg-tag {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+.mg-tag.live i {
+  display: inline-block;
+  width: 6px; height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+/* ─── 10. Preserved Functional CSS ───────────────────────────── */
+
+/* ── 10a. Chips ──────────────────────────────────────────────── */
 
 .chips {
   display: flex;
@@ -944,23 +383,7 @@ body::before {
   font-style: italic;
 }
 
-/* ─── 21. Digest (General) ─────────────────────────────────────── */
-
-.digest {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 18px;
-}
-
-.digest-card {
-  background: var(--mg-paper);
-  border: 1.5px solid var(--mg-line);
-  border-radius: 14px;
-  padding: 22px 24px;
-  box-shadow: 6px 6px 0 var(--mg-line);
-}
-
-/* ─── 22. News Cards (.card) ───────────────────────────────────── */
+/* ── 10b. News Cards (.card) ─────────────────────────────────── */
 
 .card {
   border: 1.5px solid var(--mg-line);
@@ -976,7 +399,7 @@ body::before {
 }
 
 .card h3 {
-  font-family: var(--font-display);
+  font-family: var(--font-sans);
   font-size: 20px;
   font-weight: 600;
   margin: 0;
@@ -997,6 +420,9 @@ body::before {
 }
 
 .card-title-wrap {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
   flex: 1;
 }
 
@@ -1008,7 +434,7 @@ body::before {
 }
 
 .badge {
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 10.5px;
   letter-spacing: .08em;
   padding: 3px 8px;
@@ -1049,7 +475,7 @@ body::before {
   color: var(--mg-ink);
   margin: 4px 0 10px;
   line-height: 1.6;
-  font-family: var(--font-display);
+  font-family: var(--font-sans);
 }
 
 .score-pill {
@@ -1062,22 +488,15 @@ body::before {
   background: var(--mg-accent);
   color: #fff;
   border-radius: 6px;
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: .02em;
   flex-shrink: 0;
 }
 
-.card-title-wrap {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  flex: 1;
-}
-
 .source-link {
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 11px;
   color: var(--mg-muted);
   letter-spacing: .04em;
@@ -1117,7 +536,7 @@ a.source-link:hover {
   text-align: center;
   color: var(--mg-muted);
   padding: 40px 0;
-  font-family: var(--font-display);
+  font-family: var(--font-sans);
   font-size: 16px;
   grid-column: 1 / -1;
 }
@@ -1128,7 +547,7 @@ a.source-link:hover {
   gap: 16px;
 }
 
-/* ─── 23. Resources Cards (additional) ─────────────────────────── */
+/* ── 10c. Resources Cards ────────────────────────────────────── */
 
 .step-list {
   list-style: none;
@@ -1150,7 +569,7 @@ a.source-link:hover {
   content: counter(s, decimal-leading-zero);
   position: absolute;
   left: 0;
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 10.5px;
   color: var(--mg-accent);
 }
@@ -1181,7 +600,7 @@ a.source-link:hover {
   font-family: var(--font-mono);
 }
 
-/* ─── 24. Watchlist Panels ─────────────────────────────────────── */
+/* ── 10d. Watchlist Panels ───────────────────────────────────── */
 
 .watchlist-row {
   margin: 8px 0;
@@ -1197,7 +616,7 @@ a.source-link:hover {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 11.5px;
   color: var(--mg-muted);
   letter-spacing: .04em;
@@ -1209,7 +628,7 @@ a.source-link:hover {
 .meta-row strong { color: var(--mg-ink); font-weight: 600; }
 
 .result-count {
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 11.5px;
   color: var(--mg-muted);
   letter-spacing: .04em;
@@ -1220,7 +639,7 @@ a.source-link:hover {
   font-size: 12px;
 }
 
-/* ─── 25. Creator Search Panel ─────────────────────────────────── */
+/* ── 10e. Creator Search Panel ───────────────────────────────── */
 
 .creator-search-panel {
   background: var(--mg-paper-2);
@@ -1247,7 +666,7 @@ a.source-link:hover {
   overflow-y: auto;
 }
 
-/* ─── 26. Digest Panel (News Digest) ───────────────────────────── */
+/* ── 10f. Digest Panel (News Digest) ─────────────────────────── */
 
 .digest-panel {
   margin: 24px 0;
@@ -1275,7 +694,7 @@ a.source-link:hover {
 }
 
 .digest-kicker {
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 10.5px;
   letter-spacing: .22em;
   text-transform: uppercase;
@@ -1284,14 +703,14 @@ a.source-link:hover {
 }
 
 .digest-head h2 {
-  font-family: var(--font-display);
+  font-family: var(--font-sans);
   font-size: 24px;
   margin: 4px 0 0;
   font-weight: 600;
 }
 
 .digest-label {
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 11.5px;
   color: var(--mg-muted);
   margin: 4px 0 0;
@@ -1308,14 +727,14 @@ a.source-link:hover {
 }
 
 .digest-meta {
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 11px;
   color: var(--mg-muted);
   margin-bottom: 12px;
 }
 
 .digest-subtitle {
-  font-family: var(--font-display);
+  font-family: var(--font-sans);
   font-size: 18px;
   margin: 18px 0 10px;
   font-weight: 600;
@@ -1342,13 +761,13 @@ a.source-link:hover {
 
 .digest-event-list li::before {
   content: counter(event, decimal-leading-zero);
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 11px;
   color: var(--mg-accent);
   margin-right: 10px;
 }
 
-/* ─── 27. Date Filter ──────────────────────────────────────────── */
+/* ── 10g. Date Filter ────────────────────────────────────────── */
 
 .date-filter-row {
   display: flex;
@@ -1362,7 +781,7 @@ a.source-link:hover {
   background: var(--mg-paper);
   color: var(--mg-ink);
   border-radius: 8px;
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 13px;
 }
 
@@ -1372,7 +791,7 @@ a.source-link:hover {
   background: var(--mg-paper);
   color: var(--mg-ink);
   border-radius: 8px;
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 12px;
   cursor: pointer;
   transition: background .2s, color .2s;
@@ -1383,7 +802,7 @@ a.source-link:hover {
   color: var(--mg-paper);
 }
 
-/* ─── 28. Search Field ─────────────────────────────────────────── */
+/* ── 10h. Search Field ───────────────────────────────────────── */
 
 .search-field {
   display: block;
@@ -1392,7 +811,7 @@ a.source-link:hover {
 
 .search-field span {
   display: block;
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 10.5px;
   letter-spacing: .18em;
   text-transform: uppercase;
@@ -1408,7 +827,7 @@ a.source-link:hover {
   color: var(--mg-ink);
   border-radius: 8px;
   font-size: 14px;
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
 }
 
 .search-field input:focus {
@@ -1416,7 +835,7 @@ a.source-link:hover {
   outline: none;
 }
 
-/* ─── 29. Remote Row ───────────────────────────────────────────── */
+/* ── 10i. Remote Row ─────────────────────────────────────────── */
 
 .remote-row {
   display: flex;
@@ -1426,7 +845,7 @@ a.source-link:hover {
   padding: 6px 0;
 }
 
-/* ─── 30. Auth Widget ──────────────────────────────────────────── */
+/* ── 10j. Auth Widget ────────────────────────────────────────── */
 
 .header-inner {
   display: flex;
@@ -1447,7 +866,7 @@ a.source-link:hover {
   background: var(--mg-paper);
   color: var(--mg-ink);
   border-radius: 999px;
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 11px;
   cursor: pointer;
 }
@@ -1465,7 +884,7 @@ a.source-link:hover {
 }
 
 .auth-name {
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 11.5px;
   color: var(--mg-ink);
 }
@@ -1489,16 +908,16 @@ a.source-link:hover {
   text-decoration: underline;
 }
 
-/* ─── 31. Visit Stats ──────────────────────────────────────────── */
+/* ── 10k. Visit Stats ────────────────────────────────────────── */
 
 .visit-stats {
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 11px;
   color: var(--mg-muted);
   letter-spacing: .06em;
 }
 
-/* ─── 32. Theme Toggle ─────────────────────────────────────────── */
+/* ── 10l. Theme Toggle ───────────────────────────────────────── */
 
 .theme-toggle {
   width: 42px;
@@ -1528,7 +947,7 @@ html[data-theme="dark"] .theme-toggle::after {
   background: var(--mg-accent);
 }
 
-/* ─── 33. Fade-up Animation ────────────────────────────────────── */
+/* ── 10m. Fade-up Animation ──────────────────────────────────── */
 
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(8px); }
@@ -1541,14 +960,14 @@ html[data-theme="dark"] .theme-toggle::after {
 .fade-up.d3 { animation-delay: .24s; }
 .fade-up.d4 { animation-delay: .32s; }
 
-/* ─── 34. Card Animation ──────────────────────────────────────── */
+/* ── 10n. Card Animation ─────────────────────────────────────── */
 
 .card-animate {
   animation: fadeUp .45s ease both;
   animation-delay: calc(var(--stagger, 0) * 0.04s);
 }
 
-/* ─── 35. Legal Pages ──────────────────────────────────────────── */
+/* ── 10o. Legal Pages ────────────────────────────────────────── */
 
 .legal {
   max-width: 72ch;
@@ -1569,7 +988,7 @@ html[data-theme="dark"] .theme-toggle::after {
   font-size: 14px;
 }
 
-/* ─── 36. Scrollbar ────────────────────────────────────────────── */
+/* ── 10p. Scrollbar ──────────────────────────────────────────── */
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -1589,7 +1008,7 @@ html[data-theme="dark"] .theme-toggle::after {
   background: var(--mg-muted);
 }
 
-/* ─── 37. Filter Toolbar & Title (news page) ───────────────────── */
+/* ── 10q. Filter Toolbar ─────────────────────────────────────── */
 
 .filter-toolbar {
   border: 1.5px solid var(--mg-line);
@@ -1605,7 +1024,7 @@ html[data-theme="dark"] .theme-toggle::after {
 }
 
 .filter-title {
-  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-family: var(--font-mono);
   font-size: 10.5px;
   letter-spacing: .18em;
   text-transform: uppercase;
@@ -1614,73 +1033,26 @@ html[data-theme="dark"] .theme-toggle::after {
   display: block;
 }
 
-/* ─── 38. Responsive ───────────────────────────────────────────── */
+/* ─── 11. Responsive ─────────────────────────────────────────── */
 
-@media (max-width: 960px) {
-  .mg-mast,
-  .mg-cover,
-  .mg-entries,
-  .mg-quote,
-  .mg-dispatch,
-  .mg-foot,
-  .mg-inner {
-    padding-left: 22px;
-    padding-right: 22px;
-  }
-
-  .mg-cover-grid,
-  .mg-entries,
-  .mg-dispatch-list,
-  .mg-foot,
-  .mg-foot-cols {
-    grid-template-columns: 1fr;
-  }
-
-  .mg-mast {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .mg-halo {
-    display: none;
-  }
-
-  .mg-stats {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .mg-foot.compact {
-    padding: 24px 22px;
-  }
-
-  .card-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .digest-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .filter-groups {
-    grid-template-columns: 1fr;
-  }
-
-  .mg-headline {
-    font-size: clamp(36px, 12vw, 80px);
-  }
-
-  .mg-page-title {
-    font-size: clamp(36px, 10vw, 80px);
-  }
+@media (max-width: 768px) {
+  .site-nav { padding: 14px 16px; }
+  .site-nav-links { gap: 14px; }
+  .site-nav-links a { font-size: 13px; }
+  .hero { padding: 48px 16px 32px; }
+  .content { padding: 0 16px 32px; }
+  .mg-inner { padding: 0 16px; }
+  .card-grid { grid-template-columns: 1fr; }
+  .digest-grid { grid-template-columns: 1fr; }
+  .filter-groups { grid-template-columns: 1fr; }
+  .site-footer { flex-direction: column; gap: 8px; padding: 16px; }
+  .mg-page-title { font-size: clamp(28px, 8vw, 48px); }
 }
-
-/* ─── Reduced Motion ───────────────────────────────────────────── */
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
   }
 }

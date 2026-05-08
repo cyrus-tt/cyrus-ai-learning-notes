@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Cyrus的AI学习笔记 | AI资讯与AI干货</title>
+    <title>Cyrus — Field Notes</title>
     <meta
       name="description"
       content="Cyrus的AI学习笔记：非技术出身的 AI 全栈实践者的田野笔记。教程、模板、资讯，从实践到执行。"
@@ -38,7 +38,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
     />
     <link rel="stylesheet" href="./styles.css" />
 
@@ -62,238 +62,74 @@
     </script>
   </head>
   <body>
-
-    <!-- ===== Ticker Bar ===== -->
-    <div class="mg-ticker" aria-hidden="true">
-      <div class="mg-ticker-track">
-        <span>VOL.47 — 2026</span><span>✦</span>
-        <span>AI ALCHEMIST · CYRUS 宇</span><span>✦</span>
-        <span>先看资讯 · 再拿干货执行</span><span>✦</span>
-        <span>VOL.47 — 2026</span><span>✦</span>
-        <span>AI ALCHEMIST · CYRUS 宇</span><span>✦</span>
-        <span>先看资讯 · 再拿干货执行</span><span>✦</span>
+    <!-- Nav -->
+    <nav class="site-nav">
+      <a href="/" class="site-nav-brand">Cyrus</a>
+      <div class="site-nav-links">
+        <a href="/" class="on">首页</a>
+        <a href="/about.html">关于</a>
+        <a href="/field-notes/">实验室</a>
+        <a href="/news.html">资讯</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
       </div>
-    </div>
-
-    <!-- ===== Masthead ===== -->
-    <header class="mg-masthead">
-      <div class="header-inner">
-        <div class="mg-logo" aria-label="CYRUS · QUARTERLY">
-          <span class="mg-logo-letter" style="--i:0">C</span>
-          <span class="mg-logo-letter" style="--i:1">Y</span>
-          <span class="mg-logo-letter" style="--i:2">R</span>
-          <span class="mg-logo-letter" style="--i:3">U</span>
-          <span class="mg-logo-letter" style="--i:4">S</span>
-          <span class="mg-logo-dot">·</span>
-          <span class="mg-logo-letter" style="--i:5">Q</span>
-          <span class="mg-logo-letter" style="--i:6">U</span>
-          <span class="mg-logo-letter" style="--i:7">A</span>
-          <span class="mg-logo-letter" style="--i:8">R</span>
-          <span class="mg-logo-letter" style="--i:9">T</span>
-          <span class="mg-logo-letter" style="--i:10">E</span>
-          <span class="mg-logo-letter" style="--i:11">R</span>
-          <span class="mg-logo-letter" style="--i:12">L</span>
-          <span class="mg-logo-letter" style="--i:13">Y</span>
-        </div>
-        <p class="mg-issue">Issue No. 47 — May 2026</p>
-        <p class="mg-subtitle">AI Alchemist's Field Notes &amp; Executable Templates</p>
-        <nav class="mg-nav">
-          <a href="/" class="on">首页</a>
-          <a href="/about.html">关于</a>
-          <a href="/field-notes/">实验室</a>
-          <a href="/news.html">资讯</a>
-        </nav>
-        <button id="themeToggle" class="mg-theme-toggle" aria-label="切换主题">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="5"/>
-            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
-          </svg>
-        </button>
-      </div>
-    </header>
+    </nav>
 
     <main>
-      <!-- ===== Cover Section ===== -->
-      <section class="mg-cover">
-        <div class="mg-cover-content">
-          <h1 class="mg-headline">
-            <span class="l1">An<em>AI</em></span>
-            <span class="l2">Alchemist's</span>
-            <span class="l3"><em>Field</em> Notes.</span>
-          </h1>
-          <p class="mg-kicker-cn">非技术出身，用 AI 做到了工程师做的事。</p>
-          <p class="mg-desc">
-            从真实业务场景到独立产品交付，一个 AI Builder 的实践记录。
-          </p>
-          <div class="mg-cta">
-            <a href="/field-notes/" class="mg-btn primary"><span>进入实验室</span><b>→</b></a>
-            <a href="/news.html" class="mg-btn"><span>AI 资讯</span><b>→</b></a>
-            <a href="/about.html" class="mg-btn ghost"><span>关于我</span><b>→</b></a>
-          </div>
-          <div class="mg-stats-grid">
-            <div class="mg-stat">
-              <span class="mg-stat-num">30+</span>
-              <span class="mg-stat-label">Claude Skills</span>
-            </div>
-            <div class="mg-stat">
-              <span class="mg-stat-num">已交付</span>
-              <span class="mg-stat-label">付费 AI 产品</span>
-            </div>
-            <div class="mg-stat">
-              <span class="mg-stat-num">每日</span>
-              <span class="mg-stat-label">资讯更新</span>
-            </div>
-            <div class="mg-stat">
-              <span class="mg-stat-num">开源</span>
-              <span class="mg-stat-label">全站代码</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="mg-cover-portrait">
-          <div class="mg-portrait-wrap">
-            <!-- Stripes background -->
-            <div class="mg-portrait-stripes" aria-hidden="true">
-              <span></span><span></span><span></span><span></span><span></span>
-            </div>
-            <!-- Portrait letter avatar -->
-            <div class="mg-portrait-avatar">
-              <span>C</span>
-            </div>
-            <!-- Rotating badge -->
-            <div class="mg-portrait-badge" aria-hidden="true">
-              <svg viewBox="0 0 120 120" width="120" height="120">
-                <defs>
-                  <path id="badge-circle" d="M60,60 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0"/>
-                </defs>
-                <text class="mg-badge-text">
-                  <textPath href="#badge-circle">AI ALCHEMIST · CYRUS · FIELD NOTES · 2026 · </textPath>
-                </text>
-              </svg>
-            </div>
-          </div>
-          <!-- Mini terminal -->
-          <div class="mg-terminal">
-            <div class="mg-terminal-bar">
-              <span class="mg-terminal-dot red"></span>
-              <span class="mg-terminal-dot yellow"></span>
-              <span class="mg-terminal-dot green"></span>
-              <span class="mg-terminal-title">cyrus@ai-notes ~</span>
-            </div>
-            <div class="mg-terminal-body">
-              <div id="termOutput"><span class="mg-term-prompt">$</span> scanning feeds...</div>
-            </div>
-          </div>
+      <!-- Hero -->
+      <section class="hero">
+        <h1 class="hero-title">Field Notes.</h1>
+        <p class="hero-bio">用 AI 把想法变成产品的人。<br>教程、模板、复盘 — 从实践到执行。</p>
+        <div class="hero-links">
+          <a href="/field-notes/">实验室</a>
+          <a href="/news.html">资讯</a>
+          <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub ↗</a>
         </div>
       </section>
 
-      <!-- ===== Marquee ===== -->
-      <div class="mg-marquee" aria-hidden="true">
-        <div class="mg-marquee-track">
-          <span>AI ALCHEMIST</span>
-          <span>·</span>
-          <span>先看资讯</span>
-          <span>·</span>
-          <span>再拿干货执行</span>
-          <span>·</span>
-          <span>AI ALCHEMIST</span>
-          <span>·</span>
-          <span>先看资讯</span>
-          <span>·</span>
-          <span>再拿干货执行</span>
-          <span>·</span>
-        </div>
-      </div>
-
-      <!-- ===== Entry Cards ===== -->
-      <section class="mg-entries">
-        <a href="/field-notes/" class="mg-entry e1">
-          <span class="mg-entry-num">01</span>
-          <h2 class="mg-entry-title">实验室 · Field Notes</h2>
-          <p class="mg-entry-desc">教程、模板、复盘、评测。从世界500强业务落地到独立产品交付的一手实践记录。</p>
-          <span class="mg-entry-cta">进入实验室 →</span>
-        </a>
-        <a href="/news.html" class="mg-entry e2">
-          <span class="mg-entry-num">02</span>
-          <h2 class="mg-entry-title">AI 资讯</h2>
-          <p class="mg-entry-desc">聚合国内外社媒平台的 AI 信息流，每日精选附一句可执行结论。覆盖 X / YouTube / GitHub / 小红书等渠道。</p>
-          <span class="mg-entry-cta">进入资讯 →</span>
-        </a>
+      <!-- Latest Field Notes -->
+      <section class="content">
+        <div class="section-label">Latest</div>
+        <ul class="post-list">
+          <li>
+            <a href="/field-notes/claude-code-skills-guide/">
+              <span class="post-title">Claude Code 自定义 Skill 完全指南</span>
+              <span class="post-date">2026.05.08</span>
+            </a>
+          </li>
+          <li>
+            <a href="/field-notes/">
+              <span class="post-title">n8n + Ollama 本地 AI 管道</span>
+              <span class="post-date">Coming soon</span>
+            </a>
+          </li>
+          <li>
+            <a href="/field-notes/">
+              <span class="post-title">Cloudflare Pages 零成本建站</span>
+              <span class="post-date">Coming soon</span>
+            </a>
+          </li>
+        </ul>
       </section>
 
-      <!-- ===== Pull Quote ===== -->
-      <section class="mg-pullquote">
-        <blockquote>
-          <p>"信息不等于行动力。<br/>只有可执行的信息，才是这个时代的真正货币。"</p>
-          <cite>— Cyrus 宇, AI Alchemist</cite>
-        </blockquote>
-      </section>
-
-      <!-- ===== Dispatch Section ===== -->
-      <section class="mg-dispatch">
-        <div class="mg-dispatch-header">
-          <h2>Latest Dispatches</h2>
-          <p>最新田野笔记</p>
-        </div>
-        <div class="mg-dispatch-grid">
-          <a href="/field-notes/claude-code-skills-guide/" class="mg-dispatch-card" style="text-decoration:none;color:inherit;">
-            <span class="mg-dispatch-date">2026.05.08</span>
-            <h3>Claude Code 自定义 Skill 完全指南</h3>
-            <p>从零开始创建 Claude Code 自定义 Skill，附实战案例与踩坑记录。</p>
-          </a>
-          <a href="/field-notes/" class="mg-dispatch-card" style="text-decoration:none;color:inherit;">
-            <span class="mg-dispatch-date">2026.05.07</span>
-            <h3>n8n + Ollama 本地 AI 管道</h3>
-            <p>零成本搭建本地知识处理流水线的完整方案。</p>
-          </a>
-          <a href="/field-notes/" class="mg-dispatch-card" style="text-decoration:none;color:inherit;">
-            <span class="mg-dispatch-date">Coming soon</span>
-            <h3>Cloudflare Pages 零成本建站</h3>
-            <p>免费部署个人网站的完整踩坑经验。</p>
-          </a>
-          <a href="/about.html" class="mg-dispatch-card" style="text-decoration:none;color:inherit;">
-            <span class="mg-dispatch-date">About</span>
-            <h3>非技术背景 AI 全栈之路</h3>
-            <p>非技术出身，用 AI 把想法变成产品的人。</p>
-          </a>
-        </div>
+      <!-- AI News promo -->
+      <section class="content">
+        <div class="section-label">AI 资讯</div>
+        <p style="color:var(--muted);font-size:15px;margin:0 0 12px;">每日聚合全球 AI 动态，附一句可执行结论。</p>
+        <a href="/news.html" style="font-size:14px;color:var(--accent);text-decoration:none;">进入资讯 →</a>
       </section>
     </main>
 
-    <!-- ===== Magazine Footer ===== -->
-    <footer class="mg-footer">
-      <div class="mg-footer-inner">
-        <div class="mg-footer-brand">
-          <span class="mg-footer-logo">CYRUS · QUARTERLY</span>
-          <p class="mg-footer-tagline">AI Alchemist's Field Notes</p>
-        </div>
-        <div class="mg-footer-cols">
-          <div class="mg-footer-col">
-            <h4>站点</h4>
-            <a href="/about.html">关于 Cyrus</a>
-            <a href="/field-notes/">实验室</a>
-            <a href="/news.html">AI 资讯</a>
-          </div>
-          <div class="mg-footer-col">
-            <h4>法律</h4>
-            <a href="/privacy.html">隐私政策</a>
-            <a href="/disclaimer.html">免责声明</a>
-          </div>
-          <div class="mg-footer-col">
-            <h4>关注</h4>
-            <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener noreferrer">小红书</a>
-            <a href="/sitemap.xml">Sitemap</a>
-          </div>
-        </div>
-        <div class="mg-footer-meta">
-          <p>&copy; 2026 Cyrus的AI学习笔记</p>
-          <p id="visitStats" class="visit-stats">访问统计：加载中...</p>
-        </div>
-      </div>
+    <!-- Footer -->
+    <footer class="site-footer">
+      <span>© 2026 Cyrus</span>
+      <span>
+        <a href="/about.html">关于</a> ·
+        <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+      </span>
     </footer>
 
     <script src="./ui.js"></script>
     <script src="./visit-stats.js"></script>
-    <script src="./auth.js"></script>
   </body>
 </html>
