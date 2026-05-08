@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TIL · Today I Learned | Cyrus的AI学习笔记</title>
+  <meta name="description" content="每天一条，AI 实践中的碎片知识。积少成多，复利惊人。" />
+  <meta name="keywords" content="TIL,Today I Learned,AI学习,碎片知识,AI实践,Cyrus" />
+  <meta name="theme-color" content="#f2f4f7" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://cyrustyj.xyz/til/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+  <meta property="og:title" content="TIL · Today I Learned | Cyrus的AI学习笔记" />
+  <meta property="og:description" content="每天一条，AI 实践中的碎片知识。积少成多，复利惊人。" />
+  <meta property="og:url" content="https://cyrustyj.xyz/til/" />
+  <meta property="og:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TIL · Today I Learned | Cyrus的AI学习笔记" />
+  <meta name="twitter:description" content="每天一条，AI 实践中的碎片知识。积少成多，复利惊人。" />
+  <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="/styles.css" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "TIL · Today I Learned",
+      "url": "https://cyrustyj.xyz/til/",
+      "description": "每天一条，AI 实践中的碎片知识。积少成多，复利惊人。",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Cyrus的AI学习笔记",
+        "url": "https://cyrustyj.xyz/"
+      },
+      "inLanguage": "zh-CN"
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://cyrustyj.xyz/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "TIL",
+          "item": "https://cyrustyj.xyz/til/"
+        }
+      ]
+    }
+  </script>
+
+  <style>
+    .til-entry { border-bottom: 1px solid var(--line); padding: 28px 0; }
+    .til-entry:first-child { padding-top: 0; }
+    .til-entry:last-child { border-bottom: none; }
+    .til-date { font-family: var(--font-mono); font-size: 12px; color: var(--muted); letter-spacing: .06em; }
+    .til-title { font-family: var(--font-sans); font-size: 18px; font-weight: 600; margin: 6px 0 10px; line-height: 1.4; }
+    .til-body { font-size: 15px; line-height: 1.8; color: var(--ink); margin: 0 0 12px; }
+    .til-body code { font-family: var(--font-mono); font-size: 0.88em; background: var(--mg-paper-2, #f5f5f7); border: 1px solid var(--line); border-radius: 4px; padding: 2px 6px; }
+    .til-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .til-tag { font-family: var(--font-mono); font-size: 11px; letter-spacing: .08em; color: var(--accent); border: 1px solid var(--accent); border-radius: 999px; padding: 2px 10px; }
+    .til-source { font-size: 12px; color: var(--muted); margin-top: 8px; }
+    .til-count { font-size: 14px; color: var(--muted); margin-bottom: 24px; }
+  </style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="/" class="site-nav-brand">Cyrus</a>
+  <div class="site-nav-links">
+    <a href="/">首页</a>
+    <a href="/about.html">关于</a>
+    <a href="/field-notes/">实验室</a>
+    <a href="/news.html">资讯</a>
+    <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
+  </div>
+</nav>
+
+<div class="mg-inner">
+
+  <!-- Breadcrumb -->
+  <nav class="mg-crumb">
+    <a href="/">← 首页</a>
+    <span>/ TIL</span>
+  </nav>
+
+  <!-- Page hero -->
+  <section class="mg-page-hero">
+    <div class="mg-tag-row"><span class="mg-tag">&sect; TIL</span></div>
+    <h1 class="mg-page-title"><em>TIL</em></h1>
+    <p class="mg-page-subtitle">Today I Learned</p>
+    <p class="mg-page-kicker">每天一条，AI 实践中的碎片知识。积少成多，复利惊人。</p>
+  </section>
+
+  <!-- Entry count + list -->
+  <div class="mg-section-rule">&sect; ALL ENTRIES</div>
+  <p class="til-count" id="til-count"></p>
+  <div id="til-list">
+    <p style="color:var(--muted)">加载中...</p>
+  </div>
+
+</div><!-- /.mg-inner -->
+
+<footer class="site-footer">
+  <span>&copy; 2026 Cyrus</span>
+  <span>
+    <a href="/about.html">关于</a> &middot;
+    <a href="/til/">TIL</a> &middot;
+    <a href="/weekly/">周报</a> &middot;
+    <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> &middot;
+    <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+  </span>
+</footer>
+
+<script src="/ui.js"></script>
+<script src="/visit-stats.js"></script>
+<script src="/til/til.js"></script>
+</body>
+</html>
