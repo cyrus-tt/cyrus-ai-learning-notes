@@ -183,6 +183,7 @@ const state = {
   selectedDate: "",
   langByCard: {},
   digestPayload: null,
+  sortMode: "score",
   digestView: "list",
   loading: false
 };
@@ -225,7 +226,8 @@ const elements = {
   digestWeekRange: document.getElementById("digestWeekRange"),
   digestWeekMeta: document.getElementById("digestWeekMeta"),
   digestWeekBriefing: document.getElementById("digestWeekBriefing"),
-  digestWeekTopEvents: document.getElementById("digestWeekTopEvents")
+  digestWeekTopEvents: document.getElementById("digestWeekTopEvents"),
+  sortToggle: document.getElementById("newsSortToggle")
 };
 
 async function bootstrap() {
@@ -263,6 +265,20 @@ function bindEvents() {
   if (elements.remoteSearchBtn) {
     elements.remoteSearchBtn.addEventListener("click", async () => {
       await runRemoteSearch();
+    });
+  }
+
+  if (elements.sortToggle) {
+    elements.sortToggle.addEventListener("click", (event) => {
+      const btn = event.target.closest("[data-sort]");
+      if (!btn) return;
+      const mode = btn.dataset.sort;
+      if (mode === state.sortMode) return;
+      state.sortMode = mode;
+      elements.sortToggle.querySelectorAll("[data-sort]").forEach((b) => {
+        b.classList.toggle("active", b.dataset.sort === mode);
+      });
+      renderCards();
     });
   }
 
@@ -950,6 +966,10 @@ function syncSourceUi() {
     }
   }
 
+  if (elements.sortToggle) {
+    elements.sortToggle.hidden = state.source !== "ai";
+  }
+
   renderCreatorSearchVisibility();
   renderUserWatchlistChips();
 }
@@ -1213,11 +1233,15 @@ function getFilteredNews() {
     return matchesQuery && matchesPlatform && matchesStage && matchesTopic && matchesDate;
   });
 
-  if (state.source === "ai") {
+  if (state.sortMode === "score") {
     filtered.sort((a, b) => {
       const sa = Number(a.aiScore) || 0;
       const sb = Number(b.aiScore) || 0;
       if (sb !== sa) return sb - sa;
+      return (b.publishedAt || b.date || "").localeCompare(a.publishedAt || a.date || "");
+    });
+  } else {
+    filtered.sort((a, b) => {
       return (b.publishedAt || b.date || "").localeCompare(a.publishedAt || a.date || "");
     });
   }
