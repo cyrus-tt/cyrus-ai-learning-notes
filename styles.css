@@ -1145,3 +1145,54 @@ html[data-theme="dark"] .theme-toggle::after {
     flex-direction: column;
   }
 }
+
+/* ─── 13. Pagefind Search ────────────────────────────────────── */
+
+.search-section { padding: 0 24px 8px; }
+.pagefind-ui { font-family: var(--font-sans) !important; }
+.pagefind-ui .pagefind-ui__search-input {
+  font-family: var(--font-sans) !important;
+  font-size: 15px !important;
+  border: 1.5px solid var(--line) !important;
+  border-radius: 10px !important;
+  padding: 12px 16px !important;
+  background: var(--bg) !important;
+  color: var(--ink) !important;
+  box-shadow: none !important;
+  height: auto !important;
+}
+.pagefind-ui .pagefind-ui__search-input:focus {
+  border-color: var(--accent) !important;
+  outline: none !important;
+}
+.pagefind-ui .pagefind-ui__search-clear {
+  color: var(--muted) !important;
+}
+.pagefind-ui .pagefind-ui__result-link {
+  color: var(--ink) !important;
+  font-weight: 600 !important;
+}
+.pagefind-ui .pagefind-ui__result-link:hover {
+  color: var(--accent) !important;
+}
+.pagefind-ui .pagefind-ui__result-excerpt {
+  color: var(--muted) !important;
+  font-size: 14px !important;
+}
+.pagefind-ui mark {
+  background: color-mix(in srgb, var(--accent) 20%, transparent) !important;
+  color: var(--ink) !important;
+}
+.pagefind-ui .pagefind-ui__message {
+  font-family: var(--font-sans) !important;
+  color: var(--muted) !important;
+}
+.pagefind-ui .pagefind-ui__button {
+  background: var(--accent) !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+}
+
+@media (max-width: 768px) {
+  .search-section { padding: 0 16px 8px; }
+}
