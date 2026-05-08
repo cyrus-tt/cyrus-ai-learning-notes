@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>实验室 · Field Notes | Cyrus的AI学习笔记</title>
+    <meta
+      name="description"
+      content="Cyrus 的 AI 实践记录：教程、模板、复盘、工具评测。从一手经验到可执行方法。"
+    />
+    <meta
+      name="keywords"
+      content="AI教程,AI模板,AI复盘,AI工具评测,Claude Code,n8n,自动化,AI实践"
+    />
+    <meta name="theme-color" content="#f2f4f7" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://cyrustyj.xyz/field-notes/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+    <meta property="og:title" content="实验室 · Field Notes | Cyrus的AI学习笔记" />
+    <meta
+      property="og:description"
+      content="Cyrus 的 AI 实践记录：教程、模板、复盘、工具评测。从一手经验到可执行方法。"
+    />
+    <meta property="og:url" content="https://cyrustyj.xyz/field-notes/" />
+    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="实验室 · Field Notes | Cyrus的AI学习笔记" />
+    <meta
+      name="twitter:description"
+      content="Cyrus 的 AI 实践记录：教程、模板、复盘、工具评测。从一手经验到可执行方法。"
+    />
+    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Noto+Serif+SC:wght@400;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Field Notes · 实验室",
+        "url": "https://cyrustyj.xyz/field-notes/",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Cyrus的AI学习笔记",
+          "url": "https://cyrustyj.xyz/"
+        },
+        "inLanguage": "zh-CN"
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Ticker -->
+    <div class="mg-ticker" aria-hidden="true">
+      <div class="mg-ticker-track">
+        <span>FIELD NOTES · LAB</span><span>✦</span><span>从实践中来</span><span>✦</span>
+        <span>FIELD NOTES · LAB</span><span>✦</span><span>从实践中来</span><span>✦</span>
+      </div>
+    </div>
+
+    <!-- Masthead -->
+    <header class="mg-mast">
+      <div class="mg-mast-left">
+        <div class="mg-issue">LAB DEPARTMENT</div>
+        <a href="/" class="mg-logo" style="font-size:clamp(28px,5vw,56px);text-decoration:none;">
+          <span>C</span><span>Y</span><span>R</span><span>U</span><span>S</span>
+        </a>
+      </div>
+      <div class="header-inner">
+        <nav class="mg-nav">
+          <a href="/">首页</a>
+          <a href="/about.html">关于</a>
+          <a href="/field-notes/" class="on">实验室</a>
+          <a href="/news.html">资讯</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="切换明暗"></button>
+      </div>
+    </header>
+
+    <!-- Inner content -->
+    <div class="mg-inner">
+
+      <!-- Breadcrumb -->
+      <nav class="mg-crumb">
+        <a href="/">← CYRUS QUARTERLY</a>
+        <span>/ FIELD NOTES · 实验室</span>
+      </nav>
+
+      <!-- Page hero -->
+      <section class="mg-page-hero">
+        <div class="mg-tag-row"><span class="mg-tag">§ 01 · FIELD NOTES</span></div>
+        <h1 class="mg-page-title"><em>Field Notes</em><br>· <em>实验室</em></h1>
+        <p class="mg-page-kicker">教程、模板、复盘、评测。从实践中来，到执行中去。</p>
+      </section>
+
+      <!-- Filter toolbar -->
+      <section class="filter-toolbar" aria-label="实验室筛选">
+        <label class="search-field" for="resourcesSearch">
+          <span>搜索实验室</span>
+          <input id="resourcesSearch" type="search" placeholder="SEARCH · Claude Code / n8n / 自动化 …" autocomplete="off" maxlength="80" />
+        </label>
+
+        <div class="filter-groups">
+          <div class="filter-group">
+            <span class="filter-title">类型</span>
+            <div id="resourcesTypeTags" class="chips" role="group" aria-label="类型筛选"></div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-title">内容标签</span>
+            <div id="resourcesTags" class="chips" role="group" aria-label="内容标签筛选"></div>
+          </div>
+        </div>
+
+        <div class="meta-row">
+          <p class="result-count">共 <strong id="resourcesCount">0</strong> 条内容</p>
+        </div>
+      </section>
+
+      <!-- Cards grid -->
+      <div class="mg-section-rule">§ FIELD NOTES</div>
+      <section id="resourcesCards" class="card-grid" aria-live="polite"></section>
+
+    </div><!-- /.mg-inner -->
+
+    <!-- Footer -->
+    <footer class="mg-foot compact">
+      <div class="mg-foot-meta" style="justify-content:center;text-align:center;">
+        <span>© 2026 CYRUS QUARTERLY</span>
+        <span><a href="/about.html">关于</a> · <a href="/news.html">资讯</a> · <a href="/privacy.html">隐私</a> · <a href="/">首页</a></span>
+      </div>
+      <p id="visitStats" class="visit-stats" aria-live="polite">访问统计：加载中...</p>
+    </footer>
+
+    <script src="../ui.js"></script>
+    <script src="../visit-stats.js"></script>
+    <script src="../resources.js"></script>
+    <script src="../auth.js"></script>
+  </body>
+</html>

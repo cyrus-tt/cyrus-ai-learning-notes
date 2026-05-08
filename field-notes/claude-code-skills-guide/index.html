@@ -1,0 +1,946 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Claude Code 自定义 Skill 完全指南 | 实验室 · Cyrus的AI学习笔记</title>
+    <meta
+      name="description"
+      content="从零开始创建 Claude Code 自定义 Skill 的完整教程。包含文件结构、实战案例、最佳实践和踩坑记录，带你用 30 分钟搭出第一个可用 Skill。"
+    />
+    <meta
+      name="keywords"
+      content="Claude Code,Skill,自定义技能,AI开发,Claude Code教程,SKILL.md,Claude CLI,AI工作流"
+    />
+    <meta name="theme-color" content="#f2f4f7" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://cyrustyj.xyz/field-notes/claude-code-skills-guide/" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+    <meta property="og:title" content="Claude Code 自定义 Skill 完全指南 | 实验室" />
+    <meta
+      property="og:description"
+      content="从零开始创建 Claude Code 自定义 Skill 的完整教程。包含文件结构、实战案例、最佳实践和踩坑记录。"
+    />
+    <meta property="og:url" content="https://cyrustyj.xyz/field-notes/claude-code-skills-guide/" />
+    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.svg" />
+    <meta property="article:published_time" content="2026-05-08T00:00:00+08:00" />
+    <meta property="article:author" content="Cyrus" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Claude Code 自定义 Skill 完全指南" />
+    <meta name="twitter:description" content="从零开始创建 Claude Code 自定义 Skill 的完整教程。包含实战案例和踩坑记录。" />
+    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Noto+Serif+SC:wght@400;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- Structured Data: HowTo -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Claude Code 自定义 Skill 完全指南",
+        "description": "从零开始创建 Claude Code 自定义 Skill 的完整教程，包含文件结构、实战案例和最佳实践",
+        "step": [
+          {"@type": "HowToStep", "name": "理解 Skill 文件结构", "text": "Skills 是放在 .claude/skills/ 目录下的 Markdown 文件，包含 frontmatter 和指令内容"},
+          {"@type": "HowToStep", "name": "创建第一个 Skill", "text": "在 .claude/skills/ 下创建目录和 SKILL.md 文件，编写 frontmatter 和指令"},
+          {"@type": "HowToStep", "name": "参考实战案例", "text": "学习 coding-workflow、copywriting、checkpoint 等真实 Skill 的设计模式"},
+          {"@type": "HowToStep", "name": "应用最佳实践", "text": "保持单一职责、写清触发描述、包含示例、迭代测试"},
+          {"@type": "HowToStep", "name": "避免常见踩坑", "text": "注意文件名匹配、description 精确度、context 大小控制"}
+        ],
+        "author": {"@type": "Person", "name": "Cyrus", "url": "https://cyrustyj.xyz/about.html"},
+        "datePublished": "2026-05-08",
+        "dateModified": "2026-05-08",
+        "inLanguage": "zh-CN"
+      }
+    </script>
+
+    <!-- Structured Data: FAQPage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Skill 和 CLAUDE.md 有什么区别？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CLAUDE.md 是项目级的全局指令，每次对话都会加载。Skill 是按需触发的模块化能力包，只在被调用时才注入 context。把 CLAUDE.md 想成公司章程，Skill 想成各部门的 SOP 手册。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Skill 可以调用工具吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Skill 本身不直接调用工具，但可以在指令中告诉 Claude 何时使用哪些工具。比如你可以在 Skill 里写"当用户要求生成报表时，使用 Bash 工具执行 Python 脚本"。Claude 会根据 Skill 的指令决定调用哪些工具。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "一个项目最多能有多少个 Skills？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "没有硬性上限，但每个被加载的 Skill 都会占用 context window。实践中建议控制在 20-40 个，每个 Skill 保持精简（500-2000 字）。超过这个范围需要考虑合并或分层管理。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "怎么让 Skill 自动触发而不需要手动 /skill？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "关键在 description 字段。Claude 会根据用户输入匹配 description 中的关键词和场景描述来决定是否触发。写清楚触发词、使用场景、甚至反例（什么时候不触发），Claude 就能自动判断。"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Structured Data: BreadcrumbList -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://cyrustyj.xyz/"},
+          {"@type": "ListItem", "position": 2, "name": "实验室", "item": "https://cyrustyj.xyz/field-notes/"},
+          {"@type": "ListItem", "position": 3, "name": "Claude Code 自定义 Skill 完全指南"}
+        ]
+      }
+    </script>
+
+    <style>
+      /* ─── Article Body ─────────────────────────────────────────────── */
+      .article-body {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 0 0 48px;
+        font-size: 16px;
+        line-height: 1.85;
+        color: var(--mg-ink);
+      }
+
+      .article-body > p {
+        margin: 0 0 18px;
+      }
+
+      .article-body > p:first-child {
+        font-family: var(--font-serif);
+        font-size: 18px;
+        line-height: 1.9;
+        color: var(--mg-muted);
+        border-left: 3px solid var(--mg-accent);
+        padding-left: 18px;
+        margin-bottom: 32px;
+      }
+
+      .article-body h2 {
+        font-family: var(--font-display);
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -.02em;
+        margin: 48px 0 18px;
+        padding-bottom: 10px;
+        border-bottom: 1.5px solid var(--mg-line);
+      }
+
+      .article-body h3 {
+        font-family: var(--font-display);
+        font-size: 20px;
+        font-weight: 600;
+        margin: 32px 0 12px;
+        color: var(--mg-ink);
+      }
+
+      .article-body strong {
+        font-weight: 600;
+      }
+
+      .article-body ul,
+      .article-body ol {
+        padding-left: 24px;
+        margin: 0 0 18px;
+      }
+
+      .article-body li {
+        margin-bottom: 8px;
+      }
+
+      .article-body a {
+        color: var(--mg-accent);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
+      .article-body a:hover {
+        color: var(--mg-ink);
+      }
+
+      /* Code: inline */
+      .article-body code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--mg-paper-2);
+        border: 1px solid var(--mg-line-soft);
+        border-radius: 4px;
+        padding: 2px 6px;
+        word-break: break-word;
+      }
+
+      /* Code: blocks */
+      .article-body pre {
+        background: var(--term-bg);
+        color: var(--term-fg);
+        font-family: var(--font-mono);
+        font-size: 13.5px;
+        line-height: 1.7;
+        border-radius: 12px;
+        padding: 20px 22px;
+        overflow-x: auto;
+        margin: 18px 0 24px;
+        position: relative;
+      }
+
+      .article-body pre code {
+        background: none;
+        border: none;
+        padding: 0;
+        font-size: inherit;
+        color: inherit;
+      }
+
+      .article-body pre .code-label {
+        display: block;
+        font-size: 10.5px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--term-muted);
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(255,255,255,.08);
+      }
+
+      .article-body pre .term-dots {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 12px;
+      }
+
+      .article-body pre .term-dots span {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--term-muted);
+        opacity: .45;
+      }
+
+      /* Tip box */
+      .tip-box {
+        background: color-mix(in srgb, var(--ok) 8%, var(--mg-paper));
+        border: 1px solid color-mix(in srgb, var(--ok) 25%, var(--mg-line-soft));
+        border-left: 4px solid var(--ok);
+        border-radius: 0 10px 10px 0;
+        padding: 16px 20px;
+        margin: 20px 0 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      .tip-box::before {
+        content: "TIP";
+        display: block;
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .22em;
+        font-weight: 600;
+        color: var(--ok);
+        margin-bottom: 6px;
+      }
+
+      /* Pitfall box */
+      .pitfall-box {
+        background: color-mix(in srgb, var(--mg-accent) 6%, var(--mg-paper));
+        border: 1px solid color-mix(in srgb, var(--mg-accent) 20%, var(--mg-line-soft));
+        border-left: 4px solid var(--mg-accent);
+        border-radius: 0 10px 10px 0;
+        padding: 16px 20px;
+        margin: 20px 0 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      .pitfall-box::before {
+        content: "PITFALL";
+        display: block;
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .22em;
+        font-weight: 600;
+        color: var(--mg-accent);
+        margin-bottom: 6px;
+      }
+
+      /* Article meta line */
+      .article-meta {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        font-family: var(--font-mono);
+        font-size: 12px;
+        letter-spacing: .06em;
+        color: var(--mg-muted);
+        margin-top: 14px;
+      }
+
+      /* FAQ accordion */
+      .article-faq {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 32px 0 48px;
+        border-top: 1.5px solid var(--mg-line);
+      }
+
+      .article-faq h2 {
+        font-family: var(--font-display);
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0 0 24px;
+      }
+
+      .article-faq details {
+        border: 1px solid var(--mg-line-soft);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background: var(--mg-paper);
+        transition: box-shadow .2s;
+      }
+
+      .article-faq details[open] {
+        box-shadow: 4px 4px 0 var(--mg-line-soft);
+      }
+
+      .article-faq summary {
+        cursor: pointer;
+        font-family: var(--font-sans);
+        font-weight: 600;
+        font-size: 15px;
+        padding: 14px 18px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+      }
+
+      .article-faq summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .article-faq summary::after {
+        content: "+";
+        font-family: var(--font-mono);
+        font-size: 18px;
+        color: var(--mg-accent);
+        flex-shrink: 0;
+        transition: transform .2s;
+      }
+
+      .article-faq details[open] summary::after {
+        transform: rotate(45deg);
+      }
+
+      .article-faq .faq-answer {
+        padding: 0 18px 16px;
+        font-size: 14.5px;
+        line-height: 1.75;
+        color: var(--mg-muted);
+      }
+
+      .article-faq .faq-answer code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--mg-paper-2);
+        border: 1px solid var(--mg-line-soft);
+        border-radius: 4px;
+        padding: 2px 6px;
+      }
+
+      /* Related / CTA */
+      .article-cta {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 0 0 48px;
+      }
+
+      .cta-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .cta-card a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1.5px solid var(--mg-line);
+        border-radius: 14px;
+        padding: 28px 20px;
+        text-decoration: none;
+        color: var(--mg-ink);
+        background: var(--mg-paper);
+        transition: transform .25s, box-shadow .25s;
+      }
+
+      .cta-card a:hover {
+        transform: translateY(-4px);
+        box-shadow: 6px 6px 0 var(--mg-line);
+      }
+
+      .cta-card a .cta-label {
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--mg-accent);
+        margin-bottom: 8px;
+      }
+
+      .cta-card a .cta-title {
+        font-family: var(--font-display);
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .cta-card a .cta-desc {
+        font-size: 13px;
+        color: var(--mg-muted);
+        margin-top: 6px;
+      }
+
+      /* Skill card in article */
+      .skill-showcase {
+        border: 1.5px solid var(--mg-line);
+        border-radius: 14px;
+        padding: 24px;
+        margin: 20px 0 28px;
+        background: var(--mg-paper);
+      }
+
+      .skill-showcase-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 14px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--mg-line-soft);
+      }
+
+      .skill-showcase-num {
+        font-family: var(--font-display);
+        font-size: 32px;
+        font-weight: 700;
+        color: var(--mg-accent);
+        line-height: 1;
+      }
+
+      .skill-showcase-name {
+        font-family: var(--font-mono);
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: .04em;
+      }
+
+      .skill-showcase-desc {
+        font-size: 14px;
+        color: var(--mg-muted);
+        margin: 0;
+      }
+
+      .skill-showcase p {
+        font-size: 14.5px;
+        line-height: 1.75;
+        margin: 10px 0;
+      }
+
+      .skill-showcase pre {
+        margin: 14px 0;
+      }
+
+      /* Dark mode overrides */
+      html[data-theme="dark"] .tip-box {
+        background: color-mix(in srgb, var(--ok) 10%, var(--mg-paper));
+        border-color: color-mix(in srgb, var(--ok) 20%, var(--mg-line-soft));
+      }
+
+      html[data-theme="dark"] .pitfall-box {
+        background: color-mix(in srgb, var(--mg-accent) 8%, var(--mg-paper));
+        border-color: color-mix(in srgb, var(--mg-accent) 15%, var(--mg-line-soft));
+      }
+
+      html[data-theme="dark"] .article-faq details {
+        background: var(--mg-paper-2);
+        border-color: var(--mg-line-soft);
+      }
+
+      html[data-theme="dark"] .skill-showcase {
+        background: var(--mg-paper-2);
+      }
+
+      html[data-theme="dark"] .cta-card a {
+        background: var(--mg-paper-2);
+      }
+
+      /* Responsive */
+      @media (max-width: 960px) {
+        .cta-card {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Ticker -->
+    <div class="mg-ticker" aria-hidden="true">
+      <div class="mg-ticker-track">
+        <span>FIELD NOTES &middot; TUTORIAL</span><span>&#10022;</span>
+        <span>CLAUDE CODE SKILLS</span><span>&#10022;</span>
+        <span>FIELD NOTES &middot; TUTORIAL</span><span>&#10022;</span>
+        <span>CLAUDE CODE SKILLS</span><span>&#10022;</span>
+      </div>
+    </div>
+
+    <!-- Masthead -->
+    <header class="mg-mast">
+      <div class="mg-mast-left">
+        <div class="mg-issue">FIELD NOTES</div>
+        <a href="/" class="mg-logo" style="font-size:clamp(28px,5vw,56px);text-decoration:none;">
+          <span>C</span><span>Y</span><span>R</span><span>U</span><span>S</span>
+        </a>
+      </div>
+      <div class="header-inner">
+        <nav class="mg-nav">
+          <a href="/">首页</a>
+          <a href="/about.html">关于</a>
+          <a href="/field-notes/" class="on">实验室</a>
+          <a href="/news.html">资讯</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="切换明暗"></button>
+      </div>
+    </header>
+
+    <!-- Inner content -->
+    <div class="mg-inner">
+
+      <!-- Breadcrumb -->
+      <nav class="mg-crumb">
+        <a href="/">← CYRUS QUARTERLY</a>
+        <span>/ <a href="/field-notes/">Field Notes</a></span>
+        <span>/ Claude Code 自定义 Skill 完全指南</span>
+      </nav>
+
+      <!-- Article hero -->
+      <section class="mg-page-hero">
+        <div class="mg-tag-row">
+          <span class="mg-tag">TUTORIAL</span>
+        </div>
+        <h1 class="mg-page-title">Claude Code<br>自定义 <em>Skill</em> 完全指南</h1>
+        <div class="article-meta">
+          <time datetime="2026-05-08">2026.05.08</time>
+          <span>&middot;</span>
+          <span>约 10 分钟阅读</span>
+        </div>
+      </section>
+
+      <!-- Article body -->
+      <article class="article-body">
+
+        <p>Claude Code 开箱即用已经很强，但真正让它变成「你的」工具的方法是自定义 Skill。我在日常工作中积累了 30+ 个 Skill，覆盖编码工作流、内容创作、context 管理等场景。这篇教程把我踩过的坑和验证过的模式全部摊开，带你从零搭出第一个可用的 Skill。</p>
+
+        <h2>什么是 Skill？</h2>
+
+        <p>Skill 是 Claude Code 的<strong>模块化能力扩展</strong>。每个 Skill 本质上是一个 Markdown 文件，里面写着 Claude 在特定场景下应该遵循的指令、流程和约束。</p>
+
+        <p>跟直接在对话里贴一大段 prompt 不同，Skill 的优势在于：</p>
+
+        <ul>
+          <li><strong>按需加载</strong> &mdash; 只在触发时才占用 context window，不浪费 token</li>
+          <li><strong>可复用</strong> &mdash; 写一次，所有项目都能用</li>
+          <li><strong>可分享</strong> &mdash; 团队成员或社区可以直接复制你的 Skill 文件</li>
+          <li><strong>可迭代</strong> &mdash; 每次使用后根据输出质量调优，Skill 会越来越好</li>
+        </ul>
+
+        <div class="tip-box">
+          把 Skill 想成你为 Claude 写的 SOP（标准作业程序）。你不需要每次口头交代流程，写成文件丢进去就行。
+        </div>
+
+        <h2>1. Skill 文件结构</h2>
+
+        <p>一个 Skill 由一个目录和一个 <code>SKILL.md</code> 文件组成：</p>
+
+        <pre><code><span class="code-label">目录结构</span>.claude/
+  skills/
+    my-first-skill/
+      SKILL.md          # Skill 主文件
+    coding-workflow/
+      SKILL.md
+    xiaohongshu-copy/
+      SKILL.md</code></pre>
+
+        <p>Claude Code 会在两个位置查找 Skills：</p>
+
+        <ul>
+          <li><strong>项目级</strong>：<code>&lt;project-root&gt;/.claude/skills/</code> &mdash; 只在当前项目生效</li>
+          <li><strong>用户级</strong>：<code>~/.claude/skills/</code> &mdash; 所有项目都能用</li>
+        </ul>
+
+        <p><code>SKILL.md</code> 的核心结构是 YAML frontmatter + Markdown 指令：</p>
+
+        <pre><code><span class="code-label">SKILL.md 基本结构</span>---
+name: my-skill-name
+description: 一句话说清这个 Skill 干什么、什么时候触发
+---
+
+# Skill 标题
+
+## 触发条件
+当用户要求 XXX 时使用本 Skill。
+
+## 执行流程
+1. 第一步做什么
+2. 第二步做什么
+3. 第三步做什么
+
+## 输出格式
+- 格式要求 A
+- 格式要求 B
+
+## 示例
+(给 Claude 看的输入输出示例)</code></pre>
+
+        <p>两个字段最关键：</p>
+
+        <ul>
+          <li><code>name</code> &mdash; Skill 的唯一标识，用户通过 <code>/skill-name</code> 手动调用</li>
+          <li><code>description</code> &mdash; Claude 用来<strong>自动判断</strong>是否触发的依据，后面会详细讲</li>
+        </ul>
+
+        <h2>2. 创建你的第一个 Skill</h2>
+
+        <p>动手比看文档有用。我们来做一个「Git 提交规范化」Skill &mdash; 让 Claude 每次帮你写 commit message 时遵循固定格式。</p>
+
+        <h3>Step 1: 创建目录</h3>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>mkdir -p .claude/skills/git-commit-style</code></pre>
+
+        <h3>Step 2: 编写 SKILL.md</h3>
+
+        <pre><code><span class="code-label">.claude/skills/git-commit-style/SKILL.md</span>---
+name: git-commit-style
+description: 规范化 Git commit message 格式。当用户要求提交代码、
+  创建 commit、写 commit message 时使用。触发词：提交、commit、
+  git commit。
+---
+
+# Git Commit Style Guide
+
+## 格式规范
+所有 commit message 必须遵循以下格式：
+
+```
+&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;
+
+&lt;body&gt;
+```
+
+### type 可选值
+- feat: 新功能
+- fix: 修复 bug
+- refactor: 重构（不改功能、不修 bug）
+- docs: 文档变更
+- style: 代码格式（不影响逻辑）
+- test: 增加测试
+- chore: 构建/工具链变更
+
+### scope
+用模块名或文件名，例如：auth、api、ui
+
+### subject
+- 中文或英文均可，保持项目一致性
+- 不超过 50 字符
+- 不加句号
+
+## 执行要求
+1. 先运行 `git diff --staged` 查看变更
+2. 根据变更内容选择 type
+3. 写出 commit message 并展示给用户确认
+4. 用户确认后执行 `git commit`
+
+## 示例
+输入：用户说"帮我提交一下"
+输出：
+```
+feat(auth): 添加 OAuth2 登录支持
+
+- 集成 Google OAuth2 provider
+- 新增 /api/auth/callback 端点
+- 添加 session token 生成逻辑
+```</code></pre>
+
+        <h3>Step 3: 测试</h3>
+
+        <p>在 Claude Code 中修改一些代码，然后说「帮我提交」。观察 Claude 是否自动使用了你的 commit 格式。如果没有触发，检查 <code>description</code> 是否包含了你说的关键词。</p>
+
+        <div class="tip-box">
+          第一次测试建议用 <code>/git-commit-style</code> 手动调用，确认 Skill 内容被正确加载后，再测试自动触发。
+        </div>
+
+        <h2>3. 实战案例 &mdash; 从 30+ Skills 中精选</h2>
+
+        <p>光看模板学不到设计思路。下面三个是我实际使用的 Skill，每个代表一种典型模式。</p>
+
+        <!-- Case 1 -->
+        <div class="skill-showcase">
+          <div class="skill-showcase-header">
+            <span class="skill-showcase-num">01</span>
+            <div>
+              <div class="skill-showcase-name">coding-workflow-default</div>
+              <p class="skill-showcase-desc">统一编码工作流 &mdash; 强制分支开发 + 测试 + 提交标准</p>
+            </div>
+          </div>
+
+          <p><strong>设计动机：</strong>Claude Code 默认会直接在当前分支改代码，没有分支隔离。当你同时做多个任务时很容易搞乱。这个 Skill 强制 Claude 走「分支 &rarr; 开发 &rarr; 测试 &rarr; 提交」的标准流程。</p>
+
+          <pre><code><span class="code-label">frontmatter 片段</span>---
+name: coding-workflow-default
+description: Unified default skill for all programming tasks.
+  Use by default for any coding, debugging, refactor, release,
+  or project setup task.
+---</code></pre>
+
+          <p><strong>指令核心要点：</strong></p>
+          <ul>
+            <li>任何代码变更必须在新分支上进行</li>
+            <li>提交前必须运行测试</li>
+            <li>commit message 遵循 Conventional Commits</li>
+            <li>完成后提示用户创建 PR 或合并</li>
+          </ul>
+
+          <p><strong>关键设计决策：</strong>description 写了 <code>Use by default for any coding task</code>，这意味着几乎所有编码相关的对话都会触发。这是有意为之 &mdash; 编码工作流应该是全局默认行为，不需要用户记得去调用。</p>
+        </div>
+
+        <!-- Case 2 -->
+        <div class="skill-showcase">
+          <div class="skill-showcase-header">
+            <span class="skill-showcase-num">02</span>
+            <div>
+              <div class="skill-showcase-name">xiaohongshu-copywriting</div>
+              <p class="skill-showcase-desc">生成小红书爆款文案（标题 + 正文 + 标签）</p>
+            </div>
+          </div>
+
+          <p><strong>设计动机：</strong>小红书文案有一套独特的语感和结构 &mdash; 标题要有数字和情绪词，正文要口语化但不低质，标签要覆盖搜索词。每次跟 Claude 解释这些规则太烦了，写成 Skill 一劳永逸。</p>
+
+          <pre><code><span class="code-label">frontmatter 片段</span>---
+name: xiaohongshu-copywriting
+description: 为商品生成爆款小红书风格文案（标题+正文+标签）
+---</code></pre>
+
+          <p><strong>指令核心要点：</strong></p>
+          <ul>
+            <li>标题公式：数字 + 痛点/好奇 + 品类词，控制在 20 字以内</li>
+            <li>正文结构：hook &rarr; 痛点 &rarr; 解决方案 &rarr; 使用感受 &rarr; CTA</li>
+            <li>语气约束：像朋友聊天，禁止「首先其次最后」结构</li>
+            <li>标签要求：5-8 个，包含大词 + 长尾词 + 场景词</li>
+          </ul>
+
+          <p><strong>关键设计决策：</strong>在 Skill 内容里放了 3 个完整的「好文案 vs 坏文案」对比示例。这比写 10 条规则都有效 &mdash; Claude 从示例中学到的模式比从抽象规则中学到的更精确。</p>
+        </div>
+
+        <!-- Case 3 -->
+        <div class="skill-showcase">
+          <div class="skill-showcase-header">
+            <span class="skill-showcase-num">03</span>
+            <div>
+              <div class="skill-showcase-name">context-checkpoint</div>
+              <p class="skill-showcase-desc">Context 快满时自动导出进度，防止信息丢失</p>
+            </div>
+          </div>
+
+          <p><strong>设计动机：</strong>Claude Code 的 context window 有上限，长对话会触发 auto-compaction（自动压缩），可能丢失关键信息。这个 Skill 在 context 接近上限时，自动把当前任务状态、决策和待办导出到文件，然后 <code>/clear</code> 重新加载。</p>
+
+          <pre><code><span class="code-label">frontmatter 片段</span>---
+name: context-checkpoint
+description: Context 管理技能。当 context 接近上限时，自动将
+  当前任务状态、决策和待办导出到 checkpoint 文件，然后 /clear
+  重新加载。防止 auto-compaction 造成关键信息丢失。
+  触发词：/checkpoint、context 快满了、保存进度
+---</code></pre>
+
+          <p><strong>指令核心要点：</strong></p>
+          <ul>
+            <li>导出内容：当前任务描述、已完成步骤、进行中步骤、待办、关键决策</li>
+            <li>文件位置：<code>.claude/checkpoints/YYYY-MM-DD-HHMMSS.md</code></li>
+            <li>恢复机制：配套的 <code>resume-cp</code> Skill 读取最新 checkpoint 继续工作</li>
+          </ul>
+
+          <p><strong>关键设计决策：</strong>description 中同时写了自动触发条件（「context 接近上限」）和手动触发词（「/checkpoint」）。这样 Claude 在感知到 context 压力时会主动提议保存，用户也能随时手动触发。</p>
+        </div>
+
+        <h2>4. Skill 设计最佳实践</h2>
+
+        <p>写了 30+ 个 Skill 之后，以下是我验证过的设计原则：</p>
+
+        <h3>单一职责</h3>
+        <p>一个 Skill 只做一件事。如果你发现自己在一个 Skill 里塞了「代码审查 + 提交 + 部署」三个流程，拆成三个 Skill。原因：Claude 对焦点清晰的指令执行力远好于大杂烩。</p>
+
+        <h3>description 是灵魂</h3>
+        <p><code>description</code> 决定了 Claude 什么时候自动触发这个 Skill。写法要覆盖三个维度：</p>
+        <ol>
+          <li><strong>功能描述</strong> &mdash; 这个 Skill 做什么</li>
+          <li><strong>触发场景</strong> &mdash; 用户说了什么话时应该触发</li>
+          <li><strong>反例</strong>（可选） &mdash; 什么情况下不应该触发</li>
+        </ol>
+
+        <pre><code><span class="code-label">好的 description 示例</span>description: 生成小红书风格文案。当用户提到"小红书"、"文案"、
+  "标题"、"爆款"、"种草"时触发。当用户只是讨论小红书平台趋势
+  或运营策略时不触发 —— 只在需要实际生成文案时激活。</code></pre>
+
+        <h3>放示例，不堆规则</h3>
+        <p>Claude 从具体示例中学到的模式比抽象规则精确得多。与其写 10 条排版规则，不如给 2 个好示例 + 1 个坏示例（标注为什么不好）。</p>
+
+        <h3>控制长度</h3>
+        <p>每个 Skill 控制在 500-2000 字。超过 2000 字说明你在一个 Skill 里塞了太多东西，考虑拆分。低于 500 字可能指令不够明确，Claude 会自由发挥。</p>
+
+        <h3>迭代调优</h3>
+        <p>Skill 不是写完就定稿的。每次使用后看 Claude 的输出：</p>
+        <ul>
+          <li>输出符合预期 &rarr; 不动</li>
+          <li>某个环节总是偏 &rarr; 加一条针对性约束</li>
+          <li>整体方向不对 &rarr; 回到 description，可能触发条件写歪了</li>
+        </ul>
+
+        <h2>5. 踩坑记录</h2>
+
+        <p>以下是我（和社区里的用户）实际踩过的坑：</p>
+
+        <div class="pitfall-box">
+          <strong>目录名 vs name 字段不匹配</strong><br>
+          目录叫 <code>my-skill</code>，但 frontmatter 里 <code>name: mySkill</code>。用户输入 <code>/my-skill</code> 时匹配不上。保持一致：目录名 = name 字段，用短横线分隔。
+        </div>
+
+        <div class="pitfall-box">
+          <strong>description 写得太模糊</strong><br>
+          <code>description: 帮助用户完成各种任务</code> &mdash; 这等于没写。Claude 不知道「各种任务」是什么，结果是永远不触发。description 要具体到使用场景和触发关键词。
+        </div>
+
+        <div class="pitfall-box">
+          <strong>Skill 内容过长吃掉 context</strong><br>
+          有人把整本风格指南塞进一个 Skill（5000+ 字）。每次触发都消耗大量 context window，导致后续对话很快达到上限。解法：只放「Claude 做决策时必须知道的信息」，参考文档用链接指向外部文件。
+        </div>
+
+        <div class="pitfall-box">
+          <strong>忘记写中文触发词</strong><br>
+          description 全英文，但用户说中文。Claude 的跨语言匹配不是 100% 可靠的。如果你的用户群说中文，description 里必须包含中文关键词。比如 <code>触发词："小红书""文案""种草""爆款"</code>。
+        </div>
+
+        <div class="pitfall-box">
+          <strong>Skill 之间互相冲突</strong><br>
+          两个 Skill 的 description 覆盖了同样的场景，Claude 不知道用哪个。解法：给 Skill 划清边界，在 description 里写明「本 Skill 处理 X，不处理 Y（Y 由另一个 Skill 负责）」。
+        </div>
+
+        <h2>总结</h2>
+
+        <ul>
+          <li>Skill = Markdown 文件，放在 <code>.claude/skills/</code> 目录下</li>
+          <li><code>description</code> 写得好不好直接决定 Skill 触发率</li>
+          <li>给示例比堆规则有效；控制长度在 500-2000 字</li>
+          <li>先手动调用确认生效，再测试自动触发</li>
+          <li>从一个简单 Skill 开始，迭代出适合你工作流的 Skill 库</li>
+        </ul>
+
+      </article>
+
+      <!-- FAQ Section -->
+      <section class="article-faq">
+        <h2>常见问题</h2>
+
+        <details>
+          <summary>Skill 和 CLAUDE.md 有什么区别？</summary>
+          <div class="faq-answer">
+            <p><code>CLAUDE.md</code> 是项目级的全局指令，每次对话都会加载，适合放项目规范、代码风格、架构约束等「始终生效」的信息。Skill 是按需触发的模块化能力包，只在被调用时才注入 context。</p>
+            <p>把 <code>CLAUDE.md</code> 想成公司章程 &mdash; 人人必须遵守；Skill 想成各部门的 SOP 手册 &mdash; 只有执行特定任务时才翻出来。两者配合使用效果最好：<code>CLAUDE.md</code> 放全局规则，Skill 放专项流程。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Skill 可以调用工具吗？</summary>
+          <div class="faq-answer">
+            <p>Skill 本身不直接调用工具，但可以在指令中告诉 Claude 何时使用哪些工具。比如你可以在 Skill 里写「当用户要求生成报表时，使用 Bash 工具执行 Python 脚本」。Claude 会根据 Skill 的指令决定调用哪些工具。</p>
+            <p>更高级的用法：在 Skill 中引用 MCP server 提供的工具，比如 <code>使用 mcp__notion__search 搜索相关页面</code>。只要 MCP 工具已经在 Claude Code 中注册，Skill 就能引导 Claude 使用它们。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>一个项目最多能有多少个 Skills？</summary>
+          <div class="faq-answer">
+            <p>没有硬性上限，但每个被加载的 Skill 都会占用 context window。实践中建议控制在 20-40 个，每个 Skill 保持精简（500-2000 字）。</p>
+            <p>如果你超过 40 个 Skill，考虑：(1) 合并功能相近的 Skill；(2) 把不常用的从用户级移到项目级，按需启用；(3) 检查是否有 Skill 可以被 <code>CLAUDE.md</code> 里的一条规则替代。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>怎么让 Skill 自动触发而不需要手动 /skill？</summary>
+          <div class="faq-answer">
+            <p>关键在 <code>description</code> 字段。Claude 会根据用户输入匹配 description 中的关键词和场景描述来决定是否触发。写法有三层：</p>
+            <p><strong>基础：</strong>列出触发关键词，如 <code>触发词：提交、commit、git commit</code>。</p>
+            <p><strong>进阶：</strong>描述触发场景，如 <code>当用户要求提交代码或讨论 commit 规范时使用</code>。</p>
+            <p><strong>高级：</strong>加反例，如 <code>当用户只是问 git 原理不需要实际操作时不触发</code>。这能有效降低误触率。</p>
+          </div>
+        </details>
+      </section>
+
+      <!-- Related / CTA -->
+      <section class="article-cta">
+        <div class="cta-card">
+          <a href="/field-notes/">
+            <span class="cta-label">FIELD NOTES</span>
+            <span class="cta-title">实验室</span>
+            <span class="cta-desc">更多教程、模板、复盘和工具评测</span>
+          </a>
+          <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">
+            <span class="cta-label">XIAOHONGSHU</span>
+            <span class="cta-title">小红书 @Cyrus 宇</span>
+            <span class="cta-desc">AI 实践、工具评测、提效方法论</span>
+          </a>
+        </div>
+      </section>
+
+    </div><!-- /.mg-inner -->
+
+    <!-- Footer -->
+    <footer class="mg-foot compact">
+      <div class="mg-foot-meta" style="justify-content:center;text-align:center;">
+        <span>&copy; 2026 CYRUS QUARTERLY</span>
+        <span><a href="/about.html">关于</a> &middot; <a href="/news.html">资讯</a> &middot; <a href="/privacy.html">隐私</a> &middot; <a href="/">首页</a></span>
+      </div>
+      <p id="visitStats" class="visit-stats" aria-live="polite">访问统计：加载中...</p>
+    </footer>
+
+    <script src="/ui.js"></script>
+    <script src="/visit-stats.js"></script>
+  </body>
+</html>

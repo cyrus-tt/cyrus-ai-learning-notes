@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>关于 Cyrus | Cyrus的AI学习笔记</title>
+  <meta name="description" content="Cyrus 宇 — 非技术出身的 AI 全栈实践者。世界500强业务场景 AI 落地经验，独立 AI 产品创造者。" />
+  <meta name="keywords" content="Cyrus,AI Builder,AI全栈,Claude Code,AI Agent,知脉,ZhiMai" />
+  <meta name="theme-color" content="#f2f4f7" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://cyrustyj.xyz/about.html" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+  <meta property="og:title" content="关于 Cyrus | Cyrus的AI学习笔记" />
+  <meta property="og:description" content="非技术出身，用 AI 做到了工程师做的事。" />
+  <meta property="og:url" content="https://cyrustyj.xyz/about.html" />
+  <meta property="og:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="关于 Cyrus | Cyrus的AI学习笔记" />
+  <meta name="twitter:description" content="非技术出身，用 AI 做到了工程师做的事。" />
+  <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Noto+Serif+SC:wght@400;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="./styles.css" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Cyrus",
+      "alternateName": "Cyrus 宇",
+      "url": "https://cyrustyj.xyz",
+      "description": "非技术背景 AI 全栈实践者，世界500强业务场景 AI 落地经验，独立 AI 产品创造者",
+      "jobTitle": "AI Practitioner & Builder",
+      "knowsAbout": ["AI Agent", "Claude Code", "n8n", "Prompt Engineering", "AEO"],
+      "sameAs": ["https://xhslink.com/m/AQ5LCxoWJeF", "https://github.com/cyrus-tt"]
+    }
+  </script>
+
+  <style>
+    /* ─── About Page: Hero ─────────────────────────────────────────── */
+    .about-hero {
+      text-align: center;
+      padding: 60px 0 48px;
+      border-bottom: 1.5px solid var(--mg-line);
+      margin-bottom: 48px;
+    }
+
+    .about-hero-name {
+      font-family: var(--font-display);
+      font-size: clamp(48px, 10vw, 96px);
+      font-weight: 700;
+      line-height: .95;
+      letter-spacing: -.03em;
+      margin: 0;
+    }
+
+    .about-hero-tagline {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--mg-accent);
+      margin: 16px 0 0;
+    }
+
+    .about-hero-oneliner {
+      font-family: var(--font-serif);
+      font-size: 20px;
+      color: var(--mg-muted);
+      margin: 14px auto 0;
+      max-width: 36ch;
+      line-height: 1.6;
+    }
+
+    /* ─── About Page: Timeline ─────────────────────────────────────── */
+    .about-timeline {
+      position: relative;
+      padding: 0 0 0 36px;
+      margin: 0 0 48px;
+      list-style: none;
+    }
+
+    .about-timeline::before {
+      content: "";
+      position: absolute;
+      left: 10px;
+      top: 4px;
+      bottom: 4px;
+      width: 2px;
+      background: var(--mg-line-soft);
+    }
+
+    .about-timeline li {
+      position: relative;
+      padding: 0 0 32px;
+    }
+
+    .about-timeline li:last-child {
+      padding-bottom: 0;
+    }
+
+    .about-timeline li::before {
+      content: "";
+      position: absolute;
+      left: -30px;
+      top: 6px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 2px solid var(--mg-accent);
+      background: var(--mg-paper);
+      z-index: 1;
+    }
+
+    .about-timeline li:last-child::before {
+      background: var(--mg-accent);
+    }
+
+    .about-timeline-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--mg-accent);
+      margin: 0 0 4px;
+    }
+
+    .about-timeline-text {
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--mg-ink);
+      margin: 0;
+    }
+
+    /* ─── About Page: Project Cards ────────────────────────────────── */
+    .about-projects {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+
+    .about-project-card {
+      border: 1.5px solid var(--mg-line);
+      border-radius: 14px;
+      padding: 28px 24px;
+      background: var(--mg-paper);
+      transition: transform .25s, box-shadow .25s;
+    }
+
+    .about-project-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 6px 6px 0 var(--mg-line);
+    }
+
+    .about-project-num {
+      font-family: var(--font-display);
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1;
+      color: var(--mg-accent);
+    }
+
+    .about-project-card h3 {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 600;
+      margin: 10px 0 8px;
+      line-height: 1.3;
+    }
+
+    .about-project-card p {
+      font-size: 14px;
+      color: var(--mg-muted);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    .about-project-tag {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--mg-accent);
+      border: 1px solid var(--mg-accent);
+      padding: 2px 8px;
+      border-radius: 999px;
+      margin-top: 12px;
+    }
+
+    /* ─── About Page: Pull Quote ───────────────────────────────────── */
+    .about-quote {
+      position: relative;
+      padding: 56px 0;
+      text-align: center;
+      border-top: 1.5px solid var(--mg-line);
+      border-bottom: 1.5px solid var(--mg-line);
+      margin-bottom: 48px;
+    }
+
+    .about-quote-open {
+      font-family: var(--font-display);
+      font-size: 96px;
+      line-height: 1;
+      color: var(--mg-line-soft);
+      position: absolute;
+      top: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      pointer-events: none;
+    }
+
+    .about-quote blockquote {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: clamp(20px, 3.2vw, 32px);
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.5;
+      max-width: 40ch;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ─── About Page: Social Links ─────────────────────────────────── */
+    .about-social {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+
+    .about-social a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--mg-ink);
+      padding: 12px 28px;
+      border: 1.5px solid var(--mg-line);
+      border-radius: 999px;
+      transition: background .2s, color .2s, transform .2s;
+    }
+
+    .about-social a:hover {
+      background: var(--mg-ink);
+      color: var(--mg-paper);
+      transform: translateY(-2px);
+    }
+
+    /* ─── Responsive ───────────────────────────────────────────────── */
+    @media (max-width: 768px) {
+      .about-projects {
+        grid-template-columns: 1fr;
+      }
+
+      .about-hero {
+        padding: 40px 0 32px;
+      }
+
+      .about-social {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .about-timeline {
+        padding-left: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Ticker -->
+<div class="mg-ticker" aria-hidden="true">
+  <div class="mg-ticker-track">
+    <span>ABOUT · CYRUS</span><span>✦</span><span>AI BUILDER</span><span>✦</span>
+    <span>ABOUT · CYRUS</span><span>✦</span><span>AI BUILDER</span><span>✦</span>
+  </div>
+</div>
+
+<!-- Masthead -->
+<header class="mg-mast">
+  <div class="mg-mast-left">
+    <div class="mg-issue">ABOUT</div>
+    <a href="/" class="mg-logo" style="font-size:clamp(28px,5vw,56px);text-decoration:none;">
+      <span>C</span><span>Y</span><span>R</span><span>U</span><span>S</span>
+    </a>
+  </div>
+  <div class="header-inner">
+    <nav class="mg-nav">
+      <a href="/">首页</a>
+      <a href="/about.html" class="on">关于</a>
+      <a href="/field-notes/">实验室</a>
+      <a href="/news.html">资讯</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="切换明暗"></button>
+  </div>
+</header>
+
+<!-- Inner content -->
+<div class="mg-inner">
+
+  <!-- Breadcrumb -->
+  <nav class="mg-crumb">
+    <a href="/">← CYRUS QUARTERLY</a>
+    <span>/ ABOUT · 关于</span>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="about-hero">
+    <div class="mg-tag-row" style="justify-content:center;">
+      <span class="mg-tag">§ ABOUT</span>
+      <span class="mg-tag">BUILDER</span>
+    </div>
+    <h1 class="about-hero-name">Cyrus <em>宇</em></h1>
+    <p class="about-hero-tagline">商科生 × AI 全栈 × Builder</p>
+    <p class="about-hero-oneliner">非技术出身，用 AI 做到了工程师做的事。</p>
+  </section>
+
+  <!-- Story Timeline -->
+  <div class="mg-section-rule">§ THE STORY</div>
+  <ol class="about-timeline">
+    <li>
+      <p class="about-timeline-label">起点</p>
+      <p class="about-timeline-text">双一流大学，电子商务专业。一个标准文科商科生。</p>
+    </li>
+    <li>
+      <p class="about-timeline-label">入行</p>
+      <p class="about-timeline-text">加入某行业 Top1 集团（世界500强），负责年流水数亿、36,000+ SKU 的业务运营。</p>
+    </li>
+    <li>
+      <p class="about-timeline-label">转折</p>
+      <p class="about-timeline-text">发现大量业务痛点可以用 AI 解决。零基础自学 AI Coding，用 Claude Code 独立交付了全栈数据系统，40+ 同事日常使用。</p>
+    </li>
+    <li>
+      <p class="about-timeline-label">认可</p>
+      <p class="about-timeline-text">受邀在近 600 人的集团 Townhall 做 AI 提效分享，副总裁在场背书。10+ 跨部门同事主动求方案复制。</p>
+    </li>
+    <li>
+      <p class="about-timeline-label">现在</p>
+      <p class="about-timeline-text">独立打造 AI 产品「知脉 ZhiMai」（已有付费客户交付）；同时做 B 端 AI 自动化顾问；在小红书分享 AI 实践经验。</p>
+    </li>
+  </ol>
+
+  <!-- Project Cards -->
+  <div class="mg-section-rule">§ SELECTED WORK</div>
+  <div class="about-projects">
+    <article class="about-project-card">
+      <div class="about-project-num">01</div>
+      <h3>智能经营 Agent</h3>
+      <p>在世界500强内部从 0→1 落地的 AI Agent 系统。分析效率 +80%，异常响应速度 +5x，40+ 人日常使用。</p>
+      <span class="about-project-tag">Enterprise AI</span>
+    </article>
+    <article class="about-project-card">
+      <div class="about-project-num">02</div>
+      <h3>知脉 ZhiMai</h3>
+      <p>面向个人知识工作者的本地化 AI 产品（macOS + Windows）。100% 本地运行，零云端依赖。已完成首位付费客户交付。</p>
+      <span class="about-project-tag">Indie Product</span>
+    </article>
+    <article class="about-project-card">
+      <div class="about-project-num">03</div>
+      <h3>B 端 AI 自动化顾问</h3>
+      <p>独立完成从场景诊断到 AI 数字员工部署的全链路交付。消除客户数小时重复手工劳动。</p>
+      <span class="about-project-tag">Consulting</span>
+    </article>
+  </div>
+
+  <!-- Pull Quote -->
+  <section class="about-quote">
+    <div class="about-quote-open">"</div>
+    <blockquote>信息不等于行动力。只有可执行的信息，才是这个时代的真正货币。</blockquote>
+  </section>
+
+  <!-- Social Links -->
+  <div class="mg-section-rule">§ CONNECT</div>
+  <div class="about-social">
+    <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener noreferrer">小红书 →</a>
+    <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener noreferrer">GitHub →</a>
+  </div>
+
+</div><!-- /.mg-inner -->
+
+<!-- Footer -->
+<footer class="mg-foot compact">
+  <div class="mg-foot-meta" style="justify-content:center;text-align:center;">
+    <span>© 2026 CYRUS QUARTERLY</span>
+    <span><a href="/field-notes/">实验室</a> · <a href="/news.html">资讯</a> · <a href="/privacy.html">隐私</a> · <a href="/">首页</a></span>
+  </div>
+  <p id="visitStats" class="visit-stats" aria-live="polite">访问统计：加载中...</p>
+</footer>
+
+<script src="./ui.js"></script>
+<script src="./visit-stats.js"></script>
+</body>
+</html>
