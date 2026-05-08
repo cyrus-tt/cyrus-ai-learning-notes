@@ -1,0 +1,994 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>n8n + Ollama 本地 AI 知识管道 | 实验室 · Cyrus的AI学习笔记</title>
+    <meta
+      name="description"
+      content="从零搭建本地 AI 知识管道：用 n8n + Ollama 把微信/Telegram 分享的链接自动抓取、摘要、打标、写入 Obsidian。零成本、全本地、隐私安全。"
+    />
+    <meta
+      name="keywords"
+      content="n8n,Ollama,本地AI,知识管理,Obsidian,自动化,qwen3,AI管道,知识管道,webhook"
+    />
+    <meta name="theme-color" content="#f2f4f7" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://cyrustyj.xyz/field-notes/n8n-ollama-local-pipeline/" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+    <meta property="og:title" content="n8n + Ollama 本地 AI 知识管道 | 实验室" />
+    <meta
+      property="og:description"
+      content="从零搭建本地 AI 知识管道：微信分享链接 → 自动抓取 → Ollama 摘要打标 → Obsidian 归档。零成本、全本地。"
+    />
+    <meta property="og:url" content="https://cyrustyj.xyz/field-notes/n8n-ollama-local-pipeline/" />
+    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.svg" />
+    <meta property="article:published_time" content="2026-05-08T00:00:00+08:00" />
+    <meta property="article:author" content="Cyrus" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="n8n + Ollama 本地 AI 知识管道" />
+    <meta name="twitter:description" content="从零搭建本地 AI 知识管道：微信链接 → 自动摘要打标 → Obsidian 归档。零成本、全本地。" />
+    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- Structured Data: HowTo -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "n8n + Ollama 本地 AI 知识管道搭建指南",
+        "description": "从零搭建本地 AI 知识管道，用 n8n 和 Ollama 把微信分享的链接自动抓取、摘要、打标、写入 Obsidian",
+        "step": [
+          {"@type": "HowToStep", "name": "安装 Docker + n8n", "text": "用 Docker 一行命令启动 n8n 自动化平台，端口映射到 5680"},
+          {"@type": "HowToStep", "name": "安装 Ollama", "text": "安装 Ollama 并拉取 qwen3:8b 模型，用于中文摘要和标签生成"},
+          {"@type": "HowToStep", "name": "配置 Webhook 节点", "text": "在 n8n 中创建 Webhook 节点，接收 POST 请求中的 URL 和备注"},
+          {"@type": "HowToStep", "name": "内容抓取", "text": "使用 Jina Reader 或直接 HTTP 抓取网页正文，支持小红书等特殊平台"},
+          {"@type": "HowToStep", "name": "Ollama 摘要 + 标签", "text": "调用本地 Ollama API 生成一句话摘要、标签和分类"},
+          {"@type": "HowToStep", "name": "生成 Markdown 写入 Obsidian", "text": "拼装 YAML frontmatter + 正文，写入 Obsidian Vault"}
+        ],
+        "author": {"@type": "Person", "name": "Cyrus", "url": "https://cyrustyj.xyz/about.html"},
+        "datePublished": "2026-05-08",
+        "dateModified": "2026-05-08",
+        "inLanguage": "zh-CN"
+      }
+    </script>
+
+    <!-- Structured Data: FAQPage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Mac M 系列芯片跑 Ollama 够快吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "完全够用。M1/M2/M3/M4 的统一内存架构对 LLM 推理非常友好。qwen3:8b 在 M1 Pro 16GB 上单次摘要大约 3-8 秒，日常使用无感。如果你用的是 8GB 内存的入门款，建议换 qwen3:4b，速度更快但中文质量略有下降。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "可以换成其他模型吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "可以。Ollama 支持的模型都能用。中文场景推荐 qwen3 系列（8b/14b/32b 按你的内存选），英文为主可以试 llama3.1:8b 或 gemma2:9b。换模型只需要改 Ollama HTTP Request 节点里的 model 字段。注意：不同模型的 JSON 输出稳定性不同，可能需要微调 prompt。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "微信消息怎么转发到 webhook？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "我用的是 ClawBot 微信插件（开源），它能监听群聊/私聊中的链接并转发到指定 webhook。另一个方案是用 iOS 快捷指令：在微信里选择「分享 → 快捷指令」，配置一个 POST 请求发到你的 webhook URL。Telegram 用户更简单，直接发链接给一个 Bot 就行。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "n8n 挂了数据会丢吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不会丢。n8n 默认用 SQLite 持久化所有 workflow 执行记录，Docker 重启后数据还在（前提是你挂载了数据卷）。Webhook 请求如果在 n8n 宕机期间发来，那条请求会丢失，但你可以通过微信聊天记录重新发送。建议把 Docker 设成 restart: unless-stopped，这样系统重启后 n8n 会自动恢复。"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Structured Data: BreadcrumbList -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://cyrustyj.xyz/"},
+          {"@type": "ListItem", "position": 2, "name": "实验室", "item": "https://cyrustyj.xyz/field-notes/"},
+          {"@type": "ListItem", "position": 3, "name": "n8n + Ollama 本地 AI 知识管道"}
+        ]
+      }
+    </script>
+
+    <style>
+      /* ─── Article Body ─────────────────────────────────────────────── */
+      .article-body {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 0 0 48px;
+        font-size: 16px;
+        line-height: 1.85;
+        color: var(--mg-ink);
+      }
+
+      .article-body > p {
+        margin: 0 0 18px;
+      }
+
+      .article-body > p:first-child {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        line-height: 1.9;
+        color: var(--mg-muted);
+        border-left: 3px solid var(--mg-accent);
+        padding-left: 18px;
+        margin-bottom: 32px;
+      }
+
+      .article-body h2 {
+        font-family: var(--font-sans);
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -.02em;
+        margin: 48px 0 18px;
+        padding-bottom: 10px;
+        border-bottom: 1.5px solid var(--mg-line);
+      }
+
+      .article-body h3 {
+        font-family: var(--font-sans);
+        font-size: 20px;
+        font-weight: 600;
+        margin: 32px 0 12px;
+        color: var(--mg-ink);
+      }
+
+      .article-body strong {
+        font-weight: 600;
+      }
+
+      .article-body ul,
+      .article-body ol {
+        padding-left: 24px;
+        margin: 0 0 18px;
+      }
+
+      .article-body li {
+        margin-bottom: 8px;
+      }
+
+      .article-body a {
+        color: var(--mg-accent);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
+      .article-body a:hover {
+        color: var(--mg-ink);
+      }
+
+      /* Code: inline */
+      .article-body code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--mg-paper-2);
+        border: 1px solid var(--mg-line-soft);
+        border-radius: 4px;
+        padding: 2px 6px;
+        word-break: break-word;
+      }
+
+      /* Code: blocks */
+      .article-body pre {
+        background: var(--term-bg);
+        color: var(--term-fg);
+        font-family: var(--font-mono);
+        font-size: 13.5px;
+        line-height: 1.7;
+        border-radius: 12px;
+        padding: 20px 22px;
+        overflow-x: auto;
+        margin: 18px 0 24px;
+        position: relative;
+      }
+
+      .article-body pre code {
+        background: none;
+        border: none;
+        padding: 0;
+        font-size: inherit;
+        color: inherit;
+      }
+
+      .article-body pre .code-label {
+        display: block;
+        font-size: 10.5px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--term-muted);
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(255,255,255,.08);
+      }
+
+      .article-body pre .term-dots {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 12px;
+      }
+
+      .article-body pre .term-dots span {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--term-muted);
+        opacity: .45;
+      }
+
+      /* Tip box */
+      .tip-box {
+        background: color-mix(in srgb, var(--ok) 8%, var(--mg-paper));
+        border: 1px solid color-mix(in srgb, var(--ok) 25%, var(--mg-line-soft));
+        border-left: 4px solid var(--ok);
+        border-radius: 0 10px 10px 0;
+        padding: 16px 20px;
+        margin: 20px 0 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      .tip-box::before {
+        content: "TIP";
+        display: block;
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .22em;
+        font-weight: 600;
+        color: var(--ok);
+        margin-bottom: 6px;
+      }
+
+      /* Pitfall box */
+      .pitfall-box {
+        background: color-mix(in srgb, var(--mg-accent) 6%, var(--mg-paper));
+        border: 1px solid color-mix(in srgb, var(--mg-accent) 20%, var(--mg-line-soft));
+        border-left: 4px solid var(--mg-accent);
+        border-radius: 0 10px 10px 0;
+        padding: 16px 20px;
+        margin: 20px 0 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      .pitfall-box::before {
+        content: "PITFALL";
+        display: block;
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .22em;
+        font-weight: 600;
+        color: var(--mg-accent);
+        margin-bottom: 6px;
+      }
+
+      /* Article meta line */
+      .article-meta {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        font-family: var(--font-mono);
+        font-size: 12px;
+        letter-spacing: .06em;
+        color: var(--mg-muted);
+        margin-top: 14px;
+      }
+
+      /* FAQ accordion */
+      .article-faq {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 32px 0 48px;
+        border-top: 1.5px solid var(--mg-line);
+      }
+
+      .article-faq h2 {
+        font-family: var(--font-sans);
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0 0 24px;
+      }
+
+      .article-faq details {
+        border: 1px solid var(--mg-line-soft);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background: var(--mg-paper);
+        transition: box-shadow .2s;
+      }
+
+      .article-faq details[open] {
+        box-shadow: 4px 4px 0 var(--mg-line-soft);
+      }
+
+      .article-faq summary {
+        cursor: pointer;
+        font-family: var(--font-sans);
+        font-weight: 600;
+        font-size: 15px;
+        padding: 14px 18px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+      }
+
+      .article-faq summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .article-faq summary::after {
+        content: "+";
+        font-family: var(--font-mono);
+        font-size: 18px;
+        color: var(--mg-accent);
+        flex-shrink: 0;
+        transition: transform .2s;
+      }
+
+      .article-faq details[open] summary::after {
+        transform: rotate(45deg);
+      }
+
+      .article-faq .faq-answer {
+        padding: 0 18px 16px;
+        font-size: 14.5px;
+        line-height: 1.75;
+        color: var(--mg-muted);
+      }
+
+      .article-faq .faq-answer code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--mg-paper-2);
+        border: 1px solid var(--mg-line-soft);
+        border-radius: 4px;
+        padding: 2px 6px;
+      }
+
+      /* Related / CTA */
+      .article-cta {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 0 0 48px;
+      }
+
+      .cta-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .cta-card a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1.5px solid var(--mg-line);
+        border-radius: 14px;
+        padding: 28px 20px;
+        text-decoration: none;
+        color: var(--mg-ink);
+        background: var(--mg-paper);
+        transition: transform .25s, box-shadow .25s;
+      }
+
+      .cta-card a:hover {
+        transform: translateY(-4px);
+        box-shadow: 6px 6px 0 var(--mg-line);
+      }
+
+      .cta-card a .cta-label {
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--mg-accent);
+        margin-bottom: 8px;
+      }
+
+      .cta-card a .cta-title {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .cta-card a .cta-desc {
+        font-size: 13px;
+        color: var(--mg-muted);
+        margin-top: 6px;
+      }
+
+      /* Pipeline diagram */
+      .pipeline-diagram {
+        border: 1.5px solid var(--mg-line);
+        border-radius: 14px;
+        padding: 24px;
+        margin: 20px 0 28px;
+        background: var(--mg-paper);
+      }
+
+      .pipeline-diagram pre {
+        background: none;
+        color: var(--mg-ink);
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+        line-height: 1.8;
+        border-radius: 0;
+      }
+
+      .pipeline-diagram pre code {
+        background: none;
+        border: none;
+        padding: 0;
+        color: inherit;
+      }
+
+      /* Dark mode overrides */
+      html[data-theme="dark"] .tip-box {
+        background: color-mix(in srgb, var(--ok) 10%, var(--mg-paper));
+        border-color: color-mix(in srgb, var(--ok) 20%, var(--mg-line-soft));
+      }
+
+      html[data-theme="dark"] .pitfall-box {
+        background: color-mix(in srgb, var(--mg-accent) 8%, var(--mg-paper));
+        border-color: color-mix(in srgb, var(--mg-accent) 15%, var(--mg-line-soft));
+      }
+
+      html[data-theme="dark"] .article-faq details {
+        background: var(--mg-paper-2);
+        border-color: var(--mg-line-soft);
+      }
+
+      html[data-theme="dark"] .pipeline-diagram {
+        background: var(--mg-paper-2);
+      }
+
+      html[data-theme="dark"] .cta-card a {
+        background: var(--mg-paper-2);
+      }
+
+      /* Responsive */
+      @media (max-width: 960px) {
+        .cta-card {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="site-nav">
+      <a href="/" class="site-nav-brand">Cyrus</a>
+      <div class="site-nav-links">
+        <a href="/">首页</a>
+        <a href="/about.html">关于</a>
+        <a href="/field-notes/" class="on">实验室</a>
+        <a href="/news.html">资讯</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
+      </div>
+    </nav>
+
+    <!-- Inner content -->
+    <div class="mg-inner">
+
+      <!-- Breadcrumb -->
+      <nav class="mg-crumb">
+        <a href="/">← CYRUS QUARTERLY</a>
+        <span>/ <a href="/field-notes/">Field Notes</a></span>
+        <span>/ n8n + Ollama 本地 AI 知识管道</span>
+      </nav>
+
+      <!-- Article hero -->
+      <section class="mg-page-hero">
+        <div class="mg-tag-row">
+          <span class="mg-tag">TUTORIAL</span>
+        </div>
+        <h1 class="mg-page-title">n8n + Ollama<br>本地 AI <em>知识管道</em></h1>
+        <div class="article-meta">
+          <time datetime="2026-05-08">2026.05.08</time>
+          <span>&middot;</span>
+          <span>约 15 分钟阅读</span>
+        </div>
+      </section>
+
+      <!-- Article body -->
+      <article class="article-body">
+
+        <p>你每天刷到几十条 AI 资讯、技术文章、行业分析，随手转发到微信群或收藏夹，然后呢？三天后你连标题都想不起来。如果每一条你分享的链接，能自动被抓取正文、AI 生成摘要和标签、归档到你的 Obsidian 知识库 &mdash; 而且整个过程跑在你自己的电脑上，不花一分钱，你会不会想试试？这篇教程把我实际在用的这套管道从头拆给你看。</p>
+
+        <h2>为什么要本地 AI 管道</h2>
+
+        <p>在开始动手之前，先说清楚为什么我选了这条路，而不是直接用 Notion Web Clipper 或 Readwise 之类的现成工具。</p>
+
+        <ul>
+          <li><strong>隐私</strong> &mdash; 你的阅读历史是你的画像。我不想让任何第三方知道我每天在看什么。本地管道意味着数据从头到尾不出你的电脑。</li>
+          <li><strong>成本</strong> &mdash; Ollama 免费，n8n 自托管免费，Obsidian 本地使用免费。每月运行成本：0 元。对比 Readwise 每月 $8.99 或 Notion AI 每月 $10。</li>
+          <li><strong>控制</strong> &mdash; 你拥有模型、数据、格式的完全控制权。想换模型？改一个字段。想改分类体系？改一行 prompt。想换存储格式？改一个模板。没有任何厂商锁定。</li>
+          <li><strong>可扩展</strong> &mdash; 今天是知识归档，明天可以接日报生成、周刊汇总、主题聚类。n8n 是积木式架构，加节点就能扩展功能。</li>
+        </ul>
+
+        <div class="tip-box">
+          <strong>给新手的一句话解释：</strong>n8n 相当于免费版的 Zapier &mdash; 一个可视化的自动化工具，把不同服务串成流水线。Ollama 相当于本地版的 ChatGPT &mdash; 在你自己的电脑上跑大语言模型。两者结合，就是一条完全属于你的 AI 流水线。
+        </div>
+
+        <h2>架构总览</h2>
+
+        <p>先看全景图，搞清楚数据怎么从你的手机跑到 Obsidian 里：</p>
+
+        <div class="pipeline-diagram">
+          <pre><code>微信 / Telegram
+      |
+      v
+n8n Webhook (POST /knowledge-inbox)
+      |
+      v
+Normalize Input -- 提取 URL、备注、来源
+      |
+      v
+Fetch Content -- Jina Reader 优先，fallback 到直接 HTTP
+      |             (小红书走特殊解析)
+      v
+Prepare Prompt -- 组装 Ollama prompt
+      |
+      v
+Ollama qwen3:8b -- 本地 LLM 生成摘要 + 标签 + 分类
+      |
+      v
+Build Markdown -- YAML frontmatter + 正文
+      |
+      v
+Write to Obsidian Vault/Inbox/</code></pre>
+        </div>
+
+        <p>每个节点的职责用一句话说清楚：</p>
+
+        <ol>
+          <li><strong>Webhook</strong> &mdash; 入口，接收外部发来的 URL 和备注</li>
+          <li><strong>Normalize Input</strong> &mdash; 清洗输入，提取 URL、备注、作者、来源</li>
+          <li><strong>Fetch Content</strong> &mdash; 抓取网页正文，处理各种平台的页面结构差异</li>
+          <li><strong>Prepare Prompt</strong> &mdash; 把正文裁剪到 15000 字以内，拼装 LLM prompt</li>
+          <li><strong>Ollama</strong> &mdash; 本地大模型生成 JSON 格式的摘要、标签和分类</li>
+          <li><strong>Build Markdown</strong> &mdash; 把所有信息拼成 Obsidian 友好的 Markdown 文件</li>
+          <li><strong>Write to Inbox</strong> &mdash; 写入 Obsidian Vault 的 Inbox 目录</li>
+        </ol>
+
+        <div class="pitfall-box">
+          <strong>不要一口气搭完。</strong>正确的顺序是：先把 Webhook &rarr; Fetch &rarr; Write 跑通（不加 LLM），确认能拿到正文并写成文件，然后再加 Ollama 节点。我第一次搭的时候一步到位，结果 debug 了一整晚都不知道是 Fetch 的问题还是 Ollama 的问题。
+        </div>
+
+        <h2>Step 1 &mdash; 安装 Docker + n8n</h2>
+
+        <p>n8n 推荐用 Docker 跑，隔离干净，升级方便。</p>
+
+        <h3>安装 Docker</h3>
+
+        <p>如果你的 Mac 还没装 Docker，去 <a href="https://www.docker.com/products/docker-desktop/" target="_blank" rel="noopener">Docker 官网</a> 下载 Docker Desktop 安装即可。Windows 和 Linux 同理。</p>
+
+        <div class="tip-box">
+          <strong>给新手：</strong>Docker 是一个「容器」工具，你可以把它理解成一台虚拟电脑。n8n 跑在这个虚拟电脑里，不会弄脏你的系统环境。
+        </div>
+
+        <h3>启动 n8n</h3>
+
+        <p>打开终端，一行命令启动 n8n：</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>docker run -d --name n8n \
+  -p 5680:5678 \
+  -v n8n_data:/home/node/.n8n \
+  -v /path/to/your/obsidian/vault:/know \
+  -e N8N_RESTRICT_FILE_ACCESS_TO="/know" \
+  --restart unless-stopped \
+  n8nio/n8n</code></pre>
+
+        <p>解释几个关键参数：</p>
+
+        <ul>
+          <li><code>-p 5680:5678</code> &mdash; 把容器内的 5678 端口映射到本地 5680。为什么不用默认的 5678？因为可能被其他服务占了，5680 更安全。</li>
+          <li><code>-v n8n_data:/home/node/.n8n</code> &mdash; 数据持久化。Docker 重启后你的 workflow 还在。</li>
+          <li><code>-v /path/to/your/obsidian/vault:/know</code> &mdash; 把你的 Obsidian Vault 目录挂载到容器内的 <code>/know</code>，这样 n8n 才能往里面写文件。换成你自己的实际路径。</li>
+          <li><code>-e N8N_RESTRICT_FILE_ACCESS_TO="/know"</code> &mdash; 安全措施，限制 n8n 只能访问 <code>/know</code> 目录。</li>
+          <li><code>--restart unless-stopped</code> &mdash; 系统重启后 n8n 自动恢复运行。</li>
+        </ul>
+
+        <p>启动后访问 <code>http://localhost:5680</code>，看到 n8n 的界面就说明成功了。</p>
+
+        <h2>Step 2 &mdash; 安装 Ollama</h2>
+
+        <h3>安装</h3>
+
+        <p>Mac 用户直接去 <a href="https://ollama.com" target="_blank" rel="noopener">ollama.com</a> 下载安装包，或者用 Homebrew：</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>brew install ollama</code></pre>
+
+        <h3>拉取模型</h3>
+
+        <p>我用的是 <code>qwen3:8b</code> &mdash; 通义千问的 8B 参数版本，中文能力强，大小适中：</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>ollama pull qwen3:8b</code></pre>
+
+        <p>拉完大约 5GB。首次拉取需要几分钟，取决于你的网速。</p>
+
+        <h3>快速测试</h3>
+
+        <p>确认模型能用：</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>curl http://localhost:11434/api/chat -d '{
+  "model": "qwen3:8b",
+  "messages": [{"role": "user", "content": "用一句话介绍你自己"}],
+  "stream": false
+}'</code></pre>
+
+        <p>能返回 JSON 响应就说明 Ollama 已就绪。</p>
+
+        <div class="tip-box">
+          <strong>为什么选 qwen3:8b？</strong>三个原因：(1) 中文能力在同尺寸开源模型中数一数二；(2) 8B 参数在 M1 Pro 16GB 上跑得很流畅，3-8 秒出结果；(3) 对「只输出 JSON」这类结构化指令的遵从度很好，减少后续解析出错。如果你内存只有 8GB，换 <code>qwen3:4b</code>。
+        </div>
+
+        <h2>Step 3 &mdash; n8n Webhook 节点</h2>
+
+        <p>回到 n8n 界面（<code>http://localhost:5680</code>），创建一个新 workflow。</p>
+
+        <h3>添加 Webhook 节点</h3>
+
+        <ol>
+          <li>点击 <code>+</code> 添加节点，搜索 <strong>Webhook</strong></li>
+          <li>HTTP Method 选 <code>POST</code></li>
+          <li>Path 填 <code>knowledge-inbox</code></li>
+          <li>保存并激活 workflow</li>
+        </ol>
+
+        <p>你的 webhook URL 就是：<code>http://localhost:5680/webhook/knowledge-inbox</code></p>
+
+        <h3>测试 Webhook</h3>
+
+        <p>打开终端，发一条测试请求：</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>curl -X POST http://localhost:5680/webhook/knowledge-inbox \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "url": "https://example.com/article",
+    "note": "测试备注",
+    "author": "cyrus",
+    "source": "wechat"
+  }'</code></pre>
+
+        <p>回到 n8n 界面，在 Webhook 节点的执行记录里应该能看到这条数据。如果看到了，说明入口已经通了。</p>
+
+        <h2>Step 4 &mdash; 内容抓取</h2>
+
+        <p>这是整条管道里最复杂的环节。网页千奇百怪，你需要一个鲁棒的抓取策略。</p>
+
+        <h3>策略：Jina Reader 优先，fallback 到直接 HTTP</h3>
+
+        <p>我的做法是两层尝试：</p>
+
+        <ol>
+          <li><strong>先走 <a href="https://jina.ai/reader/" target="_blank" rel="noopener">Jina Reader</a></strong> &mdash; 免费 API，能处理 JavaScript 渲染的页面，直接返回干净的 Markdown。URL 格式：<code>https://r.jina.ai/&lt;原始URL&gt;</code></li>
+          <li><strong>如果 Jina 失败（返回太短或报错），fallback 到直接 HTTP</strong> &mdash; 用 n8n 的 HTTP Request 节点直接抓 HTML，然后自己解析正文</li>
+        </ol>
+
+        <p>在 n8n 里，我用一个 Code 节点来实现这个逻辑。核心代码思路：</p>
+
+        <pre><code><span class="code-label">fetch-content 核心逻辑（简化版）</span>// 第一步：尝试 Jina Reader
+const jinaUrl = 'https://r.jina.ai/' + inputUrl;
+const jinaResult = await fetch(jinaUrl, {
+  headers: {
+    'accept': 'text/markdown',
+    'x-return-format': 'markdown',
+    'x-with-images': 'true'
+  }
+});
+
+// 判断 Jina 结果是否可用
+if (jinaResult.ok && jinaResult.text.length > 500) {
+  // 用 Jina 的结果
+  return parseJinaMarkdown(jinaResult.text);
+}
+
+// 第二步：Jina 失败，fallback 到直接 HTTP
+const htmlResult = await fetch(inputUrl);
+const article = extractArticleBody(htmlResult.body);
+return stripHtml(article);</code></pre>
+
+        <p>直接 HTTP 抓取的关键是<strong>从 HTML 中提取正文</strong>，而不是拿到一堆导航栏、广告、页脚。我的做法是按优先级匹配：</p>
+
+        <ol>
+          <li>找 <code>&lt;article&gt;</code> 标签</li>
+          <li>找 <code>&lt;main&gt;</code> 标签</li>
+          <li>找 class 包含 <code>article</code>、<code>post</code>、<code>content</code> 的 <code>&lt;div&gt;</code></li>
+          <li>都没有就用整个 <code>&lt;body&gt;</code>，去掉 <code>&lt;header&gt;</code>、<code>&lt;footer&gt;</code>、<code>&lt;nav&gt;</code>、<code>&lt;script&gt;</code>、<code>&lt;style&gt;</code></li>
+        </ol>
+
+        <div class="tip-box">
+          <strong>Jina Reader 的免费额度足够个人使用。</strong>如果你每天处理的文章不超过几十篇，基本不会碰到限制。而且它对付那些重度 JavaScript 渲染的单页应用特别有效 &mdash; 直接 HTTP 抓这类页面只能拿到一个空壳。
+        </div>
+
+        <h3>小红书特殊处理</h3>
+
+        <p>小红书的页面结构比较特殊 &mdash; 正文内容不在 HTML 里，而是藏在 <code>window.__INITIAL_STATE__</code> 这个 JavaScript 变量中。所以我在代码里加了一个判断：如果 URL 是 <code>xhslink.com</code> 或 <code>xiaohongshu.com</code>，就走专门的解析逻辑，从那个 JSON 对象里提取标题、正文、图片和作者。</p>
+
+        <pre><code><span class="code-label">小红书解析（核心思路）</span>// 从 HTML 中提取 __INITIAL_STATE__ JSON
+const stateJson = extractBalancedObject(
+  html, 'window.__INITIAL_STATE__='
+);
+const state = JSON.parse(stateJson);
+
+// 从 state 中拿到笔记数据
+const note = state.note.noteDetailMap[noteId];
+const title = note.title;
+const description = note.desc;
+const images = note.imageList;</code></pre>
+
+        <div class="pitfall-box">
+          <strong>小红书分享链接是短链。</strong><code>xhslink.com/xxx</code> 会 302 重定向到真实地址。确保你的 HTTP 请求开启了 <code>followRedirect: true</code>，否则拿到的是重定向页面而不是内容页面。
+        </div>
+
+        <h2>Step 5 &mdash; Ollama 摘要 + 标签</h2>
+
+        <p>内容抓到了，接下来让本地 LLM 做三件事：生成一句话摘要、打 5-10 个标签、归入一个分类。</p>
+
+        <h3>HTTP Request 节点调用 Ollama</h3>
+
+        <p>在 n8n 里添加一个 <strong>HTTP Request</strong> 节点，配置如下：</p>
+
+        <ul>
+          <li>Method: <code>POST</code></li>
+          <li>URL: <code>http://host.docker.internal:11434/api/chat</code></li>
+          <li>Body Type: JSON</li>
+        </ul>
+
+        <div class="tip-box">
+          <strong>为什么是 <code>host.docker.internal</code> 而不是 <code>localhost</code>？</strong>因为 n8n 跑在 Docker 容器里，容器内的 <code>localhost</code> 指的是容器自己，不是你的 Mac。<code>host.docker.internal</code> 是 Docker Desktop 提供的特殊域名，指向宿主机。
+        </div>
+
+        <h3>Prompt 设计</h3>
+
+        <p>Prompt 的设计直接决定了输出质量。这是我实际在用的 prompt 结构：</p>
+
+        <pre><code><span class="code-label">HTTP Request Body（发送给 Ollama）</span>{
+  "model": "qwen3:8b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "你是知识整理助手。请只输出严格 JSON，不要 Markdown，不要额外解释。"
+    },
+    {
+      "role": "user",
+      "content": "JSON 必须包含 summary, tags, category 三个字段。\nsummary: 一句话中文摘要。\ntags: 5-10 个标签，数组格式，兼顾主题/技术/领域。\ncategory: 只能是以下之一：AI技术、AI商业、运营方法、产品思维、技术实操、职业发展、生活洞察。\n\nsource=wechat\nurl=https://...\ntitle=文章标题\nnote=用户备注\ntext=\n（文章正文，最多 15000 字）"
+    }
+  ],
+  "stream": false
+}</code></pre>
+
+        <p>几个设计要点：</p>
+
+        <ul>
+          <li><strong>system 消息里强调「只输出 JSON」</strong> &mdash; 这不是废话。LLM 默认会加解释文字，而我需要的是可以直接 <code>JSON.parse()</code> 的输出。不加这条约束，后续解析会频繁出错。</li>
+          <li><strong>category 给定封闭选项</strong> &mdash; 让 LLM 从 7 个选项里选一个，而不是自由发挥。这样你的 Obsidian 分类体系是可控的。</li>
+          <li><strong>正文限制 15000 字</strong> &mdash; 8B 模型的 context window 有限。超长文章裁到 15000 字，保证不超限的同时覆盖大部分内容。</li>
+        </ul>
+
+        <h3>JSON 解析 + fallback</h3>
+
+        <p>LLM 输出的 JSON 不总是干净的。我的代码里做了三层防御：</p>
+
+        <pre><code><span class="code-label">JSON 解析逻辑</span>let parsed;
+try {
+  let candidate = rawOutput;
+  // 去掉可能的 markdown 代码块包装
+  if (candidate.startsWith('```')) {
+    candidate = candidate
+      .replace(/^```(?:json)?/i, '')
+      .replace(/```$/i, '')
+      .trim();
+  }
+  // 如果不是以 { 开头，尝试从中间提取 JSON
+  if (!candidate.startsWith('{')) {
+    const match = candidate.match(/\{[\s\S]*\}/);
+    if (match) candidate = match[0];
+  }
+  parsed = JSON.parse(candidate);
+} catch {
+  // 解析失败：用 fallback 值
+  parsed = {
+    summary: articleText.slice(0, 100),
+    tags: ['知识管理', '内容沉淀', '自动化工作流'],
+    category: '未分类',
+  };
+}</code></pre>
+
+        <p>关键思想：<strong>永远不要假设 LLM 的输出格式是完美的。</strong>写好 fallback，让管道在 LLM 犯错时也能继续运行，只是输出质量稍低而已。</p>
+
+        <div class="pitfall-box">
+          <strong>「不要 Markdown」这句话真的很重要。</strong>qwen3:8b 有时候会把 JSON 包在 <code>```json ... ```</code> 里面。如果你不处理这层包装，<code>JSON.parse()</code> 直接报错，整条管道就断了。上面那段代码的第一个 <code>if</code> 就是处理这个问题。
+        </div>
+
+        <h2>Step 6 &mdash; 生成 Markdown 写入 Obsidian</h2>
+
+        <p>最后一步：把所有信息拼成一个 Obsidian 友好的 Markdown 文件。</p>
+
+        <h3>YAML Frontmatter</h3>
+
+        <p>Obsidian 支持 YAML frontmatter 作为文件的元数据。我生成的格式是这样的：</p>
+
+        <pre><code><span class="code-label">生成的 Markdown 文件示例</span>---
+title: "Claude 4 Opus 发布：多模态推理能力大幅提升"
+date: 2026-05-08T10:30:00.000Z
+type: article
+category: AI技术
+tags:
+  - Claude
+  - Anthropic
+  - 多模态
+  - LLM
+  - AI技术
+source: "https://example.com/claude-4-opus"
+author: "Cyrus"
+status: inbox
+---
+
+> **摘要**: Anthropic 发布 Claude 4 Opus，在多模态推理、
+> 长上下文处理和代码生成方面大幅超越前代模型。
+
+## 原文内容
+
+（完整正文...）
+
+---
+
+🔗 [原文链接](https://example.com/claude-4-opus)</code></pre>
+
+        <p>几个设计决策：</p>
+
+        <ul>
+          <li><code>status: inbox</code> &mdash; 所有新文件默认进 inbox 状态。我会在 Obsidian 里定期 review，把有价值的改成 <code>processed</code>，没价值的改成 <code>archived</code>。</li>
+          <li><strong>文件名包含标题 + 时间戳</strong> &mdash; 格式是 <code>标题-20260508-103000.md</code>，保证不重名。</li>
+          <li><strong>图片用 Markdown 链接引用</strong> &mdash; 不下载图片到本地，只保留 URL。节省磁盘空间，打开笔记时 Obsidian 会自动加载。</li>
+        </ul>
+
+        <h3>写入文件</h3>
+
+        <p>最后用 n8n 的 <strong>Write Binary File</strong> 节点（或 <strong>Move Binary Data</strong> + <strong>Write File</strong> 组合）把 Markdown 写入 <code>/know/Inbox/</code> 目录。因为我们在 Docker 启动时把 Obsidian Vault 挂载到了 <code>/know</code>，所以容器内写 <code>/know/Inbox/xxx.md</code>，实际就写到了你本地的 Obsidian Vault 里。</p>
+
+        <p>打开 Obsidian，你会看到 Inbox 文件夹里多了一个新笔记，带完整的 frontmatter、摘要、标签和原文。整个过程从发送链接到笔记出现，大约 10-15 秒。</p>
+
+        <h2>实际效果 + 踩坑记录</h2>
+
+        <p>这套管道我跑了两个月，日均处理 5-15 篇文章。绝大部分时间它安安静静地工作，但也遇到过几个坑：</p>
+
+        <div class="pitfall-box">
+          <strong>Ollama 没启动，管道静默失败。</strong>n8n 调用 Ollama 的 HTTP Request 节点超时后，默认行为是报错但不重试。如果你的 Mac 重启后忘了打开 Ollama，所有文章都会卡在这个节点。解决方案：(1) 把 Ollama 设成开机启动（<code>brew services start ollama</code>）；(2) 在 n8n 的 HTTP Request 节点开启 <strong>Retry On Fail</strong>，设 3 次重试，间隔 30 秒。
+        </div>
+
+        <div class="pitfall-box">
+          <strong>微信文章需要 Cookie 才能访问。</strong>有些微信公众号文章对非微信浏览器返回空白页或验证码页。Jina Reader 能处理大部分情况，但偶尔也会失败。目前的 workaround 是在 fetch 失败时检查返回内容是否包含「登录」「验证码」等关键词，如果是，标记为 <code>fetch_failed</code>，手动处理。这是目前管道里最不完美的环节。
+        </div>
+
+        <h3>调试技巧</h3>
+
+        <p>出问题时的排查路径：</p>
+
+        <ol>
+          <li>打开 n8n 的 <strong>Executions</strong> 页面（左侧栏），找到失败的执行记录</li>
+          <li>点击失败的节点，看 <strong>Input</strong> 和 <strong>Output</strong> 数据</li>
+          <li>常见问题：Fetch 节点拿到的 data 为空（抓取失败）、Ollama 返回非 JSON（prompt 没约束好）、Write 节点权限不足（<code>N8N_RESTRICT_FILE_ACCESS_TO</code> 没配对）</li>
+        </ol>
+
+        <h2>总结</h2>
+
+        <ul>
+          <li>整条管道 6 个节点：Webhook &rarr; Normalize &rarr; Fetch &rarr; Prompt &rarr; Ollama &rarr; Build + Write</li>
+          <li>核心技术栈：Docker + n8n（自动化）+ Ollama qwen3:8b（本地 LLM）+ Obsidian（知识库）</li>
+          <li>运行成本：0 元/月。数据全程不出本地。</li>
+          <li>从分享链接到笔记入库，10-15 秒。</li>
+          <li>关键设计原则：Jina Reader + HTTP fallback 双保险抓取；LLM 输出做三层 JSON 解析防御；永远写 fallback 让管道不因单点错误中断。</li>
+        </ul>
+
+        <p>如果你也在用 Obsidian 做知识管理，但苦于手动整理太慢，这套管道值得花一个下午搭起来。一旦跑通，你会发现「阅读 &rarr; 归档 &rarr; 检索」的闭环变得无比丝滑。</p>
+
+      </article>
+
+      <!-- FAQ Section -->
+      <section class="article-faq">
+        <h2>常见问题</h2>
+
+        <details>
+          <summary>Mac M 系列芯片跑 Ollama 够快吗？</summary>
+          <div class="faq-answer">
+            <p>完全够用。M1/M2/M3/M4 的统一内存架构对 LLM 推理非常友好。<code>qwen3:8b</code> 在 M1 Pro 16GB 上单次摘要大约 3-8 秒，日常使用无感。</p>
+            <p>如果你用的是 8GB 内存的入门款 MacBook，建议换 <code>qwen3:4b</code>，速度更快但中文质量略有下降。16GB 及以上放心用 8b，甚至可以试试 14b（需要 16GB+，会慢一些但质量更好）。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>可以换成其他模型吗？</summary>
+          <div class="faq-answer">
+            <p>可以。Ollama 支持的模型都能用。中文场景推荐 qwen3 系列（<code>4b</code> / <code>8b</code> / <code>14b</code> / <code>32b</code>，按你的内存选），英文为主可以试 <code>llama3.1:8b</code> 或 <code>gemma2:9b</code>。</p>
+            <p>换模型只需要改 Ollama HTTP Request 节点里的 <code>model</code> 字段，一个单词的事。<strong>注意：</strong>不同模型对「只输出 JSON」的遵从度不一样。换模型后跑几条测试，看 JSON 解析是否正常。如果经常解析失败，在 system prompt 里加更强的约束，比如「你的完整回复必须是一个合法的 JSON 对象，以 { 开头以 } 结尾」。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>微信消息怎么转发到 webhook？</summary>
+          <div class="faq-answer">
+            <p>几种方案：</p>
+            <p><strong>方案 1：ClawBot 微信插件</strong>（我在用的） &mdash; 开源项目，能监听群聊/私聊中的链接并自动 POST 到你的 webhook。适合重度用户。</p>
+            <p><strong>方案 2：iOS 快捷指令</strong> &mdash; 在微信里选择「分享 &rarr; 快捷指令」，配置一个 POST 请求发到你的 webhook URL。需要手动触发，但零依赖。</p>
+            <p><strong>方案 3：Telegram Bot</strong> &mdash; 如果你用 Telegram，建一个 Bot，用户发链接给 Bot，Bot 转发到 n8n。n8n 原生支持 Telegram trigger。这是最干净的方案。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>n8n 挂了数据会丢吗？</summary>
+          <div class="faq-answer">
+            <p>不会丢已有数据。n8n 默认用 SQLite 持久化所有 workflow 和执行记录，Docker 重启后数据还在（前提是你在 <code>docker run</code> 时挂载了 <code>-v n8n_data:/home/node/.n8n</code>）。</p>
+            <p>但是：n8n 宕机期间发来的 webhook 请求<strong>会丢失</strong>。HTTP webhook 本质是「推送」，你没在线就接不到。解决方案：(1) 用 <code>--restart unless-stopped</code> 让 Docker 自动恢复；(2) 真的很重要的文章，从聊天记录里重新发一次。(3) 如果你想做得更健壮，可以在 webhook 前面加一层消息队列（但对个人用户来说 overkill 了）。</p>
+          </div>
+        </details>
+      </section>
+
+      <!-- Related / CTA -->
+      <section class="article-cta">
+        <div class="cta-card">
+          <a href="/field-notes/">
+            <span class="cta-label">FIELD NOTES</span>
+            <span class="cta-title">实验室</span>
+            <span class="cta-desc">更多教程、模板、复盘和工具评测</span>
+          </a>
+          <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">
+            <span class="cta-label">XIAOHONGSHU</span>
+            <span class="cta-title">小红书 @Cyrus 宇</span>
+            <span class="cta-desc">AI 实践、工具评测、提效方法论</span>
+          </a>
+        </div>
+      </section>
+
+    </div><!-- /.mg-inner -->
+
+    <footer class="site-footer">
+      <span>&copy; 2026 Cyrus</span>
+      <span>
+        <a href="/about.html">关于</a> &middot;
+        <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> &middot;
+        <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+      </span>
+    </footer>
+
+    <script src="/ui.js"></script>
+    <script src="/visit-stats.js"></script>
+  </body>
+</html>
