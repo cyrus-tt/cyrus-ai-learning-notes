@@ -78,13 +78,16 @@
 
     <main>
       <!-- Hero -->
-      <section class="hero">
-        <h1 class="hero-title">Field Notes.</h1>
-        <p class="hero-bio">用 AI 把想法变成产品的人。<br>教程、模板、复盘 — 从实践到执行。</p>
-        <div class="hero-links">
-          <a href="/field-notes/">实验室</a>
-          <a href="/news.html">资讯</a>
-          <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub ↗</a>
+      <section class="hero hero-canvas-wrap" data-pagefind-ignore>
+        <div id="hero-canvas"></div>
+        <div class="hero-content">
+          <h1 class="hero-title">Field Notes.</h1>
+          <p class="hero-bio">用 AI 把想法变成产品的人。<br>教程、模板、复盘 — 从实践到执行。</p>
+          <div class="hero-links">
+            <a href="/field-notes/">实验室</a>
+            <a href="/news.html">资讯</a>
+            <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
         </div>
       </section>
 
@@ -159,6 +162,8 @@
       </span>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+    <script src="./js/neural-hero.js"></script>
     <script src="./ui.js"></script>
     <script src="./visit-stats.js"></script>
     <script src="./js/components/subscribe.js"></script>
