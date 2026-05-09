@@ -1,0 +1,45 @@
+# Cyrus 的 AI 学习笔记
+
+> AI 全栈实践者 Cyrus 的个人站。教程、TIL 短笔记、AI 资讯聚合、周报。
+
+## 教程 (Field Notes)
+
+- [Claude Code 自定义 Skill 完全指南](https://cyrustyj.xyz/field-notes/claude-code-skills-guide/): 从零创建 Claude Code Skill 的完整教程，包含文件结构、实战案例、最佳实践
+- [n8n + Ollama 本地 AI 知识管道](https://cyrustyj.xyz/field-notes/n8n-ollama-local-pipeline/): 用 n8n + Ollama 搭建本地 AI 知识管道，零成本、全本地、隐私安全
+- [Cloudflare Pages 零成本建站完全指南](https://cyrustyj.xyz/field-notes/cloudflare-pages-guide/): 用 Cloudflare Pages 搭建永久免费个人网站的完整教程
+
+## TIL (Today I Learned)
+
+短笔记：每天一条 AI 实践中的碎片知识。
+- 数据：https://cyrustyj.xyz/til/entries.json
+- 页面：https://cyrustyj.xyz/til/
+
+## AI 资讯
+
+每日自动聚合全球 AI 动态（Reddit、HN、X、YouTube、GitHub、小红书），附 AI 评分和可执行结论。
+- 数据：https://cyrustyj.xyz/data/news.json
+- 页面：https://cyrustyj.xyz/news.html
+
+## 周报 (Cyrus Weekly)
+
+每周 AI 资讯 Top 10 精选。
+- 索引：https://cyrustyj.xyz/weekly/index.json
+- 页面：https://cyrustyj.xyz/weekly/
+
+## API 端点
+
+- POST /api/chat — 和 AI Cyrus 对话
+- GET /api/mcp/search?q=keyword — 搜索教程和 TIL
+- GET /api/mcp/til — 获取 TIL 列表
+- GET /api/mcp/news?limit=10 — 获取最新 AI 资讯
+
+## RSS
+
+https://cyrustyj.xyz/feed.xml
+
+## 关于作者
+
+Cyrus 宇 — 非技术出身的 AI 全栈实践者。在世界500强落地 AI Agent，独立交付 AI 产品，做 B 端 AI 自动化顾问。
+- 网站：https://cyrustyj.xyz
+- GitHub：https://github.com/cyrus-tt
+- 小红书：https://xhslink.com/m/AQ5LCxoWJeF

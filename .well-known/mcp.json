@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "name": "Cyrus AI Learning Notes",
+  "description": "AI 全栈实践者 Cyrus 的个人知识站 — 教程、TIL、资讯、周报",
+  "url": "https://cyrustyj.xyz",
+  "tools": [
+    {
+      "name": "search_content",
+      "description": "搜索 Cyrus 的教程和 TIL 笔记",
+      "endpoint": "https://cyrustyj.xyz/api/mcp/search",
+      "method": "GET",
+      "parameters": {
+        "q": { "type": "string", "description": "搜索关键词", "required": true }
+      }
+    },
+    {
+      "name": "get_til",
+      "description": "获取 Today I Learned 笔记列表",
+      "endpoint": "https://cyrustyj.xyz/api/mcp/til",
+      "method": "GET",
+      "parameters": {
+        "limit": { "type": "integer", "description": "返回条数，默认10", "required": false }
+      }
+    },
+    {
+      "name": "get_news",
+      "description": "获取最新 AI 资讯",
+      "endpoint": "https://cyrustyj.xyz/api/mcp/news",
+      "method": "GET",
+      "parameters": {
+        "limit": { "type": "integer", "description": "返回条数，默认10", "required": false },
+        "tag": { "type": "string", "description": "按标签筛选", "required": false }
+      }
+    },
+    {
+      "name": "ask_cyrus",
+      "description": "和 AI Cyrus 对话，获取 AI 实践建议",
+      "endpoint": "https://cyrustyj.xyz/api/chat",
+      "method": "POST",
+      "parameters": {
+        "messages": { "type": "array", "description": "对话消息列表", "required": true }
+      }
+    }
+  ]
+}
