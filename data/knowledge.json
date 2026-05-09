@@ -1,0 +1,131 @@
+{
+  "generatedAt": "2026-05-09T08:13:56.492655+00:00",
+  "persona": {
+    "name": "Cyrus",
+    "tagline": "AI 全栈实践者，用 AI 把想法变成产品的人",
+    "background": "起点 \n 非技术背景出身，靠好奇心走进 AI 世界。 \n \n \n 实战 \n 在世界500强集团，用 AI 解决真实业务问题。从零开始用 Claude Code 独立交付了全栈系统，被团队日常使用。 \n \n \n 破圈 \n AI 提效方案在集团内部获得广泛认可，多个部门主动寻求复制。 \n \n \n 现在 \n 独立打造 AI 产品并完成付费客户交付；同时做 B 端 AI 自动化顾问；在小红书分享 AI 实践经验。",
+    "projects": [
+      "企业级 AI Agent",
+      "独立 AI 产品",
+      "B 端 AI 自动化顾问"
+    ],
+    "projectDetails": {
+      "企业级 AI Agent": "在世界500强内部从 0→1 落地的 AI Agent 系统，被团队日常使用，显著提升业务效率。",
+      "独立 AI 产品": "面向个人知识工作者的本地化 AI 桌面应用。100% 本地运行，零云端依赖。已完成付费客户交付。",
+      "B 端 AI 自动化顾问": "独立完成从场景诊断到 AI 数字员工部署的全链路交付。帮助客户消除重复手工劳动。"
+    },
+    "quote": "信息不等于行动力。只有可执行的信息，才是这个时代的真正货币。",
+    "social": {
+      "xiaohongshu": "https://xhslink.com/m/AQ5LCxoWJeF",
+      "github": "https://github.com/cyrus-tt"
+    }
+  },
+  "articles": [
+    {
+      "type": "tutorial",
+      "title": "Claude Code 自定义 Skill 完全指南",
+      "url": "/field-notes/claude-code-skills-guide/",
+      "summary": "从零开始创建 Claude Code 自定义 Skill 的完整教程。包含文件结构、实战案例、最佳实践和踩坑记录，带你用 30 分钟搭出第一个可用 Skill。",
+      "content": "Claude Code 开箱即用已经很强，但真正让它变成「你的」工具的方法是自定义 Skill。我在日常工作中积累了 30+ 个 Skill，覆盖编码工作流、内容创作、context 管理等场景。这篇教程把我踩过的坑和验证过的模式全部摊开，带你从零搭出第一个可用的 Skill。 \n\n 什么是 Skill？ \n\n Skill 是 Claude Code 的 模块化能力扩展 。每个 Skill 本质上是一个 Markdown 文件，里面写着 Claude 在特定场景下应该遵循的指令、流程和约束。 \n\n 跟直接在对话里贴一大段 prompt 不同，Skill 的优势在于： \n\n \n 按需加载 — 只在触发时才占用 context window，不浪费 token \n 可复用 — 写一次，所有项目都能用 \n 可分享 — 团队成员或社区可以直接复制你的 Skill 文件 \n 可迭代 — 每次使用后根据输出质量调优，Skill 会越来越好 \n \n\n \n 把 Skill 想成你为 Claude 写的 SOP（标准作业程序）。你不需要每次口头交代流程，写成文件丢进去就行。\n \n\n 1. Skill 文件结构 \n\n 一个 Skill 由一个目录和一个 SKILL.md 文件组成： \n\n 目录结构 .claude/\n skills/\n my-first-skill/\n SKILL.md # Skill 主文件\n coding-workflow/\n SKILL.md\n xiaohongshu-copy/\n SKILL.md \n\n Claude Code 会在两个位置查找 Skills： \n\n \n 项目级 ： <project-root>/.claude/skills/ — 只在当前项目生效 \n 用户级 ： ~/.claude/skills/ — 所有项目都能用 \n \n\n SKILL.md 的核心结构是 YAML frontmatter + Markdown 指令： \n\n SKILL.md 基本结构 ---\nname: my-skill-name\ndescription: 一句话说清这个 Skill 干什么、什么时候触发\n---\n\n# Skill 标题\n\n## 触发条件\n当用户要求 XXX 时使用本 Skill。\n\n## 执行流程\n1. 第一步做什么\n2. 第二步做什么\n3. 第三步做什么\n\n## 输出格式\n- 格式要求 A\n- 格式要求 B\n\n## 示例\n(给 Claude 看的输入输出示例) \n\n 两个字段最关键： \n\n \n name — Skill 的唯一标识，用户通过 /skill-name 手动调用 \n description — Claude 用来 自动判断 是否触发的依据，后面会详细讲 \n \n\n 2. 创建你的第一个 Skill \n\n 动手比看文档有用。我们来做一个「Git 提交规范化」Skill — 让 Claude 每次帮你写 commit message 时遵循固定格式。 \n\n Step 1: 创建目录 \n\n mkdir -p .claude/skills/git-commit-style \n\n Step 2: 编写 SKILL.md \n\n .claude/skills/git-commit-style/SKILL.md ---\nname: git-commit-style\ndescription: 规范化 Git commit message 格式。当用户要求提交代码、\n 创建 commit、写 commit message 时使用。触发词：提交、commit、\n git commit。\n---\n\n# Git Commit Style Guide\n\n## 格式规范\n所有 commit message 必须遵循以下格式：\n\n```\n<type>(<scope>): <subject>\n\n<body>\n```\n\n### type 可选值\n- feat: 新功能\n- fix: 修复 bug\n- refactor: 重构（不改功能、不修 bug）\n- docs: 文档变更\n- style: 代码格式（不影响逻辑）\n- test: 增加测试\n- chore: 构建/工具链变更\n\n### scope\n用模块名或文件名，例如：auth、api、ui\n\n### subject\n- 中文或英文均可，保持项目一致性\n- 不超过 50 字符\n- 不加句号\n\n## 执行要求\n1. 先运行 `git diff --staged` 查看变更\n2. 根据变更内容选择 type\n3. 写出 commit message 并展示给用户确认\n4. 用户确认后执行 `git commit`\n\n##..."
+    },
+    {
+      "type": "tutorial",
+      "title": "Cloudflare Pages 零成本建站完全指南",
+      "url": "/field-notes/cloudflare-pages-guide/",
+      "summary": "从零开始用 Cloudflare Pages 搭建永久免费的个人网站：自定义域名、Serverless API、D1 数据库、GitHub Actions 自动部署，全部 $0。这是一篇来自实践的完整教程。",
+      "content": "我用 Cloudflare Pages 搭了这整个站 — 新闻聚合、API 端点、数据库、自定义域名 — 总成本 $0。不是「免费试用期 $0」，是真正的、永久的、$0。这篇教程把从建仓库到上线运行的每一步都写清楚，包括我自己踩过的坑。 \n\n 为什么选 Cloudflare Pages \n\n 我对比过几个主流的免费托管方案，最后选了 Cloudflare Pages，原因很简单： 它不只是托管静态文件，而是给你一整套后端能力 。 \n\n \n 真正无限带宽 — 没有带宽上限，不像某些平台免费版限 100GB/月 \n 全球 CDN — Cloudflare 在全球 300+ 节点，访问速度天然快 \n Pages Functions — 在 functions/ 目录下写 JS 文件就能创建 Serverless API，无需单独部署后端 \n D1 数据库 — Serverless SQLite，免费 5GB 存储，够个人站用很久 \n 500 次构建/月 — 个人站绰绰有余 \n 自定义域名 + 自动 SSL — 免费 \n \n\n 对比一下： \n\n \n GitHub Pages — 纯静态托管，没有 Serverless Functions，没有数据库，带宽限 100GB/月 \n Vercel 免费版 — 有 Serverless Functions，但带宽限 100GB/月，商业项目需付费 \n Cloudflare Pages — 无限带宽 + Functions + D1 数据库，免费版对个人站几乎没有实质限制 \n \n\n \n 给完全不懂技术的读者： 可以把 Cloudflare Pages 想成一个免费的网站托管服务，它不仅帮你把网页放上去让全世界能访问，还额外送你一个 API 后端和一个数据库。传统方案里这三样东西（托管 + 后端 + 数据库）要分别购买和部署，这里全免费打包了。\n \n\n Step 1 — 准备 GitHub 仓库 \n\n Cloudflare Pages 通过 GitHub 仓库拉取代码。第一步就是创建一个仓库并推送你的网站文件。 \n\n # 创建项目目录\nmkdir my-site && cd my-site\ngit init\n\n# 创建一个最简单的首页\ncat <<'EOF' > index.html\n<!doctype html>\n<html>\n <head><title>My Site</title></head>\n <body><h1>Hello World</h1></body>\n</html>\nEOF\n\n# 推送到 GitHub\ngit add .\ngit commit -m \"init: first page\"\ngit remote add origin https://github.com/your-name/my-site.git\ngit push -u origin main \n\n 就这么简单。不需要 package.json ，不需要构建脚本，不需要任何框架。 一个 HTML 文件就能部署。 \n\n \n 你不需要 React、Vue、Next.js 或任何框架就能开始。这个站（cyrustyj.xyz）用的就是原生 HTML + CSS + JS，没有构建步骤。框架是锦上添花，不是前置条件。\n \n\n Step 2 — 连接 Cloudflare Pages \n\n 接下来把 GitHub 仓库和 Cloudflare Pages 连起来： \n\n \n 注册 Cloudflare 账号 （免费） \n 进入 Dashboard → Workers & Pages → Create \n 选择 Pages → Connect to Git \n 授权 GitHub，选择你的仓库 \n 构建设置：\n \n Build command ：留空（纯静态站不需要构建） \n Build output directory ： / （项目根目录就是输出目录） \n \n \n 点击 Save and Deploy \n \n\n 大约 30 秒后，你的站就上线了。Cloudflare 会分配一个 *.pages.dev 的临时域名，比如 my-site-abc.pages.dev ，可以直接访问。 \n\n 从现在开始， 每次你 push 代码到 main 分支，Cloudflare Pages 都会自动部署 。不需要手动操作。 \n\n Step 3 — 绑定自定义域名 \n\n 用 *.pages.dev 域名也能凑合，但自定义域名更专业。步骤： \n\n \n 在 Cloudflare Pages 项目的 Custom domains 标签页点击 Set up a custom domain \n 输入你的域名（比如 cyrustyj.xyz ） \n..."
+    },
+    {
+      "type": "tutorial",
+      "title": "n8n + Ollama 本地 AI 知识管道",
+      "url": "/field-notes/n8n-ollama-local-pipeline/",
+      "summary": "从零搭建本地 AI 知识管道：用 n8n + Ollama 把微信/Telegram 分享的链接自动抓取、摘要、打标、写入 Obsidian。零成本、全本地、隐私安全。",
+      "content": "你每天刷到几十条 AI 资讯、技术文章、行业分析，随手转发到微信群或收藏夹，然后呢？三天后你连标题都想不起来。如果每一条你分享的链接，能自动被抓取正文、AI 生成摘要和标签、归档到你的 Obsidian 知识库 — 而且整个过程跑在你自己的电脑上，不花一分钱，你会不会想试试？这篇教程把我实际在用的这套管道从头拆给你看。 \n\n 为什么要本地 AI 管道 \n\n 在开始动手之前，先说清楚为什么我选了这条路，而不是直接用 Notion Web Clipper 或 Readwise 之类的现成工具。 \n\n \n 隐私 — 你的阅读历史是你的画像。我不想让任何第三方知道我每天在看什么。本地管道意味着数据从头到尾不出你的电脑。 \n 成本 — Ollama 免费，n8n 自托管免费，Obsidian 本地使用免费。每月运行成本：0 元。对比 Readwise 每月 $8.99 或 Notion AI 每月 $10。 \n 控制 — 你拥有模型、数据、格式的完全控制权。想换模型？改一个字段。想改分类体系？改一行 prompt。想换存储格式？改一个模板。没有任何厂商锁定。 \n 可扩展 — 今天是知识归档，明天可以接日报生成、周刊汇总、主题聚类。n8n 是积木式架构，加节点就能扩展功能。 \n \n\n \n 给新手的一句话解释： n8n 相当于免费版的 Zapier — 一个可视化的自动化工具，把不同服务串成流水线。Ollama 相当于本地版的 ChatGPT — 在你自己的电脑上跑大语言模型。两者结合，就是一条完全属于你的 AI 流水线。\n \n\n 架构总览 \n\n 先看全景图，搞清楚数据怎么从你的手机跑到 Obsidian 里： \n\n \n 微信 / Telegram\n |\n v\nn8n Webhook (POST /knowledge-inbox)\n |\n v\nNormalize Input -- 提取 URL、备注、来源\n |\n v\nFetch Content -- Jina Reader 优先，fallback 到直接 HTTP\n | (小红书走特殊解析)\n v\nPrepare Prompt -- 组装 Ollama prompt\n |\n v\nOllama qwen3:8b -- 本地 LLM 生成摘要 + 标签 + 分类\n |\n v\nBuild Markdown -- YAML frontmatter + 正文\n |\n v\nWrite to Obsidian Vault/Inbox/ \n \n\n 每个节点的职责用一句话说清楚： \n\n \n Webhook — 入口，接收外部发来的 URL 和备注 \n Normalize Input — 清洗输入，提取 URL、备注、作者、来源 \n Fetch Content — 抓取网页正文，处理各种平台的页面结构差异 \n Prepare Prompt — 把正文裁剪到 15000 字以内，拼装 LLM prompt \n Ollama — 本地大模型生成 JSON 格式的摘要、标签和分类 \n Build Markdown — 把所有信息拼成 Obsidian 友好的 Markdown 文件 \n Write to Inbox — 写入 Obsidian Vault 的 Inbox 目录 \n \n\n \n 不要一口气搭完。 正确的顺序是：先把 Webhook → Fetch → Write 跑通（不加 LLM），确认能拿到正文并写成文件，然后再加 Ollama 节点。我第一次搭的时候一步到位，结果 debug 了一整晚都不知道是 Fetch 的问题还是 Ollama 的问题。\n \n\n Step 1 — 安装 Docker + n8n \n\n n8n 推荐用 Docker 跑，隔离干净，升级方便。 \n\n 安装 Docker \n\n 如果你的 Mac 还没装 Docker，去 Docker 官网 下载 Docker Desktop 安装即可。Windows 和 Linux 同理。 \n\n \n 给新手： Docker 是一个「容器」工具，你可以把它理解成一台虚拟电脑。n8n 跑在这个虚拟电脑里，不会弄脏你的系统环境。\n \n\n 启动 n8n \n\n 打开终端，一行命令启动 n8n： \n\n docker run -d --name n8n \\\n -p 5680:5678 \\\n -v n8n_data:/home/node/.n8n \\\n -v /path/to/your/obsidian/vault:/know \\\n -e N8N_RESTRICT_FILE_ACCESS_TO=\"/know\" \\\n --restart unless-stopped \\\n n8nio/n8n \n\n 解释几个关键参数： \n\n \n -p 5680:5678 —..."
+    }
+  ],
+  "til": [
+    {
+      "id": "2026-05-08-ollama-think-param",
+      "date": "2026-05-08",
+      "title": "Ollama 的 think 参数可以关掉推理链",
+      "body": "调用 Ollama API 时传 `think: false` 可以跳过模型的内部推理过程，直接输出结果。在知识管道里需要结构化 JSON 输出时（比如摘要+标签），关掉 think 能显著减少输出 token，响应速度快一倍以上。实测 qwen3:8b 关 think 后从 8 秒降到 3 秒。",
+      "tags": [
+        "ollama",
+        "性能优化",
+        "知识管道"
+      ],
+      "source": "ClawBot 开发实践"
+    },
+    {
+      "id": "2026-05-08-d1-sqlite-dialect",
+      "date": "2026-05-08",
+      "title": "Cloudflare D1 是 SQLite 方言，不是 MySQL",
+      "body": "D1 底层是 SQLite，不支持 ALTER TABLE ADD COLUMN IF NOT EXISTS、不支持 RIGHT JOIN、日期函数用 SQLite 的写法（`date('now')`）。踩过坑：习惯性写了 MySQL 语法，本地 wrangler dev 测试通过但线上报错。原因是 wrangler dev 用的 SQLite 版本和 D1 生产环境的版本有微妙差异。",
+      "tags": [
+        "cloudflare",
+        "d1",
+        "sqlite",
+        "踩坑"
+      ],
+      "source": "cyrustyj.xyz 开发"
+    },
+    {
+      "id": "2026-05-08-pagefind-body-attr",
+      "date": "2026-05-08",
+      "title": "Pagefind 只索引有 data-pagefind-body 的元素",
+      "body": "Pagefind 默认索引整个页面的所有文本，包括导航栏和页脚。加了 `data-pagefind-body` 属性后，它只索引标记的元素。反过来，`data-pagefind-ignore` 可以排除特定区域。不加这些属性的话，搜索 'GitHub' 会命中每个页面的 footer 链接，结果全是噪音。",
+      "tags": [
+        "pagefind",
+        "搜索",
+        "静态站"
+      ],
+      "source": "cyrustyj.xyz 搜索集成"
+    },
+    {
+      "id": "2026-05-08-jina-reader-fallback",
+      "date": "2026-05-08",
+      "title": "Jina Reader 是免费的网页内容提取 API",
+      "body": "在 URL 前面加 `https://r.jina.ai/` 就能拿到干净的 Markdown 格式正文，免费、不需要 API key。对于 JS 渲染的页面特别有用，因为普通 HTTP GET 拿到的是空壳 HTML。ClawBot 的策略是先试 Jina Reader，失败了再 fallback 到直接 HTTP 抓取 + HTML 解析。两层保险，成功率从 70% 提升到 95%+。",
+      "tags": [
+        "jina",
+        "网页抓取",
+        "知识管道",
+        "API"
+      ],
+      "source": "ClawBot fetch-content.js"
+    },
+    {
+      "id": "2026-05-08-github-actions-cron-utc",
+      "date": "2026-05-08",
+      "title": "GitHub Actions cron 是 UTC 时区，不是北京时间",
+      "body": "GitHub Actions 的 schedule cron 表达式用的是 UTC 时区。写 `cron: '0 9 * * *'` 实际上是北京时间下午 5 点执行，不是早上 9 点。要在北京时间 9 点执行，应该写 `cron: '0 1 * * *'`（UTC 凌晨 1 点 = 北京 9 点）。另外 GitHub 不保证 cron 准时触发，高峰期可能延迟 5-15 分钟。",
+      "tags": [
+        "github-actions",
+        "cron",
+        "时区",
+        "踩坑"
+      ],
+      "source": "cyrustyj.xyz 自动化部署"
+    }
+  ],
+  "services": {
+    "description": "AI 自动化顾问",
+    "tagline": "帮你找到最值得用 AI 自动化的环节，设计方案，搭好系统，交付可用。",
+    "offerings": [
+      "AI 场景诊断",
+      "自动化方案设计",
+      "部署 + 交付"
+    ],
+    "offeringDetails": {
+      "AI 场景诊断": "评估你的业务流程，找出最适合 AI 自动化的环节。不是所有事情都该用 AI，关键是找对切入点。",
+      "自动化方案设计": "从数据流到工具选型到实施路径，出一份可执行方案。不卖概念，只给能落地的东西。",
+      "部署 + 交付": "搭建 AI 数字员工，跑通流程，交付可用系统。你的团队能直接上手用，不依赖我。"
+    },
+    "audience": [
+      "有重复性手工操作的团队 — 每天花大量时间在复制粘贴、整理数据、回复消息上",
+      "想用 AI 但不知道从哪开始的企业 — 看了很多 AI 工具，不确定哪个真的能用",
+      "已经用了 AI 工具但效果不理想的团队 — 工具买了，但没跑通，或者只用了皮毛"
+    ],
+    "contact": "cyrusttyj2@gmail.com"
+  }
+}
