@@ -1828,3 +1828,99 @@ html[data-theme="dark"] .theme-toggle::after {
   color: var(--muted);
   margin-top: 4px;
 }
+
+/* ─── 19. Copy Code Button ─────────────────────────────────── */
+
+.copy-code-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px 12px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px;
+  color: rgba(255,255,255,0.5);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all var(--duration-fast);
+}
+
+pre:hover .copy-code-btn {
+  opacity: 1;
+}
+
+.copy-code-btn:hover {
+  background: rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.9);
+}
+
+.copy-code-btn.copied {
+  background: color-mix(in srgb, var(--ok) 20%, transparent);
+  border-color: var(--ok);
+  color: var(--ok);
+}
+
+/* ─── 20. Table of Contents ────────────────────────────────── */
+
+.toc-sidebar {
+  position: fixed;
+  top: 100px;
+  right: max(16px, calc((100vw - 820px) / 2 - 220px));
+  width: 200px;
+  z-index: 50;
+}
+
+.toc-nav {
+  font-size: 13px;
+}
+
+.toc-title {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted-2);
+  margin-bottom: 10px;
+}
+
+.toc-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-left: 2px solid var(--line);
+}
+
+.toc-nav li {
+  margin: 0;
+}
+
+.toc-link {
+  display: block;
+  padding: 4px 0 4px 14px;
+  color: var(--muted);
+  text-decoration: none;
+  line-height: 1.4;
+  border-left: 2px solid transparent;
+  margin-left: -2px;
+  transition: all var(--duration-fast);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.toc-link:hover {
+  color: var(--ink);
+}
+
+.toc-link.active {
+  color: var(--accent);
+  border-left-color: var(--accent);
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .toc-sidebar { display: none; }
+}
