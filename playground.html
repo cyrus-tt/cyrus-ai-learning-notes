@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="view-transition" content="same-origin" />
+  <title>AI Playground · 动手实验 | Cyrus</title>
+  <meta name="description" content="在浏览器里动手玩 AI：神经网络可视化、Transformer 原理、CNN 卷积演示、情感分析实验。无需安装，直接体验。" />
+  <meta name="keywords" content="AI Playground,神经网络可视化,Transformer,CNN,TensorFlow Playground,AI实验" />
+  <meta name="theme-color" content="#f5f5f7" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://cyrustyj.xyz/playground.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AI Playground · 动手实验 | Cyrus" />
+  <meta property="og:description" content="在浏览器里动手玩 AI。无需安装，直接体验神经网络、Transformer、CNN。" />
+  <meta property="og:url" content="https://cyrustyj.xyz/playground.html" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="./styles.css" />
+
+  <style>
+    .pg-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+      margin-bottom: 48px;
+    }
+
+    .pg-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg, 16px);
+      background: var(--bg-elevated, #fff);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow var(--duration-normal) var(--ease-out, ease);
+    }
+
+    .pg-card:hover {
+      box-shadow: var(--shadow-md);
+    }
+
+    .pg-card-header {
+      padding: 24px 28px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .pg-card-header h3 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0 0 6px;
+    }
+
+    .pg-card-header p {
+      font-size: 14px;
+      color: var(--muted);
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .pg-card-meta {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .pg-badge {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft, rgba(232,69,14,0.08));
+      color: var(--accent);
+    }
+
+    .pg-badge.green {
+      background: color-mix(in srgb, var(--ok) 10%, transparent);
+      color: var(--ok);
+    }
+
+    .pg-iframe-wrap {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%;
+      background: var(--bg-2);
+    }
+
+    .pg-iframe-wrap.tall {
+      padding-bottom: 75%;
+    }
+
+    .pg-iframe-wrap iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .pg-iframe-placeholder {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      cursor: pointer;
+      transition: background var(--duration-fast);
+    }
+
+    .pg-iframe-placeholder:hover {
+      background: color-mix(in srgb, var(--accent) 5%, var(--bg-2));
+    }
+
+    .pg-iframe-placeholder span {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    .pg-iframe-placeholder small {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .pg-play-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--ink);
+      color: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      box-shadow: var(--shadow-md);
+    }
+
+    /* AI Demo Section */
+    .ai-demo-section {
+      padding: 28px;
+    }
+
+    .ai-demo-input {
+      width: 100%;
+      padding: 14px 18px;
+      border: 1.5px solid var(--line);
+      border-radius: var(--radius, 10px);
+      font-family: var(--font-sans);
+      font-size: 15px;
+      background: var(--bg);
+      color: var(--ink);
+      resize: vertical;
+      min-height: 80px;
+      transition: border-color var(--duration-fast);
+    }
+
+    .ai-demo-input:focus {
+      border-color: var(--accent);
+      outline: none;
+    }
+
+    .ai-demo-btn {
+      margin-top: 12px;
+      padding: 10px 24px;
+      background: var(--ink);
+      color: var(--bg);
+      border: none;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--duration-normal) var(--ease-out, ease);
+    }
+
+    .ai-demo-btn:hover {
+      background: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    .ai-demo-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .ai-demo-result {
+      margin-top: 16px;
+      padding: 16px 20px;
+      background: var(--bg-2);
+      border-radius: var(--radius, 10px);
+      font-size: 14px;
+      line-height: 1.7;
+      min-height: 60px;
+    }
+
+    .ai-demo-result .label {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted-2);
+      margin-bottom: 8px;
+    }
+
+    .ai-demo-score {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .ai-demo-bar {
+      height: 8px;
+      border-radius: 4px;
+      background: var(--line);
+      margin-top: 8px;
+      overflow: hidden;
+    }
+
+    .ai-demo-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.6s var(--ease-out, ease);
+    }
+
+    .ai-demo-loading {
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    @media (max-width: 768px) {
+      .pg-card-header { padding: 20px; }
+      .ai-demo-section { padding: 20px; }
+      .pg-iframe-wrap { padding-bottom: 80%; }
+      .pg-iframe-wrap.tall { padding-bottom: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="/" class="site-nav-brand">Cyrus</a>
+  <div class="site-nav-links">
+    <a href="/">首页</a>
+    <a href="/about.html">关于</a>
+    <a href="/field-notes/">实验室</a>
+    <a href="/news.html">资讯</a>
+    <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
+  </div>
+</nav>
+
+<div class="mg-inner">
+
+  <nav class="mg-crumb">
+    <a href="/">← 首页</a>
+    <span>/ AI PLAYGROUND · 动手实验</span>
+  </nav>
+
+  <section class="mg-page-hero">
+    <div class="mg-tag-row">
+      <span class="mg-tag">INTERACTIVE</span>
+      <span class="mg-tag">BROWSER-BASED</span>
+    </div>
+    <h1 class="mg-page-title"><em>AI</em> Playground</h1>
+    <p class="mg-page-kicker">在浏览器里动手玩 AI。无需安装、无需 GPU、无需写代码。<br>点击加载，直接体验。</p>
+  </section>
+
+  <!-- Sentiment Analysis Demo -->
+  <div class="mg-section-rule">§ 试试 AI · TRY IT NOW</div>
+  <div class="pg-grid">
+    <article class="pg-card">
+      <div class="pg-card-header">
+        <h3>情感分析 · Sentiment Analysis</h3>
+        <p>输入任意一句话，AI 会判断它是正面、负面还是中性情绪。模型完全在你的浏览器里运行，不会发送数据到服务器。</p>
+        <div class="pg-card-meta">
+          <span class="pg-badge green">浏览器内运行</span>
+          <span class="pg-badge">Transformers.js</span>
+        </div>
+      </div>
+      <div class="ai-demo-section">
+        <textarea id="sentimentInput" class="ai-demo-input" placeholder="试试输入：今天天气真好，心情愉快！&#10;或者：这个产品太难用了，浪费钱。"></textarea>
+        <button id="sentimentBtn" class="ai-demo-btn" onclick="runSentiment()">分析情感 →</button>
+        <div id="sentimentResult" class="ai-demo-result" hidden>
+          <div class="label">分析结果</div>
+          <div id="sentimentOutput"></div>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <!-- Interactive Visualizations -->
+  <div class="mg-section-rule">§ 可视化实验室 · VISUAL LABS</div>
+  <div class="pg-grid">
+
+    <!-- Transformer Explainer -->
+    <article class="pg-card">
+      <div class="pg-card-header">
+        <h3>Transformer 工作原理</h3>
+        <p>交互式探索 GPT-2 的内部结构：输入文本，观察注意力机制如何工作，token 如何被处理，预测如何生成。</p>
+        <div class="pg-card-meta">
+          <span class="pg-badge">Georgia Tech</span>
+          <span class="pg-badge green">实时推理</span>
+        </div>
+      </div>
+      <div class="pg-iframe-wrap tall">
+        <div class="pg-iframe-placeholder" onclick="loadIframe(this, 'https://poloclub.github.io/transformer-explainer/')">
+          <div class="pg-play-icon">▶</div>
+          <span>点击加载 Transformer Explainer</span>
+          <small>来源：Georgia Tech Polo Club · 需加载约 50MB 模型</small>
+        </div>
+      </div>
+    </article>
+
+    <!-- TensorFlow Playground -->
+    <article class="pg-card">
+      <div class="pg-card-header">
+        <h3>神经网络实验场</h3>
+        <p>调整层数、神经元数量、激活函数和学习率，实时观察神经网络如何学习分类不同的数据模式。</p>
+        <div class="pg-card-meta">
+          <span class="pg-badge">TensorFlow</span>
+          <span class="pg-badge green">经典教具</span>
+        </div>
+      </div>
+      <div class="pg-iframe-wrap">
+        <div class="pg-iframe-placeholder" onclick="loadIframe(this, 'https://playground.tensorflow.org/')">
+          <div class="pg-play-icon">▶</div>
+          <span>点击加载 TensorFlow Playground</span>
+          <small>来源：Google · 轻量级，加载快</small>
+        </div>
+      </div>
+    </article>
+
+    <!-- CNN Explainer -->
+    <article class="pg-card">
+      <div class="pg-card-header">
+        <h3>CNN 卷积神经网络</h3>
+        <p>逐层观察图片如何被卷积、池化、激活，最终被分类。理解计算机"看"图片的过程。</p>
+        <div class="pg-card-meta">
+          <span class="pg-badge">Georgia Tech</span>
+          <span class="pg-badge green">可交互</span>
+        </div>
+      </div>
+      <div class="pg-iframe-wrap tall">
+        <div class="pg-iframe-placeholder" onclick="loadIframe(this, 'https://poloclub.github.io/cnn-explainer/')">
+          <div class="pg-play-icon">▶</div>
+          <span>点击加载 CNN Explainer</span>
+          <small>来源：Georgia Tech Polo Club</small>
+        </div>
+      </div>
+    </article>
+
+    <!-- GAN Lab -->
+    <article class="pg-card">
+      <div class="pg-card-header">
+        <h3>GAN 对抗生成网络</h3>
+        <p>实时观察生成器和判别器的博弈过程，理解 AI 如何学会"创造"新数据。</p>
+        <div class="pg-card-meta">
+          <span class="pg-badge">Georgia Tech</span>
+          <span class="pg-badge green">TensorFlow.js</span>
+        </div>
+      </div>
+      <div class="pg-iframe-wrap">
+        <div class="pg-iframe-placeholder" onclick="loadIframe(this, 'https://poloclub.github.io/ganlab/')">
+          <div class="pg-play-icon">▶</div>
+          <span>点击加载 GAN Lab</span>
+          <small>来源：Georgia Tech Polo Club</small>
+        </div>
+      </div>
+    </article>
+
+    <!-- Diffusion Explainer -->
+    <article class="pg-card">
+      <div class="pg-card-header">
+        <h3>Stable Diffusion 文生图</h3>
+        <p>可视化 Stable Diffusion 的完整管线：从文本提示到噪声去除，理解 AI 如何根据文字生成图片。</p>
+        <div class="pg-card-meta">
+          <span class="pg-badge">Georgia Tech</span>
+          <span class="pg-badge">Diffusion</span>
+        </div>
+      </div>
+      <div class="pg-iframe-wrap tall">
+        <div class="pg-iframe-placeholder" onclick="loadIframe(this, 'https://poloclub.github.io/diffusion-explainer/')">
+          <div class="pg-play-icon">▶</div>
+          <span>点击加载 Diffusion Explainer</span>
+          <small>来源：Georgia Tech Polo Club</small>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</div>
+
+<footer class="site-footer">
+  <span>&copy; 2026 Cyrus</span>
+  <span>
+    <a href="/about.html">关于</a> &middot;
+    <a href="/til/">TIL</a> &middot;
+    <a href="/weekly/">周报</a> &middot;
+    <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> &middot;
+    <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+  </span>
+</footer>
+
+<script src="./ui.js"></script>
+<script src="./visit-stats.js"></script>
+<script src="/js/components/chat-widget.js"></script>
+
+<script>
+function loadIframe(placeholder, url) {
+  var wrap = placeholder.parentElement;
+  placeholder.remove();
+  var iframe = document.createElement('iframe');
+  iframe.src = url;
+  iframe.loading = 'lazy';
+  iframe.allow = 'accelerometer; camera; encrypted-media; gyroscope';
+  iframe.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-popups');
+  wrap.appendChild(iframe);
+}
+
+var sentimentPipeline = null;
+var sentimentBtn = document.getElementById('sentimentBtn');
+var sentimentInput = document.getElementById('sentimentInput');
+var sentimentResult = document.getElementById('sentimentResult');
+var sentimentOutput = document.getElementById('sentimentOutput');
+
+async function runSentiment() {
+  var text = sentimentInput.value.trim();
+  if (!text) return;
+
+  sentimentBtn.disabled = true;
+  sentimentBtn.textContent = '加载模型中…';
+  sentimentResult.hidden = false;
+  sentimentOutput.innerHTML = '<span class="ai-demo-loading">首次运行需下载模型（约 60MB），请稍候…</span>';
+
+  try {
+    if (!sentimentPipeline) {
+      var transformers = await import('https://cdn.jsdelivr.net/npm/@huggingface/transformers@3');
+      sentimentPipeline = await transformers.pipeline('sentiment-analysis', 'Xenova/distilbert-base-uncased-finetuned-sst-2-english', {
+        device: 'wasm'
+      });
+    }
+
+    sentimentBtn.textContent = '分析中…';
+    var results = await sentimentPipeline(text);
+    var r = results[0];
+    var emoji = r.label === 'POSITIVE' ? '😊' : '😔';
+    var label = r.label === 'POSITIVE' ? '正面情绪' : '负面情绪';
+    var pct = Math.round(r.score * 100);
+    var color = r.label === 'POSITIVE' ? 'var(--ok)' : 'var(--accent)';
+
+    sentimentOutput.innerHTML =
+      '<div class="ai-demo-score">' + emoji + ' ' + label + ' <span style="color:' + color + '">' + pct + '%</span></div>' +
+      '<div class="ai-demo-bar"><div class="ai-demo-bar-fill" style="width:' + pct + '%;background:' + color + '"></div></div>' +
+      '<p style="margin:10px 0 0;font-size:13px;color:var(--muted)">模型：DistilBERT (SST-2) · 完全在你的浏览器本地运行</p>';
+  } catch (err) {
+    sentimentOutput.innerHTML = '<span style="color:var(--accent)">加载失败：' + err.message + '</span>';
+    console.error(err);
+  }
+
+  sentimentBtn.disabled = false;
+  sentimentBtn.textContent = '分析情感 →';
+}
+</script>
+
+</body>
+</html>

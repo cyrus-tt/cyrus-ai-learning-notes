@@ -73,6 +73,7 @@
         <a href="/" class="on">首页</a>
         <a href="/about.html">关于</a>
         <a href="/field-notes/">实验室</a>
+        <a href="/playground.html">Playground</a>
         <a href="/news.html">资讯</a>
         <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
       </div>
@@ -91,6 +92,12 @@
             <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
         </div>
+      </section>
+
+      <!-- Continue Reading (populated by JS) -->
+      <section id="continueReading" class="content" hidden>
+        <div class="section-label">继续阅读 · CONTINUE</div>
+        <ul id="continueReadingList" class="post-list"></ul>
       </section>
 
       <!-- Search -->
@@ -135,6 +142,13 @@
         <div class="section-label">Cyrus Weekly</div>
         <div id="weekly-latest"></div>
         <a href="/weekly/" class="section-more">查看全部 →</a>
+      </section>
+
+      <!-- AI Playground promo -->
+      <section class="content">
+        <div class="section-label">AI Playground · 动手实验</div>
+        <p style="color:var(--muted);font-size:15px;margin:0 0 12px;">在浏览器里体验 AI：神经网络可视化、情感分析、Transformer 原理。无需安装。</p>
+        <a href="/playground.html" class="section-more">进入实验室 →</a>
       </section>
 
       <!-- AI News promo -->
@@ -185,5 +199,22 @@
       });
     </script>
     <script src="/js/components/chat-widget.js"></script>
+    <script>
+      (function () {
+        try {
+          var recent = JSON.parse(localStorage.getItem("cy_recent") || "[]");
+          if (recent.length === 0) return;
+          var section = document.getElementById("continueReading");
+          var list = document.getElementById("continueReadingList");
+          if (!section || !list) return;
+          recent.slice(0, 3).forEach(function (r) {
+            var li = document.createElement("li");
+            li.innerHTML = '<a href="' + r.path + '"><span class="post-title">' + r.title + '</span><span class="post-date">继续</span></a>';
+            list.appendChild(li);
+          });
+          section.hidden = false;
+        } catch (e) {}
+      })();
+    </script>
   </body>
 </html>

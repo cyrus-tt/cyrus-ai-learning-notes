@@ -89,6 +89,40 @@
     startTerminal();
   }
 
+  // Reading progress bar (article pages)
+  if (document.querySelector("article, .field-note-body")) {
+    var progressWrap = document.createElement("div");
+    progressWrap.className = "reading-progress";
+    progressWrap.innerHTML = '<div class="reading-progress-bar"></div>';
+    document.body.appendChild(progressWrap);
+    var progressBar = progressWrap.querySelector(".reading-progress-bar");
+    var progressTicking = false;
+    window.addEventListener("scroll", function () {
+      if (!progressTicking) {
+        requestAnimationFrame(function () {
+          var docH = document.documentElement.scrollHeight - window.innerHeight;
+          var pct = docH > 0 ? Math.min((window.scrollY / docH) * 100, 100) : 0;
+          progressBar.style.width = pct + "%";
+          progressTicking = false;
+        });
+        progressTicking = true;
+      }
+    }, { passive: true });
+  }
+
+  // Track recent pages for "continue reading"
+  try {
+    var path = window.location.pathname;
+    if (path.indexOf("/field-notes/") === 0 && path !== "/field-notes/") {
+      var title = document.title.split("|")[0].trim();
+      var recent = JSON.parse(localStorage.getItem("cy_recent") || "[]");
+      recent = recent.filter(function (r) { return r.path !== path; });
+      recent.unshift({ path: path, title: title, ts: Date.now() });
+      if (recent.length > 5) recent = recent.slice(0, 5);
+      localStorage.setItem("cy_recent", JSON.stringify(recent));
+    }
+  } catch (e) {}
+
   // Scroll-reveal observer
   if (!reduceMotion) {
     const observer = new IntersectionObserver(
