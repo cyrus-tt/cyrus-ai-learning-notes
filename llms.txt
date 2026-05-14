@@ -1,45 +1,65 @@
-# Cyrus 的 AI 学习笔记
+# Cyrus AI Learning Notes
 
-> AI 全栈实践者 Cyrus 的个人站。教程、TIL 短笔记、AI 资讯聚合、周报。
+> https://cyrustyj.xyz — Interactive AI learning hub by Cyrus. Browser-based AI playground, hands-on tutorials, daily news aggregation, weekly digests.
 
-## 教程 (Field Notes)
+## AI Playground (Interactive, Browser-Based)
 
-- [Claude Code 自定义 Skill 完全指南](https://cyrustyj.xyz/field-notes/claude-code-skills-guide/): 从零创建 Claude Code Skill 的完整教程，包含文件结构、实战案例、最佳实践
-- [n8n + Ollama 本地 AI 知识管道](https://cyrustyj.xyz/field-notes/n8n-ollama-local-pipeline/): 用 n8n + Ollama 搭建本地 AI 知识管道，零成本、全本地、隐私安全
-- [Cloudflare Pages 零成本建站完全指南](https://cyrustyj.xyz/field-notes/cloudflare-pages-guide/): 用 Cloudflare Pages 搭建永久免费个人网站的完整教程
+Try AI directly in your browser — no install, no GPU, no code required.
+- Sentiment Analysis demo (Transformers.js, runs locally in browser)
+- Transformer Explainer: interactive GPT-2 visualization (Georgia Tech)
+- TensorFlow Playground: neural network visualizer (Google)
+- CNN Explainer: convolutional neural network step-by-step (Georgia Tech)
+- GAN Lab: generative adversarial network training (Georgia Tech)
+- Diffusion Explainer: Stable Diffusion pipeline visualization (Georgia Tech)
+- Page: https://cyrustyj.xyz/playground.html
+
+## Tutorials (Field Notes)
+
+Hands-on guides from real AI implementation experience:
+- [Claude Code Custom Skill Guide](https://cyrustyj.xyz/field-notes/claude-code-skills-guide/): Complete tutorial for creating Claude Code Skills — file structure, real examples, best practices
+- [n8n + Ollama Local AI Pipeline](https://cyrustyj.xyz/field-notes/n8n-ollama-local-pipeline/): Build a local AI knowledge pipeline with n8n + Ollama — zero cost, fully local, privacy-safe
+- [Cloudflare Pages Zero-Cost Website](https://cyrustyj.xyz/field-notes/cloudflare-pages-guide/): Build a free personal website with Cloudflare Pages — complete guide
 
 ## TIL (Today I Learned)
 
-短笔记：每天一条 AI 实践中的碎片知识。
-- 数据：https://cyrustyj.xyz/til/entries.json
-- 页面：https://cyrustyj.xyz/til/
+Daily bite-sized AI practice notes.
+- Data: https://cyrustyj.xyz/til/entries.json
+- Page: https://cyrustyj.xyz/til/
 
-## AI 资讯
+## AI News Aggregation
 
-每日自动聚合全球 AI 动态（Reddit、HN、X、YouTube、GitHub、小红书），附 AI 评分和可执行结论。
-- 数据：https://cyrustyj.xyz/data/news.json
-- 页面：https://cyrustyj.xyz/news.html
+Auto-aggregated global AI news from 50+ RSS sources, with AI relevance scoring (0-100), bilingual (EN/ZH) support, and actionable takeaways.
+- Data: https://cyrustyj.xyz/data/news.json (80 items, updated 2x daily)
+- Page: https://cyrustyj.xyz/news.html
 
-## 周报 (Cyrus Weekly)
+## Weekly Digest (Cyrus Weekly)
 
-每周 AI 资讯 Top 10 精选。
-- 索引：https://cyrustyj.xyz/weekly/index.json
-- 页面：https://cyrustyj.xyz/weekly/
+Top 10 AI news of the week, curated and ranked by AI score.
+- Index: https://cyrustyj.xyz/weekly/index.json
+- Page: https://cyrustyj.xyz/weekly/
 
-## API 端点
+## API Endpoints
 
-- POST /api/chat — 和 AI Cyrus 对话
-- GET /api/mcp/search?q=keyword — 搜索教程和 TIL
-- GET /api/mcp/til — 获取 TIL 列表
-- GET /api/mcp/news?limit=10 — 获取最新 AI 资讯
+- POST /api/chat — Chat with AI Cyrus (digital twin powered by Cloudflare Workers AI)
+- GET /api/news — Latest AI news (80 items, scored and tagged)
+- GET /api/digest — Daily top 10 + weekly digest
+- GET /api/live-news — Real-time Google News AI topics
+- GET /api/github-trending — Trending AI repos (1000+ stars)
+- GET /api/mcp/search?q=keyword — Search tutorials and TIL
+- GET /api/mcp/til — List TIL entries
+- GET /api/mcp/news?limit=10 — Get latest AI news
 
-## RSS
+## MCP Server
 
-https://cyrustyj.xyz/feed.xml
+MCP config: https://cyrustyj.xyz/.well-known/mcp.json
 
-## 关于作者
+## Feeds
 
-Cyrus 宇 — 非技术出身的 AI 全栈实践者。在世界500强落地 AI Agent，独立交付 AI 产品，做 B 端 AI 自动化顾问。
-- 网站：https://cyrustyj.xyz
-- GitHub：https://github.com/cyrus-tt
-- 小红书：https://xhslink.com/m/AQ5LCxoWJeF
+- RSS: https://cyrustyj.xyz/feed.xml
+- Sitemap: https://cyrustyj.xyz/sitemap.xml
+
+## About
+
+Cyrus — Non-technical background turned AI full-stack practitioner. Shipped AI Agent systems at Fortune 500, built indie AI products with paying customers, B2B AI automation consultant.
+- Website: https://cyrustyj.xyz
+- GitHub: https://github.com/cyrus-tt

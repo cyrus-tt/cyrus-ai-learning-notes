@@ -1182,6 +1182,50 @@ html[data-theme="dark"] .theme-toggle::after {
 
 /* ── Reading Progress Bar ──────────────────────────────────── */
 
+/* ── Visit Streak ──────────────────────────────────────────── */
+
+.streak-widget {
+  background: var(--bg-elevated);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  box-shadow: var(--shadow-xs);
+}
+
+.streak-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.streak-fire { font-size: 20px; }
+
+.streak-count {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.streak-total {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted-2);
+  margin-left: auto;
+}
+
+.streak-graph {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.streak-graph svg {
+  display: block;
+}
+
+/* ── Reading Progress Bar ──────────────────────────────────── */
+
 .reading-progress {
   position: fixed;
   top: 0;
