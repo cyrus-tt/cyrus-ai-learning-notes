@@ -18,6 +18,7 @@
 
 | 任务 | 完成日 | Plan 文件 |
 |---|---|---|
+| 功能升级：AI Playground + 评论 + 阅读体验 | 05-14 | — (调研+实施) |
 | Design System 2.0 全站视觉升级 | 05-14 | — (直接实施) |
 | AI Cyrus 聊天机器人 | 05-08 | `docs/plans/2026-05-09-ai-native-v3.md` Phase 2 |
 | p5.js 神经网络生成艺术 Hero | 05-08 | 同上 Phase 1 |
