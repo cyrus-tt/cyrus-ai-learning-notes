@@ -10,7 +10,7 @@
 | # | 任务 | 状态 | 下一步 |
 |---|---|---|---|
 | 1 | Mission Control 仪表盘 | 🟡 in-progress | D1 migration 005/006 未提交，mc-sync/mc-tasks API 未提交 |
-| 2 | MCP endpoints + llms.txt | 🔵 planned | `docs/plans/2026-05-09-ai-native-v3.md` Phase 3 |
+| 2 | 语义搜索 (Vectorize + Workers AI) | 🔵 planned | 用 Cloudflare Vectorize 做教程语义搜索 |
 
 ---
 
@@ -18,6 +18,10 @@
 
 | 任务 | 完成日 | Plan 文件 |
 |---|---|---|
+| 教程 UX：Copy-Code + TOC 侧边栏 + 分享按钮 + 知识测验 | 05-14 | — |
+| 社交分享优化：PNG OG 图 + 完整 meta tags | 05-14 | — |
+| GEO 优化：llms.txt + robots.txt AI 爬虫 + sitemap | 05-14 | — |
+| Visit Streak 学习打卡系统 | 05-14 | — |
 | 功能升级：AI Playground + 评论 + 阅读体验 | 05-14 | — (调研+实施) |
 | Design System 2.0 全站视觉升级 | 05-14 | — (直接实施) |
 | AI Cyrus 聊天机器人 | 05-08 | `docs/plans/2026-05-09-ai-native-v3.md` Phase 2 |

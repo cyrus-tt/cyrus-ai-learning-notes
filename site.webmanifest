@@ -1,15 +1,17 @@
 {
-  "name": "Cyrus的AI学习笔记",
+  "name": "Cyrus AI Notes — AI 学习实验室",
   "short_name": "Cyrus AI",
+  "description": "AI 教程、资讯、Playground。用 AI 把想法变成产品。",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f5f5f7",
-  "theme_color": "#f5f5f7",
+  "background_color": "#fafafa",
+  "theme_color": "#e8450e",
   "icons": [
     {
       "src": "/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }
-  ]
+  ],
+  "categories": ["education", "technology"]
 }
