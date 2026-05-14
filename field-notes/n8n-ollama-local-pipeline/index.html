@@ -26,14 +26,16 @@
       content="从零搭建本地 AI 知识管道：微信分享链接 → 自动抓取 → Ollama 摘要打标 → Obsidian 归档。零成本、全本地。"
     />
     <meta property="og:url" content="https://cyrustyj.xyz/field-notes/n8n-ollama-local-pipeline/" />
-    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.svg" />
+    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="article:published_time" content="2026-05-08T00:00:00+08:00" />
     <meta property="article:author" content="Cyrus" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="n8n + Ollama 本地 AI 知识管道" />
     <meta name="twitter:description" content="从零搭建本地 AI 知识管道：微信链接 → 自动摘要打标 → Obsidian 归档。零成本、全本地。" />
-    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.svg" />
+    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.png" />
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/site.webmanifest" />
@@ -979,6 +981,20 @@ status: inbox
         </div>
       </section>
 
+      <!-- Share -->
+      <section class="share-section">
+        <h3>分享这篇文章</h3>
+        <div id="shareButtons"></div>
+      </section>
+
+      <!-- Quiz -->
+      <section class="quiz-section" id="quizSection" data-quiz='[
+        {"q":"n8n 和 Ollama 组合的核心优势是什么？","opts":["速度最快","完全本地运行、零成本、隐私安全","界面最好看","支持最多模型"],"answer":1,"explain":"n8n + Ollama 的最大价值在于所有数据和推理都在本地完成，不需要付费 API，不需要将敏感数据发送到云端。"},
+        {"q":"在 n8n 工作流中，Ollama 节点的作用是什么？","opts":["存储数据","接收 webhook","调用本地 LLM 进行文本处理","发送邮件"],"answer":2,"explain":"Ollama 节点连接到本地运行的 Ollama 服务，将文本发送给本地 LLM 进行处理——包括摘要、分类、提取关键信息等任务。"},
+        {"q":"为什么教程建议用 Docker 部署 n8n？","opts":["Docker 更快","环境隔离、一键部署、易于维护升级","Docker 是必须的","公司要求"],"answer":1,"explain":"Docker 提供了环境隔离（不污染宿主机）、一键部署（docker compose up）、版本管理和数据持久化，让 n8n 的部署维护变得非常简单。"}
+      ]'>
+      </section>
+
     </div><!-- /.mg-inner -->
 
     <!-- Giscus Comments -->
@@ -1016,6 +1032,8 @@ status: inbox
 
     <script src="/ui.js"></script>
     <script src="/visit-stats.js"></script>
+    <script src="/js/components/share-buttons.js"></script>
+    <script src="/js/components/quiz.js"></script>
     <script src="/js/components/chat-widget.js"></script>
   </body>
 </html>
