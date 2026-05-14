@@ -4,13 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="view-transition" content="same-origin" />
-    <title>页面不存在 | Cyrus的AI学习笔记</title>
+    <title>404 · 迷路了 | Cyrus</title>
     <meta name="robots" content="noindex,nofollow" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" />
     <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .err-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        min-height: 70vh;
+        padding: 60px 24px;
+      }
+      .err-code {
+        font-family: var(--font-mono);
+        font-size: clamp(100px, 20vw, 200px);
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: -0.04em;
+        background: linear-gradient(135deg, var(--accent), #ff8a5c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        opacity: 0.25;
+        margin: 0;
+      }
+      .err-title {
+        font-size: clamp(28px, 5vw, 44px);
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        margin: -20px 0 12px;
+        position: relative;
+      }
+      .err-desc {
+        font-size: 16px;
+        color: var(--muted);
+        line-height: 1.6;
+        max-width: 36ch;
+        margin: 0 0 32px;
+      }
+      .err-links {
+        display: flex;
+        gap: 10px;
+      }
+      .err-links a {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 22px;
+        border-radius: 999px;
+        text-decoration: none;
+        transition: all var(--duration-normal) var(--ease-out);
+      }
+      .err-links a:first-child {
+        background: var(--ink);
+        color: var(--bg);
+      }
+      .err-links a:first-child:hover {
+        background: var(--accent);
+        transform: translateY(-1px);
+      }
+      .err-links a:last-child {
+        border: 1.5px solid var(--line);
+        color: var(--ink);
+      }
+      .err-links a:last-child:hover {
+        border-color: var(--ink);
+        transform: translateY(-1px);
+      }
+    </style>
   </head>
   <body>
     <nav class="site-nav">
@@ -24,16 +90,14 @@
       </div>
     </nav>
 
-    <main class="wrap page-main">
-      <section class="hero">
-        <p class="eyebrow">404</p>
-        <h1>页面不存在</h1>
-        <p class="hero-copy">你访问的链接可能已失效或地址有误。</p>
-        <div class="cta-actions">
-          <a class="btn btn-primary" href="/">返回首页</a>
-          <a class="btn btn-ghost" href="/news.html">去看 AI资讯</a>
-        </div>
-      </section>
+    <main class="err-wrap">
+      <p class="err-code">404</p>
+      <h1 class="err-title">页面迷路了</h1>
+      <p class="err-desc">这个链接可能已失效，或者你手滑打错了地址。没关系，回到正轨。</p>
+      <div class="err-links">
+        <a href="/">返回首页</a>
+        <a href="/news.html">看 AI 资讯</a>
+      </div>
     </main>
 
     <footer class="site-footer">

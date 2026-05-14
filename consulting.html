@@ -28,7 +28,7 @@
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" />
   <link rel="stylesheet" href="./styles.css" />
 
   <script type="application/ld+json">
@@ -47,88 +47,88 @@
   </script>
 
   <style>
-    /* ─── Consulting Page: Hero ─────────────────────────────────── */
     .consulting-hero {
       text-align: center;
-      padding: 60px 0 48px;
-      border-bottom: 1.5px solid var(--mg-line);
-      margin-bottom: 48px;
+      padding: 72px 0 56px;
+      border-bottom: 1px solid var(--mg-line);
+      margin-bottom: 56px;
     }
 
     .consulting-hero h1 {
       font-family: var(--font-sans);
-      font-size: clamp(36px, 8vw, 64px);
-      font-weight: 700;
+      font-size: clamp(40px, 9vw, 72px);
+      font-weight: 800;
       line-height: 1;
-      letter-spacing: -.03em;
+      letter-spacing: -.04em;
       margin: 0;
     }
 
     .consulting-hero-tagline {
       font-family: var(--font-mono);
-      font-size: 13px;
-      letter-spacing: .16em;
+      font-size: 12px;
+      letter-spacing: .18em;
       text-transform: uppercase;
       color: var(--mg-accent);
-      margin: 16px 0 0;
+      margin: 20px 0 0;
     }
 
     .consulting-hero-desc {
-      font-family: var(--font-sans);
       font-size: 18px;
       color: var(--mg-muted);
       margin: 14px auto 0;
       max-width: 40ch;
-      line-height: 1.6;
+      line-height: 1.65;
     }
 
-    /* ─── Consulting Page: Service Cards ───────────────────────── */
     .consulting-services {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-      margin-bottom: 48px;
+      gap: 20px;
+      margin-bottom: 56px;
     }
 
     .consulting-card {
-      border: 1.5px solid var(--mg-line);
-      border-radius: 14px;
+      border: 1px solid var(--mg-line);
+      border-radius: var(--radius-lg, 16px);
       padding: 28px 24px;
-      background: var(--mg-paper);
-      transition: transform .25s, box-shadow .25s;
+      background: var(--bg-elevated, var(--mg-paper));
+      box-shadow: var(--shadow-xs);
+      transition: transform var(--duration-normal) var(--ease-out, ease),
+                  box-shadow var(--duration-normal) var(--ease-out, ease),
+                  border-color var(--duration-normal);
     }
 
     .consulting-card:hover {
       transform: translateY(-4px);
-      box-shadow: 6px 6px 0 var(--mg-line);
+      box-shadow: var(--shadow-md);
+      border-color: color-mix(in srgb, var(--mg-accent) 30%, var(--mg-line));
     }
 
     .consulting-card-num {
-      font-family: var(--font-sans);
-      font-size: 36px;
+      font-family: var(--font-mono);
+      font-size: 32px;
       font-weight: 700;
       line-height: 1;
       color: var(--mg-accent);
+      opacity: 0.6;
     }
 
     .consulting-card h3 {
-      font-family: var(--font-sans);
-      font-size: 20px;
-      font-weight: 600;
-      margin: 10px 0 8px;
+      font-size: 19px;
+      font-weight: 700;
+      margin: 12px 0 8px;
       line-height: 1.3;
     }
 
     .consulting-card p {
       font-size: 14px;
       color: var(--mg-muted);
-      line-height: 1.7;
+      line-height: 1.75;
       margin: 0;
     }
 
-    /* ─── Consulting Page: Audience List ────────────────────────── */
     .consulting-audience {
-      margin-bottom: 48px;
+      margin-bottom: 56px;
     }
 
     .consulting-audience ul {
@@ -139,36 +139,32 @@
 
     .consulting-audience li {
       position: relative;
-      padding: 12px 0 12px 24px;
+      padding: 14px 0 14px 28px;
       font-size: 15px;
-      line-height: 1.7;
+      line-height: 1.75;
       color: var(--mg-ink);
       border-bottom: 1px solid var(--mg-line-soft);
     }
 
-    .consulting-audience li:last-child {
-      border-bottom: none;
-    }
+    .consulting-audience li:last-child { border-bottom: none; }
 
     .consulting-audience li::before {
       content: "";
       position: absolute;
       left: 0;
-      top: 18px;
+      top: 20px;
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      border: 2px solid var(--mg-accent);
-      background: var(--mg-paper);
+      background: var(--mg-accent);
     }
 
-    /* ─── Consulting Page: Contact ─────────────────────────────── */
     .consulting-contact {
       text-align: center;
-      padding: 48px 0;
-      border-top: 1.5px solid var(--mg-line);
-      border-bottom: 1.5px solid var(--mg-line);
-      margin-bottom: 48px;
+      padding: 56px 24px;
+      background: var(--bg-2, var(--mg-paper-2));
+      border-radius: var(--radius-lg, 16px);
+      margin-bottom: 56px;
     }
 
     .consulting-contact-email {
@@ -177,18 +173,19 @@
       gap: 8px;
       font-family: var(--font-mono);
       font-size: 14px;
-      letter-spacing: .06em;
+      letter-spacing: .04em;
       text-decoration: none;
       color: #fff;
-      background: var(--mg-accent);
+      background: var(--mg-ink);
       padding: 14px 32px;
       border-radius: 999px;
-      transition: opacity .2s, transform .2s;
+      transition: all var(--duration-normal) var(--ease-out, ease);
     }
 
     .consulting-contact-email:hover {
-      opacity: .85;
+      background: var(--mg-accent);
       transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
     }
 
     .consulting-contact-note {
@@ -198,15 +195,9 @@
       line-height: 1.6;
     }
 
-    /* ─── Responsive ───────────────────────────────────────────── */
     @media (max-width: 768px) {
-      .consulting-services {
-        grid-template-columns: 1fr;
-      }
-
-      .consulting-hero {
-        padding: 40px 0 32px;
-      }
+      .consulting-services { grid-template-columns: 1fr; }
+      .consulting-hero { padding: 48px 0 40px; }
     }
   </style>
 </head>

@@ -17,6 +17,21 @@
   const themeBtn = document.getElementById("themeToggle");
   if (themeBtn) themeBtn.addEventListener("click", toggleTheme);
 
+  // Sticky nav shadow on scroll
+  const nav = document.querySelector(".site-nav");
+  if (nav) {
+    let ticking = false;
+    window.addEventListener("scroll", function () {
+      if (!ticking) {
+        requestAnimationFrame(function () {
+          nav.classList.toggle("scrolled", window.scrollY > 8);
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }, { passive: true });
+  }
+
   // Terminal typing animation
   const termScript = [
     { t: "prompt", user: "cyrus", host: "xhs", path: "~", cmd: "whoami" },
@@ -74,7 +89,7 @@
     startTerminal();
   }
 
-  // Fade-up observer
+  // Scroll-reveal observer
   if (!reduceMotion) {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -85,16 +100,22 @@
           }
         });
       },
-      { threshold: 0.08 }
+      { threshold: 0.08, rootMargin: "0px 0px -40px 0px" }
     );
 
-    document.querySelectorAll(".fade-up, .mg-entry, .mg-disp, .digest-card, .card-grid").forEach((el) => {
+    document.querySelectorAll(
+      ".fade-up, .mg-entry, .mg-disp, .digest-card, .card-grid, " +
+      ".content, .about-project-card, .about-timeline li, .about-quote, " +
+      ".consulting-card, .mg-page-hero, .filter-toolbar"
+    ).forEach(function (el) {
+      el.classList.add("reveal");
       observer.observe(el);
     });
 
-    // Re-observe after dynamic card rendering
-    window.addEventListener("cyrus:cards-rendered", () => {
-      document.querySelectorAll(".card-animate").forEach((el) => observer.observe(el));
+    window.addEventListener("cyrus:cards-rendered", function () {
+      document.querySelectorAll(".card-animate").forEach(function (el) {
+        observer.observe(el);
+      });
     });
   }
 })();

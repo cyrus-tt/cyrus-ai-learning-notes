@@ -115,7 +115,7 @@
     var div = document.createElement("div");
     div.className = "chat-msg chat-msg-ai chat-typing";
     div.id = "chat-typing-indicator";
-    div.textContent = "AI Cyrus 正在思考…";
+    div.innerHTML = '<span class="chat-dots"><span></span><span></span><span></span></span>';
     msgArea.appendChild(div);
     scrollToBottom();
   }
