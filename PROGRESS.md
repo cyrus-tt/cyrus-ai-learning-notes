@@ -18,6 +18,7 @@
 
 | 任务 | 完成日 | Plan 文件 |
 |---|---|---|
+| AI-Native 升级：Cmd+K 面板 + Explain This + 上下文聊天 | 05-20 | — |
 | 教程 UX：Copy-Code + TOC 侧边栏 + 分享按钮 + 知识测验 | 05-14 | — |
 | 社交分享优化：PNG OG 图 + 完整 meta tags | 05-14 | — |
 | GEO 优化：llms.txt + robots.txt AI 爬虫 + sitemap | 05-14 | — |
