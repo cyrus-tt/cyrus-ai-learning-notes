@@ -153,6 +153,15 @@
       apiMessages.push({ role: m.role, content: m.content });
     }
 
+    // Add page context if on an article page
+    var article = document.querySelector("article, .article-body, .field-note-body");
+    if (article && apiMessages.length <= 2) {
+      var pageTitle = document.title.split("|")[0].trim();
+      var pageContent = article.textContent.slice(0, 1500);
+      apiMessages[apiMessages.length - 1].content +=
+        "\n\n[用户正在阅读: " + pageTitle + "]\n页面内容摘要: " + pageContent;
+    }
+
     sendToAPI(apiMessages);
   });
 

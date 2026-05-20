@@ -49,7 +49,6 @@
     <link rel="stylesheet" href="./styles.css" />
     <link rel="prefetch" href="/field-notes/" />
     <link rel="prefetch" href="/playground.html" />
-    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
 
     <script type="application/ld+json">
       {
@@ -105,9 +104,13 @@
         <ul id="continueReadingList" class="post-list"></ul>
       </section>
 
-      <!-- Search -->
+      <!-- AI Search (Cmd+K) -->
       <section class="content search-section">
-        <div id="search"></div>
+        <button class="cmdk-trigger" id="cmdkTrigger">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          搜索、提问、导航… AI 驱动
+          <kbd>⌘K</kbd>
+        </button>
       </section>
 
       <!-- TIL -->
@@ -195,21 +198,9 @@
     <script src="./visit-stats.js"></script>
     <script src="./js/components/subscribe.js"></script>
     <script src="./js/components/home-feed.js"></script>
-    <script src="/pagefind/pagefind-ui.js"></script>
-    <script>
-      window.addEventListener('DOMContentLoaded', function() {
-        new PagefindUI({
-          element: "#search",
-          showSubResults: true,
-          showImages: false,
-          translations: {
-            placeholder: "搜索教程、资讯…",
-            zero_results: "没有找到「[SEARCH_TERM]」相关内容"
-          }
-        });
-      });
-    </script>
     <script src="/js/components/visit-streak.js"></script>
+    <script src="/js/components/cmd-k.js"></script>
+    <script src="/js/components/explain-this.js"></script>
     <script src="/js/components/chat-widget.js"></script>
     <script>
       (function () {

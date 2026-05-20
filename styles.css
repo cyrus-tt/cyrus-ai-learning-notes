@@ -1924,3 +1924,214 @@ pre:hover .copy-code-btn {
 @media (max-width: 1200px) {
   .toc-sidebar { display: none; }
 }
+
+/* ─── 21. Cmd+K Command Palette ────────────────────────────── */
+
+.cmdk-overlay {
+  position: fixed; inset: 0; z-index: 10000;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(8px);
+  display: flex; align-items: flex-start; justify-content: center;
+  padding-top: min(20vh, 160px);
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+.cmdk-overlay.open {
+  opacity: 1; pointer-events: all;
+}
+
+.cmdk-container {
+  width: min(640px, 92vw);
+  background: var(--bg-elevated);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 24px 80px rgba(0,0,0,0.25);
+  overflow: hidden;
+  transform: scale(0.96) translateY(-8px);
+  transition: transform 0.2s var(--ease-out);
+}
+
+.cmdk-overlay.open .cmdk-container {
+  transform: scale(1) translateY(0);
+}
+
+.cmdk-input-wrap {
+  display: flex; align-items: center; gap: 10px;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.cmdk-icon { color: var(--muted); flex-shrink: 0; }
+
+.cmdk-input {
+  flex: 1; border: none; background: transparent;
+  font-family: var(--font-sans); font-size: 16px;
+  color: var(--ink); outline: none;
+}
+
+.cmdk-input::placeholder { color: var(--muted-2); }
+
+.cmdk-kbd {
+  font-family: var(--font-mono); font-size: 11px;
+  padding: 2px 8px; border-radius: 5px;
+  background: var(--bg-2); color: var(--muted);
+  border: 1px solid var(--line);
+}
+
+.cmdk-body {
+  max-height: 400px; overflow-y: auto;
+  padding: 8px;
+}
+
+.cmdk-hints {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  padding: 12px 8px;
+}
+
+.cmdk-hint {
+  padding: 6px 14px; border-radius: 999px;
+  background: var(--bg-2); color: var(--muted);
+  font-size: 13px; cursor: pointer;
+  transition: all var(--duration-fast);
+}
+
+.cmdk-hint:hover {
+  background: var(--accent-soft); color: var(--accent);
+}
+
+.cmdk-results { padding: 4px 0; }
+
+.cmdk-result {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 14px; border-radius: 10px;
+  text-decoration: none; color: var(--ink);
+  transition: background var(--duration-fast);
+}
+
+.cmdk-result:hover { background: var(--bg-2); }
+
+.cmdk-result-title { font-size: 14px; font-weight: 500; }
+
+.cmdk-result-url {
+  font-family: var(--font-mono); font-size: 11px;
+  color: var(--muted-2);
+}
+
+.cmdk-ai-answer { padding: 16px; }
+
+.cmdk-ai-header {
+  display: flex; align-items: center; gap: 8px;
+  margin-bottom: 12px;
+}
+
+.cmdk-ai-label {
+  font-family: var(--font-mono); font-size: 11px;
+  font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 10px; border-radius: 999px;
+  background: var(--accent-soft); color: var(--accent);
+}
+
+.cmdk-ai-status {
+  font-size: 12px; color: var(--muted);
+}
+
+.cmdk-ai-content {
+  font-size: 14px; line-height: 1.7; color: var(--ink);
+}
+
+.cmdk-ai-content code {
+  font-family: var(--font-mono); font-size: 0.88em;
+  background: var(--bg-2); padding: 1px 5px;
+  border-radius: 3px;
+}
+
+.cmdk-footer {
+  display: flex; gap: 16px; padding: 10px 18px;
+  border-top: 1px solid var(--line);
+  font-size: 11px; color: var(--muted-2);
+}
+
+@media (max-width: 640px) {
+  .cmdk-overlay { padding-top: 12px; }
+  .cmdk-container { border-radius: 12px; }
+  .cmdk-footer { display: none; }
+}
+
+/* ─── 22. Explain This Popover ─────────────────────────────── */
+
+.explain-popover {
+  position: absolute; z-index: 9998;
+  background: var(--bg-elevated);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+  min-width: 200px; max-width: 420px;
+  opacity: 0; pointer-events: none;
+  transform: translateY(4px);
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.explain-popover.visible {
+  opacity: 1; pointer-events: all;
+  transform: translateY(0);
+}
+
+.explain-actions {
+  display: flex; gap: 4px; padding: 6px;
+}
+
+.explain-btn {
+  flex: 1; padding: 8px 12px;
+  background: transparent; border: 1px solid var(--line);
+  border-radius: 8px; cursor: pointer;
+  font-family: var(--font-sans); font-size: 13px;
+  color: var(--ink); white-space: nowrap;
+  transition: all var(--duration-fast);
+}
+
+.explain-btn:hover {
+  background: var(--accent-soft); border-color: var(--accent);
+  color: var(--accent);
+}
+
+.explain-result {
+  padding: 14px 16px; max-height: 300px; overflow-y: auto;
+  font-size: 13px; line-height: 1.6; color: var(--ink);
+  border-top: 1px solid var(--line);
+}
+
+.explain-result code {
+  font-family: var(--font-mono); font-size: 0.88em;
+  background: var(--bg-2); padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* ─── 23. Cmd+K Trigger in Search ──────────────────────────── */
+
+.cmdk-trigger {
+  display: flex; align-items: center; gap: 8px;
+  padding: 10px 16px;
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all var(--duration-fast);
+  width: 100%;
+}
+
+.cmdk-trigger:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-sm);
+}
+
+.cmdk-trigger kbd {
+  margin-left: auto;
+  font-family: var(--font-mono); font-size: 11px;
+  padding: 2px 6px; border-radius: 4px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
