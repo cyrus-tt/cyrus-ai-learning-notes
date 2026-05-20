@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T16:16:43.912420+00:00",
+  "generatedAt": "2026-05-20T05:02:24.968243+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-05-20",
@@ -7,85 +7,309 @@
     "top10": [
       {
         "rank": 1,
-        "title": "无反向传播 Pong：PC + 分布 Hebbian 可塑性 vs. PPO：57% vs. 59%，从头开始约 1500 行 [P]",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-05-19T16:09:54+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1thrlix/backpropfree_pong_pc_distributional_hebbian/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
+        "title": "地瓜机器人��千寻智能达成战略合作",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T04:19:11+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3817109218575489?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
         "contentTags": [
-          "Agent",
-          "开源生态",
-          "自动化"
+          "芯片算力",
+          "模型进展",
+          "开源生态"
         ],
-        "summary": "想看看完全生物合理的药剂在 Pong 上能与 PPO 有多接近。设置自定义 Pong 环境（pygame，没有健身房） PPO 基线：纸面忠实，从头开始 Hebbian 代理：PPO po...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "36氪获悉，5月20日，地瓜机器人与千寻智能宣布达成战略合作。双方已完成开源VLA模型Spirit v1.5与旭日S600旗舰大算力芯片的深度适配，联合打造高性能、可量产的软硬一体化解决方案。Spirit v1.5是国内首个综合性能超越国际标杆Pi0.5的开源VLA基础模型；旭日S600具备560TOPS（INT8）AI算力，可满足大模型端侧高效推理需求。",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 18,
+          "authority": 25,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 2,
-        "title": "网络革命",
-        "platform": "Reddit",
-        "aiScore": 67,
-        "publishedAt": "2026-05-19T16:11:57+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1thrnp3/the_cybernation_revolution/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
+        "title": "平头哥真武系列GPU已累计出货超56万片",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T04:06:41+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3817111570482304?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
         "contentTags": [
-          "AI动态"
+          "芯片算力",
+          "Agent"
         ],
-        "summary": "由 /u/HooverInstitution 提交 [链接] [评论]",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "36氪获悉，5月20日，在2026阿里云峰会上，平头哥首次公布真武系列芯片的规划，未来两年将陆续推出算力更强的真武V900、真武J900两代芯片，以满足Agentic时代千行百业的AI算力需求。目前，真武系列芯片已累计出货56万片，服务了中国电信、中国一汽、浦发银行等20多个行业的400多家客户。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "平头哥AI芯片真武M890首次亮相，性能提升至3倍",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T03:34:52+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3817080294999168?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "36氪获悉，5月20日，在2026阿里云峰会上，平头哥新一代训推一体AI芯片真武M890首次亮相，该芯片内置144GB显存，片间互联带宽达到800GB/s，性能是真武810E的3倍，原生支持FP32到FP4等多种数据精度，可应用于高精度训练、低精度和超低精度推理的全场景。配合自研ICN Switch1.0芯片，可实现64卡全带宽互联，显著提升大规模智算集群计算的效率与稳定性。…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "长鑫科技更新招股书，碧桂园错失300亿",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T02:54:58+00:00",
+        "sourceUrl": "https://36kr.com/p/3817039204139908?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "地产行业内，曾有望跑出两家明星创投企业，一家是世纪金源，另一家是碧桂园。前者现在做得顺风顺水，收获一个又一个IPO，而碧桂园因为地产业务暴雷，需要大量资金保交楼，被迫中断了在科技领域的投资“大爆发”。 01 5月17日，计划登陆科创板的长鑫科技集团股份有限公司（以下简称：长鑫科技）更新了招股书。新招股书的财务数据显示，2026年第一季度，长鑫科技营收508亿元，同比增长719…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "做出百万台割草机器人后，未岚大陆CEO决定让自己变得“不重要”｜硬氪专访",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T01:30:00+00:00",
+        "sourceUrl": "https://36kr.com/p/3814411349581316?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "作者｜黄楠 编辑｜袁斯来 未岚大陆CEO任冠佼等了7年，等到了行业的爆发。 他还记得，2019年刚进入无边界智能割草机器人赛道，自己“只是觉得这个方向一定能火”。 到2021年第一代产品推出时，他们也只敢确定，这是一个能做到10-20亿的行业。 直到2025年，增速超出他的预期。 IDC数据显示，2025年全球无边界割草机器人出货量达到131.8万台，同比增长182.4%，占…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "要做数字劳动力生产工厂，「未来式智能」完成Pre-A轮融资",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T01:21:27+00:00",
+        "sourceUrl": "https://36kr.com/p/3816909945029760?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "文｜王欣逸 编辑｜邓咏仪 36氪获悉，未来式智能（AutoAgents.ai）近日完成Pre-A轮融资，新进投资方包括凡创资本、中关村资本、探元资本，老股东东证创新、麟阁创投跟投，本轮融资主要用于算力投入、团队扩张以及新产品的生态建设运营。 未来式智能成立于2023年6月，专注于以智能体技术赋能知识工作者。核心团队来自达摩院、腾讯、字节跳动和谷歌。创始人兼CEO杨劲松曾在达摩…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "早期项目 | Chance AI获美图等数百万美元投资，用户数已达20万",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T01:20:43+00:00",
+        "sourceUrl": "https://36kr.com/p/3816947890471812?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，Visual Agent（视觉智能体）创业公司Chance AI宣布完成数百万美元天使轮融资。本轮由美图领投，NYX Ventures、阿里系投资机构等跟投。融资将用于模型能力迭代、北美学生群体增长、以及社区与商业化探索。 Chance AI成立于2025年，核心产品是全球第一款以摄像头为主要交互入口的AI产品——Visual Agent（…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "8点1氪丨谷歌推出Gemini 3.5系列模型；DeepSeek回应用户“对话泄露”疑虑；全国存款十强城市出炉",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T00:20:10+00:00",
+        "sourceUrl": "https://36kr.com/p/3816885092910212?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "今日热点导览 谷歌推出Gemini 3.5系列模型 洁丽雅回应豪门内斗传闻，“毛巾少爷”1个月带货超500万元 巨力索具连续第二日跌停 前三星芯片负责人：明年内存将降价 自费流感疫苗也可使用医保报销 谷歌搜索宣布大改版，AI模式与代理助手全面嵌入 TOP 3 大新闻 DeepSeek回应用户“对话泄露”疑虑 5月19日，DeepSeek发布关于< think >字符触发模型异…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "当“躺平”、Gap被歧视，我们该如何度过奥德赛时期？ | 职场极端气候 ②",
+        "platform": "36氪",
+        "aiScore": 92,
+        "publishedAt": "2026-05-20T00:02:42+00:00",
+        "sourceUrl": "https://36kr.com/p/3816045694098952?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "开源生态",
+          "应用落地",
+          "内容生产"
+        ],
+        "summary": "图源：公众号「有三思 U Sense」） 2026年2月，小红书博主橘一橙NiceFriend发布了一条视频。她在视频里把 奥德赛时期 定义为“对事业、情感以及身份认同产生强烈焦虑和迷茫的阶段”，将之概括为“ 成年人类的未成年 ”。这条视频获得10万+点赞，8.6万收藏。 “奥德赛时期”这个词并非中文原生。2007年，《纽约时报》专栏作家大卫·布鲁克斯发表了同名评论文章，借用…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 17,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "Seedance 2.1即将推出？接近字节跳动人士：不属实",
+        "platform": "36氪",
+        "aiScore": 91,
+        "publishedAt": "2026-05-20T04:10:26+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3817085893788546?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "内容生产"
+        ],
+        "summary": "日前有市场消息称，字节跳动准备推出其AI视频生成模型Seedance 2.0的升级版本Seedance 2.1，而新模型的生成质量预计提升约20%。5月20日，接近字节跳动人士表示，市场上关于Seedance2.1即将发布的传言不属实。今年2月，字节跳动正式推出多模态AI视频生成模型Seedance 2.0，该模型支持文本、图片、音频、视频多形式混合输入，一经发布便引发业内高…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 16,
+          "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 2,
-      "avgScore": 76.5,
-      "topScore": 86,
+      "totalItems": 70,
+      "avgScore": 74.4,
+      "topScore": 95,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 2
+          "count": 19
+        },
+        {
+          "name": "Hacker News",
+          "count": 15
+        },
+        {
+          "name": "36氪",
+          "count": 13
+        },
+        {
+          "name": "The Verge",
+          "count": 10
+        },
+        {
+          "name": "Google AI Blog",
+          "count": 7
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 1
+          "count": 34
         },
         {
           "name": "Agent",
-          "count": 1
+          "count": 17
+        },
+        {
+          "name": "模型进展",
+          "count": 17
+        },
+        {
+          "name": "芯片算力",
+          "count": 11
+        },
+        {
+          "name": "应用落地",
+          "count": 10
         },
         {
           "name": "开源生态",
-          "count": 1
+          "count": 5
+        },
+        {
+          "name": "内容生产",
+          "count": 5
         },
         {
           "name": "自动化",
-          "count": 1
+          "count": 3
         }
       ]
     },
     "briefing": [
-      "今日共收录 2 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 开源生态",
-      "最高分事件：无反向传播 Pong：PC + 分布 Hebbian 可塑性 vs. PPO：57% vs. 59%，从头开始约 1500 行 [P]（86 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 70 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 模型进展",
+      "最高分事件：地瓜机器人��千寻智能达成战略合作（95 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
@@ -95,85 +319,309 @@
       "top10": [
         {
           "rank": 1,
-          "title": "无反向传播 Pong：PC + 分布 Hebbian 可塑性 vs. PPO：57% vs. 59%，从头开始约 1500 行 [P]",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-05-19T16:09:54+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1thrlix/backpropfree_pong_pc_distributional_hebbian/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
+          "title": "地瓜机器人��千寻智能达成战略合作",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T04:19:11+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3817109218575489?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
           "contentTags": [
-            "Agent",
-            "开源生态",
-            "自动化"
+            "芯片算力",
+            "模型进展",
+            "开源生态"
           ],
-          "summary": "想看看完全生物合理的药剂在 Pong 上能与 PPO 有多接近。设置自定义 Pong 环境（pygame，没有健身房） PPO 基线：纸面忠实，从头开始 Hebbian 代理：PPO po...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "36氪获悉，5月20日，地瓜机器人与千寻智能宣布达成战略合作。双方已完成开源VLA模型Spirit v1.5与旭日S600旗舰大算力芯片的深度适配，联合打造高性能、可量产的软硬一体化解决方案。Spirit v1.5是国内首个综合性能超越国际标杆Pi0.5的开源VLA基础模型；旭日S600具备560TOPS（INT8）AI算力，可满足大模型端侧高效推理需求。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 18,
+            "authority": 25,
+            "topic": 20,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 2,
-          "title": "网络革命",
-          "platform": "Reddit",
-          "aiScore": 67,
-          "publishedAt": "2026-05-19T16:11:57+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1thrnp3/the_cybernation_revolution/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
+          "title": "平头哥真武系列GPU已累计出货超56万片",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T04:06:41+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3817111570482304?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
           "contentTags": [
-            "AI动态"
+            "芯片算力",
+            "Agent"
           ],
-          "summary": "由 /u/HooverInstitution 提交 [链接] [评论]",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "36氪获悉，5月20日，在2026阿里云峰会上，平头哥首次公布真武系列芯片的规划，未来两年将陆续推出算力更强的真武V900、真武J900两代芯片，以满足Agentic时代千行百业的AI算力需求。目前，真武系列芯片已累计出货56万片，服务了中国电信、中国一汽、浦发银行等20多个行业的400多家客户。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "平头哥AI芯片真武M890首次亮相，性能提升至3倍",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T03:34:52+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3817080294999168?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "36氪获悉，5月20日，在2026阿里云峰会上，平头哥新一代训推一体AI芯片真武M890首次亮相，该芯片内置144GB显存，片间互联带宽达到800GB/s，性能是真武810E的3倍，原生支持FP32到FP4等多种数据精度，可应用于高精度训练、低精度和超低精度推理的全场景。配合自研ICN Switch1.0芯片，可实现64卡全带宽互联，显著提升大规模智算集群计算的效率与稳定性。…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "长鑫科技更新招股书，碧桂园错失300亿",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T02:54:58+00:00",
+          "sourceUrl": "https://36kr.com/p/3817039204139908?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "地产行业内，曾有望跑出两家明星创投企业，一家是世纪金源，另一家是碧桂园。前者现在做得顺风顺水，收获一个又一个IPO，而碧桂园因为地产业务暴雷，需要大量资金保交楼，被迫中断了在科技领域的投资“大爆发”。 01 5月17日，计划登陆科创板的长鑫科技集团股份有限公司（以下简称：长鑫科技）更新了招股书。新招股书的财务数据显示，2026年第一季度，长鑫科技营收508亿元，同比增长719…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "做出百万台割草机器人后，未岚大陆CEO决定让自己变得“不重要”｜硬氪专访",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T01:30:00+00:00",
+          "sourceUrl": "https://36kr.com/p/3814411349581316?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "作者｜黄楠 编辑｜袁斯来 未岚大陆CEO任冠佼等了7年，等到了行业的爆发。 他还记得，2019年刚进入无边界智能割草机器人赛道，自己“只是觉得这个方向一定能火”。 到2021年第一代产品推出时，他们也只敢确定，这是一个能做到10-20亿的行业。 直到2025年，增速超出他的预期。 IDC数据显示，2025年全球无边界割草机器人出货量达到131.8万台，同比增长182.4%，占…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "要做数字劳动力生产工厂，「未来式智能」完成Pre-A轮融资",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T01:21:27+00:00",
+          "sourceUrl": "https://36kr.com/p/3816909945029760?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "文｜王欣逸 编辑｜邓咏仪 36氪获悉，未来式智能（AutoAgents.ai）近日完成Pre-A轮融资，新进投资方包括凡创资本、中关村资本、探元资本，老股东东证创新、麟阁创投跟投，本轮融资主要用于算力投入、团队扩张以及新产品的生态建设运营。 未来式智能成立于2023年6月，专注于以智能体技术赋能知识工作者。核心团队来自达摩院、腾讯、字节跳动和谷歌。创始人兼CEO杨劲松曾在达摩…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "早期项目 | Chance AI获美图等数百万美元投资，用户数已达20万",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T01:20:43+00:00",
+          "sourceUrl": "https://36kr.com/p/3816947890471812?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，Visual Agent（视觉智能体）创业公司Chance AI宣布完成数百万美元天使轮融资。本轮由美图领投，NYX Ventures、阿里系投资机构等跟投。融资将用于模型能力迭代、北美学生群体增长、以及社区与商业化探索。 Chance AI成立于2025年，核心产品是全球第一款以摄像头为主要交互入口的AI产品——Visual Agent（…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "8点1氪丨谷歌推出Gemini 3.5系列模型；DeepSeek回应用户“对话泄露”疑虑；全国存款十强城市出炉",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T00:20:10+00:00",
+          "sourceUrl": "https://36kr.com/p/3816885092910212?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "今日热点导览 谷歌推出Gemini 3.5系列模型 洁丽雅回应豪门内斗传闻，“毛巾少爷”1个月带货超500万元 巨力索具连续第二日跌停 前三星芯片负责人：明年内存将降价 自费流感疫苗也可使用医保报销 谷歌搜索宣布大改版，AI模式与代理助手全面嵌入 TOP 3 大新闻 DeepSeek回应用户“对话泄露”疑虑 5月19日，DeepSeek发布关于< think >字符触发模型异…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "当“躺平”、Gap被歧视，我们该如何度过奥德赛时期？ | 职场极端气候 ②",
+          "platform": "36氪",
+          "aiScore": 92,
+          "publishedAt": "2026-05-20T00:02:42+00:00",
+          "sourceUrl": "https://36kr.com/p/3816045694098952?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "开源生态",
+            "应用落地",
+            "内容生产"
+          ],
+          "summary": "图源：公众号「有三思 U Sense」） 2026年2月，小红书博主橘一橙NiceFriend发布了一条视频。她在视频里把 奥德赛时期 定义为“对事业、情感以及身份认同产生强烈焦虑和迷茫的阶段”，将之概括为“ 成年人类的未成年 ”。这条视频获得10万+点赞，8.6万收藏。 “奥德赛时期”这个词并非中文原生。2007年，《纽约时报》专栏作家大卫·布鲁克斯发表了同名评论文章，借用…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "Seedance 2.1即将推出？接近字节跳动人士：不属实",
+          "platform": "36氪",
+          "aiScore": 91,
+          "publishedAt": "2026-05-20T04:10:26+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3817085893788546?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "内容生产"
+          ],
+          "summary": "日前有市场消息称，字节跳动准备推出其AI视频生成模型Seedance 2.0的升级版本Seedance 2.1，而新模型的生成质量预计提升约20%。5月20日，接近字节跳动人士表示，市场上关于Seedance2.1即将发布的传言不属实。今年2月，字节跳动正式推出多模态AI视频生成模型Seedance 2.0，该模型支持文本、图片、音频、视频多形式混合输入，一经发布便引发业内高…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 16,
+            "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 2,
-        "avgScore": 76.5,
-        "topScore": 86,
+        "totalItems": 70,
+        "avgScore": 74.4,
+        "topScore": 95,
         "topPlatforms": [
           {
             "name": "Reddit",
-            "count": 2
+            "count": 19
+          },
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "36氪",
+            "count": 13
+          },
+          {
+            "name": "The Verge",
+            "count": 10
+          },
+          {
+            "name": "Google AI Blog",
+            "count": 7
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 1
+            "count": 34
           },
           {
             "name": "Agent",
-            "count": 1
+            "count": 17
+          },
+          {
+            "name": "模型进展",
+            "count": 17
+          },
+          {
+            "name": "芯片算力",
+            "count": 11
+          },
+          {
+            "name": "应用落地",
+            "count": 10
           },
           {
             "name": "开源生态",
-            "count": 1
+            "count": 5
+          },
+          {
+            "name": "内容生产",
+            "count": 5
           },
           {
             "name": "自动化",
-            "count": 1
+            "count": 3
           }
         ]
       },
       "briefing": [
-        "今日共收录 2 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / Agent / 开源生态",
-        "最高分事件：无反向传播 Pong：PC + 分布 Hebbian 可塑性 vs. PPO：57% vs. 59%，从头开始约 1500 行 [P]（86 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "今日共收录 70 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 模型进展",
+        "最高分事件：地瓜机器人��千寻智能达成战略合作（95 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
@@ -181,7 +629,7 @@
       "label": "5月19日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 9,
           "title": "鲸跃动力获星海图数千万元种子轮投资，用「数据+模型+末端执行」打造开箱即用的Robo Labor丨涌现新项目",
           "platform": "36氪",
           "aiScore": 95,
@@ -205,7 +653,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 10,
           "title": "8点1氪丨贾跃亭又融资4.77亿元；巨力索具旗下十余家企业已注销；超越茅台，A股“新股王”诞生",
           "platform": "36氪",
           "aiScore": 95,
@@ -21454,46 +21902,34 @@
     },
     "metrics": {
       "daysCovered": 6,
-      "totalItems": 264,
-      "avgTop10Score": 94.1,
+      "totalItems": 332,
+      "avgTop10Score": 95.0,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 8
-        },
-        {
-          "name": "量子位",
-          "count": 1
-        },
-        {
-          "name": "Hacker News",
-          "count": 1
+          "count": 10
         }
       ],
       "topTopics": [
         {
-          "name": "模型进展",
-          "count": 10
+          "name": "芯片算力",
+          "count": 9
         },
         {
-          "name": "芯片算力",
-          "count": 6
+          "name": "模型进展",
+          "count": 9
         },
         {
           "name": "Agent",
-          "count": 5
+          "count": 7
         },
         {
           "name": "应用落地",
           "count": 3
         },
         {
-          "name": "内容生产",
-          "count": 2
-        },
-        {
-          "name": "投融资",
+          "name": "开源生态",
           "count": 1
         }
       ]
@@ -21501,6 +21937,197 @@
     "topEvents": [
       {
         "rank": 1,
+        "title": "地瓜机器人��千寻智能达成战略合作",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T04:19:11+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3817109218575489?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "36氪获悉，5月20日，地瓜机器人与千寻智能宣布达成战略合作。双方已完成开源VLA模型Spirit v1.5与旭日S600旗舰大算力芯片的深度适配，联合打造高性能、可量产的软硬一体化解决方案。Spirit v1.5是国内首个综合性能超越国际标杆Pi0.5的开源VLA基础模型；旭日S600具备560TOPS（INT8）AI算力，可满足大模型端侧高效推理需求。",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "平头哥真武系列GPU已累计出货超56万片",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T04:06:41+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3817111570482304?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "Agent"
+        ],
+        "summary": "36氪获悉，5月20日，在2026阿里云峰会上，平头哥首次公布真武系列芯片的规划，未来两年将陆续推出算力更强的真武V900、真武J900两代芯片，以满足Agentic时代千行百业的AI算力需求。目前，真武系列芯片已累计出货56万片，服务了中国电信、中国一汽、浦发银行等20多个行业的400多家客户。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "平头哥AI芯片真武M890首次亮相，性能提升至3倍",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T03:34:52+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3817080294999168?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "36氪获悉，5月20日，在2026阿里云峰会上，平头哥新一代训推一体AI芯片真武M890首次亮相，该芯片内置144GB显存，片间互联带宽达到800GB/s，性能是真武810E的3倍，原生支持FP32到FP4等多种数据精度，可应用于高精度训练、低精度和超低精度推理的全场景。配合自研ICN Switch1.0芯片，可实现64卡全带宽互联，显著提升大规模智算集群计算的效率与稳定性。…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "长鑫科技更新招股书，碧桂园错失300亿",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T02:54:58+00:00",
+        "sourceUrl": "https://36kr.com/p/3817039204139908?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "地产行业内，曾有望跑出两家明星创投企业，一家是世纪金源，另一家是碧桂园。前者现在做得顺风顺水，收获一个又一个IPO，而碧桂园因为地产业务暴雷，需要大量资金保交楼，被迫中断了在科技领域的投资“大爆发”。 01 5月17日，计划登陆科创板的长鑫科技集团股份有限公司（以下简称：长鑫科技）更新了招股书。新招股书的财务数据显示，2026年第一季度，长鑫科技营收508亿元，同比增长719…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "做出百万台割草机器人后，未岚大陆CEO决定让自己变得“不重要”｜硬氪专访",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T01:30:00+00:00",
+        "sourceUrl": "https://36kr.com/p/3814411349581316?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "作者｜黄楠 编辑｜袁斯来 未岚大陆CEO任冠佼等了7年，等到了行业的爆发。 他还记得，2019年刚进入无边界智能割草机器人赛道，自己“只是觉得这个方向一定能火”。 到2021年第一代产品推出时，他们也只敢确定，这是一个能做到10-20亿的行业。 直到2025年，增速超出他的预期。 IDC数据显示，2025年全球无边界割草机器人出货量达到131.8万台，同比增长182.4%，占…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "要做数字劳动力生产工厂，「未来式智能」完成Pre-A轮融资",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T01:21:27+00:00",
+        "sourceUrl": "https://36kr.com/p/3816909945029760?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "文｜王欣逸 编辑｜邓咏仪 36氪获悉，未来式智能（AutoAgents.ai）近日完成Pre-A轮融资，新进投资方包括凡创资本、中关村资本、探元资本，老股东东证创新、麟阁创投跟投，本轮融资主要用于算力投入、团队扩张以及新产品的生态建设运营。 未来式智能成立于2023年6月，专注于以智能体技术赋能知识工作者。核心团队来自达摩院、腾讯、字节跳动和谷歌。创始人兼CEO杨劲松曾在达摩…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "早期项目 | Chance AI获美图等数百万美元投资，用户数已达20万",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T01:20:43+00:00",
+        "sourceUrl": "https://36kr.com/p/3816947890471812?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，Visual Agent（视觉智能体）创业公司Chance AI宣布完成数百万美元天使轮融资。本轮由美图领投，NYX Ventures、阿里系投资机构等跟投。融资将用于模型能力迭代、北美学生群体增长、以及社区与商业化探索。 Chance AI成立于2025年，核心产品是全球第一款以摄像头为主要交互入口的AI产品——Visual Agent（…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "8点1氪丨谷歌推出Gemini 3.5系列模型；DeepSeek回应用户“对话泄露”疑虑；全国存款十强城市出炉",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-05-20T00:20:10+00:00",
+        "sourceUrl": "https://36kr.com/p/3816885092910212?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "今日热点导览 谷歌推出Gemini 3.5系列模型 洁丽雅回应豪门内斗传闻，“毛巾少爷”1个月带货超500万元 巨力索具连续第二日跌停 前三星芯片负责人：明年内存将降价 自费流感疫苗也可使用医保报销 谷歌搜索宣布大改版，AI模式与代理助手全面嵌入 TOP 3 大新闻 DeepSeek回应用户“对话泄露”疑虑 5月19日，DeepSeek发布关于< think >字符触发模型异…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
         "title": "鲸跃动力获星海图数千万元种子轮投资，用「数据+模型+末端执行」打造开箱即用的Robo Labor丨涌现新项目",
         "platform": "36氪",
         "aiScore": 95,
@@ -21524,7 +22151,7 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 10,
         "title": "8点1氪丨贾跃亭又融资4.77亿元；巨力索具旗下十余家企业已注销；超越茅台，A股“新股王”诞生",
         "platform": "36氪",
         "aiScore": 95,
@@ -21546,203 +22173,13 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 3,
-        "title": "36氪首发 | 获超千万融资，「律动节拍」用演出票撬起千亿跨城观演赛道",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-18T01:29:37+00:00",
-        "sourceUrl": "https://36kr.com/p/3813463119863553?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "投融资"
-        ],
-        "summary": "36 氪获悉，「律动节拍」已于近期完成超千万级新一轮融资，由天空工场创投基金领投，投后估值达数亿元。 「律动节拍」成立于2025 年，是一家为用户提供跨城观演全消费场景的科技型文旅服务企业。公司聚焦 “因演出行” 垂直领域，以 “让一张票成为一座城市的游乐场” 为理念，搭建了面向 C 端用户的 AI演出行程管家。 依托集团其背后的生态资源与市场化合作，律动节拍已完成演出票品、…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "科氪 | 对话韶音高层：开放式耳机，凭什么成为下一场颠覆TWS的“品类革命”？",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-17T11:57:23+00:00",
-        "sourceUrl": "https://36kr.com/p/3813305543794440?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "从运动孤岛到品类革命：解构韶音的“开放式”野心与底层技术硬实力 在消费电子行业普遍面临增长红利见顶的今天，音频赛道却正在上演一场深刻的结构性变革。2026年5月15日下午，大雨初晴的深圳湾广场，Shokz韶音举办了备受瞩目的媒体专访会。韶音中国区CEO杨云与产品线总裁张浩锋悉数到场，向外界系统阐述了这家以“骨传导”和“运动”起家的品牌，如何在稳坐全球开放式耳机出货量第一王座的…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI",
-        "platform": "量子位",
-        "aiScore": 95,
-        "publishedAt": "2026-05-17T08:55:21+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/05/418836.html",
-        "sourceName": "量子位",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "中信证券：AI+能化可能是今年更合适的杠铃结构",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-17T08:45:26+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3813028969406216?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展"
-        ],
-        "summary": "36氪获悉，中信证券研报表示，AI+能化可能是今年更合适的杠铃结构。今年的AI+能化，或与2023-2024年的AI+红利、2025年的AI+资源类似，有望在全年维度上，成为主要的供需缺口和超额收益来源。配置上，底层逻辑依然是中国优势制造业定价权的重估，最具代表性的行业是新能源、化工、有色、电力设备；继续密切关注国产AI的进展，硬件侧“量”的逻辑爆发仍然是目前AI链条上预期差…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "理想出牌：全新L9上市，45.98万元起｜最前线",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-15T14:28:10+00:00",
-        "sourceUrl": "https://36kr.com/p/3810562142445058?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展"
-        ],
-        "summary": "理想汽车CEO 李想 能让李想豁出去跳舞挣眼球的发布会，仅在全新一代理想L9上市。 5月15日，理想发布会了全新一代理想L9，推出两个版本——理想L9 livis，售价 50.98万元；理想L9 Ultra版，售价45.98万元。且理想给出了现金2万元的首销权益，截止于6月30日。 36氪汽车曾报道指出 ，理想今年第一目标就是加固增程和高端市场的基本盘。今年产品重心将回归增程…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "高瓴出手了一家AI体育科技公司，曾获李泽湘天使轮融资｜硬氪首发",
-        "platform": "36氪",
-        "aiScore": 94,
-        "publishedAt": "2026-05-19T01:30:00+00:00",
-        "sourceUrl": "https://36kr.com/p/3805660478184966?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地",
-          "内容生产"
-        ],
-        "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，AI体育科技公司SportVision近日已完成天使+轮融资，高瓴创投（GL Ventures）领投，谦恒资本担任独家财务顾问。本轮资金将重点用于核心技术研发、产品量产落地及市场的拓展推广。其新款AI网球训练相机产品计划发售中。 SportVision隶属于深圳思博威视体育科技有限公司‌，长期专注运动算法研发与硬件产品应用、构建AI智能教练…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "对话万成云商：发文章≠GEO优化，大模型不是喂什么就推什么",
-        "platform": "36氪",
-        "aiScore": 94,
-        "publishedAt": "2026-05-18T05:05:40+00:00",
-        "sourceUrl": "https://36kr.com/p/3814337101111044?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地",
-          "内容生产"
-        ],
-        "summary": "“帮我搭配一套适合海边度假的衣服。” “帮我推荐一家适合约会的西餐厅。” “3000元预算，买哪款扫地机器人最划算？” 这类与AI的问答正发生在全球数亿用户身上。过去，人们会把这些问题输入百度、谷歌等搜索引擎，因此产生了SEO（Search EngineOptimization，搜索引擎优化）营销。而当流量入口从搜索引擎转向AI工具，GEO（Generative Engine…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "问 HN：公司正在快速削减 AI 工具支出，如何准备团队？",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-05-19T04:10:28+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=48189073",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "自动化"
-        ],
-        "summary": "我工作的公司现在正在迅速计划缩减其人工智能工具支出。克劳德代码访问基本上被删除，人们被禁止使用个人计划。推理…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "5月第3周累计收录 264 条资讯，覆盖 6 天。",
-      "高频主题：模型进展 / 芯片算力 / Agent",
-      "本周最高分：鲸跃动力获星海图数千万元种子轮投资，用「数据+模型+末端执行」打造开箱即用的Robo Labor丨涌现新项目（95 分）",
-      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "5月第3周累计收录 332 条资讯，覆盖 6 天。",
+      "高频主题：芯片算力 / 模型进展 / Agent",
+      "本周最高分：地瓜机器人��千寻智能达成战略合作（95 分）",
+      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "weeklyHistory": [
@@ -21755,46 +22192,34 @@
       },
       "metrics": {
         "daysCovered": 6,
-        "totalItems": 264,
-        "avgTop10Score": 94.1,
+        "totalItems": 332,
+        "avgTop10Score": 95.0,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 8
-          },
-          {
-            "name": "量子位",
-            "count": 1
-          },
-          {
-            "name": "Hacker News",
-            "count": 1
+            "count": 10
           }
         ],
         "topTopics": [
           {
-            "name": "模型进展",
-            "count": 10
+            "name": "芯片算力",
+            "count": 9
           },
           {
-            "name": "芯片算力",
-            "count": 6
+            "name": "模型进展",
+            "count": 9
           },
           {
             "name": "Agent",
-            "count": 5
+            "count": 7
           },
           {
             "name": "应用落地",
             "count": 3
           },
           {
-            "name": "内容生产",
-            "count": 2
-          },
-          {
-            "name": "投融资",
+            "name": "开源生态",
             "count": 1
           }
         ]
@@ -21802,6 +22227,197 @@
       "topEvents": [
         {
           "rank": 1,
+          "title": "地瓜机器人��千寻智能达成战略合作",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T04:19:11+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3817109218575489?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "36氪获悉，5月20日，地瓜机器人与千寻智能宣布达成战略合作。双方已完成开源VLA模型Spirit v1.5与旭日S600旗舰大算力芯片的深度适配，联合打造高性能、可量产的软硬一体化解决方案。Spirit v1.5是国内首个综合性能超越国际标杆Pi0.5的开源VLA基础模型；旭日S600具备560TOPS（INT8）AI算力，可满足大模型端侧高效推理需求。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "平头哥真武系列GPU已累计出货超56万片",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T04:06:41+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3817111570482304?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "Agent"
+          ],
+          "summary": "36氪获悉，5月20日，在2026阿里云峰会上，平头哥首次公布真武系列芯片的规划，未来两年将陆续推出算力更强的真武V900、真武J900两代芯片，以满足Agentic时代千行百业的AI算力需求。目前，真武系列芯片已累计出货56万片，服务了中国电信、中国一汽、浦发银行等20多个行业的400多家客户。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "平头哥AI芯片真武M890首次亮相，性能提升至3倍",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T03:34:52+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3817080294999168?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "36氪获悉，5月20日，在2026阿里云峰会上，平头哥新一代训推一体AI芯片真武M890首次亮相，该芯片内置144GB显存，片间互联带宽达到800GB/s，性能是真武810E的3倍，原生支持FP32到FP4等多种数据精度，可应用于高精度训练、低精度和超低精度推理的全场景。配合自研ICN Switch1.0芯片，可实现64卡全带宽互联，显著提升大规模智算集群计算的效率与稳定性。…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "长鑫科技更新招股书，碧桂园错失300亿",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T02:54:58+00:00",
+          "sourceUrl": "https://36kr.com/p/3817039204139908?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "地产行业内，曾有望跑出两家明星创投企业，一家是世纪金源，另一家是碧桂园。前者现在做得顺风顺水，收获一个又一个IPO，而碧桂园因为地产业务暴雷，需要大量资金保交楼，被迫中断了在科技领域的投资“大爆发”。 01 5月17日，计划登陆科创板的长鑫科技集团股份有限公司（以下简称：长鑫科技）更新了招股书。新招股书的财务数据显示，2026年第一季度，长鑫科技营收508亿元，同比增长719…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "做出百万台割草机器人后，未岚大陆CEO决定让自己变得“不重要”｜硬氪专访",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T01:30:00+00:00",
+          "sourceUrl": "https://36kr.com/p/3814411349581316?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "作者｜黄楠 编辑｜袁斯来 未岚大陆CEO任冠佼等了7年，等到了行业的爆发。 他还记得，2019年刚进入无边界智能割草机器人赛道，自己“只是觉得这个方向一定能火”。 到2021年第一代产品推出时，他们也只敢确定，这是一个能做到10-20亿的行业。 直到2025年，增速超出他的预期。 IDC数据显示，2025年全球无边界割草机器人出货量达到131.8万台，同比增长182.4%，占…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "要做数字劳动力生产工厂，「未来式智能」完成Pre-A轮融资",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T01:21:27+00:00",
+          "sourceUrl": "https://36kr.com/p/3816909945029760?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "文｜王欣逸 编辑｜邓咏仪 36氪获悉，未来式智能（AutoAgents.ai）近日完成Pre-A轮融资，新进投资方包括凡创资本、中关村资本、探元资本，老股东东证创新、麟阁创投跟投，本轮融资主要用于算力投入、团队扩张以及新产品的生态建设运营。 未来式智能成立于2023年6月，专注于以智能体技术赋能知识工作者。核心团队来自达摩院、腾讯、字节跳动和谷歌。创始人兼CEO杨劲松曾在达摩…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "早期项目 | Chance AI获美图等数百万美元投资，用户数已达20万",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T01:20:43+00:00",
+          "sourceUrl": "https://36kr.com/p/3816947890471812?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，Visual Agent（视觉智能体）创业公司Chance AI宣布完成数百万美元天使轮融资。本轮由美图领投，NYX Ventures、阿里系投资机构等跟投。融资将用于模型能力迭代、北美学生群体增长、以及社区与商业化探索。 Chance AI成立于2025年，核心产品是全球第一款以摄像头为主要交互入口的AI产品——Visual Agent（…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "8点1氪丨谷歌推出Gemini 3.5系列模型；DeepSeek回应用户“对话泄露”疑虑；全国存款十强城市出炉",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-05-20T00:20:10+00:00",
+          "sourceUrl": "https://36kr.com/p/3816885092910212?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "今日热点导览 谷歌推出Gemini 3.5系列模型 洁丽雅回应豪门内斗传闻，“毛巾少爷”1个月带货超500万元 巨力索具连续第二日跌停 前三星芯片负责人：明年内存将降价 自费流感疫苗也可使用医保报销 谷歌搜索宣布大改版，AI模式与代理助手全面嵌入 TOP 3 大新闻 DeepSeek回应用户“对话泄露”疑虑 5月19日，DeepSeek发布关于< think >字符触发模型异…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
           "title": "鲸跃动力获星海图数千万元种子轮投资，用「数据+模型+末端执行」打造开箱即用的Robo Labor丨涌现新项目",
           "platform": "36氪",
           "aiScore": 95,
@@ -21825,7 +22441,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 10,
           "title": "8点1氪丨贾跃亭又融资4.77亿元；巨力索具旗下十余家企业已注销；超越茅台，A股“新股王”诞生",
           "platform": "36氪",
           "aiScore": 95,
@@ -21847,203 +22463,13 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 3,
-          "title": "36氪首发 | 获超千万融资，「律动节拍」用演出票撬起千亿跨城观演赛道",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-18T01:29:37+00:00",
-          "sourceUrl": "https://36kr.com/p/3813463119863553?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "投融资"
-          ],
-          "summary": "36 氪获悉，「律动节拍」已于近期完成超千万级新一轮融资，由天空工场创投基金领投，投后估值达数亿元。 「律动节拍」成立于2025 年，是一家为用户提供跨城观演全消费场景的科技型文旅服务企业。公司聚焦 “因演出行” 垂直领域，以 “让一张票成为一座城市的游乐场” 为理念，搭建了面向 C 端用户的 AI演出行程管家。 依托集团其背后的生态资源与市场化合作，律动节拍已完成演出票品、…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "科氪 | 对话韶音高层：开放式耳机，凭什么成为下一场颠覆TWS的“品类革命”？",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-17T11:57:23+00:00",
-          "sourceUrl": "https://36kr.com/p/3813305543794440?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "从运动孤岛到品类革命：解构韶音的“开放式”野心与底层技术硬实力 在消费电子行业普遍面临增长红利见顶的今天，音频赛道却正在上演一场深刻的结构性变革。2026年5月15日下午，大雨初晴的深圳湾广场，Shokz韶音举办了备受瞩目的媒体专访会。韶音中国区CEO杨云与产品线总裁张浩锋悉数到场，向外界系统阐述了这家以“骨传导”和“运动”起家的品牌，如何在稳坐全球开放式耳机出货量第一王座的…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI",
-          "platform": "量子位",
-          "aiScore": 95,
-          "publishedAt": "2026-05-17T08:55:21+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/05/418836.html",
-          "sourceName": "量子位",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "Agent、多模态、应用、算力一天看尽，峰会亮点在此｜5.20日，来现场一起AI",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "中信证券：AI+能化可能是今年更合适的杠铃结构",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-17T08:45:26+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3813028969406216?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "36氪获悉，中信证券研报表示，AI+能化可能是今年更合适的杠铃结构。今年的AI+能化，或与2023-2024年的AI+红利、2025年的AI+资源类似，有望在全年维度上，成为主要的供需缺口和超额收益来源。配置上，底层逻辑依然是中国优势制造业定价权的重估，最具代表性的行业是新能源、化工、有色、电力设备；继续密切关注国产AI的进展，硬件侧“量”的逻辑爆发仍然是目前AI链条上预期差…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "理想出牌：全新L9上市，45.98万元起｜最前线",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-15T14:28:10+00:00",
-          "sourceUrl": "https://36kr.com/p/3810562142445058?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "理想汽车CEO 李想 能让李想豁出去跳舞挣眼球的发布会，仅在全新一代理想L9上市。 5月15日，理想发布会了全新一代理想L9，推出两个版本——理想L9 livis，售价 50.98万元；理想L9 Ultra版，售价45.98万元。且理想给出了现金2万元的首销权益，截止于6月30日。 36氪汽车曾报道指出 ，理想今年第一目标就是加固增程和高端市场的基本盘。今年产品重心将回归增程…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "高瓴出手了一家AI体育科技公司，曾获李泽湘天使轮融资｜硬氪首发",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-05-19T01:30:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3805660478184966?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "内容生产"
-          ],
-          "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，AI体育科技公司SportVision近日已完成天使+轮融资，高瓴创投（GL Ventures）领投，谦恒资本担任独家财务顾问。本轮资金将重点用于核心技术研发、产品量产落地及市场的拓展推广。其新款AI网球训练相机产品计划发售中。 SportVision隶属于深圳思博威视体育科技有限公司‌，长期专注运动算法研发与硬件产品应用、构建AI智能教练…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "对话万成云商：发文章≠GEO优化，大模型不是喂什么就推什么",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-05-18T05:05:40+00:00",
-          "sourceUrl": "https://36kr.com/p/3814337101111044?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "内容生产"
-          ],
-          "summary": "“帮我搭配一套适合海边度假的衣服。” “帮我推荐一家适合约会的西餐厅。” “3000元预算，买哪款扫地机器人最划算？” 这类与AI的问答正发生在全球数亿用户身上。过去，人们会把这些问题输入百度、谷歌等搜索引擎，因此产生了SEO（Search EngineOptimization，搜索引擎优化）营销。而当流量入口从搜索引擎转向AI工具，GEO（Generative Engine…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "问 HN：公司正在快速削减 AI 工具支出，如何准备团队？",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-05-19T04:10:28+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=48189073",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "自动化"
-          ],
-          "summary": "我工作的公司现在正在迅速计划缩减其人工智能工具支出。克劳德代码访问基本上被删除，人们被禁止使用个人计划。推理…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "5月第3周累计收录 264 条资讯，覆盖 6 天。",
-        "高频主题：模型进展 / 芯片算力 / Agent",
-        "本周最高分：鲸跃动力获星海图数千万元种子轮投资，用「数据+模型+末端执行」打造开箱即用的Robo Labor丨涌现新项目（95 分）",
-        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "5月第3周累计收录 332 条资讯，覆盖 6 天。",
+        "高频主题：芯片算力 / 模型进展 / Agent",
+        "本周最高分：地瓜机器人��千寻智能达成战略合作（95 分）",
+        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
