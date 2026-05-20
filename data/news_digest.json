@@ -1,318 +1,229 @@
 {
-  "generatedAt": "2026-05-20T05:02:24.968243+00:00",
+  "generatedAt": "2026-05-20T16:21:59.886789+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-05-20",
-    "label": "5月20日",
+    "date": "2026-05-21",
+    "label": "5月21日",
     "top10": [
       {
         "rank": 1,
-        "title": "地瓜机器人��千寻智能达成战略合作",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-20T04:19:11+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3817109218575489?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
+        "title": "谷歌搜索的人工智能进化包括更多广告",
+        "platform": "The Verge",
+        "aiScore": 78,
+        "publishedAt": "2026-05-20T16:00:00+00:00",
+        "sourceUrl": "https://www.theverge.com/tech/934585/google-ai-shopping-ads-search",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "开源生态"
+          "应用落地"
         ],
-        "summary": "36氪获悉，5月20日，地瓜机器人与千寻智能宣布达成战略合作。双方已完成开源VLA模型Spirit v1.5与旭日S600旗舰大算力芯片的深度适配，联合打造高性能、可量产的软硬一体化解决方案。Spirit v1.5是国内首个综合性能超越国际标杆Pi0.5的开源VLA基础模型；旭日S600具备560TOPS（INT8）AI算力，可满足大模型端侧高效推理需求。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "谷歌的人工智能搜索时代显然也延伸到了其广告领域。现在，当您搜索产品时，谷歌的 Gemini AI 聊天机器人将显示相关项目并生成“自定义解释......",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
-          "topic": 20,
-          "actionability": 10,
+          "topic": 9,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 2,
-        "title": "平头哥真武系列GPU已累计出货超56万片",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-20T04:06:41+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3817111570482304?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
+        "title": "有什么工具可以让已接受的会议论文按引用次数排序？ [D]",
+        "platform": "Reddit",
+        "aiScore": 67,
+        "publishedAt": "2026-05-20T16:19:54+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tiqlsu/any_tool_to_get_accepted_conference_papers_sorted/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "Agent"
+          "AI动态"
         ],
-        "summary": "36氪获悉，5月20日，在2026阿里云峰会上，平头哥首次公布真武系列芯片的规划，未来两年将陆续推出算力更强的真武V900、真武J900两代芯片，以满足Agentic时代千行百业的AI算力需求。目前，真武系列芯片已累计出货56万片，服务了中国电信、中国一汽、浦发银行等20多个行业的400多家客户。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "即给定一个会议（例如使用 openreview 数据），例如“NeurIPS，2025”，根据标准论文搜索引擎（例如谷歌学者）Se…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 3,
-        "title": "平头哥AI芯片真武M890首次亮相，性能提升至3倍",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-20T03:34:52+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3817080294999168?f=rss",
-        "sourceName": "36氪",
+        "title": "人工智能设计现状——2026 年报告",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-05-20T16:10:03+00:00",
+        "sourceUrl": "https://stateofaidesign.com/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
+          "开源生态"
         ],
-        "summary": "36氪获悉，5月20日，在2026阿里云峰会上，平头哥新一代训推一体AI芯片真武M890首次亮相，该芯片内置144GB显存，片间互联带宽达到800GB/s，性能是真武810E的3倍，原生支持FP32到FP4等多种数据精度，可应用于高精度训练、低精度和超低精度推理的全场景。配合自研ICN Switch1.0芯片，可实现64卡全带宽互联，显著提升大规模智算集群计算的效率与稳定性。…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文章网址：https://stateofaidesign.com/ 评论网址：https://news.ycombinator.com/item?id=48210028 积分：2 # 评论：0",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "长鑫科技更新招股书，碧桂园错失300亿",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-20T02:54:58+00:00",
-        "sourceUrl": "https://36kr.com/p/3817039204139908?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "地产行业内，曾有望跑出两家明星创投企业，一家是世纪金源，另一家是碧桂园。前者现在做得顺风顺水，收获一个又一个IPO，而碧桂园因为地产业务暴雷，需要大量资金保交楼，被迫中断了在科技领域的投资“大爆发”。 01 5月17日，计划登陆科创板的长鑫科技集团股份有限公司（以下简称：长鑫科技）更新了招股书。新招股书的财务数据显示，2026年第一季度，长鑫科技营收508亿元，同比增长719…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "做出百万台割草机器人后，未岚大陆CEO决定让自己变得“不重要”｜硬氪专访",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-20T01:30:00+00:00",
-        "sourceUrl": "https://36kr.com/p/3814411349581316?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "作者｜黄楠 编辑｜袁斯来 未岚大陆CEO任冠佼等了7年，等到了行业的爆发。 他还记得，2019年刚进入无边界智能割草机器人赛道，自己“只是觉得这个方向一定能火”。 到2021年第一代产品推出时，他们也只敢确定，这是一个能做到10-20亿的行业。 直到2025年，增速超出他的预期。 IDC数据显示，2025年全球无边界割草机器人出货量达到131.8万台，同比增长182.4%，占…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "要做数字劳动力生产工厂，「未来式智能」完成Pre-A轮融资",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-20T01:21:27+00:00",
-        "sourceUrl": "https://36kr.com/p/3816909945029760?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "文｜王欣逸 编辑｜邓咏仪 36氪获悉，未来式智能（AutoAgents.ai）近日完成Pre-A轮融资，新进投资方包括凡创资本、中关村资本、探元资本，老股东东证创新、麟阁创投跟投，本轮融资主要用于算力投入、团队扩张以及新产品的生态建设运营。 未来式智能成立于2023年6月，专注于以智能体技术赋能知识工作者。核心团队来自达摩院、腾讯、字节跳动和谷歌。创始人兼CEO杨劲松曾在达摩…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "早期项目 | Chance AI获美图等数百万美元投资，用户数已达20万",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-20T01:20:43+00:00",
-        "sourceUrl": "https://36kr.com/p/3816947890471812?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，Visual Agent（视觉智能体）创业公司Chance AI宣布完成数百万美元天使轮融资。本轮由美图领投，NYX Ventures、阿里系投资机构等跟投。融资将用于模型能力迭代、北美学生群体增长、以及社区与商业化探索。 Chance AI成立于2025年，核心产品是全球第一款以摄像头为主要交互入口的AI产品——Visual Agent（…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "8点1氪丨谷歌推出Gemini 3.5系列模型；DeepSeek回应用户“对话泄露”疑虑；全国存款十强城市出炉",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-20T00:20:10+00:00",
-        "sourceUrl": "https://36kr.com/p/3816885092910212?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "今日热点导览 谷歌推出Gemini 3.5系列模型 洁丽雅回应豪门内斗传闻，“毛巾少爷”1个月带货超500万元 巨力索具连续第二日跌停 前三星芯片负责人：明年内存将降价 自费流感疫苗也可使用医保报销 谷歌搜索宣布大改版，AI模式与代理助手全面嵌入 TOP 3 大新闻 DeepSeek回应用户“对话泄露”疑虑 5月19日，DeepSeek发布关于< think >字符触发模型异…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "当“躺平”、Gap被歧视，我们该如何度过奥德赛时期？ | 职场极端气候 ②",
-        "platform": "36氪",
-        "aiScore": 92,
-        "publishedAt": "2026-05-20T00:02:42+00:00",
-        "sourceUrl": "https://36kr.com/p/3816045694098952?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "开源生态",
-          "应用落地",
-          "内容生产"
-        ],
-        "summary": "图源：公众号「有三思 U Sense」） 2026年2月，小红书博主橘一橙NiceFriend发布了一条视频。她在视频里把 奥德赛时期 定义为“对事业、情感以及身份认同产生强烈焦虑和迷茫的阶段”，将之概括为“ 成年人类的未成年 ”。这条视频获得10万+点赞，8.6万收藏。 “奥德赛时期”这个词并非中文原生。2007年，《纽约时报》专栏作家大卫·布鲁克斯发表了同名评论文章，借用…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "Seedance 2.1即将推出？接近字节跳动人士：不属实",
-        "platform": "36氪",
-        "aiScore": 91,
-        "publishedAt": "2026-05-20T04:10:26+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3817085893788546?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "内容生产"
-        ],
-        "summary": "日前有市场消息称，字节跳动准备推出其AI视频生成模型Seedance 2.0的升级版本Seedance 2.1，而新模型的生成质量预计提升约20%。5月20日，接近字节跳动人士表示，市场上关于Seedance2.1即将发布的传言不属实。今年2月，字节跳动正式推出多模态AI视频生成模型Seedance 2.0，该模型支持文本、图片、音频、视频多形式混合输入，一经发布便引发业内高…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 16,
-          "actionability": 10,
-          "heat": 5
+          "authority": 18,
+          "topic": 8,
+          "actionability": 4,
+          "heat": 2
         }
       }
     ],
     "metrics": {
-      "totalItems": 70,
-      "avgScore": 74.4,
-      "topScore": 95,
+      "totalItems": 3,
+      "avgScore": 70.7,
+      "topScore": 78,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 19
+          "count": 1
         },
         {
           "name": "Hacker News",
-          "count": 15
-        },
-        {
-          "name": "36氪",
-          "count": 13
+          "count": 1
         },
         {
           "name": "The Verge",
-          "count": 10
-        },
-        {
-          "name": "Google AI Blog",
-          "count": 7
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 34
-        },
-        {
-          "name": "Agent",
-          "count": 17
-        },
-        {
-          "name": "模型进展",
-          "count": 17
-        },
-        {
-          "name": "芯片算力",
-          "count": 11
-        },
-        {
-          "name": "应用落地",
-          "count": 10
+          "count": 1
         },
         {
           "name": "开源生态",
-          "count": 5
+          "count": 1
         },
         {
-          "name": "内容生产",
-          "count": 5
-        },
-        {
-          "name": "自动化",
-          "count": 3
+          "name": "应用落地",
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 70 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：地瓜机器人��千寻智能达成战略合作（95 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 3 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 开源生态 / 应用落地",
+      "最高分事件：谷歌搜索的人工智能进化包括更多广告（78 分）",
+      "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-05-21",
+      "label": "5月21日",
+      "top10": [
+        {
+          "rank": 1,
+          "title": "谷歌搜索的人工智能进化包括更多广告",
+          "platform": "The Verge",
+          "aiScore": 78,
+          "publishedAt": "2026-05-20T16:00:00+00:00",
+          "sourceUrl": "https://www.theverge.com/tech/934585/google-ai-shopping-ads-search",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "应用落地"
+          ],
+          "summary": "谷歌的人工智能搜索时代显然也延伸到了其广告领域。现在，当您搜索产品时，谷歌的 Gemini AI 聊天机器人将显示相关项目并生成“自定义解释......",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 9,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "有什么工具可以让已接受的会议论文按引用次数排序？ [D]",
+          "platform": "Reddit",
+          "aiScore": 67,
+          "publishedAt": "2026-05-20T16:19:54+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tiqlsu/any_tool_to_get_accepted_conference_papers_sorted/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "即给定一个会议（例如使用 openreview 数据），例如“NeurIPS，2025”，根据标准论文搜索引擎（例如谷歌学者）Se…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "人工智能设计现状——2026 年报告",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-05-20T16:10:03+00:00",
+          "sourceUrl": "https://stateofaidesign.com/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "开源生态"
+          ],
+          "summary": "文章网址：https://stateofaidesign.com/ 评论网址：https://news.ycombinator.com/item?id=48210028 积分：2 # 评论：0",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 8,
+            "actionability": 4,
+            "heat": 2
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 3,
+        "avgScore": 70.7,
+        "topScore": 78,
+        "topPlatforms": [
+          {
+            "name": "Reddit",
+            "count": 1
+          },
+          {
+            "name": "Hacker News",
+            "count": 1
+          },
+          {
+            "name": "The Verge",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 1
+          },
+          {
+            "name": "开源生态",
+            "count": 1
+          },
+          {
+            "name": "应用落地",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 3 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 开源生态 / 应用落地",
+        "最高分事件：谷歌搜索的人工智能进化包括更多广告（78 分）",
+        "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
+      ]
+    },
     {
       "date": "2026-05-20",
       "label": "5月20日",
@@ -21901,8 +21812,8 @@
       "end": "2026-05-21"
     },
     "metrics": {
-      "daysCovered": 6,
-      "totalItems": 332,
+      "daysCovered": 7,
+      "totalItems": 335,
       "avgTop10Score": 95.0,
       "topScore": 95,
       "topPlatforms": [
@@ -22176,7 +22087,7 @@
       }
     ],
     "briefing": [
-      "5月第3周累计收录 332 条资讯，覆盖 6 天。",
+      "5月第3周累计收录 335 条资讯，覆盖 7 天。",
       "高频主题：芯片算力 / 模型进展 / Agent",
       "本周最高分：地瓜机器人��千寻智能达成战略合作（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -22191,8 +22102,8 @@
         "end": "2026-05-21"
       },
       "metrics": {
-        "daysCovered": 6,
-        "totalItems": 332,
+        "daysCovered": 7,
+        "totalItems": 335,
         "avgTop10Score": 95.0,
         "topScore": 95,
         "topPlatforms": [
@@ -22466,7 +22377,7 @@
         }
       ],
       "briefing": [
-        "5月第3周累计收录 332 条资讯，覆盖 6 天。",
+        "5月第3周累计收录 335 条资讯，覆盖 7 天。",
         "高频主题：芯片算力 / 模型进展 / Agent",
         "本周最高分：地瓜机器人��千寻智能达成战略合作（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
