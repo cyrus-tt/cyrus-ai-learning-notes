@@ -127,70 +127,79 @@
         </button>
       </section>
 
-      <!-- TIL -->
+      <!-- 教程精选 (with descriptions) -->
       <section class="content">
-        <div class="section-label">TIL · Today I Learned</div>
-        <div id="til-latest"></div>
-        <a href="/til/" class="section-more">查看全部 →</a>
-      </section>
-
-      <!-- Latest Field Notes -->
-      <section class="content">
-        <div class="section-label">Latest</div>
+        <div class="section-label">教程精选 · FIELD NOTES</div>
         <ul class="post-list">
           <li>
             <a href="/field-notes/claude-code-skills-guide/">
               <span class="post-title">Claude Code 自定义 Skill 完全指南</span>
               <span class="post-date">2026.05.08</span>
             </a>
+            <p style="color:var(--muted);font-size:13px;line-height:1.6;margin:0 0 8px;padding:0 8px;">从零创建 Skill 文件，让 Claude Code 记住你的工作流。含 3 个实战示例和常见坑。</p>
           </li>
           <li>
             <a href="/field-notes/n8n-ollama-local-pipeline/">
-              <span class="post-title">n8n + Ollama 本地 AI 管道</span>
+              <span class="post-title">n8n + Ollama 本地 AI 知识管道</span>
               <span class="post-date">2026.05.08</span>
             </a>
+            <p style="color:var(--muted);font-size:13px;line-height:1.6;margin:0 0 8px;padding:0 8px;">Docker 部署 n8n，接 Ollama 本地大模型，自动采集+摘要+入库。附防御性 JSON 解析方案。</p>
           </li>
           <li>
             <a href="/field-notes/cloudflare-pages-guide/">
-              <span class="post-title">Cloudflare Pages 零成本建站</span>
+              <span class="post-title">Cloudflare Pages 零成本建站完全指南</span>
               <span class="post-date">2026.05.08</span>
             </a>
+            <p style="color:var(--muted);font-size:13px;line-height:1.6;margin:0 0 8px;padding:0 8px;">GitHub 推代码 → 自动部署。含自定义域名、Pages Functions 后端、D1 数据库全流程。</p>
           </li>
         </ul>
+        <a href="/field-notes/" class="section-more">查看全部教程 →</a>
       </section>
 
-      <!-- Cyrus Weekly -->
+      <!-- TIL (show body text, not just titles) -->
       <section class="content">
-        <div class="section-label">Cyrus Weekly</div>
-        <div id="weekly-latest"></div>
-        <a href="/weekly/" class="section-more">查看全部 →</a>
+        <div class="section-label">最近学到的 · TIL</div>
+        <div id="til-latest"></div>
+        <a href="/til/" class="section-more">查看全部 →</a>
       </section>
 
-      <!-- AI Playground promo -->
+      <!-- AI News (inline top 5) -->
       <section class="content">
-        <div class="section-label">AI Playground · 动手实验</div>
-        <p style="color:var(--muted);font-size:15px;margin:0 0 12px;">在浏览器里体验 AI：神经网络可视化、情感分析、Transformer 原理。无需安装。</p>
-        <a href="/playground.html" class="section-more">进入实验室 →</a>
+        <div class="section-label">AI 热点 · NEWS</div>
+        <div id="news-latest"></div>
+        <a href="/news.html" class="section-more">查看全部资讯 →</a>
       </section>
 
-      <!-- AI News promo -->
+      <!-- Subscribe (moved UP, right after valuable content) -->
+      <section class="content subscribe-section">
+        <h3>Cyrus Weekly</h3>
+        <p class="subscribe-desc">每周一封 AI 实践精华，不废话，只给可执行的。</p>
+        <div data-subscribe></div>
+      </section>
+
+      <!-- Quick Links (compact grid: Playground / Weekly / Search) -->
       <section class="content">
-        <div class="section-label">AI 资讯</div>
-        <p style="color:var(--muted);font-size:15px;margin:0 0 12px;">每日聚合全球 AI 动态，附一句可执行结论。</p>
-        <a href="/news.html" class="section-more">进入资讯 →</a>
+        <div class="section-label">更多 · MORE</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;">
+          <a href="/playground.html" style="display:block;padding:16px;border:1px solid var(--line);border-radius:var(--radius);text-decoration:none;color:var(--ink);transition:all 0.15s;">
+            <strong style="font-size:15px;">AI Playground</strong>
+            <p style="color:var(--muted);font-size:13px;margin:6px 0 0;line-height:1.5;">浏览器里体验 AI，无需安装</p>
+          </a>
+          <a href="/weekly/" style="display:block;padding:16px;border:1px solid var(--line);border-radius:var(--radius);text-decoration:none;color:var(--ink);transition:all 0.15s;">
+            <strong style="font-size:15px;">Cyrus Weekly</strong>
+            <p style="color:var(--muted);font-size:13px;margin:6px 0 0;line-height:1.5;">每周 AI 实践精华</p>
+          </a>
+          <a href="/about.html" style="display:block;padding:16px;border:1px solid var(--line);border-radius:var(--radius);text-decoration:none;color:var(--ink);transition:all 0.15s;">
+            <strong style="font-size:15px;">关于 Cyrus</strong>
+            <p style="color:var(--muted);font-size:13px;margin:6px 0 0;line-height:1.5;">非技术出身的 AI 全栈实践者</p>
+          </a>
+        </div>
       </section>
 
       <!-- Visit Streak -->
       <section class="content">
         <div class="section-label">学习打卡 · STREAK</div>
         <div id="streakWidget" class="streak-widget"></div>
-      </section>
-
-      <!-- Subscribe -->
-      <section class="content subscribe-section">
-        <h3>Cyrus Weekly</h3>
-        <p class="subscribe-desc">每周一封 AI 实践精华，不废话，只给可执行的。</p>
-        <div data-subscribe></div>
       </section>
     </main>
 
@@ -206,8 +215,30 @@
       </span>
     </footer>
 
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
-    <script defer src="./js/neural-hero.js"></script>
+    <script>
+      (function() {
+        var canvas = document.getElementById("hero-canvas");
+        if (!canvas || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        function loadP5() {
+          var s1 = document.createElement("script");
+          s1.src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js";
+          s1.onload = function() {
+            var s2 = document.createElement("script");
+            s2.src = "./js/neural-hero.js";
+            document.body.appendChild(s2);
+          };
+          document.body.appendChild(s1);
+        }
+        if ("IntersectionObserver" in window) {
+          var obs = new IntersectionObserver(function(entries) {
+            if (entries[0].isIntersecting) { obs.disconnect(); loadP5(); }
+          }, { rootMargin: "200px" });
+          obs.observe(canvas);
+        } else {
+          loadP5();
+        }
+      })();
+    </script>
     <script defer src="./ui.js"></script>
     <script defer src="./visit-stats.js"></script>
     <script defer src="./js/components/subscribe.js"></script>

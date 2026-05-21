@@ -213,7 +213,14 @@
 
       <!-- Cards grid -->
       <div class="mg-section-rule">§ DISPATCH FEED</div>
-      <section id="newsCards" class="card-grid" aria-live="polite"></section>
+      <section id="newsCards" class="card-grid" aria-live="polite">
+        <div id="news-empty" style="color:var(--muted);font-size:14px;text-align:center;padding:40px 0;">
+          <p>正在加载资讯...</p>
+        </div>
+      </section>
+      <noscript>
+        <p style="color:var(--muted);font-size:14px;text-align:center;padding:40px 0;">请启用 JavaScript 以查看 AI 资讯。</p>
+      </noscript>
 
       <!-- Subscribe -->
       <section class="content subscribe-section">

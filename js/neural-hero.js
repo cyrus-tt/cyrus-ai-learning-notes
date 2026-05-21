@@ -5,7 +5,7 @@
 
 const neuralHero = (p) => {
   const ACCENT = [232, 69, 14]; // #e8450e
-  const BG = [10, 10, 10];     // #0a0a0a
+  const BG = [17, 17, 24];     // #111118 — subtle blue tint for dark-mode contrast
   const CONNECT_DIST = 150;
   const MOUSE_RADIUS = 120;
   const MAX_PULSES = 5;

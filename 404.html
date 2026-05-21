@@ -50,6 +50,8 @@
       }
       .err-links {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 10px;
       }
       .err-links a {
@@ -68,11 +70,11 @@
         background: var(--accent);
         transform: translateY(-1px);
       }
-      .err-links a:last-child {
+      .err-links a:not(:first-child) {
         border: 1.5px solid var(--line);
         color: var(--ink);
       }
-      .err-links a:last-child:hover {
+      .err-links a:not(:first-child):hover {
         border-color: var(--ink);
         transform: translateY(-1px);
       }
@@ -97,8 +99,9 @@
       <p class="err-desc">这个链接可能已失效，或者你手滑打错了地址。没关系，回到正轨。</p>
       <div class="err-links">
         <a href="/">返回首页</a>
+        <a href="/field-notes/">实验室</a>
         <a href="/playground.html">Playground</a>
-        <a href="/news.html">看 AI 资讯</a>
+        <a href="/news.html">AI 资讯</a>
       </div>
     </main>
 

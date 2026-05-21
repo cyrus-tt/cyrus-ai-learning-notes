@@ -18,6 +18,7 @@
 
 | 任务 | 完成日 | Plan 文件 |
 |---|---|---|
+| XHS 推广准备：Analytics + UTM + Hero 中文化 + 首访引导 | 05-21 | `swirling-painting-adleman.md` |
 | 安全加固 + 性能优化 + CSS 清理 + 共享 Harness | 05-21 | `plans/wise-crunching-emerson.md` |
 | AI-Native 升级：Cmd+K 面板 + Explain This + 上下文聊天 | 05-20 | — |
 | 教程 UX：Copy-Code + TOC 侧边栏 + 分享按钮 + 知识测验 | 05-14 | — |

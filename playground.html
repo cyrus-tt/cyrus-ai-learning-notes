@@ -320,14 +320,14 @@
     <!-- Transformer Explainer -->
     <article class="pg-card">
       <div class="pg-card-header">
-        <h3>Transformer 工作原理</h3>
+        <h3>Transformer 工作原理 <span style="color:var(--muted);font-size:12px;">· 第三方演示</span></h3>
         <p>交互式探索 GPT-2 的内部结构：输入文本，观察注意力机制如何工作，token 如何被处理，预测如何生成。</p>
         <div class="pg-card-meta">
           <span class="pg-badge">Georgia Tech</span>
           <span class="pg-badge green">实时推理</span>
         </div>
       </div>
-      <div class="pg-iframe-wrap tall">
+      <div class="pg-iframe-wrap tall" style="background:var(--bg-elevated,var(--bg-2))">
         <div class="pg-iframe-placeholder" onclick="loadIframe(this, 'https://poloclub.github.io/transformer-explainer/')">
           <div class="pg-play-icon">▶</div>
           <span>点击加载 Transformer Explainer</span>
@@ -339,14 +339,14 @@
     <!-- TensorFlow Playground -->
     <article class="pg-card">
       <div class="pg-card-header">
-        <h3>神经网络实验场</h3>
+        <h3>神经网络实验场 <span style="color:var(--muted);font-size:12px;">· 第三方演示</span></h3>
         <p>调整层数、神经元数量、激活函数和学习率，实时观察神经网络如何学习分类不同的数据模式。</p>
         <div class="pg-card-meta">
           <span class="pg-badge">TensorFlow</span>
           <span class="pg-badge green">经典教具</span>
         </div>
       </div>
-      <div class="pg-iframe-wrap">
+      <div class="pg-iframe-wrap" style="background:var(--bg-elevated,var(--bg-2))">
         <div class="pg-iframe-placeholder" onclick="loadIframe(this, 'https://playground.tensorflow.org/')">
           <div class="pg-play-icon">▶</div>
           <span>点击加载 TensorFlow Playground</span>
@@ -358,14 +358,14 @@
     <!-- CNN Explainer -->
     <article class="pg-card">
       <div class="pg-card-header">
-        <h3>CNN 卷积神经网络</h3>
+        <h3>CNN 卷积神经网络 <span style="color:var(--muted);font-size:12px;">· 第三方演示</span></h3>
         <p>逐层观察图片如何被卷积、池化、激活，最终被分类。理解计算机"看"图片的过程。</p>
         <div class="pg-card-meta">
           <span class="pg-badge">Georgia Tech</span>
           <span class="pg-badge green">可交互</span>
         </div>
       </div>
-      <div class="pg-iframe-wrap tall">
+      <div class="pg-iframe-wrap tall" style="background:var(--bg-elevated,var(--bg-2))">
         <div class="pg-iframe-placeholder" onclick="loadIframe(this, 'https://poloclub.github.io/cnn-explainer/')">
           <div class="pg-play-icon">▶</div>
           <span>点击加载 CNN Explainer</span>
@@ -377,14 +377,14 @@
     <!-- GAN Lab -->
     <article class="pg-card">
       <div class="pg-card-header">
-        <h3>GAN 对抗生成网络</h3>
+        <h3>GAN 对抗生成网络 <span style="color:var(--muted);font-size:12px;">· 第三方演示</span></h3>
         <p>实时观察生成器和判别器的博弈过程，理解 AI 如何学会"创造"新数据。</p>
         <div class="pg-card-meta">
           <span class="pg-badge">Georgia Tech</span>
           <span class="pg-badge green">TensorFlow.js</span>
         </div>
       </div>
-      <div class="pg-iframe-wrap">
+      <div class="pg-iframe-wrap" style="background:var(--bg-elevated,var(--bg-2))">
         <div class="pg-iframe-placeholder" onclick="loadIframe(this, 'https://poloclub.github.io/ganlab/')">
           <div class="pg-play-icon">▶</div>
           <span>点击加载 GAN Lab</span>
@@ -396,14 +396,14 @@
     <!-- Diffusion Explainer -->
     <article class="pg-card">
       <div class="pg-card-header">
-        <h3>Stable Diffusion 文生图</h3>
+        <h3>Stable Diffusion 文生图 <span style="color:var(--muted);font-size:12px;">· 第三方演示</span></h3>
         <p>可视化 Stable Diffusion 的完整管线：从文本提示到噪声去除，理解 AI 如何根据文字生成图片。</p>
         <div class="pg-card-meta">
           <span class="pg-badge">Georgia Tech</span>
           <span class="pg-badge">Diffusion</span>
         </div>
       </div>
-      <div class="pg-iframe-wrap tall">
+      <div class="pg-iframe-wrap tall" style="background:var(--bg-elevated,var(--bg-2))">
         <div class="pg-iframe-placeholder" onclick="loadIframe(this, 'https://poloclub.github.io/diffusion-explainer/')">
           <div class="pg-play-icon">▶</div>
           <span>点击加载 Diffusion Explainer</span>
@@ -442,6 +442,35 @@ function loadIframe(placeholder, url) {
   iframe.allow = 'accelerometer; camera; encrypted-media; gyroscope';
   iframe.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-popups');
   wrap.appendChild(iframe);
+
+  var loaded = false;
+  var timeout = setTimeout(function() {
+    if (!loaded) {
+      showIframeError(wrap, iframe, url);
+    }
+  }, 15000);
+
+  iframe.addEventListener('load', function() {
+    loaded = true;
+    clearTimeout(timeout);
+  });
+
+  iframe.addEventListener('error', function() {
+    loaded = true;
+    clearTimeout(timeout);
+    showIframeError(wrap, iframe, url);
+  });
+}
+
+function showIframeError(wrap, iframe, url) {
+  iframe.remove();
+  var fallback = document.createElement('div');
+  fallback.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:var(--bg-elevated,var(--bg-2))';
+  fallback.innerHTML =
+    '<span style="font-size:32px;">&#9888;</span>' +
+    '<span style="font-size:15px;font-weight:600;color:var(--ink)">加载失败</span>' +
+    '<a href="' + url + '" target="_blank" rel="noopener" style="font-size:14px;color:var(--accent);text-decoration:underline">直接访问 ' + url + ' &rarr;</a>';
+  wrap.appendChild(fallback);
 }
 
 var sentimentPipeline = null;
@@ -457,14 +486,20 @@ async function runSentiment() {
   sentimentBtn.disabled = true;
   sentimentBtn.textContent = '加载模型中…';
   sentimentResult.hidden = false;
-  sentimentOutput.innerHTML = '<span class="ai-demo-loading">首次运行需下载模型（约 60MB），请稍候…</span>';
+  sentimentOutput.innerHTML = '<span class="ai-demo-loading">首次加载约 60MB，请耐心等待...</span>';
 
   try {
     if (!sentimentPipeline) {
-      var transformers = await import('https://cdn.jsdelivr.net/npm/@huggingface/transformers@3');
-      sentimentPipeline = await transformers.pipeline('sentiment-analysis', 'Xenova/distilbert-base-uncased-finetuned-sst-2-english', {
-        device: 'wasm'
+      var modelTimeout = new Promise(function(_, reject) {
+        setTimeout(function() { reject(new Error('MODEL_TIMEOUT')); }, 30000);
       });
+      var modelLoad = (async function() {
+        var transformers = await import('https://cdn.jsdelivr.net/npm/@huggingface/transformers@3');
+        return await transformers.pipeline('sentiment-analysis', 'Xenova/distilbert-base-uncased-finetuned-sst-2-english', {
+          device: 'wasm'
+        });
+      })();
+      sentimentPipeline = await Promise.race([modelLoad, modelTimeout]);
     }
 
     sentimentBtn.textContent = '分析中…';
@@ -480,7 +515,12 @@ async function runSentiment() {
       '<div class="ai-demo-bar"><div class="ai-demo-bar-fill" style="width:' + pct + '%;background:' + color + '"></div></div>' +
       '<p style="margin:10px 0 0;font-size:13px;color:var(--muted)">模型：DistilBERT (SST-2) · 完全在你的浏览器本地运行</p>';
   } catch (err) {
-    sentimentOutput.innerHTML = '<span style="color:var(--accent)">加载失败：' + err.message + '</span>';
+    if (err.message === 'MODEL_TIMEOUT') {
+      sentimentOutput.innerHTML = '<span style="color:var(--accent)">模型加载超时，请刷新重试</span>';
+      sentimentPipeline = null;
+    } else {
+      sentimentOutput.innerHTML = '<span style="color:var(--accent)">加载失败：' + err.message + '</span>';
+    }
     console.error(err);
   }
 
