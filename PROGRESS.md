@@ -1,7 +1,7 @@
 # cyrus-ai-learning-notes 项目进度
 
 > **用途**：跟踪功能开发 + 内容建设 + 基础设施
-> **最后更新**：2026-05-14
+> **最后更新**：2026-05-21
 
 ---
 
@@ -47,12 +47,12 @@
 ## 📋 未提交的改动（git status）
 
 以下文件已开发但未提交到 main：
-- `VERIFY.md`
-- `d1/migration_005_mc.sql`、`d1/migration_006_pinned.sql`
-- `docs/plans/` 下 3 个新 plan
-- `functions/api/mc-*.js`、`functions/api/_lib/mc-auth.js`
-- `mission-control/index.html`
+- `d1/migration_005_mc.sql`、`d1/migration_006_pinned.sql`（Mission Control）
+- `functions/api/mc-*.js`、`functions/api/_lib/mc-auth.js`（Mission Control API）
+- `mission-control/index.html`（Mission Control 前端）
+- `docs/plans/` 下 3 个历史 plan 文件
 - `wrangler.toml`（新增 AI binding）
+- `claude-cert/`（Claude 认证相关）
 
 ---
 

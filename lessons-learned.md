@@ -61,3 +61,18 @@ rm edge-proxy.js
 2. **可以出现**：公开 ID（Cyrus）、泛化描述（"世界500强"、"AI Builder"）、公开产品、GitHub/社媒链接
 3. **简历内容 ≠ 网站内容**：简历是给面试官看的私密文档，网站是给陌生人看的公开页面。信任状要通过作品和内容证明，不是暴露个人经历
 4. 每次生成公开内容前，先跑一遍隐私关键词检查（grep 学校/专业/公司名/职位/手机/邮箱）
+
+---
+
+## L004 · CSP 太严格会默默吞掉所有外部资源（2026-05-14）
+
+**现象**：Playground 页面情感分析报 "Failed to fetch dynamically imported module"，iframe 可视化全部打不开，Google Fonts 不加载。用户看到的是"功能坏了"，没有任何提示是 CSP 拦截。
+
+**根因**：`_headers` 文件的 CSP 写了 `script-src 'self'`、`connect-src 'self'`，把所有外部 CDN、字体、iframe 源全拦了。CSP 违规只在 DevTools Console 报错，普通用户看不到。
+
+**规则**：
+1. 新增外部资源（CDN script、iframe、font、API）时，**必须同步更新 `_headers` 的 CSP**
+2. 本地验证时打开 DevTools Console，**搜 "Content Security Policy"** 确认无拦截
+3. `connect-src` 必须覆盖 AI 模型下载源（HuggingFace CDN 有多个子域名）
+4. `frame-src` 必须列出所有嵌入的第三方站点
+5. WASM 执行需要 `'wasm-unsafe-eval'`，Web Worker 需要 `worker-src 'self' blob:`
