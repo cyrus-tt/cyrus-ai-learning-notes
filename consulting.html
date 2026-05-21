@@ -52,7 +52,7 @@
     .consulting-hero {
       text-align: center;
       padding: 72px 0 56px;
-      border-bottom: 1px solid var(--mg-line);
+      border-bottom: 1px solid var(--line);
       margin-bottom: 56px;
     }
 
@@ -70,13 +70,13 @@
       font-size: 12px;
       letter-spacing: .18em;
       text-transform: uppercase;
-      color: var(--mg-accent);
+      color: var(--accent);
       margin: 20px 0 0;
     }
 
     .consulting-hero-desc {
       font-size: 18px;
-      color: var(--mg-muted);
+      color: var(--muted);
       margin: 14px auto 0;
       max-width: 40ch;
       line-height: 1.65;
@@ -90,10 +90,10 @@
     }
 
     .consulting-card {
-      border: 1px solid var(--mg-line);
+      border: 1px solid var(--line);
       border-radius: var(--radius-lg, 16px);
       padding: 28px 24px;
-      background: var(--bg-elevated, var(--mg-paper));
+      background: var(--bg-elevated, var(--bg));
       box-shadow: var(--shadow-xs);
       transition: transform var(--duration-normal) var(--ease-out, ease),
                   box-shadow var(--duration-normal) var(--ease-out, ease),
@@ -103,7 +103,7 @@
     .consulting-card:hover {
       transform: translateY(-4px);
       box-shadow: var(--shadow-md);
-      border-color: color-mix(in srgb, var(--mg-accent) 30%, var(--mg-line));
+      border-color: color-mix(in srgb, var(--accent) 30%, var(--line));
     }
 
     .consulting-card-num {
@@ -111,7 +111,7 @@
       font-size: 32px;
       font-weight: 700;
       line-height: 1;
-      color: var(--mg-accent);
+      color: var(--accent);
       opacity: 0.6;
     }
 
@@ -124,7 +124,7 @@
 
     .consulting-card p {
       font-size: 14px;
-      color: var(--mg-muted);
+      color: var(--muted);
       line-height: 1.75;
       margin: 0;
     }
@@ -144,8 +144,8 @@
       padding: 14px 0 14px 28px;
       font-size: 15px;
       line-height: 1.75;
-      color: var(--mg-ink);
-      border-bottom: 1px solid var(--mg-line-soft);
+      color: var(--ink);
+      border-bottom: 1px solid var(--line-soft);
     }
 
     .consulting-audience li:last-child { border-bottom: none; }
@@ -158,13 +158,13 @@
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: var(--mg-accent);
+      background: var(--accent);
     }
 
     .consulting-contact {
       text-align: center;
       padding: 56px 24px;
-      background: var(--bg-2, var(--mg-paper-2));
+      background: var(--bg-2, var(--bg-2));
       border-radius: var(--radius-lg, 16px);
       margin-bottom: 56px;
     }
@@ -178,21 +178,21 @@
       letter-spacing: .04em;
       text-decoration: none;
       color: #fff;
-      background: var(--mg-ink);
+      background: var(--ink);
       padding: 14px 32px;
       border-radius: 999px;
       transition: all var(--duration-normal) var(--ease-out, ease);
     }
 
     .consulting-contact-email:hover {
-      background: var(--mg-accent);
+      background: var(--accent);
       transform: translateY(-2px);
       box-shadow: var(--shadow-md);
     }
 
     .consulting-contact-note {
       font-size: 14px;
-      color: var(--mg-muted);
+      color: var(--muted);
       margin: 16px 0 0;
       line-height: 1.6;
     }
@@ -287,10 +287,10 @@
   </span>
 </footer>
 
-<script src="./ui.js"></script>
-<script src="./visit-stats.js"></script>
-<script src="/js/components/cmd-k.js"></script>
-    <script src="/js/components/explain-this.js"></script>
-    <script src="/js/components/chat-widget.js"></script>
+<script defer src="./ui.js"></script>
+<script defer src="./visit-stats.js"></script>
+<script defer src="/js/components/cmd-k.js"></script>
+    <script defer src="/js/components/explain-this.js"></script>
+    <script defer src="/js/components/chat-widget.js"></script>
 </body>
 </html>

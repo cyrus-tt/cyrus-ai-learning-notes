@@ -18,6 +18,7 @@
 
 | 任务 | 完成日 | Plan 文件 |
 |---|---|---|
+| 安全加固 + 性能优化 + CSS 清理 + 共享 Harness | 05-21 | `plans/wise-crunching-emerson.md` |
 | AI-Native 升级：Cmd+K 面板 + Explain This + 上下文聊天 | 05-20 | — |
 | 教程 UX：Copy-Code + TOC 侧边栏 + 分享按钮 + 知识测验 | 05-14 | — |
 | 社交分享优化：PNG OG 图 + 完整 meta tags | 05-14 | — |
@@ -48,8 +49,10 @@
 
 以下文件已开发但未提交到 main：
 - `d1/migration_005_mc.sql`、`d1/migration_006_pinned.sql`（Mission Control）
-- `functions/api/mc-*.js`、`functions/api/_lib/mc-auth.js`（Mission Control API）
+- `functions/api/mc-*.js`、`functions/api/_lib/mc-auth.js`（Mission Control API，mc-auth 已修复 fail-closed）
+- `functions/api/_lib/cors.js`（新增：统一 CORS 白名单模块）
 - `mission-control/index.html`（Mission Control 前端）
+- `scripts/smoke-test.sh`（新增：部署后端点检查）
 - `docs/plans/` 下 3 个历史 plan 文件
 - `wrangler.toml`（新增 AI binding）
 - `claude-cert/`（Claude 认证相关）
@@ -60,8 +63,9 @@
 
 | 组件 | 状态 | 说明 |
 |---|---|---|
-| Cloudflare Pages | ✅ 运行中 | 自动从 main 部署 |
+| Cloudflare Pages | ✅ 运行中 | 自动从 main 部署，部署后 smoke test |
 | GitHub Actions | ✅ 运行中 | 每日 09:00/21:00 UTC 更新新闻 |
+| 共享 Harness | ✅ 已建立 | `Rules_Skills/rules/shared-code-checklist.md`，通过 $include 全局继承 |
 | D1 数据库 | ✅ 运行中 | 6 个 migration 已应用（005/006 待提交） |
 | Workers AI | ✅ 运行中 | chat.js 数字分身 |
 | 本地 cron | ⚠️ 需确认 | `scripts/install_news_cron.sh` |

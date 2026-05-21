@@ -1,18 +1,10 @@
 import { checkMcAuth } from "./_lib/mc-auth.js";
+import { corsHeaders, handleOptions } from "./_lib/cors.js";
 
-// ---------------------------------------------------------------------------
-// CORS
-// ---------------------------------------------------------------------------
-const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Methods": "GET, POST, PATCH, OPTIONS",
-  "Access-Control-Allow-Headers": "Content-Type, Authorization",
-};
-
-function json(body, status = 200) {
+function json(body, status = 200, request = null) {
   return new Response(JSON.stringify(body), {
     status,
-    headers: { "Content-Type": "application/json; charset=UTF-8", ...corsHeaders },
+    headers: { "Content-Type": "application/json; charset=UTF-8", ...(request ? corsHeaders(request) : {}) },
   });
 }
 
@@ -24,12 +16,12 @@ export async function onRequestPost(context) {
 
   // Auth
   if (!checkMcAuth(request, env)) {
-    return json({ ok: false, error: "unauthorized" }, 401);
+    return json({ ok: false, error: "unauthorized" }, 401, request);
   }
 
   const db = env?.DB;
   if (!db) {
-    return json({ ok: false, error: "db_not_configured" }, 500);
+    return json({ ok: false, error: "db_not_configured" }, 500, request);
   }
 
   // Parse body
@@ -37,12 +29,12 @@ export async function onRequestPost(context) {
   try {
     body = await request.json();
   } catch {
-    return json({ ok: false, error: "invalid_json" }, 400);
+    return json({ ok: false, error: "invalid_json" }, 400, request);
   }
 
   const projects = body?.projects;
   if (!Array.isArray(projects) || projects.length === 0) {
-    return json({ ok: false, error: "missing_projects_array" }, 400);
+    return json({ ok: false, error: "missing_projects_array" }, 400, request);
   }
 
   const now = new Date().toISOString();
@@ -240,11 +232,11 @@ export async function onRequestPost(context) {
       updated: totalUpdated,
       removed: totalRemoved,
       synced_at: now,
-    });
+    }, 200, request);
   } catch (error) {
     return json(
       { ok: false, error: "sync_failed", message: String(error?.message || "") },
-      500
+      500, request
     );
   }
 }
@@ -252,6 +244,6 @@ export async function onRequestPost(context) {
 // ---------------------------------------------------------------------------
 // OPTIONS preflight
 // ---------------------------------------------------------------------------
-export async function onRequestOptions() {
-  return new Response(null, { status: 204, headers: corsHeaders });
+export async function onRequestOptions(context) {
+  return handleOptions(context.request);
 }

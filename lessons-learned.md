@@ -76,3 +76,28 @@ rm edge-proxy.js
 3. `connect-src` 必须覆盖 AI 模型下载源（HuggingFace CDN 有多个子域名）
 4. `frame-src` 必须列出所有嵌入的第三方站点
 5. WASM 执行需要 `'wasm-unsafe-eval'`，Web Worker 需要 `worker-src 'self' blob:`
+
+---
+
+## L005 · 跨项目教训不传播 = 同一个坑踩多次（2026-05-21）
+
+**现象**：OPC 项目已沉淀 97 条教训（CORS 白名单、auth fail-closed、速率限制等），但 cyrus-ai-learning-notes 仍然 CORS 全开 `*`、mc-auth 缺 token 时默认放行、chat API 无速率限制。
+
+**根因**：每个项目独立维护 CLAUDE.md，教训锁在各自项目里。全局 CLAUDE.md 只有抽象原则（"第一性原理"），没有具体检查项。`coding-workflow-default` skill 是被动的（需要主动调用），不含技术级检查清单。
+
+**规则**：
+1. 通用教训写入 `Rules_Skills/rules/shared-code-checklist.md`，通过 `$include` 自动加载到所有项目
+2. 项目 CLAUDE.md 只写项目特有规则，不重复通用项
+3. 发现新的通用教训时，先问"这只是本项目的问题，还是所有项目都会遇到？"——后者必须提升到共享层
+
+---
+
+## L006 · Auth 守卫必须 fail-closed（2026-05-21）
+
+**现象**：`mc-auth.js` 在 `MC_AUTH_TOKEN` 环境变量未配置时返回 `true`（放行所有请求），注释写的是"dev mode"。但生产环境如果忘了配 token，就等于没有 auth。
+
+**根因**：开发便利性优先于安全默认值。正确做法：没配 token = 拒绝所有请求，强制开发者配置。
+
+**规则**：
+1. Auth 中间件/守卫在配置缺失时必须**拒绝请求**（fail-closed），不是放行（fail-open）
+2. 如果需要 dev mode 跳过 auth，用显式的环境变量 `AUTH_SKIP=true`，不是"没配 token 就跳过"

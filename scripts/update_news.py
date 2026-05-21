@@ -258,7 +258,23 @@ def load_translation_cache() -> dict[str, str]:
 
 
 def save_translation_cache(cache: dict[str, str]) -> None:
-    TRANSLATION_CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+    MAX_CACHE_AGE_DAYS = 30
+    pruned = _prune_old_cache_entries(cache, MAX_CACHE_AGE_DAYS)
+    TRANSLATION_CACHE_FILE.write_text(json.dumps(pruned, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _prune_old_cache_entries(cache: dict[str, str], max_age_days: int) -> dict[str, str]:
+    """Keep cache under control by limiting total entries.
+
+    Translation cache keys are source text, not timestamped, so we can't
+    prune by date. Instead, keep the most recent N entries (FIFO by dict
+    insertion order, which is preserved in Python 3.7+).
+    """
+    max_entries = 20_000
+    if len(cache) <= max_entries:
+        return cache
+    items = list(cache.items())
+    return dict(items[-max_entries:])
 
 
 def load_digest_rules() -> dict[str, Any]:

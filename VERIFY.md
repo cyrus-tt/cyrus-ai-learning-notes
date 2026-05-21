@@ -6,6 +6,30 @@
 
 ---
 
+## 2026-05-21 · 安全加固 + 性能优化 + CSS 清理 (pending)
+**背景**：项目审计发现安全漏洞（CORS 全开、auth fail-open、无速率限制）、性能问题（script 同步加载）、CSS 遗留变量。本次修复 33 个文件。
+
+### 安全
+- [ ] 打开 https://cyrusai.me → DevTools Console → 无 CORS 报错（正常浏览不受影响）
+- [ ] 打开 AI 聊天 → 连续快速发 12 条消息 → 第 11 条应返回"Rate limit exceeded"提示
+- [ ] 打开 AI 聊天 → 正常对话 → 回复正常（速率限制不影响正常使用）
+
+### 性能
+- [ ] 打开首页 → DevTools Network → 所有 JS 文件应显示为 defer 加载（不阻塞 HTML 解析）
+- [ ] 打开首页 → 神经网络动画正常显示（p5.js defer 后仍能工作）
+- [ ] 打开 News 页 → 新闻正常加载，切换 tab 正常
+
+### CSS
+- [ ] 打开首页 → 视觉样式与之前一致（颜色、字体、间距无变化）
+- [ ] 切换暗色模式 → 所有页面颜色正确
+- [ ] 打开 About 页 → 样式正常（此页之前大量使用 --mg-* 变量）
+- [ ] 打开 Consulting 页 → 样式正常
+
+### 基础设施
+- [ ] 运行 `scripts/smoke-test.sh` → 所有端点返回 OK
+
+---
+
 ## 2026-05-14 · Design System 2.0 全站视觉升级 (a55571b)
 **背景**：全站设计系统从"clean minimal"升级到"refined premium"。涉及颜色/阴影/动画/导航/卡片/标签/Chat widget 等全部视觉组件。
 

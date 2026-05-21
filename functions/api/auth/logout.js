@@ -1,10 +1,11 @@
 // POST /api/auth/logout — clear session cookie
+import { corsHeaders, handleOptions } from "../_lib/cors.js";
 
 export async function onRequest(context) {
   const { request, env } = context;
 
   if (request.method === "OPTIONS") {
-    return new Response(null, { status: 204, headers: corsHeaders() });
+    return handleOptions(request);
   }
 
   const sessionId = getSessionId(request);
@@ -18,7 +19,7 @@ export async function onRequest(context) {
     }
   }
 
-  const resp = withCors(jsonRes({ ok: true }));
+  const resp = withCors(request, jsonRes({ ok: true }));
   resp.headers.set(
     "Set-Cookie",
     "session_id=; HttpOnly; SameSite=Lax; Secure; Max-Age=0; Path=/"
@@ -39,16 +40,8 @@ function jsonRes(data, status = 200) {
   });
 }
 
-function corsHeaders() {
-  return {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "POST, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type"
-  };
-}
-
-function withCors(response) {
-  for (const [k, v] of Object.entries(corsHeaders())) {
+function withCors(request, response) {
+  for (const [k, v] of Object.entries(corsHeaders(request))) {
     response.headers.set(k, v);
   }
   return response;

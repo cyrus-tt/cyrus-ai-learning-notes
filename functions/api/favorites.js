@@ -1,4 +1,5 @@
 import { jsonResponse, parsePositiveInt } from "./_lib/intel.js";
+import { corsHeaders, handleOptions } from "./_lib/cors.js";
 
 const GUEST_ID_HEADER = "x-guest-id";
 const GUEST_ID_COOKIE = "guest_id";
@@ -9,27 +10,27 @@ export async function onRequest(context) {
   const method = request.method;
 
   if (method === "OPTIONS") {
-    return new Response(null, { status: 204, headers: corsHeaders() });
+    return handleOptions(request);
   }
 
   if (method === "GET") return handleGet(request, env);
   if (method === "POST") return handlePost(request, env);
   if (method === "DELETE") return handleDelete(request, env);
 
-  return withCors(jsonResponse({ ok: false, error: "method_not_allowed" }, 405, "no-store"));
+  return withCors(request, jsonResponse({ ok: false, error: "method_not_allowed" }, 405, "no-store"));
 }
 
 async function handleGet(request, env) {
   const db = env?.DB;
   if (!db) {
-    return withCors(
+    return withCors(request,
       jsonResponse({ ok: true, count: 0, items: [], actorType: "none", actorId: null, available: false })
     );
   }
 
   const actor = await resolveActor(request, env);
   if (!actor.userId) {
-    return withCors(jsonResponse({ ok: true, count: 0, items: [], actorType: actor.type, actorId: null }));
+    return withCors(request, jsonResponse({ ok: true, count: 0, items: [], actorType: actor.type, actorId: null }));
   }
 
   const url = new URL(request.url);
@@ -58,7 +59,7 @@ async function handleGet(request, env) {
       createdAt: row.created_at
     }));
 
-    return withCors(
+    return withCors(request,
       jsonResponse({
         ok: true,
         actorType: actor.type,
@@ -68,7 +69,7 @@ async function handleGet(request, env) {
       })
     );
   } catch (error) {
-    return withCors(
+    return withCors(request,
       jsonResponse(
         { ok: false, error: "db_read_failed", message: String(error?.message || "") },
         500,
@@ -81,24 +82,24 @@ async function handleGet(request, env) {
 async function handlePost(request, env) {
   const db = env?.DB;
   if (!db) {
-    return withCors(jsonResponse({ ok: false, error: "db_not_configured" }, 500, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "db_not_configured" }, 500, "no-store"));
   }
 
   const actor = await resolveActor(request, env);
   if (!actor.userId) {
-    return withCors(jsonResponse({ ok: false, error: "unauthorized" }, 401, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "unauthorized" }, 401, "no-store"));
   }
 
   let body;
   try {
     body = await request.json();
   } catch {
-    return withCors(jsonResponse({ ok: false, error: "invalid_json" }, 400, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "invalid_json" }, 400, "no-store"));
   }
 
   const normalized = normalizeFavorite(body);
   if (!normalized.ok) {
-    return withCors(jsonResponse({ ok: false, error: normalized.error }, 400, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: normalized.error }, 400, "no-store"));
   }
 
   const favorite = normalized.favorite;
@@ -128,7 +129,7 @@ async function handlePost(request, env) {
       )
       .run();
 
-    return withCors(
+    return withCors(request,
       jsonResponse({
         ok: true,
         action: "added",
@@ -138,7 +139,7 @@ async function handlePost(request, env) {
       })
     );
   } catch (error) {
-    return withCors(
+    return withCors(request,
       jsonResponse(
         { ok: false, error: "db_write_failed", message: String(error?.message || "") },
         500,
@@ -151,18 +152,18 @@ async function handlePost(request, env) {
 async function handleDelete(request, env) {
   const db = env?.DB;
   if (!db) {
-    return withCors(jsonResponse({ ok: false, error: "db_not_configured" }, 500, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "db_not_configured" }, 500, "no-store"));
   }
 
   const actor = await resolveActor(request, env);
   if (!actor.userId) {
-    return withCors(jsonResponse({ ok: false, error: "unauthorized" }, 401, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "unauthorized" }, 401, "no-store"));
   }
 
   const url = new URL(request.url);
   const newsId = String(url.searchParams.get("news_id") || "").trim().slice(0, 200);
   if (!newsId) {
-    return withCors(jsonResponse({ ok: false, error: "invalid_news_id" }, 400, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "invalid_news_id" }, 400, "no-store"));
   }
 
   try {
@@ -171,7 +172,7 @@ async function handleDelete(request, env) {
       .bind(actor.userId, newsId)
       .run();
 
-    return withCors(
+    return withCors(request,
       jsonResponse({
         ok: true,
         action: result?.meta?.changes > 0 ? "removed" : "not_found",
@@ -181,7 +182,7 @@ async function handleDelete(request, env) {
       })
     );
   } catch (error) {
-    return withCors(
+    return withCors(request,
       jsonResponse(
         { ok: false, error: "db_delete_failed", message: String(error?.message || "") },
         500,
@@ -286,16 +287,8 @@ function normalizeCreatedAt(raw) {
   return new Date(parsed).toISOString();
 }
 
-function corsHeaders() {
-  return {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET, POST, DELETE, OPTIONS",
-    "Access-Control-Allow-Headers": `Content-Type, ${GUEST_ID_HEADER}`
-  };
-}
-
-function withCors(response) {
-  for (const [k, v] of Object.entries(corsHeaders())) {
+function withCors(request, response) {
+  for (const [k, v] of Object.entries(corsHeaders(request))) {
     response.headers.set(k, v);
   }
   return response;

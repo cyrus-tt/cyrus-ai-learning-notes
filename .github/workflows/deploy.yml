@@ -35,3 +35,9 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: fe9195f8c0de1cd8852037d068fe3619
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: wrangler pages deploy . --project-name cyrus-ai-notes
+
+      - name: Post-deploy smoke test
+        run: |
+          sleep 15
+          chmod +x scripts/smoke-test.sh
+          scripts/smoke-test.sh https://cyrusai.me

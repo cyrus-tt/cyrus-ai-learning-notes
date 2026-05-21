@@ -1,4 +1,5 @@
 import { jsonResponse, parsePositiveInt } from "./_lib/intel.js";
+import { corsHeaders, handleOptions } from "./_lib/cors.js";
 
 const VALID_PLATFORMS = new Set(["x", "xhs", "youtube"]);
 
@@ -7,10 +8,7 @@ export async function onRequest(context) {
   const method = request.method;
 
   if (method === "OPTIONS") {
-    return new Response(null, {
-      status: 204,
-      headers: corsHeaders()
-    });
+    return handleOptions(request);
   }
 
   if (method === "GET") {
@@ -29,7 +27,7 @@ export async function onRequest(context) {
 async function handleGet(request, env) {
   const db = env?.DB;
   if (!db) {
-    return withCors(jsonResponse({ ok: true, platform: "all", count: 0, items: [] }));
+    return withCors(request, jsonResponse({ ok: true, platform: "all", count: 0, items: [] }));
   }
 
   const url = new URL(request.url);
@@ -59,14 +57,14 @@ async function handleGet(request, env) {
       updatedAt: row.updated_at
     }));
 
-    return withCors(jsonResponse({
+    return withCors(request, jsonResponse({
       ok: true,
       platform: platform || "all",
       count: items.length,
       items
     }));
   } catch (error) {
-    return withCors(jsonResponse(
+    return withCors(request, jsonResponse(
       { ok: false, error: "db_read_failed", message: String(error?.message || "") },
       500,
       "no-store"
@@ -76,18 +74,18 @@ async function handleGet(request, env) {
 
 async function handlePost(request, env) {
   const authError = checkAuth(request, env);
-  if (authError) return withCors(authError);
+  if (authError) return withCors(request, authError);
 
   const db = env?.DB;
   if (!db) {
-    return withCors(jsonResponse({ ok: false, error: "db_not_configured" }, 500, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "db_not_configured" }, 500, "no-store"));
   }
 
   let body;
   try {
     body = await request.json();
   } catch {
-    return withCors(jsonResponse({ ok: false, error: "invalid_json" }, 400, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "invalid_json" }, 400, "no-store"));
   }
 
   const platform = String(body?.platform || "").trim().toLowerCase();
@@ -96,10 +94,10 @@ async function handlePost(request, env) {
   const notes = String(body?.notes || "").trim().slice(0, 500);
 
   if (!platform || !VALID_PLATFORMS.has(platform)) {
-    return withCors(jsonResponse({ ok: false, error: "invalid_platform" }, 400, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "invalid_platform" }, 400, "no-store"));
   }
   if (!username || username.length > 100) {
-    return withCors(jsonResponse({ ok: false, error: "invalid_username" }, 400, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "invalid_username" }, 400, "no-store"));
   }
 
   const now = new Date().toISOString();
@@ -117,9 +115,9 @@ async function handlePost(request, env) {
       .bind(platform, username, displayName || username, notes, now, now)
       .run();
 
-    return withCors(jsonResponse({ ok: true, action: "added", platform, username }));
+    return withCors(request, jsonResponse({ ok: true, action: "added", platform, username }));
   } catch (error) {
-    return withCors(jsonResponse(
+    return withCors(request, jsonResponse(
       { ok: false, error: "db_write_failed", message: String(error?.message || "") },
       500,
       "no-store"
@@ -129,11 +127,11 @@ async function handlePost(request, env) {
 
 async function handleDelete(request, env) {
   const authError = checkAuth(request, env);
-  if (authError) return withCors(authError);
+  if (authError) return withCors(request, authError);
 
   const db = env?.DB;
   if (!db) {
-    return withCors(jsonResponse({ ok: false, error: "db_not_configured" }, 500, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "db_not_configured" }, 500, "no-store"));
   }
 
   const url = new URL(request.url);
@@ -141,10 +139,10 @@ async function handleDelete(request, env) {
   const username = String(url.searchParams.get("username") || "").trim();
 
   if (!platform || !VALID_PLATFORMS.has(platform)) {
-    return withCors(jsonResponse({ ok: false, error: "invalid_platform" }, 400, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "invalid_platform" }, 400, "no-store"));
   }
   if (!username) {
-    return withCors(jsonResponse({ ok: false, error: "invalid_username" }, 400, "no-store"));
+    return withCors(request, jsonResponse({ ok: false, error: "invalid_username" }, 400, "no-store"));
   }
 
   try {
@@ -153,14 +151,14 @@ async function handleDelete(request, env) {
       .bind(platform, username)
       .run();
 
-    return withCors(jsonResponse({
+    return withCors(request, jsonResponse({
       ok: true,
       action: result?.meta?.changes > 0 ? "removed" : "not_found",
       platform,
       username
     }));
   } catch (error) {
-    return withCors(jsonResponse(
+    return withCors(request, jsonResponse(
       { ok: false, error: "db_delete_failed", message: String(error?.message || "") },
       500,
       "no-store"
@@ -184,19 +182,9 @@ function checkAuth(request, env) {
   return null;
 }
 
-function corsHeaders() {
-  return {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET, POST, DELETE, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type, Authorization",
-    "Access-Control-Max-Age": "86400"
-  };
-}
-
-function withCors(response) {
-  const headers = corsHeaders();
-  for (const [key, value] of Object.entries(headers)) {
-    response.headers.set(key, value);
+function withCors(request, response) {
+  for (const [k, v] of Object.entries(corsHeaders(request))) {
+    response.headers.set(k, v);
   }
   return response;
 }

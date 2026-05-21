@@ -1,20 +1,21 @@
 // GET /api/auth/me — return current user from session cookie
+import { corsHeaders, handleOptions } from "../_lib/cors.js";
 
 export async function onRequest(context) {
   const { request, env } = context;
 
   if (request.method === "OPTIONS") {
-    return new Response(null, { status: 204, headers: corsHeaders() });
+    return handleOptions(request);
   }
 
   const db = env?.DB;
   if (!db) {
-    return withCors(jsonRes({ ok: true, user: null }));
+    return withCors(request, jsonRes({ ok: true, user: null }));
   }
 
   const sessionId = getSessionId(request);
   if (!sessionId) {
-    return withCors(jsonRes({ ok: true, user: null }));
+    return withCors(request, jsonRes({ ok: true, user: null }));
   }
 
   const now = new Date().toISOString();
@@ -31,14 +32,14 @@ export async function onRequest(context) {
       .first();
 
     if (!row) {
-      return withCors(jsonRes({ ok: true, user: null }));
+      return withCors(request, jsonRes({ ok: true, user: null }));
     }
 
-    return withCors(
+    return withCors(request,
       jsonRes({ ok: true, user: { id: row.id, email: row.email, name: row.name, picture: row.picture } })
     );
   } catch {
-    return withCors(jsonRes({ ok: true, user: null }));
+    return withCors(request, jsonRes({ ok: true, user: null }));
   }
 }
 
@@ -55,16 +56,8 @@ function jsonRes(data, status = 200) {
   });
 }
 
-function corsHeaders() {
-  return {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type"
-  };
-}
-
-function withCors(response) {
-  for (const [k, v] of Object.entries(corsHeaders())) {
+function withCors(request, response) {
+  for (const [k, v] of Object.entries(corsHeaders(request))) {
     response.headers.set(k, v);
   }
   return response;

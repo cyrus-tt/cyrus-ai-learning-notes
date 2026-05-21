@@ -1,5 +1,31 @@
+import { corsHeaders, handleOptions } from "./_lib/cors.js";
+
+const RATE_LIMIT_WINDOW_MS = 60_000;
+const RATE_LIMIT_MAX = 10;
+const rateLimitMap = new Map();
+
+function checkRateLimit(ip) {
+  const now = Date.now();
+  const entry = rateLimitMap.get(ip);
+  if (!entry || now - entry.windowStart > RATE_LIMIT_WINDOW_MS) {
+    rateLimitMap.set(ip, { windowStart: now, count: 1 });
+    return true;
+  }
+  entry.count++;
+  if (entry.count > RATE_LIMIT_MAX) return false;
+  return true;
+}
+
 export async function onRequestPost(context) {
   const { request, env } = context;
+
+  const clientIp = request.headers.get("CF-Connecting-IP") || "unknown";
+  if (!checkRateLimit(clientIp)) {
+    return new Response(JSON.stringify({ error: "Rate limit exceeded. Try again in 1 minute." }), {
+      status: 429,
+      headers: { ...corsHeaders(request), "Content-Type": "application/json", "Retry-After": "60" },
+    });
+  }
 
   // Parse request
   let body;
@@ -8,7 +34,7 @@ export async function onRequestPost(context) {
   } catch {
     return new Response(JSON.stringify({ error: "Invalid JSON" }), {
       status: 400,
-      headers: { "Content-Type": "application/json" },
+      headers: { ...corsHeaders(request), "Content-Type": "application/json" },
     });
   }
 
@@ -16,12 +42,9 @@ export async function onRequestPost(context) {
   if (!messages.length) {
     return new Response(JSON.stringify({ error: "No messages provided" }), {
       status: 400,
-      headers: { "Content-Type": "application/json" },
+      headers: { ...corsHeaders(request), "Content-Type": "application/json" },
     });
   }
-
-  // Rate limiting: simple in-memory check (resets per worker instance)
-  // For production, use D1 or KV for persistent rate limiting
 
   // Load knowledge base
   let knowledge;
@@ -102,8 +125,8 @@ ${services.description || "AI 自动化顾问"}
     });
     return new Response(fallbackResponse, {
       headers: {
+        ...corsHeaders(request),
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
       },
     });
   }
@@ -119,12 +142,11 @@ ${services.description || "AI 自动化顾问"}
       }
     );
 
-    // Return streaming response
     return new Response(aiResponse, {
       headers: {
+        ...corsHeaders(request),
         "Content-Type": "text/event-stream",
         "Cache-Control": "no-cache",
-        "Access-Control-Allow-Origin": "*",
       },
     });
   } catch (err) {
@@ -133,22 +155,14 @@ ${services.description || "AI 自动化顾问"}
       {
         status: 500,
         headers: {
+          ...corsHeaders(request),
           "Content-Type": "application/json",
-          "Access-Control-Allow-Origin": "*",
         },
       }
     );
   }
 }
 
-// Handle CORS preflight
-export async function onRequestOptions() {
-  return new Response(null, {
-    headers: {
-      "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Methods": "POST, OPTIONS",
-      "Access-Control-Allow-Headers": "Content-Type",
-      "Access-Control-Max-Age": "86400",
-    },
-  });
+export async function onRequestOptions(context) {
+  return handleOptions(context.request);
 }

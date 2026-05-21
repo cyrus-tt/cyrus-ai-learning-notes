@@ -1,18 +1,10 @@
 import { checkMcAuth } from "./_lib/mc-auth.js";
+import { corsHeaders, handleOptions } from "./_lib/cors.js";
 
-// ---------------------------------------------------------------------------
-// CORS
-// ---------------------------------------------------------------------------
-const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Methods": "GET, POST, PATCH, OPTIONS",
-  "Access-Control-Allow-Headers": "Content-Type, Authorization",
-};
-
-function json(body, status = 200) {
+function json(body, status = 200, request = null) {
   return new Response(JSON.stringify(body), {
     status,
-    headers: { "Content-Type": "application/json; charset=UTF-8", ...corsHeaders },
+    headers: { "Content-Type": "application/json; charset=UTF-8", ...(request ? corsHeaders(request) : {}) },
   });
 }
 
@@ -23,12 +15,12 @@ export async function onRequestGet(context) {
   const { request, env } = context;
 
   if (!checkMcAuth(request, env)) {
-    return json({ ok: false, error: "unauthorized" }, 401);
+    return json({ ok: false, error: "unauthorized" }, 401, request);
   }
 
   const db = env?.DB;
   if (!db) {
-    return json({ ok: false, error: "db_not_configured" }, 500);
+    return json({ ok: false, error: "db_not_configured" }, 500, request);
   }
 
   const url = new URL(request.url);
@@ -121,11 +113,11 @@ export async function onRequestGet(context) {
       tasks,
       projects,
       last_sync: syncRow?.synced_at || null,
-    });
+    }, 200, request);
   } catch (error) {
     return json(
       { ok: false, error: "db_read_failed", message: String(error?.message || "") },
-      500
+      500, request
     );
   }
 }
@@ -137,24 +129,24 @@ export async function onRequestPatch(context) {
   const { request, env } = context;
 
   if (!checkMcAuth(request, env)) {
-    return json({ ok: false, error: "unauthorized" }, 401);
+    return json({ ok: false, error: "unauthorized" }, 401, request);
   }
 
   const db = env?.DB;
   if (!db) {
-    return json({ ok: false, error: "db_not_configured" }, 500);
+    return json({ ok: false, error: "db_not_configured" }, 500, request);
   }
 
   let body;
   try {
     body = await request.json();
   } catch {
-    return json({ ok: false, error: "invalid_json" }, 400);
+    return json({ ok: false, error: "invalid_json" }, 400, request);
   }
 
   const taskId = String(body?.id || "").trim();
   if (!taskId) {
-    return json({ ok: false, error: "missing_task_id" }, 400);
+    return json({ ok: false, error: "missing_task_id" }, 400, request);
   }
 
   // Build SET clause from allowed fields
@@ -173,7 +165,7 @@ export async function onRequestPatch(context) {
   }
 
   if (setClauses.length === 0) {
-    return json({ ok: false, error: "no_fields_to_update" }, 400);
+    return json({ ok: false, error: "no_fields_to_update" }, 400, request);
   }
 
   // Always set edited_at to mark as locally edited
@@ -191,14 +183,14 @@ export async function onRequestPatch(context) {
       .run();
 
     if ((result?.meta?.changes || 0) === 0) {
-      return json({ ok: false, error: "task_not_found" }, 404);
+      return json({ ok: false, error: "task_not_found" }, 404, request);
     }
 
-    return json({ ok: true, edited_at: now });
+    return json({ ok: true, edited_at: now }, 200, request);
   } catch (error) {
     return json(
       { ok: false, error: "db_update_failed", message: String(error?.message || "") },
-      500
+      500, request
     );
   }
 }
@@ -206,6 +198,6 @@ export async function onRequestPatch(context) {
 // ---------------------------------------------------------------------------
 // OPTIONS preflight
 // ---------------------------------------------------------------------------
-export async function onRequestOptions() {
-  return new Response(null, { status: 204, headers: corsHeaders });
+export async function onRequestOptions(context) {
+  return handleOptions(context.request);
 }

@@ -1,26 +1,27 @@
 // POST /api/auth/google — verify Google ID token, create session
+import { corsHeaders, handleOptions } from "../_lib/cors.js";
 
 export async function onRequest(context) {
   const { request, env } = context;
 
   if (request.method === "OPTIONS") {
-    return new Response(null, { status: 204, headers: corsHeaders() });
+    return handleOptions(request);
   }
 
   if (request.method !== "POST") {
-    return withCors(jsonRes({ ok: false, error: "method_not_allowed" }, 405));
+    return withCors(request, jsonRes({ ok: false, error: "method_not_allowed" }, 405));
   }
 
   let body;
   try {
     body = await request.json();
   } catch {
-    return withCors(jsonRes({ ok: false, error: "invalid_json" }, 400));
+    return withCors(request, jsonRes({ ok: false, error: "invalid_json" }, 400));
   }
 
   const credential = String(body?.credential || "").trim();
   if (!credential) {
-    return withCors(jsonRes({ ok: false, error: "missing_credential" }, 400));
+    return withCors(request, jsonRes({ ok: false, error: "missing_credential" }, 400));
   }
 
   // Verify ID token with Google
@@ -30,27 +31,27 @@ export async function onRequest(context) {
       `https://oauth2.googleapis.com/tokeninfo?id_token=${encodeURIComponent(credential)}`
     );
     if (!resp.ok) {
-      return withCors(jsonRes({ ok: false, error: "invalid_token" }, 401));
+      return withCors(request, jsonRes({ ok: false, error: "invalid_token" }, 401));
     }
     googleUser = await resp.json();
   } catch {
-    return withCors(jsonRes({ ok: false, error: "google_verify_failed" }, 500));
+    return withCors(request, jsonRes({ ok: false, error: "google_verify_failed" }, 500));
   }
 
   // Optional: verify audience matches our client ID
   const expectedClientId = String(env?.GOOGLE_CLIENT_ID || "").trim();
   if (expectedClientId && googleUser.aud !== expectedClientId) {
-    return withCors(jsonRes({ ok: false, error: "token_aud_mismatch" }, 401));
+    return withCors(request, jsonRes({ ok: false, error: "token_aud_mismatch" }, 401));
   }
 
   const db = env?.DB;
   if (!db) {
-    return withCors(jsonRes({ ok: false, error: "db_not_configured" }, 500));
+    return withCors(request, jsonRes({ ok: false, error: "db_not_configured" }, 500));
   }
 
   const userId = String(googleUser.sub || "").trim();
   if (!userId) {
-    return withCors(jsonRes({ ok: false, error: "missing_sub" }, 401));
+    return withCors(request, jsonRes({ ok: false, error: "missing_sub" }, 401));
   }
 
   const email = String(googleUser.email || "").trim();
@@ -73,7 +74,7 @@ export async function onRequest(context) {
       .bind(userId, email, name, picture, now, now)
       .run();
   } catch (err) {
-    return withCors(jsonRes({ ok: false, error: "db_user_failed", message: String(err?.message || "") }, 500));
+    return withCors(request, jsonRes({ ok: false, error: "db_user_failed", message: String(err?.message || "") }, 500));
   }
 
   // Create 30-day session
@@ -89,10 +90,10 @@ export async function onRequest(context) {
       .bind(sessionId, userId, now, expiresAt)
       .run();
   } catch (err) {
-    return withCors(jsonRes({ ok: false, error: "db_session_failed", message: String(err?.message || "") }, 500));
+    return withCors(request, jsonRes({ ok: false, error: "db_session_failed", message: String(err?.message || "") }, 500));
   }
 
-  const resp = withCors(
+  const resp = withCors(request,
     jsonRes({ ok: true, user: { id: userId, email, name, picture } })
   );
   resp.headers.set(
@@ -117,16 +118,8 @@ function jsonRes(data, status = 200) {
   });
 }
 
-function corsHeaders() {
-  return {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "POST, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type"
-  };
-}
-
-function withCors(response) {
-  for (const [k, v] of Object.entries(corsHeaders())) {
+function withCors(request, response) {
+  for (const [k, v] of Object.entries(corsHeaders(request))) {
     response.headers.set(k, v);
   }
   return response;
