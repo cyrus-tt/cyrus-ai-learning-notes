@@ -6,6 +6,18 @@
 
 ---
 
+## 2026-05-21 · XHS 推广准备：分析脚本 + Hero 中文化 + 首访引导 (pending)
+**背景**：三天后小红书推广，网站需要数据追踪和中文化体验优化。21 个 HTML 文件注入脚本，首页 Hero 中文化，关于页 polish。
+- [ ] 打开首页 → Hero 标题显示"AI 实践手册." + 新副标题"非技术出身，用 AI 把想法变成产品"
+- [ ] 首页 Hero 下方有"这里有什么"区块（📐 教程 / 🧪 Playground / 📡 资讯 / 📓 TIL & 周报）
+- [ ] 打开关于页 → 小红书链接橙色高亮 + 有"§ 推荐内容"区块（3 条链接）
+- [ ] 查看任意页面源码 → 包含 `cloudflareinsights` beacon 脚本
+- [ ] 查看任意页面源码 → 包含 `utm-tracker.js` 脚本
+- [ ] 访问 `?utm_source=test` → 浏览器 Console 跑 `JSON.parse(localStorage.getItem('cy_utm'))` 有记录
+- [ ] 手机宽度（375px）下首页 3 个 CTA 按钮不溢出
+
+---
+
 ## 2026-05-21 · 安全加固 + 性能优化 + CSS 清理 (pending)
 **背景**：项目审计发现安全漏洞（CORS 全开、auth fail-open、无速率限制）、性能问题（script 同步加载）、CSS 遗留变量。本次修复 33 个文件。
 
