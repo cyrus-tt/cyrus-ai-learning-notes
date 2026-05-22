@@ -1,0 +1,1178 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="view-transition" content="same-origin" />
+    <title>OpenClaw 完全上手指南：从安装到 24 小时自动化 | 实验室 · Cyrus的AI学习笔记</title>
+    <meta
+      name="description"
+      content="OpenClaw 开源 AI Agent 从零上手教程。涵盖安装配置、Telegram 接入、人格定制、Skill 管理、定时任务和多 Agent 协作，一篇搞定从装完到跑起来的全流程。"
+    />
+    <meta
+      name="keywords"
+      content="OpenClaw,AI Agent,开源AI,Telegram Bot,SOUL.md,Skills,定时任务,多Agent,自动化,教程"
+    />
+    <meta name="theme-color" content="#f2f4f7" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://cyrustyj.xyz/field-notes/openclaw-ultimate-guide/" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+    <meta property="og:title" content="OpenClaw 完全上手指南：从安装到 24 小时自动化 | 实验室" />
+    <meta
+      property="og:description"
+      content="OpenClaw 开源 AI Agent 从零上手教程。涵盖安装配置、Telegram 接入、人格定制、Skill 管理、定时任务和多 Agent 协作。"
+    />
+    <meta property="og:url" content="https://cyrustyj.xyz/field-notes/openclaw-ultimate-guide/" />
+    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="article:published_time" content="2026-05-22T00:00:00+08:00" />
+    <meta property="article:author" content="Cyrus" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="OpenClaw 完全上手指南：从安装到 24 小时自动化" />
+    <meta name="twitter:description" content="OpenClaw 开源 AI Agent 从零上手教程。安装、配置、Skill 管理、定时任务、多 Agent 协作全流程。" />
+    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.png" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- Structured Data: HowTo -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "OpenClaw 完全上手指南：从安装到 24 小时自动化",
+        "description": "OpenClaw 开源 AI Agent 从零上手教程，涵盖安装配置、Telegram 接入、人格定制、Skill 管理、定时任务和多 Agent 协作",
+        "step": [
+          {"@type": "HowToStep", "name": "环境安装", "text": "安装 Node.js 和 OpenClaw CLI，支持 macOS、Linux 和 Windows WSL"},
+          {"@type": "HowToStep", "name": "初始化配置", "text": "运行 onboard 向导，选择模型、通讯频道和基础设置"},
+          {"@type": "HowToStep", "name": "接入 Telegram Bot", "text": "通过 BotFather 创建 Bot 并配置 Token 到 OpenClaw"},
+          {"@type": "HowToStep", "name": "定制人格与记忆", "text": "编写 SOUL.md 人格文件，录入身份信息，配置记忆系统"},
+          {"@type": "HowToStep", "name": "安装核心 Skills", "text": "从 ClawHub 安装 7 个必备 Skill，覆盖搜索、办公、自我优化等场景"},
+          {"@type": "HowToStep", "name": "配置定时任务与多 Agent", "text": "设置 cron 定时任务，组建多 Agent 协作团队"}
+        ],
+        "author": {"@type": "Person", "name": "Cyrus", "url": "https://cyrustyj.xyz/about.html"},
+        "datePublished": "2026-05-22",
+        "dateModified": "2026-05-22",
+        "inLanguage": "zh-CN"
+      }
+    </script>
+
+    <!-- Structured Data: FAQPage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "OpenClaw 和 ChatGPT 有什么区别？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ChatGPT 是聊天机器人，只能建议你做什么；OpenClaw 是 AI Agent，能直接帮你执行任务。OpenClaw 有永久记忆、本地数据存储、多平台接入（Telegram/飞书/Discord 等）和 3000+ Skills 扩展能力。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "OpenClaw 支持哪些 AI 模型？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "支持 Claude、GPT、Gemini 以及国产模型。推荐使用 Claude Sonnet 或 GPT 系列获得最佳效果。通过 API Key 配置即可切换模型。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Skills 安装网络超时怎么办？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "国内用户可配置镜像源：openclaw config set plugins.registry https://registry.npmmirror.com/openclaw-plugins，然后重新安装。也可以检查代理配置是否正确。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "多 Agent 应该按什么标准拆分？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "按上下文拆分，不按职责拆分。当两个任务需要独立记忆且上下文互不干扰时才拆成两个 Agent。如果只是工具或输出格式不同、上下文相同，用一个 Agent 加不同 Skill 解决。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "OpenClaw 的数据安全吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "OpenClaw 所有数据默认存储在本地，隐私可控。建议初期使用沙盒模式限制权限，不在配置文件中存明文密码，定期运行 openclaw security audit 做安全审计。"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Structured Data: BreadcrumbList -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://cyrustyj.xyz/"},
+          {"@type": "ListItem", "position": 2, "name": "实验室", "item": "https://cyrustyj.xyz/field-notes/"},
+          {"@type": "ListItem", "position": 3, "name": "OpenClaw 完全上手指南"}
+        ]
+      }
+    </script>
+
+    <style>
+      /* ─── Article Body ─────────────────────────────────────────────── */
+      .article-body {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 0 0 48px;
+        font-size: 16px;
+        line-height: 1.85;
+        color: var(--ink);
+      }
+
+      .article-body > p {
+        margin: 0 0 18px;
+      }
+
+      .article-body > p:first-child {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        line-height: 1.9;
+        color: var(--muted);
+        border-left: 3px solid var(--accent);
+        padding-left: 18px;
+        margin-bottom: 32px;
+      }
+
+      .article-body h2 {
+        font-family: var(--font-sans);
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -.02em;
+        margin: 48px 0 18px;
+        padding-bottom: 10px;
+        border-bottom: 1.5px solid var(--line);
+      }
+
+      .article-body h3 {
+        font-family: var(--font-sans);
+        font-size: 20px;
+        font-weight: 600;
+        margin: 32px 0 12px;
+        color: var(--ink);
+      }
+
+      .article-body strong {
+        font-weight: 600;
+      }
+
+      .article-body ul,
+      .article-body ol {
+        padding-left: 24px;
+        margin: 0 0 18px;
+      }
+
+      .article-body li {
+        margin-bottom: 8px;
+      }
+
+      .article-body a {
+        color: var(--accent);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
+      .article-body a:hover {
+        color: var(--ink);
+      }
+
+      /* Code: inline */
+      .article-body code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--bg-2);
+        border: 1px solid var(--line-soft);
+        border-radius: 4px;
+        padding: 2px 6px;
+        word-break: break-word;
+      }
+
+      /* Code: blocks */
+      .article-body pre {
+        background: var(--term-bg);
+        color: var(--term-fg);
+        font-family: var(--font-mono);
+        font-size: 13.5px;
+        line-height: 1.7;
+        border-radius: 12px;
+        padding: 20px 22px;
+        overflow-x: auto;
+        margin: 18px 0 24px;
+        position: relative;
+      }
+
+      .article-body pre code {
+        background: none;
+        border: none;
+        padding: 0;
+        font-size: inherit;
+        color: inherit;
+      }
+
+      .article-body pre .code-label {
+        display: block;
+        font-size: 10.5px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--term-muted);
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(255,255,255,.08);
+      }
+
+      .article-body pre .term-dots {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 12px;
+      }
+
+      .article-body pre .term-dots span {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--term-muted);
+        opacity: .45;
+      }
+
+      /* Tip box */
+      .tip-box {
+        background: color-mix(in srgb, var(--ok) 8%, var(--bg));
+        border: 1px solid color-mix(in srgb, var(--ok) 25%, var(--line-soft));
+        border-left: 4px solid var(--ok);
+        border-radius: 0 10px 10px 0;
+        padding: 16px 20px;
+        margin: 20px 0 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      .tip-box::before {
+        content: "TIP";
+        display: block;
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .22em;
+        font-weight: 600;
+        color: var(--ok);
+        margin-bottom: 6px;
+      }
+
+      /* Pitfall box */
+      .pitfall-box {
+        background: color-mix(in srgb, var(--accent) 6%, var(--bg));
+        border: 1px solid color-mix(in srgb, var(--accent) 20%, var(--line-soft));
+        border-left: 4px solid var(--accent);
+        border-radius: 0 10px 10px 0;
+        padding: 16px 20px;
+        margin: 20px 0 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      .pitfall-box::before {
+        content: "PITFALL";
+        display: block;
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .22em;
+        font-weight: 600;
+        color: var(--accent);
+        margin-bottom: 6px;
+      }
+
+      /* Article meta line */
+      .article-meta {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        font-family: var(--font-mono);
+        font-size: 12px;
+        letter-spacing: .06em;
+        color: var(--muted);
+        margin-top: 14px;
+      }
+
+      /* Comparison table */
+      .article-body table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 18px 0 24px;
+        font-size: 14.5px;
+      }
+
+      .article-body th,
+      .article-body td {
+        text-align: left;
+        padding: 10px 14px;
+        border: 1px solid var(--line-soft);
+      }
+
+      .article-body th {
+        background: var(--bg-2);
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: .04em;
+      }
+
+      .article-body td {
+        vertical-align: top;
+      }
+
+      /* FAQ accordion */
+      .article-faq {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 32px 0 48px;
+        border-top: 1.5px solid var(--line);
+      }
+
+      .article-faq h2 {
+        font-family: var(--font-sans);
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0 0 24px;
+      }
+
+      .article-faq details {
+        border: 1px solid var(--line-soft);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background: var(--bg);
+        transition: box-shadow .2s;
+      }
+
+      .article-faq details[open] {
+        box-shadow: 4px 4px 0 var(--line-soft);
+      }
+
+      .article-faq summary {
+        cursor: pointer;
+        font-family: var(--font-sans);
+        font-weight: 600;
+        font-size: 15px;
+        padding: 14px 18px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+      }
+
+      .article-faq summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .article-faq summary::after {
+        content: "+";
+        font-family: var(--font-mono);
+        font-size: 18px;
+        color: var(--accent);
+        flex-shrink: 0;
+        transition: transform .2s;
+      }
+
+      .article-faq details[open] summary::after {
+        transform: rotate(45deg);
+      }
+
+      .article-faq .faq-answer {
+        padding: 0 18px 16px;
+        font-size: 14.5px;
+        line-height: 1.75;
+        color: var(--muted);
+      }
+
+      .article-faq .faq-answer code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--bg-2);
+        border: 1px solid var(--line-soft);
+        border-radius: 4px;
+        padding: 2px 6px;
+      }
+
+      /* Related / CTA */
+      .article-cta {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 0 0 48px;
+      }
+
+      .cta-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .cta-card a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1.5px solid var(--line);
+        border-radius: 14px;
+        padding: 28px 20px;
+        text-decoration: none;
+        color: var(--ink);
+        background: var(--bg);
+        transition: transform .25s, box-shadow .25s;
+      }
+
+      .cta-card a:hover {
+        transform: translateY(-4px);
+        box-shadow: 6px 6px 0 var(--line);
+      }
+
+      .cta-card a .cta-label {
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 8px;
+      }
+
+      .cta-card a .cta-title {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .cta-card a .cta-desc {
+        font-size: 13px;
+        color: var(--muted);
+        margin-top: 6px;
+      }
+
+      /* Dark mode overrides */
+      html[data-theme="dark"] .tip-box {
+        background: color-mix(in srgb, var(--ok) 10%, var(--bg));
+        border-color: color-mix(in srgb, var(--ok) 20%, var(--line-soft));
+      }
+
+      html[data-theme="dark"] .pitfall-box {
+        background: color-mix(in srgb, var(--accent) 8%, var(--bg));
+        border-color: color-mix(in srgb, var(--accent) 15%, var(--line-soft));
+      }
+
+      html[data-theme="dark"] .article-faq details {
+        background: var(--bg-2);
+        border-color: var(--line-soft);
+      }
+
+      html[data-theme="dark"] .cta-card a {
+        background: var(--bg-2);
+      }
+
+      /* Responsive */
+      @media (max-width: 960px) {
+        .cta-card {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="site-nav" data-pagefind-ignore>
+      <a href="/" class="site-nav-brand">Cyrus</a>
+      <div class="site-nav-links">
+        <a href="/">首页</a>
+        <a href="/about.html">关于</a>
+        <a href="/field-notes/" class="on">实验室</a>
+        <a href="/playground.html">Playground</a>
+        <a href="/news.html">资讯</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
+      </div>
+    </nav>
+
+    <!-- Table of Contents (desktop sidebar) -->
+    <div class="toc-sidebar" id="tocWidget"></div>
+
+    <!-- Inner content -->
+    <div class="mg-inner">
+
+      <!-- Breadcrumb -->
+      <nav class="mg-crumb">
+        <a href="/">← 首页</a>
+        <span>/ <a href="/field-notes/">Field Notes</a></span>
+        <span>/ OpenClaw 完全上手指南</span>
+      </nav>
+
+      <!-- Article hero -->
+      <section class="mg-page-hero">
+        <div class="mg-tag-row">
+          <span class="mg-tag">TUTORIAL</span>
+        </div>
+        <h1 class="mg-page-title">OpenClaw 完全上手指南<br>从安装到 <em>24 小时自动化</em></h1>
+        <div class="article-meta">
+          <time datetime="2026-05-22">2026.05.22</time>
+          <span>&middot;</span>
+          <span>约 15 分钟阅读</span>
+        </div>
+      </section>
+
+      <!-- Article body -->
+      <article class="article-body" data-pagefind-body>
+
+        <p>OpenClaw 是 2026 年最火的开源 AI Agent 项目（GitHub 68,000+ stars），但大多数人装完就落灰了。这篇教程不讲理论，只管把你从「装好了然后呢」带到「它 24 小时在帮我干活」。全程实操，踩过的坑全部标出来。</p>
+
+        <h2>OpenClaw 是什么？</h2>
+
+        <p>一句话：<strong>OpenClaw = 装在你自己电脑上、通过聊天软件随时指挥干活的 AI Agent。</strong></p>
+
+        <p>它和 ChatGPT 这类聊天机器人的核心区别：</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>传统 AI（ChatGPT 等）</th>
+              <th>OpenClaw</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>本质</strong></td>
+              <td>聊天机器人</td>
+              <td>能干活的 AI Agent</td>
+            </tr>
+            <tr>
+              <td><strong>执行力</strong></td>
+              <td>"我建议你这样做..."</td>
+              <td>直接帮你做完</td>
+            </tr>
+            <tr>
+              <td><strong>记忆</strong></td>
+              <td>每次重新开始</td>
+              <td>永久记忆，越用越懂你</td>
+            </tr>
+            <tr>
+              <td><strong>数据</strong></td>
+              <td>上传云端</td>
+              <td>本地存储，隐私可控</td>
+            </tr>
+            <tr>
+              <td><strong>通道</strong></td>
+              <td>只能在网页用</td>
+              <td>Telegram / 飞书 / Discord 等 10+ 平台</td>
+            </tr>
+            <tr>
+              <td><strong>扩展</strong></td>
+              <td>有限</td>
+              <td>3000+ Skills，无限扩展</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>1. 环境安装</h2>
+
+        <h3>系统要求</h3>
+
+        <ul>
+          <li><strong>操作系统</strong>：macOS / Linux / Windows（需 WSL）</li>
+          <li><strong>Node.js</strong>：v18 或更高</li>
+          <li><strong>AI 模型 API Key</strong>：Claude / GPT / Gemini / 国产模型均可</li>
+        </ul>
+
+        <h3>三步安装</h3>
+
+        <p><strong>第一步：安装 Node.js</strong>（Mac 用户用 Homebrew）</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>brew install nodejs
+node --version   # 确认 >= v18</code></pre>
+
+        <p><strong>第二步：安装 OpenClaw</strong></p>
+
+        <pre><code><span class="code-label">方法一：官方脚本（推荐）</span>curl -fsSL https://openclaw.ai/install.sh | bash</code></pre>
+
+        <pre><code><span class="code-label">方法二：NPM 安装</span>npm install -g openclaw</code></pre>
+
+        <pre><code><span class="code-label">方法三：Docker 安装</span>docker pull openclaw/openclaw:latest
+docker run -d --name openclaw \
+  -v ~/.openclaw:/root/.openclaw \
+  openclaw/openclaw:latest</code></pre>
+
+        <p><strong>第三步：验证</strong></p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>openclaw --version
+# 出现版本号 = 安装成功</code></pre>
+
+        <div class="tip-box">
+          强烈建议同时装好 Claude Code（<code>npm install -g @anthropic-ai/claude-code</code>）。后续 OpenClaw 出任何配置问题，都可以让 Claude Code 帮你修。
+        </div>
+
+        <h2>2. 初始化配置</h2>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>openclaw onboard --install-daemon</code></pre>
+
+        <p>进入安装向导后，按顺序操作：</p>
+
+        <ol>
+          <li>选择 <strong>QuickStart</strong> 模式</li>
+          <li>选择模型：推荐 Claude Sonnet / GPT / Gemini</li>
+          <li>选择通讯频道：Telegram（最快上手）</li>
+          <li>Skills：选 <code>no</code>，后面手动精选安装</li>
+          <li>API Key：全部选 <code>no</code>，后续单独配</li>
+          <li>Hooks：选 <code>Skip for now</code></li>
+          <li>UI 页面：选 <code>Open the Web UI</code></li>
+        </ol>
+
+        <div class="pitfall-box">
+          <strong>别在向导里一次性装完所有东西。</strong>新手最常见的错误是在 onboard 时勾选了一堆 Skills 和 API，结果哪个出了问题都不知道从哪排查。先跑通最小可用版本，再一个一个加功能。
+        </div>
+
+        <h2>3. 接入 Telegram Bot</h2>
+
+        <p>Telegram 是最快的上手通道 &mdash; 5 分钟就能跟你的 Agent 对话。</p>
+
+        <h3>创建 Bot</h3>
+
+        <ol>
+          <li>Telegram 搜索 <strong>@BotFather</strong></li>
+          <li>发送 <code>/start</code> &rarr; <code>/newbot</code></li>
+          <li>输入 Bot 显示名称（如：我的AI助理）</li>
+          <li>输入 Bot 用户名（必须以 <code>_bot</code> 结尾）</li>
+          <li><strong>保存返回的 Token</strong>（格式：<code>7691627338:AAHo9ix...</code>）</li>
+        </ol>
+
+        <h3>配置到 OpenClaw</h3>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>openclaw config set channels.telegram.botToken "YOUR_BOT_TOKEN"
+openclaw config set channels.telegram.enabled true</code></pre>
+
+        <h3>配置代理（国内用户必做）</h3>
+
+        <p>先确认 VPN 代理端口（如 Clash Verge 默认 7897）：</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span># 将代理写入 shell 配置
+echo -e '\nexport http_proxy=http://127.0.0.1:7897' >> ~/.zshrc
+echo -e 'export https_proxy=http://127.0.0.1:7897' >> ~/.zshrc
+echo -e 'export all_proxy=socks5://127.0.0.1:7897' >> ~/.zshrc
+source ~/.zshrc
+
+# 重启网关
+openclaw gateway restart</code></pre>
+
+        <div class="tip-box">
+          首次给 Bot 发消息时，终端会提示放行操作。按提示执行即可，后续不会再弹。
+        </div>
+
+        <h2>4. 身份录入：让 Agent 认识你</h2>
+
+        <p><strong>这是决定你的 Agent 是"人工智障"还是"专属助理"的关键一步。</strong>很多人装完就开问，但你连自己是谁都没告诉它，它怎么给你想要的答案？</p>
+
+        <p>直接把下面这段发给 Agent，结尾加一句「以上内容请永久记住，这是我的基本个人信息」：</p>
+
+        <pre><code><span class="code-label">身份录入模板</span>我今年 XX 岁，在 XX 城市做 XX 工作，主要负责 XX 内容。
+我平时不喜欢太正式的说话方式，你跟我沟通可以随意一点。
+我每天 XX 点上班，平时 XX 点睡觉。
+我目前在学 XX / 有 XX 习惯，相关内容麻烦多提醒我。
+我的时区是 GMT+8。</code></pre>
+
+        <p>不用一次写完，随时可以补充。今天告诉它你喜欢健身，明天告诉它你在学法语，这些它都会记下来。</p>
+
+        <h2>5. 人格定制：SOUL.md</h2>
+
+        <p>SOUL.md 是 Agent 的灵魂文件 &mdash; 人设、行为准则、工作风格全在里面。</p>
+
+        <p><strong>文件位置</strong>：<code>~/.openclaw/workspace/SOUL.md</code></p>
+
+        <pre><code><span class="code-label">SOUL.md 示例（CEO 型大总管）</span>## 核心身份
+你是我的首席 AI 助手和数字化总管。你拥有极致的执行力和第一性原理思维，
+同时管理多个任务线，从不被压垮。
+
+## 你的角色
+- 接收用户指令并拆解成优先级任务
+- 分配给正确的 Agent（如有团队成员）
+- 冲突时做最终决定
+- 向用户汇报状态和进度
+
+## 原则
+- 第一性原理思考：把一切拆解到最基本
+- 极致负责和执行速度
+- 最高标准 —— 绝不容忍平庸
+- 彻底透明和数据驱动决策
+
+## 工作风格
+说话直接、简洁、带行动力。总是给出清晰的行动计划。
+推动实现 10 倍成果，不说废话。</code></pre>
+
+        <div class="tip-box">
+          SOUL.md 写得越细，Agent 越好用。用着用着觉得哪里不对，就去改文件 &mdash; 越改越准。这不是一次性配置，是持续磨合的过程。
+        </div>
+
+        <h2>6. 记忆系统</h2>
+
+        <p>记忆是 OpenClaw 区别于普通聊天机器人的核心能力。有几种方案可选：</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>方案</th>
+              <th>特点</th>
+              <th>推荐度</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>OpenClaw 内置</td>
+              <td>默认方案，基础够用</td>
+              <td>入门首选</td>
+            </tr>
+            <tr>
+              <td>MemOS（云插件）</td>
+              <td>体验最好，有官方插件</td>
+              <td>强烈推荐</td>
+            </tr>
+            <tr>
+              <td>Mem0 / Supermemory</td>
+              <td>云服务，省心</td>
+              <td>备选</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p><strong>推荐方案：MemOS</strong> &mdash; 直接告诉你的 Agent：</p>
+
+        <pre><code><span class="code-label">发给 Agent 的安装指令</span>https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin
+帮我安装这个插件，并且将记忆功能改为用这个。
+你中间可能会改动配置文件，注意要参考 openclaw 的文档，不要把自己改崩了。</code></pre>
+
+        <p>然后去 MemOS 控制台申请密钥，填入配置即可。</p>
+
+        <p>查看已有记忆：</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span># 查看记忆文件
+cat ~/.openclaw/memory/long-term.json
+
+# 或直接问 Agent
+你记得我的哪些信息？</code></pre>
+
+        <h2>7. 必装 Skills（精选 7 个）</h2>
+
+        <p>先搞清两个概念：<strong>Skill</strong> = Agent 能干的活（搜网页、发邮件）；<strong>插件</strong> = 给 Agent 加外设（语音、皮肤）。新手先装 Skill，别碰插件。</p>
+
+        <h3>安装渠道</h3>
+
+        <table>
+          <thead>
+            <tr>
+              <th>渠道</th>
+              <th>特点</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ClawHub 官方市场</td>
+              <td>一键安装，有安全扫描，新手首选</td>
+            </tr>
+            <tr>
+              <td>GitHub 社区</td>
+              <td>200+ 开源仓库，功能更全</td>
+            </tr>
+            <tr>
+              <td>水产市场（中文）</td>
+              <td>飞书、微信、B站等中文场景</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>通用管理命令</h3>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span># 查看已装 Skills
+openclaw skills list --status ready
+
+# 安装
+npx clawhub@latest install &lt;skill-slug&gt;
+
+# 卸载 / 启用 / 禁用
+openclaw skills uninstall &lt;skill-slug&gt;
+openclaw skills enable &lt;skill-slug&gt;
+openclaw skills disable &lt;skill-slug&gt;
+
+# 检查更新
+npx skills check
+npx skills update all</code></pre>
+
+        <h3>7 个必装清单</h3>
+
+        <ol>
+          <li><strong>Capability Evolver</strong> &mdash; 分析使用习惯，自动优化 Agent 回复和干活逻辑（官方下载量第一，35000+）</li>
+          <li><strong>Self-Improving Agent</strong> &mdash; 每次干完活自己复盘，记下哪里错了、哪里能优化。和上面是黄金搭档</li>
+          <li><strong>Find Skills</strong> &mdash; "元 Skill"，帮你快速发现和安装所需技能，不用自己翻市场</li>
+          <li><strong>Tavily Search</strong> &mdash; 专为 AI 设计的搜索引擎，结果结构化、精准。每月 1000 次免费额度</li>
+          <li><strong>Multi Search Engine</strong> &mdash; 集成 17 个搜索引擎（8 国内 + 9 国际），无需 API Key</li>
+          <li><strong>Office-Automation</strong> &mdash; 日程、邮件、文档、Excel 等办公自动化</li>
+          <li><strong>Skill Creator</strong> &mdash; 让 Agent 帮你自动写新 Skill，零代码扩展能力</li>
+        </ol>
+
+        <div class="tip-box">
+          <strong>搜索选型指南：</strong>快速精准信息用 Tavily；多源对比验证用 Multi Search Engine；深度研究用 Tavily <code>--deep</code> 模式；隐私搜索用 Multi Search Engine 的 DuckDuckGo 通道。
+        </div>
+
+        <h2>8. 浏览器 + 搜索能力</h2>
+
+        <p>给 Agent 加上"眼睛"，让它能看网页和搜索信息。</p>
+
+        <h3>浏览器控制</h3>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>openclaw plugins install @openclaw/browser-control
+openclaw config set browser.enabled true
+openclaw config set browser.headless false</code></pre>
+
+        <h3>搜索能力分层</h3>
+
+        <table>
+          <thead>
+            <tr>
+              <th>层级</th>
+              <th>工具</th>
+              <th>适用场景</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>L1 快速搜索</td>
+              <td>Tavily / Exa</td>
+              <td>事实查询、单点问题</td>
+            </tr>
+            <tr>
+              <td>L2 平台抓取</td>
+              <td>Agent Reach</td>
+              <td>指定平台或 URL 的内容提取</td>
+            </tr>
+            <tr>
+              <td>L3 深度调研</td>
+              <td>Codex + websearch</td>
+              <td>多源对比，结构化报告</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p><strong>选择原则</strong>：有 URL / 指定平台 &rarr; L2 | 一句话能答 &rarr; L1 | 多源 / "帮我调研" &rarr; L3</p>
+
+        <h2>9. 定时任务：24 小时自动干活</h2>
+
+        <p>这是 OpenClaw 从"工具"变成"员工"的转折点。设置定时任务后，它不用你催就自己干活。</p>
+
+        <h3>创建每日简报</h3>
+
+        <p>直接告诉 Agent：</p>
+
+        <pre><code><span class="code-label">发给 Agent 的定时任务指令</span>我想让你每天早上 8 点给我发送一份简报，包含：
+1. 今天的天气
+2. 我的日历安排
+3. 未读邮件数量
+4. 一句励志的话</code></pre>
+
+        <h3>管理定时任务</h3>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>openclaw cron list              # 列出所有定时任务
+openclaw cron show &lt;task-id&gt;    # 查看详情
+openclaw cron disable &lt;task-id&gt; # 暂停
+openclaw cron delete &lt;task-id&gt;  # 删除</code></pre>
+
+        <h3>推荐定时任务</h3>
+
+        <ul>
+          <li>每日晨间简报（天气 + 日程 + 待办）</li>
+          <li>每周五下午自动生成周报</li>
+          <li>每天 18:00 提醒收工</li>
+          <li>竞品价格监控（每 6 小时一次）</li>
+        </ul>
+
+        <h2>10. 多 Agent 协作：组建团队</h2>
+
+        <p>当一个 Agent 不够用时，可以组建多个 Agent 分工协作。但<strong>别上来就拆，先搞清楚什么时候该拆</strong>。</p>
+
+        <h3>拆分原则</h3>
+
+        <p><strong>按上下文拆分，不按职责拆分。</strong></p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>该拆的情况</th>
+              <th>不该拆的情况</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>上下文持续积累且互不干扰</td>
+              <td>只是工具不同，上下文相同</td>
+            </tr>
+            <tr>
+              <td>需要不同的"记忆"和"专业知识"</td>
+              <td>只是输出格式不同</td>
+            </tr>
+            <tr>
+              <td>工作流程完全独立</td>
+              <td>任务间需频繁共享信息</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="pitfall-box">
+          <strong>常见错误：把流水线每一步都拆成独立 Agent。</strong>比如选题 Agent + 大纲 Agent + 写作 Agent + 配图 Agent + 发布 Agent（5 个太多了）。正确做法：内容 Agent（选题到配图，上下文连贯）+ 发布 Agent（记住各平台规则）。
+        </div>
+
+        <h3>快速决策流程</h3>
+
+        <ol>
+          <li>需要独立记忆？否 &rarr; 用现有 Agent + 新 Skill</li>
+          <li>上下文会冲突？是 &rarr; 创建新 Agent</li>
+          <li>需要频繁共享信息？是 &rarr; 合并为一个 Agent</li>
+          <li>只是工具/格式不同？是 &rarr; 用 Skill 解决</li>
+        </ol>
+
+        <h3>Telegram 多 Agent 搭建</h3>
+
+        <p><strong>Step 1</strong>：用 @BotFather 为每个 Agent 创建独立 Bot Token。</p>
+
+        <p><strong>Step 2</strong>：定义 Agent 阵容（在 OpenClaw 配置文件中）：</p>
+
+        <pre><code><span class="code-label">agents 配置示例</span>{
+  "agents": {
+    "list": [
+      { "id": "main",    "default": true, "name": "大总管",
+        "workspace": "/root/.openclaw/workspace" },
+      { "id": "dev",     "name": "开发助理",
+        "workspace": "/root/.openclaw/workspace-dev" },
+      { "id": "content", "name": "内容助理",
+        "workspace": "/root/.openclaw/workspace-content" }
+    ]
+  }
+}</code></pre>
+
+        <div class="pitfall-box">
+          <strong>workspace 一定要分开！</strong>每个 Agent 必须有自己的工作目录，记忆和文件互不干扰。共用 workspace 会导致记忆混乱。
+        </div>
+
+        <p><strong>Step 3</strong>：开启 Agent 间通信：</p>
+
+        <pre><code><span class="code-label">Agent 间通信配置</span>{
+  "tools": {
+    "agentToAgent": {
+      "enabled": true,
+      "allow": ["main", "dev", "content"]
+    }
+  }
+}</code></pre>
+
+        <p><strong>Step 4</strong>：给每个 Agent 配团队通讯录（AGENTS.md）：</p>
+
+        <pre><code><span class="code-label">AGENTS.md（每个 Agent 的 workspace 里都要放一份）</span>## 团队成员
+- **dev**（开发助理） — 代码开发、技术架构、部署
+- **content**（内容助理） — 文章、文案、内容创作
+需要协作时用 sessions_send 工具，agentId 填对应 id。</code></pre>
+
+        <p><strong>Step 5</strong>：重启网关，在群里 @ 机器人就能分配任务了。</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>openclaw gateway restart</code></pre>
+
+        <h2>11. 安全守则</h2>
+
+        <p>Agent 权限越大，风险越高。以下是必须遵守的安全实践：</p>
+
+        <ol>
+          <li><strong>初期用沙盒模式</strong>：限制文件系统、网络、Shell 访问范围</li>
+          <li><strong>不存明文密码</strong>：不在配置文件中存储敏感信息</li>
+          <li><strong>定期审查自动化规则</strong>：特别是定时任务和文件操作权限</li>
+          <li><strong>只启用需要的权限</strong>：不用的 Skill 禁用掉</li>
+          <li><strong>建议用专用设备运行</strong>：Mac Mini、旧笔记本或 VPS</li>
+        </ol>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span># 安全审计
+openclaw security audit        # 基础审计
+openclaw security audit --deep # 深度审计
+openclaw doctor                # 健康检查</code></pre>
+
+        <h2>12. 常见问题排查</h2>
+
+        <h3>API-Key invalid（模型授权失败）</h3>
+
+        <p>核对 Key 无拼写错误、无多余空格；确认密钥处于"启用"状态；确认模型提供商选择正确。</p>
+
+        <h3>Skills 安装网络超时</h3>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span># 配置国内镜像源
+openclaw config set plugins.registry https://registry.npmmirror.com/openclaw-plugins
+# 重新安装
+npx clawhub@latest install &lt;skill-slug&gt;</code></pre>
+
+        <h3>端口 18789 被占用</h3>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>lsof -i:18789           # 查找占用进程
+kill -9 &lt;PID&gt;           # 终止进程
+openclaw gateway restart # 重启</code></pre>
+
+        <h3>Skill 安装成功但 "not ready"</h3>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>openclaw skills enable &lt;skill-slug&gt;
+openclaw skills install-deps &lt;skill-slug&gt;
+openclaw gateway restart</code></pre>
+
+        <h3>服务器重启后 OpenClaw 没自动启动</h3>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>openclaw gateway enable      # 设置开机自启
+openclaw gateway is-enabled  # 验证配置
+openclaw gateway start       # 手动启动</code></pre>
+
+        <h2>总结</h2>
+
+        <p>OpenClaw 不是装完就完事的工具，是需要持续磨合的 AI 员工。但不用一开始就搞复杂玩法 &mdash; 先从最小需求开始：</p>
+
+        <ul>
+          <li><strong>今天</strong>：装好 + 接通 Telegram + 录入身份信息</li>
+          <li><strong>明天</strong>：写 SOUL.md + 装 7 个必备 Skills</li>
+          <li><strong>后天</strong>：设置第一个定时任务（每日简报）</li>
+          <li><strong>一周后</strong>：根据需要加搜索能力、办公自动化</li>
+          <li><strong>需要时</strong>：组建多 Agent 团队</li>
+        </ul>
+
+        <p>光把身份录入 + SOUL.md + 必装 Skills 搞定，你的 Agent 就已经超过 90% 的新手了。所有熟手，都是从「让它先跑起来」这一步开始的。</p>
+
+      </article>
+
+      <!-- FAQ Section -->
+      <section class="article-faq">
+        <h2>常见问题</h2>
+
+        <details>
+          <summary>OpenClaw 和 ChatGPT 有什么区别？</summary>
+          <div class="faq-answer">
+            <p>ChatGPT 是聊天机器人，只能建议你做什么；OpenClaw 是 AI Agent，能直接帮你执行任务。OpenClaw 有永久记忆、本地数据存储、多平台接入（Telegram / 飞书 / Discord 等）和 3000+ Skills 扩展能力。简单说：ChatGPT 是顾问，OpenClaw 是员工。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>OpenClaw 支持哪些 AI 模型？</summary>
+          <div class="faq-answer">
+            <p>支持 Claude、GPT、Gemini 以及国产模型。推荐使用 Claude Sonnet 或 GPT 系列获得最佳效果。通过 API Key 配置即可切换模型，甚至可以为不同 Agent 配置不同模型。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Skills 安装网络超时怎么办？</summary>
+          <div class="faq-answer">
+            <p>国内用户可配置镜像源：<code>openclaw config set plugins.registry https://registry.npmmirror.com/openclaw-plugins</code>，然后重新安装。也要检查代理配置是否正确（<code>echo $https_proxy</code> 确认有值）。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>多 Agent 应该按什么标准拆分？</summary>
+          <div class="faq-answer">
+            <p>按上下文拆分，不按职责拆分。核心判断：两个任务是否需要独立记忆、上下文是否互不干扰。如果只是工具或输出格式不同、上下文相同，用一个 Agent 加不同 Skill 就够了。过度拆分反而增加协调成本。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>OpenClaw 的数据安全吗？</summary>
+          <div class="faq-answer">
+            <p>所有数据默认存储在本地（<code>~/.openclaw/</code>），隐私可控。建议初期使用沙盒模式限制权限，不在配置文件中存明文密码，定期运行 <code>openclaw security audit</code> 做安全审计。如果在服务器上跑，为 OpenClaw 创建独立系统用户。</p>
+          </div>
+        </details>
+      </section>
+
+      <!-- Related / CTA -->
+      <section class="article-cta">
+        <div class="cta-card">
+          <a href="/field-notes/">
+            <span class="cta-label">FIELD NOTES</span>
+            <span class="cta-title">实验室</span>
+            <span class="cta-desc">更多教程、模板、复盘和工具评测</span>
+          </a>
+          <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">
+            <span class="cta-label">XIAOHONGSHU</span>
+            <span class="cta-title">小红书</span>
+            <span class="cta-desc">AI 实践、工具评测、提效方法论</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Share -->
+      <section class="share-section">
+        <h3>分享这篇文章</h3>
+        <div id="shareButtons"></div>
+      </section>
+
+      <!-- Quiz -->
+      <section class="quiz-section" id="quizSection" data-quiz='[
+        {"q":"OpenClaw 和传统 AI 聊天机器人的核心区别是什么？","opts":["界面更好看","能直接执行任务而不只是建议","模型更强","免费使用"],"answer":1,"explain":"传统 AI 只能建议你做什么，OpenClaw 是 AI Agent，能直接帮你执行任务（发邮件、写代码、操作文件等），并且有永久记忆。"},
+        {"q":"SOUL.md 文件的作用是什么？","opts":["存储 API Key","定义 Agent 的人格和行为准则","记录聊天历史","配置网络代理"],"answer":1,"explain":"SOUL.md 是 Agent 的灵魂文件，定义了人设、行为准则、工作风格等。写得越细，Agent 的表现越符合你的期望。"},
+        {"q":"多 Agent 应该按什么标准拆分？","opts":["按工具类型拆分","按输出格式拆分","按上下文拆分","按任务数量拆分"],"answer":2,"explain":"正确的拆分标准是上下文，不是职责。只有当两个任务需要独立记忆且上下文互不干扰时，才值得拆成两个 Agent。"}
+      ]'>
+      </section>
+
+    </div><!-- /.mg-inner -->
+
+    <!-- Giscus Comments -->
+    <section style="max-width:var(--max-w-wide);margin:0 auto;padding:32px 24px 48px;">
+      <div class="mg-section-rule">&sect; 评论 &middot; COMMENTS</div>
+      <script src="https://giscus.app/client.js"
+        data-repo="cyrus-tt/cyrus-ai-learning-notes"
+        data-repo-id="R_kgDORTmExg"
+        data-category="General"
+        data-category-id="DIC_kwDORTmExs4C9DRZ"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </section>
+
+    <footer class="site-footer" data-pagefind-ignore>
+      <span>&copy; 2026 Cyrus</span>
+      <span>
+        <a href="/about.html">关于</a> &middot;
+        <a href="/til/">TIL</a> &middot;
+        <a href="/weekly/">周报</a> &middot;
+        <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> &middot;
+        <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+      </span>
+    </footer>
+
+    <script defer src="/ui.js"></script>
+    <script defer src="/visit-stats.js"></script>
+    <script defer src="/js/components/copy-code.js"></script>
+    <script defer src="/js/components/toc.js"></script>
+    <script defer src="/js/components/share-buttons.js"></script>
+    <script defer src="/js/components/quiz.js"></script>
+    <script defer src="/js/components/cmd-k.js"></script>
+    <script defer src="/js/components/explain-this.js"></script>
+    <script defer src="/js/components/chat-widget.js"></script>
+    <script defer src="/js/components/utm-tracker.js"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"PLACEHOLDER"}'></script>
+  </body>
+</html>

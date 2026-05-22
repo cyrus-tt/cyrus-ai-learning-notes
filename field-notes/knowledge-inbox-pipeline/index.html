@@ -1,0 +1,1025 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="view-transition" content="same-origin" />
+    <title>碎片知识整合：从收藏夹坟场到 AI 知识收件箱 | 实验室 · Cyrus的AI学习笔记</title>
+    <meta
+      name="description"
+      content="用微信 + n8n + Ollama + Obsidian 搭建零成本全本地知识收纳管道。5 秒发链接，15 秒自动生成带摘要和标签的结构化笔记，一个周末搞定。"
+    />
+    <meta
+      name="keywords"
+      content="知识管理,碎片知识,n8n,Ollama,Obsidian,AI自动化,知识收件箱,本地AI,微信,webhook,qwen3"
+    />
+    <meta name="theme-color" content="#f2f4f7" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://cyrustyj.xyz/field-notes/knowledge-inbox-pipeline/" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+    <meta property="og:title" content="碎片知识整合：从收藏夹坟场到 AI 知识收件箱 | 实验室" />
+    <meta
+      property="og:description"
+      content="微信发链接 → n8n 抓正文 → Ollama 摘要打标 → Obsidian 自动归档。零成本、全本地、一个周末搭完。"
+    />
+    <meta property="og:url" content="https://cyrustyj.xyz/field-notes/knowledge-inbox-pipeline/" />
+    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="article:published_time" content="2026-05-22T00:00:00+08:00" />
+    <meta property="article:author" content="Cyrus" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="碎片知识整合：从收藏夹坟场到 AI 知识收件箱" />
+    <meta name="twitter:description" content="微信发链接 → 自动摘要打标 → Obsidian 归档。零成本全本地，一个周末搭完。" />
+    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.png" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- Structured Data: HowTo -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "碎片知识整合：从收藏夹坟场到 AI 知识收件箱",
+        "description": "用微信 + n8n + Ollama + Obsidian 搭建零成本全本地知识收纳管道，5 秒发链接，15 秒自动生成带摘要和标签的结构化笔记",
+        "totalTime": "PT4H",
+        "estimatedCost": {
+          "@type": "MonetaryAmount",
+          "currency": "CNY",
+          "value": "0"
+        },
+        "step": [
+          {"@type": "HowToStep", "name": "启动 n8n", "text": "用 Docker 一行命令启动 n8n 自动化平台，挂载 Obsidian Vault 目录"},
+          {"@type": "HowToStep", "name": "安装 Ollama 并拉模型", "text": "安装 Ollama 并拉取 qwen3:8b 模型，用于中文摘要和标签生成"},
+          {"@type": "HowToStep", "name": "配置微信转发插件", "text": "配置微信消息转发插件，将链接和备注自动 POST 到 n8n webhook"},
+          {"@type": "HowToStep", "name": "搭建 n8n 工作流", "text": "在 n8n 中创建单工作流：Webhook → 内容提取 → Ollama 摘要 → 写入 Obsidian"},
+          {"@type": "HowToStep", "name": "端到端测试", "text": "先用 curl 测试 webhook，再从微信发真实链接验证全链路"}
+        ],
+        "author": {"@type": "Person", "name": "Cyrus", "url": "https://cyrustyj.xyz/about.html"},
+        "datePublished": "2026-05-22",
+        "inLanguage": "zh-CN"
+      }
+    </script>
+
+    <!-- Structured Data: FAQPage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "这套系统需要公网服务器吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不需要。如果微信转发插件和 n8n 在同一台电脑上，全程走 localhost，不需要公网 IP 或域名。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "每条链接处理要多久？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "大约 15-25 秒。内容抓取 2-8 秒，Ollama 推理 8-15 秒。M1 Pro 16GB 实测，日常无感。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "8GB 内存的电脑能跑吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "能跑，但建议把模型换成 qwen3:4b 或 llama3.2:3b（2GB），8B 模型在 8GB 内存上会比较吃力。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "支持哪些平台的链接？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "大部分公开网页都可以。X/Twitter 做了专门的结构化提取，普通网页走通用 HTML 解析。微信公众号文章偶尔因反爬失败，建议附带备注作为兜底。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "可以不用微信入口吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "当然可以。n8n 的 webhook 是通用接口，你可以用 Telegram Bot、iOS 快捷指令、浏览器插件、甚至 curl 来发送链接。微信只是摩擦最低的入口之一。"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Structured Data: BreadcrumbList -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://cyrustyj.xyz/"},
+          {"@type": "ListItem", "position": 2, "name": "实验室", "item": "https://cyrustyj.xyz/field-notes/"},
+          {"@type": "ListItem", "position": 3, "name": "碎片知识整合：从收藏夹坟场到 AI 知识收件箱"}
+        ]
+      }
+    </script>
+
+    <style>
+      /* ─── Article Body ─────────────────────────────────────────────── */
+      .article-body {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 0 0 48px;
+        font-size: 16px;
+        line-height: 1.85;
+        color: var(--ink);
+      }
+
+      .article-body > p {
+        margin: 0 0 18px;
+      }
+
+      .article-body > p:first-child {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        line-height: 1.9;
+        color: var(--muted);
+        border-left: 3px solid var(--accent);
+        padding-left: 18px;
+        margin-bottom: 32px;
+      }
+
+      .article-body h2 {
+        font-family: var(--font-sans);
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -.02em;
+        margin: 48px 0 18px;
+        padding-bottom: 10px;
+        border-bottom: 1.5px solid var(--line);
+      }
+
+      .article-body h3 {
+        font-family: var(--font-sans);
+        font-size: 20px;
+        font-weight: 600;
+        margin: 32px 0 12px;
+        color: var(--ink);
+      }
+
+      .article-body strong {
+        font-weight: 600;
+      }
+
+      .article-body ul,
+      .article-body ol {
+        padding-left: 24px;
+        margin: 0 0 18px;
+      }
+
+      .article-body li {
+        margin-bottom: 8px;
+      }
+
+      .article-body a {
+        color: var(--accent);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
+      .article-body a:hover {
+        color: var(--ink);
+      }
+
+      /* Code: inline */
+      .article-body code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--bg-2);
+        border: 1px solid var(--line-soft);
+        border-radius: 4px;
+        padding: 2px 6px;
+        word-break: break-word;
+      }
+
+      /* Code: blocks */
+      .article-body pre {
+        background: var(--term-bg);
+        color: var(--term-fg);
+        font-family: var(--font-mono);
+        font-size: 13.5px;
+        line-height: 1.7;
+        border-radius: 12px;
+        padding: 20px 22px;
+        overflow-x: auto;
+        margin: 18px 0 24px;
+        position: relative;
+      }
+
+      .article-body pre code {
+        background: none;
+        border: none;
+        padding: 0;
+        font-size: inherit;
+        color: inherit;
+      }
+
+      .article-body pre .code-label {
+        display: block;
+        font-size: 10.5px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--term-muted);
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(255,255,255,.08);
+      }
+
+      .article-body pre .term-dots {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 12px;
+      }
+
+      .article-body pre .term-dots span {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--term-muted);
+        opacity: .45;
+      }
+
+      /* Tip box */
+      .tip-box {
+        background: color-mix(in srgb, var(--ok) 8%, var(--bg));
+        border: 1px solid color-mix(in srgb, var(--ok) 25%, var(--line-soft));
+        border-left: 4px solid var(--ok);
+        border-radius: 0 10px 10px 0;
+        padding: 16px 20px;
+        margin: 20px 0 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      .tip-box::before {
+        content: "TIP";
+        display: block;
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .22em;
+        font-weight: 600;
+        color: var(--ok);
+        margin-bottom: 6px;
+      }
+
+      /* Pitfall box */
+      .pitfall-box {
+        background: color-mix(in srgb, var(--accent) 6%, var(--bg));
+        border: 1px solid color-mix(in srgb, var(--accent) 20%, var(--line-soft));
+        border-left: 4px solid var(--accent);
+        border-radius: 0 10px 10px 0;
+        padding: 16px 20px;
+        margin: 20px 0 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      .pitfall-box::before {
+        content: "PITFALL";
+        display: block;
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .22em;
+        font-weight: 600;
+        color: var(--accent);
+        margin-bottom: 6px;
+      }
+
+      /* Article meta line */
+      .article-meta {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        font-family: var(--font-mono);
+        font-size: 12px;
+        letter-spacing: .06em;
+        color: var(--muted);
+        margin-top: 14px;
+      }
+
+      /* FAQ accordion */
+      .article-faq {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 32px 0 48px;
+        border-top: 1.5px solid var(--line);
+      }
+
+      .article-faq h2 {
+        font-family: var(--font-sans);
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0 0 24px;
+      }
+
+      .article-faq details {
+        border: 1px solid var(--line-soft);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background: var(--bg);
+        transition: box-shadow .2s;
+      }
+
+      .article-faq details[open] {
+        box-shadow: 4px 4px 0 var(--line-soft);
+      }
+
+      .article-faq summary {
+        cursor: pointer;
+        font-family: var(--font-sans);
+        font-weight: 600;
+        font-size: 15px;
+        padding: 14px 18px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+      }
+
+      .article-faq summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .article-faq summary::after {
+        content: "+";
+        font-family: var(--font-mono);
+        font-size: 18px;
+        color: var(--accent);
+        flex-shrink: 0;
+        transition: transform .2s;
+      }
+
+      .article-faq details[open] summary::after {
+        transform: rotate(45deg);
+      }
+
+      .article-faq .faq-answer {
+        padding: 0 18px 16px;
+        font-size: 14.5px;
+        line-height: 1.75;
+        color: var(--muted);
+      }
+
+      .article-faq .faq-answer code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--bg-2);
+        border: 1px solid var(--line-soft);
+        border-radius: 4px;
+        padding: 2px 6px;
+      }
+
+      /* Related / CTA */
+      .article-cta {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 0 0 48px;
+      }
+
+      .cta-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .cta-card a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1.5px solid var(--line);
+        border-radius: 14px;
+        padding: 28px 20px;
+        text-decoration: none;
+        color: var(--ink);
+        background: var(--bg);
+        transition: transform .25s, box-shadow .25s;
+      }
+
+      .cta-card a:hover {
+        transform: translateY(-4px);
+        box-shadow: 6px 6px 0 var(--line);
+      }
+
+      .cta-card a .cta-label {
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 8px;
+      }
+
+      .cta-card a .cta-title {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .cta-card a .cta-desc {
+        font-size: 13px;
+        color: var(--muted);
+        margin-top: 6px;
+      }
+
+      /* Pipeline diagram */
+      .pipeline-diagram {
+        border: 1.5px solid var(--line);
+        border-radius: 14px;
+        padding: 24px;
+        margin: 20px 0 28px;
+        background: var(--bg);
+      }
+
+      .pipeline-diagram pre {
+        background: none;
+        color: var(--ink);
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+        line-height: 1.8;
+        border-radius: 0;
+      }
+
+      .pipeline-diagram pre code {
+        background: none;
+        border: none;
+        padding: 0;
+        color: inherit;
+      }
+
+      /* Checklist table */
+      .checklist-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 18px 0 24px;
+        font-size: 14.5px;
+      }
+
+      .checklist-table th,
+      .checklist-table td {
+        text-align: left;
+        padding: 10px 14px;
+        border-bottom: 1px solid var(--line-soft);
+      }
+
+      .checklist-table th {
+        font-family: var(--font-mono);
+        font-size: 11px;
+        letter-spacing: .12em;
+        text-transform: uppercase;
+        color: var(--muted);
+        font-weight: 600;
+      }
+
+      .checklist-table td:last-child {
+        color: var(--ok);
+        font-weight: 600;
+      }
+
+      /* Dark mode overrides */
+      html[data-theme="dark"] .tip-box {
+        background: color-mix(in srgb, var(--ok) 10%, var(--bg));
+        border-color: color-mix(in srgb, var(--ok) 20%, var(--line-soft));
+      }
+
+      html[data-theme="dark"] .pitfall-box {
+        background: color-mix(in srgb, var(--accent) 8%, var(--bg));
+        border-color: color-mix(in srgb, var(--accent) 15%, var(--line-soft));
+      }
+
+      html[data-theme="dark"] .article-faq details {
+        background: var(--bg-2);
+        border-color: var(--line-soft);
+      }
+
+      html[data-theme="dark"] .pipeline-diagram {
+        background: var(--bg-2);
+      }
+
+      html[data-theme="dark"] .cta-card a {
+        background: var(--bg-2);
+      }
+
+      /* Responsive */
+      @media (max-width: 960px) {
+        .cta-card {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="site-nav" data-pagefind-ignore>
+      <a href="/" class="site-nav-brand">Cyrus</a>
+      <div class="site-nav-links">
+        <a href="/">首页</a>
+        <a href="/about.html">关于</a>
+        <a href="/field-notes/" class="on">实验室</a>
+        <a href="/playground.html">Playground</a>
+        <a href="/news.html">资讯</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
+      </div>
+    </nav>
+
+    <!-- Table of Contents (desktop sidebar) -->
+    <div class="toc-sidebar" id="tocWidget"></div>
+
+    <!-- Inner content -->
+    <div class="mg-inner">
+
+      <!-- Breadcrumb -->
+      <nav class="mg-crumb">
+        <a href="/">← 首页</a>
+        <span>/ <a href="/field-notes/">Field Notes</a></span>
+        <span>/ 碎片知识整合</span>
+      </nav>
+
+      <!-- Article hero -->
+      <section class="mg-page-hero">
+        <div class="mg-tag-row">
+          <span class="mg-tag">TUTORIAL</span>
+        </div>
+        <h1 class="mg-page-title">碎片知识整合<br>从收藏夹坟场到 <em>AI 知识收件箱</em></h1>
+        <div class="article-meta">
+          <time datetime="2026-05-22">2026.05.22</time>
+          <span>&middot;</span>
+          <span>约 12 分钟阅读</span>
+        </div>
+      </section>
+
+      <!-- Article body -->
+      <article class="article-body" data-pagefind-body>
+
+        <p>你的收藏夹里有多少条"稍后阅读"？100 条？500 条？那些你在通勤路上、午饭间隙、睡前刷到的好文章，收藏的瞬间你觉得很重要，三天后连标题都想不起来。问题不在于你不爱学习，而在于"收藏"和"理解"之间缺一条管道。这篇教程教你用一个周末搭起来。</p>
+
+        <h2>核心思路：30 秒版</h2>
+
+        <p>如果你只想知道这套系统是什么，一句话：</p>
+
+        <p><strong>在微信里把链接发给一个转发插件，后台自动抓正文、用本地大模型生成摘要和标签，最后写成一篇结构化笔记进入你的 Obsidian 收件箱。</strong></p>
+
+        <p>整个过程：发链接 5 秒，后台处理 15 秒，你什么都不用管。</p>
+
+        <table class="checklist-table">
+          <thead>
+            <tr>
+              <th>工具</th>
+              <th>用途</th>
+              <th>费用</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Docker Desktop</td>
+              <td>运行 n8n 容器</td>
+              <td>免费</td>
+            </tr>
+            <tr>
+              <td>n8n（自托管）</td>
+              <td>自动化编排引擎</td>
+              <td>免费</td>
+            </tr>
+            <tr>
+              <td>微信转发插件</td>
+              <td>把微信消息转成 webhook</td>
+              <td>免费</td>
+            </tr>
+            <tr>
+              <td>Ollama</td>
+              <td>本地运行大语言模型</td>
+              <td>免费</td>
+            </tr>
+            <tr>
+              <td>Obsidian</td>
+              <td>知识库，收纳最终笔记</td>
+              <td>免费</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p><strong>总月费：0 元。数据全程不出你的电脑。</strong></p>
+
+        <h2>架构总览</h2>
+
+        <p>数据怎么从你的手机跑到 Obsidian 里：</p>
+
+        <div class="pipeline-diagram">
+          <pre><code>手机上看到好内容 → 复制链接 → 发给微信转发插件
+                                    |
+                                    v
+              n8n Webhook (POST /knowledge-inbox)
+                                    |
+                                    v
+                  Normalize Input -- 提取 URL + 备注
+                                    |
+                                    v
+                  Fetch Content -- X 走结构化接口
+                                   其他走通用 HTML 提取
+                                    |
+                                    v
+                  Ollama qwen3:8b -- 摘要 + 标签 + 分类
+                                    |
+                                    v
+                  Build Markdown → Write to Obsidian/Inbox/</code></pre>
+        </div>
+
+        <p>一共 6 个节点，单工作流，没有分叉。下面逐步搭建。</p>
+
+        <h2>Step 1 &mdash; 启动 n8n</h2>
+
+        <p>n8n 是一个开源的自动化编排工具，你可以把它理解成免费版的 Zapier，但跑在你自己的电脑上。我们用 Docker 启动它。</p>
+
+        <h3>安装 Docker</h3>
+
+        <p>如果没装过，去 <a href="https://www.docker.com/products/docker-desktop/" target="_blank" rel="noopener">Docker 官网</a> 下载 Docker Desktop。Mac / Windows / Linux 都支持。</p>
+
+        <h3>一行命令启动</h3>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>docker run -d --name n8n \
+  -p 5678:5678 \
+  -v n8n_data:/home/node/.n8n \
+  -v /path/to/your/obsidian/vault/Inbox:/files/inbox \
+  -e N8N_RESTRICT_FILE_ACCESS_TO="/files/inbox" \
+  -e N8N_BLOCK_ENV_ACCESS_IN_NODE=false \
+  --restart unless-stopped \
+  n8nio/n8n</code></pre>
+
+        <p>你需要改的只有一个地方：把 <code>/path/to/your/obsidian/vault/Inbox</code> 换成你自己的 Obsidian Vault 下的 Inbox 目录绝对路径。</p>
+
+        <p>关键参数解释：</p>
+
+        <ul>
+          <li><code>-v n8n_data:/home/node/.n8n</code> &mdash; 数据持久化，Docker 重启后 workflow 还在</li>
+          <li><code>-v ...:/files/inbox</code> &mdash; 把 Obsidian Inbox 挂进容器，n8n 才能往里写文件</li>
+          <li><code>N8N_RESTRICT_FILE_ACCESS_TO</code> &mdash; 安全限制，只允许写 Inbox 目录</li>
+          <li><code>--restart unless-stopped</code> &mdash; 系统重启后 n8n 自动恢复</li>
+        </ul>
+
+        <p>启动后访问 <code>http://localhost:5678</code>，看到 n8n 界面就说明成功了。</p>
+
+        <h2>Step 2 &mdash; 安装 Ollama</h2>
+
+        <p>Ollama 让你在本地跑大语言模型，不需要 API key，不花钱。</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span># Mac 用 Homebrew
+brew install ollama
+
+# 或者去 ollama.com 下载安装包
+# 然后拉取中文模型
+ollama pull qwen3:8b</code></pre>
+
+        <p>拉完大约 5GB。验证一下：</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>curl http://localhost:11434/api/tags</code></pre>
+
+        <p>能返回包含 <code>qwen3:8b</code> 的 JSON 就说明就绪。</p>
+
+        <div class="tip-box">
+          <strong>为什么选 qwen3:8b？</strong>三个原因：(1) 同尺寸开源模型里中文能力最强；(2) 16GB 内存跑得很顺，单次摘要 3-8 秒；(3) 对"只输出 JSON"的指令遵从度好，减少解析出错。8GB 内存用户建议换 <code>llama3.2:3b</code>（2GB，速度更快，中文稍弱）。
+        </div>
+
+        <h2>Step 3 &mdash; 配置微信转发</h2>
+
+        <p>这一步的目标：让你在微信里发的链接自动变成一个 HTTP POST 请求打到 n8n。</p>
+
+        <p>核心配置只有三个字段：</p>
+
+        <pre><code><span class="code-label">微信转发插件配置（最小可用版）</span>{
+  "knowledgeInbox": {
+    "enabled": true,
+    "webhookUrl": "http://localhost:5678/webhook/knowledge-inbox",
+    "successReply": true
+  }
+}</code></pre>
+
+        <ul>
+          <li><code>enabled</code> &mdash; 开启知识收纳直连模式</li>
+          <li><code>webhookUrl</code> &mdash; 收到消息后 POST 到这个地址</li>
+          <li><code>successReply</code> &mdash; 处理成功后微信端收到确认回复</li>
+        </ul>
+
+        <p>插件会自动做两件事：从消息里提取<strong>第一个 URL</strong>，剩余文本作为<strong>备注</strong>。所以你在微信里发这种格式就够了：</p>
+
+        <pre><code>https://example.com/article 这篇关于 Agent 编排的文章值得细读</code></pre>
+
+        <div class="tip-box">
+          <strong>备注很重要。</strong>你发链接时顺手写的那句感受会一起进入笔记。三个月后回头看，那句"当下感受"比 AI 摘要更有价值 &mdash; 因为它记录的是你的思考，不是文章的内容。
+        </div>
+
+        <div class="pitfall-box">
+          <strong>不用微信也行。</strong>n8n 的 webhook 是通用接口。你可以用 Telegram Bot、iOS 快捷指令、浏览器扩展、甚至 <code>curl</code> 来发送链接。微信转发插件只是对中文用户摩擦最低的方案。
+        </div>
+
+        <h2>Step 4 &mdash; 搭建 n8n 工作流</h2>
+
+        <p>回到 n8n 界面，创建一个新 workflow。整条链路是 6 个节点串联：</p>
+
+        <h3>4.1 Webhook 节点</h3>
+
+        <p>添加一个 Webhook 节点，Method 选 <code>POST</code>，Path 填 <code>knowledge-inbox</code>。这就是你的入口 URL：<code>http://localhost:5678/webhook/knowledge-inbox</code>。</p>
+
+        <h3>4.2 Normalize Input</h3>
+
+        <p>用一个 Code 节点统一解析输入。不管消息是从 query 还是 body 传来的，都提取出四个字段：<code>url</code>、<code>note</code>、<code>author</code>、<code>source</code>。</p>
+
+        <h3>4.3 Fetch Content</h3>
+
+        <p>这是最容易翻车的环节。我的策略是<strong>分平台处理</strong>：</p>
+
+        <ul>
+          <li><strong>X / Twitter</strong> &mdash; 走结构化接口提取，避免抓到登录页或 JS 降级页面</li>
+          <li><strong>其他网页</strong> &mdash; 走通用 HTML 提取：先去掉 <code>script / style / noscript</code> 噪音，再从 <code>og:title</code>、<code>h1</code>、<code>article</code> 标签中提取标题和正文</li>
+        </ul>
+
+        <p>如果不做这一步处理，你会遇到：标题变成一大串 CSS、正文只有 "JavaScript 不可用"、写进 Inbox 的笔记根本不能看。</p>
+
+        <div class="pitfall-box">
+          <strong>微信公众号文章偶尔会失败。</strong>部分公众号对非微信浏览器返回空白页。目前的 workaround 是在 fetch 失败时标记为 <code>fetch_failed</code>，备注里的内容仍然会写入笔记。养成发链接时附一句备注的习惯，就是最好的兜底。
+        </div>
+
+        <h3>4.4 Prepare Prompt + Ollama 摘要</h3>
+
+        <p>把标题、正文、备注、来源拼成一段 prompt，发给本地 Ollama：</p>
+
+        <pre><code><span class="code-label">Ollama HTTP Request 配置要点</span>Method: POST
+URL:    http://host.docker.internal:11434/api/chat
+Body:   {
+  "model": "qwen3:8b",
+  "messages": [
+    {"role": "system", "content": "你是知识整理助手。只输出严格 JSON。"},
+    {"role": "user",   "content": "输出 summary/tags/category..."}
+  ],
+  "stream": false
+}</code></pre>
+
+        <p>要求 Ollama 输出三个字段：</p>
+
+        <ul>
+          <li><code>summary</code> &mdash; 一句话中文摘要</li>
+          <li><code>tags</code> &mdash; 5-10 个标签，数组格式</li>
+          <li><code>category</code> &mdash; 从预设分类中选一个（AI 技术、产品思维、技术实操等）</li>
+        </ul>
+
+        <div class="tip-box">
+          <strong>为什么用 <code>host.docker.internal</code>？</strong>因为 n8n 跑在 Docker 容器里，容器内的 <code>localhost</code> 是容器自己，不是你的 Mac。<code>host.docker.internal</code> 是 Docker Desktop 提供的特殊域名，指向宿主机。
+        </div>
+
+        <p><strong>JSON 解析一定要做 fallback。</strong>LLM 不保证输出完美的 JSON &mdash; 有时候会多一层 markdown 代码块包装，有时候会夹杂解释文字。做三层防御：去掉 <code>```json</code> 包装 &rarr; 正则提取 <code>{...}</code> &rarr; 解析失败用默认值兜底。让管道在 LLM 犯错时也能继续运行。</p>
+
+        <h3>4.5 Build Markdown + Write</h3>
+
+        <p>把所有信息拼成一篇 Obsidian 友好的 Markdown：</p>
+
+        <pre><code><span class="code-label">生成的笔记格式</span>---
+title: "文章标题"
+date: 2026-05-22T10:30:00.000Z
+type: article
+category: AI技术
+tags:
+  - Agent
+  - 编排框架
+  - 自动化
+source: "https://..."
+status: inbox
+---
+
+> **摘要**: AI 生成的一句话摘要
+
+## 我的备注
+你发链接时写的那句话
+
+## 原文内容
+（提取后的完整正文）
+
+---
+原文链接: https://...</code></pre>
+
+        <p>最后用 n8n 的 Write File 节点写入 <code>/files/inbox/</code>（映射到你本地的 Obsidian Inbox）。文件名格式 <code>标题-时间戳.md</code>，保证不重名。</p>
+
+        <h2>Step 5 &mdash; 端到端测试</h2>
+
+        <p><strong>不要一上来就从手机测。</strong>先用 <code>curl</code> 打 webhook，排除网络问题：</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span>curl -X POST http://localhost:5678/webhook/knowledge-inbox \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "url": "https://example.com",
+    "note": "第一条 smoke test",
+    "author": "test",
+    "source": "curl"
+  }'</code></pre>
+
+        <p>成功的返回：</p>
+
+        <pre><code><span class="code-label">预期响应</span>{
+  "ok": true,
+  "title": "Example Domain",
+  "category": "未分类",
+  "noteFileName": "Example Domain-20260522-xxxxxx.md"
+}</code></pre>
+
+        <p>然后打开 Obsidian，在 Inbox 里看到新笔记，说明主链路已通。再从微信发真实链接验证完整流程。</p>
+
+        <div class="pitfall-box">
+          <strong>分步调试的正确顺序：</strong>先跑通 Webhook &rarr; Fetch &rarr; Write（不加 Ollama），确认能拿到正文并写成文件。然后再加 Ollama 节点。一口气搭完出了问题根本不知道哪个环节坏了。
+        </div>
+
+        <h2>生成的笔记能做什么</h2>
+
+        <p>跑通之后，你拿到的不再是收藏夹里一个死链接，而是一篇：</p>
+
+        <ul>
+          <li><strong>可以搜索</strong> &mdash; Obsidian 全文检索，tag 过滤</li>
+          <li><strong>可以继续提问</strong> &mdash; 打开笔记用 AI 助手深入讨论</li>
+          <li><strong>可以追加思考</strong> &mdash; 你的备注 + AI 摘要 + 原文三层信息</li>
+          <li><strong>可以聚合管理</strong> &mdash; Dataview 插件按 category / tag / date 汇总</li>
+        </ul>
+
+        <p>完整的知识流动应该是这样的：</p>
+
+        <div class="pipeline-diagram">
+          <pre><code>白天刷到内容：
+  看到链接 → 发给微信转发插件（5 秒）
+
+后台自动处理：
+  转发插件 → n8n 提取正文 → Ollama 摘要打标 → 写入 Inbox
+
+晚上深度工作：
+  打开 Obsidian → 看摘要决定是否深读 → AI 助手继续沉淀</code></pre>
+        </div>
+
+        <p><strong>第一层是自动收纳，第二层是主动理解。</strong>这套系统解决的是第一层 &mdash; 让碎片输入不再丢失。第二层需要你自己来，但至少素材已经整整齐齐地等着你了。</p>
+
+        <h2>进阶方向</h2>
+
+        <p>主链路跑通之后，可以按需扩展：</p>
+
+        <ul>
+          <li><strong>图片归档</strong> &mdash; 在 Fetch 阶段提取图片 URL，写成 Markdown 图片引用。更进一步可以下载到本地 <code>assets/</code> 目录，实现真正离线可用</li>
+          <li><strong>去重</strong> &mdash; 在 Normalize 阶段检查 URL 是否已存在，避免重复入库</li>
+          <li><strong>周刊汇总</strong> &mdash; 新增一个定时工作流，每周聚合 Inbox 中的笔记生成周报</li>
+          <li><strong>多入口</strong> &mdash; 同时接 Telegram Bot、iOS 快捷指令、浏览器扩展</li>
+        </ul>
+
+        <p>但建议：<strong>先把文本版跑稳，再加功能。</strong>一个能稳定运行的最小系统，比一个功能很多但经常坏的系统有用得多。</p>
+
+        <h2>总结</h2>
+
+        <ul>
+          <li>核心链路 6 个节点：Webhook &rarr; Normalize &rarr; Fetch &rarr; Prompt &rarr; Ollama &rarr; Write</li>
+          <li>技术栈：Docker + n8n + Ollama qwen3:8b + Obsidian，全部免费</li>
+          <li>从发链接到笔记入库，15-25 秒，数据全程不出本地</li>
+          <li>关键设计：分平台抓取策略 + JSON 三层解析防御 + fallback 兜底</li>
+          <li>一个周末可以搭完并跑通，先跑最小版本，再按需扩展</li>
+        </ul>
+
+        <p>收藏夹坟场的问题不在于你收藏得太多，而在于收藏之后没有下一步。这条管道就是那个"下一步" &mdash; 自动的、免费的、完全属于你自己的。</p>
+
+      </article>
+
+      <!-- FAQ Section -->
+      <section class="article-faq">
+        <h2>常见问题</h2>
+
+        <details>
+          <summary>这套系统需要公网服务器吗？</summary>
+          <div class="faq-answer">
+            <p>不需要。如果微信转发插件和 n8n 跑在同一台电脑上，全程走 <code>localhost</code>，不需要公网 IP、域名或 HTTPS 证书。</p>
+            <p>只有一种情况需要公网：转发插件和 n8n 不在同一台机器上。这时候把 <code>webhookUrl</code> 改成局域网 IP 或公网地址即可。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>每条链接处理要多久？</summary>
+          <div class="faq-answer">
+            <p>大约 15-25 秒。其中内容抓取 2-8 秒，Ollama 推理 8-15 秒。在 M1 Pro 16GB 上实测，日常使用基本无感 &mdash; 你发完链接继续刷手机，过一会儿 Obsidian 里就多了一篇笔记。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>8GB 内存的电脑能跑吗？</summary>
+          <div class="faq-answer">
+            <p>能跑，但模型要换小的。建议用 <code>llama3.2:3b</code>（约 2GB）或 <code>qwen3:4b</code>，速度更快但中文摘要质量会下降一些。16GB 及以上放心用 <code>qwen3:8b</code>。32GB 可以试 <code>qwen3:14b</code>，质量更好但慢一些。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>支持哪些平台的链接？</summary>
+          <div class="faq-answer">
+            <p>大部分公开网页都支持。X / Twitter 做了专门的结构化提取。普通网页走通用 HTML 解析，覆盖面很广。</p>
+            <p>已知的限制：微信公众号文章偶尔因反爬机制失败，部分需要登录的页面无法抓取。遇到这种情况，备注里的内容仍然会写入笔记 &mdash; 所以养成发链接时附备注的习惯，就是最好的兜底策略。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>可以不用微信入口吗？</summary>
+          <div class="faq-answer">
+            <p>当然可以。n8n 的 webhook 是通用 HTTP 接口，什么都能往里 POST。常见替代方案：</p>
+            <p><strong>Telegram Bot</strong> &mdash; 最干净的方案，n8n 原生支持 Telegram trigger。<strong>iOS 快捷指令</strong> &mdash; 在任意 app 里「分享 &rarr; 快捷指令」发到 webhook。<strong>浏览器扩展</strong> &mdash; 一键发送当前页面。<strong>命令行 curl</strong> &mdash; 适合开发者快速测试。</p>
+          </div>
+        </details>
+      </section>
+
+      <!-- Related / CTA -->
+      <section class="article-cta">
+        <div class="cta-card">
+          <a href="/field-notes/n8n-ollama-local-pipeline/">
+            <span class="cta-label">RELATED</span>
+            <span class="cta-title">n8n + Ollama 本地 AI 知识管道</span>
+            <span class="cta-desc">更深入的技术实现细节和代码示例</span>
+          </a>
+          <a href="/field-notes/">
+            <span class="cta-label">FIELD NOTES</span>
+            <span class="cta-title">实验室</span>
+            <span class="cta-desc">更多教程、模板、复盘和工具评测</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Share -->
+      <section class="share-section">
+        <h3>分享这篇文章</h3>
+        <div id="shareButtons"></div>
+      </section>
+
+      <!-- Quiz -->
+      <section class="quiz-section" id="quizSection" data-quiz='[
+        {"q":"这套知识管道的月运行成本是多少？","opts":["$8.99","$10","0 元","取决于用量"],"answer":2,"explain":"全部工具（Docker、n8n、Ollama、Obsidian）都是免费自托管的，数据全程不出本地，没有任何 API 费用。"},
+        {"q":"为什么推荐分步调试而不是一口气搭完？","opts":["分步更快","方便截图","出错时能定位是哪个节点的问题","没有区别"],"answer":2,"explain":"先跑通 Webhook → Fetch → Write（不加 Ollama），确认能拿到正文再加 LLM 节点。一口气搭完出了问题，你不知道是抓取坏了还是模型坏了。"},
+        {"q":"发链接时附备注的最大价值是什么？","opts":["让 AI 摘要更准","记录你当下的思考和感受","增加标签数量","提高处理速度"],"answer":1,"explain":"AI 摘要记录的是文章内容，而你的备注记录的是你当时为什么觉得这篇文章重要。三个月后回看，后者往往比前者更有价值。"}
+      ]'>
+      </section>
+
+    </div><!-- /.mg-inner -->
+
+    <!-- Giscus Comments -->
+    <section style="max-width:var(--max-w-wide);margin:0 auto;padding:32px 24px 48px;">
+      <div class="mg-section-rule">&sect; 评论 &middot; COMMENTS</div>
+      <script src="https://giscus.app/client.js"
+        data-repo="cyrus-tt/cyrus-ai-learning-notes"
+        data-repo-id="R_kgDORTmExg"
+        data-category="General"
+        data-category-id="DIC_kwDORTmExs4C9DRZ"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </section>
+
+    <footer class="site-footer" data-pagefind-ignore>
+      <span>&copy; 2026 Cyrus</span>
+      <span>
+        <a href="/about.html">关于</a> &middot;
+        <a href="/til/">TIL</a> &middot;
+        <a href="/weekly/">周报</a> &middot;
+        <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> &middot;
+        <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+      </span>
+    </footer>
+
+    <script defer src="/ui.js"></script>
+    <script defer src="/visit-stats.js"></script>
+    <script defer src="/js/components/copy-code.js"></script>
+    <script defer src="/js/components/toc.js"></script>
+    <script defer src="/js/components/share-buttons.js"></script>
+    <script defer src="/js/components/quiz.js"></script>
+    <script defer src="/js/components/cmd-k.js"></script>
+    <script defer src="/js/components/explain-this.js"></script>
+    <script defer src="/js/components/chat-widget.js"></script>
+    <script defer src="/js/components/utm-tracker.js"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"PLACEHOLDER"}'></script>
+  </body>
+</html>

@@ -123,6 +123,7 @@
       { title: "Claude Code Skill 完全指南", url: "/field-notes/claude-code-skills-guide/", keys: "claude code skill 技能" },
       { title: "n8n + Ollama 本地 AI 管道", url: "/field-notes/n8n-ollama-local-pipeline/", keys: "n8n ollama 管道 本地" },
       { title: "Cloudflare Pages 零成本建站", url: "/field-notes/cloudflare-pages-guide/", keys: "cloudflare pages 建站" },
+      { title: "碎片知识整合：AI 知识收件箱", url: "/field-notes/knowledge-inbox-pipeline/", keys: "知识 碎片 收藏 inbox obsidian 收件箱 knowledge" },
       { title: "TIL · Today I Learned", url: "/til/", keys: "til today learned 学到" },
       { title: "周报 · Cyrus Weekly", url: "/weekly/", keys: "weekly 周报" },
     ];

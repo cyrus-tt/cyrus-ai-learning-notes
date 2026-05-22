@@ -22,7 +22,22 @@
     {
       "title": "Cloudflare Pages 零成本建站完全指南",
       "summary": "从零开始用 Cloudflare Pages 搭建永久免费的个人网站：自定义域名、Serverless API、D1 数据库、GitHub Actions 自动部署，全部 $0。这是一篇来自实践的完整教程。",
-      "content": "我用 Cloudflare Pages 搭了这整个站——新闻聚合、API 端点、数据库、自定义域名——总成本 $0。不是「免费试用期 $0」，是真正的、永久的、$0。\n\n为什么选 Cloudflare Pages：真正无限带宽——没有带宽上限；全球 CDN——Cloudflare 在全球 300+ 节点；Pages Functions——在 functions/ 目录下写 JS 文件就能创建 Serverless API；D1 数据库——Serverless SQLite，免费 5GB 存储；500 次构建/月；自定义域名 + 自动 SSL——免费。\n\n对比：GitHub Pages 纯静态托管，没有 Functions，没有数据库，带宽限 100GB/月；Vercel 免费版有 Functions 但带宽限 100GB/月；Cloudflare Pages 无限带宽 + Functions + D1 数据库，免费版对个人站几乎没有实质限制。\n\n整个流程：GitHub 仓库放 HTML/CSS/JS 文件 → Cloudflare Pages 连接仓库自动部署 → 绑定自定义域名 → functions/ 目录写 JS = Serverless API → D1 数据库通过 env.DB 使用 → GitHub Actions 定时更新数据 + 自动部署。对个人站来说，这套组合基本是目前能找到的最优免费方案。"
+      "content": "我用 Cloudflare Pages 搭了这整个站——新闻聚合、API 端点、数据库、自定义域名——总成本 $0。不是「免费试用期 $0」，是真正的、永久的、$0。\n\n为什么选 Cloudflare Pages：真正无限带宽——没有带宽上限；全球 CDN——Cloudflare 在全球 300+ 节点；Pages Functions——在 functions/ 目录下写 JS 文件就能创建 Serverless API；D1 数据库——Serverless SQLite，免费 5GB 存储；500 次构建/月；自定义域名 + 自动 SSL——免费。"
+    },
+    {
+      "title": "OpenClaw 完全上手指南：从安装到 24 小时自动化",
+      "summary": "开源 AI Agent 框架 OpenClaw 的完整上手教程，从安装配置到身份系统、记忆、Skill 管理、定时任务和多 Agent 协作。",
+      "content": "OpenClaw 是一个开源 AI Agent 框架，可以接入 Telegram 做 24 小时在线的个人 AI 助理。它和 ChatGPT 最大的区别是：ChatGPT 是工具（你问它答），OpenClaw 是 Agent（它主动做事）。你可以自定义身份人格、安装 Skill 扩展能力、设置定时任务、甚至让多个 Agent 协作。本教程从零开始，覆盖安装、配置、Telegram Bot 对接、身份系统、记忆管理、Skill 安装、浏览器能力、定时任务和多 Agent 协作。"
+    },
+    {
+      "title": "Obsidian × Claude Code：让笔记变成可编程知识库",
+      "summary": "用 Obsidian CLI 打通笔记与 Claude Code，实现自然语言检索、跨笔记知识综合、自动整理，让 Markdown 笔记变成可编程 API。",
+      "content": "笔记困在本地文件里，AI 在云端，中间隔着复制粘贴的墙。Obsidian CLI（1.8+ 内置）+ Claude Code 可以打通这堵墙：Claude Code 直接操作本地文件系统，Obsidian CLI 提供结构化查询接口，Markdown 成为两者之间的胶水代码。三个核心工作流：跨笔记知识综合（自然语言提问，AI 搜索多篇笔记回答）、笔记到文章管道（选定笔记 → AI 自动生成草稿）、孤儿笔记清理（发现未链接的笔记并自动归类）。"
+    },
+    {
+      "title": "碎片知识整合：从收藏夹坟场到 AI 知识收件箱",
+      "summary": "用微信转发 + n8n + Ollama + Obsidian 搭建零成本本地知识管道，自动把碎片信息变成结构化笔记。",
+      "content": "每天刷到的文章、视频、推文，收藏了就再也没看过——这是收藏夹坟场。解决方案：搭一条管道，微信转发链接 → n8n Webhook 接收 → Jina Reader 抓正文 → Ollama 本地 LLM 生成摘要+标签+分类 → 自动写入 Obsidian Vault。整条管道 6 个节点，从分享到入库 10-15 秒，全部跑在本地，零成本。周末就能搭完。"
     }
   ],
   "til": [

@@ -1,0 +1,1156 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="view-transition" content="same-origin" />
+    <title>Obsidian × Claude Code：让笔记变成可编程知识库 | 实验室 · Cyrus的AI学习笔记</title>
+    <meta
+      name="description"
+      content="用 Obsidian CLI + Claude Code 打通本地笔记和 AI 的壁垒：架构解析、完整配置、真实工作流、性能实测和踩坑记录。从复制粘贴到人机协作的知识管理升级指南。"
+    />
+    <meta
+      name="keywords"
+      content="Obsidian CLI,Claude Code,知识管理,AI Agent,笔记自动化,Markdown,本地优先,AI工作流,CLAUDE.md,个人知识库"
+    />
+    <meta name="theme-color" content="#f2f4f7" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://cyrustyj.xyz/field-notes/obsidian-claude-code-workflow/" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+    <meta property="og:title" content="Obsidian × Claude Code：让笔记变成可编程知识库 | 实验室" />
+    <meta
+      property="og:description"
+      content="用 Obsidian CLI + Claude Code 打通本地笔记和 AI 的壁垒。架构解析、配置指南、真实工作流和踩坑记录。"
+    />
+    <meta property="og:url" content="https://cyrustyj.xyz/field-notes/obsidian-claude-code-workflow/" />
+    <meta property="og:image" content="https://cyrustyj.xyz/og-cover.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="article:published_time" content="2026-05-22T00:00:00+08:00" />
+    <meta property="article:author" content="Cyrus" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Obsidian × Claude Code：让笔记变成可编程知识库" />
+    <meta name="twitter:description" content="Obsidian CLI + Claude Code 打通笔记和 AI，从复制粘贴到人机协作的知识管理升级。" />
+    <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.png" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- Structured Data: HowTo -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Obsidian × Claude Code：让笔记变成可编程知识库",
+        "description": "用 Obsidian CLI + Claude Code 打通本地笔记和 AI 的壁垒，实现知识库的结构化 AI 访问",
+        "step": [
+          {"@type": "HowToStep", "name": "确认 Obsidian CLI 可用", "text": "确认 Obsidian 1.8+ 已安装，在终端运行 obsidian version 验证 CLI 功能正常"},
+          {"@type": "HowToStep", "name": "在 CLAUDE.md 中注册 CLI 命令", "text": "在项目或全局 CLAUDE.md 中写入 Obsidian CLI 常用命令说明，让 AI 知道如何查询知识库"},
+          {"@type": "HowToStep", "name": "用自然语言驱动知识库操作", "text": "启动 Claude Code，用自然语言搜索笔记、整合知识、追加日记，AI 自动调用 CLI 执行"},
+          {"@type": "HowToStep", "name": "配置自动对话日志", "text": "通过 SessionEnd Hook 让每次 AI 对话结束后自动存档到 Obsidian 日记"},
+          {"@type": "HowToStep", "name": "优化 Vault 结构", "text": "按 PARA 方法整理 Vault 目录，配合 Dataview 查询实现自动看板"}
+        ],
+        "author": {"@type": "Person", "name": "Cyrus", "url": "https://cyrustyj.xyz/about.html"},
+        "datePublished": "2026-05-22",
+        "dateModified": "2026-05-22",
+        "inLanguage": "zh-CN"
+      }
+    </script>
+
+    <!-- Structured Data: FAQPage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Obsidian CLI 需要单独安装吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不需要。Obsidian 1.8+ 版本内置了完整的 CLI，macOS 上安装 Obsidian 后直接在终端调用即可。如果提示 command not found，只需在 ~/.zshrc 中添加 alias 指向 Obsidian 的可执行文件路径。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "这套方案和 RAG（检索增强生成）有什么区别？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "RAG 通常需要向量数据库、Embedding 模型和额外的基础设施。这套方案零额外基础设施——Obsidian CLI 直接利用 Obsidian 已有的搜索索引，Claude Code 直接读写本地 Markdown 文件。没有向量化、没有数据库、没有部署成本。对个人知识库来说，CLI 搜索在精确度和上手成本上都优于 RAG。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Claude Code 需要付费吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Claude Code 是 Anthropic 的官方 CLI 工具，需要 Anthropic API 订阅（Claude Pro 或 Max 计划）。但 Obsidian CLI 本身是免费的，如果你用其他支持终端操作的 AI 工具（如 Cursor、Windsurf 等），同样的思路也适用。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Windows 可以用吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Obsidian CLI 和 Claude Code 目前对 macOS 和 Linux 支持最好。Windows 用户需要通过 WSL（Windows Subsystem for Linux）运行 Claude Code，Obsidian CLI 在 Windows 上的命令路径也需要额外配置。推荐 WSL2 + Obsidian 的组合。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Vault 里有几千条笔记，AI 会不会把内容搞乱？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "这取决于你怎么配置权限。Claude Code 的 CLAUDE.md 可以明确限制 AI 只能读取、不能修改特定目录。建议初期只开放 append（追加）和 search（搜索）权限，等你熟悉工作流后再逐步放开写入权限。另外，配合 obsidian-git 插件做自动版本管理，即使改错了也可以一键回滚。"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Structured Data: BreadcrumbList -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://cyrustyj.xyz/"},
+          {"@type": "ListItem", "position": 2, "name": "实验室", "item": "https://cyrustyj.xyz/field-notes/"},
+          {"@type": "ListItem", "position": 3, "name": "Obsidian × Claude Code：让笔记变成可编程知识库"}
+        ]
+      }
+    </script>
+
+    <style>
+      /* ─── Article Body ─────────────────────────────────────────────── */
+      .article-body {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 0 0 48px;
+        font-size: 16px;
+        line-height: 1.85;
+        color: var(--ink);
+      }
+
+      .article-body > p {
+        margin: 0 0 18px;
+      }
+
+      .article-body > p:first-child {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        line-height: 1.9;
+        color: var(--muted);
+        border-left: 3px solid var(--accent);
+        padding-left: 18px;
+        margin-bottom: 32px;
+      }
+
+      .article-body h2 {
+        font-family: var(--font-sans);
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -.02em;
+        margin: 48px 0 18px;
+        padding-bottom: 10px;
+        border-bottom: 1.5px solid var(--line);
+      }
+
+      .article-body h3 {
+        font-family: var(--font-sans);
+        font-size: 20px;
+        font-weight: 600;
+        margin: 32px 0 12px;
+        color: var(--ink);
+      }
+
+      .article-body strong {
+        font-weight: 600;
+      }
+
+      .article-body ul,
+      .article-body ol {
+        padding-left: 24px;
+        margin: 0 0 18px;
+      }
+
+      .article-body li {
+        margin-bottom: 8px;
+      }
+
+      .article-body a {
+        color: var(--accent);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
+      .article-body a:hover {
+        color: var(--ink);
+      }
+
+      /* Code: inline */
+      .article-body code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--bg-2);
+        border: 1px solid var(--line-soft);
+        border-radius: 4px;
+        padding: 2px 6px;
+        word-break: break-word;
+      }
+
+      /* Code: blocks */
+      .article-body pre {
+        background: var(--term-bg);
+        color: var(--term-fg);
+        font-family: var(--font-mono);
+        font-size: 13.5px;
+        line-height: 1.7;
+        border-radius: 12px;
+        padding: 20px 22px;
+        overflow-x: auto;
+        margin: 18px 0 24px;
+        position: relative;
+      }
+
+      .article-body pre code {
+        background: none;
+        border: none;
+        padding: 0;
+        font-size: inherit;
+        color: inherit;
+      }
+
+      .article-body pre .code-label {
+        display: block;
+        font-size: 10.5px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--term-muted);
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(255,255,255,.08);
+      }
+
+      .article-body pre .term-dots {
+        display: flex;
+        gap: 6px;
+        margin-bottom: 12px;
+      }
+
+      .article-body pre .term-dots span {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--term-muted);
+        opacity: .45;
+      }
+
+      /* Tip box */
+      .tip-box {
+        background: color-mix(in srgb, var(--ok) 8%, var(--bg));
+        border: 1px solid color-mix(in srgb, var(--ok) 25%, var(--line-soft));
+        border-left: 4px solid var(--ok);
+        border-radius: 0 10px 10px 0;
+        padding: 16px 20px;
+        margin: 20px 0 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      .tip-box::before {
+        content: "TIP";
+        display: block;
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .22em;
+        font-weight: 600;
+        color: var(--ok);
+        margin-bottom: 6px;
+      }
+
+      /* Pitfall box */
+      .pitfall-box {
+        background: color-mix(in srgb, var(--accent) 6%, var(--bg));
+        border: 1px solid color-mix(in srgb, var(--accent) 20%, var(--line-soft));
+        border-left: 4px solid var(--accent);
+        border-radius: 0 10px 10px 0;
+        padding: 16px 20px;
+        margin: 20px 0 24px;
+        font-size: 14.5px;
+        line-height: 1.7;
+      }
+
+      .pitfall-box::before {
+        content: "PITFALL";
+        display: block;
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .22em;
+        font-weight: 600;
+        color: var(--accent);
+        margin-bottom: 6px;
+      }
+
+      /* Article meta line */
+      .article-meta {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        font-family: var(--font-mono);
+        font-size: 12px;
+        letter-spacing: .06em;
+        color: var(--muted);
+        margin-top: 14px;
+      }
+
+      /* Performance table */
+      .perf-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 18px 0 24px;
+        font-size: 14.5px;
+      }
+
+      .perf-table th,
+      .perf-table td {
+        text-align: left;
+        padding: 10px 14px;
+        border-bottom: 1px solid var(--line-soft);
+      }
+
+      .perf-table th {
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .15em;
+        text-transform: uppercase;
+        color: var(--muted);
+        font-weight: 600;
+      }
+
+      .perf-table td:last-child {
+        font-family: var(--font-mono);
+        font-weight: 600;
+        color: var(--ok);
+      }
+
+      /* Architecture diagram */
+      .arch-diagram {
+        background: var(--term-bg);
+        color: var(--term-fg);
+        font-family: var(--font-mono);
+        font-size: 13px;
+        line-height: 1.6;
+        border-radius: 12px;
+        padding: 24px 28px;
+        margin: 18px 0 24px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: pre;
+      }
+
+      /* Plugin table */
+      .plugin-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 18px 0 24px;
+        font-size: 14.5px;
+      }
+
+      .plugin-table th,
+      .plugin-table td {
+        text-align: left;
+        padding: 10px 14px;
+        border-bottom: 1px solid var(--line-soft);
+      }
+
+      .plugin-table th {
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .15em;
+        text-transform: uppercase;
+        color: var(--muted);
+        font-weight: 600;
+      }
+
+      /* FAQ accordion */
+      .article-faq {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 32px 0 48px;
+        border-top: 1.5px solid var(--line);
+      }
+
+      .article-faq h2 {
+        font-family: var(--font-sans);
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0 0 24px;
+      }
+
+      .article-faq details {
+        border: 1px solid var(--line-soft);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background: var(--bg);
+        transition: box-shadow .2s;
+      }
+
+      .article-faq details[open] {
+        box-shadow: 4px 4px 0 var(--line-soft);
+      }
+
+      .article-faq summary {
+        cursor: pointer;
+        font-family: var(--font-sans);
+        font-weight: 600;
+        font-size: 15px;
+        padding: 14px 18px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+      }
+
+      .article-faq summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .article-faq summary::after {
+        content: "+";
+        font-family: var(--font-mono);
+        font-size: 18px;
+        color: var(--accent);
+        flex-shrink: 0;
+        transition: transform .2s;
+      }
+
+      .article-faq details[open] summary::after {
+        transform: rotate(45deg);
+      }
+
+      .article-faq .faq-answer {
+        padding: 0 18px 16px;
+        font-size: 14.5px;
+        line-height: 1.75;
+        color: var(--muted);
+      }
+
+      .article-faq .faq-answer code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--bg-2);
+        border: 1px solid var(--line-soft);
+        border-radius: 4px;
+        padding: 2px 6px;
+      }
+
+      /* Related / CTA */
+      .article-cta {
+        max-width: 72ch;
+        margin: 0 auto;
+        padding: 0 0 48px;
+      }
+
+      .cta-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .cta-card a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1.5px solid var(--line);
+        border-radius: 14px;
+        padding: 28px 20px;
+        text-decoration: none;
+        color: var(--ink);
+        background: var(--bg);
+        transition: transform .25s, box-shadow .25s;
+      }
+
+      .cta-card a:hover {
+        transform: translateY(-4px);
+        box-shadow: 6px 6px 0 var(--line);
+      }
+
+      .cta-card a .cta-label {
+        font-family: var(--font-mono);
+        font-size: 10.5px;
+        letter-spacing: .18em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 8px;
+      }
+
+      .cta-card a .cta-title {
+        font-family: var(--font-sans);
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .cta-card a .cta-desc {
+        font-size: 13px;
+        color: var(--muted);
+        margin-top: 6px;
+      }
+
+      /* Dark mode overrides */
+      html[data-theme="dark"] .tip-box {
+        background: color-mix(in srgb, var(--ok) 10%, var(--bg));
+        border-color: color-mix(in srgb, var(--ok) 20%, var(--line-soft));
+      }
+
+      html[data-theme="dark"] .pitfall-box {
+        background: color-mix(in srgb, var(--accent) 8%, var(--bg));
+        border-color: color-mix(in srgb, var(--accent) 15%, var(--line-soft));
+      }
+
+      html[data-theme="dark"] .article-faq details {
+        background: var(--bg-2);
+        border-color: var(--line-soft);
+      }
+
+      html[data-theme="dark"] .cta-card a {
+        background: var(--bg-2);
+      }
+
+      html[data-theme="dark"] .perf-table th,
+      html[data-theme="dark"] .plugin-table th {
+        color: var(--muted);
+      }
+
+      /* Responsive */
+      @media (max-width: 960px) {
+        .cta-card {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="site-nav" data-pagefind-ignore>
+      <a href="/" class="site-nav-brand">Cyrus</a>
+      <div class="site-nav-links">
+        <a href="/">首页</a>
+        <a href="/about.html">关于</a>
+        <a href="/field-notes/" class="on">实验室</a>
+        <a href="/playground.html">Playground</a>
+        <a href="/news.html">资讯</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
+      </div>
+    </nav>
+
+    <!-- Table of Contents (desktop sidebar) -->
+    <div class="toc-sidebar" id="tocWidget"></div>
+
+    <!-- Inner content -->
+    <div class="mg-inner">
+
+      <!-- Breadcrumb -->
+      <nav class="mg-crumb">
+        <a href="/">← 首页</a>
+        <span>/ <a href="/field-notes/">Field Notes</a></span>
+        <span>/ Obsidian × Claude Code</span>
+      </nav>
+
+      <!-- Article hero -->
+      <section class="mg-page-hero">
+        <div class="mg-tag-row">
+          <span class="mg-tag">TUTORIAL</span>
+        </div>
+        <h1 class="mg-page-title">Obsidian × Claude Code<br>让笔记变成<em>可编程知识库</em></h1>
+        <div class="article-meta">
+          <time datetime="2026-05-22">2026.05.22</time>
+          <span>&middot;</span>
+          <span>约 15 分钟阅读</span>
+        </div>
+      </section>
+
+      <!-- Article body -->
+      <article class="article-body" data-pagefind-body>
+
+        <p>我折腾了两个月，终于把 Obsidian + Claude Code 跑通了。不是那种「理论上可行」的方案，是每天真在用、回不去的工作流。这篇讲透底层逻辑，附完整配置 &mdash; 你跟着做就能复现。</p>
+
+        <h2>痛点：知识在本地，AI 在云端</h2>
+
+        <p>用 AI 做知识工作，最大的痛点不是 AI 不够聪明，而是<strong>喂料太累</strong>。</p>
+
+        <p>你有没有过这种体验：</p>
+
+        <ul>
+          <li>Obsidian 里记了几千条笔记，想让 AI 帮你分析，却要一条条复制粘贴</li>
+          <li>跟 ChatGPT 聊完一轮很爽，但产出散落在聊天记录里，下次找不到</li>
+          <li>想让 AI 基于你的知识库写东西，但它根本不知道你以前想过什么</li>
+        </ul>
+
+        <p><strong>核心矛盾：你的知识在本地文件系统里，AI 在云端对话框里，中间隔着一道复制粘贴的墙。</strong></p>
+
+        <p>Obsidian CLI + Claude Code 的本质，就是把这道墙拆掉。</p>
+
+        <h2>为什么是这两个工具</h2>
+
+        <h3>Obsidian CLI：不是插件，是 Obsidian 内置的命令行</h3>
+
+        <p>很多人不知道，Obsidian 从 1.8 版本开始内置了完整的 CLI。不需要装任何第三方包，你的 Obsidian 本身就是一个命令行工具。</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span># 不是 npm install，是 Obsidian 自带的
+obsidian search query="AI Agent"
+obsidian daily:read
+obsidian tags counts=true sort=count</code></pre>
+
+        <p>它能做什么？<strong>80+ 个命令，覆盖 Obsidian 几乎所有功能</strong>：</p>
+
+        <ul>
+          <li>搜索、读写、创建笔记</li>
+          <li>操作每日笔记（日记）</li>
+          <li>查标签、查反向链接、查孤立笔记</li>
+          <li>管理任务（todo/done 切换）</li>
+          <li>甚至可以用命令行安装插件、管理主题</li>
+        </ul>
+
+        <p>关键点：它的输出是<strong>结构化的纯文本</strong>（支持 JSON / TSV / CSV），天然适合被程序和 AI 消费。</p>
+
+        <h3>Claude Code：不是聊天机器人，是一个能操作文件系统的 AI Agent</h3>
+
+        <p>Claude Code 跟 ChatGPT 网页版的本质区别：<strong>它跑在你的终端里，能直接读写你电脑上的文件。</strong></p>
+
+        <p>这意味着：</p>
+
+        <ul>
+          <li>它可以调用 <code>obsidian search</code> 在你的知识库里搜东西</li>
+          <li>搜到之后直接读取笔记内容</li>
+          <li>理解、分析、改写之后，直接写回你的 Obsidian Vault</li>
+          <li>全程不需要你复制粘贴任何东西</li>
+        </ul>
+
+        <p><strong>两者结合 = AI 获得了一个结构化的接口来操作你的整个知识库。</strong></p>
+
+        <h2>架构：为什么 Markdown 是关键粘合剂</h2>
+
+        <div class="arch-diagram">你的大脑
+    &#8597; 记录想法
+Obsidian Vault (数千个 .md 文件)
+    &#8597; Obsidian CLI：结构化读写接口
+Claude Code (AI Agent，常驻终端)
+    &#8597; 直接读写 .md 文件 + 调用 CLI 命令
+Obsidian Vault
+    &#8597; 打开 App 查看
+你的大脑</div>
+
+        <p>这个闭环能成立，有一个容易被忽略的前提：<strong>Markdown 同时是人类可读格式和机器可解析格式。</strong></p>
+
+        <ul>
+          <li>你在 Obsidian GUI 里写的笔记，AI 可以直接读</li>
+          <li>AI 生成的内容，你在 Obsidian 里直接看，不需要格式转换</li>
+          <li>没有数据库锁、没有私有格式、没有导入导出</li>
+        </ul>
+
+        <p>这跟 Notion 的区别在于：Notion 的数据锁在它的数据库里，你必须通过 API 才能碰到。而 Obsidian Vault 就是一个文件夹，里面全是 <code>.md</code> 文件，任何工具都能直接操作。</p>
+
+        <div class="tip-box">
+          <strong>本地文件 = 零依赖。</strong>你的笔记不依赖任何服务的在线状态。Notion 挂了你的数据也挂了，Obsidian Vault 挂了 &mdash; 不存在的，它就是你硬盘上的一堆 Markdown 文件。
+        </div>
+
+        <h2>Step 1 &mdash; 确认 Obsidian CLI 可用</h2>
+
+        <p>前置条件：</p>
+
+        <ul>
+          <li><strong>Obsidian 1.8+</strong>（内置 CLI 支持）</li>
+          <li><strong>Claude Code</strong>（Anthropic 官方 CLI 工具）</li>
+          <li><strong>macOS / Linux</strong>（Windows 需要 WSL）</li>
+        </ul>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span><span class="code-label">验证 CLI</span># macOS 上 Obsidian 安装后自带 CLI
+obsidian version
+
+# 如果提示 command not found，添加 alias
+# zsh 用户在 ~/.zshrc 中加：
+alias obsidian="/Applications/Obsidian.app/Contents/MacOS/Obsidian"
+
+# 验证 vault 已识别
+obsidian vault
+# 应该输出你的 vault 名称和路径</code></pre>
+
+        <div class="pitfall-box">
+          <strong>CLI 依赖 Obsidian 后台进程。</strong>Obsidian CLI 不是独立的二进制文件，它需要 Obsidian App 在后台运行。如果你完全退出了 Obsidian（不是最小化，是真的退出），CLI 命令会失败。确保 Obsidian 至少在后台保持运行。
+        </div>
+
+        <h2>Step 2 &mdash; 在 CLAUDE.md 中注册 CLI 命令</h2>
+
+        <p>Claude Code 每次启动都会读取 <code>CLAUDE.md</code> 配置文件。在里面写上 Obsidian CLI 的说明，等于给 AI 装了一个「知识库驱动」。</p>
+
+        <p>核心写法：告诉 AI <strong>有哪些命令可用、什么场景该用哪个、输出格式选什么</strong>。不需要写全部 80 个命令，写你最常用的 10 个就够了。</p>
+
+        <pre><code><span class="code-label">CLAUDE.md 示例配置</span>## Obsidian CLI 整合
+
+当前 Vault 路径：/path/to/your/vault
+文件数：8000+
+
+常用命令：
+- obsidian search query="关键词" format=json    # 精准搜索
+- obsidian search:context query="关键词"         # 带上下文段落
+- obsidian daily:read                            # 读今天的日记
+- obsidian daily:append content="内容"           # 追加到今天的日记
+- obsidian tags counts=true sort=count           # 查标签分布
+- obsidian backlinks file="笔记名"               # 查反向链接
+- obsidian tasks todo                            # 查未完成任务
+
+使用策略：
+1. 用户问"我之前记过 XXX 吗" → 用 obsidian search
+2. 用户说"帮我记一下" → 用 obsidian daily:append
+3. 需要了解知识结构 → 用 obsidian tags</code></pre>
+
+        <p>写完这段，Claude Code 就「知道」你有一个知识库，并且知道怎么查询它。</p>
+
+        <div class="tip-box">
+          <strong>使用策略是关键。</strong>不要只列命令，要写「什么场景用什么命令」。AI 需要的不是手册，而是决策逻辑。比如 <code>search</code> 和 <code>search:context</code> 的区别：前者只返回文件路径和匹配行，后者返回匹配行的上下文段落。搜完要读全文用前者（省 token），搜完就要看上下文用后者。
+        </div>
+
+        <h2>Step 3 &mdash; 开始对话：用自然语言操作知识库</h2>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span># 在你的 vault 目录下启动 Claude Code
+claude
+
+# 然后直接用自然语言
+&gt; "搜一下我之前记过的关于 AI Agent 的想法"
+&gt; "把今天的会议要点记到日记里"
+&gt; "看看我最近一周写了什么"</code></pre>
+
+        <p>从此你跟它对话时：</p>
+
+        <ul>
+          <li><strong>"我之前写过关于 RAG 的笔记吗？"</strong> &mdash; 它会自动调 <code>obsidian search query="RAG"</code>，然后读取搜到的笔记，告诉你写过什么</li>
+          <li><strong>"把这段总结记到今天的日记里"</strong> &mdash; 它直接调 <code>obsidian daily:append</code></li>
+          <li><strong>"我最近关注什么话题比较多？"</strong> &mdash; 它查你的标签分布，分析你的兴趣趋势</li>
+        </ul>
+
+        <h2>真实工作流：不是 demo，是每天在用的</h2>
+
+        <h3>场景 1：跨笔记的知识整合</h3>
+
+        <p>这是 AI + 知识库最强的场景。手动做极其痛苦，但 AI 做起来很自然：</p>
+
+        <pre><code><span class="code-label">执行链路示例</span>你："把我所有标记了 #投资 的笔记整理一下，提炼出我的投资逻辑"
+
+Claude Code 的执行链路：
+1. obsidian search query="tag:#投资" format=json  → 找到 23 条笔记
+2. 逐条读取笔记内容                                 → 理解每条的核心观点
+3. 交叉分析，提炼模式                               → 发现你的决策倾向
+4. 生成结构化报告                                   → 写入新笔记</code></pre>
+
+        <p>你自己手动做这件事要多久？打开 23 条笔记，逐条阅读，在大脑里做交叉分析，再写总结 &mdash; 最少两个小时。AI 两分钟。</p>
+
+        <h3>场景 2：从笔记到发布内容</h3>
+
+        <p>写文章最累的不是写，是<strong>找素材和组织结构</strong>。</p>
+
+        <pre><code><span class="code-label">从散乱笔记到文章草稿</span>你："我想写一篇关于 AI 编程的文章，先看看我之前积累了哪些相关的想法"
+
+Claude Code：
+1. obsidian search query="AI 编程"  → 搜到 8 条相关笔记
+2. obsidian search query="Cursor"   → 搜到 5 条
+3. obsidian search query="Copilot"  → 搜到 3 条
+4. 读取全部内容，梳理出大纲
+5. 基于你的笔记（不是它自己编的）组织成文章草稿
+6. 写回你的 Vault</code></pre>
+
+        <p>输出的文章里面的观点、案例、数据，全部来自你自己以前记的笔记。<strong>AI 做的是整合和组织，不是凭空生成。</strong>这个区别很关键 &mdash; 这样产出的内容才是「你的」，不是 AI 味。</p>
+
+        <h3>场景 3：知识库维护（孤立笔记清理）</h3>
+
+        <p>Obsidian 用久了一定有这个问题：大量笔记没有链接，变成信息孤岛。</p>
+
+        <pre><code><span class="code-label">自动发现并修复孤立笔记</span>你："帮我检查一下哪些笔记是孤立的，看看能不能链接到其他笔记"
+
+Claude Code：
+1. obsidian orphans               → 列出所有没有反向链接的笔记
+2. 逐条读取内容
+3. obsidian search 查找语义相关的笔记
+4. 建议可以添加的 [[wikilink]]</code></pre>
+
+        <p>一个 8000+ 笔记的 Vault，手动做这件事可能需要一周。AI 跑完一轮大概 10 分钟。</p>
+
+        <h2>进阶：自动记录 AI 对话日志</h2>
+
+        <p>这是这套系统里我认为最有价值的一个功能：<strong>不管跟哪个 AI 聊天，对话结束后自动存档到 Obsidian。</strong></p>
+
+        <h3>为什么需要这个</h3>
+
+        <p>每天可能跟多个 AI 工具对话 &mdash; Claude Code、ChatGPT、Gemini。每个对话都有干货，但之前全散落在各家的聊天历史里，过几天就找不到了。</p>
+
+        <h3>解决方案</h3>
+
+        <p>利用 Claude Code 的 <strong>SessionEnd Hook</strong>：每次退出对话时，自动触发一段脚本，把对话摘要追加到今天的 Obsidian 日记里。</p>
+
+        <pre><code><span class="code-label">~/.claude/settings.json（Hook 配置）</span>{
+  "hooks": {
+    "SessionEnd": [
+      {
+        "matcher": "",
+        "hooks": [{
+          "type": "command",
+          "command": "~/.claude/scripts/session-end-logger.sh 'Claude Code'"
+        }]
+      }
+    ]
+  }
+}</code></pre>
+
+        <p>这段配置的意思：每次 Claude Code 的会话结束（你退出或 <code>/clear</code>），自动运行 <code>session-end-logger.sh</code> 脚本。脚本读取会话摘要，调用 <code>obsidian daily:append</code> 写入今天的日记。</p>
+
+        <p>写入格式大概长这样：</p>
+
+        <pre><code><span class="code-label">自动写入的日志格式</span>## [14:32] Obsidian CLI 调研 | #Claude #AI工具 #2026-05
+AI: Claude Code | 轮次: 约 12 轮
+摘要: 研究了 Obsidian CLI 的 80+ 命令，发现可以用命令行装插件。
+      配置了 CLAUDE.md 让 AI 自动查询知识库。</code></pre>
+
+        <p><strong>效果：</strong>退出 Claude Code，今天的日记自动多一条记录。完全不需要手动操作。过两个月想找「我什么时候研究过 Obsidian CLI」，一搜就出来。</p>
+
+        <div class="tip-box">
+          <strong>其他 AI 工具也可以类似配置。</strong>比如用 <code>launchd</code>（macOS）或 <code>cron</code> 定时扫描其他 AI 的会话文件（通常是 JSON 或 JSONL 格式），解析后同样写入 Obsidian 日记。思路是一样的：所有 AI 对话记录汇总到 Obsidian 这个唯一数据源。
+        </div>
+
+        <h2>性能实测</h2>
+
+        <p>在一个 8000+ 文件、3GB 的 Vault 上测试：</p>
+
+        <table class="perf-table">
+          <thead>
+            <tr>
+              <th>操作</th>
+              <th>Obsidian CLI</th>
+              <th>传统 grep</th>
+              <th>差距</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>全文搜索</td>
+              <td>0.4 秒</td>
+              <td>3.5 秒</td>
+              <td>快 8 倍</td>
+            </tr>
+            <tr>
+              <td>返回数据量</td>
+              <td>~260 字符</td>
+              <td>~7600 字符</td>
+              <td>省 29 倍 token</td>
+            </tr>
+            <tr>
+              <td>标签统计</td>
+              <td>0.3 秒（一条命令）</td>
+              <td>需要多步 find + grep</td>
+              <td>不可比</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="pitfall-box">
+          <strong>冷启动延迟约 2 秒。</strong>Obsidian CLI 每次调用需要加载 Vault 索引，有约 2 秒的冷启动开销。所以它更适合<strong>精准查询</strong>而不是高频批量调用。最佳策略是：先用 CLI 定位文件路径，再用 Claude Code 的文件读取工具读内容 &mdash; 文件读取没有冷启动。
+        </div>
+
+        <h2>高价值命令速查</h2>
+
+        <p>80+ 个命令不需要全记。以下是实测后最常用的，覆盖了 90% 的日常场景：</p>
+
+        <pre><code><span class="code-label">Obsidian CLI 常用命令</span># ── 搜索 ──────────────────────────────
+obsidian search query="关键词" format=json        # 精准搜索，返回 JSON
+obsidian search:context query="关键词"             # 搜索并返回上下文段落
+
+# ── 读写 ──────────────────────────────
+obsidian read file="笔记名"                        # 读指定笔记
+obsidian daily:read                                # 读今日日记
+obsidian create name="标题" path="文件夹/"         # 新建笔记
+obsidian append path="路径.md" content="内容"      # 追加内容
+obsidian daily:append content="内容"               # 追加今日日记
+
+# ── 分析 ──────────────────────────────
+obsidian tags counts=true sort=count format=json   # 标签统计
+obsidian backlinks file="笔记名"                   # 反向链接
+obsidian orphans                                   # 孤立笔记
+obsidian unresolved                                # 坏掉的 wikilink
+obsidian tasks                                     # 全库未完成任务
+
+# ── 管理 ──────────────────────────────
+obsidian property:set file="笔记" name="tags" value="[标签1, 标签2]"
+obsidian plugin:install id=插件ID enable            # CLI 装插件</code></pre>
+
+        <div class="tip-box">
+          <strong>能用命令行装插件是个大惊喜。</strong>以前装插件要：打开 Obsidian → 设置 → 第三方插件 → 搜索 → 安装 → 返回 → 重复。现在一行命令搞定：<code>obsidian plugin:install id=dataview enable</code>。我试过一次性装 8 个插件，一个 UI 都没打开。
+        </div>
+
+        <h2>推荐插件（配合 AI 工作流）</h2>
+
+        <p>这些插件不是必须的，但装了之后整个知识库的能力会上一个台阶：</p>
+
+        <pre><code><span class="term-dots"><span></span><span></span><span></span></span><span class="code-label">一次性安装全部推荐插件</span>obsidian plugin:install id=dataview enable
+obsidian plugin:install id=templater-obsidian enable
+obsidian plugin:install id=obsidian-git enable
+obsidian plugin:install id=smart-connections enable
+obsidian plugin:install id=obsidian-kanban enable</code></pre>
+
+        <table class="plugin-table">
+          <thead>
+            <tr>
+              <th>插件</th>
+              <th>核心价值</th>
+              <th>和 AI 的配合</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Dataview</strong></td>
+              <td>把笔记当数据库查询</td>
+              <td>AI 告诉你「用这条 query 找相关笔记」</td>
+            </tr>
+            <tr>
+              <td><strong>Smart Connections</strong></td>
+              <td>AI 语义相似度连接笔记</td>
+              <td>自动发现你意识不到的关联</td>
+            </tr>
+            <tr>
+              <td><strong>Templater</strong></td>
+              <td>动态模板（含脚本）</td>
+              <td>AI 写好模板，你复用</td>
+            </tr>
+            <tr>
+              <td><strong>obsidian-git</strong></td>
+              <td>Vault 自动 git 提交</td>
+              <td>AI 改错了可以回滚</td>
+            </tr>
+            <tr>
+              <td><strong>Kanban</strong></td>
+              <td>看板视图</td>
+              <td>把 AI 生成的任务拖拽管理</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Vault 结构优化</h2>
+
+        <p>知识库目录混乱，AI 搜起来效率也低。推荐按 PARA 方法（Projects / Areas / Resources / Archive）整理：</p>
+
+        <pre><code><span class="code-label">推荐的 Vault 目录结构</span>My-Vault/
+├── Projects/           ← 有明确截止日期的项目
+│   ├── 项目A/
+│   └── 项目B/
+│
+├── Areas/              ← 长期持续的领域
+│   ├── 工作/
+│   └── AI系统/
+│
+├── Memory_Logs/        ← AI 对话自动存档
+│   └── daily/          （每天自动生成）
+│
+├── Resources/          ← 参考材料、读书笔记
+├── Archive/            ← 归档（不删，放这）
+└── CLAUDE.md           ← Claude Code 全局配置</code></pre>
+
+        <h3>配套 Dataview 查询</h3>
+
+        <p>装了 Dataview 后，在任意笔记里粘贴以下代码块就能自动生成看板：</p>
+
+        <pre><code><span class="code-label">Dataview：查看本周 AI 对话记录</span>```dataview
+LIST
+FROM "Memory_Logs/daily"
+WHERE file.mtime &gt;= date(today) - dur(7 days)
+SORT file.mtime DESC
+```</code></pre>
+
+        <pre><code><span class="code-label">Dataview：查看进行中的项目文件</span>```dataview
+LIST file.mtime
+FROM "Projects"
+SORT file.mtime DESC
+LIMIT 20
+```</code></pre>
+
+        <h2>局限性（诚实说）</h2>
+
+        <p>这套方案不是银弹，有几个明确的限制：</p>
+
+        <ol>
+          <li><strong>Obsidian 必须保持运行。</strong>CLI 依赖 Obsidian App 的后台进程，不能完全无头运行。</li>
+          <li><strong>冷启动有延迟。</strong>每次 CLI 调用约 2 秒加载时间，不适合写脚本做高频批量操作。</li>
+          <li><strong>不替代 GUI。</strong>可视化的图谱浏览、Canvas 画板、复杂的模板插件，这些依然需要打开 App。</li>
+          <li><strong>需要一定的终端基础。</strong>如果你完全不用终端，上手成本不低。</li>
+          <li><strong>Claude Code 需要付费。</strong>这不是一个零成本方案，AI 的 API 调用有费用。</li>
+        </ol>
+
+        <p>它不是要替代 Obsidian 的图形界面，而是<strong>给知识库加了一个 AI 可以调用的 API 层</strong>。GUI 用来人工浏览和编辑，CLI 用来让 AI 做批量的、跨笔记的操作。两者互补。</p>
+
+        <h2>更深一层：这指向什么趋势</h2>
+
+        <p>Obsidian CLI + Claude Code 这个组合，本质上是一个更大趋势的缩影：</p>
+
+        <p><strong>本地文件 + AI Agent = 个人知识的操作系统</strong></p>
+
+        <ul>
+          <li>你的笔记不再是被动的存储，而是 AI 可以主动查询和操作的数据库</li>
+          <li>AI 不再是一个你去「访问」的服务，而是一个常驻在你工作环境里的助手</li>
+          <li>知识管理从「手动整理」变成「人机协作」&mdash; 你负责输入和决策，AI 负责检索、关联和加工</li>
+        </ul>
+
+        <p>这个方向上，Obsidian 只是一个入口。未来任何以本地文件为基础的工具（笔记、代码、文档），都可以用同样的模式接入 AI。</p>
+
+        <p><strong>关键不是用什么工具，而是理解这个范式：让 AI 能结构化地访问你的个人数据，把「对话式 AI」升级为「工作流 AI」。</strong></p>
+
+        <h2>总结</h2>
+
+        <p>整个流程回顾：</p>
+
+        <ol>
+          <li><strong>确认 CLI 可用</strong> &mdash; Obsidian 1.8+，终端能跑 <code>obsidian version</code></li>
+          <li><strong>写 CLAUDE.md</strong> &mdash; 注册常用命令 + 使用策略，让 AI 知道怎么查知识库</li>
+          <li><strong>自然语言操作</strong> &mdash; 搜索、整合、写入，全程不碰文件管理器</li>
+          <li><strong>配置自动日志</strong> &mdash; SessionEnd Hook + <code>obsidian daily:append</code>，对话记录零成本归档</li>
+          <li><strong>优化结构</strong> &mdash; PARA 目录 + Dataview 查询 + 推荐插件，让知识库自己会「说话」</li>
+        </ol>
+
+        <p>这不是一个需要学一周才能上手的复杂系统。核心就三步：装 Obsidian、写 CLAUDE.md、开聊。剩下的按需迭代。</p>
+
+        <p><em>实测环境：macOS + Obsidian 1.12 + Claude Code (Claude Opus)</em></p>
+
+      </article>
+
+      <!-- FAQ Section -->
+      <section class="article-faq">
+        <h2>常见问题</h2>
+
+        <details>
+          <summary>Obsidian CLI 需要单独安装吗？</summary>
+          <div class="faq-answer">
+            <p>不需要。Obsidian 1.8+ 版本内置了完整的 CLI，macOS 上安装 Obsidian 后直接在终端调用即可。如果提示 <code>command not found</code>，只需在 <code>~/.zshrc</code> 中添加 alias：</p>
+            <p><code>alias obsidian="/Applications/Obsidian.app/Contents/MacOS/Obsidian"</code></p>
+            <p>添加后运行 <code>source ~/.zshrc</code>，再试 <code>obsidian version</code> 就能用了。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>这套方案和 RAG（检索增强生成）有什么区别？</summary>
+          <div class="faq-answer">
+            <p>RAG 通常需要向量数据库、Embedding 模型和额外的基础设施。这套方案零额外基础设施 &mdash; Obsidian CLI 直接利用 Obsidian 已有的搜索索引，Claude Code 直接读写本地 Markdown 文件。</p>
+            <p>没有向量化、没有数据库、没有部署成本。对个人知识库来说，CLI 的关键词搜索在精确度和上手成本上都优于 RAG。当然，如果你的笔记规模超过万级且需要语义搜索，可以考虑在此基础上叠加 RAG。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Claude Code 需要付费吗？</summary>
+          <div class="faq-answer">
+            <p>Claude Code 是 Anthropic 的官方 CLI 工具，需要 Anthropic API 订阅（Claude Pro 或 Max 计划）。但 Obsidian CLI 本身是免费的。</p>
+            <p>如果你用其他支持终端操作的 AI 工具（如 Cursor、Windsurf、Aider 等），同样的思路也适用 &mdash; 核心是「让 AI 能在终端调用 Obsidian CLI」，不绑定特定 AI 产品。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Windows 可以用吗？</summary>
+          <div class="faq-answer">
+            <p>Obsidian CLI 和 Claude Code 目前对 macOS 和 Linux 支持最好。Windows 用户需要通过 WSL2（Windows Subsystem for Linux）运行 Claude Code。</p>
+            <p>Obsidian 本身在 Windows 上运行正常，但 CLI 的路径配置需要额外处理（WSL 和 Windows 的文件系统路径不同）。推荐 WSL2 + 把 Vault 放在 Windows 侧，WSL 通过 <code>/mnt/c/</code> 访问。</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Vault 里有几千条笔记，AI 会不会把内容搞乱？</summary>
+          <div class="faq-answer">
+            <p>这取决于你怎么配置权限。在 <code>CLAUDE.md</code> 中可以明确限制 AI 只能执行 <code>search</code>（搜索）和 <code>daily:append</code>（追加日记），不允许修改已有笔记。</p>
+            <p>建议初期只开放只读 + 追加权限，等你熟悉工作流后再逐步放开。另外，强烈推荐安装 <code>obsidian-git</code> 插件做自动版本管理 &mdash; 即使改错了也可以 <code>git revert</code> 一键回滚。</p>
+          </div>
+        </details>
+      </section>
+
+      <!-- Related / CTA -->
+      <section class="article-cta">
+        <div class="cta-card">
+          <a href="/field-notes/">
+            <span class="cta-label">FIELD NOTES</span>
+            <span class="cta-title">实验室</span>
+            <span class="cta-desc">更多教程、模板、复盘和工具评测</span>
+          </a>
+          <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">
+            <span class="cta-label">XIAOHONGSHU</span>
+            <span class="cta-title">小红书</span>
+            <span class="cta-desc">AI 实践、工具评测、提效方法论</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Share -->
+      <section class="share-section">
+        <h3>分享这篇文章</h3>
+        <div id="shareButtons"></div>
+      </section>
+
+      <!-- Quiz -->
+      <section class="quiz-section" id="quizSection" data-quiz='[
+        {"q":"Obsidian CLI 需要额外安装吗？","opts":["需要 npm install","需要 pip install","Obsidian 1.8+ 内置","需要 Homebrew 安装"],"answer":2,"explain":"Obsidian 从 1.8 版本开始内置了完整的 CLI，不需要任何额外安装。macOS 上可能需要配置 alias 指向 Obsidian 的可执行文件路径。"},
+        {"q":"这套方案的核心粘合剂是什么？","opts":["JSON 格式","SQLite 数据库","Markdown 格式","专有 API"],"answer":2,"explain":"Markdown 同时是人类可读格式和机器可解析格式，让 Obsidian GUI 和 Claude Code 可以无缝操作同一份数据，不需要格式转换或中间层。"},
+        {"q":"Obsidian CLI 相比传统 grep 搜索，在 token 消耗上大约能省多少？","opts":["2 倍","10 倍","29 倍","100 倍"],"answer":2,"explain":"实测在 8000+ 文件的 Vault 上，CLI 搜索返回约 260 字符的精简结果，而 grep 返回约 7600 字符的原始文本，相差约 29 倍。这对控制 AI 的 token 消耗非常关键。"}
+      ]'>
+      </section>
+
+    </div><!-- /.mg-inner -->
+
+    <!-- Giscus Comments -->
+    <section style="max-width:var(--max-w-wide);margin:0 auto;padding:32px 24px 48px;">
+      <div class="mg-section-rule">§ 评论 · COMMENTS</div>
+      <script src="https://giscus.app/client.js"
+        data-repo="cyrus-tt/cyrus-ai-learning-notes"
+        data-repo-id="R_kgDORTmExg"
+        data-category="General"
+        data-category-id="DIC_kwDORTmExs4C9DRZ"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </section>
+
+    <footer class="site-footer" data-pagefind-ignore>
+      <span>&copy; 2026 Cyrus</span>
+      <span>
+        <a href="/about.html">关于</a> &middot;
+        <a href="/til/">TIL</a> &middot;
+        <a href="/weekly/">周报</a> &middot;
+        <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> &middot;
+        <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+      </span>
+    </footer>
+
+    <script defer src="/ui.js"></script>
+    <script defer src="/visit-stats.js"></script>
+    <script defer src="/js/components/copy-code.js"></script>
+    <script defer src="/js/components/toc.js"></script>
+    <script defer src="/js/components/share-buttons.js"></script>
+    <script defer src="/js/components/quiz.js"></script>
+    <script defer src="/js/components/cmd-k.js"></script>
+    <script defer src="/js/components/explain-this.js"></script>
+    <script defer src="/js/components/chat-widget.js"></script>
+    <script defer src="/js/components/utm-tracker.js"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"PLACEHOLDER"}'></script>
+  </body>
+</html>
