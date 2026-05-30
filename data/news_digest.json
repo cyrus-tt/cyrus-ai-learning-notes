@@ -1,15 +1,134 @@
 {
-  "generatedAt": "2026-05-30T04:51:32.561178+00:00",
+  "generatedAt": "2026-05-30T14:27:46.187765+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-05-30",
     "label": "5月30日",
     "top10": [
       {
-        "rank": 1,
+        "rank": 6,
+        "title": "每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-30T12:48:46+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trz2pd/weekly_ai_roundup_may_2330_2026_claude_opus_48/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "为那些没有时间跟踪每一篇博客文章的人整理了本周的主要人工智能版本。坚持实质性改变，而不是炒作。 Anthropic — Claude Opus 4.8 发布了……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "我们为 Agentic DevOps 编写了一本开源交互式手册（如何将多代理系统从本地笔记本移动到生产环境）。",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-30T11:32:18+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trxgvc/we_wrote_an_opensource_interactive_playbook_for/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "大家好，如果您构建了多代理系统，您已经知道一个痛苦的事实：在本地将节点连接在一起很有趣，但部署它们绝对是基础设施的噩梦。什...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "我在为 PyTorch 训练循环构建调试器时学到了什么，以及它如何改变了我对故障诊断的看法 [D]",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-30T08:48:55+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1trui0b/what_i_learned_building_a_debugger_for_pytorch/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "嘿，r/ML，我花了几个月的时间构建了一个工具，它可以连接到 PyTorch 训练循环，以自动检测和定位故障（梯度消失、梯度爆炸、数据...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
         "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
         "platform": "量子位",
-        "aiScore": 95,
+        "aiScore": 88,
+        "publishedAt": "2026-05-30T06:33:58+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/05/426662.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "让世界模型迈向多智能体交互仿真",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "海光信息完成阶跃星辰Step 3.7 Flash适配",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-05-30T05:37:24+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3831356538529409?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "36氪获悉，5月29日，阶跃星辰发布Step 3.7 Flash，海光团队依托DTK异构计算平台与全栈软件栈，于发布当天即完成全流程适配与深度调优，实现“发布即适配、适配即高效”。即日起，开发者即可在海光平台上高效运行该模型，快速搭建多模态Agent、智能代码助手和复杂工作流应用，大幅降低接入与编排成本。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
+        "platform": "量子位",
+        "aiScore": 88,
         "publishedAt": "2026-05-30T03:17:17+00:00",
         "sourceUrl": "https://www.qbitai.com/2026/05/426643.html",
         "sourceName": "量子位",
@@ -21,7 +140,7 @@
         "summary": "让世界模型迈向多智能体交互仿真",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -29,34 +148,10 @@
         }
       },
       {
-        "rank": 2,
-        "title": "40余款AI大模型集中亮相2026世界智能产业博览会",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-30T03:01:49+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3831203586745984?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "正在天津举行的2026世界智能产业博览会上，“AI大模型对话”“生成式AI演示”“AI智能体应用”是本届展会上的关注热点。博览会上还展示了语言大模型、视觉大模型、基础科学大模型等40余款大模型，广泛应用在搜索引擎、智能体以及基础科学等领域。与以往不同的是，本届智博会大模型从以前的能力展示真正迈向了产业应用。（央视新闻）",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
+        "rank": 7,
         "title": "9点1氪｜泡泡玛特大涨，段永平日赚10亿；诺基亚发布首款微聊手机，售价199元；滴滴回应“乘客车内排泄”",
         "platform": "36氪",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-05-30T00:52:20+00:00",
         "sourceUrl": "https://36kr.com/p/3831073348855433?f=rss",
         "sourceName": "36氪",
@@ -69,7 +164,7 @@
         "summary": "今日热点导览 黄仁勋披露“赶飞机”细节，特朗普要出发时来电话 国内航线燃油附加费6月5日起首次下调 铁路将实施新规：违规乘车拒不补票将被限制购票 iPhone 17系列中国销量破3000万台，Pro Max版占近一半 SpaceX据悉将IPO估值目标下调至至少1.8万亿美元 TOP3大新闻 泡泡玛特上涨，段永平单日盈利近10亿港币 泡泡玛特迎来强势上涨，5月29日盘中最大涨幅…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -77,10 +172,10 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 8,
         "title": "最前线｜中科创星第十二期“好望角科学沙龙”聚焦“太空智驾”，卫星将从被动响应走向自主决策",
         "platform": "36氪",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-05-30T00:48:34+00:00",
         "sourceUrl": "https://36kr.com/p/3831071878358659?f=rss",
         "sourceName": "36氪",
@@ -93,7 +188,7 @@
         "summary": "“太空智驾时代将到来，卫星和星座会如同L4级自动驾驶汽车一样，在太空具备自主环境感知、任务规划和机动决策能力。” 5月28日，在上海举行的“好望角科学沙龙”上，中国科学院西安光学精密机械研究所（简称“西安光机所”）副所长邵晓鹏在演讲中提出了这一判断。 西安光机所副所长邵晓鹏在沙龙上演讲 “好望角科学沙龙”是由中科创星发起，中科创星、东壁科技数据、上海市研发公共服务平台管理中心…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -101,10 +196,10 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "36氪首发 | 服务富士康，半年营收超两千万的机器人解决方案商完成天使轮融资",
         "platform": "36氪",
-        "aiScore": 94,
+        "aiScore": 87,
         "publishedAt": "2026-05-30T01:53:46+00:00",
         "sourceUrl": "https://36kr.com/p/3831135917107075?f=rss",
         "sourceName": "36氪",
@@ -117,7 +212,7 @@
         "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，乘物机器人（深圳）有限公司（以下简称“乘物机器人”）近日完成天使轮融资，由中国台湾工业自动化与智能机器人解决方案领域龙头企业和椿科技战略投资，华君资本担任独家财务顾问。 乘物机器人成立于2025年，总部位于深圳，专注工业具身智能技术研发与产品解决方案，具备从软硬件研发、数据采集、模型训练、场景部署与维护的一体化技术能力。 创始人黄…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 19,
           "actionability": 10,
@@ -125,184 +220,96 @@
         }
       },
       {
-        "rank": 6,
-        "title": "为人工智能代理提供持久内存的经验教训",
-        "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-05-30T02:59:43+00:00",
-        "sourceUrl": "https://www.pingcap.com/blog/how-we-built-mem9-agent-memory-product/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "rank": 10,
+        "title": "天津发布2025年度人工智能十大应用标杆场景，总投资超6亿元",
+        "platform": "36氪",
+        "aiScore": 85,
+        "publishedAt": "2026-05-30T05:26:49+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3831325232670338?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
         "contentTags": [
-          "Agent",
-          "应用落地"
+          "应用落地",
+          "投融资",
+          "安全治理"
         ],
-        "summary": "文章网址：https://www.pingcap.com/blog/how-we-built-mem9-agent-memory-product/ 评论网址：https://news.ycombinator.com/item?id=48332053 积分：1 # 评论：1",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 7,
-        "title": "顶尖人工智能实验室招聘博士毕业生有多少捷径？ [D]",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-05-29T16:52:19+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tr80ll/how_much_of_a_shortcut_are_connections_in_top_ai/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "大家好。我正在努力调整我的期望，并希望能够获得来自 Anthropic、OpenAI、Google D 等公司的相关人员/具有招聘经验的人的完全诚实的观点。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "36氪获悉，2026世界智能产业博览会期间，人工智能创新与太空数智设施发展交流会在天开园举行。会上，天津市2025年度人工智能十大应用标杆场景正式发布，涵盖科研、制造、医疗、康养、教育、农业、治理、交通、文旅9大领域，总投资额超6亿元。（天津日报）",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 28,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "人工智能科学与经济：系统地图",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-05-30T02:45:41+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trnlah/ai_science_economy_systems_map/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "人工智能系统，特别是大型语言模型，通常被视为实现自主科学发现和快速经济转型的直接途径。虽然他们的能力有限……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "Anthropic 超越 OpenAI，成为全球最有价值的人工智能启动",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-05-30T01:08:15+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trli22/anthropic_tops_openai_to_become_the_worlds_most/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "Anthropic 在新一轮融资中筹集了 650 亿美元，使其估值达到 9000 亿美元，高于 OpenAI 上次估值 7300 亿美元，因为两家公司正在争夺人工智能。统治地位。人为的，哦…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "早报｜曝苹果用谷歌AI训练自己模型/黄仁勋：工程师不烧Token我会气炸/工信部：动力电池进入规模化退役阶段",
-        "platform": "爱范儿",
-        "aiScore": 78,
-        "publishedAt": "2026-05-30T00:44:15+00:00",
-        "sourceUrl": "https://www.ifanr.com/1667559",
-        "sourceName": "爱范儿",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "· 赛力斯回应特斯拉 FSD 入华 · Anthropic 招聘把价值观面试放到关键位置 · ChatGPT 消费级 AI 流量份额被追近，AI 市场进入「三足鼎立」 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
+          "authority": 25,
+          "topic": 17,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 42,
-      "avgScore": 71.5,
-      "topScore": 95,
+      "totalItems": 57,
+      "avgScore": 71.6,
+      "topScore": 88,
       "topPlatforms": [
+        {
+          "name": "Reddit",
+          "count": 23
+        },
         {
           "name": "Hacker News",
           "count": 15
-        },
-        {
-          "name": "Reddit",
-          "count": 14
         },
         {
           "name": "36氪",
           "count": 8
         },
         {
-          "name": "Google AI Blog",
-          "count": 2
+          "name": "The Verge",
+          "count": 4
         },
         {
           "name": "量子位",
-          "count": 1
+          "count": 3
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 22
+          "count": 32
         },
         {
           "name": "模型进展",
-          "count": 9
-        },
-        {
-          "name": "开源生态",
-          "count": 7
+          "count": 16
         },
         {
           "name": "Agent",
-          "count": 7
+          "count": 10
+        },
+        {
+          "name": "开源生态",
+          "count": 5
         },
         {
           "name": "应用落地",
-          "count": 4
+          "count": 5
         },
         {
           "name": "芯片算力",
-          "count": 2
+          "count": 3
         },
         {
           "name": "自动化",
-          "count": 1
+          "count": 2
         },
         {
           "name": "投融资",
-          "count": 1
+          "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 42 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / 开源生态",
-      "最高分事件：英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」（95 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 57 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……（88 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -311,10 +318,129 @@
       "label": "5月30日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 6,
+          "title": "每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-30T12:48:46+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trz2pd/weekly_ai_roundup_may_2330_2026_claude_opus_48/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "为那些没有时间跟踪每一篇博客文章的人整理了本周的主要人工智能版本。坚持实质性改变，而不是炒作。 Anthropic — Claude Opus 4.8 发布了……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "我们为 Agentic DevOps 编写了一本开源交互式手册（如何将多代理系统从本地笔记本移动到生产环境）。",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-30T11:32:18+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trxgvc/we_wrote_an_opensource_interactive_playbook_for/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "大家好，如果您构建了多代理系统，您已经知道一个痛苦的事实：在本地将节点连接在一起很有趣，但部署它们绝对是基础设施的噩梦。什...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "我在为 PyTorch 训练循环构建调试器时学到了什么，以及它如何改变了我对故障诊断的看法 [D]",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-30T08:48:55+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1trui0b/what_i_learned_building_a_debugger_for_pytorch/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "嘿，r/ML，我花了几个月的时间构建了一个工具，它可以连接到 PyTorch 训练循环，以自动检测和定位故障（梯度消失、梯度爆炸、数据...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
           "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
           "platform": "量子位",
-          "aiScore": 95,
+          "aiScore": 88,
+          "publishedAt": "2026-05-30T06:33:58+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/05/426662.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "让世界模型迈向多智能体交互仿真",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "海光信息完成阶跃星辰Step 3.7 Flash适配",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-05-30T05:37:24+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3831356538529409?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "36氪获悉，5月29日，阶跃星辰发布Step 3.7 Flash，海光团队依托DTK异构计算平台与全栈软件栈，于发布当天即完成全流程适配与深度调优，实现“发布即适配、适配即高效”。即日起，开发者即可在海光平台上高效运行该模型，快速搭建多模态Agent、智能代码助手和复杂工作流应用，大幅降低接入与编排成本。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
+          "platform": "量子位",
+          "aiScore": 88,
           "publishedAt": "2026-05-30T03:17:17+00:00",
           "sourceUrl": "https://www.qbitai.com/2026/05/426643.html",
           "sourceName": "量子位",
@@ -326,7 +452,7 @@
           "summary": "让世界模型迈向多智能体交互仿真",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -334,34 +460,10 @@
           }
         },
         {
-          "rank": 2,
-          "title": "40余款AI大模型集中亮相2026世界智能产业博览会",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-30T03:01:49+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3831203586745984?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "正在天津举行的2026世界智能产业博览会上，“AI大模型对话”“生成式AI演示”“AI智能体应用”是本届展会上的关注热点。博览会上还展示了语言大模型、视觉大模型、基础科学大模型等40余款大模型，广泛应用在搜索引擎、智能体以及基础科学等领域。与以往不同的是，本届智博会大模型从以前的能力展示真正迈向了产业应用。（央视新闻）",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
+          "rank": 7,
           "title": "9点1氪｜泡泡玛特大涨，段永平日赚10亿；诺基亚发布首款微聊手机，售价199元；滴滴回应“乘客车内排泄”",
           "platform": "36氪",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-05-30T00:52:20+00:00",
           "sourceUrl": "https://36kr.com/p/3831073348855433?f=rss",
           "sourceName": "36氪",
@@ -374,7 +476,7 @@
           "summary": "今日热点导览 黄仁勋披露“赶飞机”细节，特朗普要出发时来电话 国内航线燃油附加费6月5日起首次下调 铁路将实施新规：违规乘车拒不补票将被限制购票 iPhone 17系列中国销量破3000万台，Pro Max版占近一半 SpaceX据悉将IPO估值目标下调至至少1.8万亿美元 TOP3大新闻 泡泡玛特上涨，段永平单日盈利近10亿港币 泡泡玛特迎来强势上涨，5月29日盘中最大涨幅…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -382,10 +484,10 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 8,
           "title": "最前线｜中科创星第十二期“好望角科学沙龙”聚焦“太空智驾”，卫星将从被动响应走向自主决策",
           "platform": "36氪",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-05-30T00:48:34+00:00",
           "sourceUrl": "https://36kr.com/p/3831071878358659?f=rss",
           "sourceName": "36氪",
@@ -398,7 +500,7 @@
           "summary": "“太空智驾时代将到来，卫星和星座会如同L4级自动驾驶汽车一样，在太空具备自主环境感知、任务规划和机动决策能力。” 5月28日，在上海举行的“好望角科学沙龙”上，中国科学院西安光学精密机械研究所（简称“西安光机所”）副所长邵晓鹏在演讲中提出了这一判断。 西安光机所副所长邵晓鹏在沙龙上演讲 “好望角科学沙龙”是由中科创星发起，中科创星、东壁科技数据、上海市研发公共服务平台管理中心…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -406,10 +508,10 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "36氪首发 | 服务富士康，半年营收超两千万的机器人解决方案商完成天使轮融资",
           "platform": "36氪",
-          "aiScore": 94,
+          "aiScore": 87,
           "publishedAt": "2026-05-30T01:53:46+00:00",
           "sourceUrl": "https://36kr.com/p/3831135917107075?f=rss",
           "sourceName": "36氪",
@@ -422,7 +524,7 @@
           "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，乘物机器人（深圳）有限公司（以下简称“乘物机器人”）近日完成天使轮融资，由中国台湾工业自动化与智能机器人解决方案领域龙头企业和椿科技战略投资，华君资本担任独家财务顾问。 乘物机器人成立于2025年，总部位于深圳，专注工业具身智能技术研发与产品解决方案，具备从软硬件研发、数据采集、模型训练、场景部署与维护的一体化技术能力。 创始人黄…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 19,
             "actionability": 10,
@@ -430,184 +532,96 @@
           }
         },
         {
-          "rank": 6,
-          "title": "为人工智能代理提供持久内存的经验教训",
-          "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-05-30T02:59:43+00:00",
-          "sourceUrl": "https://www.pingcap.com/blog/how-we-built-mem9-agent-memory-product/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
+          "rank": 10,
+          "title": "天津发布2025年度人工智能十大应用标杆场景，总投资超6亿元",
+          "platform": "36氪",
+          "aiScore": 85,
+          "publishedAt": "2026-05-30T05:26:49+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3831325232670338?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
           "contentTags": [
-            "Agent",
-            "应用落地"
+            "应用落地",
+            "投融资",
+            "安全治理"
           ],
-          "summary": "文章网址：https://www.pingcap.com/blog/how-we-built-mem9-agent-memory-product/ 评论网址：https://news.ycombinator.com/item?id=48332053 积分：1 # 评论：1",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 7,
-          "title": "顶尖人工智能实验室招聘博士毕业生有多少捷径？ [D]",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-05-29T16:52:19+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tr80ll/how_much_of_a_shortcut_are_connections_in_top_ai/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "大家好。我正在努力调整我的期望，并希望能够获得来自 Anthropic、OpenAI、Google D 等公司的相关人员/具有招聘经验的人的完全诚实的观点。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "36氪获悉，2026世界智能产业博览会期间，人工智能创新与太空数智设施发展交流会在天开园举行。会上，天津市2025年度人工智能十大应用标杆场景正式发布，涵盖科研、制造、医疗、康养、教育、农业、治理、交通、文旅9大领域，总投资额超6亿元。（天津日报）",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "人工智能科学与经济：系统地图",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-05-30T02:45:41+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trnlah/ai_science_economy_systems_map/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "人工智能系统，特别是大型语言模型，通常被视为实现自主科学发现和快速经济转型的直接途径。虽然他们的能力有限……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "Anthropic 超越 OpenAI，成为全球最有价值的人工智能启动",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-05-30T01:08:15+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trli22/anthropic_tops_openai_to_become_the_worlds_most/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "Anthropic 在新一轮融资中筹集了 650 亿美元，使其估值达到 9000 亿美元，高于 OpenAI 上次估值 7300 亿美元，因为两家公司正在争夺人工智能。统治地位。人为的，哦…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "早报｜曝苹果用谷歌AI训练自己模型/黄仁勋：工程师不烧Token我会气炸/工信部：动力电池进入规模化退役阶段",
-          "platform": "爱范儿",
-          "aiScore": 78,
-          "publishedAt": "2026-05-30T00:44:15+00:00",
-          "sourceUrl": "https://www.ifanr.com/1667559",
-          "sourceName": "爱范儿",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "· 赛力斯回应特斯拉 FSD 入华 · Anthropic 招聘把价值观面试放到关键位置 · ChatGPT 消费级 AI 流量份额被追近，AI 市场进入「三足鼎立」 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
+            "authority": 25,
+            "topic": 17,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 42,
-        "avgScore": 71.5,
-        "topScore": 95,
+        "totalItems": 57,
+        "avgScore": 71.6,
+        "topScore": 88,
         "topPlatforms": [
+          {
+            "name": "Reddit",
+            "count": 23
+          },
           {
             "name": "Hacker News",
             "count": 15
-          },
-          {
-            "name": "Reddit",
-            "count": 14
           },
           {
             "name": "36氪",
             "count": 8
           },
           {
-            "name": "Google AI Blog",
-            "count": 2
+            "name": "The Verge",
+            "count": 4
           },
           {
             "name": "量子位",
-            "count": 1
+            "count": 3
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 22
+            "count": 32
           },
           {
             "name": "模型进展",
-            "count": 9
-          },
-          {
-            "name": "开源生态",
-            "count": 7
+            "count": 16
           },
           {
             "name": "Agent",
-            "count": 7
+            "count": 10
+          },
+          {
+            "name": "开源生态",
+            "count": 5
           },
           {
             "name": "应用落地",
-            "count": 4
+            "count": 5
           },
           {
             "name": "芯片算力",
-            "count": 2
+            "count": 3
           },
           {
             "name": "自动化",
-            "count": 1
+            "count": 2
           },
           {
             "name": "投融资",
-            "count": 1
+            "count": 2
           }
         ]
       },
       "briefing": [
-        "今日共收录 42 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / 开源生态",
-        "最高分事件：英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」（95 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "今日共收录 57 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……（88 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -615,7 +629,7 @@
       "label": "5月29日",
       "top10": [
         {
-          "rank": 5,
+          "rank": 1,
           "title": "机构：Agentic AI刺激存储器需求扩张，预估2027年全球存储器产值将扩大至1.28万亿美元",
           "platform": "36氪",
           "aiScore": 95,
@@ -639,7 +653,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 2,
           "title": "清华系团队给大模型织了一张“智能算力电网”",
           "platform": "量子位",
           "aiScore": 95,
@@ -662,7 +676,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 3,
           "title": "8点1氪丨Anthropic完成650亿融资，估值9650亿首次反超OpenAI；售卖不合格足银手镯，周六福被罚；黄仁勋加入清华大学，任经管学院顾问",
           "platform": "36氪",
           "aiScore": 95,
@@ -686,7 +700,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 4,
           "title": "36氪首发 | 李泽湘系投过的星空摄影设备品牌再获数百万美金融资，产品即将登陆众筹",
           "platform": "36氪",
           "aiScore": 94,
@@ -710,7 +724,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 5,
           "title": "半年访谈600+用户、获千万元融资，这名清华毕业生想把脑机“戴”进运动场｜早期项目",
           "platform": "36氪",
           "aiScore": 94,
@@ -24978,13 +24992,17 @@
     },
     "metrics": {
       "daysCovered": 2,
-      "totalItems": 87,
-      "avgTop10Score": 94.7,
+      "totalItems": 102,
+      "avgTop10Score": 91.3,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 8
+          "count": 5
+        },
+        {
+          "name": "Reddit",
+          "count": 3
         },
         {
           "name": "量子位",
@@ -24998,22 +25016,22 @@
         },
         {
           "name": "Agent",
-          "count": 6
+          "count": 8
         },
         {
           "name": "应用落地",
-          "count": 6
+          "count": 5
         },
         {
           "name": "芯片算力",
-          "count": 4
-        },
-        {
-          "name": "自动化",
           "count": 2
         },
         {
-          "name": "投融资",
+          "name": "开源生态",
+          "count": 2
+        },
+        {
+          "name": "自动化",
           "count": 1
         }
       ]
@@ -25021,101 +25039,6 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-        "platform": "量子位",
-        "aiScore": 95,
-        "publishedAt": "2026-05-30T03:17:17+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/05/426643.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "让世界模型迈向多智能体交互仿真",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 2,
-        "title": "40余款AI大模型集中亮相2026世界智能产业博览会",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-30T03:01:49+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3831203586745984?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "正在天津举行的2026世界智能产业博览会上，“AI大模型对话”“生成式AI演示”“AI智能体应用”是本届展会上的关注热点。博览会上还展示了语言大模型、视觉大模型、基础科学大模型等40余款大模型，广泛应用在搜索引擎、智能体以及基础科学等领域。与以往不同的是，本届智博会大模型从以前的能力展示真正迈向了产业应用。（央视新闻）",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "9点1氪｜泡泡玛特大涨，段永平日赚10亿；诺基亚发布首款微聊手机，售价199元；滴滴回应“乘客车内排泄”",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-30T00:52:20+00:00",
-        "sourceUrl": "https://36kr.com/p/3831073348855433?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "今日热点导览 黄仁勋披露“赶飞机”细节，特朗普要出发时来电话 国内航线燃油附加费6月5日起首次下调 铁路将实施新规：违规乘车拒不补票将被限制购票 iPhone 17系列中国销量破3000万台，Pro Max版占近一半 SpaceX据悉将IPO估值目标下调至至少1.8万亿美元 TOP3大新闻 泡泡玛特上涨，段永平单日盈利近10亿港币 泡泡玛特迎来强势上涨，5月29日盘中最大涨幅…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "最前线｜中科创星第十二期“好望角科学沙龙”聚焦“太空智驾”，卫星将从被动响应走向自主决策",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-05-30T00:48:34+00:00",
-        "sourceUrl": "https://36kr.com/p/3831071878358659?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "“太空智驾时代将到来，卫星和星座会如同L4级自动驾驶汽车一样，在太空具备自主环境感知、任务规划和机动决策能力。” 5月28日，在上海举行的“好望角科学沙龙”上，中国科学院西安光学精密机械研究所（简称“西安光机所”）副所长邵晓鹏在演讲中提出了这一判断。 西安光机所副所长邵晓鹏在沙龙上演讲 “好望角科学沙龙”是由中科创星发起，中科创星、东壁科技数据、上海市研发公共服务平台管理中心…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
         "title": "机构：Agentic AI刺激存储器需求扩张，预估2027年全球存储器产值将扩大至1.28万亿美元",
         "platform": "36氪",
         "aiScore": 95,
@@ -25139,7 +25062,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 2,
         "title": "清华系团队给大模型织了一张“智能算力电网”",
         "platform": "量子位",
         "aiScore": 95,
@@ -25162,7 +25085,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 3,
         "title": "8点1氪丨Anthropic完成650亿融资，估值9650亿首次反超OpenAI；售卖不合格足银手镯，周六福被罚；黄仁勋加入清华大学，任经管学院顾问",
         "platform": "36氪",
         "aiScore": 95,
@@ -25186,31 +25109,7 @@
         }
       },
       {
-        "rank": 8,
-        "title": "36氪首发 | 服务富士康，半年营收超两千万的机器人解决方案商完成天使轮融资",
-        "platform": "36氪",
-        "aiScore": 94,
-        "publishedAt": "2026-05-30T01:53:46+00:00",
-        "sourceUrl": "https://36kr.com/p/3831135917107075?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地",
-          "自动化"
-        ],
-        "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，乘物机器人（深圳）有限公司（以下简称“乘物机器人”）近日完成天使轮融资，由中国台湾工业自动化与智能机器人解决方案领域龙头企业和椿科技战略投资，华君资本担任独家财务顾问。 乘物机器人成立于2025年，总部位于深圳，专注工业具身智能技术研发与产品解决方案，具备从软硬件研发、数据采集、模型训练、场景部署与维护的一体化技术能力。 创始人黄…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
+        "rank": 4,
         "title": "36氪首发 | 李泽湘系投过的星空摄影设备品牌再获数百万美金融资，产品即将登陆众筹",
         "platform": "36氪",
         "aiScore": 94,
@@ -25234,7 +25133,7 @@
         }
       },
       {
-        "rank": 10,
+        "rank": 5,
         "title": "半年访谈600+用户、获千万元融资，这名清华毕业生想把脑机“戴”进运动场｜早期项目",
         "platform": "36氪",
         "aiScore": 94,
@@ -25256,13 +25155,132 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 6,
+        "title": "每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-30T12:48:46+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trz2pd/weekly_ai_roundup_may_2330_2026_claude_opus_48/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "为那些没有时间跟踪每一篇博客文章的人整理了本周的主要人工智能版本。坚持实质性改变，而不是炒作。 Anthropic — Claude Opus 4.8 发布了……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "我们为 Agentic DevOps 编写了一本开源交互式手册（如何将多代理系统从本地笔记本移动到生产环境）。",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-30T11:32:18+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trxgvc/we_wrote_an_opensource_interactive_playbook_for/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "大家好，如果您构建了多代理系统，您已经知道一个痛苦的事实：在本地将节点连接在一起很有趣，但部署它们绝对是基础设施的噩梦。什...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "我在为 PyTorch 训练循环构建调试器时学到了什么，以及它如何改变了我对故障诊断的看法 [D]",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-30T08:48:55+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1trui0b/what_i_learned_building_a_debugger_for_pytorch/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "嘿，r/ML，我花了几个月的时间构建了一个工具，它可以连接到 PyTorch 训练循环，以自动检测和定位故障（梯度消失、梯度爆炸、数据...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
+        "platform": "量子位",
+        "aiScore": 88,
+        "publishedAt": "2026-05-30T06:33:58+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/05/426662.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "让世界模型迈向多智能体交互仿真",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "海光信息完成阶跃星辰Step 3.7 Flash适配",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-05-30T05:37:24+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3831356538529409?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "36氪获悉，5月29日，阶跃星辰发布Step 3.7 Flash，海光团队依托DTK异构计算平台与全栈软件栈，于发布当天即完成全流程适配与深度调优，实现“发布即适配、适配即高效”。即日起，开发者即可在海光平台上高效运行该模型，快速搭建多模态Agent、智能代码助手和复杂工作流应用，大幅降低接入与编排成本。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "briefing": [
-      "5月第5周累计收录 87 条资讯，覆盖 2 天。",
+      "5月第5周累计收录 102 条资讯，覆盖 2 天。",
       "高频主题：模型进展 / Agent / 应用落地",
-      "本周最高分：英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」（95 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "本周最高分：机构：Agentic AI刺激存储器需求扩张，预估2027年全球存储器产值将扩大至1.28万亿美元（95 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
@@ -25275,13 +25293,17 @@
       },
       "metrics": {
         "daysCovered": 2,
-        "totalItems": 87,
-        "avgTop10Score": 94.7,
+        "totalItems": 102,
+        "avgTop10Score": 91.3,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 8
+            "count": 5
+          },
+          {
+            "name": "Reddit",
+            "count": 3
           },
           {
             "name": "量子位",
@@ -25295,22 +25317,22 @@
           },
           {
             "name": "Agent",
-            "count": 6
+            "count": 8
           },
           {
             "name": "应用落地",
-            "count": 6
+            "count": 5
           },
           {
             "name": "芯片算力",
-            "count": 4
-          },
-          {
-            "name": "自动化",
             "count": 2
           },
           {
-            "name": "投融资",
+            "name": "开源生态",
+            "count": 2
+          },
+          {
+            "name": "自动化",
             "count": 1
           }
         ]
@@ -25318,101 +25340,6 @@
       "topEvents": [
         {
           "rank": 1,
-          "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-          "platform": "量子位",
-          "aiScore": 95,
-          "publishedAt": "2026-05-30T03:17:17+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/05/426643.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "让世界模型迈向多智能体交互仿真",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
-          "title": "40余款AI大模型集中亮相2026世界智能产业博览会",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-30T03:01:49+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3831203586745984?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "正在天津举行的2026世界智能产业博览会上，“AI大模型对话”“生成式AI演示”“AI智能体应用”是本届展会上的关注热点。博览会上还展示了语言大模型、视觉大模型、基础科学大模型等40余款大模型，广泛应用在搜索引擎、智能体以及基础科学等领域。与以往不同的是，本届智博会大模型从以前的能力展示真正迈向了产业应用。（央视新闻）",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "9点1氪｜泡泡玛特大涨，段永平日赚10亿；诺基亚发布首款微聊手机，售价199元；滴滴回应“乘客车内排泄”",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-30T00:52:20+00:00",
-          "sourceUrl": "https://36kr.com/p/3831073348855433?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 黄仁勋披露“赶飞机”细节，特朗普要出发时来电话 国内航线燃油附加费6月5日起首次下调 铁路将实施新规：违规乘车拒不补票将被限制购票 iPhone 17系列中国销量破3000万台，Pro Max版占近一半 SpaceX据悉将IPO估值目标下调至至少1.8万亿美元 TOP3大新闻 泡泡玛特上涨，段永平单日盈利近10亿港币 泡泡玛特迎来强势上涨，5月29日盘中最大涨幅…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "最前线｜中科创星第十二期“好望角科学沙龙”聚焦“太空智驾”，卫星将从被动响应走向自主决策",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-30T00:48:34+00:00",
-          "sourceUrl": "https://36kr.com/p/3831071878358659?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "“太空智驾时代将到来，卫星和星座会如同L4级自动驾驶汽车一样，在太空具备自主环境感知、任务规划和机动决策能力。” 5月28日，在上海举行的“好望角科学沙龙”上，中国科学院西安光学精密机械研究所（简称“西安光机所”）副所长邵晓鹏在演讲中提出了这一判断。 西安光机所副所长邵晓鹏在沙龙上演讲 “好望角科学沙龙”是由中科创星发起，中科创星、东壁科技数据、上海市研发公共服务平台管理中心…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
           "title": "机构：Agentic AI刺激存储器需求扩张，预估2027年全球存储器产值将扩大至1.28万亿美元",
           "platform": "36氪",
           "aiScore": 95,
@@ -25436,7 +25363,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 2,
           "title": "清华系团队给大模型织了一张“智能算力电网”",
           "platform": "量子位",
           "aiScore": 95,
@@ -25459,7 +25386,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 3,
           "title": "8点1氪丨Anthropic完成650亿融资，估值9650亿首次反超OpenAI；售卖不合格足银手镯，周六福被罚；黄仁勋加入清华大学，任经管学院顾问",
           "platform": "36氪",
           "aiScore": 95,
@@ -25483,31 +25410,7 @@
           }
         },
         {
-          "rank": 8,
-          "title": "36氪首发 | 服务富士康，半年营收超两千万的机器人解决方案商完成天使轮融资",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-05-30T01:53:46+00:00",
-          "sourceUrl": "https://36kr.com/p/3831135917107075?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "自动化"
-          ],
-          "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，乘物机器人（深圳）有限公司（以下简称“乘物机器人”）近日完成天使轮融资，由中国台湾工业自动化与智能机器人解决方案领域龙头企业和椿科技战略投资，华君资本担任独家财务顾问。 乘物机器人成立于2025年，总部位于深圳，专注工业具身智能技术研发与产品解决方案，具备从软硬件研发、数据采集、模型训练、场景部署与维护的一体化技术能力。 创始人黄…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
+          "rank": 4,
           "title": "36氪首发 | 李泽湘系投过的星空摄影设备品牌再获数百万美金融资，产品即将登陆众筹",
           "platform": "36氪",
           "aiScore": 94,
@@ -25531,7 +25434,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 5,
           "title": "半年访谈600+用户、获千万元融资，这名清华毕业生想把脑机“戴”进运动场｜早期项目",
           "platform": "36氪",
           "aiScore": 94,
@@ -25553,13 +25456,132 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 6,
+          "title": "每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-30T12:48:46+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trz2pd/weekly_ai_roundup_may_2330_2026_claude_opus_48/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "为那些没有时间跟踪每一篇博客文章的人整理了本周的主要人工智能版本。坚持实质性改变，而不是炒作。 Anthropic — Claude Opus 4.8 发布了……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "我们为 Agentic DevOps 编写了一本开源交互式手册（如何将多代理系统从本地笔记本移动到生产环境）。",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-30T11:32:18+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trxgvc/we_wrote_an_opensource_interactive_playbook_for/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "大家好，如果您构建了多代理系统，您已经知道一个痛苦的事实：在本地将节点连接在一起很有趣，但部署它们绝对是基础设施的噩梦。什...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "我在为 PyTorch 训练循环构建调试器时学到了什么，以及它如何改变了我对故障诊断的看法 [D]",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-30T08:48:55+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1trui0b/what_i_learned_building_a_debugger_for_pytorch/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "嘿，r/ML，我花了几个月的时间构建了一个工具，它可以连接到 PyTorch 训练循环，以自动检测和定位故障（梯度消失、梯度爆炸、数据...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
+          "platform": "量子位",
+          "aiScore": 88,
+          "publishedAt": "2026-05-30T06:33:58+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/05/426662.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "让世界模型迈向多智能体交互仿真",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "海光信息完成阶跃星辰Step 3.7 Flash适配",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-05-30T05:37:24+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3831356538529409?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "36氪获悉，5月29日，阶跃星辰发布Step 3.7 Flash，海光团队依托DTK异构计算平台与全栈软件栈，于发布当天即完成全流程适配与深度调优，实现“发布即适配、适配即高效”。即日起，开发者即可在海光平台上高效运行该模型，快速搭建多模态Agent、智能代码助手和复杂工作流应用，大幅降低接入与编排成本。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "5月第5周累计收录 87 条资讯，覆盖 2 天。",
+        "5月第5周累计收录 102 条资讯，覆盖 2 天。",
         "高频主题：模型进展 / Agent / 应用落地",
-        "本周最高分：英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」（95 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "本周最高分：机构：Agentic AI刺激存储器需求扩张，预估2027年全球存储器产值将扩大至1.28万亿美元（95 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
