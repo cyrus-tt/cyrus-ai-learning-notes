@@ -1,171 +1,52 @@
 {
-  "generatedAt": "2026-05-30T14:27:46.187765+00:00",
+  "generatedAt": "2026-05-31T05:16:45.792511+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-05-30",
-    "label": "5月30日",
+    "date": "2026-05-31",
+    "label": "5月31日",
     "top10": [
       {
         "rank": 6,
-        "title": "每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……",
-        "platform": "Reddit",
+        "title": "Show HN：我制作了一个 Gemma 4 Mac 应用程序，用本地 AI 命名屏幕截图",
+        "platform": "Hacker News",
         "aiScore": 88,
-        "publishedAt": "2026-05-30T12:48:46+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trz2pd/weekly_ai_roundup_may_2330_2026_claude_opus_48/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "为那些没有时间跟踪每一篇博客文章的人整理了本周的主要人工智能版本。坚持实质性改变，而不是炒作。 Anthropic — Claude Opus 4.8 发布了……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "我们为 Agentic DevOps 编写了一本开源交互式手册（如何将多代理系统从本地笔记本移动到生产环境）。",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-05-30T11:32:18+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trxgvc/we_wrote_an_opensource_interactive_playbook_for/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "大家好，如果您构建了多代理系统，您已经知道一个痛苦的事实：在本地将节点连接在一起很有趣，但部署它们绝对是基础设施的噩梦。什...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "我在为 PyTorch 训练循环构建调试器时学到了什么，以及它如何改变了我对故障诊断的看法 [D]",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-05-30T08:48:55+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1trui0b/what_i_learned_building_a_debugger_for_pytorch/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "嘿，r/ML，我花了几个月的时间构建了一个工具，它可以连接到 PyTorch 训练循环，以自动检测和定位故障（梯度消失、梯度爆炸、数据...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-        "platform": "量子位",
-        "aiScore": 88,
-        "publishedAt": "2026-05-30T06:33:58+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/05/426662.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "让世界模型迈向多智能体交互仿真",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "海光信息完成阶跃星辰Step 3.7 Flash适配",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-05-30T05:37:24+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3831356538529409?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "36氪获悉，5月29日，阶跃星辰发布Step 3.7 Flash，海光团队依托DTK异构计算平台与全栈软件栈，于发布当天即完成全流程适配与深度调优，实现“发布即适配、适配即高效”。即日起，开发者即可在海光平台上高效运行该模型，快速搭建多模态Agent、智能代码助手和复杂工作流应用，大幅降低接入与编排成本。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-        "platform": "量子位",
-        "aiScore": 88,
-        "publishedAt": "2026-05-30T03:17:17+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/05/426643.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "让世界模型迈向多智能体交互仿真",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "9点1氪｜泡泡玛特大涨，段永平日赚10亿；诺基亚发布首款微聊手机，售价199元；滴滴回应“乘客车内排泄”",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-05-30T00:52:20+00:00",
-        "sourceUrl": "https://36kr.com/p/3831073348855433?f=rss",
-        "sourceName": "36氪",
+        "publishedAt": "2026-05-31T01:40:56+00:00",
+        "sourceUrl": "https://snapname.app",
+        "sourceName": "Hacker News AI",
         "industryStage": "上游",
         "contentTags": [
           "芯片算力",
           "模型进展",
+          "安全治理"
+        ],
+        "summary": "我制作了我的第一个 macOS 实用程序应用程序，该应用程序附带捆绑的 Gemma 4 模型，特别是 Gemma E4B 模型。它使我的应用程序 DMG 大小为 5.3 GB，但我认为这对于 pow 来说太小了……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "mlx-code — Apple Silicon 的本地 LLM 编码代理",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-31T01:35:16+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tshkvj/mlxcode_local_llm_coding_agent_for_apple_silicon/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
           "Agent"
         ],
-        "summary": "今日热点导览 黄仁勋披露“赶飞机”细节，特朗普要出发时来电话 国内航线燃油附加费6月5日起首次下调 铁路将实施新规：违规乘车拒不补票将被限制购票 iPhone 17系列中国销量破3000万台，Pro Max版占近一半 SpaceX据悉将IPO估值目标下调至至少1.8万亿美元 TOP3大新闻 泡泡玛特上涨，段永平单日盈利近10亿港币 泡泡玛特迎来强势上涨，5月29日盘中最大涨幅…",
+        "summary": "轻量级本地编码代理，重点是子代理，而不是将所有内容都塞到一个巨大的上下文中。这个想法是减少上下文腐烂和 kv 缓存大小，以便扩展到 lar...",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
+          "recency": 35,
+          "authority": 18,
           "topic": 20,
           "actionability": 10,
           "heat": 5
@@ -173,152 +54,558 @@
       },
       {
         "rank": 8,
-        "title": "最前线｜中科创星第十二期“好望角科学沙龙”聚焦“太空智驾”，卫星将从被动响应走向自主决策",
-        "platform": "36氪",
+        "title": "“人工智能还没有做任何有用的事情”这一观点一直困扰着我，直到我放弃了聊天窗口",
+        "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-05-30T00:48:34+00:00",
-        "sourceUrl": "https://36kr.com/p/3831071878358659?f=rss",
-        "sourceName": "36氪",
+        "publishedAt": "2026-05-31T00:19:41+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tsg02o/the_take_that_ai_doesnt_do_anything_useful_yet/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
           "模型进展",
-          "应用落地"
+          "Agent"
         ],
-        "summary": "“太空智驾时代将到来，卫星和星座会如同L4级自动驾驶汽车一样，在太空具备自主环境感知、任务规划和机动决策能力。” 5月28日，在上海举行的“好望角科学沙龙”上，中国科学院西安光学精密机械研究所（简称“西安光机所”）副所长邵晓鹏在演讲中提出了这一判断。 西安光机所副所长邵晓鹏在沙龙上演讲 “好望角科学沙龙”是由中科创星发起，中科创星、东壁科技数据、上海市研发公共服务平台管理中心…",
+        "summary": "上周算了一下：周一的一次评论让我打开了 6 个应用程序，并在所有应用程序之间进行复制粘贴，而第 7 个选项卡中的一个聊天机器人则向我提供我仍然需要采取行动的摘要。那就是……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
+          "recency": 35,
+          "authority": 18,
           "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 9,
-        "title": "36氪首发 | 服务富士康，半年营收超两千万的机器人解决方案商完成天使轮融资",
-        "platform": "36氪",
+        "rank": 4,
+        "title": "Llama 手术：通过可微分超度量拓扑注入对预训练语言模型进行连续稀疏化",
+        "platform": "Reddit",
         "aiScore": 87,
-        "publishedAt": "2026-05-30T01:53:46+00:00",
-        "sourceUrl": "https://36kr.com/p/3831135917107075?f=rss",
-        "sourceName": "36氪",
+        "publishedAt": "2026-05-31T01:34:56+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tshkls/llama_surgery_continuous_sparsification_of/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "应用落地",
-          "自动化"
+          "开源生态",
+          "应用落地"
         ],
-        "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，乘物机器人（深圳）有限公司（以下简称“乘物机器人”）近日完成天使轮融资，由中国台湾工业自动化与智能机器人解决方案领域龙头企业和椿科技战略投资，华君资本担任独家财务顾问。 乘物机器人成立于2025年，总部位于深圳，专注工业具身智能技术研发与产品解决方案，具备从软硬件研发、数据采集、模型训练、场景部署与维护的一体化技术能力。 创始人黄…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "续集：学习跳过块：自我发现的用于硬件加速稀疏注意力的超度量路由摘要我们提出 Llama 手术，一种注入学习块 sp 的方法......",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
+          "recency": 35,
+          "authority": 18,
           "topic": 19,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 10,
-        "title": "天津发布2025年度人工智能十大应用标杆场景，总投资超6亿元",
+        "rank": 5,
+        "title": "软银承诺斥资750亿欧元在法国建设人工智能设施",
         "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-05-30T05:26:49+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3831325232670338?f=rss",
+        "aiScore": 86,
+        "publishedAt": "2026-05-31T04:32:41+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3832585694193541?f=rss",
         "sourceName": "36氪",
-        "industryStage": "下游",
+        "industryStage": "上游",
         "contentTags": [
-          "应用落地",
-          "投融资",
-          "安全治理"
+          "芯片算力",
+          "投融资"
         ],
-        "summary": "36氪获悉，2026世界智能产业博览会期间，人工智能创新与太空数智设施发展交流会在天开园举行。会上，天津市2025年度人工智能十大应用标杆场景正式发布，涵盖科研、制造、医疗、康养、教育、农业、治理、交通、文旅9大领域，总投资额超6亿元。（天津日报）",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "软银承诺最高投入750亿欧元，在法国打造大型人工智能计算集群网络，该项目将成为欧洲规模最大的数据中心工程。这也是软银在美国以外完成的单笔最大规模人工智能投资。知情人士称，今年4月初法国总统马克龙与孙正义在东京共进晚餐后，双方迅速敲定了此项合作。软银首期将牵头投入450亿欧元，计划到2031年在上法兰西大区建成3.1吉瓦的算力规模，后续还规划新增2吉瓦算力。（新浪财经）",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 25,
           "topic": 17,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "AI原生时代下，让世界适应Agent，而非教AI做人 | 港大黄超@AIGC2026",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-05-31T03:54:27+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/05/426819.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "CLI更像是Agent的母语",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "从Token无上限到全员Agent：MiniMax的AI Native组织进化实践",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-05-31T01:29:42+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/05/426793.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "与其焦虑AI，不如加入AI",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "小米技术：MiMo-V2.5实现五大核心突破，降价后仍能实现收支平衡",
+        "platform": "36氪",
+        "aiScore": 85,
+        "publishedAt": "2026-05-31T01:26:02+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3832525007284097?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "36氪获悉，小米MiMo大模型团队在官方技术博客发布文章，首次完整公开MiMo-V2.5系列大模型API永久降价背后的技术路径。文章称，MiMO-V2.5实现了KVCache双池+SWA-aware前缀树、GCache分布式缓存、KVCache亲和调度、Decode阶段MTP加速、多模态推理优化五大核心突破，降价后仍能维持收支平衡。此外，4月28日推出的“百万亿Token创造…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "构建生产型人工智能代理的标准（+可安装的克劳德代码技能）",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-05-31T05:00:23+00:00",
+        "sourceUrl": "https://github.com/AlexDuchDev/agentic-product-standard",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态",
+          "应用落地"
+        ],
+        "summary": "文章网址：https://github.com/AlexDuchDev/agentic-product-standard 评论网址：https://news.ycombinator.com/item?id=48343169 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 10,
+        "title": "Show HN：OWASP Agent Memory Guard – 阻止 AI 代理内存中毒",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-05-31T03:17:13+00:00",
+        "sourceUrl": "https://github.com/OWASP/www-project-agent-memory-guard",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/OWASP/www-project-agent-memory-guard 评论网址：https://news.ycombinator.com/item?id=48342710 积分：2 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 2
         }
       }
     ],
     "metrics": {
-      "totalItems": 57,
-      "avgScore": 71.6,
+      "totalItems": 31,
+      "avgScore": 73.5,
       "topScore": 88,
       "topPlatforms": [
         {
-          "name": "Reddit",
-          "count": 23
+          "name": "Hacker News",
+          "count": 14
         },
         {
-          "name": "Hacker News",
-          "count": 15
+          "name": "Reddit",
+          "count": 13
         },
         {
           "name": "36氪",
-          "count": 8
-        },
-        {
-          "name": "The Verge",
-          "count": 4
+          "count": 2
         },
         {
           "name": "量子位",
-          "count": 3
+          "count": 2
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 32
+          "count": 13
         },
         {
           "name": "模型进展",
-          "count": 16
-        },
-        {
-          "name": "Agent",
           "count": 10
         },
         {
+          "name": "Agent",
+          "count": 9
+        },
+        {
           "name": "开源生态",
-          "count": 5
+          "count": 8
         },
         {
           "name": "应用落地",
-          "count": 5
-        },
-        {
-          "name": "芯片算力",
           "count": 3
         },
         {
-          "name": "自动化",
+          "name": "芯片算力",
           "count": 2
         },
         {
           "name": "投融资",
-          "count": 2
+          "count": 1
+        },
+        {
+          "name": "安全治理",
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 57 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 31 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……（88 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "最高分事件：Show HN：我制作了一个 Gemma 4 Mac 应用程序，用本地 AI 命名屏幕截图（88 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-05-31",
+      "label": "5月31日",
+      "top10": [
+        {
+          "rank": 6,
+          "title": "Show HN：我制作了一个 Gemma 4 Mac 应用程序，用本地 AI 命名屏幕截图",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-05-31T01:40:56+00:00",
+          "sourceUrl": "https://snapname.app",
+          "sourceName": "Hacker News AI",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "我制作了我的第一个 macOS 实用程序应用程序，该应用程序附带捆绑的 Gemma 4 模型，特别是 Gemma E4B 模型。它使我的应用程序 DMG 大小为 5.3 GB，但我认为这对于 pow 来说太小了……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "mlx-code — Apple Silicon 的本地 LLM 编码代理",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-31T01:35:16+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tshkvj/mlxcode_local_llm_coding_agent_for_apple_silicon/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "轻量级本地编码代理，重点是子代理，而不是将所有内容都塞到一个巨大的上下文中。这个想法是减少上下文腐烂和 kv 缓存大小，以便扩展到 lar...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "“人工智能还没有做任何有用的事情”这一观点一直困扰着我，直到我放弃了聊天窗口",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-31T00:19:41+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tsg02o/the_take_that_ai_doesnt_do_anything_useful_yet/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "上周算了一下：周一的一次评论让我打开了 6 个应用程序，并在所有应用程序之间进行复制粘贴，而第 7 个选项卡中的一个聊天机器人则向我提供我仍然需要采取行动的摘要。那就是……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "Llama 手术：通过可微分超度量拓扑注入对预训练语言模型进行连续稀疏化",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-05-31T01:34:56+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tshkls/llama_surgery_continuous_sparsification_of/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "应用落地"
+          ],
+          "summary": "续集：学习跳过块：自我发现的用于硬件加速稀疏注意力的超度量路由摘要我们提出 Llama 手术，一种注入学习块 sp 的方法......",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "软银承诺斥资750亿欧元在法国建设人工智能设施",
+          "platform": "36氪",
+          "aiScore": 86,
+          "publishedAt": "2026-05-31T04:32:41+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3832585694193541?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "投融资"
+          ],
+          "summary": "软银承诺最高投入750亿欧元，在法国打造大型人工智能计算集群网络，该项目将成为欧洲规模最大的数据中心工程。这也是软银在美国以外完成的单笔最大规模人工智能投资。知情人士称，今年4月初法国总统马克龙与孙正义在东京共进晚餐后，双方迅速敲定了此项合作。软银首期将牵头投入450亿欧元，计划到2031年在上法兰西大区建成3.1吉瓦的算力规模，后续还规划新增2吉瓦算力。（新浪财经）",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 17,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "AI原生时代下，让世界适应Agent，而非教AI做人 | 港大黄超@AIGC2026",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-05-31T03:54:27+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/05/426819.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "CLI更像是Agent的母语",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "从Token无上限到全员Agent：MiniMax的AI Native组织进化实践",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-05-31T01:29:42+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/05/426793.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "与其焦虑AI，不如加入AI",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "小米技术：MiMo-V2.5实现五大核心突破，降价后仍能实现收支平衡",
+          "platform": "36氪",
+          "aiScore": 85,
+          "publishedAt": "2026-05-31T01:26:02+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3832525007284097?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "36氪获悉，小米MiMo大模型团队在官方技术博客发布文章，首次完整公开MiMo-V2.5系列大模型API永久降价背后的技术路径。文章称，MiMO-V2.5实现了KVCache双池+SWA-aware前缀树、GCache分布式缓存、KVCache亲和调度、Decode阶段MTP加速、多模态推理优化五大核心突破，降价后仍能维持收支平衡。此外，4月28日推出的“百万亿Token创造…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "构建生产型人工智能代理的标准（+可安装的克劳德代码技能）",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-05-31T05:00:23+00:00",
+          "sourceUrl": "https://github.com/AlexDuchDev/agentic-product-standard",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态",
+            "应用落地"
+          ],
+          "summary": "文章网址：https://github.com/AlexDuchDev/agentic-product-standard 评论网址：https://news.ycombinator.com/item?id=48343169 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 10,
+          "title": "Show HN：OWASP Agent Memory Guard – 阻止 AI 代理内存中毒",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-05-31T03:17:13+00:00",
+          "sourceUrl": "https://github.com/OWASP/www-project-agent-memory-guard",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/OWASP/www-project-agent-memory-guard 评论网址：https://news.ycombinator.com/item?id=48342710 积分：2 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 2
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 31,
+        "avgScore": 73.5,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 14
+          },
+          {
+            "name": "Reddit",
+            "count": 13
+          },
+          {
+            "name": "36氪",
+            "count": 2
+          },
+          {
+            "name": "量子位",
+            "count": 2
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 13
+          },
+          {
+            "name": "模型进展",
+            "count": 10
+          },
+          {
+            "name": "Agent",
+            "count": 9
+          },
+          {
+            "name": "开源生态",
+            "count": 8
+          },
+          {
+            "name": "应用落地",
+            "count": 3
+          },
+          {
+            "name": "芯片算力",
+            "count": 2
+          },
+          {
+            "name": "投融资",
+            "count": 1
+          },
+          {
+            "name": "安全治理",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 31 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：Show HN：我制作了一个 Gemma 4 Mac 应用程序，用本地 AI 命名屏幕截图（88 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      ]
+    },
     {
       "date": "2026-05-30",
       "label": "5月30日",
       "top10": [
         {
-          "rank": 6,
+          "rank": 9,
           "title": "每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……",
           "platform": "Reddit",
           "aiScore": 88,
@@ -342,7 +629,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 10,
           "title": "我们为 Agentic DevOps 编写了一本开源交互式手册（如何将多代理系统从本地笔记本移动到生产环境）。",
           "platform": "Reddit",
           "aiScore": 88,
@@ -24991,22 +25278,26 @@
       "end": "2026-05-31"
     },
     "metrics": {
-      "daysCovered": 2,
-      "totalItems": 102,
+      "daysCovered": 3,
+      "totalItems": 133,
       "avgTop10Score": 91.3,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 5
+          "count": 4
         },
         {
           "name": "Reddit",
-          "count": 3
+          "count": 4
         },
         {
           "name": "量子位",
-          "count": 2
+          "count": 1
+        },
+        {
+          "name": "Hacker News",
+          "count": 1
         }
       ],
       "topTopics": [
@@ -25016,22 +25307,22 @@
         },
         {
           "name": "Agent",
-          "count": 8
+          "count": 7
         },
         {
           "name": "应用落地",
-          "count": 5
+          "count": 4
         },
         {
           "name": "芯片算力",
-          "count": 2
-        },
-        {
-          "name": "开源生态",
-          "count": 2
+          "count": 3
         },
         {
           "name": "自动化",
+          "count": 1
+        },
+        {
+          "name": "投融资",
           "count": 1
         }
       ]
@@ -25158,6 +25449,76 @@
       },
       {
         "rank": 6,
+        "title": "Show HN：我制作了一个 Gemma 4 Mac 应用程序，用本地 AI 命名屏幕截图",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-05-31T01:40:56+00:00",
+        "sourceUrl": "https://snapname.app",
+        "sourceName": "Hacker News AI",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "安全治理"
+        ],
+        "summary": "我制作了我的第一个 macOS 实用程序应用程序，该应用程序附带捆绑的 Gemma 4 模型，特别是 Gemma E4B 模型。它使我的应用程序 DMG 大小为 5.3 GB，但我认为这对于 pow 来说太小了……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "mlx-code — Apple Silicon 的本地 LLM 编码代理",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-31T01:35:16+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tshkvj/mlxcode_local_llm_coding_agent_for_apple_silicon/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "轻量级本地编码代理，重点是子代理，而不是将所有内容都塞到一个巨大的上下文中。这个想法是减少上下文腐烂和 kv 缓存大小，以便扩展到 lar...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "“人工智能还没有做任何有用的事情”这一观点一直困扰着我，直到我放弃了聊天窗口",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-05-31T00:19:41+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tsg02o/the_take_that_ai_doesnt_do_anything_useful_yet/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "上周算了一下：周一的一次评论让我打开了 6 个应用程序，并在所有应用程序之间进行复制粘贴，而第 7 个选项卡中的一个聊天机器人则向我提供我仍然需要采取行动的摘要。那就是……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
         "title": "每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……",
         "platform": "Reddit",
         "aiScore": 88,
@@ -25181,7 +25542,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 10,
         "title": "我们为 Agentic DevOps 编写了一本开源交互式手册（如何将多代理系统从本地笔记本移动到生产环境）。",
         "platform": "Reddit",
         "aiScore": 88,
@@ -25203,81 +25564,10 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 8,
-        "title": "我在为 PyTorch 训练循环构建调试器时学到了什么，以及它如何改变了我对故障诊断的看法 [D]",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-05-30T08:48:55+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1trui0b/what_i_learned_building_a_debugger_for_pytorch/",
-        "sourceName": "Reddit r/MachineLearning",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "嘿，r/ML，我花了几个月的时间构建了一个工具，它可以连接到 PyTorch 训练循环，以自动检测和定位故障（梯度消失、梯度爆炸、数据...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-        "platform": "量子位",
-        "aiScore": 88,
-        "publishedAt": "2026-05-30T06:33:58+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/05/426662.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "让世界模型迈向多智能体交互仿真",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "海光信息完成阶跃星辰Step 3.7 Flash适配",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-05-30T05:37:24+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3831356538529409?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "36氪获悉，5月29日，阶跃星辰发布Step 3.7 Flash，海光团队依托DTK异构计算平台与全栈软件栈，于发布当天即完成全流程适配与深度调优，实现“发布即适配、适配即高效”。即日起，开发者即可在海光平台上高效运行该模型，快速搭建多模态Agent、智能代码助手和复杂工作流应用，大幅降低接入与编排成本。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "5月第5周累计收录 102 条资讯，覆盖 2 天。",
+      "5月第5周累计收录 133 条资讯，覆盖 3 天。",
       "高频主题：模型进展 / Agent / 应用落地",
       "本周最高分：机构：Agentic AI刺激存储器需求扩张，预估2027年全球存储器产值将扩大至1.28万亿美元（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -25292,22 +25582,26 @@
         "end": "2026-05-31"
       },
       "metrics": {
-        "daysCovered": 2,
-        "totalItems": 102,
+        "daysCovered": 3,
+        "totalItems": 133,
         "avgTop10Score": 91.3,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 5
+            "count": 4
           },
           {
             "name": "Reddit",
-            "count": 3
+            "count": 4
           },
           {
             "name": "量子位",
-            "count": 2
+            "count": 1
+          },
+          {
+            "name": "Hacker News",
+            "count": 1
           }
         ],
         "topTopics": [
@@ -25317,22 +25611,22 @@
           },
           {
             "name": "Agent",
-            "count": 8
+            "count": 7
           },
           {
             "name": "应用落地",
-            "count": 5
+            "count": 4
           },
           {
             "name": "芯片算力",
-            "count": 2
-          },
-          {
-            "name": "开源生态",
-            "count": 2
+            "count": 3
           },
           {
             "name": "自动化",
+            "count": 1
+          },
+          {
+            "name": "投融资",
             "count": 1
           }
         ]
@@ -25459,6 +25753,76 @@
         },
         {
           "rank": 6,
+          "title": "Show HN：我制作了一个 Gemma 4 Mac 应用程序，用本地 AI 命名屏幕截图",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-05-31T01:40:56+00:00",
+          "sourceUrl": "https://snapname.app",
+          "sourceName": "Hacker News AI",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "我制作了我的第一个 macOS 实用程序应用程序，该应用程序附带捆绑的 Gemma 4 模型，特别是 Gemma E4B 模型。它使我的应用程序 DMG 大小为 5.3 GB，但我认为这对于 pow 来说太小了……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "mlx-code — Apple Silicon 的本地 LLM 编码代理",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-31T01:35:16+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tshkvj/mlxcode_local_llm_coding_agent_for_apple_silicon/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "轻量级本地编码代理，重点是子代理，而不是将所有内容都塞到一个巨大的上下文中。这个想法是减少上下文腐烂和 kv 缓存大小，以便扩展到 lar...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "“人工智能还没有做任何有用的事情”这一观点一直困扰着我，直到我放弃了聊天窗口",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-05-31T00:19:41+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tsg02o/the_take_that_ai_doesnt_do_anything_useful_yet/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "上周算了一下：周一的一次评论让我打开了 6 个应用程序，并在所有应用程序之间进行复制粘贴，而第 7 个选项卡中的一个聊天机器人则向我提供我仍然需要采取行动的摘要。那就是……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
           "title": "每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……",
           "platform": "Reddit",
           "aiScore": 88,
@@ -25482,7 +25846,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 10,
           "title": "我们为 Agentic DevOps 编写了一本开源交互式手册（如何将多代理系统从本地笔记本移动到生产环境）。",
           "platform": "Reddit",
           "aiScore": 88,
@@ -25504,81 +25868,10 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 8,
-          "title": "我在为 PyTorch 训练循环构建调试器时学到了什么，以及它如何改变了我对故障诊断的看法 [D]",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T08:48:55+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1trui0b/what_i_learned_building_a_debugger_for_pytorch/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "嘿，r/ML，我花了几个月的时间构建了一个工具，它可以连接到 PyTorch 训练循环，以自动检测和定位故障（梯度消失、梯度爆炸、数据...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-          "platform": "量子位",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T06:33:58+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/05/426662.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "让世界模型迈向多智能体交互仿真",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "海光信息完成阶跃星辰Step 3.7 Flash适配",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T05:37:24+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3831356538529409?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "36氪获悉，5月29日，阶跃星辰发布Step 3.7 Flash，海光团队依托DTK异构计算平台与全栈软件栈，于发布当天即完成全流程适配与深度调优，实现“发布即适配、适配即高效”。即日起，开发者即可在海光平台上高效运行该模型，快速搭建多模态Agent、智能代码助手和复杂工作流应用，大幅降低接入与编排成本。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "5月第5周累计收录 102 条资讯，覆盖 2 天。",
+        "5月第5周累计收录 133 条资讯，覆盖 3 天。",
         "高频主题：模型进展 / Agent / 应用落地",
         "本周最高分：机构：Agentic AI刺激存储器需求扩张，预估2027年全球存储器产值将扩大至1.28万亿美元（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
