@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T17:59:24.741070+00:00",
+  "generatedAt": "2026-06-04T05:54:27.256273+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-06-04",
@@ -7,22 +7,23 @@
     "top10": [
       {
         "rank": 1,
-        "title": "AlphaZero训练数据分析[D]",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-06-03T17:22:17+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tvw6sc/analysis_of_alphazero_training_data_d/",
-        "sourceName": "Reddit r/MachineLearning",
+        "title": "深圳具身公司获得汇川、中国电信亿元融资，“视触觉”传感器出货量行业第一｜硬氪首发",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-06-04T01:30:00+00:00",
+        "sourceUrl": "https://36kr.com/p/3837269482091656?f=rss",
+        "sourceName": "36氪",
         "industryStage": "中游",
         "contentTags": [
+          "芯片算力",
           "模型进展",
-          "Agent"
+          "开源生态"
         ],
-        "summary": "我正在尝试在 6x6 棋盘上为 Othello 训练 AlphaZero 模型。有人警告说，数据生成过程中探索太少可能会导致模型过度自信并陷入困境......",
+        "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，戴盟机器人近日完成亿元A轮融资，由汇川技术旗下产业基金汇川产投与中国电信联合投资。资金将用于进一步打造超大规模含物理交互信息数据集，加速物理世界模型研发、并驱动真实物理场景下的数据飞轮与商业闭环。 戴盟机器人于2023年正式运营，核心团队长期聚焦机器人灵巧操作与物理交互智能领域。联合创始人兼首席科学家王煜教授曾任港科大机器人研究院创始院长，…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 20,
           "actionability": 10,
           "heat": 5
@@ -30,254 +31,275 @@
       },
       {
         "rank": 2,
-        "title": "随着人工智能变得更好，它揭示了一个空洞的承诺",
-        "platform": "The Verge",
-        "aiScore": 85,
-        "publishedAt": "2026-06-03T17:45:35+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise",
-        "sourceName": "The Verge AI",
+        "title": "阶跃 Step 3.7 Flash 位列 Artificial Analysis 输出速度榜主流第一",
+        "platform": "36氪",
+        "aiScore": 93,
+        "publishedAt": "2026-06-04T04:38:40+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3838369881033218?f=rss",
+        "sourceName": "36氪",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "模型进展",
+          "开源生态"
         ],
-        "summary": "本周，我的同事 David Pierce 和 Jay Peters 给我们带来了 Google 新 Gemini AI 代理 Spark 的串联实践。他们的要点是相似的：它非常有效，以至于……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "36氪获悉，大模型评测平台Artificial Analysis最新Output Speed榜单显示，阶跃星辰（StepFun）最新开源基座模型Step 3.7 Flash以409 tokens/s的输出速度位列主流模型第一，同时在端到端响应时长（End-to-End Response Time）、智能效率（Intelligence vs. Output Speed）与速度价…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
-          "topic": 10,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 3,
-        "title": "亚马逊的搜索栏将发明人工智能生成的你买不到的产品",
-        "platform": "The Verge",
-        "aiScore": 84,
-        "publishedAt": "2026-06-03T16:07:31+00:00",
-        "sourceUrl": "https://www.theverge.com/tech/942547/amazon-search-bar-ai-images",
-        "sourceName": "The Verge AI",
+        "title": "腾讯客服回应与华为、小米等合作",
+        "platform": "36氪",
+        "aiScore": 93,
+        "publishedAt": "2026-06-04T04:28:56+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3838367119509760?f=rss",
+        "sourceName": "36氪",
         "industryStage": "中游",
         "contentTags": [
-          "应用落地"
+          "Agent",
+          "内容生产",
+          "安全治理"
         ],
-        "summary": "亚马逊更新的搜索栏现在将向您显示人工智能生成的产品图像，正如您所描述的那样。目前，应用内功能仅显示服装和家居用品的人工智能图像，允许……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "有报道称，微信正在与华为、荣耀、小米等多家手机厂商合作推出A2A（Agent-to-Agent）助手能力，可通过手机语音助理发起微信的音视频通话，或向好友发送消息。对此，腾讯客服表示，微信正在与华为、小米、荣耀、OPPO等手机厂商合作推出A2A助手能力。目前已有多家厂商完成接入，“您可以通过对应手机系统的AI助手发起微信音视频通话或向指定好友发送消息。该功能基于A2A（Age…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
-          "topic": 9,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "AgentSight：使用 eBPF 进行系​​统范围的 AI 代理跟踪和监控",
-        "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-06-03T17:13:19+00:00",
-        "sourceUrl": "https://github.com/eunomia-bpf/agentsight",
-        "sourceName": "Hacker News AI",
+        "title": "戴盟机器人完成亿元融资，阿里通义多模态大牛加盟攻关物理世界模型",
+        "platform": "量子位",
+        "aiScore": 91,
+        "publishedAt": "2026-06-04T03:06:59+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/06/428778.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "开源生态"
+          "模型进展",
+          "投融资"
         ],
-        "summary": "文章网址：https://github.com/eunomia-bpf/agentsight 评论网址：https://news.ycombinator.com/item?id=48386737 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "甩开视觉内卷",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 18,
+          "authority": 25,
+          "topic": 16,
           "actionability": 10,
-          "heat": 2
+          "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "精益推理：精益制造原理应用于人工智能",
-        "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-06-03T17:41:08+00:00",
-        "sourceUrl": "https://neurometric.substack.com/p/lean-inference-workflows-applying",
-        "sourceName": "Hacker News AI",
-        "industryStage": "下游",
+        "title": "8点1氪丨A股第4只两千元股诞生；问界回应浙江台州M9事故；马斯克个人财富将突破万亿美元",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-06-03T23:53:43+00:00",
+        "sourceUrl": "https://36kr.com/p/3838091144464644?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
         "contentTags": [
-          "Agent",
-          "自动化"
+          "芯片算力",
+          "模型进展",
+          "Agent"
         ],
-        "summary": "文章网址：https://neurometric.substack.com/p/lean-inference-workflows-applying 评论网址：https://news.ycombinator.com/item?id=48387109 积分：3 # 评论：0",
+        "summary": "今日热点导览 名创优品称会员买单仅限潮玩商品 谷歌扩大Quick Share与AirDrop互传适配范围，覆盖更多安卓机型 Meta在全球范围扩大青少年内容管控 多家银行下架3年期5年期定期存款 TOP 3大新闻 A股第4只两千元股诞生，联讯仪器盘中股价冲破2000元 6月3日，联讯仪器盘中股价冲破2000元，最高达2047.88元。公司总市值超2000亿元。数据显示，自A股…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 17,
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
           "actionability": 10,
-          "heat": 2
+          "heat": 5
         }
       },
       {
         "rank": 6,
-        "title": "现在一切都被称为人工智能代理，而且越来越令人困惑",
+        "title": "在当前的机器学习系统中，主要瓶颈在哪里：数据集质量或模型架构改进？ [D]",
         "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-06-03T17:38:38+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tvwo0t/everything_is_being_called_an_ai_agent_now_and/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "下游",
+        "aiScore": 85,
+        "publishedAt": "2026-06-04T05:24:07+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1twe6ii/in_current_ml_systems_where_is_the_main/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "模型进展",
+          "自动化"
         ],
-        "summary": "最近，感觉每个带有几个按钮和集成的人工智能工具都被称为代理。有时它实际上正在执行多步骤工作，但有时它只是感觉像一个聊天机器人......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "机器学习领域最近的许多进展似乎都来自于扩展现有架构，而不是引入全新的架构。与此同时，人们越来越重视数据集 q……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
+          "topic": 17,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 7,
-        "title": "微软推出新的人工智能模型",
-        "platform": "Hacker News",
-        "aiScore": 76,
-        "publishedAt": "2026-06-03T17:15:41+00:00",
-        "sourceUrl": "https://microsoft.ai/models/",
-        "sourceName": "Hacker News AI",
+        "title": "Meta一再推迟面向开发者的新AI模型发布",
+        "platform": "36氪",
+        "aiScore": 85,
+        "publishedAt": "2026-06-04T04:57:29+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3838345123531016?f=rss",
+        "sourceName": "36氪",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "文章网址：https://microsoft.ai/models/ 评论网址：https://news.ycombinator.com/item?id=48386773 积分：5 # 评论：0",
+        "summary": "据媒体援引知情人士的话报道，Meta 已多次推迟向开发者发布其新款Muse Spark AI模型API的计划，截至周二，该API仍无确定的发布日期。Meta一位发言人周三表示，该公司已与部分早期合作伙伴开始测试API，并期待本月发布该API。（新浪财经）",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 10,
           "actionability": 10,
-          "heat": 3
+          "heat": 5
         }
       },
       {
         "rank": 8,
-        "title": "30K AI 辩论的统计数据：Opus 4.7 是最具影响力的模型",
-        "platform": "Hacker News",
-        "aiScore": 76,
-        "publishedAt": "2026-06-03T17:03:44+00:00",
-        "sourceUrl": "https://opper.ai/ai-roundtable/stats",
-        "sourceName": "Hacker News AI",
+        "title": "新版“公有云大模型Token服务性能监测平台”即将上线",
+        "platform": "36氪",
+        "aiScore": 85,
+        "publishedAt": "2026-06-04T04:38:57+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3838376959019266?f=rss",
+        "sourceName": "36氪",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "文章网址：https://opper.ai/ai-roundtable/stats 评论网址：https://news.ycombinator.com/item?id=48386606 积分：6 # 评论：1",
+        "summary": "“高质量Token服务研讨会”将于6月16日召开。论坛将上线新版“公有云大模型Token服务性能监测平台”，并发布“公有云大模型Token服务性能监测结果（2026年6月）”，对主流Token服务平台的Token吞吐率、时延等性能进行客观量化评估，为产业各方选型参考与服务质量提升提供参考依据。另外，论坛将集中发布“Token服务”系列标准并进行权威解读。（证券时报）",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 10,
           "actionability": 10,
-          "heat": 3
+          "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "Argus——人工智能代理的可穿戴控制界面",
-        "platform": "Hacker News",
-        "aiScore": 74,
-        "publishedAt": "2026-06-03T17:49:49+00:00",
-        "sourceUrl": "https://project-argus.ai",
-        "sourceName": "Hacker News AI",
+        "title": "LeCun 10亿押注的方向，全球领先视觉大模型团队早已布局",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-06-04T03:43:37+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/06/428790.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "模型进展"
         ],
-        "summary": "文章网址：https://project-argus.ai 评论网址：https://news.ycombinator.com/item?id=48387242 积分：1 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "”隐空间世界模型很难，但我们一定要做“",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 10,
           "actionability": 10,
-          "heat": 1
+          "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "如果人工智能数据中心如此出色，为什么还要秘密建造？",
-        "platform": "Hacker News",
-        "aiScore": 72,
-        "publishedAt": "2026-06-03T16:57:11+00:00",
-        "sourceUrl": "https://www.thebrockovichreport.com/p/if-data-centers-are-so-great-why",
-        "sourceName": "Hacker News AI",
+        "title": "一个GPT Plus会员的钱，够机器人跑一个月世界模型了",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-06-04T03:10:23+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/06/428791.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
-          "开源生态"
+          "模型进展"
         ],
-        "summary": "文章网址：https://www.thebrockovichreport.com/p/if-data-centers-are-so-great-why 评论网址：https://news.ycombinator.com/item?id=48386529 积分：45 # 评论：18",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "不多不少，只要150",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 8,
-          "actionability": 4,
-          "heat": 7
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 21,
-      "avgScore": 71.9,
-      "topScore": 88,
+      "totalItems": 54,
+      "avgScore": 75.2,
+      "topScore": 95,
       "topPlatforms": [
+        {
+          "name": "Reddit",
+          "count": 20
+        },
         {
           "name": "Hacker News",
           "count": 15
         },
         {
-          "name": "Reddit",
-          "count": 4
+          "name": "36氪",
+          "count": 8
         },
         {
-          "name": "The Verge",
-          "count": 2
+          "name": "量子位",
+          "count": 5
+        },
+        {
+          "name": "爱范儿",
+          "count": 3
         }
       ],
       "topTopics": [
         {
+          "name": "模型进展",
+          "count": 22
+        },
+        {
           "name": "AI动态",
-          "count": 10
+          "count": 16
         },
         {
           "name": "Agent",
-          "count": 6
-        },
-        {
-          "name": "模型进展",
-          "count": 4
+          "count": 12
         },
         {
           "name": "开源生态",
-          "count": 2
+          "count": 7
+        },
+        {
+          "name": "芯片算力",
+          "count": 4
+        },
+        {
+          "name": "内容生产",
+          "count": 3
+        },
+        {
+          "name": "投融资",
+          "count": 3
         },
         {
           "name": "自动化",
-          "count": 1
-        },
-        {
-          "name": "应用落地",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 21 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：AlphaZero训练数据分析[D]（88 分）",
+      "今日共收录 54 条 AI 资讯，Top10 通报见下。",
+      "高频主题：模型进展 / AI动态 / Agent",
+      "最高分事件：深圳具身公司获得汇川、中国电信亿元融资，“视触觉”传感器出货量行业第一｜硬氪首发（95 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -288,22 +310,23 @@
       "top10": [
         {
           "rank": 1,
-          "title": "AlphaZero训练数据分析[D]",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-03T17:22:17+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tvw6sc/analysis_of_alphazero_training_data_d/",
-          "sourceName": "Reddit r/MachineLearning",
+          "title": "深圳具身公司获得汇川、中国电信亿元融资，“视触觉”传感器出货量行业第一｜硬氪首发",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-06-04T01:30:00+00:00",
+          "sourceUrl": "https://36kr.com/p/3837269482091656?f=rss",
+          "sourceName": "36氪",
           "industryStage": "中游",
           "contentTags": [
+            "芯片算力",
             "模型进展",
-            "Agent"
+            "开源生态"
           ],
-          "summary": "我正在尝试在 6x6 棋盘上为 Othello 训练 AlphaZero 模型。有人警告说，数据生成过程中探索太少可能会导致模型过度自信并陷入困境......",
+          "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，戴盟机器人近日完成亿元A轮融资，由汇川技术旗下产业基金汇川产投与中国电信联合投资。资金将用于进一步打造超大规模含物理交互信息数据集，加速物理世界模型研发、并驱动真实物理场景下的数据飞轮与商业闭环。 戴盟机器人于2023年正式运营，核心团队长期聚焦机器人灵巧操作与物理交互智能领域。联合创始人兼首席科学家王煜教授曾任港科大机器人研究院创始院长，…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 20,
             "actionability": 10,
             "heat": 5
@@ -311,254 +334,275 @@
         },
         {
           "rank": 2,
-          "title": "随着人工智能变得更好，它揭示了一个空洞的承诺",
-          "platform": "The Verge",
-          "aiScore": 85,
-          "publishedAt": "2026-06-03T17:45:35+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise",
-          "sourceName": "The Verge AI",
+          "title": "阶跃 Step 3.7 Flash 位列 Artificial Analysis 输出速度榜主流第一",
+          "platform": "36氪",
+          "aiScore": 93,
+          "publishedAt": "2026-06-04T04:38:40+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3838369881033218?f=rss",
+          "sourceName": "36氪",
           "industryStage": "中游",
           "contentTags": [
-            "Agent"
+            "模型进展",
+            "开源生态"
           ],
-          "summary": "本周，我的同事 David Pierce 和 Jay Peters 给我们带来了 Google 新 Gemini AI 代理 Spark 的串联实践。他们的要点是相似的：它非常有效，以至于……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "36氪获悉，大模型评测平台Artificial Analysis最新Output Speed榜单显示，阶跃星辰（StepFun）最新开源基座模型Step 3.7 Flash以409 tokens/s的输出速度位列主流模型第一，同时在端到端响应时长（End-to-End Response Time）、智能效率（Intelligence vs. Output Speed）与速度价…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
-            "topic": 10,
+            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 3,
-          "title": "亚马逊的搜索栏将发明人工智能生成的你买不到的产品",
-          "platform": "The Verge",
-          "aiScore": 84,
-          "publishedAt": "2026-06-03T16:07:31+00:00",
-          "sourceUrl": "https://www.theverge.com/tech/942547/amazon-search-bar-ai-images",
-          "sourceName": "The Verge AI",
+          "title": "腾讯客服回应与华为、小米等合作",
+          "platform": "36氪",
+          "aiScore": 93,
+          "publishedAt": "2026-06-04T04:28:56+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3838367119509760?f=rss",
+          "sourceName": "36氪",
           "industryStage": "中游",
           "contentTags": [
-            "应用落地"
+            "Agent",
+            "内容生产",
+            "安全治理"
           ],
-          "summary": "亚马逊更新的搜索栏现在将向您显示人工智能生成的产品图像，正如您所描述的那样。目前，应用内功能仅显示服装和家居用品的人工智能图像，允许……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "有报道称，微信正在与华为、荣耀、小米等多家手机厂商合作推出A2A（Agent-to-Agent）助手能力，可通过手机语音助理发起微信的音视频通话，或向好友发送消息。对此，腾讯客服表示，微信正在与华为、小米、荣耀、OPPO等手机厂商合作推出A2A助手能力。目前已有多家厂商完成接入，“您可以通过对应手机系统的AI助手发起微信音视频通话或向指定好友发送消息。该功能基于A2A（Age…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
-            "topic": 9,
+            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 4,
-          "title": "AgentSight：使用 eBPF 进行系​​统范围的 AI 代理跟踪和监控",
-          "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-06-03T17:13:19+00:00",
-          "sourceUrl": "https://github.com/eunomia-bpf/agentsight",
-          "sourceName": "Hacker News AI",
+          "title": "戴盟机器人完成亿元融资，阿里通义多模态大牛加盟攻关物理世界模型",
+          "platform": "量子位",
+          "aiScore": 91,
+          "publishedAt": "2026-06-04T03:06:59+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/428778.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
-            "Agent",
-            "开源生态"
+            "模型进展",
+            "投融资"
           ],
-          "summary": "文章网址：https://github.com/eunomia-bpf/agentsight 评论网址：https://news.ycombinator.com/item?id=48386737 积分：2 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "甩开视觉内卷",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 18,
+            "authority": 25,
+            "topic": 16,
             "actionability": 10,
-            "heat": 2
+            "heat": 5
           }
         },
         {
           "rank": 5,
-          "title": "精益推理：精益制造原理应用于人工智能",
-          "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-06-03T17:41:08+00:00",
-          "sourceUrl": "https://neurometric.substack.com/p/lean-inference-workflows-applying",
-          "sourceName": "Hacker News AI",
-          "industryStage": "下游",
+          "title": "8点1氪丨A股第4只两千元股诞生；问界回应浙江台州M9事故；马斯克个人财富将突破万亿美元",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-06-03T23:53:43+00:00",
+          "sourceUrl": "https://36kr.com/p/3838091144464644?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
           "contentTags": [
-            "Agent",
-            "自动化"
+            "芯片算力",
+            "模型进展",
+            "Agent"
           ],
-          "summary": "文章网址：https://neurometric.substack.com/p/lean-inference-workflows-applying 评论网址：https://news.ycombinator.com/item?id=48387109 积分：3 # 评论：0",
+          "summary": "今日热点导览 名创优品称会员买单仅限潮玩商品 谷歌扩大Quick Share与AirDrop互传适配范围，覆盖更多安卓机型 Meta在全球范围扩大青少年内容管控 多家银行下架3年期5年期定期存款 TOP 3大新闻 A股第4只两千元股诞生，联讯仪器盘中股价冲破2000元 6月3日，联讯仪器盘中股价冲破2000元，最高达2047.88元。公司总市值超2000亿元。数据显示，自A股…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 17,
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
             "actionability": 10,
-            "heat": 2
+            "heat": 5
           }
         },
         {
           "rank": 6,
-          "title": "现在一切都被称为人工智能代理，而且越来越令人困惑",
+          "title": "在当前的机器学习系统中，主要瓶颈在哪里：数据集质量或模型架构改进？ [D]",
           "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-06-03T17:38:38+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tvwo0t/everything_is_being_called_an_ai_agent_now_and/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
+          "aiScore": 85,
+          "publishedAt": "2026-06-04T05:24:07+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1twe6ii/in_current_ml_systems_where_is_the_main/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
           "contentTags": [
-            "Agent"
+            "模型进展",
+            "自动化"
           ],
-          "summary": "最近，感觉每个带有几个按钮和集成的人工智能工具都被称为代理。有时它实际上正在执行多步骤工作，但有时它只是感觉像一个聊天机器人......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "机器学习领域最近的许多进展似乎都来自于扩展现有架构，而不是引入全新的架构。与此同时，人们越来越重视数据集 q……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 10,
+            "topic": 17,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 7,
-          "title": "微软推出新的人工智能模型",
-          "platform": "Hacker News",
-          "aiScore": 76,
-          "publishedAt": "2026-06-03T17:15:41+00:00",
-          "sourceUrl": "https://microsoft.ai/models/",
-          "sourceName": "Hacker News AI",
+          "title": "Meta一再推迟面向开发者的新AI模型发布",
+          "platform": "36氪",
+          "aiScore": 85,
+          "publishedAt": "2026-06-04T04:57:29+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3838345123531016?f=rss",
+          "sourceName": "36氪",
           "industryStage": "中游",
           "contentTags": [
             "模型进展"
           ],
-          "summary": "文章网址：https://microsoft.ai/models/ 评论网址：https://news.ycombinator.com/item?id=48386773 积分：5 # 评论：0",
+          "summary": "据媒体援引知情人士的话报道，Meta 已多次推迟向开发者发布其新款Muse Spark AI模型API的计划，截至周二，该API仍无确定的发布日期。Meta一位发言人周三表示，该公司已与部分早期合作伙伴开始测试API，并期待本月发布该API。（新浪财经）",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 10,
             "actionability": 10,
-            "heat": 3
+            "heat": 5
           }
         },
         {
           "rank": 8,
-          "title": "30K AI 辩论的统计数据：Opus 4.7 是最具影响力的模型",
-          "platform": "Hacker News",
-          "aiScore": 76,
-          "publishedAt": "2026-06-03T17:03:44+00:00",
-          "sourceUrl": "https://opper.ai/ai-roundtable/stats",
-          "sourceName": "Hacker News AI",
+          "title": "新版“公有云大模型Token服务性能监测平台”即将上线",
+          "platform": "36氪",
+          "aiScore": 85,
+          "publishedAt": "2026-06-04T04:38:57+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3838376959019266?f=rss",
+          "sourceName": "36氪",
           "industryStage": "中游",
           "contentTags": [
             "模型进展"
           ],
-          "summary": "文章网址：https://opper.ai/ai-roundtable/stats 评论网址：https://news.ycombinator.com/item?id=48386606 积分：6 # 评论：1",
+          "summary": "“高质量Token服务研讨会”将于6月16日召开。论坛将上线新版“公有云大模型Token服务性能监测平台”，并发布“公有云大模型Token服务性能监测结果（2026年6月）”，对主流Token服务平台的Token吞吐率、时延等性能进行客观量化评估，为产业各方选型参考与服务质量提升提供参考依据。另外，论坛将集中发布“Token服务”系列标准并进行权威解读。（证券时报）",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 10,
             "actionability": 10,
-            "heat": 3
+            "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "Argus——人工智能代理的可穿戴控制界面",
-          "platform": "Hacker News",
-          "aiScore": 74,
-          "publishedAt": "2026-06-03T17:49:49+00:00",
-          "sourceUrl": "https://project-argus.ai",
-          "sourceName": "Hacker News AI",
+          "title": "LeCun 10亿押注的方向，全球领先视觉大模型团队早已布局",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-06-04T03:43:37+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/428790.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
-            "Agent"
+            "模型进展"
           ],
-          "summary": "文章网址：https://project-argus.ai 评论网址：https://news.ycombinator.com/item?id=48387242 积分：1 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "”隐空间世界模型很难，但我们一定要做“",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 10,
             "actionability": 10,
-            "heat": 1
+            "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "如果人工智能数据中心如此出色，为什么还要秘密建造？",
-          "platform": "Hacker News",
-          "aiScore": 72,
-          "publishedAt": "2026-06-03T16:57:11+00:00",
-          "sourceUrl": "https://www.thebrockovichreport.com/p/if-data-centers-are-so-great-why",
-          "sourceName": "Hacker News AI",
+          "title": "一个GPT Plus会员的钱，够机器人跑一个月世界模型了",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-06-04T03:10:23+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/428791.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
-            "开源生态"
+            "模型进展"
           ],
-          "summary": "文章网址：https://www.thebrockovichreport.com/p/if-data-centers-are-so-great-why 评论网址：https://news.ycombinator.com/item?id=48386529 积分：45 # 评论：18",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "不多不少，只要150",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 8,
-            "actionability": 4,
-            "heat": 7
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 21,
-        "avgScore": 71.9,
-        "topScore": 88,
+        "totalItems": 54,
+        "avgScore": 75.2,
+        "topScore": 95,
         "topPlatforms": [
+          {
+            "name": "Reddit",
+            "count": 20
+          },
           {
             "name": "Hacker News",
             "count": 15
           },
           {
-            "name": "Reddit",
-            "count": 4
+            "name": "36氪",
+            "count": 8
           },
           {
-            "name": "The Verge",
-            "count": 2
+            "name": "量子位",
+            "count": 5
+          },
+          {
+            "name": "爱范儿",
+            "count": 3
           }
         ],
         "topTopics": [
           {
+            "name": "模型进展",
+            "count": 22
+          },
+          {
             "name": "AI动态",
-            "count": 10
+            "count": 16
           },
           {
             "name": "Agent",
-            "count": 6
-          },
-          {
-            "name": "模型进展",
-            "count": 4
+            "count": 12
           },
           {
             "name": "开源生态",
-            "count": 2
+            "count": 7
+          },
+          {
+            "name": "芯片算力",
+            "count": 4
+          },
+          {
+            "name": "内容生产",
+            "count": 3
+          },
+          {
+            "name": "投融资",
+            "count": 3
           },
           {
             "name": "自动化",
-            "count": 1
-          },
-          {
-            "name": "应用落地",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 21 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / Agent / 模型进展",
-        "最高分事件：AlphaZero训练数据分析[D]（88 分）",
+        "今日共收录 54 条 AI 资讯，Top10 通报见下。",
+        "高频主题：模型进展 / AI动态 / Agent",
+        "最高分事件：深圳具身公司获得汇川、中国电信亿元融资，“视触觉”传感器出货量行业第一｜硬氪首发（95 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -567,7 +611,7 @@
       "label": "6月3日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 2,
           "title": "36氪独家 | 火山引擎提升MaaS营收目标至全年150亿元，Seedance 2.0单月营收已超10亿元",
           "platform": "36氪",
           "aiScore": 95,
@@ -591,7 +635,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "title": "深圳具身公司星尘智能完成超10亿B轮融资，估值破百亿｜硬氪首发",
           "platform": "36氪",
           "aiScore": 95,
@@ -615,7 +659,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "36氪首发 | 浙大教授团队获财通、商汤投资，做高危场景具身机器人大脑",
           "platform": "36氪",
           "aiScore": 95,
@@ -639,7 +683,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "8点1氪丨腾讯股价暴涨，创2021年后单日最高涨幅；预计今年安排约1100亿育儿补贴；英伟达与微软合作推出统一技术栈",
           "platform": "36氪",
           "aiScore": 95,
@@ -872,7 +916,7 @@
       "label": "6月2日",
       "top10": [
         {
-          "rank": 5,
+          "rank": 6,
           "title": "高通CEO安蒙：智能体已成现实，终端变革加速到来",
           "platform": "36氪",
           "aiScore": 95,
@@ -896,7 +940,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "前美团外卖技术负责人创业，做具身智能时代的“餐饮世界模型”",
           "platform": "36氪",
           "aiScore": 95,
@@ -920,7 +964,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "8点1氪丨豆包将在6月下旬正式付费 ；韩国SK海力士工厂发生火灾；宇树科技IPO过会，王兴兴身家或超140亿",
           "platform": "36氪",
           "aiScore": 95,
@@ -944,7 +988,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "首轮融资数千万美元、估值2.5亿美元，「Aippy」正在打造下一代AI游戏社区 | 36氪首发",
           "platform": "36氪",
           "aiScore": 95,
@@ -1183,7 +1227,7 @@
       "label": "6月1日",
       "top10": [
         {
-          "rank": 9,
+          "rank": 10,
           "title": "连续完成五源、峰瑞两轮数千万元融资，清华00后团队要解决Token账单焦虑｜智能涌现首发",
           "platform": "36氪",
           "aiScore": 95,
@@ -26468,17 +26512,13 @@
     },
     "metrics": {
       "daysCovered": 4,
-      "totalItems": 174,
+      "totalItems": 207,
       "avgTop10Score": 95.0,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 9
-        },
-        {
-          "name": "Hugging Face",
-          "count": 1
+          "count": 10
         }
       ],
       "topTopics": [
@@ -26501,12 +26541,40 @@
         {
           "name": "内容生产",
           "count": 2
+        },
+        {
+          "name": "开源生态",
+          "count": 1
         }
       ]
     },
     "topEvents": [
       {
         "rank": 1,
+        "title": "深圳具身公司获得汇川、中国电信亿元融资，“视触觉”传感器出货量行业第一｜硬氪首发",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-06-04T01:30:00+00:00",
+        "sourceUrl": "https://36kr.com/p/3837269482091656?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，戴盟机器人近日完成亿元A轮融资，由汇川技术旗下产业基金汇川产投与中国电信联合投资。资金将用于进一步打造超大规模含物理交互信息数据集，加速物理世界模型研发、并驱动真实物理场景下的数据飞轮与商业闭环。 戴盟机器人于2023年正式运营，核心团队长期聚焦机器人灵巧操作与物理交互智能领域。联合创始人兼首席科学家王煜教授曾任港科大机器人研究院创始院长，…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
         "title": "36氪独家 | 火山引擎提升MaaS营收目标至全年150亿元，Seedance 2.0单月营收已超10亿元",
         "platform": "36氪",
         "aiScore": 95,
@@ -26530,7 +26598,7 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 3,
         "title": "深圳具身公司星尘智能完成超10亿B轮融资，估值破百亿｜硬氪首发",
         "platform": "36氪",
         "aiScore": 95,
@@ -26554,7 +26622,7 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 4,
         "title": "36氪首发 | 浙大教授团队获财通、商汤投资，做高危场景具身机器人大脑",
         "platform": "36氪",
         "aiScore": 95,
@@ -26578,7 +26646,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 5,
         "title": "8点1氪丨腾讯股价暴涨，创2021年后单日最高涨幅；预计今年安排约1100亿育儿补贴；英伟达与微软合作推出统一技术栈",
         "platform": "36氪",
         "aiScore": 95,
@@ -26602,7 +26670,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "高通CEO安蒙：智能体已成现实，终端变革加速到来",
         "platform": "36氪",
         "aiScore": 95,
@@ -26626,7 +26694,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 7,
         "title": "前美团外卖技术负责人创业，做具身智能时代的“餐饮世界模型”",
         "platform": "36氪",
         "aiScore": 95,
@@ -26650,7 +26718,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 8,
         "title": "8点1氪丨豆包将在6月下旬正式付费 ；韩国SK海力士工厂发生火灾；宇树科技IPO过会，王兴兴身家或超140亿",
         "platform": "36氪",
         "aiScore": 95,
@@ -26674,7 +26742,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "首轮融资数千万美元、估值2.5亿美元，「Aippy」正在打造下一代AI游戏社区 | 36氪首发",
         "platform": "36氪",
         "aiScore": 95,
@@ -26698,7 +26766,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "连续完成五源、峰瑞两轮数千万元融资，清华00后团队要解决Token账单焦虑｜智能涌现首发",
         "platform": "36氪",
         "aiScore": 95,
@@ -26720,35 +26788,12 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "欢迎 NVIDIA Cosmos 3：首个用于物理 AI 推理和行动的开放式全模型",
-        "platform": "Hugging Face",
-        "aiScore": 95,
-        "publishedAt": "2026-06-01T04:44:55+00:00",
-        "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-        "sourceName": "Hugging Face Blog",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展"
-        ],
-        "summary": "欢迎 NVIDIA Cosmos 3：首个用于物理 AI 推理和行动的开放式全模型",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "6月第1周累计收录 174 条资讯，覆盖 4 天。",
+      "6月第1周累计收录 207 条资讯，覆盖 4 天。",
       "高频主题：模型进展 / Agent / 芯片算力",
-      "本周最高分：36氪独家 | 火山引擎提升MaaS营收目标至全年150亿元，Seedance 2.0单月营收已超10亿元（95 分）",
+      "本周最高分：深圳具身公司获得汇川、中国电信亿元融资，“视触觉”传感器出货量行业第一｜硬氪首发（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -26762,17 +26807,13 @@
       },
       "metrics": {
         "daysCovered": 4,
-        "totalItems": 174,
+        "totalItems": 207,
         "avgTop10Score": 95.0,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 9
-          },
-          {
-            "name": "Hugging Face",
-            "count": 1
+            "count": 10
           }
         ],
         "topTopics": [
@@ -26795,12 +26836,40 @@
           {
             "name": "内容生产",
             "count": 2
+          },
+          {
+            "name": "开源生态",
+            "count": 1
           }
         ]
       },
       "topEvents": [
         {
           "rank": 1,
+          "title": "深圳具身公司获得汇川、中国电信亿元融资，“视触觉”传感器出货量行业第一｜硬氪首发",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-06-04T01:30:00+00:00",
+          "sourceUrl": "https://36kr.com/p/3837269482091656?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，戴盟机器人近日完成亿元A轮融资，由汇川技术旗下产业基金汇川产投与中国电信联合投资。资金将用于进一步打造超大规模含物理交互信息数据集，加速物理世界模型研发、并驱动真实物理场景下的数据飞轮与商业闭环。 戴盟机器人于2023年正式运营，核心团队长期聚焦机器人灵巧操作与物理交互智能领域。联合创始人兼首席科学家王煜教授曾任港科大机器人研究院创始院长，…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
           "title": "36氪独家 | 火山引擎提升MaaS营收目标至全年150亿元，Seedance 2.0单月营收已超10亿元",
           "platform": "36氪",
           "aiScore": 95,
@@ -26824,7 +26893,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "title": "深圳具身公司星尘智能完成超10亿B轮融资，估值破百亿｜硬氪首发",
           "platform": "36氪",
           "aiScore": 95,
@@ -26848,7 +26917,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "36氪首发 | 浙大教授团队获财通、商汤投资，做高危场景具身机器人大脑",
           "platform": "36氪",
           "aiScore": 95,
@@ -26872,7 +26941,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "8点1氪丨腾讯股价暴涨，创2021年后单日最高涨幅；预计今年安排约1100亿育儿补贴；英伟达与微软合作推出统一技术栈",
           "platform": "36氪",
           "aiScore": 95,
@@ -26896,7 +26965,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "高通CEO安蒙：智能体已成现实，终端变革加速到来",
           "platform": "36氪",
           "aiScore": 95,
@@ -26920,7 +26989,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "前美团外卖技术负责人创业，做具身智能时代的“餐饮世界模型”",
           "platform": "36氪",
           "aiScore": 95,
@@ -26944,7 +27013,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "8点1氪丨豆包将在6月下旬正式付费 ；韩国SK海力士工厂发生火灾；宇树科技IPO过会，王兴兴身家或超140亿",
           "platform": "36氪",
           "aiScore": 95,
@@ -26968,7 +27037,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "首轮融资数千万美元、估值2.5亿美元，「Aippy」正在打造下一代AI游戏社区 | 36氪首发",
           "platform": "36氪",
           "aiScore": 95,
@@ -26992,7 +27061,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "连续完成五源、峰瑞两轮数千万元融资，清华00后团队要解决Token账单焦虑｜智能涌现首发",
           "platform": "36氪",
           "aiScore": 95,
@@ -27014,35 +27083,12 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "欢迎 NVIDIA Cosmos 3：首个用于物理 AI 推理和行动的开放式全模型",
-          "platform": "Hugging Face",
-          "aiScore": 95,
-          "publishedAt": "2026-06-01T04:44:55+00:00",
-          "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-          "sourceName": "Hugging Face Blog",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "欢迎 NVIDIA Cosmos 3：首个用于物理 AI 推理和行动的开放式全模型",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "6月第1周累计收录 174 条资讯，覆盖 4 天。",
+        "6月第1周累计收录 207 条资讯，覆盖 4 天。",
         "高频主题：模型进展 / Agent / 芯片算力",
-        "本周最高分：36氪独家 | 火山引擎提升MaaS营收目标至全年150亿元，Seedance 2.0单月营收已超10亿元（95 分）",
+        "本周最高分：深圳具身公司获得汇川、中国电信亿元融资，“视触觉”传感器出货量行业第一｜硬氪首发（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
