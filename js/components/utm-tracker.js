@@ -61,6 +61,29 @@
     }
 
     saveEntries(entries);
+    report(entry);
+  }
+
+  function report(entry) {
+    // 服务端上报（D1 utm_events 表）。失败静默：埋点绝不能影响页面。
+    try {
+      var body = JSON.stringify({
+        source: entry.utm_source || "",
+        medium: entry.utm_medium || "",
+        campaign: entry.utm_campaign || "",
+        landing: entry.landing || "/"
+      });
+      if (navigator.sendBeacon) {
+        navigator.sendBeacon("/api/utm", new Blob([body], { type: "application/json" }));
+      } else {
+        fetch("/api/utm", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: body,
+          keepalive: true
+        }).catch(function () {});
+      }
+    } catch (e) {}
   }
 
   track();

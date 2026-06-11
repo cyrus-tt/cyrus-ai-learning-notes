@@ -36,8 +36,6 @@ export async function onRequest(context) {
   }
 
   try {
-    await ensureVisitTable(db);
-
     let recorded = false;
 
     if (record) {
@@ -74,7 +72,9 @@ export async function onRequest(context) {
       },
       200
     );
-  } catch {
+  } catch (error) {
+    // 失败必须可见：CF 仪表盘 Functions 日志里能看到具体 SQL 错误
+    console.error("visits api failed:", error?.message || error);
     return json(
       {
         ok: true,
@@ -130,21 +130,8 @@ function safeCount(value) {
   return Number.isFinite(parsed) && parsed >= 0 ? parsed : 0;
 }
 
-async function ensureVisitTable(db) {
-  await db.exec(`
-    CREATE TABLE IF NOT EXISTS page_visits (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
-      path TEXT NOT NULL,
-      visit_date TEXT NOT NULL,
-      visitor_hash TEXT NOT NULL,
-      created_at TEXT NOT NULL,
-      UNIQUE(path, visit_date, visitor_hash)
-    );
-    CREATE INDEX IF NOT EXISTS idx_page_visits_path ON page_visits(path);
-    CREATE INDEX IF NOT EXISTS idx_page_visits_path_date ON page_visits(path, visit_date);
-    CREATE INDEX IF NOT EXISTS idx_page_visits_created_at ON page_visits(created_at DESC);
-  `);
-}
+// 注意：page_visits 表由 d1/migration_007_analytics.sql 管理，
+// 不在运行时建表（D1 exec() 按行执行多行 DDL 会失败——正是此前数据全丢的根因）。
 
 async function hashVisitorIdentity(request) {
   const ip = (request.headers.get("cf-connecting-ip") || request.headers.get("x-forwarded-for") || "").trim();
