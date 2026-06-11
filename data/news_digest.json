@@ -1,29 +1,28 @@
 {
-  "generatedAt": "2026-06-10T16:34:05.207741+00:00",
+  "generatedAt": "2026-06-11T05:26:20.933446+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-06-11",
     "label": "6月11日",
     "top10": [
       {
-        "rank": 10,
-        "title": "Show HN：AI 观察了我的屏幕一年。天气打败睡眠",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-06-10T16:08:09+00:00",
-        "sourceUrl": "https://donethat.ai/blog/dogfooding-donethat",
-        "sourceName": "Hacker News AI",
+        "rank": 1,
+        "title": "实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付",
+        "platform": "量子位",
+        "aiScore": 95,
+        "publishedAt": "2026-06-11T01:18:16+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/06/434225.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
+          "芯片算力",
+          "模型进展"
         ],
-        "summary": "嘿，HN！我想要一个足够准确、足够有用、足够简单、不需要养成新习惯的时间跟踪器，同时保护您的隐私。大多数跟踪器（RescueTime 等）仅使用活动日志......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "通用GPU就能实现",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 20,
           "actionability": 10,
           "heat": 5
@@ -31,176 +30,278 @@
       },
       {
         "rank": 2,
-        "title": "Show HN：AgentCarousel – AI 代理的行为测试，带有签名证据",
-        "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-06-10T16:12:07+00:00",
-        "sourceUrl": "https://github.com/agentcarousel/agentcarousel",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "title": "8点1氪丨世界杯门票遇冷，近18万张门票待转售；台积电释放涨价信号；但斌回应“被段永平拉黑”",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-06-10T23:48:20+00:00",
+        "sourceUrl": "https://36kr.com/p/3848000003953926?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
         "contentTags": [
-          "Agent",
-          "开源生态"
+          "芯片算力",
+          "模型进展",
+          "Agent"
         ],
-        "summary": "文章网址：https://github.com/agentcarousel/agentcarousel 评论网址：https://news.ycombinator.com/item?id=48478508 积分：1 # 评论：0",
+        "summary": "今日热点导览 花旗警告：金价或跌至3500美元 韩国股市再度熔断 何小鹏发内部信：本人亲自带队，最后200天冲刺机器人量产 伊朗宣布对所有船只关闭霍尔木兹海峡 SpaceX认购资金超2500亿美元 TOP 3 大新闻 2026世界杯门票遇冷，近18万张门票待转售 北京时间6月12日，2026年美加墨世界杯将举行揭幕战。目前，国际足联（FIFA）官方转售平台上挂牌出售的门票达1…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 18,
+          "authority": 25,
+          "topic": 20,
           "actionability": 10,
-          "heat": 1
+          "heat": 5
         }
       },
       {
         "rank": 3,
-        "title": "V.C.安德鲁斯于 1986 年去世。此后以她的名义出版了 100 多本书。这基本上是人工智能作者权争论 40 年吗？",
+        "title": "寻找有关人工智能对心理困扰提示做出反应的论文/资源 [P]",
         "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-06-10T16:32:41+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u279ub/vc_andrews_died_in_1986_more_than_100_books_have/",
-        "sourceName": "Reddit r/artificial",
+        "aiScore": 87,
+        "publishedAt": "2026-06-10T23:57:38+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u2j4uv/looking_for_papersresources_on_ai_responses_to/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展"
+          "模型进展",
+          "应用落地",
+          "安全治理"
         ],
-        "summary": "V.C.安德鲁斯于 1986 年去世。此后，代笔作家安德鲁·尼德曼以她的名义出版了 100 多部小说。大多数读者要么从未注意到，要么不关心。这些书…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "大家好，我即将完成心理学学位，我也是一名系统工程专业的学生。就像，大致相当于拉丁语之外的软件工程/计算机科学……",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
+          "topic": 19,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "全球监管机构呼吁加强对金融领域代理人工智能的控制",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-06-10T16:22:30+00:00",
-        "sourceUrl": "https://www.reuters.com/legal/transactional/global-watchdog-calls-tighter-controls-agentic-ai-finance-2026-06-10/",
-        "sourceName": "Hacker News AI",
+        "title": "浪往南走：今年盛夏，WAVES来到番禺",
+        "platform": "36氪",
+        "aiScore": 86,
+        "publishedAt": "2026-06-11T02:59:54+00:00",
+        "sourceUrl": "https://36kr.com/p/3848188076381187?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
+        "contentTags": [
+          "开源生态",
+          "应用落地",
+          "投融资"
+        ],
+        "summary": "浪来了，你到不到？ WAVES是36氪每年夏天最重要的一场会。 但它不仅仅是一个“会”。 从2023年北京金海湖碧波岛的草坪，到2024年郎园Station的市集，到2025年良渚五千年的夜空下——WAVES每年都在找一个地方，把36岁以下最值得关注的创业者和投资人放在同一个空间里。没有红毯，没有礼服，没有人念稿。白天是圆桌和碰撞，晚上是脱口秀、AI集市和珠江边的清风。 今年…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 17,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "通过 Oracle 云承诺访问 OpenAI 模型和 Codex",
+        "platform": "OpenAI",
+        "aiScore": 86,
+        "publishedAt": "2026-06-10T20:00:00+00:00",
+        "sourceUrl": "https://openai.com/index/openai-on-oracle-cloud",
+        "sourceName": "OpenAI News",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "安全治理"
+        ],
+        "summary": "通过 Oracle Cloud 访问 OpenAI 模型和 Codex，利用现有承诺构建和部署具有企业安全性和治理的 AI。",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "微软因数据保留问题限制克劳德·法布尔（Claude Fable）的员工",
+        "platform": "The Verge",
+        "aiScore": 86,
+        "publishedAt": "2026-06-10T16:50:23+00:00",
+        "sourceUrl": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "Anthropic 昨天发布了其首个 Mythos 级人工智能模型 Claude Fable，它已经引起了微软内部的担忧。消息人士告诉我，微软正在限制克劳德的使用……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3D AI Agent",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-06-11T04:18:34+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/06/434317.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "文章网址：https://www.reuters.com/legal/transactional/global-watchdog-calls-tighter-controls-agentic-ai-finance-2026-06-10/ 评论网址：https://news.ycombinator.com/item?id=48478665 宝…",
+        "summary": "Meshy发布全球首个3D AI Agent",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 5,
-        "title": "Vanta AI 质量评估成熟度模型",
-        "platform": "Hacker News",
-        "aiScore": 74,
-        "publishedAt": "2026-06-10T16:28:14+00:00",
-        "sourceUrl": "https://www.vanta.com/resources/vanta-ai-quality-evaluation-maturity-model",
-        "sourceName": "Hacker News AI",
+        "rank": 8,
+        "title": "Mythos阴影里谷歌悄悄发模型，速度暴涨4倍",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-06-11T04:17:22+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/06/434316.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "文章网址：https://www.vanta.com/resources/vanta-ai-quality-evaluation-maturity-model 评论网址：https://news.ycombinator.com/item?id=48478761 积分：1 # 评论：0",
+        "summary": "用扩散模型生成文字",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 10,
           "actionability": 10,
-          "heat": 1
+          "heat": 5
         }
       },
       {
-        "rank": 6,
-        "title": "Linux 基金会最新的人工智能工作围绕人工智能资产和数据交换",
-        "platform": "Hacker News",
-        "aiScore": 68,
-        "publishedAt": "2026-06-10T16:15:16+00:00",
-        "sourceUrl": "https://www.phoronix.com/news/Linux-Foundation-OpenSharing",
-        "sourceName": "Hacker News AI",
+        "rank": 9,
+        "title": "Fable 5自带反蒸馏机制！检测到就降智，误触率高到离谱",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-06-11T04:16:20+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/06/434326.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "文章网址：https://www.phoronix.com/news/Linux-Foundation-OpenSharing 评论网址：https://news.ycombinator.com/item?id=48478561 积分：1 # 评论：0",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Claude刚刚发布的新模型Fable 5，很多人可能压根就用不上！",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 10,
-          "actionability": 4,
-          "heat": 1
+          "actionability": 10,
+          "heat": 5
         }
       },
       {
-        "rank": 7,
-        "title": "深入了解 Chromium 的设备端 AI 堆栈",
-        "platform": "Hacker News",
-        "aiScore": 63,
-        "publishedAt": "2026-06-10T16:25:57+00:00",
-        "sourceUrl": "https://www.island.io/blog/looking-inside-chromiums-on-device-ai-stack",
-        "sourceName": "Hacker News AI",
+        "rank": 10,
+        "title": "谷歌不会承认它正在为 YouTube 创作者提供音乐人工智能",
+        "platform": "The Verge",
+        "aiScore": 84,
+        "publishedAt": "2026-06-10T17:20:36+00:00",
+        "sourceUrl": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
+        "sourceName": "The Verge AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展",
+          "内容生产"
         ],
-        "summary": "文章网址：https://www.island.io/blog/looking-inside-chromiums-on-device-ai-stack 评论网址：https://news.ycombinator.com/item?id=48478721 积分：1 # 评论：0",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "如果你将一首歌曲上传到 YouTube，谷歌几乎肯定会认为你的视频公平游戏可以用于训练其 Lyria 音乐人工智能，但它现在不会承认这一点。一群独立音乐人…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 1
+          "recency": 28,
+          "authority": 25,
+          "topic": 16,
+          "actionability": 10,
+          "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 7,
-      "avgScore": 75.9,
-      "topScore": 88,
+      "totalItems": 51,
+      "avgScore": 73.1,
+      "topScore": 95,
       "topPlatforms": [
         {
+          "name": "Reddit",
+          "count": 18
+        },
+        {
           "name": "Hacker News",
+          "count": 15
+        },
+        {
+          "name": "量子位",
+          "count": 7
+        },
+        {
+          "name": "The Verge",
           "count": 6
         },
         {
-          "name": "Reddit",
-          "count": 1
+          "name": "36氪",
+          "count": 3
         }
       ],
       "topTopics": [
         {
+          "name": "AI动态",
+          "count": 26
+        },
+        {
           "name": "模型进展",
-          "count": 4
+          "count": 14
         },
         {
           "name": "Agent",
-          "count": 3
+          "count": 8
         },
         {
           "name": "开源生态",
+          "count": 5
+        },
+        {
+          "name": "芯片算力",
+          "count": 3
+        },
+        {
+          "name": "安全治理",
+          "count": 3
+        },
+        {
+          "name": "投融资",
           "count": 2
         },
         {
-          "name": "AI动态",
-          "count": 1
+          "name": "内容生产",
+          "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 7 条 AI 资讯，Top10 通报见下。",
-      "高频主题：模型进展 / Agent / 开源生态",
-      "最高分事件：Show HN：AI 观察了我的屏幕一年。天气打败睡眠（88 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 51 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付（95 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
@@ -209,24 +310,23 @@
       "label": "6月11日",
       "top10": [
         {
-          "rank": 10,
-          "title": "Show HN：AI 观察了我的屏幕一年。天气打败睡眠",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-06-10T16:08:09+00:00",
-          "sourceUrl": "https://donethat.ai/blog/dogfooding-donethat",
-          "sourceName": "Hacker News AI",
+          "rank": 1,
+          "title": "实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付",
+          "platform": "量子位",
+          "aiScore": 95,
+          "publishedAt": "2026-06-11T01:18:16+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/434225.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
+            "芯片算力",
+            "模型进展"
           ],
-          "summary": "嘿，HN！我想要一个足够准确、足够有用、足够简单、不需要养成新习惯的时间跟踪器，同时保护您的隐私。大多数跟踪器（RescueTime 等）仅使用活动日志......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "通用GPU就能实现",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 20,
             "actionability": 10,
             "heat": 5
@@ -234,176 +334,278 @@
         },
         {
           "rank": 2,
-          "title": "Show HN：AgentCarousel – AI 代理的行为测试，带有签名证据",
-          "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-06-10T16:12:07+00:00",
-          "sourceUrl": "https://github.com/agentcarousel/agentcarousel",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
+          "title": "8点1氪丨世界杯门票遇冷，近18万张门票待转售；台积电释放涨价信号；但斌回应“被段永平拉黑”",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-06-10T23:48:20+00:00",
+          "sourceUrl": "https://36kr.com/p/3848000003953926?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
           "contentTags": [
-            "Agent",
-            "开源生态"
+            "芯片算力",
+            "模型进展",
+            "Agent"
           ],
-          "summary": "文章网址：https://github.com/agentcarousel/agentcarousel 评论网址：https://news.ycombinator.com/item?id=48478508 积分：1 # 评论：0",
+          "summary": "今日热点导览 花旗警告：金价或跌至3500美元 韩国股市再度熔断 何小鹏发内部信：本人亲自带队，最后200天冲刺机器人量产 伊朗宣布对所有船只关闭霍尔木兹海峡 SpaceX认购资金超2500亿美元 TOP 3 大新闻 2026世界杯门票遇冷，近18万张门票待转售 北京时间6月12日，2026年美加墨世界杯将举行揭幕战。目前，国际足联（FIFA）官方转售平台上挂牌出售的门票达1…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 18,
+            "authority": 25,
+            "topic": 20,
             "actionability": 10,
-            "heat": 1
+            "heat": 5
           }
         },
         {
           "rank": 3,
-          "title": "V.C.安德鲁斯于 1986 年去世。此后以她的名义出版了 100 多本书。这基本上是人工智能作者权争论 40 年吗？",
+          "title": "寻找有关人工智能对心理困扰提示做出反应的论文/资源 [P]",
           "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-06-10T16:32:41+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u279ub/vc_andrews_died_in_1986_more_than_100_books_have/",
-          "sourceName": "Reddit r/artificial",
+          "aiScore": 87,
+          "publishedAt": "2026-06-10T23:57:38+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u2j4uv/looking_for_papersresources_on_ai_responses_to/",
+          "sourceName": "Reddit r/MachineLearning",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展"
+            "模型进展",
+            "应用落地",
+            "安全治理"
           ],
-          "summary": "V.C.安德鲁斯于 1986 年去世。此后，代笔作家安德鲁·尼德曼以她的名义出版了 100 多部小说。大多数读者要么从未注意到，要么不关心。这些书…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "大家好，我即将完成心理学学位，我也是一名系统工程专业的学生。就像，大致相当于拉丁语之外的软件工程/计算机科学……",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 10,
+            "topic": 19,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 4,
-          "title": "全球监管机构呼吁加强对金融领域代理人工智能的控制",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-06-10T16:22:30+00:00",
-          "sourceUrl": "https://www.reuters.com/legal/transactional/global-watchdog-calls-tighter-controls-agentic-ai-finance-2026-06-10/",
-          "sourceName": "Hacker News AI",
+          "title": "浪往南走：今年盛夏，WAVES来到番禺",
+          "platform": "36氪",
+          "aiScore": 86,
+          "publishedAt": "2026-06-11T02:59:54+00:00",
+          "sourceUrl": "https://36kr.com/p/3848188076381187?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "开源生态",
+            "应用落地",
+            "投融资"
+          ],
+          "summary": "浪来了，你到不到？ WAVES是36氪每年夏天最重要的一场会。 但它不仅仅是一个“会”。 从2023年北京金海湖碧波岛的草坪，到2024年郎园Station的市集，到2025年良渚五千年的夜空下——WAVES每年都在找一个地方，把36岁以下最值得关注的创业者和投资人放在同一个空间里。没有红毯，没有礼服，没有人念稿。白天是圆桌和碰撞，晚上是脱口秀、AI集市和珠江边的清风。 今年…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 17,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "通过 Oracle 云承诺访问 OpenAI 模型和 Codex",
+          "platform": "OpenAI",
+          "aiScore": 86,
+          "publishedAt": "2026-06-10T20:00:00+00:00",
+          "sourceUrl": "https://openai.com/index/openai-on-oracle-cloud",
+          "sourceName": "OpenAI News",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "通过 Oracle Cloud 访问 OpenAI 模型和 Codex，利用现有承诺构建和部署具有企业安全性和治理的 AI。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "微软因数据保留问题限制克劳德·法布尔（Claude Fable）的员工",
+          "platform": "The Verge",
+          "aiScore": 86,
+          "publishedAt": "2026-06-10T16:50:23+00:00",
+          "sourceUrl": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "Anthropic 昨天发布了其首个 Mythos 级人工智能模型 Claude Fable，它已经引起了微软内部的担忧。消息人士告诉我，微软正在限制克劳德的使用……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3D AI Agent",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-06-11T04:18:34+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/434317.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
             "Agent"
           ],
-          "summary": "文章网址：https://www.reuters.com/legal/transactional/global-watchdog-calls-tighter-controls-agentic-ai-finance-2026-06-10/ 评论网址：https://news.ycombinator.com/item?id=48478665 宝…",
+          "summary": "Meshy发布全球首个3D AI Agent",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 5,
-          "title": "Vanta AI 质量评估成熟度模型",
-          "platform": "Hacker News",
-          "aiScore": 74,
-          "publishedAt": "2026-06-10T16:28:14+00:00",
-          "sourceUrl": "https://www.vanta.com/resources/vanta-ai-quality-evaluation-maturity-model",
-          "sourceName": "Hacker News AI",
+          "rank": 8,
+          "title": "Mythos阴影里谷歌悄悄发模型，速度暴涨4倍",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-06-11T04:17:22+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/434316.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
             "模型进展"
           ],
-          "summary": "文章网址：https://www.vanta.com/resources/vanta-ai-quality-evaluation-maturity-model 评论网址：https://news.ycombinator.com/item?id=48478761 积分：1 # 评论：0",
+          "summary": "用扩散模型生成文字",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 10,
             "actionability": 10,
-            "heat": 1
+            "heat": 5
           }
         },
         {
-          "rank": 6,
-          "title": "Linux 基金会最新的人工智能工作围绕人工智能资产和数据交换",
-          "platform": "Hacker News",
-          "aiScore": 68,
-          "publishedAt": "2026-06-10T16:15:16+00:00",
-          "sourceUrl": "https://www.phoronix.com/news/Linux-Foundation-OpenSharing",
-          "sourceName": "Hacker News AI",
+          "rank": 9,
+          "title": "Fable 5自带反蒸馏机制！检测到就降智，误触率高到离谱",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-06-11T04:16:20+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/434326.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
             "模型进展"
           ],
-          "summary": "文章网址：https://www.phoronix.com/news/Linux-Foundation-OpenSharing 评论网址：https://news.ycombinator.com/item?id=48478561 积分：1 # 评论：0",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Claude刚刚发布的新模型Fable 5，很多人可能压根就用不上！",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 10,
-            "actionability": 4,
-            "heat": 1
+            "actionability": 10,
+            "heat": 5
           }
         },
         {
-          "rank": 7,
-          "title": "深入了解 Chromium 的设备端 AI 堆栈",
-          "platform": "Hacker News",
-          "aiScore": 63,
-          "publishedAt": "2026-06-10T16:25:57+00:00",
-          "sourceUrl": "https://www.island.io/blog/looking-inside-chromiums-on-device-ai-stack",
-          "sourceName": "Hacker News AI",
+          "rank": 10,
+          "title": "谷歌不会承认它正在为 YouTube 创作者提供音乐人工智能",
+          "platform": "The Verge",
+          "aiScore": 84,
+          "publishedAt": "2026-06-10T17:20:36+00:00",
+          "sourceUrl": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
+          "sourceName": "The Verge AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展",
+            "内容生产"
           ],
-          "summary": "文章网址：https://www.island.io/blog/looking-inside-chromiums-on-device-ai-stack 评论网址：https://news.ycombinator.com/item?id=48478721 积分：1 # 评论：0",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "如果你将一首歌曲上传到 YouTube，谷歌几乎肯定会认为你的视频公平游戏可以用于训练其 Lyria 音乐人工智能，但它现在不会承认这一点。一群独立音乐人…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 1
+            "recency": 28,
+            "authority": 25,
+            "topic": 16,
+            "actionability": 10,
+            "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 7,
-        "avgScore": 75.9,
-        "topScore": 88,
+        "totalItems": 51,
+        "avgScore": 73.1,
+        "topScore": 95,
         "topPlatforms": [
           {
+            "name": "Reddit",
+            "count": 18
+          },
+          {
             "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "量子位",
+            "count": 7
+          },
+          {
+            "name": "The Verge",
             "count": 6
           },
           {
-            "name": "Reddit",
-            "count": 1
+            "name": "36氪",
+            "count": 3
           }
         ],
         "topTopics": [
           {
+            "name": "AI动态",
+            "count": 26
+          },
+          {
             "name": "模型进展",
-            "count": 4
+            "count": 14
           },
           {
             "name": "Agent",
-            "count": 3
+            "count": 8
           },
           {
             "name": "开源生态",
+            "count": 5
+          },
+          {
+            "name": "芯片算力",
+            "count": 3
+          },
+          {
+            "name": "安全治理",
+            "count": 3
+          },
+          {
+            "name": "投融资",
             "count": 2
           },
           {
-            "name": "AI动态",
-            "count": 1
+            "name": "内容生产",
+            "count": 2
           }
         ]
       },
       "briefing": [
-        "今日共收录 7 条 AI 资讯，Top10 通报见下。",
-        "高频主题：模型进展 / Agent / 开源生态",
-        "最高分事件：Show HN：AI 观察了我的屏幕一年。天气打败睡眠（88 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "今日共收录 51 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付（95 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
@@ -411,7 +613,7 @@
       "label": "6月10日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 3,
           "title": "最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店",
           "platform": "36氪",
           "aiScore": 95,
@@ -435,7 +637,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 4,
           "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
           "platform": "36氪",
           "aiScore": 95,
@@ -459,7 +661,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 5,
           "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级｜硬氪首发",
           "platform": "36氪",
           "aiScore": 95,
@@ -483,7 +685,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 6,
           "title": "手机装不下的野心，正在被搬进游戏平板丨2026游戏平板使用趋势观察",
           "platform": "36氪",
           "aiScore": 95,
@@ -507,7 +709,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 7,
           "title": "8点1氪丨致3人永久失明，膳魔师紧急召回百万件产品；发布会后苹果市值蒸发超1.587万亿；Anthropic发布最强模型：Claude Fable 5正式上线",
           "platform": "36氪",
           "aiScore": 95,
@@ -723,7 +925,7 @@
       "label": "6月9日",
       "top10": [
         {
-          "rank": 6,
+          "rank": 8,
           "title": "在反外挂前线，游戏厂商开启了“军备竞赛”",
           "platform": "36氪",
           "aiScore": 95,
@@ -747,7 +949,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 9,
           "title": "氪星晚报 ｜腾讯、阿里等入股脑机接口研发商阶梯医疗；飞猪：端午假期入境游预订量同比增长超6倍；1—5月全国期货市场累计成交额同比增长40.13%",
           "platform": "36氪",
           "aiScore": 95,
@@ -771,7 +973,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 10,
           "title": "中科闻歌通过港交所聆讯",
           "platform": "36氪",
           "aiScore": 92,
@@ -27841,8 +28043,8 @@
     },
     "metrics": {
       "daysCovered": 4,
-      "totalItems": 167,
-      "avgTop10Score": 93.6,
+      "totalItems": 211,
+      "avgTop10Score": 94.7,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -27850,7 +28052,7 @@
           "count": 9
         },
         {
-          "name": "Hacker News",
+          "name": "量子位",
           "count": 1
         }
       ],
@@ -27858,6 +28060,10 @@
         {
           "name": "模型进展",
           "count": 9
+        },
+        {
+          "name": "芯片算力",
+          "count": 6
         },
         {
           "name": "Agent",
@@ -27868,15 +28074,7 @@
           "count": 6
         },
         {
-          "name": "芯片算力",
-          "count": 4
-        },
-        {
           "name": "自动化",
-          "count": 1
-        },
-        {
-          "name": "投融资",
           "count": 1
         }
       ]
@@ -27884,6 +28082,53 @@
     "topEvents": [
       {
         "rank": 1,
+        "title": "实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付",
+        "platform": "量子位",
+        "aiScore": 95,
+        "publishedAt": "2026-06-11T01:18:16+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/06/434225.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "通用GPU就能实现",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "8点1氪丨世界杯门票遇冷，近18万张门票待转售；台积电释放涨价信号；但斌回应“被段永平拉黑”",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-06-10T23:48:20+00:00",
+        "sourceUrl": "https://36kr.com/p/3848000003953926?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "今日热点导览 花旗警告：金价或跌至3500美元 韩国股市再度熔断 何小鹏发内部信：本人亲自带队，最后200天冲刺机器人量产 伊朗宣布对所有船只关闭霍尔木兹海峡 SpaceX认购资金超2500亿美元 TOP 3 大新闻 2026世界杯门票遇冷，近18万张门票待转售 北京时间6月12日，2026年美加墨世界杯将举行揭幕战。目前，国际足联（FIFA）官方转售平台上挂牌出售的门票达1…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
         "title": "最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店",
         "platform": "36氪",
         "aiScore": 95,
@@ -27907,7 +28152,7 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 4,
         "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
         "platform": "36氪",
         "aiScore": 95,
@@ -27931,7 +28176,7 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 5,
         "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级｜硬氪首发",
         "platform": "36氪",
         "aiScore": 95,
@@ -27955,7 +28200,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 6,
         "title": "手机装不下的野心，正在被搬进游戏平板丨2026游戏平板使用趋势观察",
         "platform": "36氪",
         "aiScore": 95,
@@ -27979,7 +28224,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 7,
         "title": "8点1氪丨致3人永久失明，膳魔师紧急召回百万件产品；发布会后苹果市值蒸发超1.587万亿；Anthropic发布最强模型：Claude Fable 5正式上线",
         "platform": "36氪",
         "aiScore": 95,
@@ -28003,7 +28248,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 8,
         "title": "在反外挂前线，游戏厂商开启了“军备竞赛”",
         "platform": "36氪",
         "aiScore": 95,
@@ -28027,7 +28272,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 9,
         "title": "氪星晚报 ｜腾讯、阿里等入股脑机接口研发商阶梯医疗；飞猪：端午假期入境游预订量同比增长超6倍；1—5月全国期货市场累计成交额同比增长40.13%",
         "platform": "36氪",
         "aiScore": 95,
@@ -28051,7 +28296,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 10,
         "title": "中科闻歌通过港交所聆讯",
         "platform": "36氪",
         "aiScore": 92,
@@ -28072,60 +28317,13 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 9,
-        "title": "产品观察 | 小米创始员工范典创业AI硬件，做了台“无摩擦”的睡眠床头灯",
-        "platform": "36氪",
-        "aiScore": 91,
-        "publishedAt": "2026-06-08T04:07:08+00:00",
-        "sourceUrl": "https://36kr.com/p/3844006775360002?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "投融资"
-        ],
-        "summary": "作者 | 邱晓芬 编辑 | 袁斯来 「格物科技」的创始人范典，是当下智能硬件赛道的一个“异类”。 作为喝过小米粥的小米创始员工，范典曾任曾小米物联网平台部总经理、AIoT战略委员会主席。以大厂高管履历拿笔钱，以最短时间做出款硬件上众筹，依托媒体造势，再滚动更多融资是这两年硬件赛道创业很常见的打法。 但范典做第一款产品用了三年。 2024年，智能硬件还是很冷僻的赛道，范典的选择…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 16,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "Show HN：AI 观察了我的屏幕一年。天气打败睡眠",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-06-10T16:08:09+00:00",
-        "sourceUrl": "https://donethat.ai/blog/dogfooding-donethat",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "嘿，HN！我想要一个足够准确、足够有用、足够简单、不需要养成新习惯的时间跟踪器，同时保护您的隐私。大多数跟踪器（RescueTime 等）仅使用活动日志......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "6月第2周累计收录 167 条资讯，覆盖 4 天。",
-      "高频主题：模型进展 / Agent / 应用落地",
-      "本周最高分：最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店（95 分）",
-      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "6月第2周累计收录 211 条资讯，覆盖 4 天。",
+      "高频主题：模型进展 / 芯片算力 / Agent",
+      "本周最高分：实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付（95 分）",
+      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "weeklyHistory": [
@@ -28138,8 +28336,8 @@
       },
       "metrics": {
         "daysCovered": 4,
-        "totalItems": 167,
-        "avgTop10Score": 93.6,
+        "totalItems": 211,
+        "avgTop10Score": 94.7,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -28147,7 +28345,7 @@
             "count": 9
           },
           {
-            "name": "Hacker News",
+            "name": "量子位",
             "count": 1
           }
         ],
@@ -28155,6 +28353,10 @@
           {
             "name": "模型进展",
             "count": 9
+          },
+          {
+            "name": "芯片算力",
+            "count": 6
           },
           {
             "name": "Agent",
@@ -28165,15 +28367,7 @@
             "count": 6
           },
           {
-            "name": "芯片算力",
-            "count": 4
-          },
-          {
             "name": "自动化",
-            "count": 1
-          },
-          {
-            "name": "投融资",
             "count": 1
           }
         ]
@@ -28181,6 +28375,53 @@
       "topEvents": [
         {
           "rank": 1,
+          "title": "实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付",
+          "platform": "量子位",
+          "aiScore": 95,
+          "publishedAt": "2026-06-11T01:18:16+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/434225.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "通用GPU就能实现",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "8点1氪丨世界杯门票遇冷，近18万张门票待转售；台积电释放涨价信号；但斌回应“被段永平拉黑”",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-06-10T23:48:20+00:00",
+          "sourceUrl": "https://36kr.com/p/3848000003953926?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "今日热点导览 花旗警告：金价或跌至3500美元 韩国股市再度熔断 何小鹏发内部信：本人亲自带队，最后200天冲刺机器人量产 伊朗宣布对所有船只关闭霍尔木兹海峡 SpaceX认购资金超2500亿美元 TOP 3 大新闻 2026世界杯门票遇冷，近18万张门票待转售 北京时间6月12日，2026年美加墨世界杯将举行揭幕战。目前，国际足联（FIFA）官方转售平台上挂牌出售的门票达1…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
           "title": "最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店",
           "platform": "36氪",
           "aiScore": 95,
@@ -28204,7 +28445,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 4,
           "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
           "platform": "36氪",
           "aiScore": 95,
@@ -28228,7 +28469,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 5,
           "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级｜硬氪首发",
           "platform": "36氪",
           "aiScore": 95,
@@ -28252,7 +28493,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 6,
           "title": "手机装不下的野心，正在被搬进游戏平板丨2026游戏平板使用趋势观察",
           "platform": "36氪",
           "aiScore": 95,
@@ -28276,7 +28517,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 7,
           "title": "8点1氪丨致3人永久失明，膳魔师紧急召回百万件产品；发布会后苹果市值蒸发超1.587万亿；Anthropic发布最强模型：Claude Fable 5正式上线",
           "platform": "36氪",
           "aiScore": 95,
@@ -28300,7 +28541,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 8,
           "title": "在反外挂前线，游戏厂商开启了“军备竞赛”",
           "platform": "36氪",
           "aiScore": 95,
@@ -28324,7 +28565,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 9,
           "title": "氪星晚报 ｜腾讯、阿里等入股脑机接口研发商阶梯医疗；飞猪：端午假期入境游预订量同比增长超6倍；1—5月全国期货市场累计成交额同比增长40.13%",
           "platform": "36氪",
           "aiScore": 95,
@@ -28348,7 +28589,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 10,
           "title": "中科闻歌通过港交所聆讯",
           "platform": "36氪",
           "aiScore": 92,
@@ -28369,60 +28610,13 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 9,
-          "title": "产品观察 | 小米创始员工范典创业AI硬件，做了台“无摩擦”的睡眠床头灯",
-          "platform": "36氪",
-          "aiScore": 91,
-          "publishedAt": "2026-06-08T04:07:08+00:00",
-          "sourceUrl": "https://36kr.com/p/3844006775360002?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "投融资"
-          ],
-          "summary": "作者 | 邱晓芬 编辑 | 袁斯来 「格物科技」的创始人范典，是当下智能硬件赛道的一个“异类”。 作为喝过小米粥的小米创始员工，范典曾任曾小米物联网平台部总经理、AIoT战略委员会主席。以大厂高管履历拿笔钱，以最短时间做出款硬件上众筹，依托媒体造势，再滚动更多融资是这两年硬件赛道创业很常见的打法。 但范典做第一款产品用了三年。 2024年，智能硬件还是很冷僻的赛道，范典的选择…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "Show HN：AI 观察了我的屏幕一年。天气打败睡眠",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-06-10T16:08:09+00:00",
-          "sourceUrl": "https://donethat.ai/blog/dogfooding-donethat",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "嘿，HN！我想要一个足够准确、足够有用、足够简单、不需要养成新习惯的时间跟踪器，同时保护您的隐私。大多数跟踪器（RescueTime 等）仅使用活动日志......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "6月第2周累计收录 167 条资讯，覆盖 4 天。",
-        "高频主题：模型进展 / Agent / 应用落地",
-        "本周最高分：最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店（95 分）",
-        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "6月第2周累计收录 211 条资讯，覆盖 4 天。",
+        "高频主题：模型进展 / 芯片算力 / Agent",
+        "本周最高分：实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付（95 分）",
+        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
