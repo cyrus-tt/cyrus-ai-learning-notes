@@ -18,6 +18,8 @@
 
 | 任务 | 完成日 | Plan 文件 |
 |---|---|---|
+| 新增 3 篇教程（OpenClaw / Obsidian / 知识收件箱）| 05-22 | 素材来源：小红书IP 内容库 |
+| 核心体验改造：首页重做 + Playground 修复 + 知识库 + 性能 | 05-21 | — |
 | XHS 推广准备：Analytics + UTM + Hero 中文化 + 首访引导 | 05-21 | `swirling-painting-adleman.md` |
 | 安全加固 + 性能优化 + CSS 清理 + 共享 Harness | 05-21 | `plans/wise-crunching-emerson.md` |
 | AI-Native 升级：Cmd+K 面板 + Explain This + 上下文聊天 | 05-20 | — |
