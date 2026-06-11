@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T05:26:20.933446+00:00",
+  "generatedAt": "2026-06-11T05:44:58.492424+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-06-11",
@@ -54,6 +54,30 @@
       },
       {
         "rank": 3,
+        "title": "克劳德寓言5刚刚上映，你怎么看？",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-06-11T05:26:33+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u2q18n/claude_fable_5_just_dropped_whats_your_take/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "anthropic 两天前刚刚发布了《寓言 5》，我还没来得及深入了解它的背景，它基本上是神话的公开版本，他们一直锁定的模型是……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
         "title": "寻找有关人工智能对心理困扰提示做出反应的论文/资源 [P]",
         "platform": "Reddit",
         "aiScore": 87,
@@ -77,7 +101,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 5,
         "title": "浪往南走：今年盛夏，WAVES来到番禺",
         "platform": "36氪",
         "aiScore": 86,
@@ -101,7 +125,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "通过 Oracle 云承诺访问 OpenAI 模型和 Codex",
         "platform": "OpenAI",
         "aiScore": 86,
@@ -124,7 +148,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 7,
         "title": "微软因数据保留问题限制克劳德·法布尔（Claude Fable）的员工",
         "platform": "The Verge",
         "aiScore": 86,
@@ -147,7 +171,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 8,
         "title": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3D AI Agent",
         "platform": "量子位",
         "aiScore": 85,
@@ -169,7 +193,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "Mythos阴影里谷歌悄悄发模型，速度暴涨4倍",
         "platform": "量子位",
         "aiScore": 85,
@@ -191,7 +215,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "Fable 5自带反蒸馏机制！检测到就降智，误触率高到离谱",
         "platform": "量子位",
         "aiScore": 85,
@@ -211,39 +235,16 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "谷歌不会承认它正在为 YouTube 创作者提供音乐人工智能",
-        "platform": "The Verge",
-        "aiScore": 84,
-        "publishedAt": "2026-06-10T17:20:36+00:00",
-        "sourceUrl": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "内容生产"
-        ],
-        "summary": "如果你将一首歌曲上传到 YouTube，谷歌几乎肯定会认为你的视频公平游戏可以用于训练其 Lyria 音乐人工智能，但它现在不会承认这一点。一群独立音乐人…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 16,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "metrics": {
-      "totalItems": 51,
-      "avgScore": 73.1,
+      "totalItems": 52,
+      "avgScore": 73.4,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 18
+          "count": 19
         },
         {
           "name": "Hacker News",
@@ -269,22 +270,22 @@
         },
         {
           "name": "模型进展",
-          "count": 14
+          "count": 15
         },
         {
           "name": "Agent",
-          "count": 8
+          "count": 9
         },
         {
           "name": "开源生态",
           "count": 5
         },
         {
-          "name": "芯片算力",
-          "count": 3
+          "name": "安全治理",
+          "count": 4
         },
         {
-          "name": "安全治理",
+          "name": "芯片算力",
           "count": 3
         },
         {
@@ -298,7 +299,7 @@
       ]
     },
     "briefing": [
-      "今日共收录 51 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 52 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / 模型进展 / Agent",
       "最高分事件：实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付（95 分）",
       "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -358,6 +359,30 @@
         },
         {
           "rank": 3,
+          "title": "克劳德寓言5刚刚上映，你怎么看？",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-06-11T05:26:33+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u2q18n/claude_fable_5_just_dropped_whats_your_take/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "anthropic 两天前刚刚发布了《寓言 5》，我还没来得及深入了解它的背景，它基本上是神话的公开版本，他们一直锁定的模型是……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
           "title": "寻找有关人工智能对心理困扰提示做出反应的论文/资源 [P]",
           "platform": "Reddit",
           "aiScore": 87,
@@ -381,7 +406,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "浪往南走：今年盛夏，WAVES来到番禺",
           "platform": "36氪",
           "aiScore": 86,
@@ -405,7 +430,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "通过 Oracle 云承诺访问 OpenAI 模型和 Codex",
           "platform": "OpenAI",
           "aiScore": 86,
@@ -428,7 +453,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "微软因数据保留问题限制克劳德·法布尔（Claude Fable）的员工",
           "platform": "The Verge",
           "aiScore": 86,
@@ -451,7 +476,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3D AI Agent",
           "platform": "量子位",
           "aiScore": 85,
@@ -473,7 +498,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Mythos阴影里谷歌悄悄发模型，速度暴涨4倍",
           "platform": "量子位",
           "aiScore": 85,
@@ -495,7 +520,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Fable 5自带反蒸馏机制！检测到就降智，误触率高到离谱",
           "platform": "量子位",
           "aiScore": 85,
@@ -515,39 +540,16 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "谷歌不会承认它正在为 YouTube 创作者提供音乐人工智能",
-          "platform": "The Verge",
-          "aiScore": 84,
-          "publishedAt": "2026-06-10T17:20:36+00:00",
-          "sourceUrl": "https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "内容生产"
-          ],
-          "summary": "如果你将一首歌曲上传到 YouTube，谷歌几乎肯定会认为你的视频公平游戏可以用于训练其 Lyria 音乐人工智能，但它现在不会承认这一点。一群独立音乐人…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "metrics": {
-        "totalItems": 51,
-        "avgScore": 73.1,
+        "totalItems": 52,
+        "avgScore": 73.4,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "Reddit",
-            "count": 18
+            "count": 19
           },
           {
             "name": "Hacker News",
@@ -573,22 +575,22 @@
           },
           {
             "name": "模型进展",
-            "count": 14
+            "count": 15
           },
           {
             "name": "Agent",
-            "count": 8
+            "count": 9
           },
           {
             "name": "开源生态",
             "count": 5
           },
           {
-            "name": "芯片算力",
-            "count": 3
+            "name": "安全治理",
+            "count": 4
           },
           {
-            "name": "安全治理",
+            "name": "芯片算力",
             "count": 3
           },
           {
@@ -602,7 +604,7 @@
         ]
       },
       "briefing": [
-        "今日共收录 51 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 52 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / 模型进展 / Agent",
         "最高分事件：实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付（95 分）",
         "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -28043,7 +28045,7 @@
     },
     "metrics": {
       "daysCovered": 4,
-      "totalItems": 211,
+      "totalItems": 212,
       "avgTop10Score": 94.7,
       "topScore": 95,
       "topPlatforms": [
@@ -28320,7 +28322,7 @@
       }
     ],
     "briefing": [
-      "6月第2周累计收录 211 条资讯，覆盖 4 天。",
+      "6月第2周累计收录 212 条资讯，覆盖 4 天。",
       "高频主题：模型进展 / 芯片算力 / Agent",
       "本周最高分：实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -28336,7 +28338,7 @@
       },
       "metrics": {
         "daysCovered": 4,
-        "totalItems": 211,
+        "totalItems": 212,
         "avgTop10Score": 94.7,
         "topScore": 95,
         "topPlatforms": [
@@ -28613,7 +28615,7 @@
         }
       ],
       "briefing": [
-        "6月第2周累计收录 211 条资讯，覆盖 4 天。",
+        "6月第2周累计收录 212 条资讯，覆盖 4 天。",
         "高频主题：模型进展 / 芯片算力 / Agent",
         "本周最高分：实测小米最快1T大模型：吞吐量每秒1000+ Tokens，Vibe Coding七秒交付（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"

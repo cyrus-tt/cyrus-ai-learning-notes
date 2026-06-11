@@ -1,87 +1,31 @@
 {
-  "generatedAt": "2026-06-11T05:26:46.773980+00:00",
+  "generatedAt": "2026-06-11T05:45:25.654020+00:00",
   "source": "yt-rss-live",
-  "total": 3,
+  "total": 1,
   "items": [
     {
-      "title": "Andrej Karpathy · YouTube监控",
-      "titleOriginal": "Deep Dive into LLMs like ChatGPT",
-      "titleZh": "深入研究 ChatGPT 等法学硕士",
-      "summary": "这是对为 ChatGPT 和相关产品提供支持的大语言模型 (LLM) AI 技术的普通受众的深入探讨。它涵盖了如何开发模型的完整培训堆栈，以及如何思考其“心理学”的心智模型，以及如何在实际应用中充分利用它们。我大约一年前就已经有了一个“法学硕士简介”视频，但这只是随机演讲的重新录制，所以我想循环播放并制作一个更全面的版本。\n\n导师\nAndrej 是 OpenAI 的创始成员（2015 年），然后是 Tesla 的人工智能高级总监（2017-2022 年），现在是 Eureka Labs 的创始人，该实验室正在建设一所人工智能原生学校。他的目标是在这...",
-      "summaryOriginal": "This is a general audience deep dive into the Large Language Model (LLM) AI technology that powers ChatGPT and related products. It is covers the full training stack of how the models are developed, along with mental models of how to think about their \"psychology\", and how to get the best use them in practical applications. I have one \"Intro to LLMs\" video already from ~year ago, but that is just a re-recording of a random talk, so I wanted to loop around and do a lot more comprehensive version.\n\nInstructor\nAndrej was a founding member at OpenAI (2015) and then Sr. Director of AI at Tesla (2017-2022), and is now a founder at Eureka Labs, which is building an AI-native school. His goal in thi...",
-      "summaryZh": "这是对为 ChatGPT 和相关产品提供支持的大语言模型 (LLM) AI 技术的普通受众的深入探讨。它涵盖了如何开发模型的完整培训堆栈，以及如何思考其“心理学”的心智模型，以及如何在实际应用中充分利用它们。我大约一年前就已经有了一个“法学硕士简介”视频，但这只是随机演讲的重新录制，所以我想循环播放并制作一个更全面的版本。\n\n导师\nAndrej 是 OpenAI 的创始成员（2015 年），然后是 Tesla 的人工智能高级总监（2017-2022 年），现在是 Eureka Labs 的创始人，该实验室正在建设一所人工智能原生学校。他的目标是在这...",
+      "title": "YouTube监控已启用",
+      "titleOriginal": "YouTube monitoring is enabled",
+      "titleZh": "YouTube监控已启用，等待下一次抓取",
+      "summary": "YouTube RSS 聚合已就绪，等待下一次定时抓取写入最新视频。",
+      "summaryOriginal": "YouTube RSS aggregation is ready. Waiting for the next scheduled fetch.",
+      "summaryZh": "YouTube RSS 聚合已就绪，等待下一次定时抓取写入最新视频。",
       "hasTranslation": true,
       "platform": "YouTube",
       "region": "海外",
       "industryStage": "中游",
       "contentTags": [
-        "YouTube监控",
-        "研究前沿",
-        "教程"
+        "YouTube监控"
       ],
-      "date": "2025-02-05",
-      "action": "值得观看的AI视频，建议收藏并提取关键信息。",
-      "sourceUrl": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
-      "sourceName": "Andrej Karpathy",
-      "publishedAt": "2025-02-05T18:23:47+00:00",
+      "date": "2026-06-11",
+      "action": "运行 scripts/build_yt_watchlist.py 即可刷新聚合视频。",
+      "sourceUrl": "https://www.youtube.com",
+      "sourceName": "YouTube",
+      "publishedAt": "2026-06-11T05:45:25.654020+00:00",
       "ytMeta": {
-        "channelId": "UCXUPKJO5MZQN11PqgIvyuvQ",
-        "videoId": "7xTGNNLPyMI",
-        "thumbnailUrl": "https://i4.ytimg.com/vi/7xTGNNLPyMI/hqdefault.jpg"
-      }
-    },
-    {
-      "title": "Andrej Karpathy · YouTube监控",
-      "titleOriginal": "Let's reproduce GPT-2 (124M)",
-      "titleZh": "我们来重现GPT-2（124M）",
-      "summary": "我们从头开始重现 GPT-2 (124M)。该视频涵盖了整个过程：首先我们构建 GPT-2 网络，然后我们将其训练优化为非常快，然后我们按照 GPT-2 和 GPT-3 论文及其超参数设置训练运行，然后我们点击运行，第二天早上回来查看我们的结果，并享受一些有趣的模型生成。请记住，在某些地方，该视频建立在“从零到英雄”播放列表中早期视频的知识基础上（请参阅我的频道）。您还可以将此视频视为构建我的 nanoGPT 存储库，到最后大约有 90% 相似。\n\n链接：\n- build-nanogpt GitHub 存储库，该视频中的所有更改均作为单独提交：htt...",
-      "summaryOriginal": "We reproduce the GPT-2 (124M) from scratch. This video covers the whole process: First we build the GPT-2 network, then we optimize its training to be really fast, then we set up the training run following the GPT-2 and GPT-3 paper and their hyperparameters, then we hit run, and come back the next morning to see our results, and enjoy some amusing model generations. Keep in mind that in some places this video builds on the knowledge from earlier videos in the Zero to Hero Playlist (see my channel). You could also see this video as building my nanoGPT repo, which by the end is about 90% similar.\n\nLinks:\n- build-nanogpt GitHub repo, with all the changes in this video as individual commits: htt...",
-      "summaryZh": "我们从头开始重现 GPT-2 (124M)。该视频涵盖了整个过程：首先我们构建 GPT-2 网络，然后我们将其训练优化为非常快，然后我们按照 GPT-2 和 GPT-3 论文及其超参数设置训练运行，然后我们点击运行，第二天早上回来查看我们的结果，并享受一些有趣的模型生成。请记住，在某些地方，该视频建立在“从零到英雄”播放列表中早期视频的知识基础上（请参阅我的频道）。您还可以将此视频视为构建我的 nanoGPT 存储库，到最后大约有 90% 相似。\n\n链接：\n- build-nanogpt GitHub 存储库，该视频中的所有更改均作为单独提交：htt...",
-      "hasTranslation": true,
-      "platform": "YouTube",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "YouTube监控",
-        "研究前沿",
-        "教程"
-      ],
-      "date": "2024-06-09",
-      "action": "值得观看的AI视频，建议收藏并提取关键信息。",
-      "sourceUrl": "https://www.youtube.com/watch?v=l8pRSuU81PU",
-      "sourceName": "Andrej Karpathy",
-      "publishedAt": "2024-06-09T23:31:35+00:00",
-      "ytMeta": {
-        "channelId": "UCXUPKJO5MZQN11PqgIvyuvQ",
-        "videoId": "l8pRSuU81PU",
-        "thumbnailUrl": "https://i1.ytimg.com/vi/l8pRSuU81PU/hqdefault.jpg"
-      }
-    },
-    {
-      "title": "Andrej Karpathy · YouTube监控",
-      "titleOriginal": "Let's build the GPT Tokenizer",
-      "titleZh": "让我们构建 GPT Tokenizer",
-      "summary": "分词器是大型语言模型 (LLM) 中必要且普遍的组件，它在字符串和标记（文本块）之间进行转换。分词器是 LLM 管道的一个完全独立的阶段：它们有自己的训练集、训练算法（字节对编码），并且在训练后实现两个基本功能：从字符串到令牌的encode()，以及从令牌到字符串的decode()。在本次讲座中，我们从头开始构建 OpenAI 的 GPT 系列中使用的 Tokenizer。在这个过程中，我们会看到LLM的很多奇怪的行为和问题实际上都可以追溯到标记化。我们将讨论其中的一些问题，讨论为什么代币化如此流行......",
-      "summaryOriginal": "The Tokenizer is a necessary and pervasive component of Large Language Models (LLMs), where it translates between strings and tokens (text chunks). Tokenizers are a completely separate stage of the LLM pipeline: they have their own training sets, training algorithms (Byte Pair Encoding), and after training implement two fundamental functions: encode() from strings to tokens, and decode() back from tokens to strings. In this lecture we build from scratch the Tokenizer used in the GPT series from OpenAI. In the process, we will see that a lot of weird behaviors and problems of LLMs actually trace back to tokenization. We'll go through a number of these issues, discuss why tokenization is at fa...",
-      "summaryZh": "分词器是大型语言模型 (LLM) 中必要且普遍的组件，它在字符串和标记（文本块）之间进行转换。分词器是 LLM 管道的一个完全独立的阶段：它们有自己的训练集、训练算法（字节对编码），并且在训练后实现两个基本功能：从字符串到令牌的encode()，以及从令牌到字符串的decode()。在本次讲座中，我们从头开始构建 OpenAI 的 GPT 系列中使用的 Tokenizer。在这个过程中，我们会看到LLM的很多奇怪的行为和问题实际上都可以追溯到标记化。我们将讨论其中的一些问题，讨论为什么代币化如此流行......",
-      "hasTranslation": true,
-      "platform": "YouTube",
-      "region": "海外",
-      "industryStage": "中游",
-      "contentTags": [
-        "YouTube监控",
-        "研究前沿",
-        "教程"
-      ],
-      "date": "2024-02-20",
-      "action": "值得观看的AI视频，建议收藏并提取关键信息。",
-      "sourceUrl": "https://www.youtube.com/watch?v=zduSFxRajkE",
-      "sourceName": "Andrej Karpathy",
-      "publishedAt": "2024-02-20T17:11:35+00:00",
-      "ytMeta": {
-        "channelId": "UCXUPKJO5MZQN11PqgIvyuvQ",
-        "videoId": "zduSFxRajkE",
-        "thumbnailUrl": "https://i3.ytimg.com/vi/zduSFxRajkE/hqdefault.jpg"
+        "channelId": "",
+        "videoId": "",
+        "thumbnailUrl": ""
       }
     }
   ]
