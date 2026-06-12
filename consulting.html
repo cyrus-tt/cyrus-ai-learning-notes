@@ -244,10 +244,13 @@
     .hero h1 {
       font-family: var(--disp);
       font-weight: 800;
-      font-size: clamp(40px, 7.6vw, 84px);
-      line-height: 1.12;
+      font-size: clamp(32px, 4.4vw, 54px);
+      line-height: 1.22;
       letter-spacing: -.015em;
-      max-width: 16ch;
+      white-space: nowrap;
+    }
+    @media (max-width: 900px) {
+      .hero h1 { white-space: normal; font-size: clamp(32px, 7.5vw, 54px); }
     }
     .hero h1 .grad {
       background: var(--aurora);
@@ -312,6 +315,156 @@
       border-color: var(--frost-line-bright);
       transform: translateY(-2px);
     }
+
+    /* ── Hero 双栏 + 悬浮 Agent 控制台 ───────────────────────── */
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.12fr .88fr;
+      gap: 56px;
+      align-items: center;
+    }
+    .hero-vis { position: relative; }
+    .hero-vis::before {
+      content: "";
+      position: absolute;
+      inset: -18%;
+      background: radial-gradient(circle at 55% 45%, rgba(96,165,250,.28), rgba(167,139,250,.16) 45%, transparent 70%);
+      filter: blur(46px);
+      z-index: -1;
+    }
+    .console {
+      border-radius: 20px;
+      background: rgba(9, 11, 20, .72);
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      border: 1px solid var(--frost-line);
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.12),
+        0 30px 80px rgba(0,0,0,.55);
+      padding: 16px 22px 24px;
+      font-family: var(--mono);
+      font-size: 12.5px;
+      transform: perspective(1300px) rotateY(-7deg) rotateX(2.5deg);
+      animation: floaty 7s ease-in-out infinite alternate;
+    }
+    @keyframes floaty {
+      to { transform: perspective(1300px) rotateY(-7deg) rotateX(2.5deg) translateY(-13px); }
+    }
+    .console-bar {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding-bottom: 14px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid rgba(255,255,255,.07);
+    }
+    .console-bar i {
+      width: 11px; height: 11px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.14);
+    }
+    .console-bar i:nth-child(1) { background: rgba(255,118,118,.75); }
+    .console-bar i:nth-child(2) { background: rgba(255,200,99,.75); }
+    .console-bar i:nth-child(3) { background: rgba(110,231,160,.75); }
+    .console-bar b {
+      margin-left: auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .18em;
+      color: var(--cyan);
+    }
+    .console-bar b::before {
+      content: "";
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--cyan);
+      box-shadow: 0 0 10px var(--cyan);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    .console-line {
+      line-height: 2.25;
+      color: var(--mist);
+      opacity: 0;
+      transform: translateY(4px);
+      animation: lineIn .45s var(--ease) forwards;
+    }
+    .console-line .ok { color: #6ee7a0; }
+    .console-line .run { color: var(--azure); }
+    .console-line .dim { color: var(--mist-dim); }
+    .console-line .num {
+      background: var(--aurora);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-weight: 700;
+    }
+    .console-line:nth-child(2) { animation-delay: .7s; }
+    .console-line:nth-child(3) { animation-delay: 1.5s; }
+    .console-line:nth-child(4) { animation-delay: 2.3s; }
+    .console-line:nth-child(5) { animation-delay: 3.1s; }
+    .console-line:nth-child(6) { animation-delay: 3.9s; }
+    .console-line:nth-child(7) { animation-delay: 4.7s; }
+    @keyframes lineIn { to { opacity: 1; transform: none; } }
+    .caret {
+      display: inline-block;
+      width: 8px; height: 14px;
+      margin-left: 2px;
+      vertical-align: -2px;
+      background: var(--cyan);
+      animation: blink 1.05s steps(1) infinite;
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    /* ── 技术栈流动带 ─────────────────────────────────────────── */
+    .marquee {
+      margin-top: 30px;
+      overflow: hidden;
+      -webkit-mask-image: linear-gradient(90deg, transparent, #000 14%, #000 86%, transparent);
+      mask-image: linear-gradient(90deg, transparent, #000 14%, #000 86%, transparent);
+    }
+    .marquee-track {
+      display: flex;
+      gap: 0;
+      width: max-content;
+      animation: mq 30s linear infinite;
+    }
+    .marquee-track span {
+      font-family: var(--mono);
+      font-size: 11.5px;
+      letter-spacing: .22em;
+      color: var(--mist-dim);
+      padding: 10px 0;
+      white-space: nowrap;
+    }
+    .marquee-track span::after {
+      content: "◆";
+      margin: 0 26px;
+      font-size: 7px;
+      vertical-align: 2px;
+      background: var(--aurora);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    @keyframes mq { to { transform: translateX(-50%); } }
+
+    /* ── 鼠标聚光（Linear 式卡片光效）────────────────────────── */
+    .spot { position: relative; }
+    .spot::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity .35s;
+      background: radial-gradient(420px circle at var(--mx, -300px) var(--my, -300px),
+        rgba(255,255,255,.09), transparent 55%);
+    }
+    .spot:hover::after { opacity: 1; }
 
     /* ── 数据带：玻璃药丸 ─────────────────────────────────────── */
     .metrics {
@@ -668,7 +821,10 @@
     @media (max-width: 900px) {
       .metrics { grid-template-columns: 1fr 1fr; }
       .steps { grid-template-columns: 1fr 1fr; }
+      .hero-grid { grid-template-columns: 1fr; gap: 44px; }
+      .console { transform: none; animation: floatyFlat 7s ease-in-out infinite alternate; max-width: 520px; }
     }
+    @keyframes floatyFlat { to { transform: translateY(-10px); } }
     @media (max-width: 680px) {
       .nav { gap: 14px; padding: 10px 10px 10px 18px; }
       .nav a.nav-link { display: none; }
@@ -701,35 +857,58 @@
 
   <!-- Hero -->
   <header class="hero">
-    <div class="hero-badge rv" style="--d:0">AI Efficiency Partner · 接受合作咨询</div>
-    <h1 class="rv" style="--d:1">把重复劳动交给 AI，<br><span class="grad">把人留给判断。</span></h1>
-    <p class="hero-sub rv" style="--d:2">
-      我在<strong>世界 500 强电商集团</strong>做商品管理，同时给企业做 AI 提效落地。
-      业务出身、AI 全栈交付——<strong>先懂你的业务，再谈技术</strong>。
-      下面的案例全部真实在跑，每个数字都可以追问细节。
-    </p>
-    <div class="hero-cta-row rv" style="--d:3">
-      <a class="btn-glow" href="mailto:cyrusttyj2@gmail.com">谈谈你的场景 →</a>
-      <a class="btn-glass" href="#cases">先看案例 ↓</a>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div class="hero-badge rv" style="--d:0">AI Efficiency Partner · 接受合作咨询</div>
+        <h1 class="rv" style="--d:1">把重复劳动交给 AI，<br><span class="grad">把人留给判断。</span></h1>
+        <p class="hero-sub rv" style="--d:2">
+          我在<strong>世界 500 强电商集团</strong>做商品管理，同时给企业做 AI 提效落地。
+          业务出身、AI 全栈交付——<strong>先懂你的业务，再谈技术</strong>。
+          下面的案例全部真实在跑，每个数字都可以追问细节。
+        </p>
+        <div class="hero-cta-row rv" style="--d:3">
+          <a class="btn-glow" href="mailto:cyrusttyj2@gmail.com">谈谈你的场景 →</a>
+          <a class="btn-glass" href="#cases">先看案例 ↓</a>
+        </div>
+      </div>
+      <div class="hero-vis rv" style="--d:4" aria-hidden="true">
+        <div class="console">
+          <div class="console-bar"><i></i><i></i><i></i><b>AGENT · RUNNING</b></div>
+          <div class="console-line"><span class="run">▸</span> 扫描 <span class="num">36,000+</span> SKU 销售数据…</div>
+          <div class="console-line"><span class="ok">✓</span> 检出 <span class="num">17</span> 个滞销风险款</div>
+          <div class="console-line"><span class="ok">✓</span> 异常预警已推送企业微信群</div>
+          <div class="console-line"><span class="run">▸</span> 生成经营周报…<span class="dim"> markdown + 图表</span></div>
+          <div class="console-line"><span class="ok">✓</span> 完成 <span class="dim">elapsed 4.2s · 9 checkers passed</span></div>
+          <div class="console-line"><span class="dim">下一次巡检 08:00 · 无人值守</span><span class="caret"></span></div>
+        </div>
+      </div>
     </div>
 
     <!-- 数据带 -->
     <div class="metrics">
-      <div class="metric rv">
-        <div class="metric-num">+80%</div>
+      <div class="metric spot rv">
+        <div class="metric-num" data-cnt="80" data-pre="+" data-suf="%">+80%</div>
         <div class="metric-label">经营分析效率提升<br>（电商 Agent 系统）</div>
       </div>
-      <div class="metric rv">
-        <div class="metric-num">8h+</div>
+      <div class="metric spot rv">
+        <div class="metric-num" data-cnt="8" data-suf="h+">8h+</div>
         <div class="metric-label">单团队每周节省的<br>重复手工时间</div>
       </div>
-      <div class="metric rv">
-        <div class="metric-num">30+</div>
+      <div class="metric spot rv">
+        <div class="metric-num" data-cnt="30" data-suf="+">30+</div>
         <div class="metric-label">生产环境运行中的<br>自动化工作流</div>
       </div>
-      <div class="metric rv">
-        <div class="metric-num">40+</div>
+      <div class="metric spot rv">
+        <div class="metric-num" data-cnt="40" data-suf="+">40+</div>
         <div class="metric-label">每天在用这些系统的<br>业务同事</div>
+      </div>
+    </div>
+
+    <!-- 技术栈流动带 -->
+    <div class="marquee rv" aria-hidden="true">
+      <div class="marquee-track">
+        <span>CLAUDE</span><span>GPT</span><span>N8N</span><span>CLOUDFLARE</span><span>RAG</span><span>FUNCTION CALLING</span><span>MCP</span><span>REACT</span><span>RUST</span><span>POSTGRESQL</span><span>EVAL HARNESS</span><span>企业微信</span><span>LOCAL LLM</span>
+        <span>CLAUDE</span><span>GPT</span><span>N8N</span><span>CLOUDFLARE</span><span>RAG</span><span>FUNCTION CALLING</span><span>MCP</span><span>REACT</span><span>RUST</span><span>POSTGRESQL</span><span>EVAL HARNESS</span><span>企业微信</span><span>LOCAL LLM</span>
       </div>
     </div>
   </header>
@@ -741,7 +920,7 @@
     <span class="rule"></span>
   </div>
 
-  <article class="case case-1 rv">
+  <article class="case case-1 spot rv">
     <div class="case-top">
       <span class="case-no">CASE 01</span>
       <span class="case-industry">世界 500 强运动集团 · 电商事业部</span>
@@ -765,7 +944,7 @@
     </div>
   </article>
 
-  <article class="case case-2 rv">
+  <article class="case case-2 spot rv">
     <div class="case-top">
       <span class="case-no">CASE 02</span>
       <span class="case-industry">连锁口腔医疗 SaaS 平台 · 宇宙熊</span>
@@ -788,7 +967,7 @@
     </div>
   </article>
 
-  <article class="case case-3 rv">
+  <article class="case case-3 spot rv">
     <div class="case-top">
       <span class="case-no">CASE 03</span>
       <span class="case-industry">知识密集型团队 · 隐私敏感场景</span>
@@ -817,22 +996,22 @@
     <span class="rule"></span>
   </div>
   <div class="caps">
-    <div class="cap rv">
+    <div class="cap spot rv">
       <div class="cap-ico">◈</div>
       <h3>AI 场景诊断</h3>
       <p>不是所有事都该用 AI。用「重复频率 × 结构化程度 × 人工耗时」三维框架筛出真正值得做的环节，先算投产比再动手。</p>
     </div>
-    <div class="cap rv">
+    <div class="cap spot rv">
       <div class="cap-ico">⚙</div>
       <h3>工作流自动化</h3>
       <p>n8n / 数字员工 / API 集成。30+ 生产工作流的实战经验：日报、监控、群应答、数据管道，搭完就无人值守跑。</p>
     </div>
-    <div class="cap rv">
+    <div class="cap spot rv">
       <div class="cap-ico">⬡</div>
       <h3>Agent 系统搭建</h3>
       <p>自然语言查数、RAG 知识库、多轮对话、评测体系。重点不是 demo 酷，是答案可信、业务同事真的天天用。</p>
     </div>
-    <div class="cap rv">
+    <div class="cap spot rv">
       <div class="cap-ico">▣</div>
       <h3>全栈产品交付</h3>
       <p>从方案到可用系统全程交付，包括隐私敏感的纯本地化方案。交付物你的团队能直接上手维护，不被我绑架。</p>
@@ -923,6 +1102,44 @@
       });
     }, { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
     document.querySelectorAll(".rv").forEach(function (el) { io.observe(el); });
+  })();
+
+  // 鼠标聚光：卡片边缘随光标走（Linear 式）
+  (function () {
+    if (!window.matchMedia("(hover: hover)").matches) return;
+    document.querySelectorAll(".spot").forEach(function (el) {
+      el.addEventListener("mousemove", function (ev) {
+        var r = el.getBoundingClientRect();
+        el.style.setProperty("--mx", (ev.clientX - r.left) + "px");
+        el.style.setProperty("--my", (ev.clientY - r.top) + "px");
+      });
+    });
+  })();
+
+  // 数字滚动：进入视野时从 0 计数到目标值
+  (function () {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var fmt = function (n) { return n.toLocaleString("en-US"); };
+    var io2 = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        io2.unobserve(e.target);
+        var el = e.target;
+        var target = parseInt(el.getAttribute("data-cnt"), 10);
+        var pre = el.getAttribute("data-pre") || "";
+        var suf = el.getAttribute("data-suf") || "";
+        var t0 = null, DUR = 1400;
+        function tick(ts) {
+          if (!t0) t0 = ts;
+          var p = Math.min((ts - t0) / DUR, 1);
+          var eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = pre + fmt(Math.round(target * eased)) + suf;
+          if (p < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      });
+    }, { threshold: 0.4 });
+    document.querySelectorAll(".metric-num[data-cnt]").forEach(function (el) { io2.observe(el); });
   })();
 </script>
 <script defer src="/js/components/utm-tracker.js"></script>
