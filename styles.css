@@ -207,22 +207,77 @@ img { max-width: 100%; display: block; }
   transition: all var(--duration-normal) var(--ease-out);
 }
 
-.hero-links a:first-child {
-  background: var(--ink);
-  color: var(--bg);
-  border-color: var(--ink);
-}
-
-.hero-links a:first-child:hover {
-  background: var(--accent);
-  border-color: var(--accent);
-}
-
 .hero-links a:hover {
   background: var(--ink);
   color: var(--bg);
   border-color: var(--ink);
   transform: translateY(-1px);
+}
+
+/* ─── 4a-2. Hero 双入口 ─────────────────────────────────────── */
+.hero-entry-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 30px;
+  max-width: 640px;
+}
+
+.hero-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px 22px;
+  border: 1.5px solid var(--line);
+  border-radius: 14px;
+  text-decoration: none;
+  background: var(--bg-elevated, var(--bg));
+  transition: transform var(--duration-normal) var(--ease-out),
+              box-shadow var(--duration-normal) var(--ease-out),
+              border-color var(--duration-normal);
+}
+
+.hero-entry:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+}
+
+.hero-entry-kicker {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.hero-entry-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -.01em;
+}
+
+.hero-entry-desc {
+  font-size: 12.5px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.hero-entry-biz {
+  border-color: color-mix(in srgb, var(--accent) 50%, var(--line));
+  background: color-mix(in srgb, var(--accent) 5%, var(--bg-elevated, var(--bg)));
+}
+
+.hero-entry-biz .hero-entry-kicker { color: var(--accent); }
+
+.hero-entry-biz:hover {
+  border-color: var(--accent);
+  box-shadow: 0 10px 30px color-mix(in srgb, var(--accent) 22%, transparent);
+}
+
+@media (max-width: 640px) {
+  .hero-entry-row { grid-template-columns: 1fr; }
 }
 
 /* ─── 4b. Neural Hero Canvas ────────────────────────────────── */
