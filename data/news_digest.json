@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T16:52:26.820173+00:00",
+  "generatedAt": "2026-06-12T05:29:08.035414+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-06-12",
@@ -7,18 +7,43 @@
     "top10": [
       {
         "rank": 1,
-        "title": "上下文压缩应该保留什么？我研究了六名特工是如何处理的[D]",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-06-11T16:50:00+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u34hvc/what_should_context_compression_keep_i_looked_at/",
-        "sourceName": "Reddit r/MachineLearning",
+        "title": "8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-06-12T00:04:29+00:00",
+        "sourceUrl": "https://36kr.com/p/3849431503869187?f=rss",
+        "sourceName": "36氪",
         "industryStage": "中游",
         "contentTags": [
+          "芯片算力",
           "模型进展",
           "Agent"
         ],
-        "summary": "我使用 Claude Code、Codex CLI、OpenCode、Cline、Cursor 和 Amp 足以注意到它们处理长上下文的模式。它们都集中在分层渐进压缩上，但是……",
+        "summary": "今日热点导览 OpenAI正考虑大幅下调产品价格，预判将与Anthropic展开用户之争 全球两大预测平台世界杯冠军合约成交额破20亿美元，有望刷新单项纪录 SK海力士设备供应商要求涨价 端午前机票价格跳水 SpaceX上市前夕，美股太空股提前狂欢 TOP 3 大新闻 SpaceX上市在即，马斯克或成全球首位万亿富翁 据报道，SpaceX将于美东时间6月12日在纳斯达克挂牌交…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "Show HN：MandoCode – 本地优先的 AI 编码代理（.NET 和 Ollama）",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-06-12T03:22:10+00:00",
+        "sourceUrl": "https://github.com/DevMando/MandoCode",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "我构建了 MandoCode，这是一个在 .NET 中针对本地 Ollama 模型运行的开源 CLI 编码代理。没有 API 密钥，您的机器上什么也没有留下（如果您需要，Ollama 云模型也可以使用）。我…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -29,252 +54,256 @@
         }
       },
       {
-        "rank": 2,
-        "title": "HN 的方式：我向 Claude 提供了有关 3k AI 公司的实时英特尔信息（提及、资助）",
-        "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-06-11T16:36:42+00:00",
-        "sourceUrl": "https://github.com/altmbr/teahose-mcp",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态",
-          "投融资"
-        ],
-        "summary": "文章网址：https://github.com/altmbr/teahose-mcp 评论网址：https://news.ycombinator.com/item?id=48492657 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
         "rank": 3,
-        "title": "Show HN：AgentStore – 面向 AI 代理团队的自托管数据存储",
-        "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-06-11T16:40:55+00:00",
-        "sourceUrl": "https://github.com/guyweissman/agentstore",
-        "sourceName": "Hacker News AI",
+        "title": "如果我们成功创建了 ASI，但它对我们毫无作用怎么办？",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-06-12T02:41:45+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u3j2j0/what_if_we_succeed_in_creating_asi_but_it_does/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "开源生态"
+          "模型进展",
+          "Agent"
         ],
-        "summary": "文章网址：https://github.com/guyweissman/agentstore 评论网址：https://news.ycombinator.com/item?id=48492723 积分：1 # 评论：0",
+        "summary": "我们熟悉 ASI 可以消灭所有人类或者可以在地球上带来乌托邦的想法，但我们是否考虑过更平凡的结果？ ​ 我们经常假设伟大的......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 20,
           "actionability": 10,
-          "heat": 1
+          "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "从头开始构建基本的 AI 代理",
-        "platform": "Hacker News",
-        "aiScore": 74,
-        "publishedAt": "2026-06-11T16:08:20+00:00",
-        "sourceUrl": "https://www.ruxu.dev/articles/ai/build-a-basic-ai-agent/",
-        "sourceName": "Hacker News AI",
+        "title": "我认为人工智能代理将需要一个操作层",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-06-12T00:56:20+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u3gv2i/i_think_ai_agents_are_going_to_need_an_operating/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "模型进展",
+          "Agent",
+          "开源生态"
         ],
-        "summary": "文章网址：https://www.ruxu.dev/articles/ai/build-a-basic-ai-agent/ 评论网址：https://news.ycombinator.com/item?id=48492273 积分：1 # 评论：0",
+        "summary": "人工智能系统变得越自治，我认为单独的安全工具就越不够用。现在，我们的代理具有工具访问、浏览器访问、MCP 服务器、内存、工作流程、扩展……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
+          "topic": 20,
           "actionability": 10,
-          "heat": 1
+          "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "如何获得网页设计客户",
+        "title": "当我们向结合法学硕士、RLHF、工具使用和检索增强生成的代理、多模式系统扩展时，实用的架构师......",
         "platform": "Reddit",
-        "aiScore": 70,
-        "publishedAt": "2026-06-11T16:48:58+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u34gub/how_to_get_web_design_clients/",
+        "aiScore": 88,
+        "publishedAt": "2026-06-11T23:55:10+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u3fiiq/as_we_scale_toward_agentic_multimodal_systems/",
         "sourceName": "Reddit r/artificial",
-        "industryStage": "下游",
+        "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展",
+          "Agent",
+          "应用落地"
         ],
-        "summary": "老实说，经营一家网络代理机构比大多数人想象的要困难得多。多年来，我与很多网页设计师和机构所有者交谈过，每个人似乎都有完全不同的……",
-        "action": "关注与你场景最相关的指标，不只看总分。",
+        "summary": "具体来说：未来的人工智能系统应该融合成一个统一的代理堆栈（规划器+内存+工具+验证器），还是保持专业模型的模块化集合（推理器、批评器、检索器……）",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 5,
-          "actionability": 7,
+          "topic": 20,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 6,
-        "title": "我们如何从 7 / 13 个 AI 原型工具中提取独立的 HTML 文件",
-        "platform": "Hacker News",
-        "aiScore": 68,
-        "publishedAt": "2026-06-11T16:42:37+00:00",
-        "sourceUrl": "https://productnow.ai/blogs/extracting-html-from-ai-prototyping-tools",
-        "sourceName": "Hacker News AI",
+        "title": "我追踪了“300% AI 代理采用激增”统计数据的来源。它不存在。",
+        "platform": "Reddit",
+        "aiScore": 87,
+        "publishedAt": "2026-06-12T04:59:56+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u3lrtk/i_traced_the_300_ai_agent_adoption_surge_stat/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
+          "Agent",
           "应用落地"
         ],
-        "summary": "文章网址：https://productnow.ai/blogs/extracting-html-from-ai-prototyping-tools 评论网址：https://news.ycombinator.com/item?id=48492741 积分：1 # 评论：1",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "您可能已经看过该声明。它出现在供应商博客、LinkedIn 帖子以及我本季度参加过的至少三个主题演讲中：AI 代理的采用率在两年内增长了 300%。我跑……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 9,
-          "actionability": 4,
-          "heat": 2
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
         }
       },
       {
         "rank": 7,
-        "title": "经销商撤销了回购客户宝马的提议，指责任性的人工智能聊天机器人",
-        "platform": "Hacker News",
-        "aiScore": 65,
-        "publishedAt": "2026-06-11T16:39:03+00:00",
-        "sourceUrl": "https://www.cbc.ca/news/business/ai-chatbot-bmw-dealership-9.7230226",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "title": "36氪首发 | 前瓦锡兰老兵创业，为船舶装上中国“心脏”，半年超 5000万订单",
+        "platform": "36氪",
+        "aiScore": 87,
+        "publishedAt": "2026-06-12T01:34:28+00:00",
+        "sourceUrl": "https://36kr.com/p/3849520020231432?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
         "contentTags": [
-          "AI动态"
+          "应用落地",
+          "投融资"
         ],
-        "summary": "文章网址：https://www.cbc.ca/news/business/ai-chatbot-bmw-dealership-9.7230226 评论网址：https://news.ycombinator.com/item?id=48492696 积分：4 # 评论：2",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，连云港力普司船舶科技有限公司（下称“力普司LiiPuS”）近期连续完成种子轮及天使轮融资，总额达数千万元。其中，种子轮由江苏金桥基金独家投资，天使轮由云时资本独家投资。本轮资金将主要用于高端船舶综合电力推进系统及产品的样机测试、持续改进及小批量交付，加速国产高端推进系统在港口拖轮、海工船、豪华游艇等场景的规模化应用。 力普司2025年7月成…",
+        "action": "关注与你场景最相关的指标，不只看总分。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 3
+          "authority": 25,
+          "topic": 15,
+          "actionability": 7,
+          "heat": 5
         }
       },
       {
         "rank": 8,
-        "title": "人工智能正在蚕食你的护城河",
-        "platform": "Hacker News",
-        "aiScore": 64,
-        "publishedAt": "2026-06-11T16:45:50+00:00",
-        "sourceUrl": "https://josepvidal.dev/blog/ai-is-eating-your-moat",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "title": "谷歌宣布追加投入5000万美元培训美国技工，以满足AI基础设施建设需求",
+        "platform": "36氪",
+        "aiScore": 86,
+        "publishedAt": "2026-06-12T05:22:21+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3849744240989442?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
         "contentTags": [
-          "AI动态"
+          "芯片算力",
+          "投融资"
         ],
-        "summary": "文章网址：https://josepvidal.dev/blog/ai-is-eating-your-moat 评论网址：https://news.ycombinator.com/item?id=48492785 积分：1 # 评论：1",
+        "summary": "随着人工智能的蓬勃发展，对数据中心和基础设施的需求空前高涨，Alphabet旗下的谷歌正在加大对美国技术工人队伍的投资。当地时间周四，Alphabet首席执行官桑达尔·皮查伊宣布，谷歌将追加投资5000万美元，帮助美国20多个州的30多万美国人做好从事技术行业职业的准备。据谷歌称，这项新的投入是其更大规模计划的一部分。自2022年以来，该公司已在全球范围内投入超过10亿美元用…",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 5,
+          "authority": 25,
+          "topic": 17,
           "actionability": 4,
-          "heat": 2
+          "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "风险不是流氓人工智能。这是合理的人工智能",
+        "title": "询问 HN：有人在生产环境中可靠地运行 AI 代理吗？你们的堆栈是什么？",
         "platform": "Hacker News",
-        "aiScore": 64,
-        "publishedAt": "2026-06-11T16:23:28+00:00",
-        "sourceUrl": "https://grith.ai/blog/real-risk-isnt-rogue-ai-plausible-ai",
+        "aiScore": 85,
+        "publishedAt": "2026-06-12T04:10:34+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=48499826",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "Agent",
+          "应用落地"
         ],
-        "summary": "文章网址：https://grith.ai/blog/real-risk-isnt-rogue-ai-plausible-ai 评论网址：https://news.ycombinator.com/item?id=48492464 积分：2 # 评论：0",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "评论网址：https://news.ycombinator.com/item?id=48499826 积分：3 # 评论：2",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 2
+          "topic": 19,
+          "actionability": 10,
+          "heat": 3
         }
       },
       {
         "rank": 10,
-        "title": "最适合 AI 的 UI 框架 – 2026 年夏季",
-        "platform": "Hacker News",
-        "aiScore": 64,
-        "publishedAt": "2026-06-11T16:17:17+00:00",
-        "sourceUrl": "https://twitter.com/sethltx/status/2065105437750337910",
-        "sourceName": "Hacker News AI",
+        "title": "钉钉发布DingTalk A1豆蔻医生版",
+        "platform": "36氪",
+        "aiScore": 85,
+        "publishedAt": "2026-06-12T03:56:21+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3849659696337924?f=rss",
+        "sourceName": "36氪",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展"
         ],
-        "summary": "文章网址：https://twitter.com/sethltx/status/2065105437750337910 评论网址：https://news.ycombinator.com/item?id=48492397 积分：3 # 评论：0",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "36氪获悉，钉钉正式发布DingTalk A1豆蔻医生版，售价999元。DingTalk A1豆蔻医生版深度融合豆蔻医疗大模型及豆蔻医生超级助理，为医生提供语音记录、临床决策辅助、医学文献检索等全流程AI辅助功能。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 2
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 12,
-      "avgScore": 70.7,
-      "topScore": 88,
+      "totalItems": 41,
+      "avgScore": 74.8,
+      "topScore": 95,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 10
+          "count": 15
         },
         {
           "name": "Reddit",
+          "count": 13
+        },
+        {
+          "name": "36氪",
+          "count": 5
+        },
+        {
+          "name": "量子位",
+          "count": 3
+        },
+        {
+          "name": "少数派",
           "count": 2
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 7
+          "count": 15
         },
         {
           "name": "Agent",
-          "count": 4
-        },
-        {
-          "name": "开源生态",
-          "count": 2
+          "count": 11
         },
         {
           "name": "模型进展",
-          "count": 1
+          "count": 10
         },
         {
           "name": "应用落地",
-          "count": 1
+          "count": 6
+        },
+        {
+          "name": "开源生态",
+          "count": 6
         },
         {
           "name": "投融资",
-          "count": 1
+          "count": 3
+        },
+        {
+          "name": "芯片算力",
+          "count": 2
+        },
+        {
+          "name": "安全治理",
+          "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 12 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 开源生态",
-      "最高分事件：上下文压缩应该保留什么？我研究了六名特工是如何处理的[D]（88 分）",
+      "今日共收录 41 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 模型进展",
+      "最高分事件：8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证（95 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -285,18 +314,43 @@
       "top10": [
         {
           "rank": 1,
-          "title": "上下文压缩应该保留什么？我研究了六名特工是如何处理的[D]",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-11T16:50:00+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u34hvc/what_should_context_compression_keep_i_looked_at/",
-          "sourceName": "Reddit r/MachineLearning",
+          "title": "8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-06-12T00:04:29+00:00",
+          "sourceUrl": "https://36kr.com/p/3849431503869187?f=rss",
+          "sourceName": "36氪",
           "industryStage": "中游",
           "contentTags": [
+            "芯片算力",
             "模型进展",
             "Agent"
           ],
-          "summary": "我使用 Claude Code、Codex CLI、OpenCode、Cline、Cursor 和 Amp 足以注意到它们处理长上下文的模式。它们都集中在分层渐进压缩上，但是……",
+          "summary": "今日热点导览 OpenAI正考虑大幅下调产品价格，预判将与Anthropic展开用户之争 全球两大预测平台世界杯冠军合约成交额破20亿美元，有望刷新单项纪录 SK海力士设备供应商要求涨价 端午前机票价格跳水 SpaceX上市前夕，美股太空股提前狂欢 TOP 3 大新闻 SpaceX上市在即，马斯克或成全球首位万亿富翁 据报道，SpaceX将于美东时间6月12日在纳斯达克挂牌交…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "Show HN：MandoCode – 本地优先的 AI 编码代理（.NET 和 Ollama）",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-06-12T03:22:10+00:00",
+          "sourceUrl": "https://github.com/DevMando/MandoCode",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "我构建了 MandoCode，这是一个在 .NET 中针对本地 Ollama 模型运行的开源 CLI 编码代理。没有 API 密钥，您的机器上什么也没有留下（如果您需要，Ollama 云模型也可以使用）。我…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -307,252 +361,256 @@
           }
         },
         {
-          "rank": 2,
-          "title": "HN 的方式：我向 Claude 提供了有关 3k AI 公司的实时英特尔信息（提及、资助）",
-          "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-06-11T16:36:42+00:00",
-          "sourceUrl": "https://github.com/altmbr/teahose-mcp",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "投融资"
-          ],
-          "summary": "文章网址：https://github.com/altmbr/teahose-mcp 评论网址：https://news.ycombinator.com/item?id=48492657 积分：2 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
           "rank": 3,
-          "title": "Show HN：AgentStore – 面向 AI 代理团队的自托管数据存储",
-          "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-06-11T16:40:55+00:00",
-          "sourceUrl": "https://github.com/guyweissman/agentstore",
-          "sourceName": "Hacker News AI",
+          "title": "如果我们成功创建了 ASI，但它对我们毫无作用怎么办？",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-06-12T02:41:45+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u3j2j0/what_if_we_succeed_in_creating_asi_but_it_does/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "Agent",
-            "开源生态"
+            "模型进展",
+            "Agent"
           ],
-          "summary": "文章网址：https://github.com/guyweissman/agentstore 评论网址：https://news.ycombinator.com/item?id=48492723 积分：1 # 评论：0",
+          "summary": "我们熟悉 ASI 可以消灭所有人类或者可以在地球上带来乌托邦的想法，但我们是否考虑过更平凡的结果？ ​ 我们经常假设伟大的......",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 18,
+            "topic": 20,
             "actionability": 10,
-            "heat": 1
+            "heat": 5
           }
         },
         {
           "rank": 4,
-          "title": "从头开始构建基本的 AI 代理",
-          "platform": "Hacker News",
-          "aiScore": 74,
-          "publishedAt": "2026-06-11T16:08:20+00:00",
-          "sourceUrl": "https://www.ruxu.dev/articles/ai/build-a-basic-ai-agent/",
-          "sourceName": "Hacker News AI",
+          "title": "我认为人工智能代理将需要一个操作层",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-06-12T00:56:20+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u3gv2i/i_think_ai_agents_are_going_to_need_an_operating/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "Agent"
+            "模型进展",
+            "Agent",
+            "开源生态"
           ],
-          "summary": "文章网址：https://www.ruxu.dev/articles/ai/build-a-basic-ai-agent/ 评论网址：https://news.ycombinator.com/item?id=48492273 积分：1 # 评论：0",
+          "summary": "人工智能系统变得越自治，我认为单独的安全工具就越不够用。现在，我们的代理具有工具访问、浏览器访问、MCP 服务器、内存、工作流程、扩展……",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 10,
+            "topic": 20,
             "actionability": 10,
-            "heat": 1
+            "heat": 5
           }
         },
         {
           "rank": 5,
-          "title": "如何获得网页设计客户",
+          "title": "当我们向结合法学硕士、RLHF、工具使用和检索增强生成的代理、多模式系统扩展时，实用的架构师......",
           "platform": "Reddit",
-          "aiScore": 70,
-          "publishedAt": "2026-06-11T16:48:58+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u34gub/how_to_get_web_design_clients/",
+          "aiScore": 88,
+          "publishedAt": "2026-06-11T23:55:10+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u3fiiq/as_we_scale_toward_agentic_multimodal_systems/",
           "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
+          "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展",
+            "Agent",
+            "应用落地"
           ],
-          "summary": "老实说，经营一家网络代理机构比大多数人想象的要困难得多。多年来，我与很多网页设计师和机构所有者交谈过，每个人似乎都有完全不同的……",
-          "action": "关注与你场景最相关的指标，不只看总分。",
+          "summary": "具体来说：未来的人工智能系统应该融合成一个统一的代理堆栈（规划器+内存+工具+验证器），还是保持专业模型的模块化集合（推理器、批评器、检索器……）",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 5,
-            "actionability": 7,
+            "topic": 20,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 6,
-          "title": "我们如何从 7 / 13 个 AI 原型工具中提取独立的 HTML 文件",
-          "platform": "Hacker News",
-          "aiScore": 68,
-          "publishedAt": "2026-06-11T16:42:37+00:00",
-          "sourceUrl": "https://productnow.ai/blogs/extracting-html-from-ai-prototyping-tools",
-          "sourceName": "Hacker News AI",
+          "title": "我追踪了“300% AI 代理采用激增”统计数据的来源。它不存在。",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-06-12T04:59:56+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u3lrtk/i_traced_the_300_ai_agent_adoption_surge_stat/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
+            "Agent",
             "应用落地"
           ],
-          "summary": "文章网址：https://productnow.ai/blogs/extracting-html-from-ai-prototyping-tools 评论网址：https://news.ycombinator.com/item?id=48492741 积分：1 # 评论：1",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "您可能已经看过该声明。它出现在供应商博客、LinkedIn 帖子以及我本季度参加过的至少三个主题演讲中：AI 代理的采用率在两年内增长了 300%。我跑……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 9,
-            "actionability": 4,
-            "heat": 2
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
           }
         },
         {
           "rank": 7,
-          "title": "经销商撤销了回购客户宝马的提议，指责任性的人工智能聊天机器人",
-          "platform": "Hacker News",
-          "aiScore": 65,
-          "publishedAt": "2026-06-11T16:39:03+00:00",
-          "sourceUrl": "https://www.cbc.ca/news/business/ai-chatbot-bmw-dealership-9.7230226",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
+          "title": "36氪首发 | 前瓦锡兰老兵创业，为船舶装上中国“心脏”，半年超 5000万订单",
+          "platform": "36氪",
+          "aiScore": 87,
+          "publishedAt": "2026-06-12T01:34:28+00:00",
+          "sourceUrl": "https://36kr.com/p/3849520020231432?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
           "contentTags": [
-            "AI动态"
+            "应用落地",
+            "投融资"
           ],
-          "summary": "文章网址：https://www.cbc.ca/news/business/ai-chatbot-bmw-dealership-9.7230226 评论网址：https://news.ycombinator.com/item?id=48492696 积分：4 # 评论：2",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，连云港力普司船舶科技有限公司（下称“力普司LiiPuS”）近期连续完成种子轮及天使轮融资，总额达数千万元。其中，种子轮由江苏金桥基金独家投资，天使轮由云时资本独家投资。本轮资金将主要用于高端船舶综合电力推进系统及产品的样机测试、持续改进及小批量交付，加速国产高端推进系统在港口拖轮、海工船、豪华游艇等场景的规模化应用。 力普司2025年7月成…",
+          "action": "关注与你场景最相关的指标，不只看总分。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 3
+            "authority": 25,
+            "topic": 15,
+            "actionability": 7,
+            "heat": 5
           }
         },
         {
           "rank": 8,
-          "title": "人工智能正在蚕食你的护城河",
-          "platform": "Hacker News",
-          "aiScore": 64,
-          "publishedAt": "2026-06-11T16:45:50+00:00",
-          "sourceUrl": "https://josepvidal.dev/blog/ai-is-eating-your-moat",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
+          "title": "谷歌宣布追加投入5000万美元培训美国技工，以满足AI基础设施建设需求",
+          "platform": "36氪",
+          "aiScore": 86,
+          "publishedAt": "2026-06-12T05:22:21+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3849744240989442?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
           "contentTags": [
-            "AI动态"
+            "芯片算力",
+            "投融资"
           ],
-          "summary": "文章网址：https://josepvidal.dev/blog/ai-is-eating-your-moat 评论网址：https://news.ycombinator.com/item?id=48492785 积分：1 # 评论：1",
+          "summary": "随着人工智能的蓬勃发展，对数据中心和基础设施的需求空前高涨，Alphabet旗下的谷歌正在加大对美国技术工人队伍的投资。当地时间周四，Alphabet首席执行官桑达尔·皮查伊宣布，谷歌将追加投资5000万美元，帮助美国20多个州的30多万美国人做好从事技术行业职业的准备。据谷歌称，这项新的投入是其更大规模计划的一部分。自2022年以来，该公司已在全球范围内投入超过10亿美元用…",
           "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 5,
+            "authority": 25,
+            "topic": 17,
             "actionability": 4,
-            "heat": 2
+            "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "风险不是流氓人工智能。这是合理的人工智能",
+          "title": "询问 HN：有人在生产环境中可靠地运行 AI 代理吗？你们的堆栈是什么？",
           "platform": "Hacker News",
-          "aiScore": 64,
-          "publishedAt": "2026-06-11T16:23:28+00:00",
-          "sourceUrl": "https://grith.ai/blog/real-risk-isnt-rogue-ai-plausible-ai",
+          "aiScore": 85,
+          "publishedAt": "2026-06-12T04:10:34+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=48499826",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "Agent",
+            "应用落地"
           ],
-          "summary": "文章网址：https://grith.ai/blog/real-risk-isnt-rogue-ai-plausible-ai 评论网址：https://news.ycombinator.com/item?id=48492464 积分：2 # 评论：0",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "评论网址：https://news.ycombinator.com/item?id=48499826 积分：3 # 评论：2",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 2
+            "topic": 19,
+            "actionability": 10,
+            "heat": 3
           }
         },
         {
           "rank": 10,
-          "title": "最适合 AI 的 UI 框架 – 2026 年夏季",
-          "platform": "Hacker News",
-          "aiScore": 64,
-          "publishedAt": "2026-06-11T16:17:17+00:00",
-          "sourceUrl": "https://twitter.com/sethltx/status/2065105437750337910",
-          "sourceName": "Hacker News AI",
+          "title": "钉钉发布DingTalk A1豆蔻医生版",
+          "platform": "36氪",
+          "aiScore": 85,
+          "publishedAt": "2026-06-12T03:56:21+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3849659696337924?f=rss",
+          "sourceName": "36氪",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展"
           ],
-          "summary": "文章网址：https://twitter.com/sethltx/status/2065105437750337910 评论网址：https://news.ycombinator.com/item?id=48492397 积分：3 # 评论：0",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "36氪获悉，钉钉正式发布DingTalk A1豆蔻医生版，售价999元。DingTalk A1豆蔻医生版深度融合豆蔻医疗大模型及豆蔻医生超级助理，为医生提供语音记录、临床决策辅助、医学文献检索等全流程AI辅助功能。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 2
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 12,
-        "avgScore": 70.7,
-        "topScore": 88,
+        "totalItems": 41,
+        "avgScore": 74.8,
+        "topScore": 95,
         "topPlatforms": [
           {
             "name": "Hacker News",
-            "count": 10
+            "count": 15
           },
           {
             "name": "Reddit",
+            "count": 13
+          },
+          {
+            "name": "36氪",
+            "count": 5
+          },
+          {
+            "name": "量子位",
+            "count": 3
+          },
+          {
+            "name": "少数派",
             "count": 2
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 7
+            "count": 15
           },
           {
             "name": "Agent",
-            "count": 4
-          },
-          {
-            "name": "开源生态",
-            "count": 2
+            "count": 11
           },
           {
             "name": "模型进展",
-            "count": 1
+            "count": 10
           },
           {
             "name": "应用落地",
-            "count": 1
+            "count": 6
+          },
+          {
+            "name": "开源生态",
+            "count": 6
           },
           {
             "name": "投融资",
-            "count": 1
+            "count": 3
+          },
+          {
+            "name": "芯片算力",
+            "count": 2
+          },
+          {
+            "name": "安全治理",
+            "count": 2
           }
         ]
       },
       "briefing": [
-        "今日共收录 12 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / Agent / 开源生态",
-        "最高分事件：上下文压缩应该保留什么？我研究了六名特工是如何处理的[D]（88 分）",
+        "今日共收录 41 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 模型进展",
+        "最高分事件：8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证（95 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -561,7 +619,7 @@
       "label": "6月11日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 2,
           "title": "氪星晚报｜百万Token只要几块钱，算力价格还在往下降；OpenAI正考虑大幅下调产品价格；今起儿童旅客可购买铁路旅游计次票，票价为成人旅客的5折",
           "platform": "36氪",
           "aiScore": 95,
@@ -585,7 +643,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "ChinaJoy最硬核的区域，36氪与你共同探索 | Vision Future前沿科技展区 × 36氪直播间开启预约",
           "platform": "36氪",
           "aiScore": 94,
@@ -869,7 +927,7 @@
       "label": "6月10日",
       "top10": [
         {
-          "rank": 2,
+          "rank": 3,
           "title": "最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店",
           "platform": "36氪",
           "aiScore": 95,
@@ -893,7 +951,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
           "platform": "36氪",
           "aiScore": 95,
@@ -917,7 +975,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级｜硬氪首发",
           "platform": "36氪",
           "aiScore": 95,
@@ -941,7 +999,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "手机装不下的野心，正在被搬进游戏平板丨2026游戏平板使用趋势观察",
           "platform": "36氪",
           "aiScore": 95,
@@ -965,7 +1023,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "8点1氪丨致3人永久失明，膳魔师紧急召回百万件产品；发布会后苹果市值蒸发超1.587万亿；Anthropic发布最强模型：Claude Fable 5正式上线",
           "platform": "36氪",
           "aiScore": 95,
@@ -1181,7 +1239,7 @@
       "label": "6月9日",
       "top10": [
         {
-          "rank": 7,
+          "rank": 8,
           "title": "在反外挂前线，游戏厂商开启了“军备竞赛”",
           "platform": "36氪",
           "aiScore": 95,
@@ -1205,7 +1263,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "氪星晚报 ｜腾讯、阿里等入股脑机接口研发商阶梯医疗；飞猪：端午假期入境游预订量同比增长超6倍；1—5月全国期货市场累计成交额同比增长40.13%",
           "platform": "36氪",
           "aiScore": 95,
@@ -27989,8 +28047,8 @@
     },
     "metrics": {
       "daysCovered": 5,
-      "totalItems": 240,
-      "avgTop10Score": 94.6,
+      "totalItems": 269,
+      "avgTop10Score": 94.9,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -28009,18 +28067,14 @@
         },
         {
           "name": "芯片算力",
-          "count": 5
+          "count": 6
         },
         {
           "name": "Agent",
-          "count": 5
+          "count": 6
         },
         {
           "name": "投融资",
-          "count": 1
-        },
-        {
-          "name": "自动化",
           "count": 1
         }
       ]
@@ -28028,6 +28082,30 @@
     "topEvents": [
       {
         "rank": 1,
+        "title": "8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-06-12T00:04:29+00:00",
+        "sourceUrl": "https://36kr.com/p/3849431503869187?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "今日热点导览 OpenAI正考虑大幅下调产品价格，预判将与Anthropic展开用户之争 全球两大预测平台世界杯冠军合约成交额破20亿美元，有望刷新单项纪录 SK海力士设备供应商要求涨价 端午前机票价格跳水 SpaceX上市前夕，美股太空股提前狂欢 TOP 3 大新闻 SpaceX上市在即，马斯克或成全球首位万亿富翁 据报道，SpaceX将于美东时间6月12日在纳斯达克挂牌交…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
         "title": "氪星晚报｜百万Token只要几块钱，算力价格还在往下降；OpenAI正考虑大幅下调产品价格；今起儿童旅客可购买铁路旅游计次票，票价为成人旅客的5折",
         "platform": "36氪",
         "aiScore": 95,
@@ -28051,7 +28129,7 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 3,
         "title": "最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店",
         "platform": "36氪",
         "aiScore": 95,
@@ -28075,7 +28153,7 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 4,
         "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
         "platform": "36氪",
         "aiScore": 95,
@@ -28099,7 +28177,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 5,
         "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级｜硬氪首发",
         "platform": "36氪",
         "aiScore": 95,
@@ -28123,7 +28201,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "手机装不下的野心，正在被搬进游戏平板丨2026游戏平板使用趋势观察",
         "platform": "36氪",
         "aiScore": 95,
@@ -28147,7 +28225,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 7,
         "title": "8点1氪丨致3人永久失明，膳魔师紧急召回百万件产品；发布会后苹果市值蒸发超1.587万亿；Anthropic发布最强模型：Claude Fable 5正式上线",
         "platform": "36氪",
         "aiScore": 95,
@@ -28171,7 +28249,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 8,
         "title": "在反外挂前线，游戏厂商开启了“军备竞赛”",
         "platform": "36氪",
         "aiScore": 95,
@@ -28195,7 +28273,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "氪星晚报 ｜腾讯、阿里等入股脑机接口研发商阶梯医疗；飞猪：端午假期入境游预订量同比增长超6倍；1—5月全国期货市场累计成交额同比增长40.13%",
         "platform": "36氪",
         "aiScore": 95,
@@ -28219,7 +28297,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "ChinaJoy最硬核的区域，36氪与你共同探索 | Vision Future前沿科技展区 × 36氪直播间开启预约",
         "platform": "36氪",
         "aiScore": 94,
@@ -28240,36 +28318,13 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "中科闻歌通过港交所聆讯",
-        "platform": "36氪",
-        "aiScore": 92,
-        "publishedAt": "2026-06-09T11:37:42+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3845866491726337?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "自动化"
-        ],
-        "summary": "36氪获悉，港交所官网显示，北京中科闻歌科技股份有限公司（简称“中科闻歌”）已刊发聆讯后资料集，意味着公司正式通过上市聆讯。招股书显示，中科闻歌成立于2017年，由中国科学院自动化研究所科学家团队创立，专注于研发企业级大模型驱动的决策智能操作系统及服务。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "6月第2周累计收录 240 条资讯，覆盖 5 天。",
+      "6月第2周累计收录 269 条资讯，覆盖 5 天。",
       "高频主题：模型进展 / 应用落地 / 芯片算力",
-      "本周最高分：氪星晚报｜百万Token只要几块钱，算力价格还在往下降；OpenAI正考虑大幅下调产品价格；今起儿童旅客可购买铁路旅游计次票，票价为成人旅客的5折（95 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "本周最高分：8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证（95 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
@@ -28282,8 +28337,8 @@
       },
       "metrics": {
         "daysCovered": 5,
-        "totalItems": 240,
-        "avgTop10Score": 94.6,
+        "totalItems": 269,
+        "avgTop10Score": 94.9,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -28302,18 +28357,14 @@
           },
           {
             "name": "芯片算力",
-            "count": 5
+            "count": 6
           },
           {
             "name": "Agent",
-            "count": 5
+            "count": 6
           },
           {
             "name": "投融资",
-            "count": 1
-          },
-          {
-            "name": "自动化",
             "count": 1
           }
         ]
@@ -28321,6 +28372,30 @@
       "topEvents": [
         {
           "rank": 1,
+          "title": "8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-06-12T00:04:29+00:00",
+          "sourceUrl": "https://36kr.com/p/3849431503869187?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "今日热点导览 OpenAI正考虑大幅下调产品价格，预判将与Anthropic展开用户之争 全球两大预测平台世界杯冠军合约成交额破20亿美元，有望刷新单项纪录 SK海力士设备供应商要求涨价 端午前机票价格跳水 SpaceX上市前夕，美股太空股提前狂欢 TOP 3 大新闻 SpaceX上市在即，马斯克或成全球首位万亿富翁 据报道，SpaceX将于美东时间6月12日在纳斯达克挂牌交…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
           "title": "氪星晚报｜百万Token只要几块钱，算力价格还在往下降；OpenAI正考虑大幅下调产品价格；今起儿童旅客可购买铁路旅游计次票，票价为成人旅客的5折",
           "platform": "36氪",
           "aiScore": 95,
@@ -28344,7 +28419,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "title": "最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店",
           "platform": "36氪",
           "aiScore": 95,
@@ -28368,7 +28443,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
           "platform": "36氪",
           "aiScore": 95,
@@ -28392,7 +28467,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级｜硬氪首发",
           "platform": "36氪",
           "aiScore": 95,
@@ -28416,7 +28491,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "手机装不下的野心，正在被搬进游戏平板丨2026游戏平板使用趋势观察",
           "platform": "36氪",
           "aiScore": 95,
@@ -28440,7 +28515,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "8点1氪丨致3人永久失明，膳魔师紧急召回百万件产品；发布会后苹果市值蒸发超1.587万亿；Anthropic发布最强模型：Claude Fable 5正式上线",
           "platform": "36氪",
           "aiScore": 95,
@@ -28464,7 +28539,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "在反外挂前线，游戏厂商开启了“军备竞赛”",
           "platform": "36氪",
           "aiScore": 95,
@@ -28488,7 +28563,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "氪星晚报 ｜腾讯、阿里等入股脑机接口研发商阶梯医疗；飞猪：端午假期入境游预订量同比增长超6倍；1—5月全国期货市场累计成交额同比增长40.13%",
           "platform": "36氪",
           "aiScore": 95,
@@ -28512,7 +28587,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "ChinaJoy最硬核的区域，36氪与你共同探索 | Vision Future前沿科技展区 × 36氪直播间开启预约",
           "platform": "36氪",
           "aiScore": 94,
@@ -28533,36 +28608,13 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "中科闻歌通过港交所聆讯",
-          "platform": "36氪",
-          "aiScore": 92,
-          "publishedAt": "2026-06-09T11:37:42+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3845866491726337?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "自动化"
-          ],
-          "summary": "36氪获悉，港交所官网显示，北京中科闻歌科技股份有限公司（简称“中科闻歌”）已刊发聆讯后资料集，意味着公司正式通过上市聆讯。招股书显示，中科闻歌成立于2017年，由中国科学院自动化研究所科学家团队创立，专注于研发企业级大模型驱动的决策智能操作系统及服务。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "6月第2周累计收录 240 条资讯，覆盖 5 天。",
+        "6月第2周累计收录 269 条资讯，覆盖 5 天。",
         "高频主题：模型进展 / 应用落地 / 芯片算力",
-        "本周最高分：氪星晚报｜百万Token只要几块钱，算力价格还在往下降；OpenAI正考虑大幅下调产品价格；今起儿童旅客可购买铁路旅游计次票，票价为成人旅客的5折（95 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "本周最高分：8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证（95 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
