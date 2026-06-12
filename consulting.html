@@ -7,7 +7,7 @@
   <title>AI 提效合作 | Cyrus</title>
   <meta name="description" content="AI 提效合作 — 真实案例：电商经营 Agent、数字员工、本地化 AI 产品。场景诊断、方案设计、部署交付，只做能落地的东西。" />
   <meta name="keywords" content="AI自动化,AI提效,AI顾问,AI Agent,数字员工,n8n,业务自动化,Cyrus" />
-  <meta name="theme-color" content="#f2f4f7" />
+  <meta name="theme-color" content="#05060c" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href="https://cyrustyj.xyz/consulting.html" />
 
@@ -30,8 +30,7 @@
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;700;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" />
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" />
 
   <script type="application/ld+json">
     {
@@ -49,639 +48,883 @@
   </script>
 
   <style>
-    /* ============ 编辑部档案风 · 本页专属 ============ */
-    .pt-page {
-      --pt-serif: "Noto Serif SC", "Songti SC", serif;
-      --pt-mono: var(--font-mono, "JetBrains Mono", monospace);
+    /* ════════════════════════════════════════════════════════════
+       LIQUID GLASS · AURORA DOSSIER
+       独立视觉体系（本页不继承站点主题）
+       ════════════════════════════════════════════════════════════ */
+    :root {
+      --void: #05060c;
+      --void-2: #0a0c16;
+      --frost: rgba(255, 255, 255, .055);
+      --frost-strong: rgba(255, 255, 255, .09);
+      --frost-line: rgba(255, 255, 255, .10);
+      --frost-line-bright: rgba(255, 255, 255, .22);
+      --snow: #f4f6ff;
+      --mist: rgba(228, 233, 255, .62);
+      --mist-dim: rgba(228, 233, 255, .38);
+      --cyan: #5eead4;
+      --azure: #60a5fa;
+      --violet: #a78bfa;
+      --ember: #fbbf77;
+      --aurora: linear-gradient(110deg, var(--cyan) 0%, var(--azure) 38%, var(--violet) 72%, var(--ember) 105%);
+      --sans: "Noto Sans SC", "PingFang SC", sans-serif;
+      --disp: "Sora", "Noto Sans SC", sans-serif;
+      --mono: "JetBrains Mono", monospace;
+      --glass-blur: blur(22px) saturate(160%);
+      --ease: cubic-bezier(.22, .68, .26, 1);
     }
 
-    /* —— Hero —— */
-    .pt-hero {
-      padding: 80px 0 64px;
-      border-bottom: 3px solid var(--ink);
-      margin-bottom: 0;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--void);
+      color: var(--snow);
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+    ::selection { background: rgba(167, 139, 250, .35); color: #fff; }
+
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: var(--void); }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(255,255,255,.12);
+      border-radius: 99px;
+      border: 2px solid var(--void);
+    }
+
+    /* ── 极光背景层 ───────────────────────────────────────────── */
+    .sky {
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      overflow: hidden;
+      background:
+        radial-gradient(ellipse 80% 50% at 20% -10%, rgba(96, 165, 250, .14), transparent 60%),
+        radial-gradient(ellipse 60% 45% at 85% 8%, rgba(167, 139, 250, .13), transparent 55%),
+        radial-gradient(ellipse 70% 60% at 50% 110%, rgba(94, 234, 212, .07), transparent 60%),
+        var(--void);
+    }
+    .sky::before, .sky::after {
+      content: "";
+      position: absolute;
+      width: 60vmax;
+      height: 60vmax;
+      border-radius: 50%;
+      filter: blur(90px);
+      opacity: .35;
+      mix-blend-mode: screen;
+    }
+    .sky::before {
+      background: radial-gradient(circle at 30% 30%, rgba(96,165,250,.5), transparent 60%);
+      top: -25vmax; left: -15vmax;
+      animation: drift1 26s ease-in-out infinite alternate;
+    }
+    .sky::after {
+      background: radial-gradient(circle at 60% 60%, rgba(167,139,250,.45), transparent 60%);
+      bottom: -28vmax; right: -18vmax;
+      animation: drift2 32s ease-in-out infinite alternate;
+    }
+    @keyframes drift1 { to { transform: translate(8vmax, 6vmax) scale(1.12); } }
+    @keyframes drift2 { to { transform: translate(-7vmax, -8vmax) scale(1.08); } }
+
+    /* 噪点颗粒：压住渐变的"塑料感" */
+    .grain {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      opacity: .5;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 220 220' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+    }
+
+    /* ── 玻璃导航 ─────────────────────────────────────────────── */
+    .nav {
+      position: fixed;
+      top: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 50;
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      padding: 12px 14px 12px 24px;
+      border-radius: 99px;
+      background: rgba(10, 12, 22, .55);
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      border: 1px solid var(--frost-line);
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.10),
+        0 12px 40px rgba(0,0,0,.45);
+      white-space: nowrap;
+    }
+    .nav-brand {
+      font-family: var(--disp);
+      font-weight: 800;
+      font-size: 15px;
+      letter-spacing: .02em;
+      color: var(--snow);
+      text-decoration: none;
+    }
+    .nav-brand span {
+      background: var(--aurora);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .nav a.nav-link {
+      font-size: 13px;
+      color: var(--mist);
+      text-decoration: none;
+      transition: color .25s;
+    }
+    .nav a.nav-link:hover { color: var(--snow); }
+    .nav-cta {
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .03em;
+      color: #0a0c16;
+      text-decoration: none;
+      padding: 9px 18px;
+      border-radius: 99px;
+      background: var(--snow);
+      transition: transform .25s var(--ease), box-shadow .25s;
+    }
+    .nav-cta:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 24px rgba(167,139,250,.45);
+    }
+
+    .wrap {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+
+    /* ── Hero ─────────────────────────────────────────────────── */
+    .hero {
+      padding: 168px 0 96px;
       position: relative;
     }
-    .pt-kicker {
-      font-family: var(--pt-mono);
-      font-size: 12px;
-      letter-spacing: .22em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin: 0 0 24px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-    .pt-kicker::before {
-      content: "";
-      width: 36px;
-      height: 2px;
-      background: var(--accent);
-    }
-    .pt-hero h1 {
-      font-family: var(--pt-serif);
-      font-weight: 900;
-      font-size: clamp(34px, 7vw, 64px);
-      line-height: 1.18;
-      letter-spacing: .01em;
-      margin: 0 0 28px;
-      max-width: 17ch;
-    }
-    .pt-hero h1 em {
-      font-style: normal;
-      color: var(--accent);
-    }
-    .pt-hero-desc {
-      font-size: 17px;
-      line-height: 1.85;
-      color: var(--muted);
-      max-width: 56ch;
-      margin: 0 0 36px;
-    }
-    .pt-hero-desc strong { color: var(--ink); font-weight: 600; }
-    .pt-hero-cta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      align-items: center;
-    }
-    .pt-btn-primary {
+    .hero-badge {
       display: inline-flex;
       align-items: center;
       gap: 10px;
-      font-family: var(--pt-mono);
-      font-size: 14px;
-      font-weight: 600;
-      letter-spacing: .04em;
-      text-decoration: none;
-      color: var(--bg, #fff);
-      background: var(--ink);
-      padding: 16px 34px;
-      border-radius: 4px;
-      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+      font-family: var(--mono);
+      font-size: 11.5px;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: var(--mist);
+      padding: 9px 18px;
+      border-radius: 99px;
+      background: var(--frost);
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      border: 1px solid var(--frost-line);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.08);
+      margin-bottom: 34px;
     }
-    .pt-btn-primary:hover {
-      background: var(--accent);
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-md, 0 8px 24px rgba(0,0,0,.12));
+    .hero-badge::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--cyan);
+      box-shadow: 0 0 12px var(--cyan);
+      animation: pulse 2.4s ease-in-out infinite;
     }
-    .pt-btn-ghost {
-      font-family: var(--pt-mono);
-      font-size: 13px;
-      color: var(--muted);
-      text-decoration: none;
-      padding: 16px 8px;
-      border-bottom: 1px solid transparent;
-      transition: color .2s, border-color .2s;
-    }
-    .pt-btn-ghost:hover { color: var(--ink); border-color: var(--ink); }
+    @keyframes pulse { 50% { opacity: .35; } }
 
-    /* —— 数据带 —— */
-    .pt-metrics {
+    .hero h1 {
+      font-family: var(--disp);
+      font-weight: 800;
+      font-size: clamp(40px, 7.6vw, 84px);
+      line-height: 1.12;
+      letter-spacing: -.015em;
+      max-width: 16ch;
+    }
+    .hero h1 .grad {
+      background: var(--aurora);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .hero-sub {
+      margin-top: 30px;
+      font-size: 17px;
+      line-height: 2;
+      color: var(--mist);
+      max-width: 58ch;
+    }
+    .hero-sub strong { color: var(--snow); font-weight: 700; }
+
+    .hero-cta-row {
+      margin-top: 44px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+    }
+    .btn-glow {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--disp);
+      font-weight: 700;
+      font-size: 15px;
+      color: #07080f;
+      text-decoration: none;
+      padding: 17px 36px;
+      border-radius: 14px;
+      background: var(--aurora);
+      box-shadow: 0 8px 36px rgba(96,165,250,.35);
+      transition: transform .3s var(--ease), box-shadow .3s;
+    }
+    .btn-glow:hover {
+      transform: translateY(-3px) scale(1.015);
+      box-shadow: 0 14px 52px rgba(167,139,250,.5);
+    }
+    .btn-glass {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      color: var(--snow);
+      text-decoration: none;
+      padding: 16px 30px;
+      border-radius: 14px;
+      background: var(--frost);
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      border: 1px solid var(--frost-line);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.09);
+      transition: background .3s, border-color .3s, transform .3s var(--ease);
+    }
+    .btn-glass:hover {
+      background: var(--frost-strong);
+      border-color: var(--frost-line-bright);
+      transform: translateY(-2px);
+    }
+
+    /* ── 数据带：玻璃药丸 ─────────────────────────────────────── */
+    .metrics {
+      margin-top: 84px;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      border-bottom: 1px solid var(--line);
+      gap: 16px;
     }
-    .pt-metric {
-      padding: 36px 20px 32px;
-      border-right: 1px solid var(--line);
+    .metric {
+      padding: 30px 26px;
+      border-radius: 22px;
+      background: var(--frost);
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      border: 1px solid var(--frost-line);
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.10),
+        0 18px 50px rgba(0,0,0,.35);
+      transition: transform .35s var(--ease), border-color .35s;
     }
-    .pt-metric:last-child { border-right: none; }
-    .pt-metric-num {
-      font-family: var(--pt-mono);
-      font-size: clamp(28px, 4.5vw, 44px);
-      font-weight: 700;
+    .metric:hover {
+      transform: translateY(-5px);
+      border-color: var(--frost-line-bright);
+    }
+    .metric-num {
+      font-family: var(--disp);
+      font-weight: 800;
+      font-size: clamp(34px, 4vw, 46px);
       line-height: 1;
-      letter-spacing: -.03em;
-      color: var(--ink);
+      letter-spacing: -.02em;
+      background: var(--aurora);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
     }
-    .pt-metric-num sup {
-      font-size: .45em;
-      color: var(--accent);
-      font-weight: 600;
-    }
-    .pt-metric-label {
+    .metric-label {
+      margin-top: 12px;
       font-size: 13px;
-      color: var(--muted);
-      margin-top: 10px;
-      line-height: 1.5;
+      line-height: 1.7;
+      color: var(--mist-dim);
     }
 
-    /* —— 章节标题 —— */
-    .pt-section-head {
+    /* ── 章节标题 ─────────────────────────────────────────────── */
+    .sec-head {
+      margin: 132px 0 48px;
       display: flex;
       align-items: baseline;
+      gap: 20px;
+    }
+    .sec-head .idx {
+      font-family: var(--mono);
+      font-size: 13px;
+      letter-spacing: .2em;
+      color: var(--violet);
+    }
+    .sec-head h2 {
+      font-family: var(--disp);
+      font-weight: 800;
+      font-size: clamp(26px, 4.4vw, 40px);
+      letter-spacing: -.01em;
+    }
+    .sec-head .rule {
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, var(--frost-line-bright), transparent);
+    }
+
+    /* ── 案例：液态玻璃面板 ───────────────────────────────────── */
+    .case {
+      position: relative;
+      margin-bottom: 30px;
+      padding: 44px 46px;
+      border-radius: 28px;
+      background: var(--frost);
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      border: 1px solid var(--frost-line);
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.10),
+        0 24px 70px rgba(0,0,0,.4);
+      overflow: hidden;
+      transition: transform .4s var(--ease), border-color .4s;
+    }
+    .case:hover { transform: translateY(-4px); border-color: var(--frost-line-bright); }
+    .case::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 8%;
+      width: 84%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.45), transparent);
+    }
+    /* 每个案例一道专属极光描边光晕 */
+    .case-1::after, .case-2::after, .case-3::after {
+      content: "";
+      position: absolute;
+      width: 46vmax; height: 46vmax;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: .16;
+      pointer-events: none;
+      mix-blend-mode: screen;
+    }
+    .case-1::after { background: radial-gradient(circle, var(--azure), transparent 65%); top: -24vmax; right: -16vmax; }
+    .case-2::after { background: radial-gradient(circle, var(--cyan), transparent 65%); bottom: -26vmax; left: -14vmax; }
+    .case-3::after { background: radial-gradient(circle, var(--violet), transparent 65%); top: -22vmax; left: 30%; }
+
+    .case-top {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .case-no {
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .18em;
+      padding: 7px 14px;
+      border-radius: 99px;
+      color: #07080f;
+      background: var(--aurora);
+    }
+    .case-industry {
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: .06em;
+      color: var(--mist);
+      padding: 7px 14px;
+      border-radius: 99px;
+      background: rgba(255,255,255,.05);
+      border: 1px solid var(--frost-line);
+    }
+    .case h3 {
+      font-weight: 900;
+      font-size: clamp(20px, 3vw, 27px);
+      line-height: 1.5;
+      letter-spacing: .01em;
+      max-width: 30ch;
+    }
+    .case-cols {
+      margin-top: 26px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px 40px;
+    }
+    .case-col .lbl {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      color: var(--cyan);
+    }
+    .case-col p {
+      font-size: 14.5px;
+      line-height: 1.95;
+      color: var(--mist);
+    }
+    .case-results {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .chip {
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--snow);
+      padding: 10px 18px;
+      border-radius: 12px;
+      background: rgba(255,255,255,.045);
+      border: 1px solid var(--frost-line);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.07);
+    }
+    .chip b {
+      font-weight: 700;
+      background: var(--aurora);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    /* ── 能力矩阵 ─────────────────────────────────────────────── */
+    .caps {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .cap {
+      padding: 34px 32px;
+      border-radius: 22px;
+      background: var(--frost);
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      border: 1px solid var(--frost-line);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.09);
+      transition: transform .35s var(--ease), border-color .35s, background .35s;
+    }
+    .cap:hover {
+      transform: translateY(-4px);
+      border-color: var(--frost-line-bright);
+      background: var(--frost-strong);
+    }
+    .cap-ico {
+      width: 44px; height: 44px;
+      display: grid;
+      place-items: center;
+      border-radius: 13px;
+      font-size: 19px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid var(--frost-line);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.12);
+      margin-bottom: 18px;
+    }
+    .cap h3 { font-size: 17.5px; font-weight: 700; margin-bottom: 10px; }
+    .cap p { font-size: 13.5px; line-height: 1.9; color: var(--mist-dim); }
+
+    /* ── 流程 ─────────────────────────────────────────────────── */
+    .steps {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      counter-reset: s;
+    }
+    .steps li {
+      counter-increment: s;
+      position: relative;
+      padding: 30px 26px 28px;
+      border-radius: 22px;
+      background: var(--frost);
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      border: 1px solid var(--frost-line);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.09);
+    }
+    .steps li::before {
+      content: "0" counter(s);
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      background: var(--aurora);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .step-name { font-size: 16px; font-weight: 700; margin: 12px 0 4px; }
+    .step-tag {
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: .08em;
+      color: var(--cyan);
+      display: block;
+      margin-bottom: 12px;
+    }
+    .steps li p { font-size: 13px; line-height: 1.85; color: var(--mist-dim); }
+
+    /* ── 为什么是我 ───────────────────────────────────────────── */
+    .why { display: grid; gap: 14px; }
+    .why-row {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 28px;
+      align-items: baseline;
+      padding: 28px 34px;
+      border-radius: 20px;
+      background: rgba(255,255,255,.03);
+      border: 1px solid rgba(255,255,255,.07);
+      transition: background .3s, border-color .3s;
+    }
+    .why-row:hover { background: var(--frost); border-color: var(--frost-line); }
+    .why-row h3 { font-size: 16.5px; font-weight: 700; line-height: 1.7; }
+    .why-row h3::before {
+      content: "→ ";
+      background: var(--aurora);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .why-row p { font-size: 14px; line-height: 1.95; color: var(--mist); }
+
+    /* ── CTA：极光描边玻璃舱 ─────────────────────────────────── */
+    .contact {
+      position: relative;
+      margin: 132px 0 100px;
+      padding: 2px;
+      border-radius: 30px;
+      background: linear-gradient(120deg, rgba(94,234,212,.55), rgba(96,165,250,.5), rgba(167,139,250,.55), rgba(251,191,119,.45));
+      background-size: 300% 300%;
+      animation: borderFlow 9s ease infinite;
+    }
+    @keyframes borderFlow {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+    .contact-inner {
+      border-radius: 28px;
+      padding: 72px 56px;
+      text-align: center;
+      background: rgba(7, 8, 15, .92);
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+    }
+    .contact-inner h2 {
+      font-family: var(--disp);
+      font-weight: 800;
+      font-size: clamp(26px, 4.6vw, 42px);
+      line-height: 1.35;
+      letter-spacing: -.01em;
+    }
+    .contact-inner h2 .grad {
+      background: var(--aurora);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .contact-inner > p {
+      margin: 18px auto 38px;
+      font-size: 15px;
+      line-height: 2;
+      color: var(--mist);
+      max-width: 52ch;
+    }
+
+    /* ── 页脚 ─────────────────────────────────────────────────── */
+    .foot {
+      padding: 0 0 56px;
+      display: flex;
       justify-content: space-between;
       gap: 16px;
-      margin: 72px 0 8px;
-      padding-bottom: 16px;
-      border-bottom: 2px solid var(--ink);
-    }
-    .pt-section-head h2 {
-      font-family: var(--pt-serif);
-      font-weight: 900;
-      font-size: clamp(24px, 4vw, 34px);
-      letter-spacing: .02em;
-      margin: 0;
-    }
-    .pt-section-head .pt-index {
-      font-family: var(--pt-mono);
-      font-size: 12px;
-      letter-spacing: .18em;
-      color: var(--muted);
-      text-transform: uppercase;
-      white-space: nowrap;
-    }
-
-    /* —— 案例档案 —— */
-    .pt-case {
-      display: grid;
-      grid-template-columns: 180px 1fr;
-      gap: 28px;
-      padding: 40px 0;
-      border-bottom: 1px solid var(--line);
-    }
-    .pt-case:last-of-type { border-bottom: none; }
-    .pt-case-meta { min-width: 0; }
-    .pt-case-no {
-      font-family: var(--pt-mono);
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: .14em;
-      color: var(--accent);
-    }
-    .pt-case-industry {
-      font-size: 13px;
-      color: var(--muted);
-      margin-top: 8px;
-      line-height: 1.6;
-    }
-    .pt-case-stack {
-      margin-top: 14px;
-      display: flex;
       flex-wrap: wrap;
-      gap: 6px;
-    }
-    .pt-case-stack span {
-      font-family: var(--pt-mono);
-      font-size: 10.5px;
-      letter-spacing: .04em;
-      color: var(--muted);
-      border: 1px solid var(--line);
-      border-radius: 3px;
-      padding: 3px 7px;
-      white-space: nowrap;
-    }
-    .pt-case-body h3 {
-      font-family: var(--pt-serif);
-      font-weight: 700;
-      font-size: 21px;
-      line-height: 1.45;
-      margin: 0 0 18px;
-    }
-    .pt-case-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 18px 28px;
-      margin-bottom: 22px;
-    }
-    .pt-case-cell .pt-cell-label {
-      font-family: var(--pt-mono);
-      font-size: 11px;
-      letter-spacing: .16em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 8px;
-    }
-    .pt-case-cell p {
-      font-size: 14.5px;
-      line-height: 1.8;
-      color: var(--muted);
-      margin: 0;
-    }
-    .pt-case-results {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-    .pt-result-chip {
-      font-family: var(--pt-mono);
       font-size: 13px;
-      font-weight: 600;
-      color: var(--ink);
-      background: color-mix(in srgb, var(--accent) 9%, transparent);
-      border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
-      border-radius: 4px;
-      padding: 8px 14px;
+      color: var(--mist-dim);
     }
-    .pt-result-chip b { color: var(--accent); font-weight: 700; }
+    .foot a { color: var(--mist); text-decoration: none; }
+    .foot a:hover { color: var(--snow); }
 
-    /* —— 能力矩阵 —— */
-    .pt-caps {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0;
-      border-left: 1px solid var(--line);
-      border-top: 1px solid var(--line);
-      margin-top: 32px;
-    }
-    .pt-cap {
-      border-right: 1px solid var(--line);
-      border-bottom: 1px solid var(--line);
-      padding: 30px 26px;
-      transition: background .25s ease;
-    }
-    .pt-cap:hover { background: color-mix(in srgb, var(--accent) 4%, transparent); }
-    .pt-cap-no {
-      font-family: var(--pt-mono);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: .14em;
-      color: var(--accent);
-    }
-    .pt-cap h3 {
-      font-size: 17px;
-      font-weight: 700;
-      margin: 10px 0 8px;
-    }
-    .pt-cap p {
-      font-size: 13.5px;
-      line-height: 1.8;
-      color: var(--muted);
-      margin: 0;
-    }
-
-    /* —— 合作流程 —— */
-    .pt-steps {
-      counter-reset: step;
-      margin-top: 32px;
-      padding: 0;
-      list-style: none;
-    }
-    .pt-steps li {
-      counter-increment: step;
-      display: grid;
-      grid-template-columns: 64px 200px 1fr;
-      gap: 20px;
-      align-items: baseline;
-      padding: 22px 0;
-      border-bottom: 1px solid var(--line-soft, var(--line));
-    }
-    .pt-steps li::before {
-      content: "0" counter(step);
-      font-family: var(--pt-mono);
-      font-size: 22px;
-      font-weight: 700;
-      color: color-mix(in srgb, var(--ink) 22%, transparent);
-    }
-    .pt-steps li:last-child { border-bottom: none; }
-    .pt-step-name { font-weight: 700; font-size: 15.5px; }
-    .pt-step-name small {
-      display: block;
-      font-family: var(--pt-mono);
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: .1em;
-      color: var(--accent);
-      margin-top: 4px;
-    }
-    .pt-steps li > p {
-      font-size: 14px;
-      line-height: 1.75;
-      color: var(--muted);
-      margin: 0;
-    }
-
-    /* —— 为什么是我 —— */
-    .pt-why {
-      margin-top: 32px;
-      display: grid;
-      gap: 0;
-    }
-    .pt-why-row {
-      display: grid;
-      grid-template-columns: 240px 1fr;
-      gap: 24px;
-      padding: 20px 0;
-      border-bottom: 1px solid var(--line-soft, var(--line));
-    }
-    .pt-why-row:last-child { border-bottom: none; }
-    .pt-why-row h3 {
-      font-family: var(--pt-serif);
-      font-size: 17px;
-      font-weight: 700;
-      margin: 0;
-      line-height: 1.6;
-    }
-    .pt-why-row p {
-      font-size: 14.5px;
-      line-height: 1.8;
-      color: var(--muted);
-      margin: 0;
-    }
-
-    /* —— CTA —— */
-    .pt-contact {
-      margin: 80px 0 72px;
-      padding: 56px 40px;
-      border: 3px solid var(--ink);
-      position: relative;
-    }
-    .pt-contact::after {
-      content: "§ CONTACT";
-      position: absolute;
-      top: -11px;
-      left: 32px;
-      font-family: var(--pt-mono);
-      font-size: 11px;
-      letter-spacing: .2em;
-      background: var(--bg);
-      color: var(--accent);
-      padding: 0 10px;
-    }
-    .pt-contact h2 {
-      font-family: var(--pt-serif);
-      font-weight: 900;
-      font-size: clamp(22px, 4vw, 32px);
-      margin: 0 0 14px;
-      max-width: 24ch;
-      line-height: 1.4;
-    }
-    .pt-contact > p {
-      font-size: 15px;
-      color: var(--muted);
-      line-height: 1.8;
-      max-width: 52ch;
-      margin: 0 0 28px;
-    }
-
-    /* —— 入场动画 —— */
+    /* ── 进场动效 ─────────────────────────────────────────────── */
     @media (prefers-reduced-motion: no-preference) {
-      .pt-reveal {
+      .rv {
         opacity: 0;
-        transform: translateY(14px);
-        animation: ptRise .7s cubic-bezier(.2,.7,.3,1) forwards;
+        transform: translateY(26px);
+        transition: opacity .9s var(--ease), transform .9s var(--ease);
       }
-      .pt-reveal:nth-child(2) { animation-delay: .08s; }
-      .pt-reveal:nth-child(3) { animation-delay: .16s; }
-      @keyframes ptRise { to { opacity: 1; transform: none; } }
+      .rv.in { opacity: 1; transform: none; }
+      .hero .rv { transition-delay: calc(var(--d, 0) * 90ms); }
     }
 
-    @media (max-width: 820px) {
-      .pt-hero { padding: 56px 0 44px; }
-      .pt-metrics { grid-template-columns: 1fr 1fr; }
-      .pt-metric:nth-child(2) { border-right: none; }
-      .pt-metric { border-bottom: 1px solid var(--line); }
-      .pt-metric:nth-child(3), .pt-metric:nth-child(4) { border-bottom: none; }
-      .pt-case { grid-template-columns: 1fr; gap: 18px; padding: 32px 0; }
-      .pt-case-grid { grid-template-columns: 1fr; }
-      .pt-caps { grid-template-columns: 1fr; }
-      .pt-steps li { grid-template-columns: 44px 1fr; }
-      .pt-steps li > p { grid-column: 2; }
-      .pt-why-row { grid-template-columns: 1fr; gap: 8px; }
-      .pt-contact { padding: 40px 24px; }
+    /* ── 响应式 ───────────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .metrics { grid-template-columns: 1fr 1fr; }
+      .steps { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 680px) {
+      .nav { gap: 14px; padding: 10px 10px 10px 18px; }
+      .nav a.nav-link { display: none; }
+      .hero { padding: 132px 0 72px; }
+      .case { padding: 32px 26px; }
+      .case-cols { grid-template-columns: 1fr; gap: 20px; }
+      .caps { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+      .why-row { grid-template-columns: 1fr; gap: 10px; padding: 24px 22px; }
+      .contact-inner { padding: 52px 26px; }
+      .sec-head { margin: 92px 0 36px; }
     }
   </style>
 </head>
-<body class="pt-page">
+<body>
 
-<nav class="site-nav">
-  <a href="/" class="site-nav-brand">Cyrus</a>
-  <div class="site-nav-links">
-    <a href="/">首页</a>
-    <a href="/about.html">关于</a>
-    <a href="/field-notes/">实验室</a>
-    <a href="/playground.html">Playground</a>
-    <a href="/news.html">资讯</a>
-    <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
-  </div>
+<div class="sky" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<nav class="nav">
+  <a class="nav-brand" href="/">Cyrus<span>.</span></a>
+  <a class="nav-link" href="#cases">案例</a>
+  <a class="nav-link" href="#caps">能力</a>
+  <a class="nav-link" href="#process">流程</a>
+  <a class="nav-link" href="/">学习笔记 ↗</a>
+  <a class="nav-cta" href="mailto:cyrusttyj2@gmail.com">谈合作</a>
 </nav>
 
-<div class="mg-inner">
+<main class="wrap">
 
   <!-- Hero -->
-  <section class="pt-hero">
-    <p class="pt-kicker pt-reveal">AI 提效合作 · For Business</p>
-    <h1 class="pt-reveal">把重复劳动交给 AI，<br>把人留给<em>判断</em>。</h1>
-    <p class="pt-hero-desc pt-reveal">
+  <header class="hero">
+    <div class="hero-badge rv" style="--d:0">AI Efficiency Partner · 接受合作咨询</div>
+    <h1 class="rv" style="--d:1">把重复劳动交给 AI，<br><span class="grad">把人留给判断。</span></h1>
+    <p class="hero-sub rv" style="--d:2">
       我在<strong>世界 500 强电商集团</strong>做商品管理，同时给企业做 AI 提效落地。
-      业务出身、AI 全栈交付——我先懂你的业务，再谈技术。
-      下面的案例全部真实在跑，数字全部可追问细节。
+      业务出身、AI 全栈交付——<strong>先懂你的业务，再谈技术</strong>。
+      下面的案例全部真实在跑，每个数字都可以追问细节。
     </p>
-    <div class="pt-hero-cta-row pt-reveal">
-      <a class="pt-btn-primary" href="mailto:cyrusttyj2@gmail.com">谈谈你的场景 →</a>
-      <a class="pt-btn-ghost" href="#cases">先看案例 ↓</a>
+    <div class="hero-cta-row rv" style="--d:3">
+      <a class="btn-glow" href="mailto:cyrusttyj2@gmail.com">谈谈你的场景 →</a>
+      <a class="btn-glass" href="#cases">先看案例 ↓</a>
     </div>
-  </section>
 
-  <!-- 数据带 -->
-  <section class="pt-metrics" aria-label="关键数据">
-    <div class="pt-metric">
-      <div class="pt-metric-num">80<sup>%↑</sup></div>
-      <div class="pt-metric-label">经营分析效率提升<br>（电商 Agent 系统）</div>
+    <!-- 数据带 -->
+    <div class="metrics">
+      <div class="metric rv">
+        <div class="metric-num">+80%</div>
+        <div class="metric-label">经营分析效率提升<br>（电商 Agent 系统）</div>
+      </div>
+      <div class="metric rv">
+        <div class="metric-num">8h+</div>
+        <div class="metric-label">单团队每周节省的<br>重复手工时间</div>
+      </div>
+      <div class="metric rv">
+        <div class="metric-num">30+</div>
+        <div class="metric-label">生产环境运行中的<br>自动化工作流</div>
+      </div>
+      <div class="metric rv">
+        <div class="metric-num">40+</div>
+        <div class="metric-label">每天在用这些系统的<br>业务同事</div>
+      </div>
     </div>
-    <div class="pt-metric">
-      <div class="pt-metric-num">8<sup>h+/周</sup></div>
-      <div class="pt-metric-label">单团队节省的<br>重复手工时间</div>
-    </div>
-    <div class="pt-metric">
-      <div class="pt-metric-num">30<sup>+</sup></div>
-      <div class="pt-metric-label">生产环境运行中的<br>自动化工作流</div>
-    </div>
-    <div class="pt-metric">
-      <div class="pt-metric-num">40<sup>+</sup></div>
-      <div class="pt-metric-label">每天在用这些系统的<br>业务同事</div>
-    </div>
-  </section>
+  </header>
 
   <!-- 案例 -->
-  <div class="pt-section-head" id="cases">
+  <div class="sec-head rv" id="cases">
+    <span class="idx">01</span>
     <h2>案例档案</h2>
-    <span class="pt-index">Selected Cases · 01—03</span>
+    <span class="rule"></span>
   </div>
 
-  <article class="pt-case">
-    <div class="pt-case-meta">
-      <div class="pt-case-no">CASE 01</div>
-      <div class="pt-case-industry">世界 500 强运动集团<br>电商事业部</div>
-      <div class="pt-case-stack">
-        <span>Agent</span><span>Function Calling</span><span>RAG</span><span>Eval Harness</span>
+  <article class="case case-1 rv">
+    <div class="case-top">
+      <span class="case-no">CASE 01</span>
+      <span class="case-industry">世界 500 强运动集团 · 电商事业部</span>
+    </div>
+    <h3>电商经营 Agent：让 40+ 人的团队告别每周 8 小时拉数据</h3>
+    <div class="case-cols">
+      <div class="case-col">
+        <div class="lbl">Pain · 痛点</div>
+        <p>运营每周花 8+ 小时重复拉数据、手工做表。36,000+ SKU 的盘子，异常发现靠人肉巡检，等发现时已经晚了。</p>
+      </div>
+      <div class="case-col">
+        <div class="lbl">Build · 做法</div>
+        <p>先访谈 3 个团队 12 名同事，用「重复频率 × 结构化程度 × 人工耗时」筛出真正值得自动化的场景，再搭 Agent 系统：自然语言查数、自动异常预警、带 9 种 checker 的评测体系保证答案可信。</p>
       </div>
     </div>
-    <div class="pt-case-body">
-      <h3>电商经营 Agent：让 40+ 人的团队告别每周 8 小时拉数据</h3>
-      <div class="pt-case-grid">
-        <div class="pt-case-cell">
-          <div class="pt-cell-label">痛点</div>
-          <p>运营每周花 8+ 小时重复拉数据、手工做表。36,000+ SKU 的盘子，异常发现靠人肉巡检，等发现时已经晚了。</p>
-        </div>
-        <div class="pt-case-cell">
-          <div class="pt-cell-label">做法</div>
-          <p>先访谈 3 个团队 12 名同事，用「重复频率 × 结构化程度 × 人工耗时」筛出真正值得自动化的场景，再搭 Agent 系统：自然语言查数、自动异常预警、带 9 种 checker 的评测体系保证答案可信。</p>
-        </div>
-      </div>
-      <div class="pt-case-results">
-        <span class="pt-result-chip">分析效率 <b>+80%</b></span>
-        <span class="pt-result-chip">异常响应 <b>5 倍提速</b></span>
-        <span class="pt-result-chip">滞销品占比 <b>-15%</b></span>
-        <span class="pt-result-chip"><b>40+</b> 人日常使用</span>
-      </div>
+    <div class="case-results">
+      <span class="chip">分析效率 <b>+80%</b></span>
+      <span class="chip">异常响应 <b>5× 提速</b></span>
+      <span class="chip">滞销品占比 <b>−15%</b></span>
+      <span class="chip"><b>40+</b> 人日常使用</span>
     </div>
   </article>
 
-  <article class="pt-case">
-    <div class="pt-case-meta">
-      <div class="pt-case-no">CASE 02</div>
-      <div class="pt-case-industry">连锁口腔医疗<br>SaaS 平台（宇宙熊）</div>
-      <div class="pt-case-stack">
-        <span>n8n</span><span>数字员工</span><span>企业微信</span><span>API 集成</span>
+  <article class="case case-2 rv">
+    <div class="case-top">
+      <span class="case-no">CASE 02</span>
+      <span class="case-industry">连锁口腔医疗 SaaS 平台 · 宇宙熊</span>
+    </div>
+    <h3>AI 数字员工进驻企业微信：诊所每天数小时的重复应答归零</h3>
+    <div class="case-cols">
+      <div class="case-col">
+        <div class="lbl">Pain · 痛点</div>
+        <p>诊所端每天花数小时做重复手工应答：预约查询、群消息回复、患者 FAQ。人盯群，漏回、慢回常态化。</p>
+      </div>
+      <div class="case-col">
+        <div class="lbl">Build · 做法</div>
+        <p>把 AI 数字员工部署进企业微信群，打通预约平台 API；共搭建 30+ 自动化工作流——日报、KPI 推送、竞价监控、新客提醒，全部无人值守运行。</p>
       </div>
     </div>
-    <div class="pt-case-body">
-      <h3>AI 数字员工进驻企业微信：诊所每天数小时的重复应答归零</h3>
-      <div class="pt-case-grid">
-        <div class="pt-case-cell">
-          <div class="pt-cell-label">痛点</div>
-          <p>诊所端每天花数小时做重复手工应答：预约查询、群消息回复、患者 FAQ。人盯群，漏回、慢回常态化。</p>
-        </div>
-        <div class="pt-case-cell">
-          <div class="pt-cell-label">做法</div>
-          <p>把 AI 数字员工部署进企业微信群，打通预约平台 API；共搭建 30+ 自动化工作流——日报、KPI 推送、竞价监控、新客提醒，全部无人值守运行。</p>
-        </div>
-      </div>
-      <div class="pt-case-results">
-        <span class="pt-result-chip">重复应答 <b>归零</b></span>
-        <span class="pt-result-chip"><b>30+</b> 工作流无人值守</span>
-        <span class="pt-result-chip">已进入<b>长期合作</b></span>
-      </div>
+    <div class="case-results">
+      <span class="chip">重复应答 <b>归零</b></span>
+      <span class="chip"><b>30+</b> 工作流无人值守</span>
+      <span class="chip">已进入 <b>长期合作</b></span>
     </div>
   </article>
 
-  <article class="pt-case">
-    <div class="pt-case-meta">
-      <div class="pt-case-no">CASE 03</div>
-      <div class="pt-case-industry">知识密集型团队<br>（隐私敏感场景）</div>
-      <div class="pt-case-stack">
-        <span>本地 LLM</span><span>Tauri / Rust</span><span>向量检索</span><span>桌面应用</span>
+  <article class="case case-3 rv">
+    <div class="case-top">
+      <span class="case-no">CASE 03</span>
+      <span class="case-industry">知识密集型团队 · 隐私敏感场景</span>
+    </div>
+    <h3>本地化 AI 知识管理产品：数据一个字节都不出本地</h3>
+    <div class="case-cols">
+      <div class="case-col">
+        <div class="lbl">Pain · 痛点</div>
+        <p>法务、咨询、研发这类团队想用 AI 管知识，但数据不能上云——市面工具几乎全是云端方案，直接 pass。</p>
+      </div>
+      <div class="case-col">
+        <div class="lbl">Build · 做法</div>
+        <p>从零做了一款桌面端产品：本地 LLM + 本地向量检索 + AI 自维护知识图谱，断网可用。已交付首位付费客户。</p>
       </div>
     </div>
-    <div class="pt-case-body">
-      <h3>本地化 AI 知识管理产品：数据一个字节都不出本地</h3>
-      <div class="pt-case-grid">
-        <div class="pt-case-cell">
-          <div class="pt-cell-label">痛点</div>
-          <p>法务、咨询、研发这类团队想用 AI 管知识，但数据不能上云——市面工具几乎全是云端方案，直接 pass。</p>
-        </div>
-        <div class="pt-case-cell">
-          <div class="pt-cell-label">做法</div>
-          <p>从零做了一款桌面端产品：本地 LLM + 本地向量检索 + AI 自维护知识图谱，断网可用。已交付首位付费客户。</p>
-        </div>
-      </div>
-      <div class="pt-case-results">
-        <span class="pt-result-chip">数据 <b>100% 本地</b></span>
-        <span class="pt-result-chip">已有<b>付费客户</b></span>
-      </div>
+    <div class="case-results">
+      <span class="chip">数据 <b>100% 本地</b></span>
+      <span class="chip">已有 <b>付费客户</b></span>
     </div>
   </article>
 
-  <!-- 能干什么 -->
-  <div class="pt-section-head">
+  <!-- 能力 -->
+  <div class="sec-head rv" id="caps">
+    <span class="idx">02</span>
     <h2>我能帮你做什么</h2>
-    <span class="pt-index">Capabilities · 04</span>
+    <span class="rule"></span>
   </div>
-  <div class="pt-caps">
-    <div class="pt-cap">
-      <div class="pt-cap-no">A</div>
+  <div class="caps">
+    <div class="cap rv">
+      <div class="cap-ico">◈</div>
       <h3>AI 场景诊断</h3>
-      <p>不是所有事都该用 AI。我用「重复频率 × 结构化程度 × 人工耗时」三维框架帮你筛出真正值得做的环节，先算投产比再动手。</p>
+      <p>不是所有事都该用 AI。用「重复频率 × 结构化程度 × 人工耗时」三维框架筛出真正值得做的环节，先算投产比再动手。</p>
     </div>
-    <div class="pt-cap">
-      <div class="pt-cap-no">B</div>
+    <div class="cap rv">
+      <div class="cap-ico">⚙</div>
       <h3>工作流自动化</h3>
       <p>n8n / 数字员工 / API 集成。30+ 生产工作流的实战经验：日报、监控、群应答、数据管道，搭完就无人值守跑。</p>
     </div>
-    <div class="pt-cap">
-      <div class="pt-cap-no">C</div>
+    <div class="cap rv">
+      <div class="cap-ico">⬡</div>
       <h3>Agent 系统搭建</h3>
       <p>自然语言查数、RAG 知识库、多轮对话、评测体系。重点不是 demo 酷，是答案可信、业务同事真的天天用。</p>
     </div>
-    <div class="pt-cap">
-      <div class="pt-cap-no">D</div>
+    <div class="cap rv">
+      <div class="cap-ico">▣</div>
       <h3>全栈产品交付</h3>
       <p>从方案到可用系统全程交付，包括隐私敏感的纯本地化方案。交付物你的团队能直接上手维护，不被我绑架。</p>
     </div>
   </div>
 
-  <!-- 合作流程 -->
-  <div class="pt-section-head">
+  <!-- 流程 -->
+  <div class="sec-head rv" id="process">
+    <span class="idx">03</span>
     <h2>合作怎么开始</h2>
-    <span class="pt-index">Process · 05</span>
+    <span class="rule"></span>
   </div>
-  <ol class="pt-steps">
-    <li>
-      <div class="pt-step-name">场景沟通<small>30 分钟 · 免费</small></div>
+  <ol class="steps">
+    <li class="rv">
+      <div class="step-name">场景沟通</div>
+      <span class="step-tag">30 分钟 · 免费</span>
       <p>你讲业务和痛点，我判断 AI 能不能解决、值不值得做。不能做的我直说，不浪费彼此时间。</p>
     </li>
-    <li>
-      <div class="pt-step-name">方案与报价<small>3 个工作日内</small></div>
+    <li class="rv">
+      <div class="step-name">方案与报价</div>
+      <span class="step-tag">3 个工作日内</span>
       <p>一份可执行方案：做什么、怎么做、多少钱、多久交付、效果怎么衡量。白纸黑字，不卖概念。</p>
     </li>
-    <li>
-      <div class="pt-step-name">POC 验证<small>1–2 周</small></div>
+    <li class="rv">
+      <div class="step-name">POC 验证</div>
+      <span class="step-tag">1–2 周</span>
       <p>先小范围跑通一个场景，用真实数据验证效果。你看到结果再决定是否全面铺开。</p>
     </li>
-    <li>
-      <div class="pt-step-name">交付与培训<small>含交接文档</small></div>
+    <li class="rv">
+      <div class="step-name">交付与培训</div>
+      <span class="step-tag">含交接文档</span>
       <p>系统上线 + 团队培训 + 完整文档。目标是你们能独立运营，而不是长期依赖我。</p>
     </li>
   </ol>
 
   <!-- 为什么是我 -->
-  <div class="pt-section-head">
+  <div class="sec-head rv">
+    <span class="idx">04</span>
     <h2>为什么找我，而不是软件公司</h2>
-    <span class="pt-index">Difference · 06</span>
+    <span class="rule"></span>
   </div>
-  <div class="pt-why">
-    <div class="pt-why-row">
+  <div class="why">
+    <div class="why-row rv">
       <h3>我是业务出身，不是技术外包</h3>
       <p>我本职在世界 500 强电商集团做商品管理，管过年流水 4 亿+ 的盘子。我知道一线团队的时间花在哪、什么工具会被真的用起来、什么工具上线三天就吃灰。</p>
     </div>
-    <div class="pt-why-row">
+    <div class="why-row rv">
       <h3>先算投产比，再写代码</h3>
       <p>每个方案先过一道问题：这一步为什么存在？能不能直接消除？很多"AI 需求"的最优解是改流程而不是上系统——是的话我会直接告诉你。</p>
     </div>
-    <div class="pt-why-row">
+    <div class="why-row rv">
       <h3>交付完整，不留依赖</h3>
       <p>交付物 = 可用系统 + 文档 + 培训。你的团队接得住、改得动。我的复购应该来自新场景，不是来自你离不开我。</p>
     </div>
   </div>
 
   <!-- CTA -->
-  <section class="pt-contact">
-    <h2>有重复劳动想消灭？<br>先聊 30 分钟，免费。</h2>
-    <p>邮件里简单描述：你的行业、团队在哪类事情上花时间最多。我会在 24 小时内回复，告诉你这事 AI 能不能干、大概怎么干。</p>
-    <a class="pt-btn-primary" href="mailto:cyrusttyj2@gmail.com">cyrusttyj2@gmail.com →</a>
+  <section class="contact rv">
+    <div class="contact-inner">
+      <h2>有重复劳动想消灭？<br><span class="grad">先聊 30 分钟，免费。</span></h2>
+      <p>邮件里简单描述：你的行业、团队在哪类事情上花时间最多。我会在 24 小时内回复，告诉你这事 AI 能不能干、大概怎么干。</p>
+      <a class="btn-glow" href="mailto:cyrusttyj2@gmail.com">cyrusttyj2@gmail.com →</a>
+    </div>
   </section>
 
-</div><!-- /.mg-inner -->
+  <footer class="foot">
+    <span>© 2026 Cyrus</span>
+    <span>
+      <a href="/">学习笔记</a> ·
+      <a href="/about.html">关于</a> ·
+      <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> ·
+      <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+    </span>
+  </footer>
 
-<footer class="site-footer">
-  <span>&copy; 2026 Cyrus</span>
-  <span>
-    <a href="/about.html">关于</a> &middot;
-    <a href="/til/">TIL</a> &middot;
-    <a href="/weekly/">周报</a> &middot;
-    <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> &middot;
-    <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
-  </span>
-</footer>
+</main>
 
-<script defer src="./ui.js"></script>
-<script defer src="./visit-stats.js"></script>
-<script defer src="/js/components/cmd-k.js"></script>
-<script defer src="/js/components/explain-this.js"></script>
-<script defer src="/js/components/chat-widget.js"></script>
+<script>
+  // 滚动进场动效
+  (function () {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      document.querySelectorAll(".rv").forEach(function (el) { el.classList.add("in"); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
+    document.querySelectorAll(".rv").forEach(function (el) { io.observe(el); });
+  })();
+</script>
 <script defer src="/js/components/utm-tracker.js"></script>
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"PLACEHOLDER"}'></script>
 </body>
