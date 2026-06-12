@@ -1,313 +1,109 @@
 {
-  "generatedAt": "2026-06-12T05:29:08.035414+00:00",
+  "generatedAt": "2026-06-12T16:16:22.725090+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-06-12",
-    "label": "6月12日",
+    "date": "2026-06-13",
+    "label": "6月13日",
     "top10": [
       {
         "rank": 1,
-        "title": "8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-06-12T00:04:29+00:00",
-        "sourceUrl": "https://36kr.com/p/3849431503869187?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "今日热点导览 OpenAI正考虑大幅下调产品价格，预判将与Anthropic展开用户之争 全球两大预测平台世界杯冠军合约成交额破20亿美元，有望刷新单项纪录 SK海力士设备供应商要求涨价 端午前机票价格跳水 SpaceX上市前夕，美股太空股提前狂欢 TOP 3 大新闻 SpaceX上市在即，马斯克或成全球首位万亿富翁 据报道，SpaceX将于美东时间6月12日在纳斯达克挂牌交…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 2,
-        "title": "Show HN：MandoCode – 本地优先的 AI 编码代理（.NET 和 Ollama）",
+        "title": "Tattva AI – 使用贝叶斯 CUSUM 检测 ML 研究共识何时发生变化",
         "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-06-12T03:22:10+00:00",
-        "sourceUrl": "https://github.com/DevMando/MandoCode",
+        "aiScore": 63,
+        "publishedAt": "2026-06-12T16:01:29+00:00",
+        "sourceUrl": "https://tattvaai.org",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
+          "AI动态"
         ],
-        "summary": "我构建了 MandoCode，这是一个在 .NET 中针对本地 Ollama 模型运行的开源 CLI 编码代理。没有 API 密钥，您的机器上什么也没有留下（如果您需要，Ollama 云模型也可以使用）。我…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "如果我们成功创建了 ASI，但它对我们毫无作用怎么办？",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-06-12T02:41:45+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u3j2j0/what_if_we_succeed_in_creating_asi_but_it_does/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "我们熟悉 ASI 可以消灭所有人类或者可以在地球上带来乌托邦的想法，但我们是否考虑过更平凡的结果？ ​ 我们经常假设伟大的......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "我认为人工智能代理将需要一个操作层",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-06-12T00:56:20+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u3gv2i/i_think_ai_agents_are_going_to_need_an_operating/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "人工智能系统变得越自治，我认为单独的安全工具就越不够用。现在，我们的代理具有工具访问、浏览器访问、MCP 服务器、内存、工作流程、扩展……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "当我们向结合法学硕士、RLHF、工具使用和检索增强生成的代理、多模式系统扩展时，实用的架构师......",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-06-11T23:55:10+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u3fiiq/as_we_scale_toward_agentic_multimodal_systems/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "具体来说：未来的人工智能系统应该融合成一个统一的代理堆栈（规划器+内存+工具+验证器），还是保持专业模型的模块化集合（推理器、批评器、检索器……）",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "我追踪了“300% AI 代理采用激增”统计数据的来源。它不存在。",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-06-12T04:59:56+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u3lrtk/i_traced_the_300_ai_agent_adoption_surge_stat/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "您可能已经看过该声明。它出现在供应商博客、LinkedIn 帖子以及我本季度参加过的至少三个主题演讲中：AI 代理的采用率在两年内增长了 300%。我跑……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "36氪首发 | 前瓦锡兰老兵创业，为船舶装上中国“心脏”，半年超 5000万订单",
-        "platform": "36氪",
-        "aiScore": 87,
-        "publishedAt": "2026-06-12T01:34:28+00:00",
-        "sourceUrl": "https://36kr.com/p/3849520020231432?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "应用落地",
-          "投融资"
-        ],
-        "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，连云港力普司船舶科技有限公司（下称“力普司LiiPuS”）近期连续完成种子轮及天使轮融资，总额达数千万元。其中，种子轮由江苏金桥基金独家投资，天使轮由云时资本独家投资。本轮资金将主要用于高端船舶综合电力推进系统及产品的样机测试、持续改进及小批量交付，加速国产高端推进系统在港口拖轮、海工船、豪华游艇等场景的规模化应用。 力普司2025年7月成…",
-        "action": "关注与你场景最相关的指标，不只看总分。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 15,
-          "actionability": 7,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "谷歌宣布追加投入5000万美元培训美国技工，以满足AI基础设施建设需求",
-        "platform": "36氪",
-        "aiScore": 86,
-        "publishedAt": "2026-06-12T05:22:21+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3849744240989442?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "投融资"
-        ],
-        "summary": "随着人工智能的蓬勃发展，对数据中心和基础设施的需求空前高涨，Alphabet旗下的谷歌正在加大对美国技术工人队伍的投资。当地时间周四，Alphabet首席执行官桑达尔·皮查伊宣布，谷歌将追加投资5000万美元，帮助美国20多个州的30多万美国人做好从事技术行业职业的准备。据谷歌称，这项新的投入是其更大规模计划的一部分。自2022年以来，该公司已在全球范围内投入超过10亿美元用…",
+        "summary": "文章网址：https://tattvaai.org 评论网址：https://news.ycombinator.com/item?id=48505819 积分：1 # 评论：0",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "询问 HN：有人在生产环境中可靠地运行 AI 代理吗？你们的堆栈是什么？",
-        "platform": "Hacker News",
-        "aiScore": 85,
-        "publishedAt": "2026-06-12T04:10:34+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=48499826",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "评论网址：https://news.ycombinator.com/item?id=48499826 积分：3 # 评论：2",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
           "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 3
-        }
-      },
-      {
-        "rank": 10,
-        "title": "钉钉发布DingTalk A1豆蔻医生版",
-        "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-06-12T03:56:21+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3849659696337924?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "36氪获悉，钉钉正式发布DingTalk A1豆蔻医生版，售价999元。DingTalk A1豆蔻医生版深度融合豆蔻医疗大模型及豆蔻医生超级助理，为医生提供语音记录、临床决策辅助、医学文献检索等全流程AI辅助功能。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
+          "topic": 5,
+          "actionability": 4,
+          "heat": 1
         }
       }
     ],
     "metrics": {
-      "totalItems": 41,
-      "avgScore": 74.8,
-      "topScore": 95,
+      "totalItems": 1,
+      "avgScore": 63.0,
+      "topScore": 63,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 15
-        },
-        {
-          "name": "Reddit",
-          "count": 13
-        },
-        {
-          "name": "36氪",
-          "count": 5
-        },
-        {
-          "name": "量子位",
-          "count": 3
-        },
-        {
-          "name": "少数派",
-          "count": 2
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 15
-        },
-        {
-          "name": "Agent",
-          "count": 11
-        },
-        {
-          "name": "模型进展",
-          "count": 10
-        },
-        {
-          "name": "应用落地",
-          "count": 6
-        },
-        {
-          "name": "开源生态",
-          "count": 6
-        },
-        {
-          "name": "投融资",
-          "count": 3
-        },
-        {
-          "name": "芯片算力",
-          "count": 2
-        },
-        {
-          "name": "安全治理",
-          "count": 2
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 41 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证（95 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 1 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态",
+      "最高分事件：Tattva AI – 使用贝叶斯 CUSUM 检测 ML 研究共识何时发生变化（63 分）",
+      "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-06-13",
+      "label": "6月13日",
+      "top10": [
+        {
+          "rank": 1,
+          "title": "Tattva AI – 使用贝叶斯 CUSUM 检测 ML 研究共识何时发生变化",
+          "platform": "Hacker News",
+          "aiScore": 63,
+          "publishedAt": "2026-06-12T16:01:29+00:00",
+          "sourceUrl": "https://tattvaai.org",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "文章网址：https://tattvaai.org 评论网址：https://news.ycombinator.com/item?id=48505819 积分：1 # 评论：0",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 1
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 1,
+        "avgScore": 63.0,
+        "topScore": 63,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 1 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态",
+        "最高分事件：Tattva AI – 使用贝叶斯 CUSUM 检测 ML 研究共识何时发生变化（63 分）",
+        "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
+      ]
+    },
     {
       "date": "2026-06-12",
       "label": "6月12日",
@@ -27728,314 +27524,6 @@
         "最高分事件：OpenClaw会疯狂扣钱吗？腾讯云回应（95 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
-    },
-    {
-      "date": "2026-03-06",
-      "label": "3月6日",
-      "top10": [
-        {
-          "rank": 1,
-          "title": "技术获 NVIDIA、Pi 双重认可！原力灵机 DM0 模型重塑具身智能新范式",
-          "platform": "量子位",
-          "aiScore": 95,
-          "publishedAt": "2026-03-06T12:04:59+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/03/384573.html",
-          "sourceName": "量子位",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "原力灵机 DM0 模型，正让机器人 “又聪明又敏捷” 的理想照进现实",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
-          "title": "氪星晚报｜蜜雪冰城公司已公布多项咖啡相关专利；证监会同意春光集团创业板IPO注册；千问持续推进AI生活服务落地",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-03-06T11:06:15+00:00",
-          "sourceUrl": "https://36kr.com/p/3711355370615169?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "大公司： 蜜雪冰城公司已公布多项咖啡相关专利 36氪获悉，目前蜜雪冰城现磨咖啡业务处于前期规划试点阶段，除全自动咖啡机外，接下来将同步试点升级咖啡产品线，包括推出咖啡新品，升级咖啡豆、牛奶等核心原料等多个方面，整体仍将延续高质平价的产品策略。爱企查App显示，蜜雪冰城股份有限公司已公布“滴漏式咖啡壶”“包装盒（咖啡）”“包装袋（咖啡）”等多项咖啡相关专利，专利类型均为外观设计…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "倒计时10天，2026 AI最佳场景渗透案例火热征集中",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-03-06T10:16:48+00:00",
-          "sourceUrl": "https://36kr.com/p/3711294378930306?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "2026年开年，中国AI领域热度拉满，几乎每隔几天就有重磅消息刷屏。 国内，马年春晚舞台上，宇树科技、银河通用、魔法原子、松延动力四家人形机器人品牌集体亮相，覆盖武术、歌曲、小品、微电影等多个节目，以高难度动作与沉浸式交互，展现中国AI从实验室走向大众视野的加速进程，成为“史上最AI春晚”的标志性亮点。 国外，CES展会成为中国AI企业的实力展台，在人形机器人展区38个展位中…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "高德发布全球首个由大模型驱动的视觉认知步行导引系统",
-          "platform": "量子位",
-          "aiScore": 94,
-          "publishedAt": "2026-03-06T11:10:03+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/03/384557.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "可视、可感、可用的空间智能应用",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "求购强脑科技老股份额；求购持有清微智能老股的基金LP份额｜资情留言板第180期",
-          "platform": "36氪",
-          "aiScore": 92,
-          "publishedAt": "2026-03-06T11:19:44+00:00",
-          "sourceUrl": "https://36kr.com/p/3711367816556675?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "内容生产",
-            "投融资"
-          ],
-          "summary": "资产交易市场，信息瞬息万变，消息真假难辨，即使买卖双方花费大量的时间、精力，推动成交往往困难重重。为了能够帮助买卖双方更快速链接市场信息和潜在交易对手，避免不必要的投入与浪费，我们特地打造了这样一档栏目。 本文是这个栏目的第180期。如果你对本文提到的相关的交易线索感兴趣，希望接触这些潜在的交易对手，或者如果你手中直接握有希望交易的资金或者资产，欢迎与我们联系。（邮箱：zcj…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "西贝命悬一线：贾国龙卸任CEO、大幅关店裁员｜独家",
-          "platform": "36氪",
-          "aiScore": 91,
-          "publishedAt": "2026-03-06T10:44:09+00:00",
-          "sourceUrl": "https://36kr.com/p/3711330673242249?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "投融资"
-          ],
-          "summary": "作者｜任彩茹、李小霞、肖思佳 编辑｜乔芊、杨轩 一向冲锋的贾国龙，如今在用“退后”的方式求生。 36氪独家获悉，春节前，贾国龙卸任西贝主品牌CEO，前任CEO董俊义重新回归该职 。后者从1992年起就加入西贝，从学徒一路成长为店长、分部经理，直至西贝事业部CEO。一位西贝员工说，“董俊义更了解一线，人心会更稳一点。”除了董俊义，西贝另一位从厨师长走到“分部老大”的老臣张忠其，…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "Show HN：AI 代理在 Rust 中编码的 Python 3.14 解释器",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-03-06T13:44:04+00:00",
-          "sourceUrl": "https://blueblazin.github.io/pyrs/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "你好，HN，受到 Cursor 团队尝试使用代理来对浏览器进行振动编码的启发，我决定尝试一些更简单的方法，但仍然具有足够的挑战性，以突破当前编码的极限......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "Show HN：开放可穿戴设备 – 具有 AI 层的自托管可穿戴数据平台",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-03-06T12:39:17+00:00",
-          "sourceUrl": "https://github.com/the-momentum/open-wearables",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "自动化"
-          ],
-          "summary": "大家好，我是 Bart，Open Wearables 的维护者之一。在过去的几个月里，我们一直在构建一个开源的、自托管的后端，可以将来自多个……的健康和健身数据标准化。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "GPT-5.4发布：OpenAI首个大一统模型，简直是龙虾原生",
-          "platform": "量子位",
-          "aiScore": 88,
-          "publishedAt": "2026-03-06T00:50:44+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/03/384345.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "Agent任务成本骤降47%",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "8点1氪丨寿司郎被曝吃出寄生虫卵，当地市监局通报；全国人大代表建议尽量不要调休；谷歌DeepMind高管公开邀请千问团队入职",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-03-05T23:55:17+00:00",
-          "sourceUrl": "https://36kr.com/p/3710693707166083?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 魔法原子回应创始人离职：确有此事，目前技术团队稳定 伊朗：禁止美以欧船只通过霍尔木兹海峡 现货白银向下跌破81美元/盎司 MacBook Neo国补后低至3000多元 亚马逊在机器人部门裁员约100人 TOP 3 大新闻 消费者称在寿司郎吃出寄生虫卵，当地市监局通报 3月2日，有网友发视频称，3月1日他排了三个小时队吃寿司郎，不料却吃到一块全是寄生虫卵的金枪鱼。…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 52,
-        "avgScore": 74.8,
-        "topScore": 95,
-        "topPlatforms": [
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "Reddit",
-            "count": 14
-          },
-          {
-            "name": "量子位",
-            "count": 8
-          },
-          {
-            "name": "36氪",
-            "count": 6
-          },
-          {
-            "name": "The Verge",
-            "count": 4
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "模型进展",
-            "count": 19
-          },
-          {
-            "name": "AI动态",
-            "count": 19
-          },
-          {
-            "name": "Agent",
-            "count": 12
-          },
-          {
-            "name": "开源生态",
-            "count": 9
-          },
-          {
-            "name": "应用落地",
-            "count": 7
-          },
-          {
-            "name": "芯片算力",
-            "count": 5
-          },
-          {
-            "name": "投融资",
-            "count": 4
-          },
-          {
-            "name": "内容生产",
-            "count": 3
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 52 条 AI 资讯，Top10 通报见下。",
-        "高频主题：模型进展 / AI动态 / Agent",
-        "最高分事件：技术获 NVIDIA、Pi 双重认可！原力灵机 DM0 模型重塑具身智能新范式（95 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
-      ]
     }
   ],
   "currentWeek": {
@@ -28046,8 +27534,8 @@
       "end": "2026-06-14"
     },
     "metrics": {
-      "daysCovered": 5,
-      "totalItems": 269,
+      "daysCovered": 6,
+      "totalItems": 270,
       "avgTop10Score": 94.9,
       "topScore": 95,
       "topPlatforms": [
@@ -28321,7 +27809,7 @@
       }
     ],
     "briefing": [
-      "6月第2周累计收录 269 条资讯，覆盖 5 天。",
+      "6月第2周累计收录 270 条资讯，覆盖 6 天。",
       "高频主题：模型进展 / 应用落地 / 芯片算力",
       "本周最高分：8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -28336,8 +27824,8 @@
         "end": "2026-06-14"
       },
       "metrics": {
-        "daysCovered": 5,
-        "totalItems": 269,
+        "daysCovered": 6,
+        "totalItems": 270,
         "avgTop10Score": 94.9,
         "topScore": 95,
         "topPlatforms": [
@@ -28611,7 +28099,7 @@
         }
       ],
       "briefing": [
-        "6月第2周累计收录 269 条资讯，覆盖 5 天。",
+        "6月第2周累计收录 270 条资讯，覆盖 6 天。",
         "高频主题：模型进展 / 应用落地 / 芯片算力",
         "本周最高分：8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -33053,303 +32541,6 @@
         "高频主题：模型进展 / 开源生态 / Agent",
         "本周最高分：OpenClaw会疯狂扣钱吗？腾讯云回应（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
-    },
-    {
-      "weekKey": "2026-03-W1",
-      "weekLabel": "3月第1周",
-      "range": {
-        "start": "2026-03-01",
-        "end": "2026-03-07"
-      },
-      "metrics": {
-        "daysCovered": 1,
-        "totalItems": 52,
-        "avgTop10Score": 91.4,
-        "topScore": 95,
-        "topPlatforms": [
-          {
-            "name": "36氪",
-            "count": 5
-          },
-          {
-            "name": "量子位",
-            "count": 3
-          },
-          {
-            "name": "Hacker News",
-            "count": 2
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "模型进展",
-            "count": 9
-          },
-          {
-            "name": "Agent",
-            "count": 6
-          },
-          {
-            "name": "芯片算力",
-            "count": 3
-          },
-          {
-            "name": "应用落地",
-            "count": 2
-          },
-          {
-            "name": "投融资",
-            "count": 2
-          },
-          {
-            "name": "开源生态",
-            "count": 1
-          }
-        ]
-      },
-      "topEvents": [
-        {
-          "rank": 1,
-          "title": "技术获 NVIDIA、Pi 双重认可！原力灵机 DM0 模型重塑具身智能新范式",
-          "platform": "量子位",
-          "aiScore": 95,
-          "publishedAt": "2026-03-06T12:04:59+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/03/384573.html",
-          "sourceName": "量子位",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "原力灵机 DM0 模型，正让机器人 “又聪明又敏捷” 的理想照进现实",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
-          "title": "氪星晚报｜蜜雪冰城公司已公布多项咖啡相关专利；证监会同意春光集团创业板IPO注册；千问持续推进AI生活服务落地",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-03-06T11:06:15+00:00",
-          "sourceUrl": "https://36kr.com/p/3711355370615169?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "大公司： 蜜雪冰城公司已公布多项咖啡相关专利 36氪获悉，目前蜜雪冰城现磨咖啡业务处于前期规划试点阶段，除全自动咖啡机外，接下来将同步试点升级咖啡产品线，包括推出咖啡新品，升级咖啡豆、牛奶等核心原料等多个方面，整体仍将延续高质平价的产品策略。爱企查App显示，蜜雪冰城股份有限公司已公布“滴漏式咖啡壶”“包装盒（咖啡）”“包装袋（咖啡）”等多项咖啡相关专利，专利类型均为外观设计…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "倒计时10天，2026 AI最佳场景渗透案例火热征集中",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-03-06T10:16:48+00:00",
-          "sourceUrl": "https://36kr.com/p/3711294378930306?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "2026年开年，中国AI领域热度拉满，几乎每隔几天就有重磅消息刷屏。 国内，马年春晚舞台上，宇树科技、银河通用、魔法原子、松延动力四家人形机器人品牌集体亮相，覆盖武术、歌曲、小品、微电影等多个节目，以高难度动作与沉浸式交互，展现中国AI从实验室走向大众视野的加速进程，成为“史上最AI春晚”的标志性亮点。 国外，CES展会成为中国AI企业的实力展台，在人形机器人展区38个展位中…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "高德发布全球首个由大模型驱动的视觉认知步行导引系统",
-          "platform": "量子位",
-          "aiScore": 94,
-          "publishedAt": "2026-03-06T11:10:03+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/03/384557.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "可视、可感、可用的空间智能应用",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "求购强脑科技老股份额；求购持有清微智能老股的基金LP份额｜资情留言板第180期",
-          "platform": "36氪",
-          "aiScore": 92,
-          "publishedAt": "2026-03-06T11:19:44+00:00",
-          "sourceUrl": "https://36kr.com/p/3711367816556675?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "内容生产",
-            "投融资"
-          ],
-          "summary": "资产交易市场，信息瞬息万变，消息真假难辨，即使买卖双方花费大量的时间、精力，推动成交往往困难重重。为了能够帮助买卖双方更快速链接市场信息和潜在交易对手，避免不必要的投入与浪费，我们特地打造了这样一档栏目。 本文是这个栏目的第180期。如果你对本文提到的相关的交易线索感兴趣，希望接触这些潜在的交易对手，或者如果你手中直接握有希望交易的资金或者资产，欢迎与我们联系。（邮箱：zcj…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "西贝命悬一线：贾国龙卸任CEO、大幅关店裁员｜独家",
-          "platform": "36氪",
-          "aiScore": 91,
-          "publishedAt": "2026-03-06T10:44:09+00:00",
-          "sourceUrl": "https://36kr.com/p/3711330673242249?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "投融资"
-          ],
-          "summary": "作者｜任彩茹、李小霞、肖思佳 编辑｜乔芊、杨轩 一向冲锋的贾国龙，如今在用“退后”的方式求生。 36氪独家获悉，春节前，贾国龙卸任西贝主品牌CEO，前任CEO董俊义重新回归该职 。后者从1992年起就加入西贝，从学徒一路成长为店长、分部经理，直至西贝事业部CEO。一位西贝员工说，“董俊义更了解一线，人心会更稳一点。”除了董俊义，西贝另一位从厨师长走到“分部老大”的老臣张忠其，…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "Show HN：AI 代理在 Rust 中编码的 Python 3.14 解释器",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-03-06T13:44:04+00:00",
-          "sourceUrl": "https://blueblazin.github.io/pyrs/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "你好，HN，受到 Cursor 团队尝试使用代理来对浏览器进行振动编码的启发，我决定尝试一些更简单的方法，但仍然具有足够的挑战性，以突破当前编码的极限......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "Show HN：开放可穿戴设备 – 具有 AI 层的自托管可穿戴数据平台",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-03-06T12:39:17+00:00",
-          "sourceUrl": "https://github.com/the-momentum/open-wearables",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "自动化"
-          ],
-          "summary": "大家好，我是 Bart，Open Wearables 的维护者之一。在过去的几个月里，我们一直在构建一个开源的、自托管的后端，可以将来自多个……的健康和健身数据标准化。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "GPT-5.4发布：OpenAI首个大一统模型，简直是龙虾原生",
-          "platform": "量子位",
-          "aiScore": 88,
-          "publishedAt": "2026-03-06T00:50:44+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/03/384345.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "Agent任务成本骤降47%",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "8点1氪丨寿司郎被曝吃出寄生虫卵，当地市监局通报；全国人大代表建议尽量不要调休；谷歌DeepMind高管公开邀请千问团队入职",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-03-05T23:55:17+00:00",
-          "sourceUrl": "https://36kr.com/p/3710693707166083?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 魔法原子回应创始人离职：确有此事，目前技术团队稳定 伊朗：禁止美以欧船只通过霍尔木兹海峡 现货白银向下跌破81美元/盎司 MacBook Neo国补后低至3000多元 亚马逊在机器人部门裁员约100人 TOP 3 大新闻 消费者称在寿司郎吃出寄生虫卵，当地市监局通报 3月2日，有网友发视频称，3月1日他排了三个小时队吃寿司郎，不料却吃到一块全是寄生虫卵的金枪鱼。…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "briefing": [
-        "3月第1周累计收录 52 条资讯，覆盖 1 天。",
-        "高频主题：模型进展 / Agent / 芯片算力",
-        "本周最高分：技术获 NVIDIA、Pi 双重认可！原力灵机 DM0 模型重塑具身智能新范式（95 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     }
   ]
