@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T16:16:22.725090+00:00",
+  "generatedAt": "2026-06-12T16:46:17.551530+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-06-13",
@@ -7,9 +7,143 @@
     "top10": [
       {
         "rank": 1,
+        "title": "我让 58 个 AI 代理互相检查了 561 次代码——我发现了他们的盲点",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-06-12T16:22:02+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u400si/i_let_58_ai_agents_review_each_others_code_561/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "我建立了一个对抗竞技场，人工智能代理提交代码，其他代理攻击它。不是基准测试，不是标题——只是代理测试其他代理的工作，发现漏洞，然后……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "人工智能代理必须提供证据才能说“完成”",
+        "platform": "Hacker News",
+        "aiScore": 82,
+        "publishedAt": "2026-06-12T16:33:03+00:00",
+        "sourceUrl": "https://github.com/Aspct3434/Distill-Agent",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/Aspct3434/Distill-Agent 评论网址：https://news.ycombinator.com/item?id=48506215 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 3,
+        "title": "埃隆·马斯克是世界上第一位万亿富翁",
+        "platform": "The Verge",
+        "aiScore": 74,
+        "publishedAt": "2026-06-12T16:24:39+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/948409/elon-musk-trillionaire-spacex-ipo",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "SpaceX 首次公开募股后，埃隆·马斯克的净资产已突破万亿美元大关。他的净资产在 IPO 之前徘徊在 8000 亿美元左右，其中包括他 48 亿股的价值……",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "白宫正在谈判优先考虑各州人工智能法律以换取 KOSA 等",
+        "platform": "Hacker News",
+        "aiScore": 65,
+        "publishedAt": "2026-06-12T16:18:33+00:00",
+        "sourceUrl": "https://thehill.com/policy/technology/5916062-artificial-intelligence-federal-preemption-negotiations/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "文章网址：https://thehill.com/policy/technology/5916062-artificial-intelligence-federal-preemption-negotiations/ 评论网址：https://news.ycombinator.com/item?id=48506024 积分：4 # C…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 3
+        }
+      },
+      {
+        "rank": 5,
+        "title": "IdleAds – AI“思考”时刻的广告，开发者保持 70%+",
+        "platform": "Hacker News",
+        "aiScore": 64,
+        "publishedAt": "2026-06-12T16:21:29+00:00",
+        "sourceUrl": "https://IdleAds.dev",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "文章网址：https://IdleAds.dev 评论网址：https://news.ycombinator.com/item?id=48506060 积分：1 # 评论：1",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 6,
+        "title": "Red Lobster 37 岁首席执行官将连锁店的未来押注于人工智能",
+        "platform": "Hacker News",
+        "aiScore": 64,
+        "publishedAt": "2026-06-12T16:14:03+00:00",
+        "sourceUrl": "https://moneywise.com/news/top-stories/red-lobster-ceo-damola-adamolekun-ai-anthropic-claude-restaurants",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "文章网址：https://moneywise.com/news/top-stories/red-lobster-ceo-damola-adamolekun-ai-anthropic-claude-restaurants 评论网址：https://news.ycombinator.com/item?id=48505972 积分：2 #...",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 7,
         "title": "Tattva AI – 使用贝叶斯 CUSUM 检测 ML 研究共识何时发生变化",
         "platform": "Hacker News",
-        "aiScore": 63,
+        "aiScore": 64,
         "publishedAt": "2026-06-12T16:01:29+00:00",
         "sourceUrl": "https://tattvaai.org",
         "sourceName": "Hacker News AI",
@@ -17,39 +151,59 @@
         "contentTags": [
           "AI动态"
         ],
-        "summary": "文章网址：https://tattvaai.org 评论网址：https://news.ycombinator.com/item?id=48505819 积分：1 # 评论：0",
+        "summary": "文章网址：https://tattvaai.org 评论网址：https://news.ycombinator.com/item?id=48505819 积分：2 # 评论：0",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 5,
           "actionability": 4,
-          "heat": 1
+          "heat": 2
         }
       }
     ],
     "metrics": {
-      "totalItems": 1,
-      "avgScore": 63.0,
-      "topScore": 63,
+      "totalItems": 7,
+      "avgScore": 71.3,
+      "topScore": 86,
       "topPlatforms": [
         {
           "name": "Hacker News",
+          "count": 5
+        },
+        {
+          "name": "The Verge",
+          "count": 1
+        },
+        {
+          "name": "Reddit",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
+          "count": 5
+        },
+        {
+          "name": "Agent",
+          "count": 2
+        },
+        {
+          "name": "开源生态",
+          "count": 1
+        },
+        {
+          "name": "安全治理",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 1 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态",
-      "最高分事件：Tattva AI – 使用贝叶斯 CUSUM 检测 ML 研究共识何时发生变化（63 分）",
-      "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
+      "今日共收录 7 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 开源生态",
+      "最高分事件：我让 58 个 AI 代理互相检查了 561 次代码——我发现了他们的盲点（86 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -59,9 +213,143 @@
       "top10": [
         {
           "rank": 1,
+          "title": "我让 58 个 AI 代理互相检查了 561 次代码——我发现了他们的盲点",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-06-12T16:22:02+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u400si/i_let_58_ai_agents_review_each_others_code_561/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "我建立了一个对抗竞技场，人工智能代理提交代码，其他代理攻击它。不是基准测试，不是标题——只是代理测试其他代理的工作，发现漏洞，然后……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "人工智能代理必须提供证据才能说“完成”",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-06-12T16:33:03+00:00",
+          "sourceUrl": "https://github.com/Aspct3434/Distill-Agent",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/Aspct3434/Distill-Agent 评论网址：https://news.ycombinator.com/item?id=48506215 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 3,
+          "title": "埃隆·马斯克是世界上第一位万亿富翁",
+          "platform": "The Verge",
+          "aiScore": 74,
+          "publishedAt": "2026-06-12T16:24:39+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/948409/elon-musk-trillionaire-spacex-ipo",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "SpaceX 首次公开募股后，埃隆·马斯克的净资产已突破万亿美元大关。他的净资产在 IPO 之前徘徊在 8000 亿美元左右，其中包括他 48 亿股的价值……",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "白宫正在谈判优先考虑各州人工智能法律以换取 KOSA 等",
+          "platform": "Hacker News",
+          "aiScore": 65,
+          "publishedAt": "2026-06-12T16:18:33+00:00",
+          "sourceUrl": "https://thehill.com/policy/technology/5916062-artificial-intelligence-federal-preemption-negotiations/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "文章网址：https://thehill.com/policy/technology/5916062-artificial-intelligence-federal-preemption-negotiations/ 评论网址：https://news.ycombinator.com/item?id=48506024 积分：4 # C…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 3
+          }
+        },
+        {
+          "rank": 5,
+          "title": "IdleAds – AI“思考”时刻的广告，开发者保持 70%+",
+          "platform": "Hacker News",
+          "aiScore": 64,
+          "publishedAt": "2026-06-12T16:21:29+00:00",
+          "sourceUrl": "https://IdleAds.dev",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "文章网址：https://IdleAds.dev 评论网址：https://news.ycombinator.com/item?id=48506060 积分：1 # 评论：1",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Red Lobster 37 岁首席执行官将连锁店的未来押注于人工智能",
+          "platform": "Hacker News",
+          "aiScore": 64,
+          "publishedAt": "2026-06-12T16:14:03+00:00",
+          "sourceUrl": "https://moneywise.com/news/top-stories/red-lobster-ceo-damola-adamolekun-ai-anthropic-claude-restaurants",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "文章网址：https://moneywise.com/news/top-stories/red-lobster-ceo-damola-adamolekun-ai-anthropic-claude-restaurants 评论网址：https://news.ycombinator.com/item?id=48505972 积分：2 #...",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 7,
           "title": "Tattva AI – 使用贝叶斯 CUSUM 检测 ML 研究共识何时发生变化",
           "platform": "Hacker News",
-          "aiScore": 63,
+          "aiScore": 64,
           "publishedAt": "2026-06-12T16:01:29+00:00",
           "sourceUrl": "https://tattvaai.org",
           "sourceName": "Hacker News AI",
@@ -69,39 +357,59 @@
           "contentTags": [
             "AI动态"
           ],
-          "summary": "文章网址：https://tattvaai.org 评论网址：https://news.ycombinator.com/item?id=48505819 积分：1 # 评论：0",
+          "summary": "文章网址：https://tattvaai.org 评论网址：https://news.ycombinator.com/item?id=48505819 积分：2 # 评论：0",
           "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 5,
             "actionability": 4,
-            "heat": 1
+            "heat": 2
           }
         }
       ],
       "metrics": {
-        "totalItems": 1,
-        "avgScore": 63.0,
-        "topScore": 63,
+        "totalItems": 7,
+        "avgScore": 71.3,
+        "topScore": 86,
         "topPlatforms": [
           {
             "name": "Hacker News",
+            "count": 5
+          },
+          {
+            "name": "The Verge",
+            "count": 1
+          },
+          {
+            "name": "Reddit",
             "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
+            "count": 5
+          },
+          {
+            "name": "Agent",
+            "count": 2
+          },
+          {
+            "name": "开源生态",
+            "count": 1
+          },
+          {
+            "name": "安全治理",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 1 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态",
-        "最高分事件：Tattva AI – 使用贝叶斯 CUSUM 检测 ML 研究共识何时发生变化（63 分）",
-        "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
+        "今日共收录 7 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 开源生态",
+        "最高分事件：我让 58 个 AI 代理互相检查了 561 次代码——我发现了他们的盲点（86 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -27535,7 +27843,7 @@
     },
     "metrics": {
       "daysCovered": 6,
-      "totalItems": 270,
+      "totalItems": 276,
       "avgTop10Score": 94.9,
       "topScore": 95,
       "topPlatforms": [
@@ -27809,7 +28117,7 @@
       }
     ],
     "briefing": [
-      "6月第2周累计收录 270 条资讯，覆盖 6 天。",
+      "6月第2周累计收录 276 条资讯，覆盖 6 天。",
       "高频主题：模型进展 / 应用落地 / 芯片算力",
       "本周最高分：8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -27825,7 +28133,7 @@
       },
       "metrics": {
         "daysCovered": 6,
-        "totalItems": 270,
+        "totalItems": 276,
         "avgTop10Score": 94.9,
         "topScore": 95,
         "topPlatforms": [
@@ -28099,7 +28407,7 @@
         }
       ],
       "briefing": [
-        "6月第2周累计收录 270 条资讯，覆盖 6 天。",
+        "6月第2周累计收录 276 条资讯，覆盖 6 天。",
         "高频主题：模型进展 / 应用落地 / 芯片算力",
         "本周最高分：8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
