@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T01:26:06.071454+00:00",
+  "generatedAt": "2026-06-13T01:51:02.227782+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-06-13",
@@ -126,6 +126,29 @@
       },
       {
         "rank": 6,
+        "title": "特朗普政府阻止外国访问 Anthropic 最强大的人工智能模型",
+        "platform": "Hacker News",
+        "aiScore": 87,
+        "publishedAt": "2026-06-12T23:52:27+00:00",
+        "sourceUrl": "https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "安全治理"
+        ],
+        "summary": "文章网址：https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security 评论网址：https://news.ycombinator.com/item?id=48510765 积分：22 # 评论：6",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 6
+        }
+      },
+      {
+        "rank": 7,
         "title": "询问 HN：您如何为生产 AI 代理设计人工审核？",
         "platform": "Hacker News",
         "aiScore": 87,
@@ -149,30 +172,30 @@
         }
       },
       {
-        "rank": 7,
-        "title": "特朗普政府阻止外国访问 Anthropic 最强大的人工智能模型",
+        "rank": 8,
+        "title": "Show HN：AccInt – AI 编码代理的工作模型",
         "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-06-12T23:52:27+00:00",
-        "sourceUrl": "https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security",
+        "aiScore": 84,
+        "publishedAt": "2026-06-13T01:25:10+00:00",
+        "sourceUrl": "https://accint.xyz/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "安全治理"
+          "Agent"
         ],
-        "summary": "文章网址：https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security 评论网址：https://news.ycombinator.com/item?id=48510765 积分：20 # 评论：6",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://accint.xyz/ 评论网址：https://news.ycombinator.com/item?id=48511393 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 20,
           "actionability": 10,
-          "heat": 5
+          "heat": 1
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "2026年中期继续学习。每个人都试图破解它的地图：记忆层、“梦想”代理和后变形金刚模型……",
         "platform": "Reddit",
         "aiScore": 81,
@@ -196,7 +219,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "早报｜SpaceX上市首日暴涨/苹果高管：Siri不想做用户的情感伴侣/华为余承东：要带盘古大模型从中国第一走向世界第一",
         "platform": "爱范儿",
         "aiScore": 78,
@@ -216,33 +239,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "问 HN：AI 代理的下一个大型内存管理系统是什么？",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-06-12T23:44:47+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=48510721",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "我们都见过 RAG 和图知识，但在你看来，或者如果你知道一些很酷的项目，下一个可以实现真正永久记忆和真正个性化的创新是什么……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "metrics": {
       "totalItems": 33,
-      "avgScore": 73.7,
+      "avgScore": 74.3,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -273,11 +274,11 @@
         },
         {
           "name": "模型进展",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Agent",
-          "count": 9
+          "count": 10
         },
         {
           "name": "应用落地",
@@ -288,15 +289,15 @@
           "count": 3
         },
         {
-          "name": "开源生态",
-          "count": 3
-        },
-        {
           "name": "芯片算力",
           "count": 2
         },
         {
           "name": "自动化",
+          "count": 2
+        },
+        {
+          "name": "开源生态",
           "count": 2
         }
       ]
@@ -434,6 +435,29 @@
         },
         {
           "rank": 6,
+          "title": "特朗普政府阻止外国访问 Anthropic 最强大的人工智能模型",
+          "platform": "Hacker News",
+          "aiScore": 87,
+          "publishedAt": "2026-06-12T23:52:27+00:00",
+          "sourceUrl": "https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "文章网址：https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security 评论网址：https://news.ycombinator.com/item?id=48510765 积分：22 # 评论：6",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 6
+          }
+        },
+        {
+          "rank": 7,
           "title": "询问 HN：您如何为生产 AI 代理设计人工审核？",
           "platform": "Hacker News",
           "aiScore": 87,
@@ -457,30 +481,30 @@
           }
         },
         {
-          "rank": 7,
-          "title": "特朗普政府阻止外国访问 Anthropic 最强大的人工智能模型",
+          "rank": 8,
+          "title": "Show HN：AccInt – AI 编码代理的工作模型",
           "platform": "Hacker News",
-          "aiScore": 86,
-          "publishedAt": "2026-06-12T23:52:27+00:00",
-          "sourceUrl": "https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security",
+          "aiScore": 84,
+          "publishedAt": "2026-06-13T01:25:10+00:00",
+          "sourceUrl": "https://accint.xyz/",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "安全治理"
+            "Agent"
           ],
-          "summary": "文章网址：https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security 评论网址：https://news.ycombinator.com/item?id=48510765 积分：20 # 评论：6",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "文章网址：https://accint.xyz/ 评论网址：https://news.ycombinator.com/item?id=48511393 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 18,
+            "topic": 20,
             "actionability": 10,
-            "heat": 5
+            "heat": 1
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "2026年中期继续学习。每个人都试图破解它的地图：记忆层、“梦想”代理和后变形金刚模型……",
           "platform": "Reddit",
           "aiScore": 81,
@@ -504,7 +528,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "早报｜SpaceX上市首日暴涨/苹果高管：Siri不想做用户的情感伴侣/华为余承东：要带盘古大模型从中国第一走向世界第一",
           "platform": "爱范儿",
           "aiScore": 78,
@@ -524,33 +548,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "问 HN：AI 代理的下一个大型内存管理系统是什么？",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-06-12T23:44:47+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=48510721",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "我们都见过 RAG 和图知识，但在你看来，或者如果你知道一些很酷的项目，下一个可以实现真正永久记忆和真正个性化的创新是什么……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "metrics": {
         "totalItems": 33,
-        "avgScore": 73.7,
+        "avgScore": 74.3,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -581,11 +583,11 @@
           },
           {
             "name": "模型进展",
-            "count": 9
+            "count": 10
           },
           {
             "name": "Agent",
-            "count": 9
+            "count": 10
           },
           {
             "name": "应用落地",
@@ -596,15 +598,15 @@
             "count": 3
           },
           {
-            "name": "开源生态",
-            "count": 3
-          },
-          {
             "name": "芯片算力",
             "count": 2
           },
           {
             "name": "自动化",
+            "count": 2
+          },
+          {
+            "name": "开源生态",
             "count": 2
           }
         ]
