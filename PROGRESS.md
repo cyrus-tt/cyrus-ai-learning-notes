@@ -1,7 +1,7 @@
 # cyrus-ai-learning-notes 项目进度
 
 > **用途**：跟踪功能开发 + 内容建设 + 基础设施
-> **最后更新**：2026-05-21
+> **最后更新**：2026-06-12
 
 ---
 
@@ -9,8 +9,9 @@
 
 | # | 任务 | 状态 | 下一步 |
 |---|---|---|---|
-| 1 | Mission Control 仪表盘 | 🟡 in-progress | D1 migration 005/006 未提交，mc-sync/mc-tasks API 未提交 |
-| 2 | 语义搜索 (Vectorize + Workers AI) | 🔵 planned | 用 Cloudflare Vectorize 做教程语义搜索 |
+| 1 | 合作页迭代（双入口已上线 v3） | 🟡 in-progress | 等用户反馈观感 + 核对对外口径（数字/「世界500强」表述/宇宙熊品牌） |
+| 2 | Mission Control 仪表盘 | 🟡 in-progress | migration 005/006 与 mc-* API 已在仓库，待端到端验证 |
+| 3 | 语义搜索 (Vectorize + Workers AI) | 🔵 planned | 用 Cloudflare Vectorize 做教程语义搜索 |
 
 ---
 
@@ -18,6 +19,9 @@
 
 | 任务 | 完成日 | Plan 文件 |
 |---|---|---|
+| 网站双入口改版：首页双入口 + 合作页 v1→v3（液态玻璃 + Agent 控制台 + 聚光/计数/marquee）| 06-12 | — |
+| 数据闭环修复：visits D1 多行 DDL bug + /api/utm 服务端上报 + migration_007 | 06-11 | — |
+| CCA-F 备考资料入库（claude-cert/，6 domain + 术语表）| 06-11 | — |
 | 新增 3 篇教程（OpenClaw / Obsidian / 知识收件箱）| 05-22 | 素材来源：小红书IP 内容库 |
 | 核心体验改造：首页重做 + Playground 修复 + 知识库 + 性能 | 05-21 | — |
 | XHS 推广准备：Analytics + UTM + Hero 中文化 + 首访引导 | 05-21 | `swirling-painting-adleman.md` |
