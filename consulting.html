@@ -270,26 +270,28 @@
       width: 140vw;
       height: 320px;
       transform: translate(-50%, -50%) rotate(-7deg);
-      background: var(--ribbon);
+      background: var(--ribbon); /* WebGL 不可用时的兜底 */
+      overflow: hidden;
     }
-    .stage-ribbon::before {
-      content: "";
+    /* Stripe 同款 WebGL 流动渐变（js/vendor/gradient.js），颜色经 CSS 变量注入 */
+    .stage-ribbon canvas {
       position: absolute;
       inset: 0;
-      background:
-        radial-gradient(ellipse 40% 90% at 22% 50%, rgba(255,255,255,.34), transparent 70%),
-        radial-gradient(ellipse 35% 80% at 78% 40%, rgba(255,80,200,.45), transparent 70%);
-      mix-blend-mode: screen;
+      width: 100%;
+      height: 100%;
+      --gradient-color-1: #635bff;
+      --gradient-color-2: #8b5cf6;
+      --gradient-color-3: #d946ef;
+      --gradient-color-4: #a5b4fc;
     }
     .stage-ribbon::after {
       content: "";
       position: absolute;
       left: -4%; right: -4%;
-      top: -54px;
+      top: 0;
       height: 56px;
-      transform: rotate(.8deg);
-      background: linear-gradient(100deg, #b39bff, #e08aff);
-      opacity: .55;
+      background: linear-gradient(180deg, rgba(255,255,255,.28), transparent);
+      pointer-events: none;
     }
     .stage-card {
       position: relative;
@@ -758,7 +760,7 @@
 
   <!-- 飘带 + 主视觉卡 -->
   <section class="stage rv" aria-label="生产环境中的 Agent 系统">
-    <div class="stage-clip" aria-hidden="true"><div class="stage-ribbon"></div></div>
+    <div class="stage-clip" aria-hidden="true"><div class="stage-ribbon"><canvas id="ribbon-gradient"></canvas></div></div>
     <div class="stage-card">
       <div class="stage-copy">
         <div class="lbl">Live · 生产环境实录</div>
@@ -1015,6 +1017,15 @@
     }, { threshold: 0.4 });
     document.querySelectorAll(".metric-num[data-cnt]").forEach(function (el) { io2.observe(el); });
   })();
+</script>
+<script type="module">
+  // Stripe 同款 WebGL 流动渐变（社区逆向版，credits: stripe.com / kevinhufnagl.com）
+  // 降级策略：reduced-motion 或 WebGL 失败时不初始化，CSS 渐变兜底
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    import("/js/vendor/gradient.js")
+      .then(function (m) { new m.Gradient().initGradient("#ribbon-gradient"); })
+      .catch(function () { /* 兜底：保留 CSS 渐变 */ });
+  }
 </script>
 <script defer src="/js/components/utm-tracker.js"></script>
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"PLACEHOLDER"}'></script>
