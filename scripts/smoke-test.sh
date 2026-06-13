@@ -2,14 +2,15 @@
 # Smoke test: verify core endpoints return 200 after deployment.
 # Usage: ./scripts/smoke-test.sh [base_url]
 
-BASE="${1:-https://cyrusai.me}"
+BASE="${1:-https://cyrustyj.xyz}"
 FAIL=0
 
 check() {
   local url="$1"
   local label="$2"
   local status
-  status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 \
+  # -L: Pages 开了 clean URL，*.html 会 308 跳转，必须跟随到最终页面
+  status=$(curl -sL -o /dev/null -w "%{http_code}" --max-time 15 \
     -H "User-Agent: CyrusSmokeTest/1.0" "$url")
   if [ "$status" = "200" ]; then
     echo "  ✓ $label ($status)"
