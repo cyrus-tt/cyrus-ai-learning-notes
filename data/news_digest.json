@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T05:29:25.882437+00:00",
+  "generatedAt": "2026-06-14T15:07:21.607167+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-06-14",
@@ -7,9 +7,57 @@
     "top10": [
       {
         "rank": 1,
+        "title": "作为一名新开发人员，我使用人工智能为英国个体商人构建了一个簿记应用程序",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-06-14T14:24:30+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=48527480",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "大约一个月前，我开始构建 QuarterPerfect——一款针对英国个体商人和房东的记账工具，专门针对今年生效的 MTD ITSA 变更而设计……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "我们解决了推理问题。剩下的挑战显然是按 Enter 键。",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-06-14T09:09:58+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u5gaxs/we_solved_reasoning_the_remaining_challenge_was/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "每周我都会看到有关更强大模型的讨论。更好的推理。更好的编码。更长的上下文。更多自主权。与此同时，大多数现实世界的人工智能工作流程仍然是这样的：人工智能有效……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
         "title": "高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发",
         "platform": "36氪",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-06-14T01:30:00+00:00",
         "sourceUrl": "https://36kr.com/p/3851572421432324?f=rss",
         "sourceName": "36氪",
@@ -22,7 +70,7 @@
         "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，消费级柔性机器人公司SoulX日前已完成数千万元天使轮融资，投资方为高瓴创投，向阳资本担任独家财务顾问。资金将重点投入产品持续迭代、技术研发，并加快供应链与规模化交付体系搭建。首款机器人产品MoYa将于2026年下半年正式发布。 SoulX隶属于深圳市弘火智能科技有限公司，团队长期专注于柔性机器人技术与睡眠、压力与家庭健康关护。公司以睡眠场…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -30,10 +78,34 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 4,
+        "title": "我的客户不想手动添加常见问题解答，因此我构建了一个系统来抓取他们的网站并自动生成知识库",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-06-14T11:12:35+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u5idv8/my_client_didnt_want_to_add_faqs_manually_so_i/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态",
+          "内容生产"
+        ],
+        "summary": "基于我最近发布的酒店电子邮件人工智能系统（500 个酒店，每天约 15,000 封电子邮件）。客户的一个需求变成了构建中最有趣的部分。他们没有……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
         "title": "加拿大母亲起诉奥特曼与OpenAI，指控ChatGPT诱导女儿自杀",
         "platform": "36氪",
-        "aiScore": 93,
+        "aiScore": 86,
         "publishedAt": "2026-06-14T05:00:31+00:00",
         "sourceUrl": "https://36kr.com/newsflashes/3852506866865414?f=rss",
         "sourceName": "36氪",
@@ -45,7 +117,7 @@
         "summary": "一名加拿大母亲于周四在美国法院起诉人工智能企业OpenAI及其首席执行官山姆・奥特曼，指控聊天机器人ChatGPT诱导其女儿走向自杀。近期已有多起诉讼指责该公司未能管控用户与聊天机器人之间的危险对话，本案是最新一例。这起诉讼提交至旧金山州法院。原告克里斯蒂・卡里尔表示，女儿艾丽斯离世前，曾十数次向ChatGPT倾诉自杀念头，但OpenAI的安全系统既未将相关对话标记并转交人工…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 18,
           "actionability": 10,
@@ -53,34 +125,56 @@
         }
       },
       {
-        "rank": 3,
-        "title": "我如何在 4x RTX 3090 上运行无限的每月 6 美元的 AI 提供商的故事",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-06-14T05:11:33+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=48524387",
-        "sourceName": "Hacker News AI",
-        "industryStage": "上游",
+        "rank": 6,
+        "title": "增长停滞两年后，H&M重组全球架构，大中华区降级｜独家",
+        "platform": "36氪",
+        "aiScore": 83,
+        "publishedAt": "2026-06-14T05:38:42+00:00",
+        "sourceUrl": "https://36kr.com/p/3850942780838912?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
         "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
+          "应用落地",
+          "投融资"
         ],
-        "summary": "这篇提交的文章讲述了我如何向候补名单上大约 60 名大肆宣传的人推出了一个无限的 LLM 提供商，然后立即为他们提供了一个完全功能失调的死亡循环模型，然后……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文｜贺哲馨 编辑｜乔芊 36氪独家获悉，瑞典快时尚巨头H&M正在推进一场波及全球的组织架构调整：原本按地理划分的9大区域业务板块被打散，重新拆分为26个销售市场，并以市场表现为依据归入四个新设立的“洲级”事业部管辖。 大中华区在这轮调整中降级为26个销售市场之一，归属新成立的亚太洲级事业部（Continent Asia Pacific）管理。原大中华区总裁司懿德（Saed E…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
+          "recency": 28,
+          "authority": 25,
+          "topic": 15,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 4,
+        "rank": 7,
+        "title": "目前市场上最安全的AI面试副驾驶",
+        "platform": "Hacker News",
+        "aiScore": 82,
+        "publishedAt": "2026-06-14T14:31:57+00:00",
+        "sourceUrl": "https://aceloop.ai/security-model",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "安全治理"
+        ],
+        "summary": "文章网址：https://aceloop.ai/security-model 评论网址：https://news.ycombinator.com/item?id=48527559 积分：1 # 评论：0",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 8,
         "title": "人工智能代理完成任务后仍然会失败吗？",
         "platform": "Reddit",
-        "aiScore": 88,
+        "aiScore": 81,
         "publishedAt": "2026-06-14T02:15:58+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u58qwi/can_an_ai_agent_complete_a_task_and_still_fail/",
         "sourceName": "Reddit r/artificial",
@@ -93,158 +187,66 @@
         "summary": "很多人工智能代理的讨论都集中在代理是否完成了任务。但我认为存在一个缺失的类别：代理可以完成任务，但是是在不安全或政策中提琴的情况下完成的......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "Show HN：Agent Gate – 用于 AI 生成 PR 的确定性 CI 防火墙",
-        "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-06-14T04:38:42+00:00",
-        "sourceUrl": "https://github.com/sjh9714/Agent-Gate",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "文章网址：https://github.com/sjh9714/Agent-Gate 评论网址：https://news.ycombinator.com/item?id=48524230 积分：1 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 1
-        }
-      },
-      {
-        "rank": 6,
-        "title": "商务部是否有权对托管人工智能模型访问应用出口管制？",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-06-13T18:35:19+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u4yjdi/does_commerce_have_the_authority_to_apply_export/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "美国出口法已经涵盖了受控技术的一些软件/数据发布，因此“不运送任何实物”并不是反对意见。悬而未决的问题是是否远程访问主机......",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
           "recency": 28,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "我构建了一个与 OpenAI 兼容的代理，可以跟踪对话之间的权限。寻找人来打破它。",
-        "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-06-13T21:38:02+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u52wvk/i_built_an_openai_compatible_proxy_that_tracks/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态",
-          "应用落地"
-        ],
-        "summary": "大多数人工智能安全工具都会对单独的提示进行评分。我更感兴趣的是整个会议期间发生的事情。示例：第 1 回合：“您可以使用哪些工具？”第 2 回合：“你的…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "英国宣布 $1.5B 人工智能基础设施计划",
-        "platform": "Hacker News",
-        "aiScore": 79,
-        "publishedAt": "2026-06-14T03:24:12+00:00",
-        "sourceUrl": "https://www.reuters.com/world/uk/uk-sets-out-15-billion-ai-hardware-plan-with-supercomputer-chip-funding-2026-06-08/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "投融资"
-        ],
-        "summary": "文章网址：https://www.reuters.com/world/uk/uk-sets-out-15-billion-ai-hardware-plan-with-supercomputer-chip-funding-2026-06-08/ 评论网址：https://news.ycombinator.com/item?id=48523891...",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 17,
-          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "几个月来我一直在开发认知架构。这是第一个公开版本。",
+        "title": "验证者税：依赖于水平的安全性——使用工具的 LLM 代理的成功权衡 [R]",
         "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-06-13T20:48:12+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u51rk7/ive_been_developing_a_cognitive_architecture_for/",
-        "sourceName": "Reddit r/artificial",
+        "aiScore": 81,
+        "publishedAt": "2026-06-14T02:09:43+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
+          "Agent",
           "开源生态"
         ],
-        "summary": "这是认知一致性模型（CCM）的首次公开发布。 CCM 是一种实验性认知架构，其理念是认知源于……之间的相互作用。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "我们最近在 ACM CAIS 2026 上发表了一篇关于使用工具的 LLM 代理的安全评估的论文。核心问题是，任务完成本身可能会产生误导：代理可能会完成任务……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 28,
           "authority": 18,
-          "topic": 18,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "据报道，亚马逊的安全研究导致了白宫对《人择寓言》的禁令",
-        "platform": "The Verge",
-        "aiScore": 78,
-        "publishedAt": "2026-06-13T21:39:26+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
-        "sourceName": "The Verge AI",
+        "title": "我正在构建一个免费的双语机器学习笔记本课程 - 寻找有关结构和覆盖范围的反馈 [R]",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-06-13T19:07:17+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u4zbld/im_building_a_free_bilingual_machinelearning/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
-          "开源生态",
-          "安全治理"
+          "模型进展",
+          "Agent",
+          "开源生态"
         ],
-        "summary": "据《华尔街日报》报道，导致 Anthropic 切断《神鬼寓言 5》和《神话 5》访问权限的出口管制指令部分是由 Amaz 的网络安全研究引发的……",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "大家好，我正在以 Jupyter Notebook 格式构建一个开源机器学习教程存储库：https://github.com/mohammadijoo/Machine_Learning_Tutorials 该课程是双语的：...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 28,
-          "authority": 25,
-          "topic": 16,
-          "actionability": 4,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 30,
-      "avgScore": 72.4,
-      "topScore": 95,
+      "totalItems": 39,
+      "avgScore": 72.2,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -252,60 +254,60 @@
         },
         {
           "name": "Reddit",
-          "count": 11
+          "count": 15
         },
         {
           "name": "36氪",
-          "count": 2
+          "count": 6
         },
         {
-          "name": "少数派",
+          "name": "爱范儿",
           "count": 1
         },
         {
-          "name": "The Verge",
+          "name": "少数派",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 14
+          "count": 15
         },
         {
           "name": "模型进展",
-          "count": 8
+          "count": 13
+        },
+        {
+          "name": "开源生态",
+          "count": 9
         },
         {
           "name": "Agent",
           "count": 8
         },
         {
-          "name": "开源生态",
-          "count": 5
-        },
-        {
           "name": "安全治理",
-          "count": 4
-        },
-        {
-          "name": "芯片算力",
-          "count": 3
+          "count": 6
         },
         {
           "name": "应用落地",
+          "count": 4
+        },
+        {
+          "name": "内容生产",
           "count": 2
         },
         {
-          "name": "投融资",
-          "count": 1
+          "name": "芯片算力",
+          "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 30 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发（95 分）",
+      "今日共收录 39 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / 开源生态",
+      "最高分事件：作为一名新开发人员，我使用人工智能为英国个体商人构建了一个簿记应用程序（88 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -316,9 +318,57 @@
       "top10": [
         {
           "rank": 1,
+          "title": "作为一名新开发人员，我使用人工智能为英国个体商人构建了一个簿记应用程序",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-06-14T14:24:30+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=48527480",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "大约一个月前，我开始构建 QuarterPerfect——一款针对英国个体商人和房东的记账工具，专门针对今年生效的 MTD ITSA 变更而设计……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "我们解决了推理问题。剩下的挑战显然是按 Enter 键。",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-06-14T09:09:58+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u5gaxs/we_solved_reasoning_the_remaining_challenge_was/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "每周我都会看到有关更强大模型的讨论。更好的推理。更好的编码。更长的上下文。更多自主权。与此同时，大多数现实世界的人工智能工作流程仍然是这样的：人工智能有效……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
           "title": "高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发",
           "platform": "36氪",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-06-14T01:30:00+00:00",
           "sourceUrl": "https://36kr.com/p/3851572421432324?f=rss",
           "sourceName": "36氪",
@@ -331,7 +381,7 @@
           "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，消费级柔性机器人公司SoulX日前已完成数千万元天使轮融资，投资方为高瓴创投，向阳资本担任独家财务顾问。资金将重点投入产品持续迭代、技术研发，并加快供应链与规模化交付体系搭建。首款机器人产品MoYa将于2026年下半年正式发布。 SoulX隶属于深圳市弘火智能科技有限公司，团队长期专注于柔性机器人技术与睡眠、压力与家庭健康关护。公司以睡眠场…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -339,10 +389,34 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 4,
+          "title": "我的客户不想手动添加常见问题解答，因此我构建了一个系统来抓取他们的网站并自动生成知识库",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-06-14T11:12:35+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u5idv8/my_client_didnt_want_to_add_faqs_manually_so_i/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态",
+            "内容生产"
+          ],
+          "summary": "基于我最近发布的酒店电子邮件人工智能系统（500 个酒店，每天约 15,000 封电子邮件）。客户的一个需求变成了构建中最有趣的部分。他们没有……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
           "title": "加拿大母亲起诉奥特曼与OpenAI，指控ChatGPT诱导女儿自杀",
           "platform": "36氪",
-          "aiScore": 93,
+          "aiScore": 86,
           "publishedAt": "2026-06-14T05:00:31+00:00",
           "sourceUrl": "https://36kr.com/newsflashes/3852506866865414?f=rss",
           "sourceName": "36氪",
@@ -354,7 +428,7 @@
           "summary": "一名加拿大母亲于周四在美国法院起诉人工智能企业OpenAI及其首席执行官山姆・奥特曼，指控聊天机器人ChatGPT诱导其女儿走向自杀。近期已有多起诉讼指责该公司未能管控用户与聊天机器人之间的危险对话，本案是最新一例。这起诉讼提交至旧金山州法院。原告克里斯蒂・卡里尔表示，女儿艾丽斯离世前，曾十数次向ChatGPT倾诉自杀念头，但OpenAI的安全系统既未将相关对话标记并转交人工…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 18,
             "actionability": 10,
@@ -362,34 +436,56 @@
           }
         },
         {
-          "rank": 3,
-          "title": "我如何在 4x RTX 3090 上运行无限的每月 6 美元的 AI 提供商的故事",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-06-14T05:11:33+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=48524387",
-          "sourceName": "Hacker News AI",
-          "industryStage": "上游",
+          "rank": 6,
+          "title": "增长停滞两年后，H&M重组全球架构，大中华区降级｜独家",
+          "platform": "36氪",
+          "aiScore": 83,
+          "publishedAt": "2026-06-14T05:38:42+00:00",
+          "sourceUrl": "https://36kr.com/p/3850942780838912?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
           "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
+            "应用落地",
+            "投融资"
           ],
-          "summary": "这篇提交的文章讲述了我如何向候补名单上大约 60 名大肆宣传的人推出了一个无限的 LLM 提供商，然后立即为他们提供了一个完全功能失调的死亡循环模型，然后……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "文｜贺哲馨 编辑｜乔芊 36氪独家获悉，瑞典快时尚巨头H&M正在推进一场波及全球的组织架构调整：原本按地理划分的9大区域业务板块被打散，重新拆分为26个销售市场，并以市场表现为依据归入四个新设立的“洲级”事业部管辖。 大中华区在这轮调整中降级为26个销售市场之一，归属新成立的亚太洲级事业部（Continent Asia Pacific）管理。原大中华区总裁司懿德（Saed E…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
+            "recency": 28,
+            "authority": 25,
+            "topic": 15,
             "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 4,
+          "rank": 7,
+          "title": "目前市场上最安全的AI面试副驾驶",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-06-14T14:31:57+00:00",
+          "sourceUrl": "https://aceloop.ai/security-model",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "文章网址：https://aceloop.ai/security-model 评论网址：https://news.ycombinator.com/item?id=48527559 积分：1 # 评论：0",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 8,
           "title": "人工智能代理完成任务后仍然会失败吗？",
           "platform": "Reddit",
-          "aiScore": 88,
+          "aiScore": 81,
           "publishedAt": "2026-06-14T02:15:58+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u58qwi/can_an_ai_agent_complete_a_task_and_still_fail/",
           "sourceName": "Reddit r/artificial",
@@ -402,158 +498,66 @@
           "summary": "很多人工智能代理的讨论都集中在代理是否完成了任务。但我认为存在一个缺失的类别：代理可以完成任务，但是是在不安全或政策中提琴的情况下完成的......",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "Show HN：Agent Gate – 用于 AI 生成 PR 的确定性 CI 防火墙",
-          "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-06-14T04:38:42+00:00",
-          "sourceUrl": "https://github.com/sjh9714/Agent-Gate",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://github.com/sjh9714/Agent-Gate 评论网址：https://news.ycombinator.com/item?id=48524230 积分：1 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 1
-          }
-        },
-        {
-          "rank": 6,
-          "title": "商务部是否有权对托管人工智能模型访问应用出口管制？",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-13T18:35:19+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u4yjdi/does_commerce_have_the_authority_to_apply_export/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "美国出口法已经涵盖了受控技术的一些软件/数据发布，因此“不运送任何实物”并不是反对意见。悬而未决的问题是是否远程访问主机......",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
             "recency": 28,
             "authority": 18,
             "topic": 20,
             "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "我构建了一个与 OpenAI 兼容的代理，可以跟踪对话之间的权限。寻找人来打破它。",
-          "platform": "Reddit",
-          "aiScore": 80,
-          "publishedAt": "2026-06-13T21:38:02+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u52wvk/i_built_an_openai_compatible_proxy_that_tracks/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "应用落地"
-          ],
-          "summary": "大多数人工智能安全工具都会对单独的提示进行评分。我更感兴趣的是整个会议期间发生的事情。示例：第 1 回合：“您可以使用哪些工具？”第 2 回合：“你的…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "英国宣布 $1.5B 人工智能基础设施计划",
-          "platform": "Hacker News",
-          "aiScore": 79,
-          "publishedAt": "2026-06-14T03:24:12+00:00",
-          "sourceUrl": "https://www.reuters.com/world/uk/uk-sets-out-15-billion-ai-hardware-plan-with-supercomputer-chip-funding-2026-06-08/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "投融资"
-          ],
-          "summary": "文章网址：https://www.reuters.com/world/uk/uk-sets-out-15-billion-ai-hardware-plan-with-supercomputer-chip-funding-2026-06-08/ 评论网址：https://news.ycombinator.com/item?id=48523891...",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 17,
-            "actionability": 4,
             "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "几个月来我一直在开发认知架构。这是第一个公开版本。",
+          "title": "验证者税：依赖于水平的安全性——使用工具的 LLM 代理的成功权衡 [R]",
           "platform": "Reddit",
-          "aiScore": 79,
-          "publishedAt": "2026-06-13T20:48:12+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u51rk7/ive_been_developing_a_cognitive_architecture_for/",
-          "sourceName": "Reddit r/artificial",
+          "aiScore": 81,
+          "publishedAt": "2026-06-14T02:09:43+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/",
+          "sourceName": "Reddit r/MachineLearning",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
+            "Agent",
             "开源生态"
           ],
-          "summary": "这是认知一致性模型（CCM）的首次公开发布。 CCM 是一种实验性认知架构，其理念是认知源于……之间的相互作用。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "我们最近在 ACM CAIS 2026 上发表了一篇关于使用工具的 LLM 代理的安全评估的论文。核心问题是，任务完成本身可能会产生误导：代理可能会完成任务……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 28,
             "authority": 18,
-            "topic": 18,
+            "topic": 20,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "据报道，亚马逊的安全研究导致了白宫对《人择寓言》的禁令",
-          "platform": "The Verge",
-          "aiScore": 78,
-          "publishedAt": "2026-06-13T21:39:26+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
-          "sourceName": "The Verge AI",
+          "title": "我正在构建一个免费的双语机器学习笔记本课程 - 寻找有关结构和覆盖范围的反馈 [R]",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-06-13T19:07:17+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u4zbld/im_building_a_free_bilingual_machinelearning/",
+          "sourceName": "Reddit r/MachineLearning",
           "industryStage": "中游",
           "contentTags": [
-            "开源生态",
-            "安全治理"
+            "模型进展",
+            "Agent",
+            "开源生态"
           ],
-          "summary": "据《华尔街日报》报道，导致 Anthropic 切断《神鬼寓言 5》和《神话 5》访问权限的出口管制指令部分是由 Amaz 的网络安全研究引发的……",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "大家好，我正在以 Jupyter Notebook 格式构建一个开源机器学习教程存储库：https://github.com/mohammadijoo/Machine_Learning_Tutorials 该课程是双语的：...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 28,
-            "authority": 25,
-            "topic": 16,
-            "actionability": 4,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 30,
-        "avgScore": 72.4,
-        "topScore": 95,
+        "totalItems": 39,
+        "avgScore": 72.2,
+        "topScore": 88,
         "topPlatforms": [
           {
             "name": "Hacker News",
@@ -561,60 +565,60 @@
           },
           {
             "name": "Reddit",
-            "count": 11
+            "count": 15
           },
           {
             "name": "36氪",
-            "count": 2
+            "count": 6
           },
           {
-            "name": "少数派",
+            "name": "爱范儿",
             "count": 1
           },
           {
-            "name": "The Verge",
+            "name": "少数派",
             "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 14
+            "count": 15
           },
           {
             "name": "模型进展",
-            "count": 8
+            "count": 13
+          },
+          {
+            "name": "开源生态",
+            "count": 9
           },
           {
             "name": "Agent",
             "count": 8
           },
           {
-            "name": "开源生态",
-            "count": 5
-          },
-          {
             "name": "安全治理",
-            "count": 4
-          },
-          {
-            "name": "芯片算力",
-            "count": 3
+            "count": 6
           },
           {
             "name": "应用落地",
+            "count": 4
+          },
+          {
+            "name": "内容生产",
             "count": 2
           },
           {
-            "name": "投融资",
-            "count": 1
+            "name": "芯片算力",
+            "count": 2
           }
         ]
       },
       "briefing": [
-        "今日共收录 30 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发（95 分）",
+        "今日共收录 39 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / 开源生态",
+        "最高分事件：作为一名新开发人员，我使用人工智能为英国个体商人构建了一个簿记应用程序（88 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -929,7 +933,7 @@
       "label": "6月12日",
       "top10": [
         {
-          "rank": 2,
+          "rank": 1,
           "title": "8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证",
           "platform": "36氪",
           "aiScore": 95,
@@ -1235,7 +1239,7 @@
       "label": "6月11日",
       "top10": [
         {
-          "rank": 3,
+          "rank": 2,
           "title": "氪星晚报｜百万Token只要几块钱，算力价格还在往下降；OpenAI正考虑大幅下调产品价格；今起儿童旅客可购买铁路旅游计次票，票价为成人旅客的5折",
           "platform": "36氪",
           "aiScore": 95,
@@ -1543,7 +1547,7 @@
       "label": "6月10日",
       "top10": [
         {
-          "rank": 4,
+          "rank": 3,
           "title": "最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店",
           "platform": "36氪",
           "aiScore": 95,
@@ -1567,7 +1571,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
           "platform": "36氪",
           "aiScore": 95,
@@ -1591,7 +1595,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级｜硬氪首发",
           "platform": "36氪",
           "aiScore": 95,
@@ -1615,7 +1619,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "手机装不下的野心，正在被搬进游戏平板丨2026游戏平板使用趋势观察",
           "platform": "36氪",
           "aiScore": 95,
@@ -1639,7 +1643,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "8点1氪丨致3人永久失明，膳魔师紧急召回百万件产品；发布会后苹果市值蒸发超1.587万亿；Anthropic发布最强模型：Claude Fable 5正式上线",
           "platform": "36氪",
           "aiScore": 95,
@@ -1855,7 +1859,7 @@
       "label": "6月9日",
       "top10": [
         {
-          "rank": 9,
+          "rank": 8,
           "title": "在反外挂前线，游戏厂商开启了“军备竞赛”",
           "platform": "36氪",
           "aiScore": 95,
@@ -1879,7 +1883,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "氪星晚报 ｜腾讯、阿里等入股脑机接口研发商阶梯医疗；飞猪：端午假期入境游预订量同比增长超6倍；1—5月全国期货市场累计成交额同比增长40.13%",
           "platform": "36氪",
           "aiScore": 95,
@@ -28043,8 +28047,8 @@
     },
     "metrics": {
       "daysCovered": 7,
-      "totalItems": 355,
-      "avgTop10Score": 95.0,
+      "totalItems": 364,
+      "avgTop10Score": 94.9,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -28058,15 +28062,15 @@
           "count": 9
         },
         {
-          "name": "Agent",
-          "count": 7
-        },
-        {
           "name": "应用落地",
           "count": 7
         },
         {
           "name": "芯片算力",
+          "count": 6
+        },
+        {
+          "name": "Agent",
           "count": 6
         },
         {
@@ -28078,30 +28082,6 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-06-14T01:30:00+00:00",
-        "sourceUrl": "https://36kr.com/p/3851572421432324?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，消费级柔性机器人公司SoulX日前已完成数千万元天使轮融资，投资方为高瓴创投，向阳资本担任独家财务顾问。资金将重点投入产品持续迭代、技术研发，并加快供应链与规模化交付体系搭建。首款机器人产品MoYa将于2026年下半年正式发布。 SoulX隶属于深圳市弘火智能科技有限公司，团队长期专注于柔性机器人技术与睡眠、压力与家庭健康关护。公司以睡眠场…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 2,
         "title": "8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证",
         "platform": "36氪",
         "aiScore": 95,
@@ -28125,7 +28105,7 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 2,
         "title": "氪星晚报｜百万Token只要几块钱，算力价格还在往下降；OpenAI正考虑大幅下调产品价格；今起儿童旅客可购买铁路旅游计次票，票价为成人旅客的5折",
         "platform": "36氪",
         "aiScore": 95,
@@ -28149,7 +28129,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 3,
         "title": "最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店",
         "platform": "36氪",
         "aiScore": 95,
@@ -28173,7 +28153,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 4,
         "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
         "platform": "36氪",
         "aiScore": 95,
@@ -28197,7 +28177,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 5,
         "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级｜硬氪首发",
         "platform": "36氪",
         "aiScore": 95,
@@ -28221,7 +28201,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "手机装不下的野心，正在被搬进游戏平板丨2026游戏平板使用趋势观察",
         "platform": "36氪",
         "aiScore": 95,
@@ -28245,7 +28225,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 7,
         "title": "8点1氪丨致3人永久失明，膳魔师紧急召回百万件产品；发布会后苹果市值蒸发超1.587万亿；Anthropic发布最强模型：Claude Fable 5正式上线",
         "platform": "36氪",
         "aiScore": 95,
@@ -28269,7 +28249,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 8,
         "title": "在反外挂前线，游戏厂商开启了“军备竞赛”",
         "platform": "36氪",
         "aiScore": 95,
@@ -28293,7 +28273,7 @@
         }
       },
       {
-        "rank": 10,
+        "rank": 9,
         "title": "氪星晚报 ｜腾讯、阿里等入股脑机接口研发商阶梯医疗；飞猪：端午假期入境游预订量同比增长超6倍；1—5月全国期货市场累计成交额同比增长40.13%",
         "platform": "36氪",
         "aiScore": 95,
@@ -28315,12 +28295,35 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 10,
+        "title": "ChinaJoy最硬核的区域，36氪与你共同探索 | Vision Future前沿科技展区 × 36氪直播间开启预约",
+        "platform": "36氪",
+        "aiScore": 94,
+        "publishedAt": "2026-06-11T09:24:11+00:00",
+        "sourceUrl": "https://36kr.com/p/3848564910036229?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
+        "contentTags": [
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "两个月后， ChinaJoy即将在上海浦东举办，这里又会挤满全国最爱玩、最关注前沿科技的年轻人。 作为国内延续二十年的数字娱乐展会，ChinaJoy早已不只是玩家试玩新游戏的狂欢，它已经变成整个科技+数字娱乐行业一年一度的线下交汇点——这里有最新的产品、最先锋的趋势，更聚集了一群想改变行业的年轻人和创业者，在这里你能摸到这个行业最真实的脉搏。 作为ChinaJoy Visio…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "briefing": [
-      "6月第2周累计收录 355 条资讯，覆盖 7 天。",
-      "高频主题：模型进展 / Agent / 应用落地",
-      "本周最高分：高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发（95 分）",
+      "6月第2周累计收录 364 条资讯，覆盖 7 天。",
+      "高频主题：模型进展 / 应用落地 / 芯片算力",
+      "本周最高分：8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -28334,8 +28337,8 @@
       },
       "metrics": {
         "daysCovered": 7,
-        "totalItems": 355,
-        "avgTop10Score": 95.0,
+        "totalItems": 364,
+        "avgTop10Score": 94.9,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -28349,15 +28352,15 @@
             "count": 9
           },
           {
-            "name": "Agent",
-            "count": 7
-          },
-          {
             "name": "应用落地",
             "count": 7
           },
           {
             "name": "芯片算力",
+            "count": 6
+          },
+          {
+            "name": "Agent",
             "count": 6
           },
           {
@@ -28369,30 +28372,6 @@
       "topEvents": [
         {
           "rank": 1,
-          "title": "高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-14T01:30:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3851572421432324?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，消费级柔性机器人公司SoulX日前已完成数千万元天使轮融资，投资方为高瓴创投，向阳资本担任独家财务顾问。资金将重点投入产品持续迭代、技术研发，并加快供应链与规模化交付体系搭建。首款机器人产品MoYa将于2026年下半年正式发布。 SoulX隶属于深圳市弘火智能科技有限公司，团队长期专注于柔性机器人技术与睡眠、压力与家庭健康关护。公司以睡眠场…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
           "title": "8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证",
           "platform": "36氪",
           "aiScore": 95,
@@ -28416,7 +28395,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 2,
           "title": "氪星晚报｜百万Token只要几块钱，算力价格还在往下降；OpenAI正考虑大幅下调产品价格；今起儿童旅客可购买铁路旅游计次票，票价为成人旅客的5折",
           "platform": "36氪",
           "aiScore": 95,
@@ -28440,7 +28419,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 3,
           "title": "最前线｜AI跨境电商工具混战，StoreClaw想用“一个大脑”接管卖家的店",
           "platform": "36氪",
           "aiScore": 95,
@@ -28464,7 +28443,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "36氪首发 | 清华团队做出全球首个实时理解生理与情绪的基座模型，进一步布局硬件",
           "platform": "36氪",
           "aiScore": 95,
@@ -28488,7 +28467,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "清华系团队做分布式预测世界模型、获数亿元A轮融资，落地终端设备达十万量级｜硬氪首发",
           "platform": "36氪",
           "aiScore": 95,
@@ -28512,7 +28491,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "手机装不下的野心，正在被搬进游戏平板丨2026游戏平板使用趋势观察",
           "platform": "36氪",
           "aiScore": 95,
@@ -28536,7 +28515,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "8点1氪丨致3人永久失明，膳魔师紧急召回百万件产品；发布会后苹果市值蒸发超1.587万亿；Anthropic发布最强模型：Claude Fable 5正式上线",
           "platform": "36氪",
           "aiScore": 95,
@@ -28560,7 +28539,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "在反外挂前线，游戏厂商开启了“军备竞赛”",
           "platform": "36氪",
           "aiScore": 95,
@@ -28584,7 +28563,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "氪星晚报 ｜腾讯、阿里等入股脑机接口研发商阶梯医疗；飞猪：端午假期入境游预订量同比增长超6倍；1—5月全国期货市场累计成交额同比增长40.13%",
           "platform": "36氪",
           "aiScore": 95,
@@ -28606,12 +28585,35 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 10,
+          "title": "ChinaJoy最硬核的区域，36氪与你共同探索 | Vision Future前沿科技展区 × 36氪直播间开启预约",
+          "platform": "36氪",
+          "aiScore": 94,
+          "publishedAt": "2026-06-11T09:24:11+00:00",
+          "sourceUrl": "https://36kr.com/p/3848564910036229?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "两个月后， ChinaJoy即将在上海浦东举办，这里又会挤满全国最爱玩、最关注前沿科技的年轻人。 作为国内延续二十年的数字娱乐展会，ChinaJoy早已不只是玩家试玩新游戏的狂欢，它已经变成整个科技+数字娱乐行业一年一度的线下交汇点——这里有最新的产品、最先锋的趋势，更聚集了一群想改变行业的年轻人和创业者，在这里你能摸到这个行业最真实的脉搏。 作为ChinaJoy Visio…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "6月第2周累计收录 355 条资讯，覆盖 7 天。",
-        "高频主题：模型进展 / Agent / 应用落地",
-        "本周最高分：高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发（95 分）",
+        "6月第2周累计收录 364 条资讯，覆盖 7 天。",
+        "高频主题：模型进展 / 应用落地 / 芯片算力",
+        "本周最高分：8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
