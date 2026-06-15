@@ -52,7 +52,7 @@
 **背景**：项目审计发现安全漏洞（CORS 全开、auth fail-open、无速率限制）、性能问题（script 同步加载）、CSS 遗留变量。本次修复 33 个文件。
 
 ### 安全
-- [ ] 打开 https://cyrusai.me → DevTools Console → 无 CORS 报错（正常浏览不受影响）
+- [ ] 打开 https://cyrustyj.xyz → DevTools Console → 无 CORS 报错（正常浏览不受影响）
 - [ ] 打开 AI 聊天 → 连续快速发 12 条消息 → 第 11 条应返回"Rate limit exceeded"提示
 - [ ] 打开 AI 聊天 → 正常对话 → 回复正常（速率限制不影响正常使用）
 
