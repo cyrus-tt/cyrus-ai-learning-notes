@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="view-transition" content="same-origin" />
+  <title>我的 AI 工具栈 | Cyrus的AI学习笔记</title>
+  <meta name="description" content="Cyrus 日常使用的 AI 工具栈 — Claude Code、Claude、Codex、Obsidian、AutoCLI、Hermes，每个工具怎么用、解决什么问题。" />
+  <meta name="keywords" content="AI工具栈,Claude Code,Obsidian,AI工作流,Cyrus" />
+  <meta name="theme-color" content="#f2f4f7" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://cyrustyj.xyz/tools.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="Cyrus的AI学习笔记" />
+  <meta property="og:title" content="我的 AI 工具栈 | Cyrus的AI学习笔记" />
+  <meta property="og:description" content="Cyrus 日常使用的 AI 工具栈 — 每个工具怎么用、解决什么问题。" />
+  <meta property="og:url" content="https://cyrustyj.xyz/tools.html" />
+  <meta property="og:image" content="https://cyrustyj.xyz/og-cover.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="我的 AI 工具栈 | Cyrus的AI学习笔记" />
+  <meta name="twitter:description" content="Cyrus 日常使用的 AI 工具栈 — 每个工具怎么用、解决什么问题。" />
+  <meta name="twitter:image" content="https://cyrustyj.xyz/og-cover.png" />
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="./styles.css" />
+
+  <script>
+    (function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);else if(matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.setAttribute('data-theme','dark');})();
+  </script>
+
+  <style>
+    .tools-hero {
+      text-align: center;
+      padding: 72px 24px 48px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 48px;
+    }
+
+    .tools-hero-title {
+      font-family: var(--font-sans);
+      font-size: clamp(36px, 8vw, 64px);
+      font-weight: 800;
+      line-height: .95;
+      letter-spacing: -.04em;
+      margin: 0;
+    }
+
+    .tools-hero-title em {
+      font-style: normal;
+      background: linear-gradient(135deg, var(--accent), #ff8a5c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .tools-hero-sub {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 18px 0 0;
+    }
+
+    .tools-hero-desc {
+      font-size: 16px;
+      color: var(--muted);
+      margin: 14px auto 0;
+      max-width: 42ch;
+      line-height: 1.7;
+    }
+
+    .tool-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      max-width: var(--max-w-wide, 1100px);
+      margin: 0 auto;
+      padding: 0 24px 56px;
+    }
+
+    .tool-card {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      background: var(--bg-elevated);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-xs);
+      transition: transform var(--duration-normal) var(--ease-out),
+                  box-shadow var(--duration-normal) var(--ease-out),
+                  border-color var(--duration-normal) var(--ease-out);
+    }
+
+    .tool-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+      border-color: color-mix(in srgb, var(--accent) 30%, var(--line));
+    }
+
+    .tool-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .tool-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+      background: var(--accent-soft, color-mix(in srgb, var(--accent) 8%, transparent));
+    }
+
+    .tool-name {
+      font-family: var(--font-sans);
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: -.02em;
+    }
+
+    .tool-desc {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.75;
+      margin: 0;
+    }
+
+    .tool-tag {
+      display: inline-block;
+      align-self: flex-start;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft, color-mix(in srgb, var(--accent) 8%, transparent));
+      padding: 3px 10px;
+      border-radius: 999px;
+      margin-top: auto;
+    }
+
+    @media (max-width: 640px) {
+      .tool-grid {
+        grid-template-columns: 1fr;
+        padding: 0 16px 40px;
+      }
+      .tools-hero {
+        padding: 56px 16px 36px;
+        margin-bottom: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav" data-pagefind-ignore>
+    <a href="/" class="site-nav-brand">Cyrus</a>
+    <div class="site-nav-links">
+      <a href="/">首页</a>
+      <a href="/about.html">关于</a>
+      <a href="/field-notes/">实验室</a>
+      <a href="/playground.html">Playground</a>
+      <a href="/news.html">资讯</a>
+      <a href="/consulting.html">合作</a>
+      <a href="/tools.html" class="on">工具栈</a>
+      <button id="themeToggle" class="theme-toggle" aria-label="切换主题"></button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="tools-hero">
+      <h1 class="tools-hero-title">我的 AI <em>工具栈</em></h1>
+      <p class="tools-hero-sub">daily driver stack</p>
+      <p class="tools-hero-desc">不追新、不囤工具。这 6 个是真正每天在用的，每一个都解决一个具体问题。</p>
+    </section>
+
+    <section class="tool-grid">
+
+      <div class="tool-card">
+        <div class="tool-header">
+          <span class="tool-icon">⚡</span>
+          <h3 class="tool-name">Claude Code</h3>
+        </div>
+        <p class="tool-desc">主力编程搭档。写功能、改 bug、重构、部署 — 这个网站就是用它从零搭的。终端里跑，不用切 IDE。</p>
+        <span class="tool-tag">编程</span>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-header">
+          <span class="tool-icon">🧠</span>
+          <h3 class="tool-name">Claude</h3>
+        </div>
+        <p class="tool-desc">思考伙伴。梳理产品逻辑、写方案、做决策分析。不是搜索引擎，是能跟你辩论的同事。</p>
+        <span class="tool-tag">思考</span>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-header">
+          <span class="tool-icon">🔍</span>
+          <h3 class="tool-name">Codex</h3>
+        </div>
+        <p class="tool-desc">Review 帮手。代码写完丢给它做独立审查，能抓到自己看不到的盲点。异步跑，不占主线程。</p>
+        <span class="tool-tag">审查</span>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-header">
+          <span class="tool-icon">📚</span>
+          <h3 class="tool-name">Obsidian</h3>
+        </div>
+        <p class="tool-desc">本地知识库。读书笔记、项目复盘、灵感碎片全在这。配合 Claude Code 变成可编程的第二大脑。</p>
+        <span class="tool-tag">知识管理</span>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-header">
+          <span class="tool-icon">⚙️</span>
+          <h3 class="tool-name">AutoCLI</h3>
+        </div>
+        <p class="tool-desc">自动化中枢。把重复的终端操作编排成工作流 — 部署、数据同步、定时任务，一条命令搞定。</p>
+        <span class="tool-tag">自动化</span>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-header">
+          <span class="tool-icon">🤖</span>
+          <h3 class="tool-name">Hermes</h3>
+        </div>
+        <p class="tool-desc">个人 AI 分身。学了我的风格和知识体系，能代替我回答常见问题、处理日常沟通。7×24 在线。</p>
+        <span class="tool-tag">分身</span>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 Cyrus</span>
+    <span>
+      <a href="/about.html">关于</a> &middot;
+      <a href="/til/">TIL</a> &middot;
+      <a href="/weekly/">周报</a> &middot;
+      <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub</a> &middot;
+      <a href="https://xhslink.com/m/AQ5LCxoWJeF" target="_blank" rel="noopener">小红书</a>
+    </span>
+  </footer>
+
+  <script defer src="./ui.js"></script>
+  <script defer src="./visit-stats.js"></script>
+  <script defer src="/js/components/cmd-k.js"></script>
+  <script defer src="/js/components/explain-this.js"></script>
+  <script defer src="/js/components/chat-widget.js"></script>
+  <script defer src="/js/components/utm-tracker.js"></script>
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"PLACEHOLDER"}'></script>
+</body>
+</html>
