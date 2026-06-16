@@ -9,7 +9,7 @@
 
 | # | 任务 | 状态 | 下一步 |
 |---|---|---|---|
-| 1 | 合作页迭代（v4 Stripe 浅色风已上线） | 🟡 in-progress | v3 深色风被否→v4 参照 Stripe Sessions 重做已验收上线；剩余：核对对外口径（数字/「世界500强」表述/宇宙熊品牌） |
+| 1 | 合作页迭代（v4 Stripe 浅色风已上线） | ✅ done | v4 已上线；对外口径已脱敏（2026-06-16）：宇宙熊→初创、世界500强/运动集团/商品管理/年流水4亿→大型电商集团等模糊表述，commit 3cfd3e3 |
 | 2 | Mission Control 仪表盘 | 🟡 in-progress | migration 005/006 与 mc-* API 已在仓库，待端到端验证 |
 | 3 | 语义搜索 (Vectorize + Workers AI) | 🔵 planned | 用 Cloudflare Vectorize 做教程语义搜索 |
 
