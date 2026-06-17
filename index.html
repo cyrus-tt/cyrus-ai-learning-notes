@@ -42,11 +42,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/home.css" />
     <link rel="prefetch" href="/field-notes/" />
     <link rel="prefetch" href="/playground.html" />
 
@@ -69,7 +71,7 @@
       }
     </script>
   </head>
-  <body>
+  <body class="home">
     <!-- Nav -->
     <nav class="site-nav" data-pagefind-ignore>
       <a href="/" class="site-nav-brand">Cyrus</a>
@@ -86,154 +88,202 @@
     </nav>
 
     <main>
-      <!-- Hero -->
-      <section class="hero hero-canvas-wrap" data-pagefind-ignore>
-        <div id="hero-canvas"></div>
-        <div class="hero-content">
-          <h1 class="hero-title">AI 实践手册.</h1>
-          <p class="hero-bio">非技术出身，用 AI 把想法变成产品。<br>教程、工具、复盘 — 从零到上线的实战记录。</p>
-          <div class="hero-entry-row">
-            <a href="/field-notes/" class="hero-entry">
-              <span class="hero-entry-kicker">读者入口</span>
-              <span class="hero-entry-title">看实战笔记 →</span>
-              <span class="hero-entry-desc">教程 · Playground · 资讯 · 周报</span>
-            </a>
-            <a href="/consulting.html" class="hero-entry hero-entry-biz">
-              <span class="hero-entry-kicker">企业入口</span>
-              <span class="hero-entry-title">找我做 AI 提效 →</span>
-              <span class="hero-entry-desc">真实案例 · 可量化成果 · 30 分钟免费诊断</span>
-            </a>
+      <!-- ═══ Hero ═══ -->
+      <section class="home-hero" data-pagefind-ignore>
+        <div class="home-hero-grid-bg">
+          <div class="home-hero-grid-line"></div>
+          <div class="home-hero-grid-line"></div>
+        </div>
+        <div id="hero-canvas" class="home-hero-canvas"></div>
+        <div class="home-hero-glow"></div>
+        <div class="home-hero-mouse-glow"></div>
+        <div class="home-hero-content">
+          <span class="home-hero-badge">SYSTEM ONLINE</span>
+          <h1 class="home-hero-title"><em>AI</em> 实践手册.</h1>
+          <p class="home-hero-subtitle">
+            非技术出身，用 AI 把想法变成产品。<br />
+            教程、工具、复盘 — 从零到上线的实战记录。
+          </p>
+          <div class="home-typed-wrap">
+            <span class="home-typed-prefix">→</span>
+            <span id="typed-output"></span>
           </div>
-          <div class="hero-links">
-            <a href="/news.html">资讯</a>
-            <a href="https://github.com/cyrus-tt" target="_blank" rel="noopener">GitHub ↗</a>
+          <div class="home-hero-entries">
+            <a href="/field-notes/" class="home-entry">
+              <span class="home-entry-kicker">读者入口</span>
+              <span class="home-entry-title">看实战笔记 →</span>
+              <span class="home-entry-desc">教程 · Playground · 资讯 · 周报</span>
+            </a>
+            <a href="/consulting.html" class="home-entry home-entry--biz">
+              <span class="home-entry-kicker">企业入口</span>
+              <span class="home-entry-title">找我做 AI 提效 →</span>
+              <span class="home-entry-desc">真实案例 · 可量化成果 · 30 分钟免费诊断</span>
+            </a>
           </div>
         </div>
       </section>
 
-      <!-- What's Here -->
-      <section class="content" style="padding-top:48px;">
-        <div class="section-label">这里有什么 · WHAT'S HERE</div>
-        <p style="color:var(--muted);font-size:15px;margin:0 0 16px;line-height:1.75;">
-          一个非技术出身的 AI 实践者的公开笔记本。所有内容基于真实项目经验，不是搬运，不是二手信息。
-        </p>
-        <ul style="color:var(--muted);font-size:14px;line-height:1.9;list-style:none;padding:0;margin:0;">
-          <li>📐 <strong style="color:var(--ink)">教程</strong> — 从零搭建 AI 工作流的完整步骤</li>
-          <li>🧪 <strong style="color:var(--ink)">Playground</strong> — 浏览器里直接体验 AI，无需安装</li>
-          <li>📡 <strong style="color:var(--ink)">资讯</strong> — 每日全球 AI 动态，附可执行结论</li>
-          <li>📓 <strong style="color:var(--ink)">TIL &amp; 周报</strong> — 每天学到什么、每周干了什么</li>
-        </ul>
-      </section>
-
-      <!-- Continue Reading (populated by JS) -->
-      <section id="continueReading" class="content" hidden>
-        <div class="section-label">继续阅读 · CONTINUE</div>
-        <ul id="continueReadingList" class="post-list"></ul>
-      </section>
-
-      <!-- AI Search (Cmd+K) -->
-      <section class="content search-section">
-        <button class="cmdk-trigger" id="cmdkTrigger">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-          搜索、提问、导航… AI 驱动
-          <kbd>⌘K</kbd>
-        </button>
-      </section>
-
-      <!-- 教程精选 (with descriptions) -->
-      <section class="content">
-        <div class="section-label">教程精选 · FIELD NOTES</div>
-        <ul class="post-list">
-          <li>
-            <a href="/field-notes/openclaw-ultimate-guide/">
-              <span class="post-title">OpenClaw 完全上手指南：从安装到 24 小时自动化</span>
-              <span class="post-date">2026.05.22</span>
-            </a>
-            <p style="color:var(--muted);font-size:13px;line-height:1.6;margin:0 0 8px;padding:0 8px;">开源 AI Agent 框架，接 Telegram 做个人助理。含身份系统、记忆、Skill、多 Agent 协作。</p>
-          </li>
-          <li>
-            <a href="/field-notes/obsidian-claude-code-workflow/">
-              <span class="post-title">Obsidian × Claude Code：让笔记变成可编程知识库</span>
-              <span class="post-date">2026.05.22</span>
-            </a>
-            <p style="color:var(--muted);font-size:13px;line-height:1.6;margin:0 0 8px;padding:0 8px;">CLI 打通笔记与 AI，自然语言检索、跨笔记综合、自动整理。附性能对比和命令速查。</p>
-          </li>
-          <li>
-            <a href="/field-notes/knowledge-inbox-pipeline/">
-              <span class="post-title">碎片知识整合：从收藏夹坟场到 AI 知识收件箱</span>
-              <span class="post-date">2026.05.22</span>
-            </a>
-            <p style="color:var(--muted);font-size:13px;line-height:1.6;margin:0 0 8px;padding:0 8px;">微信转发 → n8n → Ollama 摘要 → Obsidian 自动入库。零成本周末就能搭完。</p>
-          </li>
-          <li>
-            <a href="/field-notes/claude-code-skills-guide/">
-              <span class="post-title">Claude Code 自定义 Skill 完全指南</span>
-              <span class="post-date">2026.05.08</span>
-            </a>
-            <p style="color:var(--muted);font-size:13px;line-height:1.6;margin:0 0 8px;padding:0 8px;">从零创建 Skill 文件，让 Claude Code 记住你的工作流。含 3 个实战示例和常见坑。</p>
-          </li>
-          <li>
-            <a href="/field-notes/n8n-ollama-local-pipeline/">
-              <span class="post-title">n8n + Ollama 本地 AI 知识管道</span>
-              <span class="post-date">2026.05.08</span>
-            </a>
-            <p style="color:var(--muted);font-size:13px;line-height:1.6;margin:0 0 8px;padding:0 8px;">Docker 部署 n8n，接 Ollama 本地大模型，自动采集+摘要+入库。附防御性 JSON 解析方案。</p>
-          </li>
-          <li>
-            <a href="/field-notes/cloudflare-pages-guide/">
-              <span class="post-title">Cloudflare Pages 零成本建站完全指南</span>
-              <span class="post-date">2026.05.08</span>
-            </a>
-            <p style="color:var(--muted);font-size:13px;line-height:1.6;margin:0 0 8px;padding:0 8px;">GitHub 推代码 → 自动部署。含自定义域名、Pages Functions 后端、D1 数据库全流程。</p>
-          </li>
-        </ul>
-        <a href="/field-notes/" class="section-more">查看全部教程 →</a>
-      </section>
-
-      <!-- TIL (show body text, not just titles) -->
-      <section class="content">
-        <div class="section-label">最近学到的 · TIL</div>
-        <div id="til-latest"></div>
-        <a href="/til/" class="section-more">查看全部 →</a>
-      </section>
-
-      <!-- AI News (inline top 5) -->
-      <section class="content">
-        <div class="section-label">AI 热点 · NEWS</div>
-        <div id="news-latest"></div>
-        <a href="/news.html" class="section-more">查看全部资讯 →</a>
-      </section>
-
-      <!-- Subscribe (moved UP, right after valuable content) -->
-      <section class="content subscribe-section">
-        <h3>Cyrus Weekly</h3>
-        <p class="subscribe-desc">每周一封 AI 实践精华，不废话，只给可执行的。</p>
-        <div data-subscribe></div>
-      </section>
-
-      <!-- Quick Links (compact grid: Playground / Weekly / Search) -->
-      <section class="content">
-        <div class="section-label">更多 · MORE</div>
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;">
-          <a href="/playground.html" style="display:block;padding:16px;border:1px solid var(--line);border-radius:var(--radius);text-decoration:none;color:var(--ink);transition:all 0.15s;">
-            <strong style="font-size:15px;">AI Playground</strong>
-            <p style="color:var(--muted);font-size:13px;margin:6px 0 0;line-height:1.5;">浏览器里体验 AI，无需安装</p>
-          </a>
-          <a href="/weekly/" style="display:block;padding:16px;border:1px solid var(--line);border-radius:var(--radius);text-decoration:none;color:var(--ink);transition:all 0.15s;">
-            <strong style="font-size:15px;">Cyrus Weekly</strong>
-            <p style="color:var(--muted);font-size:13px;margin:6px 0 0;line-height:1.5;">每周 AI 实践精华</p>
-          </a>
-          <a href="/about.html" style="display:block;padding:16px;border:1px solid var(--line);border-radius:var(--radius);text-decoration:none;color:var(--ink);transition:all 0.15s;">
-            <strong style="font-size:15px;">关于 Cyrus</strong>
-            <p style="color:var(--muted);font-size:13px;margin:6px 0 0;line-height:1.5;">非技术出身的 AI 全栈实践者</p>
-          </a>
+      <!-- ═══ Stats Bar ═══ -->
+      <section class="home-stats" data-pagefind-ignore>
+        <div class="home-stats-inner">
+          <div class="home-stat">
+            <span class="home-stat-num" data-count="59000" data-suffix="">0</span>
+            <span class="home-stat-label">小红书获赞</span>
+          </div>
+          <div class="home-stat">
+            <span class="home-stat-num" data-count="6" data-suffix=" 篇">0</span>
+            <span class="home-stat-label">实战教程</span>
+          </div>
+          <div class="home-stat">
+            <span class="home-stat-num home-stat-num--text">每日更新</span>
+            <span class="home-stat-label">AI 资讯</span>
+          </div>
+          <div class="home-stat">
+            <span class="home-stat-num" data-count="6" data-suffix=" 个">0</span>
+            <span class="home-stat-label">AI 工具在用</span>
+          </div>
         </div>
       </section>
 
-      <!-- Visit Streak -->
-      <section class="content">
-        <div class="section-label">学习打卡 · STREAK</div>
-        <div id="streakWidget" class="streak-widget"></div>
+      <!-- ═══ What's Here: Bento ═══ -->
+      <section class="home-section">
+        <div class="home-section-inner">
+          <div class="section-label">这里有什么 · WHAT'S HERE</div>
+          <div class="home-bento" data-anim="stagger">
+            <a href="/field-notes/" class="home-bento-card">
+              <div class="home-bento-icon">📐</div>
+              <strong>教程</strong>
+              <p>从零搭建 AI 工作流的完整步骤</p>
+            </a>
+            <a href="/playground.html" class="home-bento-card">
+              <div class="home-bento-icon">🧪</div>
+              <strong>Playground</strong>
+              <p>浏览器里直接体验 AI，无需安装</p>
+            </a>
+            <a href="/news.html" class="home-bento-card">
+              <div class="home-bento-icon">📡</div>
+              <strong>资讯</strong>
+              <p>每日全球 AI 动态，附可执行结论</p>
+            </a>
+            <a href="/til/" class="home-bento-card">
+              <div class="home-bento-icon">📓</div>
+              <strong>TIL &amp; 周报</strong>
+              <p>每天学到什么、每周干了什么</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ Continue Reading (populated by JS) ═══ -->
+      <section id="continueReading" class="home-section home-section--compact" hidden>
+        <div class="home-section-inner">
+          <div class="section-label">继续阅读 · CONTINUE</div>
+          <ul id="continueReadingList" class="post-list"></ul>
+        </div>
+      </section>
+
+      <!-- ═══ Cmd+K Search ═══ -->
+      <section class="home-section home-section--compact">
+        <div class="home-section-inner">
+          <button class="cmdk-trigger" id="cmdkTrigger">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            搜索、提问、导航… AI 驱动
+            <kbd>⌘K</kbd>
+          </button>
+        </div>
+      </section>
+
+      <!-- ═══ Featured Tutorials ═══ -->
+      <section class="home-section home-section--alt">
+        <div class="home-section-inner">
+          <div class="section-label">教程精选 · FIELD NOTES</div>
+          <div class="home-tutorial-grid" data-anim="stagger">
+            <a href="/field-notes/openclaw-ultimate-guide/" class="home-tut-card home-tut-card--featured">
+              <span class="home-tut-tag">热门</span>
+              <h3 class="home-tut-title">OpenClaw 完全上手指南：从安装到 24 小时自动化</h3>
+              <p class="home-tut-desc">开源 AI Agent 框架，接 Telegram 做个人助理。含身份系统、记忆、Skill、多 Agent 协作。</p>
+              <span class="home-tut-date">2026.05.22</span>
+            </a>
+            <a href="/field-notes/obsidian-claude-code-workflow/" class="home-tut-card">
+              <h3 class="home-tut-title">Obsidian × Claude Code：让笔记变成可编程知识库</h3>
+              <p class="home-tut-desc">CLI 打通笔记与 AI，自然语言检索、跨笔记综合、自动整理。</p>
+              <span class="home-tut-date">2026.05.22</span>
+            </a>
+            <a href="/field-notes/knowledge-inbox-pipeline/" class="home-tut-card">
+              <h3 class="home-tut-title">碎片知识整合：从收藏夹坟场到 AI 知识收件箱</h3>
+              <p class="home-tut-desc">微信转发 → n8n → Ollama 摘要 → Obsidian 自动入库。</p>
+              <span class="home-tut-date">2026.05.22</span>
+            </a>
+            <a href="/field-notes/claude-code-skills-guide/" class="home-tut-card">
+              <h3 class="home-tut-title">Claude Code 自定义 Skill 完全指南</h3>
+              <p class="home-tut-desc">从零创建 Skill 文件，让 Claude Code 记住你的工作流。</p>
+              <span class="home-tut-date">2026.05.08</span>
+            </a>
+            <a href="/field-notes/n8n-ollama-local-pipeline/" class="home-tut-card">
+              <h3 class="home-tut-title">n8n + Ollama 本地 AI 知识管道</h3>
+              <p class="home-tut-desc">Docker 部署 n8n，接 Ollama 本地大模型，自动采集+摘要+入库。</p>
+              <span class="home-tut-date">2026.05.08</span>
+            </a>
+            <a href="/field-notes/cloudflare-pages-guide/" class="home-tut-card">
+              <h3 class="home-tut-title">Cloudflare Pages 零成本建站完全指南</h3>
+              <p class="home-tut-desc">GitHub 推代码 → 自动部署。含域名、Functions、D1 全流程。</p>
+              <span class="home-tut-date">2026.05.08</span>
+            </a>
+          </div>
+          <a href="/field-notes/" class="section-more">查看全部教程 →</a>
+        </div>
+      </section>
+
+      <!-- ═══ News + TIL Dual Column ═══ -->
+      <section class="home-section">
+        <div class="home-section-inner">
+          <div class="home-dual">
+            <div class="home-dual-main" data-anim="slide-left">
+              <div class="section-label">AI 热点 · NEWS</div>
+              <div id="news-latest"></div>
+              <a href="/news.html" class="section-more">查看全部资讯 →</a>
+            </div>
+            <div class="home-dual-side" data-anim="slide-right">
+              <div class="section-label">最近学到的 · TIL</div>
+              <div id="til-latest"></div>
+              <a href="/til/" class="section-more">查看全部 →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ Subscribe CTA ═══ -->
+      <section class="home-subscribe">
+        <div class="home-subscribe-inner" data-anim="fade-up">
+          <h3>Cyrus Weekly</h3>
+          <p class="home-subscribe-desc">每周一封 AI 实践精华，不废话，只给可执行的。</p>
+          <div data-subscribe></div>
+        </div>
+      </section>
+
+      <!-- ═══ More + Streak ═══ -->
+      <section class="home-section">
+        <div class="home-section-inner">
+          <div class="section-label">更多 · MORE</div>
+          <div class="home-more-grid" data-anim="stagger">
+            <a href="/playground.html" class="home-more-card">
+              <strong>AI Playground</strong>
+              <p>浏览器里体验 AI，无需安装</p>
+            </a>
+            <a href="/weekly/" class="home-more-card">
+              <strong>Cyrus Weekly</strong>
+              <p>每周 AI 实践精华</p>
+            </a>
+            <a href="/about.html" class="home-more-card">
+              <strong>关于 Cyrus</strong>
+              <p>非技术出身的 AI 全栈实践者</p>
+            </a>
+            <div class="home-more-card home-more-card--streak">
+              <strong>学习打卡 · STREAK</strong>
+              <div id="streakWidget" class="streak-widget"></div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
@@ -249,6 +299,7 @@
       </span>
     </footer>
 
+    <!-- p5.js hero (lazy loaded) -->
     <script>
       (function() {
         var canvas = document.getElementById("hero-canvas");
@@ -273,14 +324,8 @@
         }
       })();
     </script>
-    <script defer src="./ui.js"></script>
-    <script defer src="./visit-stats.js"></script>
-    <script defer src="./js/components/subscribe.js"></script>
-    <script defer src="./js/components/home-feed.js"></script>
-    <script defer src="/js/components/visit-streak.js"></script>
-    <script defer src="/js/components/cmd-k.js"></script>
-    <script defer src="/js/components/explain-this.js"></script>
-    <script defer src="/js/components/chat-widget.js"></script>
+
+    <!-- Continue reading (localStorage) -->
     <script>
       (function () {
         try {
@@ -298,7 +343,25 @@
         } catch (e) {}
       })();
     </script>
+
+    <!-- Core scripts -->
+    <script defer src="./ui.js"></script>
+    <script defer src="./visit-stats.js"></script>
+    <script defer src="./js/components/subscribe.js"></script>
+    <script defer src="./js/components/home-feed.js"></script>
+    <script defer src="/js/components/visit-streak.js"></script>
+    <script defer src="/js/components/cmd-k.js"></script>
+    <script defer src="/js/components/explain-this.js"></script>
+    <script defer src="/js/components/chat-widget.js"></script>
     <script defer src="/js/components/utm-tracker.js"></script>
+
+    <!-- Animation stack (CDN deps → then our init) -->
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script defer src="./js/home-animations.js"></script>
+
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"PLACEHOLDER"}'></script>
   </body>
 </html>
