@@ -30,7 +30,7 @@
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" />
   <link rel="stylesheet" href="./styles.css" />
 
   <script>
@@ -38,133 +38,382 @@
   </script>
 
   <style>
+    /* ════════════════════════════════════════════════════════════
+       TOOLS PAGE — Bento Grid + Terminal Hero
+       ════════════════════════════════════════════════════════════ */
+
+    /* ── Hero: 深色终端风 ─────────────────────────────────────── */
     .tools-hero {
+      position: relative;
+      overflow: hidden;
+      background: #0f1117;
+      padding: 100px 24px 72px;
       text-align: center;
-      padding: 72px 24px 48px;
-      border-bottom: 1px solid var(--line);
-      margin-bottom: 48px;
     }
 
+    .tools-hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -20%, rgba(232,69,14,.15), transparent),
+        radial-gradient(ellipse 60% 40% at 80% 110%, rgba(139,92,246,.12), transparent);
+      pointer-events: none;
+    }
+
+    .tools-hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 28px;
+      position: relative;
+    }
+    .tools-hero-badge::before {
+      content: "";
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: pulse 2.4s ease-in-out infinite;
+    }
+    @keyframes pulse { 50% { opacity: .3; } }
+
     .tools-hero-title {
-      font-family: var(--font-sans);
-      font-size: clamp(36px, 8vw, 64px);
+      font-family: "Sora", var(--font-sans);
+      font-size: clamp(40px, 8vw, 72px);
       font-weight: 800;
-      line-height: .95;
-      letter-spacing: -.04em;
+      line-height: 1.1;
+      letter-spacing: -.03em;
       margin: 0;
+      color: #f0f0f4;
+      position: relative;
     }
 
     .tools-hero-title em {
       font-style: normal;
-      background: linear-gradient(135deg, var(--accent), #ff8a5c);
+      background: linear-gradient(135deg, #ff6b3d 0%, #ff9a5c 50%, #ffcc80 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
 
-    .tools-hero-sub {
-      font-family: var(--font-mono);
-      font-size: 12px;
-      letter-spacing: .18em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin: 18px 0 0;
-    }
-
     .tools-hero-desc {
-      font-size: 16px;
-      color: var(--muted);
-      margin: 14px auto 0;
+      font-size: 17px;
+      color: #8b8fa3;
+      margin: 20px auto 0;
       max-width: 42ch;
-      line-height: 1.7;
+      line-height: 1.75;
+      position: relative;
     }
 
-    .tool-grid {
+    .tools-hero-desc strong {
+      color: #c8cad4;
+      font-weight: 600;
+    }
+
+    /* 网格装饰线 */
+    .tools-grid-bg {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+    .tools-grid-bg::before,
+    .tools-grid-bg::after {
+      content: "";
+      position: absolute;
+      top: 0; bottom: 0;
+      width: 1px;
+      background: repeating-linear-gradient(
+        to bottom,
+        rgba(255,255,255,.04) 0,
+        rgba(255,255,255,.04) 4px,
+        transparent 4px,
+        transparent 10px
+      );
+    }
+    .tools-grid-bg::before { left: 25%; }
+    .tools-grid-bg::after { right: 25%; }
+
+    /* ── Bento Grid ───────────────────────────────────────────── */
+    .bento {
+      max-width: 960px;
+      margin: -40px auto 0;
+      padding: 0 24px 72px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .bento-grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 16px;
-      max-width: var(--max-w-wide, 1100px);
-      margin: 0 auto;
-      padding: 0 24px 56px;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto;
+      gap: 14px;
     }
 
+    /* ── Tool Card ────────────────────────────────────────────── */
     .tool-card {
+      --card-accent: var(--accent);
       display: flex;
       flex-direction: column;
-      gap: 10px;
-      padding: 24px;
+      gap: 14px;
+      padding: 28px;
       border: 1px solid var(--line);
       background: var(--bg-elevated);
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-xs);
-      transition: transform var(--duration-normal) var(--ease-out),
-                  box-shadow var(--duration-normal) var(--ease-out),
-                  border-color var(--duration-normal) var(--ease-out);
+      border-radius: 16px;
+      box-shadow: 0 2px 5px -1px rgba(50,50,93,.08), 0 1px 3px -1px rgba(0,0,0,.06);
+      position: relative;
+      overflow: hidden;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: cardIn .6s cubic-bezier(.16, 1, .3, 1) forwards;
     }
+
+    .tool-card:nth-child(1) { animation-delay: .05s; }
+    .tool-card:nth-child(2) { animation-delay: .12s; }
+    .tool-card:nth-child(3) { animation-delay: .19s; }
+    .tool-card:nth-child(4) { animation-delay: .26s; }
+    .tool-card:nth-child(5) { animation-delay: .33s; }
+    .tool-card:nth-child(6) { animation-delay: .40s; }
+
+    @keyframes cardIn {
+      to { opacity: 1; transform: none; }
+    }
+
+    .tool-card::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: var(--card-accent);
+      opacity: 0;
+      transition: opacity .3s;
+    }
+    .tool-card:hover::before { opacity: 1; }
 
     .tool-card:hover {
-      transform: translateY(-3px);
-      box-shadow: var(--shadow-md);
-      border-color: color-mix(in srgb, var(--accent) 30%, var(--line));
+      transform: translateY(-4px);
+      box-shadow: 0 13px 27px -5px rgba(50,50,93,.15), 0 8px 16px -8px rgba(0,0,0,.18);
+      border-color: color-mix(in srgb, var(--card-accent) 30%, var(--line));
     }
 
-    .tool-header {
-      display: flex;
-      align-items: center;
-      gap: 12px;
+    /* 尺寸变体 */
+    .tool-card--featured {
+      grid-column: span 2;
+      padding: 36px;
+    }
+    .tool-card--wide {
+      grid-column: span 2;
     }
 
-    .tool-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
+    /* ── Card 内容 ────────────────────────────────────────────── */
+    .tool-icon-wrap {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 20px;
       flex-shrink: 0;
-      background: var(--accent-soft, color-mix(in srgb, var(--accent) 8%, transparent));
+      background: color-mix(in srgb, var(--card-accent) 10%, transparent);
+      border: 1px solid color-mix(in srgb, var(--card-accent) 15%, transparent);
+    }
+
+    .tool-icon-wrap svg {
+      width: 24px;
+      height: 24px;
+      color: var(--card-accent);
     }
 
     .tool-name {
-      font-family: var(--font-sans);
-      font-size: 18px;
-      font-weight: 700;
+      font-family: "Sora", var(--font-sans);
+      font-size: 20px;
+      font-weight: 800;
       margin: 0;
       letter-spacing: -.02em;
     }
 
+    .tool-card--featured .tool-name { font-size: 24px; }
+
+    .tool-role {
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--card-accent);
+    }
+
     .tool-desc {
-      font-size: 14px;
+      font-size: 14.5px;
       color: var(--muted);
-      line-height: 1.75;
+      line-height: 1.8;
       margin: 0;
     }
 
-    .tool-tag {
-      display: inline-block;
-      align-self: flex-start;
-      font-family: var(--font-mono);
-      font-size: 10px;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      color: var(--accent);
-      background: var(--accent-soft, color-mix(in srgb, var(--accent) 8%, transparent));
-      padding: 3px 10px;
-      border-radius: 999px;
-      margin-top: auto;
+    .tool-card--featured .tool-desc {
+      font-size: 15px;
+      max-width: 48ch;
     }
 
-    @media (max-width: 640px) {
-      .tool-grid {
-        grid-template-columns: 1fr;
-        padding: 0 16px 40px;
-      }
-      .tools-hero {
-        padding: 56px 16px 36px;
-        margin-bottom: 32px;
-      }
+    /* ── Terminal 装饰 (featured card) ────────────────────────── */
+    .tool-terminal {
+      margin-top: auto;
+      border-radius: 10px;
+      background: #0f1117;
+      padding: 12px 16px 14px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: #8b8fa3;
+      line-height: 1.9;
     }
+
+    html[data-theme="dark"] .tool-terminal {
+      background: #000;
+      border: 1px solid #222;
+    }
+
+    .tool-terminal-bar {
+      display: flex;
+      gap: 6px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid rgba(255,255,255,.06);
+    }
+    .tool-terminal-bar i {
+      width: 9px; height: 9px;
+      border-radius: 50%;
+    }
+    .tool-terminal-bar i:nth-child(1) { background: #ff5f57; }
+    .tool-terminal-bar i:nth-child(2) { background: #ffbd2e; }
+    .tool-terminal-bar i:nth-child(3) { background: #28c840; }
+
+    .t-prompt { color: #28c840; }
+    .t-cmd { color: #e4e6ef; }
+    .t-flag { color: #8b8fa3; }
+    .t-ok { color: #28c840; }
+    .t-accent { color: #ff6b3d; }
+    .t-caret {
+      display: inline-block;
+      width: 8px; height: 14px;
+      margin-left: 2px;
+      vertical-align: -2px;
+      background: #ff6b3d;
+      animation: blink 1.05s steps(1) infinite;
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    /* ── 每个工具的独立配色 ────────────────────────────────────── */
+    .tool-card[data-tool="claude-code"] { --card-accent: #e8450e; }
+    .tool-card[data-tool="claude"]      { --card-accent: #d4a373; }
+    .tool-card[data-tool="codex"]       { --card-accent: #635bff; }
+    .tool-card[data-tool="obsidian"]    { --card-accent: #8b5cf6; }
+    .tool-card[data-tool="autocli"]     { --card-accent: #059669; }
+    .tool-card[data-tool="hermes"]      { --card-accent: #0ea5e9; }
+
+    /* ── Workflow 连线提示 ─────────────────────────────────────── */
+    .workflow-hint {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 48px 24px 0;
+      text-align: center;
+    }
+
+    .workflow-hint p {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--muted-2);
+    }
+
+    .workflow-chain {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .wf-node {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 999px;
+      border: 1.5px solid var(--line);
+      background: var(--bg-elevated);
+      color: var(--ink);
+      white-space: nowrap;
+    }
+
+    .wf-arrow {
+      font-size: 14px;
+      color: var(--muted-2);
+      padding: 0 6px;
+      flex-shrink: 0;
+    }
+
+    /* ── 底部 CTA ─────────────────────────────────────────────── */
+    .tools-cta {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 56px 24px 72px;
+      text-align: center;
+    }
+
+    .tools-cta-text {
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.75;
+      max-width: 46ch;
+      margin: 0 auto 20px;
+    }
+
+    .tools-cta-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-sans);
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--accent);
+      text-decoration: none;
+      transition: gap .25s cubic-bezier(.16, 1, .3, 1);
+    }
+    .tools-cta-link:hover { gap: 13px; }
+
+    /* ── 响应式 ───────────────────────────────────────────────── */
+    @media (max-width: 768px) {
+      .bento-grid {
+        grid-template-columns: 1fr;
+      }
+      .tool-card--featured,
+      .tool-card--wide {
+        grid-column: span 1;
+      }
+      .tools-hero { padding: 80px 16px 56px; }
+      .bento { padding: 0 16px 56px; }
+      .workflow-chain { gap: 4px; }
+      .wf-node { font-size: 11px; padding: 6px 12px; }
+      .wf-arrow { padding: 0 2px; }
+    }
+
+    /* ── 暗色模式微调 ─────────────────────────────────────────── */
+    html[data-theme="dark"] .tools-hero { background: #08090c; }
+    html[data-theme="dark"] .tool-card {
+      box-shadow: 0 2px 5px -1px rgba(0,0,0,.3), 0 1px 3px -1px rgba(0,0,0,.2);
+    }
+    html[data-theme="dark"] .tool-card:hover {
+      box-shadow: 0 13px 27px -5px rgba(0,0,0,.4), 0 8px 16px -8px rgba(0,0,0,.3);
+    }
+    html[data-theme="dark"] .wf-node { border-color: #333; }
   </style>
 </head>
 <body>
@@ -184,69 +433,134 @@
   </nav>
 
   <main>
+
+    <!-- ── Hero ────────────────────────────────────────────────── -->
     <section class="tools-hero">
+      <div class="tools-grid-bg"></div>
+      <div class="tools-hero-badge">6 tools in rotation</div>
       <h1 class="tools-hero-title">我的 AI <em>工具栈</em></h1>
-      <p class="tools-hero-sub">daily driver stack</p>
-      <p class="tools-hero-desc">不追新、不囤工具。这 6 个是真正每天在用的，每一个都解决一个具体问题。</p>
+      <p class="tools-hero-desc">不追新、不囤工具。<strong>每一个都解决一个具体问题</strong>，合在一起就是从想法到产品的完整链路。</p>
     </section>
 
-    <section class="tool-grid">
+    <!-- ── Bento Grid ──────────────────────────────────────────── -->
+    <section class="bento">
+      <div class="bento-grid">
 
-      <div class="tool-card">
-        <div class="tool-header">
-          <span class="tool-icon">⚡</span>
-          <h3 class="tool-name">Claude Code</h3>
+        <!-- Claude Code · Featured (2-col) -->
+        <div class="tool-card tool-card--featured" data-tool="claude-code">
+          <div class="tool-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/>
+            </svg>
+          </div>
+          <div>
+            <span class="tool-role">主力编程</span>
+            <h3 class="tool-name">Claude Code</h3>
+          </div>
+          <p class="tool-desc">写功能、改 bug、重构、部署 — 这个网站就是用它从零搭的。终端里跑，不用切 IDE，直接在项目上下文里工作。</p>
+          <div class="tool-terminal">
+            <div class="tool-terminal-bar"><i></i><i></i><i></i></div>
+            <span class="t-prompt">$</span> <span class="t-cmd">claude</span> <span class="t-flag">"给网站加一个工具栈页面"</span><br>
+            <span class="t-ok">+</span> tools.html <span class="t-accent">created</span><br>
+            <span class="t-ok">+</span> 25 files nav <span class="t-accent">updated</span><span class="t-caret"></span>
+          </div>
         </div>
-        <p class="tool-desc">主力编程搭档。写功能、改 bug、重构、部署 — 这个网站就是用它从零搭的。终端里跑，不用切 IDE。</p>
-        <span class="tool-tag">编程</span>
-      </div>
 
-      <div class="tool-card">
-        <div class="tool-header">
-          <span class="tool-icon">🧠</span>
-          <h3 class="tool-name">Claude</h3>
+        <!-- Claude -->
+        <div class="tool-card" data-tool="claude">
+          <div class="tool-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a8 8 0 0 0-8 8c0 3.4 2.1 6.4 5.3 7.6.4.1.5-.2.5-.4v-1.3c-2.2.5-2.6-1-2.6-1-.4-.9-.9-1.1-.9-1.1-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.7-.2-3.5-.9-3.5-3.8 0-.8.3-1.5.8-2.1-.1-.2-.3-1 .1-2 0 0 .7-.2 2.2.8a7.4 7.4 0 0 1 4 0c1.5-1 2.2-.8 2.2-.8.4 1 .2 1.8.1 2 .5.5.8 1.3.8 2.1 0 3-1.8 3.6-3.5 3.8.3.3.6.8.6 1.5v2.2c0 .2.1.5.6.4A8 8 0 0 0 12 2z"/>
+            </svg>
+          </div>
+          <div>
+            <span class="tool-role">思考伙伴</span>
+            <h3 class="tool-name">Claude</h3>
+          </div>
+          <p class="tool-desc">梳理产品逻辑、写方案、做决策分析。不是搜索引擎，是能跟你辩论的同事。</p>
         </div>
-        <p class="tool-desc">思考伙伴。梳理产品逻辑、写方案、做决策分析。不是搜索引擎，是能跟你辩论的同事。</p>
-        <span class="tool-tag">思考</span>
-      </div>
 
-      <div class="tool-card">
-        <div class="tool-header">
-          <span class="tool-icon">🔍</span>
-          <h3 class="tool-name">Codex</h3>
+        <!-- Codex -->
+        <div class="tool-card" data-tool="codex">
+          <div class="tool-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+          </div>
+          <div>
+            <span class="tool-role">代码审查</span>
+            <h3 class="tool-name">Codex</h3>
+          </div>
+          <p class="tool-desc">代码写完丢给它做独立审查，能抓到自己看不到的盲点。异步跑，不占主线程。</p>
         </div>
-        <p class="tool-desc">Review 帮手。代码写完丢给它做独立审查，能抓到自己看不到的盲点。异步跑，不占主线程。</p>
-        <span class="tool-tag">审查</span>
-      </div>
 
-      <div class="tool-card">
-        <div class="tool-header">
-          <span class="tool-icon">📚</span>
-          <h3 class="tool-name">Obsidian</h3>
+        <!-- Obsidian -->
+        <div class="tool-card" data-tool="obsidian">
+          <div class="tool-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>
+            </svg>
+          </div>
+          <div>
+            <span class="tool-role">知识库</span>
+            <h3 class="tool-name">Obsidian</h3>
+          </div>
+          <p class="tool-desc">读书笔记、项目复盘、灵感碎片全在这。配合 Claude Code 变成可编程的第二大脑。</p>
         </div>
-        <p class="tool-desc">本地知识库。读书笔记、项目复盘、灵感碎片全在这。配合 Claude Code 变成可编程的第二大脑。</p>
-        <span class="tool-tag">知识管理</span>
-      </div>
 
-      <div class="tool-card">
-        <div class="tool-header">
-          <span class="tool-icon">⚙️</span>
-          <h3 class="tool-name">AutoCLI</h3>
+        <!-- Hermes · Wide (2-col) -->
+        <div class="tool-card tool-card--wide" data-tool="hermes">
+          <div class="tool-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="3"/><path d="M12 8v3"/><circle cx="9" cy="15" r="1" fill="currentColor"/><circle cx="15" cy="15" r="1" fill="currentColor"/>
+            </svg>
+          </div>
+          <div>
+            <span class="tool-role">个人分身</span>
+            <h3 class="tool-name">Hermes</h3>
+          </div>
+          <p class="tool-desc">学了我的风格和知识体系，能代替我回答常见问题、处理日常沟通。7 x 24 在线。是所有工具中最"懂我"的一个。</p>
         </div>
-        <p class="tool-desc">自动化中枢。把重复的终端操作编排成工作流 — 部署、数据同步、定时任务，一条命令搞定。</p>
-        <span class="tool-tag">自动化</span>
-      </div>
 
-      <div class="tool-card">
-        <div class="tool-header">
-          <span class="tool-icon">🤖</span>
-          <h3 class="tool-name">Hermes</h3>
+        <!-- AutoCLI -->
+        <div class="tool-card" data-tool="autocli">
+          <div class="tool-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+            </svg>
+          </div>
+          <div>
+            <span class="tool-role">自动化</span>
+            <h3 class="tool-name">AutoCLI</h3>
+          </div>
+          <p class="tool-desc">把重复的终端操作编排成工作流 — 部署、数据同步、定时任务，一条命令搞定。</p>
         </div>
-        <p class="tool-desc">个人 AI 分身。学了我的风格和知识体系，能代替我回答常见问题、处理日常沟通。7×24 在线。</p>
-        <span class="tool-tag">分身</span>
-      </div>
 
+      </div>
     </section>
+
+    <!-- ── Workflow chain ───────────────────────────────────────── -->
+    <section class="workflow-hint">
+      <p>typical workflow</p>
+      <div class="workflow-chain">
+        <span class="wf-node">Claude 想</span>
+        <span class="wf-arrow">&rarr;</span>
+        <span class="wf-node">Claude Code 写</span>
+        <span class="wf-arrow">&rarr;</span>
+        <span class="wf-node">Codex 审</span>
+        <span class="wf-arrow">&rarr;</span>
+        <span class="wf-node">AutoCLI 部署</span>
+        <span class="wf-arrow">&rarr;</span>
+        <span class="wf-node">Hermes 交付</span>
+      </div>
+    </section>
+
+    <!-- ── CTA ─────────────────────────────────────────────────── -->
+    <section class="tools-cta">
+      <p class="tools-cta-text">想看这些工具的实战用法？每篇教程都是真实项目，不是 demo。</p>
+      <a class="tools-cta-link" href="/field-notes/">看实战笔记 &rarr;</a>
+    </section>
+
   </main>
 
   <footer class="site-footer">
