@@ -94,9 +94,7 @@
           <div class="home-hero-grid-line"></div>
           <div class="home-hero-grid-line"></div>
         </div>
-        <div id="hero-canvas" class="home-hero-canvas"></div>
         <div class="home-hero-glow"></div>
-        <div class="home-hero-mouse-glow"></div>
         <div class="home-hero-content">
           <span class="home-hero-badge">SYSTEM ONLINE</span>
           <h1 class="home-hero-title"><em>AI</em> 实践手册.</h1>
@@ -299,32 +297,6 @@
       </span>
     </footer>
 
-    <!-- p5.js hero (lazy loaded) -->
-    <script>
-      (function() {
-        var canvas = document.getElementById("hero-canvas");
-        if (!canvas || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-        function loadP5() {
-          var s1 = document.createElement("script");
-          s1.src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js";
-          s1.onload = function() {
-            var s2 = document.createElement("script");
-            s2.src = "./js/neural-hero.js";
-            document.body.appendChild(s2);
-          };
-          document.body.appendChild(s1);
-        }
-        if ("IntersectionObserver" in window) {
-          var obs = new IntersectionObserver(function(entries) {
-            if (entries[0].isIntersecting) { obs.disconnect(); loadP5(); }
-          }, { rootMargin: "200px" });
-          obs.observe(canvas);
-        } else {
-          loadP5();
-        }
-      })();
-    </script>
-
     <!-- Continue reading (localStorage) -->
     <script>
       (function () {
@@ -358,7 +330,6 @@
     <!-- Animation stack (CDN deps → then our init) -->
     <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script defer src="./js/home-animations.js"></script>
 

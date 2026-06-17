@@ -1,34 +1,13 @@
 /* ═══════════════════════════════════════════════════════════════
    home-animations.js — Animations for homepage
-   Strategy: IntersectionObserver + CSS for scroll reveals (robust),
-   GSAP only for hero entrance + counter (non-scroll-dependent).
+   IntersectionObserver + CSS for scroll reveals,
+   GSAP for hero entrance + counter.
    ═══════════════════════════════════════════════════════════════ */
 
 (function () {
   "use strict";
 
   var prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-  // ── Lenis smooth scroll ───────────────────────────────────────
-  if (!prefersReduced && typeof Lenis !== "undefined") {
-    var lenis = new Lenis({
-      duration: 1.2,
-      easing: function (t) { return Math.min(1, 1.001 - Math.pow(2, -10 * t)); }
-    });
-
-    // Drive Lenis from GSAP ticker (single RAF source) if available
-    if (typeof gsap !== "undefined") {
-      gsap.ticker.add(function (time) { lenis.raf(time * 1000); });
-      gsap.ticker.lagSmoothing(0);
-    } else {
-      function raf(time) { lenis.raf(time); requestAnimationFrame(raf); }
-      requestAnimationFrame(raf);
-    }
-
-    // Pause when modals open
-    document.addEventListener("cmdk-open", function () { lenis.stop(); });
-    document.addEventListener("cmdk-close", function () { lenis.start(); });
-  }
 
   // ── Typed.js hero effect ──────────────────────────────────────
   var typedEl = document.getElementById("typed-output");
@@ -49,17 +28,6 @@
     });
   }
 
-  // ── Mouse tracking glow on hero ───────────────────────────────
-  var hero = document.querySelector(".home-hero");
-  var mouseGlow = document.querySelector(".home-hero-mouse-glow");
-  if (hero && mouseGlow && !prefersReduced && window.innerWidth > 768) {
-    hero.addEventListener("mousemove", function (e) {
-      var rect = hero.getBoundingClientRect();
-      mouseGlow.style.setProperty("--mx", (e.clientX - rect.left) + "px");
-      mouseGlow.style.setProperty("--my", (e.clientY - rect.top) + "px");
-    });
-  }
-
   // ── GSAP hero entrance timeline ───────────────────────────────
   if (typeof gsap !== "undefined" && !prefersReduced) {
     var heroContent = document.querySelector(".home-hero-content");
@@ -74,8 +42,6 @@
   }
 
   // ── Scroll Reveal via IntersectionObserver + CSS ──────────────
-  // Elements with [data-anim] get revealed when entering viewport.
-  // CSS handles the transition via .is-visible class.
   if (!prefersReduced && "IntersectionObserver" in window) {
     var observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
@@ -90,7 +56,6 @@
       observer.observe(el);
     });
   } else {
-    // No observer or reduced motion: show everything immediately
     document.querySelectorAll("[data-anim]").forEach(function (el) {
       el.classList.add("is-visible");
     });
@@ -129,7 +94,6 @@
     return n.toString();
   }
 
-  // Trigger counter when stats section enters viewport
   var statsSection = document.querySelector(".home-stats");
   if (statsSection) {
     if (!prefersReduced && "IntersectionObserver" in window) {
