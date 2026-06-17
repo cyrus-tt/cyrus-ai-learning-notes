@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T07:39:50.683021+00:00",
+  "generatedAt": "2026-06-17T07:48:25.332938+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-06-17",
@@ -198,6 +198,30 @@
       },
       {
         "rank": 9,
+        "title": "代理未来的地图",
+        "platform": "Reddit",
+        "aiScore": 87,
+        "publishedAt": "2026-06-17T07:39:46+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u83jy3/a_map_of_the_agentic_future/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "应用落地",
+          "自动化"
+        ],
+        "summary": "大家好，我一直在思考当前的技术范式最终可能会走向何方。每天我都会看到大量新产品：更好的助手、更好的自动化、更好的这个、更快……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
         "title": "36氪首发 | 中科大博士做量子赛道“卖水人”，连续融资两轮",
         "platform": "36氪",
         "aiScore": 87,
@@ -218,35 +242,11 @@
           "actionability": 7,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "“觅蜂科技”获数亿元天使+轮融资",
-        "platform": "36氪",
-        "aiScore": 86,
-        "publishedAt": "2026-06-17T05:52:05+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3856851363042566?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "应用落地",
-          "投融资",
-          "安全治理"
-        ],
-        "summary": "36氪获悉，近日，一站式物理AI数据服务平台“觅蜂科技”完成新一轮数亿元天使 + 轮战略融资。本轮由国方创投领投，孚腾资本、上海电科基金、元启创新等跟投，老股东均普智能、鼎晖VGC持续超额追加投资。本轮融资将主要用于MEgo系列硬件量产、全链路数据治理技术迭代、全球采集网络布局、蜂巢生态扩容，进一步夯实无本体采集技术壁垒，加速标准化数据体系落地。",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 4,
-          "heat": 5
-        }
       }
     ],
     "metrics": {
       "totalItems": 51,
-      "avgScore": 74.6,
+      "avgScore": 74.8,
       "topScore": 94,
       "topPlatforms": [
         {
@@ -254,12 +254,12 @@
           "count": 15
         },
         {
-          "name": "36氪",
-          "count": 12
+          "name": "Reddit",
+          "count": 13
         },
         {
-          "name": "Reddit",
-          "count": 12
+          "name": "36氪",
+          "count": 11
         },
         {
           "name": "量子位",
@@ -281,14 +281,10 @@
         },
         {
           "name": "模型进展",
-          "count": 9
+          "count": 10
         },
         {
           "name": "芯片算力",
-          "count": 8
-        },
-        {
-          "name": "投融资",
           "count": 8
         },
         {
@@ -296,12 +292,16 @@
           "count": 7
         },
         {
+          "name": "投融资",
+          "count": 7
+        },
+        {
           "name": "开源生态",
           "count": 5
         },
         {
-          "name": "内容生产",
-          "count": 1
+          "name": "自动化",
+          "count": 2
         }
       ]
     },
@@ -510,6 +510,30 @@
         },
         {
           "rank": 9,
+          "title": "代理未来的地图",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-06-17T07:39:46+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u83jy3/a_map_of_the_agentic_future/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "应用落地",
+            "自动化"
+          ],
+          "summary": "大家好，我一直在思考当前的技术范式最终可能会走向何方。每天我都会看到大量新产品：更好的助手、更好的自动化、更好的这个、更快……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
           "title": "36氪首发 | 中科大博士做量子赛道“卖水人”，连续融资两轮",
           "platform": "36氪",
           "aiScore": 87,
@@ -530,35 +554,11 @@
             "actionability": 7,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "“觅蜂科技”获数亿元天使+轮融资",
-          "platform": "36氪",
-          "aiScore": 86,
-          "publishedAt": "2026-06-17T05:52:05+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3856851363042566?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "应用落地",
-            "投融资",
-            "安全治理"
-          ],
-          "summary": "36氪获悉，近日，一站式物理AI数据服务平台“觅蜂科技”完成新一轮数亿元天使 + 轮战略融资。本轮由国方创投领投，孚腾资本、上海电科基金、元启创新等跟投，老股东均普智能、鼎晖VGC持续超额追加投资。本轮融资将主要用于MEgo系列硬件量产、全链路数据治理技术迭代、全球采集网络布局、蜂巢生态扩容，进一步夯实无本体采集技术壁垒，加速标准化数据体系落地。",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 4,
-            "heat": 5
-          }
         }
       ],
       "metrics": {
         "totalItems": 51,
-        "avgScore": 74.6,
+        "avgScore": 74.8,
         "topScore": 94,
         "topPlatforms": [
           {
@@ -566,12 +566,12 @@
             "count": 15
           },
           {
-            "name": "36氪",
-            "count": 12
+            "name": "Reddit",
+            "count": 13
           },
           {
-            "name": "Reddit",
-            "count": 12
+            "name": "36氪",
+            "count": 11
           },
           {
             "name": "量子位",
@@ -593,14 +593,10 @@
           },
           {
             "name": "模型进展",
-            "count": 9
+            "count": 10
           },
           {
             "name": "芯片算力",
-            "count": 8
-          },
-          {
-            "name": "投融资",
             "count": 8
           },
           {
@@ -608,12 +604,16 @@
             "count": 7
           },
           {
+            "name": "投融资",
+            "count": 7
+          },
+          {
             "name": "开源生态",
             "count": 5
           },
           {
-            "name": "内容生产",
-            "count": 1
+            "name": "自动化",
+            "count": 2
           }
         ]
       },
