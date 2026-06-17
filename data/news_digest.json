@@ -1,25 +1,72 @@
 {
-  "generatedAt": "2026-06-16T18:04:14.926249+00:00",
+  "generatedAt": "2026-06-17T03:25:02.621550+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-06-17",
     "label": "6月17日",
     "top10": [
       {
-        "rank": 5,
-        "title": "Show HN：在 AI 编码代理的工具调用之前运行的策略门",
+        "rank": 1,
+        "title": "「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-06-17T01:00:00+00:00",
+        "sourceUrl": "https://36kr.com/p/3826129009234824?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "文｜王毓婵 编辑｜张雨忻 2026 年以来，一级市场对世界模型的抢筹进入白热化阶段。资金不再像早期那样“广撒网”，而是高度向头部玩家集中。这其中，逆矩阵科技（Physis）就接连完成了多轮融资。 36氪智能涌现独家据悉，世界模型公司逆矩阵科技已完成超亿美元种子++轮融资；此前的 3 月，刚完成了超千万美元首轮融资。本轮由经纬创投、五源资本、光合创投等机构共同参与，并获蚂蚁集团…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "8点1氪丨连涨3天，SpaceX超越亚马逊跻身全球前五；支付宝启动史上最大改版；微信支付“AI专属卡”最快本周内上线",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-06-17T00:22:06+00:00",
+        "sourceUrl": "https://36kr.com/p/3856525981275138?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "今日热点导览 山姆中国变更董事长 海康威视7月1日上调硬盘价 5月份全球纯电和插电式混动汽车销量连续三个月增长 美国零售经纪商处的SpaceX投资者每人至少分得一股IPO股票 传苹果首款折叠屏将延期发布，产业链人士：假的 TOP 3 大新闻 连涨3天，SpaceX超越亚马逊跻身全球前五 6月16日，SpaceX开盘迅速拉升，涨幅一度扩大至17%，市值一度超越微软，盘中总市值触…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "Show HN：构建有状态的 AI 代理",
         "platform": "Hacker News",
         "aiScore": 88,
-        "publishedAt": "2026-06-16T17:12:02+00:00",
-        "sourceUrl": "https://sigmashake.com",
+        "publishedAt": "2026-06-17T02:18:11+00:00",
+        "sourceUrl": "https://github.com/surya17495/centri",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
-          "开源生态"
+          "Agent"
         ],
-        "summary": "作为一名在行业工作超过 10 年的安全工程师，我在编码代理方面不断遇到同样的问题：指令并不能保证。我将指导放在“CLAUDE.md”、“AGENTS.md”中，...",
+        "summary": "当我几个月前开始我的构建之旅时，没有状态的人工智能代理/编码工具对我来说是一个很大的痛苦。所以我刚刚发布了一个 Opencode 分支（我目前的构建日常驱动程序......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -27,113 +74,66 @@
           "topic": 20,
           "actionability": 10,
           "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Show HN：Kintsugi——人工智能代理和人类的本地优先安全网",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-06-16T17:00:29+00:00",
-        "sourceUrl": "https://github.com/arrowassassin/kintsugi",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "AI 编码代理现在可以在您的计算机上运行真正的 shell 命令 - rm -rf、git push --force、DROP TABLE、dd、直接写入磁盘。几乎总是这样就可以了。有一次不是（幻觉……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "Show HN：VulnFeed – AI 代理可以调用​​的 9 种安全工具（MCP 服务器）",
-        "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-06-16T17:25:50+00:00",
-        "sourceUrl": "https://vulnfeed.novadyne.ai/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "安全治理"
-        ],
-        "summary": "文章网址：https://vulnfeed.novadyne.ai/ 评论网址：https://news.ycombinator.com/item?id=48558710 积分：1 # 评论：1",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 2
         }
       },
       {
         "rank": 4,
-        "title": "苹果 2027 年传闻：带有 AI 摄像头的 AirPods 和第二款折叠 iPhone",
-        "platform": "The Verge",
-        "aiScore": 83,
-        "publishedAt": "2026-06-16T17:04:05+00:00",
-        "sourceUrl": "https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor",
-        "sourceName": "The Verge AI",
+        "title": "吴清：科创板第五套标准扩大至人工智能大模型行业",
+        "platform": "36氪",
+        "aiScore": 85,
+        "publishedAt": "2026-06-17T03:09:45+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3856691788944647?f=rss",
+        "sourceName": "36氪",
         "industryStage": "中游",
         "contentTags": [
-          "开源生态"
+          "模型进展"
         ],
-        "summary": "现在我们已经了解了 WWDC 以及苹果平台上即将推出的所有新的人工智能功能，彭博社记者马克·古尔曼 (Mark Gurman) 掌握了有关传闻中的新硬件的更多详细信息，例如相机……",
+        "summary": "6月17日，证监会主席吴清在2026陆家嘴论坛上表示，科创板将第五套标准适用范围将扩大至人工智能大模型行业。（证券时报）",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
-          "topic": 8,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "高通最新芯片暗示更强大的智能眼镜可能即将问世",
-        "platform": "The Verge",
+        "title": "吴清：适时发布规范发展资本市场人工智能的指导意见",
+        "platform": "36氪",
         "aiScore": 80,
-        "publishedAt": "2026-06-16T17:00:00+00:00",
-        "sourceUrl": "https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables",
-        "sourceName": "The Verge AI",
-        "industryStage": "上游",
+        "publishedAt": "2026-06-17T03:16:33+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3856698466243848?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力"
+          "AI动态"
         ],
-        "summary": "智能眼镜仍然是一个新兴类别，但芯片制造商高通正在努力升级芯片，为下一波 XR 设备提供动力：Snapdragon Reality Elite。尽管高通...",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "6月17日，证监会主席吴清在2026陆家嘴论坛上表示，将适时发布规范发展资本市场人工智能的指导意见。（证券时报）",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
-          "topic": 11,
-          "actionability": 4,
+          "topic": 5,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 6,
-        "title": "我为机器人操作构建了一个泄漏清洁验证器，这有用吗？我正在解决一个非问题吗？ [D]",
-        "platform": "Reddit",
+        "title": "十分之四的人工智能代理即将降级或被扔进垃圾箱 (Gartner)",
+        "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-06-16T16:10:39+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u7hxem/i_built_a_leakageclean_verifier_for_robot/",
-        "sourceName": "Reddit r/MachineLearning",
+        "publishedAt": "2026-06-16T22:57:40+00:00",
+        "sourceUrl": "https://www.theregister.com/ai-ml/2026/05/27/4-in-10-ai-agents-headed-for-demotion-or-the-rubbish-bin/5246964",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展"
+          "Agent"
         ],
-        "summary": "在过去的几周里，我花了一个基准测试/线束来诚实地回答一个问题：机器人手臂是否真的完成了演示的任务，或者成功指标只是被愚弄了？这…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://www.theregister.com/ai-ml/2026/05/27/4-in-10-ai-agents-headed-for-demotion-or-the-rubbish-bin/5246964 评论网址：https://news.ycombinator.com/item?id=48563433 积分...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -144,130 +144,138 @@
       },
       {
         "rank": 7,
-        "title": "AI 代理的章鱼架构",
-        "platform": "Hacker News",
+        "title": "苹果 2027 年传闻：带有 AI 摄像头的 AirPods 和第二款折叠 iPhone",
+        "platform": "The Verge",
         "aiScore": 76,
-        "publishedAt": "2026-06-16T17:24:45+00:00",
-        "sourceUrl": "https://blog.goodman.dev/blog/octopus-agent-architecture/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "文章网址：https://blog.goodman.dev/blog/octopus-agent-architecture/ 评论网址：https://news.ycombinator.com/item?id=48558696 积分：4 # 评论：1",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 3
-        }
-      },
-      {
-        "rank": 8,
-        "title": "在代码开发中跟踪 AI 代理谱系和状态的逻辑方法",
-        "platform": "Hacker News",
-        "aiScore": 74,
-        "publishedAt": "2026-06-16T17:30:28+00:00",
-        "sourceUrl": "https://davenporter.substack.com/p/how-to-track-ai-agent-lineage-and",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "文章网址：https://davenporter.substack.com/p/how-to-track-ai-agent-lineage-and 评论网址：https://news.ycombinator.com/item?id=48558764 积分：1 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 1
-        }
-      },
-      {
-        "rank": 9,
-        "title": "询问 HN：您如何保持 AI 工具的前沿？",
-        "platform": "Hacker News",
-        "aiScore": 70,
-        "publishedAt": "2026-06-16T17:46:08+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=48559049",
-        "sourceName": "Hacker News AI",
+        "publishedAt": "2026-06-16T17:04:05+00:00",
+        "sourceUrl": "https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor",
+        "sourceName": "The Verge AI",
         "industryStage": "中游",
         "contentTags": [
           "开源生态"
         ],
-        "summary": "HN 很棒，尤其是与 Reddit 相比（除非我错过了最好的 Reddit 子版块？），但即使在这里，也有一些不知道如何骑自行车的人发表评论，武断地谈论我们如何……",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "现在我们已经了解了 WWDC 以及苹果平台上即将推出的所有新的人工智能功能，彭博社记者马克·古尔曼 (Mark Gurman) 掌握了有关传闻中的新硬件的更多详细信息，例如相机……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 8,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "如何使用 Docker 和 HTTPS 部署 Hermes AI Agent",
+        "platform": "Hacker News",
+        "aiScore": 75,
+        "publishedAt": "2026-06-17T00:14:36+00:00",
+        "sourceUrl": "https://devopness.com/blog/deploy-hermes-ai-agent-devopness/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "文章网址：https://devopness.com/blog/deploy-hermes-ai-agent-devopness/ 评论网址：https://news.ycombinator.com/item?id=48564127 积分：2 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 8,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 9,
+        "title": "雅迪与菜鸟达成数字化合作",
+        "platform": "36氪",
+        "aiScore": 74,
+        "publishedAt": "2026-06-17T03:13:33+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3856695510832390?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "36氪获悉，近日，两轮电动车制造商雅迪科技集团与物流科技企业菜鸟已达成数字化合作，双方于本月举办了配件供销中台项目启动会。据了解，该项目被雅迪列为最高级别战略项目，历经10个月筹备后已经进入正式的推进实施期。项目旨在利用人工智能和数字技术全面重构雅迪的配件供应链管理体系。",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 5,
           "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "2026 年如何在 Mac 上使用 Nvidia EGPU 实现本地 AI",
-        "platform": "Hacker News",
-        "aiScore": 70,
-        "publishedAt": "2026-06-16T17:25:58+00:00",
-        "sourceUrl": "https://www.compute-market.com/blog/nvidia-egpu-mac-local-ai-setup-2026",
-        "sourceName": "Hacker News AI",
-        "industryStage": "上游",
+        "title": "支付宝：从未授权任何第三方进行内测邀请码的有偿交易",
+        "platform": "36氪",
+        "aiScore": 74,
+        "publishedAt": "2026-06-17T02:45:46+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3856668201767942?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力"
+          "AI动态"
         ],
-        "summary": "文章网址：https://www.compute-market.com/blog/nvidia-egpu-mac-local-ai-setup-2026 评论网址：https://news.ycombinator.com/item?id=48558711 积分：3 # 评论：0",
+        "summary": "36氪获悉，支付宝发文称，随着AI版支付宝“阿宝”启动邀请测试，公司注意到，部分网络平台出现了“AI版支付宝内测邀请码”交易商品，在此温馨提醒：支付宝从未授权任何第三方进行内测邀请码的有偿交易，阿宝邀请码无需付费购买，可通过已激活用户免费分享获得。同时，支付宝正逐步扩大阿宝的邀请测试范围，让更多用户参与体验。",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 11,
+          "authority": 25,
+          "topic": 5,
           "actionability": 4,
-          "heat": 2
+          "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 18,
-      "avgScore": 72.9,
-      "topScore": 88,
+      "totalItems": 32,
+      "avgScore": 72.0,
+      "topScore": 95,
       "topPlatforms": [
         {
           "name": "Hacker News",
           "count": 15
         },
         {
+          "name": "Reddit",
+          "count": 8
+        },
+        {
+          "name": "36氪",
+          "count": 6
+        },
+        {
           "name": "The Verge",
           "count": 2
         },
         {
-          "name": "Reddit",
+          "name": "爱范儿",
           "count": 1
         }
       ],
       "topTopics": [
         {
-          "name": "开源生态",
-          "count": 6
+          "name": "AI动态",
+          "count": 17
+        },
+        {
+          "name": "模型进展",
+          "count": 5
         },
         {
           "name": "Agent",
           "count": 5
         },
         {
-          "name": "AI动态",
-          "count": 5
-        },
-        {
-          "name": "模型进展",
-          "count": 3
-        },
-        {
           "name": "芯片算力",
+          "count": 4
+        },
+        {
+          "name": "开源生态",
           "count": 2
         },
         {
@@ -275,15 +283,19 @@
           "count": 1
         },
         {
-          "name": "内容生产",
+          "name": "投融资",
+          "count": 1
+        },
+        {
+          "name": "应用落地",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 18 条 AI 资讯，Top10 通报见下。",
-      "高频主题：开源生态 / Agent / AI动态",
-      "最高分事件：Show HN：在 AI 编码代理的工具调用之前运行的策略门（88 分）",
+      "今日共收录 32 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月（95 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -293,20 +305,67 @@
       "label": "6月17日",
       "top10": [
         {
-          "rank": 5,
-          "title": "Show HN：在 AI 编码代理的工具调用之前运行的策略门",
+          "rank": 1,
+          "title": "「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-06-17T01:00:00+00:00",
+          "sourceUrl": "https://36kr.com/p/3826129009234824?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "文｜王毓婵 编辑｜张雨忻 2026 年以来，一级市场对世界模型的抢筹进入白热化阶段。资金不再像早期那样“广撒网”，而是高度向头部玩家集中。这其中，逆矩阵科技（Physis）就接连完成了多轮融资。 36氪智能涌现独家据悉，世界模型公司逆矩阵科技已完成超亿美元种子++轮融资；此前的 3 月，刚完成了超千万美元首轮融资。本轮由经纬创投、五源资本、光合创投等机构共同参与，并获蚂蚁集团…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "8点1氪丨连涨3天，SpaceX超越亚马逊跻身全球前五；支付宝启动史上最大改版；微信支付“AI专属卡”最快本周内上线",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-06-17T00:22:06+00:00",
+          "sourceUrl": "https://36kr.com/p/3856525981275138?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "今日热点导览 山姆中国变更董事长 海康威视7月1日上调硬盘价 5月份全球纯电和插电式混动汽车销量连续三个月增长 美国零售经纪商处的SpaceX投资者每人至少分得一股IPO股票 传苹果首款折叠屏将延期发布，产业链人士：假的 TOP 3 大新闻 连涨3天，SpaceX超越亚马逊跻身全球前五 6月16日，SpaceX开盘迅速拉升，涨幅一度扩大至17%，市值一度超越微软，盘中总市值触…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Show HN：构建有状态的 AI 代理",
           "platform": "Hacker News",
           "aiScore": 88,
-          "publishedAt": "2026-06-16T17:12:02+00:00",
-          "sourceUrl": "https://sigmashake.com",
+          "publishedAt": "2026-06-17T02:18:11+00:00",
+          "sourceUrl": "https://github.com/surya17495/centri",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent",
-            "开源生态"
+            "Agent"
           ],
-          "summary": "作为一名在行业工作超过 10 年的安全工程师，我在编码代理方面不断遇到同样的问题：指令并不能保证。我将指导放在“CLAUDE.md”、“AGENTS.md”中，...",
+          "summary": "当我几个月前开始我的构建之旅时，没有状态的人工智能代理/编码工具对我来说是一个很大的痛苦。所以我刚刚发布了一个 Opencode 分支（我目前的构建日常驱动程序......",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -314,113 +373,66 @@
             "topic": 20,
             "actionability": 10,
             "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "Show HN：Kintsugi——人工智能代理和人类的本地优先安全网",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-06-16T17:00:29+00:00",
-          "sourceUrl": "https://github.com/arrowassassin/kintsugi",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "AI 编码代理现在可以在您的计算机上运行真正的 shell 命令 - rm -rf、git push --force、DROP TABLE、dd、直接写入磁盘。几乎总是这样就可以了。有一次不是（幻觉……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "Show HN：VulnFeed – AI 代理可以调用​​的 9 种安全工具（MCP 服务器）",
-          "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-06-16T17:25:50+00:00",
-          "sourceUrl": "https://vulnfeed.novadyne.ai/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "安全治理"
-          ],
-          "summary": "文章网址：https://vulnfeed.novadyne.ai/ 评论网址：https://news.ycombinator.com/item?id=48558710 积分：1 # 评论：1",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 2
           }
         },
         {
           "rank": 4,
-          "title": "苹果 2027 年传闻：带有 AI 摄像头的 AirPods 和第二款折叠 iPhone",
-          "platform": "The Verge",
-          "aiScore": 83,
-          "publishedAt": "2026-06-16T17:04:05+00:00",
-          "sourceUrl": "https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor",
-          "sourceName": "The Verge AI",
+          "title": "吴清：科创板第五套标准扩大至人工智能大模型行业",
+          "platform": "36氪",
+          "aiScore": 85,
+          "publishedAt": "2026-06-17T03:09:45+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3856691788944647?f=rss",
+          "sourceName": "36氪",
           "industryStage": "中游",
           "contentTags": [
-            "开源生态"
+            "模型进展"
           ],
-          "summary": "现在我们已经了解了 WWDC 以及苹果平台上即将推出的所有新的人工智能功能，彭博社记者马克·古尔曼 (Mark Gurman) 掌握了有关传闻中的新硬件的更多详细信息，例如相机……",
+          "summary": "6月17日，证监会主席吴清在2026陆家嘴论坛上表示，科创板将第五套标准适用范围将扩大至人工智能大模型行业。（证券时报）",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
-            "topic": 8,
+            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 5,
-          "title": "高通最新芯片暗示更强大的智能眼镜可能即将问世",
-          "platform": "The Verge",
+          "title": "吴清：适时发布规范发展资本市场人工智能的指导意见",
+          "platform": "36氪",
           "aiScore": 80,
-          "publishedAt": "2026-06-16T17:00:00+00:00",
-          "sourceUrl": "https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables",
-          "sourceName": "The Verge AI",
-          "industryStage": "上游",
+          "publishedAt": "2026-06-17T03:16:33+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3856698466243848?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
           "contentTags": [
-            "芯片算力"
+            "AI动态"
           ],
-          "summary": "智能眼镜仍然是一个新兴类别，但芯片制造商高通正在努力升级芯片，为下一波 XR 设备提供动力：Snapdragon Reality Elite。尽管高通...",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "6月17日，证监会主席吴清在2026陆家嘴论坛上表示，将适时发布规范发展资本市场人工智能的指导意见。（证券时报）",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
-            "topic": 11,
-            "actionability": 4,
+            "topic": 5,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 6,
-          "title": "我为机器人操作构建了一个泄漏清洁验证器，这有用吗？我正在解决一个非问题吗？ [D]",
-          "platform": "Reddit",
+          "title": "十分之四的人工智能代理即将降级或被扔进垃圾箱 (Gartner)",
+          "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-06-16T16:10:39+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u7hxem/i_built_a_leakageclean_verifier_for_robot/",
-          "sourceName": "Reddit r/MachineLearning",
+          "publishedAt": "2026-06-16T22:57:40+00:00",
+          "sourceUrl": "https://www.theregister.com/ai-ml/2026/05/27/4-in-10-ai-agents-headed-for-demotion-or-the-rubbish-bin/5246964",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展"
+            "Agent"
           ],
-          "summary": "在过去的几周里，我花了一个基准测试/线束来诚实地回答一个问题：机器人手臂是否真的完成了演示的任务，或者成功指标只是被愚弄了？这…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "文章网址：https://www.theregister.com/ai-ml/2026/05/27/4-in-10-ai-agents-headed-for-demotion-or-the-rubbish-bin/5246964 评论网址：https://news.ycombinator.com/item?id=48563433 积分...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
@@ -431,130 +443,138 @@
         },
         {
           "rank": 7,
-          "title": "AI 代理的章鱼架构",
-          "platform": "Hacker News",
+          "title": "苹果 2027 年传闻：带有 AI 摄像头的 AirPods 和第二款折叠 iPhone",
+          "platform": "The Verge",
           "aiScore": 76,
-          "publishedAt": "2026-06-16T17:24:45+00:00",
-          "sourceUrl": "https://blog.goodman.dev/blog/octopus-agent-architecture/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "文章网址：https://blog.goodman.dev/blog/octopus-agent-architecture/ 评论网址：https://news.ycombinator.com/item?id=48558696 积分：4 # 评论：1",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 3
-          }
-        },
-        {
-          "rank": 8,
-          "title": "在代码开发中跟踪 AI 代理谱系和状态的逻辑方法",
-          "platform": "Hacker News",
-          "aiScore": 74,
-          "publishedAt": "2026-06-16T17:30:28+00:00",
-          "sourceUrl": "https://davenporter.substack.com/p/how-to-track-ai-agent-lineage-and",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "文章网址：https://davenporter.substack.com/p/how-to-track-ai-agent-lineage-and 评论网址：https://news.ycombinator.com/item?id=48558764 积分：1 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 1
-          }
-        },
-        {
-          "rank": 9,
-          "title": "询问 HN：您如何保持 AI 工具的前沿？",
-          "platform": "Hacker News",
-          "aiScore": 70,
-          "publishedAt": "2026-06-16T17:46:08+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=48559049",
-          "sourceName": "Hacker News AI",
+          "publishedAt": "2026-06-16T17:04:05+00:00",
+          "sourceUrl": "https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor",
+          "sourceName": "The Verge AI",
           "industryStage": "中游",
           "contentTags": [
             "开源生态"
           ],
-          "summary": "HN 很棒，尤其是与 Reddit 相比（除非我错过了最好的 Reddit 子版块？），但即使在这里，也有一些不知道如何骑自行车的人发表评论，武断地谈论我们如何……",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "现在我们已经了解了 WWDC 以及苹果平台上即将推出的所有新的人工智能功能，彭博社记者马克·古尔曼 (Mark Gurman) 掌握了有关传闻中的新硬件的更多详细信息，例如相机……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 8,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "如何使用 Docker 和 HTTPS 部署 Hermes AI Agent",
+          "platform": "Hacker News",
+          "aiScore": 75,
+          "publishedAt": "2026-06-17T00:14:36+00:00",
+          "sourceUrl": "https://devopness.com/blog/deploy-hermes-ai-agent-devopness/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "文章网址：https://devopness.com/blog/deploy-hermes-ai-agent-devopness/ 评论网址：https://news.ycombinator.com/item?id=48564127 积分：2 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 8,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 9,
+          "title": "雅迪与菜鸟达成数字化合作",
+          "platform": "36氪",
+          "aiScore": 74,
+          "publishedAt": "2026-06-17T03:13:33+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3856695510832390?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "36氪获悉，近日，两轮电动车制造商雅迪科技集团与物流科技企业菜鸟已达成数字化合作，双方于本月举办了配件供销中台项目启动会。据了解，该项目被雅迪列为最高级别战略项目，历经10个月筹备后已经进入正式的推进实施期。项目旨在利用人工智能和数字技术全面重构雅迪的配件供应链管理体系。",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 5,
             "actionability": 4,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "2026 年如何在 Mac 上使用 Nvidia EGPU 实现本地 AI",
-          "platform": "Hacker News",
-          "aiScore": 70,
-          "publishedAt": "2026-06-16T17:25:58+00:00",
-          "sourceUrl": "https://www.compute-market.com/blog/nvidia-egpu-mac-local-ai-setup-2026",
-          "sourceName": "Hacker News AI",
-          "industryStage": "上游",
+          "title": "支付宝：从未授权任何第三方进行内测邀请码的有偿交易",
+          "platform": "36氪",
+          "aiScore": 74,
+          "publishedAt": "2026-06-17T02:45:46+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3856668201767942?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
           "contentTags": [
-            "芯片算力"
+            "AI动态"
           ],
-          "summary": "文章网址：https://www.compute-market.com/blog/nvidia-egpu-mac-local-ai-setup-2026 评论网址：https://news.ycombinator.com/item?id=48558711 积分：3 # 评论：0",
+          "summary": "36氪获悉，支付宝发文称，随着AI版支付宝“阿宝”启动邀请测试，公司注意到，部分网络平台出现了“AI版支付宝内测邀请码”交易商品，在此温馨提醒：支付宝从未授权任何第三方进行内测邀请码的有偿交易，阿宝邀请码无需付费购买，可通过已激活用户免费分享获得。同时，支付宝正逐步扩大阿宝的邀请测试范围，让更多用户参与体验。",
           "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 11,
+            "authority": 25,
+            "topic": 5,
             "actionability": 4,
-            "heat": 2
+            "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 18,
-        "avgScore": 72.9,
-        "topScore": 88,
+        "totalItems": 32,
+        "avgScore": 72.0,
+        "topScore": 95,
         "topPlatforms": [
           {
             "name": "Hacker News",
             "count": 15
           },
           {
+            "name": "Reddit",
+            "count": 8
+          },
+          {
+            "name": "36氪",
+            "count": 6
+          },
+          {
             "name": "The Verge",
             "count": 2
           },
           {
-            "name": "Reddit",
+            "name": "爱范儿",
             "count": 1
           }
         ],
         "topTopics": [
           {
-            "name": "开源生态",
-            "count": 6
+            "name": "AI动态",
+            "count": 17
+          },
+          {
+            "name": "模型进展",
+            "count": 5
           },
           {
             "name": "Agent",
             "count": 5
           },
           {
-            "name": "AI动态",
-            "count": 5
-          },
-          {
-            "name": "模型进展",
-            "count": 3
-          },
-          {
             "name": "芯片算力",
+            "count": 4
+          },
+          {
+            "name": "开源生态",
             "count": 2
           },
           {
@@ -562,15 +582,19 @@
             "count": 1
           },
           {
-            "name": "内容生产",
+            "name": "投融资",
+            "count": 1
+          },
+          {
+            "name": "应用落地",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 18 条 AI 资讯，Top10 通报见下。",
-        "高频主题：开源生态 / Agent / AI动态",
-        "最高分事件：Show HN：在 AI 编码代理的工具调用之前运行的策略门（88 分）",
+        "今日共收录 32 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月（95 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -579,7 +603,7 @@
       "label": "6月16日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 3,
           "title": "乘新浪潮之势，建智造创新之城，2026年番禺产业高质量发展招商大会圆满举行",
           "platform": "36氪",
           "aiScore": 95,
@@ -603,7 +627,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 4,
           "title": "在大疆、影石夹缝中做智能影像生意，这家公司连续五年每年增长50%｜硬氪专访",
           "platform": "36氪",
           "aiScore": 95,
@@ -627,7 +651,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 5,
           "title": "融了数亿美金的「大晓机器人」，其创始人揭开了具身行业的割裂一面",
           "platform": "36氪",
           "aiScore": 94,
@@ -651,7 +675,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "大多数对《神鬼寓言 5》进行逆向工程的尝试都没有抓住要点",
           "platform": "Reddit",
           "aiScore": 88,
@@ -674,7 +698,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "我在 OneDrive 中有 3,000 张照片和视频。我如何用人工智能来组织它们？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -698,7 +722,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "8点1氪｜山姆总部因食品安全问题被约谈；智谱股价暴涨，创上市以来单日成交新高；美伊确认达成协议，国际油价显著下跌",
           "platform": "36氪",
           "aiScore": 88,
@@ -887,7 +911,7 @@
       "label": "6月15日",
       "top10": [
         {
-          "rank": 4,
+          "rank": 6,
           "title": "4步出声，单卡0.24秒！Noiz AI联合港科大清华，开源音频生成大模型",
           "platform": "量子位",
           "aiScore": 93,
@@ -27986,24 +28010,24 @@
     },
     "metrics": {
       "daysCovered": 3,
-      "totalItems": 109,
-      "avgTop10Score": 90.5,
+      "totalItems": 123,
+      "avgTop10Score": 91.9,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 4
+          "count": 6
         },
         {
           "name": "Reddit",
-          "count": 3
-        },
-        {
-          "name": "Hacker News",
           "count": 2
         },
         {
           "name": "量子位",
+          "count": 1
+        },
+        {
+          "name": "Hacker News",
           "count": 1
         }
       ],
@@ -28014,25 +28038,73 @@
         },
         {
           "name": "Agent",
-          "count": 6
-        },
-        {
-          "name": "应用落地",
-          "count": 4
+          "count": 7
         },
         {
           "name": "芯片算力",
-          "count": 4
+          "count": 5
+        },
+        {
+          "name": "应用落地",
+          "count": 3
         },
         {
           "name": "开源生态",
-          "count": 4
+          "count": 2
         }
       ]
     },
     "topEvents": [
       {
         "rank": 1,
+        "title": "「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-06-17T01:00:00+00:00",
+        "sourceUrl": "https://36kr.com/p/3826129009234824?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "文｜王毓婵 编辑｜张雨忻 2026 年以来，一级市场对世界模型的抢筹进入白热化阶段。资金不再像早期那样“广撒网”，而是高度向头部玩家集中。这其中，逆矩阵科技（Physis）就接连完成了多轮融资。 36氪智能涌现独家据悉，世界模型公司逆矩阵科技已完成超亿美元种子++轮融资；此前的 3 月，刚完成了超千万美元首轮融资。本轮由经纬创投、五源资本、光合创投等机构共同参与，并获蚂蚁集团…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "8点1氪丨连涨3天，SpaceX超越亚马逊跻身全球前五；支付宝启动史上最大改版；微信支付“AI专属卡”最快本周内上线",
+        "platform": "36氪",
+        "aiScore": 95,
+        "publishedAt": "2026-06-17T00:22:06+00:00",
+        "sourceUrl": "https://36kr.com/p/3856525981275138?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "今日热点导览 山姆中国变更董事长 海康威视7月1日上调硬盘价 5月份全球纯电和插电式混动汽车销量连续三个月增长 美国零售经纪商处的SpaceX投资者每人至少分得一股IPO股票 传苹果首款折叠屏将延期发布，产业链人士：假的 TOP 3 大新闻 连涨3天，SpaceX超越亚马逊跻身全球前五 6月16日，SpaceX开盘迅速拉升，涨幅一度扩大至17%，市值一度超越微软，盘中总市值触…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
         "title": "乘新浪潮之势，建智造创新之城，2026年番禺产业高质量发展招商大会圆满举行",
         "platform": "36氪",
         "aiScore": 95,
@@ -28056,7 +28128,7 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 4,
         "title": "在大疆、影石夹缝中做智能影像生意，这家公司连续五年每年增长50%｜硬氪专访",
         "platform": "36氪",
         "aiScore": 95,
@@ -28080,7 +28152,7 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 5,
         "title": "融了数亿美金的「大晓机器人」，其创始人揭开了具身行业的割裂一面",
         "platform": "36氪",
         "aiScore": 94,
@@ -28104,7 +28176,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 6,
         "title": "4步出声，单卡0.24秒！Noiz AI联合港科大清华，开源音频生成大模型",
         "platform": "量子位",
         "aiScore": 93,
@@ -28127,55 +28199,30 @@
         }
       },
       {
-        "rank": 5,
-        "title": "Show HN：在 AI 编码代理的工具调用之前运行的策略门",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-06-16T17:12:02+00:00",
-        "sourceUrl": "https://sigmashake.com",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "作为一名在行业工作超过 10 年的安全工程师，我在编码代理方面不断遇到同样的问题：指令并不能保证。我将指导放在“CLAUDE.md”、“AGENTS.md”中，...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Show HN：Kintsugi——人工智能代理和人类的本地优先安全网",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-06-16T17:00:29+00:00",
-        "sourceUrl": "https://github.com/arrowassassin/kintsugi",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "AI 编码代理现在可以在您的计算机上运行真正的 shell 命令 - rm -rf、git push --force、DROP TABLE、dd、直接写入磁盘。几乎总是这样就可以了。有一次不是（幻觉……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
         "rank": 7,
+        "title": "Show HN：构建有状态的 AI 代理",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-06-17T02:18:11+00:00",
+        "sourceUrl": "https://github.com/surya17495/centri",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "当我几个月前开始我的构建之旅时，没有状态的人工智能代理/编码工具对我来说是一个很大的痛苦。所以我刚刚发布了一个 Opencode 分支（我目前的构建日常驱动程序......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
         "title": "大多数对《神鬼寓言 5》进行逆向工程的尝试都没有抓住要点",
         "platform": "Reddit",
         "aiScore": 88,
@@ -28198,7 +28245,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "我在 OneDrive 中有 3,000 张照片和视频。我如何用人工智能来组织它们？",
         "platform": "Reddit",
         "aiScore": 88,
@@ -28222,7 +28269,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "8点1氪｜山姆总部因食品安全问题被约谈；智谱股价暴涨，创上市以来单日成交新高；美伊确认达成协议，国际油价显著下跌",
         "platform": "36氪",
         "aiScore": 88,
@@ -28244,37 +28291,13 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "美国刚刚将前沿人工智能列为受控出口，就像英伟达芯片一样",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-06-15T03:04:03+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u64nok/the_us_just_made_frontier_ai_a_controlled_export/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "美国政府刚刚要求 Anthropic 切断其与地球上所有外国人（无论是美国境内还是境外）的两种最强大的模型的联系。人择法无法将外国人彻底区分开来……",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "6月第3周累计收录 109 条资讯，覆盖 3 天。",
-      "高频主题：模型进展 / Agent / 应用落地",
-      "本周最高分：乘新浪潮之势，建智造创新之城，2026年番禺产业高质量发展招商大会圆满举行（95 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "6月第3周累计收录 123 条资讯，覆盖 3 天。",
+      "高频主题：模型进展 / Agent / 芯片算力",
+      "本周最高分：「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月（95 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
@@ -28287,24 +28310,24 @@
       },
       "metrics": {
         "daysCovered": 3,
-        "totalItems": 109,
-        "avgTop10Score": 90.5,
+        "totalItems": 123,
+        "avgTop10Score": 91.9,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 4
+            "count": 6
           },
           {
             "name": "Reddit",
-            "count": 3
-          },
-          {
-            "name": "Hacker News",
             "count": 2
           },
           {
             "name": "量子位",
+            "count": 1
+          },
+          {
+            "name": "Hacker News",
             "count": 1
           }
         ],
@@ -28315,25 +28338,73 @@
           },
           {
             "name": "Agent",
-            "count": 6
-          },
-          {
-            "name": "应用落地",
-            "count": 4
+            "count": 7
           },
           {
             "name": "芯片算力",
-            "count": 4
+            "count": 5
+          },
+          {
+            "name": "应用落地",
+            "count": 3
           },
           {
             "name": "开源生态",
-            "count": 4
+            "count": 2
           }
         ]
       },
       "topEvents": [
         {
           "rank": 1,
+          "title": "「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-06-17T01:00:00+00:00",
+          "sourceUrl": "https://36kr.com/p/3826129009234824?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "文｜王毓婵 编辑｜张雨忻 2026 年以来，一级市场对世界模型的抢筹进入白热化阶段。资金不再像早期那样“广撒网”，而是高度向头部玩家集中。这其中，逆矩阵科技（Physis）就接连完成了多轮融资。 36氪智能涌现独家据悉，世界模型公司逆矩阵科技已完成超亿美元种子++轮融资；此前的 3 月，刚完成了超千万美元首轮融资。本轮由经纬创投、五源资本、光合创投等机构共同参与，并获蚂蚁集团…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "8点1氪丨连涨3天，SpaceX超越亚马逊跻身全球前五；支付宝启动史上最大改版；微信支付“AI专属卡”最快本周内上线",
+          "platform": "36氪",
+          "aiScore": 95,
+          "publishedAt": "2026-06-17T00:22:06+00:00",
+          "sourceUrl": "https://36kr.com/p/3856525981275138?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "今日热点导览 山姆中国变更董事长 海康威视7月1日上调硬盘价 5月份全球纯电和插电式混动汽车销量连续三个月增长 美国零售经纪商处的SpaceX投资者每人至少分得一股IPO股票 传苹果首款折叠屏将延期发布，产业链人士：假的 TOP 3 大新闻 连涨3天，SpaceX超越亚马逊跻身全球前五 6月16日，SpaceX开盘迅速拉升，涨幅一度扩大至17%，市值一度超越微软，盘中总市值触…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
           "title": "乘新浪潮之势，建智造创新之城，2026年番禺产业高质量发展招商大会圆满举行",
           "platform": "36氪",
           "aiScore": 95,
@@ -28357,7 +28428,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 4,
           "title": "在大疆、影石夹缝中做智能影像生意，这家公司连续五年每年增长50%｜硬氪专访",
           "platform": "36氪",
           "aiScore": 95,
@@ -28381,7 +28452,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 5,
           "title": "融了数亿美金的「大晓机器人」，其创始人揭开了具身行业的割裂一面",
           "platform": "36氪",
           "aiScore": 94,
@@ -28405,7 +28476,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 6,
           "title": "4步出声，单卡0.24秒！Noiz AI联合港科大清华，开源音频生成大模型",
           "platform": "量子位",
           "aiScore": 93,
@@ -28428,55 +28499,30 @@
           }
         },
         {
-          "rank": 5,
-          "title": "Show HN：在 AI 编码代理的工具调用之前运行的策略门",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-06-16T17:12:02+00:00",
-          "sourceUrl": "https://sigmashake.com",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "作为一名在行业工作超过 10 年的安全工程师，我在编码代理方面不断遇到同样的问题：指令并不能保证。我将指导放在“CLAUDE.md”、“AGENTS.md”中，...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "Show HN：Kintsugi——人工智能代理和人类的本地优先安全网",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-06-16T17:00:29+00:00",
-          "sourceUrl": "https://github.com/arrowassassin/kintsugi",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "AI 编码代理现在可以在您的计算机上运行真正的 shell 命令 - rm -rf、git push --force、DROP TABLE、dd、直接写入磁盘。几乎总是这样就可以了。有一次不是（幻觉……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
           "rank": 7,
+          "title": "Show HN：构建有状态的 AI 代理",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-06-17T02:18:11+00:00",
+          "sourceUrl": "https://github.com/surya17495/centri",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "当我几个月前开始我的构建之旅时，没有状态的人工智能代理/编码工具对我来说是一个很大的痛苦。所以我刚刚发布了一个 Opencode 分支（我目前的构建日常驱动程序......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
           "title": "大多数对《神鬼寓言 5》进行逆向工程的尝试都没有抓住要点",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28499,7 +28545,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "我在 OneDrive 中有 3,000 张照片和视频。我如何用人工智能来组织它们？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28523,7 +28569,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "8点1氪｜山姆总部因食品安全问题被约谈；智谱股价暴涨，创上市以来单日成交新高；美伊确认达成协议，国际油价显著下跌",
           "platform": "36氪",
           "aiScore": 88,
@@ -28545,37 +28591,13 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "美国刚刚将前沿人工智能列为受控出口，就像英伟达芯片一样",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-15T03:04:03+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u64nok/the_us_just_made_frontier_ai_a_controlled_export/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "美国政府刚刚要求 Anthropic 切断其与地球上所有外国人（无论是美国境内还是境外）的两种最强大的模型的联系。人择法无法将外国人彻底区分开来……",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "6月第3周累计收录 109 条资讯，覆盖 3 天。",
-        "高频主题：模型进展 / Agent / 应用落地",
-        "本周最高分：乘新浪潮之势，建智造创新之城，2026年番禺产业高质量发展招商大会圆满举行（95 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "6月第3周累计收录 123 条资讯，覆盖 3 天。",
+        "高频主题：模型进展 / Agent / 芯片算力",
+        "本周最高分：「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月（95 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
