@@ -9,7 +9,7 @@
 
 | # | 任务 | 状态 | 下一步 |
 |---|---|---|---|
-| 1 | 合作页迭代（v4 Stripe 浅色风已上线） | ✅ done | v4 已上线；对外口径已脱敏（2026-06-16）：宇宙熊→初创、世界500强/运动集团/商品管理/年流水4亿→大型电商集团等模糊表述，commit 3cfd3e3 |
+| 1 | 首页视觉重做（全宽 bento grid + 浅色统一） | ✅ done | 680px→1100px 全宽，GSAP 动画，Space Grotesk 字体，stats bar，3列教程 grid，双栏新闻/TIL（2026-06-17） |
 | 2 | Mission Control 仪表盘 | 🟡 in-progress | migration 005/006 与 mc-* API 已在仓库，待端到端验证 |
 | 3 | 语义搜索 (Vectorize + Workers AI) | 🔵 planned | 用 Cloudflare Vectorize 做教程语义搜索 |
 
@@ -19,6 +19,8 @@
 
 | 任务 | 完成日 | Plan 文件 |
 |---|---|---|
+| 首页视觉重做：全宽 bento grid + GSAP 动画 + 浅色统一 + Lenis 移除修滚动卡顿 | 06-17 | `2026-06-16-homepage-redesign.md` |
+| 合作页迭代 v4 Stripe 浅色风 + 二次脱敏 | 06-16 | — |
 | 网站双入口改版：首页双入口 + 合作页 v1→v3（液态玻璃 + Agent 控制台 + 聚光/计数/marquee）| 06-12 | — |
 | 数据闭环修复：visits D1 多行 DDL bug + /api/utm 服务端上报 + migration_007 | 06-11 | — |
 | CCA-F 备考资料入库（claude-cert/，6 domain + 术语表）| 06-11 | — |
