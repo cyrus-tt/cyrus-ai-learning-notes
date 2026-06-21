@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-06-20T15:02:32.272956+00:00",
+  "generatedAt": "2026-06-21T05:58:45.605433+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-06-20",
-    "label": "6月20日",
+    "date": "2026-06-21",
+    "label": "6月21日",
     "top10": [
       {
         "rank": 1,
-        "title": "撸猫撸出SOTA！3个00后2个月，造出史上最快流式音视频社交模型",
-        "platform": "量子位",
-        "aiScore": 91,
-        "publishedAt": "2026-06-20T10:42:35+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/06/436996.html",
-        "sourceName": "量子位",
+        "title": "构建可靠的代理人工智能系统",
+        "platform": "Hacker News",
+        "aiScore": 87,
+        "publishedAt": "2026-06-21T04:28:39+00:00",
+        "sourceUrl": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "内容生产"
+          "Agent"
         ],
-        "summary": "速度快7倍，成本只有Veo 3的1/2000",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://martinfowler.com/articles/reliable-llm-bayer.html 评论网址：https://news.ycombinator.com/item?id=48615680 积分：12 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 16,
+          "authority": 18,
+          "topic": 20,
           "actionability": 10,
-          "heat": 5
+          "heat": 4
         }
       },
       {
         "rank": 2,
-        "title": "Show HN：FOSS 沙盒平台，向开发人员和 AI 代理隐藏基础设施秘密",
-        "platform": "Hacker News",
+        "title": "镜子——具有跨模型持久性的叙事冒险",
+        "platform": "Reddit",
         "aiScore": 86,
-        "publishedAt": "2026-06-20T13:19:20+00:00",
-        "sourceUrl": "https://github.com/octelium/cordium",
-        "sourceName": "Hacker News AI",
-        "industryStage": "上游",
+        "publishedAt": "2026-06-21T04:02:47+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1ubg3n4/the_looking_mirror_a_narrative_adventure_with/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
         "contentTags": [
-          "Agent",
+          "模型进展",
           "开源生态"
         ],
-        "summary": "你好，HN。 Cordium 是一个 FOSS、自托管、基于身份的通用沙箱平台，我已经在该平台上工作了很长时间，它构建在 Kubernetes 和 Octelium 之上，这是我的主要工作……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "我正在尝试在不同模型之间保持连续性的上下文叙事系统。 The Looking Mirror 是一个完全本地化、文本驱动的世界模型，具有： • 持久状态 •...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -53,194 +53,191 @@
       },
       {
         "rank": 3,
-        "title": "Show HN：由小语言模型支持的多代理人工智能贸易公司模拟",
-        "platform": "Hacker News",
-        "aiScore": 85,
-        "publishedAt": "2026-06-20T14:21:48+00:00",
-        "sourceUrl": "https://huggingface.co/spaces/build-small-hackathon/Wall-Street-of-AI-Agents",
-        "sourceName": "Hacker News AI",
+        "title": "《大西洋月刊》创建了一个可搜索的用于训练人工智能的音乐数据库",
+        "platform": "The Verge",
+        "aiScore": 86,
+        "publishedAt": "2026-06-20T18:46:48+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+        "sourceName": "The Verge AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "开源生态"
         ],
-        "summary": "文章网址：https://huggingface.co/spaces/build-small-hackathon/Wall-Street-of-AI-Agents 评论网址：https://news.ycombinator.com/item?id=48609429 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 4,
-        "title": "特朗普：不再将Anthropic视为国家安全威胁",
-        "platform": "36氪",
-        "aiScore": 83,
-        "publishedAt": "2026-06-20T09:49:42+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3861259140764678?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "安全治理"
-        ],
-        "summary": "在6月19日发布的《阿克西奥斯秀》（《Axios Show》）访谈节目中，美国总统特朗普表示，他已经不再将美国人工智能公司安特罗匹克（Anthropic）视为国家安全威胁。 （财联社）",
+        "summary": "《大西洋月刊》记者 Alex Reisner 最近发现了四个用于训练人工智能模型的音乐数据集，并使它们完全可供公众搜索。其中两套绝对是巨大的……",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
-          "topic": 8,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 5,
-        "title": "如何成为一名AI基础设施工程师？",
-        "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-06-20T14:24:38+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=48609457",
-        "sourceName": "Hacker News AI",
+        "rank": 4,
+        "title": "AI投资热潮向上游扩散，美股多家半导体设备龙头今年翻倍",
+        "platform": "36氪",
+        "aiScore": 84,
+        "publishedAt": "2026-06-21T04:38:21+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3862419587781894?f=rss",
+        "sourceName": "36氪",
         "industryStage": "上游",
         "contentTags": [
-          "芯片算力",
-          "模型进展"
+          "应用落地",
+          "投融资"
         ],
-        "summary": "您好，我目前在当地最大的工业公司之一的 GenAI 平台工作。我的日常工作主要涉及在 48x H200 GPU、Kuberne 之上构建推理基础设施……",
+        "summary": "回顾年初至今的美股市场，不仅半导体、光通信等AI硬件板块集体狂飙，产业链上游的半导体设备赛道亦同步走出亮眼升势。据统计，美股总市值超百亿美元的9家半导体设备公司，今年以来股价涨幅均已超过75%。其中，应用材料、拉姆研究、科磊、泰瑞达、MKS Inc、英特格、Onto Innovation Inc这7只个股年内股价实现翻倍。就产业逻辑而言，种种迹象表明，半导体设备正迎来机构所谓…",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 20,
+          "authority": 25,
+          "topic": 15,
           "actionability": 4,
           "heat": 5
         }
       },
       {
-        "rank": 6,
-        "title": "大多数人工智能功能不会因为模型而失败",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-06-20T06:01:57+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uaot41/most_ai_features_dont_fail_because_of_the_model/",
-        "sourceName": "Reddit r/artificial",
+        "rank": 5,
+        "title": "Show HN：代理历史学家 – 让您的 AI 代理搜索自己过去的会话",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-06-21T02:58:08+00:00",
+        "sourceUrl": "https://github.com/adlternative/agent-historian",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
           "Agent",
-          "应用落地"
+          "开源生态"
         ],
-        "summary": "在我上一份工作中看到人工智能功能基本上在发布后慢慢死亡后，我对此坐了一段时间，而且我认为模型失败的解释通常是转移注意力的。联合…",
+        "summary": "文章网址：https://github.com/adlternative/agent-historian 评论网址：https://news.ycombinator.com/item?id=48615257 积分：2 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 18,
           "actionability": 10,
-          "heat": 5
+          "heat": 2
+        }
+      },
+      {
+        "rank": 6,
+        "title": "Ratchet – BIOS 刷新工具包，带有用于 AI 代理的内置 MCP 服务器",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-06-21T01:23:52+00:00",
+        "sourceUrl": "https://github.com/jackulau/ratchet",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/jackulau/ratchet 评论网址：https://news.ycombinator.com/item?id=48614777 积分：2 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 2
         }
       },
       {
         "rank": 7,
-        "title": "本周人工智能：据报道，Meta 关闭了 Llama，Anthropic 的新模型在一周内因出口管制而被取消，苹果与 Goog 合作……",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-06-19T17:43:16+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1ua8kub/this_week_in_ai_meta_reportedly_closing_llama/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
+        "title": "报道：特斯拉加速推进人工智能与机器人战略，申请注册 “Amazing Abundance” 商标",
+        "platform": "36氪",
+        "aiScore": 82,
+        "publishedAt": "2026-06-21T01:54:30+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3862280121865219?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "下游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
+          "自动化"
         ],
-        "summary": "过去一周的一些故事综合起来表明，模型层发生了真正的转变，而不仅仅是增量版本：Meta 和 Llama。多个报告表明 Meta 正在迈出......",
+        "summary": "据报道，特斯拉已正式提交 “Amazing Abundance” 商标注册申请，此举表明企业将进一步深耕长期发展愿景，核心布局人工智能、人形机器人、自动驾驶系统，并依托自动化技术实现生产成本大幅下降的未来图景。（新浪财经）",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
+          "recency": 35,
+          "authority": 25,
+          "topic": 7,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 8,
-        "title": "匹配全球顶级多跳RAG系统，无需GPU，无需微调，只需pip install",
+        "title": "Glm 5.2 看起来很强大，但发布却悄然混合了两组不同的数字",
         "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-06-19T18:21:36+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1ua9lvn/matching_the_worlds_top_multihop_rag_systems_with/",
+        "aiScore": 81,
+        "publishedAt": "2026-06-20T20:14:15+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1ub6bxw/glm_52_looks_strong_but_the_launch_is_quietly/",
         "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "开源生态",
+          "模型进展",
+          "Agent",
           "自动化"
         ],
-        "summary": "以下三个系统（HippoRAG 2、CoRAG、NeocorRAG）是已发布的最强大的多跳 QA 框架之一。它们中的每一个都依赖于 GPU、微调或约束解码来……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "为那些不密切关注中国实验室的人提供快速背景知识。 zhipu 是较大的之一，glm 是他们的主要模型系列，glm 5.2 于 6 月 13 日发布。 mit 权重已经......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 28,
           "authority": 18,
-          "topic": 19,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "启动 Agentic AI 世界杯 — 直观地设计多智能体群体，赢取高达 100 美元的奖金",
-        "platform": "Reddit",
+        "title": "问 HN：您会让您的 AI 编码代理自动分析和优化吗？",
+        "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-06-20T09:00:04+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uarr6p/launching_the_agentic_ai_world_cup_design_a/",
-        "sourceName": "Reddit r/artificial",
+        "publishedAt": "2026-06-21T05:20:55+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=48615910",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "自动化"
+          "Agent"
         ],
-        "summary": "大家好，两个月前，我们推出了 AgentSwarms 来帮助开发人员使用 Agentic AI 学习和构建 POC。自此，已有超过 3,800 名学习者加入该平台。现在，是时候看看……",
+        "summary": "分析很有趣。编码也很有趣。但意识到人工智能做得比我好得多，我交出任务才有意义。分析仍然是人类在循环中的一种......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 17,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "诺奖得主、AlphaFold之父投奔Anthropic！谷歌48小时连跑俩大将",
-        "platform": "量子位",
-        "aiScore": 75,
-        "publishedAt": "2026-06-20T09:42:18+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/06/436980.html",
-        "sourceName": "量子位",
+        "title": "AI 工作流实践：100% Vibe Coding 完成 Game Jam 游戏开发",
+        "platform": "少数派",
+        "aiScore": 78,
+        "publishedAt": "2026-06-21T02:30:10+00:00",
+        "sourceUrl": "https://sspai.com/post/110972",
+        "sourceName": "少数派",
         "industryStage": "中游",
         "contentTags": [
-          "投融资"
+          "Agent"
         ],
-        "summary": "Gemini 3.5 Pro呢？",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Agent 和人一样离不开闭环。 查看全文",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 6,
-          "actionability": 4,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 35,
-      "avgScore": 70.5,
-      "topScore": 91,
+      "totalItems": 29,
+      "avgScore": 73.0,
+      "topScore": 87,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -248,64 +245,357 @@
         },
         {
           "name": "Reddit",
-          "count": 12
-        },
-        {
-          "name": "量子位",
-          "count": 5
+          "count": 8
         },
         {
           "name": "36氪",
-          "count": 2
+          "count": 4
         },
         {
-          "name": "爱范儿",
+          "name": "少数派",
+          "count": 1
+        },
+        {
+          "name": "The Verge",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 20
-        },
-        {
-          "name": "模型进展",
-          "count": 6
+          "count": 11
         },
         {
           "name": "Agent",
-          "count": 5
+          "count": 8
+        },
+        {
+          "name": "模型进展",
+          "count": 7
         },
         {
           "name": "开源生态",
-          "count": 3
+          "count": 6
         },
         {
-          "name": "投融资",
-          "count": 3
-        },
-        {
-          "name": "安全治理",
-          "count": 2
-        },
-        {
-          "name": "芯片算力",
+          "name": "应用落地",
           "count": 2
         },
         {
           "name": "自动化",
           "count": 2
+        },
+        {
+          "name": "投融资",
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 35 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：撸猫撸出SOTA！3个00后2个月，造出史上最快流式音视频社交模型（91 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 29 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 模型进展",
+      "最高分事件：构建可靠的代理人工智能系统（87 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-06-21",
+      "label": "6月21日",
+      "top10": [
+        {
+          "rank": 1,
+          "title": "构建可靠的代理人工智能系统",
+          "platform": "Hacker News",
+          "aiScore": 87,
+          "publishedAt": "2026-06-21T04:28:39+00:00",
+          "sourceUrl": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "文章网址：https://martinfowler.com/articles/reliable-llm-bayer.html 评论网址：https://news.ycombinator.com/item?id=48615680 积分：12 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 4
+          }
+        },
+        {
+          "rank": 2,
+          "title": "镜子——具有跨模型持久性的叙事冒险",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-06-21T04:02:47+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1ubg3n4/the_looking_mirror_a_narrative_adventure_with/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "我正在尝试在不同模型之间保持连续性的上下文叙事系统。 The Looking Mirror 是一个完全本地化、文本驱动的世界模型，具有： • 持久状态 •...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "《大西洋月刊》创建了一个可搜索的用于训练人工智能的音乐数据库",
+          "platform": "The Verge",
+          "aiScore": 86,
+          "publishedAt": "2026-06-20T18:46:48+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "《大西洋月刊》记者 Alex Reisner 最近发现了四个用于训练人工智能模型的音乐数据集，并使它们完全可供公众搜索。其中两套绝对是巨大的……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "AI投资热潮向上游扩散，美股多家半导体设备龙头今年翻倍",
+          "platform": "36氪",
+          "aiScore": 84,
+          "publishedAt": "2026-06-21T04:38:21+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3862419587781894?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "应用落地",
+            "投融资"
+          ],
+          "summary": "回顾年初至今的美股市场，不仅半导体、光通信等AI硬件板块集体狂飙，产业链上游的半导体设备赛道亦同步走出亮眼升势。据统计，美股总市值超百亿美元的9家半导体设备公司，今年以来股价涨幅均已超过75%。其中，应用材料、拉姆研究、科磊、泰瑞达、MKS Inc、英特格、Onto Innovation Inc这7只个股年内股价实现翻倍。就产业逻辑而言，种种迹象表明，半导体设备正迎来机构所谓…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 15,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Show HN：代理历史学家 – 让您的 AI 代理搜索自己过去的会话",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-06-21T02:58:08+00:00",
+          "sourceUrl": "https://github.com/adlternative/agent-historian",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/adlternative/agent-historian 评论网址：https://news.ycombinator.com/item?id=48615257 积分：2 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Ratchet – BIOS 刷新工具包，带有用于 AI 代理的内置 MCP 服务器",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-06-21T01:23:52+00:00",
+          "sourceUrl": "https://github.com/jackulau/ratchet",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/jackulau/ratchet 评论网址：https://news.ycombinator.com/item?id=48614777 积分：2 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 7,
+          "title": "报道：特斯拉加速推进人工智能与机器人战略，申请注册 “Amazing Abundance” 商标",
+          "platform": "36氪",
+          "aiScore": 82,
+          "publishedAt": "2026-06-21T01:54:30+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3862280121865219?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "自动化"
+          ],
+          "summary": "据报道，特斯拉已正式提交 “Amazing Abundance” 商标注册申请，此举表明企业将进一步深耕长期发展愿景，核心布局人工智能、人形机器人、自动驾驶系统，并依托自动化技术实现生产成本大幅下降的未来图景。（新浪财经）",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 7,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Glm 5.2 看起来很强大，但发布却悄然混合了两组不同的数字",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-06-20T20:14:15+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1ub6bxw/glm_52_looks_strong_but_the_launch_is_quietly/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "为那些不密切关注中国实验室的人提供快速背景知识。 zhipu 是较大的之一，glm 是他们的主要模型系列，glm 5.2 于 6 月 13 日发布。 mit 权重已经......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "问 HN：您会让您的 AI 编码代理自动分析和优化吗？",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-06-21T05:20:55+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=48615910",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "分析很有趣。编码也很有趣。但意识到人工智能做得比我好得多，我交出任务才有意义。分析仍然是人类在循环中的一种......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "AI 工作流实践：100% Vibe Coding 完成 Game Jam 游戏开发",
+          "platform": "少数派",
+          "aiScore": 78,
+          "publishedAt": "2026-06-21T02:30:10+00:00",
+          "sourceUrl": "https://sspai.com/post/110972",
+          "sourceName": "少数派",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "Agent 和人一样离不开闭环。 查看全文",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 29,
+        "avgScore": 73.0,
+        "topScore": 87,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 8
+          },
+          {
+            "name": "36氪",
+            "count": 4
+          },
+          {
+            "name": "少数派",
+            "count": 1
+          },
+          {
+            "name": "The Verge",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 11
+          },
+          {
+            "name": "Agent",
+            "count": 8
+          },
+          {
+            "name": "模型进展",
+            "count": 7
+          },
+          {
+            "name": "开源生态",
+            "count": 6
+          },
+          {
+            "name": "应用落地",
+            "count": 2
+          },
+          {
+            "name": "自动化",
+            "count": 2
+          },
+          {
+            "name": "投融资",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 29 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 模型进展",
+        "最高分事件：构建可靠的代理人工智能系统（87 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      ]
+    },
     {
       "date": "2026-06-20",
       "label": "6月20日",
@@ -27702,317 +27992,6 @@
         "最高分事件：腾讯挖来多位字节Seed骨干，向姚顺雨汇报丨智能涌现独家（95 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
-    },
-    {
-      "date": "2026-03-23",
-      "label": "3月23日",
-      "top10": [
-        {
-          "rank": 10,
-          "title": "氪星晚报 ｜阿里明日或将发布重要芯片产品；全球首个脑机接口创新产品获得医保编码；LG电子称今年将全力推进机器人业务",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-03-23T11:52:21+00:00",
-          "sourceUrl": "https://36kr.com/p/3735459789242375?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "大公司： 双林股份港股上市获中国证监会备案 36氪获悉，中国证监会国际合作司发布关于双林股份有限公司境外发行上市备案通知书，公司拟发行不超过89,697,300股境外上市普通股并在香港联合交易所上市。 宝盖新材料港股IPO获中国证监会备案 36氪获悉，中国证监会国际合作司发布关于山东宝盖新材料科技股份有限公司境外发行上市备案通知书，公司拟发行不超过16,640,500股境外上…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "36氪AI测评小程序重磅上线！帮你pick最适合自己的AI神器！",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-03-23T10:54:15+00:00",
-          "sourceUrl": "https://36kr.com/p/3735404612370441?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "这个春天，一打开手机，全网似乎都开始“养龙虾”了。 只是从“养龙虾”再到“卸龙虾”，AI应用圈的的变化速度超乎想象。 AI应用大批涌现的当下，跟风实在易踩坑。 AI遍地走，到底谁靠谱？ 别急，36氪AI测评来帮你！ 01 36氪AI测评小程序，正式上线啦！ ⬆️扫码体验36氪AI测评小程序⬆️ 其实，36氪早就上线了AI测评网（网页版），被大家戏称为“AI应用领域的大众点评”…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "硬氪首发 | 前华为自动驾驶核心成员创业，要做“会走路”的情绪陪伴机器人",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-03-23T10:29:50+00:00",
-          "sourceUrl": "https://36kr.com/p/3735384009048325?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "作者 | 林晴晴 编辑 | 袁斯来 硬氪获悉，情绪陪伴场景小型具身机器人公司「青心意创」已于近期完成Pre-A轮融资，本轮融资由厚雪资本和天际资本领投，老股东乐朴资本持续跟投，新辉资本担任长期财务顾问。本轮融资将主要用于超小型双足陪伴机器人的产品研发及技术平台搭建、核心算法迭代与团队扩充。此前，公司已完成由初心资本、乐朴资本及多位科技领域个人投资者参与的天使轮融资。 「青心意…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "打造青少年“AI私教”，走进全国200多所学校，「满分运动」获数千万元A轮融资｜36氪首发",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-03-23T09:39:06+00:00",
-          "sourceUrl": "https://36kr.com/p/3735333975736583?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "36氪获悉，全场景体育教育服务商「满分运动」近期宣布完成数千万元A轮融资。 本轮融资由顺禧基金与深圳市龙华区龙华资本联合投资，投后估值达数亿元。 资金将主要用于C端市场拓展、技术研发与团队扩充。 满分运动聚焦于青少年体育教育及全年龄段运动健康领域，基于自研的全国首款青少年运动健康垂类“飞驰大模型”与智能体“小满老师”，以及与视频与视觉技术国家工程研究中心合作研发的视觉捕捉模型…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "创想三维IPO：造物平权下的版权困境",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-03-23T10:14:42+00:00",
-          "sourceUrl": "https://36kr.com/p/3735364151836680?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "自动化"
-          ],
-          "summary": "作者 | 丁卯 编辑 | 张帆 2026年3月9日，创想三维再次向香港联交所递交招股书，拟在主板挂牌上市，中金公司担任独家保荐人。作为3D打印行业领军者，这是公司第三次冲刺资本市场，若进展顺利，创想三维有望摘得港股“消费级3D打印第一股”的桂冠。 然而，招股书揭开的不仅是公司规模的扩张，更是其面对拓竹猛烈进攻下的节节败退。这位昔日王者在丢掉行业头把交椅的同时，财务报表也透露出…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "这300家企业，正在定义全球具身智能产业",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-03-23T09:49:35+00:00",
-          "sourceUrl": "https://36kr.com/p/3735344485744905?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "站在人与机器共生的新起点，具身智能正推动技术从“感知世界”走向“行动于世界”，一场融合软硬件、数据与场景的产业变革已悄然展开。 从具身机器人的“大脑”模型研发，到核心硬件与本体制造，具身智能产业正在从研发向产业化和商业化落地迈进。从产业全链条来看，具身智能产业依托上游核心技术，在中游形成产品与解决方案，在下游场景中实现价值落地。下面这张图中，我们梳理出当下中美两国具身智能赛道…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "36氪报告图解 | 这条AI赛道，2026年规模有望破万亿",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-03-23T09:46:24+00:00",
-          "sourceUrl": "https://36kr.com/p/3735341158121733?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "投融资"
-          ],
-          "summary": "近期，36氪研究发布了《2026年具身智能产业发展研究报告》（以下简称“报告”）。报道提到，截至2025年12月21日，全年融资事件超305起，总额超过380亿元，参与的投资机构数量超过600家。资本的密集涌入，充分印证了产业发展的潜力与市场信心。 从技术成熟度、产业链完备度与市场拓展速度来看，中国具身智能产业已处于全球第一梯队。根据36氪研究院测算，中国具身智能市场规模已从…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "提供高质量空间智能数据服务，「际数科技」完成数千万元Pre-A+轮融资 | 36氪首发",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-03-23T09:42:55+00:00",
-          "sourceUrl": "https://36kr.com/p/3735337722216451?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "自动化"
-          ],
-          "summary": "36氪获悉，高质量空间智能数据服务商际数科技宣布完成数千万元pre-A+轮融资。本轮融资由庚智基金投资，资金主要用于底层技术平台研发、数据资产拓展及市场推广。 际数科技成立于2023年5月，旨在以“数据自动化标注数据”新范式，为自动驾驶、具身智能等领域提供核心数据基座，解决空间智能数据供给矛盾。目前公司产品重点落地自动驾驶领域，已服务超过20家头部智能驾驶行业客户。 际数科技…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "小米的 MiMo 型号让人工智能定价对话变得不那么舒服",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-03-23T10:04:19+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1s1cpap/xiaomis_mimo_models_are_making_the_ai_pricing/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "MiMo-V2-Flash 是开源的，在 SWE-Bench 上得分为 73.4%（开源模型中排名第一），每百万输入代币的成本为 0.10 美元。这与 Claude Sonnet 的价格相差 3.5%。米姆…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "[N] 理解和微调视觉变压器",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-03-23T13:42:53+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1s1h8fw/n_understanding_finetuning_vision_transformers/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "Mayank Pratap Singh 撰写的一篇简洁的博客文章以出色的视觉效果从头开始介绍了 ViT。这篇文章涵盖：视觉变压器编码器上的补丁嵌入位置编码......",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 64,
-        "avgScore": 73.3,
-        "topScore": 95,
-        "topPlatforms": [
-          {
-            "name": "Reddit",
-            "count": 21
-          },
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "36氪",
-            "count": 10
-          },
-          {
-            "name": "量子位",
-            "count": 10
-          },
-          {
-            "name": "爱范儿",
-            "count": 5
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "AI动态",
-            "count": 35
-          },
-          {
-            "name": "模型进展",
-            "count": 17
-          },
-          {
-            "name": "应用落地",
-            "count": 13
-          },
-          {
-            "name": "Agent",
-            "count": 12
-          },
-          {
-            "name": "自动化",
-            "count": 5
-          },
-          {
-            "name": "开源生态",
-            "count": 5
-          },
-          {
-            "name": "芯片算力",
-            "count": 3
-          },
-          {
-            "name": "内容生产",
-            "count": 1
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 64 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / 应用落地",
-        "最高分事件：氪星晚报 ｜阿里明日或将发布重要芯片产品；全球首个脑机接口创新产品获得医保编码；LG电子称今年将全力推进机器人业务（95 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
     }
   ],
   "currentWeek": {
@@ -28023,8 +28002,8 @@
       "end": "2026-06-21"
     },
     "metrics": {
-      "daysCovered": 6,
-      "totalItems": 267,
+      "daysCovered": 7,
+      "totalItems": 296,
       "avgTop10Score": 94.6,
       "topScore": 95,
       "topPlatforms": [
@@ -28303,7 +28282,7 @@
       }
     ],
     "briefing": [
-      "6月第3周累计收录 267 条资讯，覆盖 6 天。",
+      "6月第3周累计收录 296 条资讯，覆盖 7 天。",
       "高频主题：模型进展 / 应用落地 / Agent",
       "本周最高分：北大科学家下场做脑机接口，种子轮融了近亿元（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -28318,8 +28297,8 @@
         "end": "2026-06-21"
       },
       "metrics": {
-        "daysCovered": 6,
-        "totalItems": 267,
+        "daysCovered": 7,
+        "totalItems": 296,
         "avgTop10Score": 94.6,
         "topScore": 95,
         "topPlatforms": [
@@ -28598,7 +28577,7 @@
         }
       ],
       "briefing": [
-        "6月第3周累计收录 267 条资讯，覆盖 6 天。",
+        "6月第3周累计收录 296 条资讯，覆盖 7 天。",
         "高频主题：模型进展 / 应用落地 / Agent",
         "本周最高分：北大科学家下场做脑机接口，种子轮融了近亿元（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -32443,8 +32422,8 @@
         "end": "2026-03-28"
       },
       "metrics": {
-        "daysCovered": 6,
-        "totalItems": 379,
+        "daysCovered": 5,
+        "totalItems": 315,
         "avgTop10Score": 95.0,
         "topScore": 95,
         "topPlatforms": [
@@ -32723,7 +32702,7 @@
         }
       ],
       "briefing": [
-        "3月第4周累计收录 379 条资讯，覆盖 6 天。",
+        "3月第4周累计收录 315 条资讯，覆盖 5 天。",
         "高频主题：模型进展 / 芯片算力 / Agent",
         "本周最高分：「一人一天一部剧」时代降临，但AI短剧供给过剩不是末日｜专访巨日禄杰夫（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
