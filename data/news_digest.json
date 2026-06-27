@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T02:36:05.394116+00:00",
+  "generatedAt": "2026-06-27T04:51:04.403495+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-06-27",
@@ -78,24 +78,23 @@
       },
       {
         "rank": 4,
-        "title": "如果您的人工智能自动化读取电子邮件、网站或数据库，那么有人可以在您不知情的情况下操纵它",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-06-26T21:39:52+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1ugjwwh/if_your_ai_automation_reads_emails_websites_or/",
-        "sourceName": "Reddit r/artificial",
+        "title": "美国允许 Anthropic 向“值得信赖”的美国组织发布 Mythos AI",
+        "platform": "Hacker News",
+        "aiScore": 86,
+        "publishedAt": "2026-06-27T03:35:55+00:00",
+        "sourceUrl": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
           "开源生态"
         ],
-        "summary": "大多数人工智能自动化工具都会读取外部数据并对其采取行动。这就是重点。但您的自动化读取的任何内容都可能包含隐藏的指令。一封电子邮件。一个网页。领先记录...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文章网址：https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/ 评论网址：https://news.ycombinator.com/item?id=48694885…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
@@ -216,30 +215,31 @@
       },
       {
         "rank": 10,
-        "title": "我们向十个模型提出了一个设计问题：得出正确答案的最佳方法是什么？他们没有偏袒任何一方——他们规定了正确的……",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-06-26T23:54:50+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1ugn627/we_put_a_design_question_to_ten_models_whats_the/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Promptetheus – 跟踪、检测和自动修复 AI 代理故障",
+        "platform": "Hacker News",
+        "aiScore": 82,
+        "publishedAt": "2026-06-27T04:37:00+00:00",
+        "sourceUrl": "https://github.com/obro79/promptetheus",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "由 /u/stuffx87 提交 [链接] [评论]",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://github.com/obro79/promptetheus 评论网址：https://news.ycombinator.com/item?id=48695176 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
+          "topic": 18,
           "actionability": 10,
-          "heat": 5
+          "heat": 1
         }
       }
     ],
     "metrics": {
-      "totalItems": 33,
-      "avgScore": 74.2,
+      "totalItems": 34,
+      "avgScore": 74.5,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -252,7 +252,7 @@
         },
         {
           "name": "36氪",
-          "count": 5
+          "count": 6
         },
         {
           "name": "The Verge",
@@ -265,20 +265,24 @@
       ],
       "topTopics": [
         {
-          "name": "AI动态",
-          "count": 13
-        },
-        {
           "name": "模型进展",
           "count": 12
         },
         {
+          "name": "AI动态",
+          "count": 11
+        },
+        {
           "name": "Agent",
-          "count": 7
+          "count": 8
         },
         {
           "name": "开源生态",
-          "count": 5
+          "count": 8
+        },
+        {
+          "name": "芯片算力",
+          "count": 3
         },
         {
           "name": "内容生产",
@@ -289,18 +293,14 @@
           "count": 2
         },
         {
-          "name": "芯片算力",
-          "count": 2
-        },
-        {
           "name": "投融资",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 33 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
+      "今日共收录 34 条 AI 资讯，Top10 通报见下。",
+      "高频主题：模型进展 / AI动态 / Agent",
       "最高分事件：9点1氪｜苹果涨价引山姆代购潮；DeepSeek大规模招聘；黄金再度跌破4000美元（95 分）",
       "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
@@ -383,24 +383,23 @@
         },
         {
           "rank": 4,
-          "title": "如果您的人工智能自动化读取电子邮件、网站或数据库，那么有人可以在您不知情的情况下操纵它",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-26T21:39:52+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1ugjwwh/if_your_ai_automation_reads_emails_websites_or/",
-          "sourceName": "Reddit r/artificial",
+          "title": "美国允许 Anthropic 向“值得信赖”的美国组织发布 Mythos AI",
+          "platform": "Hacker News",
+          "aiScore": 86,
+          "publishedAt": "2026-06-27T03:35:55+00:00",
+          "sourceUrl": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent",
             "开源生态"
           ],
-          "summary": "大多数人工智能自动化工具都会读取外部数据并对其采取行动。这就是重点。但您的自动化读取的任何内容都可能包含隐藏的指令。一封电子邮件。一个网页。领先记录...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "文章网址：https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/ 评论网址：https://news.ycombinator.com/item?id=48694885…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 20,
+            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
@@ -521,30 +520,31 @@
         },
         {
           "rank": 10,
-          "title": "我们向十个模型提出了一个设计问题：得出正确答案的最佳方法是什么？他们没有偏袒任何一方——他们规定了正确的……",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-06-26T23:54:50+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1ugn627/we_put_a_design_question_to_ten_models_whats_the/",
-          "sourceName": "Reddit r/artificial",
+          "title": "Promptetheus – 跟踪、检测和自动修复 AI 代理故障",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-06-27T04:37:00+00:00",
+          "sourceUrl": "https://github.com/obro79/promptetheus",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "由 /u/stuffx87 提交 [链接] [评论]",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "文章网址：https://github.com/obro79/promptetheus 评论网址：https://news.ycombinator.com/item?id=48695176 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 10,
+            "topic": 18,
             "actionability": 10,
-            "heat": 5
+            "heat": 1
           }
         }
       ],
       "metrics": {
-        "totalItems": 33,
-        "avgScore": 74.2,
+        "totalItems": 34,
+        "avgScore": 74.5,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -557,7 +557,7 @@
           },
           {
             "name": "36氪",
-            "count": 5
+            "count": 6
           },
           {
             "name": "The Verge",
@@ -570,20 +570,24 @@
         ],
         "topTopics": [
           {
-            "name": "AI动态",
-            "count": 13
-          },
-          {
             "name": "模型进展",
             "count": 12
           },
           {
+            "name": "AI动态",
+            "count": 11
+          },
+          {
             "name": "Agent",
-            "count": 7
+            "count": 8
           },
           {
             "name": "开源生态",
-            "count": 5
+            "count": 8
+          },
+          {
+            "name": "芯片算力",
+            "count": 3
           },
           {
             "name": "内容生产",
@@ -594,18 +598,14 @@
             "count": 2
           },
           {
-            "name": "芯片算力",
-            "count": 2
-          },
-          {
             "name": "投融资",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 33 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / Agent",
+        "今日共收录 34 条 AI 资讯，Top10 通报见下。",
+        "高频主题：模型进展 / AI动态 / Agent",
         "最高分事件：9点1氪｜苹果涨价引山姆代购潮；DeepSeek大规模招聘；黄金再度跌破4000美元（95 分）",
         "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
@@ -28020,7 +28020,7 @@
     },
     "metrics": {
       "daysCovered": 6,
-      "totalItems": 339,
+      "totalItems": 340,
       "avgTop10Score": 95.0,
       "topScore": 95,
       "topPlatforms": [
@@ -28306,7 +28306,7 @@
       }
     ],
     "briefing": [
-      "6月第4周累计收录 339 条资讯，覆盖 6 天。",
+      "6月第4周累计收录 340 条资讯，覆盖 6 天。",
       "高频主题：芯片算力 / 模型进展 / Agent",
       "本周最高分：9点1氪｜苹果涨价引山姆代购潮；DeepSeek大规模招聘；黄金再度跌破4000美元（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -28322,7 +28322,7 @@
       },
       "metrics": {
         "daysCovered": 6,
-        "totalItems": 339,
+        "totalItems": 340,
         "avgTop10Score": 95.0,
         "topScore": 95,
         "topPlatforms": [
@@ -28608,7 +28608,7 @@
         }
       ],
       "briefing": [
-        "6月第4周累计收录 339 条资讯，覆盖 6 天。",
+        "6月第4周累计收录 340 条资讯，覆盖 6 天。",
         "高频主题：芯片算力 / 模型进展 / Agent",
         "本周最高分：9点1氪｜苹果涨价引山姆代购潮；DeepSeek大规模招聘；黄金再度跌破4000美元（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
