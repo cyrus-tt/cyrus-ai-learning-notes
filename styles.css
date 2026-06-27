@@ -111,7 +111,27 @@ img { max-width: 100%; display: block; }
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   border-bottom: 1px solid color-mix(in srgb, var(--line) 60%, transparent);
-  transition: box-shadow var(--duration-normal) var(--ease-out);
+  transition: box-shadow var(--duration-normal) var(--ease-out),
+              background var(--duration-normal),
+              border-color var(--duration-normal);
+}
+
+/* Dark nav on homepage hero */
+body.home .site-nav {
+  background: rgba(10,10,12,0.85);
+  border-bottom-color: rgba(255,255,255,0.06);
+}
+body.home .site-nav-brand,
+body.home .site-nav-links a {
+  color: rgba(252,253,255,0.7);
+}
+body.home .site-nav-brand:hover,
+body.home .site-nav-links a:hover,
+body.home .site-nav-links a.on {
+  color: #fcfdff;
+}
+body.home .site-nav-links a::after {
+  background: var(--accent);
 }
 
 .site-nav.scrolled {
