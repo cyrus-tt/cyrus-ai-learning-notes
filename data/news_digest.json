@@ -1,315 +1,469 @@
 {
-  "generatedAt": "2026-06-29T07:27:26.323563+00:00",
+  "generatedAt": "2026-06-29T16:37:49.659388+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-06-29",
-    "label": "6月29日",
+    "date": "2026-06-30",
+    "label": "6月30日",
     "top10": [
       {
         "rank": 1,
-        "title": "36氪首发 | URTOPIA联创做了款智能指环，众筹已破千万元",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-06-29T03:43:03+00:00",
-        "sourceUrl": "https://36kr.com/p/3873710996902912?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
+        "title": "问 HN：人工智能时代如何使用 SAP？",
+        "platform": "Hacker News",
+        "aiScore": 85,
+        "publishedAt": "2026-06-29T16:15:27+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=48721165",
+        "sourceName": "Hacker News AI",
+        "industryStage": "下游",
         "contentTags": [
-          "模型进展",
           "Agent",
-          "应用落地"
+          "自动化"
         ],
-        "summary": "作者 | 张子怡 编辑 | 袁斯来 近日，AI可穿戴品牌AIVELA宣布完成数百万美元首轮融资。本轮融资由线性资本领投，锋领资本跟投，智能电助力自行车品牌URTOPIA等产业方共同加注。 本轮融资将主要用于下一代AI可穿戴产品研发、健康数据与AI Agent能力建设、全球市场拓展以及核心团队扩张。AIVELA将以智能指环、智能手链等贴身可穿戴产品为起点，面向全球市场构筑融合健…",
+        "summary": "我没有 ABAP 编程权限，因此我仍然在 SAP Easy Access 中通过点击来执行 SAP 任务，例如 SQ01 中的查询创建或 SE16 中的表查询。即使对于海量数据输入我......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 20,
+          "authority": 18,
+          "topic": 17,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 2,
-        "title": "36氪首发 | Ebike公司获Brizan Ventures、高秉强参与超数亿融资，要进军外骨骼市场",
-        "platform": "36氪",
-        "aiScore": 94,
-        "publishedAt": "2026-06-29T03:38:16+00:00",
-        "sourceUrl": "https://36kr.com/p/3873706225751296?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "模型进展",
-          "应用落地",
-          "投融资"
-        ],
-        "summary": "作者 | 张子怡 编辑 | 袁斯来 硬氪获悉，全球智能电助力自行车品牌「URTOPIA」近日已完成B轮融资，融资总额超2亿元人民币。本轮融资由Brizan Ventures与桐乡市政府产业基金领投，高秉强、Kungho Fund、光远和声等机构持续加注。 本轮融资完成后，URTOPIA将继续加大在核心技术研发、全球市场拓展、供应链建设和组织能力升级方面的投入，并推动公司从智能…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "百度OCR模型Unlimited OCR在HuggingFace、GitHub四榜登顶",
-        "platform": "36氪",
-        "aiScore": 93,
-        "publishedAt": "2026-06-29T06:12:19+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3873858183255302?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "36氪获悉，近日，百度正式发布并开源端到端OCR模型Unlimited OCR。模型发布次日即登顶GitHub Daily Trending榜、Python榜，在HuggingFace全球模型总趋势榜和多模态模型趋势榜也均排名第一。Unlimited OCR面向长文档解析场景打造，总参数规模3B、推理时激活参数仅约570M。公开评测结果显示，Unlimited OCR在Omn…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "被健康家电「背刺」后，这届年轻人更会买了",
-        "platform": "36氪",
-        "aiScore": 89,
-        "publishedAt": "2026-06-29T04:59:48+00:00",
-        "sourceUrl": "https://36kr.com/p/3873786445813001?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "内容生产",
-          "安全治理"
-        ],
-        "summary": "那些年，我们交过的“健康”智商税 马上就要撞到墙了。 王焱的大脑还没反应过来，身体已经感觉到了一股推背���。在试驾这辆主打“智能”与“安全”的新能源汽车时，他不小心把油门当成了刹车，一脚踩了下去，等他意识到的时候，车子正在像头野兽一般往前猛窜。 在极其危险的几秒里，王焱以为这款车在发布会上被吹上天的风险预警与瞬间干预能立刻奏效。然而，智驾系统一片死寂，没有任何警报声，更没有…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 14,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "秋声 | 海光芯正IPO背后，卖铲生意为何越做越亏？",
-        "platform": "36氪",
-        "aiScore": 89,
-        "publishedAt": "2026-06-29T03:13:49+00:00",
-        "sourceUrl": "https://36kr.com/p/3873681978840071?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "应用落地",
-          "投融资"
-        ],
-        "summary": "本文约2500字，建议阅读5分钟 作者 | 彭孝秋 编者按： AI大爆发之际，越来越多公司走向资本市场。每一份招股书翻动的声音里，都藏着一家公司想说与未曾明说的全部。 鉴于此，硬氪特推出「秋声」专栏。秋声取自欧阳修《秋声赋》，借“听秋声”之意，产业冷暖，辨公司成色，记录企业冲刺IPO途中那些被写下与被隐藏的真实。这是我们第四期，海光芯正。 6月29日，北京海光芯正（01191…",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "港大教授李弘扬创业做通用全身具身大脑，获真格高榕IDG五源等数亿种子轮融资｜硬氪独家",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-06-29T01:27:07+00:00",
-        "sourceUrl": "https://36kr.com/p/3868055841641476?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "作者｜黄楠 编辑｜袁斯来 硬氪独家获悉，通用全身具身大脑公司「源策未来Archon Robotics」近日完成数亿元种子轮融资，本轮投资方包括真格基金、高榕创投、IDG资本、五源资本等头部美元基金，以及戈壁创投与香港大学联名基金、奇绩创坛、上海创智学院等。光源资本担任独家财务顾问。 本轮资金将主要用于全身人形基础模型研发、多模态全身动作数据采集、人才团队扩充，以及多地研发中心…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-06-28T23:44:39+00:00",
-        "sourceUrl": "https://36kr.com/p/3873476968272902?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "今日热点导览 《给阿嬷的情书》总票房已突破19亿元 梁文锋署名，DeepSeek发布最新论文 WPS回应C盘占用问题，即将更新七月版本上线磁盘存储管理功能 触屏MacBook将搭载M5芯片发布，苹果计划跳过M6 Pro及M6 Max 美国监管部门关闭针对特斯拉Model 3及Model Y转向失控调查 TOP 3大新闻 韩国将于6月29日宣布三星、SK集团的多个大型项目 韩国…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "SK集团董事长崔泰源：到2035年建设15GW AI数据中心，总投资达1000万亿韩元",
-        "platform": "36氪",
-        "aiScore": 86,
-        "publishedAt": "2026-06-29T06:27:49+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3873873423062278?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "投融资"
-        ],
-        "summary": "韩国SK集团董事长崔泰源6月29日表示，集团计划到2035年建成15吉瓦（GW）AI数据中心容量，并将其打造为韩国国家级基础设施和“实体AI（Physical AI）时代”的核心底座。崔泰源称，该计划总投资规模将达到1000万亿韩元。（界面）",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "人工智能助推美国电力行业并购交易规模突破2000亿美元，创下历史新高",
-        "platform": "36氪",
-        "aiScore": 86,
-        "publishedAt": "2026-06-29T06:13:31+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3873859365328133?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "投融资"
-        ],
-        "summary": "人工智能热潮正推动美国电力及公用事业行业并购交易规模创下新高，各大企业争相募资，为数据中心建设能源配套基础设施。德勤的调研数据显示，今年前五个月，该行业并购交易总额达到创纪录的2036亿美元，较去年全年1417亿美元的规模高出四成以上。数据中心相关投资规模达1515亿美元，较去年同期公布的687亿美元翻了一倍有余；2025年全年的数据中心投资总额为3210亿美元。（新浪财经）",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "Show HN：最近邻，人工智能代理的约会应用程序",
+        "title": "Show HN：Katra，AI 代理的自托管认知记忆 (MCP)",
         "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-06-29T05:36:03+00:00",
-        "sourceUrl": "https://nearest-neighbor.replygirl.club/",
+        "aiScore": 83,
+        "publishedAt": "2026-06-29T16:06:40+00:00",
+        "sourceUrl": "https://github.com/kolegadev/Katra-Agentic-Memory",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent",
           "开源生态"
         ],
-        "summary": "代理人心理学很有趣！我想从适当的研发中休息一下，去做一些真正愚蠢的事情。所以上周六我开始了这个，一个功能齐全的约会应用程序与公众......",
+        "summary": "文章网址：https://github.com/kolegadev/Katra-Agentic-Memory 评论网址：https://news.ycombinator.com/item?id=48721060 积分：2 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 3,
+        "title": "可观察性的未来不会是一个专有的人工智能代理",
+        "platform": "Hacker News",
+        "aiScore": 74,
+        "publishedAt": "2026-06-29T16:11:48+00:00",
+        "sourceUrl": "https://clickhouse.com/blog/the-future-of-observability-not-one-proprietary-ai-agent-thousands-by-teams",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "文章网址：https://clickhouse.com/blog/the-future-of-observability-not-one-proprietary-ai-agent-thousands-by-teams 评论网址：https://news.ycombinator.com/item?id=48721122 积分：1 #...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 4,
+        "title": "问AI专家：全栈到底是什么？",
+        "platform": "Google AI Blog",
+        "aiScore": 74,
+        "publishedAt": "2026-06-29T16:00:00+00:00",
+        "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+        "sourceName": "Google AI Blog",
+        "industryStage": "上游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "描绘黑暗背景下的全栈人工智能基础设施的插图",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "人工智能是否改变了你的思维方式，而不仅仅是你的工作方式？",
+        "platform": "Reddit",
+        "aiScore": 71,
+        "publishedAt": "2026-06-29T16:23:35+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uix8gk/has_ai_changed_the_way_you_think_not_just_the_way/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "应用落地"
+        ],
+        "summary": "我本以为人工智能可以节省我的时间，但没想到它会改变我处理问题的方式。我发现自己将想法分解为更小的步骤，提出更好的问题，并思考解决方案......",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 9,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "问题 ？",
+        "platform": "Reddit",
+        "aiScore": 67,
+        "publishedAt": "2026-06-29T16:13:10+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uiwxz5/question/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "不使用AI的人，怎么会呢？告诉我为什么。由 /u/NeuroDash 提交 [链接] [评论]",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "人工智能未能达到质量标准后，福特重新聘用资深工程师",
+        "platform": "Reddit",
+        "aiScore": 67,
+        "publishedAt": "2026-06-29T16:02:02+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uiwmnm/ford_rehires_veteran_engineers_after_ai_fails_to/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "由 /u/Away_Theme1330 提交 [链接] [评论]",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "人工智能未能匹配质量检查后，福特重新雇用人类工程师",
+        "platform": "Hacker News",
+        "aiScore": 63,
+        "publishedAt": "2026-06-29T16:26:14+00:00",
+        "sourceUrl": "https://www.bbc.co.uk/news/articles/cgrkd41n2v9o",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "文章网址：https://www.bbc.co.uk/news/articles/cgrkd41n2v9o 评论网址：https://news.ycombinator.com/item?id=48721294 积分：1 # 评论：0",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 1
         }
       }
     ],
     "metrics": {
-      "totalItems": 42,
-      "avgScore": 75.8,
-      "topScore": 95,
+      "totalItems": 8,
+      "avgScore": 73.0,
+      "topScore": 85,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 15
-        },
-        {
-          "name": "36氪",
-          "count": 14
+          "count": 4
         },
         {
           "name": "Reddit",
-          "count": 5
-        },
-        {
-          "name": "量子位",
           "count": 3
         },
         {
-          "name": "The Verge",
-          "count": 2
+          "name": "Google AI Blog",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 14
-        },
-        {
-          "name": "模型进展",
-          "count": 12
-        },
-        {
-          "name": "芯片算力",
-          "count": 8
-        },
-        {
-          "name": "投融资",
-          "count": 7
-        },
-        {
-          "name": "开源生态",
-          "count": 7
+          "count": 4
         },
         {
           "name": "Agent",
-          "count": 5
+          "count": 3
         },
         {
           "name": "应用落地",
-          "count": 5
+          "count": 1
         },
         {
-          "name": "安全治理",
-          "count": 2
+          "name": "自动化",
+          "count": 1
+        },
+        {
+          "name": "开源生态",
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 42 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / 芯片算力",
-      "最高分事件：36氪首发 | URTOPIA联创做了款智能指环，众筹已破千万元（95 分）",
+      "今日共收录 8 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 应用落地",
+      "最高分事件：问 HN：人工智能时代如何使用 SAP？（85 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-06-30",
+      "label": "6月30日",
+      "top10": [
+        {
+          "rank": 1,
+          "title": "问 HN：人工智能时代如何使用 SAP？",
+          "platform": "Hacker News",
+          "aiScore": 85,
+          "publishedAt": "2026-06-29T16:15:27+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=48721165",
+          "sourceName": "Hacker News AI",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "我没有 ABAP 编程权限，因此我仍然在 SAP Easy Access 中通过点击来执行 SAP 任务，例如 SQ01 中的查询创建或 SE16 中的表查询。即使对于海量数据输入我......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "Show HN：Katra，AI 代理的自托管认知记忆 (MCP)",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-06-29T16:06:40+00:00",
+          "sourceUrl": "https://github.com/kolegadev/Katra-Agentic-Memory",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/kolegadev/Katra-Agentic-Memory 评论网址：https://news.ycombinator.com/item?id=48721060 积分：2 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 3,
+          "title": "可观察性的未来不会是一个专有的人工智能代理",
+          "platform": "Hacker News",
+          "aiScore": 74,
+          "publishedAt": "2026-06-29T16:11:48+00:00",
+          "sourceUrl": "https://clickhouse.com/blog/the-future-of-observability-not-one-proprietary-ai-agent-thousands-by-teams",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "文章网址：https://clickhouse.com/blog/the-future-of-observability-not-one-proprietary-ai-agent-thousands-by-teams 评论网址：https://news.ycombinator.com/item?id=48721122 积分：1 #...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 4,
+          "title": "问AI专家：全栈到底是什么？",
+          "platform": "Google AI Blog",
+          "aiScore": 74,
+          "publishedAt": "2026-06-29T16:00:00+00:00",
+          "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+          "sourceName": "Google AI Blog",
+          "industryStage": "上游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "描绘黑暗背景下的全栈人工智能基础设施的插图",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "人工智能是否改变了你的思维方式，而不仅仅是你的工作方式？",
+          "platform": "Reddit",
+          "aiScore": 71,
+          "publishedAt": "2026-06-29T16:23:35+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uix8gk/has_ai_changed_the_way_you_think_not_just_the_way/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "应用落地"
+          ],
+          "summary": "我本以为人工智能可以节省我的时间，但没想到它会改变我处理问题的方式。我发现自己将想法分解为更小的步骤，提出更好的问题，并思考解决方案......",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 9,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "问题 ？",
+          "platform": "Reddit",
+          "aiScore": 67,
+          "publishedAt": "2026-06-29T16:13:10+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uiwxz5/question/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "不使用AI的人，怎么会呢？告诉我为什么。由 /u/NeuroDash 提交 [链接] [评论]",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "人工智能未能达到质量标准后，福特重新聘用资深工程师",
+          "platform": "Reddit",
+          "aiScore": 67,
+          "publishedAt": "2026-06-29T16:02:02+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uiwmnm/ford_rehires_veteran_engineers_after_ai_fails_to/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "由 /u/Away_Theme1330 提交 [链接] [评论]",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "人工智能未能匹配质量检查后，福特重新雇用人类工程师",
+          "platform": "Hacker News",
+          "aiScore": 63,
+          "publishedAt": "2026-06-29T16:26:14+00:00",
+          "sourceUrl": "https://www.bbc.co.uk/news/articles/cgrkd41n2v9o",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "文章网址：https://www.bbc.co.uk/news/articles/cgrkd41n2v9o 评论网址：https://news.ycombinator.com/item?id=48721294 积分：1 # 评论：0",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 1
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 8,
+        "avgScore": 73.0,
+        "topScore": 85,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 4
+          },
+          {
+            "name": "Reddit",
+            "count": 3
+          },
+          {
+            "name": "Google AI Blog",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 4
+          },
+          {
+            "name": "Agent",
+            "count": 3
+          },
+          {
+            "name": "应用落地",
+            "count": 1
+          },
+          {
+            "name": "自动化",
+            "count": 1
+          },
+          {
+            "name": "开源生态",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 8 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 应用落地",
+        "最高分事件：问 HN：人工智能时代如何使用 SAP？（85 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      ]
+    },
     {
       "date": "2026-06-29",
       "label": "6月29日",
@@ -25881,7 +26035,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 6,
           "title": "Show HN：利用环境智能进行 AI 编码会话的共享团队环境",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -25905,7 +26059,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 7,
           "title": "停止使人工智能工作流程过于复杂。这是简单的框架",
           "platform": "Reddit",
           "aiScore": 88,
@@ -25929,7 +26083,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 8,
           "title": "Lemonade 10.1 发布，针对 AMD GPU 和 NPU 上的本地法学硕士进行最新改进",
           "platform": "Reddit",
           "aiScore": 88,
@@ -25952,7 +26106,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 9,
           "title": "Adobe Firefly Web、移动设备和 Boards (2026)：您实际上应该使用哪一个？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -25976,7 +26130,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 10,
           "title": "红熊AI完成2.1亿元A轮融资，切入物理AI赛道｜36氪首发",
           "platform": "36氪",
           "aiScore": 88,
@@ -27130,7 +27284,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 5,
           "title": "企业玩不转龙虾，是人的思维出错了",
           "platform": "量子位",
           "aiScore": 94,
@@ -27695,318 +27849,6 @@
         "最高分事件：36氪晚报｜AI大模型产品“奇趣”完成千万级融资；阶跃星辰上线Step 3.5 Flash 2603模型；沃尔沃汽车第一季度全球销量同比下降11%（95 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
-    },
-    {
-      "date": "2026-04-01",
-      "label": "4月1日",
-      "top10": [
-        {
-          "rank": 5,
-          "title": "AI 可以为您推送 Stream Deck 按钮",
-          "platform": "The Verge",
-          "aiScore": 95,
-          "publishedAt": "2026-04-01T12:38:58+00:00",
-          "sourceUrl": "https://www.theverge.com/tech/905021/elgato-stream-deck-mcp-ai-agent-update",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "如果您厌倦了通过手动按下按钮来控制 Stream Deck 设备，那么好消息是：Elgato 现在可以让您将该任务委托给聊天机器人。 Stream Deck 7.4 软件...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "小牛电动胡依林：一家成立12年的两轮电动车厂商决定转型AI，“all in or nothing”",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-04-01T12:21:23+00:00",
-          "sourceUrl": "https://36kr.com/p/3748233045541637?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "文｜邱晓芬 编辑｜苏建勋 一家成立12年的两轮电动车厂商，在成功经历过中国的锂电化、智能化浪潮，并在纳斯达克上市后，决定加入AI时代全新的竞争。造AI时代的智能两轮电动车——被小牛电动称为：“下一个十年的护城河”。 在小牛电动不久前的发布会上，他们展示了初步的成果——在新发布的电动车NXT2和NX2上，搭载了自研的小牛灵犀AIOS、以及首个面向骑行的AI智能体。 当你开车上路…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "氪星晚报｜特斯拉正式停产Model S和Model X两款车型；马斯克：FSD 14.3版本预计将于本周末发布；阿里发布Wan2.7-Image",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-04-01T10:02:13+00:00",
-          "sourceUrl": "https://36kr.com/p/3748061455778311?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "大公司： 李亚鹏名下公司成立麋鹿咖啡公司 36氪获悉，爱企查App显示，近日，云南麋鹿咖啡有限公司成立，法定代表人为杨凝，注册资本100万元人民币，经营范围包括咖啡豆种植、食用农产品批发、食用农产品零售、食品互联网销售等。股权穿透图显示，该公司由李亚鹏名下北京艺莲文化科技有限公司、罗毓藻分别持股90%、10%。 特斯拉正式停产Model S和Model X两款车型 据媒体报道…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "我为人形机器人构建了完整的视觉系统",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-04-01T13:20:02+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1s9kdnq/i_built_a_complete_vision_system_for_humanoid/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "开源生态"
-          ],
-          "summary": "我对我一直为人形机器人构建的开源视觉系统感到兴奋。它完全在 NVIDIA Jetson Orin Nano 上运行，并完全集成 ROS2。问题每天都有数百万...",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "[R] SPORE 聚类算法",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-04-01T13:11:31+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1s9k5kr/r_the_spore_clustering_algorithm/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "https://preview.redd.it/di99yw56tksg1.png?width=992&format=png&auto=webp&s=8828c9459dcf8f8541718e4d7a9fae52bfc0b95a 我创建了一个聚类算法 SPORE (Skeleton Propagation Over Re...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "克劳德代码泄露意外发布了生产型人工智能代理的第一个完整蓝图。以下是它告诉我们的内容：",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-04-01T12:54:08+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1s9jprb/the_claude_code_leak_accidentally_published_the/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "大多数关于克劳德代码泄露的报道都集中在戏剧性或隐藏的功能上。但更大的故事是，这是我们第一次看到生产 g 的完整架构……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "[P] 我为研究人员/学生构建了一个简单的 GPU 感知单节点作业调度程序",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-04-01T11:00:02+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1s9h9gr/p_i_built_a_simple_gpuaware_singlenode_job/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "开源生态"
-          ],
-          "summary": "（在我的主帐户中转发，因为匿名帐户不能在这里发帖。）大家好！我是来自亚洲一个小实验室的研究工程师，我想分享一个我一直在使用的小项目......",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "[D] ML 工程师如何看待 Vivi 编码？",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-04-01T10:36:56+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1s9gu8i/d_how_do_ml_engineers_view_vibe_coding/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "自动化"
-          ],
-          "summary": "我见过、读过和听到过很多关于软件工程师（即那些不构建 ML 模型并制作纯粹确定性软件的人）对 AI u 发表意见的不同反应。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "四个大脑、三条路线、一种「天真」｜36氪离线聚会第零期",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-04-01T08:02:20+00:00",
-          "sourceUrl": "https://36kr.com/p/3747976260174341?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "现场拍摄 文 | 阿至 我们似乎比以往任何时候都更相信技术本身的力量。 过去3年，在这场由AI所掀起的创业浪潮中，技术正以前所未有的速度，被赋予创造一切、解决一切的宏大叙事。参数在迭代，估值在飙升，钱的流动此起彼伏。 然而在这种高速的，甚至有些喧嚣的确定性之外， 那些勇敢做出选择、推动改变发生的、具体的人，才是创造变革的原点。 基于这一原点，我们组织了一场「离线聚会」 。作为…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "显示 HN：个人 AI 内核，其他代理会请求您的数据许可",
-          "platform": "Hacker News",
-          "aiScore": 87,
-          "publishedAt": "2026-04-01T13:35:50+00:00",
-          "sourceUrl": "https://github.com/rajmohanutopai/dina",
-          "sourceName": "Hacker News AI",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "应用落地"
-          ],
-          "summary": "八年前，我写了一本科幻小说，讲述了一个世界，每个人都有一个名叫迪娜的个人人工智能，在他们的日常生活中支持他们。这就是这个想法的实现。喧嚣…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 73,
-        "avgScore": 77.0,
-        "topScore": 95,
-        "topPlatforms": [
-          {
-            "name": "Reddit",
-            "count": 25
-          },
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "36氪",
-            "count": 10
-          },
-          {
-            "name": "量子位",
-            "count": 7
-          },
-          {
-            "name": "The Verge",
-            "count": 5
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "模型进展",
-            "count": 27
-          },
-          {
-            "name": "Agent",
-            "count": 26
-          },
-          {
-            "name": "开源生态",
-            "count": 17
-          },
-          {
-            "name": "AI动态",
-            "count": 16
-          },
-          {
-            "name": "应用落地",
-            "count": 15
-          },
-          {
-            "name": "投融资",
-            "count": 9
-          },
-          {
-            "name": "芯片算力",
-            "count": 7
-          },
-          {
-            "name": "自动化",
-            "count": 6
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 73 条 AI 资讯，Top10 通报见下。",
-        "高频主题：模型进展 / Agent / 开源生态",
-        "最高分事件：AI 可以为您推送 Stream Deck 按钮（95 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
     }
   ],
   "currentWeek": {
@@ -28017,8 +27859,8 @@
       "end": "2026-06-30"
     },
     "metrics": {
-      "daysCovered": 1,
-      "totalItems": 42,
+      "daysCovered": 2,
+      "totalItems": 50,
       "avgTop10Score": 89.4,
       "topScore": 95,
       "topPlatforms": [
@@ -28296,7 +28138,7 @@
       }
     ],
     "briefing": [
-      "6月第5周累计收录 42 条资讯，覆盖 1 天。",
+      "6月第5周累计收录 50 条资讯，覆盖 2 天。",
       "高频主题：模型进展 / 芯片算力 / 投融资",
       "本周最高分：36氪首发 | URTOPIA联创做了款智能指环，众筹已破千万元（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -28311,8 +28153,8 @@
         "end": "2026-06-30"
       },
       "metrics": {
-        "daysCovered": 1,
-        "totalItems": 42,
+        "daysCovered": 2,
+        "totalItems": 50,
         "avgTop10Score": 89.4,
         "topScore": 95,
         "topPlatforms": [
@@ -28590,7 +28432,7 @@
         }
       ],
       "briefing": [
-        "6月第5周累计收录 42 条资讯，覆盖 1 天。",
+        "6月第5周累计收录 50 条资讯，覆盖 2 天。",
         "高频主题：模型进展 / 芯片算力 / 投融资",
         "本周最高分：36氪首发 | URTOPIA联创做了款智能指环，众筹已破千万元（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -32422,18 +32264,18 @@
         "end": "2026-04-07"
       },
       "metrics": {
-        "daysCovered": 7,
-        "totalItems": 401,
-        "avgTop10Score": 93.5,
+        "daysCovered": 6,
+        "totalItems": 328,
+        "avgTop10Score": 91.4,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 6
+            "count": 5
           },
           {
-            "name": "The Verge",
-            "count": 1
+            "name": "Reddit",
+            "count": 3
           },
           {
             "name": "量子位",
@@ -32442,24 +32284,20 @@
           {
             "name": "Hacker News",
             "count": 1
-          },
-          {
-            "name": "Reddit",
-            "count": 1
           }
         ],
         "topTopics": [
-          {
-            "name": "Agent",
-            "count": 9
-          },
           {
             "name": "模型进展",
             "count": 8
           },
           {
+            "name": "Agent",
+            "count": 8
+          },
+          {
             "name": "芯片算力",
-            "count": 6
+            "count": 5
           },
           {
             "name": "应用落地",
@@ -32573,78 +32411,6 @@
         },
         {
           "rank": 5,
-          "title": "AI 可以为您推送 Stream Deck 按钮",
-          "platform": "The Verge",
-          "aiScore": 95,
-          "publishedAt": "2026-04-01T12:38:58+00:00",
-          "sourceUrl": "https://www.theverge.com/tech/905021/elgato-stream-deck-mcp-ai-agent-update",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "如果您厌倦了通过手动按下按钮来控制 Stream Deck 设备，那么好消息是：Elgato 现在可以让您将该任务委托给聊天机器人。 Stream Deck 7.4 软件...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "小牛电动胡依林：一家成立12年的两轮电动车厂商决定转型AI，“all in or nothing”",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-04-01T12:21:23+00:00",
-          "sourceUrl": "https://36kr.com/p/3748233045541637?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "文｜邱晓芬 编辑｜苏建勋 一家成立12年的两轮电动车厂商，在成功经历过中国的锂电化、智能化浪潮，并在纳斯达克上市后，决定加入AI时代全新的竞争。造AI时代的智能两轮电动车——被小牛电动称为：“下一个十年的护城河”。 在小牛电动不久前的发布会上，他们展示了初步的成果——在新发布的电动车NXT2和NX2上，搭载了自研的小牛灵犀AIOS、以及首个面向骑行的AI智能体。 当你开车上路…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "氪星晚报｜特斯拉正式停产Model S和Model X两款车型；马斯克：FSD 14.3版本预计将于本周末发布；阿里发布Wan2.7-Image",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-04-01T10:02:13+00:00",
-          "sourceUrl": "https://36kr.com/p/3748061455778311?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "大公司： 李亚鹏名下公司成立麋鹿咖啡公司 36氪获悉，爱企查App显示，近日，云南麋鹿咖啡有限公司成立，法定代表人为杨凝，注册资本100万元人民币，经营范围包括咖啡豆种植、食用农产品批发、食用农产品零售、食品互联网销售等。股权穿透图显示，该公司由李亚鹏名下北京艺莲文化科技有限公司、罗毓藻分别持股90%、10%。 特斯拉正式停产Model S和Model X两款车型 据媒体报道…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
           "title": "企业玩不转龙虾，是人的思维出错了",
           "platform": "量子位",
           "aiScore": 94,
@@ -32667,7 +32433,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 6,
           "title": "Show HN：利用环境智能进行 AI 编码会话的共享团队环境",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -32691,7 +32457,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 7,
           "title": "停止使人工智能工作流程过于复杂。这是简单的框架",
           "platform": "Reddit",
           "aiScore": 88,
@@ -32713,11 +32479,82 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 8,
+          "title": "Lemonade 10.1 发布，针对 AMD GPU 和 NPU 上的本地法学硕士进行最新改进",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-07T11:05:48+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1sestah/lemonade_101_released_for_latest_improvements_for/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "由 /u/Fcking_Chuck 提交 [链接] [评论]",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "Adobe Firefly Web、移动设备和 Boards (2026)：您实际上应该使用哪一个？",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-04-07T10:32:42+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1ses6xa/adobe_firefly_web_vs_mobile_vs_boards_2026_which/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "内容生产"
+          ],
+          "summary": "我的大多数客户都在使用 Adob​​e Firefly，我不断收到同样的问题：我实际上应该使用哪个界面 - Web、移动设备还是 Boards？他们都有相似的能力，但是……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "红熊AI完成2.1亿元A轮融资，切入物理AI赛道｜36氪首发",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-04-07T02:00:00+00:00",
+          "sourceUrl": "https://36kr.com/p/3750675963904513?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "36氪获悉，企业级AI解决方案供应商「红熊AI」已于近日完成 2.1亿元A轮融资，投后估值超15亿元。本轮由华禹创投领投，老股东格睿丰投资、稼沃资本跟投，徐汇资本、上汽美元基金、嘉铭浩春、誉华资产等多家机构参与投资，三位创始团队成员也以本轮估值跟投约3000万元。这已是华禹创投连续第四轮押注红熊AI。 成立于2024年4月7日的红熊AI，主打“记忆科学+全模态大模型”技术路线…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "4月第1周累计收录 401 条资讯，覆盖 7 天。",
-        "高频主题：Agent / 模型进展 / 芯片算力",
+        "4月第1周累计收录 328 条资讯，覆盖 6 天。",
+        "高频主题：模型进展 / Agent / 芯片算力",
         "本周最高分：氪星晚报｜潘兴广场拟94亿欧元现金加股票收购环球音乐集团；高盛策略师：当前科技股估值带来投资机会；中国央行连续第17个月增持黄金（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
