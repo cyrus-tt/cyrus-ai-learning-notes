@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T04:48:20.899641+00:00",
+  "generatedAt": "2026-07-10T15:30:06.382852+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-07-10",
@@ -7,20 +7,20 @@
     "top10": [
       {
         "rank": 1,
-        "title": "36 氪 AI 测评小程序上新！看真实体验与深度测评，多个新功能等你来玩~",
+        "title": "氪星晚报｜德国大众拟大裁员，最高或裁减12万个岗位；高盛称套利交易当前处境为2000年以来最佳；百亿私募数量达142家，再次刷新历史纪录",
         "platform": "36氪",
         "aiScore": 95,
-        "publishedAt": "2026-07-10T03:03:33+00:00",
-        "sourceUrl": "https://36kr.com/p/3883780969083137?f=rss",
+        "publishedAt": "2026-07-10T10:23:02+00:00",
+        "sourceUrl": "https://36kr.com/p/3889551814916614?f=rss",
         "sourceName": "36氪",
-        "industryStage": "中游",
+        "industryStage": "下游",
         "contentTags": [
+          "芯片算力",
           "模型进展",
-          "Agent",
           "应用落地"
         ],
-        "summary": "先问一个扎心的问题：过去半年，你陆陆续续体验过多少个AI产品，又有多少个真正地被留下来？ 一个新AI产品刷屏，你火速打���官网、注册、验证码、绑定手机，结果试了五分钟——要么排队排到天荒地老，要么生成的东西一言难尽，要么免费额度3秒用完开始催你充值。热闹是它们的，浪费的时间和手机号是你的。 更麻烦的是，你想提前打听打听哪个好用，网上一搜要么全是水评，看不出到底哪好；要么明里…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "大公司： SK海力士赴美上市，华尔街投行合计佣金有望达1.4亿美元 参与SK海力士上市项目的投行团队将斩获上亿美元丰厚佣金。这家市值突破万亿美元的韩国芯片巨头即将登陆美股，本次发行有望跻身史上规模最大IPO行列。两名熟悉该交易的人士透露，高盛、花旗等承销本次纳斯达克股票发行的投行，总佣金池规模或将突破1.4亿美元；佣金由两部分构成，一是募资总额0.5%的基础承销费，二是SK海…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
@@ -30,10 +30,82 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 6,
+        "title": "使用 Rust 构建了一个开放的 Agentic AI 系统，具有可定制的代理循环 (TigrimOSR)",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-07-10T15:25:40+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1usquas/built_an_open_agentic_ai_system_in_rust_with/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "我一直在研究 TigrimOSR，这是一个用于构建和运行多代理 AI 工作流程的原生 Rust 桌面应用程序。整个代理循环不是对编排逻辑进行硬编码，而是......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "您认为目前被低估的人工智能趋势是什么？",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-07-10T12:38:47+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1usmi4o/whats_one_ai_trend_that_you_think_is_being/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "大多数人工智能讨论似乎都集中在前沿模型、通用人工智能时间表或最新产品发布上。我更感兴趣的是那些没有成为头条新闻但可能会产生重大影响的进展……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "36 氪 AI 测评小程序上新！看真实体验与深度测评，多个新功能等你来玩~",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-07-10T03:03:33+00:00",
+        "sourceUrl": "https://36kr.com/p/3883780969083137?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "先问一个扎心的问题：过去半年，你陆陆续续体验过多少个AI产品，又有多少个真正地被留下来？ 一个新AI产品刷屏，你火速打开官网、注册、验证码、绑定手机，结果试了五分钟——要么排队排到天荒地老，要么生成的东西一言难尽，要么免费额度3秒用完开始催你充值。热闹是它们的，浪费的时间和手机号是你的。 更麻烦的是，你想提前打听打听哪个好用，网上一搜要么全是水评，看不出到底哪好；要么明里暗里…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
         "title": "36氪首发 | 英伟达全球首家触觉仿真合作伙伴再获数亿融资，上半年订单超去年四倍",
         "platform": "36氪",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-07-10T01:19:37+00:00",
         "sourceUrl": "https://36kr.com/p/3889141540370949?f=rss",
         "sourceName": "36氪",
@@ -46,7 +118,7 @@
         "summary": "图源/企业 本文约 3100 字，建议阅读 7 分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，北京他山科技有限公司（以下简称“他山科技”）已于近期完成B轮融资，金额为数亿元。本轮投资方包括均胜电子、太平创新、奥克斯、鹏翎股份、Lavender Hill Capital Partners（LHCP）、洪山资本等产业方，老股东道氏技术、彬复资本追加投资。资金将主要用于触觉传感器及芯片…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -54,10 +126,10 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 10,
         "title": "8点1氪丨老乡鸡五年五次冲击上市失败；两款燃油车重回销量榜前十；长鑫科技披露招股意向书，预计7月16日发行",
         "platform": "36氪",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-07-09T23:43:55+00:00",
         "sourceUrl": "https://36kr.com/p/3889047503354625?f=rss",
         "sourceName": "36氪",
@@ -70,7 +142,7 @@
         "summary": "今日热点导览 花呗就还款页面无法正常打开致歉 中芯国际市值超越贵州茅台 iPhone 18 Pro Max成本大涨，起步价或维持在9999元 英伟达将与Hugging Face合作开发机器人开源模型 美国多州可能于下周起诉阻止派拉蒙与华纳兄弟交易 TOP 3大新闻 老乡鸡五年五次冲击上市失败 LXJ International Holdings Limited（简称“老乡鸡”…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -79,89 +151,41 @@
       },
       {
         "rank": 7,
-        "title": "赢官司、融新钱，他想把百万「抗癌针」变平价",
-        "platform": "36氪",
-        "aiScore": 92,
-        "publishedAt": "2026-07-10T03:26:25+00:00",
-        "sourceUrl": "https://36kr.com/p/3888284244720131?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
+        "title": "当人工智能代理犯下代价高昂的错误时，谁该负责？",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-07-10T13:37:42+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1usnyex/when_an_ai_agent_makes_a_costly_mistake_who_is/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
         "contentTags": [
-          "应用落地",
-          "投融资",
-          "安全治理"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "文 | 胡香赟 编辑 | 海若镜 36氪获悉，前传奇生物创始人/首席科学家范晓虎创办的生物科技公司深圳湾岛细胞，近日完成1.4亿人民币A轮融资，本轮融资由松禾资本领投、东方富海跟投。 过去一年，AI像一束强光照亮着资本市场。光芒之外，很多赛道在阴影中被重新定价，创新药板块正是其中之一。潮水褪去，人群对新药好药的需求仍在，创业者们也正在更严苛的估值坐标系里，渡过科学、临床和商业…",
+        "summary": "人工智能代理正在超越简单的聊天机器人。一些公司开始将它们用于研究、调度、客户支持、报告和内部运营。有趣的问题……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 17,
+          "authority": 18,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 8,
-        "title": "“灵睿智芯”完成新一轮数亿元融资",
-        "platform": "36氪",
-        "aiScore": 91,
-        "publishedAt": "2026-07-10T03:45:11+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3889284893997824?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "应用落地",
-          "投融资"
-        ],
-        "summary": "36氪获悉，近日，“灵睿智芯”宣布完成数亿元融资。本轮融资由张江高科、中科创星、东方富海、成为资本、石溪资本、壁仞科技、行业合作伙伴等产业投资机构共同参与，元禾璞华、上国投孚腾资本、华山资本等老股东同步持续加码。资金将重点用于公司高性能RISC-V内核的应用和产业落地，加速公司智能体CPU产品研发，以及深化AI原生融合计算架构的创新和布局。与此同时，公司后续融资工作也已展开。",
-        "action": "关注与你场景最相关的指标，不只看总分。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 7,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "派早报：蔚来 ES8 大五座版正式上市等",
-        "platform": "少数派",
-        "aiScore": 88,
-        "publishedAt": "2026-07-10T00:56:18+00:00",
-        "sourceUrl": "https://sspai.com/post/112143",
-        "sourceName": "少数派",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "OpenAI 发布 GPT-5.6 系列模型等，SpaceXAI 发布编程智能体模型 Grok 4.5。 查看全文",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "阳光电源：海外CSP厂商对公司SST产品认可度较高，预计2026年以小批量样机和试验验证为主",
+        "title": "SK海力士本周五登陆纳斯达克，募资265亿美元跻身大型IPO",
         "platform": "36氪",
         "aiScore": 86,
-        "publishedAt": "2026-07-10T03:27:51+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3889267866548997?f=rss",
+        "publishedAt": "2026-07-10T12:44:11+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3889804779731457?f=rss",
         "sourceName": "36氪",
         "industryStage": "上游",
         "contentTags": [
           "芯片算力",
           "投融资"
         ],
-        "summary": "36氪获悉，阳光电源在投资者关系活动记录表中表示，SST成为必然趋势，主要源于AI算力爆发对数据中心供电架构提出的根本性挑战。SST能够消除中间多级变换损耗，是支撑AI算力持续扩张的基础设施最优解。海外CSP厂商对公司SST产品认可度较高，公司未来会加强实验设施建设，提高认可度，夯实可靠性。公司与北美头部云厂商均有沟通，共同定义产品规格。预计2026年以小批量样机和试验验证为…",
+        "summary": "韩国芯片巨头SK海力士将于本周五登陆科技股云集的纳斯达克交易所，此举将为其打通一条强力全新融资渠道，方便全球投资者布局高速增长的人工智能基础设施赛道。这家全球第二大存储芯片厂商计划通过在纳斯达克发行美国存托凭证（ADR）募资约40万亿韩元（折合265亿美元）。本次发行共计1.779亿份美国存托凭证，发行价定为每份149美元，1份ADR对应其在韩国首尔交易所上市普通股的十分之一…",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -172,21 +196,42 @@
         }
       },
       {
-        "rank": 8,
-        "title": "我们实现了基于信息几何的多回合提示注入二阶预警信号",
+        "rank": 9,
+        "title": "消息称AMD将于本月发布Venice CPU",
+        "platform": "36氪",
+        "aiScore": 86,
+        "publishedAt": "2026-07-10T12:22:53+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3889784854870537?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力"
+        ],
+        "summary": "据报道，AMD将于7月22日至23日举行的Advancing AI活动上推出基于Zen 6架构的EPYC Venice CPU。据了解，EPYC Venice的性能和能效比其基于Zen 5的前代产品提升超过70%。（新浪财经）",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 11,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "33个AI图像模型成本分析",
         "platform": "Reddit",
         "aiScore": 86,
-        "publishedAt": "2026-07-09T23:41:37+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1us72sg/we_implemented_a_secondorder_early_warning_signal/",
+        "publishedAt": "2026-07-10T09:48:23+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1usj0l9/cost_analysis_of_33_ai_image_models/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "开源生态",
-          "内容生产"
+          "开源生态"
         ],
-        "summary": "大多数即时注入检测方法都是反应性的，这意味着某些东西超过了阈值并被阻止。该阈值充当信号。我们一直在采取积极主动的方法……",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "summary": "随着更多模型和提供商的出现，我的成本基准又回来了。添加了 Seedream 模型、Gemini 3.1 Flash Lite Image、GPT Image 1.5 等。最便宜和最贵的型号是一样的……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -194,55 +239,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 9,
-        "title": "曹操充电携手支付宝碰一下发布基于AI大模型的全新智能充电桩",
-        "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-07-10T04:19:53+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3889319006731017?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "36氪获悉，近日，在支付宝“碰一下”生态大会上，曹操充电正式发布基于AI大模型的全新智能充电桩。同时，曹操充电与支付宝碰一下共同签署了新的合作，未来3年，曹操充电“碰一下”充电桩，将覆盖存量市场30w桩、新增市场20w桩，整体预计突破50万桩。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "行业首个具身原生世界动作模型来了！蚂蚁灵波发布LingBot-VA 2.0",
-        "platform": "量子位",
-        "aiScore": 85,
-        "publishedAt": "2026-07-10T03:28:59+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/07/447597.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "行业首个具身原生世界动作模型来了！蚂蚁灵波发布LingBot-VA 2.0",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "metrics": {
-      "totalItems": 45,
-      "avgScore": 74.1,
+      "totalItems": 57,
+      "avgScore": 76.1,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -251,19 +252,19 @@
         },
         {
           "name": "Reddit",
-          "count": 11
-        },
-        {
-          "name": "36氪",
-          "count": 9
+          "count": 13
         },
         {
           "name": "The Verge",
-          "count": 6
+          "count": 8
         },
         {
-          "name": "爱范儿",
-          "count": 2
+          "name": "36氪",
+          "count": 8
+        },
+        {
+          "name": "量子位",
+          "count": 7
         }
       ],
       "topTopics": [
@@ -273,39 +274,39 @@
         },
         {
           "name": "模型进展",
-          "count": 11
+          "count": 17
+        },
+        {
+          "name": "Agent",
+          "count": 14
         },
         {
           "name": "开源生态",
-          "count": 7
+          "count": 10
         },
         {
           "name": "应用落地",
-          "count": 5
+          "count": 9
         },
         {
           "name": "芯片算力",
+          "count": 6
+        },
+        {
+          "name": "内容生产",
           "count": 5
         },
         {
           "name": "投融资",
-          "count": 5
-        },
-        {
-          "name": "Agent",
-          "count": 5
-        },
-        {
-          "name": "安全治理",
           "count": 4
         }
       ]
     },
     "briefing": [
-      "今日共收录 45 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / 开源生态",
-      "最高分事件：36 氪 AI 测评小程序上新！看真实体验与深度测评，多个新功能等你来玩~（95 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 57 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：氪星晚报｜德国大众拟大裁员，最高或裁减12万个岗位；高盛称套利交易当前处境为2000年以来最佳；百亿私募数量达142家，再次刷新历史纪录（95 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
@@ -315,20 +316,20 @@
       "top10": [
         {
           "rank": 1,
-          "title": "36 氪 AI 测评小程序上新！看真实体验与深度测评，多个新功能等你来玩~",
+          "title": "氪星晚报｜德国大众拟大裁员，最高或裁减12万个岗位；高盛称套利交易当前处境为2000年以来最佳；百亿私募数量达142家，再次刷新历史纪录",
           "platform": "36氪",
           "aiScore": 95,
-          "publishedAt": "2026-07-10T03:03:33+00:00",
-          "sourceUrl": "https://36kr.com/p/3883780969083137?f=rss",
+          "publishedAt": "2026-07-10T10:23:02+00:00",
+          "sourceUrl": "https://36kr.com/p/3889551814916614?f=rss",
           "sourceName": "36氪",
-          "industryStage": "中游",
+          "industryStage": "下游",
           "contentTags": [
+            "芯片算力",
             "模型进展",
-            "Agent",
             "应用落地"
           ],
-          "summary": "先问一个扎心的问题：过去半年，你陆陆续续体验过多少个AI产品，又有多少个真正地被留下来？ 一个新AI产品刷屏，你火速打���官网、注册、验证码、绑定手机，结果试了五分钟——要么排队排到天荒地老，要么生成的东西一言难尽，要么免费额度3秒用完开始催你充值。热闹是它们的，浪费的时间和手机号是你的。 更麻烦的是，你想提前打听打听哪个好用，网上一搜要么全是水评，看不出到底哪好；要么明里…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "大公司： SK海力士赴美上市，华尔街投行合计佣金有望达1.4亿美元 参与SK海力士上市项目的投行团队将斩获上亿美元丰厚佣金。这家市值突破万亿美元的韩国芯片巨头即将登陆美股，本次发行有望跻身史上规模最大IPO行列。两名熟悉该交易的人士透露，高盛、花旗等承销本次纳斯达克股票发行的投行，总佣金池规模或将突破1.4亿美元；佣金由两部分构成，一是募资总额0.5%的基础承销费，二是SK海…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
@@ -338,10 +339,82 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 6,
+          "title": "使用 Rust 构建了一个开放的 Agentic AI 系统，具有可定制的代理循环 (TigrimOSR)",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-07-10T15:25:40+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1usquas/built_an_open_agentic_ai_system_in_rust_with/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "我一直在研究 TigrimOSR，这是一个用于构建和运行多代理 AI 工作流程的原生 Rust 桌面应用程序。整个代理循环不是对编排逻辑进行硬编码，而是......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "您认为目前被低估的人工智能趋势是什么？",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-07-10T12:38:47+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1usmi4o/whats_one_ai_trend_that_you_think_is_being/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "大多数人工智能讨论似乎都集中在前沿模型、通用人工智能时间表或最新产品发布上。我更感兴趣的是那些没有成为头条新闻但可能会产生重大影响的进展……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "36 氪 AI 测评小程序上新！看真实体验与深度测评，多个新功能等你来玩~",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-07-10T03:03:33+00:00",
+          "sourceUrl": "https://36kr.com/p/3883780969083137?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "先问一个扎心的问题：过去半年，你陆陆续续体验过多少个AI产品，又有多少个真正地被留下来？ 一个新AI产品刷屏，你火速打开官网、注册、验证码、绑定手机，结果试了五分钟——要么排队排到天荒地老，要么生成的东西一言难尽，要么免费额度3秒用完开始催你充值。热闹是它们的，浪费的时间和手机号是你的。 更麻烦的是，你想提前打听打听哪个好用，网上一搜要么全是水评，看不出到底哪好；要么明里暗里…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
           "title": "36氪首发 | 英伟达全球首家触觉仿真合作伙伴再获数亿融资，上半年订单超去年四倍",
           "platform": "36氪",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-07-10T01:19:37+00:00",
           "sourceUrl": "https://36kr.com/p/3889141540370949?f=rss",
           "sourceName": "36氪",
@@ -354,7 +427,7 @@
           "summary": "图源/企业 本文约 3100 字，建议阅读 7 分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，北京他山科技有限公司（以下简称“他山科技”）已于近期完成B轮融资，金额为数亿元。本轮投资方包括均胜电子、太平创新、奥克斯、鹏翎股份、Lavender Hill Capital Partners（LHCP）、洪山资本等产业方，老股东道氏技术、彬复资本追加投资。资金将主要用于触觉传感器及芯片…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -362,10 +435,10 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 10,
           "title": "8点1氪丨老乡鸡五年五次冲击上市失败；两款燃油车重回销量榜前十；长鑫科技披露招股意向书，预计7月16日发行",
           "platform": "36氪",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-07-09T23:43:55+00:00",
           "sourceUrl": "https://36kr.com/p/3889047503354625?f=rss",
           "sourceName": "36氪",
@@ -378,7 +451,7 @@
           "summary": "今日热点导览 花呗就还款页面无法正常打开致歉 中芯国际市值超越贵州茅台 iPhone 18 Pro Max成本大涨，起步价或维持在9999元 英伟达将与Hugging Face合作开发机器人开源模型 美国多州可能于下周起诉阻止派拉蒙与华纳兄弟交易 TOP 3大新闻 老乡鸡五年五次冲击上市失败 LXJ International Holdings Limited（简称“老乡鸡”…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -387,89 +460,41 @@
         },
         {
           "rank": 7,
-          "title": "赢官司、融新钱，他想把百万「抗癌针」变平价",
-          "platform": "36氪",
-          "aiScore": 92,
-          "publishedAt": "2026-07-10T03:26:25+00:00",
-          "sourceUrl": "https://36kr.com/p/3888284244720131?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
+          "title": "当人工智能代理犯下代价高昂的错误时，谁该负责？",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-07-10T13:37:42+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1usnyex/when_an_ai_agent_makes_a_costly_mistake_who_is/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
           "contentTags": [
-            "应用落地",
-            "投融资",
-            "安全治理"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "文 | 胡香赟 编辑 | 海若镜 36氪获悉，前传奇生物创始人/首席科学家范晓虎创办的生物科技公司深圳湾岛细胞，近日完成1.4亿人民币A轮融资，本轮融资由松禾资本领投、东方富海跟投。 过去一年，AI像一束强光照亮着资本市场。光芒之外，很多赛道在阴影中被重新定价，创新药板块正是其中之一。潮水褪去，人群对新药好药的需求仍在，创业者们也正在更严苛的估值坐标系里，渡过科学、临床和商业…",
+          "summary": "人工智能代理正在超越简单的聊天机器人。一些公司开始将它们用于研究、调度、客户支持、报告和内部运营。有趣的问题……",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 25,
-            "topic": 17,
+            "authority": 18,
+            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 8,
-          "title": "“灵睿智芯”完成新一轮数亿元融资",
-          "platform": "36氪",
-          "aiScore": 91,
-          "publishedAt": "2026-07-10T03:45:11+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3889284893997824?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "应用落地",
-            "投融资"
-          ],
-          "summary": "36氪获悉，近日，“灵睿智芯”宣布完成数亿元融资。本轮融资由张江高科、中科创星、东方富海、成为资本、石溪资本、壁仞科技、行业合作伙伴等产业投资机构共同参与，元禾璞华、上国投孚腾资本、华山资本等老股东同步持续加码。资金将重点用于公司高性能RISC-V内核的应用和产业落地，加速公司智能体CPU产品研发，以及深化AI原生融合计算架构的创新和布局。与此同时，公司后续融资工作也已展开。",
-          "action": "关注与你场景最相关的指标，不只看总分。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 7,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "派早报：蔚来 ES8 大五座版正式上市等",
-          "platform": "少数派",
-          "aiScore": 88,
-          "publishedAt": "2026-07-10T00:56:18+00:00",
-          "sourceUrl": "https://sspai.com/post/112143",
-          "sourceName": "少数派",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "OpenAI 发布 GPT-5.6 系列模型等，SpaceXAI 发布编程智能体模型 Grok 4.5。 查看全文",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "阳光电源：海外CSP厂商对公司SST产品认可度较高，预计2026年以小批量样机和试验验证为主",
+          "title": "SK海力士本周五登陆纳斯达克，募资265亿美元跻身大型IPO",
           "platform": "36氪",
           "aiScore": 86,
-          "publishedAt": "2026-07-10T03:27:51+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3889267866548997?f=rss",
+          "publishedAt": "2026-07-10T12:44:11+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3889804779731457?f=rss",
           "sourceName": "36氪",
           "industryStage": "上游",
           "contentTags": [
             "芯片算力",
             "投融资"
           ],
-          "summary": "36氪获悉，阳光电源在投资者关系活动记录表中表示，SST成为必然趋势，主要源于AI算力爆发对数据中心供电架构提出的根本性挑战。SST能够消除中间多级变换损耗，是支撑AI算力持续扩张的基础设施最优解。海外CSP厂商对公司SST产品认可度较高，公司未来会加强实验设施建设，提高认可度，夯实可靠性。公司与北美头部云厂商均有沟通，共同定义产品规格。预计2026年以小批量样机和试验验证为…",
+          "summary": "韩国芯片巨头SK海力士将于本周五登陆科技股云集的纳斯达克交易所，此举将为其打通一条强力全新融资渠道，方便全球投资者布局高速增长的人工智能基础设施赛道。这家全球第二大存储芯片厂商计划通过在纳斯达克发行美国存托凭证（ADR）募资约40万亿韩元（折合265亿美元）。本次发行共计1.779亿份美国存托凭证，发行价定为每份149美元，1份ADR对应其在韩国首尔交易所上市普通股的十分之一…",
           "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -480,21 +505,42 @@
           }
         },
         {
-          "rank": 8,
-          "title": "我们实现了基于信息几何的多回合提示注入二阶预警信号",
+          "rank": 9,
+          "title": "消息称AMD将于本月发布Venice CPU",
+          "platform": "36氪",
+          "aiScore": 86,
+          "publishedAt": "2026-07-10T12:22:53+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3889784854870537?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力"
+          ],
+          "summary": "据报道，AMD将于7月22日至23日举行的Advancing AI活动上推出基于Zen 6架构的EPYC Venice CPU。据了解，EPYC Venice的性能和能效比其基于Zen 5的前代产品提升超过70%。（新浪财经）",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 11,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "33个AI图像模型成本分析",
           "platform": "Reddit",
           "aiScore": 86,
-          "publishedAt": "2026-07-09T23:41:37+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1us72sg/we_implemented_a_secondorder_early_warning_signal/",
+          "publishedAt": "2026-07-10T09:48:23+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1usj0l9/cost_analysis_of_33_ai_image_models/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "开源生态",
-            "内容生产"
+            "开源生态"
           ],
-          "summary": "大多数即时注入检测方法都是反应性的，这意味着某些东西超过了阈值并被阻止。该阈值充当信号。我们一直在采取积极主动的方法……",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "summary": "随着更多模型和提供商的出现，我的成本基准又回来了。添加了 Seedream 模型、Gemini 3.1 Flash Lite Image、GPT Image 1.5 等。最便宜和最贵的型号是一样的……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
@@ -502,55 +548,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 9,
-          "title": "曹操充电携手支付宝碰一下发布基于AI大模型的全新智能充电桩",
-          "platform": "36氪",
-          "aiScore": 85,
-          "publishedAt": "2026-07-10T04:19:53+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3889319006731017?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "36氪获悉，近日，在支付宝“碰一下”生态大会上，曹操充电正式发布基于AI大模型的全新智能充电桩。同时，曹操充电与支付宝碰一下共同签署了新的合作，未来3年，曹操充电“碰一下”充电桩，将覆盖存量市场30w桩、新增市场20w桩，整体预计突破50万桩。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "行业首个具身原生世界动作模型来了！蚂蚁灵波发布LingBot-VA 2.0",
-          "platform": "量子位",
-          "aiScore": 85,
-          "publishedAt": "2026-07-10T03:28:59+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/07/447597.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "行业首个具身原生世界动作模型来了！蚂蚁灵波发布LingBot-VA 2.0",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "metrics": {
-        "totalItems": 45,
-        "avgScore": 74.1,
+        "totalItems": 57,
+        "avgScore": 76.1,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -559,19 +561,19 @@
           },
           {
             "name": "Reddit",
-            "count": 11
-          },
-          {
-            "name": "36氪",
-            "count": 9
+            "count": 13
           },
           {
             "name": "The Verge",
-            "count": 6
+            "count": 8
           },
           {
-            "name": "爱范儿",
-            "count": 2
+            "name": "36氪",
+            "count": 8
+          },
+          {
+            "name": "量子位",
+            "count": 7
           }
         ],
         "topTopics": [
@@ -581,39 +583,39 @@
           },
           {
             "name": "模型进展",
-            "count": 11
+            "count": 17
+          },
+          {
+            "name": "Agent",
+            "count": 14
           },
           {
             "name": "开源生态",
-            "count": 7
+            "count": 10
           },
           {
             "name": "应用落地",
-            "count": 5
+            "count": 9
           },
           {
             "name": "芯片算力",
+            "count": 6
+          },
+          {
+            "name": "内容生产",
             "count": 5
           },
           {
             "name": "投融资",
-            "count": 5
-          },
-          {
-            "name": "Agent",
-            "count": 5
-          },
-          {
-            "name": "安全治理",
             "count": 4
           }
         ]
       },
       "briefing": [
-        "今日共收录 45 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / 开源生态",
-        "最高分事件：36 氪 AI 测评小程序上新！看真实体验与深度测评，多个新功能等你来玩~（95 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "今日共收录 57 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：氪星晚报｜德国大众拟大裁员，最高或裁减12万个岗位；高盛称套利交易当前处境为2000年以来最佳；百亿私募数量达142家，再次刷新历史纪录（95 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
@@ -621,7 +623,7 @@
       "label": "7月9日",
       "top10": [
         {
-          "rank": 4,
+          "rank": 2,
           "title": "万勋科技发布“柔韧充”自动充电通用服务引擎，以“0.000s无极容差应变”首创混沌服务、全类通解！",
           "platform": "36氪",
           "aiScore": 95,
@@ -645,7 +647,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 3,
           "title": "2026·Under36丨绕过旧答案的一代人",
           "platform": "36氪",
           "aiScore": 95,
@@ -932,7 +934,7 @@
       "label": "7月8日",
       "top10": [
         {
-          "rank": 6,
+          "rank": 4,
           "title": "从跨境电商到AI大模型：一个旅欧10年90后女生的两次出海",
           "platform": "36氪",
           "aiScore": 94,
@@ -956,7 +958,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 5,
           "title": "50FPS、成本打掉70%，魔芯MoWorld把世界模型带进产业时代",
           "platform": "量子位",
           "aiScore": 91,
@@ -28042,27 +28044,27 @@
     },
     "metrics": {
       "daysCovered": 3,
-      "totalItems": 173,
-      "avgTop10Score": 93.1,
+      "totalItems": 185,
+      "avgTop10Score": 91.0,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 8
+          "count": 7
+        },
+        {
+          "name": "Reddit",
+          "count": 2
         },
         {
           "name": "量子位",
-          "count": 1
-        },
-        {
-          "name": "少数派",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "模型进展",
-          "count": 8
+          "count": 10
         },
         {
           "name": "应用落地",
@@ -28074,14 +28076,14 @@
         },
         {
           "name": "芯片算力",
-          "count": 3
-        },
-        {
-          "name": "投融资",
-          "count": 3
+          "count": 4
         },
         {
           "name": "开源生态",
+          "count": 2
+        },
+        {
+          "name": "自动化",
           "count": 1
         }
       ]
@@ -28089,20 +28091,20 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "36 氪 AI 测评小程序上新！看真实体验与深度测评，多个新功能等你来玩~",
+        "title": "氪星晚报｜德国大众拟大裁员，最高或裁减12万个岗位；高盛称套利交易当前处境为2000年以来最佳；百亿私募数量达142家，再次刷新历史纪录",
         "platform": "36氪",
         "aiScore": 95,
-        "publishedAt": "2026-07-10T03:03:33+00:00",
-        "sourceUrl": "https://36kr.com/p/3883780969083137?f=rss",
+        "publishedAt": "2026-07-10T10:23:02+00:00",
+        "sourceUrl": "https://36kr.com/p/3889551814916614?f=rss",
         "sourceName": "36氪",
-        "industryStage": "中游",
+        "industryStage": "下游",
         "contentTags": [
+          "芯片算力",
           "模型进展",
-          "Agent",
           "应用落地"
         ],
-        "summary": "先问一个扎心的问题：过去半年，你陆陆续续体验过多少个AI产品，又有多少个真正地被留下来？ 一个新AI产品刷屏，你火速打���官网、注册、验证码、绑定手机，结果试了五分钟——要么排队排到天荒地老，要么生成的东西一言难尽，要么免费额度3秒用完开始催你充值。热闹是它们的，浪费的时间和手机号是你的。 更麻烦的是，你想提前打听打听哪个好用，网上一搜要么全是水评，看不出到底哪好；要么明里…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "大公司： SK海力士赴美上市，华尔街投行合计佣金有望达1.4亿美元 参与SK海力士上市项目的投行团队将斩获上亿美元丰厚佣金。这家市值突破万亿美元的韩国芯片巨头即将登陆美股，本次发行有望跻身史上规模最大IPO行列。两名熟悉该交易的人士透露，高盛、花旗等承销本次纳斯达克股票发行的投行，总佣金池规模或将突破1.4亿美元；佣金由两部分构成，一是募资总额0.5%的基础承销费，二是SK海…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
@@ -28113,54 +28115,6 @@
       },
       {
         "rank": 2,
-        "title": "36氪首发 | 英伟达全球首家触觉仿真合作伙伴再获数亿融资，上半年订单超去年四倍",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-07-10T01:19:37+00:00",
-        "sourceUrl": "https://36kr.com/p/3889141540370949?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "图源/企业 本文约 3100 字，建议阅读 7 分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，北京他山科技有限公司（以下简称“他山科技”）已于近期完成B轮融资，金额为数亿元。本轮投资方包括均胜电子、太平创新、奥克斯、鹏翎股份、Lavender Hill Capital Partners（LHCP）、洪山资本等产业方，老股东道氏技术、彬复资本追加投资。资金将主要用于触觉传感器及芯片…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "8点1氪丨老乡鸡五年五次冲击上市失败；两款燃油车重回销量榜前十；长鑫科技披露招股意向书，预计7月16日发行",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-07-09T23:43:55+00:00",
-        "sourceUrl": "https://36kr.com/p/3889047503354625?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "今日热点导览 花呗就还款页面无法正常打开致歉 中芯国际市值超越贵州茅台 iPhone 18 Pro Max成本大涨，起步价或维持在9999元 英伟达将与Hugging Face合作开发机器人开源模型 美国多州可能于下周起诉阻止派拉蒙与华纳兄弟交易 TOP 3大新闻 老乡鸡五年五次冲击上市失败 LXJ International Holdings Limited（简称“老乡鸡”…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
         "title": "万勋科技发布“柔韧充”自动充电通用服务引擎，以“0.000s无极容差应变”首创混沌服务、全类通解！",
         "platform": "36氪",
         "aiScore": 95,
@@ -28184,7 +28138,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 3,
         "title": "2026·Under36丨绕过旧答案的一代人",
         "platform": "36氪",
         "aiScore": 95,
@@ -28208,7 +28162,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 4,
         "title": "从跨境电商到AI大模型：一个旅欧10年90后女生的两次出海",
         "platform": "36氪",
         "aiScore": 94,
@@ -28232,55 +28186,7 @@
         }
       },
       {
-        "rank": 7,
-        "title": "赢官司、融新钱，他想把百万「抗癌针」变平价",
-        "platform": "36氪",
-        "aiScore": 92,
-        "publishedAt": "2026-07-10T03:26:25+00:00",
-        "sourceUrl": "https://36kr.com/p/3888284244720131?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "应用落地",
-          "投融资",
-          "安全治理"
-        ],
-        "summary": "文 | 胡香赟 编辑 | 海若镜 36氪获悉，前传奇生物创始人/首席科学家范晓虎创办的生物科技公司深圳湾岛细胞，近日完成1.4亿人民币A轮融资，本轮融资由松禾资本领投、东方富海跟投。 过去一年，AI像一束强光照亮着资本市场。光芒之外，很多赛道在阴影中被重新定价，创新药板块正是其中之一。潮水褪去，人群对新药好药的需求仍在，创业者们也正在更严苛的估值坐标系里，渡过科学、临床和商业…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 17,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "“灵睿智芯”完成新一轮数亿元融资",
-        "platform": "36氪",
-        "aiScore": 91,
-        "publishedAt": "2026-07-10T03:45:11+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3889284893997824?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "应用落地",
-          "投融资"
-        ],
-        "summary": "36氪获悉，近日，“灵睿智芯”宣布完成数亿元融资。本轮融资由张江高科、中科创星、东方富海、成为资本、石溪资本、壁仞科技、行业合作伙伴等产业投资机构共同参与，元禾璞华、上国投孚腾资本、华山资本等老股东同步持续加码。资金将重点用于公司高性能RISC-V内核的应用和产业落地，加速公司智能体CPU产品研发，以及深化AI原生融合计算架构的创新和布局。与此同时，公司后续融资工作也已展开。",
-        "action": "关注与你场景最相关的指标，不只看总分。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 7,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
+        "rank": 5,
         "title": "50FPS、成本打掉70%，魔芯MoWorld把世界模型带进产业时代",
         "platform": "量子位",
         "aiScore": 91,
@@ -28303,20 +28209,21 @@
         }
       },
       {
-        "rank": 10,
-        "title": "派早报：蔚来 ES8 大五座版正式上市等",
-        "platform": "少数派",
+        "rank": 6,
+        "title": "使用 Rust 构建了一个开放的 Agentic AI 系统，具有可定制的代理循环 (TigrimOSR)",
+        "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-07-10T00:56:18+00:00",
-        "sourceUrl": "https://sspai.com/post/112143",
-        "sourceName": "少数派",
+        "publishedAt": "2026-07-10T15:25:40+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1usquas/built_an_open_agentic_ai_system_in_rust_with/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "OpenAI 发布 GPT-5.6 系列模型等，SpaceXAI 发布编程智能体模型 Grok 4.5。 查看全文",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "我一直在研究 TigrimOSR，这是一个用于构建和运行多代理 AI 工作流程的原生 Rust 桌面应用程序。整个代理循环不是对编排逻辑进行硬编码，而是......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -28324,13 +28231,109 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 7,
+        "title": "您认为目前被低估的人工智能趋势是什么？",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-07-10T12:38:47+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1usmi4o/whats_one_ai_trend_that_you_think_is_being/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "大多数人工智能讨论似乎都集中在前沿模型、通用人工智能时间表或最新产品发布上。我更感兴趣的是那些没有成为头条新闻但可能会产生重大影响的进展……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "36 氪 AI 测评小程序上新！看真实体验与深度测评，多个新功能等你来玩~",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-07-10T03:03:33+00:00",
+        "sourceUrl": "https://36kr.com/p/3883780969083137?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "先问一个扎心的问题：过去半年，你陆陆续续体验过多少个AI产品，又有多少个真正地被留下来？ 一个新AI产品刷屏，你火速打开官网、注册、验证码、绑定手机，结果试了五分钟——要么排队排到天荒地老，要么生成的东西一言难尽，要么免费额度3秒用完开始催你充值。热闹是它们的，浪费的时间和手机号是你的。 更麻烦的是，你想提前打听打听哪个好用，网上一搜要么全是水评，看不出到底哪好；要么明里暗里…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "36氪首发 | 英伟达全球首家触觉仿真合作伙伴再获数亿融资，上半年订单超去年四倍",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-07-10T01:19:37+00:00",
+        "sourceUrl": "https://36kr.com/p/3889141540370949?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "图源/企业 本文约 3100 字，建议阅读 7 分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，北京他山科技有限公司（以下简称“他山科技”）已于近期完成B轮融资，金额为数亿元。本轮投资方包括均胜电子、太平创新、奥克斯、鹏翎股份、Lavender Hill Capital Partners（LHCP）、洪山资本等产业方，老股东道氏技术、彬复资本追加投资。资金将主要用于触觉传感器及芯片…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "8点1氪丨老乡鸡五年五次冲击上市失败；两款燃油车重回销量榜前十；长鑫科技披露招股意向书，预计7月16日发行",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-07-09T23:43:55+00:00",
+        "sourceUrl": "https://36kr.com/p/3889047503354625?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "今日热点导览 花呗就还款页面无法正常打开致歉 中芯国际市值超越贵州茅台 iPhone 18 Pro Max成本大涨，起步价或维持在9999元 英伟达将与Hugging Face合作开发机器人开源模型 美国多州可能于下周起诉阻止派拉蒙与华纳兄弟交易 TOP 3大新闻 老乡鸡五年五次冲击上市失败 LXJ International Holdings Limited（简称“老乡鸡”…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "briefing": [
-      "7月第2周累计收录 173 条资讯，覆盖 3 天。",
+      "7月第2周累计收录 185 条资讯，覆盖 3 天。",
       "高频主题：模型进展 / 应用落地 / Agent",
-      "本周最高分：36 氪 AI 测评小程序上新！看真实体验与深度测评，多个新功能等你来玩~（95 分）",
-      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "本周最高分：氪星晚报｜德国大众拟大裁员，最高或裁减12万个岗位；高盛称套利交易当前处境为2000年以来最佳；百亿私募数量达142家，再次刷新历史纪录（95 分）",
+      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "weeklyHistory": [
@@ -28343,27 +28346,27 @@
       },
       "metrics": {
         "daysCovered": 3,
-        "totalItems": 173,
-        "avgTop10Score": 93.1,
+        "totalItems": 185,
+        "avgTop10Score": 91.0,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 8
+            "count": 7
+          },
+          {
+            "name": "Reddit",
+            "count": 2
           },
           {
             "name": "量子位",
-            "count": 1
-          },
-          {
-            "name": "少数派",
             "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 8
+            "count": 10
           },
           {
             "name": "应用落地",
@@ -28375,14 +28378,14 @@
           },
           {
             "name": "芯片算力",
-            "count": 3
-          },
-          {
-            "name": "投融资",
-            "count": 3
+            "count": 4
           },
           {
             "name": "开源生态",
+            "count": 2
+          },
+          {
+            "name": "自动化",
             "count": 1
           }
         ]
@@ -28390,20 +28393,20 @@
       "topEvents": [
         {
           "rank": 1,
-          "title": "36 氪 AI 测评小程序上新！看真实体验与深度测评，多个新功能等你来玩~",
+          "title": "氪星晚报｜德国大众拟大裁员，最高或裁减12万个岗位；高盛称套利交易当前处境为2000年以来最佳；百亿私募数量达142家，再次刷新历史纪录",
           "platform": "36氪",
           "aiScore": 95,
-          "publishedAt": "2026-07-10T03:03:33+00:00",
-          "sourceUrl": "https://36kr.com/p/3883780969083137?f=rss",
+          "publishedAt": "2026-07-10T10:23:02+00:00",
+          "sourceUrl": "https://36kr.com/p/3889551814916614?f=rss",
           "sourceName": "36氪",
-          "industryStage": "中游",
+          "industryStage": "下游",
           "contentTags": [
+            "芯片算力",
             "模型进展",
-            "Agent",
             "应用落地"
           ],
-          "summary": "先问一个扎心的问题：过去半年，你陆陆续续体验过多少个AI产品，又有多少个真正地被留下来？ 一个新AI产品刷屏，你火速打���官网、注册、验证码、绑定手机，结果试了五分钟——要么排队排到天荒地老，要么生成的东西一言难尽，要么免费额度3秒用完开始催你充值。热闹是它们的，浪费的时间和手机号是你的。 更麻烦的是，你想提前打听打听哪个好用，网上一搜要么全是水评，看不出到底哪好；要么明里…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "大公司： SK海力士赴美上市，华尔街投行合计佣金有望达1.4亿美元 参与SK海力士上市项目的投行团队将斩获上亿美元丰厚佣金。这家市值突破万亿美元的韩国芯片巨头即将登陆美股，本次发行有望跻身史上规模最大IPO行列。两名熟悉该交易的人士透露，高盛、花旗等承销本次纳斯达克股票发行的投行，总佣金池规模或将突破1.4亿美元；佣金由两部分构成，一是募资总额0.5%的基础承销费，二是SK海…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
@@ -28414,54 +28417,6 @@
         },
         {
           "rank": 2,
-          "title": "36氪首发 | 英伟达全球首家触觉仿真合作伙伴再获数亿融资，上半年订单超去年四倍",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-07-10T01:19:37+00:00",
-          "sourceUrl": "https://36kr.com/p/3889141540370949?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "开源生态"
-          ],
-          "summary": "图源/企业 本文约 3100 字，建议阅读 7 分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，北京他山科技有限公司（以下简称“他山科技”）已于近期完成B轮融资，金额为数亿元。本轮投资方包括均胜电子、太平创新、奥克斯、鹏翎股份、Lavender Hill Capital Partners（LHCP）、洪山资本等产业方，老股东道氏技术、彬复资本追加投资。资金将主要用于触觉传感器及芯片…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "8点1氪丨老乡鸡五年五次冲击上市失败；两款燃油车重回销量榜前十；长鑫科技披露招股意向书，预计7月16日发行",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-07-09T23:43:55+00:00",
-          "sourceUrl": "https://36kr.com/p/3889047503354625?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 花呗就还款页面无法正常打开致歉 中芯国际市值超越贵州茅台 iPhone 18 Pro Max成本大涨，起步价或维持在9999元 英伟达将与Hugging Face合作开发机器人开源模型 美国多州可能于下周起诉阻止派拉蒙与华纳兄弟交易 TOP 3大新闻 老乡鸡五年五次冲击上市失败 LXJ International Holdings Limited（简称“老乡鸡”…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
           "title": "万勋科技发布“柔韧充”自动充电通用服务引擎，以“0.000s无极容差应变”首创混沌服务、全类通解！",
           "platform": "36氪",
           "aiScore": 95,
@@ -28485,7 +28440,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 3,
           "title": "2026·Under36丨绕过旧答案的一代人",
           "platform": "36氪",
           "aiScore": 95,
@@ -28509,7 +28464,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 4,
           "title": "从跨境电商到AI大模型：一个旅欧10年90后女生的两次出海",
           "platform": "36氪",
           "aiScore": 94,
@@ -28533,55 +28488,7 @@
           }
         },
         {
-          "rank": 7,
-          "title": "赢官司、融新钱，他想把百万「抗癌针」变平价",
-          "platform": "36氪",
-          "aiScore": 92,
-          "publishedAt": "2026-07-10T03:26:25+00:00",
-          "sourceUrl": "https://36kr.com/p/3888284244720131?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "应用落地",
-            "投融资",
-            "安全治理"
-          ],
-          "summary": "文 | 胡香赟 编辑 | 海若镜 36氪获悉，前传奇生物创始人/首席科学家范晓虎创办的生物科技公司深圳湾岛细胞，近日完成1.4亿人民币A轮融资，本轮融资由松禾资本领投、东方富海跟投。 过去一年，AI像一束强光照亮着资本市场。光芒之外，很多赛道在阴影中被重新定价，创新药板块正是其中之一。潮水褪去，人群对新药好药的需求仍在，创业者们也正在更严苛的估值坐标系里，渡过科学、临床和商业…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "“灵睿智芯”完成新一轮数亿元融资",
-          "platform": "36氪",
-          "aiScore": 91,
-          "publishedAt": "2026-07-10T03:45:11+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3889284893997824?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "应用落地",
-            "投融资"
-          ],
-          "summary": "36氪获悉，近日，“灵睿智芯”宣布完成数亿元融资。本轮融资由张江高科、中科创星、东方富海、成为资本、石溪资本、壁仞科技、行业合作伙伴等产业投资机构共同参与，元禾璞华、上国投孚腾资本、华山资本等老股东同步持续加码。资金将重点用于公司高性能RISC-V内核的应用和产业落地，加速公司智能体CPU产品研发，以及深化AI原生融合计算架构的创新和布局。与此同时，公司后续融资工作也已展开。",
-          "action": "关注与你场景最相关的指标，不只看总分。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 7,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
+          "rank": 5,
           "title": "50FPS、成本打掉70%，魔芯MoWorld把世界模型带进产业时代",
           "platform": "量子位",
           "aiScore": 91,
@@ -28604,20 +28511,21 @@
           }
         },
         {
-          "rank": 10,
-          "title": "派早报：蔚来 ES8 大五座版正式上市等",
-          "platform": "少数派",
+          "rank": 6,
+          "title": "使用 Rust 构建了一个开放的 Agentic AI 系统，具有可定制的代理循环 (TigrimOSR)",
+          "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-07-10T00:56:18+00:00",
-          "sourceUrl": "https://sspai.com/post/112143",
-          "sourceName": "少数派",
+          "publishedAt": "2026-07-10T15:25:40+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1usquas/built_an_open_agentic_ai_system_in_rust_with/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "OpenAI 发布 GPT-5.6 系列模型等，SpaceXAI 发布编程智能体模型 Grok 4.5。 查看全文",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "我一直在研究 TigrimOSR，这是一个用于构建和运行多代理 AI 工作流程的原生 Rust 桌面应用程序。整个代理循环不是对编排逻辑进行硬编码，而是......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
@@ -28625,13 +28533,109 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 7,
+          "title": "您认为目前被低估的人工智能趋势是什么？",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-07-10T12:38:47+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1usmi4o/whats_one_ai_trend_that_you_think_is_being/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "大多数人工智能讨论似乎都集中在前沿模型、通用人工智能时间表或最新产品发布上。我更感兴趣的是那些没有成为头条新闻但可能会产生重大影响的进展……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "36 氪 AI 测评小程序上新！看真实体验与深度测评，多个新功能等你来玩~",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-07-10T03:03:33+00:00",
+          "sourceUrl": "https://36kr.com/p/3883780969083137?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "先问一个扎心的问题：过去半年，你陆陆续续体验过多少个AI产品，又有多少个真正地被留下来？ 一个新AI产品刷屏，你火速打开官网、注册、验证码、绑定手机，结果试了五分钟——要么排队排到天荒地老，要么生成的东西一言难尽，要么免费额度3秒用完开始催你充值。热闹是它们的，浪费的时间和手机号是你的。 更麻烦的是，你想提前打听打听哪个好用，网上一搜要么全是水评，看不出到底哪好；要么明里暗里…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "36氪首发 | 英伟达全球首家触觉仿真合作伙伴再获数亿融资，上半年订单超去年四倍",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-07-10T01:19:37+00:00",
+          "sourceUrl": "https://36kr.com/p/3889141540370949?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "图源/企业 本文约 3100 字，建议阅读 7 分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，北京他山科技有限公司（以下简称“他山科技”）已于近期完成B轮融资，金额为数亿元。本轮投资方包括均胜电子、太平创新、奥克斯、鹏翎股份、Lavender Hill Capital Partners（LHCP）、洪山资本等产业方，老股东道氏技术、彬复资本追加投资。资金将主要用于触觉传感器及芯片…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "8点1氪丨老乡鸡五年五次冲击上市失败；两款燃油车重回销量榜前十；长鑫科技披露招股意向书，预计7月16日发行",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-07-09T23:43:55+00:00",
+          "sourceUrl": "https://36kr.com/p/3889047503354625?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "今日热点导览 花呗就还款页面无法正常打开致歉 中芯国际市值超越贵州茅台 iPhone 18 Pro Max成本大涨，起步价或维持在9999元 英伟达将与Hugging Face合作开发机器人开源模型 美国多州可能于下周起诉阻止派拉蒙与华纳兄弟交易 TOP 3大新闻 老乡鸡五年五次冲击上市失败 LXJ International Holdings Limited（简称“老乡鸡”…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "7月第2周累计收录 173 条资讯，覆盖 3 天。",
+        "7月第2周累计收录 185 条资讯，覆盖 3 天。",
         "高频主题：模型进展 / 应用落地 / Agent",
-        "本周最高分：36 氪 AI 测评小程序上新！看真实体验与深度测评，多个新功能等你来玩~（95 分）",
-        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "本周最高分：氪星晚报｜德国大众拟大裁员，最高或裁减12万个岗位；高盛称套利交易当前处境为2000年以来最佳；百亿私募数量达142家，再次刷新历史纪录（95 分）",
+        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
