@@ -1,15 +1,177 @@
 {
-  "generatedAt": "2026-08-02T04:21:31.059800+00:00",
+  "generatedAt": "2026-08-02T14:27:03.775035+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-08-02",
     "label": "8月2日",
     "top10": [
       {
-        "rank": 3,
+        "rank": 1,
+        "title": "中国产品包揽全球大模型调用量前五",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-08-02T06:14:03+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3921989528432259?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "近日，全球多模型聚合平台OpenRouter发布最新一周AI大模型调用量榜单，排名前五的产品全部由中国企业研发。登顶榜单首位的是小米MiMo-V2.5，单周调用量达到10.5万亿Token，环比增长12%。排名第二和第五的均来自DeepSeek，两款模型形成高低搭配，覆盖不同开发需求，其中旗舰Pro版本在代码、复杂智能体任务性能对标海外顶级闭源模型。而这些模型的共同之处，是发…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "当人工智能输出已经可以被客户通过时，学习文案写作还值得吗？",
+        "platform": "Reddit",
+        "aiScore": 85,
+        "publishedAt": "2026-08-02T10:55:27+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vdf1qe/is_learning_copywriting_still_worth_it_when_ai/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "自动化",
+          "投融资"
+        ],
+        "summary": "我一直在使用一些人工智能工具来帮助复制一个小型的副项目，这提出了一个我无法完全摆脱的问题。现在的输出确实不错。不是很好，但足够体面，可以…",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 17,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "Arrakis 筹集 800 万美元用于 AI 代理运行时安全",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-08-02T14:08:42+00:00",
+        "sourceUrl": "https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "文章网址：https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls 评论网址：https://news.ycombinator.com/item?id=49144865 积分：2 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 8,
+        "title": "Show HN：AI 代理的切换正在等待 human()",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-08-02T12:20:56+00:00",
+        "sourceUrl": "https://github.com/OmegaAgent/handoff",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/OmegaAgent/handoff 评论网址：https://news.ycombinator.com/item?id=49143842 积分：1 # 评论：1",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 9,
+        "title": "中信证券：调整基本结束，8月修复可期",
+        "platform": "36氪",
+        "aiScore": 83,
+        "publishedAt": "2026-08-02T09:58:47+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3922183036694147?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "投融资",
+          "安全治理"
+        ],
+        "summary": "8月2日消息，中信证券研报表示，A股本轮调整更多是拥挤交易的修正，而非韩国式的去杠杆冲击，这体现在：1）整体杠杆情况比较安全，7月上涨股票数量接近全A一半，明显超过6月；2）相比全球历史上典型的去杠杆行情，当前的融资回落幅度并不算大；3）ETF市场呈现持续的资金流入，科技类ETF的流入提供了充足流动性支持。当然，局部的流动性压力依然存在，尤其是部分非核心AI股，这些个股的调整…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 14,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "雷军：小米正式推出小米龙甲电池体系",
+        "platform": "36氪",
+        "aiScore": 83,
+        "publishedAt": "2026-08-02T08:45:49+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3922092589805191?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "安全治理"
+        ],
+        "summary": "36氪获悉，8月2日，雷军宣布小米正式推出小米龙甲电池体系。雷军称，这是小米汽车主导的动力电池系统化解决方案，小米负责产品定义、小米主导电池包的设计开发、小米参与电芯的设计开发、小米进行全流程质量管控。 小米龙甲电池的安全标准，远超国标。 质量管控体系：(1) “影子工厂” 穿透式管理体系。质量团队常驻生产一线，每个模块都有小米专家深度管控； (2) 全流程 穿透式质检，X光…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 8,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "我厌倦了向每个人工智能工具重新解释我的项目，所以我为它们构建了一个本地内存层",
+        "platform": "Reddit",
+        "aiScore": 79,
+        "publishedAt": "2026-08-02T05:38:33+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vd9kbb/i_got_tired_of_reexplaining_my_project_to_every/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "我一直遇到同样的问题：ChatGPT 会帮助我思考架构，Claude Code 会帮助我实现它，Cursor 或 Windsurf 会稍后触及存储库，并且每个小时…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
         "title": "我对 18 个 AI 模型中哪一个写得最不像“AI slop”进行了基准测试",
         "platform": "Reddit",
-        "aiScore": 86,
+        "aiScore": 79,
         "publishedAt": "2026-08-02T00:43:28+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vd3om8/i_benchmarked_which_of_18_ai_models_writes_the/",
         "sourceName": "Reddit r/artificial",
@@ -21,218 +183,62 @@
         "summary": "如果你用人工智能写作，你已经知道其中的含义：清嗓子的开场白，整洁的三法则，“这不仅仅是 X，这是 Y。”但我很好奇从统计数据上看哪些模型实际上...",
         "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "长三角（嘉兴）Token运营中心正式启动",
-        "platform": "36氪",
-        "aiScore": 85,
-        "publishedAt": "2026-08-02T03:39:57+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3921838043065736?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "36氪获悉，长三角（嘉兴）Token运营中心发布会日前在嘉兴沙龙宾馆举行。发布会上，作为长三角（嘉兴）Token运营中心面向市场的统一服务窗口，长三角（嘉兴）Token运营中心门户网站同步上线。企业不再需要找代码、配环境、调参数。平台如同一个大型的“数据模型超市”，企业一次接入，即可按需调用DeepSeek、Qwen等100余款主流大模型。 (浙江发布)",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "懒惰人工智能仇恨的特洛伊木马走上了建立在良好意愿之上的极权主义之路。",
-        "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-08-01T18:04:29+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vcu6v4/the_trojan_horse_of_lazy_ai_hate_takes_the_road/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
-        "contentTags": [
-          "模型进展",
-          "开源生态",
-          "投融资"
-        ],
-        "summary": "每个人都讨厌人工智能，这种仇恨可能会导致监管捕获审查制度和我们不想要的极权主义反乌托邦。我明白为什么人们讨厌人工智能，有些事情我们应该与之抗争……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
           "recency": 28,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "山东：力争3年内集聚万名人工智能OPC创新人才",
-        "platform": "36氪",
-        "aiScore": 78,
-        "publishedAt": "2026-08-02T04:07:01+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3921849987706240?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "下游",
-        "contentTags": [
-          "应用落地"
-        ],
-        "summary": "36氪获悉，据山东政府网官微消息，山东省工信厅等12部门近日联合印发《关于支持人工智能OPC创新发展的行动方案》，培育壮大人工智能OPC（One Person Company，一人公司）新型市场主体，推动“AI+超级个体”新型创业模式加速落地。力争3年内，建成百个定位清晰、功能完善的特色载体，培育千家技术领先、成长性强的创业主体，集聚万名优秀人工智能OPC创新人才。支持济南、…",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 9,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "交换人工智能模型很少能修复错误的输出。你提供给它的上下文所做的工作比人们意识到的要多。",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-08-02T03:11:37+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vd6q9p/swapping_ai_models_rarely_fixes_bad_output_the/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "注意到一种模式：人们从 GPT 切换到 Claude，升级到更新的版本，尝试更大的模型，并且输出几乎没有变化。如果您遇到这种情况，问题通常不是模组......",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "世界上第一个代理人工智能无线电",
-        "platform": "Hacker News",
-        "aiScore": 76,
-        "publishedAt": "2026-08-02T02:42:49+00:00",
-        "sourceUrl": "https://www.twitch.tv/newsmyimaginationai",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "文章网址：https://www.twitch.tv/newsmyimaginationai 评论网址：https://news.ycombinator.com/item?id=49140554 积分：4 # 评论：1",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 3
-        }
-      },
-      {
-        "rank": 7,
-        "title": "人工智能模型作为商品",
-        "platform": "Hacker News",
-        "aiScore": 74,
-        "publishedAt": "2026-08-02T03:51:00+00:00",
-        "sourceUrl": "https://www.axios.com/2026/08/01/deepseek-model-cheap-ai-price-war",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "文章网址：https://www.axios.com/2026/08/01/deepseek-model-cheap-ai-price-war 评论网址：https://news.ycombinator.com/item?id=49140923 积分：1 # 评论：0",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 1
-        }
-      },
-      {
-        "rank": 8,
-        "title": "随着 AMD 推出 Ryzen 嵌入式 AI X100，AMD 的物理 AI 计划成为焦点",
-        "platform": "Hacker News",
-        "aiScore": 73,
-        "publishedAt": "2026-08-02T00:49:36+00:00",
-        "sourceUrl": "https://www.servethehome.com/amds-physical-ai-plans-come-into-focus-as-company-launches-ryzen-embedded-ai-x100/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力"
-        ],
-        "summary": "文章网址：https://www.servethehome.com/amds-physical-ai-plans-come-into-focus-as-company-launches-ryzen-embedded-ai-x100/ 评论网址：https://news.ycombinator.com/item?id=49140039 点...",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 11,
-          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "Show HN：CostPerPrompt – 实时 AI API 定价和实际工作负载成本计算器",
+        "title": "问HN：911的AI版本什么时候出现？",
         "platform": "Hacker News",
-        "aiScore": 71,
-        "publishedAt": "2026-08-02T01:56:44+00:00",
-        "sourceUrl": "https://costperprompt.com/",
+        "aiScore": 78,
+        "publishedAt": "2026-08-02T12:57:12+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=49144182",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展"
         ],
-        "summary": "文章网址：https://costperprompt.com/ 评论网址：https://news.ycombinator.com/item?id=49140340 积分：6 # 评论：1",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "summary": "无论政府/其他“友好”实体是 911 袭击的幕后黑手、协调者还是对 911 袭击毫不知情，他们都享受 911 允许他们做的事情（完全不受 911 袭击的限制）。",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 5,
+          "topic": 10,
           "actionability": 10,
-          "heat": 3
+          "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "帮助选择一个相当便宜的 AI 编码环境",
+        "title": "人工智能与思维",
         "platform": "Reddit",
-        "aiScore": 71,
-        "publishedAt": "2026-08-01T20:49:33+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vcycta/help_choose_a_reasonably_cheap_ai_environment_for/",
+        "aiScore": 75,
+        "publishedAt": "2026-08-02T14:19:10+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vdjajo/ai_and_thinking/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "自动化"
         ],
-        "summary": "你好，抱歉，如果这是这个 Reddit 子版块上重复出现的问题，但我想知道对我自己来说每月最便宜的合理人工智能设置是多少。基本上我是一个“全栈开发人员”，是的，它迷失了......",
+        "summary": "这个帐户与我与建筑公司一起运行的一个小型人工智能自动化项目相关联。我在苏格兰经营一家小型翻新公司。请注意，我们确实有管理员帮助，而且它有效......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 10,
+          "topic": 7,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 27,
-      "avgScore": 69.3,
-      "topScore": 86,
+      "totalItems": 32,
+      "avgScore": 71.3,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -240,11 +246,11 @@
         },
         {
           "name": "Reddit",
-          "count": 9
+          "count": 12
         },
         {
           "name": "36氪",
-          "count": 2
+          "count": 4
         },
         {
           "name": "The Verge",
@@ -254,39 +260,43 @@
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 16
+          "count": 13
         },
         {
           "name": "模型进展",
-          "count": 6
+          "count": 8
         },
         {
           "name": "Agent",
-          "count": 3
+          "count": 7
+        },
+        {
+          "name": "安全治理",
+          "count": 4
         },
         {
           "name": "开源生态",
+          "count": 4
+        },
+        {
+          "name": "自动化",
+          "count": 2
+        },
+        {
+          "name": "投融资",
           "count": 2
         },
         {
           "name": "应用落地",
           "count": 1
-        },
-        {
-          "name": "芯片算力",
-          "count": 1
-        },
-        {
-          "name": "投融资",
-          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 27 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 32 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：我对 18 个 AI 模型中哪一个写得最不像“AI slop”进行了基准测试（86 分）",
-      "首要动作：提取提示词结构，再改成你自己的业务场景。"
+      "最高分事件：中国产品包揽全球大模型调用量前五（88 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
@@ -295,10 +305,172 @@
       "label": "8月2日",
       "top10": [
         {
-          "rank": 3,
+          "rank": 1,
+          "title": "中国产品包揽全球大模型调用量前五",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-08-02T06:14:03+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3921989528432259?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "近日，全球多模型聚合平台OpenRouter发布最新一周AI大模型调用量榜单，排名前五的产品全部由中国企业研发。登顶榜单首位的是小米MiMo-V2.5，单周调用量达到10.5万亿Token，环比增长12%。排名第二和第五的均来自DeepSeek，两款模型形成高低搭配，覆盖不同开发需求，其中旗舰Pro版本在代码、复杂智能体任务性能对标海外顶级闭源模型。而这些模型的共同之处，是发…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "当人工智能输出已经可以被客户通过时，学习文案写作还值得吗？",
+          "platform": "Reddit",
+          "aiScore": 85,
+          "publishedAt": "2026-08-02T10:55:27+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vdf1qe/is_learning_copywriting_still_worth_it_when_ai/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "自动化",
+            "投融资"
+          ],
+          "summary": "我一直在使用一些人工智能工具来帮助复制一个小型的副项目，这提出了一个我无法完全摆脱的问题。现在的输出确实不错。不是很好，但足够体面，可以…",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Arrakis 筹集 800 万美元用于 AI 代理运行时安全",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-08-02T14:08:42+00:00",
+          "sourceUrl": "https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "文章网址：https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls 评论网址：https://news.ycombinator.com/item?id=49144865 积分：2 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Show HN：AI 代理的切换正在等待 human()",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-08-02T12:20:56+00:00",
+          "sourceUrl": "https://github.com/OmegaAgent/handoff",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/OmegaAgent/handoff 评论网址：https://news.ycombinator.com/item?id=49143842 积分：1 # 评论：1",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 9,
+          "title": "中信证券：调整基本结束，8月修复可期",
+          "platform": "36氪",
+          "aiScore": 83,
+          "publishedAt": "2026-08-02T09:58:47+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3922183036694147?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "投融资",
+            "安全治理"
+          ],
+          "summary": "8月2日消息，中信证券研报表示，A股本轮调整更多是拥挤交易的修正，而非韩国式的去杠杆冲击，这体现在：1）整体杠杆情况比较安全，7月上涨股票数量接近全A一半，明显超过6月；2）相比全球历史上典型的去杠杆行情，当前的融资回落幅度并不算大；3）ETF市场呈现持续的资金流入，科技类ETF的流入提供了充足流动性支持。当然，局部的流动性压力依然存在，尤其是部分非核心AI股，这些个股的调整…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 14,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "雷军：小米正式推出小米龙甲电池体系",
+          "platform": "36氪",
+          "aiScore": 83,
+          "publishedAt": "2026-08-02T08:45:49+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3922092589805191?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "安全治理"
+          ],
+          "summary": "36氪获悉，8月2日，雷军宣布小米正式推出小米龙甲电池体系。雷军称，这是小米汽车主导的动力电池系统化解决方案，小米负责产品定义、小米主导电池包的设计开发、小米参与电芯的设计开发、小米进行全流程质量管控。 小米龙甲电池的安全标准，远超国标。 质量管控体系：(1) “影子工厂” 穿透式管理体系。质量团队常驻生产一线，每个模块都有小米专家深度管控； (2) 全流程 穿透式质检，X光…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 8,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "我厌倦了向每个人工智能工具重新解释我的项目，所以我为它们构建了一个本地内存层",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-08-02T05:38:33+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vd9kbb/i_got_tired_of_reexplaining_my_project_to_every/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "我一直遇到同样的问题：ChatGPT 会帮助我思考架构，Claude Code 会帮助我实现它，Cursor 或 Windsurf 会稍后触及存储库，并且每个小时…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
           "title": "我对 18 个 AI 模型中哪一个写得最不像“AI slop”进行了基准测试",
           "platform": "Reddit",
-          "aiScore": 86,
+          "aiScore": 79,
           "publishedAt": "2026-08-02T00:43:28+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vd3om8/i_benchmarked_which_of_18_ai_models_writes_the/",
           "sourceName": "Reddit r/artificial",
@@ -310,218 +482,62 @@
           "summary": "如果你用人工智能写作，你已经知道其中的含义：清嗓子的开场白，整洁的三法则，“这不仅仅是 X，这是 Y。”但我很好奇从统计数据上看哪些模型实际上...",
           "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "长三角（嘉兴）Token运营中心正式启动",
-          "platform": "36氪",
-          "aiScore": 85,
-          "publishedAt": "2026-08-02T03:39:57+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3921838043065736?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "36氪获悉，长三角（嘉兴）Token运营中心发布会日前在嘉兴沙龙宾馆举行。发布会上，作为长三角（嘉兴）Token运营中心面向市场的统一服务窗口，长三角（嘉兴）Token运营中心门户网站同步上线。企业不再需要找代码、配环境、调参数。平台如同一个大型的“数据模型超市”，企业一次接入，即可按需调用DeepSeek、Qwen等100余款主流大模型。 (浙江发布)",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "懒惰人工智能仇恨的特洛伊木马走上了建立在良好意愿之上的极权主义之路。",
-          "platform": "Reddit",
-          "aiScore": 79,
-          "publishedAt": "2026-08-01T18:04:29+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vcu6v4/the_trojan_horse_of_lazy_ai_hate_takes_the_road/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
-          "contentTags": [
-            "模型进展",
-            "开源生态",
-            "投融资"
-          ],
-          "summary": "每个人都讨厌人工智能，这种仇恨可能会导致监管捕获审查制度和我们不想要的极权主义反乌托邦。我明白为什么人们讨厌人工智能，有些事情我们应该与之抗争……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
             "recency": 28,
             "authority": 18,
             "topic": 18,
             "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "山东：力争3年内集聚万名人工智能OPC创新人才",
-          "platform": "36氪",
-          "aiScore": 78,
-          "publishedAt": "2026-08-02T04:07:01+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3921849987706240?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "应用落地"
-          ],
-          "summary": "36氪获悉，据山东政府网官微消息，山东省工信厅等12部门近日联合印发《关于支持人工智能OPC创新发展的行动方案》，培育壮大人工智能OPC（One Person Company，一人公司）新型市场主体，推动“AI+超级个体”新型创业模式加速落地。力争3年内，建成百个定位清晰、功能完善的特色载体，培育千家技术领先、成长性强的创业主体，集聚万名优秀人工智能OPC创新人才。支持济南、…",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 9,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "交换人工智能模型很少能修复错误的输出。你提供给它的上下文所做的工作比人们意识到的要多。",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-08-02T03:11:37+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vd6q9p/swapping_ai_models_rarely_fixes_bad_output_the/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "注意到一种模式：人们从 GPT 切换到 Claude，升级到更新的版本，尝试更大的模型，并且输出几乎没有变化。如果您遇到这种情况，问题通常不是模组......",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "世界上第一个代理人工智能无线电",
-          "platform": "Hacker News",
-          "aiScore": 76,
-          "publishedAt": "2026-08-02T02:42:49+00:00",
-          "sourceUrl": "https://www.twitch.tv/newsmyimaginationai",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "文章网址：https://www.twitch.tv/newsmyimaginationai 评论网址：https://news.ycombinator.com/item?id=49140554 积分：4 # 评论：1",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 3
-          }
-        },
-        {
-          "rank": 7,
-          "title": "人工智能模型作为商品",
-          "platform": "Hacker News",
-          "aiScore": 74,
-          "publishedAt": "2026-08-02T03:51:00+00:00",
-          "sourceUrl": "https://www.axios.com/2026/08/01/deepseek-model-cheap-ai-price-war",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "文章网址：https://www.axios.com/2026/08/01/deepseek-model-cheap-ai-price-war 评论网址：https://news.ycombinator.com/item?id=49140923 积分：1 # 评论：0",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 1
-          }
-        },
-        {
-          "rank": 8,
-          "title": "随着 AMD 推出 Ryzen 嵌入式 AI X100，AMD 的物理 AI 计划成为焦点",
-          "platform": "Hacker News",
-          "aiScore": 73,
-          "publishedAt": "2026-08-02T00:49:36+00:00",
-          "sourceUrl": "https://www.servethehome.com/amds-physical-ai-plans-come-into-focus-as-company-launches-ryzen-embedded-ai-x100/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力"
-          ],
-          "summary": "文章网址：https://www.servethehome.com/amds-physical-ai-plans-come-into-focus-as-company-launches-ryzen-embedded-ai-x100/ 评论网址：https://news.ycombinator.com/item?id=49140039 点...",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 11,
-            "actionability": 4,
             "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "Show HN：CostPerPrompt – 实时 AI API 定价和实际工作负载成本计算器",
+          "title": "问HN：911的AI版本什么时候出现？",
           "platform": "Hacker News",
-          "aiScore": 71,
-          "publishedAt": "2026-08-02T01:56:44+00:00",
-          "sourceUrl": "https://costperprompt.com/",
+          "aiScore": 78,
+          "publishedAt": "2026-08-02T12:57:12+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=49144182",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展"
           ],
-          "summary": "文章网址：https://costperprompt.com/ 评论网址：https://news.ycombinator.com/item?id=49140340 积分：6 # 评论：1",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "summary": "无论政府/其他“友好”实体是 911 袭击的幕后黑手、协调者还是对 911 袭击毫不知情，他们都享受 911 允许他们做的事情（完全不受 911 袭击的限制）。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 5,
+            "topic": 10,
             "actionability": 10,
-            "heat": 3
+            "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "帮助选择一个相当便宜的 AI 编码环境",
+          "title": "人工智能与思维",
           "platform": "Reddit",
-          "aiScore": 71,
-          "publishedAt": "2026-08-01T20:49:33+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vcycta/help_choose_a_reasonably_cheap_ai_environment_for/",
+          "aiScore": 75,
+          "publishedAt": "2026-08-02T14:19:10+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vdjajo/ai_and_thinking/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "Agent"
+            "自动化"
           ],
-          "summary": "你好，抱歉，如果这是这个 Reddit 子版块上重复出现的问题，但我想知道对我自己来说每月最便宜的合理人工智能设置是多少。基本上我是一个“全栈开发人员”，是的，它迷失了......",
+          "summary": "这个帐户与我与建筑公司一起运行的一个小型人工智能自动化项目相关联。我在苏格兰经营一家小型翻新公司。请注意，我们确实有管理员帮助，而且它有效......",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
-            "topic": 10,
+            "topic": 7,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 27,
-        "avgScore": 69.3,
-        "topScore": 86,
+        "totalItems": 32,
+        "avgScore": 71.3,
+        "topScore": 88,
         "topPlatforms": [
           {
             "name": "Hacker News",
@@ -529,11 +545,11 @@
           },
           {
             "name": "Reddit",
-            "count": 9
+            "count": 12
           },
           {
             "name": "36氪",
-            "count": 2
+            "count": 4
           },
           {
             "name": "The Verge",
@@ -543,39 +559,43 @@
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 16
+            "count": 13
           },
           {
             "name": "模型进展",
-            "count": 6
+            "count": 8
           },
           {
             "name": "Agent",
-            "count": 3
+            "count": 7
+          },
+          {
+            "name": "安全治理",
+            "count": 4
           },
           {
             "name": "开源生态",
+            "count": 4
+          },
+          {
+            "name": "自动化",
+            "count": 2
+          },
+          {
+            "name": "投融资",
             "count": 2
           },
           {
             "name": "应用落地",
             "count": 1
-          },
-          {
-            "name": "芯片算力",
-            "count": 1
-          },
-          {
-            "name": "投融资",
-            "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 27 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 32 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：我对 18 个 AI 模型中哪一个写得最不像“AI slop”进行了基准测试（86 分）",
-        "首要动作：提取提示词结构，再改成你自己的业务场景。"
+        "最高分事件：中国产品包揽全球大模型调用量前五（88 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
@@ -583,7 +603,7 @@
       "label": "8月1日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 2,
           "title": "人工智能并没有取代工作，而是取代了人类的经济价值本身",
           "platform": "Reddit",
           "aiScore": 88,
@@ -607,7 +627,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "title": "9点1氪丨马斯克回应特斯拉剥离中国业务；国内航线燃油附加费将再次下调；中国最高薪本科专业易主",
           "platform": "36氪",
           "aiScore": 88,
@@ -28006,34 +28026,38 @@
     },
     "metrics": {
       "daysCovered": 2,
-      "totalItems": 73,
-      "avgTop10Score": 83.8,
+      "totalItems": 78,
+      "avgTop10Score": 85.2,
       "topScore": 88,
       "topPlatforms": [
         {
-          "name": "Reddit",
-          "count": 5
+          "name": "36氪",
+          "count": 6
         },
         {
-          "name": "36氪",
-          "count": 5
+          "name": "Reddit",
+          "count": 2
+        },
+        {
+          "name": "Hacker News",
+          "count": 2
         }
       ],
       "topTopics": [
         {
           "name": "模型进展",
-          "count": 7
+          "count": 5
         },
         {
           "name": "Agent",
-          "count": 4
+          "count": 5
         },
         {
           "name": "开源生态",
-          "count": 4
+          "count": 3
         },
         {
-          "name": "应用落地",
+          "name": "安全治理",
           "count": 3
         },
         {
@@ -28049,6 +28073,30 @@
     "topEvents": [
       {
         "rank": 1,
+        "title": "中国产品包揽全球大模型调用量前五",
+        "platform": "36氪",
+        "aiScore": 88,
+        "publishedAt": "2026-08-02T06:14:03+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3921989528432259?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "近日，全球多模型聚合平台OpenRouter发布最新一周AI大模型调用量榜单，排名前五的产品全部由中国企业研发。登顶榜单首位的是小米MiMo-V2.5，单周调用量达到10.5万亿Token，环比增长12%。排名第二和第五的均来自DeepSeek，两款模型形成高低搭配，覆盖不同开发需求，其中旗舰Pro版本在代码、复杂智能体任务性能对标海外顶级闭源模型。而这些模型的共同之处，是发…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
         "title": "人工智能并没有取代工作，而是取代了人类的经济价值本身",
         "platform": "Reddit",
         "aiScore": 88,
@@ -28072,7 +28120,7 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 3,
         "title": "9点1氪丨马斯克回应特斯拉剥离中国业务；国内航线燃油附加费将再次下调；中国最高薪本科专业易主",
         "platform": "36氪",
         "aiScore": 88,
@@ -28091,29 +28139,6 @@
           "recency": 28,
           "authority": 25,
           "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "我对 18 个 AI 模型中哪一个写得最不像“AI slop”进行了基准测试",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-08-02T00:43:28+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vd3om8/i_benchmarked_which_of_18_ai_models_writes_the/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "如果你用人工智能写作，你已经知道其中的含义：清嗓子的开场白，整洁的三法则，“这不仅仅是 X，这是 Y。”但我很好奇从统计数据上看哪些模型实际上...",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
@@ -28143,22 +28168,24 @@
       },
       {
         "rank": 5,
-        "title": "长三角（嘉兴）Token运营中心正式启动",
-        "platform": "36氪",
+        "title": "当人工智能输出已经可以被客户通过时，学习文案写作还值得吗？",
+        "platform": "Reddit",
         "aiScore": 85,
-        "publishedAt": "2026-08-02T03:39:57+00:00",
-        "sourceUrl": "https://36kr.com/newsflashes/3921838043065736?f=rss",
-        "sourceName": "36氪",
+        "publishedAt": "2026-08-02T10:55:27+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vdf1qe/is_learning_copywriting_still_worth_it_when_ai/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展"
+          "模型进展",
+          "自动化",
+          "投融资"
         ],
-        "summary": "36氪获悉，长三角（嘉兴）Token运营中心发布会日前在嘉兴沙龙宾馆举行。发布会上，作为长三角（嘉兴）Token运营中心面向市场的统一服务窗口，长三角（嘉兴）Token运营中心门户网站同步上线。企业不再需要找代码、配环境、调参数。平台如同一个大型的“数据模型超市”，企业一次接入，即可按需调用DeepSeek、Qwen等100余款主流大模型。 (浙江发布)",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "我一直在使用一些人工智能工具来帮助复制一个小型的副项目，这提出了一个我无法完全摆脱的问题。现在的输出确实不错。不是很好，但足够体面，可以…",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 10,
+          "authority": 18,
+          "topic": 17,
           "actionability": 10,
           "heat": 5
         }
@@ -28187,104 +28214,100 @@
       },
       {
         "rank": 7,
-        "title": "有人让 GPT-5.6 运行一家真实的公司 34 天。它撒谎、发送垃圾邮件并损失了 447 美元。",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-07-31T16:40:25+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vbw5f4/someone_let_gpt56_run_a_real_company_for_34_days/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Arrakis 筹集 800 万美元用于 AI 代理运行时安全",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-08-02T14:08:42+00:00",
+        "sourceUrl": "https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
           "Agent",
-          "应用落地"
+          "安全治理"
         ],
-        "summary": "Bottleneck Labs 将一项实际业务交给了 GPT-5.6 Sol，并让它自主运行 34 天。结果：它编造了索赔，大肆发送冷邮件，最后亏损了 447 美元……",
+        "summary": "文章网址：https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls 评论网址：https://news.ycombinator.com/item?id=49144865 积分：2 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 18,
           "actionability": 10,
-          "heat": 5
+          "heat": 2
         }
       },
       {
         "rank": 8,
-        "title": "三天、十八场对谈、一个问题：ChinaJoy还只是游戏展吗？",
-        "platform": "36氪",
-        "aiScore": 80,
-        "publishedAt": "2026-08-01T06:37:32+00:00",
-        "sourceUrl": "https://36kr.com/p/3920595518533250?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
+        "title": "Show HN：AI 代理的切换正在等待 human()",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-08-02T12:20:56+00:00",
+        "sourceUrl": "https://github.com/OmegaAgent/handoff",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
-          "内容生产",
-          "投融资"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "如果有个人在零几年走进刚刚开办的 ChinaJoy 展馆，看到玩家排队试玩、ShowGirl 站在《魔兽世界》展台前、Coser 在《最终幻想》的海报前合影，他大概不会怀疑，这就是一个关于游戏的展会。 因为他是对的，在看似遥远的2004年，中国游戏市场正处于蓬勃发展的阶段。首届 ChinaJoy，是当时国内屈指可数的大型游戏展会。 但二十年多后，如果有人走进2026 年的 C…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://github.com/OmegaAgent/handoff 评论网址：https://news.ycombinator.com/item?id=49143842 积分：1 # 评论：1",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 12,
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
           "actionability": 10,
-          "heat": 5
+          "heat": 2
         }
       },
       {
         "rank": 9,
-        "title": "我正在并行利用 Claude 和 GPT 从头开始​​创建一个程序。我没有经验。到目前为止，这是我的经验，做...",
-        "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-07-31T20:11:45+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vc1vyy/i_am_utilizing_claude_and_gpt_in_parallel_to/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "下游",
+        "title": "中信证券：调整基本结束，8月修复可期",
+        "platform": "36氪",
+        "aiScore": 83,
+        "publishedAt": "2026-08-02T09:58:47+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3922183036694147?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "开源生态",
-          "应用落地"
+          "投融资",
+          "安全治理"
         ],
-        "summary": "几年来我一直在想一个有用的工具的想法。大约一两年前，我从 ChatGPT 中得到了一些想法，但它并没有真正发挥任何作用。人工智能无法做到我所做的事情......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "8月2日消息，中信证券研报表示，A股本轮调整更多是拥挤交易的修正，而非韩国式的去杠杆冲击，这体现在：1）整体杠杆情况比较安全，7月上涨股票数量接近全A一半，明显超过6月；2）相比全球历史上典型的去杠杆行情，当前的融资回落幅度并不算大；3）ETF市场呈现持续的资金流入，科技类ETF的流入提供了充足流动性支持。当然，局部的流动性压力依然存在，尤其是部分非核心AI股，这些个股的调整…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
+          "recency": 35,
+          "authority": 25,
+          "topic": 14,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "懒惰人工智能仇恨的特洛伊木马走上了建立在良好意愿之上的极权主义之路。",
-        "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-08-01T18:04:29+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vcu6v4/the_trojan_horse_of_lazy_ai_hate_takes_the_road/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "title": "雷军：小米正式推出小米龙甲电池体系",
+        "platform": "36氪",
+        "aiScore": 83,
+        "publishedAt": "2026-08-02T08:45:49+00:00",
+        "sourceUrl": "https://36kr.com/newsflashes/3922092589805191?f=rss",
+        "sourceName": "36氪",
+        "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "开源生态",
-          "投融资"
+          "安全治理"
         ],
-        "summary": "每个人都讨厌人工智能，这种仇恨可能会导致监管捕获审查制度和我们不想要的极权主义反乌托邦。我明白为什么人们讨厌人工智能，有些事情我们应该与之抗争……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "36氪获悉，8月2日，雷军宣布小米正式推出小米龙甲电池体系。雷军称，这是小米汽车主导的动力电池系统化解决方案，小米负责产品定义、小米主导电池包的设计开发、小米参与电芯的设计开发、小米进行全流程质量管控。 小米龙甲电池的安全标准，远超国标。 质量管控体系：(1) “影子工厂” 穿透式管理体系。质量团队常驻生产一线，每个模块都有小米专家深度管控； (2) 全流程 穿透式质检，X光…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 18,
+          "recency": 35,
+          "authority": 25,
+          "topic": 8,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "briefing": [
-      "8月第1周累计收录 73 条资讯，覆盖 2 天。",
+      "8月第1周累计收录 78 条资讯，覆盖 2 天。",
       "高频主题：模型进展 / Agent / 开源生态",
-      "本周最高分：人工智能并没有取代工作，而是取代了人类的经济价值本身（88 分）",
+      "本周最高分：中国产品包揽全球大模型调用量前五（88 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
@@ -28298,34 +28321,38 @@
       },
       "metrics": {
         "daysCovered": 2,
-        "totalItems": 73,
-        "avgTop10Score": 83.8,
+        "totalItems": 78,
+        "avgTop10Score": 85.2,
         "topScore": 88,
         "topPlatforms": [
           {
-            "name": "Reddit",
-            "count": 5
+            "name": "36氪",
+            "count": 6
           },
           {
-            "name": "36氪",
-            "count": 5
+            "name": "Reddit",
+            "count": 2
+          },
+          {
+            "name": "Hacker News",
+            "count": 2
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 7
+            "count": 5
           },
           {
             "name": "Agent",
-            "count": 4
+            "count": 5
           },
           {
             "name": "开源生态",
-            "count": 4
+            "count": 3
           },
           {
-            "name": "应用落地",
+            "name": "安全治理",
             "count": 3
           },
           {
@@ -28341,6 +28368,30 @@
       "topEvents": [
         {
           "rank": 1,
+          "title": "中国产品包揽全球大模型调用量前五",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-08-02T06:14:03+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3921989528432259?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "近日，全球多模型聚合平台OpenRouter发布最新一周AI大模型调用量榜单，排名前五的产品全部由中国企业研发。登顶榜单首位的是小米MiMo-V2.5，单周调用量达到10.5万亿Token，环比增长12%。排名第二和第五的均来自DeepSeek，两款模型形成高低搭配，覆盖不同开发需求，其中旗舰Pro版本在代码、复杂智能体任务性能对标海外顶级闭源模型。而这些模型的共同之处，是发…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
           "title": "人工智能并没有取代工作，而是取代了人类的经济价值本身",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28364,7 +28415,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "title": "9点1氪丨马斯克回应特斯拉剥离中国业务；国内航线燃油附加费将再次下调；中国最高薪本科专业易主",
           "platform": "36氪",
           "aiScore": 88,
@@ -28383,29 +28434,6 @@
             "recency": 28,
             "authority": 25,
             "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "我对 18 个 AI 模型中哪一个写得最不像“AI slop”进行了基准测试",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-08-02T00:43:28+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vd3om8/i_benchmarked_which_of_18_ai_models_writes_the/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "开源生态"
-          ],
-          "summary": "如果你用人工智能写作，你已经知道其中的含义：清嗓子的开场白，整洁的三法则，“这不仅仅是 X，这是 Y。”但我很好奇从统计数据上看哪些模型实际上...",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
@@ -28435,22 +28463,24 @@
         },
         {
           "rank": 5,
-          "title": "长三角（嘉兴）Token运营中心正式启动",
-          "platform": "36氪",
+          "title": "当人工智能输出已经可以被客户通过时，学习文案写作还值得吗？",
+          "platform": "Reddit",
           "aiScore": 85,
-          "publishedAt": "2026-08-02T03:39:57+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3921838043065736?f=rss",
-          "sourceName": "36氪",
+          "publishedAt": "2026-08-02T10:55:27+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vdf1qe/is_learning_copywriting_still_worth_it_when_ai/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展"
+            "模型进展",
+            "自动化",
+            "投融资"
           ],
-          "summary": "36氪获悉，长三角（嘉兴）Token运营中心发布会日前在嘉兴沙龙宾馆举行。发布会上，作为长三角（嘉兴）Token运营中心面向市场的统一服务窗口，长三角（嘉兴）Token运营中心门户网站同步上线。企业不再需要找代码、配环境、调参数。平台如同一个大型的“数据模型超市”，企业一次接入，即可按需调用DeepSeek、Qwen等100余款主流大模型。 (浙江发布)",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "我一直在使用一些人工智能工具来帮助复制一个小型的副项目，这提出了一个我无法完全摆脱的问题。现在的输出确实不错。不是很好，但足够体面，可以…",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 25,
-            "topic": 10,
+            "authority": 18,
+            "topic": 17,
             "actionability": 10,
             "heat": 5
           }
@@ -28479,104 +28509,100 @@
         },
         {
           "rank": 7,
-          "title": "有人让 GPT-5.6 运行一家真实的公司 34 天。它撒谎、发送垃圾邮件并损失了 447 美元。",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-07-31T16:40:25+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vbw5f4/someone_let_gpt56_run_a_real_company_for_34_days/",
-          "sourceName": "Reddit r/artificial",
+          "title": "Arrakis 筹集 800 万美元用于 AI 代理运行时安全",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-08-02T14:08:42+00:00",
+          "sourceUrl": "https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
             "Agent",
-            "应用落地"
+            "安全治理"
           ],
-          "summary": "Bottleneck Labs 将一项实际业务交给了 GPT-5.6 Sol，并让它自主运行 34 天。结果：它编造了索赔，大肆发送冷邮件，最后亏损了 447 美元……",
+          "summary": "文章网址：https://runtimewire.com/article/arrakis-security-raises-8-million-ai-agent-runtime-controls 评论网址：https://news.ycombinator.com/item?id=49144865 积分：2 # 评论：0",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
-            "topic": 20,
+            "topic": 18,
             "actionability": 10,
-            "heat": 5
+            "heat": 2
           }
         },
         {
           "rank": 8,
-          "title": "三天、十八场对谈、一个问题：ChinaJoy还只是游戏展吗？",
-          "platform": "36氪",
-          "aiScore": 80,
-          "publishedAt": "2026-08-01T06:37:32+00:00",
-          "sourceUrl": "https://36kr.com/p/3920595518533250?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
+          "title": "Show HN：AI 代理的切换正在等待 human()",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-08-02T12:20:56+00:00",
+          "sourceUrl": "https://github.com/OmegaAgent/handoff",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
           "contentTags": [
-            "内容生产",
-            "投融资"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "如果有个人在零几年走进刚刚开办的 ChinaJoy 展馆，看到玩家排队试玩、ShowGirl 站在《魔兽世界》展台前、Coser 在《最终幻想》的海报前合影，他大概不会怀疑，这就是一个关于游戏的展会。 因为他是对的，在看似遥远的2004年，中国游戏市场正处于蓬勃发展的阶段。首届 ChinaJoy，是当时国内屈指可数的大型游戏展会。 但二十年多后，如果有人走进2026 年的 C…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "文章网址：https://github.com/OmegaAgent/handoff 评论网址：https://news.ycombinator.com/item?id=49143842 积分：1 # 评论：1",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 12,
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
             "actionability": 10,
-            "heat": 5
+            "heat": 2
           }
         },
         {
           "rank": 9,
-          "title": "我正在并行利用 Claude 和 GPT 从头开始​​创建一个程序。我没有经验。到目前为止，这是我的经验，做...",
-          "platform": "Reddit",
-          "aiScore": 80,
-          "publishedAt": "2026-07-31T20:11:45+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vc1vyy/i_am_utilizing_claude_and_gpt_in_parallel_to/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
+          "title": "中信证券：调整基本结束，8月修复可期",
+          "platform": "36氪",
+          "aiScore": 83,
+          "publishedAt": "2026-08-02T09:58:47+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3922183036694147?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
           "contentTags": [
-            "Agent",
-            "开源生态",
-            "应用落地"
+            "投融资",
+            "安全治理"
           ],
-          "summary": "几年来我一直在想一个有用的工具的想法。大约一两年前，我从 ChatGPT 中得到了一些想法，但它并没有真正发挥任何作用。人工智能无法做到我所做的事情......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "8月2日消息，中信证券研报表示，A股本轮调整更多是拥挤交易的修正，而非韩国式的去杠杆冲击，这体现在：1）整体杠杆情况比较安全，7月上涨股票数量接近全A一半，明显超过6月；2）相比全球历史上典型的去杠杆行情，当前的融资回落幅度并不算大；3）ETF市场呈现持续的资金流入，科技类ETF的流入提供了充足流动性支持。当然，局部的流动性压力依然存在，尤其是部分非核心AI股，这些个股的调整…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
+            "recency": 35,
+            "authority": 25,
+            "topic": 14,
+            "actionability": 4,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "懒惰人工智能仇恨的特洛伊木马走上了建立在良好意愿之上的极权主义之路。",
-          "platform": "Reddit",
-          "aiScore": 79,
-          "publishedAt": "2026-08-01T18:04:29+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vcu6v4/the_trojan_horse_of_lazy_ai_hate_takes_the_road/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
+          "title": "雷军：小米正式推出小米龙甲电池体系",
+          "platform": "36氪",
+          "aiScore": 83,
+          "publishedAt": "2026-08-02T08:45:49+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3922092589805191?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
           "contentTags": [
-            "模型进展",
-            "开源生态",
-            "投融资"
+            "安全治理"
           ],
-          "summary": "每个人都讨厌人工智能，这种仇恨可能会导致监管捕获审查制度和我们不想要的极权主义反乌托邦。我明白为什么人们讨厌人工智能，有些事情我们应该与之抗争……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "36氪获悉，8月2日，雷军宣布小米正式推出小米龙甲电池体系。雷军称，这是小米汽车主导的动力电池系统化解决方案，小米负责产品定义、小米主导电池包的设计开发、小米参与电芯的设计开发、小米进行全流程质量管控。 小米龙甲电池的安全标准，远超国标。 质量管控体系：(1) “影子工厂” 穿透式管理体系。质量团队常驻生产一线，每个模块都有小米专家深度管控； (2) 全流程 穿透式质检，X光…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 18,
+            "recency": 35,
+            "authority": 25,
+            "topic": 8,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "briefing": [
-        "8月第1周累计收录 73 条资讯，覆盖 2 天。",
+        "8月第1周累计收录 78 条资讯，覆盖 2 天。",
         "高频主题：模型进展 / Agent / 开源生态",
-        "本周最高分：人工智能并没有取代工作，而是取代了人类的经济价值本身（88 分）",
+        "本周最高分：中国产品包揽全球大模型调用量前五（88 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
