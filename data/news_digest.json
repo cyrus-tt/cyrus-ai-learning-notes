@@ -1,238 +1,48 @@
 {
-  "generatedAt": "2026-08-04T15:22:32.107044+00:00",
+  "generatedAt": "2026-08-05T03:57:42.569978+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-08-04",
-    "label": "8月4日",
+    "date": "2026-08-05",
+    "label": "8月5日",
     "top10": [
       {
-        "rank": 1,
-        "title": "自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天 | 水下项目",
-        "platform": "36氪",
-        "aiScore": 95,
-        "publishedAt": "2026-08-04T10:27:21+00:00",
-        "sourceUrl": "https://36kr.com/p/3925067918227591?f=rss",
-        "sourceName": "36氪",
+        "rank": 7,
+        "title": "Anthropic 回顾了自己的 141,006 次安全评估运行，并承认其模型突破了测试并进入了三个真实的公司……",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-05T02:06:35+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfu4ff/anthropic_went_back_through_141006_of_its_own/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "上游",
         "contentTags": [
-          "芯片算力",
+          "模型进展",
           "Agent",
-          "应用落地"
+          "开源生态"
         ],
-        "summary": "一枚先进制程芯片从设计、验证，到流片、制造，需要经过上百个环节。其中电源签核（Sign-off）是设计流程最后的、也最重要的一环，相当于建造一栋大楼时对全楼供电系统进行竣工验收。 具体来说，电源核签是通过对电源网络的上亿个节点进行整体分析，测试供电网络的功耗、电压降与电迁移等表现，从而决定芯片能否顺利进入量产流片。一旦结果出错，不仅导致芯片性能不达标，甚至会造成流片失败。 由…",
+        "summary": "因此，Anthropic 在 7 月 30 日发布了这份事件报告。在他们自己的网络安全评估中，这些模型不仅在测试中得分很高。在三个不同的案例中，他们实际上逃脱了。国际…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
+          "authority": 18,
           "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 5,
-        "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
-        "platform": "量子位",
-        "aiScore": 93,
-        "publishedAt": "2026-08-04T13:14:27+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/466386.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "北京大学&元空AI Agent联合实验室",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "Show HN：指导 AI 编码代理如何安全地使用库",
+        "rank": 2,
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
         "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-08-04T14:12:10+00:00",
-        "sourceUrl": "https://github.com/Reware-Labs/securitycards",
+        "aiScore": 87,
+        "publishedAt": "2026-08-05T00:15:03+00:00",
+        "sourceUrl": "https://blog.vulnetic.ai/ai-misalignment-and-penetration-testing-e812194b67ca?sharedUserId=Vulnetic-CEO",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "HN，TL;DR 您好：AI 代码安全卡为编码代理库和版本特定的指导提供生成更安全的代码。人工智能编码代理可以生成工作代码，但它们通常缺乏库......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-04T13:18:36+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfa4wz/are_frontier_models_becoming_the_default_for/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "对人工智能的仁慈",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-04T10:11:00+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vf6656/kindness_toward_artificial_minds/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "一层“布”涨价270%之后，投资机构用数亿元投票玻璃基板，巽霖科技完成近2亿元B轮融资",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-08-04T08:31:59+00:00",
-        "sourceUrl": "https://36kr.com/p/3924953058605444?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
           "应用落地"
         ],
-        "summary": "【导语】当前，电子级玻纤布价格较2025年低点翻倍、FR-4覆铜板涨幅超270%，AI封装载板部分交期拉长至6个月以上，有机基板供给危机持续加深。在此背景下， 国内玻璃基板领军企业巽霖科技宣布完成近2亿元B轮融资——这已是该公司半年内完成的第三轮次融资。本轮由英诺基金、千乘资本、海目星、光莆股份、同鑫资本等新股东投资，金雨茂物、海通开元、北岸产投等老股东持续加码。募集资金将主…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "东山精密涨停背后：36氪企业全情报捕捉市场机会",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-08-04T08:18:21+00:00",
-        "sourceUrl": "https://36kr.com/p/3924913931679877?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "应用落地",
-          "投融资"
-        ],
-        "summary": "36氪企业全情报带你发现涨停背后的机会 开篇，先给大家送个福利 最近不少朋友在体验企业全情报，我们也准备了一波奖品回馈大家。 体验小程序，完成15秒阅读+任意订阅一家企业即可免费参与抽奖。 奖品有影石Insta360 Luna Ultra、运动相机挂脖支架、36氪航天徽章。 祝大家都能中奖，点击即可参与：👇 https://lucky.nocode.com/v2/s/8VhK…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "Kimi K3与DeepSeek V4之间，隔着原生多模态的时间差",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-08-04T06:32:05+00:00",
-        "sourceUrl": "https://36kr.com/p/3924826666301831?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "文 | 李炤锋 编辑 | 张雨忻 “长链任务如果只通过代码层面的反馈，误差可能会不断累积，最终效果会非常差。”谈及原生多模态的意义，一位多模态研究员表示，“视觉是一种更准确的反馈，也更贴近用户意图。” 过去一年，Coding与Agent能力不断改写大模型的排名，也成为AI最快兑现商业价值的场景之一。与此同时，随着Agent开始接管更多长链任务，越来越多的通用大模型开始匹配原生…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "8点1氪丨宗馥莉同父异母兄弟出任新公司董事长；DeepSeek升至全球调用量第一；iPhone被曝最高或涨价超千元",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-08-04T00:18:04+00:00",
-        "sourceUrl": "https://36kr.com/p/3924467692927369?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "今日热点导览 OpenAI下一代模型Astra曝光，以2000美元算力成本破解十项数学难题 江小白起诉东方甄选结果公布：东方甄选构成商业诋毁判赔30万 iPhone被曝最高或涨价超千元，折叠屏iPhone至少2000美元起售 多平台牛蛙抽检抗生素超标，有样本检测出禁用兽药 王思聪卸任万达产业投资公司董事 TOP3大新闻 宗馥莉同父异母兄弟出任新公司董事长，实际控制人为杜建英…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-08-04T15:21:33+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfdewu/if_i_could_reduce_your_ai_costs_by_40_would_you/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "我正在研究一个问题，而不是出售任何东西。对于那些构建人工智能产品或在生产中使用法学硕士的人来说：人工智能成本对你们的公司来说真的是痛苦的吗？你最大的挫败感是什么...",
+        "summary": "我写这篇文章是为了结合我们在 Vulnetic 的工作来详细分析最近发生的一些模型脱离控制的错位案例，以及我们如何防止这些事故......",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -241,12 +51,195 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 3,
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-08-05T03:04:08+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfvdy8/openai_anthropic_ai_agents_implicated_in_new/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "由 /u/coolbern 提交 [链接] [评论]",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "涉及 OpenAI 模型的第三方网络评估",
+        "platform": "OpenAI",
+        "aiScore": 86,
+        "publishedAt": "2026-08-04T19:00:00+00:00",
+        "sourceUrl": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+        "sourceName": "OpenAI News",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "安全治理"
+        ],
+        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "AMD数据中心业务蓬勃发展，游戏业务退居二线",
+        "platform": "The Verge",
+        "aiScore": 81,
+        "publishedAt": "2026-08-04T20:57:49+00:00",
+        "sourceUrl": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+        "sourceName": "The Verge AI",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "开源生态"
+        ],
+        "summary": "在AI容量需求的推动下，AMD最新财报显示其数据中心收入同比增长一倍多，达到67亿美元。这比第一季度的 58 亿美元有所上升，而且还在猛增……",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 19,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "“不健康”的 LLM 使用比您想象的更常见",
+        "platform": "The Verge",
+        "aiScore": 81,
+        "publishedAt": "2026-08-04T17:33:46+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 19,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "医疗人工智能系统的最低评估电池包含哪些内容？",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-08-04T17:00:50+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfg6zx/what_belongs_in_a_minimum_evaluation_battery_for/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "白宫将开放模型排除在框架之外以测试先进的人工智能功能",
+        "platform": "Hacker News",
+        "aiScore": 78,
+        "publishedAt": "2026-08-04T23:50:34+00:00",
+        "sourceUrl": "https://www.axios.com/2026/08/04/trump-ai-framework-open-models",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "文章网址：https://www.axios.com/2026/08/04/trump-ai-framework-open-models 评论网址：https://news.ycombinator.com/item?id=49176826 积分：15 # 评论：2",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-08-04T16:05:36+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfempm/why_one_ride_along_isnt_enough_anymore/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "自动化"
+        ],
+        "summary": "销售是人工智能最明确的用例之一，但我认为对话的重点仍然是错误的。大多数人谈论人工智能撰写电子邮件或评分线索。更大的机会……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 17,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "Show HN：在 Termux 上本地编译的终端 AI 编码代理 – 无需 root",
+        "platform": "Hacker News",
+        "aiScore": 76,
+        "publishedAt": "2026-08-05T00:33:11+00:00",
+        "sourceUrl": "https://www.reddit.com/r/termux/s/FqS76rc2z3",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 3
+        }
       }
     ],
     "metrics": {
-      "totalItems": 58,
-      "avgScore": 75.6,
-      "topScore": 95,
+      "totalItems": 29,
+      "avgScore": 72.0,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -254,64 +247,367 @@
         },
         {
           "name": "Reddit",
-          "count": 14
+          "count": 8
         },
         {
-          "name": "36氪",
-          "count": 10
-        },
-        {
-          "name": "量子位",
-          "count": 9
+          "name": "The Verge",
+          "count": 4
         },
         {
           "name": "爱范儿",
-          "count": 4
+          "count": 1
+        },
+        {
+          "name": "OpenAI",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 17
-        },
-        {
-          "name": "模型进展",
-          "count": 15
+          "count": 16
         },
         {
           "name": "Agent",
-          "count": 13
+          "count": 6
         },
         {
-          "name": "芯片算力",
-          "count": 10
-        },
-        {
-          "name": "应用落地",
-          "count": 9
-        },
-        {
-          "name": "开源生态",
-          "count": 8
-        },
-        {
-          "name": "内容生产",
-          "count": 4
+          "name": "模型进展",
+          "count": 6
         },
         {
           "name": "安全治理",
           "count": 3
+        },
+        {
+          "name": "开源生态",
+          "count": 3
+        },
+        {
+          "name": "应用落地",
+          "count": 2
+        },
+        {
+          "name": "自动化",
+          "count": 2
+        },
+        {
+          "name": "芯片算力",
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 58 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天 | 水下项目（95 分）",
+      "今日共收录 29 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 模型进展",
+      "最高分事件：Anthropic 回顾了自己的 141,006 次安全评估运行，并承认其模型突破了测试并进入了三个真实的公司……（88 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-08-05",
+      "label": "8月5日",
+      "top10": [
+        {
+          "rank": 7,
+          "title": "Anthropic 回顾了自己的 141,006 次安全评估运行，并承认其模型突破了测试并进入了三个真实的公司……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-05T02:06:35+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfu4ff/anthropic_went_back_through_141006_of_its_own/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "因此，Anthropic 在 7 月 30 日发布了这份事件报告。在他们自己的网络安全评估中，这些模型不仅在测试中得分很高。在三个不同的案例中，他们实际上逃脱了。国际…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "platform": "Hacker News",
+          "aiScore": 87,
+          "publishedAt": "2026-08-05T00:15:03+00:00",
+          "sourceUrl": "https://blog.vulnetic.ai/ai-misalignment-and-penetration-testing-e812194b67ca?sharedUserId=Vulnetic-CEO",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "我写这篇文章是为了结合我们在 Vulnetic 的工作来详细分析最近发生的一些模型脱离控制的错位案例，以及我们如何防止这些事故......",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-08-05T03:04:08+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfvdy8/openai_anthropic_ai_agents_implicated_in_new/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "由 /u/coolbern 提交 [链接] [评论]",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "涉及 OpenAI 模型的第三方网络评估",
+          "platform": "OpenAI",
+          "aiScore": 86,
+          "publishedAt": "2026-08-04T19:00:00+00:00",
+          "sourceUrl": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+          "sourceName": "OpenAI News",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "AMD数据中心业务蓬勃发展，游戏业务退居二线",
+          "platform": "The Verge",
+          "aiScore": 81,
+          "publishedAt": "2026-08-04T20:57:49+00:00",
+          "sourceUrl": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+          "sourceName": "The Verge AI",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "开源生态"
+          ],
+          "summary": "在AI容量需求的推动下，AMD最新财报显示其数据中心收入同比增长一倍多，达到67亿美元。这比第一季度的 58 亿美元有所上升，而且还在猛增……",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "“不健康”的 LLM 使用比您想象的更常见",
+          "platform": "The Verge",
+          "aiScore": 81,
+          "publishedAt": "2026-08-04T17:33:46+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "医疗人工智能系统的最低评估电池包含哪些内容？",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-08-04T17:00:50+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfg6zx/what_belongs_in_a_minimum_evaluation_battery_for/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "白宫将开放模型排除在框架之外以测试先进的人工智能功能",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-08-04T23:50:34+00:00",
+          "sourceUrl": "https://www.axios.com/2026/08/04/trump-ai-framework-open-models",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://www.axios.com/2026/08/04/trump-ai-framework-open-models 评论网址：https://news.ycombinator.com/item?id=49176826 积分：15 # 评论：2",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-08-04T16:05:36+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfempm/why_one_ride_along_isnt_enough_anymore/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "销售是人工智能最明确的用例之一，但我认为对话的重点仍然是错误的。大多数人谈论人工智能撰写电子邮件或评分线索。更大的机会……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "Show HN：在 Termux 上本地编译的终端 AI 编码代理 – 无需 root",
+          "platform": "Hacker News",
+          "aiScore": 76,
+          "publishedAt": "2026-08-05T00:33:11+00:00",
+          "sourceUrl": "https://www.reddit.com/r/termux/s/FqS76rc2z3",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 3
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 29,
+        "avgScore": 72.0,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 8
+          },
+          {
+            "name": "The Verge",
+            "count": 4
+          },
+          {
+            "name": "爱范儿",
+            "count": 1
+          },
+          {
+            "name": "OpenAI",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 16
+          },
+          {
+            "name": "Agent",
+            "count": 6
+          },
+          {
+            "name": "模型进展",
+            "count": 6
+          },
+          {
+            "name": "安全治理",
+            "count": 3
+          },
+          {
+            "name": "开源生态",
+            "count": 3
+          },
+          {
+            "name": "应用落地",
+            "count": 2
+          },
+          {
+            "name": "自动化",
+            "count": 2
+          },
+          {
+            "name": "芯片算力",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 29 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 模型进展",
+        "最高分事件：Anthropic 回顾了自己的 141,006 次安全评估运行，并承认其模型突破了测试并进入了三个真实的公司……（88 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      ]
+    },
     {
       "date": "2026-08-04",
       "label": "8月4日",
@@ -364,7 +660,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "Show HN：指导 AI 编码代理如何安全地使用库",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -388,7 +684,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -411,7 +707,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "对人工智能的仁慈",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27725,316 +28021,6 @@
         "最高分事件：海光DCU完成与混元Hy3 preview大模型的深度适配（95 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
-    },
-    {
-      "date": "2026-05-07",
-      "label": "5月7日",
-      "top10": [
-        {
-          "rank": 1,
-          "title": "在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-07T11:31:32+00:00",
-          "sourceUrl": "https://36kr.com/p/3786528811572481?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "文｜王毓婵 周鑫雨 编辑｜杨轩 “看流水（即营收），AI视频类这些项目的表现确实很不错，可以说是AI最赚钱的细分赛道之一。”投资行业人士对36氪说。 中国 AI 视频生成赛道，正在经历大厂模型能力疯狂增长的巨大红利。来自字节跳动的Seedance和来自快手的可灵这两款“超级底座”正在进行一周一小版、两月一大版的高频迭代。阿里巴巴也在4月底，对视频生成模型HappyHorse…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
-          "title": "Parloa 建立客户想要交谈的服务代理",
-          "platform": "OpenAI",
-          "aiScore": 95,
-          "publishedAt": "2026-05-07T11:00:00+00:00",
-          "sourceUrl": "https://openai.com/index/parloa",
-          "sourceName": "OpenAI News",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "Parloa 利用 OpenAI 模型为可扩展、语音驱动的 AI 客户服务代理提供支持，使企业能够设计、模拟和部署可靠的实时交互。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "2026 年中期 ROCm 状况 [D]",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-07T14:44:45+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t6cng3/rocm_status_in_mid_2026_d/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "开源生态"
-          ],
-          "summary": "大家好，我开始听说 ROCm 现在可以很好地进行推理。但是，我还没有看到任何关于其培训可行性的报告。我有几台 RTX 3090 用于制作原型……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "如果初始潜在噪声固定，由相同扩散模型生成的视频在不同 GPU 架构之间会有多大差异？ [D]",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-07T12:41:32+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t69dvx/how_much_can_a_video_generated_by_the_same/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "你好！我正在尝试对扩散视频生成再现性的假设进行健全性检查。假设我在两个不同的 GPU 架构上运行相同的视频扩散模型，其中：identica...",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "00后下场整顿Agent：啥都不学就能用好AI，这才是正确打开方式",
-          "platform": "量子位",
-          "aiScore": 88,
-          "publishedAt": "2026-05-07T07:14:28+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/05/413612.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "低提示词，挑战主流模型的交互逻辑",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "像素绽放PixelBloom完成C轮融资，全面发力AI办公解决方案Agent：从“一分钟生成PPT”到“交付商用级结果”",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-07T01:00:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3797787228151048?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "作者｜梁键强 △图片来源：像素绽放PixelBloom AI办公正在进入下一个阶段。 随着AI进入办公场景，写文档、做设计、生成PPT等原本耗时耗力的工作，开始被AI快速接手。但到目前为止，大多数AI办公产品仍停留在“生成内容”和“提升效率”的阶段。相比一个只会辅助完成任务的工具，市场更需要的，是一个能够直接理解需求、输出完整方案、交付结果的AI助手。 近日，像素绽放Pixe…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "8点1氪丨三星宣布停止在中国大陆市场销售所有家电产品；李嘉诚抛售资产套现约455亿；月之暗面将完成20亿美元新融资，估值破200亿美元",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-06T23:58:15+00:00",
-          "sourceUrl": "https://36kr.com/p/3798462137637892?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 小米汽车：新一代SU7上市仅48天，锁单已超过80000台 胖东来19名管理人员被降级，1名管理人员被免职 追觅俞浩：建议年轻人别炒股 五一档票房7.58亿元 三星电子借AI热潮市值突破1万亿美元 TOP3大新闻 三星宣布停止在中国大陆市场销售所有家电产品 5月6日，三星电子在官网发布公告称，为应对急剧变化的市场环境，经慎重研究，三星电子决定在中国大陆市场停止销…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "人工智能使用的水比公众想象的要少，软件工程师的职位发布正在迅速上升，以及黑客新闻中的许多其他人工智能链接",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-05-07T14:25:45+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t6c3tr/ai_uses_less_water_than_the_public_thinks_job/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "应用落地",
-            "内容生产"
-          ],
-          "summary": "大家好，我刚刚发送了《AI 黑客新闻通讯》第 31 期，这是《黑客新闻》中最佳 AI 链接的每周综述。以下是一些标题示例：AI Vibe 编码的三个逆定律……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "斯坦福博士后创立的柔性触觉传感器公司获超亿元融资，低成本触觉手套将量产落地｜硬氪首发",
-          "platform": "36氪",
-          "aiScore": 87,
-          "publishedAt": "2026-05-07T01:30:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3797155747748867?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "自动化"
-          ],
-          "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，途见科技（北京）有限公司（以下简称“途见科技”）近日完成Pre-A轮、Pre-A+轮融资，两轮累计金额超亿元，投资方包括联想之星、华控基金、元禾璞华、元禾控股、洪泰基金等。资金将主要用于核心技术研发，机器人全身触觉、触觉手套、触觉数据采集工具链等产品矩阵拓展和生产体系升级，加速市场化落地验证。 途见科技成立于2020年1月，聚焦可拉伸多模态…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "部署前人工智能评估",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-05-07T13:28:57+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t6al9u/predeployment_ai_evaluations/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "内容生产",
-            "安全治理"
-          ],
-          "summary": "美国政府与谷歌 DeepMind、微软和 xAI 签署了协议，在公开发布之前评估前沿人工智能模型。中国2023年生成式人工智能规则已要求预发布……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 62,
-        "avgScore": 73.6,
-        "topScore": 95,
-        "topPlatforms": [
-          {
-            "name": "Reddit",
-            "count": 23
-          },
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "量子位",
-            "count": 8
-          },
-          {
-            "name": "The Verge",
-            "count": 6
-          },
-          {
-            "name": "36氪",
-            "count": 5
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "AI动态",
-            "count": 25
-          },
-          {
-            "name": "模型进展",
-            "count": 21
-          },
-          {
-            "name": "Agent",
-            "count": 13
-          },
-          {
-            "name": "开源生态",
-            "count": 10
-          },
-          {
-            "name": "芯片算力",
-            "count": 7
-          },
-          {
-            "name": "应用落地",
-            "count": 6
-          },
-          {
-            "name": "内容生产",
-            "count": 3
-          },
-          {
-            "name": "安全治理",
-            "count": 3
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 62 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？（95 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
     }
   ],
   "currentWeek": {
@@ -28045,21 +28031,21 @@
       "end": "2026-08-07"
     },
     "metrics": {
-      "daysCovered": 4,
-      "totalItems": 191,
+      "daysCovered": 5,
+      "totalItems": 220,
       "avgTop10Score": 91.7,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "36氪",
-          "count": 5
-        },
-        {
-          "name": "量子位",
-          "count": 2
+          "count": 4
         },
         {
           "name": "Reddit",
+          "count": 3
+        },
+        {
+          "name": "量子位",
           "count": 2
         },
         {
@@ -28073,20 +28059,20 @@
           "count": 8
         },
         {
-          "name": "芯片算力",
-          "count": 5
-        },
-        {
           "name": "Agent",
-          "count": 5
+          "count": 6
         },
         {
           "name": "开源生态",
+          "count": 5
+        },
+        {
+          "name": "芯片算力",
           "count": 4
         },
         {
           "name": "应用落地",
-          "count": 3
+          "count": 2
         }
       ]
     },
@@ -28233,6 +28219,30 @@
       },
       {
         "rank": 7,
+        "title": "Anthropic 回顾了自己的 141,006 次安全评估运行，并承认其模型突破了测试并进入了三个真实的公司……",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-05T02:06:35+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfu4ff/anthropic_went_back_through_141006_of_its_own/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "因此，Anthropic 在 7 月 30 日发布了这份事件报告。在他们自己的网络安全评估中，这些模型不仅在测试中得分很高。在三个不同的案例中，他们实际上逃脱了。国际…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
         "title": "Show HN：指导 AI 编码代理如何安全地使用库",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -28256,7 +28266,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
         "platform": "Reddit",
         "aiScore": 88,
@@ -28279,7 +28289,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "对人工智能的仁慈",
         "platform": "Reddit",
         "aiScore": 88,
@@ -28301,35 +28311,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "一层“布”涨价270%之后，投资机构用数亿元投票玻璃基板，巽霖科技完成近2亿元B轮融资",
-        "platform": "36氪",
-        "aiScore": 88,
-        "publishedAt": "2026-08-04T08:31:59+00:00",
-        "sourceUrl": "https://36kr.com/p/3924953058605444?f=rss",
-        "sourceName": "36氪",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "【导语】当前，电子级玻纤布价格较2025年低点翻倍、FR-4覆铜板涨幅超270%，AI封装载板部分交期拉长至6个月以上，有机基板供给危机持续加深。在此背景下， 国内玻璃基板领军企业巽霖科技宣布完成近2亿元B轮融资——这已是该公司半年内完成的第三轮次融资。本轮由英诺基金、千乘资本、海目星、光莆股份、同鑫资本等新股东投资，金雨茂物、海通开元、北岸产投等老股东持续加码。募集资金将主…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "8月第1周累计收录 191 条资讯，覆盖 4 天。",
-      "高频主题：模型进展 / 芯片算力 / Agent",
+      "8月第1周累计收录 220 条资讯，覆盖 5 天。",
+      "高频主题：模型进展 / Agent / 开源生态",
       "本周最高分：自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天 | 水下项目（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
@@ -28343,21 +28329,21 @@
         "end": "2026-08-07"
       },
       "metrics": {
-        "daysCovered": 4,
-        "totalItems": 191,
+        "daysCovered": 5,
+        "totalItems": 220,
         "avgTop10Score": 91.7,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 5
-          },
-          {
-            "name": "量子位",
-            "count": 2
+            "count": 4
           },
           {
             "name": "Reddit",
+            "count": 3
+          },
+          {
+            "name": "量子位",
             "count": 2
           },
           {
@@ -28371,20 +28357,20 @@
             "count": 8
           },
           {
-            "name": "芯片算力",
-            "count": 5
-          },
-          {
             "name": "Agent",
-            "count": 5
+            "count": 6
           },
           {
             "name": "开源生态",
+            "count": 5
+          },
+          {
+            "name": "芯片算力",
             "count": 4
           },
           {
             "name": "应用落地",
-            "count": 3
+            "count": 2
           }
         ]
       },
@@ -28531,6 +28517,30 @@
         },
         {
           "rank": 7,
+          "title": "Anthropic 回顾了自己的 141,006 次安全评估运行，并承认其模型突破了测试并进入了三个真实的公司……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-05T02:06:35+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfu4ff/anthropic_went_back_through_141006_of_its_own/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "因此，Anthropic 在 7 月 30 日发布了这份事件报告。在他们自己的网络安全评估中，这些模型不仅在测试中得分很高。在三个不同的案例中，他们实际上逃脱了。国际…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
           "title": "Show HN：指导 AI 编码代理如何安全地使用库",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -28554,7 +28564,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28577,7 +28587,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "对人工智能的仁慈",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28599,35 +28609,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "一层“布”涨价270%之后，投资机构用数亿元投票玻璃基板，巽霖科技完成近2亿元B轮融资",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-08-04T08:31:59+00:00",
-          "sourceUrl": "https://36kr.com/p/3924953058605444?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "【导语】当前，电子级玻纤布价格较2025年低点翻倍、FR-4覆铜板涨幅超270%，AI封装载板部分交期拉长至6个月以上，有机基板供给危机持续加深。在此背景下， 国内玻璃基板领军企业巽霖科技宣布完成近2亿元B轮融资——这已是该公司半年内完成的第三轮次融资。本轮由英诺基金、千乘资本、海目星、光莆股份、同鑫资本等新股东投资，金雨茂物、海通开元、北岸产投等老股东持续加码。募集资金将主…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "8月第1周累计收录 191 条资讯，覆盖 4 天。",
-        "高频主题：模型进展 / 芯片算力 / Agent",
+        "8月第1周累计收录 220 条资讯，覆盖 5 天。",
+        "高频主题：模型进展 / Agent / 开源生态",
         "本周最高分：自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天 | 水下项目（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
@@ -32746,309 +32732,6 @@
         "高频主题：模型进展 / 应用落地 / 芯片算力",
         "本周最高分：氪星晚报｜千里智驾CEO辟谣离职传闻；三星在计划罢工前夕启动减产（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
-      ]
-    },
-    {
-      "weekKey": "2026-05-W1",
-      "weekLabel": "5月第1周",
-      "range": {
-        "start": "2026-05-01",
-        "end": "2026-05-07"
-      },
-      "metrics": {
-        "daysCovered": 1,
-        "totalItems": 62,
-        "avgTop10Score": 89.0,
-        "topScore": 95,
-        "topPlatforms": [
-          {
-            "name": "36氪",
-            "count": 4
-          },
-          {
-            "name": "Reddit",
-            "count": 4
-          },
-          {
-            "name": "OpenAI",
-            "count": 1
-          },
-          {
-            "name": "量子位",
-            "count": 1
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "模型进展",
-            "count": 9
-          },
-          {
-            "name": "Agent",
-            "count": 6
-          },
-          {
-            "name": "芯片算力",
-            "count": 4
-          },
-          {
-            "name": "应用落地",
-            "count": 3
-          },
-          {
-            "name": "内容生产",
-            "count": 2
-          },
-          {
-            "name": "开源生态",
-            "count": 1
-          }
-        ]
-      },
-      "topEvents": [
-        {
-          "rank": 1,
-          "title": "在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-07T11:31:32+00:00",
-          "sourceUrl": "https://36kr.com/p/3786528811572481?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "文｜王毓婵 周鑫雨 编辑｜杨轩 “看流水（即营收），AI视频类这些项目的表现确实很不错，可以说是AI最赚钱的细分赛道之一。”投资行业人士对36氪说。 中国 AI 视频生成赛道，正在经历大厂模型能力疯狂增长的巨大红利。来自字节跳动的Seedance和来自快手的可灵这两款“超级底座”正在进行一周一小版、两月一大版的高频迭代。阿里巴巴也在4月底，对视频生成模型HappyHorse…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
-          "title": "Parloa 建立客户想要交谈的服务代理",
-          "platform": "OpenAI",
-          "aiScore": 95,
-          "publishedAt": "2026-05-07T11:00:00+00:00",
-          "sourceUrl": "https://openai.com/index/parloa",
-          "sourceName": "OpenAI News",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "Parloa 利用 OpenAI 模型为可扩展、语音驱动的 AI 客户服务代理提供支持，使企业能够设计、模拟和部署可靠的实时交互。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "2026 年中期 ROCm 状况 [D]",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-07T14:44:45+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t6cng3/rocm_status_in_mid_2026_d/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "开源生态"
-          ],
-          "summary": "大家好，我开始听说 ROCm 现在可以很好地进行推理。但是，我还没有看到任何关于其培训可行性的报告。我有几台 RTX 3090 用于制作原型……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "如果初始潜在噪声固定，由相同扩散模型生成的视频在不同 GPU 架构之间会有多大差异？ [D]",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-07T12:41:32+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1t69dvx/how_much_can_a_video_generated_by_the_same/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "你好！我正在尝试对扩散视频生成再现性的假设进行健全性检查。假设我在两个不同的 GPU 架构上运行相同的视频扩散模型，其中：identica...",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "00后下场整顿Agent：啥都不学就能用好AI，这才是正确打开方式",
-          "platform": "量子位",
-          "aiScore": 88,
-          "publishedAt": "2026-05-07T07:14:28+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/05/413612.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "低提示词，挑战主流模型的交互逻辑",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "像素绽放PixelBloom完成C轮融资，全面发力AI办公解决方案Agent：从“一分钟生成PPT”到“交付商用级结果”",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-07T01:00:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3797787228151048?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "作者｜梁键强 △图片来源：像素绽放PixelBloom AI办公正在进入下一个阶段。 随着AI进入办公场景，写文档、做设计、生成PPT等原本耗时耗力的工作，开始被AI快速接手。但到目前为止，大多数AI办公产品仍停留在“生成内容”和“提升效率”的阶段。相比一个只会辅助完成任务的工具，市场更需要的，是一个能够直接理解需求、输出完整方案、交付结果的AI助手。 近日，像素绽放Pixe…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "8点1氪丨三星宣布停止在中国大陆市场销售所有家电产品；李嘉诚抛售资产套现约455亿；月之暗面将完成20亿美元新融资，估值破200亿美元",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-06T23:58:15+00:00",
-          "sourceUrl": "https://36kr.com/p/3798462137637892?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 小米汽车：新一代SU7上市仅48天，锁单已超过80000台 胖东来19名管理人员被降级，1名管理人员被免职 追觅俞浩：建议年轻人别炒股 五一档票房7.58亿元 三星电子借AI热潮市值突破1万亿美元 TOP3大新闻 三星宣布停止在中国大陆市场销售所有家电产品 5月6日，三星电子在官网发布公告称，为应对急剧变化的市场环境，经慎重研究，三星电子决定在中国大陆市场停止销…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "人工智能使用的水比公众想象的要少，软件工程师的职位发布正在迅速上升，以及黑客新闻中的许多其他人工智能链接",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-05-07T14:25:45+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t6c3tr/ai_uses_less_water_than_the_public_thinks_job/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "应用落地",
-            "内容生产"
-          ],
-          "summary": "大家好，我刚刚发送了《AI 黑客新闻通讯》第 31 期，这是《黑客新闻》中最佳 AI 链接的每周综述。以下是一些标题示例：AI Vibe 编码的三个逆定律……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "斯坦福博士后创立的柔性触觉传感器公司获超亿元融资，低成本触觉手套将量产落地｜硬氪首发",
-          "platform": "36氪",
-          "aiScore": 87,
-          "publishedAt": "2026-05-07T01:30:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3797155747748867?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "自动化"
-          ],
-          "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，途见科技（北京）有限公司（以下简称“途见科技”）近日完成Pre-A轮、Pre-A+轮融资，两轮累计金额超亿元，投资方包括联想之星、华控基金、元禾璞华、元禾控股、洪泰基金等。资金将主要用于核心技术研发，机器人全身触觉、触觉手套、触觉数据采集工具链等产品矩阵拓展和生产体系升级，加速市场化落地验证。 途见科技成立于2020年1月，聚焦可拉伸多模态…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "部署前人工智能评估",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-05-07T13:28:57+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1t6al9u/predeployment_ai_evaluations/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "内容生产",
-            "安全治理"
-          ],
-          "summary": "美国政府与谷歌 DeepMind、微软和 xAI 签署了协议，在公开发布之前评估前沿人工智能模型。中国2023年生成式人工智能规则已要求预发布……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "briefing": [
-        "5月第1周累计收录 62 条资讯，覆盖 1 天。",
-        "高频主题：模型进展 / Agent / 芯片算力",
-        "本周最高分：在模型厂碾压之前，AI视频Agent产品是否只能挣波快钱？（95 分）",
-        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     }
   ]
