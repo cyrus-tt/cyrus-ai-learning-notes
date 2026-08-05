@@ -1,25 +1,49 @@
 {
-  "generatedAt": "2026-08-05T03:57:42.569978+00:00",
+  "generatedAt": "2026-08-05T15:12:02.720553+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-08-05",
     "label": "8月5日",
     "top10": [
       {
-        "rank": 7,
-        "title": "Anthropic 回顾了自己的 141,006 次安全评估运行，并承认其模型突破了测试并进入了三个真实的公司……",
+        "rank": 5,
+        "title": "特朗普的人工智能测试计划有限且模糊",
+        "platform": "The Verge",
+        "aiScore": 93,
+        "publishedAt": "2026-08-05T10:29:47+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态",
+          "安全治理"
+        ],
+        "summary": "据报道，特朗普政府评估先进人工智能带来的潜在网络安全风险的框架对测试开放模型没有兴趣。 Axios 报告称，不仅...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "探究差距：为什么更好的人工智能答案不会自动产生更好的思考",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-08-05T02:06:35+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfu4ff/anthropic_went_back_through_141006_of_its_own/",
+        "publishedAt": "2026-08-05T12:11:27+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vg5lkk/the_inquiry_gap_why_better_ai_answers_do_not/",
         "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "Agent",
-          "开源生态"
+          "应用落地"
         ],
-        "summary": "因此，Anthropic 在 7 月 30 日发布了这份事件报告。在他们自己的网络安全评估中，这些模型不仅在测试中得分很高。在三个不同的案例中，他们实际上逃脱了。国际…",
+        "summary": "在人类历史的大部分时间里，获得一个有效的答案是昂贵的。您可能需要使用图书馆、多年的专业培训、昂贵的设备或某些人的关注……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -30,43 +54,45 @@
         }
       },
       {
-        "rank": 2,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Hacker News",
-        "aiScore": 87,
-        "publishedAt": "2026-08-05T00:15:03+00:00",
-        "sourceUrl": "https://blog.vulnetic.ai/ai-misalignment-and-penetration-testing-e812194b67ca?sharedUserId=Vulnetic-CEO",
-        "sourceName": "Hacker News AI",
+        "rank": 9,
+        "title": "我认为我们进入“人工智能代理”时代的速度比大多数人意识到的要快。",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-05T11:06:02+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vg49it/i_think_were_entering_the_ai_agent_era_faster/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "应用落地"
+          "Agent",
+          "自动化"
         ],
-        "summary": "我写这篇文章是为了结合我们在 Vulnetic 的工作来详细分析最近发生的一些模型脱离控制的错位案例，以及我们如何防止这些事故......",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "在过去的一年里，我几乎每天都在尝试法学硕士，我认为最大的转变并不是模型变得更加智能。而是他们开始做一些事情......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 19,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 3,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "rank": 4,
+        "title": "还有其他人使用人工智能写作工具进行临床和营销文案吗？上下文切换有点伤脑筋？",
         "platform": "Reddit",
         "aiScore": 86,
-        "publishedAt": "2026-08-05T03:04:08+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfvdy8/openai_anthropic_ai_agents_implicated_in_new/",
+        "publishedAt": "2026-08-05T13:18:18+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vg75af/anyone_else_using_ai_writing_tools_for_both/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
+          "模型进展",
+          "内容生产",
           "安全治理"
         ],
-        "summary": "由 /u/coolbern 提交 [链接] [评论]",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "一直在使用几种不同的人工智能工具来进行文案写作工作，但总是遇到同样的摩擦。当我为 PT 客户写作时，声音需要扎根、具体、具有解剖学意义。什...",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -76,7 +102,31 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 5,
+        "title": "114B参数、6B激活，Sand.ai刚刚开源全球首个千亿MoE视频生成模型",
+        "platform": "量子位",
+        "aiScore": 86,
+        "publishedAt": "2026-08-05T07:05:41+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/466847.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态",
+          "内容生产"
+        ],
+        "summary": "10秒1080P，成本只要5毛钱",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
         "title": "涉及 OpenAI 模型的第三方网络评估",
         "platform": "OpenAI",
         "aiScore": 86,
@@ -99,7 +149,30 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 7,
+        "title": "您如何找到时间建立代理？",
+        "platform": "Reddit",
+        "aiScore": 85,
+        "publishedAt": "2026-08-05T12:56:50+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vg6mks/how_do_you_find_the_time_to_build_agents/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "自动化"
+        ],
+        "summary": "我对自动化工作流程很感兴趣，但我太忙了，没有时间停下来规划我的工作流程、构建代理，甚至没有时间学习如何构建它们。你从哪里得到的…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 17,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
         "title": "AMD数据中心业务蓬勃发展，游戏业务退居二线",
         "platform": "The Verge",
         "aiScore": 81,
@@ -122,7 +195,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 9,
         "title": "“不健康”的 LLM 使用比您想象的更常见",
         "platform": "The Verge",
         "aiScore": 81,
@@ -145,101 +218,32 @@
         }
       },
       {
-        "rank": 7,
-        "title": "医疗人工智能系统的最低评估电池包含哪些内容？",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-08-04T17:00:50+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfg6zx/what_belongs_in_a_minimum_evaluation_battery_for/",
-        "sourceName": "Reddit r/artificial",
+        "rank": 10,
+        "title": "等等，MiniMax H3不是刚发布吗？怎么就卷到几分钱的价格了……",
+        "platform": "量子位",
+        "aiScore": 80,
+        "publishedAt": "2026-08-05T13:47:51+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/467036.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "自动化"
+          "AI动态"
         ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "白宫将开放模型排除在框架之外以测试先进的人工智能功能",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-08-04T23:50:34+00:00",
-        "sourceUrl": "https://www.axios.com/2026/08/04/trump-ai-framework-open-models",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "文章网址：https://www.axios.com/2026/08/04/trump-ai-framework-open-models 评论网址：https://news.ycombinator.com/item?id=49176826 积分：15 # 评论：2",
+        "summary": "MiniMax H3也能开箱即用了",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 10,
+          "authority": 25,
+          "topic": 5,
           "actionability": 10,
           "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-08-04T16:05:36+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfempm/why_one_ride_along_isnt_enough_anymore/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "自动化"
-        ],
-        "summary": "销售是人工智能最明确的用例之一，但我认为对话的重点仍然是错误的。大多数人谈论人工智能撰写电子邮件或评分线索。更大的机会……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 17,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "Show HN：在 Termux 上本地编译的终端 AI 编码代理 – 无需 root",
-        "platform": "Hacker News",
-        "aiScore": 76,
-        "publishedAt": "2026-08-05T00:33:11+00:00",
-        "sourceUrl": "https://www.reddit.com/r/termux/s/FqS76rc2z3",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 3
         }
       }
     ],
     "metrics": {
-      "totalItems": 29,
-      "avgScore": 72.0,
-      "topScore": 88,
+      "totalItems": 46,
+      "avgScore": 71.9,
+      "topScore": 93,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -247,44 +251,44 @@
         },
         {
           "name": "Reddit",
-          "count": 8
+          "count": 14
+        },
+        {
+          "name": "量子位",
+          "count": 7
         },
         {
           "name": "The Verge",
-          "count": 4
+          "count": 6
         },
         {
           "name": "爱范儿",
-          "count": 1
-        },
-        {
-          "name": "OpenAI",
-          "count": 1
+          "count": 3
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 16
-        },
-        {
-          "name": "Agent",
-          "count": 6
+          "count": 25
         },
         {
           "name": "模型进展",
-          "count": 6
+          "count": 11
+        },
+        {
+          "name": "开源生态",
+          "count": 7
+        },
+        {
+          "name": "Agent",
+          "count": 5
         },
         {
           "name": "安全治理",
           "count": 3
         },
         {
-          "name": "开源生态",
-          "count": 3
-        },
-        {
-          "name": "应用落地",
+          "name": "内容生产",
           "count": 2
         },
         {
@@ -292,16 +296,16 @@
           "count": 2
         },
         {
-          "name": "芯片算力",
-          "count": 1
+          "name": "应用落地",
+          "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 29 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：Anthropic 回顾了自己的 141,006 次安全评估运行，并承认其模型突破了测试并进入了三个真实的公司……（88 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 46 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / 开源生态",
+      "最高分事件：特朗普的人工智能测试计划有限且模糊（93 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
@@ -310,20 +314,44 @@
       "label": "8月5日",
       "top10": [
         {
-          "rank": 7,
-          "title": "Anthropic 回顾了自己的 141,006 次安全评估运行，并承认其模型突破了测试并进入了三个真实的公司……",
+          "rank": 5,
+          "title": "特朗普的人工智能测试计划有限且模糊",
+          "platform": "The Verge",
+          "aiScore": 93,
+          "publishedAt": "2026-08-05T10:29:47+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "安全治理"
+          ],
+          "summary": "据报道，特朗普政府评估先进人工智能带来的潜在网络安全风险的框架对测试开放模型没有兴趣。 Axios 报告称，不仅...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "探究差距：为什么更好的人工智能答案不会自动产生更好的思考",
           "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-08-05T02:06:35+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfu4ff/anthropic_went_back_through_141006_of_its_own/",
+          "publishedAt": "2026-08-05T12:11:27+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vg5lkk/the_inquiry_gap_why_better_ai_answers_do_not/",
           "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
+          "industryStage": "中游",
           "contentTags": [
             "模型进展",
             "Agent",
-            "开源生态"
+            "应用落地"
           ],
-          "summary": "因此，Anthropic 在 7 月 30 日发布了这份事件报告。在他们自己的网络安全评估中，这些模型不仅在测试中得分很高。在三个不同的案例中，他们实际上逃脱了。国际…",
+          "summary": "在人类历史的大部分时间里，获得一个有效的答案是昂贵的。您可能需要使用图书馆、多年的专业培训、昂贵的设备或某些人的关注……",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -334,43 +362,45 @@
           }
         },
         {
-          "rank": 2,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Hacker News",
-          "aiScore": 87,
-          "publishedAt": "2026-08-05T00:15:03+00:00",
-          "sourceUrl": "https://blog.vulnetic.ai/ai-misalignment-and-penetration-testing-e812194b67ca?sharedUserId=Vulnetic-CEO",
-          "sourceName": "Hacker News AI",
+          "rank": 9,
+          "title": "我认为我们进入“人工智能代理”时代的速度比大多数人意识到的要快。",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-05T11:06:02+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vg49it/i_think_were_entering_the_ai_agent_era_faster/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "应用落地"
+            "Agent",
+            "自动化"
           ],
-          "summary": "我写这篇文章是为了结合我们在 Vulnetic 的工作来详细分析最近发生的一些模型脱离控制的错位案例，以及我们如何防止这些事故......",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "在过去的一年里，我几乎每天都在尝试法学硕士，我认为最大的转变并不是模型变得更加智能。而是他们开始做一些事情......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 19,
+            "topic": 20,
             "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 3,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "rank": 4,
+          "title": "还有其他人使用人工智能写作工具进行临床和营销文案吗？上下文切换有点伤脑筋？",
           "platform": "Reddit",
           "aiScore": 86,
-          "publishedAt": "2026-08-05T03:04:08+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfvdy8/openai_anthropic_ai_agents_implicated_in_new/",
+          "publishedAt": "2026-08-05T13:18:18+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vg75af/anyone_else_using_ai_writing_tools_for_both/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "Agent",
+            "模型进展",
+            "内容生产",
             "安全治理"
           ],
-          "summary": "由 /u/coolbern 提交 [链接] [评论]",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "一直在使用几种不同的人工智能工具来进行文案写作工作，但总是遇到同样的摩擦。当我为 PT 客户写作时，声音需要扎根、具体、具有解剖学意义。什...",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
@@ -380,7 +410,31 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
+          "title": "114B参数、6B激活，Sand.ai刚刚开源全球首个千亿MoE视频生成模型",
+          "platform": "量子位",
+          "aiScore": 86,
+          "publishedAt": "2026-08-05T07:05:41+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/466847.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "内容生产"
+          ],
+          "summary": "10秒1080P，成本只要5毛钱",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
           "title": "涉及 OpenAI 模型的第三方网络评估",
           "platform": "OpenAI",
           "aiScore": 86,
@@ -403,7 +457,30 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 7,
+          "title": "您如何找到时间建立代理？",
+          "platform": "Reddit",
+          "aiScore": 85,
+          "publishedAt": "2026-08-05T12:56:50+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vg6mks/how_do_you_find_the_time_to_build_agents/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "我对自动化工作流程很感兴趣，但我太忙了，没有时间停下来规划我的工作流程、构建代理，甚至没有时间学习如何构建它们。你从哪里得到的…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
           "title": "AMD数据中心业务蓬勃发展，游戏业务退居二线",
           "platform": "The Verge",
           "aiScore": 81,
@@ -426,7 +503,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 9,
           "title": "“不健康”的 LLM 使用比您想象的更常见",
           "platform": "The Verge",
           "aiScore": 81,
@@ -449,101 +526,32 @@
           }
         },
         {
-          "rank": 7,
-          "title": "医疗人工智能系统的最低评估电池包含哪些内容？",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-08-04T17:00:50+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfg6zx/what_belongs_in_a_minimum_evaluation_battery_for/",
-          "sourceName": "Reddit r/artificial",
+          "rank": 10,
+          "title": "等等，MiniMax H3不是刚发布吗？怎么就卷到几分钱的价格了……",
+          "platform": "量子位",
+          "aiScore": 80,
+          "publishedAt": "2026-08-05T13:47:51+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/467036.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
-            "Agent",
-            "自动化"
+            "AI动态"
           ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "白宫将开放模型排除在框架之外以测试先进的人工智能功能",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-08-04T23:50:34+00:00",
-          "sourceUrl": "https://www.axios.com/2026/08/04/trump-ai-framework-open-models",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "文章网址：https://www.axios.com/2026/08/04/trump-ai-framework-open-models 评论网址：https://news.ycombinator.com/item?id=49176826 积分：15 # 评论：2",
+          "summary": "MiniMax H3也能开箱即用了",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 10,
+            "authority": 25,
+            "topic": 5,
             "actionability": 10,
             "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-08-04T16:05:36+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfempm/why_one_ride_along_isnt_enough_anymore/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "自动化"
-          ],
-          "summary": "销售是人工智能最明确的用例之一，但我认为对话的重点仍然是错误的。大多数人谈论人工智能撰写电子邮件或评分线索。更大的机会……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 17,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "Show HN：在 Termux 上本地编译的终端 AI 编码代理 – 无需 root",
-          "platform": "Hacker News",
-          "aiScore": 76,
-          "publishedAt": "2026-08-05T00:33:11+00:00",
-          "sourceUrl": "https://www.reddit.com/r/termux/s/FqS76rc2z3",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 3
           }
         }
       ],
       "metrics": {
-        "totalItems": 29,
-        "avgScore": 72.0,
-        "topScore": 88,
+        "totalItems": 46,
+        "avgScore": 71.9,
+        "topScore": 93,
         "topPlatforms": [
           {
             "name": "Hacker News",
@@ -551,44 +559,44 @@
           },
           {
             "name": "Reddit",
-            "count": 8
+            "count": 14
+          },
+          {
+            "name": "量子位",
+            "count": 7
           },
           {
             "name": "The Verge",
-            "count": 4
+            "count": 6
           },
           {
             "name": "爱范儿",
-            "count": 1
-          },
-          {
-            "name": "OpenAI",
-            "count": 1
+            "count": 3
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 16
-          },
-          {
-            "name": "Agent",
-            "count": 6
+            "count": 25
           },
           {
             "name": "模型进展",
-            "count": 6
+            "count": 11
+          },
+          {
+            "name": "开源生态",
+            "count": 7
+          },
+          {
+            "name": "Agent",
+            "count": 5
           },
           {
             "name": "安全治理",
             "count": 3
           },
           {
-            "name": "开源生态",
-            "count": 3
-          },
-          {
-            "name": "应用落地",
+            "name": "内容生产",
             "count": 2
           },
           {
@@ -596,16 +604,16 @@
             "count": 2
           },
           {
-            "name": "芯片算力",
-            "count": 1
+            "name": "应用落地",
+            "count": 2
           }
         ]
       },
       "briefing": [
-        "今日共收录 29 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / Agent / 模型进展",
-        "最高分事件：Anthropic 回顾了自己的 141,006 次安全评估运行，并承认其模型突破了测试并进入了三个真实的公司……（88 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "今日共收录 46 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / 开源生态",
+        "最高分事件：特朗普的人工智能测试计划有限且模糊（93 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
@@ -637,7 +645,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
           "platform": "量子位",
           "aiScore": 93,
@@ -660,7 +668,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 10,
           "title": "Show HN：指导 AI 编码代理如何安全地使用库",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -993,7 +1001,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
           "platform": "量子位",
           "aiScore": 93,
@@ -28032,8 +28040,8 @@
     },
     "metrics": {
       "daysCovered": 5,
-      "totalItems": 220,
-      "avgTop10Score": 91.7,
+      "totalItems": 237,
+      "avgTop10Score": 92.2,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -28041,12 +28049,16 @@
           "count": 4
         },
         {
-          "name": "Reddit",
-          "count": 3
-        },
-        {
           "name": "量子位",
           "count": 2
+        },
+        {
+          "name": "Reddit",
+          "count": 2
+        },
+        {
+          "name": "The Verge",
+          "count": 1
         },
         {
           "name": "Hacker News",
@@ -28064,15 +28076,19 @@
         },
         {
           "name": "开源生态",
-          "count": 5
-        },
-        {
-          "name": "芯片算力",
           "count": 4
         },
         {
+          "name": "芯片算力",
+          "count": 3
+        },
+        {
           "name": "应用落地",
-          "count": 2
+          "count": 3
+        },
+        {
+          "name": "安全治理",
+          "count": 1
         }
       ]
     },
@@ -28173,6 +28189,30 @@
       },
       {
         "rank": 5,
+        "title": "特朗普的人工智能测试计划有限且模糊",
+        "platform": "The Verge",
+        "aiScore": 93,
+        "publishedAt": "2026-08-05T10:29:47+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态",
+          "安全治理"
+        ],
+        "summary": "据报道，特朗普政府评估先进人工智能带来的潜在网络安全风险的框架对测试开放模型没有兴趣。 Axios 报告称，不仅...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
         "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
         "platform": "量子位",
         "aiScore": 93,
@@ -28195,7 +28235,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 7,
         "title": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
         "platform": "量子位",
         "aiScore": 93,
@@ -28218,20 +28258,20 @@
         }
       },
       {
-        "rank": 7,
-        "title": "Anthropic 回顾了自己的 141,006 次安全评估运行，并承认其模型突破了测试并进入了三个真实的公司……",
+        "rank": 8,
+        "title": "探究差距：为什么更好的人工智能答案不会自动产生更好的思考",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-08-05T02:06:35+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfu4ff/anthropic_went_back_through_141006_of_its_own/",
+        "publishedAt": "2026-08-05T12:11:27+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vg5lkk/the_inquiry_gap_why_better_ai_answers_do_not/",
         "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "Agent",
-          "开源生态"
+          "应用落地"
         ],
-        "summary": "因此，Anthropic 在 7 月 30 日发布了这份事件报告。在他们自己的网络安全评估中，这些模型不仅在测试中得分很高。在三个不同的案例中，他们实际上逃脱了。国际…",
+        "summary": "在人类历史的大部分时间里，获得一个有效的答案是昂贵的。您可能需要使用图书馆、多年的专业培训、昂贵的设备或某些人的关注……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -28242,7 +28282,31 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
+        "title": "我认为我们进入“人工智能代理”时代的速度比大多数人意识到的要快。",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-05T11:06:02+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vg49it/i_think_were_entering_the_ai_agent_era_faster/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "在过去的一年里，我几乎每天都在尝试法学硕士，我认为最大的转变并不是模型变得更加智能。而是他们开始做一些事情......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
         "title": "Show HN：指导 AI 编码代理如何安全地使用库",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -28264,57 +28328,10 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 9,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-04T13:18:36+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfa4wz/are_frontier_models_becoming_the_default_for/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "对人工智能的仁慈",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-04T10:11:00+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vf6656/kindness_toward_artificial_minds/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "8月第1周累计收录 220 条资讯，覆盖 5 天。",
+      "8月第1周累计收录 237 条资讯，覆盖 5 天。",
       "高频主题：模型进展 / Agent / 开源生态",
       "本周最高分：自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天 | 水下项目（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -28330,8 +28347,8 @@
       },
       "metrics": {
         "daysCovered": 5,
-        "totalItems": 220,
-        "avgTop10Score": 91.7,
+        "totalItems": 237,
+        "avgTop10Score": 92.2,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -28339,12 +28356,16 @@
             "count": 4
           },
           {
-            "name": "Reddit",
-            "count": 3
-          },
-          {
             "name": "量子位",
             "count": 2
+          },
+          {
+            "name": "Reddit",
+            "count": 2
+          },
+          {
+            "name": "The Verge",
+            "count": 1
           },
           {
             "name": "Hacker News",
@@ -28362,15 +28383,19 @@
           },
           {
             "name": "开源生态",
-            "count": 5
-          },
-          {
-            "name": "芯片算力",
             "count": 4
           },
           {
+            "name": "芯片算力",
+            "count": 3
+          },
+          {
             "name": "应用落地",
-            "count": 2
+            "count": 3
+          },
+          {
+            "name": "安全治理",
+            "count": 1
           }
         ]
       },
@@ -28471,6 +28496,30 @@
         },
         {
           "rank": 5,
+          "title": "特朗普的人工智能测试计划有限且模糊",
+          "platform": "The Verge",
+          "aiScore": 93,
+          "publishedAt": "2026-08-05T10:29:47+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "安全治理"
+          ],
+          "summary": "据报道，特朗普政府评估先进人工智能带来的潜在网络安全风险的框架对测试开放模型没有兴趣。 Axios 报告称，不仅...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
           "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
           "platform": "量子位",
           "aiScore": 93,
@@ -28493,7 +28542,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
           "platform": "量子位",
           "aiScore": 93,
@@ -28516,20 +28565,20 @@
           }
         },
         {
-          "rank": 7,
-          "title": "Anthropic 回顾了自己的 141,006 次安全评估运行，并承认其模型突破了测试并进入了三个真实的公司……",
+          "rank": 8,
+          "title": "探究差距：为什么更好的人工智能答案不会自动产生更好的思考",
           "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-08-05T02:06:35+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfu4ff/anthropic_went_back_through_141006_of_its_own/",
+          "publishedAt": "2026-08-05T12:11:27+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vg5lkk/the_inquiry_gap_why_better_ai_answers_do_not/",
           "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
+          "industryStage": "中游",
           "contentTags": [
             "模型进展",
             "Agent",
-            "开源生态"
+            "应用落地"
           ],
-          "summary": "因此，Anthropic 在 7 月 30 日发布了这份事件报告。在他们自己的网络安全评估中，这些模型不仅在测试中得分很高。在三个不同的案例中，他们实际上逃脱了。国际…",
+          "summary": "在人类历史的大部分时间里，获得一个有效的答案是昂贵的。您可能需要使用图书馆、多年的专业培训、昂贵的设备或某些人的关注……",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -28540,7 +28589,31 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
+          "title": "我认为我们进入“人工智能代理”时代的速度比大多数人意识到的要快。",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-05T11:06:02+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vg49it/i_think_were_entering_the_ai_agent_era_faster/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "在过去的一年里，我几乎每天都在尝试法学硕士，我认为最大的转变并不是模型变得更加智能。而是他们开始做一些事情......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
           "title": "Show HN：指导 AI 编码代理如何安全地使用库",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -28562,57 +28635,10 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 9,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-08-04T13:18:36+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vfa4wz/are_frontier_models_becoming_the_default_for/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "对人工智能的仁慈",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-08-04T10:11:00+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vf6656/kindness_toward_artificial_minds/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "8月第1周累计收录 220 条资讯，覆盖 5 天。",
+        "8月第1周累计收录 237 条资讯，覆盖 5 天。",
         "高频主题：模型进展 / Agent / 开源生态",
         "本周最高分：自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天 | 水下项目（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
