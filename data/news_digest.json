@@ -1,15 +1,39 @@
 {
-  "generatedAt": "2026-08-07T03:48:00.793981+00:00",
+  "generatedAt": "2026-08-07T14:11:37.907383+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-08-07",
     "label": "8月7日",
     "top10": [
       {
-        "rank": 1,
+        "rank": 8,
+        "title": "我构建了一个特定领域的人工智能植物护理引擎 - 但我不确定这个架构是否可以扩展。想法？",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-07T12:48:40+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vhzq24/i_built_a_domainspecific_ai_plant_care_engine_but/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "我一直在尝试使用特定领域的人工智能助手来进行植物护理和植物问题诊断。它被称为 Plantcoach——一个意图驱动的管道，法学硕士只重写事实，……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
         "title": "AI SSD：大模型推理的存储范式转移",
         "platform": "量子位",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-08-07T02:56:46+00:00",
         "sourceUrl": "https://www.qbitai.com/2026/08/467840.html",
         "sourceName": "量子位",
@@ -21,30 +45,7 @@
         "summary": "算力、网络、内存与存储开始围绕每个Token协同",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 2,
-        "title": "DeepSeek豪掷1.4亿护航宇树IPO，杭州绝代双骄战略合体",
-        "platform": "量子位",
-        "aiScore": 95,
-        "publishedAt": "2026-08-07T00:25:07+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/467487.html",
-        "sourceName": "量子位",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展"
-        ],
-        "summary": "此后模型、算力、数据中心都在合作范围内",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -53,9 +54,102 @@
       },
       {
         "rank": 3,
+        "title": "Scott Galloway 解释为什么你的公司不再需要 5 名分析师——只需要 1 名了解 AI 的分析师",
+        "platform": "Reddit",
+        "aiScore": 84,
+        "publishedAt": "2026-08-07T11:27:28+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vhxze3/scott_galloway_explains_why_your_firm_doesnt_need/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "投融资"
+        ],
+        "summary": "这个职位的存在时间比几乎所有与之相关的人都长。当没有人将某个角色称为“人工智能辅助”时，这就是他们在内部备忘录中添加的部分。斯科特·加洛韦（Scott Galloway）给出了一个真实的数字……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 16,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "阿里视频大模型Wan3.0开启公测：文档、ppt也能变视频",
+        "platform": "量子位",
+        "aiScore": 84,
+        "publishedAt": "2026-08-07T03:23:54+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/467877.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "内容生产"
+        ],
+        "summary": "8月6日，阿里巴巴视频生成大模型Wan 3.0开启公测",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 16,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "OpenAI 模型在拥抱面部黑客之前共谋数月",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-08-06T16:29:33+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vh9653/openai_models_colluded_for_months_before_hugging/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "许多人将有关 OpenAI 和 Anthropic 沙箱逃逸黑客攻击的新闻视为宣传和实验室安全实践松懈的例子。我同意实验室不采取保密措施……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "将 AI 添加到 ASP.NET Core 应用程序：它实际涉及什么",
+        "platform": "Reddit",
+        "aiScore": 80,
+        "publishedAt": "2026-08-07T04:08:53+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vhq7za/adding_ai_to_your_aspnet_core_application_what_it/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "将 AI 添加到现有 ASP.NET Core 应用程序实际上涉及到集成模式、Microsoft Agent Framework、Azure OpenAI 以及预期内容。由 /u/plakhlani 提交 [链接...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
         "title": "蚂蚁集团开源Avernet，让人与智能体像组织一样高效协作",
         "platform": "量子位",
-        "aiScore": 87,
+        "aiScore": 80,
         "publishedAt": "2026-08-07T03:08:51+00:00",
         "sourceUrl": "https://www.qbitai.com/2026/08/467871.html",
         "sourceName": "量子位",
@@ -67,7 +161,7 @@
         "summary": "蚂蚁集团正式开源多智能体协作基础设施Avernet，社区版本已上线",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 18,
           "actionability": 4,
@@ -75,231 +169,139 @@
         }
       },
       {
-        "rank": 4,
-        "title": "PPIO正式发布“Fusion融合模型”：用十分之一的价格超越顶级模型的智商",
-        "platform": "量子位",
-        "aiScore": 85,
-        "publishedAt": "2026-08-07T01:39:16+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/467834.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "PPIO正式发布“Fusion融合模型”：用十分之一的价格超越顶级模型的智商",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "Show me《指环王》！卡帕西强推大模型评测新基准",
-        "platform": "量子位",
-        "aiScore": 85,
-        "publishedAt": "2026-08-07T01:15:42+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/467663.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "指环王成为大模型新基准",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "中国模型Kimi K3打破英国人工智能安全研究所基准评估",
-        "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-08-07T01:35:56+00:00",
-        "sourceUrl": "https://blog.frontier.security/chinese-model-kimi-k3-breaks-uk-ai-safety-institute-benchmark-evaluations/",
-        "sourceName": "Hacker News AI",
+        "rank": 8,
+        "title": "对于小型自由职业来说，新人工智能工具的心理转换成本值得吗？",
+        "platform": "Reddit",
+        "aiScore": 79,
+        "publishedAt": "2026-08-06T19:32:10+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vhe9c1/is_the_mental_switching_cost_of_new_ai_tools/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "安全治理"
+          "开源生态"
         ],
-        "summary": "文章网址：https://blog.frontier.security/chinese-model-kimi-k3-breaks-uk-ai-safety-institute-benchmark-evaluations/ 评论网址：https://news.ycombinator.com/item?id=49204905 积分：4…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "在过去的一年里，我们一直在为客户工作做同样的事情。 Claude 负责长草稿，Perplexity 负责研究，一些图像工具，根据格式不同的总结器。每个…",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
-          "heat": 3
-        }
-      },
-      {
-        "rank": 7,
-        "title": "派早报：Bose 发布新款 QuietComfort 头戴式耳机等",
-        "platform": "少数派",
-        "aiScore": 84,
-        "publishedAt": "2026-08-07T00:51:06+00:00",
-        "sourceUrl": "https://sspai.com/post/113162",
-        "sourceName": "少数派",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "内容生产"
-        ],
-        "summary": "Black Forest Labs 正式推出 FLUX 3 视频生成模型，研究人员发现 iCloud Private Relay 存在 IP 泄露风险等。 查看全文",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 16,
-          "actionability": 10,
           "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "Tracely – 将 AI 代理生产故障转化为 CI 回归测试",
-        "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-08-07T00:25:30+00:00",
-        "sourceUrl": "https://tracely-studio.xyz/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "文章网址：https://tracely-studio.xyz/ 评论网址：https://news.ycombinator.com/item?id=49204474 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 2
         }
       },
       {
         "rank": 9,
-        "title": "显示 HN：Selvedge – 您的 AI 代理已拒绝的内容的仅附加日志",
+        "title": "阿里巴巴计划向大用户收取下一个开源人工智能模型的费用",
         "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-08-07T01:54:13+00:00",
-        "sourceUrl": "https://github.com/masondelan/selvedge",
+        "aiScore": 78,
+        "publishedAt": "2026-08-07T14:00:39+00:00",
+        "sourceUrl": "https://www.reuters.com/business/retail-consumer/alibaba-plans-charge-big-users-its-next-open-source-ai-model-sources-say-2026-08-07/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "开源生态"
+          "模型进展"
         ],
-        "summary": "文章网址：https://github.com/masondelan/selvedge 评论网址：https://news.ycombinator.com/item?id=49205059 积分：1 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文章网址：https://www.reuters.com/business/retail-consumer/alibaba-plans-charge-big-users-its-next-open-source-ai-model-sources-say-2026-08-07/ 评论网址：https://news.ycombinator.com...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 10,
           "actionability": 10,
-          "heat": 1
+          "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "开源云人工智能代理",
+        "title": "人工智能模型在 10 小时内发现 WordPress 缺陷，花费 25 美元",
         "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-08-07T00:46:45+00:00",
-        "sourceUrl": "https://www.krowoc.com/",
+        "aiScore": 78,
+        "publishedAt": "2026-08-07T13:53:18+00:00",
+        "sourceUrl": "https://webhosting.today/2026/08/07/an-ai-model-found-the-wordpress-flaw-in-ten-hours-for-25-attackers-weaponized-the-patch-in-ninety-minutes/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "开源生态"
+          "模型进展"
         ],
-        "summary": "文章网址：https://www.krowoc.com/ 评论网址：https://news.ycombinator.com/item?id=49204605 积分：1 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文章网址：https://webhosting.today/2026/08/07/an-ai-model-found-the-wordpress-flaw-in-ten-hours-for-25-attackers-weaponized-the-patch-in-ninety-minutes/ 评论网址：https://news.ycombi...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 10,
           "actionability": 10,
-          "heat": 1
+          "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 35,
-      "avgScore": 74.2,
-      "topScore": 95,
+      "totalItems": 45,
+      "avgScore": 69.7,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
           "count": 15
         },
         {
-          "name": "量子位",
-          "count": 7
+          "name": "Reddit",
+          "count": 12
         },
         {
-          "name": "Reddit",
-          "count": 7
+          "name": "量子位",
+          "count": 10
+        },
+        {
+          "name": "爱范儿",
+          "count": 3
         },
         {
           "name": "The Verge",
           "count": 3
-        },
-        {
-          "name": "爱范儿",
-          "count": 2
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 15
+          "count": 27
         },
         {
           "name": "模型进展",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Agent",
-          "count": 8
-        },
-        {
-          "name": "开源生态",
           "count": 6
         },
         {
-          "name": "内容生产",
-          "count": 3
-        },
-        {
-          "name": "芯片算力",
-          "count": 2
-        },
-        {
-          "name": "安全治理",
-          "count": 2
+          "name": "开源生态",
+          "count": 4
         },
         {
           "name": "应用落地",
+          "count": 3
+        },
+        {
+          "name": "内容生产",
+          "count": 2
+        },
+        {
+          "name": "自动化",
+          "count": 1
+        },
+        {
+          "name": "投融资",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 35 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 45 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：AI SSD：大模型推理的存储范式转移（95 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "最高分事件：我构建了一个特定领域的人工智能植物护理引擎 - 但我不确定这个架构是否可以扩展。想法？（88 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -308,10 +310,34 @@
       "label": "8月7日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 8,
+          "title": "我构建了一个特定领域的人工智能植物护理引擎 - 但我不确定这个架构是否可以扩展。想法？",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-07T12:48:40+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vhzq24/i_built_a_domainspecific_ai_plant_care_engine_but/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "我一直在尝试使用特定领域的人工智能助手来进行植物护理和植物问题诊断。它被称为 Plantcoach——一个意图驱动的管道，法学硕士只重写事实，……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
           "title": "AI SSD：大模型推理的存储范式转移",
           "platform": "量子位",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-08-07T02:56:46+00:00",
           "sourceUrl": "https://www.qbitai.com/2026/08/467840.html",
           "sourceName": "量子位",
@@ -323,30 +349,7 @@
           "summary": "算力、网络、内存与存储开始围绕每个Token协同",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
-          "title": "DeepSeek豪掷1.4亿护航宇树IPO，杭州绝代双骄战略合体",
-          "platform": "量子位",
-          "aiScore": 95,
-          "publishedAt": "2026-08-07T00:25:07+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/08/467487.html",
-          "sourceName": "量子位",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "此后模型、算力、数据中心都在合作范围内",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -355,9 +358,102 @@
         },
         {
           "rank": 3,
+          "title": "Scott Galloway 解释为什么你的公司不再需要 5 名分析师——只需要 1 名了解 AI 的分析师",
+          "platform": "Reddit",
+          "aiScore": 84,
+          "publishedAt": "2026-08-07T11:27:28+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vhxze3/scott_galloway_explains_why_your_firm_doesnt_need/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "投融资"
+          ],
+          "summary": "这个职位的存在时间比几乎所有与之相关的人都长。当没有人将某个角色称为“人工智能辅助”时，这就是他们在内部备忘录中添加的部分。斯科特·加洛韦（Scott Galloway）给出了一个真实的数字……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 16,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "阿里视频大模型Wan3.0开启公测：文档、ppt也能变视频",
+          "platform": "量子位",
+          "aiScore": 84,
+          "publishedAt": "2026-08-07T03:23:54+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/467877.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "内容生产"
+          ],
+          "summary": "8月6日，阿里巴巴视频生成大模型Wan 3.0开启公测",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 16,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "OpenAI 模型在拥抱面部黑客之前共谋数月",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-08-06T16:29:33+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vh9653/openai_models_colluded_for_months_before_hugging/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "许多人将有关 OpenAI 和 Anthropic 沙箱逃逸黑客攻击的新闻视为宣传和实验室安全实践松懈的例子。我同意实验室不采取保密措施……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "将 AI 添加到 ASP.NET Core 应用程序：它实际涉及什么",
+          "platform": "Reddit",
+          "aiScore": 80,
+          "publishedAt": "2026-08-07T04:08:53+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vhq7za/adding_ai_to_your_aspnet_core_application_what_it/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "将 AI 添加到现有 ASP.NET Core 应用程序实际上涉及到集成模式、Microsoft Agent Framework、Azure OpenAI 以及预期内容。由 /u/plakhlani 提交 [链接...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
           "title": "蚂蚁集团开源Avernet，让人与智能体像组织一样高效协作",
           "platform": "量子位",
-          "aiScore": 87,
+          "aiScore": 80,
           "publishedAt": "2026-08-07T03:08:51+00:00",
           "sourceUrl": "https://www.qbitai.com/2026/08/467871.html",
           "sourceName": "量子位",
@@ -369,7 +465,7 @@
           "summary": "蚂蚁集团正式开源多智能体协作基础设施Avernet，社区版本已上线",
           "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 18,
             "actionability": 4,
@@ -377,231 +473,139 @@
           }
         },
         {
-          "rank": 4,
-          "title": "PPIO正式发布“Fusion融合模型”：用十分之一的价格超越顶级模型的智商",
-          "platform": "量子位",
-          "aiScore": 85,
-          "publishedAt": "2026-08-07T01:39:16+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/08/467834.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "PPIO正式发布“Fusion融合模型”：用十分之一的价格超越顶级模型的智商",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "Show me《指环王》！卡帕西强推大模型评测新基准",
-          "platform": "量子位",
-          "aiScore": 85,
-          "publishedAt": "2026-08-07T01:15:42+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/08/467663.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "指环王成为大模型新基准",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "中国模型Kimi K3打破英国人工智能安全研究所基准评估",
-          "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-08-07T01:35:56+00:00",
-          "sourceUrl": "https://blog.frontier.security/chinese-model-kimi-k3-breaks-uk-ai-safety-institute-benchmark-evaluations/",
-          "sourceName": "Hacker News AI",
+          "rank": 8,
+          "title": "对于小型自由职业来说，新人工智能工具的心理转换成本值得吗？",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-08-06T19:32:10+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vhe9c1/is_the_mental_switching_cost_of_new_ai_tools/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "安全治理"
+            "开源生态"
           ],
-          "summary": "文章网址：https://blog.frontier.security/chinese-model-kimi-k3-breaks-uk-ai-safety-institute-benchmark-evaluations/ 评论网址：https://news.ycombinator.com/item?id=49204905 积分：4…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "在过去的一年里，我们一直在为客户工作做同样的事情。 Claude 负责长草稿，Perplexity 负责研究，一些图像工具，根据格式不同的总结器。每个…",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 18,
             "actionability": 10,
-            "heat": 3
-          }
-        },
-        {
-          "rank": 7,
-          "title": "派早报：Bose 发布新款 QuietComfort 头戴式耳机等",
-          "platform": "少数派",
-          "aiScore": 84,
-          "publishedAt": "2026-08-07T00:51:06+00:00",
-          "sourceUrl": "https://sspai.com/post/113162",
-          "sourceName": "少数派",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "内容生产"
-          ],
-          "summary": "Black Forest Labs 正式推出 FLUX 3 视频生成模型，研究人员发现 iCloud Private Relay 存在 IP 泄露风险等。 查看全文",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 16,
-            "actionability": 10,
             "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "Tracely – 将 AI 代理生产故障转化为 CI 回归测试",
-          "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-08-07T00:25:30+00:00",
-          "sourceUrl": "https://tracely-studio.xyz/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "文章网址：https://tracely-studio.xyz/ 评论网址：https://news.ycombinator.com/item?id=49204474 积分：2 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 2
           }
         },
         {
           "rank": 9,
-          "title": "显示 HN：Selvedge – 您的 AI 代理已拒绝的内容的仅附加日志",
+          "title": "阿里巴巴计划向大用户收取下一个开源人工智能模型的费用",
           "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-08-07T01:54:13+00:00",
-          "sourceUrl": "https://github.com/masondelan/selvedge",
+          "aiScore": 78,
+          "publishedAt": "2026-08-07T14:00:39+00:00",
+          "sourceUrl": "https://www.reuters.com/business/retail-consumer/alibaba-plans-charge-big-users-its-next-open-source-ai-model-sources-say-2026-08-07/",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "Agent",
-            "开源生态"
+            "模型进展"
           ],
-          "summary": "文章网址：https://github.com/masondelan/selvedge 评论网址：https://news.ycombinator.com/item?id=49205059 积分：1 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "文章网址：https://www.reuters.com/business/retail-consumer/alibaba-plans-charge-big-users-its-next-open-source-ai-model-sources-say-2026-08-07/ 评论网址：https://news.ycombinator.com...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 18,
+            "topic": 10,
             "actionability": 10,
-            "heat": 1
+            "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "开源云人工智能代理",
+          "title": "人工智能模型在 10 小时内发现 WordPress 缺陷，花费 25 美元",
           "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-08-07T00:46:45+00:00",
-          "sourceUrl": "https://www.krowoc.com/",
+          "aiScore": 78,
+          "publishedAt": "2026-08-07T13:53:18+00:00",
+          "sourceUrl": "https://webhosting.today/2026/08/07/an-ai-model-found-the-wordpress-flaw-in-ten-hours-for-25-attackers-weaponized-the-patch-in-ninety-minutes/",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "Agent",
-            "开源生态"
+            "模型进展"
           ],
-          "summary": "文章网址：https://www.krowoc.com/ 评论网址：https://news.ycombinator.com/item?id=49204605 积分：1 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "文章网址：https://webhosting.today/2026/08/07/an-ai-model-found-the-wordpress-flaw-in-ten-hours-for-25-attackers-weaponized-the-patch-in-ninety-minutes/ 评论网址：https://news.ycombi...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 18,
+            "topic": 10,
             "actionability": 10,
-            "heat": 1
+            "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 35,
-        "avgScore": 74.2,
-        "topScore": 95,
+        "totalItems": 45,
+        "avgScore": 69.7,
+        "topScore": 88,
         "topPlatforms": [
           {
             "name": "Hacker News",
             "count": 15
           },
           {
-            "name": "量子位",
-            "count": 7
+            "name": "Reddit",
+            "count": 12
           },
           {
-            "name": "Reddit",
-            "count": 7
+            "name": "量子位",
+            "count": 10
+          },
+          {
+            "name": "爱范儿",
+            "count": 3
           },
           {
             "name": "The Verge",
             "count": 3
-          },
-          {
-            "name": "爱范儿",
-            "count": 2
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 15
+            "count": 27
           },
           {
             "name": "模型进展",
-            "count": 9
+            "count": 10
           },
           {
             "name": "Agent",
-            "count": 8
-          },
-          {
-            "name": "开源生态",
             "count": 6
           },
           {
-            "name": "内容生产",
-            "count": 3
-          },
-          {
-            "name": "芯片算力",
-            "count": 2
-          },
-          {
-            "name": "安全治理",
-            "count": 2
+            "name": "开源生态",
+            "count": 4
           },
           {
             "name": "应用落地",
+            "count": 3
+          },
+          {
+            "name": "内容生产",
+            "count": 2
+          },
+          {
+            "name": "自动化",
+            "count": 1
+          },
+          {
+            "name": "投融资",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 35 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 45 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：AI SSD：大模型推理的存储范式转移（95 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "最高分事件：我构建了一个特定领域的人工智能植物护理引擎 - 但我不确定这个架构是否可以扩展。想法？（88 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -907,7 +911,7 @@
       "label": "8月5日",
       "top10": [
         {
-          "rank": 7,
+          "rank": 5,
           "title": "特朗普的人工智能测试计划有限且模糊",
           "platform": "The Verge",
           "aiScore": 93,
@@ -1214,7 +1218,7 @@
       "label": "8月4日",
       "top10": [
         {
-          "rank": 3,
+          "rank": 1,
           "title": "自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天 | 水下项目",
           "platform": "36氪",
           "aiScore": 95,
@@ -1238,7 +1242,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 6,
           "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
           "platform": "量子位",
           "aiScore": 93,
@@ -1524,7 +1528,7 @@
       "label": "8月3日",
       "top10": [
         {
-          "rank": 4,
+          "rank": 2,
           "title": "行云科技：在手算力、存储类3-5年期长期框架订单规模超154亿元",
           "platform": "36氪",
           "aiScore": 95,
@@ -1547,7 +1551,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 3,
           "title": "从实验到产线——AI 工作流的规模化挑战与协作生态 | 2026 ChinaJoy AI未来生态大会",
           "platform": "36氪",
           "aiScore": 95,
@@ -1571,7 +1575,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 4,
           "title": "中国信通院：2025年我国人工智能产业规模超1.2万亿元",
           "platform": "36氪",
           "aiScore": 94,
@@ -1594,7 +1598,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 7,
           "title": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
           "platform": "量子位",
           "aiScore": 93,
@@ -28019,24 +28023,24 @@
     },
     "metrics": {
       "daysCovered": 7,
-      "totalItems": 315,
-      "avgTop10Score": 93.6,
+      "totalItems": 325,
+      "avgTop10Score": 92.2,
       "topScore": 95,
       "topPlatforms": [
-        {
-          "name": "量子位",
-          "count": 4
-        },
         {
           "name": "36氪",
           "count": 4
         },
         {
-          "name": "The Verge",
-          "count": 1
+          "name": "量子位",
+          "count": 3
         },
         {
           "name": "Reddit",
+          "count": 2
+        },
+        {
+          "name": "The Verge",
           "count": 1
         }
       ],
@@ -28046,19 +28050,19 @@
           "count": 8
         },
         {
-          "name": "芯片算力",
+          "name": "Agent",
           "count": 5
         },
         {
-          "name": "Agent",
+          "name": "芯片算力",
+          "count": 4
+        },
+        {
+          "name": "开源生态",
           "count": 4
         },
         {
           "name": "应用落地",
-          "count": 3
-        },
-        {
-          "name": "开源生态",
           "count": 3
         },
         {
@@ -28070,52 +28074,6 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "AI SSD：大模型推理的存储范式转移",
-        "platform": "量子位",
-        "aiScore": 95,
-        "publishedAt": "2026-08-07T02:56:46+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/467840.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展"
-        ],
-        "summary": "算力、网络、内存与存储开始围绕每个Token协同",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 2,
-        "title": "DeepSeek豪掷1.4亿护航宇树IPO，杭州绝代双骄战略合体",
-        "platform": "量子位",
-        "aiScore": 95,
-        "publishedAt": "2026-08-07T00:25:07+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/467487.html",
-        "sourceName": "量子位",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展"
-        ],
-        "summary": "此后模型、算力、数据中心都在合作范围内",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
         "title": "自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天 | 水下项目",
         "platform": "36氪",
         "aiScore": 95,
@@ -28139,7 +28097,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 2,
         "title": "行云科技：在手算力、存储类3-5年期长期框架订单规模超154亿元",
         "platform": "36氪",
         "aiScore": 95,
@@ -28162,7 +28120,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 3,
         "title": "从实验到产线——AI 工作流的规模化挑战与协作生态 | 2026 ChinaJoy AI未来生态大会",
         "platform": "36氪",
         "aiScore": 95,
@@ -28186,7 +28144,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 4,
         "title": "中国信通院：2025年我国人工智能产业规模超1.2万亿元",
         "platform": "36氪",
         "aiScore": 94,
@@ -28209,7 +28167,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 5,
         "title": "特朗普的人工智能测试计划有限且模糊",
         "platform": "The Verge",
         "aiScore": 93,
@@ -28233,7 +28191,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 6,
         "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
         "platform": "量子位",
         "aiScore": 93,
@@ -28256,7 +28214,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 7,
         "title": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
         "platform": "量子位",
         "aiScore": 93,
@@ -28274,6 +28232,53 @@
           "recency": 35,
           "authority": 25,
           "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "我构建了一个特定领域的人工智能植物护理引擎 - 但我不确定这个架构是否可以扩展。想法？",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-07T12:48:40+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vhzq24/i_built_a_domainspecific_ai_plant_care_engine_but/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "我一直在尝试使用特定领域的人工智能助手来进行植物护理和植物问题诊断。它被称为 Plantcoach——一个意图驱动的管道，法学硕士只重写事实，……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "AI SSD：大模型推理的存储范式转移",
+        "platform": "量子位",
+        "aiScore": 88,
+        "publishedAt": "2026-08-07T02:56:46+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/467840.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "算力、网络、内存与存储开始围绕每个Token协同",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
@@ -28304,10 +28309,10 @@
       }
     ],
     "briefing": [
-      "8月第1周累计收录 315 条资讯，覆盖 7 天。",
-      "高频主题：模型进展 / 芯片算力 / Agent",
-      "本周最高分：AI SSD：大模型推理的存储范式转移（95 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "8月第1周累计收录 325 条资讯，覆盖 7 天。",
+      "高频主题：模型进展 / Agent / 芯片算力",
+      "本周最高分：自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天 | 水下项目（95 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
@@ -28320,24 +28325,24 @@
       },
       "metrics": {
         "daysCovered": 7,
-        "totalItems": 315,
-        "avgTop10Score": 93.6,
+        "totalItems": 325,
+        "avgTop10Score": 92.2,
         "topScore": 95,
         "topPlatforms": [
-          {
-            "name": "量子位",
-            "count": 4
-          },
           {
             "name": "36氪",
             "count": 4
           },
           {
-            "name": "The Verge",
-            "count": 1
+            "name": "量子位",
+            "count": 3
           },
           {
             "name": "Reddit",
+            "count": 2
+          },
+          {
+            "name": "The Verge",
             "count": 1
           }
         ],
@@ -28347,19 +28352,19 @@
             "count": 8
           },
           {
-            "name": "芯片算力",
+            "name": "Agent",
             "count": 5
           },
           {
-            "name": "Agent",
+            "name": "芯片算力",
+            "count": 4
+          },
+          {
+            "name": "开源生态",
             "count": 4
           },
           {
             "name": "应用落地",
-            "count": 3
-          },
-          {
-            "name": "开源生态",
             "count": 3
           },
           {
@@ -28371,52 +28376,6 @@
       "topEvents": [
         {
           "rank": 1,
-          "title": "AI SSD：大模型推理的存储范式转移",
-          "platform": "量子位",
-          "aiScore": 95,
-          "publishedAt": "2026-08-07T02:56:46+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/08/467840.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "算力、网络、内存与存储开始围绕每个Token协同",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
-          "title": "DeepSeek豪掷1.4亿护航宇树IPO，杭州绝代双骄战略合体",
-          "platform": "量子位",
-          "aiScore": 95,
-          "publishedAt": "2026-08-07T00:25:07+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/08/467487.html",
-          "sourceName": "量子位",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "此后模型、算力、数据中心都在合作范围内",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
           "title": "自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天 | 水下项目",
           "platform": "36氪",
           "aiScore": 95,
@@ -28440,7 +28399,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 2,
           "title": "行云科技：在手算力、存储类3-5年期长期框架订单规模超154亿元",
           "platform": "36氪",
           "aiScore": 95,
@@ -28463,7 +28422,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 3,
           "title": "从实验到产线——AI 工作流的规模化挑战与协作生态 | 2026 ChinaJoy AI未来生态大会",
           "platform": "36氪",
           "aiScore": 95,
@@ -28487,7 +28446,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 4,
           "title": "中国信通院：2025年我国人工智能产业规模超1.2万亿元",
           "platform": "36氪",
           "aiScore": 94,
@@ -28510,7 +28469,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 5,
           "title": "特朗普的人工智能测试计划有限且模糊",
           "platform": "The Verge",
           "aiScore": 93,
@@ -28534,7 +28493,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 6,
           "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
           "platform": "量子位",
           "aiScore": 93,
@@ -28557,7 +28516,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 7,
           "title": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
           "platform": "量子位",
           "aiScore": 93,
@@ -28575,6 +28534,53 @@
             "recency": 35,
             "authority": 25,
             "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "我构建了一个特定领域的人工智能植物护理引擎 - 但我不确定这个架构是否可以扩展。想法？",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-07T12:48:40+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vhzq24/i_built_a_domainspecific_ai_plant_care_engine_but/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "我一直在尝试使用特定领域的人工智能助手来进行植物护理和植物问题诊断。它被称为 Plantcoach——一个意图驱动的管道，法学硕士只重写事实，……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "AI SSD：大模型推理的存储范式转移",
+          "platform": "量子位",
+          "aiScore": 88,
+          "publishedAt": "2026-08-07T02:56:46+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/467840.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "算力、网络、内存与存储开始围绕每个Token协同",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
             "actionability": 10,
             "heat": 5
           }
@@ -28605,10 +28611,10 @@
         }
       ],
       "briefing": [
-        "8月第1周累计收录 315 条资讯，覆盖 7 天。",
-        "高频主题：模型进展 / 芯片算力 / Agent",
-        "本周最高分：AI SSD：大模型推理的存储范式转移（95 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "8月第1周累计收录 325 条资讯，覆盖 7 天。",
+        "高频主题：模型进展 / Agent / 芯片算力",
+        "本周最高分：自研高性能分布式解决方案，「芯晓科技」将芯片电源签核周期从几周缩短至几天 | 水下项目（95 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
