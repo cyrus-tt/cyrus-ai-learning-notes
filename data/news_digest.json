@@ -1,23 +1,95 @@
 {
-  "generatedAt": "2026-08-09T03:00:12.745531+00:00",
+  "generatedAt": "2026-08-09T13:45:52.225756+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-08-09",
     "label": "8月9日",
     "top10": [
       {
-        "rank": 5,
-        "title": "仅使用 Go 的标准库即可构建 AI 代理的内存层",
+        "rank": 1,
+        "title": "Show HN：YC 创业学校，但 AI 原生",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-08-09T13:04:55+00:00",
+        "sourceUrl": "https://foundera.app/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "您好，HN，YC 创业学校是一个很好的资源，也是灵感的一部分。但我认为现在，大部分创业教育模式已经能够与发现的……一起实际工作。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "每月花费不到 30 美元构建了一个小型 AI sidehustle 堆栈，现在我担心它真的有效",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-09T12:24:01+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vjojr5/built_a_tiny_ai_sidehustle_stack_for_under_30/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "我在咖啡馆的轮班间隙经营一家小型数字工具咨询公司。我主要帮助独立创作者将廉价的 SaaS 东西整合在一起。几个月前，我整理了自己的工作流程 - 一些脚本......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Show HN：Argonix – 一个用于 SRE 和云运营的 AI 驱动平台",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-08-09T10:50:18+00:00",
+        "sourceUrl": "https://argonix.io/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "上游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "大家好，我构建了 https://argonix.io 。 Argonix 是一个用于 SRE、安全和云运营的人工智能平台。这个想法是将通常传播的事物汇集并连接在一起......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "Show HN: Job Seeker – 人工智能代理求职技能",
         "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-08-08T22:50:06+00:00",
-        "sourceUrl": "https://towardsdev.com/the-memory-efficient-ai-agent-building-a-context-engine-in-go-d4b7557c44d8?sk=22b2ffc30beac55a6f47841eb4df980b",
+        "publishedAt": "2026-08-09T13:20:51+00:00",
+        "sourceUrl": "https://github.com/galiprandi/job-seeker",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "文章网址：https://towardsdev.com/the-memory-efficient-ai-agent-building-a-context-engine-in-go-d4b7557c44d8?sk=22b2ffc30beac55a6f47841eb4df980b 评论网址：https://news.ycombinator.com...",
+        "summary": "编码代理（Devin、Claude、Cursor、opencode）使用 Markdown 技能来自动化整个职位搜索：搜索 LinkedIn、填写 Easy Apply、跟踪看板、起草回复。评论你...",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -28,65 +100,21 @@
         }
       },
       {
-        "rank": 2,
-        "title": "我用 Rust 构建了一个视频编辑器，具有广泛的人工智能功能",
+        "rank": 9,
+        "title": "问 HN：人工智能应该告诉你他们是人工智能吗？",
         "platform": "Hacker News",
-        "aiScore": 73,
-        "publishedAt": "2026-08-09T01:43:22+00:00",
-        "sourceUrl": "https://github.com/heng30/wayshot",
+        "aiScore": 78,
+        "publishedAt": "2026-08-09T10:54:06+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=49230276",
         "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "开源生态"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 8,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 3,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Hacker News",
-        "aiScore": 71,
-        "publishedAt": "2026-08-08T23:35:27+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49226913",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "应用落地"
-        ],
-        "summary": "我正在运行一个 AI 流畅度评估工具，并在 1800 个真实用户与我们的聊天机器人交互 20-40 分钟后；这是我们发现的一些奇怪的事情。 1. 最不熟悉人工智能的职业……",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 9,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "还有其他人使用人工智能工具来确定他们在离开劳动力市场多年后是否真的可以再次就业吗？",
-        "platform": "Reddit",
-        "aiScore": 71,
-        "publishedAt": "2026-08-08T18:29:19+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vj3cnc/anyone_else_using_ai_tools_to_figure_out_if/",
-        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "承认这一点很奇怪，但事实就是如此。过去几年我和孩子们一起呆在家里，这是正确的选择，但现在我正处于这个模糊的中间位置，我开始思考……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "是否应该要求人工智能明确回答“你是人工智能吗”这一直接问题？目前，并没有普遍要求他们这样做。例如角色 ai 的角色不会[1]....",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
           "topic": 10,
           "actionability": 10,
@@ -94,142 +122,120 @@
         }
       },
       {
-        "rank": 5,
-        "title": "利用人工智能将杂乱的全球速卖通直销清单变成干净的产品",
-        "platform": "Hacker News",
-        "aiScore": 68,
-        "publishedAt": "2026-08-09T02:10:42+00:00",
-        "sourceUrl": "https://importer.omniicore.com/",
-        "sourceName": "Hacker News AI",
+        "rank": 10,
+        "title": "当题库追不上模型，AI开始给自己出题：中国这支团队跑通了数据层RSI",
+        "platform": "量子位",
+        "aiScore": 78,
+        "publishedAt": "2026-08-09T03:40:25+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/468782.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
-          "应用落地"
+          "模型进展"
         ],
-        "summary": "文章网址：https://importer.omniicore.com/ 评论网址：https://news.ycombinator.com/item?id=49227757 积分：2 # 评论：1",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "AI参与创造下一代AI",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 9,
-          "actionability": 4,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Hacker News",
-        "aiScore": 68,
-        "publishedAt": "2026-08-09T01:28:36+00:00",
-        "sourceUrl": "https://www.compactmag.com/article/the-ai-apocalypse-is-already-here/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "文章网址：https://www.compactmag.com/article/the-ai-apocalypse-is-already-here/ 评论网址：https://news.ycombinator.com/item?id=49227521 积分：26 # 评论：18",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 6
+          "recency": 28,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
         }
       },
       {
         "rank": 7,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "title": "中国创建了一个由数十亿人工智能代理模拟地球的系统",
+        "platform": "Hacker News",
+        "aiScore": 76,
+        "publishedAt": "2026-08-09T12:20:52+00:00",
+        "sourceUrl": "https://twitter.com/howtoprompt__/status/2086110097663795365",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 3
+        }
+      },
+      {
+        "rank": 8,
+        "title": "人工智能探测器正在创造一个不信任的新时代",
         "platform": "The Verge",
-        "aiScore": 68,
-        "publishedAt": "2026-08-08T17:53:34+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+        "aiScore": 74,
+        "publishedAt": "2026-08-09T12:00:00+00:00",
+        "sourceUrl": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
         "sourceName": "The Verge AI",
         "industryStage": "中游",
         "contentTags": [
-          "投融资"
+          "AI动态"
         ],
-        "summary": "为了为其新的西德克萨斯数据中心供电，亚马逊正在投资建设一座新发电厂，据报道，该发电厂可能成为美国最大的温室气体单一生产商之一……",
+        "summary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能如何改变我们日常生活的更多新闻，请关注艾玛·罗斯 (Emma Roth)。后退到达…",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 25,
-          "topic": 6,
+          "topic": 5,
           "actionability": 4,
           "heat": 5
         }
       },
       {
-        "rank": 8,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-08-08T23:13:46+00:00",
-        "sourceUrl": "https://github.com/sebastiancarlos/faaah",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "开源生态"
-        ],
-        "summary": "文章网址：https://github.com/sebastiancarlos/faaah 评论网址：https://news.ycombinator.com/item?id=49226789 积分：2 # 评论：0",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 8,
-          "actionability": 4,
-          "heat": 2
-        }
-      },
-      {
         "rank": 9,
-        "title": "人工智能在行为定义下是有意识的（43,590 次冻结试验）",
-        "platform": "Hacker News",
-        "aiScore": 66,
-        "publishedAt": "2026-08-09T00:23:41+00:00",
-        "sourceUrl": "https://zenodo.org/records/21855824",
-        "sourceName": "Hacker News AI",
+        "title": "180万刀，连亚马逊都烧不起Claude了",
+        "platform": "量子位",
+        "aiScore": 74,
+        "publishedAt": "2026-08-09T09:25:10+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/469010.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
           "AI动态"
         ],
-        "summary": "文章网址：https://zenodo.org/records/21855824 评论网址：https://news.ycombinator.com/item?id=49227170 积分：4 # 评论：3",
+        "summary": "Claude不是我说你，钱真不能这么花",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 5,
           "actionability": 4,
-          "heat": 4
+          "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "人工智能如何打破英国政府",
-        "platform": "Hacker News",
-        "aiScore": 66,
-        "publishedAt": "2026-08-08T22:50:11+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49226649",
-        "sourceName": "Hacker News AI",
+        "title": "GPT-5.6和Fable联手，解决了一道悬了25年的数学难题",
+        "platform": "量子位",
+        "aiScore": 74,
+        "publishedAt": "2026-08-09T09:16:58+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/468913.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
           "AI动态"
         ],
-        "summary": "评论网址：https://news.ycombinator.com/item?id=49226649 积分：5 # 评论：4",
+        "summary": "作者读博时就在研究，17年后被AI解开了",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 5,
           "actionability": 4,
-          "heat": 4
+          "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 20,
-      "avgScore": 67.0,
-      "topScore": 78,
+      "totalItems": 32,
+      "avgScore": 70.6,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -237,37 +243,41 @@
         },
         {
           "name": "Reddit",
-          "count": 4
+          "count": 9
+        },
+        {
+          "name": "量子位",
+          "count": 5
         },
         {
           "name": "The Verge",
+          "count": 2
+        },
+        {
+          "name": "少数派",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 11
+          "count": 17
+        },
+        {
+          "name": "模型进展",
+          "count": 8
+        },
+        {
+          "name": "Agent",
+          "count": 6
+        },
+        {
+          "name": "开源生态",
+          "count": 4
         },
         {
           "name": "应用落地",
           "count": 2
-        },
-        {
-          "name": "开源生态",
-          "count": 2
-        },
-        {
-          "name": "Agent",
-          "count": 1
-        },
-        {
-          "name": "内容生产",
-          "count": 1
-        },
-        {
-          "name": "模型进展",
-          "count": 1
         },
         {
           "name": "投融资",
@@ -280,9 +290,9 @@
       ]
     },
     "briefing": [
-      "今日共收录 20 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 应用落地 / 开源生态",
-      "最高分事件：仅使用 Go 的标准库即可构建 AI 代理的内存层（78 分）",
+      "今日共收录 32 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：Show HN：YC 创业学校，但 AI 原生（88 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -292,18 +302,90 @@
       "label": "8月9日",
       "top10": [
         {
-          "rank": 5,
-          "title": "仅使用 Go 的标准库即可构建 AI 代理的内存层",
+          "rank": 1,
+          "title": "Show HN：YC 创业学校，但 AI 原生",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-08-09T13:04:55+00:00",
+          "sourceUrl": "https://foundera.app/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "您好，HN，YC 创业学校是一个很好的资源，也是灵感的一部分。但我认为现在，大部分创业教育模式已经能够与发现的……一起实际工作。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "每月花费不到 30 美元构建了一个小型 AI sidehustle 堆栈，现在我担心它真的有效",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-09T12:24:01+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vjojr5/built_a_tiny_ai_sidehustle_stack_for_under_30/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "我在咖啡馆的轮班间隙经营一家小型数字工具咨询公司。我主要帮助独立创作者将廉价的 SaaS 东西整合在一起。几个月前，我整理了自己的工作流程 - 一些脚本......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Show HN：Argonix – 一个用于 SRE 和云运营的 AI 驱动平台",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-08-09T10:50:18+00:00",
+          "sourceUrl": "https://argonix.io/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "大家好，我构建了 https://argonix.io 。 Argonix 是一个用于 SRE、安全和云运营的人工智能平台。这个想法是将通常传播的事物汇集并连接在一起......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Show HN: Job Seeker – 人工智能代理求职技能",
           "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-08-08T22:50:06+00:00",
-          "sourceUrl": "https://towardsdev.com/the-memory-efficient-ai-agent-building-a-context-engine-in-go-d4b7557c44d8?sk=22b2ffc30beac55a6f47841eb4df980b",
+          "publishedAt": "2026-08-09T13:20:51+00:00",
+          "sourceUrl": "https://github.com/galiprandi/job-seeker",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "Agent"
           ],
-          "summary": "文章网址：https://towardsdev.com/the-memory-efficient-ai-agent-building-a-context-engine-in-go-d4b7557c44d8?sk=22b2ffc30beac55a6f47841eb4df980b 评论网址：https://news.ycombinator.com...",
+          "summary": "编码代理（Devin、Claude、Cursor、opencode）使用 Markdown 技能来自动化整个职位搜索：搜索 LinkedIn、填写 Easy Apply、跟踪看板、起草回复。评论你...",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -314,65 +396,21 @@
           }
         },
         {
-          "rank": 2,
-          "title": "我用 Rust 构建了一个视频编辑器，具有广泛的人工智能功能",
+          "rank": 9,
+          "title": "问 HN：人工智能应该告诉你他们是人工智能吗？",
           "platform": "Hacker News",
-          "aiScore": 73,
-          "publishedAt": "2026-08-09T01:43:22+00:00",
-          "sourceUrl": "https://github.com/heng30/wayshot",
+          "aiScore": 78,
+          "publishedAt": "2026-08-09T10:54:06+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=49230276",
           "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "开源生态"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 8,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 3,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Hacker News",
-          "aiScore": 71,
-          "publishedAt": "2026-08-08T23:35:27+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49226913",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "应用落地"
-          ],
-          "summary": "我正在运行一个 AI 流畅度评估工具，并在 1800 个真实用户与我们的聊天机器人交互 20-40 分钟后；这是我们发现的一些奇怪的事情。 1. 最不熟悉人工智能的职业……",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 9,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "还有其他人使用人工智能工具来确定他们在离开劳动力市场多年后是否真的可以再次就业吗？",
-          "platform": "Reddit",
-          "aiScore": 71,
-          "publishedAt": "2026-08-08T18:29:19+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vj3cnc/anyone_else_using_ai_tools_to_figure_out_if/",
-          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展"
           ],
-          "summary": "承认这一点很奇怪，但事实就是如此。过去几年我和孩子们一起呆在家里，这是正确的选择，但现在我正处于这个模糊的中间位置，我开始思考……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "是否应该要求人工智能明确回答“你是人工智能吗”这一直接问题？目前，并没有普遍要求他们这样做。例如角色 ai 的角色不会[1]....",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
             "topic": 10,
             "actionability": 10,
@@ -380,142 +418,120 @@
           }
         },
         {
-          "rank": 5,
-          "title": "利用人工智能将杂乱的全球速卖通直销清单变成干净的产品",
-          "platform": "Hacker News",
-          "aiScore": 68,
-          "publishedAt": "2026-08-09T02:10:42+00:00",
-          "sourceUrl": "https://importer.omniicore.com/",
-          "sourceName": "Hacker News AI",
+          "rank": 10,
+          "title": "当题库追不上模型，AI开始给自己出题：中国这支团队跑通了数据层RSI",
+          "platform": "量子位",
+          "aiScore": 78,
+          "publishedAt": "2026-08-09T03:40:25+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/468782.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
-            "应用落地"
+            "模型进展"
           ],
-          "summary": "文章网址：https://importer.omniicore.com/ 评论网址：https://news.ycombinator.com/item?id=49227757 积分：2 # 评论：1",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "AI参与创造下一代AI",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 9,
-            "actionability": 4,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 6,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Hacker News",
-          "aiScore": 68,
-          "publishedAt": "2026-08-09T01:28:36+00:00",
-          "sourceUrl": "https://www.compactmag.com/article/the-ai-apocalypse-is-already-here/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "文章网址：https://www.compactmag.com/article/the-ai-apocalypse-is-already-here/ 评论网址：https://news.ycombinator.com/item?id=49227521 积分：26 # 评论：18",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 6
+            "recency": 28,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
           }
         },
         {
           "rank": 7,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "title": "中国创建了一个由数十亿人工智能代理模拟地球的系统",
+          "platform": "Hacker News",
+          "aiScore": 76,
+          "publishedAt": "2026-08-09T12:20:52+00:00",
+          "sourceUrl": "https://twitter.com/howtoprompt__/status/2086110097663795365",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 3
+          }
+        },
+        {
+          "rank": 8,
+          "title": "人工智能探测器正在创造一个不信任的新时代",
           "platform": "The Verge",
-          "aiScore": 68,
-          "publishedAt": "2026-08-08T17:53:34+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+          "aiScore": 74,
+          "publishedAt": "2026-08-09T12:00:00+00:00",
+          "sourceUrl": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
           "sourceName": "The Verge AI",
           "industryStage": "中游",
           "contentTags": [
-            "投融资"
+            "AI动态"
           ],
-          "summary": "为了为其新的西德克萨斯数据中心供电，亚马逊正在投资建设一座新发电厂，据报道，该发电厂可能成为美国最大的温室气体单一生产商之一……",
+          "summary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能如何改变我们日常生活的更多新闻，请关注艾玛·罗斯 (Emma Roth)。后退到达…",
           "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 25,
-            "topic": 6,
+            "topic": 5,
             "actionability": 4,
             "heat": 5
           }
         },
         {
-          "rank": 8,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-08-08T23:13:46+00:00",
-          "sourceUrl": "https://github.com/sebastiancarlos/faaah",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "开源生态"
-          ],
-          "summary": "文章网址：https://github.com/sebastiancarlos/faaah 评论网址：https://news.ycombinator.com/item?id=49226789 积分：2 # 评论：0",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 8,
-            "actionability": 4,
-            "heat": 2
-          }
-        },
-        {
           "rank": 9,
-          "title": "人工智能在行为定义下是有意识的（43,590 次冻结试验）",
-          "platform": "Hacker News",
-          "aiScore": 66,
-          "publishedAt": "2026-08-09T00:23:41+00:00",
-          "sourceUrl": "https://zenodo.org/records/21855824",
-          "sourceName": "Hacker News AI",
+          "title": "180万刀，连亚马逊都烧不起Claude了",
+          "platform": "量子位",
+          "aiScore": 74,
+          "publishedAt": "2026-08-09T09:25:10+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/469010.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
             "AI动态"
           ],
-          "summary": "文章网址：https://zenodo.org/records/21855824 评论网址：https://news.ycombinator.com/item?id=49227170 积分：4 # 评论：3",
+          "summary": "Claude不是我说你，钱真不能这么花",
           "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 5,
             "actionability": 4,
-            "heat": 4
+            "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "人工智能如何打破英国政府",
-          "platform": "Hacker News",
-          "aiScore": 66,
-          "publishedAt": "2026-08-08T22:50:11+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49226649",
-          "sourceName": "Hacker News AI",
+          "title": "GPT-5.6和Fable联手，解决了一道悬了25年的数学难题",
+          "platform": "量子位",
+          "aiScore": 74,
+          "publishedAt": "2026-08-09T09:16:58+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/468913.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
             "AI动态"
           ],
-          "summary": "评论网址：https://news.ycombinator.com/item?id=49226649 积分：5 # 评论：4",
+          "summary": "作者读博时就在研究，17年后被AI解开了",
           "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 5,
             "actionability": 4,
-            "heat": 4
+            "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 20,
-        "avgScore": 67.0,
-        "topScore": 78,
+        "totalItems": 32,
+        "avgScore": 70.6,
+        "topScore": 88,
         "topPlatforms": [
           {
             "name": "Hacker News",
@@ -523,37 +539,41 @@
           },
           {
             "name": "Reddit",
-            "count": 4
+            "count": 9
+          },
+          {
+            "name": "量子位",
+            "count": 5
           },
           {
             "name": "The Verge",
+            "count": 2
+          },
+          {
+            "name": "少数派",
             "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 11
+            "count": 17
+          },
+          {
+            "name": "模型进展",
+            "count": 8
+          },
+          {
+            "name": "Agent",
+            "count": 6
+          },
+          {
+            "name": "开源生态",
+            "count": 4
           },
           {
             "name": "应用落地",
             "count": 2
-          },
-          {
-            "name": "开源生态",
-            "count": 2
-          },
-          {
-            "name": "Agent",
-            "count": 1
-          },
-          {
-            "name": "内容生产",
-            "count": 1
-          },
-          {
-            "name": "模型进展",
-            "count": 1
           },
           {
             "name": "投融资",
@@ -566,9 +586,9 @@
         ]
       },
       "briefing": [
-        "今日共收录 20 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 应用落地 / 开源生态",
-        "最高分事件：仅使用 Go 的标准库即可构建 AI 代理的内存层（78 分）",
+        "今日共收录 32 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：Show HN：YC 创业学校，但 AI 原生（88 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -577,7 +597,7 @@
       "label": "8月8日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 4,
           "title": "OpenAI 对新模型踩刹车，因为它被认为太强大了",
           "platform": "The Verge",
           "aiScore": 86,
@@ -600,7 +620,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 5,
           "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "platform": "Reddit",
           "aiScore": 84,
@@ -623,7 +643,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 6,
           "title": "非洲和中东最好的人工智能模型",
           "platform": "Reddit",
           "aiScore": 81,
@@ -647,7 +667,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 7,
           "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "platform": "Reddit",
           "aiScore": 81,
@@ -27977,31 +27997,43 @@
     },
     "metrics": {
       "daysCovered": 2,
-      "totalItems": 53,
-      "avgTop10Score": 79.1,
-      "topScore": 86,
+      "totalItems": 65,
+      "avgTop10Score": 83.0,
+      "topScore": 88,
       "topPlatforms": [
-        {
-          "name": "Reddit",
-          "count": 4
-        },
         {
           "name": "Hacker News",
           "count": 4
         },
         {
+          "name": "Reddit",
+          "count": 4
+        },
+        {
           "name": "The Verge",
-          "count": 2
+          "count": 1
+        },
+        {
+          "name": "量子位",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "模型进展",
-          "count": 6
+          "count": 8
         },
         {
           "name": "Agent",
-          "count": 6
+          "count": 7
+        },
+        {
+          "name": "开源生态",
+          "count": 3
+        },
+        {
+          "name": "应用落地",
+          "count": 1
         },
         {
           "name": "安全治理",
@@ -28010,20 +28042,84 @@
         {
           "name": "内容生产",
           "count": 1
-        },
-        {
-          "name": "开源生态",
-          "count": 1
-        },
-        {
-          "name": "自动化",
-          "count": 1
         }
       ]
     },
     "topEvents": [
       {
         "rank": 1,
+        "title": "Show HN：YC 创业学校，但 AI 原生",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-08-09T13:04:55+00:00",
+        "sourceUrl": "https://foundera.app/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "您好，HN，YC 创业学校是一个很好的资源，也是灵感的一部分。但我认为现在，大部分创业教育模式已经能够与发现的……一起实际工作。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "每月花费不到 30 美元构建了一个小型 AI sidehustle 堆栈，现在我担心它真的有效",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-09T12:24:01+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vjojr5/built_a_tiny_ai_sidehustle_stack_for_under_30/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "我在咖啡馆的轮班间隙经营一家小型数字工具咨询公司。我主要帮助独立创作者将廉价的 SaaS 东西整合在一起。几个月前，我整理了自己的工作流程 - 一些脚本......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Show HN：Argonix – 一个用于 SRE 和云运营的 AI 驱动平台",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-08-09T10:50:18+00:00",
+        "sourceUrl": "https://argonix.io/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "上游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "大家好，我构建了 https://argonix.io 。 Argonix 是一个用于 SRE、安全和云运营的人工智能平台。这个想法是将通常传播的事物汇集并连接在一起......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
         "title": "OpenAI 对新模型踩刹车，因为它被认为太强大了",
         "platform": "The Verge",
         "aiScore": 86,
@@ -28046,7 +28142,7 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 5,
         "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
         "platform": "Reddit",
         "aiScore": 84,
@@ -28069,7 +28165,7 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 6,
         "title": "非洲和中东最好的人工智能模型",
         "platform": "Reddit",
         "aiScore": 81,
@@ -28093,7 +28189,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 7,
         "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
         "platform": "Reddit",
         "aiScore": 81,
@@ -28117,18 +28213,18 @@
         }
       },
       {
-        "rank": 5,
-        "title": "仅使用 Go 的标准库即可构建 AI 代理的内存层",
+        "rank": 8,
+        "title": "Show HN: Job Seeker – 人工智能代理求职技能",
         "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-08-08T22:50:06+00:00",
-        "sourceUrl": "https://towardsdev.com/the-memory-efficient-ai-agent-building-a-context-engine-in-go-d4b7557c44d8?sk=22b2ffc30beac55a6f47841eb4df980b",
+        "publishedAt": "2026-08-09T13:20:51+00:00",
+        "sourceUrl": "https://github.com/galiprandi/job-seeker",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "文章网址：https://towardsdev.com/the-memory-efficient-ai-agent-building-a-context-engine-in-go-d4b7557c44d8?sk=22b2ffc30beac55a6f47841eb4df980b 评论网址：https://news.ycombinator.com...",
+        "summary": "编码代理（Devin、Claude、Cursor、opencode）使用 Markdown 技能来自动化整个职位搜索：搜索 LinkedIn、填写 Easy Apply、跟踪看板、起草回复。评论你...",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -28139,19 +28235,19 @@
         }
       },
       {
-        "rank": 6,
-        "title": "字节跳动训练大规模人工智能模型以对抗 Anthropic",
-        "platform": "Reddit",
+        "rank": 9,
+        "title": "问 HN：人工智能应该告诉你他们是人工智能吗？",
+        "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-08-08T09:28:54+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1virisx/bytedance_trains_massive_ai_model_in_bid_to_rival/",
-        "sourceName": "Reddit r/artificial",
+        "publishedAt": "2026-08-09T10:54:06+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=49230276",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "由 /u/NISMO1968 提交 [链接] [评论]",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "是否应该要求人工智能明确回答“你是人工智能吗”这一直接问题？目前，并没有普遍要求他们这样做。例如角色 ai 的角色不会[1]....",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -28161,18 +28257,18 @@
         }
       },
       {
-        "rank": 7,
-        "title": "谷歌人工智能变革背后的原因是什么",
-        "platform": "The Verge",
+        "rank": 10,
+        "title": "当题库追不上模型，AI开始给自己出题：中国这支团队跑通了数据层RSI",
+        "platform": "量子位",
         "aiScore": 78,
-        "publishedAt": "2026-08-07T16:45:14+00:00",
-        "sourceUrl": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
-        "sourceName": "The Verge AI",
+        "publishedAt": "2026-08-09T03:40:25+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/468782.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "谷歌人工智能团队的一些知名人士本周获得了新工作。在某些情况下，包括传奇的谷歌员工杰夫·迪恩（Jeff Dean），这些工作不再在谷歌了。鉴于谷歌的模型......",
+        "summary": "AI参与创造下一代AI",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 28,
@@ -28181,79 +28277,13 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 8,
-        "title": "Show HN：我的 AI 代理自行构建并发布了一款浏览器游戏",
-        "platform": "Hacker News",
-        "aiScore": 75,
-        "publishedAt": "2026-08-08T12:58:58+00:00",
-        "sourceUrl": "https://overlk.itch.io/afterimage",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "文章网址：https://overlk.itch.io/afterimage 评论网址：https://news.ycombinator.com/item?id=49221471 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 9,
-        "title": "中国人工智能模型阻止了 OpenAI 的“前所未有”的网络攻击",
-        "platform": "Hacker News",
-        "aiScore": 75,
-        "publishedAt": "2026-08-08T12:01:17+00:00",
-        "sourceUrl": "https://www.cnbc.com/2026/07/24/chinese-ai-model-openai-cyber-attack.html",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "文章网址：https://www.cnbc.com/2026/07/24/chinese-ai-model-openai-cyber-attack.html 评论网址：https://news.ycombinator.com/item?id=49221002 积分：3 # 评论：0",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 10,
-        "title": "Cloudflare 推出 Kitesurf，一款专为 AI 代理构建的浏览器",
-        "platform": "Hacker News",
-        "aiScore": 75,
-        "publishedAt": "2026-08-08T12:00:41+00:00",
-        "sourceUrl": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "文章网址：https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/ 评论网址：https://news.ycombinator.com/item?id=49220996 积分：3 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 2
-        }
       }
     ],
     "briefing": [
-      "8月第2周累计收录 53 条资讯，覆盖 2 天。",
-      "高频主题：模型进展 / Agent / 安全治理",
-      "本周最高分：OpenAI 对新模型踩刹车，因为它被认为太强大了（86 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "8月第2周累计收录 65 条资讯，覆盖 2 天。",
+      "高频主题：模型进展 / Agent / 开源生态",
+      "本周最高分：Show HN：YC 创业学校，但 AI 原生（88 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
@@ -28266,31 +28296,43 @@
       },
       "metrics": {
         "daysCovered": 2,
-        "totalItems": 53,
-        "avgTop10Score": 79.1,
-        "topScore": 86,
+        "totalItems": 65,
+        "avgTop10Score": 83.0,
+        "topScore": 88,
         "topPlatforms": [
-          {
-            "name": "Reddit",
-            "count": 4
-          },
           {
             "name": "Hacker News",
             "count": 4
           },
           {
+            "name": "Reddit",
+            "count": 4
+          },
+          {
             "name": "The Verge",
-            "count": 2
+            "count": 1
+          },
+          {
+            "name": "量子位",
+            "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 6
+            "count": 8
           },
           {
             "name": "Agent",
-            "count": 6
+            "count": 7
+          },
+          {
+            "name": "开源生态",
+            "count": 3
+          },
+          {
+            "name": "应用落地",
+            "count": 1
           },
           {
             "name": "安全治理",
@@ -28299,20 +28341,84 @@
           {
             "name": "内容生产",
             "count": 1
-          },
-          {
-            "name": "开源生态",
-            "count": 1
-          },
-          {
-            "name": "自动化",
-            "count": 1
           }
         ]
       },
       "topEvents": [
         {
           "rank": 1,
+          "title": "Show HN：YC 创业学校，但 AI 原生",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-08-09T13:04:55+00:00",
+          "sourceUrl": "https://foundera.app/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "您好，HN，YC 创业学校是一个很好的资源，也是灵感的一部分。但我认为现在，大部分创业教育模式已经能够与发现的……一起实际工作。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "每月花费不到 30 美元构建了一个小型 AI sidehustle 堆栈，现在我担心它真的有效",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-09T12:24:01+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vjojr5/built_a_tiny_ai_sidehustle_stack_for_under_30/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "我在咖啡馆的轮班间隙经营一家小型数字工具咨询公司。我主要帮助独立创作者将廉价的 SaaS 东西整合在一起。几个月前，我整理了自己的工作流程 - 一些脚本......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Show HN：Argonix – 一个用于 SRE 和云运营的 AI 驱动平台",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-08-09T10:50:18+00:00",
+          "sourceUrl": "https://argonix.io/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "大家好，我构建了 https://argonix.io 。 Argonix 是一个用于 SRE、安全和云运营的人工智能平台。这个想法是将通常传播的事物汇集并连接在一起......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
           "title": "OpenAI 对新模型踩刹车，因为它被认为太强大了",
           "platform": "The Verge",
           "aiScore": 86,
@@ -28335,7 +28441,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 5,
           "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "platform": "Reddit",
           "aiScore": 84,
@@ -28358,7 +28464,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 6,
           "title": "非洲和中东最好的人工智能模型",
           "platform": "Reddit",
           "aiScore": 81,
@@ -28382,7 +28488,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 7,
           "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "platform": "Reddit",
           "aiScore": 81,
@@ -28406,18 +28512,18 @@
           }
         },
         {
-          "rank": 5,
-          "title": "仅使用 Go 的标准库即可构建 AI 代理的内存层",
+          "rank": 8,
+          "title": "Show HN: Job Seeker – 人工智能代理求职技能",
           "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-08-08T22:50:06+00:00",
-          "sourceUrl": "https://towardsdev.com/the-memory-efficient-ai-agent-building-a-context-engine-in-go-d4b7557c44d8?sk=22b2ffc30beac55a6f47841eb4df980b",
+          "publishedAt": "2026-08-09T13:20:51+00:00",
+          "sourceUrl": "https://github.com/galiprandi/job-seeker",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "Agent"
           ],
-          "summary": "文章网址：https://towardsdev.com/the-memory-efficient-ai-agent-building-a-context-engine-in-go-d4b7557c44d8?sk=22b2ffc30beac55a6f47841eb4df980b 评论网址：https://news.ycombinator.com...",
+          "summary": "编码代理（Devin、Claude、Cursor、opencode）使用 Markdown 技能来自动化整个职位搜索：搜索 LinkedIn、填写 Easy Apply、跟踪看板、起草回复。评论你...",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -28428,19 +28534,19 @@
           }
         },
         {
-          "rank": 6,
-          "title": "字节跳动训练大规模人工智能模型以对抗 Anthropic",
-          "platform": "Reddit",
+          "rank": 9,
+          "title": "问 HN：人工智能应该告诉你他们是人工智能吗？",
+          "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-08-08T09:28:54+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1virisx/bytedance_trains_massive_ai_model_in_bid_to_rival/",
-          "sourceName": "Reddit r/artificial",
+          "publishedAt": "2026-08-09T10:54:06+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=49230276",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "模型进展"
           ],
-          "summary": "由 /u/NISMO1968 提交 [链接] [评论]",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "是否应该要求人工智能明确回答“你是人工智能吗”这一直接问题？目前，并没有普遍要求他们这样做。例如角色 ai 的角色不会[1]....",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
@@ -28450,18 +28556,18 @@
           }
         },
         {
-          "rank": 7,
-          "title": "谷歌人工智能变革背后的原因是什么",
-          "platform": "The Verge",
+          "rank": 10,
+          "title": "当题库追不上模型，AI开始给自己出题：中国这支团队跑通了数据层RSI",
+          "platform": "量子位",
           "aiScore": 78,
-          "publishedAt": "2026-08-07T16:45:14+00:00",
-          "sourceUrl": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
-          "sourceName": "The Verge AI",
+          "publishedAt": "2026-08-09T03:40:25+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/468782.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
             "模型进展"
           ],
-          "summary": "谷歌人工智能团队的一些知名人士本周获得了新工作。在某些情况下，包括传奇的谷歌员工杰夫·迪恩（Jeff Dean），这些工作不再在谷歌了。鉴于谷歌的模型......",
+          "summary": "AI参与创造下一代AI",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 28,
@@ -28470,79 +28576,13 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 8,
-          "title": "Show HN：我的 AI 代理自行构建并发布了一款浏览器游戏",
-          "platform": "Hacker News",
-          "aiScore": 75,
-          "publishedAt": "2026-08-08T12:58:58+00:00",
-          "sourceUrl": "https://overlk.itch.io/afterimage",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "文章网址：https://overlk.itch.io/afterimage 评论网址：https://news.ycombinator.com/item?id=49221471 积分：2 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 9,
-          "title": "中国人工智能模型阻止了 OpenAI 的“前所未有”的网络攻击",
-          "platform": "Hacker News",
-          "aiScore": 75,
-          "publishedAt": "2026-08-08T12:01:17+00:00",
-          "sourceUrl": "https://www.cnbc.com/2026/07/24/chinese-ai-model-openai-cyber-attack.html",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "文章网址：https://www.cnbc.com/2026/07/24/chinese-ai-model-openai-cyber-attack.html 评论网址：https://news.ycombinator.com/item?id=49221002 积分：3 # 评论：0",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 10,
-          "title": "Cloudflare 推出 Kitesurf，一款专为 AI 代理构建的浏览器",
-          "platform": "Hacker News",
-          "aiScore": 75,
-          "publishedAt": "2026-08-08T12:00:41+00:00",
-          "sourceUrl": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "文章网址：https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/ 评论网址：https://news.ycombinator.com/item?id=49220996 积分：3 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 2
-          }
         }
       ],
       "briefing": [
-        "8月第2周累计收录 53 条资讯，覆盖 2 天。",
-        "高频主题：模型进展 / Agent / 安全治理",
-        "本周最高分：OpenAI 对新模型踩刹车，因为它被认为太强大了（86 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "8月第2周累计收录 65 条资讯，覆盖 2 天。",
+        "高频主题：模型进展 / Agent / 开源生态",
+        "本周最高分：Show HN：YC 创业学校，但 AI 原生（88 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
