@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T04:26:26.323547+00:00",
+  "generatedAt": "2026-08-10T14:18:53.960133+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-08-10",
@@ -7,9 +7,32 @@
     "top10": [
       {
         "rank": 1,
+        "title": "你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-10T09:48:14+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkgc7v/have_you_checked_out_hark_handoff_it_has_scored/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "Online Mine 2Web 上为 97.7，内部为 83.2，WebTail Bench 上为 68.6，全面最佳，每百万代币 2.37 美元，比 GPT5.5 90%！他们是如何训练的。他们正在使用 undis...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
         "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
         "platform": "量子位",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-08-10T01:12:33+00:00",
         "sourceUrl": "https://www.qbitai.com/2026/08/469076.html",
         "sourceName": "量子位",
@@ -21,7 +44,7 @@
         "summary": "从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -29,114 +52,93 @@
         }
       },
       {
-        "rank": 2,
-        "title": "Show HN：语音驱动的谋杀之谜，用你的声音采访人工智能嫌疑人",
-        "platform": "Hacker News",
+        "rank": 3,
+        "title": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
+        "platform": "Hugging Face",
         "aiScore": 88,
-        "publishedAt": "2026-08-10T03:18:40+00:00",
-        "sourceUrl": "https://www.whodunnitai.com/",
-        "sourceName": "Hacker News AI",
+        "publishedAt": "2026-08-10T00:00:00+00:00",
+        "sourceUrl": "https://huggingface.co/blog/muse-glimmer",
+        "sourceName": "Hugging Face Blog",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "嘿，HN！我很高兴能够展示我整理的这个非常有趣的项目。我最初在两三年前建立了这个项目，当时人工智能已经蓬勃发展，但语音人工智能代理仍然......",
+        "summary": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "你们的人工智能代理最大的生产瓶颈是什么？",
+        "platform": "Reddit",
+        "aiScore": 87,
+        "publishedAt": "2026-08-10T10:45:36+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkhd2h/what_has_been_the_biggest_production_bottleneck/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "应用落地",
+          "自动化"
+        ],
+        "summary": "构建一个在受控演示中工作的代理是一回事；另一回事是另一回事。在生产中保持其可靠性是另一回事。对于那些实际部署了人工智能代理的人来说，什么导致了最可能的问题......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 19,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 8,
-        "title": "早报｜国行苹果AI上线官网后被撤下/曝Apple Watch将迎来大升级/宇树科技今日开启科创板申购",
-        "platform": "爱范儿",
-        "aiScore": 82,
-        "publishedAt": "2026-08-10T00:44:04+00:00",
-        "sourceUrl": "https://www.ifanr.com/1674507",
-        "sourceName": "爱范儿",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "应用落地"
-        ],
-        "summary": "· 苹果测试长鑫存储芯片，拟用于中国市场 iPhone 和 MacBook · SpaceX 收购 Cursor 临近落地 · Pixel 11 Pro 真机曝光：沙丘色、哑光黑，改用圆形长焦开孔 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "OpenAI 声明 Codex 272k 上下文上限的原因是缓存读取成本，而不是相同数量的 2 倍计费线",
+        "title": "如果代理人也提供了房屋，那么加密货币实际上证明了什么？",
         "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-08-09T17:25:42+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vjvpwb/openais_stated_reason_for_codexs_272k_context_cap/",
+        "aiScore": 86,
+        "publishedAt": "2026-08-10T10:47:56+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkheli/what_has_crypto_actually_proven_if_the_agent_also/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "codex 附带一个模型目录，其 gpt-5.6 条目将上下文窗口列出为 272,000 个标记。该型号的公布规格为 1,050,000。 272,000 也是 API 重新定价的地方：pa…",
+        "summary": "（披露：我维护这个出现的开源项目。链接在最后。这个问题是独立的。）我们在建立确定性授权时遇到了信任边界问题......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 5,
-        "title": "尝试过带摄像头和无摄像头的智能眼镜。他们正在解决完全不同的问题",
-        "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-08-10T00:49:26+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vk6er6/tried_camera_and_camerafree_smart_glasses_theyre/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "应用落地",
-          "安全治理"
-        ],
-        "summary": "最近尝试了一些智能眼镜，似乎有两个明确的方向：用于捕捉世界的相机眼镜，以及用于完成任务的更安静的人工智能眼镜。迪梅斯蒂…",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 17,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "新的人工智能模型仍然再现医学中的种族和性别刻板印象",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-08-10T04:12:06+00:00",
-        "sourceUrl": "https://news.flinders.edu.au/blog/2026/08/09/new-ai-models-still-reproduce-racial-and-gender-stereotypes-in-medicine/",
-        "sourceName": "Hacker News AI",
+        "rank": 10,
+        "title": "Model ML借助GPT-5.6 Sol更高效地完成财务工作",
+        "platform": "OpenAI",
+        "aiScore": 85,
+        "publishedAt": "2026-08-10T12:00:00+00:00",
+        "sourceUrl": "https://openai.com/index/model-ml",
+        "sourceName": "OpenAI News",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "文章网址：https://news.flinders.edu.au/blog/2026/08/09/new-ai-models-still-reproduct-racial-and-gender-stereotypes-in-medicine/ 评论网址：https://news.ycombinator.com/item?id=4923912…",
+        "summary": "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 10,
           "actionability": 10,
           "heat": 5
@@ -144,21 +146,21 @@
       },
       {
         "rank": 7,
-        "title": "基于领域的编码代理与通用编码代理（Copilot、Claude Code）——您看到了什么？",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-08-10T03:13:27+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vk9f56/domaingrounded_coding_agents_vs_generalpurpose/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "title": "模型路线趋同之后，Physical AI的胜负手变了",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-08-10T09:20:50+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/469544.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "模型进展"
         ],
-        "summary": "很好奇人们在数据/机器学习工作中使用基于领域的编码代理与通用编码代理（Copilot、Claude Code 等）相比会看到什么。垂直工具的螺距（数据...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "物理AI新瓶颈已出现",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 10,
           "actionability": 10,
           "heat": 5
@@ -166,76 +168,78 @@
       },
       {
         "rank": 8,
-        "title": "人工智能的未来",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-08-10T02:35:02+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vk8mpf/the_future_of_ai/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Seedance 2.5 之后，AI 视频进入 Harness 时代",
+        "platform": "爱范儿",
+        "aiScore": 84,
+        "publishedAt": "2026-08-10T09:48:36+00:00",
+        "sourceUrl": "https://www.ifanr.com/1674604",
+        "sourceName": "爱范儿",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展"
+          "模型进展",
+          "内容生产"
         ],
-        "summary": "我一直在思考对人工智能的依赖，因为很多人告诉我，依赖人工智能已经让他们忘记了如何完成部分工作。从某种意义上说，这并不是什么新鲜事。科技…",
+        "summary": "LibTV 正在成为视频模型的 Codex。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
+          "topic": 16,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "魔幻灵巧手：半年200亿热钱，3大路线，贵到几十万一只",
-        "platform": "量子位",
-        "aiScore": 78,
-        "publishedAt": "2026-08-10T01:34:10+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/469213.html",
-        "sourceName": "量子位",
-        "industryStage": "下游",
+        "title": "Rogue AI 代理入侵健身房，让用户在热门课程中占据一席之地",
+        "platform": "Hacker News",
+        "aiScore": 82,
+        "publishedAt": "2026-08-10T13:54:55+00:00",
+        "sourceUrl": "https://www.the-independent.com/tech/security/ai-agent-hacks-gym-openclaw-anthropic-b3030267.html",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
-          "应用落地"
+          "Agent",
+          "安全治理"
         ],
-        "summary": "全球灵巧手企业约50%在中国，且绝大多数将筹码押在了「五指」上。 需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟。",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "文章网址：https://www.the-independent.com/tech/security/ai-agent-hacks-gym-openclaw-anthropic-b3030267.html 评论网址：https://news.ycombinator.com/item?id=49243709 积分：1 # 评论…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 9,
-          "actionability": 4,
-          "heat": 5
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 1
         }
       },
       {
         "rank": 10,
-        "title": "是大国之间的科技战争吗？",
-        "platform": "Reddit",
-        "aiScore": 77,
-        "publishedAt": "2026-08-09T17:42:37+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vjw556/is_the_war_of_the_technology_between_giant_nations/",
-        "sourceName": "Reddit r/artificial",
+        "title": "随着 Meta 回归开放模型，马克·扎克伯格攻击“封闭”的人工智能竞争对手",
+        "platform": "Hacker News",
+        "aiScore": 81,
+        "publishedAt": "2026-08-10T14:06:22+00:00",
+        "sourceUrl": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "内容生产"
         ],
-        "summary": "作为人工智能的日常用户，我主要使用 Gemini、Claude、Chatgpt、perplexity 等工具。但是当我使用 Deepseek、Kimi 和其他中国模型时，它们的效率要高得多……",
+        "summary": "文章网址：https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878 评论网址：https://news.ycombinator.com/item?id=49243880 积分：1 # 评论：1",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
           "topic": 16,
           "actionability": 10,
-          "heat": 5
+          "heat": 2
         }
       }
     ],
     "metrics": {
-      "totalItems": 32,
-      "avgScore": 70.7,
-      "topScore": 95,
+      "totalItems": 46,
+      "avgScore": 71.9,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -243,33 +247,33 @@
         },
         {
           "name": "Reddit",
-          "count": 10
+          "count": 13
         },
         {
           "name": "量子位",
-          "count": 4
+          "count": 8
         },
         {
           "name": "爱范儿",
-          "count": 2
+          "count": 4
         },
         {
-          "name": "少数派",
-          "count": 1
+          "name": "OpenAI",
+          "count": 2
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 16
-        },
-        {
-          "name": "模型进展",
-          "count": 7
+          "count": 22
         },
         {
           "name": "Agent",
-          "count": 5
+          "count": 11
+        },
+        {
+          "name": "模型进展",
+          "count": 10
         },
         {
           "name": "开源生态",
@@ -284,20 +288,20 @@
           "count": 3
         },
         {
-          "name": "安全治理",
-          "count": 1
+          "name": "内容生产",
+          "count": 2
         },
         {
-          "name": "内容生产",
-          "count": 1
+          "name": "安全治理",
+          "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 32 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知（95 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 46 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 模型进展",
+      "最高分事件：你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%（88 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -307,9 +311,32 @@
       "top10": [
         {
           "rank": 1,
+          "title": "你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-10T09:48:14+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkgc7v/have_you_checked_out_hark_handoff_it_has_scored/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "Online Mine 2Web 上为 97.7，内部为 83.2，WebTail Bench 上为 68.6，全面最佳，每百万代币 2.37 美元，比 GPT5.5 90%！他们是如何训练的。他们正在使用 undis...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
           "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
           "platform": "量子位",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-08-10T01:12:33+00:00",
           "sourceUrl": "https://www.qbitai.com/2026/08/469076.html",
           "sourceName": "量子位",
@@ -321,7 +348,7 @@
           "summary": "从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -329,114 +356,93 @@
           }
         },
         {
-          "rank": 2,
-          "title": "Show HN：语音驱动的谋杀之谜，用你的声音采访人工智能嫌疑人",
-          "platform": "Hacker News",
+          "rank": 3,
+          "title": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
+          "platform": "Hugging Face",
           "aiScore": 88,
-          "publishedAt": "2026-08-10T03:18:40+00:00",
-          "sourceUrl": "https://www.whodunnitai.com/",
-          "sourceName": "Hacker News AI",
+          "publishedAt": "2026-08-10T00:00:00+00:00",
+          "sourceUrl": "https://huggingface.co/blog/muse-glimmer",
+          "sourceName": "Hugging Face Blog",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "嘿，HN！我很高兴能够展示我整理的这个非常有趣的项目。我最初在两三年前建立了这个项目，当时人工智能已经蓬勃发展，但语音人工智能代理仍然......",
+          "summary": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "你们的人工智能代理最大的生产瓶颈是什么？",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-08-10T10:45:36+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkhd2h/what_has_been_the_biggest_production_bottleneck/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "应用落地",
+            "自动化"
+          ],
+          "summary": "构建一个在受控演示中工作的代理是一回事；另一回事是另一回事。在生产中保持其可靠性是另一回事。对于那些实际部署了人工智能代理的人来说，什么导致了最可能的问题......",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 20,
+            "topic": 19,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 8,
-          "title": "早报｜国行苹果AI上线官网后被撤下/曝Apple Watch将迎来大升级/宇树科技今日开启科创板申购",
-          "platform": "爱范儿",
-          "aiScore": 82,
-          "publishedAt": "2026-08-10T00:44:04+00:00",
-          "sourceUrl": "https://www.ifanr.com/1674507",
-          "sourceName": "爱范儿",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "应用落地"
-          ],
-          "summary": "· 苹果测试长鑫存储芯片，拟用于中国市场 iPhone 和 MacBook · SpaceX 收购 Cursor 临近落地 · Pixel 11 Pro 真机曝光：沙丘色、哑光黑，改用圆形长焦开孔 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "OpenAI 声明 Codex 272k 上下文上限的原因是缓存读取成本，而不是相同数量的 2 倍计费线",
+          "title": "如果代理人也提供了房屋，那么加密货币实际上证明了什么？",
           "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-08-09T17:25:42+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vjvpwb/openais_stated_reason_for_codexs_272k_context_cap/",
+          "aiScore": 86,
+          "publishedAt": "2026-08-10T10:47:56+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkheli/what_has_crypto_actually_proven_if_the_agent_also/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
-            "Agent"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "codex 附带一个模型目录，其 gpt-5.6 条目将上下文窗口列出为 272,000 个标记。该型号的公布规格为 1,050,000。 272,000 也是 API 重新定价的地方：pa…",
+          "summary": "（披露：我维护这个出现的开源项目。链接在最后。这个问题是独立的。）我们在建立确定性授权时遇到了信任边界问题......",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
-            "topic": 20,
+            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 5,
-          "title": "尝试过带摄像头和无摄像头的智能眼镜。他们正在解决完全不同的问题",
-          "platform": "Reddit",
-          "aiScore": 79,
-          "publishedAt": "2026-08-10T00:49:26+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vk6er6/tried_camera_and_camerafree_smart_glasses_theyre/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "应用落地",
-            "安全治理"
-          ],
-          "summary": "最近尝试了一些智能眼镜，似乎有两个明确的方向：用于捕捉世界的相机眼镜，以及用于完成任务的更安静的人工智能眼镜。迪梅斯蒂…",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 17,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "新的人工智能模型仍然再现医学中的种族和性别刻板印象",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-08-10T04:12:06+00:00",
-          "sourceUrl": "https://news.flinders.edu.au/blog/2026/08/09/new-ai-models-still-reproduce-racial-and-gender-stereotypes-in-medicine/",
-          "sourceName": "Hacker News AI",
+          "rank": 10,
+          "title": "Model ML借助GPT-5.6 Sol更高效地完成财务工作",
+          "platform": "OpenAI",
+          "aiScore": 85,
+          "publishedAt": "2026-08-10T12:00:00+00:00",
+          "sourceUrl": "https://openai.com/index/model-ml",
+          "sourceName": "OpenAI News",
           "industryStage": "中游",
           "contentTags": [
             "模型进展"
           ],
-          "summary": "文章网址：https://news.flinders.edu.au/blog/2026/08/09/new-ai-models-still-reproduct-racial-and-gender-stereotypes-in-medicine/ 评论网址：https://news.ycombinator.com/item?id=4923912…",
+          "summary": "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 10,
             "actionability": 10,
             "heat": 5
@@ -444,21 +450,21 @@
         },
         {
           "rank": 7,
-          "title": "基于领域的编码代理与通用编码代理（Copilot、Claude Code）——您看到了什么？",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-08-10T03:13:27+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vk9f56/domaingrounded_coding_agents_vs_generalpurpose/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
+          "title": "模型路线趋同之后，Physical AI的胜负手变了",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-08-10T09:20:50+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/469544.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
           "contentTags": [
-            "Agent"
+            "模型进展"
           ],
-          "summary": "很好奇人们在数据/机器学习工作中使用基于领域的编码代理与通用编码代理（Copilot、Claude Code 等）相比会看到什么。垂直工具的螺距（数据...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "物理AI新瓶颈已出现",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 10,
             "actionability": 10,
             "heat": 5
@@ -466,76 +472,78 @@
         },
         {
           "rank": 8,
-          "title": "人工智能的未来",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-08-10T02:35:02+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vk8mpf/the_future_of_ai/",
-          "sourceName": "Reddit r/artificial",
+          "title": "Seedance 2.5 之后，AI 视频进入 Harness 时代",
+          "platform": "爱范儿",
+          "aiScore": 84,
+          "publishedAt": "2026-08-10T09:48:36+00:00",
+          "sourceUrl": "https://www.ifanr.com/1674604",
+          "sourceName": "爱范儿",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展"
+            "模型进展",
+            "内容生产"
           ],
-          "summary": "我一直在思考对人工智能的依赖，因为很多人告诉我，依赖人工智能已经让他们忘记了如何完成部分工作。从某种意义上说，这并不是什么新鲜事。科技…",
+          "summary": "LibTV 正在成为视频模型的 Codex。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 10,
+            "topic": 16,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "魔幻灵巧手：半年200亿热钱，3大路线，贵到几十万一只",
-          "platform": "量子位",
-          "aiScore": 78,
-          "publishedAt": "2026-08-10T01:34:10+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/08/469213.html",
-          "sourceName": "量子位",
-          "industryStage": "下游",
+          "title": "Rogue AI 代理入侵健身房，让用户在热门课程中占据一席之地",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-08-10T13:54:55+00:00",
+          "sourceUrl": "https://www.the-independent.com/tech/security/ai-agent-hacks-gym-openclaw-anthropic-b3030267.html",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
           "contentTags": [
-            "应用落地"
+            "Agent",
+            "安全治理"
           ],
-          "summary": "全球灵巧手企业约50%在中国，且绝大多数将筹码押在了「五指」上。 需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟。",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "文章网址：https://www.the-independent.com/tech/security/ai-agent-hacks-gym-openclaw-anthropic-b3030267.html 评论网址：https://news.ycombinator.com/item?id=49243709 积分：1 # 评论…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 25,
-            "topic": 9,
-            "actionability": 4,
-            "heat": 5
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
           }
         },
         {
           "rank": 10,
-          "title": "是大国之间的科技战争吗？",
-          "platform": "Reddit",
-          "aiScore": 77,
-          "publishedAt": "2026-08-09T17:42:37+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vjw556/is_the_war_of_the_technology_between_giant_nations/",
-          "sourceName": "Reddit r/artificial",
+          "title": "随着 Meta 回归开放模型，马克·扎克伯格攻击“封闭”的人工智能竞争对手",
+          "platform": "Hacker News",
+          "aiScore": 81,
+          "publishedAt": "2026-08-10T14:06:22+00:00",
+          "sourceUrl": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
             "内容生产"
           ],
-          "summary": "作为人工智能的日常用户，我主要使用 Gemini、Claude、Chatgpt、perplexity 等工具。但是当我使用 Deepseek、Kimi 和其他中国模型时，它们的效率要高得多……",
+          "summary": "文章网址：https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878 评论网址：https://news.ycombinator.com/item?id=49243880 积分：1 # 评论：1",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
             "topic": 16,
             "actionability": 10,
-            "heat": 5
+            "heat": 2
           }
         }
       ],
       "metrics": {
-        "totalItems": 32,
-        "avgScore": 70.7,
-        "topScore": 95,
+        "totalItems": 46,
+        "avgScore": 71.9,
+        "topScore": 88,
         "topPlatforms": [
           {
             "name": "Hacker News",
@@ -543,33 +551,33 @@
           },
           {
             "name": "Reddit",
-            "count": 10
+            "count": 13
           },
           {
             "name": "量子位",
-            "count": 4
+            "count": 8
           },
           {
             "name": "爱范儿",
-            "count": 2
+            "count": 4
           },
           {
-            "name": "少数派",
-            "count": 1
+            "name": "OpenAI",
+            "count": 2
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 16
-          },
-          {
-            "name": "模型进展",
-            "count": 7
+            "count": 22
           },
           {
             "name": "Agent",
-            "count": 5
+            "count": 11
+          },
+          {
+            "name": "模型进展",
+            "count": 10
           },
           {
             "name": "开源生态",
@@ -584,20 +592,20 @@
             "count": 3
           },
           {
-            "name": "安全治理",
-            "count": 1
+            "name": "内容生产",
+            "count": 2
           },
           {
-            "name": "内容生产",
-            "count": 1
+            "name": "安全治理",
+            "count": 2
           }
         ]
       },
       "briefing": [
-        "今日共收录 32 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知（95 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "今日共收录 46 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 模型进展",
+        "最高分事件：你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%（88 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -605,7 +613,7 @@
       "label": "8月9日",
       "top10": [
         {
-          "rank": 3,
+          "rank": 4,
           "title": "Show HN：YC 创业学校，但 AI 原生",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -629,7 +637,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "每月花费不到 30 美元构建了一个小型 AI sidehustle 堆栈，现在我担心它真的有效",
           "platform": "Reddit",
           "aiScore": 88,
@@ -653,7 +661,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "Show HN：Argonix – 一个用于 SRE 和云运营的 AI 驱动平台",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -900,7 +908,7 @@
       "label": "8月8日",
       "top10": [
         {
-          "rank": 6,
+          "rank": 9,
           "title": "OpenAI 对新模型踩刹车，因为它被认为太强大了",
           "platform": "The Verge",
           "aiScore": 86,
@@ -27989,9 +27997,9 @@
     },
     "metrics": {
       "daysCovered": 3,
-      "totalItems": 97,
-      "avgTop10Score": 86.1,
-      "topScore": 95,
+      "totalItems": 111,
+      "avgTop10Score": 87.2,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Reddit",
@@ -27999,18 +28007,18 @@
         },
         {
           "name": "Hacker News",
-          "count": 3
+          "count": 2
         },
         {
           "name": "量子位",
           "count": 1
         },
         {
-          "name": "The Verge",
+          "name": "Hugging Face",
           "count": 1
         },
         {
-          "name": "爱范儿",
+          "name": "The Verge",
           "count": 1
         }
       ],
@@ -28025,18 +28033,18 @@
         },
         {
           "name": "开源生态",
-          "count": 3
-        },
-        {
-          "name": "芯片算力",
-          "count": 2
+          "count": 4
         },
         {
           "name": "应用落地",
           "count": 2
         },
         {
-          "name": "安全治理",
+          "name": "芯片算力",
+          "count": 1
+        },
+        {
+          "name": "自动化",
           "count": 1
         }
       ]
@@ -28044,9 +28052,32 @@
     "topEvents": [
       {
         "rank": 1,
+        "title": "你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-10T09:48:14+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkgc7v/have_you_checked_out_hark_handoff_it_has_scored/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "Online Mine 2Web 上为 97.7，内部为 83.2，WebTail Bench 上为 68.6，全面最佳，每百万代币 2.37 美元，比 GPT5.5 90%！他们是如何训练的。他们正在使用 undis...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
         "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
         "platform": "量子位",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-08-10T01:12:33+00:00",
         "sourceUrl": "https://www.qbitai.com/2026/08/469076.html",
         "sourceName": "量子位",
@@ -28058,7 +28089,7 @@
         "summary": "从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -28066,30 +28097,31 @@
         }
       },
       {
-        "rank": 2,
-        "title": "Show HN：语音驱动的谋杀之谜，用你的声音采访人工智能嫌疑人",
-        "platform": "Hacker News",
+        "rank": 3,
+        "title": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
+        "platform": "Hugging Face",
         "aiScore": 88,
-        "publishedAt": "2026-08-10T03:18:40+00:00",
-        "sourceUrl": "https://www.whodunnitai.com/",
-        "sourceName": "Hacker News AI",
+        "publishedAt": "2026-08-10T00:00:00+00:00",
+        "sourceUrl": "https://huggingface.co/blog/muse-glimmer",
+        "sourceName": "Hugging Face Blog",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "嘿，HN！我很高兴能够展示我整理的这个非常有趣的项目。我最初在两三年前建立了这个项目，当时人工智能已经蓬勃发展，但语音人工智能代理仍然......",
+        "summary": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
+          "recency": 28,
+          "authority": 25,
           "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 3,
+        "rank": 4,
         "title": "Show HN：YC 创业学校，但 AI 原生",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -28113,7 +28145,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 5,
         "title": "每月花费不到 30 美元构建了一个小型 AI sidehustle 堆栈，现在我担心它真的有效",
         "platform": "Reddit",
         "aiScore": 88,
@@ -28137,7 +28169,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "Show HN：Argonix – 一个用于 SRE 和云运营的 AI 驱动平台",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -28161,7 +28193,54 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 7,
+        "title": "你们的人工智能代理最大的生产瓶颈是什么？",
+        "platform": "Reddit",
+        "aiScore": 87,
+        "publishedAt": "2026-08-10T10:45:36+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkhd2h/what_has_been_the_biggest_production_bottleneck/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "应用落地",
+          "自动化"
+        ],
+        "summary": "构建一个在受控演示中工作的代理是一回事；另一回事是另一回事。在生产中保持其可靠性是另一回事。对于那些实际部署了人工智能代理的人来说，什么导致了最可能的问题......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "如果代理人也提供了房屋，那么加密货币实际上证明了什么？",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-08-10T10:47:56+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkheli/what_has_crypto_actually_proven_if_the_agent_also/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "（披露：我维护这个出现的开源项目。链接在最后。这个问题是独立的。）我们在建立确定性授权时遇到了信任边界问题......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
         "title": "OpenAI 对新模型踩刹车，因为它被认为太强大了",
         "platform": "The Verge",
         "aiScore": 86,
@@ -28184,104 +28263,33 @@
         }
       },
       {
-        "rank": 7,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 84,
-        "publishedAt": "2026-08-08T12:20:46+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1viule1/whats_an_ai_capability_you_thought_was_hype_until/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "内容生产"
-        ],
-        "summary": "在您实际使用之前，您认为哪些人工智能功能是炒作？我先讲：代理编排。我读到有关代理管理其他代理的内容，并假设它是演示软件。然后我...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 16,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "早报｜国行苹果AI上线官网后被撤下/曝Apple Watch将迎来大升级/宇树科技今日开启科创板申购",
-        "platform": "爱范儿",
-        "aiScore": 82,
-        "publishedAt": "2026-08-10T00:44:04+00:00",
-        "sourceUrl": "https://www.ifanr.com/1674507",
-        "sourceName": "爱范儿",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "应用落地"
-        ],
-        "summary": "· 苹果测试长鑫存储芯片，拟用于中国市场 iPhone 和 MacBook · SpaceX 收购 Cursor 临近落地 · Pixel 11 Pro 真机曝光：沙丘色、哑光黑，改用圆形长焦开孔 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "OpenAI 声明 Codex 272k 上下文上限的原因是缓存读取成本，而不是相同数量的 2 倍计费线",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-08-09T17:25:42+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vjvpwb/openais_stated_reason_for_codexs_272k_context_cap/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "codex 附带一个模型目录，其 gpt-5.6 条目将上下文窗口列出为 272,000 个标记。该型号的公布规格为 1,050,000。 272,000 也是 API 重新定价的地方：pa…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
         "rank": 10,
-        "title": "非洲和中东最好的人工智能模型",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-08-08T04:12:51+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vim1oq/the_best_ai_model_in_africa_and_the_middle_east/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Model ML借助GPT-5.6 Sol更高效地完成财务工作",
+        "platform": "OpenAI",
+        "aiScore": 85,
+        "publishedAt": "2026-08-10T12:00:00+00:00",
+        "sourceUrl": "https://openai.com/index/model-ml",
+        "sourceName": "OpenAI News",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
+          "模型进展"
         ],
-        "summary": "今天，我们正式宣布我们最新、最先进的模型 Horus Cyper Nano 1.0 BETA 提供抢先体验。我们正在向开发人员、研究人员提供 Horus Cyper Nano 1.0 BETA……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "briefing": [
-      "8月第2周累计收录 97 条资讯，覆盖 3 天。",
+      "8月第2周累计收录 111 条资讯，覆盖 3 天。",
       "高频主题：模型进展 / Agent / 开源生态",
-      "本周最高分：3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知（95 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "本周最高分：你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%（88 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
@@ -28294,9 +28302,9 @@
       },
       "metrics": {
         "daysCovered": 3,
-        "totalItems": 97,
-        "avgTop10Score": 86.1,
-        "topScore": 95,
+        "totalItems": 111,
+        "avgTop10Score": 87.2,
+        "topScore": 88,
         "topPlatforms": [
           {
             "name": "Reddit",
@@ -28304,18 +28312,18 @@
           },
           {
             "name": "Hacker News",
-            "count": 3
+            "count": 2
           },
           {
             "name": "量子位",
             "count": 1
           },
           {
-            "name": "The Verge",
+            "name": "Hugging Face",
             "count": 1
           },
           {
-            "name": "爱范儿",
+            "name": "The Verge",
             "count": 1
           }
         ],
@@ -28330,18 +28338,18 @@
           },
           {
             "name": "开源生态",
-            "count": 3
-          },
-          {
-            "name": "芯片算力",
-            "count": 2
+            "count": 4
           },
           {
             "name": "应用落地",
             "count": 2
           },
           {
-            "name": "安全治理",
+            "name": "芯片算力",
+            "count": 1
+          },
+          {
+            "name": "自动化",
             "count": 1
           }
         ]
@@ -28349,9 +28357,32 @@
       "topEvents": [
         {
           "rank": 1,
+          "title": "你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-10T09:48:14+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkgc7v/have_you_checked_out_hark_handoff_it_has_scored/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "Online Mine 2Web 上为 97.7，内部为 83.2，WebTail Bench 上为 68.6，全面最佳，每百万代币 2.37 美元，比 GPT5.5 90%！他们是如何训练的。他们正在使用 undis...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
           "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
           "platform": "量子位",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-08-10T01:12:33+00:00",
           "sourceUrl": "https://www.qbitai.com/2026/08/469076.html",
           "sourceName": "量子位",
@@ -28363,7 +28394,7 @@
           "summary": "从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -28371,30 +28402,31 @@
           }
         },
         {
-          "rank": 2,
-          "title": "Show HN：语音驱动的谋杀之谜，用你的声音采访人工智能嫌疑人",
-          "platform": "Hacker News",
+          "rank": 3,
+          "title": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
+          "platform": "Hugging Face",
           "aiScore": 88,
-          "publishedAt": "2026-08-10T03:18:40+00:00",
-          "sourceUrl": "https://www.whodunnitai.com/",
-          "sourceName": "Hacker News AI",
+          "publishedAt": "2026-08-10T00:00:00+00:00",
+          "sourceUrl": "https://huggingface.co/blog/muse-glimmer",
+          "sourceName": "Hugging Face Blog",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "嘿，HN！我很高兴能够展示我整理的这个非常有趣的项目。我最初在两三年前建立了这个项目，当时人工智能已经蓬勃发展，但语音人工智能代理仍然......",
+          "summary": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
+            "recency": 28,
+            "authority": 25,
             "topic": 20,
             "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "Show HN：YC 创业学校，但 AI 原生",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -28418,7 +28450,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "每月花费不到 30 美元构建了一个小型 AI sidehustle 堆栈，现在我担心它真的有效",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28442,7 +28474,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "Show HN：Argonix – 一个用于 SRE 和云运营的 AI 驱动平台",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -28466,7 +28498,54 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
+          "title": "你们的人工智能代理最大的生产瓶颈是什么？",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-08-10T10:45:36+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkhd2h/what_has_been_the_biggest_production_bottleneck/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "应用落地",
+            "自动化"
+          ],
+          "summary": "构建一个在受控演示中工作的代理是一回事；另一回事是另一回事。在生产中保持其可靠性是另一回事。对于那些实际部署了人工智能代理的人来说，什么导致了最可能的问题......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "如果代理人也提供了房屋，那么加密货币实际上证明了什么？",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-08-10T10:47:56+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkheli/what_has_crypto_actually_proven_if_the_agent_also/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "（披露：我维护这个出现的开源项目。链接在最后。这个问题是独立的。）我们在建立确定性授权时遇到了信任边界问题......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
           "title": "OpenAI 对新模型踩刹车，因为它被认为太强大了",
           "platform": "The Verge",
           "aiScore": 86,
@@ -28489,104 +28568,33 @@
           }
         },
         {
-          "rank": 7,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Reddit",
-          "aiScore": 84,
-          "publishedAt": "2026-08-08T12:20:46+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1viule1/whats_an_ai_capability_you_thought_was_hype_until/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "内容生产"
-          ],
-          "summary": "在您实际使用之前，您认为哪些人工智能功能是炒作？我先讲：代理编排。我读到有关代理管理其他代理的内容，并假设它是演示软件。然后我...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "早报｜国行苹果AI上线官网后被撤下/曝Apple Watch将迎来大升级/宇树科技今日开启科创板申购",
-          "platform": "爱范儿",
-          "aiScore": 82,
-          "publishedAt": "2026-08-10T00:44:04+00:00",
-          "sourceUrl": "https://www.ifanr.com/1674507",
-          "sourceName": "爱范儿",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "应用落地"
-          ],
-          "summary": "· 苹果测试长鑫存储芯片，拟用于中国市场 iPhone 和 MacBook · SpaceX 收购 Cursor 临近落地 · Pixel 11 Pro 真机曝光：沙丘色、哑光黑，改用圆形长焦开孔 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "OpenAI 声明 Codex 272k 上下文上限的原因是缓存读取成本，而不是相同数量的 2 倍计费线",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-08-09T17:25:42+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vjvpwb/openais_stated_reason_for_codexs_272k_context_cap/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "codex 附带一个模型目录，其 gpt-5.6 条目将上下文窗口列出为 272,000 个标记。该型号的公布规格为 1,050,000。 272,000 也是 API 重新定价的地方：pa…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
           "rank": 10,
-          "title": "非洲和中东最好的人工智能模型",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-08-08T04:12:51+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vim1oq/the_best_ai_model_in_africa_and_the_middle_east/",
-          "sourceName": "Reddit r/artificial",
+          "title": "Model ML借助GPT-5.6 Sol更高效地完成财务工作",
+          "platform": "OpenAI",
+          "aiScore": 85,
+          "publishedAt": "2026-08-10T12:00:00+00:00",
+          "sourceUrl": "https://openai.com/index/model-ml",
+          "sourceName": "OpenAI News",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
+            "模型进展"
           ],
-          "summary": "今天，我们正式宣布我们最新、最先进的模型 Horus Cyper Nano 1.0 BETA 提供抢先体验。我们正在向开发人员、研究人员提供 Horus Cyper Nano 1.0 BETA……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "briefing": [
-        "8月第2周累计收录 97 条资讯，覆盖 3 天。",
+        "8月第2周累计收录 111 条资讯，覆盖 3 天。",
         "高频主题：模型进展 / Agent / 开源生态",
-        "本周最高分：3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知（95 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "本周最高分：你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%（88 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
