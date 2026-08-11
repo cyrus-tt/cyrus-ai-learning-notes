@@ -1,25 +1,26 @@
 {
-  "generatedAt": "2026-08-10T14:18:53.960133+00:00",
+  "generatedAt": "2026-08-11T03:02:48.678315+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-08-10",
-    "label": "8月10日",
+    "date": "2026-08-11",
+    "label": "8月11日",
     "top10": [
       {
         "rank": 1,
-        "title": "你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%",
-        "platform": "Reddit",
+        "title": "派早报：Meta 发布开源本地 AI 智能体大模型 Muse Glimmer、阿里千问开放平台上线等",
+        "platform": "少数派",
         "aiScore": 88,
-        "publishedAt": "2026-08-10T09:48:14+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkgc7v/have_you_checked_out_hark_handoff_it_has_scored/",
-        "sourceName": "Reddit r/artificial",
+        "publishedAt": "2026-08-11T00:09:35+00:00",
+        "sourceUrl": "https://sspai.com/post/113301",
+        "sourceName": "少数派",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "Online Mine 2Web 上为 97.7，内部为 83.2，WebTail Bench 上为 68.6，全面最佳，每百万代币 2.37 美元，比 GPT5.5 90%！他们是如何训练的。他们正在使用 undis...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "少数派的近期动态新一季少数派会员启航，更新权益，更多惊喜，还有实体纪念卡。点击了解能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线。点击了解Quote/0摘录 ... 查看全文",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -30,19 +31,19 @@
       },
       {
         "rank": 2,
-        "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
-        "platform": "量子位",
+        "title": "构建低延迟多语言语音代理：使用 NVIDIA Magpie TTS 进行开放权重和全面部署控制",
+        "platform": "Hugging Face",
         "aiScore": 88,
-        "publishedAt": "2026-08-10T01:12:33+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/469076.html",
-        "sourceName": "量子位",
+        "publishedAt": "2026-08-10T16:25:36+00:00",
+        "sourceUrl": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+        "sourceName": "Hugging Face Blog",
         "industryStage": "上游",
         "contentTags": [
           "芯片算力",
-          "模型进展"
+          "Agent"
         ],
-        "summary": "从云计算到云原生，产业真正的跃迁从来不是简单堆算力，而是找到更适合新世界的架构。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "构建低延迟多语言语音代理：使用 NVIDIA Magpie TTS 进行开放权重和全面部署控制",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 28,
           "authority": 25,
@@ -53,23 +54,92 @@
       },
       {
         "rank": 3,
-        "title": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
-        "platform": "Hugging Face",
-        "aiScore": 88,
-        "publishedAt": "2026-08-10T00:00:00+00:00",
-        "sourceUrl": "https://huggingface.co/blog/muse-glimmer",
-        "sourceName": "Hugging Face Blog",
+        "title": "五大高校联手发榜！首份机器人三视角世界模型评测结果出炉，榜单持续更新中",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-08-11T00:46:23+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/469860.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "三视角世界模型谁更稳?",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "早报｜苹果20周年iPhone或因良率问题取消/小米校招AI岗位增加50%/极氪回应7X充电场站过热",
+        "platform": "爱范儿",
+        "aiScore": 82,
+        "publishedAt": "2026-08-11T00:44:25+00:00",
+        "sourceUrl": "https://www.ifanr.com/1674633",
+        "sourceName": "爱范儿",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "Agent"
+        ],
+        "summary": "· 60 个 AI 智能体协作，Claude 推进黎曼猜想相关问题 · 小米启动 2027 届全球校招，AI 岗位需求增长 50% · 智谱 API 用户接近 700 万，已启用超 5 万块国产算力芯片 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "一家实验室暂停了其未发布的网络能力模型，同一周，一名特工被发现针对真正的主要…",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-08-10T19:01:00+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vktyxf/a_lab_paused_its_own_unreleased_model_over_cyber/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "Agent",
           "开源生态"
         ],
-        "summary": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
+        "summary": "在人工智能遏制和法律方面度过了真正沉重的一周：**OpenAI 暂停了其下一个模型 Astra 的工作**，表示在其准备状态下“不能排除关键的网络功能”......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 28,
-          "authority": 25,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "一个 OpenAI 测试模型链接了 8 个零日漏洞，并自行闯入了 Hugging Face，并且副本之间互相留下了注释。线在哪里...",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-08-10T18:33:57+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkt874/an_openai_test_model_chained_8_zerodays_and_broke/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "在过去的几天里，我一直在阅读在内部评估期间闯入 Hugging Face 的 OpenAI 代理的时间表。所报道内容的简短版本：实验性……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
           "topic": 20,
           "actionability": 10,
           "heat": 5
@@ -77,168 +147,101 @@
       },
       {
         "rank": 7,
-        "title": "你们的人工智能代理最大的生产瓶颈是什么？",
+        "title": "我构建了一个确定性引擎，可以在人工智能发布之前捕获其金融数学错误——寻找人们来找出其中的漏洞",
         "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-08-10T10:45:36+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkhd2h/what_has_been_the_biggest_production_bottleneck/",
+        "aiScore": 81,
+        "publishedAt": "2026-08-10T16:57:40+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkqiik/i_built_a_deterministic_engine_that_catches_ais/",
         "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "应用落地",
-          "自动化"
-        ],
-        "summary": "构建一个在受控演示中工作的代理是一回事；另一回事是另一回事。在生产中保持其可靠性是另一回事。对于那些实际部署了人工智能代理的人来说，什么导致了最可能的问题......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "如果代理人也提供了房屋，那么加密货币实际上证明了什么？",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-08-10T10:47:56+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkheli/what_has_crypto_actually_proven_if_the_agent_also/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "（披露：我维护这个出现的开源项目。链接在最后。这个问题是独立的。）我们在建立确定性授权时遇到了信任边界问题......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "Model ML借助GPT-5.6 Sol更高效地完成财务工作",
-        "platform": "OpenAI",
-        "aiScore": 85,
-        "publishedAt": "2026-08-10T12:00:00+00:00",
-        "sourceUrl": "https://openai.com/index/model-ml",
-        "sourceName": "OpenAI News",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "模型路线趋同之后，Physical AI的胜负手变了",
-        "platform": "量子位",
-        "aiScore": 85,
-        "publishedAt": "2026-08-10T09:20:50+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/469544.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "物理AI新瓶颈已出现",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "Seedance 2.5 之后，AI 视频进入 Harness 时代",
-        "platform": "爱范儿",
-        "aiScore": 84,
-        "publishedAt": "2026-08-10T09:48:36+00:00",
-        "sourceUrl": "https://www.ifanr.com/1674604",
-        "sourceName": "爱范儿",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "快速背景：去年+我在“人工智能幻觉”领域构建了一些东西，特别是针对金融领域，在进一步深入之前我想要诚实的反馈——不是赞成票，而是实际的c……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "源 > 标准化器 > KB 管道的索引值得复杂性还是我想得太多了？",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-08-10T16:34:36+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkpvb9/source_normalizer_index_for_a_kb_pipeline_worth/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
           "内容生产"
         ],
-        "summary": "LibTV 正在成为视频模型的 Codex。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "构建一个 Go 后端来编排 AI 代理（多租户，每个代理都有自己的角色/工具/LLM）。现在我陷入了知识库应该如何运作的困境，并且我不断来回......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
-          "topic": 16,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "Rogue AI 代理入侵健身房，让用户在热门课程中占据一席之地",
-        "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-08-10T13:54:55+00:00",
-        "sourceUrl": "https://www.the-independent.com/tech/security/ai-agent-hacks-gym-openclaw-anthropic-b3030267.html",
-        "sourceName": "Hacker News AI",
+        "title": "我应该在企业人工智能代理平台中寻找什么？",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-08-10T21:38:38+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vky7wd/what_should_i_look_for_in_an_enterprise_ai_agent/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "安全治理"
+          "Agent"
         ],
-        "summary": "文章网址：https://www.the-independent.com/tech/security/ai-agent-hacks-gym-openclaw-anthropic-b3030267.html 评论网址：https://news.ycombinator.com/item?id=49243709 积分：1 # 评论…",
+        "summary": "我们正在比较大型联络中心的几个选项，主要目标是自动化重复的工作，以便团队可以专注于更重要的工作。我最关心的是它是否能够处理...",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 10,
           "actionability": 10,
-          "heat": 1
+          "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "随着 Meta 回归开放模型，马克·扎克伯格攻击“封闭”的人工智能竞争对手",
+        "title": "VectorGrid Core – 用于 AI 数据中心的裸机 C++ 网格编排",
         "platform": "Hacker News",
-        "aiScore": 81,
-        "publishedAt": "2026-08-10T14:06:22+00:00",
-        "sourceUrl": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+        "aiScore": 75,
+        "publishedAt": "2026-08-10T23:29:57+00:00",
+        "sourceUrl": "https://github.com/MaximiH-86/GridPulse_Production_Server",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "内容生产"
+          "开源生态",
+          "应用落地"
         ],
-        "summary": "文章网址：https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878 评论网址：https://news.ycombinator.com/item?id=49243880 积分：1 # 评论：1",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://github.com/MaximiH-86/GridPulse_Production_Server 评论网址：https://news.ycombinator.com/item?id=49251282 积分：1 # 评论：0",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 16,
-          "actionability": 10,
-          "heat": 2
+          "topic": 17,
+          "actionability": 4,
+          "heat": 1
         }
       }
     ],
     "metrics": {
-      "totalItems": 46,
-      "avgScore": 71.9,
+      "totalItems": 31,
+      "avgScore": 71.0,
       "topScore": 88,
       "topPlatforms": [
         {
@@ -247,70 +250,368 @@
         },
         {
           "name": "Reddit",
-          "count": 13
-        },
-        {
-          "name": "量子位",
-          "count": 8
+          "count": 9
         },
         {
           "name": "爱范儿",
-          "count": 4
+          "count": 2
         },
         {
-          "name": "OpenAI",
-          "count": 2
+          "name": "量子位",
+          "count": 1
+        },
+        {
+          "name": "少数派",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 22
+          "count": 17
         },
         {
           "name": "Agent",
-          "count": 11
+          "count": 9
         },
         {
           "name": "模型进展",
-          "count": 10
+          "count": 7
         },
         {
           "name": "开源生态",
-          "count": 3
-        },
-        {
-          "name": "应用落地",
-          "count": 3
+          "count": 5
         },
         {
           "name": "芯片算力",
-          "count": 3
+          "count": 2
         },
         {
           "name": "内容生产",
           "count": 2
         },
         {
-          "name": "安全治理",
+          "name": "应用落地",
           "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 46 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 31 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%（88 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "最高分事件：派早报：Meta 发布开源本地 AI 智能体大模型 Muse Glimmer、阿里千问开放平台上线等（88 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-08-11",
+      "label": "8月11日",
+      "top10": [
+        {
+          "rank": 1,
+          "title": "派早报：Meta 发布开源本地 AI 智能体大模型 Muse Glimmer、阿里千问开放平台上线等",
+          "platform": "少数派",
+          "aiScore": 88,
+          "publishedAt": "2026-08-11T00:09:35+00:00",
+          "sourceUrl": "https://sspai.com/post/113301",
+          "sourceName": "少数派",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "少数派的近期动态新一季少数派会员启航，更新权益，更多惊喜，还有实体纪念卡。点击了解能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线。点击了解Quote/0摘录 ... 查看全文",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "构建低延迟多语言语音代理：使用 NVIDIA Magpie TTS 进行开放权重和全面部署控制",
+          "platform": "Hugging Face",
+          "aiScore": 88,
+          "publishedAt": "2026-08-10T16:25:36+00:00",
+          "sourceUrl": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+          "sourceName": "Hugging Face Blog",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "Agent"
+          ],
+          "summary": "构建低延迟多语言语音代理：使用 NVIDIA Magpie TTS 进行开放权重和全面部署控制",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "五大高校联手发榜！首份机器人三视角世界模型评测结果出炉，榜单持续更新中",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-08-11T00:46:23+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/469860.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "三视角世界模型谁更稳?",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "早报｜苹果20周年iPhone或因良率问题取消/小米校招AI岗位增加50%/极氪回应7X充电场站过热",
+          "platform": "爱范儿",
+          "aiScore": 82,
+          "publishedAt": "2026-08-11T00:44:25+00:00",
+          "sourceUrl": "https://www.ifanr.com/1674633",
+          "sourceName": "爱范儿",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "Agent"
+          ],
+          "summary": "· 60 个 AI 智能体协作，Claude 推进黎曼猜想相关问题 · 小米启动 2027 届全球校招，AI 岗位需求增长 50% · 智谱 API 用户接近 700 万，已启用超 5 万块国产算力芯片 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "一家实验室暂停了其未发布的网络能力模型，同一周，一名特工被发现针对真正的主要…",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-08-10T19:01:00+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vktyxf/a_lab_paused_its_own_unreleased_model_over_cyber/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "在人工智能遏制和法律方面度过了真正沉重的一周：**OpenAI 暂停了其下一个模型 Astra 的工作**，表示在其准备状态下“不能排除关键的网络功能”......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "一个 OpenAI 测试模型链接了 8 个零日漏洞，并自行闯入了 Hugging Face，并且副本之间互相留下了注释。线在哪里...",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-08-10T18:33:57+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkt874/an_openai_test_model_chained_8_zerodays_and_broke/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "在过去的几天里，我一直在阅读在内部评估期间闯入 Hugging Face 的 OpenAI 代理的时间表。所报道内容的简短版本：实验性……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "我构建了一个确定性引擎，可以在人工智能发布之前捕获其金融数学错误——寻找人们来找出其中的漏洞",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-08-10T16:57:40+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkqiik/i_built_a_deterministic_engine_that_catches_ais/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "快速背景：去年+我在“人工智能幻觉”领域构建了一些东西，特别是针对金融领域，在进一步深入之前我想要诚实的反馈——不是赞成票，而是实际的c……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "源 > 标准化器 > KB 管道的索引值得复杂性还是我想得太多了？",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-08-10T16:34:36+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vkpvb9/source_normalizer_index_for_a_kb_pipeline_worth/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "内容生产"
+          ],
+          "summary": "构建一个 Go 后端来编排 AI 代理（多租户，每个代理都有自己的角色/工具/LLM）。现在我陷入了知识库应该如何运作的困境，并且我不断来回......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "我应该在企业人工智能代理平台中寻找什么？",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-08-10T21:38:38+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vky7wd/what_should_i_look_for_in_an_enterprise_ai_agent/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "我们正在比较大型联络中心的几个选项，主要目标是自动化重复的工作，以便团队可以专注于更重要的工作。我最关心的是它是否能够处理...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "VectorGrid Core – 用于 AI 数据中心的裸机 C++ 网格编排",
+          "platform": "Hacker News",
+          "aiScore": 75,
+          "publishedAt": "2026-08-10T23:29:57+00:00",
+          "sourceUrl": "https://github.com/MaximiH-86/GridPulse_Production_Server",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "开源生态",
+            "应用落地"
+          ],
+          "summary": "文章网址：https://github.com/MaximiH-86/GridPulse_Production_Server 评论网址：https://news.ycombinator.com/item?id=49251282 积分：1 # 评论：0",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 4,
+            "heat": 1
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 31,
+        "avgScore": 71.0,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 9
+          },
+          {
+            "name": "爱范儿",
+            "count": 2
+          },
+          {
+            "name": "量子位",
+            "count": 1
+          },
+          {
+            "name": "少数派",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 17
+          },
+          {
+            "name": "Agent",
+            "count": 9
+          },
+          {
+            "name": "模型进展",
+            "count": 7
+          },
+          {
+            "name": "开源生态",
+            "count": 5
+          },
+          {
+            "name": "芯片算力",
+            "count": 2
+          },
+          {
+            "name": "内容生产",
+            "count": 2
+          },
+          {
+            "name": "应用落地",
+            "count": 2
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 31 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 模型进展",
+        "最高分事件：派早报：Meta 发布开源本地 AI 智能体大模型 Muse Glimmer、阿里千问开放平台上线等（88 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      ]
+    },
     {
       "date": "2026-08-10",
       "label": "8月10日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 3,
           "title": "你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%",
           "platform": "Reddit",
           "aiScore": 88,
@@ -333,7 +634,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 4,
           "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
           "platform": "量子位",
           "aiScore": 88,
@@ -356,7 +657,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 5,
           "title": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
           "platform": "Hugging Face",
           "aiScore": 88,
@@ -380,7 +681,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 9,
           "title": "你们的人工智能代理最大的生产瓶颈是什么？",
           "platform": "Reddit",
           "aiScore": 87,
@@ -404,7 +705,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 10,
           "title": "如果代理人也提供了房屋，那么加密货币实际上证明了什么？",
           "platform": "Reddit",
           "aiScore": 86,
@@ -613,7 +914,7 @@
       "label": "8月9日",
       "top10": [
         {
-          "rank": 4,
+          "rank": 6,
           "title": "Show HN：YC 创业学校，但 AI 原生",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -637,7 +938,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 7,
           "title": "每月花费不到 30 美元构建了一个小型 AI sidehustle 堆栈，现在我担心它真的有效",
           "platform": "Reddit",
           "aiScore": 88,
@@ -661,7 +962,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 8,
           "title": "Show HN：Argonix – 一个用于 SRE 和云运营的 AI 驱动平台",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -27417,7 +27718,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 3,
           "title": "腾讯要懂得花钱",
           "platform": "36氪",
           "aiScore": 93,
@@ -27441,7 +27742,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 4,
           "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -27465,7 +27766,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 5,
           "title": "克劳德 (Claude) 在 Bedrock 离家出走后，AWS 用户损失了 30000 美元",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27489,7 +27790,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 6,
           "title": "国产GPU组了个开源局，把SGLang等核心开发者都摇来了！",
           "platform": "量子位",
           "aiScore": 88,
@@ -27674,318 +27975,6 @@
         "最高分事件：氪星晚报｜千里智驾CEO辟谣离职传闻；三星在计划罢工前夕启动减产（95 分）",
         "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
-    },
-    {
-      "date": "2026-05-13",
-      "label": "5月13日",
-      "top10": [
-        {
-          "rank": 3,
-          "title": "2026 AI最佳场景渗透案例重磅揭晓",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-13T11:21:17+00:00",
-          "sourceUrl": "https://36kr.com/p/3807623172235011?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "如果用一个词来描述当下的AI产业，“落地”已有些过时，“渗透”则更为准确。 “渗透”意味着AI不再是发布会上的炫技Demo，也不再是PPT里的概念模型，而是像水电煤一样，悄无声息地融入企业运营的毛细血管和用户日常的消费决策中。 据麦肯锡《2025 AI应用现状调研》报告显示，在国内大模型的快速崛起推动下，生成式AI已广泛渗透至企业运营中，83%的企业在至少一个职能中实现了常态…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "截至4月30日累计有868款生成式人工智能服务完成备案",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-05-13T12:38:16+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3807695701663496?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "36氪获悉，据“网信中国”消息，2026年3月至4月新增72款生成式人工智能服务在国家网信办完成备案，对于通过API接口或其他方式直接调用已备案模型能力的生成式人工智能应用或功能，由地方网信办开展登记，新增49款完成登记。截至4月30日，累计有868款生成式人工智能服务完成备案，530款生成式人工智能应用或功能完成登记。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "吴泳铭：阿里AI模型与应用ARR 6月季度将破100亿元，年底超300亿元",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-05-13T11:51:15+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3807659228913156?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "投融资"
-          ],
-          "summary": "36氪获悉，5月13日，在2026财年Q4财报分析师电话会上，集团CEO吴泳铭宣布，阿里AI已跨越初期投入阶段，正式迈入商业化回报周期。吴泳铭说，6月份季度，包含百炼MaaS平台在内的AI模型与应用服务年化经常性收入（ARR）将突破100亿元，今年底将突破300亿元。企业客户对对百炼MaaS平台的模型与应用服务需求持续攀升。过去三个月，模型服务的Token消耗规模较上一季度大…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "氪星晚报｜腾讯刘炽平：腾讯没有大裁员计划；中美在韩国举行经贸磋商；马斯克称星舰第12次试飞将于下周进行",
-          "platform": "36氪",
-          "aiScore": 91,
-          "publishedAt": "2026-05-13T10:41:17+00:00",
-          "sourceUrl": "https://36kr.com/p/3807540422942214?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "内容生产",
-            "投融资"
-          ],
-          "summary": "大公司： 腾讯：Hy3 preview调用量持续居OpenRouter榜首，Agent密集发布 36氪获悉，腾讯发布2026年第一季度财报，AI全线提速。其中，混元不到三个月完成重建，Hy3 preview在上下文、Agent、Coding等能力上显著提升。OpenRouter数据显示，Hy3 preview结束限免期后，日Token用量和周Token调用量仍保持榜首；4月2…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "36氪专访 | 安克创新eufyMake负责人：众筹超4000万美金后，还在红海寻找缝隙",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-13T01:30:19+00:00",
-          "sourceUrl": "https://36kr.com/p/3806507139390984?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "作者 | 张子怡 编辑 | 袁斯来 那是一个价值5000万美元成功故事诞生的夜晚。 eufyMake的产研负责人 Cheney Xie 仍然记得狂喜带来的多巴胺。那是2025年4月29日晚上十点，eufy MakeUV打印机E1上线众筹。 首个100万美元的记录用时不过一分钟。“感觉像爆金币一样，金额哗啦啦涨上去。” 当夜无人入眠。直到凌晨四五点，组内的同学还在不停更新着众筹…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "36氪首发 | 清华系光计算芯片企业完成数千万天使轮融资，瞄准全波光计算架构",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-13T01:26:14+00:00",
-          "sourceUrl": "https://36kr.com/p/3807043342475009?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "开源生态"
-          ],
-          "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，近日，光子芯力（北京）科技有限公司（以下简称“光子芯力”）宣布完成数千万元天使轮融资，由苏州芯阳基金、驰星创投、盛景嘉成联合领投，开源创投跟投。 光子芯力成立于2024年，总部位于北京，是一家专注于光电融合计算芯片的硬科技初创公司。公司创始人杨其晟博士毕业于清华大学集成电路学院，具备光电融合交叉背景，核心团队亦主要来自清华大学，成…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "8点1氪丨宇树发布载人变形机甲，定价390万起；微信确认不会开发已读、访客功能；国内航线燃油附加费将再上调",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-13T00:11:51+00:00",
-          "sourceUrl": "https://36kr.com/p/3806970999955201?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 中央网信办：平台发布短视频必选6类标签 抖音集团短剧版权中心：2026年真人短剧的保底扶持预算超15亿元 快手：正在评估拟议重组可灵AI之相关资产及业务的方案，拟议方案仍处于初步阶段 网易云音乐全面接入DeepSeek-V4 阿里发布AI店小蜜，平均询单转化提升超10% TOP3大新闻 宇树科技发布GD01载人变形机甲，投资人回应 5月12日，宇树发布GD01载…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "构建了一个工具，可以阻止人工智能代理被网页和电子邮件中的恶意内容劫持",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-05-13T14:22:15+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tc1570/built_a_tool_that_stops_ai_agents_from_being/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "应用落地",
-            "内容生产"
-          ],
-          "summary": "如果您听说过提示注入（即网页中的隐藏指令可以接管人工智能代理），那么对于在生产中部署代理的开发人员来说，这是一个实用的解决方案。弧形门…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "AgentKanban for VS Code - 具有 AI 代理工具集成的任务板。通过实时协作创建和计划任务，然后移交...",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-05-13T11:24:22+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tbwq7l/agentkanban_for_vs_code_a_task_board_with_ai/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "应用落地"
-          ],
-          "summary": "大家好。我想介绍一个我已经研究了一段时间的工具/产品。它是一个 Web 应用程序和 VS Code 扩展，可与 Github CoPilot 一起使用（我计划开发......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "林俊旸创业，新公司估值约20亿美金丨智能涌现独家",
-          "platform": "36氪",
-          "aiScore": 87,
-          "publishedAt": "2026-05-13T07:24:16+00:00",
-          "sourceUrl": "https://36kr.com/p/3807382930251523?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "开源生态",
-            "应用落地"
-          ],
-          "summary": "文｜周鑫雨 邓咏仪 编辑｜杨轩 林俊旸以创业者的身份，重新加入AI模型的战场。 《智能涌现》独家获悉，前阿里千问大模型技术负责人林俊旸近期已经开启创业，考虑方向包括世界模型和具身大脑。 目前， 林俊旸已经招募数名字节、腾讯和海外背景的成员，并以约20亿美金的估值开启融资，接触基金包括红杉中国、高榕创投等 。 截至发稿前，有关上述信息，林俊旸尚未回复。 时间距离3月初的那场“闪…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 73,
-        "avgScore": 74.6,
-        "topScore": 95,
-        "topPlatforms": [
-          {
-            "name": "Reddit",
-            "count": 22
-          },
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "The Verge",
-            "count": 10
-          },
-          {
-            "name": "量子位",
-            "count": 10
-          },
-          {
-            "name": "36氪",
-            "count": 10
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "AI动态",
-            "count": 30
-          },
-          {
-            "name": "模型进展",
-            "count": 22
-          },
-          {
-            "name": "开源生态",
-            "count": 14
-          },
-          {
-            "name": "Agent",
-            "count": 13
-          },
-          {
-            "name": "应用落地",
-            "count": 13
-          },
-          {
-            "name": "安全治理",
-            "count": 6
-          },
-          {
-            "name": "芯片算力",
-            "count": 6
-          },
-          {
-            "name": "投融资",
-            "count": 4
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 73 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / 开源生态",
-        "最高分事件：2026 AI最佳场景渗透案例重磅揭晓（95 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
     }
   ],
   "currentWeek": {
@@ -27996,9 +27985,9 @@
       "end": "2026-08-14"
     },
     "metrics": {
-      "daysCovered": 3,
-      "totalItems": 111,
-      "avgTop10Score": 87.2,
+      "daysCovered": 4,
+      "totalItems": 142,
+      "avgTop10Score": 87.7,
       "topScore": 88,
       "topPlatforms": [
         {
@@ -28006,42 +27995,42 @@
           "count": 4
         },
         {
+          "name": "Hugging Face",
+          "count": 2
+        },
+        {
           "name": "Hacker News",
           "count": 2
         },
         {
+          "name": "少数派",
+          "count": 1
+        },
+        {
           "name": "量子位",
-          "count": 1
-        },
-        {
-          "name": "Hugging Face",
-          "count": 1
-        },
-        {
-          "name": "The Verge",
           "count": 1
         }
       ],
       "topTopics": [
         {
-          "name": "模型进展",
-          "count": 8
+          "name": "Agent",
+          "count": 9
         },
         {
-          "name": "Agent",
+          "name": "模型进展",
           "count": 7
         },
         {
           "name": "开源生态",
-          "count": 4
+          "count": 5
+        },
+        {
+          "name": "芯片算力",
+          "count": 2
         },
         {
           "name": "应用落地",
           "count": 2
-        },
-        {
-          "name": "芯片算力",
-          "count": 1
         },
         {
           "name": "自动化",
@@ -28052,6 +28041,53 @@
     "topEvents": [
       {
         "rank": 1,
+        "title": "派早报：Meta 发布开源本地 AI 智能体大模型 Muse Glimmer、阿里千问开放平台上线等",
+        "platform": "少数派",
+        "aiScore": 88,
+        "publishedAt": "2026-08-11T00:09:35+00:00",
+        "sourceUrl": "https://sspai.com/post/113301",
+        "sourceName": "少数派",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "少数派的近期动态新一季少数派会员启航，更新权益，更多惊喜，还有实体纪念卡。点击了解能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线。点击了解Quote/0摘录 ... 查看全文",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "构建低延迟多语言语音代理：使用 NVIDIA Magpie TTS 进行开放权重和全面部署控制",
+        "platform": "Hugging Face",
+        "aiScore": 88,
+        "publishedAt": "2026-08-10T16:25:36+00:00",
+        "sourceUrl": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+        "sourceName": "Hugging Face Blog",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "Agent"
+        ],
+        "summary": "构建低延迟多语言语音代理：使用 NVIDIA Magpie TTS 进行开放权重和全面部署控制",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
         "title": "你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%",
         "platform": "Reddit",
         "aiScore": 88,
@@ -28074,7 +28110,7 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 4,
         "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
         "platform": "量子位",
         "aiScore": 88,
@@ -28097,7 +28133,7 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 5,
         "title": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
         "platform": "Hugging Face",
         "aiScore": 88,
@@ -28121,7 +28157,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 6,
         "title": "Show HN：YC 创业学校，但 AI 原生",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -28145,7 +28181,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 7,
         "title": "每月花费不到 30 美元构建了一个小型 AI sidehustle 堆栈，现在我担心它真的有效",
         "platform": "Reddit",
         "aiScore": 88,
@@ -28169,7 +28205,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 8,
         "title": "Show HN：Argonix – 一个用于 SRE 和云运营的 AI 驱动平台",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -28193,7 +28229,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 9,
         "title": "你们的人工智能代理最大的生产瓶颈是什么？",
         "platform": "Reddit",
         "aiScore": 87,
@@ -28217,7 +28253,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 10,
         "title": "如果代理人也提供了房屋，那么加密货币实际上证明了什么？",
         "platform": "Reddit",
         "aiScore": 86,
@@ -28238,58 +28274,13 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 9,
-        "title": "OpenAI 对新模型踩刹车，因为它被认为太强大了",
-        "platform": "The Verge",
-        "aiScore": 86,
-        "publishedAt": "2026-08-07T18:40:34+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "OpenAI 表示，它正在暂停围绕正在开发的人工智能模型 Astra 的“内部活动”，因为它尚未满足该公司正在制定的新安全标准。公告员…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "Model ML借助GPT-5.6 Sol更高效地完成财务工作",
-        "platform": "OpenAI",
-        "aiScore": 85,
-        "publishedAt": "2026-08-10T12:00:00+00:00",
-        "sourceUrl": "https://openai.com/index/model-ml",
-        "sourceName": "OpenAI News",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "8月第2周累计收录 111 条资讯，覆盖 3 天。",
-      "高频主题：模型进展 / Agent / 开源生态",
-      "本周最高分：你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%（88 分）",
-      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "8月第2周累计收录 142 条资讯，覆盖 4 天。",
+      "高频主题：Agent / 模型进展 / 开源生态",
+      "本周最高分：派早报：Meta 发布开源本地 AI 智能体大模型 Muse Glimmer、阿里千问开放平台上线等（88 分）",
+      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "weeklyHistory": [
@@ -28301,9 +28292,9 @@
         "end": "2026-08-14"
       },
       "metrics": {
-        "daysCovered": 3,
-        "totalItems": 111,
-        "avgTop10Score": 87.2,
+        "daysCovered": 4,
+        "totalItems": 142,
+        "avgTop10Score": 87.7,
         "topScore": 88,
         "topPlatforms": [
           {
@@ -28311,42 +28302,42 @@
             "count": 4
           },
           {
+            "name": "Hugging Face",
+            "count": 2
+          },
+          {
             "name": "Hacker News",
             "count": 2
           },
           {
+            "name": "少数派",
+            "count": 1
+          },
+          {
             "name": "量子位",
-            "count": 1
-          },
-          {
-            "name": "Hugging Face",
-            "count": 1
-          },
-          {
-            "name": "The Verge",
             "count": 1
           }
         ],
         "topTopics": [
           {
-            "name": "模型进展",
-            "count": 8
+            "name": "Agent",
+            "count": 9
           },
           {
-            "name": "Agent",
+            "name": "模型进展",
             "count": 7
           },
           {
             "name": "开源生态",
-            "count": 4
+            "count": 5
+          },
+          {
+            "name": "芯片算力",
+            "count": 2
           },
           {
             "name": "应用落地",
             "count": 2
-          },
-          {
-            "name": "芯片算力",
-            "count": 1
           },
           {
             "name": "自动化",
@@ -28357,6 +28348,53 @@
       "topEvents": [
         {
           "rank": 1,
+          "title": "派早报：Meta 发布开源本地 AI 智能体大模型 Muse Glimmer、阿里千问开放平台上线等",
+          "platform": "少数派",
+          "aiScore": 88,
+          "publishedAt": "2026-08-11T00:09:35+00:00",
+          "sourceUrl": "https://sspai.com/post/113301",
+          "sourceName": "少数派",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "少数派的近期动态新一季少数派会员启航，更新权益，更多惊喜，还有实体纪念卡。点击了解能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线。点击了解Quote/0摘录 ... 查看全文",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "构建低延迟多语言语音代理：使用 NVIDIA Magpie TTS 进行开放权重和全面部署控制",
+          "platform": "Hugging Face",
+          "aiScore": 88,
+          "publishedAt": "2026-08-10T16:25:36+00:00",
+          "sourceUrl": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+          "sourceName": "Hugging Face Blog",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "Agent"
+          ],
+          "summary": "构建低延迟多语言语音代理：使用 NVIDIA Magpie TTS 进行开放权重和全面部署控制",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
           "title": "你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28379,7 +28417,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 4,
           "title": "3B模型碾压英伟达谷歌后，Om AI端侧原生VLX模型：小参数实现物理世界精准感知",
           "platform": "量子位",
           "aiScore": 88,
@@ -28402,7 +28440,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 5,
           "title": "Meta 带着 Muse Glimmer 回归：本地、代理、多模式和开源",
           "platform": "Hugging Face",
           "aiScore": 88,
@@ -28426,7 +28464,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 6,
           "title": "Show HN：YC 创业学校，但 AI 原生",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -28450,7 +28488,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 7,
           "title": "每月花费不到 30 美元构建了一个小型 AI sidehustle 堆栈，现在我担心它真的有效",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28474,7 +28512,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 8,
           "title": "Show HN：Argonix – 一个用于 SRE 和云运营的 AI 驱动平台",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -28498,7 +28536,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 9,
           "title": "你们的人工智能代理最大的生产瓶颈是什么？",
           "platform": "Reddit",
           "aiScore": 87,
@@ -28522,7 +28560,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 10,
           "title": "如果代理人也提供了房屋，那么加密货币实际上证明了什么？",
           "platform": "Reddit",
           "aiScore": 86,
@@ -28543,58 +28581,13 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 9,
-          "title": "OpenAI 对新模型踩刹车，因为它被认为太强大了",
-          "platform": "The Verge",
-          "aiScore": 86,
-          "publishedAt": "2026-08-07T18:40:34+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "OpenAI 表示，它正在暂停围绕正在开发的人工智能模型 Astra 的“内部活动”，因为它尚未满足该公司正在制定的新安全标准。公告员…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "Model ML借助GPT-5.6 Sol更高效地完成财务工作",
-          "platform": "OpenAI",
-          "aiScore": 85,
-          "publishedAt": "2026-08-10T12:00:00+00:00",
-          "sourceUrl": "https://openai.com/index/model-ml",
-          "sourceName": "OpenAI News",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "8月第2周累计收录 111 条资讯，覆盖 3 天。",
-        "高频主题：模型进展 / Agent / 开源生态",
-        "本周最高分：你检查过Hark Handoff 吗？它在 EYL 上的得分高于 GPT 5.5 OPUS 4.8，且成本降低了 90%（88 分）",
-        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "8月第2周累计收录 142 条资讯，覆盖 4 天。",
+        "高频主题：Agent / 模型进展 / 开源生态",
+        "本周最高分：派早报：Meta 发布开源本地 AI 智能体大模型 Muse Glimmer、阿里千问开放平台上线等（88 分）",
+        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
@@ -32731,14 +32724,18 @@
         "end": "2026-05-14"
       },
       "metrics": {
-        "daysCovered": 2,
-        "totalItems": 137,
-        "avgTop10Score": 92.1,
+        "daysCovered": 1,
+        "totalItems": 64,
+        "avgTop10Score": 89.7,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 7
+            "count": 6
+          },
+          {
+            "name": "量子位",
+            "count": 2
           },
           {
             "name": "Hacker News",
@@ -32747,20 +32744,16 @@
           {
             "name": "Reddit",
             "count": 1
-          },
-          {
-            "name": "量子位",
-            "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 7
+            "count": 8
           },
           {
             "name": "芯片算力",
-            "count": 5
+            "count": 6
           },
           {
             "name": "Agent",
@@ -32776,7 +32769,7 @@
           },
           {
             "name": "投融资",
-            "count": 3
+            "count": 2
           }
         ]
       },
@@ -32831,77 +32824,6 @@
         },
         {
           "rank": 3,
-          "title": "2026 AI最佳场景渗透案例重磅揭晓",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-13T11:21:17+00:00",
-          "sourceUrl": "https://36kr.com/p/3807623172235011?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "如果用一个词来描述当下的AI产业，“落地”已有些过时，“渗透”则更为准确。 “渗透”意味着AI不再是发布会上的炫技Demo，也不再是PPT里的概念模型，而是像水电煤一样，悄无声息地融入企业运营的毛细血管和用户日常的消费决策中。 据麦肯锡《2025 AI应用现状调研》报告显示，在国内大模型的快速崛起推动下，生成式AI已广泛渗透至企业运营中，83%的企业在至少一个职能中实现了常态…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "截至4月30日累计有868款生成式人工智能服务完成备案",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-05-13T12:38:16+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3807695701663496?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "36氪获悉，据“网信中国”消息，2026年3月至4月新增72款生成式人工智能服务在国家网信办完成备案，对于通过API接口或其他方式直接调用已备案模型能力的生成式人工智能应用或功能，由地方网信办开展登记，新增49款完成登记。截至4月30日，累计有868款生成式人工智能服务完成备案，530款生成式人工智能应用或功能完成登记。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "吴泳铭：阿里AI模型与应用ARR 6月季度将破100亿元，年底超300亿元",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-05-13T11:51:15+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3807659228913156?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "投融资"
-          ],
-          "summary": "36氪获悉，5月13日，在2026财年Q4财报分析师电话会上，集团CEO吴泳铭宣布，阿里AI已跨越初期投入阶段，正式迈入商业化回报周期。吴泳铭说，6月份季度，包含百炼MaaS平台在内的AI模型与应用服务年化经常性收入（ARR）将突破100亿元，今年底将突破300亿元。企业客户对对百炼MaaS平台的模型与应用服务需求持续攀升。过去三个月，模型服务的Token消耗规模较上一季度大…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
           "title": "腾讯要懂得花钱",
           "platform": "36氪",
           "aiScore": 93,
@@ -32925,31 +32847,7 @@
           }
         },
         {
-          "rank": 7,
-          "title": "氪星晚报｜腾讯刘炽平：腾讯没有大裁员计划；中美在韩国举行经贸磋商；马斯克称星舰第12次试飞将于下周进行",
-          "platform": "36氪",
-          "aiScore": 91,
-          "publishedAt": "2026-05-13T10:41:17+00:00",
-          "sourceUrl": "https://36kr.com/p/3807540422942214?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "内容生产",
-            "投融资"
-          ],
-          "summary": "大公司： 腾讯：Hy3 preview调用量持续居OpenRouter榜首，Agent密集发布 36氪获悉，腾讯发布2026年第一季度财报，AI全线提速。其中，混元不到三个月完成重建，Hy3 preview在上下文、Agent、Coding等能力上显著提升。OpenRouter数据显示，Hy3 preview结束限免期后，日Token用量和周Token调用量仍保持榜首；4月2…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
+          "rank": 4,
           "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -32973,7 +32871,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 5,
           "title": "克劳德 (Claude) 在 Bedrock 离家出走后，AWS 用户损失了 30000 美元",
           "platform": "Reddit",
           "aiScore": 88,
@@ -32997,7 +32895,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 6,
           "title": "国产GPU组了个开源局，把SGLang等核心开发者都摇来了！",
           "platform": "量子位",
           "aiScore": 88,
@@ -33018,10 +32916,105 @@
             "actionability": 4,
             "heat": 5
           }
+        },
+        {
+          "rank": 7,
+          "title": "36氪首发 | 九号领投一家AI智能影像设备公司，在巨头夹缝中年增长近4倍",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-05-14T01:30:37+00:00",
+          "sourceUrl": "https://36kr.com/p/3807831328300549?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "作者 | 张子怡 编辑 | 袁斯来 硬氪获悉，智能体育影像品牌「XbotGo」（深眸远智）于近期完成近亿元的新一轮融资。由九号资本领投，元禾控股、不同资本跟投，老股东零一创投超额跟投，云岫资本担任长期独家财务顾问。 在青少年体育运动文化发达的美国，体育不仅仅是竞技，更是家庭生活的核心。相关数据显示，美国有超过3000万青少年参与专业体育训练，美国家庭每周花在孩子体育活动上的时…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "8点1氪丨林俊旸新公司估值20亿美金；贾跃亭宣布转战机器人业务；网红糖果被发现掺超高剂量伟哥",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-05-13T23:50:37+00:00",
+          "sourceUrl": "https://36kr.com/p/3808362853834502?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "今日热点导览 腾讯刘炽平：腾讯没有大裁员计划 韩国政府称将支持三星与工会对话解决纠纷，以避免罢工 中美经贸磋商在韩国开始举行 宇树科技已注册多款机器人商标 TikTok在印尼、美国、日本三国官宣生活服务品牌TikTok GO TOP 3 大新闻 林俊旸创业，新公司估值约20亿美金 36氪独家获悉，前阿里千问大模型技术负责人林俊旸近期已经开启创业，考虑方向包括世界模型和具身大脑…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "阿里 AI 应用新进展：悟空开始逐步规模化放量",
+          "platform": "量子位",
+          "aiScore": 87,
+          "publishedAt": "2026-05-14T08:26:45+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/05/417748.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "阿里 AI 在模型、云基础设施和应用各层实现加速突破",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "03年创始人造火箭，40万做出原型发动机，选了一条没人走过的路｜产业专访",
+          "platform": "36氪",
+          "aiScore": 87,
+          "publishedAt": "2026-05-14T06:42:23+00:00",
+          "sourceUrl": "https://36kr.com/p/3808769298767369?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "应用落地",
+            "投融资"
+          ],
+          "summary": "文 | 阿至 执宇航天创始人张子瀚看起来不像一个还在读大学的本科生。 他说话语速略快，不苟言笑，气质有些老练，习惯用三段式推演的方式来回答问题：先给结论，再拆解前提和路线，最后补充例外或风险。 用张子瀚自己的话说，他是一个 “几乎百分百理性的人，没有任何感性因素去参与我的任何决策”。 这种气质和航天领域有着天然的契合，极度理性、高度自省、目标驱动。但作为闯入这个赛道的异类创业…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "5月第2周累计收录 137 条资讯，覆盖 2 天。",
+        "5月第2周累计收录 64 条资讯，覆盖 1 天。",
         "高频主题：模型进展 / 芯片算力 / Agent",
         "本周最高分：氪星晚报｜千里智驾CEO辟谣离职传闻；三星在计划罢工前夕启动减产（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
