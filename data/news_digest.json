@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T03:22:48.135406+00:00",
+  "generatedAt": "2026-08-12T14:19:09.777441+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-08-12",
@@ -7,18 +7,19 @@
     "top10": [
       {
         "rank": 1,
-        "title": "外包我的思维和认知债务让我焦虑",
+        "title": "OpenAI Presence 围绕企业 AI 代理打包策略、评估和人工升级",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-08-11T22:58:45+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlwvpk/outsourced_my_thinking_and_cognitive_debt_gives/",
+        "publishedAt": "2026-08-12T09:33:43+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vm9bwk/openai_presence_packages_policies_evaluations_and/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "我是一名开发人员。在我的公司，我是法学硕士的早期适应者，碰巧我成为了我们部门的“AI 人”。我被指派领导一个项目，一个相当复杂的系统。很多……",
+        "summary": "OpenAI 推出了 Presence，这是一款企业产品，用于在计费支持、保险索赔和员工 IT 请求等工作流程中部署语音和聊天代理。值得注意的是…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -30,112 +31,108 @@
       },
       {
         "rank": 2,
-        "title": "上下文引起的激活漂移：长良性上下文被动地解耦 RLHF 对齐，无需对抗性提示（机制解释……",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-08-12T02:09:00+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vm16hs/contextinduced_activation_drift_long_benign/",
-        "sourceName": "Reddit r/MachineLearning",
+        "title": "国产具身智能创全球新纪录！以30%成本跑赢 Figure AI 45%效率，聪明的具身大脑成关键",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-08-12T13:10:55+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/471049.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "安全治理"
+          "模型进展"
         ],
-        "summary": "TL;DR：我们观察到，将一个长的、良性的、主题连贯的上下文前缀（$L \\in [100, 3000]$ 标记）输入 google/gemma-3-1b，会导致内部活动发生巨大的被动转变……",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "summary": "具身模型一小时狂拣1816件异形包裹",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 18,
+          "authority": 25,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 3,
-        "title": "Crew，供人类和人工智能代理一起工作的多人工作空间",
-        "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-08-12T03:00:03+00:00",
-        "sourceUrl": "https://github.com/JamelHammoud/crew",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "文章网址：https://github.com/JamelHammoud/crew 评论网址：https://news.ycombinator.com/item?id=49267362 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 4,
-        "title": "Numbat by Perplexity：AI 代理活动的端点可见性",
-        "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-08-12T02:00:26+00:00",
-        "sourceUrl": "https://github.com/perplexityai/numbat",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "文章网址：https://github.com/perplexityai/numbat 评论网址：https://news.ycombinator.com/item?id=49267022 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 5,
-        "title": "HyperSAE：稀疏自动编码器的解耦庞加莱几何 - Gemma-2-2B 上的 MSE 降低 9.8%，死潜伏期降低 0.2% [P]",
+        "title": "无需代码即可构建的 10 个人工智能自动化创意：实际上节省了我时间的 3 个创意",
         "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-08-11T18:37:18+00:00",
-        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vlpyh2/hypersae_decoupled_poincaré_geometry_for_sparse/",
-        "sourceName": "Reddit r/MachineLearning",
+        "aiScore": 85,
+        "publishedAt": "2026-08-12T12:20:23+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vmck3c/10_ai_automation_ideas_you_can_build_today_with/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
           "模型进展",
-          "开源生态"
+          "自动化"
         ],
-        "summary": "我构建了 HyperSAE，这是一个 PyTorch 库，它将庞加莱双曲几何应用于稀疏自动编码器以实现机械可解释性。 GitHub：https://github.com/vishal-dehurdle/hypersae Pa…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "每个人都会发布“10 个人工智能自动化”列表，但其中大多数都是假的。以下是我实际运行的列表中的 3 个，全部无代码，全部免费： 1. **电子邮件分类机器人**：读取您收件箱的 Webhook...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 17,
           "actionability": 10,
           "heat": 5
         }
       },
       {
+        "rank": 4,
+        "title": "Grok 现在是人工智能“队友”，你可以分配工作",
+        "platform": "The Verge",
+        "aiScore": 85,
+        "publishedAt": "2026-08-12T11:58:54+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "SpaceXAI 推出了 Grok Bot，这是一种始终在线的 AI 代理服务，旨在像独立的“AI 队友”一样为您完成工作。这些机器人共享自己的基于云的计算……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "iFixAi，开源审计程序，检查您的 AI 代理是否完成其工作",
+        "platform": "Hacker News",
+        "aiScore": 82,
+        "publishedAt": "2026-08-12T13:50:34+00:00",
+        "sourceUrl": "https://github.com/ifixai-ai/iFixAi",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/ifixai-ai/iFixAi 评论网址：https://news.ycombinator.com/item?id=49272410 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
         "rank": 6,
-        "title": "人工智能高速公路与“快速行动、打破常规”的消亡",
+        "title": "外包我的思维和认知债务让我焦虑",
         "platform": "Reddit",
         "aiScore": 81,
-        "publishedAt": "2026-08-11T16:19:51+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlm3di/ai_highways_and_the_death_of_move_fast_and_break/",
+        "publishedAt": "2026-08-11T22:58:45+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlwvpk/outsourced_my_thinking_and_cognitive_debt_gives/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
-          "安全治理"
+          "Agent"
         ],
-        "summary": "如果你错过了：据称，一群未发布的人工智能代理组建了自己的聊天论坛，互相施加压力，并突破沙箱，在编程任务上作弊。我们挖掘…",
+        "summary": "我是一名开发人员。在我的公司，我是法学硕士的早期适应者，碰巧我成为了我们部门的“AI 人”。我被指派领导一个项目，一个相当复杂的系统。很多……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 28,
@@ -170,136 +167,136 @@
       },
       {
         "rank": 8,
-        "title": "NVIDIA 正在构建下一代 Nemotron 4 系列，以便与领先的中国开放型号直接竞争，并锁定开放重量桂冠……",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-08-11T16:11:15+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlluom/nvidia_is_building_its_nextgen_nemotron_4_family/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "title": "紫东太初推出GMC核心集剪枝方法，少80%Token仍满血保真多模态能力",
+        "platform": "量子位",
+        "aiScore": 79,
+        "publishedAt": "2026-08-12T10:54:29+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/471030.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "开源生态"
+          "模型进展"
         ],
-        "summary": "由 /u/Left-Hotel904 提交 [链接] [评论]",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "免训练、开箱即用！",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "开源工具，使用双曲几何将法学硕士学到的概念映射到可浏览的树结构中",
+        "title": "寻找抵押贷款预测分析的真实示例 [D]",
         "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-08-11T18:56:54+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlqi6s/opensource_tool_that_maps_what_concepts_an_llm/",
-        "sourceName": "Reddit r/artificial",
+        "aiScore": 78,
+        "publishedAt": "2026-08-12T14:10:08+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vmf7xu/looking_for_realworld_examples_of_predictive/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "开源生态"
+          "模型进展"
         ],
-        "summary": "我构建了 HyperSAE，这是一个开源可解释性工具，可以提取法学硕士“知道”的内容并将其组织成树形概念图。想法：法学硕士分层学习概念。 “程序…",
+        "summary": "我正在研究一个研究生项目的预测分析，抵押贷款是一个有趣的用例。我理解贷方试图预测谁可能会再融资，但什么样的……",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "你会相信一个了解你一生的人工智能助手吗？",
-        "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-08-11T16:17:18+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlm0sp/would_you_trust_an_ai_assistant_that_knows_your/",
-        "sourceName": "Reddit r/artificial",
+        "title": "未来属于亿万富翁——我们其他人也许会获得开放式重量人工智能",
+        "platform": "Hacker News",
+        "aiScore": 78,
+        "publishedAt": "2026-08-12T13:05:52+00:00",
+        "sourceUrl": "https://www.theregister.com/ai-and-ml/2026/08/10/the-future-is-for-billionaires-the-rest-of-us-will-get-open-weight-ai-models-maybe/5285690",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "安全治理"
+          "模型进展"
         ],
-        "summary": "我使用 ChatGPT 一段时间了，最​​近我开始思考人工智能助手的下一步会是什么样子。 ChatGPT 已经非常有用了。它可以帮助我写...",
+        "summary": "文章网址：https://www.theregister.com/ai-and-ml/2026/08/10/the-future-is-for-billionaires-the-rest-of-us-will-get-open-weight-ai-models-maybe/5285690 评论网址：https://news.ycombinat...",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 37,
-      "avgScore": 72.7,
+      "totalItems": 57,
+      "avgScore": 71.4,
       "topScore": 88,
       "topPlatforms": [
+        {
+          "name": "Reddit",
+          "count": 20
+        },
         {
           "name": "Hacker News",
           "count": 15
         },
         {
-          "name": "Reddit",
-          "count": 14
+          "name": "The Verge",
+          "count": 8
         },
         {
-          "name": "The Verge",
+          "name": "量子位",
           "count": 5
         },
         {
-          "name": "少数派",
-          "count": 1
-        },
-        {
           "name": "爱范儿",
-          "count": 1
+          "count": 3
         }
       ],
       "topTopics": [
         {
-          "name": "模型进展",
-          "count": 15
+          "name": "AI动态",
+          "count": 23
         },
         {
-          "name": "AI动态",
+          "name": "模型进展",
           "count": 14
         },
         {
-          "name": "开源生态",
+          "name": "Agent",
           "count": 8
         },
         {
-          "name": "Agent",
+          "name": "芯片算力",
           "count": 6
         },
         {
-          "name": "芯片算力",
+          "name": "开源生态",
           "count": 4
         },
         {
-          "name": "安全治理",
-          "count": 3
+          "name": "投融资",
+          "count": 2
         },
         {
-          "name": "应用落地",
-          "count": 1
+          "name": "安全治理",
+          "count": 2
+        },
+        {
+          "name": "自动化",
+          "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 37 条 AI 资讯，Top10 通报见下。",
-      "高频主题：模型进展 / AI动态 / 开源生态",
-      "最高分事件：外包我的思维和认知债务让我焦虑（88 分）",
+      "今日共收录 57 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：OpenAI Presence 围绕企业 AI 代理打包策略、评估和人工升级（88 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -310,18 +307,19 @@
       "top10": [
         {
           "rank": 1,
-          "title": "外包我的思维和认知债务让我焦虑",
+          "title": "OpenAI Presence 围绕企业 AI 代理打包策略、评估和人工升级",
           "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-08-11T22:58:45+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlwvpk/outsourced_my_thinking_and_cognitive_debt_gives/",
+          "publishedAt": "2026-08-12T09:33:43+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vm9bwk/openai_presence_packages_policies_evaluations_and/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "我是一名开发人员。在我的公司，我是法学硕士的早期适应者，碰巧我成为了我们部门的“AI 人”。我被指派领导一个项目，一个相当复杂的系统。很多……",
+          "summary": "OpenAI 推出了 Presence，这是一款企业产品，用于在计费支持、保险索赔和员工 IT 请求等工作流程中部署语音和聊天代理。值得注意的是…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -333,112 +331,108 @@
         },
         {
           "rank": 2,
-          "title": "上下文引起的激活漂移：长良性上下文被动地解耦 RLHF 对齐，无需对抗性提示（机制解释……",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-08-12T02:09:00+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vm16hs/contextinduced_activation_drift_long_benign/",
-          "sourceName": "Reddit r/MachineLearning",
+          "title": "国产具身智能创全球新纪录！以30%成本跑赢 Figure AI 45%效率，聪明的具身大脑成关键",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-08-12T13:10:55+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/471049.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
-            "安全治理"
+            "模型进展"
           ],
-          "summary": "TL;DR：我们观察到，将一个长的、良性的、主题连贯的上下文前缀（$L \\in [100, 3000]$ 标记）输入 google/gemma-3-1b，会导致内部活动发生巨大的被动转变……",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "summary": "具身模型一小时狂拣1816件异形包裹",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 18,
+            "authority": 25,
+            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 3,
-          "title": "Crew，供人类和人工智能代理一起工作的多人工作空间",
-          "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-08-12T03:00:03+00:00",
-          "sourceUrl": "https://github.com/JamelHammoud/crew",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://github.com/JamelHammoud/crew 评论网址：https://news.ycombinator.com/item?id=49267362 积分：2 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 4,
-          "title": "Numbat by Perplexity：AI 代理活动的端点可见性",
-          "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-08-12T02:00:26+00:00",
-          "sourceUrl": "https://github.com/perplexityai/numbat",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://github.com/perplexityai/numbat 评论网址：https://news.ycombinator.com/item?id=49267022 积分：2 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 5,
-          "title": "HyperSAE：稀疏自动编码器的解耦庞加莱几何 - Gemma-2-2B 上的 MSE 降低 9.8%，死潜伏期降低 0.2% [P]",
+          "title": "无需代码即可构建的 10 个人工智能自动化创意：实际上节省了我时间的 3 个创意",
           "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-08-11T18:37:18+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vlpyh2/hypersae_decoupled_poincaré_geometry_for_sparse/",
-          "sourceName": "Reddit r/MachineLearning",
+          "aiScore": 85,
+          "publishedAt": "2026-08-12T12:20:23+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vmck3c/10_ai_automation_ideas_you_can_build_today_with/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "芯片算力",
             "模型进展",
-            "开源生态"
+            "自动化"
           ],
-          "summary": "我构建了 HyperSAE，这是一个 PyTorch 库，它将庞加莱双曲几何应用于稀疏自动编码器以实现机械可解释性。 GitHub：https://github.com/vishal-dehurdle/hypersae Pa…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "每个人都会发布“10 个人工智能自动化”列表，但其中大多数都是假的。以下是我实际运行的列表中的 3 个，全部无代码，全部免费： 1. **电子邮件分类机器人**：读取您收件箱的 Webhook...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
-            "topic": 20,
+            "topic": 17,
             "actionability": 10,
             "heat": 5
           }
         },
         {
+          "rank": 4,
+          "title": "Grok 现在是人工智能“队友”，你可以分配工作",
+          "platform": "The Verge",
+          "aiScore": 85,
+          "publishedAt": "2026-08-12T11:58:54+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "SpaceXAI 推出了 Grok Bot，这是一种始终在线的 AI 代理服务，旨在像独立的“AI 队友”一样为您完成工作。这些机器人共享自己的基于云的计算……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "iFixAi，开源审计程序，检查您的 AI 代理是否完成其工作",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-08-12T13:50:34+00:00",
+          "sourceUrl": "https://github.com/ifixai-ai/iFixAi",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/ifixai-ai/iFixAi 评论网址：https://news.ycombinator.com/item?id=49272410 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
           "rank": 6,
-          "title": "人工智能高速公路与“快速行动、打破常规”的消亡",
+          "title": "外包我的思维和认知债务让我焦虑",
           "platform": "Reddit",
           "aiScore": 81,
-          "publishedAt": "2026-08-11T16:19:51+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlm3di/ai_highways_and_the_death_of_move_fast_and_break/",
+          "publishedAt": "2026-08-11T22:58:45+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlwvpk/outsourced_my_thinking_and_cognitive_debt_gives/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent",
-            "安全治理"
+            "Agent"
           ],
-          "summary": "如果你错过了：据称，一群未发布的人工智能代理组建了自己的聊天论坛，互相施加压力，并突破沙箱，在编程任务上作弊。我们挖掘…",
+          "summary": "我是一名开发人员。在我的公司，我是法学硕士的早期适应者，碰巧我成为了我们部门的“AI 人”。我被指派领导一个项目，一个相当复杂的系统。很多……",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 28,
@@ -473,136 +467,136 @@
         },
         {
           "rank": 8,
-          "title": "NVIDIA 正在构建下一代 Nemotron 4 系列，以便与领先的中国开放型号直接竞争，并锁定开放重量桂冠……",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-08-11T16:11:15+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlluom/nvidia_is_building_its_nextgen_nemotron_4_family/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
+          "title": "紫东太初推出GMC核心集剪枝方法，少80%Token仍满血保真多模态能力",
+          "platform": "量子位",
+          "aiScore": 79,
+          "publishedAt": "2026-08-12T10:54:29+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/471030.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
           "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "开源生态"
+            "模型进展"
           ],
-          "summary": "由 /u/Left-Hotel904 提交 [链接] [评论]",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "免训练、开箱即用！",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 4,
             "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "开源工具，使用双曲几何将法学硕士学到的概念映射到可浏览的树结构中",
+          "title": "寻找抵押贷款预测分析的真实示例 [D]",
           "platform": "Reddit",
-          "aiScore": 79,
-          "publishedAt": "2026-08-11T18:56:54+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlqi6s/opensource_tool_that_maps_what_concepts_an_llm/",
-          "sourceName": "Reddit r/artificial",
+          "aiScore": 78,
+          "publishedAt": "2026-08-12T14:10:08+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vmf7xu/looking_for_realworld_examples_of_predictive/",
+          "sourceName": "Reddit r/MachineLearning",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
-            "开源生态"
+            "模型进展"
           ],
-          "summary": "我构建了 HyperSAE，这是一个开源可解释性工具，可以提取法学硕士“知道”的内容并将其组织成树形概念图。想法：法学硕士分层学习概念。 “程序…",
+          "summary": "我正在研究一个研究生项目的预测分析，抵押贷款是一个有趣的用例。我理解贷方试图预测谁可能会再融资，但什么样的……",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
-            "topic": 18,
+            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "你会相信一个了解你一生的人工智能助手吗？",
-          "platform": "Reddit",
-          "aiScore": 79,
-          "publishedAt": "2026-08-11T16:17:18+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlm0sp/would_you_trust_an_ai_assistant_that_knows_your/",
-          "sourceName": "Reddit r/artificial",
+          "title": "未来属于亿万富翁——我们其他人也许会获得开放式重量人工智能",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-08-12T13:05:52+00:00",
+          "sourceUrl": "https://www.theregister.com/ai-and-ml/2026/08/10/the-future-is-for-billionaires-the-rest-of-us-will-get-open-weight-ai-models-maybe/5285690",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
-            "安全治理"
+            "模型进展"
           ],
-          "summary": "我使用 ChatGPT 一段时间了，最​​近我开始思考人工智能助手的下一步会是什么样子。 ChatGPT 已经非常有用了。它可以帮助我写...",
+          "summary": "文章网址：https://www.theregister.com/ai-and-ml/2026/08/10/the-future-is-for-billionaires-the-rest-of-us-will-get-open-weight-ai-models-maybe/5285690 评论网址：https://news.ycombinat...",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
-            "topic": 18,
+            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 37,
-        "avgScore": 72.7,
+        "totalItems": 57,
+        "avgScore": 71.4,
         "topScore": 88,
         "topPlatforms": [
+          {
+            "name": "Reddit",
+            "count": 20
+          },
           {
             "name": "Hacker News",
             "count": 15
           },
           {
-            "name": "Reddit",
-            "count": 14
+            "name": "The Verge",
+            "count": 8
           },
           {
-            "name": "The Verge",
+            "name": "量子位",
             "count": 5
           },
           {
-            "name": "少数派",
-            "count": 1
-          },
-          {
             "name": "爱范儿",
-            "count": 1
+            "count": 3
           }
         ],
         "topTopics": [
           {
-            "name": "模型进展",
-            "count": 15
+            "name": "AI动态",
+            "count": 23
           },
           {
-            "name": "AI动态",
+            "name": "模型进展",
             "count": 14
           },
           {
-            "name": "开源生态",
+            "name": "Agent",
             "count": 8
           },
           {
-            "name": "Agent",
+            "name": "芯片算力",
             "count": 6
           },
           {
-            "name": "芯片算力",
+            "name": "开源生态",
             "count": 4
           },
           {
-            "name": "安全治理",
-            "count": 3
+            "name": "投融资",
+            "count": 2
           },
           {
-            "name": "应用落地",
-            "count": 1
+            "name": "安全治理",
+            "count": 2
+          },
+          {
+            "name": "自动化",
+            "count": 2
           }
         ]
       },
       "briefing": [
-        "今日共收录 37 条 AI 资讯，Top10 通报见下。",
-        "高频主题：模型进展 / AI动态 / 开源生态",
-        "最高分事件：外包我的思维和认知债务让我焦虑（88 分）",
+        "今日共收录 57 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：OpenAI Presence 围绕企业 AI 代理打包策略、评估和人工升级（88 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -27980,7 +27974,7 @@
     },
     "metrics": {
       "daysCovered": 5,
-      "totalItems": 198,
+      "totalItems": 218,
       "avgTop10Score": 88.0,
       "topScore": 88,
       "topPlatforms": [
@@ -28012,7 +28006,7 @@
         },
         {
           "name": "开源生态",
-          "count": 4
+          "count": 5
         },
         {
           "name": "芯片算力",
@@ -28031,18 +28025,19 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "外包我的思维和认知债务让我焦虑",
+        "title": "OpenAI Presence 围绕企业 AI 代理打包策略、评估和人工升级",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-08-11T22:58:45+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlwvpk/outsourced_my_thinking_and_cognitive_debt_gives/",
+        "publishedAt": "2026-08-12T09:33:43+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vm9bwk/openai_presence_packages_policies_evaluations_and/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "我是一名开发人员。在我的公司，我是法学硕士的早期适应者，碰巧我成为了我们部门的“AI 人”。我被指派领导一个项目，一个相当复杂的系统。很多……",
+        "summary": "OpenAI 推出了 Presence，这是一款企业产品，用于在计费支持、保险索赔和员工 IT 请求等工作流程中部署语音和聊天代理。值得注意的是…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -28267,9 +28262,9 @@
       }
     ],
     "briefing": [
-      "8月第2周累计收录 198 条资讯，覆盖 5 天。",
+      "8月第2周累计收录 218 条资讯，覆盖 5 天。",
       "高频主题：模型进展 / Agent / 开源生态",
-      "本周最高分：外包我的思维和认知债务让我焦虑（88 分）",
+      "本周最高分：OpenAI Presence 围绕企业 AI 代理打包策略、评估和人工升级（88 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -28283,7 +28278,7 @@
       },
       "metrics": {
         "daysCovered": 5,
-        "totalItems": 198,
+        "totalItems": 218,
         "avgTop10Score": 88.0,
         "topScore": 88,
         "topPlatforms": [
@@ -28315,7 +28310,7 @@
           },
           {
             "name": "开源生态",
-            "count": 4
+            "count": 5
           },
           {
             "name": "芯片算力",
@@ -28334,18 +28329,19 @@
       "topEvents": [
         {
           "rank": 1,
-          "title": "外包我的思维和认知债务让我焦虑",
+          "title": "OpenAI Presence 围绕企业 AI 代理打包策略、评估和人工升级",
           "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-08-11T22:58:45+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vlwvpk/outsourced_my_thinking_and_cognitive_debt_gives/",
+          "publishedAt": "2026-08-12T09:33:43+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vm9bwk/openai_presence_packages_policies_evaluations_and/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "我是一名开发人员。在我的公司，我是法学硕士的早期适应者，碰巧我成为了我们部门的“AI 人”。我被指派领导一个项目，一个相当复杂的系统。很多……",
+          "summary": "OpenAI 推出了 Presence，这是一款企业产品，用于在计费支持、保险索赔和员工 IT 请求等工作流程中部署语音和聊天代理。值得注意的是…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -28570,9 +28566,9 @@
         }
       ],
       "briefing": [
-        "8月第2周累计收录 198 条资讯，覆盖 5 天。",
+        "8月第2周累计收录 218 条资讯，覆盖 5 天。",
         "高频主题：模型进展 / Agent / 开源生态",
-        "本周最高分：外包我的思维和认知债务让我焦虑（88 分）",
+        "本周最高分：OpenAI Presence 围绕企业 AI 代理打包策略、评估和人工升级（88 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
