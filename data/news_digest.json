@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T02:12:21.375425+00:00",
+  "generatedAt": "2026-08-15T13:26:55.497745+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-08-15",
@@ -7,9 +7,32 @@
     "top10": [
       {
         "rank": 1,
+        "title": "源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude",
+        "platform": "量子位",
+        "aiScore": 88,
+        "publishedAt": "2026-08-15T06:05:31+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/473669.html",
+        "sourceName": "量子位",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "Agent"
+        ],
+        "summary": "推理能力还能自定义",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
         "title": "Anthropic 推出了前沿人工智能模型，但没有简单的开关来切换计费模式？",
         "platform": "Reddit",
-        "aiScore": 88,
+        "aiScore": 81,
         "publishedAt": "2026-08-14T21:17:03+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vojtph/anthropic_ships_frontier_ai_models_but_no_simple/",
         "sourceName": "Reddit r/artificial",
@@ -21,7 +44,7 @@
         "summary": "将 Claude Code（Anthropic 的编码代理）从 API 密钥计费切换回我的 Pro 订阅花费的时间比我应该花费的时间多得多。流程：通过 SSH 连接到服务器 → 附加 tmux 会话...",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
@@ -29,211 +52,186 @@
         }
       },
       {
-        "rank": 2,
-        "title": "人工智能生产率的提高推动全球能源经济模型中二氧化碳净增加",
+        "rank": 3,
+        "title": "阿里巴巴AI模型下载量突破3B，超越Meta、Google",
         "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-08-15T01:42:40+00:00",
-        "sourceUrl": "https://www.nature.com/articles/s44168-026-00411-0",
+        "aiScore": 78,
+        "publishedAt": "2026-08-15T09:46:39+00:00",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "应用落地"
+          "模型进展"
         ],
-        "summary": "文章网址：https://www.nature.com/articles/s44168-026-00411-0 评论网址：https://news.ycombinator.com/item?id=49306800 积分：2 # 评论：0",
+        "summary": "文章网址：https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google 评论网址：https://news.ycombinator.com/item?id=49309183 Poi…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 3,
-        "title": "出售我的生产就绪型 4 合 1 FastAPI AI 自动化套件（8000 美元）",
-        "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-08-14T23:10:06+00:00",
-        "sourceUrl": "https://www.indiehackers.com/post/selling-my-production-ready-4-in-1-fastapi-ai-automation-suite-8-000-xUGCgKAjlrU9gcOIdp2Z",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "应用落地",
-          "自动化"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 16,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "Flownie – 具有人工智能代理协助的开放式可视化数据工作流程平台",
-        "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-08-14T23:38:09+00:00",
-        "sourceUrl": "https://flownie.com/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "下游",
+        "title": "至知研究院提出大模型可解释性新路线：拆权重，数据成本不到1%",
+        "platform": "量子位",
+        "aiScore": 78,
+        "publishedAt": "2026-08-15T06:42:23+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/473876.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "自动化"
+          "模型进展"
         ],
-        "summary": "文章网址：https://flownie.com/ 评论网址：https://news.ycombinator.com/item?id=49305904 积分：4 # 评论：0",
+        "summary": "理解大模型，无需再训练一个替代网络",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
+        "platform": "量子位",
+        "aiScore": 78,
+        "publishedAt": "2026-08-15T06:36:05+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/473866.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "音潮API限时免费开放",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "Show HN：Agent-shell – 在 Emacs 中与 AI 代理进行供应商中立的聊天",
+        "platform": "Hacker News",
+        "aiScore": 76,
+        "publishedAt": "2026-08-15T11:42:16+00:00",
+        "sourceUrl": "https://xenodium.com/agent-shell-0-73-updates",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "文章网址：https://xenodium.com/agent-shell-0-73-updates#agent-shell-enters-the-chat 评论网址：https://news.ycombinator.com/item?id=49309755 积分：3 # 评论：1",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 17,
+          "topic": 10,
           "actionability": 10,
           "heat": 3
         }
       },
       {
-        "rank": 5,
-        "title": "Talos AI Agent 超级安全",
+        "rank": 7,
+        "title": "Solvry AI 主持的青少年匿名同伴支持",
         "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-08-14T23:18:48+00:00",
-        "sourceUrl": "https://github.com/talos-kernel/talos",
+        "aiScore": 75,
+        "publishedAt": "2026-08-15T12:48:29+00:00",
+        "sourceUrl": "https://solvry-repo-production.up.railway.app",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "开源生态"
+          "开源生态",
+          "应用落地"
         ],
-        "summary": "文章网址：https://github.com/talos-kernel/talos 评论网址：https://news.ycombinator.com/item?id=49305773 积分：1 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文章网址：https://solvry-repo-production.up.railway.app 评论网址：https://news.ycombinator.com/item?id=49310137 积分：1 # 评论：0",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 17,
+          "actionability": 4,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 8,
+        "title": "Anthropic认为AI风险上升，暂无发布更强“Model 2”的计划",
+        "platform": "Hacker News",
+        "aiScore": 75,
+        "publishedAt": "2026-08-15T11:00:24+00:00",
+        "sourceUrl": "https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "文章网址：https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk 评论网址：https://news.ycombinator.com/item?id=49309551 积分：3 # 评论：0",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 9,
+        "title": "人工智能模型发挥作用的原因 [Prof.安德鲁·威尔逊] [视频]",
+        "platform": "Hacker News",
+        "aiScore": 74,
+        "publishedAt": "2026-08-15T13:02:18+00:00",
+        "sourceUrl": "https://www.youtube.com/watch?v=M-jTeBCEGHc",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "文章网址：https://www.youtube.com/watch?v=M-jTeBCEGHc 评论网址：https://news.ycombinator.com/item?id=49310207 积分：1 # 评论：0",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
           "actionability": 10,
           "heat": 1
         }
       },
       {
-        "rank": 6,
-        "title": "早报｜曝苹果与阿里合作训练AI模型/微信:永不推出朋友圈二次编辑/售价20万,追觅首台手机交付",
-        "platform": "爱范儿",
-        "aiScore": 78,
-        "publishedAt": "2026-08-15T00:40:29+00:00",
-        "sourceUrl": "https://www.ifanr.com/1675280",
-        "sourceName": "爱范儿",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "· Google DeepMind 或裁员三分之一以上，资源转向 Flash · WorkBuddy 接入 GLM-5.3 · 曝 DeepSeek 正研发情感 AI 模型 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-08-15T00:02:03+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vonp6j/your_thoughts_on_rnns_rwkv_approach_for_language/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "中国人工智能初创公司ModelBest启动大陆上市前辅导程序",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-08-14T23:11:46+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vomk6v/chinese_ai_startup_modelbest_kicks_off_preipo/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "由 /u/ThereWas 提交 [链接] [评论]",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "面向非开发人员的定制 AI 代理：真实情况",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-08-14T21:45:08+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vokj1y/custom_ai_agents_for_nondevelopers_whats_real/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "由 /u/techpotions 提交 [链接] [评论]",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
         "rank": 10,
-        "title": "Show HN：一个只使用 Go 标准库的 AI 代理沙箱",
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
         "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-08-14T21:36:07+00:00",
-        "sourceUrl": "https://towardsdev.com/i-built-an-ai-agent-sandbox-from-the-go-standard-library-350ecac5d578?sk=f58cedafe6394788d87ecb3179f2ccbd",
+        "aiScore": 74,
+        "publishedAt": "2026-08-15T09:20:07+00:00",
+        "sourceUrl": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "模型进展"
         ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文章网址：https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html 评论网址：https://news.ycombinator.com/item?id=49309050 积分：49 # 评论：30",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 10,
-          "actionability": 10,
-          "heat": 5
+          "actionability": 4,
+          "heat": 7
         }
       }
     ],
     "metrics": {
-      "totalItems": 23,
-      "avgScore": 72.9,
+      "totalItems": 34,
+      "avgScore": 69.9,
       "topScore": 88,
       "topPlatforms": [
         {
@@ -242,7 +240,11 @@
         },
         {
           "name": "Reddit",
-          "count": 5
+          "count": 10
+        },
+        {
+          "name": "量子位",
+          "count": 6
         },
         {
           "name": "The Verge",
@@ -256,15 +258,15 @@
       "topTopics": [
         {
           "name": "AI动态",
+          "count": 16
+        },
+        {
+          "name": "模型进展",
           "count": 10
         },
         {
           "name": "Agent",
-          "count": 6
-        },
-        {
-          "name": "模型进展",
-          "count": 5
+          "count": 4
         },
         {
           "name": "开源生态",
@@ -272,18 +274,26 @@
         },
         {
           "name": "应用落地",
-          "count": 2
+          "count": 1
         },
         {
-          "name": "自动化",
-          "count": 2
+          "name": "芯片算力",
+          "count": 1
+        },
+        {
+          "name": "内容生产",
+          "count": 1
+        },
+        {
+          "name": "投融资",
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 23 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：Anthropic 推出了前沿人工智能模型，但没有简单的开关来切换计费模式？（88 分）",
+      "今日共收录 34 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude（88 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -294,9 +304,32 @@
       "top10": [
         {
           "rank": 1,
+          "title": "源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude",
+          "platform": "量子位",
+          "aiScore": 88,
+          "publishedAt": "2026-08-15T06:05:31+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/473669.html",
+          "sourceName": "量子位",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "Agent"
+          ],
+          "summary": "推理能力还能自定义",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
           "title": "Anthropic 推出了前沿人工智能模型，但没有简单的开关来切换计费模式？",
           "platform": "Reddit",
-          "aiScore": 88,
+          "aiScore": 81,
           "publishedAt": "2026-08-14T21:17:03+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vojtph/anthropic_ships_frontier_ai_models_but_no_simple/",
           "sourceName": "Reddit r/artificial",
@@ -308,7 +341,7 @@
           "summary": "将 Claude Code（Anthropic 的编码代理）从 API 密钥计费切换回我的 Pro 订阅花费的时间比我应该花费的时间多得多。流程：通过 SSH 连接到服务器 → 附加 tmux 会话...",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 20,
             "actionability": 10,
@@ -316,211 +349,186 @@
           }
         },
         {
-          "rank": 2,
-          "title": "人工智能生产率的提高推动全球能源经济模型中二氧化碳净增加",
+          "rank": 3,
+          "title": "阿里巴巴AI模型下载量突破3B，超越Meta、Google",
           "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-08-15T01:42:40+00:00",
-          "sourceUrl": "https://www.nature.com/articles/s44168-026-00411-0",
+          "aiScore": 78,
+          "publishedAt": "2026-08-15T09:46:39+00:00",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
-            "应用落地"
+            "模型进展"
           ],
-          "summary": "文章网址：https://www.nature.com/articles/s44168-026-00411-0 评论网址：https://news.ycombinator.com/item?id=49306800 积分：2 # 评论：0",
+          "summary": "文章网址：https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google 评论网址：https://news.ycombinator.com/item?id=49309183 Poi…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 3,
-          "title": "出售我的生产就绪型 4 合 1 FastAPI AI 自动化套件（8000 美元）",
-          "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-08-14T23:10:06+00:00",
-          "sourceUrl": "https://www.indiehackers.com/post/selling-my-production-ready-4-in-1-fastapi-ai-automation-suite-8-000-xUGCgKAjlrU9gcOIdp2Z",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "应用落地",
-            "自动化"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 16,
+            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 4,
-          "title": "Flownie – 具有人工智能代理协助的开放式可视化数据工作流程平台",
-          "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-08-14T23:38:09+00:00",
-          "sourceUrl": "https://flownie.com/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "下游",
+          "title": "至知研究院提出大模型可解释性新路线：拆权重，数据成本不到1%",
+          "platform": "量子位",
+          "aiScore": 78,
+          "publishedAt": "2026-08-15T06:42:23+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/473876.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
           "contentTags": [
-            "Agent",
-            "自动化"
+            "模型进展"
           ],
-          "summary": "文章网址：https://flownie.com/ 评论网址：https://news.ycombinator.com/item?id=49305904 积分：4 # 评论：0",
+          "summary": "理解大模型，无需再训练一个替代网络",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
+          "platform": "量子位",
+          "aiScore": 78,
+          "publishedAt": "2026-08-15T06:36:05+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/473866.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "音潮API限时免费开放",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Show HN：Agent-shell – 在 Emacs 中与 AI 代理进行供应商中立的聊天",
+          "platform": "Hacker News",
+          "aiScore": 76,
+          "publishedAt": "2026-08-15T11:42:16+00:00",
+          "sourceUrl": "https://xenodium.com/agent-shell-0-73-updates",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "文章网址：https://xenodium.com/agent-shell-0-73-updates#agent-shell-enters-the-chat 评论网址：https://news.ycombinator.com/item?id=49309755 积分：3 # 评论：1",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 17,
+            "topic": 10,
             "actionability": 10,
             "heat": 3
           }
         },
         {
-          "rank": 5,
-          "title": "Talos AI Agent 超级安全",
+          "rank": 7,
+          "title": "Solvry AI 主持的青少年匿名同伴支持",
           "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-08-14T23:18:48+00:00",
-          "sourceUrl": "https://github.com/talos-kernel/talos",
+          "aiScore": 75,
+          "publishedAt": "2026-08-15T12:48:29+00:00",
+          "sourceUrl": "https://solvry-repo-production.up.railway.app",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "Agent",
-            "开源生态"
+            "开源生态",
+            "应用落地"
           ],
-          "summary": "文章网址：https://github.com/talos-kernel/talos 评论网址：https://news.ycombinator.com/item?id=49305773 积分：1 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "文章网址：https://solvry-repo-production.up.railway.app 评论网址：https://news.ycombinator.com/item?id=49310137 积分：1 # 评论：0",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 18,
+            "topic": 17,
+            "actionability": 4,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Anthropic认为AI风险上升，暂无发布更强“Model 2”的计划",
+          "platform": "Hacker News",
+          "aiScore": 75,
+          "publishedAt": "2026-08-15T11:00:24+00:00",
+          "sourceUrl": "https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk 评论网址：https://news.ycombinator.com/item?id=49309551 积分：3 # 评论：0",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 9,
+          "title": "人工智能模型发挥作用的原因 [Prof.安德鲁·威尔逊] [视频]",
+          "platform": "Hacker News",
+          "aiScore": 74,
+          "publishedAt": "2026-08-15T13:02:18+00:00",
+          "sourceUrl": "https://www.youtube.com/watch?v=M-jTeBCEGHc",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://www.youtube.com/watch?v=M-jTeBCEGHc 评论网址：https://news.ycombinator.com/item?id=49310207 积分：1 # 评论：0",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
             "actionability": 10,
             "heat": 1
           }
         },
         {
-          "rank": 6,
-          "title": "早报｜曝苹果与阿里合作训练AI模型/微信:永不推出朋友圈二次编辑/售价20万,追觅首台手机交付",
-          "platform": "爱范儿",
-          "aiScore": 78,
-          "publishedAt": "2026-08-15T00:40:29+00:00",
-          "sourceUrl": "https://www.ifanr.com/1675280",
-          "sourceName": "爱范儿",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "· Google DeepMind 或裁员三分之一以上，资源转向 Flash · WorkBuddy 接入 GLM-5.3 · 曝 DeepSeek 正研发情感 AI 模型 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-08-15T00:02:03+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vonp6j/your_thoughts_on_rnns_rwkv_approach_for_language/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "中国人工智能初创公司ModelBest启动大陆上市前辅导程序",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-08-14T23:11:46+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vomk6v/chinese_ai_startup_modelbest_kicks_off_preipo/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "由 /u/ThereWas 提交 [链接] [评论]",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "面向非开发人员的定制 AI 代理：真实情况",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-08-14T21:45:08+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vokj1y/custom_ai_agents_for_nondevelopers_whats_real/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "由 /u/techpotions 提交 [链接] [评论]",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
           "rank": 10,
-          "title": "Show HN：一个只使用 Go 标准库的 AI 代理沙箱",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-08-14T21:36:07+00:00",
-          "sourceUrl": "https://towardsdev.com/i-built-an-ai-agent-sandbox-from-the-go-standard-library-350ecac5d578?sk=f58cedafe6394788d87ecb3179f2ccbd",
+          "aiScore": 74,
+          "publishedAt": "2026-08-15T09:20:07+00:00",
+          "sourceUrl": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "Agent"
+            "模型进展"
           ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "文章网址：https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html 评论网址：https://news.ycombinator.com/item?id=49309050 积分：49 # 评论：30",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 10,
-            "actionability": 10,
-            "heat": 5
+            "actionability": 4,
+            "heat": 7
           }
         }
       ],
       "metrics": {
-        "totalItems": 23,
-        "avgScore": 72.9,
+        "totalItems": 34,
+        "avgScore": 69.9,
         "topScore": 88,
         "topPlatforms": [
           {
@@ -529,7 +537,11 @@
           },
           {
             "name": "Reddit",
-            "count": 5
+            "count": 10
+          },
+          {
+            "name": "量子位",
+            "count": 6
           },
           {
             "name": "The Verge",
@@ -543,15 +555,15 @@
         "topTopics": [
           {
             "name": "AI动态",
+            "count": 16
+          },
+          {
+            "name": "模型进展",
             "count": 10
           },
           {
             "name": "Agent",
-            "count": 6
-          },
-          {
-            "name": "模型进展",
-            "count": 5
+            "count": 4
           },
           {
             "name": "开源生态",
@@ -559,18 +571,26 @@
           },
           {
             "name": "应用落地",
-            "count": 2
+            "count": 1
           },
           {
-            "name": "自动化",
-            "count": 2
+            "name": "芯片算力",
+            "count": 1
+          },
+          {
+            "name": "内容生产",
+            "count": 1
+          },
+          {
+            "name": "投融资",
+            "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 23 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / Agent / 模型进展",
-        "最高分事件：Anthropic 推出了前沿人工智能模型，但没有简单的开关来切换计费模式？（88 分）",
+        "今日共收录 34 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude（88 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -27926,42 +27946,42 @@
     },
     "metrics": {
       "daysCovered": 1,
-      "totalItems": 23,
-      "avgTop10Score": 81.1,
+      "totalItems": 34,
+      "avgTop10Score": 77.7,
       "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 5
+          "count": 6
+        },
+        {
+          "name": "量子位",
+          "count": 3
         },
         {
           "name": "Reddit",
-          "count": 4
-        },
-        {
-          "name": "爱范儿",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "模型进展",
-          "count": 5
+          "count": 7
         },
         {
           "name": "Agent",
-          "count": 5
+          "count": 3
         },
         {
-          "name": "应用落地",
-          "count": 2
-        },
-        {
-          "name": "自动化",
-          "count": 2
+          "name": "芯片算力",
+          "count": 1
         },
         {
           "name": "开源生态",
+          "count": 1
+        },
+        {
+          "name": "应用落地",
           "count": 1
         }
       ]
@@ -27969,9 +27989,32 @@
     "topEvents": [
       {
         "rank": 1,
+        "title": "源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude",
+        "platform": "量子位",
+        "aiScore": 88,
+        "publishedAt": "2026-08-15T06:05:31+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/473669.html",
+        "sourceName": "量子位",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "Agent"
+        ],
+        "summary": "推理能力还能自定义",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
         "title": "Anthropic 推出了前沿人工智能模型，但没有简单的开关来切换计费模式？",
         "platform": "Reddit",
-        "aiScore": 88,
+        "aiScore": 81,
         "publishedAt": "2026-08-14T21:17:03+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vojtph/anthropic_ships_frontier_ai_models_but_no_simple/",
         "sourceName": "Reddit r/artificial",
@@ -27983,7 +28026,7 @@
         "summary": "将 Claude Code（Anthropic 的编码代理）从 API 密钥计费切换回我的 Pro 订阅花费的时间比我应该花费的时间多得多。流程：通过 SSH 连接到服务器 → 附加 tmux 会话...",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
@@ -27991,212 +28034,187 @@
         }
       },
       {
-        "rank": 2,
-        "title": "人工智能生产率的提高推动全球能源经济模型中二氧化碳净增加",
+        "rank": 3,
+        "title": "阿里巴巴AI模型下载量突破3B，超越Meta、Google",
         "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-08-15T01:42:40+00:00",
-        "sourceUrl": "https://www.nature.com/articles/s44168-026-00411-0",
+        "aiScore": 78,
+        "publishedAt": "2026-08-15T09:46:39+00:00",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "应用落地"
+          "模型进展"
         ],
-        "summary": "文章网址：https://www.nature.com/articles/s44168-026-00411-0 评论网址：https://news.ycombinator.com/item?id=49306800 积分：2 # 评论：0",
+        "summary": "文章网址：https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google 评论网址：https://news.ycombinator.com/item?id=49309183 Poi…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 3,
-        "title": "出售我的生产就绪型 4 合 1 FastAPI AI 自动化套件（8000 美元）",
-        "platform": "Hacker News",
-        "aiScore": 84,
-        "publishedAt": "2026-08-14T23:10:06+00:00",
-        "sourceUrl": "https://www.indiehackers.com/post/selling-my-production-ready-4-in-1-fastapi-ai-automation-suite-8-000-xUGCgKAjlrU9gcOIdp2Z",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "应用落地",
-          "自动化"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 16,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "Flownie – 具有人工智能代理协助的开放式可视化数据工作流程平台",
-        "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-08-14T23:38:09+00:00",
-        "sourceUrl": "https://flownie.com/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "下游",
+        "title": "至知研究院提出大模型可解释性新路线：拆权重，数据成本不到1%",
+        "platform": "量子位",
+        "aiScore": 78,
+        "publishedAt": "2026-08-15T06:42:23+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/473876.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "自动化"
+          "模型进展"
         ],
-        "summary": "文章网址：https://flownie.com/ 评论网址：https://news.ycombinator.com/item?id=49305904 积分：4 # 评论：0",
+        "summary": "理解大模型，无需再训练一个替代网络",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
+        "platform": "量子位",
+        "aiScore": 78,
+        "publishedAt": "2026-08-15T06:36:05+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/473866.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "音潮API限时免费开放",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "Show HN：Agent-shell – 在 Emacs 中与 AI 代理进行供应商中立的聊天",
+        "platform": "Hacker News",
+        "aiScore": 76,
+        "publishedAt": "2026-08-15T11:42:16+00:00",
+        "sourceUrl": "https://xenodium.com/agent-shell-0-73-updates",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "文章网址：https://xenodium.com/agent-shell-0-73-updates#agent-shell-enters-the-chat 评论网址：https://news.ycombinator.com/item?id=49309755 积分：3 # 评论：1",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 17,
+          "topic": 10,
           "actionability": 10,
           "heat": 3
         }
       },
       {
-        "rank": 5,
-        "title": "Talos AI Agent 超级安全",
+        "rank": 7,
+        "title": "Solvry AI 主持的青少年匿名同伴支持",
         "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-08-14T23:18:48+00:00",
-        "sourceUrl": "https://github.com/talos-kernel/talos",
+        "aiScore": 75,
+        "publishedAt": "2026-08-15T12:48:29+00:00",
+        "sourceUrl": "https://solvry-repo-production.up.railway.app",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "开源生态"
+          "开源生态",
+          "应用落地"
         ],
-        "summary": "文章网址：https://github.com/talos-kernel/talos 评论网址：https://news.ycombinator.com/item?id=49305773 积分：1 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文章网址：https://solvry-repo-production.up.railway.app 评论网址：https://news.ycombinator.com/item?id=49310137 积分：1 # 评论：0",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 17,
+          "actionability": 4,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 8,
+        "title": "Anthropic认为AI风险上升，暂无发布更强“Model 2”的计划",
+        "platform": "Hacker News",
+        "aiScore": 75,
+        "publishedAt": "2026-08-15T11:00:24+00:00",
+        "sourceUrl": "https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "文章网址：https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk 评论网址：https://news.ycombinator.com/item?id=49309551 积分：3 # 评论：0",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 9,
+        "title": "人工智能模型发挥作用的原因 [Prof.安德鲁·威尔逊] [视频]",
+        "platform": "Hacker News",
+        "aiScore": 74,
+        "publishedAt": "2026-08-15T13:02:18+00:00",
+        "sourceUrl": "https://www.youtube.com/watch?v=M-jTeBCEGHc",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "文章网址：https://www.youtube.com/watch?v=M-jTeBCEGHc 评论网址：https://news.ycombinator.com/item?id=49310207 积分：1 # 评论：0",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
           "actionability": 10,
           "heat": 1
         }
       },
       {
-        "rank": 6,
-        "title": "早报｜曝苹果与阿里合作训练AI模型/微信:永不推出朋友圈二次编辑/售价20万,追觅首台手机交付",
-        "platform": "爱范儿",
-        "aiScore": 78,
-        "publishedAt": "2026-08-15T00:40:29+00:00",
-        "sourceUrl": "https://www.ifanr.com/1675280",
-        "sourceName": "爱范儿",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "· Google DeepMind 或裁员三分之一以上，资源转向 Flash · WorkBuddy 接入 GLM-5.3 · 曝 DeepSeek 正研发情感 AI 模型 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-08-15T00:02:03+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vonp6j/your_thoughts_on_rnns_rwkv_approach_for_language/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "中国人工智能初创公司ModelBest启动大陆上市前辅导程序",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-08-14T23:11:46+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vomk6v/chinese_ai_startup_modelbest_kicks_off_preipo/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "由 /u/ThereWas 提交 [链接] [评论]",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "面向非开发人员的定制 AI 代理：真实情况",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-08-14T21:45:08+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vokj1y/custom_ai_agents_for_nondevelopers_whats_real/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "由 /u/techpotions 提交 [链接] [评论]",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
         "rank": 10,
-        "title": "Show HN：一个只使用 Go 标准库的 AI 代理沙箱",
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
         "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-08-14T21:36:07+00:00",
-        "sourceUrl": "https://towardsdev.com/i-built-an-ai-agent-sandbox-from-the-go-standard-library-350ecac5d578?sk=f58cedafe6394788d87ecb3179f2ccbd",
+        "aiScore": 74,
+        "publishedAt": "2026-08-15T09:20:07+00:00",
+        "sourceUrl": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "模型进展"
         ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文章网址：https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html 评论网址：https://news.ycombinator.com/item?id=49309050 积分：49 # 评论：30",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 10,
-          "actionability": 10,
-          "heat": 5
+          "actionability": 4,
+          "heat": 7
         }
       }
     ],
     "briefing": [
-      "8月第3周累计收录 23 条资讯，覆盖 1 天。",
-      "高频主题：模型进展 / Agent / 应用落地",
-      "本周最高分：Anthropic 推出了前沿人工智能模型，但没有简单的开关来切换计费模式？（88 分）",
+      "8月第3周累计收录 34 条资讯，覆盖 1 天。",
+      "高频主题：模型进展 / Agent / 芯片算力",
+      "本周最高分：源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude（88 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -28210,42 +28228,42 @@
       },
       "metrics": {
         "daysCovered": 1,
-        "totalItems": 23,
-        "avgTop10Score": 81.1,
+        "totalItems": 34,
+        "avgTop10Score": 77.7,
         "topScore": 88,
         "topPlatforms": [
           {
             "name": "Hacker News",
-            "count": 5
+            "count": 6
+          },
+          {
+            "name": "量子位",
+            "count": 3
           },
           {
             "name": "Reddit",
-            "count": 4
-          },
-          {
-            "name": "爱范儿",
             "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 5
+            "count": 7
           },
           {
             "name": "Agent",
-            "count": 5
+            "count": 3
           },
           {
-            "name": "应用落地",
-            "count": 2
-          },
-          {
-            "name": "自动化",
-            "count": 2
+            "name": "芯片算力",
+            "count": 1
           },
           {
             "name": "开源生态",
+            "count": 1
+          },
+          {
+            "name": "应用落地",
             "count": 1
           }
         ]
@@ -28253,9 +28271,32 @@
       "topEvents": [
         {
           "rank": 1,
+          "title": "源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude",
+          "platform": "量子位",
+          "aiScore": 88,
+          "publishedAt": "2026-08-15T06:05:31+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/473669.html",
+          "sourceName": "量子位",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "Agent"
+          ],
+          "summary": "推理能力还能自定义",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
           "title": "Anthropic 推出了前沿人工智能模型，但没有简单的开关来切换计费模式？",
           "platform": "Reddit",
-          "aiScore": 88,
+          "aiScore": 81,
           "publishedAt": "2026-08-14T21:17:03+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vojtph/anthropic_ships_frontier_ai_models_but_no_simple/",
           "sourceName": "Reddit r/artificial",
@@ -28267,7 +28308,7 @@
           "summary": "将 Claude Code（Anthropic 的编码代理）从 API 密钥计费切换回我的 Pro 订阅花费的时间比我应该花费的时间多得多。流程：通过 SSH 连接到服务器 → 附加 tmux 会话...",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 20,
             "actionability": 10,
@@ -28275,212 +28316,187 @@
           }
         },
         {
-          "rank": 2,
-          "title": "人工智能生产率的提高推动全球能源经济模型中二氧化碳净增加",
+          "rank": 3,
+          "title": "阿里巴巴AI模型下载量突破3B，超越Meta、Google",
           "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-08-15T01:42:40+00:00",
-          "sourceUrl": "https://www.nature.com/articles/s44168-026-00411-0",
+          "aiScore": 78,
+          "publishedAt": "2026-08-15T09:46:39+00:00",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
-            "应用落地"
+            "模型进展"
           ],
-          "summary": "文章网址：https://www.nature.com/articles/s44168-026-00411-0 评论网址：https://news.ycombinator.com/item?id=49306800 积分：2 # 评论：0",
+          "summary": "文章网址：https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google 评论网址：https://news.ycombinator.com/item?id=49309183 Poi…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 3,
-          "title": "出售我的生产就绪型 4 合 1 FastAPI AI 自动化套件（8000 美元）",
-          "platform": "Hacker News",
-          "aiScore": 84,
-          "publishedAt": "2026-08-14T23:10:06+00:00",
-          "sourceUrl": "https://www.indiehackers.com/post/selling-my-production-ready-4-in-1-fastapi-ai-automation-suite-8-000-xUGCgKAjlrU9gcOIdp2Z",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "应用落地",
-            "自动化"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 16,
+            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 4,
-          "title": "Flownie – 具有人工智能代理协助的开放式可视化数据工作流程平台",
-          "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-08-14T23:38:09+00:00",
-          "sourceUrl": "https://flownie.com/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "下游",
+          "title": "至知研究院提出大模型可解释性新路线：拆权重，数据成本不到1%",
+          "platform": "量子位",
+          "aiScore": 78,
+          "publishedAt": "2026-08-15T06:42:23+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/473876.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
           "contentTags": [
-            "Agent",
-            "自动化"
+            "模型进展"
           ],
-          "summary": "文章网址：https://flownie.com/ 评论网址：https://news.ycombinator.com/item?id=49305904 积分：4 # 评论：0",
+          "summary": "理解大模型，无需再训练一个替代网络",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
+          "platform": "量子位",
+          "aiScore": 78,
+          "publishedAt": "2026-08-15T06:36:05+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/473866.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "音潮API限时免费开放",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Show HN：Agent-shell – 在 Emacs 中与 AI 代理进行供应商中立的聊天",
+          "platform": "Hacker News",
+          "aiScore": 76,
+          "publishedAt": "2026-08-15T11:42:16+00:00",
+          "sourceUrl": "https://xenodium.com/agent-shell-0-73-updates",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "文章网址：https://xenodium.com/agent-shell-0-73-updates#agent-shell-enters-the-chat 评论网址：https://news.ycombinator.com/item?id=49309755 积分：3 # 评论：1",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 17,
+            "topic": 10,
             "actionability": 10,
             "heat": 3
           }
         },
         {
-          "rank": 5,
-          "title": "Talos AI Agent 超级安全",
+          "rank": 7,
+          "title": "Solvry AI 主持的青少年匿名同伴支持",
           "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-08-14T23:18:48+00:00",
-          "sourceUrl": "https://github.com/talos-kernel/talos",
+          "aiScore": 75,
+          "publishedAt": "2026-08-15T12:48:29+00:00",
+          "sourceUrl": "https://solvry-repo-production.up.railway.app",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "Agent",
-            "开源生态"
+            "开源生态",
+            "应用落地"
           ],
-          "summary": "文章网址：https://github.com/talos-kernel/talos 评论网址：https://news.ycombinator.com/item?id=49305773 积分：1 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "文章网址：https://solvry-repo-production.up.railway.app 评论网址：https://news.ycombinator.com/item?id=49310137 积分：1 # 评论：0",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 18,
+            "topic": 17,
+            "actionability": 4,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Anthropic认为AI风险上升，暂无发布更强“Model 2”的计划",
+          "platform": "Hacker News",
+          "aiScore": 75,
+          "publishedAt": "2026-08-15T11:00:24+00:00",
+          "sourceUrl": "https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk 评论网址：https://news.ycombinator.com/item?id=49309551 积分：3 # 评论：0",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 9,
+          "title": "人工智能模型发挥作用的原因 [Prof.安德鲁·威尔逊] [视频]",
+          "platform": "Hacker News",
+          "aiScore": 74,
+          "publishedAt": "2026-08-15T13:02:18+00:00",
+          "sourceUrl": "https://www.youtube.com/watch?v=M-jTeBCEGHc",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://www.youtube.com/watch?v=M-jTeBCEGHc 评论网址：https://news.ycombinator.com/item?id=49310207 积分：1 # 评论：0",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
             "actionability": 10,
             "heat": 1
           }
         },
         {
-          "rank": 6,
-          "title": "早报｜曝苹果与阿里合作训练AI模型/微信:永不推出朋友圈二次编辑/售价20万,追觅首台手机交付",
-          "platform": "爱范儿",
-          "aiScore": 78,
-          "publishedAt": "2026-08-15T00:40:29+00:00",
-          "sourceUrl": "https://www.ifanr.com/1675280",
-          "sourceName": "爱范儿",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "· Google DeepMind 或裁员三分之一以上，资源转向 Flash · WorkBuddy 接入 GLM-5.3 · 曝 DeepSeek 正研发情感 AI 模型 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-08-15T00:02:03+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vonp6j/your_thoughts_on_rnns_rwkv_approach_for_language/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "中国人工智能初创公司ModelBest启动大陆上市前辅导程序",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-08-14T23:11:46+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vomk6v/chinese_ai_startup_modelbest_kicks_off_preipo/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "由 /u/ThereWas 提交 [链接] [评论]",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "面向非开发人员的定制 AI 代理：真实情况",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-08-14T21:45:08+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vokj1y/custom_ai_agents_for_nondevelopers_whats_real/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "由 /u/techpotions 提交 [链接] [评论]",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
           "rank": 10,
-          "title": "Show HN：一个只使用 Go 标准库的 AI 代理沙箱",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-08-14T21:36:07+00:00",
-          "sourceUrl": "https://towardsdev.com/i-built-an-ai-agent-sandbox-from-the-go-standard-library-350ecac5d578?sk=f58cedafe6394788d87ecb3179f2ccbd",
+          "aiScore": 74,
+          "publishedAt": "2026-08-15T09:20:07+00:00",
+          "sourceUrl": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "Agent"
+            "模型进展"
           ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "文章网址：https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html 评论网址：https://news.ycombinator.com/item?id=49309050 积分：49 # 评论：30",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 10,
-            "actionability": 10,
-            "heat": 5
+            "actionability": 4,
+            "heat": 7
           }
         }
       ],
       "briefing": [
-        "8月第3周累计收录 23 条资讯，覆盖 1 天。",
-        "高频主题：模型进展 / Agent / 应用落地",
-        "本周最高分：Anthropic 推出了前沿人工智能模型，但没有简单的开关来切换计费模式？（88 分）",
+        "8月第3周累计收录 34 条资讯，覆盖 1 天。",
+        "高频主题：模型进展 / Agent / 芯片算力",
+        "本周最高分：源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude（88 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
