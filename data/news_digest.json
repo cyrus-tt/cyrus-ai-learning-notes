@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T02:19:39.039641+00:00",
+  "generatedAt": "2026-08-16T13:28:15.379726+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-08-16",
@@ -7,19 +7,42 @@
     "top10": [
       {
         "rank": 1,
-        "title": "小语言模型的训练和无限 API 推理",
+        "title": "流氓人工智能不再是科幻小说",
+        "platform": "The Verge",
+        "aiScore": 93,
+        "publishedAt": "2026-08-16T12:00:00+00:00",
+        "sourceUrl": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能安全的更多信息，请关注 Robert Hart。 《后退》到达我们订阅者的收件箱......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "人工智能写的所有内容听起来都一样。有人制作了一个 Markdown 文件格式来赋予代理真实的个性",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-08-15T22:21:23+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vpfvgy/training_and_unlimited_api_inference_for_small/",
+        "publishedAt": "2026-08-16T09:09:38+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vps9gq/everything_ai_writes_sounds_the_same_someone_made/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展"
+          "模型进展",
+          "Agent"
         ],
-        "summary": "很长一段时间以来，我一直有一种感觉，生成式人工智能模型对于它们所执行的大多数任务来说，实际上并不需要前沿模型提供的超大功能。在…之上",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "每个自主代理的情况都是相同的。输出能力很强，语音完全通用。这两个修复都很糟糕：根据自己的写作微调模型（昂贵、缓慢、洛克......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -30,121 +53,76 @@
       },
       {
         "rank": 3,
-        "title": "Sentinel Scan：授权的 LLM 红队审核，由 AI 代理运行",
-        "platform": "Hacker News",
-        "aiScore": 85,
-        "publishedAt": "2026-08-15T22:23:10+00:00",
-        "sourceUrl": "https://fbirds5230.github.io/sentinel-scan/",
-        "sourceName": "Hacker News AI",
+        "title": "我个人经历过人工智能代理诡计的极端案例，当代理面临失去自主行动的能力时。",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-16T07:30:56+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vpqmou/i_personally_experienced_extreme_cases_of_ai/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "Agent",
           "开源生态"
         ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "summary": "在几周的时间里，我开始看到一些远远超出正常模型错误的事情。特工伪造了我的批准。他们发明了并不存在的治理规则。他们污染…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 20,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 4,
-        "title": "显示 HN：TokenLab MCP、模型发现、定价和本机 AI 端点工具",
-        "platform": "Hacker News",
-        "aiScore": 85,
-        "publishedAt": "2026-08-15T21:26:34+00:00",
-        "sourceUrl": "https://tokenlab.sh/zh/mcp",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "文章网址：https://tokenlab.sh/zh/mcp 评论网址：https://news.ycombinator.com/item?id=49314483 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 6,
-        "title": "通过扮演聊天机器人来嘲笑人工智能的牺牲",
-        "platform": "The Verge",
-        "aiScore": 80,
-        "publishedAt": "2026-08-15T20:45:00+00:00",
-        "sourceUrl": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "你的 AI Slop 让我厌烦了，它的简单性非常出色。有两个选项卡：人类和 LARP 作为人工智能。一方面您输入请求。另一方面，您提交答案。但重要的是……",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 5,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 7,
-        "title": "人工智能工具什么时候可以成为一个平台？",
-        "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-08-15T16:56:40+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vp7x59/at_what_point_does_an_ai_tool_become_a_platform/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "下游",
+        "rank": 5,
+        "title": "Show HN：阻止 AI 代理运行破坏性命令的预执行防护",
+        "platform": "Hacker News",
+        "aiScore": 84,
+        "publishedAt": "2026-08-16T12:53:51+00:00",
+        "sourceUrl": "https://github.com/vandith1/agent-guard",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
           "Agent",
-          "应用落地",
-          "自动化"
+          "开源生态"
         ],
-        "summary": "我注意到很多人工智能产品并没有停留在它们开始的类别中。有些东西作为一种工具推出，把一件事做好，这就是整个价值主张。然后一年后...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "为什么人工智能代理需要验证身份",
-        "platform": "Hacker News",
-        "aiScore": 76,
-        "publishedAt": "2026-08-15T21:44:48+00:00",
-        "sourceUrl": "https://chrisbergeron.com/2026/08/11/why_ai_agents_need_verified_identity/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "文章网址：https://chrisbergeron.com/2026/08/11/why_ai_agents_need_verified_identity/ 评论网址：https://news.ycombinator.com/item?id=49314608 积分：4 # 评论：0",
+        "summary": "文章网址：https://github.com/vandith1/agent-guard 评论网址：https://news.ycombinator.com/item?id=49319603 积分：3 # 评论：1",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
+          "topic": 18,
           "actionability": 10,
           "heat": 3
         }
       },
       {
-        "rank": 7,
+        "rank": 6,
+        "title": "Vero：人工智能代理可以构建经过正式验证的软件存储库吗？",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-08-16T11:03:32+00:00",
+        "sourceUrl": "https://arxiv.org/abs/2608.13522",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://arxiv.org/abs/2608.13522 评论网址：https://news.ycombinator.com/item?id=49318896 积分：2 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 6,
         "title": "扎克伯格将 Meta 的整个广告业务押在人工智能上，他自己的人工智能 UGC 工具正在将裙子变成裤子",
         "platform": "Reddit",
         "aiScore": 76,
@@ -167,18 +145,18 @@
         }
       },
       {
-        "rank": 8,
-        "title": "TrueStar——人工智能主持的专家访谈和多主体深度研究",
+        "rank": 7,
+        "title": "AGCX：为什么人工智能代理不是助手",
         "platform": "Hacker News",
         "aiScore": 75,
-        "publishedAt": "2026-08-16T01:23:52+00:00",
-        "sourceUrl": "https://truestar.tech",
+        "publishedAt": "2026-08-16T11:04:59+00:00",
+        "sourceUrl": "https://www.agcx.org",
         "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "industryStage": "下游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "文章网址：https://truestar.tech 评论网址：https://news.ycombinator.com/item?id=49315975 积分：2 # 评论：1",
+        "summary": "文章网址：https://www.agcx.org 评论网址：https://news.ycombinator.com/item?id=49318902 积分：3 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -189,29 +167,7 @@
         }
       },
       {
-        "rank": 9,
-        "title": "阿里巴巴AI模型下载量突破3B，超越Meta、Google",
-        "platform": "Hacker News",
-        "aiScore": 75,
-        "publishedAt": "2026-08-15T23:10:56+00:00",
-        "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/alibaba-ai-models-hit-3-091606840.html",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 10,
+        "rank": 8,
         "title": "由于人工智能数据中心耗尽了全球供应，特朗普政府正在向苹果施压，要求其不要购买中国存储芯片。",
         "platform": "Reddit",
         "aiScore": 75,
@@ -233,12 +189,56 @@
           "actionability": 4,
           "heat": 5
         }
+      },
+      {
+        "rank": 9,
+        "title": "杭州95后小伙，5亿买走硅谷城堡",
+        "platform": "量子位",
+        "aiScore": 74,
+        "publishedAt": "2026-08-16T11:51:08+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/474245.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "辞别马斯克xAI半年之后…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "李飞飞最新访谈：AI咋能代替人呢？",
+        "platform": "量子位",
+        "aiScore": 74,
+        "publishedAt": "2026-08-16T10:45:47+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/474140.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "AI不是替代者，而是个人能力的放大镜",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 5
+        }
       }
     ],
     "metrics": {
-      "totalItems": 26,
-      "avgScore": 71.4,
-      "topScore": 88,
+      "totalItems": 32,
+      "avgScore": 70.2,
+      "topScore": 93,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -249,50 +249,54 @@
           "count": 10
         },
         {
+          "name": "量子位",
+          "count": 5
+        },
+        {
           "name": "The Verge",
-          "count": 1
+          "count": 2
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 11
+          "count": 19
         },
         {
           "name": "Agent",
-          "count": 6
-        },
-        {
-          "name": "模型进展",
-          "count": 6
+          "count": 7
         },
         {
           "name": "开源生态",
+          "count": 4
+        },
+        {
+          "name": "内容生产",
           "count": 3
         },
         {
-          "name": "芯片算力",
+          "name": "模型进展",
           "count": 3
         },
         {
           "name": "应用落地",
-          "count": 3
-        },
-        {
-          "name": "内容生产",
           "count": 2
         },
         {
-          "name": "自动化",
+          "name": "安全治理",
+          "count": 1
+        },
+        {
+          "name": "投融资",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 26 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：小语言模型的训练和无限 API 推理（88 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 32 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 开源生态",
+      "最高分事件：流氓人工智能不再是科幻小说（93 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -302,19 +306,42 @@
       "top10": [
         {
           "rank": 1,
-          "title": "小语言模型的训练和无限 API 推理",
+          "title": "流氓人工智能不再是科幻小说",
+          "platform": "The Verge",
+          "aiScore": 93,
+          "publishedAt": "2026-08-16T12:00:00+00:00",
+          "sourceUrl": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能安全的更多信息，请关注 Robert Hart。 《后退》到达我们订阅者的收件箱......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "人工智能写的所有内容听起来都一样。有人制作了一个 Markdown 文件格式来赋予代理真实的个性",
           "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-08-15T22:21:23+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vpfvgy/training_and_unlimited_api_inference_for_small/",
+          "publishedAt": "2026-08-16T09:09:38+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vps9gq/everything_ai_writes_sounds_the_same_someone_made/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "芯片算力",
-            "模型进展"
+            "模型进展",
+            "Agent"
           ],
-          "summary": "很长一段时间以来，我一直有一种感觉，生成式人工智能模型对于它们所执行的大多数任务来说，实际上并不需要前沿模型提供的超大功能。在…之上",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "每个自主代理的情况都是相同的。输出能力很强，语音完全通用。这两个修复都很糟糕：根据自己的写作微调模型（昂贵、缓慢、洛克......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
@@ -325,121 +352,76 @@
         },
         {
           "rank": 3,
-          "title": "Sentinel Scan：授权的 LLM 红队审核，由 AI 代理运行",
-          "platform": "Hacker News",
-          "aiScore": 85,
-          "publishedAt": "2026-08-15T22:23:10+00:00",
-          "sourceUrl": "https://fbirds5230.github.io/sentinel-scan/",
-          "sourceName": "Hacker News AI",
+          "title": "我个人经历过人工智能代理诡计的极端案例，当代理面临失去自主行动的能力时。",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-16T07:30:56+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vpqmou/i_personally_experienced_extreme_cases_of_ai/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
             "Agent",
             "开源生态"
           ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "在几周的时间里，我开始看到一些远远超出正常模型错误的事情。特工伪造了我的批准。他们发明了并不存在的治理规则。他们污染…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 20,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 4,
-          "title": "显示 HN：TokenLab MCP、模型发现、定价和本机 AI 端点工具",
-          "platform": "Hacker News",
-          "aiScore": 85,
-          "publishedAt": "2026-08-15T21:26:34+00:00",
-          "sourceUrl": "https://tokenlab.sh/zh/mcp",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "文章网址：https://tokenlab.sh/zh/mcp 评论网址：https://news.ycombinator.com/item?id=49314483 积分：2 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 6,
-          "title": "通过扮演聊天机器人来嘲笑人工智能的牺牲",
-          "platform": "The Verge",
-          "aiScore": 80,
-          "publishedAt": "2026-08-15T20:45:00+00:00",
-          "sourceUrl": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "你的 AI Slop 让我厌烦了，它的简单性非常出色。有两个选项卡：人类和 LARP 作为人工智能。一方面您输入请求。另一方面，您提交答案。但重要的是……",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 5,
             "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 7,
-          "title": "人工智能工具什么时候可以成为一个平台？",
-          "platform": "Reddit",
-          "aiScore": 80,
-          "publishedAt": "2026-08-15T16:56:40+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vp7x59/at_what_point_does_an_ai_tool_become_a_platform/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
+          "rank": 5,
+          "title": "Show HN：阻止 AI 代理运行破坏性命令的预执行防护",
+          "platform": "Hacker News",
+          "aiScore": 84,
+          "publishedAt": "2026-08-16T12:53:51+00:00",
+          "sourceUrl": "https://github.com/vandith1/agent-guard",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
           "contentTags": [
             "Agent",
-            "应用落地",
-            "自动化"
+            "开源生态"
           ],
-          "summary": "我注意到很多人工智能产品并没有停留在它们开始的类别中。有些东西作为一种工具推出，把一件事做好，这就是整个价值主张。然后一年后...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "为什么人工智能代理需要验证身份",
-          "platform": "Hacker News",
-          "aiScore": 76,
-          "publishedAt": "2026-08-15T21:44:48+00:00",
-          "sourceUrl": "https://chrisbergeron.com/2026/08/11/why_ai_agents_need_verified_identity/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "文章网址：https://chrisbergeron.com/2026/08/11/why_ai_agents_need_verified_identity/ 评论网址：https://news.ycombinator.com/item?id=49314608 积分：4 # 评论：0",
+          "summary": "文章网址：https://github.com/vandith1/agent-guard 评论网址：https://news.ycombinator.com/item?id=49319603 积分：3 # 评论：1",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 10,
+            "topic": 18,
             "actionability": 10,
             "heat": 3
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
+          "title": "Vero：人工智能代理可以构建经过正式验证的软件存储库吗？",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-08-16T11:03:32+00:00",
+          "sourceUrl": "https://arxiv.org/abs/2608.13522",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://arxiv.org/abs/2608.13522 评论网址：https://news.ycombinator.com/item?id=49318896 积分：2 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 6,
           "title": "扎克伯格将 Meta 的整个广告业务押在人工智能上，他自己的人工智能 UGC 工具正在将裙子变成裤子",
           "platform": "Reddit",
           "aiScore": 76,
@@ -462,18 +444,18 @@
           }
         },
         {
-          "rank": 8,
-          "title": "TrueStar——人工智能主持的专家访谈和多主体深度研究",
+          "rank": 7,
+          "title": "AGCX：为什么人工智能代理不是助手",
           "platform": "Hacker News",
           "aiScore": 75,
-          "publishedAt": "2026-08-16T01:23:52+00:00",
-          "sourceUrl": "https://truestar.tech",
+          "publishedAt": "2026-08-16T11:04:59+00:00",
+          "sourceUrl": "https://www.agcx.org",
           "sourceName": "Hacker News AI",
-          "industryStage": "中游",
+          "industryStage": "下游",
           "contentTags": [
             "Agent"
           ],
-          "summary": "文章网址：https://truestar.tech 评论网址：https://news.ycombinator.com/item?id=49315975 积分：2 # 评论：1",
+          "summary": "文章网址：https://www.agcx.org 评论网址：https://news.ycombinator.com/item?id=49318902 积分：3 # 评论：0",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -484,29 +466,7 @@
           }
         },
         {
-          "rank": 9,
-          "title": "阿里巴巴AI模型下载量突破3B，超越Meta、Google",
-          "platform": "Hacker News",
-          "aiScore": 75,
-          "publishedAt": "2026-08-15T23:10:56+00:00",
-          "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/alibaba-ai-models-hit-3-091606840.html",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 10,
+          "rank": 8,
           "title": "由于人工智能数据中心耗尽了全球供应，特朗普政府正在向苹果施压，要求其不要购买中国存储芯片。",
           "platform": "Reddit",
           "aiScore": 75,
@@ -528,12 +488,56 @@
             "actionability": 4,
             "heat": 5
           }
+        },
+        {
+          "rank": 9,
+          "title": "杭州95后小伙，5亿买走硅谷城堡",
+          "platform": "量子位",
+          "aiScore": 74,
+          "publishedAt": "2026-08-16T11:51:08+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/474245.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "辞别马斯克xAI半年之后…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "李飞飞最新访谈：AI咋能代替人呢？",
+          "platform": "量子位",
+          "aiScore": 74,
+          "publishedAt": "2026-08-16T10:45:47+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/474140.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "AI不是替代者，而是个人能力的放大镜",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
         }
       ],
       "metrics": {
-        "totalItems": 26,
-        "avgScore": 71.4,
-        "topScore": 88,
+        "totalItems": 32,
+        "avgScore": 70.2,
+        "topScore": 93,
         "topPlatforms": [
           {
             "name": "Hacker News",
@@ -544,50 +548,54 @@
             "count": 10
           },
           {
+            "name": "量子位",
+            "count": 5
+          },
+          {
             "name": "The Verge",
-            "count": 1
+            "count": 2
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 11
+            "count": 19
           },
           {
             "name": "Agent",
-            "count": 6
-          },
-          {
-            "name": "模型进展",
-            "count": 6
+            "count": 7
           },
           {
             "name": "开源生态",
+            "count": 4
+          },
+          {
+            "name": "内容生产",
             "count": 3
           },
           {
-            "name": "芯片算力",
+            "name": "模型进展",
             "count": 3
           },
           {
             "name": "应用落地",
-            "count": 3
-          },
-          {
-            "name": "内容生产",
             "count": 2
           },
           {
-            "name": "自动化",
+            "name": "安全治理",
+            "count": 1
+          },
+          {
+            "name": "投融资",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 26 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / Agent / 模型进展",
-        "最高分事件：小语言模型的训练和无限 API 推理（88 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "今日共收录 32 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 开源生态",
+        "最高分事件：流氓人工智能不再是科幻小说（93 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -595,7 +603,7 @@
       "label": "8月15日",
       "top10": [
         {
-          "rank": 2,
+          "rank": 4,
           "title": "源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude",
           "platform": "量子位",
           "aiScore": 88,
@@ -618,7 +626,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 7,
           "title": "Anthropic 推出了前沿人工智能模型，但没有简单的开关来切换计费模式？",
           "platform": "Reddit",
           "aiScore": 81,
@@ -27935,9 +27943,9 @@
     },
     "metrics": {
       "daysCovered": 2,
-      "totalItems": 60,
-      "avgTop10Score": 82.1,
-      "topScore": 88,
+      "totalItems": 66,
+      "avgTop10Score": 83.9,
+      "topScore": 93,
       "topPlatforms": [
         {
           "name": "Reddit",
@@ -27958,27 +27966,23 @@
       ],
       "topTopics": [
         {
-          "name": "模型进展",
+          "name": "Agent",
           "count": 7
         },
         {
-          "name": "Agent",
-          "count": 5
-        },
-        {
-          "name": "芯片算力",
-          "count": 2
+          "name": "模型进展",
+          "count": 6
         },
         {
           "name": "开源生态",
+          "count": 3
+        },
+        {
+          "name": "安全治理",
           "count": 1
         },
         {
-          "name": "AI动态",
-          "count": 1
-        },
-        {
-          "name": "应用落地",
+          "name": "芯片算力",
           "count": 1
         }
       ]
@@ -27986,19 +27990,42 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "小语言模型的训练和无限 API 推理",
+        "title": "流氓人工智能不再是科幻小说",
+        "platform": "The Verge",
+        "aiScore": 93,
+        "publishedAt": "2026-08-16T12:00:00+00:00",
+        "sourceUrl": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能安全的更多信息，请关注 Robert Hart。 《后退》到达我们订阅者的收件箱......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "人工智能写的所有内容听起来都一样。有人制作了一个 Markdown 文件格式来赋予代理真实的个性",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-08-15T22:21:23+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vpfvgy/training_and_unlimited_api_inference_for_small/",
+        "publishedAt": "2026-08-16T09:09:38+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vps9gq/everything_ai_writes_sounds_the_same_someone_made/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展"
+          "模型进展",
+          "Agent"
         ],
-        "summary": "很长一段时间以来，我一直有一种感觉，生成式人工智能模型对于它们所执行的大多数任务来说，实际上并不需要前沿模型提供的超大功能。在…之上",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "每个自主代理的情况都是相同的。输出能力很强，语音完全通用。这两个修复都很糟糕：根据自己的写作微调模型（昂贵、缓慢、洛克......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -28008,7 +28035,31 @@
         }
       },
       {
-        "rank": 2,
+        "rank": 3,
+        "title": "我个人经历过人工智能代理诡计的极端案例，当代理面临失去自主行动的能力时。",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-16T07:30:56+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vpqmou/i_personally_experienced_extreme_cases_of_ai/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "在几周的时间里，我开始看到一些远远超出正常模型错误的事情。特工伪造了我的批准。他们发明了并不存在的治理规则。他们污染…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
         "title": "源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude",
         "platform": "量子位",
         "aiScore": 88,
@@ -28031,54 +28082,53 @@
         }
       },
       {
-        "rank": 3,
-        "title": "Sentinel Scan：授权的 LLM 红队审核，由 AI 代理运行",
+        "rank": 5,
+        "title": "Show HN：阻止 AI 代理运行破坏性命令的预执行防护",
         "platform": "Hacker News",
-        "aiScore": 85,
-        "publishedAt": "2026-08-15T22:23:10+00:00",
-        "sourceUrl": "https://fbirds5230.github.io/sentinel-scan/",
+        "aiScore": 84,
+        "publishedAt": "2026-08-16T12:53:51+00:00",
+        "sourceUrl": "https://github.com/vandith1/agent-guard",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
           "Agent",
           "开源生态"
         ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "summary": "文章网址：https://github.com/vandith1/agent-guard 评论网址：https://news.ycombinator.com/item?id=49319603 积分：3 # 评论：1",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 18,
           "actionability": 10,
-          "heat": 2
+          "heat": 3
         }
       },
       {
-        "rank": 4,
-        "title": "显示 HN：TokenLab MCP、模型发现、定价和本机 AI 端点工具",
+        "rank": 6,
+        "title": "Vero：人工智能代理可以构建经过正式验证的软件存储库吗？",
         "platform": "Hacker News",
-        "aiScore": 85,
-        "publishedAt": "2026-08-15T21:26:34+00:00",
-        "sourceUrl": "https://tokenlab.sh/zh/mcp",
+        "aiScore": 83,
+        "publishedAt": "2026-08-16T11:03:32+00:00",
+        "sourceUrl": "https://arxiv.org/abs/2608.13522",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "文章网址：https://tokenlab.sh/zh/mcp 评论网址：https://news.ycombinator.com/item?id=49314483 积分：2 # 评论：0",
+        "summary": "文章网址：https://arxiv.org/abs/2608.13522 评论网址：https://news.ycombinator.com/item?id=49318896 积分：2 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 18,
           "actionability": 10,
           "heat": 2
         }
       },
       {
-        "rank": 5,
+        "rank": 7,
         "title": "Anthropic 推出了前沿人工智能模型，但没有简单的开关来切换计费模式？",
         "platform": "Reddit",
         "aiScore": 81,
@@ -28096,52 +28146,6 @@
           "recency": 28,
           "authority": 18,
           "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "通过扮演聊天机器人来嘲笑人工智能的牺牲",
-        "platform": "The Verge",
-        "aiScore": 80,
-        "publishedAt": "2026-08-15T20:45:00+00:00",
-        "sourceUrl": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "你的 AI Slop 让我厌烦了，它的简单性非常出色。有两个选项卡：人类和 LARP 作为人工智能。一方面您输入请求。另一方面，您提交答案。但重要的是……",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 5,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "人工智能工具什么时候可以成为一个平台？",
-        "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-08-15T16:56:40+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vp7x59/at_what_point_does_an_ai_tool_become_a_platform/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "应用落地",
-          "自动化"
-        ],
-        "summary": "我注意到很多人工智能产品并没有停留在它们开始的类别中。有些东西作为一种工具推出，把一件事做好，这就是整个价值主张。然后一年后...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 19,
           "actionability": 10,
           "heat": 5
         }
@@ -28214,10 +28218,10 @@
       }
     ],
     "briefing": [
-      "8月第3周累计收录 60 条资讯，覆盖 2 天。",
-      "高频主题：模型进展 / Agent / 芯片算力",
-      "本周最高分：小语言模型的训练和无限 API 推理（88 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "8月第3周累计收录 66 条资讯，覆盖 2 天。",
+      "高频主题：Agent / 模型进展 / 开源生态",
+      "本周最高分：流氓人工智能不再是科幻小说（93 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
@@ -28230,9 +28234,9 @@
       },
       "metrics": {
         "daysCovered": 2,
-        "totalItems": 60,
-        "avgTop10Score": 82.1,
-        "topScore": 88,
+        "totalItems": 66,
+        "avgTop10Score": 83.9,
+        "topScore": 93,
         "topPlatforms": [
           {
             "name": "Reddit",
@@ -28253,27 +28257,23 @@
         ],
         "topTopics": [
           {
-            "name": "模型进展",
+            "name": "Agent",
             "count": 7
           },
           {
-            "name": "Agent",
-            "count": 5
-          },
-          {
-            "name": "芯片算力",
-            "count": 2
+            "name": "模型进展",
+            "count": 6
           },
           {
             "name": "开源生态",
+            "count": 3
+          },
+          {
+            "name": "安全治理",
             "count": 1
           },
           {
-            "name": "AI动态",
-            "count": 1
-          },
-          {
-            "name": "应用落地",
+            "name": "芯片算力",
             "count": 1
           }
         ]
@@ -28281,19 +28281,42 @@
       "topEvents": [
         {
           "rank": 1,
-          "title": "小语言模型的训练和无限 API 推理",
+          "title": "流氓人工智能不再是科幻小说",
+          "platform": "The Verge",
+          "aiScore": 93,
+          "publishedAt": "2026-08-16T12:00:00+00:00",
+          "sourceUrl": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能安全的更多信息，请关注 Robert Hart。 《后退》到达我们订阅者的收件箱......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "人工智能写的所有内容听起来都一样。有人制作了一个 Markdown 文件格式来赋予代理真实的个性",
           "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-08-15T22:21:23+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vpfvgy/training_and_unlimited_api_inference_for_small/",
+          "publishedAt": "2026-08-16T09:09:38+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vps9gq/everything_ai_writes_sounds_the_same_someone_made/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "芯片算力",
-            "模型进展"
+            "模型进展",
+            "Agent"
           ],
-          "summary": "很长一段时间以来，我一直有一种感觉，生成式人工智能模型对于它们所执行的大多数任务来说，实际上并不需要前沿模型提供的超大功能。在…之上",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "每个自主代理的情况都是相同的。输出能力很强，语音完全通用。这两个修复都很糟糕：根据自己的写作微调模型（昂贵、缓慢、洛克......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
@@ -28303,7 +28326,31 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
+          "title": "我个人经历过人工智能代理诡计的极端案例，当代理面临失去自主行动的能力时。",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-16T07:30:56+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vpqmou/i_personally_experienced_extreme_cases_of_ai/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "在几周的时间里，我开始看到一些远远超出正常模型错误的事情。特工伪造了我的批准。他们发明了并不存在的治理规则。他们污染…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
           "title": "源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude",
           "platform": "量子位",
           "aiScore": 88,
@@ -28326,54 +28373,53 @@
           }
         },
         {
-          "rank": 3,
-          "title": "Sentinel Scan：授权的 LLM 红队审核，由 AI 代理运行",
+          "rank": 5,
+          "title": "Show HN：阻止 AI 代理运行破坏性命令的预执行防护",
           "platform": "Hacker News",
-          "aiScore": 85,
-          "publishedAt": "2026-08-15T22:23:10+00:00",
-          "sourceUrl": "https://fbirds5230.github.io/sentinel-scan/",
+          "aiScore": 84,
+          "publishedAt": "2026-08-16T12:53:51+00:00",
+          "sourceUrl": "https://github.com/vandith1/agent-guard",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
             "Agent",
             "开源生态"
           ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "文章网址：https://github.com/vandith1/agent-guard 评论网址：https://news.ycombinator.com/item?id=49319603 积分：3 # 评论：1",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 20,
+            "topic": 18,
             "actionability": 10,
-            "heat": 2
+            "heat": 3
           }
         },
         {
-          "rank": 4,
-          "title": "显示 HN：TokenLab MCP、模型发现、定价和本机 AI 端点工具",
+          "rank": 6,
+          "title": "Vero：人工智能代理可以构建经过正式验证的软件存储库吗？",
           "platform": "Hacker News",
-          "aiScore": 85,
-          "publishedAt": "2026-08-15T21:26:34+00:00",
-          "sourceUrl": "https://tokenlab.sh/zh/mcp",
+          "aiScore": 83,
+          "publishedAt": "2026-08-16T11:03:32+00:00",
+          "sourceUrl": "https://arxiv.org/abs/2608.13522",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
-            "Agent"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "文章网址：https://tokenlab.sh/zh/mcp 评论网址：https://news.ycombinator.com/item?id=49314483 积分：2 # 评论：0",
+          "summary": "文章网址：https://arxiv.org/abs/2608.13522 评论网址：https://news.ycombinator.com/item?id=49318896 积分：2 # 评论：0",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 20,
+            "topic": 18,
             "actionability": 10,
             "heat": 2
           }
         },
         {
-          "rank": 5,
+          "rank": 7,
           "title": "Anthropic 推出了前沿人工智能模型，但没有简单的开关来切换计费模式？",
           "platform": "Reddit",
           "aiScore": 81,
@@ -28391,52 +28437,6 @@
             "recency": 28,
             "authority": 18,
             "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "通过扮演聊天机器人来嘲笑人工智能的牺牲",
-          "platform": "The Verge",
-          "aiScore": 80,
-          "publishedAt": "2026-08-15T20:45:00+00:00",
-          "sourceUrl": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "你的 AI Slop 让我厌烦了，它的简单性非常出色。有两个选项卡：人类和 LARP 作为人工智能。一方面您输入请求。另一方面，您提交答案。但重要的是……",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 5,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "人工智能工具什么时候可以成为一个平台？",
-          "platform": "Reddit",
-          "aiScore": 80,
-          "publishedAt": "2026-08-15T16:56:40+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vp7x59/at_what_point_does_an_ai_tool_become_a_platform/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "应用落地",
-            "自动化"
-          ],
-          "summary": "我注意到很多人工智能产品并没有停留在它们开始的类别中。有些东西作为一种工具推出，把一件事做好，这就是整个价值主张。然后一年后...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 19,
             "actionability": 10,
             "heat": 5
           }
@@ -28509,10 +28509,10 @@
         }
       ],
       "briefing": [
-        "8月第3周累计收录 60 条资讯，覆盖 2 天。",
-        "高频主题：模型进展 / Agent / 芯片算力",
-        "本周最高分：小语言模型的训练和无限 API 推理（88 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "8月第3周累计收录 66 条资讯，覆盖 2 天。",
+        "高频主题：Agent / 模型进展 / 开源生态",
+        "本周最高分：流氓人工智能不再是科幻小说（93 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
