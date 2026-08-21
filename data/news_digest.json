@@ -1,232 +1,95 @@
 {
-  "generatedAt": "2026-08-20T13:42:40.001510+00:00",
+  "generatedAt": "2026-08-21T02:22:15.734580+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-08-20",
-    "label": "8月20日",
+    "date": "2026-08-21",
+    "label": "8月21日",
     "top10": [
       {
         "rank": 1,
-        "title": "我构建了一个 AI 工具，可以将原始手写草图转换为实时响应的 Tailwind UI。只需要一分钟，却节省了 2 个小时的手动编码时间……",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-08-20T10:59:19+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vtg8xn/i_built_an_ai_tool_that_turns_raw_handwritten/",
-        "sourceName": "Reddit r/artificial",
+        "title": "OpenCyvis：运行您自己的 LLM 的开源 AI 电话代理",
+        "platform": "Hacker News",
+        "aiScore": 84,
+        "publishedAt": "2026-08-20T22:57:56+00:00",
+        "sourceUrl": "https://github.com/opencyvis/opencyvis-phone",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "应用落地"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "大家好，作为一名前端开发人员，我厌倦了手动将线框转换为响应式 CSS 组件。所以我建立了 SketchCode AI——一个你可以真正画图的平台……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://github.com/opencyvis/opencyvis-phone 评论网址：https://news.ycombinator.com/item?id=49381419 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 19,
+          "topic": 20,
           "actionability": 10,
-          "heat": 5
+          "heat": 1
         }
       },
       {
         "rank": 2,
-        "title": "不受欢迎的观点：大多数企业人工智能试点从未达到生产阶段，因为他们将生成模型应用于需要区分的问题......",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-08-20T10:58:02+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vtg82a/unpopular_take_most_enterprise_ai_pilots_never/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "在金融市场和企业数据基础设施中构建分布式系统近三十年后，我不断看到相同的模式。持续运行的欺诈检测模型……",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "AI代理建议安装恶意软件包。工程师几乎采纳了它的建议",
+        "title": "BTP v2.2 – 用于人工智能代理的开放、离线加密信任协议",
         "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-08-20T12:07:07+00:00",
-        "sourceUrl": "https://www.theregister.com/security/2026/08/20/ai-agent-suggested-installing-a-malware-package-engineer-almost-took-its-advice/5289849",
+        "aiScore": 82,
+        "publishedAt": "2026-08-20T23:08:46+00:00",
+        "sourceUrl": "https://github.com/ivegotahunnitonit/bartholomew",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent",
-          "安全治理"
+          "开源生态"
         ],
-        "summary": "文章网址：https://www.theregister.com/security/2026/08/20/ai-agent-suggested-installing-a-malware-package-engineer-almost-took-its-advice/5289849 评论网址：https://news.ycombinator.c...",
+        "summary": "文章网址：https://github.com/ivegotahunnitonit/bartholomew 评论网址：https://news.ycombinator.com/item?id=49381508 积分：1 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Google Discover 正在获得人工智能聊天机器人调整的提要",
+        "platform": "The Verge",
+        "aiScore": 80,
+        "publishedAt": "2026-08-20T21:50:22+00:00",
+        "sourceUrl": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "Google 很快将允许您通过描述您想要看到的内容来自定义您的 Discover feed。这项新功能将在“未来几天”推出到谷歌应用程序，将使用人工智能来自动...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 5,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "OpenAI",
-        "aiScore": 86,
-        "publishedAt": "2026-08-19T19:00:00+00:00",
-        "sourceUrl": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-        "sourceName": "OpenAI News",
-        "industryStage": "中游",
+        "title": "汤森路透推出 CoCounsel Legal，采用 Westlaw 支持的代理工作流程",
+        "platform": "Reddit",
+        "aiScore": 80,
+        "publishedAt": "2026-08-20T20:00:35+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vtuapq/thomson_reuters_launches_cocounsel_legal_with_a/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
         "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "OpenAI 重申对符合条件的 API 客户实行零数据保留，并预览私人安全处理，以在不损害数据隐私的情况下实现高级 AI 安全。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "Slack 正在推出协作振动编码频道",
-        "platform": "The Verge",
-        "aiScore": 85,
-        "publishedAt": "2026-08-20T12:00:00+00:00",
-        "sourceUrl": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "闭源RSI的严父：18个Agent自主科研，Kimi K3靠Harness逼近Opus 5",
-        "platform": "量子位",
-        "aiScore": 85,
-        "publishedAt": "2026-08-20T09:46:23+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/476199.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "经典RSI剧本开始动摇",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "询问 HN：您在生产中一直运行哪些人工智能自动化？",
-        "platform": "Hacker News",
-        "aiScore": 81,
-        "publishedAt": "2026-08-20T12:03:31+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49373445",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
+          "Agent",
           "应用落地",
           "自动化"
         ],
-        "summary": "评论网址：https://news.ycombinator.com/item?id=49373445 积分：1 # 评论：1",
+        "summary": "汤森路透表示，下一代 CoCounsel Legal 现已全面上市。它将法律研究、起草、验证和事项工作流程整合到一个基于 West 的产品中……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 16,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 8,
-        "title": "对齐税：企业 AI 护栏使您的计算费用增加 25-35%，但没有人谈论它",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-08-20T06:42:55+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vtbsca/the_alignment_tax_corporate_ai_guardrails_add/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "每个企业人工智能预算中都有一个几乎没有人审计的成本项目。它不会出现在发票上。定价等级比较中并未细分。但它代表着……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "我构建了一个自定义多代理框架 (GenOS) 来自主演化算法。我将 3 个基本 AI 范式与 NP-Har 进行了比较……",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-08-19T20:47:42+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vsyo3j/i_built_a_custom_multiagent_framework_genos_to/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "大家好，有一段时间，我一直在开发一个名为 GenOS 的专有多代理框架。在不透露具体机制的情况下，GenOS 是一个协调器，其中自主的法学硕士……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "MiniMax Design 来了，视频模型也有了自己的 Codex",
-        "platform": "爱范儿",
-        "aiScore": 80,
-        "publishedAt": "2026-08-20T02:03:30+00:00",
-        "sourceUrl": "https://www.ifanr.com/1675657",
-        "sourceName": "爱范儿",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地",
-          "内容生产"
-        ],
-        "summary": "一款要抢走专业创作软件的应用 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 28,
           "authority": 18,
@@ -234,12 +97,146 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 5,
+        "title": "你们三个人告诉我，我的法学硕士简历筛选研究测量了错误的东西。你是对的。这是数据。",
+        "platform": "Reddit",
+        "aiScore": 79,
+        "publishedAt": "2026-08-20T16:37:54+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vtokti/three_of_you_told_me_my_llm_résuméscreening_study/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "双子座是故意不诚实的吗？",
+        "platform": "Reddit",
+        "aiScore": 79,
+        "publishedAt": "2026-08-20T16:22:56+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vto66x/is_gemini_deliberately_dishonest/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "安全治理"
+        ],
+        "summary": "每当我在 Android 上向 Gemini 询问我过去与它的对话时，它都会声称它采用隐私模型，只知道当前的对话。试图刻意地……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "问 HN：构建军事硬件和医疗保健是否能够抵御人工智能？",
+        "platform": "Hacker News",
+        "aiScore": 77,
+        "publishedAt": "2026-08-21T00:12:43+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=49382011",
+        "sourceName": "Hacker News AI",
+        "industryStage": "下游",
+        "contentTags": [
+          "应用落地"
+        ],
+        "summary": "随着开发软件作为一项技能变得就像在快餐公司煎汉堡一样，为军事和医疗保健等常青行业构建硬件是实际的唯一出路……",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 9,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "我在政治、道德和人格特质方面建立了前沿 AI LLM 模型",
+        "platform": "Hacker News",
+        "aiScore": 76,
+        "publishedAt": "2026-08-21T01:26:01+00:00",
+        "sourceUrl": "https://www.blackbench.ai/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "文章网址：https://www.blackbench.ai/ 评论网址：https://news.ycombinator.com/item?id=49382540 积分：2 # 评论：2",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 3
+        }
+      },
+      {
+        "rank": 9,
+        "title": "人工智能的“中产阶级”在黑客攻击方面取得了显着的进步",
+        "platform": "Hacker News",
+        "aiScore": 75,
+        "publishedAt": "2026-08-20T23:41:35+00:00",
+        "sourceUrl": "https://cyberscoop.com/mid-tier-ai-models-hacking-threat/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "文章网址：https://cyberscoop.com/mid-tier-ai-models-hacking-threat/ 评论网址：https://news.ycombinator.com/item?id=49381800 积分：2 # 评论：0",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 10,
+        "title": "作家的困境：批评家庭成员的人工智能生成的小说",
+        "platform": "Reddit",
+        "aiScore": 74,
+        "publishedAt": "2026-08-21T01:28:34+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vu2d4p/writers_dilemma_critiquing_a_family_members/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "内容生产"
+        ],
+        "summary": "长话短说：我的继父在一月份被解雇了。我和丈夫都勉强容忍了这个男人。他的自负和怪癖让他很难相处，但幸运的是……",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 6,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "metrics": {
-      "totalItems": 48,
-      "avgScore": 71.9,
-      "topScore": 87,
+      "totalItems": 26,
+      "avgScore": 70.4,
+      "topScore": 84,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -247,49 +244,49 @@
         },
         {
           "name": "Reddit",
-          "count": 13
-        },
-        {
-          "name": "量子位",
-          "count": 9
-        },
-        {
-          "name": "The Verge",
-          "count": 4
+          "count": 8
         },
         {
           "name": "爱范儿",
-          "count": 4
+          "count": 1
+        },
+        {
+          "name": "The Verge",
+          "count": 1
+        },
+        {
+          "name": "Hugging Face",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 23
+          "count": 12
         },
         {
           "name": "模型进展",
-          "count": 11
-        },
-        {
-          "name": "Agent",
           "count": 7
         },
         {
-          "name": "应用落地",
-          "count": 5
-        },
-        {
           "name": "内容生产",
-          "count": 4
-        },
-        {
-          "name": "安全治理",
-          "count": 4
-        },
-        {
-          "name": "芯片算力",
           "count": 3
+        },
+        {
+          "name": "Agent",
+          "count": 3
+        },
+        {
+          "name": "开源生态",
+          "count": 3
+        },
+        {
+          "name": "应用落地",
+          "count": 2
+        },
+        {
+          "name": "投融资",
+          "count": 1
         },
         {
           "name": "自动化",
@@ -298,13 +295,313 @@
       ]
     },
     "briefing": [
-      "今日共收录 48 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：我构建了一个 AI 工具，可以将原始手写草图转换为实时响应的 Tailwind UI。只需要一分钟，却节省了 2 个小时的手动编码时间……（87 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 26 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / 内容生产",
+      "最高分事件：OpenCyvis：运行您自己的 LLM 的开源 AI 电话代理（84 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-08-21",
+      "label": "8月21日",
+      "top10": [
+        {
+          "rank": 1,
+          "title": "OpenCyvis：运行您自己的 LLM 的开源 AI 电话代理",
+          "platform": "Hacker News",
+          "aiScore": 84,
+          "publishedAt": "2026-08-20T22:57:56+00:00",
+          "sourceUrl": "https://github.com/opencyvis/opencyvis-phone",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/opencyvis/opencyvis-phone 评论网址：https://news.ycombinator.com/item?id=49381419 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 2,
+          "title": "BTP v2.2 – 用于人工智能代理的开放、离线加密信任协议",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-08-20T23:08:46+00:00",
+          "sourceUrl": "https://github.com/ivegotahunnitonit/bartholomew",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/ivegotahunnitonit/bartholomew 评论网址：https://news.ycombinator.com/item?id=49381508 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Google Discover 正在获得人工智能聊天机器人调整的提要",
+          "platform": "The Verge",
+          "aiScore": 80,
+          "publishedAt": "2026-08-20T21:50:22+00:00",
+          "sourceUrl": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "Google 很快将允许您通过描述您想要看到的内容来自定义您的 Discover feed。这项新功能将在“未来几天”推出到谷歌应用程序，将使用人工智能来自动...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 5,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "汤森路透推出 CoCounsel Legal，采用 Westlaw 支持的代理工作流程",
+          "platform": "Reddit",
+          "aiScore": 80,
+          "publishedAt": "2026-08-20T20:00:35+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vtuapq/thomson_reuters_launches_cocounsel_legal_with_a/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "应用落地",
+            "自动化"
+          ],
+          "summary": "汤森路透表示，下一代 CoCounsel Legal 现已全面上市。它将法律研究、起草、验证和事项工作流程整合到一个基于 West 的产品中……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "你们三个人告诉我，我的法学硕士简历筛选研究测量了错误的东西。你是对的。这是数据。",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-08-20T16:37:54+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vtokti/three_of_you_told_me_my_llm_résuméscreening_study/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "双子座是故意不诚实的吗？",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-08-20T16:22:56+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vto66x/is_gemini_deliberately_dishonest/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "每当我在 Android 上向 Gemini 询问我过去与它的对话时，它都会声称它采用隐私模型，只知道当前的对话。试图刻意地……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "问 HN：构建军事硬件和医疗保健是否能够抵御人工智能？",
+          "platform": "Hacker News",
+          "aiScore": 77,
+          "publishedAt": "2026-08-21T00:12:43+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=49382011",
+          "sourceName": "Hacker News AI",
+          "industryStage": "下游",
+          "contentTags": [
+            "应用落地"
+          ],
+          "summary": "随着开发软件作为一项技能变得就像在快餐公司煎汉堡一样，为军事和医疗保健等常青行业构建硬件是实际的唯一出路……",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 9,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "我在政治、道德和人格特质方面建立了前沿 AI LLM 模型",
+          "platform": "Hacker News",
+          "aiScore": 76,
+          "publishedAt": "2026-08-21T01:26:01+00:00",
+          "sourceUrl": "https://www.blackbench.ai/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://www.blackbench.ai/ 评论网址：https://news.ycombinator.com/item?id=49382540 积分：2 # 评论：2",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 3
+          }
+        },
+        {
+          "rank": 9,
+          "title": "人工智能的“中产阶级”在黑客攻击方面取得了显着的进步",
+          "platform": "Hacker News",
+          "aiScore": 75,
+          "publishedAt": "2026-08-20T23:41:35+00:00",
+          "sourceUrl": "https://cyberscoop.com/mid-tier-ai-models-hacking-threat/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://cyberscoop.com/mid-tier-ai-models-hacking-threat/ 评论网址：https://news.ycombinator.com/item?id=49381800 积分：2 # 评论：0",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 10,
+          "title": "作家的困境：批评家庭成员的人工智能生成的小说",
+          "platform": "Reddit",
+          "aiScore": 74,
+          "publishedAt": "2026-08-21T01:28:34+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vu2d4p/writers_dilemma_critiquing_a_family_members/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "内容生产"
+          ],
+          "summary": "长话短说：我的继父在一月份被解雇了。我和丈夫都勉强容忍了这个男人。他的自负和怪癖让他很难相处，但幸运的是……",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 6,
+            "actionability": 10,
+            "heat": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 26,
+        "avgScore": 70.4,
+        "topScore": 84,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 8
+          },
+          {
+            "name": "爱范儿",
+            "count": 1
+          },
+          {
+            "name": "The Verge",
+            "count": 1
+          },
+          {
+            "name": "Hugging Face",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 12
+          },
+          {
+            "name": "模型进展",
+            "count": 7
+          },
+          {
+            "name": "内容生产",
+            "count": 3
+          },
+          {
+            "name": "Agent",
+            "count": 3
+          },
+          {
+            "name": "开源生态",
+            "count": 3
+          },
+          {
+            "name": "应用落地",
+            "count": 2
+          },
+          {
+            "name": "投融资",
+            "count": 1
+          },
+          {
+            "name": "自动化",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 26 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / 内容生产",
+        "最高分事件：OpenCyvis：运行您自己的 LLM 的开源 AI 电话代理（84 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      ]
+    },
     {
       "date": "2026-08-20",
       "label": "8月20日",
@@ -27599,316 +27896,6 @@
         "最高分事件：对话VITURE姜公略：什么才是XR眼镜该有的样子？（95 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
-    },
-    {
-      "date": "2026-05-23",
-      "label": "5月23日",
-      "top10": [
-        {
-          "rank": 7,
-          "title": "圆桌对话：下一个杀手级AI产品，会出现在哪个赛道？| 2026AI Partner·北京亦庄AI+产业大会",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-23T10:10:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3821714896408713?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "下一个杀手级AI产品，是眼镜、是Agent，还是某个尚未命名的“物理世界入口”？这场圆桌没有标准答案，却达成一个共识：单纯套壳大模型的应用注定短命，只有长期在线、连接物理世界、能完成真实交互闭环的产品，才可能成为下一个百亿级赛道。从AI眼镜到具身智能，入口之争已悄然打响。 硬件先行还是生态为王？C端规模还是B端付费？最终指向同一个逻辑：纯套壳应用、弱交互硬件注定被淘汰，只有“…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "圆桌对话：当AI进入产业前线：未来最稀缺的AI人才，会是谁？| 2026AI Partner·北京亦庄AI+产业大会",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-23T07:14:29+00:00",
-          "sourceUrl": "https://36kr.com/p/3821542483857801?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "稀缺的，到底是懂AI的人，还是懂业务的人？ 一个反直觉的判断——懂AI这件事正在快速贬值，而能在关键低频决策中做出判断的人，才是未来的稀缺品。高频重复的工作最容易被AI替代，但在打造爆品、建立品牌等低频高影响力的决策上，人的判断依然不可替代，企业AI转型的最大卡点也不是技术或数据，而是“想不到应用场景”， 当前AI的利润大头仍在基础设施层，应用端的ROI尚未完全释放，但拐点会…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "圆桌对话：人才特种兵：“AI原生人才”与“产业老炮”的共生手册| 2026AI Partner·北京亦庄AI+产业大会",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-23T07:05:47+00:00",
-          "sourceUrl": "https://36kr.com/p/3821533415985283?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "真正AI原生的人，甚至不会来这个现场。但对于那些积极转型的20%，如何找到、培养并留住他们，这里有一本实战手册。 只有1%的企业是AI原生企业，20%积极拥抱变化，80%在苦苦挣扎；人才亦然。圆桌深入探讨了企业“赶时髦招AI人才”的焦虑、通过黑客松内部挖掘AI人才的方法、以及“事业留人、文化留人”的留存策略。 以下为圆桌对话内容，经36氪整理编辑： 帮主丨36氪《AI局内人》…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "对话王小川：离开通用人工智能的主干道之后",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-23T06:53:35+00:00",
-          "sourceUrl": "https://36kr.com/p/3821521291038856?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "“如果没有转型，继续走主流道路，你也会有同等程度的焦虑。”王小川说，这次转型，让他真正回归到从创业第一天就最想做的事情：造AI医生。 访谈｜邓咏仪 杨轩 文｜邓咏仪 编辑｜张雨忻 一年前，王小川带着百川智能来了一次激烈的“大刹车”：大幅缩减通用模型团队，关闭金融等多条行业线，All in医疗大模型。但与此同时，整个大模型行业却热闹非凡，大厂和创业公司轮番进行“轰炸式更新”——…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "圆桌对话：AI浓度与转化率：数字体验的实战增长法则",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-23T06:53:25+00:00",
-          "sourceUrl": "https://36kr.com/p/3821519307591811?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "AI浓度并非越高越好，转化率的秘密在于人机共生的平衡点。 “AI应像手机一样贯穿全流程”，而面对亲子游客和老年群体，主动将AI浓度降至50%，却实现了超50%的转化率。浓度的关键是以人为本、文化温度先行。 以下为圆桌对话内容，经36氪整理编辑： 薛冰丨上海蜚语信息科技副总裁（主持） 崔健南丨广州搞搞镇文化科技创始人兼CEO 杨晟丨珀乐互动科技创始人 薛冰： 各位嘉宾大家下午好…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-23T04:20:48+00:00",
-          "sourceUrl": "https://36kr.com/p/3821371042877575?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，北京维泛智能科技有限公司（以下简称“维泛智能”）近日完成数亿元种子轮融资，由中关村资本及旗下启航投资联合领投，上海未来产业基金、石溪资本、佰维存储、燕创集团、海益投资、探元创投共同投资。 维泛智能成立于2025年5月，孵化自北京大学类脑芯片实验室（PAICORE Lab），专注于具身智能“大小脑”融合芯片研发，致力于打造全国产化机…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "9点1氪丨永辉超市向王健林等追债超36亿元；《柳叶刀》：全球近12亿人有精神障碍；微信回应“只能撤回2分钟内消息”",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-23T01:13:16+00:00",
-          "sourceUrl": "https://36kr.com/p/3821177784881541?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "今日热点导览 曝泡泡玛特8.8亿买楼：不予置评 雷军透露小米YU7临时降价 教育部拟同意设置34所新大学 腾讯承诺不再与相关版权方达成或变相达成版权独家授权合同 特朗普凯旋门方案获批 TOP 3大新闻 永辉超市向王健林等追债超36亿元 5月21日，永辉超市发布公告称，公司于近日收到法院出具的《受理案件通知书》。永辉超市与大连御锦贸易有限公司（以下简称大连御锦）、王健林、孙喜双…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "用AI来管公司，Moka推出三款AI HR工具｜涌现新栏目",
-          "platform": "36氪",
-          "aiScore": 87,
-          "publishedAt": "2026-05-23T02:00:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3819979202253189?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "应用落地",
-            "内容生产"
-          ],
-          "summary": "作者｜梁键强 编辑｜王毓婵 一句话介绍 Moka为AI人力资源软件服务商，早期从智能化招聘管理系统起步，后逐步扩展至更完整的HR管理系统。5月，Moka上线了招聘Eva、人事Eva和BPEva三款AI HR产品。 招聘Eva覆盖招聘全流程，辅助企业完成识人、筛选和面试；人事Eva聚焦报表处理、流程流转和员工咨询等重复事务；BPEva则用于动态更新人才画像，辅助企业进行人才识别…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "对齐：高于约束的高阶优先级 [R]",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-05-23T13:09:14+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tlg2ot/alignment_higher_order_prioritizing_over/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "因此，我遇到了一种我觉得有趣的行为，可能会导致调整或安全研究。我将尝试在不泄露内容的情况下对所发生的事情进行抽象描述......",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "谷歌新的万物互联人工智能模型非常疯狂",
-          "platform": "The Verge",
-          "aiScore": 85,
-          "publishedAt": "2026-05-23T11:00:00+00:00",
-          "sourceUrl": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "去年，我深度伪造了我孩子的毛绒动物，让它看起来像是他的毛绒鹿在度假。这是一个实验，看看我是否可以重新创建双子座广告谷歌中描述的事件......",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 51,
-        "avgScore": 74.5,
-        "topScore": 95,
-        "topPlatforms": [
-          {
-            "name": "Reddit",
-            "count": 16
-          },
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "36氪",
-            "count": 10
-          },
-          {
-            "name": "量子位",
-            "count": 4
-          },
-          {
-            "name": "The Verge",
-            "count": 3
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "模型进展",
-            "count": 18
-          },
-          {
-            "name": "AI动态",
-            "count": 18
-          },
-          {
-            "name": "Agent",
-            "count": 11
-          },
-          {
-            "name": "芯片算力",
-            "count": 11
-          },
-          {
-            "name": "开源生态",
-            "count": 8
-          },
-          {
-            "name": "应用落地",
-            "count": 7
-          },
-          {
-            "name": "投融资",
-            "count": 2
-          },
-          {
-            "name": "内容生产",
-            "count": 2
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 51 条 AI 资讯，Top10 通报见下。",
-        "高频主题：模型进展 / AI动态 / Agent",
-        "最高分事件：圆桌对话：下一个杀手级AI产品，会出现在哪个赛道？| 2026AI Partner·北京亦庄AI+产业大会（95 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
     }
   ],
   "currentWeek": {
@@ -27919,8 +27906,8 @@
       "end": "2026-08-21"
     },
     "metrics": {
-      "daysCovered": 6,
-      "totalItems": 258,
+      "daysCovered": 7,
+      "totalItems": 284,
       "avgTop10Score": 89.5,
       "topScore": 93,
       "topPlatforms": [
@@ -28210,7 +28197,7 @@
       }
     ],
     "briefing": [
-      "8月第3周累计收录 258 条资讯，覆盖 6 天。",
+      "8月第3周累计收录 284 条资讯，覆盖 7 天。",
       "高频主题：Agent / 模型进展 / 芯片算力",
       "本周最高分：IDC发布2026中国AI50强：360以“智能体+安全”双轮驱动入选（93 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -28225,8 +28212,8 @@
         "end": "2026-08-21"
       },
       "metrics": {
-        "daysCovered": 6,
-        "totalItems": 258,
+        "daysCovered": 7,
+        "totalItems": 284,
         "avgTop10Score": 89.5,
         "topScore": 93,
         "topPlatforms": [
@@ -28516,7 +28503,7 @@
         }
       ],
       "briefing": [
-        "8月第3周累计收录 258 条资讯，覆盖 6 天。",
+        "8月第3周累计收录 284 条资讯，覆盖 7 天。",
         "高频主题：Agent / 模型进展 / 芯片算力",
         "本周最高分：IDC发布2026中国AI50强：360以“智能体+安全”双轮驱动入选（93 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -32388,8 +32375,8 @@
         "end": "2026-05-28"
       },
       "metrics": {
-        "daysCovered": 6,
-        "totalItems": 277,
+        "daysCovered": 5,
+        "totalItems": 226,
         "avgTop10Score": 95.0,
         "topScore": 95,
         "topPlatforms": [
@@ -32659,7 +32646,7 @@
         }
       ],
       "briefing": [
-        "5月第4周累计收录 277 条资讯，覆盖 6 天。",
+        "5月第4周累计收录 226 条资讯，覆盖 5 天。",
         "高频主题：模型进展 / Agent / 芯片算力",
         "本周最高分：科大讯飞发布讯飞AI眼镜（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
