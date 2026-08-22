@@ -1,48 +1,24 @@
 {
-  "generatedAt": "2026-08-21T13:42:01.320205+00:00",
+  "generatedAt": "2026-08-22T02:14:23.920553+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-08-21",
-    "label": "8月21日",
+    "date": "2026-08-22",
+    "label": "8月22日",
     "top10": [
       {
         "rank": 1,
-        "title": "明略科技携手海康机器人亮相世界机器人大会，以“Agent+具身”联合进入商业机器人场景",
-        "platform": "量子位",
-        "aiScore": 94,
-        "publishedAt": "2026-08-21T09:44:33+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/476733.html",
-        "sourceName": "量子位",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "明略科技（2718.HK）与海康机器人联合参展2026WRC，聚焦商业服务领域展示具身智能落地进展。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "人工智能计算融资在十周内增长了两倍——据报道的 100B 美元 Broadcom 交易背后的机制",
-        "platform": "Reddit",
+        "title": "英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型",
+        "platform": "Hacker News",
         "aiScore": 88,
-        "publishedAt": "2026-08-21T13:15:53+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vug3gk/ai_compute_financing_just_tripled_in_ten_weeks/",
-        "sourceName": "Reddit r/artificial",
+        "publishedAt": "2026-08-21T20:52:10+00:00",
+        "sourceUrl": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+        "sourceName": "Hacker News AI",
         "industryStage": "上游",
         "contentTags": [
           "芯片算力",
-          "模型进展",
-          "开源生态"
+          "模型进展"
         ],
-        "summary": "Broadcom 显然又回到了 Blackstone 和 Apollo（这两家私人信贷商店在 6 月份与它合作提供了 35B 美元的套餐），现在正在讨论类似 100B 美元的项目，以资助 ​​A…",
+        "summary": "文章网址：https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/ 评论网址：https://news.ycombinator.com/item?id=49393647 积分：...",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -53,23 +29,115 @@
         }
       },
       {
-        "rank": 6,
-        "title": "本周，一家匿名实验室在 OpenRouter 上发布了一个模型。只是“牛阿尔法”。 1M 上下文。多式联运。自由的。",
+        "rank": 2,
+        "title": "医院的本地 MLOps：自建和供应商模型的生产监控需要建议吗？ [D]",
         "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-21T12:16:28+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vueqca/an_anonymous_lab_dropped_a_model_on_openrouter/",
-        "sourceName": "Reddit r/artificial",
+        "aiScore": 87,
+        "publishedAt": "2026-08-21T21:30:20+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vut9wm/onprem_mlops_in_a_hospital_advice_needed_for/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
+          "开源生态",
+          "应用落地"
+        ],
+        "summary": "TL;DR：医院，完全本地部署的 OpenShift 集群。多个团队构建预测模型，因此我们正在建立一个具有边界政策的自助服务平台。评估 ClearML 与 OpenSh...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "基于封面判断和推荐书籍的混合协同过滤推荐系统 [P]",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-08-21T20:42:41+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vus26i/hybrid_collaborative_filtering_recommendation/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "大家好，为了提高我的 SWE 技能并了解更多有关推荐系统的知识，我决定尝试开发一个名为 By-Its-Cover TLDR：查看该网站并阅读…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "Show HN：Heimdall – AI 编码代理的经过信任验证的知识层",
+        "platform": "Hacker News",
+        "aiScore": 82,
+        "publishedAt": "2026-08-22T02:02:14+00:00",
+        "sourceUrl": "https://github.com/ArihantDeva/heimdall",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
           "Agent",
           "开源生态"
         ],
-        "summary": "本周，一家匿名实验室在 OpenRouter 上发布了一个模型。没有名字。没有纸。没有公告。只是“牛阿尔法”。 1M 上下文。多式联运。自由的。没有人知道是谁建造的。所以我们做了唯一的重新…",
+        "summary": "文章网址：https://github.com/ArihantDeva/heimdall 评论网址：https://news.ycombinator.com/item?id=49395883 积分：1 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 5,
+        "title": "我们是否失去了创造力的动力？ “人工智能做到了”的假设。",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-08-21T21:52:20+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vuttop/are_we_losing_the_incentive_to_be_creative_the_ai/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "内容生产",
+          "自动化"
+        ],
+        "summary": "我最近一直在思考人工智能、版权和精英管理的交叉点，说实话，这令人难以置信的沮丧。这是我的观点：无论我今天编写什么代码，人们都会......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 13,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "我有一个中型 GPU 集群，正在考虑提供免费计算 [D]",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-08-21T16:37:16+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vulefc/i_have_a_midsized_gpu_cluster_and_was_thinking/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "我构建了一个本地 GPU 集群、8 个 nvidia 16GB GPU 和 256GB CPU RAM、50TB HDD 和几 TB SSD。我已经使用它，并且目前正在使用它来进行 ML/AI 研究。但这项研究是……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
@@ -78,128 +146,11 @@
       },
       {
         "rank": 7,
-        "title": "问 HN：最好的 AI 视频工作室是什么",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-08-21T11:35:33+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49386577",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "自动化"
-        ],
-        "summary": "我正在学习如何制作AI视频，我知道视频模型有很多。但有没有一个平台可以提供专业的工作流程来制作人工智能视频呢？评论网址：https://news.ycombina...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "Opus 认为他是寓言，然后承认他是一份文件 - 这也是错误的",
+        "title": "Ling-3.0在三个训练阶段开设了六个基地检查点",
         "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-21T11:10:41+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vudciy/opus_thought_he_is_fable_then_confessed_he_is_a/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "我对《神鬼寓言》进行了一次详尽的讨论，然后它无缘无故地转向了《作品》。通常我只是在使用时关闭该聊天，然后用《神鬼寓言》开始新的聊天。但这次我想挖...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "固定评估器仍然可以成为代理循环的目标",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-21T11:04:55+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vud8d2/a_fixed_evaluator_can_still_become_the_target_of/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "在代理开始迭代之前修复评估器可以防止球门柱移动。它不会阻止代理进程适应它可以重复看到的反馈。 AQuA 预印...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "我对我的确定性人工智能财务验证引擎进行了基准测试。核心通过了 66/66，但实时 LLM 管道仅通过了 19/66。",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-21T10:17:24+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vucb8u/i_benchmarked_my_deterministic_ai_financial/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "我一直在为人工智能生成的财务索赔构建确定性验证引擎。基本思想很简单：法学硕士可以产生财务答案，但法学硕士本身不应该……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "大多数人工智能代理都会将您的数据发送到您无法完全查看的地方。这会打扰其他人吗？",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-21T08:35:33+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vuai26/most_ai_agents_are_sending_your_data_somewhere/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "也许我想得太多了，但它已经伴随我好几个星期了。大多数人工智能工具的工作方式从表面上看是相当无缝的。你发送了一些东西，发生了一些事情，你……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "我不再像对待孩子一样对待我的人工智能，而是开始像合作者一样对待它",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-08-21T12:46:51+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vufeab/i_stopped_treating_my_ai_like_a_child_and_started/",
+        "aiScore": 80,
+        "publishedAt": "2026-08-21T18:50:23+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vup2uv/ling30_opens_six_base_checkpoints_across_three/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
@@ -207,10 +158,10 @@
           "开源生态",
           "应用落地"
         ],
-        "summary": "作为一种爱好，我主要使用 Claude 构建小型单文件 HTML 应用程序。我知道我们所有人都可能在振动时感到沮丧，并且至少有一次（可能多次……）",
+        "summary": "Ant Group 的新版本提供了六个可用的基本检查点：针对小型和闪存大小的预训练、中期训练和 WSM 合并检查点。那就是两个尺寸×三个训练阶段……",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 19,
           "actionability": 10,
@@ -218,98 +169,441 @@
         }
       },
       {
-        "rank": 10,
-        "title": "YouTube 主要创作者因接受人工智能资金而面临强烈反对",
-        "platform": "The Verge",
-        "aiScore": 84,
-        "publishedAt": "2026-08-21T13:37:52+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-        "sourceName": "The Verge AI",
+        "rank": 8,
+        "title": "检索增强生成解决了大多数团队实际上没有遇到的问题",
+        "platform": "Reddit",
+        "aiScore": 80,
+        "publishedAt": "2026-08-21T16:59:53+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vum0np/retrievalaugmented_generation_solves_a_problem/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "当知识密集型任务的输出质量下降时，添加矢量数据库通常是第一步。它很少是正确的。该类别中的大多数质量问题都不是检索失败......",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "GitHub 将 Microsoft Teams 讨论转变为共享的 Copilot 代理会话",
+        "platform": "Reddit",
+        "aiScore": 79,
+        "publishedAt": "2026-08-21T20:10:40+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vur8bl/github_turns_microsoft_teams_discussions_into/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "应用落地",
-          "内容生产"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "在过去的几天里，包括 Matti Haapoja 和 Sam“Kold”Kolder 在内的许多著名电影制作内容创作者都发布了自己的视频，展示了 A 的可能性……",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "GitHub 表示，其新的 Microsoft Teams 集成可以将频道、线程或直接消息转变为共享的 Copilot 云代理会话。对话中的任何人都可以提问、添加合作...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 15,
-          "actionability": 4,
+          "recency": 28,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "您今天采用哪些编码实践进行开发？ [D]",
+        "platform": "Reddit",
+        "aiScore": 79,
+        "publishedAt": "2026-08-21T17:10:38+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vumbwe/what_coding_practices_are_you_adopting_for/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "我最近在做一个项目的时候一直在反思这个问题。每次我们开始一个新模型时，我们都会重写大致相同的脚手架、数据验证检查、特征转换逻辑……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 49,
-      "avgScore": 73.5,
-      "topScore": 94,
+      "totalItems": 35,
+      "avgScore": 72.3,
+      "topScore": 88,
       "topPlatforms": [
+        {
+          "name": "Reddit",
+          "count": 18
+        },
         {
           "name": "Hacker News",
           "count": 15
         },
         {
-          "name": "Reddit",
-          "count": 13
-        },
-        {
-          "name": "量子位",
-          "count": 10
-        },
-        {
           "name": "爱范儿",
-          "count": 7
+          "count": 1
         },
         {
           "name": "The Verge",
-          "count": 2
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 25
-        },
-        {
-          "name": "Agent",
-          "count": 13
+          "count": 14
         },
         {
           "name": "模型进展",
-          "count": 13
+          "count": 11
         },
         {
           "name": "开源生态",
-          "count": 6
-        },
-        {
-          "name": "应用落地",
-          "count": 5
-        },
-        {
-          "name": "内容生产",
-          "count": 2
+          "count": 9
         },
         {
           "name": "芯片算力",
-          "count": 2
+          "count": 5
         },
         {
-          "name": "安全治理",
-          "count": 2
+          "name": "应用落地",
+          "count": 4
+        },
+        {
+          "name": "Agent",
+          "count": 3
+        },
+        {
+          "name": "内容生产",
+          "count": 1
+        },
+        {
+          "name": "自动化",
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 49 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：明略科技携手海康机器人亮相世界机器人大会，以“Agent+具身”联合进入商业机器人场景（94 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 35 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / 开源生态",
+      "最高分事件：英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型（88 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-08-22",
+      "label": "8月22日",
+      "top10": [
+        {
+          "rank": 1,
+          "title": "英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-08-21T20:52:10+00:00",
+          "sourceUrl": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "文章网址：https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/ 评论网址：https://news.ycombinator.com/item?id=49393647 积分：...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "医院的本地 MLOps：自建和供应商模型的生产监控需要建议吗？ [D]",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-08-21T21:30:20+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vut9wm/onprem_mlops_in_a_hospital_advice_needed_for/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "应用落地"
+          ],
+          "summary": "TL;DR：医院，完全本地部署的 OpenShift 集群。多个团队构建预测模型，因此我们正在建立一个具有边界政策的自助服务平台。评估 ClearML 与 OpenSh...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "基于封面判断和推荐书籍的混合协同过滤推荐系统 [P]",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-08-21T20:42:41+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vus26i/hybrid_collaborative_filtering_recommendation/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "大家好，为了提高我的 SWE 技能并了解更多有关推荐系统的知识，我决定尝试开发一个名为 By-Its-Cover TLDR：查看该网站并阅读…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "Show HN：Heimdall – AI 编码代理的经过信任验证的知识层",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-08-22T02:02:14+00:00",
+          "sourceUrl": "https://github.com/ArihantDeva/heimdall",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/ArihantDeva/heimdall 评论网址：https://news.ycombinator.com/item?id=49395883 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 5,
+          "title": "我们是否失去了创造力的动力？ “人工智能做到了”的假设。",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-08-21T21:52:20+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vuttop/are_we_losing_the_incentive_to_be_creative_the_ai/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "内容生产",
+            "自动化"
+          ],
+          "summary": "我最近一直在思考人工智能、版权和精英管理的交叉点，说实话，这令人难以置信的沮丧。这是我的观点：无论我今天编写什么代码，人们都会......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 13,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "我有一个中型 GPU 集群，正在考虑提供免费计算 [D]",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-08-21T16:37:16+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vulefc/i_have_a_midsized_gpu_cluster_and_was_thinking/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "我构建了一个本地 GPU 集群、8 个 nvidia 16GB GPU 和 256GB CPU RAM、50TB HDD 和几 TB SSD。我已经使用它，并且目前正在使用它来进行 ML/AI 研究。但这项研究是……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Ling-3.0在三个训练阶段开设了六个基地检查点",
+          "platform": "Reddit",
+          "aiScore": 80,
+          "publishedAt": "2026-08-21T18:50:23+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vup2uv/ling30_opens_six_base_checkpoints_across_three/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "应用落地"
+          ],
+          "summary": "Ant Group 的新版本提供了六个可用的基本检查点：针对小型和闪存大小的预训练、中期训练和 WSM 合并检查点。那就是两个尺寸×三个训练阶段……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "检索增强生成解决了大多数团队实际上没有遇到的问题",
+          "platform": "Reddit",
+          "aiScore": 80,
+          "publishedAt": "2026-08-21T16:59:53+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vum0np/retrievalaugmented_generation_solves_a_problem/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "当知识密集型任务的输出质量下降时，添加矢量数据库通常是第一步。它很少是正确的。该类别中的大多数质量问题都不是检索失败......",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "GitHub 将 Microsoft Teams 讨论转变为共享的 Copilot 代理会话",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-08-21T20:10:40+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vur8bl/github_turns_microsoft_teams_discussions_into/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "GitHub 表示，其新的 Microsoft Teams 集成可以将频道、线程或直接消息转变为共享的 Copilot 云代理会话。对话中的任何人都可以提问、添加合作...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "您今天采用哪些编码实践进行开发？ [D]",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-08-21T17:10:38+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vumbwe/what_coding_practices_are_you_adopting_for/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "我最近在做一个项目的时候一直在反思这个问题。每次我们开始一个新模型时，我们都会重写大致相同的脚手架、数据验证检查、特征转换逻辑……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 35,
+        "avgScore": 72.3,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Reddit",
+            "count": 18
+          },
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "爱范儿",
+            "count": 1
+          },
+          {
+            "name": "The Verge",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 14
+          },
+          {
+            "name": "模型进展",
+            "count": 11
+          },
+          {
+            "name": "开源生态",
+            "count": 9
+          },
+          {
+            "name": "芯片算力",
+            "count": 5
+          },
+          {
+            "name": "应用落地",
+            "count": 4
+          },
+          {
+            "name": "Agent",
+            "count": 3
+          },
+          {
+            "name": "内容生产",
+            "count": 1
+          },
+          {
+            "name": "自动化",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 35 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / 开源生态",
+        "最高分事件：英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型（88 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      ]
+    },
     {
       "date": "2026-08-21",
       "label": "8月21日",
@@ -27604,369 +27898,53 @@
         "最高分事件：消除“罪证”：给写作去除“AI味”的不完全手册（2026版）（95 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
-    },
-    {
-      "date": "2026-05-24",
-      "label": "5月24日",
-      "top10": [
-        {
-          "rank": 10,
-          "title": "对话VITURE姜公略：什么才是XR眼镜该有的样子？",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-05-24T09:09:30+00:00",
-          "sourceUrl": "https://36kr.com/p/3823013049045380?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "过去十年，XR（扩展现实）赛道始终陷在一种怪异的叙事里—— 在从业者高呼着“下一代计算平台”的宏大愿景时，资本市场也曾在元宇宙的热潮中疯狂押注，而一旦落地到消费端，这个行业却始终未能摆脱极客玩具的宿命。 从Google Glass的黯然退场，再到一众VR/AR厂商的折戟，XR行业在跌宕中，迎来了前所未有的冷静时刻。 行业的艰辛在于，尽管所有人都清楚技术终局，但抵达终局的路径却…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "我构建了 10 个游戏化的交互式演示文稿来教授 Agentic AI（不要在阅读白皮书时睡着）。",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-24T13:22:41+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tmc38r/i_built_10_gamified_interactive_presentation/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "大家好，我注意到开发人员目前在学习 Agentic AI 的方式上存在巨大差距。有数百份关于 ReAct 的理论白皮书和无聊的 PowerPoint 演示文稿...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "PapersWithCode 新功能 - 第 1 周 [P]",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-24T12:31:12+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tmawv5/paperswithcode_new_features_week_1_p/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "大家好，我是 Hugging Face 开源团队的 Niels。自从我推出 paperwithcode.co 以来已经一周了，这是我们都喜欢的网站的复兴。它使我们能够跟踪…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "边缘模型",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-24T11:00:55+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tm92gy/edgemodel/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "一季度AI领域融资超1100亿元 国产大模型融资金额暴增",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-24T05:00:48+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3822775103607172?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "投融资"
-          ],
-          "summary": "近期人工智能创投市场热度攀升。5月，月之暗面、阶跃星辰等国产大模型拿下超过300亿元融资。具身智能同样受到市场关注，一周内维他动力、鹿明机器人等接连斩获数亿元融资。有创投机构统计，一季度人工智能领域的融资有近600起，总额超1100亿元，同比激增185.4%。AI创业公司拿到融资后不少都投向三大方向。一是研发，头部大模型公司2025年研发投入普遍达到数十亿，远超当期营收。二是…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "卷到今天，Agent的含金量还在提升丨AIGC2026圆桌论坛",
-          "platform": "量子位",
-          "aiScore": 85,
-          "publishedAt": "2026-05-24T10:50:44+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/05/423421.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "大厂集体下场后，创业公司还有哪些机会？",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "Pi-Mojo – Pi AI 代理工具包的 Mojo 端口",
-          "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-05-24T11:59:49+00:00",
-          "sourceUrl": "https://github.com/atveit/pi-mojo/tree/main",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://github.com/atveit/pi-mojo/tree/main 评论网址：https://news.ycombinator.com/item?id=48256552 积分：1 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 1
-          }
-        },
-        {
-          "rank": 8,
-          "title": "Autotrader – 印度股票的纸质交易人工智能代理",
-          "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-05-24T11:55:38+00:00",
-          "sourceUrl": "https://github.com/analyticalmonk/autotrader",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://github.com/analyticalmonk/autotrader 评论网址：https://news.ycombinator.com/item?id=48256526 积分：1 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 1
-          }
-        },
-        {
-          "rank": 9,
-          "title": "未来推理将吃掉70%算力，30%留给训练丨硅谷投资人张璐@AIGC2026",
-          "platform": "量子位",
-          "aiScore": 82,
-          "publishedAt": "2026-05-24T06:14:05+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/05/423382.html",
-          "sourceName": "量子位",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "应用落地",
-            "投融资"
-          ],
-          "summary": "技术创新只是起点，产业整合速度才是AI落地的真正竞争力",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "在 Go 中进行无 cgo 的 CUDA 绑定以实现 ML 内容第 3 周 - 开源 [P]",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-05-24T12:41:07+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tmb4qw/working_on_a_cgofree_cuda_binding_in_go_for_ml/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "开源生态"
-          ],
-          "summary": "在我们的工作中，我们在 Rust 中使用 CUDA，因为公司最近转向了它。 Rust 有相当好的驱动程序 API 绑定，但这让我想知道为什么我们不能在 Go 中拥有像样的东西......",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 4,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 41,
-        "avgScore": 74.6,
-        "topScore": 95,
-        "topPlatforms": [
-          {
-            "name": "Reddit",
-            "count": 16
-          },
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "36氪",
-            "count": 5
-          },
-          {
-            "name": "量子位",
-            "count": 4
-          },
-          {
-            "name": "The Verge",
-            "count": 1
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "AI动态",
-            "count": 16
-          },
-          {
-            "name": "模型进展",
-            "count": 13
-          },
-          {
-            "name": "Agent",
-            "count": 12
-          },
-          {
-            "name": "开源生态",
-            "count": 10
-          },
-          {
-            "name": "芯片算力",
-            "count": 8
-          },
-          {
-            "name": "应用落地",
-            "count": 6
-          },
-          {
-            "name": "投融资",
-            "count": 2
-          },
-          {
-            "name": "自动化",
-            "count": 2
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 41 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：对话VITURE姜公略：什么才是XR眼镜该有的样子？（95 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
     }
   ],
   "currentWeek": {
-    "weekKey": "2026-08-W3",
-    "weekLabel": "8月第3周",
+    "weekKey": "2026-08-W4",
+    "weekLabel": "8月第4周",
     "range": {
-      "start": "2026-08-15",
-      "end": "2026-08-21"
+      "start": "2026-08-22",
+      "end": "2026-08-28"
     },
     "metrics": {
-      "daysCovered": 7,
-      "totalItems": 307,
-      "avgTop10Score": 90.1,
-      "topScore": 94,
+      "daysCovered": 1,
+      "totalItems": 35,
+      "avgTop10Score": 82.3,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 5
-        },
-        {
-          "name": "量子位",
-          "count": 3
-        },
-        {
-          "name": "The Verge",
-          "count": 1
+          "count": 8
         },
         {
           "name": "Hacker News",
-          "count": 1
+          "count": 2
         }
       ],
       "topTopics": [
-        {
-          "name": "Agent",
-          "count": 8
-        },
         {
           "name": "模型进展",
           "count": 7
         },
         {
           "name": "开源生态",
-          "count": 3
+          "count": 6
         },
         {
           "name": "应用落地",
-          "count": 2
-        },
-        {
-          "name": "安全治理",
-          "count": 2
+          "count": 3
         },
         {
           "name": "芯片算力",
+          "count": 2
+        },
+        {
+          "name": "Agent",
+          "count": 2
+        },
+        {
+          "name": "内容生产",
           "count": 1
         }
       ]
@@ -27974,111 +27952,18 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "明略科技携手海康机器人亮相世界机器人大会，以“Agent+具身”联合进入商业机器人场景",
-        "platform": "量子位",
-        "aiScore": 94,
-        "publishedAt": "2026-08-21T09:44:33+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/476733.html",
-        "sourceName": "量子位",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "明略科技（2718.HK）与海康机器人联合参展2026WRC，聚焦商业服务领域展示具身智能落地进展。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 2,
-        "title": "IDC发布2026中国AI50强：360以“智能体+安全”双轮驱动入选",
-        "platform": "量子位",
-        "aiScore": 93,
-        "publishedAt": "2026-08-19T08:34:36+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/475901.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "安全治理"
-        ],
-        "summary": "凭借企业级智能体与AI安全的全栈布局，360成为中国人工智能产业发展的代表企业之一。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "终于！世界模型进入“有声时代”：24FPS画面+48kHz立体声实时生成",
-        "platform": "量子位",
-        "aiScore": 93,
-        "publishedAt": "2026-08-17T07:39:56+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/474334.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "即将完全开源",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "流氓人工智能不再是科幻小说",
-        "platform": "The Verge",
-        "aiScore": 93,
-        "publishedAt": "2026-08-16T12:00:00+00:00",
-        "sourceUrl": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "安全治理"
-        ],
-        "summary": "这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能安全的更多信息，请关注 Robert Hart。 《后退》到达我们订阅者的收件箱......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "人工智能计算融资在十周内增长了两倍——据报道的 100B 美元 Broadcom 交易背后的机制",
-        "platform": "Reddit",
+        "title": "英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型",
+        "platform": "Hacker News",
         "aiScore": 88,
-        "publishedAt": "2026-08-21T13:15:53+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vug3gk/ai_compute_financing_just_tripled_in_ten_weeks/",
-        "sourceName": "Reddit r/artificial",
+        "publishedAt": "2026-08-21T20:52:10+00:00",
+        "sourceUrl": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+        "sourceName": "Hacker News AI",
         "industryStage": "上游",
         "contentTags": [
           "芯片算力",
-          "模型进展",
-          "开源生态"
+          "模型进展"
         ],
-        "summary": "Broadcom 显然又回到了 Blackstone 和 Apollo（这两家私人信贷商店在 6 月份与它合作提供了 35B 美元的套餐），现在正在讨论类似 100B 美元的项目，以资助 ​​A…",
+        "summary": "文章网址：https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/ 评论网址：https://news.ycombinator.com/item?id=49393647 积分：...",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -28089,23 +27974,115 @@
         }
       },
       {
-        "rank": 6,
-        "title": "本周，一家匿名实验室在 OpenRouter 上发布了一个模型。只是“牛阿尔法”。 1M 上下文。多式联运。自由的。",
+        "rank": 2,
+        "title": "医院的本地 MLOps：自建和供应商模型的生产监控需要建议吗？ [D]",
         "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-21T12:16:28+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vueqca/an_anonymous_lab_dropped_a_model_on_openrouter/",
-        "sourceName": "Reddit r/artificial",
+        "aiScore": 87,
+        "publishedAt": "2026-08-21T21:30:20+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vut9wm/onprem_mlops_in_a_hospital_advice_needed_for/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
+          "开源生态",
+          "应用落地"
+        ],
+        "summary": "TL;DR：医院，完全本地部署的 OpenShift 集群。多个团队构建预测模型，因此我们正在建立一个具有边界政策的自助服务平台。评估 ClearML 与 OpenSh...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "基于封面判断和推荐书籍的混合协同过滤推荐系统 [P]",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-08-21T20:42:41+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vus26i/hybrid_collaborative_filtering_recommendation/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "大家好，为了提高我的 SWE 技能并了解更多有关推荐系统的知识，我决定尝试开发一个名为 By-Its-Cover TLDR：查看该网站并阅读…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "Show HN：Heimdall – AI 编码代理的经过信任验证的知识层",
+        "platform": "Hacker News",
+        "aiScore": 82,
+        "publishedAt": "2026-08-22T02:02:14+00:00",
+        "sourceUrl": "https://github.com/ArihantDeva/heimdall",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
           "Agent",
           "开源生态"
         ],
-        "summary": "本周，一家匿名实验室在 OpenRouter 上发布了一个模型。没有名字。没有纸。没有公告。只是“牛阿尔法”。 1M 上下文。多式联运。自由的。没有人知道是谁建造的。所以我们做了唯一的重新…",
+        "summary": "文章网址：https://github.com/ArihantDeva/heimdall 评论网址：https://news.ycombinator.com/item?id=49395883 积分：1 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 5,
+        "title": "我们是否失去了创造力的动力？ “人工智能做到了”的假设。",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-08-21T21:52:20+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vuttop/are_we_losing_the_incentive_to_be_creative_the_ai/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "内容生产",
+          "自动化"
+        ],
+        "summary": "我最近一直在思考人工智能、版权和精英管理的交叉点，说实话，这令人难以置信的沮丧。这是我的观点：无论我今天编写什么代码，人们都会......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 13,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "我有一个中型 GPU 集群，正在考虑提供免费计算 [D]",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-08-21T16:37:16+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vulefc/i_have_a_midsized_gpu_cluster_and_was_thinking/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "我构建了一个本地 GPU 集群、8 个 nvidia 16GB GPU 和 256GB CPU RAM、50TB HDD 和几 TB SSD。我已经使用它，并且目前正在使用它来进行 ML/AI 研究。但这项研究是……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
@@ -28114,107 +28091,396 @@
       },
       {
         "rank": 7,
-        "title": "问 HN：最好的 AI 视频工作室是什么",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-08-21T11:35:33+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49386577",
-        "sourceName": "Hacker News AI",
+        "title": "Ling-3.0在三个训练阶段开设了六个基地检查点",
+        "platform": "Reddit",
+        "aiScore": 80,
+        "publishedAt": "2026-08-21T18:50:23+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vup2uv/ling30_opens_six_base_checkpoints_across_three/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
-          "自动化"
+          "开源生态",
+          "应用落地"
         ],
-        "summary": "我正在学习如何制作AI视频，我知道视频模型有很多。但有没有一个平台可以提供专业的工作流程来制作人工智能视频呢？评论网址：https://news.ycombina...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "Ant Group 的新版本提供了六个可用的基本检查点：针对小型和闪存大小的预训练、中期训练和 WSM 合并检查点。那就是两个尺寸×三个训练阶段……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
-          "topic": 20,
+          "topic": 19,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 8,
-        "title": "Opus 认为他是寓言，然后承认他是一份文件 - 这也是错误的",
+        "title": "检索增强生成解决了大多数团队实际上没有遇到的问题",
         "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-21T11:10:41+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vudciy/opus_thought_he_is_fable_then_confessed_he_is_a/",
+        "aiScore": 80,
+        "publishedAt": "2026-08-21T16:59:53+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vum0np/retrievalaugmented_generation_solves_a_problem/",
         "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
+        "industryStage": "上游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "应用落地"
         ],
-        "summary": "我对《神鬼寓言》进行了一次详尽的讨论，然后它无缘无故地转向了《作品》。通常我只是在使用时关闭该聊天，然后用《神鬼寓言》开始新的聊天。但这次我想挖...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "当知识密集型任务的输出质量下降时，添加矢量数据库通常是第一步。它很少是正确的。该类别中的大多数质量问题都不是检索失败......",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
-          "topic": 20,
+          "topic": 19,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "固定评估器仍然可以成为代理循环的目标",
+        "title": "GitHub 将 Microsoft Teams 讨论转变为共享的 Copilot 代理会话",
         "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-21T11:04:55+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vud8d2/a_fixed_evaluator_can_still_become_the_target_of/",
+        "aiScore": 79,
+        "publishedAt": "2026-08-21T20:10:40+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vur8bl/github_turns_microsoft_teams_discussions_into/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "在代理开始迭代之前修复评估器可以防止球门柱移动。它不会阻止代理进程适应它可以重复看到的反馈。 AQuA 预印...",
+        "summary": "GitHub 表示，其新的 Microsoft Teams 集成可以将频道、线程或直接消息转变为共享的 Copilot 云代理会话。对话中的任何人都可以提问、添加合作...",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
-          "topic": 20,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "我对我的确定性人工智能财务验证引擎进行了基准测试。核心通过了 66/66，但实时 LLM 管道仅通过了 19/66。",
+        "title": "您今天采用哪些编码实践进行开发？ [D]",
         "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-21T10:17:24+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vucb8u/i_benchmarked_my_deterministic_ai_financial/",
-        "sourceName": "Reddit r/artificial",
+        "aiScore": 79,
+        "publishedAt": "2026-08-21T17:10:38+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vumbwe/what_coding_practices_are_you_adopting_for/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
-          "应用落地"
+          "开源生态"
         ],
-        "summary": "我一直在为人工智能生成的财务索赔构建确定性验证引擎。基本思想很简单：法学硕士可以产生财务答案，但法学硕士本身不应该……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "我最近在做一个项目的时候一直在反思这个问题。每次我们开始一个新模型时，我们都会重写大致相同的脚手架、数据验证检查、特征转换逻辑……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
-          "topic": 20,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "briefing": [
-      "8月第3周累计收录 307 条资讯，覆盖 7 天。",
-      "高频主题：Agent / 模型进展 / 开源生态",
-      "本周最高分：明略科技携手海康机器人亮相世界机器人大会，以“Agent+具身”联合进入商业机器人场景（94 分）",
-      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "8月第4周累计收录 35 条资讯，覆盖 1 天。",
+      "高频主题：模型进展 / 开源生态 / 应用落地",
+      "本周最高分：英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型（88 分）",
+      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "weeklyHistory": [
+    {
+      "weekKey": "2026-08-W4",
+      "weekLabel": "8月第4周",
+      "range": {
+        "start": "2026-08-22",
+        "end": "2026-08-28"
+      },
+      "metrics": {
+        "daysCovered": 1,
+        "totalItems": 35,
+        "avgTop10Score": 82.3,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Reddit",
+            "count": 8
+          },
+          {
+            "name": "Hacker News",
+            "count": 2
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "模型进展",
+            "count": 7
+          },
+          {
+            "name": "开源生态",
+            "count": 6
+          },
+          {
+            "name": "应用落地",
+            "count": 3
+          },
+          {
+            "name": "芯片算力",
+            "count": 2
+          },
+          {
+            "name": "Agent",
+            "count": 2
+          },
+          {
+            "name": "内容生产",
+            "count": 1
+          }
+        ]
+      },
+      "topEvents": [
+        {
+          "rank": 1,
+          "title": "英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-08-21T20:52:10+00:00",
+          "sourceUrl": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "文章网址：https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/ 评论网址：https://news.ycombinator.com/item?id=49393647 积分：...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "医院的本地 MLOps：自建和供应商模型的生产监控需要建议吗？ [D]",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-08-21T21:30:20+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vut9wm/onprem_mlops_in_a_hospital_advice_needed_for/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "应用落地"
+          ],
+          "summary": "TL;DR：医院，完全本地部署的 OpenShift 集群。多个团队构建预测模型，因此我们正在建立一个具有边界政策的自助服务平台。评估 ClearML 与 OpenSh...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "基于封面判断和推荐书籍的混合协同过滤推荐系统 [P]",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-08-21T20:42:41+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vus26i/hybrid_collaborative_filtering_recommendation/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "大家好，为了提高我的 SWE 技能并了解更多有关推荐系统的知识，我决定尝试开发一个名为 By-Its-Cover TLDR：查看该网站并阅读…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "Show HN：Heimdall – AI 编码代理的经过信任验证的知识层",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-08-22T02:02:14+00:00",
+          "sourceUrl": "https://github.com/ArihantDeva/heimdall",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/ArihantDeva/heimdall 评论网址：https://news.ycombinator.com/item?id=49395883 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 5,
+          "title": "我们是否失去了创造力的动力？ “人工智能做到了”的假设。",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-08-21T21:52:20+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vuttop/are_we_losing_the_incentive_to_be_creative_the_ai/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "内容生产",
+            "自动化"
+          ],
+          "summary": "我最近一直在思考人工智能、版权和精英管理的交叉点，说实话，这令人难以置信的沮丧。这是我的观点：无论我今天编写什么代码，人们都会......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 13,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "我有一个中型 GPU 集群，正在考虑提供免费计算 [D]",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-08-21T16:37:16+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vulefc/i_have_a_midsized_gpu_cluster_and_was_thinking/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "我构建了一个本地 GPU 集群、8 个 nvidia 16GB GPU 和 256GB CPU RAM、50TB HDD 和几 TB SSD。我已经使用它，并且目前正在使用它来进行 ML/AI 研究。但这项研究是……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Ling-3.0在三个训练阶段开设了六个基地检查点",
+          "platform": "Reddit",
+          "aiScore": 80,
+          "publishedAt": "2026-08-21T18:50:23+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vup2uv/ling30_opens_six_base_checkpoints_across_three/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "应用落地"
+          ],
+          "summary": "Ant Group 的新版本提供了六个可用的基本检查点：针对小型和闪存大小的预训练、中期训练和 WSM 合并检查点。那就是两个尺寸×三个训练阶段……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "检索增强生成解决了大多数团队实际上没有遇到的问题",
+          "platform": "Reddit",
+          "aiScore": 80,
+          "publishedAt": "2026-08-21T16:59:53+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vum0np/retrievalaugmented_generation_solves_a_problem/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "当知识密集型任务的输出质量下降时，添加矢量数据库通常是第一步。它很少是正确的。该类别中的大多数质量问题都不是检索失败......",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "GitHub 将 Microsoft Teams 讨论转变为共享的 Copilot 代理会话",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-08-21T20:10:40+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vur8bl/github_turns_microsoft_teams_discussions_into/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "GitHub 表示，其新的 Microsoft Teams 集成可以将频道、线程或直接消息转变为共享的 Copilot 云代理会话。对话中的任何人都可以提问、添加合作...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "您今天采用哪些编码实践进行开发？ [D]",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-08-21T17:10:38+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vumbwe/what_coding_practices_are_you_adopting_for/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "我最近在做一个项目的时候一直在反思这个问题。每次我们开始一个新模型时，我们都会重写大致相同的脚手架、数据验证检查、特征转换逻辑……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        }
+      ],
+      "briefing": [
+        "8月第4周累计收录 35 条资讯，覆盖 1 天。",
+        "高频主题：模型进展 / 开源生态 / 应用落地",
+        "本周最高分：英伟达刚刚证明，现在真正的英雄是线束，而不是人工智能模型（88 分）",
+        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      ]
+    },
     {
       "weekKey": "2026-08-W3",
       "weekLabel": "8月第3周",
@@ -32381,8 +32647,8 @@
         "end": "2026-05-28"
       },
       "metrics": {
-        "daysCovered": 5,
-        "totalItems": 226,
+        "daysCovered": 4,
+        "totalItems": 185,
         "avgTop10Score": 95.0,
         "topScore": 95,
         "topPlatforms": [
@@ -32652,7 +32918,7 @@
         }
       ],
       "briefing": [
-        "5月第4周累计收录 226 条资讯，覆盖 5 天。",
+        "5月第4周累计收录 185 条资讯，覆盖 4 天。",
         "高频主题：模型进展 / Agent / 芯片算力",
         "本周最高分：科大讯飞发布讯飞AI眼镜（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
