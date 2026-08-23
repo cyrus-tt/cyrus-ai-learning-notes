@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-23T02:23:10.004144+00:00",
+  "generatedAt": "2026-08-23T13:29:17.213747+00:00",
   "source": "yt-rss-live",
   "total": 31,
   "items": [
     {
       "title": "Machine Learning Street Talk · YouTube监控",
-      "titleOriginal": "Stealing Reasoning Traces from Proprietary LLM APIs — Ilia Shumailov & Alexander Panfilov",
-      "titleZh": "从专有的 LLM API 中窃取推理痕迹 — Ilia Shumailov 和 Alexander Panfilov",
+      "titleOriginal": "Why Frontier AI Labs Fight to Hide Chain of Thought — Ilia Shumailov & Alexander Panfilov",
+      "titleZh": "为什么前沿人工智能实验室努力隐藏思想链——Ilia Shumailov 和 Alexander Panfilov",
       "summary": "Tim Scarfe 与 Ilia Shumailov 和 Alexander Panfilov 讨论了他们的论文《从专有 LLM API 中窃取推理痕迹》。\n\n核心错误听起来看似简单：提供者返回加密的推理状态，以便可以恢复或分叉对话。但这些 blob 可以在用户和兄弟模型之间重放。较小的模型可以要求提供者解密跟踪，然后以纯文本形式重复隐藏的推理。讨论涵盖了泄露的私人数据、广泛可重复使用的越狱、中毒的特工痕迹、思想链监控、负责任的披露和可能的防御。\n\nIlia Shumailov 是一名人工智能和安全研究员，曾在 Google DeepMind 工作，完成了他的...",
       "summaryOriginal": "Tim Scarfe speaks with Ilia Shumailov and Alexander Panfilov about their paper, Stealing Reasoning Traces from Proprietary LLM APIs.\n\nThe core bug sounds deceptively simple: providers return encrypted reasoning state so conversations can be resumed or forked. But those blobs can be replayed across users and sibling models. A smaller model can ask the provider to decrypt the trace, then repeat the hidden reasoning in plain text. The discussion covers leaked private data, a broadly reusable jailbreak, poisoned agent traces, chain-of-thought monitoring, responsible disclosure, and possible defenses.\n\nIlia Shumailov is an AI and security researcher, formerly at Google DeepMind, who completed his...",
       "summaryZh": "Tim Scarfe 与 Ilia Shumailov 和 Alexander Panfilov 讨论了他们的论文《从专有 LLM API 中窃取推理痕迹》。\n\n核心错误听起来看似简单：提供者返回加密的推理状态，以便可以恢复或分叉对话。但这些 blob 可以在用户和兄弟模型之间重放。较小的模型可以要求提供者解密跟踪，然后以纯文本形式重复隐藏的推理。讨论涵盖了泄露的私人数据、广泛可重复使用的越狱、中毒的特工痕迹、思想链监控、负责任的披露和可能的防御。\n\nIlia Shumailov 是一名人工智能和安全研究员，曾在 Google DeepMind 工作，完成了他的...",

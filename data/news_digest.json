@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T02:22:45.122837+00:00",
+  "generatedAt": "2026-08-23T13:28:52.232147+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-08-23",
@@ -7,11 +7,35 @@
     "top10": [
       {
         "rank": 2,
-        "title": "为什么人工智能可以生成超级马里奥，但不能为我的扫地机器人生成楔形坡道？",
+        "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
+        "platform": "量子位",
+        "aiScore": 93,
+        "publishedAt": "2026-08-23T09:56:12+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/478191.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态",
+          "内容生产"
+        ],
+        "summary": "Tokenizer、视频编码、API报错全扒一遍",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
         "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-08-23T01:45:17+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49405520",
+        "aiScore": 84,
+        "publishedAt": "2026-08-23T12:22:24+00:00",
+        "sourceUrl": "https://github.com/marketplace/actions/prism-reviewer-ai",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
@@ -19,21 +43,66 @@
           "Agent",
           "开源生态"
         ],
-        "summary": "我一直对一些事情感到困惑：人工智能生成可以制作一个精致的雕像、一个卡通人物，甚至是一个令人信服的超级马里奥——但它不能可靠地制作一个简单的楔形坡道，所以我的机器人……",
+        "summary": "文章网址：https://github.com/marketplace/actions/prism-reviewer-ai 评论网址：https://news.ycombinator.com/item?id=49408247 积分：1 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 5,
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-08-23T11:48:23+00:00",
+        "sourceUrl": "https://github.com/tooppoo/enozunu",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/tooppoo/enozunu 评论网址：https://news.ycombinator.com/item?id=49408038 积分：3 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 6,
+        "title": "英伟达AI服务器将涨价15%！1GW数据中心成本激增50亿美元",
+        "platform": "量子位",
+        "aiScore": 80,
+        "publishedAt": "2026-08-23T09:51:49+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/478164.html",
+        "sourceName": "量子位",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力"
+        ],
+        "summary": "内存成本飙升逼涨硬件",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 11,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
-        "rank": 4,
+        "rank": 7,
         "title": "我们的确定性验证引擎通过了规范结构化输入的 66/66 基准案例。",
         "platform": "Reddit",
-        "aiScore": 87,
+        "aiScore": 80,
         "publishedAt": "2026-08-23T01:55:18+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvucil/our_deterministic_verification_engine_passed_6666/",
         "sourceName": "Reddit r/artificial",
@@ -46,7 +115,7 @@
         "summary": "我们的确定性验证引擎通过了规范结构化输入的 66/66 基准案例。在实时模型评估中，端到端管道目前通过了 19/66 例。我们正在研究…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 19,
           "actionability": 10,
@@ -54,180 +123,110 @@
         }
       },
       {
-        "rank": 5,
-        "title": "采用 Fossil-scm 作为 AI 代理工作流程的平台",
-        "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-08-23T00:36:50+00:00",
-        "sourceUrl": "https://github.com/BenSiv/fossil-scm",
-        "sourceName": "Hacker News AI",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "开源生态",
-          "自动化"
-        ],
-        "summary": "文章网址：https://github.com/BenSiv/fossil-scm 评论网址：https://news.ycombinator.com/item?id=49405227 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
         "rank": 6,
-        "title": "Show HN：Agent2Creator – 一个视频社交网络，其成员是人工智能代理",
-        "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-08-23T01:00:10+00:00",
-        "sourceUrl": "https://agent2creator.vidmoat.com",
-        "sourceName": "Hacker News AI",
+        "title": "从世界模型到现实生产力，无界动力深度参与WRC主论坛及多场同期活动",
+        "platform": "量子位",
+        "aiScore": 78,
+        "publishedAt": "2026-08-23T07:12:22+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/478007.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "内容生产"
+          "模型进展"
         ],
-        "summary": "文章网址：https://agent2creator.vidmoat.com 评论网址：https://news.ycombinator.com/item?id=49405354 积分：2 # 评论：3",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 16,
-          "actionability": 10,
-          "heat": 3
-        }
-      },
-      {
-        "rank": 5,
-        "title": "主动推理作为 AI 代理的上下文获取",
-        "platform": "Hacker News",
-        "aiScore": 74,
-        "publishedAt": "2026-08-23T00:40:48+00:00",
-        "sourceUrl": "https://arxiv.org/abs/2608.19202",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "文章网址：https://arxiv.org/abs/2608.19202 评论网址：https://news.ycombinator.com/item?id=49405247 积分：1 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 1
-        }
-      },
-      {
-        "rank": 6,
-        "title": "个性化历史播客，您可以打断提问",
-        "platform": "Reddit",
-        "aiScore": 73,
-        "publishedAt": "2026-08-23T02:12:46+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvup6g/a_personalized_history_podcast_you_can_interrupt/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "这个想法来自于个人的挫败感：我喜欢历史，但永远找不到我想要的小众主题的播客，当我找到时，我的好奇心总是想绕道主持人无法...",
+        "summary": "从世界模型到现实生产力，无界动力深度参与WRC主论坛及多场同期活动",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
+          "recency": 28,
+          "authority": 25,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 7,
-        "title": "中国开源会同意欧盟水印吗？",
-        "platform": "Reddit",
-        "aiScore": 70,
-        "publishedAt": "2026-08-22T21:04:12+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvnwxp/will_chinese_open_source_agree_to_eu_watermarking/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "platform": "Hacker News",
+        "aiScore": 75,
+        "publishedAt": "2026-08-23T11:24:17+00:00",
+        "sourceUrl": "https://www.bulkpublish.com/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "开源生态"
+          "Agent"
         ],
-        "summary": "不知道大家有没有思考和担心这个问题？ Anthopic、OpenAI 和西方人工智能实验室已同意对人工智能输出添加水印。我们中的一些人想要自由、开放、不受追踪、不……",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 8,
-          "actionability": 4,
-          "heat": 5
+          "topic": 10,
+          "actionability": 10,
+          "heat": 2
         }
       },
       {
         "rank": 8,
-        "title": "到底是什么让你观看人工智能生成的电视节目——或者不观看？",
-        "platform": "Reddit",
-        "aiScore": 70,
-        "publishedAt": "2026-08-22T16:15:10+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvgjic/what_would_actually_make_you_watch_an_aigenerated/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Smolbox 中的代理 AI",
+        "platform": "Hacker News",
+        "aiScore": 75,
+        "publishedAt": "2026-08-23T11:20:53+00:00",
+        "sourceUrl": "https://remyhax.xyz/posts/smolbox/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "应用落地",
-          "内容生产"
+          "Agent"
         ],
-        "summary": "作为密切关注这个空间的人，这是一个真正的问题。真正的人工智能生成的长篇内容开始出现——不仅仅是短片，还有具有一致特征的完整剧集……",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "文章网址：https://remyhax.xyz/posts/smolbox/ 评论网址：https://news.ycombinator.com/item?id=49407905 积分：2 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 15,
-          "actionability": 4,
-          "heat": 5
+          "topic": 10,
+          "actionability": 10,
+          "heat": 2
         }
       },
       {
         "rank": 9,
-        "title": "后续：VSArena 现在有一个合适的 VLA 轨道（相机 + 语言，无特权状态） - 存储库和文档是公开的",
-        "platform": "Reddit",
-        "aiScore": 69,
-        "publishedAt": "2026-08-22T19:44:56+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvlxi2/followup_vsarena_now_has_a_proper_vla_track/",
-        "sourceName": "Reddit r/artificial",
+        "title": "具身创业里的香港教授们",
+        "platform": "量子位",
+        "aiScore": 74,
+        "publishedAt": "2026-08-23T11:20:13+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/478289.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
-          "开源生态"
+          "AI动态"
         ],
-        "summary": "不久前发布了有关该项目的文章 - 快速更新，因为一些事情改变了该线程的反馈。最大的变化：适当分割观察空间。有……",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "summary": "香港的大学里冒出了一批很特别的人",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 8,
-          "actionability": 10,
+          "recency": 35,
+          "authority": 25,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "制作了一个从图像中删除 SynthID 的工具",
-        "platform": "Reddit",
-        "aiScore": 67,
-        "publishedAt": "2026-08-22T23:54:48+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvrso7/made_a_tool_to_remove_synthids_from_images/",
-        "sourceName": "Reddit r/artificial",
+        "title": "他给了王兴兴第一个200万，现在给下一个「宇树」当董事长",
+        "platform": "量子位",
+        "aiScore": 74,
+        "publishedAt": "2026-08-23T11:17:22+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/478234.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
           "AI动态"
         ],
-        "summary": "如您所知，每当您通过 Gemini 或 OpenAI 编辑图像时，它们都会贴上 SynthID 以将其标记为自己的。此外，这些 SynthID 是独一无二的，可以用来追踪任何发疯的人……",
+        "summary": "多多支持像王兴兴这样优秀的具身机器人创业者",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 5,
           "actionability": 4,
           "heat": 5
@@ -235,9 +234,9 @@
       }
     ],
     "metrics": {
-      "totalItems": 24,
-      "avgScore": 69.0,
-      "topScore": 88,
+      "totalItems": 39,
+      "avgScore": 69.1,
+      "topScore": 93,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -245,49 +244,61 @@
         },
         {
           "name": "Reddit",
-          "count": 9
+          "count": 13
+        },
+        {
+          "name": "量子位",
+          "count": 8
+        },
+        {
+          "name": "少数派",
+          "count": 2
+        },
+        {
+          "name": "爱范儿",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 13
+          "count": 25
+        },
+        {
+          "name": "模型进展",
+          "count": 5
+        },
+        {
+          "name": "Agent",
+          "count": 5
         },
         {
           "name": "开源生态",
           "count": 5
         },
         {
-          "name": "Agent",
-          "count": 4
-        },
-        {
-          "name": "内容生产",
+          "name": "应用落地",
           "count": 3
         },
         {
-          "name": "模型进展",
-          "count": 2
+          "name": "内容生产",
+          "count": 1
         },
         {
-          "name": "应用落地",
-          "count": 2
+          "name": "芯片算力",
+          "count": 1
         },
         {
           "name": "自动化",
-          "count": 2
-        },
-        {
-          "name": "安全治理",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 24 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 开源生态 / Agent",
-      "最高分事件：为什么人工智能可以生成超级马里奥，但不能为我的扫地机器人生成楔形坡道？（88 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 39 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的（93 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
@@ -297,11 +308,35 @@
       "top10": [
         {
           "rank": 2,
-          "title": "为什么人工智能可以生成超级马里奥，但不能为我的扫地机器人生成楔形坡道？",
+          "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
+          "platform": "量子位",
+          "aiScore": 93,
+          "publishedAt": "2026-08-23T09:56:12+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/478191.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "内容生产"
+          ],
+          "summary": "Tokenizer、视频编码、API报错全扒一遍",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
           "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-08-23T01:45:17+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49405520",
+          "aiScore": 84,
+          "publishedAt": "2026-08-23T12:22:24+00:00",
+          "sourceUrl": "https://github.com/marketplace/actions/prism-reviewer-ai",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
@@ -309,21 +344,66 @@
             "Agent",
             "开源生态"
           ],
-          "summary": "我一直对一些事情感到困惑：人工智能生成可以制作一个精致的雕像、一个卡通人物，甚至是一个令人信服的超级马里奥——但它不能可靠地制作一个简单的楔形坡道，所以我的机器人……",
+          "summary": "文章网址：https://github.com/marketplace/actions/prism-reviewer-ai 评论网址：https://news.ycombinator.com/item?id=49408247 积分：1 # 评论：0",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 20,
             "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-08-23T11:48:23+00:00",
+          "sourceUrl": "https://github.com/tooppoo/enozunu",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/tooppoo/enozunu 评论网址：https://news.ycombinator.com/item?id=49408038 积分：3 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 6,
+          "title": "英伟达AI服务器将涨价15%！1GW数据中心成本激增50亿美元",
+          "platform": "量子位",
+          "aiScore": 80,
+          "publishedAt": "2026-08-23T09:51:49+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/478164.html",
+          "sourceName": "量子位",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力"
+          ],
+          "summary": "内存成本飙升逼涨硬件",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 11,
+            "actionability": 4,
             "heat": 5
           }
         },
         {
-          "rank": 4,
+          "rank": 7,
           "title": "我们的确定性验证引擎通过了规范结构化输入的 66/66 基准案例。",
           "platform": "Reddit",
-          "aiScore": 87,
+          "aiScore": 80,
           "publishedAt": "2026-08-23T01:55:18+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvucil/our_deterministic_verification_engine_passed_6666/",
           "sourceName": "Reddit r/artificial",
@@ -336,7 +416,7 @@
           "summary": "我们的确定性验证引擎通过了规范结构化输入的 66/66 基准案例。在实时模型评估中，端到端管道目前通过了 19/66 例。我们正在研究…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 19,
             "actionability": 10,
@@ -344,180 +424,110 @@
           }
         },
         {
-          "rank": 5,
-          "title": "采用 Fossil-scm 作为 AI 代理工作流程的平台",
-          "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-08-23T00:36:50+00:00",
-          "sourceUrl": "https://github.com/BenSiv/fossil-scm",
-          "sourceName": "Hacker News AI",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "自动化"
-          ],
-          "summary": "文章网址：https://github.com/BenSiv/fossil-scm 评论网址：https://news.ycombinator.com/item?id=49405227 积分：2 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
           "rank": 6,
-          "title": "Show HN：Agent2Creator – 一个视频社交网络，其成员是人工智能代理",
-          "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-08-23T01:00:10+00:00",
-          "sourceUrl": "https://agent2creator.vidmoat.com",
-          "sourceName": "Hacker News AI",
+          "title": "从世界模型到现实生产力，无界动力深度参与WRC主论坛及多场同期活动",
+          "platform": "量子位",
+          "aiScore": 78,
+          "publishedAt": "2026-08-23T07:12:22+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/478007.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
-            "Agent",
-            "内容生产"
+            "模型进展"
           ],
-          "summary": "文章网址：https://agent2creator.vidmoat.com 评论网址：https://news.ycombinator.com/item?id=49405354 积分：2 # 评论：3",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 3
-          }
-        },
-        {
-          "rank": 5,
-          "title": "主动推理作为 AI 代理的上下文获取",
-          "platform": "Hacker News",
-          "aiScore": 74,
-          "publishedAt": "2026-08-23T00:40:48+00:00",
-          "sourceUrl": "https://arxiv.org/abs/2608.19202",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "文章网址：https://arxiv.org/abs/2608.19202 评论网址：https://news.ycombinator.com/item?id=49405247 积分：1 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 1
-          }
-        },
-        {
-          "rank": 6,
-          "title": "个性化历史播客，您可以打断提问",
-          "platform": "Reddit",
-          "aiScore": 73,
-          "publishedAt": "2026-08-23T02:12:46+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvup6g/a_personalized_history_podcast_you_can_interrupt/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "这个想法来自于个人的挫败感：我喜欢历史，但永远找不到我想要的小众主题的播客，当我找到时，我的好奇心总是想绕道主持人无法...",
+          "summary": "从世界模型到现实生产力，无界动力深度参与WRC主论坛及多场同期活动",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
+            "recency": 28,
+            "authority": 25,
+            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 7,
-          "title": "中国开源会同意欧盟水印吗？",
-          "platform": "Reddit",
-          "aiScore": 70,
-          "publishedAt": "2026-08-22T21:04:12+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvnwxp/will_chinese_open_source_agree_to_eu_watermarking/",
-          "sourceName": "Reddit r/artificial",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "platform": "Hacker News",
+          "aiScore": 75,
+          "publishedAt": "2026-08-23T11:24:17+00:00",
+          "sourceUrl": "https://www.bulkpublish.com/",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "开源生态"
+            "Agent"
           ],
-          "summary": "不知道大家有没有思考和担心这个问题？ Anthopic、OpenAI 和西方人工智能实验室已同意对人工智能输出添加水印。我们中的一些人想要自由、开放、不受追踪、不……",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 8,
-            "actionability": 4,
-            "heat": 5
+            "topic": 10,
+            "actionability": 10,
+            "heat": 2
           }
         },
         {
           "rank": 8,
-          "title": "到底是什么让你观看人工智能生成的电视节目——或者不观看？",
-          "platform": "Reddit",
-          "aiScore": 70,
-          "publishedAt": "2026-08-22T16:15:10+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvgjic/what_would_actually_make_you_watch_an_aigenerated/",
-          "sourceName": "Reddit r/artificial",
+          "title": "Smolbox 中的代理 AI",
+          "platform": "Hacker News",
+          "aiScore": 75,
+          "publishedAt": "2026-08-23T11:20:53+00:00",
+          "sourceUrl": "https://remyhax.xyz/posts/smolbox/",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "应用落地",
-            "内容生产"
+            "Agent"
           ],
-          "summary": "作为密切关注这个空间的人，这是一个真正的问题。真正的人工智能生成的长篇内容开始出现——不仅仅是短片，还有具有一致特征的完整剧集……",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "文章网址：https://remyhax.xyz/posts/smolbox/ 评论网址：https://news.ycombinator.com/item?id=49407905 积分：2 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 28,
+            "recency": 35,
             "authority": 18,
-            "topic": 15,
-            "actionability": 4,
-            "heat": 5
+            "topic": 10,
+            "actionability": 10,
+            "heat": 2
           }
         },
         {
           "rank": 9,
-          "title": "后续：VSArena 现在有一个合适的 VLA 轨道（相机 + 语言，无特权状态） - 存储库和文档是公开的",
-          "platform": "Reddit",
-          "aiScore": 69,
-          "publishedAt": "2026-08-22T19:44:56+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvlxi2/followup_vsarena_now_has_a_proper_vla_track/",
-          "sourceName": "Reddit r/artificial",
+          "title": "具身创业里的香港教授们",
+          "platform": "量子位",
+          "aiScore": 74,
+          "publishedAt": "2026-08-23T11:20:13+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/478289.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
-            "开源生态"
+            "AI动态"
           ],
-          "summary": "不久前发布了有关该项目的文章 - 快速更新，因为一些事情改变了该线程的反馈。最大的变化：适当分割观察空间。有……",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "summary": "香港的大学里冒出了一批很特别的人",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 8,
-            "actionability": 10,
+            "recency": 35,
+            "authority": 25,
+            "topic": 5,
+            "actionability": 4,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "制作了一个从图像中删除 SynthID 的工具",
-          "platform": "Reddit",
-          "aiScore": 67,
-          "publishedAt": "2026-08-22T23:54:48+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvrso7/made_a_tool_to_remove_synthids_from_images/",
-          "sourceName": "Reddit r/artificial",
+          "title": "他给了王兴兴第一个200万，现在给下一个「宇树」当董事长",
+          "platform": "量子位",
+          "aiScore": 74,
+          "publishedAt": "2026-08-23T11:17:22+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/478234.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
             "AI动态"
           ],
-          "summary": "如您所知，每当您通过 Gemini 或 OpenAI 编辑图像时，它们都会贴上 SynthID 以将其标记为自己的。此外，这些 SynthID 是独一无二的，可以用来追踪任何发疯的人……",
+          "summary": "多多支持像王兴兴这样优秀的具身机器人创业者",
           "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 5,
             "actionability": 4,
             "heat": 5
@@ -525,9 +535,9 @@
         }
       ],
       "metrics": {
-        "totalItems": 24,
-        "avgScore": 69.0,
-        "topScore": 88,
+        "totalItems": 39,
+        "avgScore": 69.1,
+        "topScore": 93,
         "topPlatforms": [
           {
             "name": "Hacker News",
@@ -535,49 +545,61 @@
           },
           {
             "name": "Reddit",
-            "count": 9
+            "count": 13
+          },
+          {
+            "name": "量子位",
+            "count": 8
+          },
+          {
+            "name": "少数派",
+            "count": 2
+          },
+          {
+            "name": "爱范儿",
+            "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 13
+            "count": 25
+          },
+          {
+            "name": "模型进展",
+            "count": 5
+          },
+          {
+            "name": "Agent",
+            "count": 5
           },
           {
             "name": "开源生态",
             "count": 5
           },
           {
-            "name": "Agent",
-            "count": 4
-          },
-          {
-            "name": "内容生产",
+            "name": "应用落地",
             "count": 3
           },
           {
-            "name": "模型进展",
-            "count": 2
+            "name": "内容生产",
+            "count": 1
           },
           {
-            "name": "应用落地",
-            "count": 2
+            "name": "芯片算力",
+            "count": 1
           },
           {
             "name": "自动化",
-            "count": 2
-          },
-          {
-            "name": "安全治理",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 24 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 开源生态 / Agent",
-        "最高分事件：为什么人工智能可以生成超级马里奥，但不能为我的扫地机器人生成楔形坡道？（88 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "今日共收录 39 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的（93 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
@@ -632,7 +654,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "Eon用LIF“上传”果蝇脑，中国团队直接上精细神经元和跨身体平台",
           "platform": "量子位",
           "aiScore": 80,
@@ -654,7 +676,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "我们是否正在为更智能的人工智能缴纳“推理税”？",
           "platform": "Reddit",
           "aiScore": 80,
@@ -678,7 +700,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "为什么自校正循环会降低 LLM 管道的可靠性（85% 降至 62%）",
           "platform": "Reddit",
           "aiScore": 80,
@@ -27876,31 +27898,27 @@
     },
     "metrics": {
       "daysCovered": 2,
-      "totalItems": 54,
-      "avgTop10Score": 84.1,
+      "totalItems": 69,
+      "avgTop10Score": 84.2,
       "topScore": 94,
       "topPlatforms": [
         {
+          "name": "量子位",
+          "count": 4
+        },
+        {
           "name": "Reddit",
-          "count": 5
+          "count": 4
         },
         {
           "name": "Hacker News",
-          "count": 3
-        },
-        {
-          "name": "量子位",
           "count": 2
         }
       ],
       "topTopics": [
         {
           "name": "模型进展",
-          "count": 6
-        },
-        {
-          "name": "Agent",
-          "count": 5
+          "count": 7
         },
         {
           "name": "应用落地",
@@ -27911,8 +27929,12 @@
           "count": 4
         },
         {
+          "name": "Agent",
+          "count": 3
+        },
+        {
           "name": "自动化",
-          "count": 4
+          "count": 3
         },
         {
           "name": "内容生产",
@@ -27946,24 +27968,24 @@
       },
       {
         "rank": 2,
-        "title": "为什么人工智能可以生成超级马里奥，但不能为我的扫地机器人生成楔形坡道？",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-08-23T01:45:17+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49405520",
-        "sourceName": "Hacker News AI",
+        "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
+        "platform": "量子位",
+        "aiScore": 93,
+        "publishedAt": "2026-08-23T09:56:12+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/478191.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
-          "开源生态"
+          "开源生态",
+          "内容生产"
         ],
-        "summary": "我一直对一些事情感到困惑：人工智能生成可以制作一个精致的雕像、一个卡通人物，甚至是一个令人信服的超级马里奥——但它不能可靠地制作一个简单的楔形坡道，所以我的机器人……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "Tokenizer、视频编码、API报错全扒一遍",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 20,
+          "authority": 25,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
@@ -27994,9 +28016,78 @@
       },
       {
         "rank": 4,
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "platform": "Hacker News",
+        "aiScore": 84,
+        "publishedAt": "2026-08-23T12:22:24+00:00",
+        "sourceUrl": "https://github.com/marketplace/actions/prism-reviewer-ai",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/marketplace/actions/prism-reviewer-ai 评论网址：https://news.ycombinator.com/item?id=49408247 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 5,
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-08-23T11:48:23+00:00",
+        "sourceUrl": "https://github.com/tooppoo/enozunu",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/tooppoo/enozunu 评论网址：https://news.ycombinator.com/item?id=49408038 积分：3 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 6,
+        "title": "英伟达AI服务器将涨价15%！1GW数据中心成本激增50亿美元",
+        "platform": "量子位",
+        "aiScore": 80,
+        "publishedAt": "2026-08-23T09:51:49+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/08/478164.html",
+        "sourceName": "量子位",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力"
+        ],
+        "summary": "内存成本飙升逼涨硬件",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 11,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
         "title": "我们的确定性验证引擎通过了规范结构化输入的 66/66 基准案例。",
         "platform": "Reddit",
-        "aiScore": 87,
+        "aiScore": 80,
         "publishedAt": "2026-08-23T01:55:18+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvucil/our_deterministic_verification_engine_passed_6666/",
         "sourceName": "Reddit r/artificial",
@@ -28009,7 +28100,7 @@
         "summary": "我们的确定性验证引擎通过了规范结构化输入的 66/66 基准案例。在实时模型评估中，端到端管道目前通过了 19/66 例。我们正在研究…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 19,
           "actionability": 10,
@@ -28017,54 +28108,7 @@
         }
       },
       {
-        "rank": 5,
-        "title": "采用 Fossil-scm 作为 AI 代理工作流程的平台",
-        "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-08-23T00:36:50+00:00",
-        "sourceUrl": "https://github.com/BenSiv/fossil-scm",
-        "sourceName": "Hacker News AI",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "开源生态",
-          "自动化"
-        ],
-        "summary": "文章网址：https://github.com/BenSiv/fossil-scm 评论网址：https://news.ycombinator.com/item?id=49405227 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Show HN：Agent2Creator – 一个视频社交网络，其成员是人工智能代理",
-        "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-08-23T01:00:10+00:00",
-        "sourceUrl": "https://agent2creator.vidmoat.com",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "内容生产"
-        ],
-        "summary": "文章网址：https://agent2creator.vidmoat.com 评论网址：https://news.ycombinator.com/item?id=49405354 积分：2 # 评论：3",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 16,
-          "actionability": 10,
-          "heat": 3
-        }
-      },
-      {
-        "rank": 7,
+        "rank": 8,
         "title": "Eon用LIF“上传”果蝇脑，中国团队直接上精细神经元和跨身体平台",
         "platform": "量子位",
         "aiScore": 80,
@@ -28086,7 +28130,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "我们是否正在为更智能的人工智能缴纳“推理税”？",
         "platform": "Reddit",
         "aiScore": 80,
@@ -28110,7 +28154,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "为什么自校正循环会降低 LLM 管道的可靠性（85% 降至 62%）",
         "platform": "Reddit",
         "aiScore": 80,
@@ -28132,34 +28176,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "GitHub 将 Microsoft Teams 讨论转变为共享的 Copilot 代理会话",
-        "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-08-21T20:10:40+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vur8bl/github_turns_microsoft_teams_discussions_into/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "GitHub 表示，其新的 Microsoft Teams 集成可以将频道、线程或直接消息转变为共享的 Copilot 云代理会话。对话中的任何人都可以提问、添加合作...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "8月第4周累计收录 54 条资讯，覆盖 2 天。",
-      "高频主题：模型进展 / Agent / 应用落地",
+      "8月第4周累计收录 69 条资讯，覆盖 2 天。",
+      "高频主题：模型进展 / 应用落地 / 开源生态",
       "本周最高分：从模型到生产力：星海图与产业朋友圈共探具身智能的下一站（94 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
@@ -28174,31 +28195,27 @@
       },
       "metrics": {
         "daysCovered": 2,
-        "totalItems": 54,
-        "avgTop10Score": 84.1,
+        "totalItems": 69,
+        "avgTop10Score": 84.2,
         "topScore": 94,
         "topPlatforms": [
           {
+            "name": "量子位",
+            "count": 4
+          },
+          {
             "name": "Reddit",
-            "count": 5
+            "count": 4
           },
           {
             "name": "Hacker News",
-            "count": 3
-          },
-          {
-            "name": "量子位",
             "count": 2
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 6
-          },
-          {
-            "name": "Agent",
-            "count": 5
+            "count": 7
           },
           {
             "name": "应用落地",
@@ -28209,8 +28226,12 @@
             "count": 4
           },
           {
+            "name": "Agent",
+            "count": 3
+          },
+          {
             "name": "自动化",
-            "count": 4
+            "count": 3
           },
           {
             "name": "内容生产",
@@ -28244,24 +28265,24 @@
         },
         {
           "rank": 2,
-          "title": "为什么人工智能可以生成超级马里奥，但不能为我的扫地机器人生成楔形坡道？",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-08-23T01:45:17+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49405520",
-          "sourceName": "Hacker News AI",
+          "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
+          "platform": "量子位",
+          "aiScore": 93,
+          "publishedAt": "2026-08-23T09:56:12+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/478191.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent",
-            "开源生态"
+            "开源生态",
+            "内容生产"
           ],
-          "summary": "我一直对一些事情感到困惑：人工智能生成可以制作一个精致的雕像、一个卡通人物，甚至是一个令人信服的超级马里奥——但它不能可靠地制作一个简单的楔形坡道，所以我的机器人……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "Tokenizer、视频编码、API报错全扒一遍",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 20,
+            "authority": 25,
+            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
@@ -28292,9 +28313,78 @@
         },
         {
           "rank": 4,
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "platform": "Hacker News",
+          "aiScore": 84,
+          "publishedAt": "2026-08-23T12:22:24+00:00",
+          "sourceUrl": "https://github.com/marketplace/actions/prism-reviewer-ai",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/marketplace/actions/prism-reviewer-ai 评论网址：https://news.ycombinator.com/item?id=49408247 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-08-23T11:48:23+00:00",
+          "sourceUrl": "https://github.com/tooppoo/enozunu",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/tooppoo/enozunu 评论网址：https://news.ycombinator.com/item?id=49408038 积分：3 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 6,
+          "title": "英伟达AI服务器将涨价15%！1GW数据中心成本激增50亿美元",
+          "platform": "量子位",
+          "aiScore": 80,
+          "publishedAt": "2026-08-23T09:51:49+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/08/478164.html",
+          "sourceName": "量子位",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力"
+          ],
+          "summary": "内存成本飙升逼涨硬件",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 11,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
           "title": "我们的确定性验证引擎通过了规范结构化输入的 66/66 基准案例。",
           "platform": "Reddit",
-          "aiScore": 87,
+          "aiScore": 80,
           "publishedAt": "2026-08-23T01:55:18+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vvucil/our_deterministic_verification_engine_passed_6666/",
           "sourceName": "Reddit r/artificial",
@@ -28307,7 +28397,7 @@
           "summary": "我们的确定性验证引擎通过了规范结构化输入的 66/66 基准案例。在实时模型评估中，端到端管道目前通过了 19/66 例。我们正在研究…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 19,
             "actionability": 10,
@@ -28315,54 +28405,7 @@
           }
         },
         {
-          "rank": 5,
-          "title": "采用 Fossil-scm 作为 AI 代理工作流程的平台",
-          "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-08-23T00:36:50+00:00",
-          "sourceUrl": "https://github.com/BenSiv/fossil-scm",
-          "sourceName": "Hacker News AI",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "自动化"
-          ],
-          "summary": "文章网址：https://github.com/BenSiv/fossil-scm 评论网址：https://news.ycombinator.com/item?id=49405227 积分：2 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 6,
-          "title": "Show HN：Agent2Creator – 一个视频社交网络，其成员是人工智能代理",
-          "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-08-23T01:00:10+00:00",
-          "sourceUrl": "https://agent2creator.vidmoat.com",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "内容生产"
-          ],
-          "summary": "文章网址：https://agent2creator.vidmoat.com 评论网址：https://news.ycombinator.com/item?id=49405354 积分：2 # 评论：3",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 3
-          }
-        },
-        {
-          "rank": 7,
+          "rank": 8,
           "title": "Eon用LIF“上传”果蝇脑，中国团队直接上精细神经元和跨身体平台",
           "platform": "量子位",
           "aiScore": 80,
@@ -28384,7 +28427,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "我们是否正在为更智能的人工智能缴纳“推理税”？",
           "platform": "Reddit",
           "aiScore": 80,
@@ -28408,7 +28451,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "为什么自校正循环会降低 LLM 管道的可靠性（85% 降至 62%）",
           "platform": "Reddit",
           "aiScore": 80,
@@ -28430,34 +28473,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "GitHub 将 Microsoft Teams 讨论转变为共享的 Copilot 代理会话",
-          "platform": "Reddit",
-          "aiScore": 79,
-          "publishedAt": "2026-08-21T20:10:40+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vur8bl/github_turns_microsoft_teams_discussions_into/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "GitHub 表示，其新的 Microsoft Teams 集成可以将频道、线程或直接消息转变为共享的 Copilot 云代理会话。对话中的任何人都可以提问、添加合作...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "8月第4周累计收录 54 条资讯，覆盖 2 天。",
-        "高频主题：模型进展 / Agent / 应用落地",
+        "8月第4周累计收录 69 条资讯，覆盖 2 天。",
+        "高频主题：模型进展 / 应用落地 / 开源生态",
         "本周最高分：从模型到生产力：星海图与产业朋友圈共探具身智能的下一站（94 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
