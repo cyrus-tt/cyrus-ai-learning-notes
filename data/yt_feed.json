@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-08-22T13:29:12.118266+00:00",
+  "generatedAt": "2026-08-23T02:23:10.004144+00:00",
   "source": "yt-rss-live",
-  "total": 29,
+  "total": 31,
   "items": [
+    {
+      "title": "Machine Learning Street Talk · YouTube监控",
+      "titleOriginal": "Stealing Reasoning Traces from Proprietary LLM APIs — Ilia Shumailov & Alexander Panfilov",
+      "titleZh": "从专有的 LLM API 中窃取推理痕迹 — Ilia Shumailov 和 Alexander Panfilov",
+      "summary": "Tim Scarfe 与 Ilia Shumailov 和 Alexander Panfilov 讨论了他们的论文《从专有 LLM API 中窃取推理痕迹》。\n\n核心错误听起来看似简单：提供者返回加密的推理状态，以便可以恢复或分叉对话。但这些 blob 可以在用户和兄弟模型之间重放。较小的模型可以要求提供者解密跟踪，然后以纯文本形式重复隐藏的推理。讨论涵盖了泄露的私人数据、广泛可重复使用的越狱、中毒的特工痕迹、思想链监控、负责任的披露和可能的防御。\n\nIlia Shumailov 是一名人工智能和安全研究员，曾在 Google DeepMind 工作，完成了他的...",
+      "summaryOriginal": "Tim Scarfe speaks with Ilia Shumailov and Alexander Panfilov about their paper, Stealing Reasoning Traces from Proprietary LLM APIs.\n\nThe core bug sounds deceptively simple: providers return encrypted reasoning state so conversations can be resumed or forked. But those blobs can be replayed across users and sibling models. A smaller model can ask the provider to decrypt the trace, then repeat the hidden reasoning in plain text. The discussion covers leaked private data, a broadly reusable jailbreak, poisoned agent traces, chain-of-thought monitoring, responsible disclosure, and possible defenses.\n\nIlia Shumailov is an AI and security researcher, formerly at Google DeepMind, who completed his...",
+      "summaryZh": "Tim Scarfe 与 Ilia Shumailov 和 Alexander Panfilov 讨论了他们的论文《从专有 LLM API 中窃取推理痕迹》。\n\n核心错误听起来看似简单：提供者返回加密的推理状态，以便可以恢复或分叉对话。但这些 blob 可以在用户和兄弟模型之间重放。较小的模型可以要求提供者解密跟踪，然后以纯文本形式重复隐藏的推理。讨论涵盖了泄露的私人数据、广泛可重复使用的越狱、中毒的特工痕迹、思想链监控、负责任的披露和可能的防御。\n\nIlia Shumailov 是一名人工智能和安全研究员，曾在 Google DeepMind 工作，完成了他的...",
+      "hasTranslation": true,
+      "platform": "YouTube",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "YouTube监控",
+        "研究前沿",
+        "访谈"
+      ],
+      "date": "2026-08-22",
+      "action": "值得观看的AI视频，建议收藏并提取关键信息。",
+      "sourceUrl": "https://www.youtube.com/watch?v=gasgivVCl2U",
+      "sourceName": "Machine Learning Street Talk",
+      "publishedAt": "2026-08-22T20:22:07+00:00",
+      "ytMeta": {
+        "channelId": "UCMLtBahI5DMrt0NPvDSoIRQ",
+        "videoId": "gasgivVCl2U",
+        "thumbnailUrl": "https://i4.ytimg.com/vi/gasgivVCl2U/hqdefault.jpg"
+      }
+    },
+    {
+      "title": "Pretty Printed · YouTube监控",
+      "titleOriginal": "Pydantic AI is more powerful with these new features",
+      "titleZh": "Pydantic AI 凭借这些新功能变得更加强大",
+      "summary": "在本视频中，我将介绍如何使用 Pydantic AI Harness 来充分利用 Pydantic AI。\n\n了解有关 Pydantic AI Harness 的更多信息：https://pydantic.dev/docs/ai/harness/\n\n在此处获取代码：https://github.com/PrettyPrinted/youtube_video_code/tree/master/2026/08/22/Pydantic%20AI%20is%20more%20powerful%20with%20these%20new%20features",
+      "summaryOriginal": "In this video I talk about how you can use Pydantic AI Harness to get more out of your use of Pydantic AI.\n\nLearn more about Pydantic AI Harness: https://pydantic.dev/docs/ai/harness/\n\nGet the code here: https://github.com/PrettyPrinted/youtube_video_code/tree/master/2026/08/22/Pydantic%20AI%20is%20more%20powerful%20with%20these%20new%20features",
+      "summaryZh": "在本视频中，我将介绍如何使用 Pydantic AI Harness 来充分利用 Pydantic AI。\n\n了解有关 Pydantic AI Harness 的更多信息：https://pydantic.dev/docs/ai/harness/\n\n在此处获取代码：https://github.com/PrettyPrinted/youtube_video_code/tree/master/2026/08/22/Pydantic%20AI%20is%20more%20powerful%20with%20these%20new%20features",
+      "hasTranslation": true,
+      "platform": "YouTube",
+      "region": "海外",
+      "industryStage": "中游",
+      "contentTags": [
+        "YouTube监控",
+        "工具落地",
+        "AI新闻"
+      ],
+      "date": "2026-08-22",
+      "action": "值得观看的AI视频，建议收藏并提取关键信息。",
+      "sourceUrl": "https://www.youtube.com/watch?v=6Cgea1ew5I8",
+      "sourceName": "Pretty Printed",
+      "publishedAt": "2026-08-22T14:00:09+00:00",
+      "ytMeta": {
+        "channelId": "UC-QDfvrRIDB6F0bIO4I4HkQ",
+        "videoId": "6Cgea1ew5I8",
+        "thumbnailUrl": "https://i3.ytimg.com/vi/6Cgea1ew5I8/hqdefault.jpg"
+      }
+    },
     {
       "title": "edureka! · YouTube监控",
       "titleOriginal": "Build a Voice AI Assistant from Scratch | Speech-to-Text, LLM & Text-to-Speech |  Edureka",
