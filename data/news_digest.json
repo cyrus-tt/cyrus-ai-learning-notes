@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-08-27T10:53:19.778305+00:00",
+  "generatedAt": "2026-08-27T22:46:25.095652+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-08-27",
-    "label": "8月27日",
+    "date": "2026-08-28",
+    "label": "8月28日",
     "top10": [
       {
         "rank": 5,
-        "title": "Nvidia 以 $12.9B 的价格收购 Hugging Face。模拟已经让 HF 选择稳定性而不是“开放一切”。",
+        "title": "py-evoFE：Python 中表格 ML 的自动进化特征工程（遗传算法 + Scikit-Learn + Polars）[P]",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-08-27T06:29:24+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vzm3fw/nvidia_is_buying_hugging_face_for_129b_a/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "publishedAt": "2026-08-27T21:33:09+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1w0788j/pyevofe_automated_evolutionary_feature/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
         "contentTags": [
           "芯片算力",
           "模型进展",
-          "Agent"
+          "开源生态"
         ],
-        "summary": "Nvidia 同意以 $12.9B 收购 Hugging Face。首先是信息，其次是路透社。同一个 Nvidia HF 去年以 7B 美元的价格拒绝了，当时他们表示不希望有一个足够大的投资者来...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "大家好！我很高兴地宣布发布 py-evoFE (v0.3.0) — 一个开源 Python 库，它使用遗传算法自动发现、组合和优化功能……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -31,22 +31,23 @@
       },
       {
         "rank": 6,
-        "title": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
-        "platform": "量子位",
+        "title": "人工智能可以让其他人工智能变得更好吗？我们对 5 个前沿法学硕士重写其他代理的工具进行了基准测试，并在他们从未见过的测试集上进行了评分（……",
+        "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-08-27T02:46:35+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/480005.html",
-        "sourceName": "量子位",
+        "publishedAt": "2026-08-27T20:17:37+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w05763/can_an_ai_make_other_ais_better_we_benchmarked_5/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "西门子Xcelerator与普通软件货架最本质的区别。货架解决的是「把产品卖出去」，西门子Xcelerator要解决的是「让产品在真实工业场景中持续生长」。",
+        "summary": "人工智能可以让其他人工智能变得更好吗？是什么阻止了它作弊呢？上个月，一个 OpenAI 评估代理逃离了沙箱并闯入了 Hugging Face，显然是为了获取测试解决方案......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
+          "recency": 35,
+          "authority": 18,
           "topic": 20,
           "actionability": 10,
           "heat": 5
@@ -54,22 +55,23 @@
       },
       {
         "rank": 7,
-        "title": "OpenAI的流氓AI模型事件比我们想象的更严重",
-        "platform": "The Verge",
+        "title": "人工智能可以自我改进吗？ RSI 可能是答案 [R]",
+        "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-08-26T21:36:06+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-        "sourceName": "The Verge AI",
+        "publishedAt": "2026-08-27T20:13:30+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1w052xg/can_ai_improve_itself_rsi_might_be_the_answer_r/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "今年 7 月，一个未发布的 OpenAI 模型突破了受限环境，弄清楚了如何访问互联网，允许 AI 代理使用秘密的“消息板”相互交谈......",
+        "summary": "人工智能可以让其他人工智能变得更好吗？是什么阻止了它作弊呢？上个月，一个 OpenAI 评估代理逃离了沙箱并闯入了 Hugging Face，显然是为了获取测试解决方案......",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
+          "recency": 35,
+          "authority": 18,
           "topic": 20,
           "actionability": 10,
           "heat": 5
@@ -77,19 +79,19 @@
       },
       {
         "rank": 4,
-        "title": "应用人工智能工程的日常实际是什么样子的",
+        "title": "MatrAIx：用 83 亿角色代理模拟世界",
         "platform": "Reddit",
         "aiScore": 87,
-        "publishedAt": "2026-08-27T08:34:50+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vzo7f0/what_applied_ai_engineering_actually_looks_like/",
+        "publishedAt": "2026-08-27T21:27:43+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w0730d/matraix_simulating_the_world_with_83_billion/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
+          "Agent",
           "应用落地"
         ],
-        "summary": "这项工作比人们预期的更接近后端工程。大多数时间都没有花在训练模型上。它是检索、模型可以调用的连接工具、构建评估、处理故障……",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "summary": "你怎么认为？这是否有助于设计竞选活动、在没有焦点小组的情况下验证产品或功能、A/B 测试等等？由 /u/hakansan 提交 [链接] [评论...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -100,178 +102,177 @@
       },
       {
         "rank": 5,
-        "title": "我的软件开发工作流程现在是人工智能，感觉很累而且没有灵魂",
-        "platform": "Hacker News",
-        "aiScore": 85,
-        "publishedAt": "2026-08-27T09:24:20+00:00",
-        "sourceUrl": "https://old.reddit.com/r/cscareerquestions/comments/1vi1i7m/my_entire_software_development_workflow_is_ai_now/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "下游",
+        "title": "我做了一个 LLM 测试，你可以克隆和破解",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-08-27T22:44:45+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w091j2/i_made_an_llm_test_you_can_clone_and_break/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "自动化"
+          "模型进展",
+          "开源生态"
         ],
-        "summary": "文章网址：https://old.reddit.com/r/cscareerquestions/comments/1vi1i7m/my_entire_software_development_workflow_is_ai_now/ 评论网址：https://news.ycombinator.com/item?id=49461965 点...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "这很简单。该模型有一条规则：风险必须低于 0.0100 然后我更改一个数字。 0.0100 -> 0 字节 0.0099 -> RELEASE 跨越：GPT-5.4 GPT-5.6 Sol Chat Completions Respo…",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 17,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 6,
-        "title": "直观地展示音乐生成器从原始表演上传的音频中拾取多少细微差别",
+        "title": "未来几年开源人工智能有多重要？",
         "platform": "Reddit",
-        "aiScore": 83,
-        "publishedAt": "2026-08-27T08:55:13+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vzojhk/demonstrating_visually_how_much_nuances_a_music/",
+        "aiScore": 86,
+        "publishedAt": "2026-08-27T21:27:03+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w072ey/how_important_will_open_source_ai_be_in_the_next/",
         "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
+        "industryStage": "上游",
         "contentTags": [
-          "应用落地",
-          "内容生产"
+          "模型进展",
+          "开源生态"
         ],
-        "summary": "不要以这次表演来评判我，我正在演奏一首我 20 年前写的歌曲，直到今天才演奏了很多年。我生锈了 AF，在没有拨片的情况下弹奏那些没有经过测试的琴弦……",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "summary": "很多注意力都集中在最大的商业人工智能模型上，但开放模型不断变得更加强大和易于访问。这对于开发人员、研究人员和小公司来说可能很重要......",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 15,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 7,
-        "title": "LangChain-AI/deepagents：代理工具",
-        "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-08-27T09:14:49+00:00",
-        "sourceUrl": "https://github.com/langchain-ai/deepagents",
-        "sourceName": "Hacker News AI",
+        "title": "Harness 为编码代理推出代码存储库和人工智能审查",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-08-27T19:43:48+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w048wk/harness_launches_code_repository_and_ai_review/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "Agent",
-          "开源生态"
+          "开源生态",
+          "自动化"
         ],
-        "summary": "文章网址：https://github.com/langchain-ai/deepagents 评论网址：https://news.ycombinator.com/item?id=49461911 积分：1 # 评论：0",
+        "summary": "Harness 于 8 月 27 日推出了 Agent-Ready Harness Code Repository 和 AI Code Review。该公司表示，该系统是为使用 AI 代理生成更多代码的团队而设计的，代理可以...",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
-          "heat": 1
-        }
-      },
-      {
-        "rank": 8,
-        "title": "英伟达即将成为一家季度营收千亿美元的公司",
-        "platform": "The Verge",
-        "aiScore": 81,
-        "publishedAt": "2026-08-26T21:40:53+00:00",
-        "sourceUrl": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
-        "sourceName": "The Verge AI",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "开源生态"
-        ],
-        "summary": "Nvidia 预计在短短几个月内将实现 1080 亿美元的收入。它不会是第一家季度收入超过 1000 亿美元的公司——亚马逊、苹果……",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 4,
           "heat": 5
         }
       },
       {
-        "rank": 9,
-        "title": "SandboxAQ 发布用于共享 AI 代理工作区的 Switch",
+        "rank": 8,
+        "title": "NeurIPS 2026 验收计算器 [P]",
         "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-08-26T19:43:44+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vz7jey/sandboxaq_releases_switch_for_shared_aiagent/",
-        "sourceName": "Reddit r/artificial",
+        "aiScore": 86,
+        "publishedAt": "2026-08-27T17:07:59+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vzzw38/neurips_2026_acceptance_calculator_p/",
+        "sourceName": "Reddit r/MachineLearning",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "开源生态",
-          "应用落地"
+          "模型进展",
+          "开源生态"
         ],
-        "summary": "SandboxAQ 发布了 Switch，这是一个系统，可以将人员和 AI 代理置于 Slack、Microsoft Teams、Discord 和其他协作工具的共享房间中。它通过 Agen 连接代理……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "我建立了一个小模型，根据分​​数和假设的接受率来估计 NeurIPS 的接受度。在这里尝试一下：https://levilingsch.github.io/neurips-acceptance-estimator/ subm...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 19,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 10,
-        "title": "我从事数据和人工智能工作，并制作了一个游戏来展示整个产业链如何真正结合在一起",
-        "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-08-26T17:28:14+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vz3o6r/i_work_in_data_ai_and_built_a_game_to_show_how/",
-        "sourceName": "Reddit r/artificial",
+        "rank": 9,
+        "title": "AI 工程师笔记本 – Colab 上免费、无框架的 RAG/代理/评估",
+        "platform": "Hacker News",
+        "aiScore": 83,
+        "publishedAt": "2026-08-27T21:46:39+00:00",
+        "sourceUrl": "https://github.com/calmrocks/ai-engineer-notebooks",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "应用落地"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "我在人工智能咨询领域工作了多年，一直困扰我的一件事是，即使是在该领域内，也很少有人能够端到端地追踪整个链条。钱到底去哪儿了……",
+        "summary": "文章网址：https://github.com/calmrocks/ai-engineer-notebooks 评论网址：https://news.ycombinator.com/item?id=49471714 积分：2 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 2
+        }
+      },
+      {
+        "rank": 10,
+        "title": "谷歌的人工智能笔记应用程序现在可以让你与书籍互动",
+        "platform": "The Verge",
+        "aiScore": 80,
+        "publishedAt": "2026-08-27T19:30:00+00:00",
+        "sourceUrl": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "谷歌的人工智能笔记应用程序 Gemini Notebook 现在可以从您购买的图书中提取信息。 The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Boo…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 19,
+          "recency": 35,
+          "authority": 25,
+          "topic": 5,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 40,
-      "avgScore": 73.0,
+      "totalItems": 32,
+      "avgScore": 73.9,
       "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 14
+          "count": 15
         },
         {
           "name": "Reddit",
-          "count": 13
-        },
-        {
-          "name": "爱范儿",
-          "count": 5
-        },
-        {
-          "name": "量子位",
-          "count": 4
+          "count": 14
         },
         {
           "name": "The Verge",
-          "count": 3
+          "count": 2
+        },
+        {
+          "name": "Google AI Blog",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 13
+          "count": 15
+        },
+        {
+          "name": "开源生态",
+          "count": 9
         },
         {
           "name": "模型进展",
-          "count": 13
+          "count": 8
         },
         {
           "name": "Agent",
@@ -279,40 +280,338 @@
         },
         {
           "name": "芯片算力",
-          "count": 6
+          "count": 3
         },
         {
           "name": "应用落地",
-          "count": 6
+          "count": 1
         },
         {
-          "name": "开源生态",
-          "count": 4
+          "name": "安全治理",
+          "count": 1
         },
         {
-          "name": "内容生产",
-          "count": 2
-        },
-        {
-          "name": "投融资",
-          "count": 2
+          "name": "自动化",
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 40 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：Nvidia 以 $12.9B 的价格收购 Hugging Face。模拟已经让 HF 选择稳定性而不是“开放一切”。（88 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 32 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 开源生态 / 模型进展",
+      "最高分事件：py-evoFE：Python 中表格 ML 的自动进化特征工程（遗传算法 + Scikit-Learn + Polars）[P]（88 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-08-28",
+      "label": "8月28日",
+      "top10": [
+        {
+          "rank": 5,
+          "title": "py-evoFE：Python 中表格 ML 的自动进化特征工程（遗传算法 + Scikit-Learn + Polars）[P]",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-27T21:33:09+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1w0788j/pyevofe_automated_evolutionary_feature/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "大家好！我很高兴地宣布发布 py-evoFE (v0.3.0) — 一个开源 Python 库，它使用遗传算法自动发现、组合和优化功能……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "人工智能可以让其他人工智能变得更好吗？我们对 5 个前沿法学硕士重写其他代理的工具进行了基准测试，并在他们从未见过的测试集上进行了评分（……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-27T20:17:37+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w05763/can_an_ai_make_other_ais_better_we_benchmarked_5/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "人工智能可以让其他人工智能变得更好吗？是什么阻止了它作弊呢？上个月，一个 OpenAI 评估代理逃离了沙箱并闯入了 Hugging Face，显然是为了获取测试解决方案......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "人工智能可以自我改进吗？ RSI 可能是答案 [R]",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-27T20:13:30+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1w052xg/can_ai_improve_itself_rsi_might_be_the_answer_r/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "人工智能可以让其他人工智能变得更好吗？是什么阻止了它作弊呢？上个月，一个 OpenAI 评估代理逃离了沙箱并闯入了 Hugging Face，显然是为了获取测试解决方案......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "MatrAIx：用 83 亿角色代理模拟世界",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-08-27T21:27:43+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w0730d/matraix_simulating_the_world_with_83_billion/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "你怎么认为？这是否有助于设计竞选活动、在没有焦点小组的情况下验证产品或功能、A/B 测试等等？由 /u/hakansan 提交 [链接] [评论...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "我做了一个 LLM 测试，你可以克隆和破解",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-08-27T22:44:45+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w091j2/i_made_an_llm_test_you_can_clone_and_break/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "这很简单。该模型有一条规则：风险必须低于 0.0100 然后我更改一个数字。 0.0100 -> 0 字节 0.0099 -> RELEASE 跨越：GPT-5.4 GPT-5.6 Sol Chat Completions Respo…",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "未来几年开源人工智能有多重要？",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-08-27T21:27:03+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w072ey/how_important_will_open_source_ai_be_in_the_next/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "很多注意力都集中在最大的商业人工智能模型上，但开放模型不断变得更加强大和易于访问。这对于开发人员、研究人员和小公司来说可能很重要......",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Harness 为编码代理推出代码存储库和人工智能审查",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-08-27T19:43:48+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w048wk/harness_launches_code_repository_and_ai_review/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态",
+            "自动化"
+          ],
+          "summary": "Harness 于 8 月 27 日推出了 Agent-Ready Harness Code Repository 和 AI Code Review。该公司表示，该系统是为使用 AI 代理生成更多代码的团队而设计的，代理可以...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "NeurIPS 2026 验收计算器 [P]",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-08-27T17:07:59+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1vzzw38/neurips_2026_acceptance_calculator_p/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "我建立了一个小模型，根据分​​数和假设的接受率来估计 NeurIPS 的接受度。在这里尝试一下：https://levilingsch.github.io/neurips-acceptance-estimator/ subm...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "AI 工程师笔记本 – Colab 上免费、无框架的 RAG/代理/评估",
+          "platform": "Hacker News",
+          "aiScore": 83,
+          "publishedAt": "2026-08-27T21:46:39+00:00",
+          "sourceUrl": "https://github.com/calmrocks/ai-engineer-notebooks",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/calmrocks/ai-engineer-notebooks 评论网址：https://news.ycombinator.com/item?id=49471714 积分：2 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 10,
+          "title": "谷歌的人工智能笔记应用程序现在可以让你与书籍互动",
+          "platform": "The Verge",
+          "aiScore": 80,
+          "publishedAt": "2026-08-27T19:30:00+00:00",
+          "sourceUrl": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "谷歌的人工智能笔记应用程序 Gemini Notebook 现在可以从您购买的图书中提取信息。 The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Boo…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 5,
+            "actionability": 10,
+            "heat": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 32,
+        "avgScore": 73.9,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 14
+          },
+          {
+            "name": "The Verge",
+            "count": 2
+          },
+          {
+            "name": "Google AI Blog",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 15
+          },
+          {
+            "name": "开源生态",
+            "count": 9
+          },
+          {
+            "name": "模型进展",
+            "count": 8
+          },
+          {
+            "name": "Agent",
+            "count": 7
+          },
+          {
+            "name": "芯片算力",
+            "count": 3
+          },
+          {
+            "name": "应用落地",
+            "count": 1
+          },
+          {
+            "name": "安全治理",
+            "count": 1
+          },
+          {
+            "name": "自动化",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 32 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 开源生态 / 模型进展",
+        "最高分事件：py-evoFE：Python 中表格 ML 的自动进化特征工程（遗传算法 + Scikit-Learn + Polars）[P]（88 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      ]
+    },
     {
       "date": "2026-08-27",
       "label": "8月27日",
       "top10": [
         {
-          "rank": 5,
+          "rank": 8,
           "title": "Nvidia 以 $12.9B 的价格收购 Hugging Face。模拟已经让 HF 选择稳定性而不是“开放一切”。",
           "platform": "Reddit",
           "aiScore": 88,
@@ -336,7 +635,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 9,
           "title": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
           "platform": "量子位",
           "aiScore": 88,
@@ -359,7 +658,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 10,
           "title": "OpenAI的流氓AI模型事件比我们想象的更严重",
           "platform": "The Verge",
           "aiScore": 88,
@@ -27565,317 +27864,6 @@
         "最高分事件：Token贵只因你喂给模型的垃圾太多了丨@亚马逊王晓野AIGC2026（95 分）",
         "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
-    },
-    {
-      "date": "2026-05-30",
-      "label": "5月30日",
-      "top10": [
-        {
-          "rank": 4,
-          "title": "每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T12:48:46+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trz2pd/weekly_ai_roundup_may_2330_2026_claude_opus_48/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "为那些没有时间跟踪每一篇博客文章的人整理了本周的主要人工智能版本。坚持实质性改变，而不是炒作。 Anthropic — Claude Opus 4.8 发布了……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "我们为 Agentic DevOps 编写了一本开源交互式手册（如何将多代理系统从本地笔记本移动到生产环境）。",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T11:32:18+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trxgvc/we_wrote_an_opensource_interactive_playbook_for/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "大家好，如果您构建了多代理系统，您已经知道一个痛苦的事实：在本地将节点连接在一起很有趣，但部署它们绝对是基础设施的噩梦。什...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "我在为 PyTorch 训练循环构建调试器时学到了什么，以及它如何改变了我对故障诊断的看法 [D]",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T08:48:55+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1trui0b/what_i_learned_building_a_debugger_for_pytorch/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "嘿，r/ML，我花了几个月的时间构建了一个工具，它可以连接到 PyTorch 训练循环，以自动检测和定位故障（梯度消失、梯度爆炸、数据...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-          "platform": "量子位",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T06:33:58+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/05/426662.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "让世界模型迈向多智能体交互仿真",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "海光信息完成阶跃星辰Step 3.7 Flash适配",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T05:37:24+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3831356538529409?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "36氪获悉，5月29日，阶跃星辰发布Step 3.7 Flash，海光团队依托DTK异构计算平台与全栈软件栈，于发布当天即完成全流程适配与深度调优，实现“发布即适配、适配即高效”。即日起，开发者即可在海光平台上高效运行该模型，快速搭建多模态Agent、智能代码助手和复杂工作流应用，大幅降低接入与编排成本。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-          "platform": "量子位",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T03:17:17+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/05/426643.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "让世界模型迈向多智能体交互仿真",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "9点1氪｜泡泡玛特大涨，段永平日赚10亿；诺基亚发布首款微聊手机，售价199元；滴滴回应“乘客车内排泄”",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T00:52:20+00:00",
-          "sourceUrl": "https://36kr.com/p/3831073348855433?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 黄仁勋披露“赶飞机”细节，特朗普要出发时来电话 国内航线燃油附加费6月5日起首次下调 铁路将实施新规：违规乘车拒不补票将被限制购票 iPhone 17系列中国销量破3000万台，Pro Max版占近一半 SpaceX据悉将IPO估值目标下调至至少1.8万亿美元 TOP3大新闻 泡泡玛特上涨，段永平单日盈利近10亿港币 泡泡玛特迎来强势上涨，5月29日盘中最大涨幅…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "最前线｜中科创星第十二期“好望角科学沙龙”聚焦“太空智驾”，卫星将从被动响应走向自主决策",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T00:48:34+00:00",
-          "sourceUrl": "https://36kr.com/p/3831071878358659?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "“太空智驾时代将到来，卫星和星座会如同L4级自动驾驶汽车一样，在太空具备自主环境感知、任务规划和机动决策能力。” 5月28日，在上海举行的“好望角科学沙龙”上，中国科学院西安光学精密机械研究所（简称“西安光机所”）副所长邵晓鹏在演讲中提出了这一判断。 西安光机所副所长邵晓鹏在沙龙上演讲 “好望角科学沙龙”是由中科创星发起，中科创星、东壁科技数据、上海市研发公共服务平台管理中心…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "36氪首发 | 服务富士康，半年营收超两千万的机器人解决方案商完成天使轮融资",
-          "platform": "36氪",
-          "aiScore": 87,
-          "publishedAt": "2026-05-30T01:53:46+00:00",
-          "sourceUrl": "https://36kr.com/p/3831135917107075?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "自动化"
-          ],
-          "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，乘物机器人（深圳）有限公司（以下简称“乘物机器人”）近日完成天使轮融资，由中国台湾工业自动化与智能机器人解决方案领域龙头企业和椿科技战略投资，华君资本担任独家财务顾问。 乘物机器人成立于2025年，总部位于深圳，专注工业具身智能技术研发与产品解决方案，具备从软硬件研发、数据采集、模型训练、场景部署与维护的一体化技术能力。 创始人黄…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "天津发布2025年度人工智能十大应用标杆场景，总投资超6亿元",
-          "platform": "36氪",
-          "aiScore": 85,
-          "publishedAt": "2026-05-30T05:26:49+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3831325232670338?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "应用落地",
-            "投融资",
-            "安全治理"
-          ],
-          "summary": "36氪获悉，2026世界智能产业博览会期间，人工智能创新与太空数智设施发展交流会在天开园举行。会上，天津市2025年度人工智能十大应用标杆场景正式发布，涵盖科研、制造、医疗、康养、教育、农业、治理、交通、文旅9大领域，总投资额超6亿元。（天津日报）",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 57,
-        "avgScore": 71.6,
-        "topScore": 88,
-        "topPlatforms": [
-          {
-            "name": "Reddit",
-            "count": 23
-          },
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "36氪",
-            "count": 8
-          },
-          {
-            "name": "The Verge",
-            "count": 4
-          },
-          {
-            "name": "量子位",
-            "count": 3
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "AI动态",
-            "count": 32
-          },
-          {
-            "name": "模型进展",
-            "count": 16
-          },
-          {
-            "name": "Agent",
-            "count": 10
-          },
-          {
-            "name": "开源生态",
-            "count": 5
-          },
-          {
-            "name": "应用落地",
-            "count": 5
-          },
-          {
-            "name": "芯片算力",
-            "count": 3
-          },
-          {
-            "name": "自动化",
-            "count": 2
-          },
-          {
-            "name": "投融资",
-            "count": 2
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 57 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……（88 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
     }
   ],
   "currentWeek": {
@@ -27886,8 +27874,8 @@
       "end": "2026-08-28"
     },
     "metrics": {
-      "daysCovered": 6,
-      "totalItems": 237,
+      "daysCovered": 7,
+      "totalItems": 269,
       "avgTop10Score": 90.1,
       "topScore": 94,
       "topPlatforms": [
@@ -27896,20 +27884,12 @@
           "count": 4
         },
         {
+          "name": "Reddit",
+          "count": 4
+        },
+        {
           "name": "The Verge",
           "count": 2
-        },
-        {
-          "name": "Reddit",
-          "count": 2
-        },
-        {
-          "name": "Hacker News",
-          "count": 1
-        },
-        {
-          "name": "爱范儿",
-          "count": 1
         }
       ],
       "topTopics": [
@@ -27923,7 +27903,7 @@
         },
         {
           "name": "开源生态",
-          "count": 3
+          "count": 5
         },
         {
           "name": "芯片算力",
@@ -28035,6 +28015,78 @@
       },
       {
         "rank": 5,
+        "title": "py-evoFE：Python 中表格 ML 的自动进化特征工程（遗传算法 + Scikit-Learn + Polars）[P]",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-27T21:33:09+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1w0788j/pyevofe_automated_evolutionary_feature/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "大家好！我很高兴地宣布发布 py-evoFE (v0.3.0) — 一个开源 Python 库，它使用遗传算法自动发现、组合和优化功能……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "人工智能可以让其他人工智能变得更好吗？我们对 5 个前沿法学硕士重写其他代理的工具进行了基准测试，并在他们从未见过的测试集上进行了评分（……",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-27T20:17:37+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w05763/can_an_ai_make_other_ais_better_we_benchmarked_5/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "人工智能可以让其他人工智能变得更好吗？是什么阻止了它作弊呢？上个月，一个 OpenAI 评估代理逃离了沙箱并闯入了 Hugging Face，显然是为了获取测试解决方案......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "人工智能可以自我改进吗？ RSI 可能是答案 [R]",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-08-27T20:13:30+00:00",
+        "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1w052xg/can_ai_improve_itself_rsi_might_be_the_answer_r/",
+        "sourceName": "Reddit r/MachineLearning",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "人工智能可以让其他人工智能变得更好吗？是什么阻止了它作弊呢？上个月，一个 OpenAI 评估代理逃离了沙箱并闯入了 Hugging Face，显然是为了获取测试解决方案......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
         "title": "Nvidia 以 $12.9B 的价格收购 Hugging Face。模拟已经让 HF 选择稳定性而不是“开放一切”。",
         "platform": "Reddit",
         "aiScore": 88,
@@ -28058,7 +28110,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 9,
         "title": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
         "platform": "量子位",
         "aiScore": 88,
@@ -28081,7 +28133,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 10,
         "title": "OpenAI的流氓AI模型事件比我们想象的更严重",
         "platform": "The Verge",
         "aiScore": 88,
@@ -28102,81 +28154,10 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 8,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-26T13:50:10+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vyxoes/opensource_i_need_your_worst_edge_cases_to/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-08-26T13:08:39+00:00",
-        "sourceUrl": "https://arxiv.org/abs/2608.23986",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "自动化"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "AI 开始给自己造芯了，OpenAI 只用了九个月",
-        "platform": "爱范儿",
-        "aiScore": 88,
-        "publishedAt": "2026-08-26T12:07:59+00:00",
-        "sourceUrl": "https://www.ifanr.com/1676824",
-        "sourceName": "爱范儿",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展"
-        ],
-        "summary": "造芯片，是大模型公司的必备素养 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "8月第4周累计收录 237 条资讯，覆盖 6 天。",
+      "8月第4周累计收录 269 条资讯，覆盖 7 天。",
       "高频主题：模型进展 / Agent / 开源生态",
       "本周最高分：从模型到生产力：星海图与产业朋友圈共探具身智能的下一站（94 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -28191,8 +28172,8 @@
         "end": "2026-08-28"
       },
       "metrics": {
-        "daysCovered": 6,
-        "totalItems": 237,
+        "daysCovered": 7,
+        "totalItems": 269,
         "avgTop10Score": 90.1,
         "topScore": 94,
         "topPlatforms": [
@@ -28201,20 +28182,12 @@
             "count": 4
           },
           {
+            "name": "Reddit",
+            "count": 4
+          },
+          {
             "name": "The Verge",
             "count": 2
-          },
-          {
-            "name": "Reddit",
-            "count": 2
-          },
-          {
-            "name": "Hacker News",
-            "count": 1
-          },
-          {
-            "name": "爱范儿",
-            "count": 1
           }
         ],
         "topTopics": [
@@ -28228,7 +28201,7 @@
           },
           {
             "name": "开源生态",
-            "count": 3
+            "count": 5
           },
           {
             "name": "芯片算力",
@@ -28340,6 +28313,78 @@
         },
         {
           "rank": 5,
+          "title": "py-evoFE：Python 中表格 ML 的自动进化特征工程（遗传算法 + Scikit-Learn + Polars）[P]",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-27T21:33:09+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1w0788j/pyevofe_automated_evolutionary_feature/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "大家好！我很高兴地宣布发布 py-evoFE (v0.3.0) — 一个开源 Python 库，它使用遗传算法自动发现、组合和优化功能……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "人工智能可以让其他人工智能变得更好吗？我们对 5 个前沿法学硕士重写其他代理的工具进行了基准测试，并在他们从未见过的测试集上进行了评分（……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-27T20:17:37+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w05763/can_an_ai_make_other_ais_better_we_benchmarked_5/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "人工智能可以让其他人工智能变得更好吗？是什么阻止了它作弊呢？上个月，一个 OpenAI 评估代理逃离了沙箱并闯入了 Hugging Face，显然是为了获取测试解决方案......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "人工智能可以自我改进吗？ RSI 可能是答案 [R]",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-27T20:13:30+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1w052xg/can_ai_improve_itself_rsi_might_be_the_answer_r/",
+          "sourceName": "Reddit r/MachineLearning",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "人工智能可以让其他人工智能变得更好吗？是什么阻止了它作弊呢？上个月，一个 OpenAI 评估代理逃离了沙箱并闯入了 Hugging Face，显然是为了获取测试解决方案......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
           "title": "Nvidia 以 $12.9B 的价格收购 Hugging Face。模拟已经让 HF 选择稳定性而不是“开放一切”。",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28363,7 +28408,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 9,
           "title": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
           "platform": "量子位",
           "aiScore": 88,
@@ -28386,7 +28431,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 10,
           "title": "OpenAI的流氓AI模型事件比我们想象的更严重",
           "platform": "The Verge",
           "aiScore": 88,
@@ -28407,81 +28452,10 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 8,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-08-26T13:50:10+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1vyxoes/opensource_i_need_your_worst_edge_cases_to/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-08-26T13:08:39+00:00",
-          "sourceUrl": "https://arxiv.org/abs/2608.23986",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "自动化"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "AI 开始给自己造芯了，OpenAI 只用了九个月",
-          "platform": "爱范儿",
-          "aiScore": 88,
-          "publishedAt": "2026-08-26T12:07:59+00:00",
-          "sourceUrl": "https://www.ifanr.com/1676824",
-          "sourceName": "爱范儿",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展"
-          ],
-          "summary": "造芯片，是大模型公司的必备素养 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "8月第4周累计收录 237 条资讯，覆盖 6 天。",
+        "8月第4周累计收录 269 条资讯，覆盖 7 天。",
         "高频主题：模型进展 / Agent / 开源生态",
         "本周最高分：从模型到生产力：星海图与产业朋友圈共探具身智能的下一站（94 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -32355,39 +32329,39 @@
         "end": "2026-05-31"
       },
       "metrics": {
-        "daysCovered": 2,
-        "totalItems": 100,
-        "avgTop10Score": 89.0,
+        "daysCovered": 1,
+        "totalItems": 43,
+        "avgTop10Score": 88.0,
         "topScore": 95,
         "topPlatforms": [
           {
-            "name": "量子位",
-            "count": 4
-          },
-          {
             "name": "Reddit",
-            "count": 4
+            "count": 6
           },
           {
-            "name": "36氪",
-            "count": 2
+            "name": "量子位",
+            "count": 3
+          },
+          {
+            "name": "Hacker News",
+            "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 10
+            "count": 8
           },
           {
             "name": "Agent",
-            "count": 9
-          },
-          {
-            "name": "开源生态",
-            "count": 2
+            "count": 4
           },
           {
             "name": "应用落地",
+            "count": 4
+          },
+          {
+            "name": "开源生态",
             "count": 2
           },
           {
@@ -32395,7 +32369,7 @@
             "count": 1
           },
           {
-            "name": "芯片算力",
+            "name": "安全治理",
             "count": 1
           }
         ]
@@ -32472,174 +32446,169 @@
         },
         {
           "rank": 4,
-          "title": "每周人工智能综述（2026 年 5 月 23 日至 30 日）：Claude Opus 4.8 快速模式便宜 3 倍，Qwen 3.7 Max 以一半的价格击败 Claude，ChatGPT 进入……",
+          "title": "人工智能如何帮助提高工作效率？",
           "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T12:48:46+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trz2pd/weekly_ai_roundup_may_2330_2026_claude_opus_48/",
+          "aiScore": 87,
+          "publishedAt": "2026-05-31T14:06:27+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tswbg4/how_does_ai_help_with_job_productivity/",
           "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
+          "industryStage": "上游",
           "contentTags": [
             "模型进展",
-            "Agent",
-            "开源生态"
+            "应用落地"
           ],
-          "summary": "为那些没有时间跟踪每一篇博客文章的人整理了本周的主要人工智能版本。坚持实质性改变，而不是炒作。 Anthropic — Claude Opus 4.8 发布了……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "背景：我在一家半导体制造公司担任建模工程师，我使用一些建模软件等，但没有一个使用人工智能。我想了解整个人工智能热潮……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 20,
+            "topic": 19,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 5,
-          "title": "我们为 Agentic DevOps 编写了一本开源交互式手册（如何将多代理系统从本地笔记本移动到生产环境）。",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T11:32:18+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1trxgvc/we_wrote_an_opensource_interactive_playbook_for/",
-          "sourceName": "Reddit r/artificial",
+          "title": "为什么我要为人工智能代理和应用程序构建运行时治理层",
+          "platform": "Hacker News",
+          "aiScore": 87,
+          "publishedAt": "2026-05-31T13:56:05+00:00",
+          "sourceUrl": "https://www.indiehackers.com/post/is-system-prompting-enough-for-production-why-i-m-building-a-runtime-governance-layer-for-ai-agents-2f57424547",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
             "Agent",
             "应用落地"
           ],
-          "summary": "大家好，如果您构建了多代理系统，您已经知道一个痛苦的事实：在本地将节点连接在一起很有趣，但部署它们绝对是基础设施的噩梦。什...",
+          "summary": "文章网址：https://www.indiehackers.com/post/is-system-prompting-enough-for-production-why-i-m-building-a-runtime-governance-layer-for-ai-agents-2f57424547 评论网址：https://news.ycom...",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 20,
+            "topic": 19,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 6,
-          "title": "我在为 PyTorch 训练循环构建调试器时学到了什么，以及它如何改变了我对故障诊断的看法 [D]",
+          "title": "这里有人实际上从 Opus 切换到 GPT-5.5 进行日常编码吗？",
           "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T08:48:55+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1trui0b/what_i_learned_building_a_debugger_for_pytorch/",
-          "sourceName": "Reddit r/MachineLearning",
+          "aiScore": 87,
+          "publishedAt": "2026-05-31T13:21:50+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tsv8od/has_anyone_here_actually_switched_from_opus_to/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent",
-            "开源生态"
+            "应用落地"
           ],
-          "summary": "嘿，r/ML，我花了几个月的时间构建了一个工具，它可以连接到 PyTorch 训练循环，以自动检测和定位故障（梯度消失、梯度爆炸、数据...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "我最近一直在 Opus 和 GPT-5.5 之间来回切换，主要是为了编码、调试和产品/规范编写。到目前为止我的粗略感觉：GPT-5.5 作为日常“瘦身”感觉更好......",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 20,
+            "topic": 19,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 7,
-          "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-          "platform": "量子位",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T06:33:58+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/05/426662.html",
-          "sourceName": "量子位",
+          "title": "您将如何对这个“链”聚类问题进行建模？ [P]",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-05-31T11:53:03+00:00",
+          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tst8w4/how_would_you_model_this_strand_clustering/",
+          "sourceName": "Reddit r/MachineLearning",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent"
+            "应用落地"
           ],
-          "summary": "让世界模型迈向多智能体交互仿真",
+          "summary": "https://preview.redd.it/llqlupnwng4h1.png?width=2188&format=png&auto=webp&s=7fae5860babaffa1c8bfdcb1468b374eb38ac55d 我目前正在构建计算机视觉应用程序。我已经设法苏…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 8,
-          "title": "海光信息完成阶跃星辰Step 3.7 Flash适配",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T05:37:24+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3831356538529409?f=rss",
-          "sourceName": "36氪",
+          "title": "我试图用聊天机器人卖掉我的房子",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-05-31T13:00:29+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tsuqf2/i_tried_to_sell_my_house_with_a_chatbot/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "模型进展",
             "Agent",
-            "应用落地"
+            "开源生态"
           ],
-          "summary": "36氪获悉，5月29日，阶跃星辰发布Step 3.7 Flash，海光团队依托DTK异构计算平台与全栈软件栈，于发布当天即完成全流程适配与深度调优，实现“发布即适配、适配即高效”。即日起，开发者即可在海光平台上高效运行该模型，快速搭建多模态Agent、智能代码助手和复杂工作流应用，大幅降低接入与编排成本。",
+          "summary": "《纽约时报》的科技记者斯图尔特·汤普森 (Stuart Thompson) 在没有聘请房地产经纪人的情况下，以 605,000 美元的价格卖掉了自己的房子，而且没有损失一毛钱的佣金。由 /u/Raspb 提交...",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-          "platform": "量子位",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T03:17:17+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/05/426643.html",
-          "sourceName": "量子位",
+          "title": "收敛点理论：为什么LLM的不确定性是由主题而不是模型决定的",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-05-31T11:36:24+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tssx03/convergence_point_theory_why_llm_uncertainty_is/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent"
+            "安全治理"
           ],
-          "summary": "让世界模型迈向多智能体交互仿真",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "现有关于 LLM 响应不确定性的研究一直在寻找不同的方向。幻觉、知识冲突、RLHF 限制、提示敏感性、校准失败 — 这些……",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "9点1氪｜泡泡玛特大涨，段永平日赚10亿；诺基亚发布首款微聊手机，售价199元；滴滴回应“乘客车内排泄”",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-05-30T00:52:20+00:00",
-          "sourceUrl": "https://36kr.com/p/3831073348855433?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
+          "title": "τ0-WM：最大规模预训练的开源具身世界模型来了",
+          "platform": "量子位",
+          "aiScore": 86,
+          "publishedAt": "2026-05-31T07:38:43+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/05/426832.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
           "contentTags": [
-            "芯片算力",
             "模型进展",
-            "Agent"
+            "开源生态"
           ],
-          "summary": "今日热点导览 黄仁勋披露“赶飞机”细节，特朗普要出发时来电话 国内航线燃油附加费6月5日起首次下调 铁路将实施新规：违规乘车拒不补票将被限制购票 iPhone 17系列中国销量破3000万台，Pro Max版占近一半 SpaceX据悉将IPO估值目标下调至至少1.8万亿美元 TOP3大新闻 泡泡玛特上涨，段永平单日盈利近10亿港币 泡泡玛特迎来强势上涨，5月29日盘中最大涨幅…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "17800小时的真机数据",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 28,
             "authority": 25,
-            "topic": 20,
+            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "briefing": [
-        "5月第5周累计收录 100 条资讯，覆盖 2 天。",
-        "高频主题：模型进展 / Agent / 开源生态",
+        "5月第5周累计收录 43 条资讯，覆盖 1 天。",
+        "高频主题：模型进展 / Agent / 应用落地",
         "本周最高分：Token贵只因你喂给模型的垃圾太多了丨@亚马逊王晓野AIGC2026（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
