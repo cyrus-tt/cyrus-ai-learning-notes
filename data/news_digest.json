@@ -1,25 +1,26 @@
 {
-  "generatedAt": "2026-08-31T09:15:38.993151+00:00",
+  "generatedAt": "2026-08-31T19:22:33.318950+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-08-31",
-    "label": "8月31日",
+    "date": "2026-09-01",
+    "label": "9月1日",
     "top10": [
       {
         "rank": 1,
-        "title": "《天国：拯救 2》总监 Daniel Vavra 直接在游戏中测试了泄露版本的 NVIDIA DLSS 5。",
+        "title": "NVIDIA 刚刚买下了大多数 AI 模型居住的地方。 ChatGPT 开始在欧洲展示广告。公司正在取消软件合同……",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-08-31T08:00:18+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w375ke/daniel_vavra_director_of_kingdom_come_deliverance/",
+        "publishedAt": "2026-08-31T18:35:53+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w3mmfh/nvidia_just_bought_the_place_where_most_ai_models/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "上游",
         "contentTags": [
           "芯片算力",
-          "模型进展"
+          "模型进展",
+          "Agent"
         ],
-        "summary": "据他介绍，该技术不会改变角色的几何形状或重新绘制其外观。相反，它使用现有数据来增强照明和细节，尤其是面部和英雄莫……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "整个星期我都在思考这个问题，但我总是落在同一个不舒服的地方。当你想要不附加任何条件的人工智能时，Hugging Face 就是你该去的地方。开放权重，没有供应商，没有地点……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -30,212 +31,208 @@
       },
       {
         "rank": 2,
-        "title": "AQuA：让量化研究 Agent 持续进化，也让回测结果经得起检验",
-        "platform": "量子位",
-        "aiScore": 88,
-        "publishedAt": "2026-08-31T03:01:29+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/481475.html",
-        "sourceName": "量子位",
+        "title": "为大型语言模型创建了新的架构。",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-08-31T17:19:24+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w3kbnp/created_a_new_architecture_for_large_language/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "开源生态"
         ],
-        "summary": "自主研究系统的上限，不只取决于模型有多聪明，也取决于系统能否分辨什么是新证据，什么只是一次偶然的高分。",
+        "summary": "嗯，它的名字是 MoM，意思是模型混合。它基本上是多个人工智能模型捆绑在一起，像教育部模型一样工作。链接如下：https://github.com/nanoOperator/MoM-AI Ch...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "用于人工智能代理的开源思维球动画",
+        "platform": "Hacker News",
+        "aiScore": 82,
+        "publishedAt": "2026-08-31T17:44:25+00:00",
+        "sourceUrl": "https://orbs.jakubantalik.com/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "文章网址：https://orbs.jakubantalik.com/ 评论网址：https://news.ycombinator.com/item?id=49512563 积分：1 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 4,
+        "title": "随着人工智能代理使用更多的工具和 API，您认为问责制应该从哪里开始？",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-08-31T16:53:29+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w3jka1/as_ai_agents_use_more_tools_and_apis_where_do_you/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "当代理可以跨多个系统做出决策并执行操作时，每个步骤是否都应该可追溯，或者最终结果是否足够？我很好奇人们如何看待这一点。提交者：",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "元安全研究员的人工智能代理意外删除了她的电子邮件",
+        "title": "Perceptron AI 发布 Isaac 0.5：36B、开放权重、体现基础模型",
         "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-08-31T07:23:47+00:00",
-        "sourceUrl": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
+        "aiScore": 74,
+        "publishedAt": "2026-08-31T19:18:49+00:00",
+        "sourceUrl": "https://twitter.com/perceptroninc/status/2092678357775442103",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "安全治理"
+          "模型进展"
         ],
-        "summary": "文章网址：https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails 评论网址：https://news.ycombinator.com/item?id=49506655 积分：23 # 喜欢…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 85,
-        "publishedAt": "2026-08-31T04:50:15+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w33ok6/google_names_15_ai_startups_for_its_australia_and/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "自动化"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 17,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "如何为人工智能代理构建开源",
-        "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-08-31T08:27:39+00:00",
-        "sourceUrl": "https://agentledco.substack.com/p/how-to-build-open-source-for-ai-agents",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "文章网址：https://agentledco.substack.com/p/how-to-build-open-source-for-ai-agents 评论网址：https://news.ycombinator.com/item?id=49507087 积分：2 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Show HN：无需询问模型即可捕捉 AI 代码幻觉",
-        "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-08-31T08:47:14+00:00",
-        "sourceUrl": "https://github.com/lovettsendit/hedgemony",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "文章网址：https://github.com/lovetsendit/hedgemony 评论网址：https://news.ycombinator.com/item?id=49507199 积分：1 # 评论：0",
+        "summary": "文章网址：https://twitter.com/perceptroninc/status/2092678357775442103 评论网址：https://news.ycombinator.com/item?id=49513776 积分：1 # 评论：0",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 6,
+        "title": "Show HN：用于 AI 代理的 PiPy 语义搜索 MCP",
+        "platform": "Hacker News",
+        "aiScore": 74,
+        "publishedAt": "2026-08-31T18:49:40+00:00",
+        "sourceUrl": "https://skillfed.io/packages",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "文章网址：https://skillfed.io/packages 评论网址：https://news.ycombinator.com/item?id=49513386 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
           "actionability": 10,
           "heat": 1
         }
       },
       {
         "rank": 7,
-        "title": "显示 HN：Sonde，拒绝猜测的 AI 代理的本地代码图",
+        "title": "Show HN：AI 网页抓取可节省 10 倍代币",
         "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-08-31T08:21:15+00:00",
-        "sourceUrl": "https://github.com/anishmoncivarghese/sonde",
+        "aiScore": 74,
+        "publishedAt": "2026-08-31T18:11:31+00:00",
+        "sourceUrl": "https://www.makralabs.org/about",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "开源生态"
+          "应用落地"
         ],
-        "summary": "文章网址：https://github.com/anishmoncivarghese/sonde 评论网址：https://news.ycombinator.com/item?id=49507034 积分：1 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "我已经研究这个问题 6 个月了。 Makra 使用新颖的内存和布局缓存机制，大大降低了网页抓取的成本。目前它是网络抓取，b…",
+        "action": "关注与你场景最相关的指标，不只看总分。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 1
+          "topic": 9,
+          "actionability": 7,
+          "heat": 5
         }
       },
       {
         "rank": 8,
-        "title": "范式与华为达成重磅算力战略合作，成为首批拥抱国产最高端算力底座的AI企业",
-        "platform": "量子位",
-        "aiScore": 80,
-        "publishedAt": "2026-08-31T07:34:02+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/481919.html",
-        "sourceName": "量子位",
-        "industryStage": "上游",
+        "title": "Cloudflare 推出自适应智能来应对人工智能驱动的机器人攻击",
+        "platform": "Hacker News",
+        "aiScore": 70,
+        "publishedAt": "2026-08-31T19:17:18+00:00",
+        "sourceUrl": "https://securityboulevard.com/2026/08/cloudflare-unveils-adaptive-intelligence-to-counter-ai-fueled-bot-attacks/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力"
+          "安全治理"
         ],
-        "summary": "范式与华为达成重磅算力战略合作，成为首批拥抱国产最高端算力底座的AI企业",
+        "summary": "文章网址：https://securityboulevard.com/2026/08/cloudflare-unveils-adaptive-intelligence-to-counter-ai-fueled-bot-attacks/ 评论网址：https://news.ycombinator.com/item?id=49513758 Poi…",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 11,
+          "authority": 18,
+          "topic": 8,
           "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "「GPT-6」灰测demo刷屏！周四发布在即",
-        "platform": "量子位",
-        "aiScore": 80,
-        "publishedAt": "2026-08-31T04:47:26+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/481893.html",
-        "sourceName": "量子位",
+        "title": "人工智能最安全的工作可能是写作",
+        "platform": "Hacker News",
+        "aiScore": 70,
+        "publishedAt": "2026-08-31T18:12:20+00:00",
+        "sourceUrl": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "AI动态"
         ],
-        "summary": "核弹爆炸",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html 评论网址：https://news.ycombinator.com/item?id=49512856 积分：40 # 评论：52",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
+          "authority": 18,
           "topic": 5,
-          "actionability": 10,
-          "heat": 5
+          "actionability": 4,
+          "heat": 8
         }
       },
       {
         "rank": 10,
-        "title": "OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了",
-        "platform": "量子位",
-        "aiScore": 80,
-        "publishedAt": "2026-08-31T03:24:34+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/481759.html",
-        "sourceName": "量子位",
-        "industryStage": "上游",
+        "title": "Show HN：Xyzzy – 一个 Python 进程中的 AI 团队合作，具有防篡改日志",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-08-31T18:58:45+00:00",
+        "sourceUrl": "https://github.com/Project-Nexus-YR/XYZZY",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力"
+          "开源生态"
         ],
-        "summary": "什么样的AI业务，英伟达GPU和谷歌TPU搞不定，非得用Mac",
+        "summary": "文章网址：https://github.com/Project-Nexus-YR/XYZZY 评论网址：https://news.ycombinator.com/item?id=49513528 积分：2 # 评论：0",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 11,
+          "authority": 18,
+          "topic": 8,
           "actionability": 4,
-          "heat": 5
+          "heat": 2
         }
       }
     ],
     "metrics": {
-      "totalItems": 31,
-      "avgScore": 74.0,
+      "totalItems": 20,
+      "avgScore": 71.0,
       "topScore": 88,
       "topPlatforms": [
         {
@@ -244,60 +241,329 @@
         },
         {
           "name": "Reddit",
-          "count": 9
-        },
-        {
-          "name": "量子位",
-          "count": 6
-        },
-        {
-          "name": "少数派",
-          "count": 1
+          "count": 5
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 10
-        },
-        {
-          "name": "Agent",
-          "count": 8
-        },
-        {
-          "name": "模型进展",
-          "count": 6
-        },
-        {
-          "name": "芯片算力",
-          "count": 5
+          "count": 7
         },
         {
           "name": "开源生态",
+          "count": 6
+        },
+        {
+          "name": "Agent",
           "count": 4
         },
         {
-          "name": "安全治理",
-          "count": 4
-        },
-        {
-          "name": "自动化",
-          "count": 2
+          "name": "模型进展",
+          "count": 3
         },
         {
           "name": "应用落地",
+          "count": 2
+        },
+        {
+          "name": "安全治理",
+          "count": 1
+        },
+        {
+          "name": "芯片算力",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 31 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：《天国：拯救 2》总监 Daniel Vavra 直接在游戏中测试了泄露版本的 NVIDIA DLSS 5。（88 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 20 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 开源生态 / Agent",
+      "最高分事件：NVIDIA 刚刚买下了大多数 AI 模型居住的地方。 ChatGPT 开始在欧洲展示广告。公司正在取消软件合同……（88 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-09-01",
+      "label": "9月1日",
+      "top10": [
+        {
+          "rank": 1,
+          "title": "NVIDIA 刚刚买下了大多数 AI 模型居住的地方。 ChatGPT 开始在欧洲展示广告。公司正在取消软件合同……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-31T18:35:53+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w3mmfh/nvidia_just_bought_the_place_where_most_ai_models/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "整个星期我都在思考这个问题，但我总是落在同一个不舒服的地方。当你想要不附加任何条件的人工智能时，Hugging Face 就是你该去的地方。开放权重，没有供应商，没有地点……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "为大型语言模型创建了新的架构。",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-08-31T17:19:24+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w3kbnp/created_a_new_architecture_for_large_language/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "嗯，它的名字是 MoM，意思是模型混合。它基本上是多个人工智能模型捆绑在一起，像教育部模型一样工作。链接如下：https://github.com/nanoOperator/MoM-AI Ch...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "用于人工智能代理的开源思维球动画",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-08-31T17:44:25+00:00",
+          "sourceUrl": "https://orbs.jakubantalik.com/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://orbs.jakubantalik.com/ 评论网址：https://news.ycombinator.com/item?id=49512563 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 4,
+          "title": "随着人工智能代理使用更多的工具和 API，您认为问责制应该从哪里开始？",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-08-31T16:53:29+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w3jka1/as_ai_agents_use_more_tools_and_apis_where_do_you/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "当代理可以跨多个系统做出决策并执行操作时，每个步骤是否都应该可追溯，或者最终结果是否足够？我很好奇人们如何看待这一点。提交者：",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Perceptron AI 发布 Isaac 0.5：36B、开放权重、体现基础模型",
+          "platform": "Hacker News",
+          "aiScore": 74,
+          "publishedAt": "2026-08-31T19:18:49+00:00",
+          "sourceUrl": "https://twitter.com/perceptroninc/status/2092678357775442103",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://twitter.com/perceptroninc/status/2092678357775442103 评论网址：https://news.ycombinator.com/item?id=49513776 积分：1 # 评论：0",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Show HN：用于 AI 代理的 PiPy 语义搜索 MCP",
+          "platform": "Hacker News",
+          "aiScore": 74,
+          "publishedAt": "2026-08-31T18:49:40+00:00",
+          "sourceUrl": "https://skillfed.io/packages",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "文章网址：https://skillfed.io/packages 评论网址：https://news.ycombinator.com/item?id=49513386 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Show HN：AI 网页抓取可节省 10 倍代币",
+          "platform": "Hacker News",
+          "aiScore": 74,
+          "publishedAt": "2026-08-31T18:11:31+00:00",
+          "sourceUrl": "https://www.makralabs.org/about",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "应用落地"
+          ],
+          "summary": "我已经研究这个问题 6 个月了。 Makra 使用新颖的内存和布局缓存机制，大大降低了网页抓取的成本。目前它是网络抓取，b…",
+          "action": "关注与你场景最相关的指标，不只看总分。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 9,
+            "actionability": 7,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Cloudflare 推出自适应智能来应对人工智能驱动的机器人攻击",
+          "platform": "Hacker News",
+          "aiScore": 70,
+          "publishedAt": "2026-08-31T19:17:18+00:00",
+          "sourceUrl": "https://securityboulevard.com/2026/08/cloudflare-unveils-adaptive-intelligence-to-counter-ai-fueled-bot-attacks/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "安全治理"
+          ],
+          "summary": "文章网址：https://securityboulevard.com/2026/08/cloudflare-unveils-adaptive-intelligence-to-counter-ai-fueled-bot-attacks/ 评论网址：https://news.ycombinator.com/item?id=49513758 Poi…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 8,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "人工智能最安全的工作可能是写作",
+          "platform": "Hacker News",
+          "aiScore": 70,
+          "publishedAt": "2026-08-31T18:12:20+00:00",
+          "sourceUrl": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "文章网址：http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html 评论网址：https://news.ycombinator.com/item?id=49512856 积分：40 # 评论：52",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 8
+          }
+        },
+        {
+          "rank": 10,
+          "title": "Show HN：Xyzzy – 一个 Python 进程中的 AI 团队合作，具有防篡改日志",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-08-31T18:58:45+00:00",
+          "sourceUrl": "https://github.com/Project-Nexus-YR/XYZZY",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/Project-Nexus-YR/XYZZY 评论网址：https://news.ycombinator.com/item?id=49513528 积分：2 # 评论：0",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 8,
+            "actionability": 4,
+            "heat": 2
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 20,
+        "avgScore": 71.0,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 5
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 7
+          },
+          {
+            "name": "开源生态",
+            "count": 6
+          },
+          {
+            "name": "Agent",
+            "count": 4
+          },
+          {
+            "name": "模型进展",
+            "count": 3
+          },
+          {
+            "name": "应用落地",
+            "count": 2
+          },
+          {
+            "name": "安全治理",
+            "count": 1
+          },
+          {
+            "name": "芯片算力",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 20 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 开源生态 / Agent",
+        "最高分事件：NVIDIA 刚刚买下了大多数 AI 模型居住的地方。 ChatGPT 开始在欧洲展示广告。公司正在取消软件合同……（88 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      ]
+    },
     {
       "date": "2026-08-31",
       "label": "8月31日",
@@ -26292,7 +26558,7 @@
       "label": "6月7日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 7,
           "title": "多家供给方下调算力价格 算力普惠再提速",
           "platform": "36氪",
           "aiScore": 88,
@@ -26597,7 +26863,7 @@
       "label": "6月6日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 8,
           "title": "缓慢的浏览器代理会耗尽你的人工智能预算，但还没有人真正谈论它",
           "platform": "Reddit",
           "aiScore": 88,
@@ -26621,7 +26887,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 9,
           "title": "最佳人工智能代理库",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -26644,7 +26910,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 10,
           "title": "9点1氪｜豆包推出付费后月活减少610万；Anthropic呼吁全球放缓AI开发，警告AI“自我改进”风险；罗永浩卸任锤子软件公司执行董事",
           "platform": "36氪",
           "aiScore": 88,
@@ -26924,7 +27190,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 3,
           "title": "氪星晚报 ｜日本或通过抛售美债，为创纪录规模的日元汇市干预筹资；俞浩内部发文：未来将继续心无旁骛做实业",
           "platform": "36氪",
           "aiScore": 94,
@@ -27237,7 +27503,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 4,
           "title": "阶跃 Step 3.7 Flash 位列 Artificial Analysis 输出速度榜主流第一",
           "platform": "36氪",
           "aiScore": 93,
@@ -27260,7 +27526,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 5,
           "title": "腾讯客服回应与华为、小米等合作",
           "platform": "36氪",
           "aiScore": 93,
@@ -27284,7 +27550,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 6,
           "title": "戴盟机器人完成亿元融资，阿里通义多模态大牛加盟攻关物理世界模型",
           "platform": "量子位",
           "aiScore": 91,
@@ -27509,362 +27775,53 @@
         "最高分事件：深圳具身公司获得汇川、中国电信亿元融资，“视触觉”传感器出货量行业第一｜硬氪首发（95 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
-    },
-    {
-      "date": "2026-06-03",
-      "label": "6月3日",
-      "top10": [
-        {
-          "rank": 3,
-          "title": "36氪独家 | 火山引擎提升MaaS营收目标至全年150亿元，Seedance 2.0单月营收已超10亿元",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-03T05:28:20+00:00",
-          "sourceUrl": "https://36kr.com/p/3836973710423429?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "内容生产"
-          ],
-          "summary": "文｜邓咏仪 编辑｜张雨忻 杨轩 36 氪独家获悉，字节跳动火山引擎在今年 4 月已将 MaaS 业务营收目标上调至 150 亿元，且这个营收目标几乎每月都在上调。而在 2025 年底，这一目标还是 100 亿元。 36 氪了解到，在 2025 年，火山全年的 MaaS 收入约 15 亿元左右，等于截止目前 2026 年的营收目标是去年实际营收的 10 倍。可以说，火山这一波…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "深圳具身公司星尘智能完成超10亿B轮融资，估值破百亿｜硬氪首发",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-03T01:30:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3836068296209537?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，绳驱AI机器人公司星尘智能（Astribot）近日完成B轮系列融资，三个月内三轮累计融资额超10亿元，投资方包括梁溪科创产业二期母基金（博华资本管理）、扬州龙投芯粒、中博聚力、中科创达、科德教育、某头部上市企业及国科投资等老股东持续追投。 目前星尘智能估值已突破百亿元，这也是深圳诞生的又一家具身智能百亿独角兽。此前，公司投资方阵容中已出现了…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "36氪首发 | 浙大教授团队获财通、商汤投资，做高危场景具身机器人大脑",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-03T01:10:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3836744788014208?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，高危作业领域具身智能公司杭州旷行科技有限公司（以下简称“旷行科技”）近期已完成数千万元市场化第一轮融资（Pre-A轮），由财通资本和商汤国香投资。本轮资金将主要用于算法研发、产品矩阵完善及市场拓展。 旷行科技2025年成立于杭州，是一家专注为高危工业工程领域（资源矿山、能源电力、油气化工、交通城建）提供“机器人+AI大脑”运维解决方案的具身…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "8点1氪丨腾讯股价暴涨，创2021年后单日最高涨幅；预计今年安排约1100亿育儿补贴；英伟达与微软合作推出统一技术栈",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-03T00:21:18+00:00",
-          "sourceUrl": "https://36kr.com/p/3836703946257542?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 豆包付费或专注复杂任务， 定价锚定ChatGPT 英伟达CEO黄仁勋：Vera CPU将比GPU更受欢迎，将成为公司新的主要增长动力 中国内地航线燃油附加费将下调 标签上存在拼写错误，瑞幸客服称遇到“HeeloKitty”可退款 马尔代夫将限制16岁以下青少年访问部分社媒平台 TOP 3大新闻 腾讯股价暴涨：创2021年1月以来单日最高涨幅纪录 6月2日午后，香…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "火山引擎提升MaaS营收目标至全年150亿元，Seedance 2.0单月营收已超10亿元",
-          "platform": "36氪",
-          "aiScore": 91,
-          "publishedAt": "2026-06-03T05:30:26+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3837011985577088?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "内容生产"
-          ],
-          "summary": "36氪独家获悉，字节跳动火山引擎在今年4月已将MaaS业务营收目标上调至150亿元，且这个营收目标几乎每月都在上调。而在2025年底，这一目标还是100亿元。36氪了解到，在2025年，火山全年的MaaS收入约15亿元左右，等于截止目前2026年的营收目标是去年实际营收的10倍。可以说，火山这一波MaaS营收增长几乎都归功于Seedance 2.0的爆发——视频模型Seeda…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "MiniMax 放弃了新的注意力架构。 [N]",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-03T01:26:40+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tvameq/minimax_dropped_a_new_attention_architecture_n/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "它包含一些关于上下文窗口的有趣内容。他们通过 MiniMax Sparse Attention (MSA) 原生扩展到 1M 代币，通过完全重新构建绕过标准二次复杂度……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "美国人工智能编码工具即将面临清算",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-06-03T04:30:11+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tvepj3/a_reckoning_is_coming_for_us_ai_coding_tools/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "想法？你们使用像 Kimi 或 DeepSeek 这样的模型吗？您是否担心数据隐私，或者不太担心？由 /u/RutabagaTechnical822 提交 [链接] [评论]",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "特朗普签署行政命令，在人工智能模型发布前对其进行审查",
-          "platform": "The Verge",
-          "aiScore": 86,
-          "publishedAt": "2026-06-02T18:33:42+00:00",
-          "sourceUrl": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
-          "sourceName": "The Verge AI",
-          "industryStage": "上游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "唐纳德·特朗普总统周二签署了一项行政命令，为人工智能公司创建一个“自愿框架”，以便在发布前沿模型之前与联邦政府分享......",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "英国竞争与市场管理局：已对谷歌搜索实施新行为要求",
-          "platform": "36氪",
-          "aiScore": 83,
-          "publishedAt": "2026-06-03T05:26:36+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3837008220910725?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "安全治理"
-          ],
-          "summary": "英国竞争与市场管理局表示，为英国出版商争取到更公平协议，同时优化谷歌搜索服务。已对谷歌搜索实施新行为要求，根据英国数字市场竞争制度，谷歌必须采取特定合规措施。已在就谷歌通用搜索服务授予其战略市场地位（SMS）认定后，对谷歌施行了行为要求。谷歌现已被要求必须确保人工智能生成的搜索结果中，发布商内容获得恰当署名，并标注清晰链接。谷歌将有九个月时间落实所有整改措施。正监控谷歌搜索领…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 8,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "谷歌扩大Quick Share与AirDrop互传适配范围，覆盖更多安卓机型",
-          "platform": "36氪",
-          "aiScore": 81,
-          "publishedAt": "2026-06-03T05:47:27+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3837028715197572?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "投融资"
-          ],
-          "summary": "谷歌官网当地时间6月2日发布新闻稿宣布一系列当月更新的新功能，其中提及，谷歌宣布安卓Quick Share（快速分享）兼容苹果AirDrop（隔空投送）功能，可跨平台互传，现已适配更多设备。已经提供Quick Share功能的国产品牌机型包括小米17T Pro、荣耀Magic V6、OPPO Find X9等。（财联社）",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 6,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 47,
-        "avgScore": 75.7,
-        "topScore": 95,
-        "topPlatforms": [
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "Reddit",
-            "count": 12
-          },
-          {
-            "name": "36氪",
-            "count": 9
-          },
-          {
-            "name": "The Verge",
-            "count": 7
-          },
-          {
-            "name": "量子位",
-            "count": 2
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "AI动态",
-            "count": 16
-          },
-          {
-            "name": "模型进展",
-            "count": 15
-          },
-          {
-            "name": "Agent",
-            "count": 12
-          },
-          {
-            "name": "芯片算力",
-            "count": 7
-          },
-          {
-            "name": "投融资",
-            "count": 5
-          },
-          {
-            "name": "安全治理",
-            "count": 4
-          },
-          {
-            "name": "开源生态",
-            "count": 4
-          },
-          {
-            "name": "应用落地",
-            "count": 3
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 47 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：36氪独家 | 火山引擎提升MaaS营收目标至全年150亿元，Seedance 2.0单月营收已超10亿元（95 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
     }
   ],
   "currentWeek": {
-    "weekKey": "2026-08-W5",
-    "weekLabel": "8月第5周",
+    "weekKey": "2026-09-W1",
+    "weekLabel": "9月第1周",
     "range": {
-      "start": "2026-08-29",
-      "end": "2026-08-31"
+      "start": "2026-09-01",
+      "end": "2026-09-07"
     },
     "metrics": {
-      "daysCovered": 3,
-      "totalItems": 82,
-      "avgTop10Score": 86.2,
+      "daysCovered": 1,
+      "totalItems": 20,
+      "avgTop10Score": 76.3,
       "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 5
+          "count": 7
         },
         {
           "name": "Reddit",
-          "count": 4
-        },
-        {
-          "name": "量子位",
-          "count": 1
+          "count": 3
         }
       ],
       "topTopics": [
         {
           "name": "Agent",
-          "count": 7
+          "count": 4
         },
         {
           "name": "模型进展",
-          "count": 6
+          "count": 3
         },
         {
           "name": "开源生态",
           "count": 3
         },
         {
-          "name": "安全治理",
-          "count": 3
-        },
-        {
-          "name": "自动化",
-          "count": 2
-        },
-        {
           "name": "芯片算力",
+          "count": 1
+        },
+        {
+          "name": "应用落地",
+          "count": 1
+        },
+        {
+          "name": "安全治理",
           "count": 1
         }
       ]
@@ -27872,19 +27829,20 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "《天国：拯救 2》总监 Daniel Vavra 直接在游戏中测试了泄露版本的 NVIDIA DLSS 5。",
+        "title": "NVIDIA 刚刚买下了大多数 AI 模型居住的地方。 ChatGPT 开始在欧洲展示广告。公司正在取消软件合同……",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-08-31T08:00:18+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w375ke/daniel_vavra_director_of_kingdom_come_deliverance/",
+        "publishedAt": "2026-08-31T18:35:53+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w3mmfh/nvidia_just_bought_the_place_where_most_ai_models/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "上游",
         "contentTags": [
           "芯片算力",
-          "模型进展"
+          "模型进展",
+          "Agent"
         ],
-        "summary": "据他介绍，该技术不会改变角色的几何形状或重新绘制其外观。相反，它使用现有数据来增强照明和细节，尤其是面部和英雄莫……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "整个星期我都在思考这个问题，但我总是落在同一个不舒服的地方。当你想要不附加任何条件的人工智能时，Hugging Face 就是你该去的地方。开放权重，没有供应商，没有地点……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -27895,135 +27853,18 @@
       },
       {
         "rank": 2,
-        "title": "AQuA：让量化研究 Agent 持续进化，也让回测结果经得起检验",
-        "platform": "量子位",
-        "aiScore": 88,
-        "publishedAt": "2026-08-31T03:01:29+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/08/481475.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "自主研究系统的上限，不只取决于模型有多聪明，也取决于系统能否分辨什么是新证据，什么只是一次偶然的高分。",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "AIPass 更新 #17 - v2.7.20 + v2.7.21：舰队内存推送以及随存储库附带的护照",
+        "title": "为大型语言模型创建了新的架构。",
         "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-08-30T04:17:03+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w27co1/aipass_update_17_v2720_v2721_the_fleet_memory/",
+        "aiScore": 86,
+        "publishedAt": "2026-08-31T17:19:24+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w3kbnp/created_a_new_architecture_for_large_language/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
           "开源生态"
         ],
-        "summary": "AIPass 更新 #17 - v2.7.20 + v2.7.21：舰队内存推送和随存储库附带的护照 自更新 #16 以来发布了两个版本：v2.7.20 和 v2.7.21，第二个版本是今晚标记的。贯穿…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "我在一个应用程序中用完了 AI 代币，而在另一个应用程序中保留了未使用的代币",
-        "platform": "Hacker News",
-        "aiScore": 87,
-        "publishedAt": "2026-08-30T03:20:24+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49495398",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "问题很简单：AI 代币被锁定到单个产品。 context ：我同时使用代理 IDE 和 Hostinger 部署代理。有一天，我用完了部署人员的代币……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "元安全研究员的人工智能代理意外删除了她的电子邮件",
-        "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-08-31T07:23:47+00:00",
-        "sourceUrl": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "安全治理"
-        ],
-        "summary": "文章网址：https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails 评论网址：https://news.ycombinator.com/item?id=49506655 积分：23 # 喜欢…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "一个月免费 GLM 5.3 Flash 和 DSV4 Flash 0731",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-08-30T00:24:23+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w22ncp/free_glm_53_flash_and_dsv4_flash_0731_for_a_month/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "开源生态",
-          "自动化"
-        ],
-        "summary": "有非常强大的新模型开源模型，并且许多编码计划已经收紧并降低了使用率。因此，我们提供免费的 DSV4 flash 0731 和 GLM 5.3 Flash...",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "问HN：您使用的是什么BOYK AI客户端？",
-        "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-08-29T04:38:08+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49486912",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "summary": "嗯，它的名字是 MoM，意思是模型混合。它基本上是多个人工智能模型捆绑在一起，像教育部模型一样工作。链接如下：https://github.com/nanoOperator/MoM-AI Ch...",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -28034,84 +27875,473 @@
         }
       },
       {
-        "rank": 8,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 85,
-        "publishedAt": "2026-08-31T04:50:15+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w33ok6/google_names_15_ai_startups_for_its_australia_and/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "自动化"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 17,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "rank": 3,
+        "title": "用于人工智能代理的开源思维球动画",
         "platform": "Hacker News",
-        "aiScore": 85,
-        "publishedAt": "2026-08-29T04:28:47+00:00",
-        "sourceUrl": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility-ai-agent",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "安全治理"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 10,
-        "title": "如何为人工智能代理构建开源",
-        "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-08-31T08:27:39+00:00",
-        "sourceUrl": "https://agentledco.substack.com/p/how-to-build-open-source-for-ai-agents",
+        "aiScore": 82,
+        "publishedAt": "2026-08-31T17:44:25+00:00",
+        "sourceUrl": "https://orbs.jakubantalik.com/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent",
           "开源生态"
         ],
-        "summary": "文章网址：https://agentledco.substack.com/p/how-to-build-open-source-for-ai-agents 评论网址：https://news.ycombinator.com/item?id=49507087 积分：2 # 评论：0",
+        "summary": "文章网址：https://orbs.jakubantalik.com/ 评论网址：https://news.ycombinator.com/item?id=49512563 积分：1 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 4,
+        "title": "随着人工智能代理使用更多的工具和 API，您认为问责制应该从哪里开始？",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-08-31T16:53:29+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w3jka1/as_ai_agents_use_more_tools_and_apis_where_do_you/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "当代理可以跨多个系统做出决策并执行操作时，每个步骤是否都应该可追溯，或者最终结果是否足够？我很好奇人们如何看待这一点。提交者：",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "Perceptron AI 发布 Isaac 0.5：36B、开放权重、体现基础模型",
+        "platform": "Hacker News",
+        "aiScore": 74,
+        "publishedAt": "2026-08-31T19:18:49+00:00",
+        "sourceUrl": "https://twitter.com/perceptroninc/status/2092678357775442103",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "文章网址：https://twitter.com/perceptroninc/status/2092678357775442103 评论网址：https://news.ycombinator.com/item?id=49513776 积分：1 # 评论：0",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 6,
+        "title": "Show HN：用于 AI 代理的 PiPy 语义搜索 MCP",
+        "platform": "Hacker News",
+        "aiScore": 74,
+        "publishedAt": "2026-08-31T18:49:40+00:00",
+        "sourceUrl": "https://skillfed.io/packages",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "文章网址：https://skillfed.io/packages 评论网址：https://news.ycombinator.com/item?id=49513386 积分：1 # 评论：0",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 1
+        }
+      },
+      {
+        "rank": 7,
+        "title": "Show HN：AI 网页抓取可节省 10 倍代币",
+        "platform": "Hacker News",
+        "aiScore": 74,
+        "publishedAt": "2026-08-31T18:11:31+00:00",
+        "sourceUrl": "https://www.makralabs.org/about",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "应用落地"
+        ],
+        "summary": "我已经研究这个问题 6 个月了。 Makra 使用新颖的内存和布局缓存机制，大大降低了网页抓取的成本。目前它是网络抓取，b…",
+        "action": "关注与你场景最相关的指标，不只看总分。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 9,
+          "actionability": 7,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "Cloudflare 推出自适应智能来应对人工智能驱动的机器人攻击",
+        "platform": "Hacker News",
+        "aiScore": 70,
+        "publishedAt": "2026-08-31T19:17:18+00:00",
+        "sourceUrl": "https://securityboulevard.com/2026/08/cloudflare-unveils-adaptive-intelligence-to-counter-ai-fueled-bot-attacks/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "安全治理"
+        ],
+        "summary": "文章网址：https://securityboulevard.com/2026/08/cloudflare-unveils-adaptive-intelligence-to-counter-ai-fueled-bot-attacks/ 评论网址：https://news.ycombinator.com/item?id=49513758 Poi…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 8,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "人工智能最安全的工作可能是写作",
+        "platform": "Hacker News",
+        "aiScore": 70,
+        "publishedAt": "2026-08-31T18:12:20+00:00",
+        "sourceUrl": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "文章网址：http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html 评论网址：https://news.ycombinator.com/item?id=49512856 积分：40 # 评论：52",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 8
+        }
+      },
+      {
+        "rank": 10,
+        "title": "Show HN：Xyzzy – 一个 Python 进程中的 AI 团队合作，具有防篡改日志",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-08-31T18:58:45+00:00",
+        "sourceUrl": "https://github.com/Project-Nexus-YR/XYZZY",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "开源生态"
+        ],
+        "summary": "文章网址：https://github.com/Project-Nexus-YR/XYZZY 评论网址：https://news.ycombinator.com/item?id=49513528 积分：2 # 评论：0",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 8,
+          "actionability": 4,
           "heat": 2
         }
       }
     ],
     "briefing": [
-      "8月第5周累计收录 82 条资讯，覆盖 3 天。",
+      "9月第1周累计收录 20 条资讯，覆盖 1 天。",
       "高频主题：Agent / 模型进展 / 开源生态",
-      "本周最高分：《天国：拯救 2》总监 Daniel Vavra 直接在游戏中测试了泄露版本的 NVIDIA DLSS 5。（88 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "本周最高分：NVIDIA 刚刚买下了大多数 AI 模型居住的地方。 ChatGPT 开始在欧洲展示广告。公司正在取消软件合同……（88 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
+    {
+      "weekKey": "2026-09-W1",
+      "weekLabel": "9月第1周",
+      "range": {
+        "start": "2026-09-01",
+        "end": "2026-09-07"
+      },
+      "metrics": {
+        "daysCovered": 1,
+        "totalItems": 20,
+        "avgTop10Score": 76.3,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 7
+          },
+          {
+            "name": "Reddit",
+            "count": 3
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "Agent",
+            "count": 4
+          },
+          {
+            "name": "模型进展",
+            "count": 3
+          },
+          {
+            "name": "开源生态",
+            "count": 3
+          },
+          {
+            "name": "芯片算力",
+            "count": 1
+          },
+          {
+            "name": "应用落地",
+            "count": 1
+          },
+          {
+            "name": "安全治理",
+            "count": 1
+          }
+        ]
+      },
+      "topEvents": [
+        {
+          "rank": 1,
+          "title": "NVIDIA 刚刚买下了大多数 AI 模型居住的地方。 ChatGPT 开始在欧洲展示广告。公司正在取消软件合同……",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-08-31T18:35:53+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w3mmfh/nvidia_just_bought_the_place_where_most_ai_models/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "整个星期我都在思考这个问题，但我总是落在同一个不舒服的地方。当你想要不附加任何条件的人工智能时，Hugging Face 就是你该去的地方。开放权重，没有供应商，没有地点……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "为大型语言模型创建了新的架构。",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-08-31T17:19:24+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w3kbnp/created_a_new_architecture_for_large_language/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "嗯，它的名字是 MoM，意思是模型混合。它基本上是多个人工智能模型捆绑在一起，像教育部模型一样工作。链接如下：https://github.com/nanoOperator/MoM-AI Ch...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "用于人工智能代理的开源思维球动画",
+          "platform": "Hacker News",
+          "aiScore": 82,
+          "publishedAt": "2026-08-31T17:44:25+00:00",
+          "sourceUrl": "https://orbs.jakubantalik.com/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "文章网址：https://orbs.jakubantalik.com/ 评论网址：https://news.ycombinator.com/item?id=49512563 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 4,
+          "title": "随着人工智能代理使用更多的工具和 API，您认为问责制应该从哪里开始？",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-08-31T16:53:29+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w3jka1/as_ai_agents_use_more_tools_and_apis_where_do_you/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "当代理可以跨多个系统做出决策并执行操作时，每个步骤是否都应该可追溯，或者最终结果是否足够？我很好奇人们如何看待这一点。提交者：",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Perceptron AI 发布 Isaac 0.5：36B、开放权重、体现基础模型",
+          "platform": "Hacker News",
+          "aiScore": 74,
+          "publishedAt": "2026-08-31T19:18:49+00:00",
+          "sourceUrl": "https://twitter.com/perceptroninc/status/2092678357775442103",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://twitter.com/perceptroninc/status/2092678357775442103 评论网址：https://news.ycombinator.com/item?id=49513776 积分：1 # 评论：0",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Show HN：用于 AI 代理的 PiPy 语义搜索 MCP",
+          "platform": "Hacker News",
+          "aiScore": 74,
+          "publishedAt": "2026-08-31T18:49:40+00:00",
+          "sourceUrl": "https://skillfed.io/packages",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "文章网址：https://skillfed.io/packages 评论网址：https://news.ycombinator.com/item?id=49513386 积分：1 # 评论：0",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Show HN：AI 网页抓取可节省 10 倍代币",
+          "platform": "Hacker News",
+          "aiScore": 74,
+          "publishedAt": "2026-08-31T18:11:31+00:00",
+          "sourceUrl": "https://www.makralabs.org/about",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "应用落地"
+          ],
+          "summary": "我已经研究这个问题 6 个月了。 Makra 使用新颖的内存和布局缓存机制，大大降低了网页抓取的成本。目前它是网络抓取，b…",
+          "action": "关注与你场景最相关的指标，不只看总分。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 9,
+            "actionability": 7,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Cloudflare 推出自适应智能来应对人工智能驱动的机器人攻击",
+          "platform": "Hacker News",
+          "aiScore": 70,
+          "publishedAt": "2026-08-31T19:17:18+00:00",
+          "sourceUrl": "https://securityboulevard.com/2026/08/cloudflare-unveils-adaptive-intelligence-to-counter-ai-fueled-bot-attacks/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "安全治理"
+          ],
+          "summary": "文章网址：https://securityboulevard.com/2026/08/cloudflare-unveils-adaptive-intelligence-to-counter-ai-fueled-bot-attacks/ 评论网址：https://news.ycombinator.com/item?id=49513758 Poi…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 8,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "人工智能最安全的工作可能是写作",
+          "platform": "Hacker News",
+          "aiScore": 70,
+          "publishedAt": "2026-08-31T18:12:20+00:00",
+          "sourceUrl": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "文章网址：http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html 评论网址：https://news.ycombinator.com/item?id=49512856 积分：40 # 评论：52",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 8
+          }
+        },
+        {
+          "rank": 10,
+          "title": "Show HN：Xyzzy – 一个 Python 进程中的 AI 团队合作，具有防篡改日志",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-08-31T18:58:45+00:00",
+          "sourceUrl": "https://github.com/Project-Nexus-YR/XYZZY",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "开源生态"
+          ],
+          "summary": "文章网址：https://github.com/Project-Nexus-YR/XYZZY 评论网址：https://news.ycombinator.com/item?id=49513528 积分：2 # 评论：0",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 8,
+            "actionability": 4,
+            "heat": 2
+          }
+        }
+      ],
+      "briefing": [
+        "9月第1周累计收录 20 条资讯，覆盖 1 天。",
+        "高频主题：Agent / 模型进展 / 开源生态",
+        "本周最高分：NVIDIA 刚刚买下了大多数 AI 模型居住的地方。 ChatGPT 开始在欧洲展示广告。公司正在取消软件合同……（88 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      ]
+    },
     {
       "weekKey": "2026-08-W5",
       "weekLabel": "8月第5周",
@@ -32282,18 +32512,26 @@
         "end": "2026-06-07"
       },
       "metrics": {
-        "daysCovered": 5,
-        "totalItems": 265,
-        "avgTop10Score": 94.1,
+        "daysCovered": 4,
+        "totalItems": 218,
+        "avgTop10Score": 91.3,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 8
+            "count": 6
           },
           {
             "name": "量子位",
             "count": 2
+          },
+          {
+            "name": "Reddit",
+            "count": 1
+          },
+          {
+            "name": "Hacker News",
+            "count": 1
           }
         ],
         "topTopics": [
@@ -32303,22 +32541,22 @@
           },
           {
             "name": "Agent",
-            "count": 6
+            "count": 5
           },
           {
             "name": "芯片算力",
             "count": 4
           },
           {
-            "name": "应用落地",
+            "name": "开源生态",
             "count": 3
           },
           {
-            "name": "开源生态",
+            "name": "应用落地",
             "count": 2
           },
           {
-            "name": "内容生产",
+            "name": "投融资",
             "count": 2
           }
         ]
@@ -32373,102 +32611,6 @@
         },
         {
           "rank": 3,
-          "title": "36氪独家 | 火山引擎提升MaaS营收目标至全年150亿元，Seedance 2.0单月营收已超10亿元",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-03T05:28:20+00:00",
-          "sourceUrl": "https://36kr.com/p/3836973710423429?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "内容生产"
-          ],
-          "summary": "文｜邓咏仪 编辑｜张雨忻 杨轩 36 氪独家获悉，字节跳动火山引擎在今年 4 月已将 MaaS 业务营收目标上调至 150 亿元，且这个营收目标几乎每月都在上调。而在 2025 年底，这一目标还是 100 亿元。 36 氪了解到，在 2025 年，火山全年的 MaaS 收入约 15 亿元左右，等于截止目前 2026 年的营收目标是去年实际营收的 10 倍。可以说，火山这一波…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "深圳具身公司星尘智能完成超10亿B轮融资，估值破百亿｜硬氪首发",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-03T01:30:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3836068296209537?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，绳驱AI机器人公司星尘智能（Astribot）近日完成B轮系列融资，三个月内三轮累计融资额超10亿元，投资方包括梁溪科创产业二期母基金（博华资本管理）、扬州龙投芯粒、中博聚力、中科创达、科德教育、某头部上市企业及国科投资等老股东持续追投。 目前星尘智能估值已突破百亿元，这也是深圳诞生的又一家具身智能百亿独角兽。此前，公司投资方阵容中已出现了…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "36氪首发 | 浙大教授团队获财通、商汤投资，做高危场景具身机器人大脑",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-03T01:10:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3836744788014208?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，高危作业领域具身智能公司杭州旷行科技有限公司（以下简称“旷行科技”）近期已完成数千万元市场化第一轮融资（Pre-A轮），由财通资本和商汤国香投资。本轮资金将主要用于算法研发、产品矩阵完善及市场拓展。 旷行科技2025年成立于杭州，是一家专注为高危工业工程领域（资源矿山、能源电力、油气化工、交通城建）提供“机器人+AI大脑”运维解决方案的具身…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "8点1氪丨腾讯股价暴涨，创2021年后单日最高涨幅；预计今年安排约1100亿育儿补贴；英伟达与微软合作推出统一技术栈",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-03T00:21:18+00:00",
-          "sourceUrl": "https://36kr.com/p/3836703946257542?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 豆包付费或专注复杂任务， 定价锚定ChatGPT 英伟达CEO黄仁勋：Vera CPU将比GPU更受欢迎，将成为公司新的主要增长动力 中国内地航线燃油附加费将下调 标签上存在拼写错误，瑞幸客服称遇到“HeeloKitty”可退款 马尔代夫将限制16岁以下青少年访问部分社媒平台 TOP 3大新闻 腾讯股价暴涨：创2021年1月以来单日最高涨幅纪录 6月2日午后，香…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
           "title": "氪星晚报 ｜日本或通过抛售美债，为创纪录规模的日元汇市干预筹资；俞浩内部发文：未来将继续心无旁骛做实业",
           "platform": "36氪",
           "aiScore": 94,
@@ -32492,7 +32634,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 4,
           "title": "阶跃 Step 3.7 Flash 位列 Artificial Analysis 输出速度榜主流第一",
           "platform": "36氪",
           "aiScore": 93,
@@ -32515,7 +32657,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 5,
           "title": "腾讯客服回应与华为、小米等合作",
           "platform": "36氪",
           "aiScore": 93,
@@ -32539,7 +32681,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 6,
           "title": "戴盟机器人完成亿元融资，阿里通义多模态大牛加盟攻关物理世界模型",
           "platform": "量子位",
           "aiScore": 91,
@@ -32560,10 +32702,105 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 7,
+          "title": "多家供给方下调算力价格 算力普惠再提速",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-06-07T06:00:11+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3842626008647945?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "随着全国算力基建规模化、标准化不断提速，多家算力价格也迎来持续普惠。让曾经昂贵的“高端稀缺资源”变身为各行各业可普惠使用的“数字水电”。前不久，多家模型厂商宣布永久下调算力价格，其中DeepSeek与小米MiMo降价尤为显著，最高降幅接近99%。极大降低了用户日常高频问答、网页设计、代码编程等多场景AI使用成本，让各类轻量化、常态化AI应用告别高门槛、高成本的制约。（央视新闻）",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "缓慢的浏览器代理会耗尽你的人工智能预算，但还没有人真正谈论它",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-06-06T13:15:13+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tyh08z/slow_browser_agents_are_going_to_eat_your_ai/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "好吧，我最近一直在思考这个问题，我觉得当一个完全不同的成本问题逐渐出现时，每个人仍然陷入“哪种模型最好”的争论......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "最佳人工智能代理库",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-06-06T11:56:29+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=48424069",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "您是否有任何特定的地方可以根据您的特定需求或特定的法学硕士中可用的内容来浏览人工智能代理？评论网址：https://news.ycombinator.com/item?id=48424069 积分：...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "9点1氪｜豆包推出付费后月活减少610万；Anthropic呼吁全球放缓AI开发，警告AI“自我改进”风险；罗永浩卸任锤子软件公司执行董事",
+          "platform": "36氪",
+          "aiScore": 88,
+          "publishedAt": "2026-06-06T01:07:19+00:00",
+          "sourceUrl": "https://36kr.com/p/3840996342073604?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "今日热点导览 SpaceX据悉将其IPO的日本融资目标提高至25亿美元 二手房挂牌量回落新房库存下降，楼市供需关系向好 B站宣布启动AI创造公开赛 TOP3大新闻 数据显示，豆包推出付费后月活减少610万 据全球人工智能市场追踪机构Aicpb.com周三发布的数据显示，在豆包推出订阅选项后，该应用5月份的月活跃用户（MAU）减少了610万，这是自2023年推出以来该应用罕见的…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "6月第1周累计收录 265 条资讯，覆盖 5 天。",
+        "6月第1周累计收录 218 条资讯，覆盖 4 天。",
         "高频主题：模型进展 / Agent / 芯片算力",
         "本周最高分：有人靠CPU把AI算力密度卷到了新高度（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
