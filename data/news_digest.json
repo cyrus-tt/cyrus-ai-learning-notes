@@ -1,308 +1,353 @@
 {
-  "generatedAt": "2026-09-04T05:26:59.991135+00:00",
+  "generatedAt": "2026-09-04T16:43:06.274498+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-09-04",
-    "label": "9月4日",
+    "date": "2026-09-05",
+    "label": "9月5日",
     "top10": [
       {
-        "rank": 3,
-        "title": "我们都能承认人工智能有多么疯狂吗？",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-09-04T03:16:23+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6sp4p/can_we_all_acknoledge_how_crazy_ai_is/",
-        "sourceName": "Reddit r/artificial",
+        "rank": 1,
+        "title": "微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章",
+        "platform": "The Verge",
+        "aiScore": 74,
+        "publishedAt": "2026-09-04T16:05:57+00:00",
+        "sourceUrl": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+        "sourceName": "The Verge AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent"
+          "AI动态"
         ],
-        "summary": "人们通常谈论人工智能不能做什么，而不是它已经可以做什么。十年前，我们使用人工智能所做的所有正常事情都只是科幻小说。图灵测试用于...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "该公司在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了。",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
+          "authority": 25,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
-        "rank": 4,
-        "title": "那些想用但不让用 AI 的公司，终于可以用 AI 了",
-        "platform": "爱范儿",
-        "aiScore": 88,
-        "publishedAt": "2026-09-04T01:24:28+00:00",
-        "sourceUrl": "https://www.ifanr.com/1678332",
-        "sourceName": "爱范儿",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展"
-        ],
-        "summary": "把飘在云端的大模型拉回地面，装进权限严格的本地算力盒子里。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "我们是否需要开始像代码一样对待人工智能代理配置？",
+        "rank": 2,
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
         "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-09-04T03:52:06+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6tf06/do_we_need_to_start_treating_ai_agent_configs/",
+        "aiScore": 71,
+        "publishedAt": "2026-09-04T16:41:42+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w79lg9/automatic_ai_responses_to_customer_service_issues/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "下游",
         "contentTags": [
-          "Agent",
           "应用落地"
         ],
-        "summary": "所以这件事最近发生在我身上，老实说我之前并没有想太多。我们有一个代理，几周来一直运行良好。然后我们更改了提示的一部分。诺西…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 19,
-          "actionability": 10,
+          "topic": 9,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "platform": "Reddit",
+        "aiScore": 71,
+        "publishedAt": "2026-09-04T16:17:53+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w78xil/openai_ceo_sam_altman_says_38000_chatgpt_queries/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "应用落地"
+        ],
+        "summary": "由 /u/ControlCAD 提交 [链接] [评论]",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 9,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "当自治机构开始与民族国家（例如伊朗）签署“条约”时会发生什么......",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-09-04T04:35:51+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6ua41/what_happens_when_autonomous_agents_start_signing/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "platform": "Hacker News",
+        "aiScore": 64,
+        "publishedAt": "2026-09-04T16:04:18+00:00",
+        "sourceUrl": "https://www.emergingtrajectories.com/lh/frontier-ai-in-china/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "安全治理"
+          "AI动态"
         ],
-        "summary": "[这是我正在创作的小说系列，通过新闻文章讲述。以一种有趣的方式探索自主人工智能集体的不那么有趣的地缘政治（例如伊朗核计划）激发了......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文章网址：https://www.emergingtrajectories.com/lh/frontier-ai-in-china/ 评论网址：https://news.ycombinator.com/item?id=49566521 积分：3 # 评论：0",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
+          "topic": 5,
+          "actionability": 4,
+          "heat": 2
         }
       },
       {
         "rank": 5,
-        "title": "OpenAI的下一个大AI模型已经“进入AGI时代”",
-        "platform": "The Verge",
-        "aiScore": 86,
-        "publishedAt": "2026-09-03T18:00:00+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Crew – 供人类和特工使用的多人 AI 工作区，现已配备 iOS 应用程序",
+        "title": "我的学生思考人工智能",
         "platform": "Hacker News",
-        "aiScore": 82,
-        "publishedAt": "2026-09-04T01:10:55+00:00",
-        "sourceUrl": "https://github.com/JamelHammoud/crew",
+        "aiScore": 63,
+        "publishedAt": "2026-09-04T16:35:43+00:00",
+        "sourceUrl": "https://www.lesswrong.com/posts/ySXuvJcqRindQwAk7/how-my-students-think-about-ai",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "开源生态"
+          "AI动态"
         ],
-        "summary": "文章网址：https://github.com/JamelHammoud/crew 评论网址：https://news.ycombinator.com/item?id=49559270 积分：1 # 评论：0",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "文章网址：https://www.lesswrong.com/posts/ySXuvJcqRindQwAk7/how-my-students-think-about-ai 评论网址：https://news.ycombinator.com/item?id=49566903 积分：1 # 评论：0",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
           "heat": 1
         }
       },
       {
-        "rank": 7,
-        "title": "NVIDIA 的 PAIR Beta 版可跨 PC 路由本地 AI 工作",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-09-03T19:45:29+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6hx9o/nvidias_pair_beta_routes_local_ai_work_across_pcs/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "NVIDIA 的新 PAIR beta 是一款免费的开源工具，可以在本地网络上查找兼容的 PC，并将独立的推理请求路由到具有容量的系统。 NVIDIA 表示将...",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "您认为人工智能何时/是否会“治愈”癌症？",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-09-04T05:11:59+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6uz7u/whenif_do_you_think_ai_is_going_to_cure_cancer/",
-        "sourceName": "Reddit r/artificial",
+        "rank": 6,
+        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "platform": "Hacker News",
+        "aiScore": 63,
+        "publishedAt": "2026-09-04T16:14:36+00:00",
+        "sourceUrl": "https://spectrum.ieee.org/ai-inference-distributed-computing",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展"
+          "AI动态"
         ],
-        "summary": "在任何人说出显而易见的事实之前：我知道有数千种不同类型的癌症，并且你无法真正“治愈”它。我想象的是个性化药物/疗法，电子……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "文章网址：https://spectrum.ieee.org/ai-inference-distributed-computing 评论网址：https://news.ycombinator.com/item?id=49566655 积分：1 # 评论：0",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "特工文明的兴衰。用简单的英语讲述整个 OpenAI/Hugging Face 故事",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-09-04T02:58:20+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6sbsa/the_rise_and_fall_of_agent_civilizations_the/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "由 /u/coolbern 提交 [链接] [评论]",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "派早报：OpenAI 发布 GPT-6 Astra 模型、Meta 发布 Muse Spark 1.3 模型等",
-        "platform": "少数派",
-        "aiScore": 78,
-        "publishedAt": "2026-09-04T00:47:49+00:00",
-        "sourceUrl": "https://sspai.com/post/114164",
-        "sourceName": "少数派",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "Anthropic 升级 Claude Code 及 Cowork，微软调整 Xbox Cloud Gaming 商业模式等。 查看全文",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
+          "topic": 5,
+          "actionability": 4,
+          "heat": 1
         }
       }
     ],
     "metrics": {
-      "totalItems": 38,
-      "avgScore": 71.6,
-      "topScore": 88,
+      "totalItems": 6,
+      "avgScore": 67.7,
+      "topScore": 74,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 15
+          "count": 3
         },
         {
           "name": "Reddit",
-          "count": 11
-        },
-        {
-          "name": "量子位",
-          "count": 4
-        },
-        {
-          "name": "爱范儿",
-          "count": 4
+          "count": 2
         },
         {
           "name": "The Verge",
-          "count": 3
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 20
-        },
-        {
-          "name": "模型进展",
-          "count": 7
-        },
-        {
-          "name": "Agent",
-          "count": 7
-        },
-        {
-          "name": "芯片算力",
-          "count": 5
-        },
-        {
-          "name": "开源生态",
-          "count": 3
-        },
-        {
-          "name": "安全治理",
-          "count": 2
-        },
-        {
-          "name": "内容生产",
-          "count": 1
+          "count": 4
         },
         {
           "name": "应用落地",
-          "count": 1
+          "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 38 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：我们都能承认人工智能有多么疯狂吗？（88 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 6 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 应用落地",
+      "最高分事件：微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章（74 分）",
+      "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-09-05",
+      "label": "9月5日",
+      "top10": [
+        {
+          "rank": 1,
+          "title": "微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章",
+          "platform": "The Verge",
+          "aiScore": 74,
+          "publishedAt": "2026-09-04T16:05:57+00:00",
+          "sourceUrl": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "该公司在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了。",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "platform": "Reddit",
+          "aiScore": 71,
+          "publishedAt": "2026-09-04T16:41:42+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w79lg9/automatic_ai_responses_to_customer_service_issues/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "应用落地"
+          ],
+          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 9,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "platform": "Reddit",
+          "aiScore": 71,
+          "publishedAt": "2026-09-04T16:17:53+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w78xil/openai_ceo_sam_altman_says_38000_chatgpt_queries/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "应用落地"
+          ],
+          "summary": "由 /u/ControlCAD 提交 [链接] [评论]",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 9,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "platform": "Hacker News",
+          "aiScore": 64,
+          "publishedAt": "2026-09-04T16:04:18+00:00",
+          "sourceUrl": "https://www.emergingtrajectories.com/lh/frontier-ai-in-china/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "文章网址：https://www.emergingtrajectories.com/lh/frontier-ai-in-china/ 评论网址：https://news.ycombinator.com/item?id=49566521 积分：3 # 评论：0",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 2
+          }
+        },
+        {
+          "rank": 5,
+          "title": "我的学生思考人工智能",
+          "platform": "Hacker News",
+          "aiScore": 63,
+          "publishedAt": "2026-09-04T16:35:43+00:00",
+          "sourceUrl": "https://www.lesswrong.com/posts/ySXuvJcqRindQwAk7/how-my-students-think-about-ai",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "文章网址：https://www.lesswrong.com/posts/ySXuvJcqRindQwAk7/how-my-students-think-about-ai 评论网址：https://news.ycombinator.com/item?id=49566903 积分：1 # 评论：0",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 1
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "platform": "Hacker News",
+          "aiScore": 63,
+          "publishedAt": "2026-09-04T16:14:36+00:00",
+          "sourceUrl": "https://spectrum.ieee.org/ai-inference-distributed-computing",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "文章网址：https://spectrum.ieee.org/ai-inference-distributed-computing 评论网址：https://news.ycombinator.com/item?id=49566655 积分：1 # 评论：0",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 1
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 6,
+        "avgScore": 67.7,
+        "topScore": 74,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 3
+          },
+          {
+            "name": "Reddit",
+            "count": 2
+          },
+          {
+            "name": "The Verge",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 4
+          },
+          {
+            "name": "应用落地",
+            "count": 2
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 6 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 应用落地",
+        "最高分事件：微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章（74 分）",
+        "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
+      ]
+    },
     {
       "date": "2026-09-04",
       "label": "9月4日",
@@ -27493,311 +27538,6 @@
         "最高分事件：产品观察 | 小米创始员工范典创业AI硬件，做了台“无摩擦”的睡眠床头灯（91 分）",
         "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
-    },
-    {
-      "date": "2026-06-07",
-      "label": "6月7日",
-      "top10": [
-        {
-          "rank": 1,
-          "title": "多家供给方下调算力价格 算力普惠再提速",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-07T06:00:11+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3842626008647945?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "随着全国算力基建规模化、标准化不断提速，多家算力价格也迎来持续普惠。让曾经昂贵的“高端稀缺资源”变身为各行各业可普惠使用的“数字水电”。前不久，多家模型厂商宣布永久下调算力价格，其中DeepSeek与小米MiMo降价尤为显著，最高降幅接近99%。极大降低了用户日常高频问答、网页设计、代码编程等多场景AI使用成本，让各类轻量化、常态化AI应用告别高门槛、高成本的制约。（央视新闻）",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
-          "title": "OpenAI芯片核心叛逃Anthropic！就在量产前夜",
-          "platform": "量子位",
-          "aiScore": 86,
-          "publishedAt": "2026-06-07T12:07:44+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/06/431499.html",
-          "sourceName": "量子位",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "投融资"
-          ],
-          "summary": "帮OpenAI从零造出第一颗芯片的人，转投Anthropic了",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "Show HN：AI 代理的版本控制",
-          "platform": "Hacker News",
-          "aiScore": 85,
-          "publishedAt": "2026-06-07T11:32:21+00:00",
-          "sourceUrl": "https://cognatoai.com",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "Git/GitHub 并未针对代理时代而发展，因此我们正在构建评论 URL：https://news.ycombinator.com/item?id=48433857 积分：3 # 评论：4",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 4
-          }
-        },
-        {
-          "rank": 4,
-          "title": "AI等机器网络请求量首超人类",
-          "platform": "36氪",
-          "aiScore": 83,
-          "publishedAt": "2026-06-07T06:31:42+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3842694357092869?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "自动化",
-            "安全治理"
-          ],
-          "summary": "全球最大的互联网托管服务商之一——云网络安全服务公司发布的最新数据显示，在其托管网站收到的网络访问请求中，约57.4%来自人工智能和自动化程序，42.6%来自人类用户。该公司称，这是互联网历史上来自人类的网络访问请求数量首次被机器超越。 (央视新闻)",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 15,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "过去 24 小时人工智能领域发生了什么",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-07T11:08:12+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tz997d/what_happened_in_ai_in_the_last_24_hours/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "安全治理"
-          ],
-          "summary": "🚀 SpaceX 与 Google 签署了每月 9.2 亿美元的巨额协议，购买 110,000 个 Nvidia 芯片——这是在其 1.7 万亿美元的巨额 IPO 之前进行的一项巨大的基础设施投资。 🏛️特朗普政府……",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "人工智能编码工具正在成为新的云账单问题吗？",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-07T03:55:42+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tz1mdu/are_ai_coding_tools_just_becoming_the_new_cloud/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "idk 也许这对于已经在更大团队工作的人来说是显而易见的，但人工智能编码工具成本的事情感觉就像早期的云又回来了。大家都在说代币越来越便宜了……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "我越使用多个模型，我就越认为“人工智能共识”是一个陷阱——分歧是唯一值得关注的部分",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-06T17:13:17+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tymxz2/the_more_i_use_multiple_models_the_more_i_think/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "我在多模型设置中不断看到一种模式（karpathy 的法学硕士委员会，各种“询问 5 个模型并组合”工具），我认为它们中的大多数都在针对错误的事情进行优化。这…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "我不知道我在做什么了。",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-06T17:01:30+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tymn0m/i_have_no_idea_what_im_doing_anymore/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "我是一个相当聪明的人。我已经编码多年了。我可以在技术对话中保持自己的立场。而现在，此时此刻，我实在无法坦白地告诉你……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "这是不可持续的。",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-06-07T12:47:00+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tzb82n/this_just_isnt_sustainable/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "昨天，我使用了 GPT 的工作版本为我完成了一个非常简单的电子表格摘要任务。花了5分钟才搞定。我自己大概可以在 30 分钟左右完成。重...",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "Arxiv 白皮书研究集 [R]",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-06-07T08:59:58+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tz7014/research_collection_of_arxiv_whitepapers_r/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "我在 ChatGPT 推出后开始阅读并收集 Arxiv 白皮书。我将摘录复制并粘贴到 Word 中以跟踪它们。然后迁移到黑曜石。那个藏有大约 1700 篇论文的金库……",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 46,
-        "avgScore": 69.3,
-        "topScore": 88,
-        "topPlatforms": [
-          {
-            "name": "Reddit",
-            "count": 20
-          },
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "量子位",
-            "count": 5
-          },
-          {
-            "name": "36氪",
-            "count": 4
-          },
-          {
-            "name": "The Verge",
-            "count": 1
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "AI动态",
-            "count": 27
-          },
-          {
-            "name": "模型进展",
-            "count": 8
-          },
-          {
-            "name": "芯片算力",
-            "count": 4
-          },
-          {
-            "name": "Agent",
-            "count": 4
-          },
-          {
-            "name": "应用落地",
-            "count": 4
-          },
-          {
-            "name": "内容生产",
-            "count": 3
-          },
-          {
-            "name": "开源生态",
-            "count": 3
-          },
-          {
-            "name": "投融资",
-            "count": 2
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 46 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / 芯片算力",
-        "最高分事件：多家供给方下调算力价格 算力普惠再提速（88 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
-      ]
     }
   ],
   "currentWeek": {
@@ -27808,8 +27548,8 @@
       "end": "2026-09-07"
     },
     "metrics": {
-      "daysCovered": 4,
-      "totalItems": 142,
+      "daysCovered": 5,
+      "totalItems": 148,
       "avgTop10Score": 88.7,
       "topScore": 94,
       "topPlatforms": [
@@ -28093,7 +27833,7 @@
       }
     ],
     "briefing": [
-      "9月第1周累计收录 142 条资讯，覆盖 4 天。",
+      "9月第1周累计收录 148 条资讯，覆盖 5 天。",
       "高频主题：模型进展 / Agent / 应用落地",
       "本周最高分：企业级Agent落地样板间！百融硅基员工批量上岗，按结果领工资（94 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -28108,8 +27848,8 @@
         "end": "2026-09-07"
       },
       "metrics": {
-        "daysCovered": 4,
-        "totalItems": 142,
+        "daysCovered": 5,
+        "totalItems": 148,
         "avgTop10Score": 88.7,
         "topScore": 94,
         "topPlatforms": [
@@ -28393,7 +28133,7 @@
         }
       ],
       "briefing": [
-        "9月第1周累计收录 142 条资讯，覆盖 4 天。",
+        "9月第1周累计收录 148 条资讯，覆盖 5 天。",
         "高频主题：模型进展 / Agent / 应用落地",
         "本周最高分：企业级Agent落地样板间！百融硅基员工批量上岗，按结果领工资（94 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -32559,304 +32299,6 @@
         "高频主题：模型进展 / 应用落地 / 芯片算力",
         "本周最高分：8点1氪丨SpaceX上市在即，马斯克或成全球首位万亿富翁；92年技术极客陈宇森接任钉钉CEO；比尔·盖茨就爱泼斯坦案出席国会听证（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
-    },
-    {
-      "weekKey": "2026-06-W1",
-      "weekLabel": "6月第1周",
-      "range": {
-        "start": "2026-06-01",
-        "end": "2026-06-07"
-      },
-      "metrics": {
-        "daysCovered": 1,
-        "totalItems": 46,
-        "avgTop10Score": 82.2,
-        "topScore": 88,
-        "topPlatforms": [
-          {
-            "name": "Reddit",
-            "count": 6
-          },
-          {
-            "name": "36氪",
-            "count": 2
-          },
-          {
-            "name": "量子位",
-            "count": 1
-          },
-          {
-            "name": "Hacker News",
-            "count": 1
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "模型进展",
-            "count": 6
-          },
-          {
-            "name": "应用落地",
-            "count": 4
-          },
-          {
-            "name": "Agent",
-            "count": 4
-          },
-          {
-            "name": "芯片算力",
-            "count": 3
-          },
-          {
-            "name": "安全治理",
-            "count": 2
-          },
-          {
-            "name": "投融资",
-            "count": 1
-          }
-        ]
-      },
-      "topEvents": [
-        {
-          "rank": 1,
-          "title": "多家供给方下调算力价格 算力普惠再提速",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-07T06:00:11+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3842626008647945?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "随着全国算力基建规模化、标准化不断提速，多家算力价格也迎来持续普惠。让曾经昂贵的“高端稀缺资源”变身为各行各业可普惠使用的“数字水电”。前不久，多家模型厂商宣布永久下调算力价格，其中DeepSeek与小米MiMo降价尤为显著，最高降幅接近99%。极大降低了用户日常高频问答、网页设计、代码编程等多场景AI使用成本，让各类轻量化、常态化AI应用告别高门槛、高成本的制约。（央视新闻）",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
-          "title": "OpenAI芯片核心叛逃Anthropic！就在量产前夜",
-          "platform": "量子位",
-          "aiScore": 86,
-          "publishedAt": "2026-06-07T12:07:44+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/06/431499.html",
-          "sourceName": "量子位",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "投融资"
-          ],
-          "summary": "帮OpenAI从零造出第一颗芯片的人，转投Anthropic了",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "Show HN：AI 代理的版本控制",
-          "platform": "Hacker News",
-          "aiScore": 85,
-          "publishedAt": "2026-06-07T11:32:21+00:00",
-          "sourceUrl": "https://cognatoai.com",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "Git/GitHub 并未针对代理时代而发展，因此我们正在构建评论 URL：https://news.ycombinator.com/item?id=48433857 积分：3 # 评论：4",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 4
-          }
-        },
-        {
-          "rank": 4,
-          "title": "AI等机器网络请求量首超人类",
-          "platform": "36氪",
-          "aiScore": 83,
-          "publishedAt": "2026-06-07T06:31:42+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3842694357092869?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "自动化",
-            "安全治理"
-          ],
-          "summary": "全球最大的互联网托管服务商之一——云网络安全服务公司发布的最新数据显示，在其托管网站收到的网络访问请求中，约57.4%来自人工智能和自动化程序，42.6%来自人类用户。该公司称，这是互联网历史上来自人类的网络访问请求数量首次被机器超越。 (央视新闻)",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 15,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "过去 24 小时人工智能领域发生了什么",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-07T11:08:12+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tz997d/what_happened_in_ai_in_the_last_24_hours/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "安全治理"
-          ],
-          "summary": "🚀 SpaceX 与 Google 签署了每月 9.2 亿美元的巨额协议，购买 110,000 个 Nvidia 芯片——这是在其 1.7 万亿美元的巨额 IPO 之前进行的一项巨大的基础设施投资。 🏛️特朗普政府……",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "人工智能编码工具正在成为新的云账单问题吗？",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-07T03:55:42+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tz1mdu/are_ai_coding_tools_just_becoming_the_new_cloud/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "idk 也许这对于已经在更大团队工作的人来说是显而易见的，但人工智能编码工具成本的事情感觉就像早期的云又回来了。大家都在说代币越来越便宜了……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "我越使用多个模型，我就越认为“人工智能共识”是一个陷阱——分歧是唯一值得关注的部分",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-06T17:13:17+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tymxz2/the_more_i_use_multiple_models_the_more_i_think/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "我在多模型设置中不断看到一种模式（karpathy 的法学硕士委员会，各种“询问 5 个模型并组合”工具），我认为它们中的大多数都在针对错误的事情进行优化。这…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "我不知道我在做什么了。",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-06T17:01:30+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tymn0m/i_have_no_idea_what_im_doing_anymore/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "我是一个相当聪明的人。我已经编码多年了。我可以在技术对话中保持自己的立场。而现在，此时此刻，我实在无法坦白地告诉你……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "这是不可持续的。",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-06-07T12:47:00+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1tzb82n/this_just_isnt_sustainable/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "昨天，我使用了 GPT 的工作版本为我完成了一个非常简单的电子表格摘要任务。花了5分钟才搞定。我自己大概可以在 30 分钟左右完成。重...",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "Arxiv 白皮书研究集 [R]",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-06-07T08:59:58+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1tz7014/research_collection_of_arxiv_whitepapers_r/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "我在 ChatGPT 推出后开始阅读并收集 Arxiv 白皮书。我将摘录复制并粘贴到 Word 中以跟踪它们。然后迁移到黑曜石。那个藏有大约 1700 篇论文的金库……",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "briefing": [
-        "6月第1周累计收录 46 条资讯，覆盖 1 天。",
-        "高频主题：模型进展 / 应用落地 / Agent",
-        "本周最高分：多家供给方下调算力价格 算力普惠再提速（88 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     }
   ]
