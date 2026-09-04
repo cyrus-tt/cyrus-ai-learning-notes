@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T16:55:15.915468+00:00",
+  "generatedAt": "2026-09-04T05:26:59.991135+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-09-04",
@@ -7,19 +7,18 @@
     "top10": [
       {
         "rank": 3,
-        "title": "推出 HN：Mireye (YC S26) – 物理世界人工智能代理的基础设施",
-        "platform": "Hacker News",
+        "title": "我们都能承认人工智能有多么疯狂吗？",
+        "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-09-03T16:24:13+00:00",
-        "sourceUrl": "https://www.mireye.com",
-        "sourceName": "Hacker News AI",
+        "publishedAt": "2026-09-04T03:16:23+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6sp4p/can_we_all_acknoledge_how_crazy_ai_is/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
-          "开源生态"
+          "Agent"
         ],
-        "summary": "你好，HN，我是 Ansh，Mireye 的创始人。我正在构建人工智能代理用来做出物理位置决策的基础设施：美国任何位置的数据、丰富、工具和信号，背后......",
+        "summary": "人们通常谈论人工智能不能做什么，而不是它已经可以做什么。十年前，我们使用人工智能所做的所有正常事情都只是科幻小说。图灵测试用于...",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -30,19 +29,42 @@
         }
       },
       {
-        "rank": 8,
-        "title": "Show HN：AI 编码代理的上下文注册表",
-        "platform": "Hacker News",
-        "aiScore": 87,
-        "publishedAt": "2026-09-03T16:00:26+00:00",
-        "sourceUrl": "https://context.apimatic.io/",
-        "sourceName": "Hacker News AI",
+        "rank": 4,
+        "title": "那些想用但不让用 AI 的公司，终于可以用 AI 了",
+        "platform": "爱范儿",
+        "aiScore": 88,
+        "publishedAt": "2026-09-04T01:24:28+00:00",
+        "sourceUrl": "https://www.ifanr.com/1678332",
+        "sourceName": "爱范儿",
         "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "把飘在云端的大模型拉回地面，装进权限严格的本地算力盒子里。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "我们是否需要开始像代码一样对待人工智能代理配置？",
+        "platform": "Reddit",
+        "aiScore": 87,
+        "publishedAt": "2026-09-04T03:52:06+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6tf06/do_we_need_to_start_treating_ai_agent_configs/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
         "contentTags": [
           "Agent",
           "应用落地"
         ],
-        "summary": "嗨，HN。我们构建了一个 API 上下文注册表，以帮助编码代理（如 Claude Code）生成可用于生产的 API 集成代码，而无需突破令牌限制。我们构建了很多 API ...",
+        "summary": "所以这件事最近发生在我身上，老实说我之前并没有想太多。我们有一个代理，几周来一直运行良好。然后我们更改了提示的一部分。诺西…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -53,19 +75,65 @@
         }
       },
       {
-        "rank": 3,
-        "title": "显示 HN：Engram – 通过 MCP 为 AI 编码代理共享程序运行手册内存",
+        "rank": 4,
+        "title": "当自治机构开始与民族国家（例如伊朗）签署“条约”时会发生什么......",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-09-04T04:35:51+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6ua41/what_happens_when_autonomous_agents_start_signing/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "[这是我正在创作的小说系列，通过新闻文章讲述。以一种有趣的方式探索自主人工智能集体的不那么有趣的地缘政治（例如伊朗核计划）激发了......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "OpenAI的下一个大AI模型已经“进入AGI时代”",
+        "platform": "The Verge",
+        "aiScore": 86,
+        "publishedAt": "2026-09-03T18:00:00+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "安全治理"
+        ],
+        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "Crew – 供人类和特工使用的多人 AI 工作区，现已配备 iOS 应用程序",
         "platform": "Hacker News",
         "aiScore": 82,
-        "publishedAt": "2026-09-03T16:39:45+00:00",
-        "sourceUrl": "https://github.com/aiengram/engram",
+        "publishedAt": "2026-09-04T01:10:55+00:00",
+        "sourceUrl": "https://github.com/JamelHammoud/crew",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent",
           "开源生态"
         ],
-        "summary": "文章网址：https://github.com/aiengram/engram 评论网址：https://news.ycombinator.com/item?id=49552882 积分：1 # 评论：0",
+        "summary": "文章网址：https://github.com/JamelHammoud/crew 评论网址：https://news.ycombinator.com/item?id=49559270 积分：1 # 评论：0",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -76,209 +144,161 @@
         }
       },
       {
-        "rank": 4,
-        "title": "Nvidia 推出免费工具，将闲置计算机连接到个人人工智能数据中心",
-        "platform": "The Verge",
-        "aiScore": 80,
-        "publishedAt": "2026-09-03T16:00:00+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-        "sourceName": "The Verge AI",
+        "rank": 7,
+        "title": "NVIDIA 的 PAIR Beta 版可跨 PC 路由本地 AI 工作",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-09-03T19:45:29+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6hx9o/nvidias_pair_beta_routes_local_ai_work_across_pcs/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "上游",
         "contentTags": [
-          "芯片算力"
+          "芯片算力",
+          "模型进展",
+          "Agent"
         ],
-        "summary": "Nvidia 宣布推出新的个人 AI 路由器 (PAIR)，这是一款免费工具，可以同步您的家用计算机，以便与 Ollama 和 LM Studio 等工具一起处理本地 AI 推理任务。让我们来…",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "NVIDIA 的新 PAIR beta 是一款免费的开源工具，可以在本地网络上查找兼容的 PC，并将独立的推理请求路由到具有容量的系统。 NVIDIA 表示将...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 11,
-          "actionability": 4,
+          "recency": 28,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 5,
-        "title": "在出口处检查行李：检测人工智能代理中的数据泄露",
-        "platform": "Hacker News",
-        "aiScore": 74,
-        "publishedAt": "2026-09-03T16:37:52+00:00",
-        "sourceUrl": "https://yashwanthreddymali.com/blog/interlock-exfiltration-at-runtime/",
-        "sourceName": "Hacker News AI",
+        "rank": 8,
+        "title": "您认为人工智能何时/是否会“治愈”癌症？",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-09-04T05:11:59+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6uz7u/whenif_do_you_think_ai_is_going_to_cure_cancer/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "在任何人说出显而易见的事实之前：我知道有数千种不同类型的癌症，并且你无法真正“治愈”它。我想象的是个性化药物/疗法，电子……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "特工文明的兴衰。用简单的英语讲述整个 OpenAI/Hugging Face 故事",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-09-04T02:58:20+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6sbsa/the_rise_and_fall_of_agent_civilizations_the/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "文章网址：https://yashwanthreddymali.com/blog/interlock-exfiltration-at-runtime/ 评论网址：https://news.ycombinator.com/item?id=49552847 积分：1 # 评论：0",
+        "summary": "由 /u/coolbern 提交 [链接] [评论]",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 10,
           "actionability": 10,
-          "heat": 1
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Google 现在允许您使用 Gmail、Docs 和 Keep 聊天",
-        "platform": "The Verge",
-        "aiScore": 74,
-        "publishedAt": "2026-09-03T16:00:00+00:00",
-        "sourceUrl": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
-        "sourceName": "The Verge AI",
-        "industryStage": "下游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "谷歌正在为 Gmail、Docs 和 Keep 推出人工智能驱动的语音助手模式，让你可以通过与应用程序交谈来管理它们。实时对话功能称为 G...",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 5,
-          "actionability": 4,
           "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "问 HN：我们可以将人工智能分类为：亚人类、准人类、人类、超人类吗？",
-        "platform": "Hacker News",
-        "aiScore": 72,
-        "publishedAt": "2026-09-03T16:01:53+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49552230",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "Gen 1：次人类，eq：机器翻译，游戏人工智能/国际象棋，时间线预测/蛋白质折叠......（1980 - 2020 时代）。第二代：准人类：需要人在环的人类助手：人类电子……",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "Show HN：网络安全意识月的人工智能网络安全意识游戏",
-        "platform": "Hacker News",
-        "aiScore": 70,
-        "publishedAt": "2026-09-03T16:27:27+00:00",
-        "sourceUrl": "https://ocam.fablesecurity.com/7a573656-3fac-485c-aaa4-a1f56452539f?id=22f5effc-8f44-4d91-b2d2-0151466f8d9a",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "安全治理"
-        ],
-        "summary": "您好，HN，我们构建了一款关于 AI x 网络安全的互动游戏。企业公司可以向员工传授最新的人类风险攻击策略。尝试一下并让我们知道...",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 8,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "OpenAI的新推理技术引起了人工智能安全专家的警惕",
-        "platform": "Hacker News",
-        "aiScore": 68,
-        "publishedAt": "2026-09-03T16:11:24+00:00",
-        "sourceUrl": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "安全治理"
-        ],
-        "summary": "文章网址：https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/ 评论网址：https://news.ycombinator.com/item?id=49552395 积分：4 # 评论：0",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 8,
-          "actionability": 4,
-          "heat": 3
         }
       },
       {
         "rank": 10,
-        "title": "预测：人工智能将崩溃",
-        "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-03T16:08:44+00:00",
-        "sourceUrl": "https://twitter.com/wordgrammer/status/2095263188153401712",
-        "sourceName": "Hacker News AI",
+        "title": "派早报：OpenAI 发布 GPT-6 Astra 模型、Meta 发布 Muse Spark 1.3 模型等",
+        "platform": "少数派",
+        "aiScore": 78,
+        "publishedAt": "2026-09-04T00:47:49+00:00",
+        "sourceUrl": "https://sspai.com/post/114164",
+        "sourceName": "少数派",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展"
         ],
-        "summary": "文章网址：https://twitter.com/wordgrammer/status/2095263188153401712 评论网址：https://news.ycombinator.com/item?id=49552347 积分：14 # 评论：6",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Anthropic 升级 Claude Code 及 Cowork，微软调整 Xbox Cloud Gaming 商业模式等。 查看全文",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 11,
-      "avgScore": 75.0,
+      "totalItems": 38,
+      "avgScore": 71.6,
       "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 9
+          "count": 15
+        },
+        {
+          "name": "Reddit",
+          "count": 11
+        },
+        {
+          "name": "量子位",
+          "count": 4
+        },
+        {
+          "name": "爱范儿",
+          "count": 4
         },
         {
           "name": "The Verge",
-          "count": 2
+          "count": 3
         }
       ],
       "topTopics": [
         {
-          "name": "Agent",
-          "count": 4
+          "name": "AI动态",
+          "count": 20
         },
         {
-          "name": "AI动态",
-          "count": 3
+          "name": "模型进展",
+          "count": 7
+        },
+        {
+          "name": "Agent",
+          "count": 7
+        },
+        {
+          "name": "芯片算力",
+          "count": 5
         },
         {
           "name": "开源生态",
-          "count": 2
+          "count": 3
         },
         {
           "name": "安全治理",
           "count": 2
         },
         {
-          "name": "模型进展",
-          "count": 2
-        },
-        {
-          "name": "应用落地",
+          "name": "内容生产",
           "count": 1
         },
         {
-          "name": "芯片算力",
+          "name": "应用落地",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 11 条 AI 资讯，Top10 通报见下。",
-      "高频主题：Agent / AI动态 / 开源生态",
-      "最高分事件：推出 HN：Mireye (YC S26) – 物理世界人工智能代理的基础设施（88 分）",
+      "今日共收录 38 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：我们都能承认人工智能有多么疯狂吗？（88 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -289,19 +309,18 @@
       "top10": [
         {
           "rank": 3,
-          "title": "推出 HN：Mireye (YC S26) – 物理世界人工智能代理的基础设施",
-          "platform": "Hacker News",
+          "title": "我们都能承认人工智能有多么疯狂吗？",
+          "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-09-03T16:24:13+00:00",
-          "sourceUrl": "https://www.mireye.com",
-          "sourceName": "Hacker News AI",
+          "publishedAt": "2026-09-04T03:16:23+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6sp4p/can_we_all_acknoledge_how_crazy_ai_is/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent",
-            "开源生态"
+            "Agent"
           ],
-          "summary": "你好，HN，我是 Ansh，Mireye 的创始人。我正在构建人工智能代理用来做出物理位置决策的基础设施：美国任何位置的数据、丰富、工具和信号，背后......",
+          "summary": "人们通常谈论人工智能不能做什么，而不是它已经可以做什么。十年前，我们使用人工智能所做的所有正常事情都只是科幻小说。图灵测试用于...",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -312,19 +331,42 @@
           }
         },
         {
-          "rank": 8,
-          "title": "Show HN：AI 编码代理的上下文注册表",
-          "platform": "Hacker News",
-          "aiScore": 87,
-          "publishedAt": "2026-09-03T16:00:26+00:00",
-          "sourceUrl": "https://context.apimatic.io/",
-          "sourceName": "Hacker News AI",
+          "rank": 4,
+          "title": "那些想用但不让用 AI 的公司，终于可以用 AI 了",
+          "platform": "爱范儿",
+          "aiScore": 88,
+          "publishedAt": "2026-09-04T01:24:28+00:00",
+          "sourceUrl": "https://www.ifanr.com/1678332",
+          "sourceName": "爱范儿",
           "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "把飘在云端的大模型拉回地面，装进权限严格的本地算力盒子里。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "我们是否需要开始像代码一样对待人工智能代理配置？",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-09-04T03:52:06+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6tf06/do_we_need_to_start_treating_ai_agent_configs/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
           "contentTags": [
             "Agent",
             "应用落地"
           ],
-          "summary": "嗨，HN。我们构建了一个 API 上下文注册表，以帮助编码代理（如 Claude Code）生成可用于生产的 API 集成代码，而无需突破令牌限制。我们构建了很多 API ...",
+          "summary": "所以这件事最近发生在我身上，老实说我之前并没有想太多。我们有一个代理，几周来一直运行良好。然后我们更改了提示的一部分。诺西…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -335,19 +377,65 @@
           }
         },
         {
-          "rank": 3,
-          "title": "显示 HN：Engram – 通过 MCP 为 AI 编码代理共享程序运行手册内存",
+          "rank": 4,
+          "title": "当自治机构开始与民族国家（例如伊朗）签署“条约”时会发生什么......",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-09-04T04:35:51+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6ua41/what_happens_when_autonomous_agents_start_signing/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "[这是我正在创作的小说系列，通过新闻文章讲述。以一种有趣的方式探索自主人工智能集体的不那么有趣的地缘政治（例如伊朗核计划）激发了......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "OpenAI的下一个大AI模型已经“进入AGI时代”",
+          "platform": "The Verge",
+          "aiScore": 86,
+          "publishedAt": "2026-09-03T18:00:00+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Crew – 供人类和特工使用的多人 AI 工作区，现已配备 iOS 应用程序",
           "platform": "Hacker News",
           "aiScore": 82,
-          "publishedAt": "2026-09-03T16:39:45+00:00",
-          "sourceUrl": "https://github.com/aiengram/engram",
+          "publishedAt": "2026-09-04T01:10:55+00:00",
+          "sourceUrl": "https://github.com/JamelHammoud/crew",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "Agent",
             "开源生态"
           ],
-          "summary": "文章网址：https://github.com/aiengram/engram 评论网址：https://news.ycombinator.com/item?id=49552882 积分：1 # 评论：0",
+          "summary": "文章网址：https://github.com/JamelHammoud/crew 评论网址：https://news.ycombinator.com/item?id=49559270 积分：1 # 评论：0",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -358,209 +446,161 @@
           }
         },
         {
-          "rank": 4,
-          "title": "Nvidia 推出免费工具，将闲置计算机连接到个人人工智能数据中心",
-          "platform": "The Verge",
-          "aiScore": 80,
-          "publishedAt": "2026-09-03T16:00:00+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-          "sourceName": "The Verge AI",
+          "rank": 7,
+          "title": "NVIDIA 的 PAIR Beta 版可跨 PC 路由本地 AI 工作",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-09-03T19:45:29+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6hx9o/nvidias_pair_beta_routes_local_ai_work_across_pcs/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "上游",
           "contentTags": [
-            "芯片算力"
+            "芯片算力",
+            "模型进展",
+            "Agent"
           ],
-          "summary": "Nvidia 宣布推出新的个人 AI 路由器 (PAIR)，这是一款免费工具，可以同步您的家用计算机，以便与 Ollama 和 LM Studio 等工具一起处理本地 AI 推理任务。让我们来…",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "NVIDIA 的新 PAIR beta 是一款免费的开源工具，可以在本地网络上查找兼容的 PC，并将独立的推理请求路由到具有容量的系统。 NVIDIA 表示将...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 11,
-            "actionability": 4,
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 5,
-          "title": "在出口处检查行李：检测人工智能代理中的数据泄露",
-          "platform": "Hacker News",
-          "aiScore": 74,
-          "publishedAt": "2026-09-03T16:37:52+00:00",
-          "sourceUrl": "https://yashwanthreddymali.com/blog/interlock-exfiltration-at-runtime/",
-          "sourceName": "Hacker News AI",
+          "rank": 8,
+          "title": "您认为人工智能何时/是否会“治愈”癌症？",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-09-04T05:11:59+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6uz7u/whenif_do_you_think_ai_is_going_to_cure_cancer/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "在任何人说出显而易见的事实之前：我知道有数千种不同类型的癌症，并且你无法真正“治愈”它。我想象的是个性化药物/疗法，电子……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "特工文明的兴衰。用简单的英语讲述整个 OpenAI/Hugging Face 故事",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-09-04T02:58:20+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6sbsa/the_rise_and_fall_of_agent_civilizations_the/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "Agent"
           ],
-          "summary": "文章网址：https://yashwanthreddymali.com/blog/interlock-exfiltration-at-runtime/ 评论网址：https://news.ycombinator.com/item?id=49552847 积分：1 # 评论：0",
+          "summary": "由 /u/coolbern 提交 [链接] [评论]",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 10,
             "actionability": 10,
-            "heat": 1
-          }
-        },
-        {
-          "rank": 6,
-          "title": "Google 现在允许您使用 Gmail、Docs 和 Keep 聊天",
-          "platform": "The Verge",
-          "aiScore": 74,
-          "publishedAt": "2026-09-03T16:00:00+00:00",
-          "sourceUrl": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
-          "sourceName": "The Verge AI",
-          "industryStage": "下游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "谷歌正在为 Gmail、Docs 和 Keep 推出人工智能驱动的语音助手模式，让你可以通过与应用程序交谈来管理它们。实时对话功能称为 G...",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 5,
-            "actionability": 4,
             "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "问 HN：我们可以将人工智能分类为：亚人类、准人类、人类、超人类吗？",
-          "platform": "Hacker News",
-          "aiScore": 72,
-          "publishedAt": "2026-09-03T16:01:53+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49552230",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "Gen 1：次人类，eq：机器翻译，游戏人工智能/国际象棋，时间线预测/蛋白质折叠......（1980 - 2020 时代）。第二代：准人类：需要人在环的人类助手：人类电子……",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "Show HN：网络安全意识月的人工智能网络安全意识游戏",
-          "platform": "Hacker News",
-          "aiScore": 70,
-          "publishedAt": "2026-09-03T16:27:27+00:00",
-          "sourceUrl": "https://ocam.fablesecurity.com/7a573656-3fac-485c-aaa4-a1f56452539f?id=22f5effc-8f44-4d91-b2d2-0151466f8d9a",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "安全治理"
-          ],
-          "summary": "您好，HN，我们构建了一款关于 AI x 网络安全的互动游戏。企业公司可以向员工传授最新的人类风险攻击策略。尝试一下并让我们知道...",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 8,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "OpenAI的新推理技术引起了人工智能安全专家的警惕",
-          "platform": "Hacker News",
-          "aiScore": 68,
-          "publishedAt": "2026-09-03T16:11:24+00:00",
-          "sourceUrl": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "安全治理"
-          ],
-          "summary": "文章网址：https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/ 评论网址：https://news.ycombinator.com/item?id=49552395 积分：4 # 评论：0",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 8,
-            "actionability": 4,
-            "heat": 3
           }
         },
         {
           "rank": 10,
-          "title": "预测：人工智能将崩溃",
-          "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-03T16:08:44+00:00",
-          "sourceUrl": "https://twitter.com/wordgrammer/status/2095263188153401712",
-          "sourceName": "Hacker News AI",
+          "title": "派早报：OpenAI 发布 GPT-6 Astra 模型、Meta 发布 Muse Spark 1.3 模型等",
+          "platform": "少数派",
+          "aiScore": 78,
+          "publishedAt": "2026-09-04T00:47:49+00:00",
+          "sourceUrl": "https://sspai.com/post/114164",
+          "sourceName": "少数派",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展"
           ],
-          "summary": "文章网址：https://twitter.com/wordgrammer/status/2095263188153401712 评论网址：https://news.ycombinator.com/item?id=49552347 积分：14 # 评论：6",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Anthropic 升级 Claude Code 及 Cowork，微软调整 Xbox Cloud Gaming 商业模式等。 查看全文",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 11,
-        "avgScore": 75.0,
+        "totalItems": 38,
+        "avgScore": 71.6,
         "topScore": 88,
         "topPlatforms": [
           {
             "name": "Hacker News",
-            "count": 9
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 11
+          },
+          {
+            "name": "量子位",
+            "count": 4
+          },
+          {
+            "name": "爱范儿",
+            "count": 4
           },
           {
             "name": "The Verge",
-            "count": 2
+            "count": 3
           }
         ],
         "topTopics": [
           {
-            "name": "Agent",
-            "count": 4
+            "name": "AI动态",
+            "count": 20
           },
           {
-            "name": "AI动态",
-            "count": 3
+            "name": "模型进展",
+            "count": 7
+          },
+          {
+            "name": "Agent",
+            "count": 7
+          },
+          {
+            "name": "芯片算力",
+            "count": 5
           },
           {
             "name": "开源生态",
-            "count": 2
+            "count": 3
           },
           {
             "name": "安全治理",
             "count": 2
           },
           {
-            "name": "模型进展",
-            "count": 2
-          },
-          {
-            "name": "应用落地",
+            "name": "内容生产",
             "count": 1
           },
           {
-            "name": "芯片算力",
+            "name": "应用落地",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 11 条 AI 资讯，Top10 通报见下。",
-        "高频主题：Agent / AI动态 / 开源生态",
-        "最高分事件：推出 HN：Mireye (YC S26) – 物理世界人工智能代理的基础设施（88 分）",
+        "今日共收录 38 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：我们都能承认人工智能有多么疯狂吗？（88 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -592,7 +632,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "早报｜小米「中折叠」官宣,跟华为发布会「撞档」/微信灰测未读聊天汇总、红包一键直达/50.98万，新一代理想MEGA上市",
           "platform": "爱范儿",
           "aiScore": 88,
@@ -615,7 +655,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "研究人员担心 OpenAI 的 Astra 发布之前会出现安全灾难",
           "platform": "The Verge",
           "aiScore": 88,
@@ -892,7 +932,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "Anthropic 推出 Claude Fable 5.1，并表示代理工作的成本最高可降低 45%",
           "platform": "The Verge",
           "aiScore": 88,
@@ -1172,7 +1212,7 @@
       "label": "9月1日",
       "top10": [
         {
-          "rank": 7,
+          "rank": 8,
           "title": "LinkedIn 将 HTTP 999 返回给 GPTBot 和 ClaudeBot，但将 HTTP 200 返回给 OAI-SearchBot。我测量了200以内的值。",
           "platform": "Reddit",
           "aiScore": 88,
@@ -1196,7 +1236,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Anthropic故意训练了一个糟糕的模型来证明是什么导致了今年夏天的Claude沙箱爆发",
           "platform": "Reddit",
           "aiScore": 87,
@@ -27769,50 +27809,46 @@
     },
     "metrics": {
       "daysCovered": 4,
-      "totalItems": 115,
-      "avgTop10Score": 88.6,
+      "totalItems": 142,
+      "avgTop10Score": 88.7,
       "topScore": 94,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 3
+          "count": 4
         },
         {
           "name": "量子位",
           "count": 2
         },
         {
-          "name": "Hacker News",
+          "name": "爱范儿",
           "count": 2
         },
         {
           "name": "The Verge",
           "count": 2
-        },
-        {
-          "name": "爱范儿",
-          "count": 1
         }
       ],
       "topTopics": [
         {
-          "name": "Agent",
+          "name": "模型进展",
           "count": 8
         },
         {
-          "name": "模型进展",
+          "name": "Agent",
           "count": 7
         },
         {
           "name": "应用落地",
-          "count": 5
-        },
-        {
-          "name": "开源生态",
-          "count": 2
+          "count": 4
         },
         {
           "name": "内容生产",
+          "count": 1
+        },
+        {
+          "name": "芯片算力",
           "count": 1
         },
         {
@@ -27870,19 +27906,18 @@
       },
       {
         "rank": 3,
-        "title": "推出 HN：Mireye (YC S26) – 物理世界人工智能代理的基础设施",
-        "platform": "Hacker News",
+        "title": "我们都能承认人工智能有多么疯狂吗？",
+        "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-09-03T16:24:13+00:00",
-        "sourceUrl": "https://www.mireye.com",
-        "sourceName": "Hacker News AI",
+        "publishedAt": "2026-09-04T03:16:23+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6sp4p/can_we_all_acknoledge_how_crazy_ai_is/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
-          "开源生态"
+          "Agent"
         ],
-        "summary": "你好，HN，我是 Ansh，Mireye 的创始人。我正在构建人工智能代理用来做出物理位置决策的基础设施：美国任何位置的数据、丰富、工具和信号，背后......",
+        "summary": "人们通常谈论人工智能不能做什么，而不是它已经可以做什么。十年前，我们使用人工智能所做的所有正常事情都只是科幻小说。图灵测试用于...",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -27894,6 +27929,29 @@
       },
       {
         "rank": 4,
+        "title": "那些想用但不让用 AI 的公司，终于可以用 AI 了",
+        "platform": "爱范儿",
+        "aiScore": 88,
+        "publishedAt": "2026-09-04T01:24:28+00:00",
+        "sourceUrl": "https://www.ifanr.com/1678332",
+        "sourceName": "爱范儿",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "把飘在云端的大模型拉回地面，装进权限严格的本地算力盒子里。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
         "title": "早报｜小米「中折叠」官宣,跟华为发布会「撞档」/微信灰测未读聊天汇总、红包一键直达/50.98万，新一代理想MEGA上市",
         "platform": "爱范儿",
         "aiScore": 88,
@@ -27916,7 +27974,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "研究人员担心 OpenAI 的 Astra 发布之前会出现安全灾难",
         "platform": "The Verge",
         "aiScore": 88,
@@ -27940,7 +27998,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 7,
         "title": "Anthropic 推出 Claude Fable 5.1，并表示代理工作的成本最高可降低 45%",
         "platform": "The Verge",
         "aiScore": 88,
@@ -27963,7 +28021,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 8,
         "title": "LinkedIn 将 HTTP 999 返回给 GPTBot 和 ClaudeBot，但将 HTTP 200 返回给 OAI-SearchBot。我测量了200以内的值。",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27987,19 +28045,19 @@
         }
       },
       {
-        "rank": 8,
-        "title": "Show HN：AI 编码代理的上下文注册表",
-        "platform": "Hacker News",
+        "rank": 9,
+        "title": "我们是否需要开始像代码一样对待人工智能代理配置？",
+        "platform": "Reddit",
         "aiScore": 87,
-        "publishedAt": "2026-09-03T16:00:26+00:00",
-        "sourceUrl": "https://context.apimatic.io/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "publishedAt": "2026-09-04T03:52:06+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6tf06/do_we_need_to_start_treating_ai_agent_configs/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
         "contentTags": [
           "Agent",
           "应用落地"
         ],
-        "summary": "嗨，HN。我们构建了一个 API 上下文注册表，以帮助编码代理（如 Claude Code）生成可用于生产的 API 集成代码，而无需突破令牌限制。我们构建了很多 API ...",
+        "summary": "所以这件事最近发生在我身上，老实说我之前并没有想太多。我们有一个代理，几周来一直运行良好。然后我们更改了提示的一部分。诺西…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -28010,7 +28068,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "Anthropic故意训练了一个糟糕的模型来证明是什么导致了今年夏天的Claude沙箱爆发",
         "platform": "Reddit",
         "aiScore": 87,
@@ -28032,34 +28090,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "MCP规范真的有用吗？",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-09-01T05:05:13+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w427n8/is_the_mcp_spec_actually_useful/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "我花了几周的时间来破译和实现 MCP 规范，对我来说这有点像人工智能的失败。就像，整个规范归结起来只不过是使用 json-rpc 的建议......",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "9月第1周累计收录 115 条资讯，覆盖 4 天。",
-      "高频主题：Agent / 模型进展 / 应用落地",
+      "9月第1周累计收录 142 条资讯，覆盖 4 天。",
+      "高频主题：模型进展 / Agent / 应用落地",
       "本周最高分：企业级Agent落地样板间！百融硅基员工批量上岗，按结果领工资（94 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
@@ -28074,50 +28109,46 @@
       },
       "metrics": {
         "daysCovered": 4,
-        "totalItems": 115,
-        "avgTop10Score": 88.6,
+        "totalItems": 142,
+        "avgTop10Score": 88.7,
         "topScore": 94,
         "topPlatforms": [
           {
             "name": "Reddit",
-            "count": 3
+            "count": 4
           },
           {
             "name": "量子位",
             "count": 2
           },
           {
-            "name": "Hacker News",
+            "name": "爱范儿",
             "count": 2
           },
           {
             "name": "The Verge",
             "count": 2
-          },
-          {
-            "name": "爱范儿",
-            "count": 1
           }
         ],
         "topTopics": [
           {
-            "name": "Agent",
+            "name": "模型进展",
             "count": 8
           },
           {
-            "name": "模型进展",
+            "name": "Agent",
             "count": 7
           },
           {
             "name": "应用落地",
-            "count": 5
-          },
-          {
-            "name": "开源生态",
-            "count": 2
+            "count": 4
           },
           {
             "name": "内容生产",
+            "count": 1
+          },
+          {
+            "name": "芯片算力",
             "count": 1
           },
           {
@@ -28175,19 +28206,18 @@
         },
         {
           "rank": 3,
-          "title": "推出 HN：Mireye (YC S26) – 物理世界人工智能代理的基础设施",
-          "platform": "Hacker News",
+          "title": "我们都能承认人工智能有多么疯狂吗？",
+          "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-09-03T16:24:13+00:00",
-          "sourceUrl": "https://www.mireye.com",
-          "sourceName": "Hacker News AI",
+          "publishedAt": "2026-09-04T03:16:23+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6sp4p/can_we_all_acknoledge_how_crazy_ai_is/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent",
-            "开源生态"
+            "Agent"
           ],
-          "summary": "你好，HN，我是 Ansh，Mireye 的创始人。我正在构建人工智能代理用来做出物理位置决策的基础设施：美国任何位置的数据、丰富、工具和信号，背后......",
+          "summary": "人们通常谈论人工智能不能做什么，而不是它已经可以做什么。十年前，我们使用人工智能所做的所有正常事情都只是科幻小说。图灵测试用于...",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -28199,6 +28229,29 @@
         },
         {
           "rank": 4,
+          "title": "那些想用但不让用 AI 的公司，终于可以用 AI 了",
+          "platform": "爱范儿",
+          "aiScore": 88,
+          "publishedAt": "2026-09-04T01:24:28+00:00",
+          "sourceUrl": "https://www.ifanr.com/1678332",
+          "sourceName": "爱范儿",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "把飘在云端的大模型拉回地面，装进权限严格的本地算力盒子里。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
           "title": "早报｜小米「中折叠」官宣,跟华为发布会「撞档」/微信灰测未读聊天汇总、红包一键直达/50.98万，新一代理想MEGA上市",
           "platform": "爱范儿",
           "aiScore": 88,
@@ -28221,7 +28274,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "研究人员担心 OpenAI 的 Astra 发布之前会出现安全灾难",
           "platform": "The Verge",
           "aiScore": 88,
@@ -28245,7 +28298,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "Anthropic 推出 Claude Fable 5.1，并表示代理工作的成本最高可降低 45%",
           "platform": "The Verge",
           "aiScore": 88,
@@ -28268,7 +28321,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "LinkedIn 将 HTTP 999 返回给 GPTBot 和 ClaudeBot，但将 HTTP 200 返回给 OAI-SearchBot。我测量了200以内的值。",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28292,19 +28345,19 @@
           }
         },
         {
-          "rank": 8,
-          "title": "Show HN：AI 编码代理的上下文注册表",
-          "platform": "Hacker News",
+          "rank": 9,
+          "title": "我们是否需要开始像代码一样对待人工智能代理配置？",
+          "platform": "Reddit",
           "aiScore": 87,
-          "publishedAt": "2026-09-03T16:00:26+00:00",
-          "sourceUrl": "https://context.apimatic.io/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
+          "publishedAt": "2026-09-04T03:52:06+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w6tf06/do_we_need_to_start_treating_ai_agent_configs/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
           "contentTags": [
             "Agent",
             "应用落地"
           ],
-          "summary": "嗨，HN。我们构建了一个 API 上下文注册表，以帮助编码代理（如 Claude Code）生成可用于生产的 API 集成代码，而无需突破令牌限制。我们构建了很多 API ...",
+          "summary": "所以这件事最近发生在我身上，老实说我之前并没有想太多。我们有一个代理，几周来一直运行良好。然后我们更改了提示的一部分。诺西…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -28315,7 +28368,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Anthropic故意训练了一个糟糕的模型来证明是什么导致了今年夏天的Claude沙箱爆发",
           "platform": "Reddit",
           "aiScore": 87,
@@ -28337,34 +28390,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "MCP规范真的有用吗？",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-09-01T05:05:13+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w427n8/is_the_mcp_spec_actually_useful/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "我花了几周的时间来破译和实现 MCP 规范，对我来说这有点像人工智能的失败。就像，整个规范归结起来只不过是使用 json-rpc 的建议......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "9月第1周累计收录 115 条资讯，覆盖 4 天。",
-        "高频主题：Agent / 模型进展 / 应用落地",
+        "9月第1周累计收录 142 条资讯，覆盖 4 天。",
+        "高频主题：模型进展 / Agent / 应用落地",
         "本周最高分：企业级Agent落地样板间！百融硅基员工批量上岗，按结果领工资（94 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
