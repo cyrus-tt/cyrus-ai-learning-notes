@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T18:04:49.215240+00:00",
+  "generatedAt": "2026-09-08T05:35:04.733620+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-09-08",
@@ -7,19 +7,18 @@
     "top10": [
       {
         "rank": 1,
-        "title": "Show HN：Benzi——前沿人工智能模型的代码智能基础设施",
-        "platform": "Hacker News",
+        "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
+        "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-09-07T16:05:58+00:00",
-        "sourceUrl": "https://github.com/oooscoos/Benzi",
-        "sourceName": "Hacker News AI",
-        "industryStage": "上游",
+        "publishedAt": "2026-09-08T00:05:19+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa8rjv/can_current_llm_architecture_actually_get_us_to/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
-          "开源生态"
+          "Agent"
         ],
-        "summary": "粗略地说，当前人工智能编码代理/工具的工作方式是：a）在多个文件中提取适当的代码文本片段并将其交给代理，或者b）Pa…",
+        "summary": "我是一名软件工程师，而不是科学家，但我喜欢它。我喜欢大规模解决困难的分布式应用问题。这就是让我早上起床的原因，准备好继续学习……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -31,241 +30,273 @@
       },
       {
         "rank": 2,
-        "title": "每个人工智能编码工具都保存其配置",
+        "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
+        "platform": "量子位",
+        "aiScore": 86,
+        "publishedAt": "2026-09-08T03:22:17+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/485784.html",
+        "sourceName": "量子位",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "投融资"
+        ],
+        "summary": "近日，物理AI企业深度智控（DeepCtrls）完成新一轮B+轮数亿元融资。",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 17,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "人工智能代理和人类的安全临时文件共享",
         "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-09-07T16:19:09+00:00",
-        "sourceUrl": "https://github.com/moneytool/agentmeld/blob/main/docs/where-ai-coding-tools-keep-their-config.md",
+        "aiScore": 86,
+        "publishedAt": "2026-09-07T23:59:58+00:00",
+        "sourceUrl": "https://github.com/aispace-sh/aispace-client",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent",
           "开源生态"
         ],
-        "summary": "文章网址：https://github.com/moneytool/agentmeld/blob/main/docs/where-ai-coding-tools-keep-their-config.md 评论网址：https://news.ycombinator.com/item?id=49600009 积分：2 # 评论…",
+        "summary": "文章网址：https://github.com/aispace-sh/aispace-client 评论网址：https://news.ycombinator.com/item?id=49604280 积分：12 # 评论：3",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 3,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 73,
-        "publishedAt": "2026-09-07T17:51:44+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w9z6gm/pleaseee_read_this/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 67,
-        "publishedAt": "2026-09-07T18:00:26+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w9zeyk/control_if_ai_could_improve_humanity_and_give_you/",
-        "sourceName": "Reddit r/artificial",
+        "title": "王云鹤创业后交出首个模型",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-09-08T02:14:47+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/485555.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展"
         ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "把多模型执行经验用到了模型训练",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "title": "连续扩散，一步生成代码",
         "platform": "Reddit",
-        "aiScore": 67,
-        "publishedAt": "2026-09-07T16:08:50+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w9wdeq/where_do_you_personally_draw_the_line_between/",
+        "aiScore": 79,
+        "publishedAt": "2026-09-07T22:35:01+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa6ouo/continuous_diffusion_for_code_generation_in_one/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展",
+          "开源生态"
         ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "语言模型能一步写出代码吗？是的：使语言连续，使用扩散，然后将轨迹提炼为一步。论文：https://arxiv.org/abs/2609.04531 代码：https://gith...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "NCSC 警告影子 AI 可能会暴露数据和代理权限",
+        "platform": "Reddit",
+        "aiScore": 79,
+        "publishedAt": "2026-09-07T19:42:30+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa2926/ncsc_warns_that_shadow_ai_can_expose_data_and/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "英国国家网络安全中心表示，员工在组织批准的系统之外使用人工智能工具可能会暴露公司或客户数据，并降低组织的可见性……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "一直在为人工智能视频构建一个“先块，后生成”的工具 - 好奇还缺少什么",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-09-07T23:18:21+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa7ph3/been_building_a_block_first_generate_second_tool/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "自动化"
+        ],
+        "summary": "一直在尝试Dimension.so上的工作流程，其中代理首先构建3D视觉预览场景 - 阻挡对象、角色运动和相机 - 然后将其直接输入到Seed中......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 17,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "WeatherNext 3：我们最先进的全球天气人工智能模型",
+        "platform": "Hacker News",
+        "aiScore": 77,
+        "publishedAt": "2026-09-07T23:56:41+00:00",
+        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "文章网址：https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/ 评论网址：https://news.ycombinator.com/item?id=49604257 积分：10 # Co…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 4
+        }
+      },
+      {
+        "rank": 9,
+        "title": "深入马来西亚AI现场！WAIC CONNECT MALAYSIA首日亮点全速递",
+        "platform": "量子位",
+        "aiScore": 74,
+        "publishedAt": "2026-09-08T02:42:24+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/485630.html",
+        "sourceName": "量子位",
+        "industryStage": "下游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "从看市场，到见场景；从认识伙伴，到寻找合作。",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
           "topic": 5,
           "actionability": 4,
           "heat": 5
         }
       },
       {
-        "rank": 6,
-        "title": "肯尼迪参议员斥责人工智能开发人员为“​​高智商愚蠢的人”",
-        "platform": "Hacker News",
-        "aiScore": 65,
-        "publishedAt": "2026-09-07T16:47:08+00:00",
-        "sourceUrl": "https://www.politico.com/news/2026/09/06/kennedy-ai-developers-high-iq-stupid-people-01066756",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "文章网址：https://www.politico.com/news/2026/09/06/kennedy-ai-developers-high-iq-stupid-people-01066756 评论网址：https://news.ycombinator.com/item?id=49600305 积分：3 # 评论：1",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 3
-        }
-      },
-      {
-        "rank": 7,
-        "title": "Show HN：真正的 AI 工作组合",
-        "platform": "Hacker News",
-        "aiScore": 64,
-        "publishedAt": "2026-09-07T17:43:52+00:00",
-        "sourceUrl": "https://buildyard.ai/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "文章网址：https://buildyard.ai/ 评论网址：https://news.ycombinator.com/item?id=49600896 积分：2 # 评论：0",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 8,
-        "title": "苹果公司的“Think Different”广告由人工智能制作",
-        "platform": "Hacker News",
-        "aiScore": 64,
-        "publishedAt": "2026-09-07T16:32:20+00:00",
-        "sourceUrl": "https://twitter.com/Noahsarc1000/status/2096989380774903883",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "文章网址：https://twitter.com/Noahsarc1000/status/2096989380774903883 评论网址：https://news.ycombinator.com/item?id=49600141 积分：1 # 评论：1",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 9,
-        "title": "关于人工智能未来的 10 个残酷而诚实的预测",
-        "platform": "Hacker News",
-        "aiScore": 63,
-        "publishedAt": "2026-09-07T17:57:02+00:00",
-        "sourceUrl": "https://www.honest-broker.com/p/10-brutally-honest-predictions-on",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "文章网址：https://www.honest-broker.com/p/10-brutally-honest-predictions-on 评论网址：https://news.ycombinator.com/item?id=49601043 积分：1 # 评论：0",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 1
-        }
-      },
-      {
         "rank": 10,
-        "title": "人工智能可以取代内华达州妓院的性工作者吗？",
+        "title": "Arm Mali G2-Ultra NX GPU：具有 AI 原生图形的桌面级移动游戏",
         "platform": "Hacker News",
-        "aiScore": 63,
-        "publishedAt": "2026-09-07T16:59:18+00:00",
-        "sourceUrl": "https://brothelnevada.com/2026/09/05/ai-replace-sex-workers/",
+        "aiScore": 73,
+        "publishedAt": "2026-09-08T04:06:20+00:00",
+        "sourceUrl": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
         "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "industryStage": "上游",
         "contentTags": [
-          "AI动态"
+          "芯片算力"
         ],
-        "summary": "文章网址：https://brothelnevada.com/2026/09/05/ai-replace-sex-workers/ 评论网址：https://news.ycombinator.com/item?id=49600438 积分：1 # 评论：0",
+        "summary": "文章网址：https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics 评论网址：https://news.ycombinator.com/item?id=49605511 积分：15 # 评论：6",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 5,
+          "topic": 11,
           "actionability": 4,
-          "heat": 1
+          "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 10,
-      "avgScore": 69.7,
+      "totalItems": 31,
+      "avgScore": 70.5,
       "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 7
+          "count": 15
         },
         {
           "name": "Reddit",
+          "count": 11
+        },
+        {
+          "name": "量子位",
           "count": 3
+        },
+        {
+          "name": "爱范儿",
+          "count": 1
+        },
+        {
+          "name": "少数派",
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 8
-        },
-        {
-          "name": "Agent",
-          "count": 2
-        },
-        {
-          "name": "开源生态",
-          "count": 2
+          "count": 16
         },
         {
           "name": "模型进展",
+          "count": 6
+        },
+        {
+          "name": "Agent",
+          "count": 4
+        },
+        {
+          "name": "开源生态",
+          "count": 3
+        },
+        {
+          "name": "芯片算力",
+          "count": 3
+        },
+        {
+          "name": "安全治理",
+          "count": 2
+        },
+        {
+          "name": "投融资",
+          "count": 1
+        },
+        {
+          "name": "应用落地",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 10 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 开源生态",
-      "最高分事件：Show HN：Benzi——前沿人工智能模型的代码智能基础设施（88 分）",
+      "今日共收录 31 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
+      "最高分事件：目前的 LLM 架构真的能让我们走向 AGI 吗？（88 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -276,19 +307,18 @@
       "top10": [
         {
           "rank": 1,
-          "title": "Show HN：Benzi——前沿人工智能模型的代码智能基础设施",
-          "platform": "Hacker News",
+          "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
+          "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-09-07T16:05:58+00:00",
-          "sourceUrl": "https://github.com/oooscoos/Benzi",
-          "sourceName": "Hacker News AI",
-          "industryStage": "上游",
+          "publishedAt": "2026-09-08T00:05:19+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa8rjv/can_current_llm_architecture_actually_get_us_to/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent",
-            "开源生态"
+            "Agent"
           ],
-          "summary": "粗略地说，当前人工智能编码代理/工具的工作方式是：a）在多个文件中提取适当的代码文本片段并将其交给代理，或者b）Pa…",
+          "summary": "我是一名软件工程师，而不是科学家，但我喜欢它。我喜欢大规模解决困难的分布式应用问题。这就是让我早上起床的原因，准备好继续学习……",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -300,241 +330,273 @@
         },
         {
           "rank": 2,
-          "title": "每个人工智能编码工具都保存其配置",
+          "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
+          "platform": "量子位",
+          "aiScore": 86,
+          "publishedAt": "2026-09-08T03:22:17+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/485784.html",
+          "sourceName": "量子位",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "投融资"
+          ],
+          "summary": "近日，物理AI企业深度智控（DeepCtrls）完成新一轮B+轮数亿元融资。",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 17,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "人工智能代理和人类的安全临时文件共享",
           "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-09-07T16:19:09+00:00",
-          "sourceUrl": "https://github.com/moneytool/agentmeld/blob/main/docs/where-ai-coding-tools-keep-their-config.md",
+          "aiScore": 86,
+          "publishedAt": "2026-09-07T23:59:58+00:00",
+          "sourceUrl": "https://github.com/aispace-sh/aispace-client",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "Agent",
             "开源生态"
           ],
-          "summary": "文章网址：https://github.com/moneytool/agentmeld/blob/main/docs/where-ai-coding-tools-keep-their-config.md 评论网址：https://news.ycombinator.com/item?id=49600009 积分：2 # 评论…",
+          "summary": "文章网址：https://github.com/aispace-sh/aispace-client 评论网址：https://news.ycombinator.com/item?id=49604280 积分：12 # 评论：3",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 18,
             "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 3,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Reddit",
-          "aiScore": 73,
-          "publishedAt": "2026-09-07T17:51:44+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w9z6gm/pleaseee_read_this/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 4,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Reddit",
-          "aiScore": 67,
-          "publishedAt": "2026-09-07T18:00:26+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w9zeyk/control_if_ai_could_improve_humanity_and_give_you/",
-          "sourceName": "Reddit r/artificial",
+          "title": "王云鹤创业后交出首个模型",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-09-08T02:14:47+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/485555.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展"
           ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "把多模型执行经验用到了模型训练",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 5,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "title": "连续扩散，一步生成代码",
           "platform": "Reddit",
-          "aiScore": 67,
-          "publishedAt": "2026-09-07T16:08:50+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w9wdeq/where_do_you_personally_draw_the_line_between/",
+          "aiScore": 79,
+          "publishedAt": "2026-09-07T22:35:01+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa6ouo/continuous_diffusion_for_code_generation_in_one/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展",
+            "开源生态"
           ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "语言模型能一步写出代码吗？是的：使语言连续，使用扩散，然后将轨迹提炼为一步。论文：https://arxiv.org/abs/2609.04531 代码：https://gith...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "NCSC 警告影子 AI 可能会暴露数据和代理权限",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-09-07T19:42:30+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa2926/ncsc_warns_that_shadow_ai_can_expose_data_and/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "英国国家网络安全中心表示，员工在组织批准的系统之外使用人工智能工具可能会暴露公司或客户数据，并降低组织的可见性……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "一直在为人工智能视频构建一个“先块，后生成”的工具 - 好奇还缺少什么",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-09-07T23:18:21+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa7ph3/been_building_a_block_first_generate_second_tool/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "一直在尝试Dimension.so上的工作流程，其中代理首先构建3D视觉预览场景 - 阻挡对象、角色运动和相机 - 然后将其直接输入到Seed中......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "WeatherNext 3：我们最先进的全球天气人工智能模型",
+          "platform": "Hacker News",
+          "aiScore": 77,
+          "publishedAt": "2026-09-07T23:56:41+00:00",
+          "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/ 评论网址：https://news.ycombinator.com/item?id=49604257 积分：10 # Co…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 4
+          }
+        },
+        {
+          "rank": 9,
+          "title": "深入马来西亚AI现场！WAIC CONNECT MALAYSIA首日亮点全速递",
+          "platform": "量子位",
+          "aiScore": 74,
+          "publishedAt": "2026-09-08T02:42:24+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/485630.html",
+          "sourceName": "量子位",
+          "industryStage": "下游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "从看市场，到见场景；从认识伙伴，到寻找合作。",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
             "topic": 5,
             "actionability": 4,
             "heat": 5
           }
         },
         {
-          "rank": 6,
-          "title": "肯尼迪参议员斥责人工智能开发人员为“​​高智商愚蠢的人”",
-          "platform": "Hacker News",
-          "aiScore": 65,
-          "publishedAt": "2026-09-07T16:47:08+00:00",
-          "sourceUrl": "https://www.politico.com/news/2026/09/06/kennedy-ai-developers-high-iq-stupid-people-01066756",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "文章网址：https://www.politico.com/news/2026/09/06/kennedy-ai-developers-high-iq-stupid-people-01066756 评论网址：https://news.ycombinator.com/item?id=49600305 积分：3 # 评论：1",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 3
-          }
-        },
-        {
-          "rank": 7,
-          "title": "Show HN：真正的 AI 工作组合",
-          "platform": "Hacker News",
-          "aiScore": 64,
-          "publishedAt": "2026-09-07T17:43:52+00:00",
-          "sourceUrl": "https://buildyard.ai/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "文章网址：https://buildyard.ai/ 评论网址：https://news.ycombinator.com/item?id=49600896 积分：2 # 评论：0",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 8,
-          "title": "苹果公司的“Think Different”广告由人工智能制作",
-          "platform": "Hacker News",
-          "aiScore": 64,
-          "publishedAt": "2026-09-07T16:32:20+00:00",
-          "sourceUrl": "https://twitter.com/Noahsarc1000/status/2096989380774903883",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "文章网址：https://twitter.com/Noahsarc1000/status/2096989380774903883 评论网址：https://news.ycombinator.com/item?id=49600141 积分：1 # 评论：1",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 9,
-          "title": "关于人工智能未来的 10 个残酷而诚实的预测",
-          "platform": "Hacker News",
-          "aiScore": 63,
-          "publishedAt": "2026-09-07T17:57:02+00:00",
-          "sourceUrl": "https://www.honest-broker.com/p/10-brutally-honest-predictions-on",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "文章网址：https://www.honest-broker.com/p/10-brutally-honest-predictions-on 评论网址：https://news.ycombinator.com/item?id=49601043 积分：1 # 评论：0",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 1
-          }
-        },
-        {
           "rank": 10,
-          "title": "人工智能可以取代内华达州妓院的性工作者吗？",
+          "title": "Arm Mali G2-Ultra NX GPU：具有 AI 原生图形的桌面级移动游戏",
           "platform": "Hacker News",
-          "aiScore": 63,
-          "publishedAt": "2026-09-07T16:59:18+00:00",
-          "sourceUrl": "https://brothelnevada.com/2026/09/05/ai-replace-sex-workers/",
+          "aiScore": 73,
+          "publishedAt": "2026-09-08T04:06:20+00:00",
+          "sourceUrl": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
           "sourceName": "Hacker News AI",
-          "industryStage": "中游",
+          "industryStage": "上游",
           "contentTags": [
-            "AI动态"
+            "芯片算力"
           ],
-          "summary": "文章网址：https://brothelnevada.com/2026/09/05/ai-replace-sex-workers/ 评论网址：https://news.ycombinator.com/item?id=49600438 积分：1 # 评论：0",
+          "summary": "文章网址：https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics 评论网址：https://news.ycombinator.com/item?id=49605511 积分：15 # 评论：6",
           "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 5,
+            "topic": 11,
             "actionability": 4,
-            "heat": 1
+            "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 10,
-        "avgScore": 69.7,
+        "totalItems": 31,
+        "avgScore": 70.5,
         "topScore": 88,
         "topPlatforms": [
           {
             "name": "Hacker News",
-            "count": 7
+            "count": 15
           },
           {
             "name": "Reddit",
+            "count": 11
+          },
+          {
+            "name": "量子位",
             "count": 3
+          },
+          {
+            "name": "爱范儿",
+            "count": 1
+          },
+          {
+            "name": "少数派",
+            "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 8
-          },
-          {
-            "name": "Agent",
-            "count": 2
-          },
-          {
-            "name": "开源生态",
-            "count": 2
+            "count": 16
           },
           {
             "name": "模型进展",
+            "count": 6
+          },
+          {
+            "name": "Agent",
+            "count": 4
+          },
+          {
+            "name": "开源生态",
+            "count": 3
+          },
+          {
+            "name": "芯片算力",
+            "count": 3
+          },
+          {
+            "name": "安全治理",
+            "count": 2
+          },
+          {
+            "name": "投融资",
+            "count": 1
+          },
+          {
+            "name": "应用落地",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 10 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / Agent / 开源生态",
-        "最高分事件：Show HN：Benzi——前沿人工智能模型的代码智能基础设施（88 分）",
+        "今日共收录 31 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
+        "最高分事件：目前的 LLM 架构真的能让我们走向 AGI 吗？（88 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -27711,26 +27773,34 @@
     },
     "metrics": {
       "daysCovered": 1,
-      "totalItems": 10,
-      "avgTop10Score": 69.7,
+      "totalItems": 31,
+      "avgTop10Score": 80.5,
       "topScore": 88,
       "topPlatforms": [
         {
-          "name": "Hacker News",
-          "count": 7
+          "name": "Reddit",
+          "count": 4
         },
         {
-          "name": "Reddit",
+          "name": "量子位",
+          "count": 3
+        },
+        {
+          "name": "Hacker News",
           "count": 3
         }
       ],
       "topTopics": [
         {
-          "name": "AI动态",
-          "count": 8
+          "name": "模型进展",
+          "count": 4
         },
         {
           "name": "Agent",
+          "count": 4
+        },
+        {
+          "name": "芯片算力",
           "count": 2
         },
         {
@@ -27738,7 +27808,11 @@
           "count": 2
         },
         {
-          "name": "模型进展",
+          "name": "投融资",
+          "count": 1
+        },
+        {
+          "name": "安全治理",
           "count": 1
         }
       ]
@@ -27746,19 +27820,18 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "Show HN：Benzi——前沿人工智能模型的代码智能基础设施",
-        "platform": "Hacker News",
+        "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
+        "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-09-07T16:05:58+00:00",
-        "sourceUrl": "https://github.com/oooscoos/Benzi",
-        "sourceName": "Hacker News AI",
-        "industryStage": "上游",
+        "publishedAt": "2026-09-08T00:05:19+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa8rjv/can_current_llm_architecture_actually_get_us_to/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
-          "开源生态"
+          "Agent"
         ],
-        "summary": "粗略地说，当前人工智能编码代理/工具的工作方式是：a）在多个文件中提取适当的代码文本片段并将其交给代理，或者b）Pa…",
+        "summary": "我是一名软件工程师，而不是科学家，但我喜欢它。我喜欢大规模解决困难的分布式应用问题。这就是让我早上起床的原因，准备好继续学习……",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -27770,208 +27843,212 @@
       },
       {
         "rank": 2,
-        "title": "每个人工智能编码工具都保存其配置",
+        "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
+        "platform": "量子位",
+        "aiScore": 86,
+        "publishedAt": "2026-09-08T03:22:17+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/485784.html",
+        "sourceName": "量子位",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "投融资"
+        ],
+        "summary": "近日，物理AI企业深度智控（DeepCtrls）完成新一轮B+轮数亿元融资。",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 17,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "人工智能代理和人类的安全临时文件共享",
         "platform": "Hacker News",
-        "aiScore": 83,
-        "publishedAt": "2026-09-07T16:19:09+00:00",
-        "sourceUrl": "https://github.com/moneytool/agentmeld/blob/main/docs/where-ai-coding-tools-keep-their-config.md",
+        "aiScore": 86,
+        "publishedAt": "2026-09-07T23:59:58+00:00",
+        "sourceUrl": "https://github.com/aispace-sh/aispace-client",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent",
           "开源生态"
         ],
-        "summary": "文章网址：https://github.com/moneytool/agentmeld/blob/main/docs/where-ai-coding-tools-keep-their-config.md 评论网址：https://news.ycombinator.com/item?id=49600009 积分：2 # 评论…",
+        "summary": "文章网址：https://github.com/aispace-sh/aispace-client 评论网址：https://news.ycombinator.com/item?id=49604280 积分：12 # 评论：3",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 3,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 73,
-        "publishedAt": "2026-09-07T17:51:44+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w9z6gm/pleaseee_read_this/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "platform": "Reddit",
-        "aiScore": 67,
-        "publishedAt": "2026-09-07T18:00:26+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w9zeyk/control_if_ai_could_improve_humanity_and_give_you/",
-        "sourceName": "Reddit r/artificial",
+        "title": "王云鹤创业后交出首个模型",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-09-08T02:14:47+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/485555.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展"
         ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "把多模型执行经验用到了模型训练",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "title": "连续扩散，一步生成代码",
         "platform": "Reddit",
-        "aiScore": 67,
-        "publishedAt": "2026-09-07T16:08:50+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w9wdeq/where_do_you_personally_draw_the_line_between/",
+        "aiScore": 79,
+        "publishedAt": "2026-09-07T22:35:01+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa6ouo/continuous_diffusion_for_code_generation_in_one/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展",
+          "开源生态"
         ],
-        "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "语言模型能一步写出代码吗？是的：使语言连续，使用扩散，然后将轨迹提炼为一步。论文：https://arxiv.org/abs/2609.04531 代码：https://gith...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "NCSC 警告影子 AI 可能会暴露数据和代理权限",
+        "platform": "Reddit",
+        "aiScore": 79,
+        "publishedAt": "2026-09-07T19:42:30+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa2926/ncsc_warns_that_shadow_ai_can_expose_data_and/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "英国国家网络安全中心表示，员工在组织批准的系统之外使用人工智能工具可能会暴露公司或客户数据，并降低组织的可见性……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "一直在为人工智能视频构建一个“先块，后生成”的工具 - 好奇还缺少什么",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-09-07T23:18:21+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa7ph3/been_building_a_block_first_generate_second_tool/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "自动化"
+        ],
+        "summary": "一直在尝试Dimension.so上的工作流程，其中代理首先构建3D视觉预览场景 - 阻挡对象、角色运动和相机 - 然后将其直接输入到Seed中......",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 17,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "WeatherNext 3：我们最先进的全球天气人工智能模型",
+        "platform": "Hacker News",
+        "aiScore": 77,
+        "publishedAt": "2026-09-07T23:56:41+00:00",
+        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "文章网址：https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/ 评论网址：https://news.ycombinator.com/item?id=49604257 积分：10 # Co…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 4
+        }
+      },
+      {
+        "rank": 9,
+        "title": "深入马来西亚AI现场！WAIC CONNECT MALAYSIA首日亮点全速递",
+        "platform": "量子位",
+        "aiScore": 74,
+        "publishedAt": "2026-09-08T02:42:24+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/485630.html",
+        "sourceName": "量子位",
+        "industryStage": "下游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "从看市场，到见场景；从认识伙伴，到寻找合作。",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
           "topic": 5,
           "actionability": 4,
           "heat": 5
         }
       },
       {
-        "rank": 6,
-        "title": "肯尼迪参议员斥责人工智能开发人员为“​​高智商愚蠢的人”",
-        "platform": "Hacker News",
-        "aiScore": 65,
-        "publishedAt": "2026-09-07T16:47:08+00:00",
-        "sourceUrl": "https://www.politico.com/news/2026/09/06/kennedy-ai-developers-high-iq-stupid-people-01066756",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "文章网址：https://www.politico.com/news/2026/09/06/kennedy-ai-developers-high-iq-stupid-people-01066756 评论网址：https://news.ycombinator.com/item?id=49600305 积分：3 # 评论：1",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 3
-        }
-      },
-      {
-        "rank": 7,
-        "title": "Show HN：真正的 AI 工作组合",
-        "platform": "Hacker News",
-        "aiScore": 64,
-        "publishedAt": "2026-09-07T17:43:52+00:00",
-        "sourceUrl": "https://buildyard.ai/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "文章网址：https://buildyard.ai/ 评论网址：https://news.ycombinator.com/item?id=49600896 积分：2 # 评论：0",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 8,
-        "title": "苹果公司的“Think Different”广告由人工智能制作",
-        "platform": "Hacker News",
-        "aiScore": 64,
-        "publishedAt": "2026-09-07T16:32:20+00:00",
-        "sourceUrl": "https://twitter.com/Noahsarc1000/status/2096989380774903883",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "文章网址：https://twitter.com/Noahsarc1000/status/2096989380774903883 评论网址：https://news.ycombinator.com/item?id=49600141 积分：1 # 评论：1",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 2
-        }
-      },
-      {
-        "rank": 9,
-        "title": "关于人工智能未来的 10 个残酷而诚实的预测",
-        "platform": "Hacker News",
-        "aiScore": 63,
-        "publishedAt": "2026-09-07T17:57:02+00:00",
-        "sourceUrl": "https://www.honest-broker.com/p/10-brutally-honest-predictions-on",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "文章网址：https://www.honest-broker.com/p/10-brutally-honest-predictions-on 评论网址：https://news.ycombinator.com/item?id=49601043 积分：1 # 评论：0",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 1
-        }
-      },
-      {
         "rank": 10,
-        "title": "人工智能可以取代内华达州妓院的性工作者吗？",
+        "title": "Arm Mali G2-Ultra NX GPU：具有 AI 原生图形的桌面级移动游戏",
         "platform": "Hacker News",
-        "aiScore": 63,
-        "publishedAt": "2026-09-07T16:59:18+00:00",
-        "sourceUrl": "https://brothelnevada.com/2026/09/05/ai-replace-sex-workers/",
+        "aiScore": 73,
+        "publishedAt": "2026-09-08T04:06:20+00:00",
+        "sourceUrl": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
         "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "industryStage": "上游",
         "contentTags": [
-          "AI动态"
+          "芯片算力"
         ],
-        "summary": "文章网址：https://brothelnevada.com/2026/09/05/ai-replace-sex-workers/ 评论网址：https://news.ycombinator.com/item?id=49600438 积分：1 # 评论：0",
+        "summary": "文章网址：https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics 评论网址：https://news.ycombinator.com/item?id=49605511 积分：15 # 评论：6",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 5,
+          "topic": 11,
           "actionability": 4,
-          "heat": 1
+          "heat": 5
         }
       }
     ],
     "briefing": [
-      "9月第2周累计收录 10 条资讯，覆盖 1 天。",
-      "高频主题：AI动态 / Agent / 开源生态",
-      "本周最高分：Show HN：Benzi——前沿人工智能模型的代码智能基础设施（88 分）",
+      "9月第2周累计收录 31 条资讯，覆盖 1 天。",
+      "高频主题：模型进展 / Agent / 芯片算力",
+      "本周最高分：目前的 LLM 架构真的能让我们走向 AGI 吗？（88 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -27985,26 +28062,34 @@
       },
       "metrics": {
         "daysCovered": 1,
-        "totalItems": 10,
-        "avgTop10Score": 69.7,
+        "totalItems": 31,
+        "avgTop10Score": 80.5,
         "topScore": 88,
         "topPlatforms": [
           {
-            "name": "Hacker News",
-            "count": 7
+            "name": "Reddit",
+            "count": 4
           },
           {
-            "name": "Reddit",
+            "name": "量子位",
+            "count": 3
+          },
+          {
+            "name": "Hacker News",
             "count": 3
           }
         ],
         "topTopics": [
           {
-            "name": "AI动态",
-            "count": 8
+            "name": "模型进展",
+            "count": 4
           },
           {
             "name": "Agent",
+            "count": 4
+          },
+          {
+            "name": "芯片算力",
             "count": 2
           },
           {
@@ -28012,7 +28097,11 @@
             "count": 2
           },
           {
-            "name": "模型进展",
+            "name": "投融资",
+            "count": 1
+          },
+          {
+            "name": "安全治理",
             "count": 1
           }
         ]
@@ -28020,19 +28109,18 @@
       "topEvents": [
         {
           "rank": 1,
-          "title": "Show HN：Benzi——前沿人工智能模型的代码智能基础设施",
-          "platform": "Hacker News",
+          "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
+          "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-09-07T16:05:58+00:00",
-          "sourceUrl": "https://github.com/oooscoos/Benzi",
-          "sourceName": "Hacker News AI",
-          "industryStage": "上游",
+          "publishedAt": "2026-09-08T00:05:19+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa8rjv/can_current_llm_architecture_actually_get_us_to/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent",
-            "开源生态"
+            "Agent"
           ],
-          "summary": "粗略地说，当前人工智能编码代理/工具的工作方式是：a）在多个文件中提取适当的代码文本片段并将其交给代理，或者b）Pa…",
+          "summary": "我是一名软件工程师，而不是科学家，但我喜欢它。我喜欢大规模解决困难的分布式应用问题。这就是让我早上起床的原因，准备好继续学习……",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -28044,208 +28132,212 @@
         },
         {
           "rank": 2,
-          "title": "每个人工智能编码工具都保存其配置",
+          "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
+          "platform": "量子位",
+          "aiScore": 86,
+          "publishedAt": "2026-09-08T03:22:17+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/485784.html",
+          "sourceName": "量子位",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "投融资"
+          ],
+          "summary": "近日，物理AI企业深度智控（DeepCtrls）完成新一轮B+轮数亿元融资。",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 17,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "人工智能代理和人类的安全临时文件共享",
           "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-09-07T16:19:09+00:00",
-          "sourceUrl": "https://github.com/moneytool/agentmeld/blob/main/docs/where-ai-coding-tools-keep-their-config.md",
+          "aiScore": 86,
+          "publishedAt": "2026-09-07T23:59:58+00:00",
+          "sourceUrl": "https://github.com/aispace-sh/aispace-client",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "Agent",
             "开源生态"
           ],
-          "summary": "文章网址：https://github.com/moneytool/agentmeld/blob/main/docs/where-ai-coding-tools-keep-their-config.md 评论网址：https://news.ycombinator.com/item?id=49600009 积分：2 # 评论…",
+          "summary": "文章网址：https://github.com/aispace-sh/aispace-client 评论网址：https://news.ycombinator.com/item?id=49604280 积分：12 # 评论：3",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 18,
             "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 3,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Reddit",
-          "aiScore": 73,
-          "publishedAt": "2026-09-07T17:51:44+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w9z6gm/pleaseee_read_this/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 4,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "platform": "Reddit",
-          "aiScore": 67,
-          "publishedAt": "2026-09-07T18:00:26+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w9zeyk/control_if_ai_could_improve_humanity_and_give_you/",
-          "sourceName": "Reddit r/artificial",
+          "title": "王云鹤创业后交出首个模型",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-09-08T02:14:47+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/485555.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展"
           ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "把多模型执行经验用到了模型训练",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 5,
-          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "title": "连续扩散，一步生成代码",
           "platform": "Reddit",
-          "aiScore": 67,
-          "publishedAt": "2026-09-07T16:08:50+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1w9wdeq/where_do_you_personally_draw_the_line_between/",
+          "aiScore": 79,
+          "publishedAt": "2026-09-07T22:35:01+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa6ouo/continuous_diffusion_for_code_generation_in_one/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展",
+            "开源生态"
           ],
-          "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "语言模型能一步写出代码吗？是的：使语言连续，使用扩散，然后将轨迹提炼为一步。论文：https://arxiv.org/abs/2609.04531 代码：https://gith...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "NCSC 警告影子 AI 可能会暴露数据和代理权限",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-09-07T19:42:30+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa2926/ncsc_warns_that_shadow_ai_can_expose_data_and/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "英国国家网络安全中心表示，员工在组织批准的系统之外使用人工智能工具可能会暴露公司或客户数据，并降低组织的可见性……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "一直在为人工智能视频构建一个“先块，后生成”的工具 - 好奇还缺少什么",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-09-07T23:18:21+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa7ph3/been_building_a_block_first_generate_second_tool/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "一直在尝试Dimension.so上的工作流程，其中代理首先构建3D视觉预览场景 - 阻挡对象、角色运动和相机 - 然后将其直接输入到Seed中......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "WeatherNext 3：我们最先进的全球天气人工智能模型",
+          "platform": "Hacker News",
+          "aiScore": 77,
+          "publishedAt": "2026-09-07T23:56:41+00:00",
+          "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/ 评论网址：https://news.ycombinator.com/item?id=49604257 积分：10 # Co…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 4
+          }
+        },
+        {
+          "rank": 9,
+          "title": "深入马来西亚AI现场！WAIC CONNECT MALAYSIA首日亮点全速递",
+          "platform": "量子位",
+          "aiScore": 74,
+          "publishedAt": "2026-09-08T02:42:24+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/485630.html",
+          "sourceName": "量子位",
+          "industryStage": "下游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "从看市场，到见场景；从认识伙伴，到寻找合作。",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
             "topic": 5,
             "actionability": 4,
             "heat": 5
           }
         },
         {
-          "rank": 6,
-          "title": "肯尼迪参议员斥责人工智能开发人员为“​​高智商愚蠢的人”",
-          "platform": "Hacker News",
-          "aiScore": 65,
-          "publishedAt": "2026-09-07T16:47:08+00:00",
-          "sourceUrl": "https://www.politico.com/news/2026/09/06/kennedy-ai-developers-high-iq-stupid-people-01066756",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "文章网址：https://www.politico.com/news/2026/09/06/kennedy-ai-developers-high-iq-stupid-people-01066756 评论网址：https://news.ycombinator.com/item?id=49600305 积分：3 # 评论：1",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 3
-          }
-        },
-        {
-          "rank": 7,
-          "title": "Show HN：真正的 AI 工作组合",
-          "platform": "Hacker News",
-          "aiScore": 64,
-          "publishedAt": "2026-09-07T17:43:52+00:00",
-          "sourceUrl": "https://buildyard.ai/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "文章网址：https://buildyard.ai/ 评论网址：https://news.ycombinator.com/item?id=49600896 积分：2 # 评论：0",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 8,
-          "title": "苹果公司的“Think Different”广告由人工智能制作",
-          "platform": "Hacker News",
-          "aiScore": 64,
-          "publishedAt": "2026-09-07T16:32:20+00:00",
-          "sourceUrl": "https://twitter.com/Noahsarc1000/status/2096989380774903883",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "文章网址：https://twitter.com/Noahsarc1000/status/2096989380774903883 评论网址：https://news.ycombinator.com/item?id=49600141 积分：1 # 评论：1",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 9,
-          "title": "关于人工智能未来的 10 个残酷而诚实的预测",
-          "platform": "Hacker News",
-          "aiScore": 63,
-          "publishedAt": "2026-09-07T17:57:02+00:00",
-          "sourceUrl": "https://www.honest-broker.com/p/10-brutally-honest-predictions-on",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "文章网址：https://www.honest-broker.com/p/10-brutally-honest-predictions-on 评论网址：https://news.ycombinator.com/item?id=49601043 积分：1 # 评论：0",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 1
-          }
-        },
-        {
           "rank": 10,
-          "title": "人工智能可以取代内华达州妓院的性工作者吗？",
+          "title": "Arm Mali G2-Ultra NX GPU：具有 AI 原生图形的桌面级移动游戏",
           "platform": "Hacker News",
-          "aiScore": 63,
-          "publishedAt": "2026-09-07T16:59:18+00:00",
-          "sourceUrl": "https://brothelnevada.com/2026/09/05/ai-replace-sex-workers/",
+          "aiScore": 73,
+          "publishedAt": "2026-09-08T04:06:20+00:00",
+          "sourceUrl": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
           "sourceName": "Hacker News AI",
-          "industryStage": "中游",
+          "industryStage": "上游",
           "contentTags": [
-            "AI动态"
+            "芯片算力"
           ],
-          "summary": "文章网址：https://brothelnevada.com/2026/09/05/ai-replace-sex-workers/ 评论网址：https://news.ycombinator.com/item?id=49600438 积分：1 # 评论：0",
+          "summary": "文章网址：https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics 评论网址：https://news.ycombinator.com/item?id=49605511 积分：15 # 评论：6",
           "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 5,
+            "topic": 11,
             "actionability": 4,
-            "heat": 1
+            "heat": 5
           }
         }
       ],
       "briefing": [
-        "9月第2周累计收录 10 条资讯，覆盖 1 天。",
-        "高频主题：AI动态 / Agent / 开源生态",
-        "本周最高分：Show HN：Benzi——前沿人工智能模型的代码智能基础设施（88 分）",
+        "9月第2周累计收录 31 条资讯，覆盖 1 天。",
+        "高频主题：模型进展 / Agent / 芯片算力",
+        "本周最高分：目前的 LLM 架构真的能让我们走向 AGI 吗？（88 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
