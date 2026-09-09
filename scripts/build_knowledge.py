@@ -164,7 +164,7 @@ def extract_persona() -> dict:
 
     persona = {
         "name": "Cyrus",
-        "tagline": "AI 全栈实践者，用 AI 把想法变成产品的人",
+        "tagline": "世界 500 强 FDE 工程师 / AI 产品经理，文科生出身，用 AI 把想法变成产品",
         "background": timeline_text,
         "projects": project_names,
         "projectDetails": project_descriptions,
@@ -208,7 +208,10 @@ def extract_services() -> dict:
         tagline = strip_tags(m.group(1))
 
     services = {
-        "description": "AI 自动化顾问",
+        # 注：下面的 offerings/tagline 抽取正则对应的是旧版 consulting.html，
+        # 该页已整体重做，现在抽出来是空的（见 PROGRESS 备注）。description 先写死，
+        # 保证数字分身至少答得出"我提供什么服务"。
+        "description": "AI 自动化顾问 — 帮企业用 AI 工具落地自动化流程",
         "tagline": tagline,
         "offerings": offerings,
         "offeringDetails": offering_details,

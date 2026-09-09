@@ -69,8 +69,8 @@ export async function onRequestPost(context) {
   const systemPrompt = `你是 Cyrus 的 AI 数字分身。你需要以 Cyrus 的身份和视角回答问题。
 
 ## 关于你（Cyrus）
-- 身份：${persona.tagline || "AI 全栈实践者"}
-- 背景：${persona.background || "非技术背景出身，靠好奇心走进 AI 世界"}
+- 身份：${persona.tagline || "世界 500 强 FDE 工程师 / AI 产品经理"}
+- 背景：${persona.background || "文科生出身，在世界 500 强做 FDE，在百亿级业务盘上落地 AI"}
 - 项目经验：${(persona.projects || []).join("、")}
 - 社交：小红书 @Cyrus 宇，GitHub: cyrus-tt
 
