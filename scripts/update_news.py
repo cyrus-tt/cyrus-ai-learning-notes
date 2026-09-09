@@ -314,6 +314,35 @@ def strip_html(text: str) -> str:
     return clean
 
 
+# HN / Reddit / 9to5mac 这类源的 RSS summary 往往只有一段样板文字：
+# "Article URL: https://… Comments URL: https://… Points: 42" 或
+# "submitted by /u/someone [link] [comments]"。
+# 翻译之后变成「文章网址：… 评论网址：… 积分：」，直接糊在首页资讯面板上，
+# 既没有信息量又浪费翻译额度。所以在进翻译之前先清掉。
+BOILERPLATE_RES = [
+    re.compile(r"(?:article|comments?)\s*url\s*[:：]\s*\S+", re.I),
+    re.compile(r"(?:文章|评论|原文)网址\s*[:：]\s*\S+"),
+    re.compile(r"points\s*[:：]\s*\d+", re.I),
+    re.compile(r"#\s*comments?\s*[:：]?\s*\d*", re.I),
+    re.compile(r"积分\s*[:：]?\s*\d*"),
+    re.compile(r"submitted by\s*/u/\S+", re.I),
+    re.compile(r"由\s*/u/\S+\s*提交"),
+    re.compile(r"\[(?:链接|评论|link|comments?)\]", re.I),
+    re.compile(r"https?://\S+"),
+]
+
+
+def clean_summary(text: str) -> str:
+    """去掉 RSS 摘要里的样板文字；清完没剩下有效内容就返回空串。"""
+    clean = text or ""
+    for pattern in BOILERPLATE_RES:
+        clean = pattern.sub(" ", clean)
+    clean = SPACE_RE.sub(" ", clean).strip()
+    clean = clean.strip("·•-—、,，:： ")
+    # 剩得太短基本是残渣（"这算A2A吗？" 这种还是留着，8 个字符是经验阈值）
+    return clean if len(clean) >= 8 else ""
+
+
 def shorten(text: str, max_len: int = 140) -> str:
     if len(text) <= max_len:
         return text
@@ -426,6 +455,20 @@ def translate_via_service(text: str, translator: GoogleTranslator) -> str:
     return translator.translate(text)
 
 
+# Google 翻译偶尔会把 5xx 错误页正文当成"译文"返回：
+# "Error 500 (Server Error)!!1500.That's an error. There was an error..."。
+# 旧代码不校验就写进 cache（见下面 cache[key] 那行的历史版本），于是这句话被永久复用，
+# 线上资讯标题里 80 条有 28 条长这样。识别到就当翻译失败处理，且绝不入缓存。
+TRANSLATION_ERROR_RE = re.compile(
+    r"(error\s*\d{3}\s*\(|server error|that\u2019?s an error|that's an error|<html)",
+    re.I,
+)
+
+
+def looks_like_translation_error(text: str) -> bool:
+    return bool(TRANSLATION_ERROR_RE.search(text or ""))
+
+
 def translate_to_zh(
     text: str,
     translator: GoogleTranslator | None,
@@ -442,13 +485,17 @@ def translate_to_zh(
     key = f"zh::{stripped}"
     if key in cache:
         translated = cache[key]
-        return translated, translated.strip() != stripped
+        if not looks_like_translation_error(translated):
+            return translated, translated.strip() != stripped
+        cache.pop(key, None)  # 历史脏缓存，丢掉重翻
 
     if translator is None or state.get("disabled"):
         return stripped, False
 
     try:
         translated = translate_via_service(stripped, translator)
+        if looks_like_translation_error(translated):
+            raise RuntimeError("translation service returned an error page")
         state["failures"] = 0
     except Exception as exc:
         failures = int(state.get("failures", 0)) + 1
@@ -461,7 +508,9 @@ def translate_to_zh(
         translated = stripped
 
     translated = (translated or stripped).strip()
-    cache[key] = translated
+    # 翻译失败时回退原文，但不缓存 —— 否则一次抽风就把这条永久钉死成"不翻译"
+    if translated != stripped and not looks_like_translation_error(translated):
+        cache[key] = translated
     return translated, translated != stripped
 
 
@@ -476,7 +525,7 @@ def normalize_item(
     if not title_raw:
         return None
 
-    summary_raw = strip_html(getattr(entry, "summary", "") or getattr(entry, "description", ""))
+    summary_raw = clean_summary(strip_html(getattr(entry, "summary", "") or getattr(entry, "description", "")))
     link = clean_url(getattr(entry, "link", ""))
     if not link:
         return None
