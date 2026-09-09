@@ -104,9 +104,17 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: var(--max-w-wide);
-  margin: 0 auto;
-  padding: 18px 24px;
+  /* The bar itself is full-bleed: on a dark full-width hero a centred,
+     max-width nav leaves the page ground showing as light strips down
+     both sides. Background spans 100%, contents stay on the 1100px
+     column via padding. */
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  /* Left/right padding puts the nav contents on exactly the same
+     1100px column as the page sections (which are 24px-padded blocks
+     with a 1100px centred inner). */
+  padding: 18px max(24px, calc((100% - var(--max-w-wide)) / 2));
   background: color-mix(in srgb, var(--bg) 85%, transparent);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -1370,10 +1378,43 @@ html[data-theme="dark"] .theme-toggle::after {
 /* ─── 11. Responsive ─────────────────────────────────────────── */
 
 @media (max-width: 768px) {
-  .site-nav { padding: 14px 16px; }
-  .site-nav-links { gap: 16px; }
-  .site-nav-links a { font-size: 13px; }
+  /* Seven links do not fit a phone width: on one row they wrapped and
+     collided with the brand. Below 768px the nav becomes two rows —
+     brand on top, links on their own horizontally scrollable row —
+     with the theme toggle pinned to the top-right corner. */
+  .site-nav {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 0;
+  }
+  .site-nav-brand {
+    align-self: flex-start;
+    padding: 12px 16px 8px;
+  }
+  .site-nav-links {
+    gap: 18px;
+    padding: 0 16px 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .site-nav-links::-webkit-scrollbar { display: none; }
+  .site-nav-links a {
+    font-size: 13px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
   .site-nav-links a::after { display: none; }
+  .site-nav .theme-toggle {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    margin-left: 0;
+    flex-shrink: 0;
+  }
   .hero { padding: 60px 16px 40px; }
   .hero-content { padding: 60px 20px 40px; }
   .content { padding: 0 16px 40px; }
