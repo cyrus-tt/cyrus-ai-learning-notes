@@ -19,7 +19,8 @@
 - [ ] 页脚出现「进群」链接 → 点击回到首页二维码区块
 - [ ] 深色模式下二维码卡片仍是白底（保证可扫）
 
-**换群码怎么做**（7 天一次）：把新截图存成 `assets/wechat-group.jpg`（`sips -Z 720 新图.jpg --out assets/wechat-group.jpg`），提交即可，HTML 不用动。
+**换群码怎么做**（7 天一次）：在 main 分支上跑 `./scripts/update-wechat-qr.sh ~/Downloads/新图.jpg` —— 自动压图、覆盖 `assets/wechat-group.jpg`、提交并推 main 触发部署。HTML 不用动。
+脚本 5 条路径已实测：无参数 / 文件不存在 / 分支不是 main / 工作区脏 → 全部拒绝执行；成功路径在沙箱仓库跑通（只改二维码一个文件并成功推远端）；同图重复跑不产生空提交。
 
 ## 2026-06-17 · 首页视觉重做：全宽 bento grid 品牌站 (claude/homepage-redesign)
 **背景**：首页 680px 窄柱布局 + 纯列表样式在桌面端像手机页面，缺乏个人品牌标识和视觉冲击力。重做为全宽 1100px bento grid 布局 + GSAP/Lenis 动画。
