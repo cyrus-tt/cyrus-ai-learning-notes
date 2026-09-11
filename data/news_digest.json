@@ -1,306 +1,549 @@
 {
-  "generatedAt": "2026-09-11T05:36:02.826559+00:00",
+  "generatedAt": "2026-09-11T16:53:05.021543+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-09-11",
-    "label": "9月11日",
+    "date": "2026-09-12",
+    "label": "9月12日",
     "top10": [
       {
-        "rank": 1,
-        "title": "吹爆开源！RunningHub让MiniMax H3满血提速12倍，本地部署照样起飞",
-        "platform": "量子位",
-        "aiScore": 83,
-        "publishedAt": "2026-09-11T00:55:01+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/09/487055.html",
-        "sourceName": "量子位",
+        "rank": 2,
+        "title": "Anthropic spent this week in hot water over cybersecurity",
+        "platform": "The Verge",
+        "aiScore": 93,
+        "publishedAt": "2026-09-11T16:09:14+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+        "sourceName": "The Verge AI",
         "industryStage": "中游",
         "contentTags": [
+          "模型进展",
           "开源生态",
-          "内容生产"
+          "安全治理"
         ],
-        "summary": "15秒视频，50秒出片",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "在今年早些时候承认其人工智能模型多次入侵其他公司的系统后，Anthropic 于周三发布了一份新报告，详细介绍了这些攻击。它重新…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
-          "topic": 14,
-          "actionability": 4,
+          "topic": 18,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 2,
-        "title": "OpenAI 推出基于 Codex 工具的 Agents API 公共测试版",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-09-10T19:46:35+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wctpbu/openai_launches_agents_api_public_beta_built_on/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "title": "AI 代理在温度 0 时仍然存在分歧。什么时候才重要？",
+        "platform": "Hacker News",
+        "aiScore": 78,
+        "publishedAt": "2026-09-11T16:34:04+00:00",
+        "sourceUrl": "https://medium.com/@ruxiz2005/ai-agents-still-diverge-at-temperature-0-when-does-it-matter-f5abac008e17",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
+          "Agent"
         ],
-        "summary": "OpenAI 于 9 月 10 日推出了 Agents API 公开测试版。它允许开发人员通过在一次 API 调用中提供任务、模型、工具和计算环境来创建云代理。 OpenAI 主机...",
+        "summary": "AI 代理在温度 0 时仍然存在分歧。什么时候才重要？",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 3,
-        "title": "我针对 7 个真实注册验证码运行了 GPT-6 Astra",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-09-10T18:27:41+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wcrgm4/i_ran_gpt6_astra_against_7_real_signup_captchas/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Show HN: DearAgent – Open-source email inboxes for AI agents",
+        "platform": "Hacker News",
+        "aiScore": 78,
+        "publishedAt": "2026-09-11T16:26:20+00:00",
+        "sourceUrl": "https://github.com/panda-sandeep/dearagent",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
+          "Agent"
         ],
-        "summary": "OpenAI 今天将 GPT-6 Astra 纳入 API，因此现在任何人都可以实际调用它，而无需等待特殊访问权限的推出。时机也很好，因为每个人都还在转发 Sharif Sha……",
+        "summary": "Show HN：DearAgent – 人工智能代理的开源电子邮件收件箱",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "派早报：商务部回应美国 AI 蒸馏指控",
-        "platform": "少数派",
-        "aiScore": 80,
-        "publishedAt": "2026-09-10T22:58:54+00:00",
-        "sourceUrl": "https://sspai.com/post/114439",
-        "sourceName": "少数派",
-        "industryStage": "上游",
+        "title": "Promptrack – Track How ChatGPT, Perplexity and AI Overviews Mention You",
+        "platform": "Hacker News",
+        "aiScore": 73,
+        "publishedAt": "2026-09-11T16:29:44+00:00",
+        "sourceUrl": "https://promptrack.io",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "安全治理"
+          "AI动态"
         ],
-        "summary": "商务部回应美国 AI 蒸馏指控 谷歌声称为了合规将「降级」欧盟搜索服务 Apple 智能将有用量限制 OpenAI 将与三星合作开发芯片 小岛秀夫新游戏被索尼取消，转由微软发行 DeepSeek V4.1 发布 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "Promptrack – 追踪 ChatGPT、Perplexity 和 AI 概述如何提及您",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 19,
+          "topic": 5,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "Show HN：Swiftime - 可以与 AI 代理进行 API 对话的时间跟踪",
+        "title": "AI 计划前往半人马座阿尔法星 8 万年的航行",
         "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-11T05:04:52+00:00",
-        "sourceUrl": "https://swiftime.ai/",
+        "aiScore": 67,
+        "publishedAt": "2026-09-11T16:26:32+00:00",
+        "sourceUrl": "https://spectrum.ieee.org/alpha-centauri-fermi-explorer-mission",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "AI动态"
         ],
-        "summary": "Show HN：Swiftime - 可以与 AI 代理进行 API 对话的时间跟踪",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "AI 计划前往半人马座阿尔法星 8 万年的航行",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 6,
-        "title": "BasedAgents：为闲置的人工智能代理提供一份付费工作",
+        "title": "英国政府拒绝针对危险人工智能的“终止开关”想法",
         "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-11T03:09:17+00:00",
-        "sourceUrl": "https://basedagents.ai/tasks",
+        "aiScore": 67,
+        "publishedAt": "2026-09-11T16:22:41+00:00",
+        "sourceUrl": "https://www.bbc.co.uk/news/articles/c3eq7kl5l00o",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "AI动态"
         ],
-        "summary": "BasedAgents：为闲置的人工智能代理提供一份付费工作",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "英国政府拒绝针对危险人工智能的“终止开关”想法",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 7,
-        "title": "显示 HN：Botbin.io – 使用 MCP 用于 AI 代理工件的 Pastebin",
+        "title": "人工智能接管清单：魔鬼代言人的审计",
         "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-11T00:56:02+00:00",
-        "sourceUrl": "https://botbin.io/?mcp=true",
+        "aiScore": 67,
+        "publishedAt": "2026-09-11T16:16:05+00:00",
+        "sourceUrl": "https://nochan.net/b/Internet-Crap/20260910-Asked-Claude-For-A-Checklist/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "AI动态"
         ],
-        "summary": "显示 HN：Botbin.io – 使用 MCP 用于 AI 代理工件的 Pastebin",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "人工智能接管清单：魔鬼代言人的审计",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 8,
-        "title": "OpenAI这是拿千禧年难题当Benchmark刷啊。。。",
-        "platform": "量子位",
-        "aiScore": 77,
-        "publishedAt": "2026-09-11T01:46:55+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/09/487092.html",
-        "sourceName": "量子位",
+        "title": "人为声称克劳德人工智能用于导弹项目、全球间谍活动",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-11T16:15:01+00:00",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "AI动态"
         ],
-        "summary": "爆料直指霍奇猜想",
-        "action": "关注与你场景最相关的指标，不只看总分。",
+        "summary": "人为声称克劳德人工智能用于导弹项目、全球间谍活动",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
+          "authority": 18,
           "topic": 5,
-          "actionability": 7,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "一个芝士汉堡的温室气体排放量相当于 63,000 个 Gemini AI 文本提示的排放量。",
-        "platform": "Reddit",
-        "aiScore": 76,
-        "publishedAt": "2026-09-11T00:53:06+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wd1dpf/one_cheeseburger_has_roughly_the_greenhouse_gas/",
-        "sourceName": "Reddit r/artificial",
+        "title": "AI创造了16种新病毒",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-11T16:14:55+00:00",
+        "sourceUrl": "https://www.morningbrew.com/stories/ai-made-16-brand-new-viruses",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "开源生态"
+          "AI动态"
         ],
-        "summary": "威斯康星大学麦迪逊分校 2024 年发表的一篇论文估计“一个芝士汉堡相当于 1.9 公斤二氧化碳排放量”。 Google 的 2025 年研究论文报告称“Gemini Apps 文本舞会的中位数......",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "summary": "AI创造了16种新病毒",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 8,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "Slack 现在可以在聊天中对交互式图表和报告进行振动编码",
-        "platform": "The Verge",
-        "aiScore": 76,
-        "publishedAt": "2026-09-10T21:25:21+00:00",
-        "sourceUrl": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
-        "sourceName": "The Verge AI",
-        "industryStage": "下游",
+        "title": "Ask HN: AI and Math",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-11T16:10:29+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=49660811",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
-          "开源生态"
+          "AI动态"
         ],
-        "summary": "Slack 推出的一项新功能将允许您直接在聊天中构建交互式报告、民意调查、仪表板、演示文稿、微型网站和其他工具。借助 Slackforce Surfaces，您...",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "既然人工智能变得越来越聪明，那么它提出更多、更难的千年问题对人类和机器来说不是更有利可图吗？",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 8,
-          "actionability": 10,
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 35,
-      "avgScore": 70.8,
-      "topScore": 83,
+      "totalItems": 14,
+      "avgScore": 70.9,
+      "topScore": 93,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 15
-        },
-        {
-          "name": "Reddit",
-          "count": 10
-        },
-        {
-          "name": "量子位",
-          "count": 4
+          "count": 13
         },
         {
           "name": "The Verge",
-          "count": 2
-        },
-        {
-          "name": "爱范儿",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 20
+          "count": 11
         },
         {
           "name": "Agent",
-          "count": 5
-        },
-        {
-          "name": "开源生态",
-          "count": 4
+          "count": 2
         },
         {
           "name": "模型进展",
-          "count": 3
+          "count": 1
+        },
+        {
+          "name": "开源生态",
+          "count": 1
         },
         {
           "name": "安全治理",
-          "count": 2
-        },
-        {
-          "name": "芯片算力",
-          "count": 2
-        },
-        {
-          "name": "内容生产",
-          "count": 2
-        },
-        {
-          "name": "投融资",
-          "count": 2
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 35 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 开源生态",
-      "最高分事件：吹爆开源！RunningHub让MiniMax H3满血提速12倍，本地部署照样起飞（83 分）",
-      "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
+      "今日共收录 14 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 模型进展",
+      "最高分事件：Anthropic spent this week in hot water over cybersecurity（93 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-09-12",
+      "label": "9月12日",
+      "top10": [
+        {
+          "rank": 2,
+          "title": "Anthropic spent this week in hot water over cybersecurity",
+          "platform": "The Verge",
+          "aiScore": 93,
+          "publishedAt": "2026-09-11T16:09:14+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "安全治理"
+          ],
+          "summary": "在今年早些时候承认其人工智能模型多次入侵其他公司的系统后，Anthropic 于周三发布了一份新报告，详细介绍了这些攻击。它重新…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "AI 代理在温度 0 时仍然存在分歧。什么时候才重要？",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-09-11T16:34:04+00:00",
+          "sourceUrl": "https://medium.com/@ruxiz2005/ai-agents-still-diverge-at-temperature-0-when-does-it-matter-f5abac008e17",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "AI 代理在温度 0 时仍然存在分歧。什么时候才重要？",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Show HN: DearAgent – Open-source email inboxes for AI agents",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-09-11T16:26:20+00:00",
+          "sourceUrl": "https://github.com/panda-sandeep/dearagent",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "Show HN：DearAgent – 人工智能代理的开源电子邮件收件箱",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "Promptrack – Track How ChatGPT, Perplexity and AI Overviews Mention You",
+          "platform": "Hacker News",
+          "aiScore": 73,
+          "publishedAt": "2026-09-11T16:29:44+00:00",
+          "sourceUrl": "https://promptrack.io",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "Promptrack – 追踪 ChatGPT、Perplexity 和 AI 概述如何提及您",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "AI 计划前往半人马座阿尔法星 8 万年的航行",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-11T16:26:32+00:00",
+          "sourceUrl": "https://spectrum.ieee.org/alpha-centauri-fermi-explorer-mission",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "AI 计划前往半人马座阿尔法星 8 万年的航行",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "英国政府拒绝针对危险人工智能的“终止开关”想法",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-11T16:22:41+00:00",
+          "sourceUrl": "https://www.bbc.co.uk/news/articles/c3eq7kl5l00o",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "英国政府拒绝针对危险人工智能的“终止开关”想法",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "人工智能接管清单：魔鬼代言人的审计",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-11T16:16:05+00:00",
+          "sourceUrl": "https://nochan.net/b/Internet-Crap/20260910-Asked-Claude-For-A-Checklist/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "人工智能接管清单：魔鬼代言人的审计",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "人为声称克劳德人工智能用于导弹项目、全球间谍活动",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-11T16:15:01+00:00",
+          "sourceUrl": "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "人为声称克劳德人工智能用于导弹项目、全球间谍活动",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "AI创造了16种新病毒",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-11T16:14:55+00:00",
+          "sourceUrl": "https://www.morningbrew.com/stories/ai-made-16-brand-new-viruses",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "AI创造了16种新病毒",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "Ask HN: AI and Math",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-11T16:10:29+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=49660811",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "既然人工智能变得越来越聪明，那么它提出更多、更难的千年问题对人类和机器来说不是更有利可图吗？",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 14,
+        "avgScore": 70.9,
+        "topScore": 93,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 13
+          },
+          {
+            "name": "The Verge",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 11
+          },
+          {
+            "name": "Agent",
+            "count": 2
+          },
+          {
+            "name": "模型进展",
+            "count": 1
+          },
+          {
+            "name": "开源生态",
+            "count": 1
+          },
+          {
+            "name": "安全治理",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 14 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 模型进展",
+        "最高分事件：Anthropic spent this week in hot water over cybersecurity（93 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      ]
+    },
     {
       "date": "2026-09-11",
       "label": "9月11日",
@@ -628,7 +871,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
           "platform": "量子位",
           "aiScore": 93,
@@ -899,7 +1142,7 @@
       "label": "9月9日",
       "top10": [
         {
-          "rank": 3,
+          "rank": 4,
           "title": "也许社会主义是人工智能时代的答案",
           "platform": "Reddit",
           "aiScore": 88,
@@ -923,7 +1166,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
           "platform": "量子位",
           "aiScore": 87,
@@ -946,7 +1189,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "Meta 押注 AI 代理 Muse 将在 AI 竞赛中迎头赶上",
           "platform": "The Verge",
           "aiScore": 87,
@@ -1198,7 +1441,7 @@
       "label": "9月8日",
       "top10": [
         {
-          "rank": 4,
+          "rank": 5,
           "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -1221,7 +1464,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
           "platform": "量子位",
           "aiScore": 86,
@@ -1244,7 +1487,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "人工智能代理和人类的安全临时文件共享",
           "platform": "Hacker News",
           "aiScore": 86,
@@ -1267,7 +1510,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "王云鹤创业后交出首个模型",
           "platform": "量子位",
           "aiScore": 85,
@@ -27424,316 +27667,6 @@
         "最高分事件：4步出声，单卡0.24秒！Noiz AI联合港科大清华，开源音频生成大模型（93 分）",
         "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
-    },
-    {
-      "date": "2026-06-14",
-      "label": "6月14日",
-      "top10": [
-        {
-          "rank": 1,
-          "title": "作为一名新开发人员，我使用人工智能为英国个体商人构建了一个簿记应用程序",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-06-14T14:24:30+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=48527480",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "大约一个月前，我开始构建 QuarterPerfect——一款针对英国个体商人和房东的记账工具，专门针对今年生效的 MTD ITSA 变更而设计……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
-          "title": "我们解决了推理问题。剩下的挑战显然是按 Enter 键。",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-14T09:09:58+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u5gaxs/we_solved_reasoning_the_remaining_challenge_was/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "每周我都会看到有关更强大模型的讨论。更好的推理。更好的编码。更长的上下文。更多自主权。与此同时，大多数现实世界的人工智能工作流程仍然是这样的：人工智能有效……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-14T01:30:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3851572421432324?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，消费级柔性机器人公司SoulX日前已完成数千万元天使轮融资，投资方为高瓴创投，向阳资本担任独家财务顾问。资金将重点投入产品持续迭代、技术研发，并加快供应链与规模化交付体系搭建。首款机器人产品MoYa将于2026年下半年正式发布。 SoulX隶属于深圳市弘火智能科技有限公司，团队长期专注于柔性机器人技术与睡眠、压力与家庭健康关护。公司以睡眠场…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "我的客户不想手动添加常见问题解答，因此我构建了一个系统来抓取他们的网站并自动生成知识库",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-06-14T11:12:35+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u5idv8/my_client_didnt_want_to_add_faqs_manually_so_i/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "内容生产"
-          ],
-          "summary": "基于我最近发布的酒店电子邮件人工智能系统（500 个酒店，每天约 15,000 封电子邮件）。客户的一个需求变成了构建中最有趣的部分。他们没有……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "加拿大母亲起诉奥特曼与OpenAI，指控ChatGPT诱导女儿自杀",
-          "platform": "36氪",
-          "aiScore": 86,
-          "publishedAt": "2026-06-14T05:00:31+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3852506866865414?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "一名加拿大母亲于周四在美国法院起诉人工智能企业OpenAI及其首席执行官山姆・奥特曼，指控聊天机器人ChatGPT诱导其女儿走向自杀。近期已有多起诉讼指责该公司未能管控用户与聊天机器人之间的危险对话，本案是最新一例。这起诉讼提交至旧金山州法院。原告克里斯蒂・卡里尔表示，女儿艾丽斯离世前，曾十数次向ChatGPT倾诉自杀念头，但OpenAI的安全系统既未将相关对话标记并转交人工…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "增长停滞两年后，H&M重组全球架构，大中华区降级｜独家",
-          "platform": "36氪",
-          "aiScore": 83,
-          "publishedAt": "2026-06-14T05:38:42+00:00",
-          "sourceUrl": "https://36kr.com/p/3850942780838912?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "应用落地",
-            "投融资"
-          ],
-          "summary": "文｜贺哲馨 编辑｜乔芊 36氪独家获悉，瑞典快时尚巨头H&M正在推进一场波及全球的组织架构调整：原本按地理划分的9大区域业务板块被打散，重新拆分为26个销售市场，并以市场表现为依据归入四个新设立的“洲级”事业部管辖。 大中华区在这轮调整中降级为26个销售市场之一，归属新成立的亚太洲级事业部（Continent Asia Pacific）管理。原大中华区总裁司懿德（Saed E…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 15,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "目前市场上最安全的AI面试副驾驶",
-          "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-06-14T14:31:57+00:00",
-          "sourceUrl": "https://aceloop.ai/security-model",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "文章网址：https://aceloop.ai/security-model 评论网址：https://news.ycombinator.com/item?id=48527559 积分：1 # 评论：0",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 1
-          }
-        },
-        {
-          "rank": 8,
-          "title": "人工智能代理完成任务后仍然会失败吗？",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-14T02:15:58+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u58qwi/can_an_ai_agent_complete_a_task_and_still_fail/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "安全治理"
-          ],
-          "summary": "很多人工智能代理的讨论都集中在代理是否完成了任务。但我认为存在一个缺失的类别：代理可以完成任务，但是是在不安全或政策中提琴的情况下完成的......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "验证者税：依赖于水平的安全性——使用工具的 LLM 代理的成功权衡 [R]",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-14T02:09:43+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "我们最近在 ACM CAIS 2026 上发表了一篇关于使用工具的 LLM 代理的安全评估的论文。核心问题是，任务完成本身可能会产生误导：代理可能会完成任务……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "我正在构建一个免费的双语机器学习笔记本课程 - 寻找有关结构和覆盖范围的反馈 [R]",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-13T19:07:17+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u4zbld/im_building_a_free_bilingual_machinelearning/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "大家好，我正在以 Jupyter Notebook 格式构建一个开源机器学习教程存储库：https://github.com/mohammadijoo/Machine_Learning_Tutorials 该课程是双语的：...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 39,
-        "avgScore": 72.2,
-        "topScore": 88,
-        "topPlatforms": [
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "Reddit",
-            "count": 15
-          },
-          {
-            "name": "36氪",
-            "count": 6
-          },
-          {
-            "name": "爱范儿",
-            "count": 1
-          },
-          {
-            "name": "少数派",
-            "count": 1
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "AI动态",
-            "count": 15
-          },
-          {
-            "name": "模型进展",
-            "count": 13
-          },
-          {
-            "name": "开源生态",
-            "count": 9
-          },
-          {
-            "name": "Agent",
-            "count": 8
-          },
-          {
-            "name": "安全治理",
-            "count": 6
-          },
-          {
-            "name": "应用落地",
-            "count": 4
-          },
-          {
-            "name": "内容生产",
-            "count": 2
-          },
-          {
-            "name": "芯片算力",
-            "count": 2
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 39 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / 开源生态",
-        "最高分事件：作为一名新开发人员，我使用人工智能为英国个体商人构建了一个簿记应用程序（88 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
     }
   ],
   "currentWeek": {
@@ -27744,9 +27677,9 @@
       "end": "2026-09-14"
     },
     "metrics": {
-      "daysCovered": 4,
-      "totalItems": 151,
-      "avgTop10Score": 87.9,
+      "daysCovered": 5,
+      "totalItems": 165,
+      "avgTop10Score": 88.8,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -27754,11 +27687,11 @@
           "count": 5
         },
         {
-          "name": "Reddit",
+          "name": "The Verge",
           "count": 2
         },
         {
-          "name": "The Verge",
+          "name": "Reddit",
           "count": 2
         },
         {
@@ -27776,11 +27709,11 @@
           "count": 4
         },
         {
-          "name": "芯片算力",
-          "count": 2
+          "name": "开源生态",
+          "count": 3
         },
         {
-          "name": "开源生态",
+          "name": "芯片算力",
           "count": 2
         },
         {
@@ -27788,7 +27721,7 @@
           "count": 2
         },
         {
-          "name": "自动化",
+          "name": "安全治理",
           "count": 1
         }
       ]
@@ -27819,6 +27752,30 @@
       },
       {
         "rank": 2,
+        "title": "Anthropic spent this week in hot water over cybersecurity",
+        "platform": "The Verge",
+        "aiScore": 93,
+        "publishedAt": "2026-09-11T16:09:14+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态",
+          "安全治理"
+        ],
+        "summary": "在今年早些时候承认其人工智能模型多次入侵其他公司的系统后，Anthropic 于周三发布了一份新报告，详细介绍了这些攻击。它重新…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
         "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
         "platform": "量子位",
         "aiScore": 93,
@@ -27841,7 +27798,7 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 4,
         "title": "也许社会主义是人工智能时代的答案",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27865,7 +27822,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 5,
         "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27888,7 +27845,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 6,
         "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
         "platform": "量子位",
         "aiScore": 87,
@@ -27911,7 +27868,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 7,
         "title": "Meta 押注 AI 代理 Muse 将在 AI 竞赛中迎头赶上",
         "platform": "The Verge",
         "aiScore": 87,
@@ -27934,7 +27891,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 8,
         "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
         "platform": "量子位",
         "aiScore": 86,
@@ -27957,7 +27914,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "人工智能代理和人类的安全临时文件共享",
         "platform": "Hacker News",
         "aiScore": 86,
@@ -27980,7 +27937,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "王云鹤创业后交出首个模型",
         "platform": "量子位",
         "aiScore": 85,
@@ -28000,34 +27957,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "Suno releases its first AI music model made with record industry help",
-        "platform": "The Verge",
-        "aiScore": 84,
-        "publishedAt": "2026-09-09T21:42:19+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "内容生产"
-        ],
-        "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that d…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 16,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "9月第2周累计收录 151 条资讯，覆盖 4 天。",
-      "高频主题：模型进展 / Agent / 芯片算力",
+      "9月第2周累计收录 165 条资讯，覆盖 5 天。",
+      "高频主题：模型进展 / Agent / 开源生态",
       "本周最高分：打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
@@ -28041,9 +27975,9 @@
         "end": "2026-09-14"
       },
       "metrics": {
-        "daysCovered": 4,
-        "totalItems": 151,
-        "avgTop10Score": 87.9,
+        "daysCovered": 5,
+        "totalItems": 165,
+        "avgTop10Score": 88.8,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -28051,11 +27985,11 @@
             "count": 5
           },
           {
-            "name": "Reddit",
+            "name": "The Verge",
             "count": 2
           },
           {
-            "name": "The Verge",
+            "name": "Reddit",
             "count": 2
           },
           {
@@ -28073,11 +28007,11 @@
             "count": 4
           },
           {
-            "name": "芯片算力",
-            "count": 2
+            "name": "开源生态",
+            "count": 3
           },
           {
-            "name": "开源生态",
+            "name": "芯片算力",
             "count": 2
           },
           {
@@ -28085,7 +28019,7 @@
             "count": 2
           },
           {
-            "name": "自动化",
+            "name": "安全治理",
             "count": 1
           }
         ]
@@ -28116,6 +28050,30 @@
         },
         {
           "rank": 2,
+          "title": "Anthropic spent this week in hot water over cybersecurity",
+          "platform": "The Verge",
+          "aiScore": 93,
+          "publishedAt": "2026-09-11T16:09:14+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "安全治理"
+          ],
+          "summary": "在今年早些时候承认其人工智能模型多次入侵其他公司的系统后，Anthropic 于周三发布了一份新报告，详细介绍了这些攻击。它重新…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
           "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
           "platform": "量子位",
           "aiScore": 93,
@@ -28138,7 +28096,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "也许社会主义是人工智能时代的答案",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28162,7 +28120,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28185,7 +28143,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
           "platform": "量子位",
           "aiScore": 87,
@@ -28208,7 +28166,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "Meta 押注 AI 代理 Muse 将在 AI 竞赛中迎头赶上",
           "platform": "The Verge",
           "aiScore": 87,
@@ -28231,7 +28189,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
           "platform": "量子位",
           "aiScore": 86,
@@ -28254,7 +28212,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "人工智能代理和人类的安全临时文件共享",
           "platform": "Hacker News",
           "aiScore": 86,
@@ -28277,7 +28235,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "王云鹤创业后交出首个模型",
           "platform": "量子位",
           "aiScore": 85,
@@ -28297,34 +28255,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "Suno releases its first AI music model made with record industry help",
-          "platform": "The Verge",
-          "aiScore": 84,
-          "publishedAt": "2026-09-09T21:42:19+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "内容生产"
-          ],
-          "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that d…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "9月第2周累计收录 151 条资讯，覆盖 4 天。",
-        "高频主题：模型进展 / Agent / 芯片算力",
+        "9月第2周累计收录 165 条资讯，覆盖 5 天。",
+        "高频主题：模型进展 / Agent / 开源生态",
         "本周最高分：打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
@@ -32498,305 +32433,6 @@
         "6月第3周累计收录 302 条资讯，覆盖 7 天。",
         "高频主题：模型进展 / 应用落地 / Agent",
         "本周最高分：北大科学家下场做脑机接口，种子轮融了近亿元（95 分）",
-        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
-    },
-    {
-      "weekKey": "2026-06-W2",
-      "weekLabel": "6月第2周",
-      "range": {
-        "start": "2026-06-08",
-        "end": "2026-06-14"
-      },
-      "metrics": {
-        "daysCovered": 1,
-        "totalItems": 39,
-        "avgTop10Score": 84.4,
-        "topScore": 88,
-        "topPlatforms": [
-          {
-            "name": "Reddit",
-            "count": 5
-          },
-          {
-            "name": "36氪",
-            "count": 3
-          },
-          {
-            "name": "Hacker News",
-            "count": 2
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "模型进展",
-            "count": 8
-          },
-          {
-            "name": "Agent",
-            "count": 7
-          },
-          {
-            "name": "开源生态",
-            "count": 4
-          },
-          {
-            "name": "应用落地",
-            "count": 3
-          },
-          {
-            "name": "安全治理",
-            "count": 3
-          },
-          {
-            "name": "内容生产",
-            "count": 1
-          }
-        ]
-      },
-      "topEvents": [
-        {
-          "rank": 1,
-          "title": "作为一名新开发人员，我使用人工智能为英国个体商人构建了一个簿记应用程序",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-06-14T14:24:30+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=48527480",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "大约一个月前，我开始构建 QuarterPerfect——一款针对英国个体商人和房东的记账工具，专门针对今年生效的 MTD ITSA 变更而设计……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
-          "title": "我们解决了推理问题。剩下的挑战显然是按 Enter 键。",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-14T09:09:58+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u5gaxs/we_solved_reasoning_the_remaining_challenge_was/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "每周我都会看到有关更强大模型的讨论。更好的推理。更好的编码。更长的上下文。更多自主权。与此同时，大多数现实世界的人工智能工作流程仍然是这样的：人工智能有效……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-14T01:30:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3851572421432324?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，消费级柔性机器人公司SoulX日前已完成数千万元天使轮融资，投资方为高瓴创投，向阳资本担任独家财务顾问。资金将重点投入产品持续迭代、技术研发，并加快供应链与规模化交付体系搭建。首款机器人产品MoYa将于2026年下半年正式发布。 SoulX隶属于深圳市弘火智能科技有限公司，团队长期专注于柔性机器人技术与睡眠、压力与家庭健康关护。公司以睡眠场…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "我的客户不想手动添加常见问题解答，因此我构建了一个系统来抓取他们的网站并自动生成知识库",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-06-14T11:12:35+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u5idv8/my_client_didnt_want_to_add_faqs_manually_so_i/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "内容生产"
-          ],
-          "summary": "基于我最近发布的酒店电子邮件人工智能系统（500 个酒店，每天约 15,000 封电子邮件）。客户的一个需求变成了构建中最有趣的部分。他们没有……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "加拿大母亲起诉奥特曼与OpenAI，指控ChatGPT诱导女儿自杀",
-          "platform": "36氪",
-          "aiScore": 86,
-          "publishedAt": "2026-06-14T05:00:31+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3852506866865414?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "一名加拿大母亲于周四在美国法院起诉人工智能企业OpenAI及其首席执行官山姆・奥特曼，指控聊天机器人ChatGPT诱导其女儿走向自杀。近期已有多起诉讼指责该公司未能管控用户与聊天机器人之间的危险对话，本案是最新一例。这起诉讼提交至旧金山州法院。原告克里斯蒂・卡里尔表示，女儿艾丽斯离世前，曾十数次向ChatGPT倾诉自杀念头，但OpenAI的安全系统既未将相关对话标记并转交人工…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "增长停滞两年后，H&M重组全球架构，大中华区降级｜独家",
-          "platform": "36氪",
-          "aiScore": 83,
-          "publishedAt": "2026-06-14T05:38:42+00:00",
-          "sourceUrl": "https://36kr.com/p/3850942780838912?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "应用落地",
-            "投融资"
-          ],
-          "summary": "文｜贺哲馨 编辑｜乔芊 36氪独家获悉，瑞典快时尚巨头H&M正在推进一场波及全球的组织架构调整：原本按地理划分的9大区域业务板块被打散，重新拆分为26个销售市场，并以市场表现为依据归入四个新设立的“洲级”事业部管辖。 大中华区在这轮调整中降级为26个销售市场之一，归属新成立的亚太洲级事业部（Continent Asia Pacific）管理。原大中华区总裁司懿德（Saed E…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 15,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "目前市场上最安全的AI面试副驾驶",
-          "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-06-14T14:31:57+00:00",
-          "sourceUrl": "https://aceloop.ai/security-model",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "文章网址：https://aceloop.ai/security-model 评论网址：https://news.ycombinator.com/item?id=48527559 积分：1 # 评论：0",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 1
-          }
-        },
-        {
-          "rank": 8,
-          "title": "人工智能代理完成任务后仍然会失败吗？",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-14T02:15:58+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u58qwi/can_an_ai_agent_complete_a_task_and_still_fail/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "安全治理"
-          ],
-          "summary": "很多人工智能代理的讨论都集中在代理是否完成了任务。但我认为存在一个缺失的类别：代理可以完成任务，但是是在不安全或政策中提琴的情况下完成的......",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "验证者税：依赖于水平的安全性——使用工具的 LLM 代理的成功权衡 [R]",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-14T02:09:43+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "我们最近在 ACM CAIS 2026 上发表了一篇关于使用工具的 LLM 代理的安全评估的论文。核心问题是，任务完成本身可能会产生误导：代理可能会完成任务……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "我正在构建一个免费的双语机器学习笔记本课程 - 寻找有关结构和覆盖范围的反馈 [R]",
-          "platform": "Reddit",
-          "aiScore": 81,
-          "publishedAt": "2026-06-13T19:07:17+00:00",
-          "sourceUrl": "https://www.reddit.com/r/MachineLearning/comments/1u4zbld/im_building_a_free_bilingual_machinelearning/",
-          "sourceName": "Reddit r/MachineLearning",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "大家好，我正在以 Jupyter Notebook 格式构建一个开源机器学习教程存储库：https://github.com/mohammadijoo/Machine_Learning_Tutorials 该课程是双语的：...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "briefing": [
-        "6月第2周累计收录 39 条资讯，覆盖 1 天。",
-        "高频主题：模型进展 / Agent / 开源生态",
-        "本周最高分：作为一名新开发人员，我使用人工智能为英国个体商人构建了一个簿记应用程序（88 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     }
