@@ -1,28 +1,51 @@
 {
-  "generatedAt": "2026-09-10T16:53:22.009016+00:00",
+  "generatedAt": "2026-09-11T05:36:02.826559+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-09-11",
     "label": "9月11日",
     "top10": [
       {
-        "rank": 3,
-        "title": "Show HN：MySamantha – 一款生产力应用程序，其中人工智能是可选的",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-09-10T16:02:24+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49645994",
-        "sourceName": "Hacker News AI",
+        "rank": 1,
+        "title": "吹爆开源！RunningHub让MiniMax H3满血提速12倍，本地部署照样起飞",
+        "platform": "量子位",
+        "aiScore": 83,
+        "publishedAt": "2026-09-11T00:55:01+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/487055.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
+        "contentTags": [
+          "开源生态",
+          "内容生产"
+        ],
+        "summary": "15秒视频，50秒出片",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 14,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "OpenAI 推出基于 Codex 工具的 Agents API 公共测试版",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-09-10T19:46:35+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wctpbu/openai_launches_agents_api_public_beta_built_on/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
         "contentTags": [
           "模型进展",
           "Agent",
           "应用落地"
         ],
-        "summary": "最近开发的大多数工具都是大家长期以来一直承诺的个人助理的版本。我看到 ChatGPT、Claude、Gemini、Instinct（现在正在疯传）、Muse……",
+        "summary": "OpenAI 于 9 月 10 日推出了 Agents API 公开测试版。它允许开发人员通过在一次 API 调用中提供任务、模型、工具和计算环境来创建云代理。 OpenAI 主机...",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
@@ -30,86 +53,65 @@
         }
       },
       {
-        "rank": 2,
-        "title": "有没有办法让AI来做群聊的事情？就像你从他们身上汲取想法一样，但不是 1 个法学硕士，而是多个可以改进的……",
+        "rank": 3,
+        "title": "我针对 7 个真实注册验证码运行了 GPT-6 Astra",
         "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-09-10T16:43:48+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wcohvu/is_there_a_way_to_get_ai_to_do_a_group_chat_thing/",
+        "aiScore": 81,
+        "publishedAt": "2026-09-10T18:27:41+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wcrgm4/i_ran_gpt6_astra_against_7_real_signup_captchas/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "安全治理"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "所以有时当我试图理解某事或思考某事时。我可能会使用 Gemini 或 Grok 等法学硕士。例如，我正在考虑如何淡化网络安全......",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "OpenAI 今天将 GPT-6 Astra 纳入 API，因此现在任何人都可以实际调用它，而无需等待特殊访问权限的推出。时机也很好，因为每个人都还在转发 Sharif Sha……",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
-          "topic": 18,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "为什么反编译在AI时代还没有解决？",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-10T16:42:33+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49646640",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "有数千对源代码-可执行文件对可用于训练，而编译器是人工智能可以轻松识别并解释为权重较高的参数的参数......",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "安全研究人员警告系统可以“破解任何东西”。现在国会呼吁采取行动",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-09-10T16:18:51+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wcnt64/a_safety_researcher_warned_of_systems_that_can/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
+        "title": "派早报：商务部回应美国 AI 蒸馏指控",
+        "platform": "少数派",
+        "aiScore": 80,
+        "publishedAt": "2026-09-10T22:58:54+00:00",
+        "sourceUrl": "https://sspai.com/post/114439",
+        "sourceName": "少数派",
+        "industryStage": "上游",
         "contentTags": [
-          "开源生态",
+          "芯片算力",
           "安全治理"
         ],
-        "summary": "周二晚上，一名人类安全研究员在一篇关于人工智能发展超出人类范围的警告帖子中辞职后，立法者们再次担心如何控制人工智能。",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "商务部回应美国 AI 蒸馏指控 谷歌声称为了合规将「降级」欧盟搜索服务 Apple 智能将有用量限制 OpenAI 将与三星合作开发芯片 小岛秀夫新游戏被索尼取消，转由微软发行 DeepSeek V4.1 发布 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
-          "topic": 16,
-          "actionability": 4,
+          "topic": 19,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "Moshi – 用于 Claude 代码和 AI 代理的 SSH 和 Mosh 终端",
+        "title": "Show HN：Swiftime - 可以与 AI 代理进行 API 对话的时间跟踪",
         "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-09-10T16:07:57+00:00",
-        "sourceUrl": "https://getmoshi.app",
+        "publishedAt": "2026-09-11T05:04:52+00:00",
+        "sourceUrl": "https://swiftime.ai/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "Moshi – 用于 Claude 代码和 AI 代理的 SSH 和 Mosh 终端",
+        "summary": "Show HN：Swiftime - 可以与 AI 代理进行 API 对话的时间跟踪",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -121,17 +123,17 @@
       },
       {
         "rank": 6,
-        "title": "显示 HN：Symphony – AI 编码代理的实时地图",
+        "title": "BasedAgents：为闲置的人工智能代理提供一份付费工作",
         "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-09-10T16:07:36+00:00",
-        "sourceUrl": "https://github.com/itsloganmann/symphony",
+        "publishedAt": "2026-09-11T03:09:17+00:00",
+        "sourceUrl": "https://basedagents.ai/tasks",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "显示 HN：Symphony – AI 编码代理的实时地图",
+        "summary": "BasedAgents：为闲置的人工智能代理提供一份付费工作",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -143,39 +145,17 @@
       },
       {
         "rank": 7,
-        "title": "Show HN：Talleyrand – 以问题树形式构建的开源人工智能思维工作区",
+        "title": "显示 HN：Botbin.io – 使用 MCP 用于 AI 代理工件的 Pastebin",
         "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-09-10T16:06:00+00:00",
-        "sourceUrl": "https://talleyrand.app/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "我喜欢与法学硕士讨论复杂的话题，但他们的线性聊天不适合思考难题。每个好的答案都会引发三个新问题。你问一个，然后向后滚动……",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "Pamir AI推出内置Agent KVM功能的Lapis One Linux电脑",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-10T16:01:26+00:00",
-        "sourceUrl": "https://www.hackster.io/news/pamir-ai-launches-the-lapis-one-linux-computer-2c5446b94a23",
+        "publishedAt": "2026-09-11T00:56:02+00:00",
+        "sourceUrl": "https://botbin.io/?mcp=true",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "Pamir AI推出内置Agent KVM功能的Lapis One Linux电脑",
+        "summary": "显示 HN：Botbin.io – 使用 MCP 用于 AI 代理工件的 Pastebin",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -186,104 +166,138 @@
         }
       },
       {
-        "rank": 9,
-        "title": "通过搜索为下一场大型比赛做准备的 3 种方法",
-        "platform": "Google AI Blog",
-        "aiScore": 74,
-        "publishedAt": "2026-09-10T16:00:00+00:00",
-        "sourceUrl": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-        "sourceName": "Google AI Blog",
+        "rank": 8,
+        "title": "OpenAI这是拿千禧年难题当Benchmark刷啊。。。",
+        "platform": "量子位",
+        "aiScore": 77,
+        "publishedAt": "2026-09-11T01:46:55+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/487092.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
           "AI动态"
         ],
-        "summary": "带有放大镜和双子座火花覆盖的彩色跑步者蓝色背景的插图",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "爆料直指霍奇猜想",
+        "action": "关注与你场景最相关的指标，不只看总分。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 25,
           "topic": 5,
-          "actionability": 4,
+          "actionability": 7,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "一个芝士汉堡的温室气体排放量相当于 63,000 个 Gemini AI 文本提示的排放量。",
+        "platform": "Reddit",
+        "aiScore": 76,
+        "publishedAt": "2026-09-11T00:53:06+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wd1dpf/one_cheeseburger_has_roughly_the_greenhouse_gas/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "开源生态"
+        ],
+        "summary": "威斯康星大学麦迪逊分校 2024 年发表的一篇论文估计“一个芝士汉堡相当于 1.9 公斤二氧化碳排放量”。 Google 的 2025 年研究论文报告称“Gemini Apps 文本舞会的中位数......",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 8,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "研究人员如何使用 Codex 和 ChatGPT 寻找新的抗菌分子",
-        "platform": "OpenAI",
-        "aiScore": 74,
-        "publishedAt": "2026-09-10T16:00:00+00:00",
-        "sourceUrl": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-        "sourceName": "OpenAI News",
-        "industryStage": "中游",
+        "title": "Slack 现在可以在聊天中对交互式图表和报告进行振动编码",
+        "platform": "The Verge",
+        "aiScore": 76,
+        "publishedAt": "2026-09-10T21:25:21+00:00",
+        "sourceUrl": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+        "sourceName": "The Verge AI",
+        "industryStage": "下游",
         "contentTags": [
-          "AI动态"
+          "开源生态"
         ],
-        "summary": "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Slack 推出的一项新功能将允许您直接在聊天中构建交互式报告、民意调查、仪表板、演示文稿、微型网站和其他工具。借助 Slackforce Surfaces，您...",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
-          "topic": 5,
-          "actionability": 4,
+          "topic": 8,
+          "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 17,
-      "avgScore": 74.2,
-      "topScore": 88,
+      "totalItems": 35,
+      "avgScore": 70.8,
+      "topScore": 83,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 12
+          "count": 15
         },
         {
           "name": "Reddit",
-          "count": 3
+          "count": 10
         },
         {
-          "name": "OpenAI",
-          "count": 1
+          "name": "量子位",
+          "count": 4
         },
         {
-          "name": "Google AI Blog",
+          "name": "The Verge",
+          "count": 2
+        },
+        {
+          "name": "爱范儿",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 8
-        },
-        {
-          "name": "模型进展",
-          "count": 4
+          "count": 20
         },
         {
           "name": "Agent",
+          "count": 5
+        },
+        {
+          "name": "开源生态",
           "count": 4
+        },
+        {
+          "name": "模型进展",
+          "count": 3
         },
         {
           "name": "安全治理",
           "count": 2
         },
         {
-          "name": "开源生态",
+          "name": "芯片算力",
           "count": 2
         },
         {
-          "name": "应用落地",
-          "count": 1
+          "name": "内容生产",
+          "count": 2
+        },
+        {
+          "name": "投融资",
+          "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 17 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：Show HN：MySamantha – 一款生产力应用程序，其中人工智能是可选的（88 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 35 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 开源生态",
+      "最高分事件：吹爆开源！RunningHub让MiniMax H3满血提速12倍，本地部署照样起飞（83 分）",
+      "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
     ]
   },
   "dailyHistory": [
@@ -292,23 +306,46 @@
       "label": "9月11日",
       "top10": [
         {
-          "rank": 3,
-          "title": "Show HN：MySamantha – 一款生产力应用程序，其中人工智能是可选的",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-09-10T16:02:24+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49645994",
-          "sourceName": "Hacker News AI",
+          "rank": 1,
+          "title": "吹爆开源！RunningHub让MiniMax H3满血提速12倍，本地部署照样起飞",
+          "platform": "量子位",
+          "aiScore": 83,
+          "publishedAt": "2026-09-11T00:55:01+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/487055.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
+          "contentTags": [
+            "开源生态",
+            "内容生产"
+          ],
+          "summary": "15秒视频，50秒出片",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 14,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "OpenAI 推出基于 Codex 工具的 Agents API 公共测试版",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-09-10T19:46:35+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wctpbu/openai_launches_agents_api_public_beta_built_on/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
           "contentTags": [
             "模型进展",
             "Agent",
             "应用落地"
           ],
-          "summary": "最近开发的大多数工具都是大家长期以来一直承诺的个人助理的版本。我看到 ChatGPT、Claude、Gemini、Instinct（现在正在疯传）、Muse……",
+          "summary": "OpenAI 于 9 月 10 日推出了 Agents API 公开测试版。它允许开发人员通过在一次 API 调用中提供任务、模型、工具和计算环境来创建云代理。 OpenAI 主机...",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 20,
             "actionability": 10,
@@ -316,86 +353,65 @@
           }
         },
         {
-          "rank": 2,
-          "title": "有没有办法让AI来做群聊的事情？就像你从他们身上汲取想法一样，但不是 1 个法学硕士，而是多个可以改进的……",
+          "rank": 3,
+          "title": "我针对 7 个真实注册验证码运行了 GPT-6 Astra",
           "platform": "Reddit",
-          "aiScore": 80,
-          "publishedAt": "2026-09-10T16:43:48+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wcohvu/is_there_a_way_to_get_ai_to_do_a_group_chat_thing/",
+          "aiScore": 81,
+          "publishedAt": "2026-09-10T18:27:41+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wcrgm4/i_ran_gpt6_astra_against_7_real_signup_captchas/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "安全治理"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "所以有时当我试图理解某事或思考某事时。我可能会使用 Gemini 或 Grok 等法学硕士。例如，我正在考虑如何淡化网络安全......",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "OpenAI 今天将 GPT-6 Astra 纳入 API，因此现在任何人都可以实际调用它，而无需等待特殊访问权限的推出。时机也很好，因为每个人都还在转发 Sharif Sha……",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
-            "topic": 18,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "为什么反编译在AI时代还没有解决？",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-10T16:42:33+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49646640",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "有数千对源代码-可执行文件对可用于训练，而编译器是人工智能可以轻松识别并解释为权重较高的参数的参数......",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
+            "topic": 20,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 4,
-          "title": "安全研究人员警告系统可以“破解任何东西”。现在国会呼吁采取行动",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-09-10T16:18:51+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wcnt64/a_safety_researcher_warned_of_systems_that_can/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
+          "title": "派早报：商务部回应美国 AI 蒸馏指控",
+          "platform": "少数派",
+          "aiScore": 80,
+          "publishedAt": "2026-09-10T22:58:54+00:00",
+          "sourceUrl": "https://sspai.com/post/114439",
+          "sourceName": "少数派",
+          "industryStage": "上游",
           "contentTags": [
-            "开源生态",
+            "芯片算力",
             "安全治理"
           ],
-          "summary": "周二晚上，一名人类安全研究员在一篇关于人工智能发展超出人类范围的警告帖子中辞职后，立法者们再次担心如何控制人工智能。",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "商务部回应美国 AI 蒸馏指控 谷歌声称为了合规将「降级」欧盟搜索服务 Apple 智能将有用量限制 OpenAI 将与三星合作开发芯片 小岛秀夫新游戏被索尼取消，转由微软发行 DeepSeek V4.1 发布 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
-            "topic": 16,
-            "actionability": 4,
+            "topic": 19,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 5,
-          "title": "Moshi – 用于 Claude 代码和 AI 代理的 SSH 和 Mosh 终端",
+          "title": "Show HN：Swiftime - 可以与 AI 代理进行 API 对话的时间跟踪",
           "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-09-10T16:07:57+00:00",
-          "sourceUrl": "https://getmoshi.app",
+          "publishedAt": "2026-09-11T05:04:52+00:00",
+          "sourceUrl": "https://swiftime.ai/",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "Agent"
           ],
-          "summary": "Moshi – 用于 Claude 代码和 AI 代理的 SSH 和 Mosh 终端",
+          "summary": "Show HN：Swiftime - 可以与 AI 代理进行 API 对话的时间跟踪",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -407,17 +423,17 @@
         },
         {
           "rank": 6,
-          "title": "显示 HN：Symphony – AI 编码代理的实时地图",
+          "title": "BasedAgents：为闲置的人工智能代理提供一份付费工作",
           "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-09-10T16:07:36+00:00",
-          "sourceUrl": "https://github.com/itsloganmann/symphony",
+          "publishedAt": "2026-09-11T03:09:17+00:00",
+          "sourceUrl": "https://basedagents.ai/tasks",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "Agent"
           ],
-          "summary": "显示 HN：Symphony – AI 编码代理的实时地图",
+          "summary": "BasedAgents：为闲置的人工智能代理提供一份付费工作",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -429,39 +445,17 @@
         },
         {
           "rank": 7,
-          "title": "Show HN：Talleyrand – 以问题树形式构建的开源人工智能思维工作区",
+          "title": "显示 HN：Botbin.io – 使用 MCP 用于 AI 代理工件的 Pastebin",
           "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-09-10T16:06:00+00:00",
-          "sourceUrl": "https://talleyrand.app/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "我喜欢与法学硕士讨论复杂的话题，但他们的线性聊天不适合思考难题。每个好的答案都会引发三个新问题。你问一个，然后向后滚动……",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "Pamir AI推出内置Agent KVM功能的Lapis One Linux电脑",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-10T16:01:26+00:00",
-          "sourceUrl": "https://www.hackster.io/news/pamir-ai-launches-the-lapis-one-linux-computer-2c5446b94a23",
+          "publishedAt": "2026-09-11T00:56:02+00:00",
+          "sourceUrl": "https://botbin.io/?mcp=true",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "Agent"
           ],
-          "summary": "Pamir AI推出内置Agent KVM功能的Lapis One Linux电脑",
+          "summary": "显示 HN：Botbin.io – 使用 MCP 用于 AI 代理工件的 Pastebin",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -472,104 +466,138 @@
           }
         },
         {
-          "rank": 9,
-          "title": "通过搜索为下一场大型比赛做准备的 3 种方法",
-          "platform": "Google AI Blog",
-          "aiScore": 74,
-          "publishedAt": "2026-09-10T16:00:00+00:00",
-          "sourceUrl": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-          "sourceName": "Google AI Blog",
+          "rank": 8,
+          "title": "OpenAI这是拿千禧年难题当Benchmark刷啊。。。",
+          "platform": "量子位",
+          "aiScore": 77,
+          "publishedAt": "2026-09-11T01:46:55+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/487092.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
             "AI动态"
           ],
-          "summary": "带有放大镜和双子座火花覆盖的彩色跑步者蓝色背景的插图",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "爆料直指霍奇猜想",
+          "action": "关注与你场景最相关的指标，不只看总分。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
             "topic": 5,
-            "actionability": 4,
+            "actionability": 7,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "一个芝士汉堡的温室气体排放量相当于 63,000 个 Gemini AI 文本提示的排放量。",
+          "platform": "Reddit",
+          "aiScore": 76,
+          "publishedAt": "2026-09-11T00:53:06+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wd1dpf/one_cheeseburger_has_roughly_the_greenhouse_gas/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "开源生态"
+          ],
+          "summary": "威斯康星大学麦迪逊分校 2024 年发表的一篇论文估计“一个芝士汉堡相当于 1.9 公斤二氧化碳排放量”。 Google 的 2025 年研究论文报告称“Gemini Apps 文本舞会的中位数......",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 8,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "研究人员如何使用 Codex 和 ChatGPT 寻找新的抗菌分子",
-          "platform": "OpenAI",
-          "aiScore": 74,
-          "publishedAt": "2026-09-10T16:00:00+00:00",
-          "sourceUrl": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-          "sourceName": "OpenAI News",
-          "industryStage": "中游",
+          "title": "Slack 现在可以在聊天中对交互式图表和报告进行振动编码",
+          "platform": "The Verge",
+          "aiScore": 76,
+          "publishedAt": "2026-09-10T21:25:21+00:00",
+          "sourceUrl": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+          "sourceName": "The Verge AI",
+          "industryStage": "下游",
           "contentTags": [
-            "AI动态"
+            "开源生态"
           ],
-          "summary": "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Slack 推出的一项新功能将允许您直接在聊天中构建交互式报告、民意调查、仪表板、演示文稿、微型网站和其他工具。借助 Slackforce Surfaces，您...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
-            "topic": 5,
-            "actionability": 4,
+            "topic": 8,
+            "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 17,
-        "avgScore": 74.2,
-        "topScore": 88,
+        "totalItems": 35,
+        "avgScore": 70.8,
+        "topScore": 83,
         "topPlatforms": [
           {
             "name": "Hacker News",
-            "count": 12
+            "count": 15
           },
           {
             "name": "Reddit",
-            "count": 3
+            "count": 10
           },
           {
-            "name": "OpenAI",
-            "count": 1
+            "name": "量子位",
+            "count": 4
           },
           {
-            "name": "Google AI Blog",
+            "name": "The Verge",
+            "count": 2
+          },
+          {
+            "name": "爱范儿",
             "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 8
-          },
-          {
-            "name": "模型进展",
-            "count": 4
+            "count": 20
           },
           {
             "name": "Agent",
+            "count": 5
+          },
+          {
+            "name": "开源生态",
             "count": 4
+          },
+          {
+            "name": "模型进展",
+            "count": 3
           },
           {
             "name": "安全治理",
             "count": 2
           },
           {
-            "name": "开源生态",
+            "name": "芯片算力",
             "count": 2
           },
           {
-            "name": "应用落地",
-            "count": 1
+            "name": "内容生产",
+            "count": 2
+          },
+          {
+            "name": "投融资",
+            "count": 2
           }
         ]
       },
       "briefing": [
-        "今日共收录 17 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：Show HN：MySamantha – 一款生产力应用程序，其中人工智能是可选的（88 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "今日共收录 35 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 开源生态",
+        "最高分事件：吹爆开源！RunningHub让MiniMax H3满血提速12倍，本地部署照样起飞（83 分）",
+        "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
       ]
     },
     {
@@ -871,7 +899,7 @@
       "label": "9月9日",
       "top10": [
         {
-          "rank": 4,
+          "rank": 3,
           "title": "也许社会主义是人工智能时代的答案",
           "platform": "Reddit",
           "aiScore": 88,
@@ -895,7 +923,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
           "platform": "量子位",
           "aiScore": 87,
@@ -918,7 +946,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "Meta 押注 AI 代理 Muse 将在 AI 竞赛中迎头赶上",
           "platform": "The Verge",
           "aiScore": 87,
@@ -1170,7 +1198,7 @@
       "label": "9月8日",
       "top10": [
         {
-          "rank": 5,
+          "rank": 4,
           "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -1193,7 +1221,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
           "platform": "量子位",
           "aiScore": 86,
@@ -1216,7 +1244,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "人工智能代理和人类的安全临时文件共享",
           "platform": "Hacker News",
           "aiScore": 86,
@@ -1239,7 +1267,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "王云鹤创业后交出首个模型",
           "platform": "量子位",
           "aiScore": 85,
@@ -27717,8 +27745,8 @@
     },
     "metrics": {
       "daysCovered": 4,
-      "totalItems": 133,
-      "avgTop10Score": 88.3,
+      "totalItems": 151,
+      "avgTop10Score": 87.9,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -27726,15 +27754,15 @@
           "count": 5
         },
         {
-          "name": "Hacker News",
-          "count": 2
-        },
-        {
           "name": "Reddit",
           "count": 2
         },
         {
           "name": "The Verge",
+          "count": 2
+        },
+        {
+          "name": "Hacker News",
           "count": 1
         }
       ],
@@ -27745,11 +27773,7 @@
         },
         {
           "name": "Agent",
-          "count": 5
-        },
-        {
-          "name": "应用落地",
-          "count": 3
+          "count": 4
         },
         {
           "name": "芯片算力",
@@ -27757,6 +27781,10 @@
         },
         {
           "name": "开源生态",
+          "count": 2
+        },
+        {
+          "name": "应用落地",
           "count": 2
         },
         {
@@ -27814,30 +27842,6 @@
       },
       {
         "rank": 3,
-        "title": "Show HN：MySamantha – 一款生产力应用程序，其中人工智能是可选的",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-09-10T16:02:24+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49645994",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "最近开发的大多数工具都是大家长期以来一直承诺的个人助理的版本。我看到 ChatGPT、Claude、Gemini、Instinct（现在正在疯传）、Muse……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
         "title": "也许社会主义是人工智能时代的答案",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27861,7 +27865,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 4,
         "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27884,7 +27888,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 5,
         "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
         "platform": "量子位",
         "aiScore": 87,
@@ -27907,7 +27911,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "Meta 押注 AI 代理 Muse 将在 AI 竞赛中迎头赶上",
         "platform": "The Verge",
         "aiScore": 87,
@@ -27930,7 +27934,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 7,
         "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
         "platform": "量子位",
         "aiScore": 86,
@@ -27953,7 +27957,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 8,
         "title": "人工智能代理和人类的安全临时文件共享",
         "platform": "Hacker News",
         "aiScore": 86,
@@ -27976,7 +27980,7 @@
         }
       },
       {
-        "rank": 10,
+        "rank": 9,
         "title": "王云鹤创业后交出首个模型",
         "platform": "量子位",
         "aiScore": 85,
@@ -27996,11 +28000,34 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 10,
+        "title": "Suno releases its first AI music model made with record industry help",
+        "platform": "The Verge",
+        "aiScore": 84,
+        "publishedAt": "2026-09-09T21:42:19+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "内容生产"
+        ],
+        "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that d…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 16,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "briefing": [
-      "9月第2周累计收录 133 条资讯，覆盖 4 天。",
-      "高频主题：模型进展 / Agent / 应用落地",
+      "9月第2周累计收录 151 条资讯，覆盖 4 天。",
+      "高频主题：模型进展 / Agent / 芯片算力",
       "本周最高分：打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
@@ -28015,8 +28042,8 @@
       },
       "metrics": {
         "daysCovered": 4,
-        "totalItems": 133,
-        "avgTop10Score": 88.3,
+        "totalItems": 151,
+        "avgTop10Score": 87.9,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -28024,15 +28051,15 @@
             "count": 5
           },
           {
-            "name": "Hacker News",
-            "count": 2
-          },
-          {
             "name": "Reddit",
             "count": 2
           },
           {
             "name": "The Verge",
+            "count": 2
+          },
+          {
+            "name": "Hacker News",
             "count": 1
           }
         ],
@@ -28043,11 +28070,7 @@
           },
           {
             "name": "Agent",
-            "count": 5
-          },
-          {
-            "name": "应用落地",
-            "count": 3
+            "count": 4
           },
           {
             "name": "芯片算力",
@@ -28055,6 +28078,10 @@
           },
           {
             "name": "开源生态",
+            "count": 2
+          },
+          {
+            "name": "应用落地",
             "count": 2
           },
           {
@@ -28112,30 +28139,6 @@
         },
         {
           "rank": 3,
-          "title": "Show HN：MySamantha – 一款生产力应用程序，其中人工智能是可选的",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-09-10T16:02:24+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49645994",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "最近开发的大多数工具都是大家长期以来一直承诺的个人助理的版本。我看到 ChatGPT、Claude、Gemini、Instinct（现在正在疯传）、Muse……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
           "title": "也许社会主义是人工智能时代的答案",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28159,7 +28162,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28182,7 +28185,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
           "platform": "量子位",
           "aiScore": 87,
@@ -28205,7 +28208,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "Meta 押注 AI 代理 Muse 将在 AI 竞赛中迎头赶上",
           "platform": "The Verge",
           "aiScore": 87,
@@ -28228,7 +28231,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "深度智控获宁德时代、沙特阿美战投等重磅加码，加速打造物理AI时代算力与能源底座",
           "platform": "量子位",
           "aiScore": 86,
@@ -28251,7 +28254,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "人工智能代理和人类的安全临时文件共享",
           "platform": "Hacker News",
           "aiScore": 86,
@@ -28274,7 +28277,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "王云鹤创业后交出首个模型",
           "platform": "量子位",
           "aiScore": 85,
@@ -28294,11 +28297,34 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 10,
+          "title": "Suno releases its first AI music model made with record industry help",
+          "platform": "The Verge",
+          "aiScore": 84,
+          "publishedAt": "2026-09-09T21:42:19+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "内容生产"
+          ],
+          "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that d…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 16,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "9月第2周累计收录 133 条资讯，覆盖 4 天。",
-        "高频主题：模型进展 / Agent / 应用落地",
+        "9月第2周累计收录 151 条资讯，覆盖 4 天。",
+        "高频主题：模型进展 / Agent / 芯片算力",
         "本周最高分：打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
