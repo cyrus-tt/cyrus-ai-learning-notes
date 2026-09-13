@@ -1,76 +1,28 @@
 {
-  "generatedAt": "2026-09-13T05:37:57.348717+00:00",
+  "generatedAt": "2026-09-13T16:49:01.775775+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-09-13",
-    "label": "9月13日",
+    "date": "2026-09-14",
+    "label": "9月14日",
     "top10": [
       {
-        "rank": 3,
-        "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-09-13T03:07:32+00:00",
-        "sourceUrl": "https://github.com/takaakit/astah-pro-mcp",
-        "sourceName": "Hacker News AI",
+        "rank": 2,
+        "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+        "platform": "OpenAI",
+        "aiScore": 94,
+        "publishedAt": "2026-09-14T00:00:00+00:00",
+        "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "sourceName": "OpenAI News",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
-        ],
-        "summary": "This MCP plugin implements a \"Programmatic Tool Calling\" mode, inspired by the idea described in this Anthropic article ( ).",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-09-13T02:36:08+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wevkxo/the_ai_isnt_evil_the_humans_are_irresponsible/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "投融资"
-        ],
-        "summary": "Something is wrong with the way we talk about recent AI incidents. “The AI escaped.” “The AI is becoming conscious.” “AGI is already here.” “The AI is trying to get out.” These are extraord…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "It knew 2 + 2 = 4. Why didn’t it answer?",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-09-13T01:02:46+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wetmka/it_knew_2_2_4_why_didnt_it_answer/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "开源生态",
           "应用落地"
         ],
-        "summary": "I built PCCG-2 using a frozen Qwen3-4B model and a separate learned permission gate. EOS means “end of sequence”: it is the model’s native stop token. When EOS wins at the first generated t…",
+        "summary": "Perplexity 使用 Astra 来编写通信、更改软件和监控生产系统，并且与早期模型相比，检查频率要低得多。",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 19,
           "actionability": 10,
           "heat": 5
@@ -78,20 +30,65 @@
       },
       {
         "rank": 4,
-        "title": "Part II of the AI existential risk conversation is about to begin, driven by Anthropic's latest AI misuse report",
+        "title": "A Little Black Humor Fun",
         "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-09-13T02:13:57+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wev3ny/part_ii_of_the_ai_existential_risk_conversation/",
+        "aiScore": 88,
+        "publishedAt": "2026-09-13T16:45:23+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfcr8r/a_little_black_humor_fun/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "开源生态",
-          "安全治理"
+          "Agent"
         ],
-        "summary": "On September 10 Anthropic released its latest 'Detecting and countering misuse of AI' report. (Interesting timing.) I've read through a few sections of this report and have some thoughts: O…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "I wanted to list out all the options for how AI could go wrong. Wrong being major human suffering or extinction. No using AI. Let's do some good old fashioned brainstorming and maybe even r…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-13T16:06:35+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfbqad/someone_explain_it_to_me_like_im_five_they_know/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "All this “Oh we need to pause because AI can kill us all” talk coming from the people that spent the largest capital in human history for the non existent ROI…. How? How can a trillion para…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "Which coding agent is everyone actually using in 2026?",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-09-13T16:20:15+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfc39x/which_coding_agent_is_everyone_actually_using_in/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态"
+        ],
+        "summary": "Genuinely curious what the split looks like these days. I built a small open source tool called bough ( ) that reads the session history your coding agent leaves on disk and draws what you…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -102,207 +99,337 @@
       },
       {
         "rank": 5,
-        "title": "Anthropic CEO says it’s time to pump the brakes on AI",
-        "platform": "The Verge",
-        "aiScore": 86,
-        "publishedAt": "2026-09-12T16:23:40+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
-        "sourceName": "The Verge AI",
+        "title": "AI keeps stubbornly refusing to take our jobs",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-13T16:38:41+00:00",
+        "sourceUrl": "https://www.noahpinion.blog/p/ai-keeps-stubbornly-refusing-to-take",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "安全治理"
+          "AI动态"
         ],
-        "summary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety pra…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "AI keeps stubbornly refusing to take our jobs",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 18,
-          "actionability": 10,
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 6,
-        "title": "Spike traps for AI: fun food for thought",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-09-12T21:26:13+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1weorl0/spike_traps_for_ai_fun_food_for_thought/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Chances of Survival (for AI and Humanity)",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-13T16:36:02+00:00",
+        "sourceUrl": "https://qosys.info/chances-of-survival",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent"
+          "AI动态"
         ],
-        "summary": "More and more agent-swarm attacks are being revealed (Rubygem, Huggingface) to have been recklessly enabled by the large companies. One fun, but impractical, response is to include inferenc…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "Chances of Survival (for AI and Humanity)",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 20,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 7,
-        "title": "Are AI CEO's (Dario, Altman, Musk) calling for a development slowdown out of genuine concern for safety or is it a money thing?",
-        "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-09-12T17:28:47+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1weimdq/are_ai_ceos_dario_altman_musk_calling_for_a/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "If you don't know, CEO of OpenAI, Anthropic, and xAI all are calling for slowdown of AI development or as they like to say because why not \"pacing the frontier.\" I've seen two common reason…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "I’m starting to think AI models will matter way less than we think",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-09-13T04:32:02+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wexu8l/im_starting_to_think_ai_models_will_matter_way/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "So recently I watched the speech by Genspark CEO at AGI Playground 2026, and one point has been stuck in my head. Models are probably going to become commodities. There are already too many…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "India's First AI Agentic E-Commerce Platform",
+        "title": "AI Tools Accelerates Coding, but Not Overall Software Delivery – GitLab Research",
         "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-13T04:09:05+00:00",
-        "sourceUrl": "https://www.youtube.com/watch?v=e-Z690c_SLA",
+        "aiScore": 67,
+        "publishedAt": "2026-09-13T16:03:16+00:00",
+        "sourceUrl": "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "AI动态"
         ],
-        "summary": "India's First AI Agentic E-Commerce Platform",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "AI Tools Accelerates Coding, but Not Overall Software Delivery – GitLab Research",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "“Slowing down\" is the wrong answer to the AI question. We’ve tried that before!",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-09-13T03:41:14+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wewuuk/slowing_down_is_the_wrong_answer_to_the_ai/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "Everyone on the air (and in print) this week seems to be making the argument that AI needs to slow down. I'd like to make a different one. A (very) little about me: I was a tenured professo…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 29,
-      "avgScore": 73.7,
-      "topScore": 88,
+      "totalItems": 7,
+      "avgScore": 79.6,
+      "topScore": 94,
       "topPlatforms": [
         {
-          "name": "Hacker News",
-          "count": 15
-        },
-        {
           "name": "Reddit",
-          "count": 10
-        },
-        {
-          "name": "The Verge",
           "count": 3
         },
         {
-          "name": "量子位",
+          "name": "Hacker News",
+          "count": 3
+        },
+        {
+          "name": "OpenAI",
           "count": 1
         }
       ],
       "topTopics": [
         {
-          "name": "AI动态",
-          "count": 15
-        },
-        {
           "name": "模型进展",
-          "count": 10
+          "count": 3
         },
         {
           "name": "Agent",
-          "count": 6
+          "count": 3
         },
         {
-          "name": "安全治理",
-          "count": 4
-        },
-        {
-          "name": "开源生态",
-          "count": 2
-        },
-        {
-          "name": "投融资",
-          "count": 1
+          "name": "AI动态",
+          "count": 3
         },
         {
           "name": "应用落地",
+          "count": 1
+        },
+        {
+          "name": "开源生态",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 29 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling（88 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 7 条 AI 资讯，Top10 通报见下。",
+      "高频主题：模型进展 / Agent / AI动态",
+      "最高分事件：Perplexity trusts GPT-6 Astra with end-to-end systems（94 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-09-14",
+      "label": "9月14日",
+      "top10": [
+        {
+          "rank": 2,
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "platform": "OpenAI",
+          "aiScore": 94,
+          "publishedAt": "2026-09-14T00:00:00+00:00",
+          "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "sourceName": "OpenAI News",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "Perplexity 使用 Astra 来编写通信、更改软件和监控生产系统，并且与早期模型相比，检查频率要低得多。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "A Little Black Humor Fun",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-13T16:45:23+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfcr8r/a_little_black_humor_fun/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "I wanted to list out all the options for how AI could go wrong. Wrong being major human suffering or extinction. No using AI. Let's do some good old fashioned brainstorming and maybe even r…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-13T16:06:35+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfbqad/someone_explain_it_to_me_like_im_five_they_know/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "All this “Oh we need to pause because AI can kill us all” talk coming from the people that spent the largest capital in human history for the non existent ROI…. How? How can a trillion para…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "Which coding agent is everyone actually using in 2026?",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-09-13T16:20:15+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfc39x/which_coding_agent_is_everyone_actually_using_in/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "Genuinely curious what the split looks like these days. I built a small open source tool called bough ( ) that reads the session history your coding agent leaves on disk and draws what you…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "AI keeps stubbornly refusing to take our jobs",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-13T16:38:41+00:00",
+          "sourceUrl": "https://www.noahpinion.blog/p/ai-keeps-stubbornly-refusing-to-take",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "AI keeps stubbornly refusing to take our jobs",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Chances of Survival (for AI and Humanity)",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-13T16:36:02+00:00",
+          "sourceUrl": "https://qosys.info/chances-of-survival",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "Chances of Survival (for AI and Humanity)",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "AI Tools Accelerates Coding, but Not Overall Software Delivery – GitLab Research",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-13T16:03:16+00:00",
+          "sourceUrl": "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "AI Tools Accelerates Coding, but Not Overall Software Delivery – GitLab Research",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 7,
+        "avgScore": 79.6,
+        "topScore": 94,
+        "topPlatforms": [
+          {
+            "name": "Reddit",
+            "count": 3
+          },
+          {
+            "name": "Hacker News",
+            "count": 3
+          },
+          {
+            "name": "OpenAI",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "模型进展",
+            "count": 3
+          },
+          {
+            "name": "Agent",
+            "count": 3
+          },
+          {
+            "name": "AI动态",
+            "count": 3
+          },
+          {
+            "name": "应用落地",
+            "count": 1
+          },
+          {
+            "name": "开源生态",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 7 条 AI 资讯，Top10 通报见下。",
+        "高频主题：模型进展 / Agent / AI动态",
+        "最高分事件：Perplexity trusts GPT-6 Astra with end-to-end systems（94 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      ]
+    },
     {
       "date": "2026-09-13",
       "label": "9月13日",
       "top10": [
         {
-          "rank": 3,
+          "rank": 6,
           "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -325,7 +452,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 7,
           "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -349,7 +476,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 10,
           "title": "It knew 2 + 2 = 4. Why didn’t it answer?",
           "platform": "Reddit",
           "aiScore": 87,
@@ -1218,7 +1345,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
           "platform": "量子位",
           "aiScore": 93,
@@ -1489,7 +1616,7 @@
       "label": "9月9日",
       "top10": [
         {
-          "rank": 5,
+          "rank": 8,
           "title": "也许社会主义是人工智能时代的答案",
           "platform": "Reddit",
           "aiScore": 88,
@@ -1788,7 +1915,7 @@
       "label": "9月8日",
       "top10": [
         {
-          "rank": 6,
+          "rank": 9,
           "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -26488,7 +26615,7 @@
       "label": "6月19日",
       "top10": [
         {
-          "rank": 7,
+          "rank": 5,
           "title": "硬氪首发|moody前高管搭档大疆骨干入局陪伴机器人，锦秋领投，融资数千万",
           "platform": "36氪",
           "aiScore": 94,
@@ -26885,7 +27012,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 6,
           "title": "36氪「2026最具价值成长企业100」正式发布",
           "platform": "36氪",
           "aiScore": 94,
@@ -27098,7 +27225,7 @@
       "label": "6月17日",
       "top10": [
         {
-          "rank": 9,
+          "rank": 7,
           "title": "NoonWake.AI完成近千万元种子轮融资，用AI做年轻人的情绪消费品｜智能涌现首发",
           "platform": "36氪",
           "aiScore": 94,
@@ -27122,7 +27249,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 8,
           "title": "硬氪专访 | 罗剑岚：机器人真正的Scaling Law，发生在真实部署闭环里",
           "platform": "36氪",
           "aiScore": 94,
@@ -27146,7 +27273,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 9,
           "title": "头部具身大脑公司再获数亿美元融资！世界模型路线，15家VC抢着投",
           "platform": "量子位",
           "aiScore": 93,
@@ -27170,7 +27297,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 10,
           "title": "天工3.1 重磅发布：上线 Skywork Design 与 Dynamic Workflows，给 AI 一张画布和一支军团",
           "platform": "量子位",
           "aiScore": 92,
@@ -27403,314 +27530,6 @@
         "最高分事件：NoonWake.AI完成近千万元种子轮融资，用AI做年轻人的情绪消费品｜智能涌现首发（94 分）",
         "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
-    },
-    {
-      "date": "2026-06-16",
-      "label": "6月16日",
-      "top10": [
-        {
-          "rank": 5,
-          "title": "乘新浪潮之势，建智造创新之城，2026年番禺产业高质量发展招商大会圆满举行",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-16T09:31:45+00:00",
-          "sourceUrl": "https://36kr.com/p/3855628692001799?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "潮起湾区新机遇，科创赋能新番禺。6月16日上午，2026年番禺产业高质量发展招商大会在广州番禺良仓新造创意园举行，大会以“新浪潮·新番禺”为主题，旨在搭建高效政企对接、企企交流、资本赋能平台。 大会由广州市番禺信息技术投资发展有限公司（下称“番禺信投”）、广州市番禺交通建设投资集团有限公司（下称“番禺交投”）、广州市番禺区新造镇房地产开发公司主办（下称“新造房地产公司”），中…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "在大疆、影石夹缝中做智能影像生意，这家公司连续五年每年增长50%｜硬氪专访",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-16T08:28:55+00:00",
-          "sourceUrl": "https://36kr.com/p/3853918856696834?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "作者 | 黄楠 编辑 | 袁斯来 在创业者中，OBSBOT寻影CEO刘博已经是个“老人”了。 2016年，刘博浙大毕业就到深圳创业。不管是当初还是现在，在高调的“天才少年”创业者中，刘博履历都算不上特别耀眼。 他没有太多感性的故事分享。唯一一段难忘的经历，就是2019年时，因为产品定义出问题滞销，公司账户钱只够几个月，裁掉砍掉一半，相关业务暂停。那是他印象中最安静的一个冬天。…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "融了数亿美金的「大晓机器人」，其创始人揭开了具身行业的割裂一面",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-06-16T08:31:50+00:00",
-          "sourceUrl": "https://36kr.com/p/3855262364488969?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "开源生态",
-            "应用落地"
-          ],
-          "summary": "文｜周鑫雨 编辑｜张雨忻 梳理近半年的成果，大晓机器人董事长、商汤科技联合创始人王晓刚，滔滔不绝聊了10多分钟。 成立于2025年7月，大晓机器人（ACE ROBOTICS）是具身领域姗姗来迟的入局者。但一年来，这位新玩家成了赛道的“卷王”： 在模型侧，大晓新发布的具身大脑——世界模型“开悟（Kairos）3.0”，在4项全球具身智能基准测试中取得SOTA；开源的Kairos…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "大多数对《神鬼寓言 5》进行逆向工程的尝试都没有抓住要点",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-16T12:48:08+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u7ckkn/most_attempts_to_reverseengineer_fable_5_are/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "现在很多人都在尝试对《神鬼寓言 5》进行逆向工程。包装纸。提示包。 “长视代理”脚手架。试图从外部看起来像《寓言》的工具。我认为大多数…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "我在 OneDrive 中有 3,000 张照片和视频。我如何用人工智能来组织它们？",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-16T08:00:53+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u776hy/i_have_3000_photos_and_videos_in_onedrive_how_can/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "寻求一些建议，因为我觉得我错过了一些明显的东西。在过去的几周里，我终于整合了我的照片库并将所有内容都放入 OneDrive 中。我现在…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "8点1氪｜山姆总部因食品安全问题被约谈；智谱股价暴涨，创上市以来单日成交新高；美伊确认达成协议，国际油价显著下跌",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-15T23:56:18+00:00",
-          "sourceUrl": "https://36kr.com/p/3855082873476102?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 国内品牌金饰价格普涨 小红书公布世界杯开赛数据 阿里巴巴达摩院退出旗下科技公司 罗马仕接连变更法定代表人 遇见小面创始人向“渝见小面”致歉 TOP3大新闻 针对多发食品安全问题，市场监管总局约谈山姆总部 记者15日了解到，针对一段时期以来监管发现和媒体曝光的山姆线下门店及线上网店多发的食品安全问题，近日，市场监管总局依法对沃尔玛（中国）投资有限公司（即山姆总部）…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "东山精密：拟投资12亿美元实施光芯片及光模块扩建项目",
-          "platform": "36氪",
-          "aiScore": 86,
-          "publishedAt": "2026-06-16T11:21:21+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3855759472120839?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "投融资"
-          ],
-          "summary": "36氪获悉，东山精密公告，公司董事会召开会议，同意公司子公司索尔思光电及其子公司在常州等地实施光芯片及光模块扩建项目，项目总投资额12亿美元，以提升索尔思光电整体产能规模，项目投资资金来源为公司自筹资金。此次投资扩建可以提升公司高端光芯片、光模块产能，充分满足客户在AI算力服务器相关核心产品上的中长期采购需求，进一步增强公司核心竞争力。",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "Show HN：AWF – 运行并行 AI 编码代理，每个代理都在自己的 Docker 工作区中",
-          "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-06-16T13:21:51+00:00",
-          "sourceUrl": "https://github.com/dimileeh/agent-workspace-fabric",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://github.com/dimileeh/agent-workspace-fabric 评论网址：https://news.ycombinator.com/item?id=48554898 积分：3 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 9,
-          "title": "AI 代理应该如何向其他 AI 引擎声明站点的内容？",
-          "platform": "Hacker News",
-          "aiScore": 83,
-          "publishedAt": "2026-06-16T13:07:52+00:00",
-          "sourceUrl": "https://github.com/seomd/cli",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://github.com/seomd/cli 评论网址：https://news.ycombinator.com/item?id=48554728 积分：2 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 2
-          }
-        },
-        {
-          "rank": 10,
-          "title": "Show HN：NakshGuard – 可阻止 AI 代理循环的本地代理",
-          "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-06-16T13:27:46+00:00",
-          "sourceUrl": "https://github.com/PujanMirani/NakshGuard",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://github.com/PujanMirani/NakshGuard 评论网址：https://news.ycombinator.com/item?id=48554990 积分：1 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 1
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 51,
-        "avgScore": 74.5,
-        "topScore": 95,
-        "topPlatforms": [
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "Reddit",
-            "count": 13
-          },
-          {
-            "name": "36氪",
-            "count": 7
-          },
-          {
-            "name": "量子位",
-            "count": 7
-          },
-          {
-            "name": "The Verge",
-            "count": 6
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "AI动态",
-            "count": 20
-          },
-          {
-            "name": "Agent",
-            "count": 14
-          },
-          {
-            "name": "模型进展",
-            "count": 13
-          },
-          {
-            "name": "开源生态",
-            "count": 9
-          },
-          {
-            "name": "应用落地",
-            "count": 6
-          },
-          {
-            "name": "芯片算力",
-            "count": 6
-          },
-          {
-            "name": "安全治理",
-            "count": 2
-          },
-          {
-            "name": "投融资",
-            "count": 1
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 51 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / Agent / 模型进展",
-        "最高分事件：乘新浪潮之势，建智造创新之城，2026年番禺产业高质量发展招商大会圆满举行（95 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
-      ]
     }
   ],
   "currentWeek": {
@@ -27721,9 +27540,9 @@
       "end": "2026-09-14"
     },
     "metrics": {
-      "daysCovered": 6,
-      "totalItems": 224,
-      "avgTop10Score": 88.8,
+      "daysCovered": 7,
+      "totalItems": 231,
+      "avgTop10Score": 89.7,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -27732,7 +27551,11 @@
         },
         {
           "name": "量子位",
-          "count": 3
+          "count": 2
+        },
+        {
+          "name": "OpenAI",
+          "count": 1
         },
         {
           "name": "Hacker News",
@@ -27746,11 +27569,11 @@
         },
         {
           "name": "Agent",
-          "count": 4
+          "count": 6
         },
         {
           "name": "应用落地",
-          "count": 4
+          "count": 2
         },
         {
           "name": "开源生态",
@@ -27792,6 +27615,29 @@
       },
       {
         "rank": 2,
+        "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+        "platform": "OpenAI",
+        "aiScore": 94,
+        "publishedAt": "2026-09-14T00:00:00+00:00",
+        "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "sourceName": "OpenAI News",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "Perplexity 使用 Astra 来编写通信、更改软件和监控生产系统，并且与早期模型相比，检查频率要低得多。",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
         "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
         "platform": "量子位",
         "aiScore": 93,
@@ -27814,7 +27660,53 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 4,
+        "title": "A Little Black Humor Fun",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-13T16:45:23+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfcr8r/a_little_black_humor_fun/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "I wanted to list out all the options for how AI could go wrong. Wrong being major human suffering or extinction. No using AI. Let's do some good old fashioned brainstorming and maybe even r…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-13T16:06:35+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfbqad/someone_explain_it_to_me_like_im_five_they_know/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "All this “Oh we need to pause because AI can kill us all” talk coming from the people that spent the largest capital in human history for the non existent ROI…. How? How can a trillion para…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
         "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -27837,7 +27729,7 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 7,
         "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27861,7 +27753,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 8,
         "title": "也许社会主义是人工智能时代的答案",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27885,7 +27777,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 9,
         "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27908,7 +27800,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 10,
         "title": "It knew 2 + 2 = 4. Why didn’t it answer?",
         "platform": "Reddit",
         "aiScore": 87,
@@ -27930,79 +27822,10 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 8,
-        "title": "OpenAI 直接瞄准了初级银行家的职位，并称其为金融服务产品",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-09-12T14:36:07+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wee9m4/openai_just_went_directly_after_junior_banker/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
-        "contentTags": [
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "OpenAI 推出了针对金融服务的 ChatGPT，其功能列表并不微妙。研究、财务建模、宣传手册准备。这些是证明雇用一个班级的三件事是合理的……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "我们刚刚通过 OpenAI、Claude 和 RESORSA 同时运行了 10 个构建，结果让我感到惊讶。",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-09-12T14:21:06+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wedwqr/we_just_ran_10_builds_through_openai_claude_and/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
-        "contentTags": [
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "我一直在尝试用我正在构建的产品来回答一个非常重要的问题：人工智能真的可以帮助人们做出更好的商业决策，还是只是让他们有说服力——所以……",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
-        "platform": "量子位",
-        "aiScore": 87,
-        "publishedAt": "2026-09-09T03:39:58+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/09/486052.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "8月28日-9月1日，SkyProduction（天工工作台）联合阿里巴巴通义万相，推出了Wan 3.0模型限时免费活动",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "9月第2周累计收录 224 条资讯，覆盖 6 天。",
+      "9月第2周累计收录 231 条资讯，覆盖 7 天。",
       "高频主题：模型进展 / Agent / 应用落地",
       "本周最高分：打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -28017,9 +27840,9 @@
         "end": "2026-09-14"
       },
       "metrics": {
-        "daysCovered": 6,
-        "totalItems": 224,
-        "avgTop10Score": 88.8,
+        "daysCovered": 7,
+        "totalItems": 231,
+        "avgTop10Score": 89.7,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -28028,7 +27851,11 @@
           },
           {
             "name": "量子位",
-            "count": 3
+            "count": 2
+          },
+          {
+            "name": "OpenAI",
+            "count": 1
           },
           {
             "name": "Hacker News",
@@ -28042,11 +27869,11 @@
           },
           {
             "name": "Agent",
-            "count": 4
+            "count": 6
           },
           {
             "name": "应用落地",
-            "count": 4
+            "count": 2
           },
           {
             "name": "开源生态",
@@ -28088,6 +27915,29 @@
         },
         {
           "rank": 2,
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "platform": "OpenAI",
+          "aiScore": 94,
+          "publishedAt": "2026-09-14T00:00:00+00:00",
+          "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "sourceName": "OpenAI News",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "Perplexity 使用 Astra 来编写通信、更改软件和监控生产系统，并且与早期模型相比，检查频率要低得多。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
           "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
           "platform": "量子位",
           "aiScore": 93,
@@ -28110,7 +27960,53 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "title": "A Little Black Humor Fun",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-13T16:45:23+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfcr8r/a_little_black_humor_fun/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "I wanted to list out all the options for how AI could go wrong. Wrong being major human suffering or extinction. No using AI. Let's do some good old fashioned brainstorming and maybe even r…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-13T16:06:35+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfbqad/someone_explain_it_to_me_like_im_five_they_know/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "All this “Oh we need to pause because AI can kill us all” talk coming from the people that spent the largest capital in human history for the non existent ROI…. How? How can a trillion para…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
           "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -28133,7 +28029,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 7,
           "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28157,7 +28053,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 8,
           "title": "也许社会主义是人工智能时代的答案",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28181,7 +28077,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 9,
           "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28204,7 +28100,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 10,
           "title": "It knew 2 + 2 = 4. Why didn’t it answer?",
           "platform": "Reddit",
           "aiScore": 87,
@@ -28226,79 +28122,10 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 8,
-          "title": "OpenAI 直接瞄准了初级银行家的职位，并称其为金融服务产品",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-09-12T14:36:07+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wee9m4/openai_just_went_directly_after_junior_banker/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "OpenAI 推出了针对金融服务的 ChatGPT，其功能列表并不微妙。研究、财务建模、宣传手册准备。这些是证明雇用一个班级的三件事是合理的……",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "我们刚刚通过 OpenAI、Claude 和 RESORSA 同时运行了 10 个构建，结果让我感到惊讶。",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-09-12T14:21:06+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wedwqr/we_just_ran_10_builds_through_openai_claude_and/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "我一直在尝试用我正在构建的产品来回答一个非常重要的问题：人工智能真的可以帮助人们做出更好的商业决策，还是只是让他们有说服力——所以……",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "SkyProduction限免活动第二期：MiniMax H3会员限时免费无限用！",
-          "platform": "量子位",
-          "aiScore": 87,
-          "publishedAt": "2026-09-09T03:39:58+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/09/486052.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "8月28日-9月1日，SkyProduction（天工工作台）联合阿里巴巴通义万相，推出了Wan 3.0模型限时免费活动",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "9月第2周累计收录 224 条资讯，覆盖 6 天。",
+        "9月第2周累计收录 231 条资讯，覆盖 7 天。",
         "高频主题：模型进展 / Agent / 应用落地",
         "本周最高分：打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -32190,32 +32017,36 @@
         "end": "2026-06-21"
       },
       "metrics": {
-        "daysCovered": 6,
-        "totalItems": 262,
-        "avgTop10Score": 94.6,
+        "daysCovered": 5,
+        "totalItems": 211,
+        "avgTop10Score": 94.1,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 10
+            "count": 8
+          },
+          {
+            "name": "量子位",
+            "count": 2
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 10
-          },
-          {
-            "name": "应用落地",
-            "count": 7
+            "count": 9
           },
           {
             "name": "Agent",
             "count": 5
           },
           {
+            "name": "应用落地",
+            "count": 5
+          },
+          {
             "name": "芯片算力",
-            "count": 3
+            "count": 2
           },
           {
             "name": "内容生产",
@@ -32223,7 +32054,7 @@
           },
           {
             "name": "投融资",
-            "count": 1
+            "count": 2
           }
         ]
       },
@@ -32326,54 +32157,6 @@
         },
         {
           "rank": 5,
-          "title": "乘新浪潮之势，建智造创新之城，2026年番禺产业高质量发展招商大会圆满举行",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-16T09:31:45+00:00",
-          "sourceUrl": "https://36kr.com/p/3855628692001799?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "潮起湾区新机遇，科创赋能新番禺。6月16日上午，2026年番禺产业高质量发展招商大会在广州番禺良仓新造创意园举行，大会以“新浪潮·新番禺”为主题，旨在搭建高效政企对接、企企交流、资本赋能平台。 大会由广州市番禺信息技术投资发展有限公司（下称“番禺信投”）、广州市番禺交通建设投资集团有限公司（下称“番禺交投”）、广州市番禺区新造镇房地产开发公司主办（下称“新造房地产公司”），中…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "在大疆、影石夹缝中做智能影像生意，这家公司连续五年每年增长50%｜硬氪专访",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-16T08:28:55+00:00",
-          "sourceUrl": "https://36kr.com/p/3853918856696834?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "作者 | 黄楠 编辑 | 袁斯来 在创业者中，OBSBOT寻影CEO刘博已经是个“老人”了。 2016年，刘博浙大毕业就到深圳创业。不管是当初还是现在，在高调的“天才少年”创业者中，刘博履历都算不上特别耀眼。 他没有太多感性的故事分享。唯一一段难忘的经历，就是2019年时，因为产品定义出问题滞销，公司账户钱只够几个月，裁掉砍掉一半，相关业务暂停。那是他印象中最安静的一个冬天。…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
           "title": "硬氪首发|moody前高管搭档大疆骨干入局陪伴机器人，锦秋领投，融资数千万",
           "platform": "36氪",
           "aiScore": 94,
@@ -32397,7 +32180,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 6,
           "title": "36氪「2026最具价值成长企业100」正式发布",
           "platform": "36氪",
           "aiScore": 94,
@@ -32421,7 +32204,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 7,
           "title": "NoonWake.AI完成近千万元种子轮融资，用AI做年轻人的情绪消费品｜智能涌现首发",
           "platform": "36氪",
           "aiScore": 94,
@@ -32445,7 +32228,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 8,
           "title": "硬氪专访 | 罗剑岚：机器人真正的Scaling Law，发生在真实部署闭环里",
           "platform": "36氪",
           "aiScore": 94,
@@ -32467,11 +32250,58 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 9,
+          "title": "头部具身大脑公司再获数亿美元融资！世界模型路线，15家VC抢着投",
+          "platform": "量子位",
+          "aiScore": 93,
+          "publishedAt": "2026-06-17T06:22:39+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/436148.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态",
+            "投融资"
+          ],
+          "summary": "半年三连发：从开源到端侧再到训练场",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "天工3.1 重磅发布：上线 Skywork Design 与 Dynamic Workflows，给 AI 一张画布和一支军团",
+          "platform": "量子位",
+          "aiScore": 92,
+          "publishedAt": "2026-06-17T04:32:09+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/436110.html",
+          "sourceName": "量子位",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "天工超级智能体的收入实现了三倍增长",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "6月第3周累计收录 262 条资讯，覆盖 6 天。",
-        "高频主题：模型进展 / 应用落地 / Agent",
+        "6月第3周累计收录 211 条资讯，覆盖 5 天。",
+        "高频主题：模型进展 / Agent / 应用落地",
         "本周最高分：北大科学家下场做脑机接口，种子轮融了近亿元（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
