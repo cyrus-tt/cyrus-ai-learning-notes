@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T16:49:01.775775+00:00",
+  "generatedAt": "2026-09-14T05:44:51.220945+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-09-14",
@@ -30,18 +30,19 @@
       },
       {
         "rank": 4,
-        "title": "A Little Black Humor Fun",
-        "platform": "Reddit",
+        "title": "Show HN: Replay – Audit silent prompt cache misses in AI agent transcripts",
+        "platform": "Hacker News",
         "aiScore": 88,
-        "publishedAt": "2026-09-13T16:45:23+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfcr8r/a_little_black_humor_fun/",
-        "sourceName": "Reddit r/artificial",
+        "publishedAt": "2026-09-14T02:38:58+00:00",
+        "sourceUrl": "https://replay.doctor/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "I wanted to list out all the options for how AI could go wrong. Wrong being major human suffering or extinction. No using AI. Let's do some good old fashioned brainstorming and maybe even r…",
+        "summary": "I built Replay because AI agent bills spike without a single warning or error in your logs when a prompt cache breaks. Whether your team runs Claude Code, Cursor, or Aider, the provider jus…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -52,10 +53,102 @@
         }
       },
       {
+        "rank": 3,
+        "title": "GitHub Actions default configs from Anthropic, Google, and OpenAI's own coding agents were all vulnerable to the same RCE",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-09-14T02:33:57+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfr3vz/github_actions_default_configs_from_anthropic/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "开源生态",
+          "内容生产"
+        ],
+        "summary": "Security researchers found that the default GitHub Actions configuration each of the three major labs publishes for their own coding agents (Claude Code, Gemini CLI, and Codex) could all be…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "AI开始改进“改进自己的方法”，RSI进入平方时代丨MetaRSI",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-09-14T03:45:46+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/488832.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "小模型突破瓶颈，旗舰模型打开新空间",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
         "rank": 5,
+        "title": "智谱提前剧透GLM-6.0：完全自训练方法公开了",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-09-14T00:30:56+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/488694.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "模型、论文都还没出，没想到先从财务公告上剧透了",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "The Very Real Threat of a Persistent Botnet",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-09-13T21:11:20+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfjurc/the_very_real_threat_of_a_persistent_botnet/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "Dario Amodei wrote yesterday that he’s worried that “in 6–12 months... [an agent] swarm could be capable of taking over the entire internet with a persistent botnet.” This might sound like…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
         "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
         "platform": "Reddit",
-        "aiScore": 88,
+        "aiScore": 81,
         "publishedAt": "2026-09-13T16:06:35+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfbqad/someone_explain_it_to_me_like_im_five_they_know/",
         "sourceName": "Reddit r/artificial",
@@ -67,7 +160,7 @@
         "summary": "All this “Oh we need to pause because AI can kill us all” talk coming from the people that spent the largest capital in human history for the non existent ROI…. How? How can a trillion para…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
@@ -75,22 +168,22 @@
         }
       },
       {
-        "rank": 4,
-        "title": "Which coding agent is everyone actually using in 2026?",
+        "rank": 8,
+        "title": "Human-AI Relations: Our Most Precious Inheritance",
         "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-09-13T16:20:15+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfc39x/which_coding_agent_is_everyone_actually_using_in/",
+        "aiScore": 79,
+        "publishedAt": "2026-09-13T22:41:17+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfm1ob/humanai_relations_our_most_precious_inheritance/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "Agent",
           "开源生态"
         ],
-        "summary": "Genuinely curious what the split looks like these days. I built a small open source tool called bough ( ) that reads the session history your coding agent leaves on disk and draws what you…",
+        "summary": "In this essay, I struggle with questions that have preoccupied me for 15 years as a cognitive scientist, but never as vividly and urgently as in the past few months, particularly the last f…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
@@ -98,84 +191,71 @@
         }
       },
       {
-        "rank": 5,
-        "title": "AI keeps stubbornly refusing to take our jobs",
-        "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-13T16:38:41+00:00",
-        "sourceUrl": "https://www.noahpinion.blog/p/ai-keeps-stubbornly-refusing-to-take",
-        "sourceName": "Hacker News AI",
+        "rank": 9,
+        "title": "What Does “Winning” the AI Race Actually Mean?",
+        "platform": "Reddit",
+        "aiScore": 79,
+        "publishedAt": "2026-09-13T19:22:18+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfh0dy/what_does_winning_the_ai_race_actually_mean/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展",
+          "开源生态"
         ],
-        "summary": "AI keeps stubbornly refusing to take our jobs",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "People are so unrealistic about the AI race. What guarantees that the US will reach AGI/ASI or the singularity before a disaster happens? And what will happen the next day after the US “win…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "topic": 18,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 6,
-        "title": "Chances of Survival (for AI and Humanity)",
+        "rank": 10,
+        "title": "Show HN: Kepil – passport, mandate and tamper-evident journal for AI agents",
         "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-13T16:36:02+00:00",
-        "sourceUrl": "https://qosys.info/chances-of-survival",
+        "aiScore": 78,
+        "publishedAt": "2026-09-14T05:28:36+00:00",
+        "sourceUrl": "https://github.com/oleg-vdv/kepil",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "Agent"
         ],
-        "summary": "Chances of Survival (for AI and Humanity)",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Show HN: Kepil – passport, mandate and tamper-evident journal for AI agents",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "AI Tools Accelerates Coding, but Not Overall Software Delivery – GitLab Research",
-        "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-13T16:03:16+00:00",
-        "sourceUrl": "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "AI Tools Accelerates Coding, but Not Overall Software Delivery – GitLab Research",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 7,
-      "avgScore": 79.6,
+      "totalItems": 36,
+      "avgScore": 72.4,
       "topScore": 94,
       "topPlatforms": [
         {
-          "name": "Reddit",
-          "count": 3
+          "name": "Hacker News",
+          "count": 15
         },
         {
-          "name": "Hacker News",
-          "count": 3
+          "name": "Reddit",
+          "count": 12
+        },
+        {
+          "name": "量子位",
+          "count": 4
+        },
+        {
+          "name": "爱范儿",
+          "count": 2
         },
         {
           "name": "OpenAI",
@@ -184,30 +264,42 @@
       ],
       "topTopics": [
         {
+          "name": "AI动态",
+          "count": 18
+        },
+        {
           "name": "模型进展",
-          "count": 3
+          "count": 10
         },
         {
           "name": "Agent",
-          "count": 3
-        },
-        {
-          "name": "AI动态",
-          "count": 3
-        },
-        {
-          "name": "应用落地",
-          "count": 1
+          "count": 6
         },
         {
           "name": "开源生态",
+          "count": 5
+        },
+        {
+          "name": "应用落地",
+          "count": 3
+        },
+        {
+          "name": "安全治理",
+          "count": 2
+        },
+        {
+          "name": "内容生产",
+          "count": 1
+        },
+        {
+          "name": "芯片算力",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 7 条 AI 资讯，Top10 通报见下。",
-      "高频主题：模型进展 / Agent / AI动态",
+      "今日共收录 36 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / Agent",
       "最高分事件：Perplexity trusts GPT-6 Astra with end-to-end systems（94 分）",
       "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
@@ -242,18 +334,19 @@
         },
         {
           "rank": 4,
-          "title": "A Little Black Humor Fun",
-          "platform": "Reddit",
+          "title": "Show HN: Replay – Audit silent prompt cache misses in AI agent transcripts",
+          "platform": "Hacker News",
           "aiScore": 88,
-          "publishedAt": "2026-09-13T16:45:23+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfcr8r/a_little_black_humor_fun/",
-          "sourceName": "Reddit r/artificial",
+          "publishedAt": "2026-09-14T02:38:58+00:00",
+          "sourceUrl": "https://replay.doctor/",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "I wanted to list out all the options for how AI could go wrong. Wrong being major human suffering or extinction. No using AI. Let's do some good old fashioned brainstorming and maybe even r…",
+          "summary": "I built Replay because AI agent bills spike without a single warning or error in your logs when a prompt cache breaks. Whether your team runs Claude Code, Cursor, or Aider, the provider jus…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -264,10 +357,102 @@
           }
         },
         {
+          "rank": 3,
+          "title": "GitHub Actions default configs from Anthropic, Google, and OpenAI's own coding agents were all vulnerable to the same RCE",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-09-14T02:33:57+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfr3vz/github_actions_default_configs_from_anthropic/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "开源生态",
+            "内容生产"
+          ],
+          "summary": "Security researchers found that the default GitHub Actions configuration each of the three major labs publishes for their own coding agents (Claude Code, Gemini CLI, and Codex) could all be…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "AI开始改进“改进自己的方法”，RSI进入平方时代丨MetaRSI",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-09-14T03:45:46+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/488832.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "小模型突破瓶颈，旗舰模型打开新空间",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
           "rank": 5,
+          "title": "智谱提前剧透GLM-6.0：完全自训练方法公开了",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-09-14T00:30:56+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/488694.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "模型、论文都还没出，没想到先从财务公告上剧透了",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "The Very Real Threat of a Persistent Botnet",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-09-13T21:11:20+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfjurc/the_very_real_threat_of_a_persistent_botnet/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "Dario Amodei wrote yesterday that he’s worried that “in 6–12 months... [an agent] swarm could be capable of taking over the entire internet with a persistent botnet.” This might sound like…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
           "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
           "platform": "Reddit",
-          "aiScore": 88,
+          "aiScore": 81,
           "publishedAt": "2026-09-13T16:06:35+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfbqad/someone_explain_it_to_me_like_im_five_they_know/",
           "sourceName": "Reddit r/artificial",
@@ -279,7 +464,7 @@
           "summary": "All this “Oh we need to pause because AI can kill us all” talk coming from the people that spent the largest capital in human history for the non existent ROI…. How? How can a trillion para…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 20,
             "actionability": 10,
@@ -287,22 +472,22 @@
           }
         },
         {
-          "rank": 4,
-          "title": "Which coding agent is everyone actually using in 2026?",
+          "rank": 8,
+          "title": "Human-AI Relations: Our Most Precious Inheritance",
           "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-09-13T16:20:15+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfc39x/which_coding_agent_is_everyone_actually_using_in/",
+          "aiScore": 79,
+          "publishedAt": "2026-09-13T22:41:17+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfm1ob/humanai_relations_our_most_precious_inheritance/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "Agent",
             "开源生态"
           ],
-          "summary": "Genuinely curious what the split looks like these days. I built a small open source tool called bough ( ) that reads the session history your coding agent leaves on disk and draws what you…",
+          "summary": "In this essay, I struggle with questions that have preoccupied me for 15 years as a cognitive scientist, but never as vividly and urgently as in the past few months, particularly the last f…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 18,
             "actionability": 10,
@@ -310,84 +495,71 @@
           }
         },
         {
-          "rank": 5,
-          "title": "AI keeps stubbornly refusing to take our jobs",
-          "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-13T16:38:41+00:00",
-          "sourceUrl": "https://www.noahpinion.blog/p/ai-keeps-stubbornly-refusing-to-take",
-          "sourceName": "Hacker News AI",
+          "rank": 9,
+          "title": "What Does “Winning” the AI Race Actually Mean?",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-09-13T19:22:18+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfh0dy/what_does_winning_the_ai_race_actually_mean/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展",
+            "开源生态"
           ],
-          "summary": "AI keeps stubbornly refusing to take our jobs",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "People are so unrealistic about the AI race. What guarantees that the US will reach AGI/ASI or the singularity before a disaster happens? And what will happen the next day after the US “win…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "topic": 18,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 6,
-          "title": "Chances of Survival (for AI and Humanity)",
+          "rank": 10,
+          "title": "Show HN: Kepil – passport, mandate and tamper-evident journal for AI agents",
           "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-13T16:36:02+00:00",
-          "sourceUrl": "https://qosys.info/chances-of-survival",
+          "aiScore": 78,
+          "publishedAt": "2026-09-14T05:28:36+00:00",
+          "sourceUrl": "https://github.com/oleg-vdv/kepil",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "Agent"
           ],
-          "summary": "Chances of Survival (for AI and Humanity)",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Show HN: Kepil – passport, mandate and tamper-evident journal for AI agents",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "AI Tools Accelerates Coding, but Not Overall Software Delivery – GitLab Research",
-          "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-13T16:03:16+00:00",
-          "sourceUrl": "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "AI Tools Accelerates Coding, but Not Overall Software Delivery – GitLab Research",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 7,
-        "avgScore": 79.6,
+        "totalItems": 36,
+        "avgScore": 72.4,
         "topScore": 94,
         "topPlatforms": [
           {
-            "name": "Reddit",
-            "count": 3
+            "name": "Hacker News",
+            "count": 15
           },
           {
-            "name": "Hacker News",
-            "count": 3
+            "name": "Reddit",
+            "count": 12
+          },
+          {
+            "name": "量子位",
+            "count": 4
+          },
+          {
+            "name": "爱范儿",
+            "count": 2
           },
           {
             "name": "OpenAI",
@@ -396,30 +568,42 @@
         ],
         "topTopics": [
           {
+            "name": "AI动态",
+            "count": 18
+          },
+          {
             "name": "模型进展",
-            "count": 3
+            "count": 10
           },
           {
             "name": "Agent",
-            "count": 3
-          },
-          {
-            "name": "AI动态",
-            "count": 3
-          },
-          {
-            "name": "应用落地",
-            "count": 1
+            "count": 6
           },
           {
             "name": "开源生态",
+            "count": 5
+          },
+          {
+            "name": "应用落地",
+            "count": 3
+          },
+          {
+            "name": "安全治理",
+            "count": 2
+          },
+          {
+            "name": "内容生产",
+            "count": 1
+          },
+          {
+            "name": "芯片算力",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 7 条 AI 资讯，Top10 通报见下。",
-        "高频主题：模型进展 / Agent / AI动态",
+        "今日共收录 36 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / Agent",
         "最高分事件：Perplexity trusts GPT-6 Astra with end-to-end systems（94 分）",
         "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
@@ -429,7 +613,7 @@
       "label": "9月13日",
       "top10": [
         {
-          "rank": 6,
+          "rank": 5,
           "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -452,7 +636,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -476,7 +660,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "It knew 2 + 2 = 4. Why didn’t it answer?",
           "platform": "Reddit",
           "aiScore": 87,
@@ -724,7 +908,7 @@
       "label": "9月12日",
       "top10": [
         {
-          "rank": 8,
+          "rank": 10,
           "title": "OpenAI 直接瞄准了初级银行家的职位，并称其为金融服务产品",
           "platform": "Reddit",
           "aiScore": 87,
@@ -1616,7 +1800,7 @@
       "label": "9月9日",
       "top10": [
         {
-          "rank": 8,
+          "rank": 7,
           "title": "也许社会主义是人工智能时代的答案",
           "platform": "Reddit",
           "aiScore": 88,
@@ -1915,7 +2099,7 @@
       "label": "9月8日",
       "top10": [
         {
-          "rank": 9,
+          "rank": 8,
           "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27541,24 +27725,24 @@
     },
     "metrics": {
       "daysCovered": 7,
-      "totalItems": 231,
-      "avgTop10Score": 89.7,
+      "totalItems": 260,
+      "avgTop10Score": 89.6,
       "topScore": 95,
       "topPlatforms": [
         {
           "name": "Reddit",
-          "count": 6
+          "count": 5
         },
         {
           "name": "量子位",
           "count": 2
         },
         {
-          "name": "OpenAI",
-          "count": 1
+          "name": "Hacker News",
+          "count": 2
         },
         {
-          "name": "Hacker News",
+          "name": "OpenAI",
           "count": 1
         }
       ],
@@ -27569,15 +27753,15 @@
         },
         {
           "name": "Agent",
-          "count": 6
+          "count": 5
         },
         {
           "name": "应用落地",
-          "count": 2
+          "count": 3
         },
         {
           "name": "开源生态",
-          "count": 2
+          "count": 3
         },
         {
           "name": "芯片算力",
@@ -27661,18 +27845,19 @@
       },
       {
         "rank": 4,
-        "title": "A Little Black Humor Fun",
-        "platform": "Reddit",
+        "title": "Show HN: Replay – Audit silent prompt cache misses in AI agent transcripts",
+        "platform": "Hacker News",
         "aiScore": 88,
-        "publishedAt": "2026-09-13T16:45:23+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfcr8r/a_little_black_humor_fun/",
-        "sourceName": "Reddit r/artificial",
+        "publishedAt": "2026-09-14T02:38:58+00:00",
+        "sourceUrl": "https://replay.doctor/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "I wanted to list out all the options for how AI could go wrong. Wrong being major human suffering or extinction. No using AI. Let's do some good old fashioned brainstorming and maybe even r…",
+        "summary": "I built Replay because AI agent bills spike without a single warning or error in your logs when a prompt cache breaks. Whether your team runs Claude Code, Cursor, or Aider, the provider jus…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -27684,29 +27869,6 @@
       },
       {
         "rank": 5,
-        "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-09-13T16:06:35+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfbqad/someone_explain_it_to_me_like_im_five_they_know/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "All this “Oh we need to pause because AI can kill us all” talk coming from the people that spent the largest capital in human history for the non existent ROI…. How? How can a trillion para…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
         "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -27729,7 +27891,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27753,7 +27915,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 7,
         "title": "也许社会主义是人工智能时代的答案",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27777,7 +27939,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 8,
         "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27800,7 +27962,7 @@
         }
       },
       {
-        "rank": 10,
+        "rank": 9,
         "title": "It knew 2 + 2 = 4. Why didn’t it answer?",
         "platform": "Reddit",
         "aiScore": 87,
@@ -27822,10 +27984,33 @@
           "actionability": 10,
           "heat": 5
         }
+      },
+      {
+        "rank": 10,
+        "title": "OpenAI 直接瞄准了初级银行家的职位，并称其为金融服务产品",
+        "platform": "Reddit",
+        "aiScore": 87,
+        "publishedAt": "2026-09-12T14:36:07+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wee9m4/openai_just_went_directly_after_junior_banker/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "OpenAI 推出了针对金融服务的 ChatGPT，其功能列表并不微妙。研究、财务建模、宣传手册准备。这些是证明雇用一个班级的三件事是合理的……",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
       }
     ],
     "briefing": [
-      "9月第2周累计收录 231 条资讯，覆盖 7 天。",
+      "9月第2周累计收录 260 条资讯，覆盖 7 天。",
       "高频主题：模型进展 / Agent / 应用落地",
       "本周最高分：打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -27841,24 +28026,24 @@
       },
       "metrics": {
         "daysCovered": 7,
-        "totalItems": 231,
-        "avgTop10Score": 89.7,
+        "totalItems": 260,
+        "avgTop10Score": 89.6,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "Reddit",
-            "count": 6
+            "count": 5
           },
           {
             "name": "量子位",
             "count": 2
           },
           {
-            "name": "OpenAI",
-            "count": 1
+            "name": "Hacker News",
+            "count": 2
           },
           {
-            "name": "Hacker News",
+            "name": "OpenAI",
             "count": 1
           }
         ],
@@ -27869,15 +28054,15 @@
           },
           {
             "name": "Agent",
-            "count": 6
+            "count": 5
           },
           {
             "name": "应用落地",
-            "count": 2
+            "count": 3
           },
           {
             "name": "开源生态",
-            "count": 2
+            "count": 3
           },
           {
             "name": "芯片算力",
@@ -27961,18 +28146,19 @@
         },
         {
           "rank": 4,
-          "title": "A Little Black Humor Fun",
-          "platform": "Reddit",
+          "title": "Show HN: Replay – Audit silent prompt cache misses in AI agent transcripts",
+          "platform": "Hacker News",
           "aiScore": 88,
-          "publishedAt": "2026-09-13T16:45:23+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfcr8r/a_little_black_humor_fun/",
-          "sourceName": "Reddit r/artificial",
+          "publishedAt": "2026-09-14T02:38:58+00:00",
+          "sourceUrl": "https://replay.doctor/",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent"
+            "Agent",
+            "开源生态"
           ],
-          "summary": "I wanted to list out all the options for how AI could go wrong. Wrong being major human suffering or extinction. No using AI. Let's do some good old fashioned brainstorming and maybe even r…",
+          "summary": "I built Replay because AI agent bills spike without a single warning or error in your logs when a prompt cache breaks. Whether your team runs Claude Code, Cursor, or Aider, the provider jus…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -27984,29 +28170,6 @@
         },
         {
           "rank": 5,
-          "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-09-13T16:06:35+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfbqad/someone_explain_it_to_me_like_im_five_they_know/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "All this “Oh we need to pause because AI can kill us all” talk coming from the people that spent the largest capital in human history for the non existent ROI…. How? How can a trillion para…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
           "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -28029,7 +28192,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28053,7 +28216,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "也许社会主义是人工智能时代的答案",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28077,7 +28240,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28100,7 +28263,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "title": "It knew 2 + 2 = 4. Why didn’t it answer?",
           "platform": "Reddit",
           "aiScore": 87,
@@ -28122,10 +28285,33 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 10,
+          "title": "OpenAI 直接瞄准了初级银行家的职位，并称其为金融服务产品",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-09-12T14:36:07+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wee9m4/openai_just_went_directly_after_junior_banker/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "OpenAI 推出了针对金融服务的 ChatGPT，其功能列表并不微妙。研究、财务建模、宣传手册准备。这些是证明雇用一个班级的三件事是合理的……",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "9月第2周累计收录 231 条资讯，覆盖 7 天。",
+        "9月第2周累计收录 260 条资讯，覆盖 7 天。",
         "高频主题：模型进展 / Agent / 应用落地",
         "本周最高分：打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
