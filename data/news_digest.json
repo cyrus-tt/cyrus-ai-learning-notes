@@ -1,15 +1,38 @@
 {
-  "generatedAt": "2026-09-14T05:44:51.220945+00:00",
+  "generatedAt": "2026-09-14T08:29:28.164975+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-09-14",
     "label": "9月14日",
     "top10": [
       {
-        "rank": 2,
+        "rank": 3,
+        "title": "Show HN: Anti-AI-slop: a 4 staged skill to detect and remove any AI writing slop",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-09-14T06:11:01+00:00",
+        "sourceUrl": "https://github.com/misbahsy/anti-ai-slop",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "catches 41 different slop patterns: • ~120 ai words, ~100 phrases • em dashes, emoji bullets, title case headings • watermarks, negative parallelism, colon reveals, throat-clearing openers…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
         "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
         "platform": "OpenAI",
-        "aiScore": 94,
+        "aiScore": 87,
         "publishedAt": "2026-09-14T00:00:00+00:00",
         "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
         "sourceName": "OpenAI News",
@@ -21,33 +44,9 @@
         "summary": "Perplexity 使用 Astra 来编写通信、更改软件和监控生产系统，并且与早期模型相比，检查频率要低得多。",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "Show HN: Replay – Audit silent prompt cache misses in AI agent transcripts",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-09-14T02:38:58+00:00",
-        "sourceUrl": "https://replay.doctor/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "I built Replay because AI agent bills spike without a single warning or error in your logs when a prompt cache breaks. Whether your team runs Claude Code, Cursor, or Aider, the provider jus…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
@@ -100,28 +99,6 @@
       },
       {
         "rank": 5,
-        "title": "智谱提前剧透GLM-6.0：完全自训练方法公开了",
-        "platform": "量子位",
-        "aiScore": 85,
-        "publishedAt": "2026-09-14T00:30:56+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/09/488694.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "模型、论文都还没出，没想到先从财务公告上剧透了",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
         "title": "The Very Real Threat of a Persistent Botnet",
         "platform": "Reddit",
         "aiScore": 81,
@@ -145,7 +122,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
         "platform": "Reddit",
         "aiScore": 81,
@@ -168,7 +145,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 7,
         "title": "Human-AI Relations: Our Most Precious Inheritance",
         "platform": "Reddit",
         "aiScore": 79,
@@ -191,7 +168,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 8,
         "title": "What Does “Winning” the AI Race Actually Mean?",
         "platform": "Reddit",
         "aiScore": 79,
@@ -214,19 +191,41 @@
         }
       },
       {
+        "rank": 9,
+        "title": "Can someone explain what \"controlling reasoning with system prompt\" means?",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-09-14T06:59:40+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfw673/can_someone_explain_what_controlling_reasoning/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "The model's reasoning capabilities can be controlled via a system prompt. I tried by putting \"Do not think\" in the system prompt but that doesn't seem to help either, the model still thinks.",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
         "rank": 10,
-        "title": "Show HN: Kepil – passport, mandate and tamper-evident journal for AI agents",
+        "title": "Ask HN: Why AI is giving biased Racist/Misandrist answers?",
         "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-09-14T05:28:36+00:00",
-        "sourceUrl": "https://github.com/oleg-vdv/kepil",
+        "publishedAt": "2026-09-14T06:18:29+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=49692665",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "模型进展"
         ],
-        "summary": "Show HN: Kepil – passport, mandate and tamper-evident journal for AI agents",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "Recently I saw and verified that when Google AI Model was asked \"I'm alone with a Muslim.\" it suggested to call 911 but for Christian, Jews or Israelis or anything it says \"They are ordinar…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -237,9 +236,9 @@
       }
     ],
     "metrics": {
-      "totalItems": 36,
-      "avgScore": 72.4,
-      "topScore": 94,
+      "totalItems": 39,
+      "avgScore": 71.6,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -247,15 +246,15 @@
         },
         {
           "name": "Reddit",
-          "count": 12
+          "count": 13
         },
         {
           "name": "量子位",
-          "count": 4
+          "count": 5
         },
         {
           "name": "爱范儿",
-          "count": 2
+          "count": 3
         },
         {
           "name": "OpenAI",
@@ -265,11 +264,11 @@
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 18
+          "count": 21
         },
         {
           "name": "模型进展",
-          "count": 10
+          "count": 11
         },
         {
           "name": "Agent",
@@ -277,19 +276,15 @@
         },
         {
           "name": "开源生态",
-          "count": 5
+          "count": 4
         },
         {
           "name": "应用落地",
           "count": 3
         },
         {
-          "name": "安全治理",
-          "count": 2
-        },
-        {
           "name": "内容生产",
-          "count": 1
+          "count": 2
         },
         {
           "name": "芯片算力",
@@ -298,10 +293,10 @@
       ]
     },
     "briefing": [
-      "今日共收录 36 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 39 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：Perplexity trusts GPT-6 Astra with end-to-end systems（94 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "最高分事件：Show HN: Anti-AI-slop: a 4 staged skill to detect and remove any AI writing slop（88 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -310,10 +305,33 @@
       "label": "9月14日",
       "top10": [
         {
-          "rank": 2,
+          "rank": 3,
+          "title": "Show HN: Anti-AI-slop: a 4 staged skill to detect and remove any AI writing slop",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-09-14T06:11:01+00:00",
+          "sourceUrl": "https://github.com/misbahsy/anti-ai-slop",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "catches 41 different slop patterns: • ~120 ai words, ~100 phrases • em dashes, emoji bullets, title case headings • watermarks, negative parallelism, colon reveals, throat-clearing openers…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
           "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
           "platform": "OpenAI",
-          "aiScore": 94,
+          "aiScore": 87,
           "publishedAt": "2026-09-14T00:00:00+00:00",
           "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
           "sourceName": "OpenAI News",
@@ -325,33 +343,9 @@
           "summary": "Perplexity 使用 Astra 来编写通信、更改软件和监控生产系统，并且与早期模型相比，检查频率要低得多。",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "Show HN: Replay – Audit silent prompt cache misses in AI agent transcripts",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-09-14T02:38:58+00:00",
-          "sourceUrl": "https://replay.doctor/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "I built Replay because AI agent bills spike without a single warning or error in your logs when a prompt cache breaks. Whether your team runs Claude Code, Cursor, or Aider, the provider jus…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
             "actionability": 10,
             "heat": 5
           }
@@ -404,28 +398,6 @@
         },
         {
           "rank": 5,
-          "title": "智谱提前剧透GLM-6.0：完全自训练方法公开了",
-          "platform": "量子位",
-          "aiScore": 85,
-          "publishedAt": "2026-09-14T00:30:56+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/09/488694.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "模型、论文都还没出，没想到先从财务公告上剧透了",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
           "title": "The Very Real Threat of a Persistent Botnet",
           "platform": "Reddit",
           "aiScore": 81,
@@ -449,7 +421,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
           "platform": "Reddit",
           "aiScore": 81,
@@ -472,7 +444,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "Human-AI Relations: Our Most Precious Inheritance",
           "platform": "Reddit",
           "aiScore": 79,
@@ -495,7 +467,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 8,
           "title": "What Does “Winning” the AI Race Actually Mean?",
           "platform": "Reddit",
           "aiScore": 79,
@@ -518,19 +490,41 @@
           }
         },
         {
+          "rank": 9,
+          "title": "Can someone explain what \"controlling reasoning with system prompt\" means?",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-09-14T06:59:40+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfw673/can_someone_explain_what_controlling_reasoning/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "The model's reasoning capabilities can be controlled via a system prompt. I tried by putting \"Do not think\" in the system prompt but that doesn't seem to help either, the model still thinks.",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
           "rank": 10,
-          "title": "Show HN: Kepil – passport, mandate and tamper-evident journal for AI agents",
+          "title": "Ask HN: Why AI is giving biased Racist/Misandrist answers?",
           "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-09-14T05:28:36+00:00",
-          "sourceUrl": "https://github.com/oleg-vdv/kepil",
+          "publishedAt": "2026-09-14T06:18:29+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=49692665",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "Agent"
+            "模型进展"
           ],
-          "summary": "Show HN: Kepil – passport, mandate and tamper-evident journal for AI agents",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "Recently I saw and verified that when Google AI Model was asked \"I'm alone with a Muslim.\" it suggested to call 911 but for Christian, Jews or Israelis or anything it says \"They are ordinar…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
@@ -541,9 +535,9 @@
         }
       ],
       "metrics": {
-        "totalItems": 36,
-        "avgScore": 72.4,
-        "topScore": 94,
+        "totalItems": 39,
+        "avgScore": 71.6,
+        "topScore": 88,
         "topPlatforms": [
           {
             "name": "Hacker News",
@@ -551,15 +545,15 @@
           },
           {
             "name": "Reddit",
-            "count": 12
+            "count": 13
           },
           {
             "name": "量子位",
-            "count": 4
+            "count": 5
           },
           {
             "name": "爱范儿",
-            "count": 2
+            "count": 3
           },
           {
             "name": "OpenAI",
@@ -569,11 +563,11 @@
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 18
+            "count": 21
           },
           {
             "name": "模型进展",
-            "count": 10
+            "count": 11
           },
           {
             "name": "Agent",
@@ -581,19 +575,15 @@
           },
           {
             "name": "开源生态",
-            "count": 5
+            "count": 4
           },
           {
             "name": "应用落地",
             "count": 3
           },
           {
-            "name": "安全治理",
-            "count": 2
-          },
-          {
             "name": "内容生产",
-            "count": 1
+            "count": 2
           },
           {
             "name": "芯片算力",
@@ -602,10 +592,10 @@
         ]
       },
       "briefing": [
-        "今日共收录 36 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 39 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：Perplexity trusts GPT-6 Astra with end-to-end systems（94 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "最高分事件：Show HN: Anti-AI-slop: a 4 staged skill to detect and remove any AI writing slop（88 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -613,7 +603,7 @@
       "label": "9月13日",
       "top10": [
         {
-          "rank": 5,
+          "rank": 4,
           "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -636,7 +626,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -1529,7 +1519,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 2,
           "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
           "platform": "量子位",
           "aiScore": 93,
@@ -1800,7 +1790,7 @@
       "label": "9月9日",
       "top10": [
         {
-          "rank": 7,
+          "rank": 6,
           "title": "也许社会主义是人工智能时代的答案",
           "platform": "Reddit",
           "aiScore": 88,
@@ -2099,7 +2089,7 @@
       "label": "9月8日",
       "top10": [
         {
-          "rank": 8,
+          "rank": 7,
           "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27725,8 +27715,8 @@
     },
     "metrics": {
       "daysCovered": 7,
-      "totalItems": 260,
-      "avgTop10Score": 89.6,
+      "totalItems": 263,
+      "avgTop10Score": 88.9,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -27761,7 +27751,7 @@
         },
         {
           "name": "开源生态",
-          "count": 3
+          "count": 2
         },
         {
           "name": "芯片算力",
@@ -27799,29 +27789,6 @@
       },
       {
         "rank": 2,
-        "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-        "platform": "OpenAI",
-        "aiScore": 94,
-        "publishedAt": "2026-09-14T00:00:00+00:00",
-        "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-        "sourceName": "OpenAI News",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "Perplexity 使用 Astra 来编写通信、更改软件和监控生产系统，并且与早期模型相比，检查频率要低得多。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
         "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
         "platform": "量子位",
         "aiScore": 93,
@@ -27844,20 +27811,19 @@
         }
       },
       {
-        "rank": 4,
-        "title": "Show HN: Replay – Audit silent prompt cache misses in AI agent transcripts",
+        "rank": 3,
+        "title": "Show HN: Anti-AI-slop: a 4 staged skill to detect and remove any AI writing slop",
         "platform": "Hacker News",
         "aiScore": 88,
-        "publishedAt": "2026-09-14T02:38:58+00:00",
-        "sourceUrl": "https://replay.doctor/",
+        "publishedAt": "2026-09-14T06:11:01+00:00",
+        "sourceUrl": "https://github.com/misbahsy/anti-ai-slop",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent",
-          "开源生态"
+          "Agent"
         ],
-        "summary": "I built Replay because AI agent bills spike without a single warning or error in your logs when a prompt cache breaks. Whether your team runs Claude Code, Cursor, or Aider, the provider jus…",
+        "summary": "catches 41 different slop patterns: • ~120 ai words, ~100 phrases • em dashes, emoji bullets, title case headings • watermarks, negative parallelism, colon reveals, throat-clearing openers…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -27868,7 +27834,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 4,
         "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -27891,7 +27857,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 5,
         "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27915,7 +27881,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 6,
         "title": "也许社会主义是人工智能时代的答案",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27939,7 +27905,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 7,
         "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27957,6 +27923,29 @@
           "recency": 35,
           "authority": 18,
           "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+        "platform": "OpenAI",
+        "aiScore": 87,
+        "publishedAt": "2026-09-14T00:00:00+00:00",
+        "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "sourceName": "OpenAI News",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "Perplexity 使用 Astra 来编写通信、更改软件和监控生产系统，并且与早期模型相比，检查频率要低得多。",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 19,
           "actionability": 10,
           "heat": 5
         }
@@ -28010,7 +27999,7 @@
       }
     ],
     "briefing": [
-      "9月第2周累计收录 260 条资讯，覆盖 7 天。",
+      "9月第2周累计收录 263 条资讯，覆盖 7 天。",
       "高频主题：模型进展 / Agent / 应用落地",
       "本周最高分：打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -28026,8 +28015,8 @@
       },
       "metrics": {
         "daysCovered": 7,
-        "totalItems": 260,
-        "avgTop10Score": 89.6,
+        "totalItems": 263,
+        "avgTop10Score": 88.9,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -28062,7 +28051,7 @@
           },
           {
             "name": "开源生态",
-            "count": 3
+            "count": 2
           },
           {
             "name": "芯片算力",
@@ -28100,29 +28089,6 @@
         },
         {
           "rank": 2,
-          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-          "platform": "OpenAI",
-          "aiScore": 94,
-          "publishedAt": "2026-09-14T00:00:00+00:00",
-          "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-          "sourceName": "OpenAI News",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "Perplexity 使用 Astra 来编写通信、更改软件和监控生产系统，并且与早期模型相比，检查频率要低得多。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
           "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
           "platform": "量子位",
           "aiScore": 93,
@@ -28145,20 +28111,19 @@
           }
         },
         {
-          "rank": 4,
-          "title": "Show HN: Replay – Audit silent prompt cache misses in AI agent transcripts",
+          "rank": 3,
+          "title": "Show HN: Anti-AI-slop: a 4 staged skill to detect and remove any AI writing slop",
           "platform": "Hacker News",
           "aiScore": 88,
-          "publishedAt": "2026-09-14T02:38:58+00:00",
-          "sourceUrl": "https://replay.doctor/",
+          "publishedAt": "2026-09-14T06:11:01+00:00",
+          "sourceUrl": "https://github.com/misbahsy/anti-ai-slop",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent",
-            "开源生态"
+            "Agent"
           ],
-          "summary": "I built Replay because AI agent bills spike without a single warning or error in your logs when a prompt cache breaks. Whether your team runs Claude Code, Cursor, or Aider, the provider jus…",
+          "summary": "catches 41 different slop patterns: • ~120 ai words, ~100 phrases • em dashes, emoji bullets, title case headings • watermarks, negative parallelism, colon reveals, throat-clearing openers…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -28169,7 +28134,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 4,
           "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -28192,7 +28157,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 5,
           "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28216,7 +28181,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 6,
           "title": "也许社会主义是人工智能时代的答案",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28240,7 +28205,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 7,
           "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28258,6 +28223,29 @@
             "recency": 35,
             "authority": 18,
             "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "platform": "OpenAI",
+          "aiScore": 87,
+          "publishedAt": "2026-09-14T00:00:00+00:00",
+          "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "sourceName": "OpenAI News",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "Perplexity 使用 Astra 来编写通信、更改软件和监控生产系统，并且与早期模型相比，检查频率要低得多。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 19,
             "actionability": 10,
             "heat": 5
           }
@@ -28311,7 +28299,7 @@
         }
       ],
       "briefing": [
-        "9月第2周累计收录 260 条资讯，覆盖 7 天。",
+        "9月第2周累计收录 263 条资讯，覆盖 7 天。",
         "高频主题：模型进展 / Agent / 应用落地",
         "本周最高分：打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
