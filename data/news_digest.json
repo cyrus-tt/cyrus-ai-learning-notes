@@ -1,24 +1,25 @@
 {
-  "generatedAt": "2026-09-14T08:29:28.164975+00:00",
+  "generatedAt": "2026-09-14T18:19:49.728844+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-09-14",
-    "label": "9月14日",
+    "date": "2026-09-15",
+    "label": "9月15日",
     "top10": [
       {
-        "rank": 3,
-        "title": "Show HN: Anti-AI-slop: a 4 staged skill to detect and remove any AI writing slop",
+        "rank": 1,
+        "title": "Show HN: Threshyr – An offline automatic time tracker with on-device AI",
         "platform": "Hacker News",
         "aiScore": 88,
-        "publishedAt": "2026-09-14T06:11:01+00:00",
-        "sourceUrl": "https://github.com/misbahsy/anti-ai-slop",
+        "publishedAt": "2026-09-14T17:53:51+00:00",
+        "sourceUrl": "https://threshyr.com",
         "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "industryStage": "下游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "应用落地"
         ],
-        "summary": "catches 41 different slop patterns: • ~120 ai words, ~100 phrases • em dashes, emoji bullets, title case headings • watermarks, negative parallelism, colon reveals, throat-clearing openers…",
+        "summary": "I've built and continuously improved Threshyr based on the problem I faced myself. I was working on more than 3 projects at one time. At the end of any day/week/month if I had to calculate…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -29,43 +30,43 @@
         }
       },
       {
-        "rank": 8,
-        "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-        "platform": "OpenAI",
-        "aiScore": 87,
-        "publishedAt": "2026-09-14T00:00:00+00:00",
-        "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-        "sourceName": "OpenAI News",
+        "rank": 2,
+        "title": "55% of Americans fear humans will lose their critical thinking skills due to AI",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-09-14T18:04:02+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wgb0b0/55_of_americans_fear_humans_will_lose_their/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "应用落地"
+          "Agent",
+          "开源生态"
         ],
-        "summary": "Perplexity 使用 Astra 来编写通信、更改软件和监控生产系统，并且与早期模型相比，检查频率要低得多。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "A new U.S. survey by Elon University indicates many are afraid AI will lead to a loss of human agency. - 69% think AI will weaken human-to-human bonds - 64% say AI will undermine our sense…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 19,
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 3,
-        "title": "GitHub Actions default configs from Anthropic, Google, and OpenAI's own coding agents were all vulnerable to the same RCE",
+        "title": "AIPass Update #22 - A CI job showed green while 32 tests failed inside it. A one-line fix turned it red for 22 hours, and every red was tru…",
         "platform": "Reddit",
         "aiScore": 86,
-        "publishedAt": "2026-09-14T02:33:57+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfr3vz/github_actions_default_configs_from_anthropic/",
+        "publishedAt": "2026-09-14T17:17:17+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wg9n28/aipass_update_22_a_ci_job_showed_green_while_32/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "下游",
         "contentTags": [
           "Agent",
           "开源生态",
-          "内容生产"
+          "自动化"
         ],
-        "summary": "Security researchers found that the default GitHub Actions configuration each of the three major labs publishes for their own coding agents (Claude Code, Gemini CLI, and Codex) could all be…",
+        "summary": "AIPass Update #22 - A CI job showed green while 32 tests failed inside it. A one-line fix turned it red for 22 hours, and every red was true. On September 11, while fact-checking the last o…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -77,132 +78,40 @@
       },
       {
         "rank": 4,
-        "title": "AI开始改进“改进自己的方法”，RSI进入平方时代丨MetaRSI",
-        "platform": "量子位",
+        "title": "The case for workflow-driven AI software development and vibe coding",
+        "platform": "Hacker News",
         "aiScore": 85,
-        "publishedAt": "2026-09-14T03:45:46+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/09/488832.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
+        "publishedAt": "2026-09-14T17:33:23+00:00",
+        "sourceUrl": "https://blog.codeyam.com/p/workflows-for-the-win-for-non-developers",
+        "sourceName": "Hacker News AI",
+        "industryStage": "下游",
         "contentTags": [
-          "模型进展"
+          "Agent",
+          "自动化"
         ],
-        "summary": "小模型突破瓶颈，旗舰模型打开新空间",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "The case for workflow-driven AI software development and vibe coding",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
-          "topic": 10,
+          "authority": 18,
+          "topic": 17,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "The Very Real Threat of a Persistent Botnet",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-09-13T21:11:20+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfjurc/the_very_real_threat_of_a_persistent_botnet/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "Dario Amodei wrote yesterday that he’s worried that “in 6–12 months... [an agent] swarm could be capable of taking over the entire internet with a persistent botnet.” This might sound like…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-09-13T16:06:35+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfbqad/someone_explain_it_to_me_like_im_five_they_know/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "All this “Oh we need to pause because AI can kill us all” talk coming from the people that spent the largest capital in human history for the non existent ROI…. How? How can a trillion para…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "Human-AI Relations: Our Most Precious Inheritance",
-        "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-09-13T22:41:17+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfm1ob/humanai_relations_our_most_precious_inheritance/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "In this essay, I struggle with questions that have preoccupied me for 15 years as a cognitive scientist, but never as vividly and urgently as in the past few months, particularly the last f…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "What Does “Winning” the AI Race Actually Mean?",
-        "platform": "Reddit",
-        "aiScore": 79,
-        "publishedAt": "2026-09-13T19:22:18+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfh0dy/what_does_winning_the_ai_race_actually_mean/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "People are so unrealistic about the AI race. What guarantees that the US will reach AGI/ASI or the singularity before a disaster happens? And what will happen the next day after the US “win…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "Can someone explain what \"controlling reasoning with system prompt\" means?",
-        "platform": "Reddit",
+        "title": "Two Reminders about AI",
+        "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-09-14T06:59:40+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wfw673/can_someone_explain_what_controlling_reasoning/",
-        "sourceName": "Reddit r/artificial",
+        "publishedAt": "2026-09-14T17:18:18+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=49700513",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "The model's reasoning capabilities can be controlled via a system prompt. I tried by putting \"Do not think\" in the system prompt but that doesn't seem to help either, the model still thinks.",
+        "summary": "A model in an idle state will do nothing unless prompted by a user or researcher. Air-gapped systems do not have physical network access to the outside world.",
         "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -213,31 +122,119 @@
         }
       },
       {
-        "rank": 10,
-        "title": "Ask HN: Why AI is giving biased Racist/Misandrist answers?",
+        "rank": 6,
+        "title": "DevFest is back",
+        "platform": "Google AI Blog",
+        "aiScore": 74,
+        "publishedAt": "2026-09-14T16:00:00+00:00",
+        "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+        "sourceName": "Google AI Blog",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "Animation of the text \"{DevFest} 2026 Join us! Google Developer Groups\" with a globe icon, asterisk icon, icon",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "Apple releases OS 27 updates with Siri AI",
         "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-14T06:18:29+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49692665",
+        "aiScore": 73,
+        "publishedAt": "2026-09-14T17:52:44+00:00",
+        "sourceUrl": "https://www.theverge.com/news/994756/apple-ios-27-launch-iphone-siri-ai-update",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展"
+          "AI动态"
         ],
-        "summary": "Recently I saw and verified that when Google AI Model was asked \"I'm alone with a Muslim.\" it suggested to call 911 but for Christian, Jews or Israelis or anything it says \"They are ordinar…",
+        "summary": "Apple releases OS 27 updates with Siri AI",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
+          "topic": 5,
           "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "Security through obscurity is dead, and AI delivered the fatal blow",
+        "platform": "Hacker News",
+        "aiScore": 70,
+        "publishedAt": "2026-09-14T18:03:45+00:00",
+        "sourceUrl": "https://www.theregister.com/security/2026/09/13/security-through-obscurity-is-dead-and-ai-delivered-the-fatal-blow/5296000",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "安全治理"
+        ],
+        "summary": "Security through obscurity is dead, and AI delivered the fatal blow",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 8,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "Google tests paying publishers for using its content in AI Mode and Gemini",
+        "platform": "Hacker News",
+        "aiScore": 68,
+        "publishedAt": "2026-09-14T18:06:47+00:00",
+        "sourceUrl": "https://searchengineland.com/google-tests-paying-publishers-for-using-its-content-in-ai-mode-ai-overviews-and-gemini-488382",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "内容生产"
+        ],
+        "summary": "Google tests paying publishers for using its content in AI Mode and Gemini",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 6,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "The Economics of Generative AI",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-14T18:09:04+00:00",
+        "sourceUrl": "https://tailwinds.substack.com/p/the-economics-of-generative-ai",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "The Economics of Generative AI",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 39,
-      "avgScore": 71.6,
+      "totalItems": 19,
+      "avgScore": 72.5,
       "topScore": 88,
       "topPlatforms": [
         {
@@ -246,60 +243,347 @@
         },
         {
           "name": "Reddit",
-          "count": 13
-        },
-        {
-          "name": "量子位",
-          "count": 5
-        },
-        {
-          "name": "爱范儿",
           "count": 3
         },
         {
-          "name": "OpenAI",
+          "name": "Google AI Blog",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 21
-        },
-        {
-          "name": "模型进展",
-          "count": 11
+          "count": 12
         },
         {
           "name": "Agent",
-          "count": 6
-        },
-        {
-          "name": "开源生态",
           "count": 4
         },
         {
-          "name": "应用落地",
-          "count": 3
-        },
-        {
-          "name": "内容生产",
+          "name": "开源生态",
           "count": 2
         },
         {
-          "name": "芯片算力",
+          "name": "模型进展",
+          "count": 2
+        },
+        {
+          "name": "自动化",
+          "count": 2
+        },
+        {
+          "name": "内容生产",
+          "count": 1
+        },
+        {
+          "name": "安全治理",
+          "count": 1
+        },
+        {
+          "name": "应用落地",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 39 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：Show HN: Anti-AI-slop: a 4 staged skill to detect and remove any AI writing slop（88 分）",
+      "今日共收录 19 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 开源生态",
+      "最高分事件：Show HN: Threshyr – An offline automatic time tracker with on-device AI（88 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-09-15",
+      "label": "9月15日",
+      "top10": [
+        {
+          "rank": 1,
+          "title": "Show HN: Threshyr – An offline automatic time tracker with on-device AI",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-09-14T17:53:51+00:00",
+          "sourceUrl": "https://threshyr.com",
+          "sourceName": "Hacker News AI",
+          "industryStage": "下游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "I've built and continuously improved Threshyr based on the problem I faced myself. I was working on more than 3 projects at one time. At the end of any day/week/month if I had to calculate…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "55% of Americans fear humans will lose their critical thinking skills due to AI",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-09-14T18:04:02+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wgb0b0/55_of_americans_fear_humans_will_lose_their/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "A new U.S. survey by Elon University indicates many are afraid AI will lead to a loss of human agency. - 69% think AI will weaken human-to-human bonds - 64% say AI will undermine our sense…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "AIPass Update #22 - A CI job showed green while 32 tests failed inside it. A one-line fix turned it red for 22 hours, and every red was tru…",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-09-14T17:17:17+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wg9n28/aipass_update_22_a_ci_job_showed_green_while_32/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "开源生态",
+            "自动化"
+          ],
+          "summary": "AIPass Update #22 - A CI job showed green while 32 tests failed inside it. A one-line fix turned it red for 22 hours, and every red was true. On September 11, while fact-checking the last o…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "The case for workflow-driven AI software development and vibe coding",
+          "platform": "Hacker News",
+          "aiScore": 85,
+          "publishedAt": "2026-09-14T17:33:23+00:00",
+          "sourceUrl": "https://blog.codeyam.com/p/workflows-for-the-win-for-non-developers",
+          "sourceName": "Hacker News AI",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "The case for workflow-driven AI software development and vibe coding",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Two Reminders about AI",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-09-14T17:18:18+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=49700513",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "A model in an idle state will do nothing unless prompted by a user or researcher. Air-gapped systems do not have physical network access to the outside world.",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "DevFest is back",
+          "platform": "Google AI Blog",
+          "aiScore": 74,
+          "publishedAt": "2026-09-14T16:00:00+00:00",
+          "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+          "sourceName": "Google AI Blog",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "Animation of the text \"{DevFest} 2026 Join us! Google Developer Groups\" with a globe icon, asterisk icon, icon",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Apple releases OS 27 updates with Siri AI",
+          "platform": "Hacker News",
+          "aiScore": 73,
+          "publishedAt": "2026-09-14T17:52:44+00:00",
+          "sourceUrl": "https://www.theverge.com/news/994756/apple-ios-27-launch-iphone-siri-ai-update",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "Apple releases OS 27 updates with Siri AI",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Security through obscurity is dead, and AI delivered the fatal blow",
+          "platform": "Hacker News",
+          "aiScore": 70,
+          "publishedAt": "2026-09-14T18:03:45+00:00",
+          "sourceUrl": "https://www.theregister.com/security/2026/09/13/security-through-obscurity-is-dead-and-ai-delivered-the-fatal-blow/5296000",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "安全治理"
+          ],
+          "summary": "Security through obscurity is dead, and AI delivered the fatal blow",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 8,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "Google tests paying publishers for using its content in AI Mode and Gemini",
+          "platform": "Hacker News",
+          "aiScore": 68,
+          "publishedAt": "2026-09-14T18:06:47+00:00",
+          "sourceUrl": "https://searchengineland.com/google-tests-paying-publishers-for-using-its-content-in-ai-mode-ai-overviews-and-gemini-488382",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "内容生产"
+          ],
+          "summary": "Google tests paying publishers for using its content in AI Mode and Gemini",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 6,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "The Economics of Generative AI",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-14T18:09:04+00:00",
+          "sourceUrl": "https://tailwinds.substack.com/p/the-economics-of-generative-ai",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "The Economics of Generative AI",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 19,
+        "avgScore": 72.5,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 3
+          },
+          {
+            "name": "Google AI Blog",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 12
+          },
+          {
+            "name": "Agent",
+            "count": 4
+          },
+          {
+            "name": "开源生态",
+            "count": 2
+          },
+          {
+            "name": "模型进展",
+            "count": 2
+          },
+          {
+            "name": "自动化",
+            "count": 2
+          },
+          {
+            "name": "内容生产",
+            "count": 1
+          },
+          {
+            "name": "安全治理",
+            "count": 1
+          },
+          {
+            "name": "应用落地",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 19 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 开源生态",
+        "最高分事件：Show HN: Threshyr – An offline automatic time tracker with on-device AI（88 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      ]
+    },
     {
       "date": "2026-09-14",
       "label": "9月14日",
@@ -26179,7 +26463,7 @@
       "label": "6月21日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 7,
           "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
           "platform": "量子位",
           "aiScore": 91,
@@ -26202,7 +26486,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 9,
           "title": "从“人择寓言”对峙中可以看出，人工智能现在可以进行世界建模",
           "platform": "Reddit",
           "aiScore": 88,
@@ -26485,7 +26769,7 @@
       "label": "6月20日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 8,
           "title": "撸猫撸出SOTA！3个00后2个月，造出史上最快流式音视频社交模型",
           "platform": "量子位",
           "aiScore": 91,
@@ -26813,7 +27097,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 10,
           "title": "AMD 推出人工智能驱动的 Bash 编码代理",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27393,372 +27677,57 @@
         "最高分事件：北大科学家下场做脑机接口，种子轮融了近亿元（95 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
-    },
-    {
-      "date": "2026-06-17",
-      "label": "6月17日",
-      "top10": [
-        {
-          "rank": 7,
-          "title": "NoonWake.AI完成近千万元种子轮融资，用AI做年轻人的情绪消费品｜智能涌现首发",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-06-17T07:12:01+00:00",
-          "sourceUrl": "https://36kr.com/p/3848483761493250?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "内容生产"
-          ],
-          "summary": "作者｜梁键强 编辑｜王毓婵 一句话介绍 NoonWake.AI是一家以泛心理为切入点、结合AI技术做情绪消费产品的创业公司，业务覆盖软件和硬件，并同时面向国内外市场。 目前，公司产品包括国内AI陪伴应用“万象有灵”、海外应用Starot、桌面AI陪伴硬件“好运日历机”，以及正在探索的智能水晶手串等轻硬件产品。 团队介绍 NoonWake.AI创始人兼CEO吴尚，本科毕业于中南…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "硬氪专访 | 罗剑岚：机器人真正的Scaling Law，发生在真实部署闭环里",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-06-17T06:14:08+00:00",
-          "sourceUrl": "https://36kr.com/p/3856871787189252?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "开源生态",
-            "应用落地"
-          ],
-          "summary": "作者 | 邱晓芬 编辑 | 袁斯来 过去半年，国内具身智能赛道经历了一场静悄悄的重心转移：聚光灯从硬件本体的“自由度竞赛”，逐渐移向决定机器人智能上限的深水区。 只是，当行业反复讨论“机器人能否通过暴力堆数据复刻大语言模型 ScalingLaw”时，上海创智学院副教授、智元机器人首席科学家罗剑岚，给出了一个并不随大流的判断：具身智能不能简单照搬大语言模型的发展路径。 罗剑岚的…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "头部具身大脑公司再获数亿美元融资！世界模型路线，15家VC抢着投",
-          "platform": "量子位",
-          "aiScore": 93,
-          "publishedAt": "2026-06-17T06:22:39+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/06/436148.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "开源生态",
-            "投融资"
-          ],
-          "summary": "半年三连发：从开源到端侧再到训练场",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "天工3.1 重磅发布：上线 Skywork Design 与 Dynamic Workflows，给 AI 一张画布和一支军团",
-          "platform": "量子位",
-          "aiScore": 92,
-          "publishedAt": "2026-06-17T04:32:09+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/06/436110.html",
-          "sourceName": "量子位",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "自动化"
-          ],
-          "summary": "天工超级智能体的收入实现了三倍增长",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 17,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "主权人工智能并不是政府的流行语宾果游戏。当人工智能成为关键基础设施时就会发生这种情况。",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-17T07:32:51+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u83fob/sovereign_ai_isnt_government_buzzword_bingo_its/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "当关键人工智能模型的访问权限可能因另一个国家的政策决定而在一夜之间发生变化时，会发生什么？这就是为什么我认为主权人工智能不仅仅是政府术语。我…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "晚了一年的人工智能讨论是什么？",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-17T07:08:31+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u830yk/whats_an_ai_discussion_thats_happening_a_year_too/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "最近我花了大部分时间尝试实际构建和交付人工智能工作流程，在线讨论与现实之间的差距变得越来越明显。很多对话都是…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-17T01:00:00+00:00",
-          "sourceUrl": "https://36kr.com/p/3826129009234824?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "文｜王毓婵 编辑｜张雨忻 2026 年以来，一级市场对世界模型的抢筹进入白热化阶段。资金不再像早期那样“广撒网”，而是高度向头部玩家集中。这其中，逆矩阵科技（Physis）就接连完成了多轮融资。 36氪智能涌现独家据悉，世界模型公司逆矩阵科技已完成超亿美元种子++轮融资；此前的 3 月，刚完成了超千万美元首轮融资。本轮由经纬创投、五源资本、光合创投等机构共同参与，并获蚂蚁集团…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "8点1氪丨连涨3天，SpaceX超越亚马逊跻身全球前五；支付宝启动史上最大改版；微信支付“AI专属卡”最快本周内上线",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-17T00:22:06+00:00",
-          "sourceUrl": "https://36kr.com/p/3856525981275138?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 山姆中国变更董事长 海康威视7月1日上调硬盘价 5月份全球纯电和插电式混动汽车销量连续三个月增长 美国零售经纪商处的SpaceX投资者每人至少分得一股IPO股票 传苹果首款折叠屏将延期发布，产业链人士：假的 TOP 3 大新闻 连涨3天，SpaceX超越亚马逊跻身全球前五 6月16日，SpaceX开盘迅速拉升，涨幅一度扩大至17%，市值一度超越微软，盘中总市值触…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "代理未来的地图",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-06-17T07:39:46+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u83jy3/a_map_of_the_agentic_future/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
-          "contentTags": [
-            "Agent",
-            "应用落地",
-            "自动化"
-          ],
-          "summary": "大家好，我一直在思考当前的技术范式最终可能会走向何方。每天我都会看到大量新产品：更好的助手、更好的自动化、更好的这个、更快……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "36氪首发 | 中科大博士做量子赛道“卖水人”，连续融资两轮",
-          "platform": "36氪",
-          "aiScore": 87,
-          "publishedAt": "2026-06-17T04:14:27+00:00",
-          "sourceUrl": "https://36kr.com/p/3856755190551811?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "应用落地",
-            "投融资"
-          ],
-          "summary": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，中性原子量子计算平台级核心供应商——太微量子（MQTEK）已连续完成天使轮、天使+轮融资。投资方包括英诺天使、东方嘉富、小苗朗程、云启资本、水木投资、远东远至等知名投资机构，慕石资本担任独家财务顾问。融资资金将主要用于三大核心产品矩阵的扩产与研发。 太微量子成立于2021年，专注于中性原子与离子阱两条量子计算路线的上游核心部件。团队成员来自…",
-          "action": "关注与你场景最相关的指标，不只看总分。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 15,
-            "actionability": 7,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 51,
-        "avgScore": 74.8,
-        "topScore": 94,
-        "topPlatforms": [
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "Reddit",
-            "count": 13
-          },
-          {
-            "name": "36氪",
-            "count": 11
-          },
-          {
-            "name": "量子位",
-            "count": 8
-          },
-          {
-            "name": "爱范儿",
-            "count": 2
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "AI动态",
-            "count": 20
-          },
-          {
-            "name": "Agent",
-            "count": 10
-          },
-          {
-            "name": "模型进展",
-            "count": 10
-          },
-          {
-            "name": "芯片算力",
-            "count": 8
-          },
-          {
-            "name": "应用落地",
-            "count": 7
-          },
-          {
-            "name": "投融资",
-            "count": 7
-          },
-          {
-            "name": "开源生态",
-            "count": 5
-          },
-          {
-            "name": "自动化",
-            "count": 2
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 51 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / Agent / 模型进展",
-        "最高分事件：NoonWake.AI完成近千万元种子轮融资，用AI做年轻人的情绪消费品｜智能涌现首发（94 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
-      ]
     }
   ],
   "currentWeek": {
-    "weekKey": "2026-09-W2",
-    "weekLabel": "9月第2周",
+    "weekKey": "2026-09-W3",
+    "weekLabel": "9月第3周",
     "range": {
-      "start": "2026-09-08",
-      "end": "2026-09-14"
+      "start": "2026-09-15",
+      "end": "2026-09-21"
     },
     "metrics": {
-      "daysCovered": 7,
-      "totalItems": 263,
-      "avgTop10Score": 88.9,
-      "topScore": 95,
+      "daysCovered": 1,
+      "totalItems": 19,
+      "avgTop10Score": 77.5,
+      "topScore": 88,
       "topPlatforms": [
         {
-          "name": "Reddit",
-          "count": 5
-        },
-        {
-          "name": "量子位",
-          "count": 2
-        },
-        {
           "name": "Hacker News",
+          "count": 7
+        },
+        {
+          "name": "Reddit",
           "count": 2
         },
         {
-          "name": "OpenAI",
+          "name": "Google AI Blog",
           "count": 1
         }
       ],
       "topTopics": [
         {
-          "name": "模型进展",
-          "count": 10
-        },
-        {
           "name": "Agent",
-          "count": 5
+          "count": 4
         },
         {
-          "name": "应用落地",
+          "name": "AI动态",
           "count": 3
+        },
+        {
+          "name": "模型进展",
+          "count": 2
         },
         {
           "name": "开源生态",
           "count": 2
         },
         {
-          "name": "芯片算力",
-          "count": 1
+          "name": "自动化",
+          "count": 2
         },
         {
-          "name": "投融资",
+          "name": "应用落地",
           "count": 1
         }
       ]
@@ -27766,22 +27735,23 @@
     "topEvents": [
       {
         "rank": 1,
-        "title": "打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果",
-        "platform": "量子位",
-        "aiScore": 95,
-        "publishedAt": "2026-09-10T01:39:13+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/09/486436.html",
-        "sourceName": "量子位",
-        "industryStage": "上游",
+        "title": "Show HN: Threshyr – An offline automatic time tracker with on-device AI",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-09-14T17:53:51+00:00",
+        "sourceUrl": "https://threshyr.com",
+        "sourceName": "Hacker News AI",
+        "industryStage": "下游",
         "contentTags": [
-          "芯片算力",
-          "模型进展"
+          "模型进展",
+          "Agent",
+          "应用落地"
         ],
-        "summary": "9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "I've built and continuously improved Threshyr based on the problem I faced myself. I was working on more than 3 projects at one time. At the end of any day/week/month if I had to calculate…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
+          "authority": 18,
           "topic": 20,
           "actionability": 10,
           "heat": 5
@@ -27789,22 +27759,22 @@
       },
       {
         "rank": 2,
-        "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
-        "platform": "量子位",
-        "aiScore": 93,
-        "publishedAt": "2026-09-10T04:55:38+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/09/486625.html",
-        "sourceName": "量子位",
+        "title": "55% of Americans fear humans will lose their critical thinking skills due to AI",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-09-14T18:04:02+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wgb0b0/55_of_americans_fear_humans_will_lose_their/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
+          "Agent",
           "开源生态"
         ],
-        "summary": "模型可以开源，部署经验不能",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "A new U.S. survey by Elon University indicates many are afraid AI will lead to a loss of human agency. - 69% think AI will weaken human-to-human bonds - 64% say AI will undermine our sense…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
+          "authority": 18,
           "topic": 18,
           "actionability": 10,
           "heat": 5
@@ -27812,200 +27782,480 @@
       },
       {
         "rank": 3,
-        "title": "Show HN: Anti-AI-slop: a 4 staged skill to detect and remove any AI writing slop",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-09-14T06:11:01+00:00",
-        "sourceUrl": "https://github.com/misbahsy/anti-ai-slop",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "title": "AIPass Update #22 - A CI job showed green while 32 tests failed inside it. A one-line fix turned it red for 22 hours, and every red was tru…",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-09-14T17:17:17+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wg9n28/aipass_update_22_a_ci_job_showed_green_while_32/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
         "contentTags": [
-          "模型进展",
-          "Agent"
+          "Agent",
+          "开源生态",
+          "自动化"
         ],
-        "summary": "catches 41 different slop patterns: • ~120 ai words, ~100 phrases • em dashes, emoji bullets, title case headings • watermarks, negative parallelism, colon reveals, throat-clearing openers…",
+        "summary": "AIPass Update #22 - A CI job showed green while 32 tests failed inside it. A one-line fix turned it red for 22 hours, and every red was true. On September 11, while fact-checking the last o…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 4,
-        "title": "Show HN: Astah Pro MCP – Enabling AI-Powered UML Modeling",
+        "title": "The case for workflow-driven AI software development and vibe coding",
         "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-09-13T03:07:32+00:00",
-        "sourceUrl": "https://github.com/takaakit/astah-pro-mcp",
+        "aiScore": 85,
+        "publishedAt": "2026-09-14T17:33:23+00:00",
+        "sourceUrl": "https://blog.codeyam.com/p/workflows-for-the-win-for-non-developers",
         "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "industryStage": "下游",
         "contentTags": [
-          "模型进展",
-          "Agent"
+          "Agent",
+          "自动化"
         ],
-        "summary": "This MCP plugin implements a \"Programmatic Tool Calling\" mode, inspired by the idea described in this Anthropic article ( ).",
+        "summary": "The case for workflow-driven AI software development and vibe coding",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 17,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-09-13T02:36:08+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wevkxo/the_ai_isnt_evil_the_humans_are_irresponsible/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Two Reminders about AI",
+        "platform": "Hacker News",
+        "aiScore": 78,
+        "publishedAt": "2026-09-14T17:18:18+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=49700513",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "投融资"
+          "模型进展"
         ],
-        "summary": "Something is wrong with the way we talk about recent AI incidents. “The AI escaped.” “The AI is becoming conscious.” “AGI is already here.” “The AI is trying to get out.” These are extraord…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "A model in an idle state will do nothing unless prompted by a user or researcher. Air-gapped systems do not have physical network access to the outside world.",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 6,
-        "title": "也许社会主义是人工智能时代的答案",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-09-09T11:01:31+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wbidom/maybe_socialism_is_the_answer_during_the_age_of_ai/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "title": "DevFest is back",
+        "platform": "Google AI Blog",
+        "aiScore": 74,
+        "publishedAt": "2026-09-14T16:00:00+00:00",
+        "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+        "sourceName": "Google AI Blog",
+        "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "自动化"
+          "AI动态"
         ],
-        "summary": "在有人对这个标题感到恼火之前，先声明一下，这篇文章并不是在说将 OpenAI 国有化。这是关于市场目前明显失败的一件事，也是社会主义者一直以来的一件事……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "Animation of the text \"{DevFest} 2026 Join us! Google Developer Groups\" with a globe icon, asterisk icon, icon",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
+          "authority": 25,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 7,
-        "title": "目前的 LLM 架构真的能让我们走向 AGI 吗？",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-09-08T00:05:19+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wa8rjv/can_current_llm_architecture_actually_get_us_to/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Apple releases OS 27 updates with Siri AI",
+        "platform": "Hacker News",
+        "aiScore": 73,
+        "publishedAt": "2026-09-14T17:52:44+00:00",
+        "sourceUrl": "https://www.theverge.com/news/994756/apple-ios-27-launch-iphone-siri-ai-update",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "Agent"
+          "AI动态"
         ],
-        "summary": "我是一名软件工程师，而不是科学家，但我喜欢它。我喜欢大规模解决困难的分布式应用问题。这就是让我早上起床的原因，准备好继续学习……",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "Apple releases OS 27 updates with Siri AI",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 20,
+          "topic": 5,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 8,
-        "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-        "platform": "OpenAI",
-        "aiScore": 87,
-        "publishedAt": "2026-09-14T00:00:00+00:00",
-        "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-        "sourceName": "OpenAI News",
+        "title": "Security through obscurity is dead, and AI delivered the fatal blow",
+        "platform": "Hacker News",
+        "aiScore": 70,
+        "publishedAt": "2026-09-14T18:03:45+00:00",
+        "sourceUrl": "https://www.theregister.com/security/2026/09/13/security-through-obscurity-is-dead-and-ai-delivered-the-fatal-blow/5296000",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "应用落地"
+          "安全治理"
         ],
-        "summary": "Perplexity 使用 Astra 来编写通信、更改软件和监控生产系统，并且与早期模型相比，检查频率要低得多。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "Security through obscurity is dead, and AI delivered the fatal blow",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
+          "recency": 35,
+          "authority": 18,
+          "topic": 8,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "It knew 2 + 2 = 4. Why didn’t it answer?",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-09-13T01:02:46+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wetmka/it_knew_2_2_4_why_didnt_it_answer/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Google tests paying publishers for using its content in AI Mode and Gemini",
+        "platform": "Hacker News",
+        "aiScore": 68,
+        "publishedAt": "2026-09-14T18:06:47+00:00",
+        "sourceUrl": "https://searchengineland.com/google-tests-paying-publishers-for-using-its-content-in-ai-mode-ai-overviews-and-gemini-488382",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "开源生态",
-          "应用落地"
+          "内容生产"
         ],
-        "summary": "I built PCCG-2 using a frozen Qwen3-4B model and a separate learned permission gate. EOS means “end of sequence”: it is the model’s native stop token. When EOS wins at the first generated t…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "Google tests paying publishers for using its content in AI Mode and Gemini",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 19,
-          "actionability": 10,
+          "topic": 6,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "OpenAI 直接瞄准了初级银行家的职位，并称其为金融服务产品",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-09-12T14:36:07+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wee9m4/openai_just_went_directly_after_junior_banker/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "title": "The Economics of Generative AI",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-14T18:09:04+00:00",
+        "sourceUrl": "https://tailwinds.substack.com/p/the-economics-of-generative-ai",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "应用落地"
+          "AI动态"
         ],
-        "summary": "OpenAI 推出了针对金融服务的 ChatGPT，其功能列表并不微妙。研究、财务建模、宣传手册准备。这些是证明雇用一个班级的三件事是合理的……",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "The Economics of Generative AI",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 19,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       }
     ],
     "briefing": [
-      "9月第2周累计收录 263 条资讯，覆盖 7 天。",
-      "高频主题：模型进展 / Agent / 应用落地",
-      "本周最高分：打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果（95 分）",
-      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "9月第3周累计收录 19 条资讯，覆盖 1 天。",
+      "高频主题：Agent / AI动态 / 模型进展",
+      "本周最高分：Show HN: Threshyr – An offline automatic time tracker with on-device AI（88 分）",
+      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "weeklyHistory": [
+    {
+      "weekKey": "2026-09-W3",
+      "weekLabel": "9月第3周",
+      "range": {
+        "start": "2026-09-15",
+        "end": "2026-09-21"
+      },
+      "metrics": {
+        "daysCovered": 1,
+        "totalItems": 19,
+        "avgTop10Score": 77.5,
+        "topScore": 88,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 7
+          },
+          {
+            "name": "Reddit",
+            "count": 2
+          },
+          {
+            "name": "Google AI Blog",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "Agent",
+            "count": 4
+          },
+          {
+            "name": "AI动态",
+            "count": 3
+          },
+          {
+            "name": "模型进展",
+            "count": 2
+          },
+          {
+            "name": "开源生态",
+            "count": 2
+          },
+          {
+            "name": "自动化",
+            "count": 2
+          },
+          {
+            "name": "应用落地",
+            "count": 1
+          }
+        ]
+      },
+      "topEvents": [
+        {
+          "rank": 1,
+          "title": "Show HN: Threshyr – An offline automatic time tracker with on-device AI",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-09-14T17:53:51+00:00",
+          "sourceUrl": "https://threshyr.com",
+          "sourceName": "Hacker News AI",
+          "industryStage": "下游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "I've built and continuously improved Threshyr based on the problem I faced myself. I was working on more than 3 projects at one time. At the end of any day/week/month if I had to calculate…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "55% of Americans fear humans will lose their critical thinking skills due to AI",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-09-14T18:04:02+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wgb0b0/55_of_americans_fear_humans_will_lose_their/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态"
+          ],
+          "summary": "A new U.S. survey by Elon University indicates many are afraid AI will lead to a loss of human agency. - 69% think AI will weaken human-to-human bonds - 64% say AI will undermine our sense…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "AIPass Update #22 - A CI job showed green while 32 tests failed inside it. A one-line fix turned it red for 22 hours, and every red was tru…",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-09-14T17:17:17+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wg9n28/aipass_update_22_a_ci_job_showed_green_while_32/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "开源生态",
+            "自动化"
+          ],
+          "summary": "AIPass Update #22 - A CI job showed green while 32 tests failed inside it. A one-line fix turned it red for 22 hours, and every red was true. On September 11, while fact-checking the last o…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "The case for workflow-driven AI software development and vibe coding",
+          "platform": "Hacker News",
+          "aiScore": 85,
+          "publishedAt": "2026-09-14T17:33:23+00:00",
+          "sourceUrl": "https://blog.codeyam.com/p/workflows-for-the-win-for-non-developers",
+          "sourceName": "Hacker News AI",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "The case for workflow-driven AI software development and vibe coding",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Two Reminders about AI",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-09-14T17:18:18+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=49700513",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "A model in an idle state will do nothing unless prompted by a user or researcher. Air-gapped systems do not have physical network access to the outside world.",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "DevFest is back",
+          "platform": "Google AI Blog",
+          "aiScore": 74,
+          "publishedAt": "2026-09-14T16:00:00+00:00",
+          "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+          "sourceName": "Google AI Blog",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "Animation of the text \"{DevFest} 2026 Join us! Google Developer Groups\" with a globe icon, asterisk icon, icon",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Apple releases OS 27 updates with Siri AI",
+          "platform": "Hacker News",
+          "aiScore": 73,
+          "publishedAt": "2026-09-14T17:52:44+00:00",
+          "sourceUrl": "https://www.theverge.com/news/994756/apple-ios-27-launch-iphone-siri-ai-update",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "Apple releases OS 27 updates with Siri AI",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Security through obscurity is dead, and AI delivered the fatal blow",
+          "platform": "Hacker News",
+          "aiScore": 70,
+          "publishedAt": "2026-09-14T18:03:45+00:00",
+          "sourceUrl": "https://www.theregister.com/security/2026/09/13/security-through-obscurity-is-dead-and-ai-delivered-the-fatal-blow/5296000",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "安全治理"
+          ],
+          "summary": "Security through obscurity is dead, and AI delivered the fatal blow",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 8,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "Google tests paying publishers for using its content in AI Mode and Gemini",
+          "platform": "Hacker News",
+          "aiScore": 68,
+          "publishedAt": "2026-09-14T18:06:47+00:00",
+          "sourceUrl": "https://searchengineland.com/google-tests-paying-publishers-for-using-its-content-in-ai-mode-ai-overviews-and-gemini-488382",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "内容生产"
+          ],
+          "summary": "Google tests paying publishers for using its content in AI Mode and Gemini",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 6,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "The Economics of Generative AI",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-14T18:09:04+00:00",
+          "sourceUrl": "https://tailwinds.substack.com/p/the-economics-of-generative-ai",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "The Economics of Generative AI",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        }
+      ],
+      "briefing": [
+        "9月第3周累计收录 19 条资讯，覆盖 1 天。",
+        "高频主题：Agent / AI动态 / 模型进展",
+        "本周最高分：Show HN: Threshyr – An offline automatic time tracker with on-device AI（88 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      ]
+    },
     {
       "weekKey": "2026-09-W2",
       "weekLabel": "9月第2周",
@@ -32191,17 +32441,21 @@
         "end": "2026-06-21"
       },
       "metrics": {
-        "daysCovered": 5,
-        "totalItems": 211,
-        "avgTop10Score": 94.1,
+        "daysCovered": 4,
+        "totalItems": 160,
+        "avgTop10Score": 92.6,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 8
+            "count": 6
           },
           {
             "name": "量子位",
+            "count": 2
+          },
+          {
+            "name": "Reddit",
             "count": 2
           }
         ],
@@ -32212,15 +32466,15 @@
           },
           {
             "name": "Agent",
-            "count": 5
-          },
-          {
-            "name": "应用落地",
-            "count": 5
+            "count": 6
           },
           {
             "name": "芯片算力",
-            "count": 2
+            "count": 3
+          },
+          {
+            "name": "应用落地",
+            "count": 3
           },
           {
             "name": "内容生产",
@@ -32379,103 +32633,101 @@
         },
         {
           "rank": 7,
-          "title": "NoonWake.AI完成近千万元种子轮融资，用AI做年轻人的情绪消费品｜智能涌现首发",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-06-17T07:12:01+00:00",
-          "sourceUrl": "https://36kr.com/p/3848483761493250?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
+          "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
+          "platform": "量子位",
+          "aiScore": 91,
+          "publishedAt": "2026-06-21T09:18:12+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/437198.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "应用落地",
-            "内容生产"
+            "投融资"
           ],
-          "summary": "作者｜梁键强 编辑｜王毓婵 一句话介绍 NoonWake.AI是一家以泛心理为切入点、结合AI技术做情绪消费产品的创业公司，业务覆盖软件和硬件，并同时面向国内外市场。 目前，公司产品包括国内AI陪伴应用“万象有灵”、海外应用Starot、桌面AI陪伴硬件“好运日历机”，以及正在探索的智能水晶手串等轻硬件产品。 团队介绍 NoonWake.AI创始人兼CEO吴尚，本科毕业于中南…",
+          "summary": "2026年还没过半，具身智能的融资就快要超过去年全年了，超过一半的钱都流入了机器人的“大脑”。",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
-            "topic": 19,
+            "topic": 16,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 8,
-          "title": "硬氪专访 | 罗剑岚：机器人真正的Scaling Law，发生在真实部署闭环里",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-06-17T06:14:08+00:00",
-          "sourceUrl": "https://36kr.com/p/3856871787189252?f=rss",
-          "sourceName": "36氪",
+          "title": "撸猫撸出SOTA！3个00后2个月，造出史上最快流式音视频社交模型",
+          "platform": "量子位",
+          "aiScore": 91,
+          "publishedAt": "2026-06-20T10:42:35+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/436996.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "开源生态",
-            "应用落地"
+            "内容生产"
           ],
-          "summary": "作者 | 邱晓芬 编辑 | 袁斯来 过去半年，国内具身智能赛道经历了一场静悄悄的重心转移：聚光灯从硬件本体的“自由度竞赛”，逐渐移向决定机器人智能上限的深水区。 只是，当行业反复讨论“机器人能否通过暴力堆数据复刻大语言模型 ScalingLaw”时，上海创智学院副教授、智元机器人首席科学家罗剑岚，给出了一个并不随大流的判断：具身智能不能简单照搬大语言模型的发展路径。 罗剑岚的…",
+          "summary": "速度快7倍，成本只有Veo 3的1/2000",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 25,
-            "topic": 19,
+            "topic": 16,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "头部具身大脑公司再获数亿美元融资！世界模型路线，15家VC抢着投",
-          "platform": "量子位",
-          "aiScore": 93,
-          "publishedAt": "2026-06-17T06:22:39+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/06/436148.html",
-          "sourceName": "量子位",
+          "title": "从“人择寓言”对峙中可以看出，人工智能现在可以进行世界建模",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-06-21T14:53:58+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1ubs2hj/ais_can_do_worldmodeling_now_as_seen_via_the/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "开源生态",
-            "投融资"
+            "Agent",
+            "安全治理"
           ],
-          "summary": "半年三连发：从开源到端侧再到训练场",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "许多人猜测《神鬼寓言》的人择传奇将如何结束。预测市场也对此进行了报道，给出了 7 月 1 日之前重新发布的可能性 <50%。这篇文章不是关于我的结论。我…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 25,
-            "topic": 18,
+            "authority": 18,
+            "topic": 20,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "天工3.1 重磅发布：上线 Skywork Design 与 Dynamic Workflows，给 AI 一张画布和一支军团",
-          "platform": "量子位",
-          "aiScore": 92,
-          "publishedAt": "2026-06-17T04:32:09+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/06/436110.html",
-          "sourceName": "量子位",
-          "industryStage": "下游",
+          "title": "AMD 推出人工智能驱动的 Bash 编码代理",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-06-19T11:54:44+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1u9zyx7/amd_introduces_an_aipowered_bash_coding_agent/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
           "contentTags": [
-            "Agent",
-            "自动化"
+            "芯片算力",
+            "Agent"
           ],
-          "summary": "天工超级智能体的收入实现了三倍增长",
+          "summary": "由 /u/Fcking_Chuck 提交 [链接] [评论]",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 25,
-            "topic": 17,
+            "authority": 18,
+            "topic": 20,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "briefing": [
-        "6月第3周累计收录 211 条资讯，覆盖 5 天。",
-        "高频主题：模型进展 / Agent / 应用落地",
+        "6月第3周累计收录 160 条资讯，覆盖 4 天。",
+        "高频主题：模型进展 / Agent / 芯片算力",
         "本周最高分：北大科学家下场做脑机接口，种子轮融了近亿元（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
