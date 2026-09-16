@@ -1,25 +1,48 @@
 {
-  "generatedAt": "2026-09-15T17:27:29.830139+00:00",
+  "generatedAt": "2026-09-16T05:36:24.369847+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-09-16",
     "label": "9月16日",
     "top10": [
       {
-        "rank": 2,
-        "title": "Ask HN: Where is all of the AI coded software?",
-        "platform": "Hacker News",
+        "rank": 1,
+        "title": "把记忆交给CPU，大模型会变快",
+        "platform": "量子位",
+        "aiScore": 95,
+        "publishedAt": "2026-09-16T03:07:18+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/489724.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "让GPU去忙生成Token",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
+        "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-09-15T16:55:08+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49715361",
-        "sourceName": "Hacker News AI",
+        "publishedAt": "2026-09-16T00:32:44+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whhygo/am_i_the_only_one_who_thinks_recent_ai_doomsday/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "Agent",
-          "应用落地"
+          "自动化"
         ],
-        "summary": "Like a lot of folks, I'm trying to understand the AI reality vs. the hype cycle. I have my own experiences both using it and seeing it rolled out with a “do more AI” mandate at a huge tech…",
+        "summary": "Recently, my feed has been flooded with alarmist AI news: AI choosing nuclear genocide in war games, AI blackmailing engineers to avoid being shut down, and the usual \"Skynet is here\" comme…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -30,10 +53,103 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 4,
+        "title": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-09-16T00:19:09+00:00",
+        "sourceUrl": "https://www.wsj.com/cio-journal/nvidia-and-crowdstrike-develop-new-cybersecurity-ai-models-937bb2aa",
+        "sourceName": "Hacker News AI",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "安全治理"
+        ],
+        "summary": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "Show HN: Leo – a Markdown engineering process for AI coding agents",
+        "platform": "Hacker News",
+        "aiScore": 86,
+        "publishedAt": "2026-09-16T00:47:27+00:00",
+        "sourceUrl": "https://github.com/alex-zaporozhan/leo",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态",
+          "安全治理"
+        ],
+        "summary": "I'm the builder of LEO, and this is not a packege or a service. It's a engineering framework of the rules for Cursor or ClaudeCode, helping to build enorm AI Native projects, 300 000 + line…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "华为GTS让Agent学会「看着网络排障」，双防火墙难题几乎全拿下",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-09-16T02:27:20+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/490098.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "任务通过率提升24.2%，token成本最高下降45%",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "Chat GPT and Gemini are too dumb to help process data",
+        "platform": "Reddit",
+        "aiScore": 85,
+        "publishedAt": "2026-09-16T01:08:50+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whiri0/chat_gpt_and_gemini_are_too_dumb_to_help_process/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "自动化"
+        ],
+        "summary": "i just wanted to make a stupid list for a game with average values of characters stats. i established a simple workflow: Stage 1 - I bring in all the characters data Stage 2 - The AI calcul…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 17,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
         "title": "What do we think about the paperclip maximizer?",
         "platform": "Reddit",
-        "aiScore": 88,
+        "aiScore": 81,
         "publishedAt": "2026-09-15T16:05:31+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh4kq7/what_do_we_think_about_the_paperclip_maximizer/",
         "sourceName": "Reddit r/artificial",
@@ -46,160 +162,26 @@
         "summary": "I want to vent/talk about this with others, but I couldn't find a sub for it; apologize if it's the wrong place. For some context, the paperclip maximizer thought experiment highlights: if…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "I expanded my Gifts platform- 96 atomic dependency-free, composable MIT-licensed code tools. Super handy for AI dev work",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-09-15T16:00:05+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh4eyp/i_expanded_my_gifts_platform_96_atomic/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "When I started making a bunch of free apps to give away on my site I was not intending it to become a platform but as we built more and more of the gifts, the platform shape kind of just fe…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "Your Agent Aced the Task. Will It Do It Again?",
-        "platform": "Hugging Face",
-        "aiScore": 85,
-        "publishedAt": "2026-09-15T16:00:44+00:00",
-        "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-        "sourceName": "Hugging Face Blog",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "Your Agent Aced the Task. Will It Do It Again?",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Combining RAG with Continued Pretraining of LLMs",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-09-15T17:13:25+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh6g23/combining_rag_with_continued_pretraining_of_llms/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "For leaning purposes, I ran an experiment where I used Unsloth to train a model on a new domain using continued pretraining. Then to make it more flexible, I added a RAG step to inject dyna…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "We asked creative experts to rank AI image / video models. Here's what happened",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-15T17:02:23+00:00",
-        "sourceUrl": "https://openart.ai/arena",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "We asked creative experts to rank AI image / video models. Here's what happened",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-15T17:01:40+00:00",
-        "sourceUrl": "https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "Ask HN: How do you control your AI Agents?",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-15T16:50:09+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49715289",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "Ask HN: How do you control your AI Agents?",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "is the biggest AI problem actually the interface rather than the model?",
+        "title": "Polanyi Knowledge and AI",
         "platform": "Reddit",
         "aiScore": 78,
-        "publishedAt": "2026-09-15T16:45:08+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh5nd1/is_the_biggest_ai_problem_actually_the_interface/",
+        "publishedAt": "2026-09-16T05:01:41+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whnmma/polanyi_knowledge_and_ai/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "we keep improving the underlying models, but most interactions still boil down to typing a box of text and hoping the model understands what we want that seems strange when you think about…",
+        "summary": "\"We have the digital world, the physical world, and the social world. AI Models can be trained for the digital world, including text and computer code, because there are vast stores of data…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -211,18 +193,40 @@
       },
       {
         "rank": 10,
-        "title": "Show HN: Constraint Programming in Your AI Agent",
+        "title": "AI models in 'surreal' dialect mixing poetic language and tech bro jargon",
         "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-09-15T16:42:24+00:00",
-        "sourceUrl": "https://github.com/carban/minizinc-mcp",
+        "publishedAt": "2026-09-16T04:00:58+00:00",
+        "sourceUrl": "https://www.theguardian.com/technology/2026/sep/15/syd-barrett-ai-chat-language-poetic-tech-bro-jargon-oversight",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "模型进展"
         ],
-        "summary": "Show HN: Constraint Programming in Your AI Agent",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "AI models in 'surreal' dialect mixing poetic language and tech bro jargon",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "Paying for frontier AI models buys 4-month head start at 5x the cost",
+        "platform": "Hacker News",
+        "aiScore": 78,
+        "publishedAt": "2026-09-16T03:02:30+00:00",
+        "sourceUrl": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "Paying for frontier AI models buys 4-month head start at 5x the cost",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -233,9 +237,9 @@
       }
     ],
     "metrics": {
-      "totalItems": 24,
-      "avgScore": 74.7,
-      "topScore": 88,
+      "totalItems": 40,
+      "avgScore": 74.1,
+      "topScore": 95,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -243,49 +247,61 @@
         },
         {
           "name": "Reddit",
+          "count": 12
+        },
+        {
+          "name": "量子位",
           "count": 5
+        },
+        {
+          "name": "爱范儿",
+          "count": 3
         },
         {
           "name": "Google AI Blog",
           "count": 3
-        },
-        {
-          "name": "Hugging Face",
-          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 11
+          "count": 16
         },
         {
           "name": "Agent",
-          "count": 8
+          "count": 11
         },
         {
           "name": "模型进展",
-          "count": 6
+          "count": 9
         },
         {
           "name": "安全治理",
-          "count": 2
+          "count": 4
+        },
+        {
+          "name": "芯片算力",
+          "count": 3
         },
         {
           "name": "开源生态",
+          "count": 3
+        },
+        {
+          "name": "内容生产",
           "count": 2
         },
         {
-          "name": "应用落地",
-          "count": 1
+          "name": "自动化",
+          "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 24 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 40 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：Ask HN: Where is all of the AI coded software?（88 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "最高分事件：把记忆交给CPU，大模型会变快（95 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
@@ -294,20 +310,43 @@
       "label": "9月16日",
       "top10": [
         {
-          "rank": 2,
-          "title": "Ask HN: Where is all of the AI coded software?",
-          "platform": "Hacker News",
+          "rank": 1,
+          "title": "把记忆交给CPU，大模型会变快",
+          "platform": "量子位",
+          "aiScore": 95,
+          "publishedAt": "2026-09-16T03:07:18+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/489724.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "让GPU去忙生成Token",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
+          "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-09-15T16:55:08+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49715361",
-          "sourceName": "Hacker News AI",
+          "publishedAt": "2026-09-16T00:32:44+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whhygo/am_i_the_only_one_who_thinks_recent_ai_doomsday/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
             "Agent",
-            "应用落地"
+            "自动化"
           ],
-          "summary": "Like a lot of folks, I'm trying to understand the AI reality vs. the hype cycle. I have my own experiences both using it and seeing it rolled out with a “do more AI” mandate at a huge tech…",
+          "summary": "Recently, my feed has been flooded with alarmist AI news: AI choosing nuclear genocide in war games, AI blackmailing engineers to avoid being shut down, and the usual \"Skynet is here\" comme…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -318,10 +357,103 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "title": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-09-16T00:19:09+00:00",
+          "sourceUrl": "https://www.wsj.com/cio-journal/nvidia-and-crowdstrike-develop-new-cybersecurity-ai-models-937bb2aa",
+          "sourceName": "Hacker News AI",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Show HN: Leo – a Markdown engineering process for AI coding agents",
+          "platform": "Hacker News",
+          "aiScore": 86,
+          "publishedAt": "2026-09-16T00:47:27+00:00",
+          "sourceUrl": "https://github.com/alex-zaporozhan/leo",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态",
+            "安全治理"
+          ],
+          "summary": "I'm the builder of LEO, and this is not a packege or a service. It's a engineering framework of the rules for Cursor or ClaudeCode, helping to build enorm AI Native projects, 300 000 + line…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "华为GTS让Agent学会「看着网络排障」，双防火墙难题几乎全拿下",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-09-16T02:27:20+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/490098.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "任务通过率提升24.2%，token成本最高下降45%",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Chat GPT and Gemini are too dumb to help process data",
+          "platform": "Reddit",
+          "aiScore": 85,
+          "publishedAt": "2026-09-16T01:08:50+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whiri0/chat_gpt_and_gemini_are_too_dumb_to_help_process/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "i just wanted to make a stupid list for a game with average values of characters stats. i established a simple workflow: Stage 1 - I bring in all the characters data Stage 2 - The AI calcul…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
           "title": "What do we think about the paperclip maximizer?",
           "platform": "Reddit",
-          "aiScore": 88,
+          "aiScore": 81,
           "publishedAt": "2026-09-15T16:05:31+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh4kq7/what_do_we_think_about_the_paperclip_maximizer/",
           "sourceName": "Reddit r/artificial",
@@ -334,160 +466,26 @@
           "summary": "I want to vent/talk about this with others, but I couldn't find a sub for it; apologize if it's the wrong place. For some context, the paperclip maximizer thought experiment highlights: if…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "I expanded my Gifts platform- 96 atomic dependency-free, composable MIT-licensed code tools. Super handy for AI dev work",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-09-15T16:00:05+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh4eyp/i_expanded_my_gifts_platform_96_atomic/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "When I started making a bunch of free apps to give away on my site I was not intending it to become a platform but as we built more and more of the gifts, the platform shape kind of just fe…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "Your Agent Aced the Task. Will It Do It Again?",
-          "platform": "Hugging Face",
-          "aiScore": 85,
-          "publishedAt": "2026-09-15T16:00:44+00:00",
-          "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-          "sourceName": "Hugging Face Blog",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "Your Agent Aced the Task. Will It Do It Again?",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "Combining RAG with Continued Pretraining of LLMs",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-09-15T17:13:25+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh6g23/combining_rag_with_continued_pretraining_of_llms/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "For leaning purposes, I ran an experiment where I used Unsloth to train a model on a new domain using continued pretraining. Then to make it more flexible, I added a RAG step to inject dyna…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "We asked creative experts to rank AI image / video models. Here's what happened",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-15T17:02:23+00:00",
-          "sourceUrl": "https://openart.ai/arena",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "We asked creative experts to rank AI image / video models. Here's what happened",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-15T17:01:40+00:00",
-          "sourceUrl": "https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "Ask HN: How do you control your AI Agents?",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-15T16:50:09+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49715289",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "Ask HN: How do you control your AI Agents?",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "is the biggest AI problem actually the interface rather than the model?",
+          "title": "Polanyi Knowledge and AI",
           "platform": "Reddit",
           "aiScore": 78,
-          "publishedAt": "2026-09-15T16:45:08+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh5nd1/is_the_biggest_ai_problem_actually_the_interface/",
+          "publishedAt": "2026-09-16T05:01:41+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whnmma/polanyi_knowledge_and_ai/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展"
           ],
-          "summary": "we keep improving the underlying models, but most interactions still boil down to typing a box of text and hoping the model understands what we want that seems strange when you think about…",
+          "summary": "\"We have the digital world, the physical world, and the social world. AI Models can be trained for the digital world, including text and computer code, because there are vast stores of data…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -499,18 +497,40 @@
         },
         {
           "rank": 10,
-          "title": "Show HN: Constraint Programming in Your AI Agent",
+          "title": "AI models in 'surreal' dialect mixing poetic language and tech bro jargon",
           "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-09-15T16:42:24+00:00",
-          "sourceUrl": "https://github.com/carban/minizinc-mcp",
+          "publishedAt": "2026-09-16T04:00:58+00:00",
+          "sourceUrl": "https://www.theguardian.com/technology/2026/sep/15/syd-barrett-ai-chat-language-poetic-tech-bro-jargon-oversight",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "Agent"
+            "模型进展"
           ],
-          "summary": "Show HN: Constraint Programming in Your AI Agent",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "AI models in 'surreal' dialect mixing poetic language and tech bro jargon",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "Paying for frontier AI models buys 4-month head start at 5x the cost",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-09-16T03:02:30+00:00",
+          "sourceUrl": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "Paying for frontier AI models buys 4-month head start at 5x the cost",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
@@ -521,9 +541,9 @@
         }
       ],
       "metrics": {
-        "totalItems": 24,
-        "avgScore": 74.7,
-        "topScore": 88,
+        "totalItems": 40,
+        "avgScore": 74.1,
+        "topScore": 95,
         "topPlatforms": [
           {
             "name": "Hacker News",
@@ -531,49 +551,61 @@
           },
           {
             "name": "Reddit",
+            "count": 12
+          },
+          {
+            "name": "量子位",
             "count": 5
+          },
+          {
+            "name": "爱范儿",
+            "count": 3
           },
           {
             "name": "Google AI Blog",
             "count": 3
-          },
-          {
-            "name": "Hugging Face",
-            "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 11
+            "count": 16
           },
           {
             "name": "Agent",
-            "count": 8
+            "count": 11
           },
           {
             "name": "模型进展",
-            "count": 6
+            "count": 9
           },
           {
             "name": "安全治理",
-            "count": 2
+            "count": 4
+          },
+          {
+            "name": "芯片算力",
+            "count": 3
           },
           {
             "name": "开源生态",
+            "count": 3
+          },
+          {
+            "name": "内容生产",
             "count": 2
           },
           {
-            "name": "应用落地",
-            "count": 1
+            "name": "自动化",
+            "count": 2
           }
         ]
       },
       "briefing": [
-        "今日共收录 24 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 40 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / Agent / 模型进展",
-        "最高分事件：Ask HN: Where is all of the AI coded software?（88 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "最高分事件：把记忆交给CPU，大模型会变快（95 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
@@ -581,7 +613,7 @@
       "label": "9月15日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 2,
           "title": "7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开",
           "platform": "量子位",
           "aiScore": 95,
@@ -27661,25 +27693,21 @@
     },
     "metrics": {
       "daysCovered": 2,
-      "totalItems": 55,
-      "avgTop10Score": 83.4,
+      "totalItems": 71,
+      "avgTop10Score": 85.9,
       "topScore": 95,
       "topPlatforms": [
-        {
-          "name": "Hacker News",
-          "count": 4
-        },
         {
           "name": "Reddit",
           "count": 4
         },
         {
           "name": "量子位",
-          "count": 1
+          "count": 3
         },
         {
-          "name": "Hugging Face",
-          "count": 1
+          "name": "Hacker News",
+          "count": 3
         }
       ],
       "topTopics": [
@@ -27689,21 +27717,52 @@
         },
         {
           "name": "Agent",
-          "count": 7
+          "count": 6
+        },
+        {
+          "name": "芯片算力",
+          "count": 2
+        },
+        {
+          "name": "自动化",
+          "count": 2
+        },
+        {
+          "name": "安全治理",
+          "count": 2
         },
         {
           "name": "开源生态",
           "count": 2
-        },
-        {
-          "name": "应用落地",
-          "count": 1
         }
       ]
     },
     "topEvents": [
       {
         "rank": 1,
+        "title": "把记忆交给CPU，大模型会变快",
+        "platform": "量子位",
+        "aiScore": 95,
+        "publishedAt": "2026-09-16T03:07:18+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/489724.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "让GPU去忙生成Token",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
         "title": "7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开",
         "platform": "量子位",
         "aiScore": 95,
@@ -27726,20 +27785,20 @@
         }
       },
       {
-        "rank": 2,
-        "title": "Ask HN: Where is all of the AI coded software?",
-        "platform": "Hacker News",
+        "rank": 3,
+        "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
+        "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-09-15T16:55:08+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49715361",
-        "sourceName": "Hacker News AI",
+        "publishedAt": "2026-09-16T00:32:44+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whhygo/am_i_the_only_one_who_thinks_recent_ai_doomsday/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
           "Agent",
-          "应用落地"
+          "自动化"
         ],
-        "summary": "Like a lot of folks, I'm trying to understand the AI reality vs. the hype cycle. I have my own experiences both using it and seeing it rolled out with a “do more AI” mandate at a huge tech…",
+        "summary": "Recently, my feed has been flooded with alarmist AI news: AI choosing nuclear genocide in war games, AI blackmailing engineers to avoid being shut down, and the usual \"Skynet is here\" comme…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -27750,10 +27809,103 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 4,
+        "title": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-09-16T00:19:09+00:00",
+        "sourceUrl": "https://www.wsj.com/cio-journal/nvidia-and-crowdstrike-develop-new-cybersecurity-ai-models-937bb2aa",
+        "sourceName": "Hacker News AI",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "安全治理"
+        ],
+        "summary": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "Show HN: Leo – a Markdown engineering process for AI coding agents",
+        "platform": "Hacker News",
+        "aiScore": 86,
+        "publishedAt": "2026-09-16T00:47:27+00:00",
+        "sourceUrl": "https://github.com/alex-zaporozhan/leo",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "开源生态",
+          "安全治理"
+        ],
+        "summary": "I'm the builder of LEO, and this is not a packege or a service. It's a engineering framework of the rules for Cursor or ClaudeCode, helping to build enorm AI Native projects, 300 000 + line…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "华为GTS让Agent学会「看着网络排障」，双防火墙难题几乎全拿下",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-09-16T02:27:20+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/490098.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "任务通过率提升24.2%，token成本最高下降45%",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "Chat GPT and Gemini are too dumb to help process data",
+        "platform": "Reddit",
+        "aiScore": 85,
+        "publishedAt": "2026-09-16T01:08:50+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whiri0/chat_gpt_and_gemini_are_too_dumb_to_help_process/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "自动化"
+        ],
+        "summary": "i just wanted to make a stupid list for a game with average values of characters stats. i established a simple workflow: Stage 1 - I bring in all the characters data Stage 2 - The AI calcul…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 17,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
         "title": "What do we think about the paperclip maximizer?",
         "platform": "Reddit",
-        "aiScore": 88,
+        "aiScore": 81,
         "publishedAt": "2026-09-15T16:05:31+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh4kq7/what_do_we_think_about_the_paperclip_maximizer/",
         "sourceName": "Reddit r/artificial",
@@ -27766,139 +27918,27 @@
         "summary": "I want to vent/talk about this with others, but I couldn't find a sub for it; apologize if it's the wrong place. For some context, the paperclip maximizer thought experiment highlights: if…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "I expanded my Gifts platform- 96 atomic dependency-free, composable MIT-licensed code tools. Super handy for AI dev work",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-09-15T16:00:05+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh4eyp/i_expanded_my_gifts_platform_96_atomic/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "When I started making a bunch of free apps to give away on my site I was not intending it to become a platform but as we built more and more of the gifts, the platform shape kind of just fe…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "Your Agent Aced the Task. Will It Do It Again?",
-        "platform": "Hugging Face",
-        "aiScore": 85,
-        "publishedAt": "2026-09-15T16:00:44+00:00",
-        "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-        "sourceName": "Hugging Face Blog",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "Your Agent Aced the Task. Will It Do It Again?",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Combining RAG with Continued Pretraining of LLMs",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-09-15T17:13:25+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh6g23/combining_rag_with_continued_pretraining_of_llms/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "For leaning purposes, I ran an experiment where I used Unsloth to train a model on a new domain using continued pretraining. Then to make it more flexible, I added a RAG step to inject dyna…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "We asked creative experts to rank AI image / video models. Here's what happened",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-15T17:02:23+00:00",
-        "sourceUrl": "https://openart.ai/arena",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "We asked creative experts to rank AI image / video models. Here's what happened",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-15T17:01:40+00:00",
-        "sourceUrl": "https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "Ask HN: How do you control your AI Agents?",
-        "platform": "Hacker News",
+        "title": "Polanyi Knowledge and AI",
+        "platform": "Reddit",
         "aiScore": 78,
-        "publishedAt": "2026-09-15T16:50:09+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49715289",
-        "sourceName": "Hacker News AI",
+        "publishedAt": "2026-09-16T05:01:41+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whnmma/polanyi_knowledge_and_ai/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "模型进展"
         ],
-        "summary": "Ask HN: How do you control your AI Agents?",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "\"We have the digital world, the physical world, and the social world. AI Models can be trained for the digital world, including text and computer code, because there are vast stores of data…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -27909,17 +27949,17 @@
       },
       {
         "rank": 10,
-        "title": "is the biggest AI problem actually the interface rather than the model?",
-        "platform": "Reddit",
+        "title": "AI models in 'surreal' dialect mixing poetic language and tech bro jargon",
+        "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-09-15T16:45:08+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh5nd1/is_the_biggest_ai_problem_actually_the_interface/",
-        "sourceName": "Reddit r/artificial",
+        "publishedAt": "2026-09-16T04:00:58+00:00",
+        "sourceUrl": "https://www.theguardian.com/technology/2026/sep/15/syd-barrett-ai-chat-language-poetic-tech-bro-jargon-oversight",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "we keep improving the underlying models, but most interactions still boil down to typing a box of text and hoping the model understands what we want that seems strange when you think about…",
+        "summary": "AI models in 'surreal' dialect mixing poetic language and tech bro jargon",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -27931,10 +27971,10 @@
       }
     ],
     "briefing": [
-      "9月第3周累计收录 55 条资讯，覆盖 2 天。",
-      "高频主题：模型进展 / Agent / 开源生态",
-      "本周最高分：7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开（95 分）",
-      "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "9月第3周累计收录 71 条资讯，覆盖 2 天。",
+      "高频主题：模型进展 / Agent / 芯片算力",
+      "本周最高分：把记忆交给CPU，大模型会变快（95 分）",
+      "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "weeklyHistory": [
@@ -27947,25 +27987,21 @@
       },
       "metrics": {
         "daysCovered": 2,
-        "totalItems": 55,
-        "avgTop10Score": 83.4,
+        "totalItems": 71,
+        "avgTop10Score": 85.9,
         "topScore": 95,
         "topPlatforms": [
-          {
-            "name": "Hacker News",
-            "count": 4
-          },
           {
             "name": "Reddit",
             "count": 4
           },
           {
             "name": "量子位",
-            "count": 1
+            "count": 3
           },
           {
-            "name": "Hugging Face",
-            "count": 1
+            "name": "Hacker News",
+            "count": 3
           }
         ],
         "topTopics": [
@@ -27975,21 +28011,52 @@
           },
           {
             "name": "Agent",
-            "count": 7
+            "count": 6
+          },
+          {
+            "name": "芯片算力",
+            "count": 2
+          },
+          {
+            "name": "自动化",
+            "count": 2
+          },
+          {
+            "name": "安全治理",
+            "count": 2
           },
           {
             "name": "开源生态",
             "count": 2
-          },
-          {
-            "name": "应用落地",
-            "count": 1
           }
         ]
       },
       "topEvents": [
         {
           "rank": 1,
+          "title": "把记忆交给CPU，大模型会变快",
+          "platform": "量子位",
+          "aiScore": 95,
+          "publishedAt": "2026-09-16T03:07:18+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/489724.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "让GPU去忙生成Token",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
           "title": "7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开",
           "platform": "量子位",
           "aiScore": 95,
@@ -28012,20 +28079,20 @@
           }
         },
         {
-          "rank": 2,
-          "title": "Ask HN: Where is all of the AI coded software?",
-          "platform": "Hacker News",
+          "rank": 3,
+          "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
+          "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-09-15T16:55:08+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49715361",
-          "sourceName": "Hacker News AI",
+          "publishedAt": "2026-09-16T00:32:44+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whhygo/am_i_the_only_one_who_thinks_recent_ai_doomsday/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
             "Agent",
-            "应用落地"
+            "自动化"
           ],
-          "summary": "Like a lot of folks, I'm trying to understand the AI reality vs. the hype cycle. I have my own experiences both using it and seeing it rolled out with a “do more AI” mandate at a huge tech…",
+          "summary": "Recently, my feed has been flooded with alarmist AI news: AI choosing nuclear genocide in war games, AI blackmailing engineers to avoid being shut down, and the usual \"Skynet is here\" comme…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -28036,10 +28103,103 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "title": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-09-16T00:19:09+00:00",
+          "sourceUrl": "https://www.wsj.com/cio-journal/nvidia-and-crowdstrike-develop-new-cybersecurity-ai-models-937bb2aa",
+          "sourceName": "Hacker News AI",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Show HN: Leo – a Markdown engineering process for AI coding agents",
+          "platform": "Hacker News",
+          "aiScore": 86,
+          "publishedAt": "2026-09-16T00:47:27+00:00",
+          "sourceUrl": "https://github.com/alex-zaporozhan/leo",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "开源生态",
+            "安全治理"
+          ],
+          "summary": "I'm the builder of LEO, and this is not a packege or a service. It's a engineering framework of the rules for Cursor or ClaudeCode, helping to build enorm AI Native projects, 300 000 + line…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "华为GTS让Agent学会「看着网络排障」，双防火墙难题几乎全拿下",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-09-16T02:27:20+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/490098.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "任务通过率提升24.2%，token成本最高下降45%",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "Chat GPT and Gemini are too dumb to help process data",
+          "platform": "Reddit",
+          "aiScore": 85,
+          "publishedAt": "2026-09-16T01:08:50+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whiri0/chat_gpt_and_gemini_are_too_dumb_to_help_process/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "i just wanted to make a stupid list for a game with average values of characters stats. i established a simple workflow: Stage 1 - I bring in all the characters data Stage 2 - The AI calcul…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
           "title": "What do we think about the paperclip maximizer?",
           "platform": "Reddit",
-          "aiScore": 88,
+          "aiScore": 81,
           "publishedAt": "2026-09-15T16:05:31+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh4kq7/what_do_we_think_about_the_paperclip_maximizer/",
           "sourceName": "Reddit r/artificial",
@@ -28052,139 +28212,27 @@
           "summary": "I want to vent/talk about this with others, but I couldn't find a sub for it; apologize if it's the wrong place. For some context, the paperclip maximizer thought experiment highlights: if…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "I expanded my Gifts platform- 96 atomic dependency-free, composable MIT-licensed code tools. Super handy for AI dev work",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-09-15T16:00:05+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh4eyp/i_expanded_my_gifts_platform_96_atomic/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "When I started making a bunch of free apps to give away on my site I was not intending it to become a platform but as we built more and more of the gifts, the platform shape kind of just fe…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "Your Agent Aced the Task. Will It Do It Again?",
-          "platform": "Hugging Face",
-          "aiScore": 85,
-          "publishedAt": "2026-09-15T16:00:44+00:00",
-          "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-          "sourceName": "Hugging Face Blog",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "Your Agent Aced the Task. Will It Do It Again?",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "Combining RAG with Continued Pretraining of LLMs",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-09-15T17:13:25+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh6g23/combining_rag_with_continued_pretraining_of_llms/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "For leaning purposes, I ran an experiment where I used Unsloth to train a model on a new domain using continued pretraining. Then to make it more flexible, I added a RAG step to inject dyna…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "We asked creative experts to rank AI image / video models. Here's what happened",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-15T17:02:23+00:00",
-          "sourceUrl": "https://openart.ai/arena",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "We asked creative experts to rank AI image / video models. Here's what happened",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-15T17:01:40+00:00",
-          "sourceUrl": "https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "Ask HN: How do you control your AI Agents?",
-          "platform": "Hacker News",
+          "title": "Polanyi Knowledge and AI",
+          "platform": "Reddit",
           "aiScore": 78,
-          "publishedAt": "2026-09-15T16:50:09+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49715289",
-          "sourceName": "Hacker News AI",
+          "publishedAt": "2026-09-16T05:01:41+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whnmma/polanyi_knowledge_and_ai/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "Agent"
+            "模型进展"
           ],
-          "summary": "Ask HN: How do you control your AI Agents?",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "\"We have the digital world, the physical world, and the social world. AI Models can be trained for the digital world, including text and computer code, because there are vast stores of data…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
@@ -28195,17 +28243,17 @@
         },
         {
           "rank": 10,
-          "title": "is the biggest AI problem actually the interface rather than the model?",
-          "platform": "Reddit",
+          "title": "AI models in 'surreal' dialect mixing poetic language and tech bro jargon",
+          "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-09-15T16:45:08+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wh5nd1/is_the_biggest_ai_problem_actually_the_interface/",
-          "sourceName": "Reddit r/artificial",
+          "publishedAt": "2026-09-16T04:00:58+00:00",
+          "sourceUrl": "https://www.theguardian.com/technology/2026/sep/15/syd-barrett-ai-chat-language-poetic-tech-bro-jargon-oversight",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "模型进展"
           ],
-          "summary": "we keep improving the underlying models, but most interactions still boil down to typing a box of text and hoping the model understands what we want that seems strange when you think about…",
+          "summary": "AI models in 'surreal' dialect mixing poetic language and tech bro jargon",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -28217,10 +28265,10 @@
         }
       ],
       "briefing": [
-        "9月第3周累计收录 55 条资讯，覆盖 2 天。",
-        "高频主题：模型进展 / Agent / 开源生态",
-        "本周最高分：7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开（95 分）",
-        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+        "9月第3周累计收录 71 条资讯，覆盖 2 天。",
+        "高频主题：模型进展 / Agent / 芯片算力",
+        "本周最高分：把记忆交给CPU，大模型会变快（95 分）",
+        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
     },
     {
