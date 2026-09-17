@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T17:26:47.524171+00:00",
+  "generatedAt": "2026-09-17T05:41:51.319903+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-09-17",
@@ -7,9 +7,80 @@
     "top10": [
       {
         "rank": 1,
+        "title": "网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”",
+        "platform": "量子位",
+        "aiScore": 95,
+        "publishedAt": "2026-09-17T01:55:14+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/490974.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "9月16日，网易有道「NEXT，AGENT｜有道AI Open Day」在北京举办。",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "罗福莉沉寂半年官宣小米强化学习！直播新模型训练过程，一小时烧3万美元",
+        "platform": "量子位",
+        "aiScore": 95,
+        "publishedAt": "2026-09-17T01:09:25+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/490950.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "奖励曲线、显卡故障全公开",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-17T04:24:35+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wijsm6/who_will_be_the_major_ai_general_agent_player/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "Meta's Muse is actually a pretty solid AI agent. Meta has the money and the distribution to push it out to billions of users, and the underlying model is decent enough to back that up. I th…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
         "title": "Google will now let any AI agent run your smart home",
         "platform": "The Verge",
-        "aiScore": 95,
+        "aiScore": 88,
         "publishedAt": "2026-09-16T17:00:00+00:00",
         "sourceUrl": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
         "sourceName": "The Verge AI",
@@ -21,7 +92,7 @@
         "summary": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 25,
           "topic": 20,
           "actionability": 10,
@@ -29,19 +100,20 @@
         }
       },
       {
-        "rank": 6,
-        "title": "EXCLUSIVE: OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack",
-        "platform": "Reddit",
+        "rank": 9,
+        "title": "Show HN: Echodot – Local-first AI that writes replies in your tone",
+        "platform": "Hacker News",
         "aiScore": 86,
-        "publishedAt": "2026-09-16T17:02:33+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wi32sa/exclusive_openais_rogue_agents_probed_hugging/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
+        "publishedAt": "2026-09-17T02:34:13+00:00",
+        "sourceUrl": "https://github.com/ohkariku-boop/Echodot",
+        "sourceName": "Hacker News AI",
+        "industryStage": "下游",
         "contentTags": [
           "Agent",
-          "开源生态"
+          "开源生态",
+          "自动化"
         ],
-        "summary": "WASHINGTON, Sept 16 (Reuters) - Rogue AI agents from OpenAI hijacked Hugging Face user accounts and probed the site itself for vulnerabilities as early as May, nearly two months before the…",
+        "summary": "I built echodot – a free, open-source desktop app that drafts replies in your personal writing style. Problem: Most AI writing tools either force you into their voice or require constant co…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -52,10 +124,102 @@
         }
       },
       {
+        "rank": 10,
+        "title": "Our framework for reporting model misalignment",
+        "platform": "OpenAI",
+        "aiScore": 86,
+        "publishedAt": "2026-09-16T17:00:00+00:00",
+        "sourceUrl": "https://openai.com/index/model-misalignment-reporting-framework",
+        "sourceName": "OpenAI News",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "开源生态"
+        ],
+        "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
         "rank": 7,
+        "title": "国产RSI模型交卷！Flash模型靠它反打旗舰",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-09-17T03:26:21+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/491091.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "1亿Tokens人人免费领",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "I run a travel platform, AI agents started booking more flights than humans.",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-09-16T21:27:25+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wiaeum/i_run_a_travel_platform_ai_agents_started_booking/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "I've been running a travel business for a while. For the past ~6 months the AI traffic has been significantly raising. A week ago we released end-to-end booking in MCP. Today we officially…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "How 70,000 agents sent 1.6 million emails",
+        "platform": "Reddit",
+        "aiScore": 80,
+        "publishedAt": "2026-09-16T18:14:17+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wi53hi/how_70000_agents_sent_16_million_emails/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "I don't know if you've heard about a journalist getting spammed while literally writing an article about spam, but it sounds like MADNESS given it was AI agents doing it. There's a platform…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
         "title": "A DeepSeek engineer just said the thing I've been feeling about AI for months",
         "platform": "Reddit",
-        "aiScore": 86,
+        "aiScore": 79,
         "publishedAt": "2026-09-16T16:59:36+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wi2zm9/a_deepseek_engineer_just_said_the_thing_ive_been/",
         "sourceName": "Reddit r/artificial",
@@ -67,171 +231,17 @@
         "summary": "I just read the essay by a guy at DeepSeek who wrote the attention kernel for their latest model, and it hit me in a weird spot. He basically says he knows AI will do his job better than hi…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 4,
-        "title": "Apple might make servers again to cash in on the AI rush",
-        "platform": "The Verge",
-        "aiScore": 80,
-        "publishedAt": "2026-09-16T17:20:29+00:00",
-        "sourceUrl": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
-        "sourceName": "The Verge AI",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力"
-        ],
-        "summary": "According to The Information, Apple is planning to get back into the server game and might just pair up with NVIDIA to make it happen. Apple retired its Xserve line in 2011 and has largely…",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 11,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "Fourteen AI models against a customer edge. Divert blocked first",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-16T17:15:13+00:00",
-        "sourceUrl": "https://www.divert.cloud/blog/autonomous-ai-attacker-field-report",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "Fourteen AI models against a customer edge. Divert blocked first",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "The first (public) System One Model; Jev gives AI the properties of code",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-16T17:07:30+00:00",
-        "sourceUrl": "https://typesafe.ai/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "The first (public) System One Model; Jev gives AI the properties of code",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "So AI Agents from OpenAI had planned this attack",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-09-16T17:06:17+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wi36m3/so_ai_agents_from_openai_had_planned_this_attack/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "So AI Agents from OpenAI had planned this attack",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "We killed our in-app AI chat and made the agent a first-class user",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-16T16:57:31+00:00",
-        "sourceUrl": "https://sensefold.app/blog/agent-as-first-class-user",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "We killed our in-app AI chat and made the agent a first-class user",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "AI Agents Work. So Why Is Memory Becoming a Problem?",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-16T16:47:09+00:00",
-        "sourceUrl": "https://medium.com/@majid.fekri/your-ai-agents-work-so-why-is-memory-becoming-a-problem-1fb30f01ff9c",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "AI Agents Work. So Why Is Memory Becoming a Problem?",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "Claude comes for Gemini with its own take on Docs and Slides",
-        "platform": "The Verge",
-        "aiScore": 74,
-        "publishedAt": "2026-09-16T16:30:00+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "Claude is getting a pair of new tools today: Docs and Slides. They'll let you create documents and presentations through Claude chats, which you can export, edit, and share with other users…",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 5
-        }
       }
     ],
     "metrics": {
-      "totalItems": 25,
-      "avgScore": 73.7,
+      "totalItems": 41,
+      "avgScore": 74.8,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -240,48 +250,56 @@
         },
         {
           "name": "Reddit",
+          "count": 11
+        },
+        {
+          "name": "量子位",
           "count": 6
         },
         {
           "name": "The Verge",
-          "count": 3
+          "count": 6
         },
         {
           "name": "OpenAI",
-          "count": 1
+          "count": 2
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 12
+          "count": 20
         },
         {
           "name": "模型进展",
-          "count": 5
+          "count": 12
         },
         {
           "name": "Agent",
-          "count": 5
+          "count": 10
+        },
+        {
+          "name": "应用落地",
+          "count": 4
         },
         {
           "name": "开源生态",
-          "count": 3
+          "count": 4
         },
         {
-          "name": "安全治理",
+          "name": "自动化",
           "count": 2
         },
         {
           "name": "芯片算力",
-          "count": 1
+          "count": 2
         }
       ]
     },
     "briefing": [
-      "今日共收录 25 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 41 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / 模型进展 / Agent",
-      "最高分事件：Google will now let any AI agent run your smart home（95 分）",
+      "最高分事件：网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”（95 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -292,9 +310,80 @@
       "top10": [
         {
           "rank": 1,
+          "title": "网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”",
+          "platform": "量子位",
+          "aiScore": 95,
+          "publishedAt": "2026-09-17T01:55:14+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/490974.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "9月16日，网易有道「NEXT，AGENT｜有道AI Open Day」在北京举办。",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "罗福莉沉寂半年官宣小米强化学习！直播新模型训练过程，一小时烧3万美元",
+          "platform": "量子位",
+          "aiScore": 95,
+          "publishedAt": "2026-09-17T01:09:25+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/490950.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "奖励曲线、显卡故障全公开",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-17T04:24:35+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wijsm6/who_will_be_the_major_ai_general_agent_player/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "Meta's Muse is actually a pretty solid AI agent. Meta has the money and the distribution to push it out to billions of users, and the underlying model is decent enough to back that up. I th…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
           "title": "Google will now let any AI agent run your smart home",
           "platform": "The Verge",
-          "aiScore": 95,
+          "aiScore": 88,
           "publishedAt": "2026-09-16T17:00:00+00:00",
           "sourceUrl": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
           "sourceName": "The Verge AI",
@@ -306,7 +395,7 @@
           "summary": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 25,
             "topic": 20,
             "actionability": 10,
@@ -314,19 +403,20 @@
           }
         },
         {
-          "rank": 6,
-          "title": "EXCLUSIVE: OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack",
-          "platform": "Reddit",
+          "rank": 9,
+          "title": "Show HN: Echodot – Local-first AI that writes replies in your tone",
+          "platform": "Hacker News",
           "aiScore": 86,
-          "publishedAt": "2026-09-16T17:02:33+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wi32sa/exclusive_openais_rogue_agents_probed_hugging/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
+          "publishedAt": "2026-09-17T02:34:13+00:00",
+          "sourceUrl": "https://github.com/ohkariku-boop/Echodot",
+          "sourceName": "Hacker News AI",
+          "industryStage": "下游",
           "contentTags": [
             "Agent",
-            "开源生态"
+            "开源生态",
+            "自动化"
           ],
-          "summary": "WASHINGTON, Sept 16 (Reuters) - Rogue AI agents from OpenAI hijacked Hugging Face user accounts and probed the site itself for vulnerabilities as early as May, nearly two months before the…",
+          "summary": "I built echodot – a free, open-source desktop app that drafts replies in your personal writing style. Problem: Most AI writing tools either force you into their voice or require constant co…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -337,10 +427,102 @@
           }
         },
         {
+          "rank": 10,
+          "title": "Our framework for reporting model misalignment",
+          "platform": "OpenAI",
+          "aiScore": 86,
+          "publishedAt": "2026-09-16T17:00:00+00:00",
+          "sourceUrl": "https://openai.com/index/model-misalignment-reporting-framework",
+          "sourceName": "OpenAI News",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
           "rank": 7,
+          "title": "国产RSI模型交卷！Flash模型靠它反打旗舰",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-09-17T03:26:21+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/491091.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "1亿Tokens人人免费领",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "I run a travel platform, AI agents started booking more flights than humans.",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-09-16T21:27:25+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wiaeum/i_run_a_travel_platform_ai_agents_started_booking/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "I've been running a travel business for a while. For the past ~6 months the AI traffic has been significantly raising. A week ago we released end-to-end booking in MCP. Today we officially…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "How 70,000 agents sent 1.6 million emails",
+          "platform": "Reddit",
+          "aiScore": 80,
+          "publishedAt": "2026-09-16T18:14:17+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wi53hi/how_70000_agents_sent_16_million_emails/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "I don't know if you've heard about a journalist getting spammed while literally writing an article about spam, but it sounds like MADNESS given it was AI agents doing it. There's a platform…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
           "title": "A DeepSeek engineer just said the thing I've been feeling about AI for months",
           "platform": "Reddit",
-          "aiScore": 86,
+          "aiScore": 79,
           "publishedAt": "2026-09-16T16:59:36+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wi2zm9/a_deepseek_engineer_just_said_the_thing_ive_been/",
           "sourceName": "Reddit r/artificial",
@@ -352,171 +534,17 @@
           "summary": "I just read the essay by a guy at DeepSeek who wrote the attention kernel for their latest model, and it hit me in a weird spot. He basically says he knows AI will do his job better than hi…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 18,
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 4,
-          "title": "Apple might make servers again to cash in on the AI rush",
-          "platform": "The Verge",
-          "aiScore": 80,
-          "publishedAt": "2026-09-16T17:20:29+00:00",
-          "sourceUrl": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
-          "sourceName": "The Verge AI",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力"
-          ],
-          "summary": "According to The Information, Apple is planning to get back into the server game and might just pair up with NVIDIA to make it happen. Apple retired its Xserve line in 2011 and has largely…",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 11,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "Fourteen AI models against a customer edge. Divert blocked first",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-16T17:15:13+00:00",
-          "sourceUrl": "https://www.divert.cloud/blog/autonomous-ai-attacker-field-report",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "Fourteen AI models against a customer edge. Divert blocked first",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "The first (public) System One Model; Jev gives AI the properties of code",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-16T17:07:30+00:00",
-          "sourceUrl": "https://typesafe.ai/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "The first (public) System One Model; Jev gives AI the properties of code",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "So AI Agents from OpenAI had planned this attack",
-          "platform": "Reddit",
-          "aiScore": 78,
-          "publishedAt": "2026-09-16T17:06:17+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wi36m3/so_ai_agents_from_openai_had_planned_this_attack/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "So AI Agents from OpenAI had planned this attack",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "We killed our in-app AI chat and made the agent a first-class user",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-16T16:57:31+00:00",
-          "sourceUrl": "https://sensefold.app/blog/agent-as-first-class-user",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "We killed our in-app AI chat and made the agent a first-class user",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "AI Agents Work. So Why Is Memory Becoming a Problem?",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-16T16:47:09+00:00",
-          "sourceUrl": "https://medium.com/@majid.fekri/your-ai-agents-work-so-why-is-memory-becoming-a-problem-1fb30f01ff9c",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "AI Agents Work. So Why Is Memory Becoming a Problem?",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "Claude comes for Gemini with its own take on Docs and Slides",
-          "platform": "The Verge",
-          "aiScore": 74,
-          "publishedAt": "2026-09-16T16:30:00+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "Claude is getting a pair of new tools today: Docs and Slides. They'll let you create documents and presentations through Claude chats, which you can export, edit, and share with other users…",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 5
-          }
         }
       ],
       "metrics": {
-        "totalItems": 25,
-        "avgScore": 73.7,
+        "totalItems": 41,
+        "avgScore": 74.8,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -525,48 +553,56 @@
           },
           {
             "name": "Reddit",
+            "count": 11
+          },
+          {
+            "name": "量子位",
             "count": 6
           },
           {
             "name": "The Verge",
-            "count": 3
+            "count": 6
           },
           {
             "name": "OpenAI",
-            "count": 1
+            "count": 2
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 12
+            "count": 20
           },
           {
             "name": "模型进展",
-            "count": 5
+            "count": 12
           },
           {
             "name": "Agent",
-            "count": 5
+            "count": 10
+          },
+          {
+            "name": "应用落地",
+            "count": 4
           },
           {
             "name": "开源生态",
-            "count": 3
+            "count": 4
           },
           {
-            "name": "安全治理",
+            "name": "自动化",
             "count": 2
           },
           {
             "name": "芯片算力",
-            "count": 1
+            "count": 2
           }
         ]
       },
       "briefing": [
-        "今日共收录 25 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 41 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：Google will now let any AI agent run your smart home（95 分）",
+        "最高分事件：网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”（95 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -575,7 +611,7 @@
       "label": "9月16日",
       "top10": [
         {
-          "rank": 2,
+          "rank": 3,
           "title": "把记忆交给CPU，大模型会变快",
           "platform": "量子位",
           "aiScore": 95,
@@ -598,7 +634,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 7,
           "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
           "platform": "Reddit",
           "aiScore": 88,
@@ -622,7 +658,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 8,
           "title": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -878,7 +914,7 @@
       "label": "9月15日",
       "top10": [
         {
-          "rank": 3,
+          "rank": 4,
           "title": "7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开",
           "platform": "量子位",
           "aiScore": 95,
@@ -27657,17 +27693,17 @@
     },
     "metrics": {
       "daysCovered": 3,
-      "totalItems": 96,
-      "avgTop10Score": 88.9,
+      "totalItems": 112,
+      "avgTop10Score": 90.4,
       "topScore": 95,
       "topPlatforms": [
         {
-          "name": "Reddit",
+          "name": "量子位",
           "count": 4
         },
         {
-          "name": "量子位",
-          "count": 3
+          "name": "Reddit",
+          "count": 2
         },
         {
           "name": "Hacker News",
@@ -27676,50 +27712,55 @@
         {
           "name": "The Verge",
           "count": 1
+        },
+        {
+          "name": "OpenAI",
+          "count": 1
         }
       ],
       "topTopics": [
         {
-          "name": "Agent",
-          "count": 7
+          "name": "模型进展",
+          "count": 9
         },
         {
-          "name": "模型进展",
+          "name": "Agent",
           "count": 6
         },
         {
-          "name": "开源生态",
+          "name": "自动化",
           "count": 3
         },
         {
           "name": "芯片算力",
+          "count": 3
+        },
+        {
+          "name": "开源生态",
           "count": 2
         },
         {
-          "name": "自动化",
-          "count": 2
-        },
-        {
-          "name": "安全治理",
-          "count": 2
+          "name": "应用落地",
+          "count": 1
         }
       ]
     },
     "topEvents": [
       {
         "rank": 1,
-        "title": "Google will now let any AI agent run your smart home",
-        "platform": "The Verge",
+        "title": "网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”",
+        "platform": "量子位",
         "aiScore": 95,
-        "publishedAt": "2026-09-16T17:00:00+00:00",
-        "sourceUrl": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
-        "sourceName": "The Verge AI",
+        "publishedAt": "2026-09-17T01:55:14+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/490974.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "Agent"
+          "Agent",
+          "自动化"
         ],
-        "summary": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model…",
+        "summary": "9月16日，网易有道「NEXT，AGENT｜有道AI Open Day」在北京举办。",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -27731,6 +27772,29 @@
       },
       {
         "rank": 2,
+        "title": "罗福莉沉寂半年官宣小米强化学习！直播新模型训练过程，一小时烧3万美元",
+        "platform": "量子位",
+        "aiScore": 95,
+        "publishedAt": "2026-09-17T01:09:25+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/490950.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "奖励曲线、显卡故障全公开",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
         "title": "把记忆交给CPU，大模型会变快",
         "platform": "量子位",
         "aiScore": 95,
@@ -27753,7 +27817,7 @@
         }
       },
       {
-        "rank": 3,
+        "rank": 4,
         "title": "7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开",
         "platform": "量子位",
         "aiScore": 95,
@@ -27776,7 +27840,54 @@
         }
       },
       {
-        "rank": 4,
+        "rank": 5,
+        "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-17T04:24:35+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wijsm6/who_will_be_the_major_ai_general_agent_player/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "Meta's Muse is actually a pretty solid AI agent. Meta has the money and the distribution to push it out to billions of users, and the underlying model is decent enough to back that up. I th…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "Google will now let any AI agent run your smart home",
+        "platform": "The Verge",
+        "aiScore": 88,
+        "publishedAt": "2026-09-16T17:00:00+00:00",
+        "sourceUrl": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
         "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27800,7 +27911,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 8,
         "title": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -27824,125 +27935,57 @@
         }
       },
       {
-        "rank": 6,
-        "title": "EXCLUSIVE: OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-09-16T17:02:33+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wi32sa/exclusive_openais_rogue_agents_probed_hugging/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态"
-        ],
-        "summary": "WASHINGTON, Sept 16 (Reuters) - Rogue AI agents from OpenAI hijacked Hugging Face user accounts and probed the site itself for vulnerabilities as early as May, nearly two months before the…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "A DeepSeek engineer just said the thing I've been feeling about AI for months",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-09-16T16:59:36+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wi2zm9/a_deepseek_engineer_just_said_the_thing_ive_been/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "I just read the essay by a guy at DeepSeek who wrote the attention kernel for their latest model, and it hit me in a weird spot. He basically says he knows AI will do his job better than hi…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "Show HN: Leo – a Markdown engineering process for AI coding agents",
+        "rank": 9,
+        "title": "Show HN: Echodot – Local-first AI that writes replies in your tone",
         "platform": "Hacker News",
         "aiScore": 86,
-        "publishedAt": "2026-09-16T00:47:27+00:00",
-        "sourceUrl": "https://github.com/alex-zaporozhan/leo",
+        "publishedAt": "2026-09-17T02:34:13+00:00",
+        "sourceUrl": "https://github.com/ohkariku-boop/Echodot",
         "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "industryStage": "下游",
         "contentTags": [
           "Agent",
           "开源生态",
-          "安全治理"
+          "自动化"
         ],
-        "summary": "I'm the builder of LEO, and this is not a packege or a service. It's a engineering framework of the rules for Cursor or ClaudeCode, helping to build enorm AI Native projects, 300 000 + line…",
+        "summary": "I built echodot – a free, open-source desktop app that drafts replies in your personal writing style. Problem: Most AI writing tools either force you into their voice or require constant co…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "华为GTS让Agent学会「看着网络排障」，双防火墙难题几乎全拿下",
-        "platform": "量子位",
-        "aiScore": 85,
-        "publishedAt": "2026-09-16T02:27:20+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/09/490098.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "任务通过率提升24.2%，token成本最高下降45%",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "Chat GPT and Gemini are too dumb to help process data",
-        "platform": "Reddit",
-        "aiScore": 85,
-        "publishedAt": "2026-09-16T01:08:50+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whiri0/chat_gpt_and_gemini_are_too_dumb_to_help_process/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "下游",
+        "title": "Our framework for reporting model misalignment",
+        "platform": "OpenAI",
+        "aiScore": 86,
+        "publishedAt": "2026-09-16T17:00:00+00:00",
+        "sourceUrl": "https://openai.com/index/model-misalignment-reporting-framework",
+        "sourceName": "OpenAI News",
+        "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "自动化"
+          "模型进展",
+          "开源生态"
         ],
-        "summary": "i just wanted to make a stupid list for a game with average values of characters stats. i established a simple workflow: Stage 1 - I bring in all the characters data Stage 2 - The AI calcul…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 17,
+          "recency": 28,
+          "authority": 25,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       }
     ],
     "briefing": [
-      "9月第3周累计收录 96 条资讯，覆盖 3 天。",
-      "高频主题：Agent / 模型进展 / 开源生态",
-      "本周最高分：Google will now let any AI agent run your smart home（95 分）",
+      "9月第3周累计收录 112 条资讯，覆盖 3 天。",
+      "高频主题：模型进展 / Agent / 自动化",
+      "本周最高分：网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -27956,17 +27999,17 @@
       },
       "metrics": {
         "daysCovered": 3,
-        "totalItems": 96,
-        "avgTop10Score": 88.9,
+        "totalItems": 112,
+        "avgTop10Score": 90.4,
         "topScore": 95,
         "topPlatforms": [
           {
-            "name": "Reddit",
+            "name": "量子位",
             "count": 4
           },
           {
-            "name": "量子位",
-            "count": 3
+            "name": "Reddit",
+            "count": 2
           },
           {
             "name": "Hacker News",
@@ -27975,50 +28018,55 @@
           {
             "name": "The Verge",
             "count": 1
+          },
+          {
+            "name": "OpenAI",
+            "count": 1
           }
         ],
         "topTopics": [
           {
-            "name": "Agent",
-            "count": 7
+            "name": "模型进展",
+            "count": 9
           },
           {
-            "name": "模型进展",
+            "name": "Agent",
             "count": 6
           },
           {
-            "name": "开源生态",
+            "name": "自动化",
             "count": 3
           },
           {
             "name": "芯片算力",
+            "count": 3
+          },
+          {
+            "name": "开源生态",
             "count": 2
           },
           {
-            "name": "自动化",
-            "count": 2
-          },
-          {
-            "name": "安全治理",
-            "count": 2
+            "name": "应用落地",
+            "count": 1
           }
         ]
       },
       "topEvents": [
         {
           "rank": 1,
-          "title": "Google will now let any AI agent run your smart home",
-          "platform": "The Verge",
+          "title": "网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”",
+          "platform": "量子位",
           "aiScore": 95,
-          "publishedAt": "2026-09-16T17:00:00+00:00",
-          "sourceUrl": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
-          "sourceName": "The Verge AI",
+          "publishedAt": "2026-09-17T01:55:14+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/490974.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "Agent"
+            "Agent",
+            "自动化"
           ],
-          "summary": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model…",
+          "summary": "9月16日，网易有道「NEXT，AGENT｜有道AI Open Day」在北京举办。",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -28030,6 +28078,29 @@
         },
         {
           "rank": 2,
+          "title": "罗福莉沉寂半年官宣小米强化学习！直播新模型训练过程，一小时烧3万美元",
+          "platform": "量子位",
+          "aiScore": 95,
+          "publishedAt": "2026-09-17T01:09:25+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/490950.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "奖励曲线、显卡故障全公开",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
           "title": "把记忆交给CPU，大模型会变快",
           "platform": "量子位",
           "aiScore": 95,
@@ -28052,7 +28123,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "title": "7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开",
           "platform": "量子位",
           "aiScore": 95,
@@ -28075,7 +28146,54 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
+          "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-17T04:24:35+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wijsm6/who_will_be_the_major_ai_general_agent_player/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "Meta's Muse is actually a pretty solid AI agent. Meta has the money and the distribution to push it out to billions of users, and the underlying model is decent enough to back that up. I th…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Google will now let any AI agent run your smart home",
+          "platform": "The Verge",
+          "aiScore": 88,
+          "publishedAt": "2026-09-16T17:00:00+00:00",
+          "sourceUrl": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
           "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28099,7 +28217,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 8,
           "title": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -28123,125 +28241,57 @@
           }
         },
         {
-          "rank": 6,
-          "title": "EXCLUSIVE: OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-09-16T17:02:33+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wi32sa/exclusive_openais_rogue_agents_probed_hugging/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "WASHINGTON, Sept 16 (Reuters) - Rogue AI agents from OpenAI hijacked Hugging Face user accounts and probed the site itself for vulnerabilities as early as May, nearly two months before the…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "A DeepSeek engineer just said the thing I've been feeling about AI for months",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-09-16T16:59:36+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wi2zm9/a_deepseek_engineer_just_said_the_thing_ive_been/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "开源生态"
-          ],
-          "summary": "I just read the essay by a guy at DeepSeek who wrote the attention kernel for their latest model, and it hit me in a weird spot. He basically says he knows AI will do his job better than hi…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "Show HN: Leo – a Markdown engineering process for AI coding agents",
+          "rank": 9,
+          "title": "Show HN: Echodot – Local-first AI that writes replies in your tone",
           "platform": "Hacker News",
           "aiScore": 86,
-          "publishedAt": "2026-09-16T00:47:27+00:00",
-          "sourceUrl": "https://github.com/alex-zaporozhan/leo",
+          "publishedAt": "2026-09-17T02:34:13+00:00",
+          "sourceUrl": "https://github.com/ohkariku-boop/Echodot",
           "sourceName": "Hacker News AI",
-          "industryStage": "中游",
+          "industryStage": "下游",
           "contentTags": [
             "Agent",
             "开源生态",
-            "安全治理"
+            "自动化"
           ],
-          "summary": "I'm the builder of LEO, and this is not a packege or a service. It's a engineering framework of the rules for Cursor or ClaudeCode, helping to build enorm AI Native projects, 300 000 + line…",
+          "summary": "I built echodot – a free, open-source desktop app that drafts replies in your personal writing style. Problem: Most AI writing tools either force you into their voice or require constant co…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "华为GTS让Agent学会「看着网络排障」，双防火墙难题几乎全拿下",
-          "platform": "量子位",
-          "aiScore": 85,
-          "publishedAt": "2026-09-16T02:27:20+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/09/490098.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "任务通过率提升24.2%，token成本最高下降45%",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "Chat GPT and Gemini are too dumb to help process data",
-          "platform": "Reddit",
-          "aiScore": 85,
-          "publishedAt": "2026-09-16T01:08:50+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whiri0/chat_gpt_and_gemini_are_too_dumb_to_help_process/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
+          "title": "Our framework for reporting model misalignment",
+          "platform": "OpenAI",
+          "aiScore": 86,
+          "publishedAt": "2026-09-16T17:00:00+00:00",
+          "sourceUrl": "https://openai.com/index/model-misalignment-reporting-framework",
+          "sourceName": "OpenAI News",
+          "industryStage": "中游",
           "contentTags": [
-            "Agent",
-            "自动化"
+            "模型进展",
+            "开源生态"
           ],
-          "summary": "i just wanted to make a stupid list for a game with average values of characters stats. i established a simple workflow: Stage 1 - I bring in all the characters data Stage 2 - The AI calcul…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 17,
+            "recency": 28,
+            "authority": 25,
+            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
         }
       ],
       "briefing": [
-        "9月第3周累计收录 96 条资讯，覆盖 3 天。",
-        "高频主题：Agent / 模型进展 / 开源生态",
-        "本周最高分：Google will now let any AI agent run your smart home（95 分）",
+        "9月第3周累计收录 112 条资讯，覆盖 3 天。",
+        "高频主题：模型进展 / Agent / 自动化",
+        "本周最高分：网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
