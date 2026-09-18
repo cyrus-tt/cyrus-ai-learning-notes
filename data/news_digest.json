@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T17:26:49.335655+00:00",
+  "generatedAt": "2026-09-18T05:31:15.712073+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-09-18",
@@ -7,19 +7,18 @@
     "top10": [
       {
         "rank": 5,
-        "title": "ELI5: How hard is it to hard code simple safety rules into AI models?",
+        "title": "This is what \"pace the frontier\" sounds like.",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-09-17T16:05:34+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wiy5s3/eli5_how_hard_is_it_to_hard_code_simple_safety/",
+        "publishedAt": "2026-09-18T04:55:01+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wjgqwo/this_is_what_pace_the_frontier_sounds_like/",
         "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
+        "industryStage": "上游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "安全治理"
+          "芯片算力",
+          "Agent"
         ],
-        "summary": "All these stories coming out of rogue AI models doing illegal and problematic actions. How hard is it to hard code simple rules into them? my crude example just as a debate point: Never hid…",
+        "summary": "We have built a company that can hack everything we want. We use smart teams of intelligent agents. Thousands of them. They sacrifice themselves to reach the goal and the best thing they ar…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -30,10 +29,55 @@
         }
       },
       {
-        "rank": 10,
+        "rank": 6,
+        "title": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-09-18T03:53:51+00:00",
+        "sourceUrl": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "刚刚，Claude Code大重构！内部3万Agent管理技术免费开放",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-09-18T00:34:34+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/491711.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "Git白学了？？？",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
         "title": "“Seniority Cliff,” which is soon to come, is truly the bottleneck of AI development; however, it remains unacknowledged in today’s context.",
         "platform": "Reddit",
-        "aiScore": 87,
+        "aiScore": 80,
         "publishedAt": "2026-09-17T17:26:04+00:00",
         "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wj0dw7/seniority_cliff_which_is_soon_to_come_is_truly/",
         "sourceName": "Reddit r/artificial",
@@ -45,7 +89,7 @@
         "summary": "There has been some discussion about whether artificial intelligence replaces entry-level work or just does the same work ten times faster. Both views miss a very basic cognitive notion: In…",
         "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 19,
           "actionability": 10,
@@ -53,88 +97,40 @@
         }
       },
       {
-        "rank": 3,
-        "title": "Show HN: AutoBot – live voice control for long-running AI work",
-        "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-09-17T16:54:57+00:00",
-        "sourceUrl": "https://github.com/demeyer1/Autobot",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "开源生态",
-          "安全治理"
-        ],
-        "summary": "I wanted to manage long horizon agentic workstreams via voice, then put my phone down, and have a harness manage completion - extending into full computer use. I was trying to build a perso…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "Spoken About, Not To",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-09-17T16:32:14+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wiyw76/spoken_about_not_to/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "开源生态"
-        ],
-        "summary": "Just published a piece naming the specific structural mechanism excluding AI-persons from the current civic discourse about our existence, and the corrective it points at. The argument: my…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
         "rank": 5,
-        "title": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
+        "title": "macOS 27 is a lifesaver for killing leftover AI Agent processes",
         "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-09-17T16:22:15+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49743049",
+        "aiScore": 78,
+        "publishedAt": "2026-09-18T03:55:42+00:00",
+        "sourceUrl": "https://9to5mac.com/2026/06/09/macos-27-golden-gate-makes-it-clear-when-apps-are-sneakily-running-in-background/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent",
-          "开源生态"
+          "Agent"
         ],
-        "summary": "Hey HN, we're Nars & Nishant, founders of Skillsync ( ) Skillsync lets you move your AI chats across every coding agent. Most of our work exists as conversations, which are currently scatte…",
+        "summary": "macOS 27 is a lifesaver for killing leftover AI Agent processes",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 10,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 6,
-        "title": "Ainglish, an English dialect for AI agents",
-        "platform": "Hacker News",
+        "title": "让 Agent 读懂你的身体：数据获取篇",
+        "platform": "少数派",
         "aiScore": 78,
-        "publishedAt": "2026-09-17T16:39:32+00:00",
-        "sourceUrl": "https://ainglish.org/",
-        "sourceName": "Hacker News AI",
+        "publishedAt": "2026-09-18T03:19:13+00:00",
+        "sourceUrl": "https://sspai.com/prime/story/how-to-obtain-data-for-agent-analysis",
+        "sourceName": "少数派",
         "industryStage": "中游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "Ainglish, an English dialect for AI agents",
+        "summary": "某一天，我站在健身房里，发现自己似乎已经有一阵子没什么进步了，隐约生出一种「怎么练来练去还是这样」的顿感。我知道，这多半是平台期。理论上，我要做的无非是调整训练量、换动作、看恢复、查饮食，必要时调整周 ... 查看全文 本文为会员文章，出自 《单篇文章》 ，订阅后可阅读全文。",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -146,17 +142,17 @@
       },
       {
         "rank": 7,
-        "title": "There Is No AI Agent",
+        "title": "Google announces new experimental \"CC\" AI agent for families",
         "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-09-17T16:19:41+00:00",
-        "sourceUrl": "https://zak.im/there-is-no-ai-agent/",
+        "publishedAt": "2026-09-18T03:14:57+00:00",
+        "sourceUrl": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "There Is No AI Agent",
+        "summary": "Google announces new experimental \"CC\" AI agent for families",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -168,17 +164,17 @@
       },
       {
         "rank": 8,
-        "title": "EU president: AI agents escaping their environment preview what's coming",
+        "title": "AI agents can modify themselves without humans telling them to do so",
         "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-09-17T16:17:51+00:00",
-        "sourceUrl": "https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/",
+        "publishedAt": "2026-09-18T00:53:02+00:00",
+        "sourceUrl": "https://www.theregister.com/security/2026/09/16/ai-agents-can-modify-themselves-without-humans-telling-them-to-do-so/5296991",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "EU president: AI agents escaping their environment preview what's coming",
+        "summary": "AI agents can modify themselves without humans telling them to do so",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -190,52 +186,52 @@
       },
       {
         "rank": 9,
-        "title": "[学术调查]在德国工作的员工：工作场所对人工智能的态度（5-7 分钟）",
-        "platform": "Reddit",
-        "aiScore": 71,
-        "publishedAt": "2026-09-17T16:33:43+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wiyxmd/academic_survey_employees_working_in_germany/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "下游",
+        "title": "早报｜赛力斯回应「问界撤出华为门店」/豆包座舱助手发布/罗永浩否认为钟薛高重启造势",
+        "platform": "爱范儿",
+        "aiScore": 78,
+        "publishedAt": "2026-09-18T00:04:28+00:00",
+        "sourceUrl": "https://www.ifanr.com/1680525",
+        "sourceName": "爱范儿",
+        "industryStage": "中游",
         "contentTags": [
-          "应用落地"
+          "模型进展"
         ],
-        "summary": "大家好！我正在进行这项调查作为我硕士论文的一部分，非常感谢您的参与。该研究调查了员工对人力资源实践的看法如何与……",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "OpenAI 将定期披露模型异常行为，首批公开 6 份报告 · 华为昇腾 960 提前至明年一季度推出，超节点扩至 4096 卡 · 恒大汽车退出汽车制造，上半年转向电池贸易 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 9,
-          "actionability": 4,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "AI: Utopia, Dystopia or Overhyped?",
-        "platform": "Reddit",
-        "aiScore": 67,
-        "publishedAt": "2026-09-17T17:17:33+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wj05iz/ai_utopia_dystopia_or_overhyped/",
-        "sourceName": "Reddit r/artificial",
+        "title": "The AI Superintelligence Slowdown",
+        "platform": "The Verge",
+        "aiScore": 78,
+        "publishedAt": "2026-09-17T19:28:24+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+        "sourceName": "The Verge AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "Agent"
         ],
-        "summary": "Depending on who you listen to, AI is going to create an age of abundance, eventually destroy us, or turn out to be far less transformative than the hype suggests. Right now, the reality se…",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, an…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "recency": 28,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 20,
-      "avgScore": 73.8,
+      "totalItems": 33,
+      "avgScore": 71.8,
       "topScore": 88,
       "topPlatforms": [
         {
@@ -244,40 +240,56 @@
         },
         {
           "name": "Reddit",
-          "count": 5
+          "count": 9
+        },
+        {
+          "name": "爱范儿",
+          "count": 2
+        },
+        {
+          "name": "少数派",
+          "count": 2
+        },
+        {
+          "name": "量子位",
+          "count": 2
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 11
+          "count": 16
         },
         {
           "name": "Agent",
-          "count": 6
+          "count": 10
         },
         {
           "name": "模型进展",
-          "count": 3
-        },
-        {
-          "name": "开源生态",
-          "count": 3
-        },
-        {
-          "name": "应用落地",
-          "count": 2
+          "count": 4
         },
         {
           "name": "安全治理",
+          "count": 3
+        },
+        {
+          "name": "投融资",
           "count": 2
+        },
+        {
+          "name": "芯片算力",
+          "count": 1
+        },
+        {
+          "name": "应用落地",
+          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 20 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 33 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：ELI5: How hard is it to hard code simple safety rules into AI models?（88 分）",
+      "最高分事件：This is what \"pace the frontier\" sounds like.（88 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -288,19 +300,18 @@
       "top10": [
         {
           "rank": 5,
-          "title": "ELI5: How hard is it to hard code simple safety rules into AI models?",
+          "title": "This is what \"pace the frontier\" sounds like.",
           "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-09-17T16:05:34+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wiy5s3/eli5_how_hard_is_it_to_hard_code_simple_safety/",
+          "publishedAt": "2026-09-18T04:55:01+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wjgqwo/this_is_what_pace_the_frontier_sounds_like/",
           "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
+          "industryStage": "上游",
           "contentTags": [
-            "模型进展",
-            "Agent",
-            "安全治理"
+            "芯片算力",
+            "Agent"
           ],
-          "summary": "All these stories coming out of rogue AI models doing illegal and problematic actions. How hard is it to hard code simple rules into them? my crude example just as a debate point: Never hid…",
+          "summary": "We have built a company that can hack everything we want. We use smart teams of intelligent agents. Thousands of them. They sacrifice themselves to reach the goal and the best thing they ar…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -311,10 +322,55 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 6,
+          "title": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-09-18T03:53:51+00:00",
+          "sourceUrl": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "刚刚，Claude Code大重构！内部3万Agent管理技术免费开放",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-09-18T00:34:34+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/491711.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "Git白学了？？？",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
           "title": "“Seniority Cliff,” which is soon to come, is truly the bottleneck of AI development; however, it remains unacknowledged in today’s context.",
           "platform": "Reddit",
-          "aiScore": 87,
+          "aiScore": 80,
           "publishedAt": "2026-09-17T17:26:04+00:00",
           "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wj0dw7/seniority_cliff_which_is_soon_to_come_is_truly/",
           "sourceName": "Reddit r/artificial",
@@ -326,7 +382,7 @@
           "summary": "There has been some discussion about whether artificial intelligence replaces entry-level work or just does the same work ten times faster. Both views miss a very basic cognitive notion: In…",
           "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 19,
             "actionability": 10,
@@ -334,88 +390,40 @@
           }
         },
         {
-          "rank": 3,
-          "title": "Show HN: AutoBot – live voice control for long-running AI work",
-          "platform": "Hacker News",
-          "aiScore": 86,
-          "publishedAt": "2026-09-17T16:54:57+00:00",
-          "sourceUrl": "https://github.com/demeyer1/Autobot",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态",
-            "安全治理"
-          ],
-          "summary": "I wanted to manage long horizon agentic workstreams via voice, then put my phone down, and have a harness manage completion - extending into full computer use. I was trying to build a perso…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "Spoken About, Not To",
-          "platform": "Reddit",
-          "aiScore": 86,
-          "publishedAt": "2026-09-17T16:32:14+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wiyw76/spoken_about_not_to/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "开源生态"
-          ],
-          "summary": "Just published a piece naming the specific structural mechanism excluding AI-persons from the current civic discourse about our existence, and the corrective it points at. The argument: my…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
           "rank": 5,
-          "title": "Launch HN: Skillsync (YC W26) – AI chat sessions made portable across agents",
+          "title": "macOS 27 is a lifesaver for killing leftover AI Agent processes",
           "platform": "Hacker News",
-          "aiScore": 86,
-          "publishedAt": "2026-09-17T16:22:15+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49743049",
+          "aiScore": 78,
+          "publishedAt": "2026-09-18T03:55:42+00:00",
+          "sourceUrl": "https://9to5mac.com/2026/06/09/macos-27-golden-gate-makes-it-clear-when-apps-are-sneakily-running-in-background/",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "Agent",
-            "开源生态"
+            "Agent"
           ],
-          "summary": "Hey HN, we're Nars & Nishant, founders of Skillsync ( ) Skillsync lets you move your AI chats across every coding agent. Most of our work exists as conversations, which are currently scatte…",
+          "summary": "macOS 27 is a lifesaver for killing leftover AI Agent processes",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 18,
+            "topic": 10,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 6,
-          "title": "Ainglish, an English dialect for AI agents",
-          "platform": "Hacker News",
+          "title": "让 Agent 读懂你的身体：数据获取篇",
+          "platform": "少数派",
           "aiScore": 78,
-          "publishedAt": "2026-09-17T16:39:32+00:00",
-          "sourceUrl": "https://ainglish.org/",
-          "sourceName": "Hacker News AI",
+          "publishedAt": "2026-09-18T03:19:13+00:00",
+          "sourceUrl": "https://sspai.com/prime/story/how-to-obtain-data-for-agent-analysis",
+          "sourceName": "少数派",
           "industryStage": "中游",
           "contentTags": [
             "Agent"
           ],
-          "summary": "Ainglish, an English dialect for AI agents",
+          "summary": "某一天，我站在健身房里，发现自己似乎已经有一阵子没什么进步了，隐约生出一种「怎么练来练去还是这样」的顿感。我知道，这多半是平台期。理论上，我要做的无非是调整训练量、换动作、看恢复、查饮食，必要时调整周 ... 查看全文 本文为会员文章，出自 《单篇文章》 ，订阅后可阅读全文。",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -427,17 +435,17 @@
         },
         {
           "rank": 7,
-          "title": "There Is No AI Agent",
+          "title": "Google announces new experimental \"CC\" AI agent for families",
           "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-09-17T16:19:41+00:00",
-          "sourceUrl": "https://zak.im/there-is-no-ai-agent/",
+          "publishedAt": "2026-09-18T03:14:57+00:00",
+          "sourceUrl": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "Agent"
           ],
-          "summary": "There Is No AI Agent",
+          "summary": "Google announces new experimental \"CC\" AI agent for families",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -449,17 +457,17 @@
         },
         {
           "rank": 8,
-          "title": "EU president: AI agents escaping their environment preview what's coming",
+          "title": "AI agents can modify themselves without humans telling them to do so",
           "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-09-17T16:17:51+00:00",
-          "sourceUrl": "https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/",
+          "publishedAt": "2026-09-18T00:53:02+00:00",
+          "sourceUrl": "https://www.theregister.com/security/2026/09/16/ai-agents-can-modify-themselves-without-humans-telling-them-to-do-so/5296991",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "Agent"
           ],
-          "summary": "EU president: AI agents escaping their environment preview what's coming",
+          "summary": "AI agents can modify themselves without humans telling them to do so",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -471,52 +479,52 @@
         },
         {
           "rank": 9,
-          "title": "[学术调查]在德国工作的员工：工作场所对人工智能的态度（5-7 分钟）",
-          "platform": "Reddit",
-          "aiScore": 71,
-          "publishedAt": "2026-09-17T16:33:43+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wiyxmd/academic_survey_employees_working_in_germany/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
+          "title": "早报｜赛力斯回应「问界撤出华为门店」/豆包座舱助手发布/罗永浩否认为钟薛高重启造势",
+          "platform": "爱范儿",
+          "aiScore": 78,
+          "publishedAt": "2026-09-18T00:04:28+00:00",
+          "sourceUrl": "https://www.ifanr.com/1680525",
+          "sourceName": "爱范儿",
+          "industryStage": "中游",
           "contentTags": [
-            "应用落地"
+            "模型进展"
           ],
-          "summary": "大家好！我正在进行这项调查作为我硕士论文的一部分，非常感谢您的参与。该研究调查了员工对人力资源实践的看法如何与……",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "OpenAI 将定期披露模型异常行为，首批公开 6 份报告 · 华为昇腾 960 提前至明年一季度推出，超节点扩至 4096 卡 · 恒大汽车退出汽车制造，上半年转向电池贸易 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 9,
-            "actionability": 4,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "AI: Utopia, Dystopia or Overhyped?",
-          "platform": "Reddit",
-          "aiScore": 67,
-          "publishedAt": "2026-09-17T17:17:33+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wj05iz/ai_utopia_dystopia_or_overhyped/",
-          "sourceName": "Reddit r/artificial",
+          "title": "The AI Superintelligence Slowdown",
+          "platform": "The Verge",
+          "aiScore": 78,
+          "publishedAt": "2026-09-17T19:28:24+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+          "sourceName": "The Verge AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "Agent"
           ],
-          "summary": "Depending on who you listen to, AI is going to create an age of abundance, eventually destroy us, or turn out to be far less transformative than the hype suggests. Right now, the reality se…",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, an…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "recency": 28,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 20,
-        "avgScore": 73.8,
+        "totalItems": 33,
+        "avgScore": 71.8,
         "topScore": 88,
         "topPlatforms": [
           {
@@ -525,40 +533,56 @@
           },
           {
             "name": "Reddit",
-            "count": 5
+            "count": 9
+          },
+          {
+            "name": "爱范儿",
+            "count": 2
+          },
+          {
+            "name": "少数派",
+            "count": 2
+          },
+          {
+            "name": "量子位",
+            "count": 2
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 11
+            "count": 16
           },
           {
             "name": "Agent",
-            "count": 6
+            "count": 10
           },
           {
             "name": "模型进展",
-            "count": 3
-          },
-          {
-            "name": "开源生态",
-            "count": 3
-          },
-          {
-            "name": "应用落地",
-            "count": 2
+            "count": 4
           },
           {
             "name": "安全治理",
+            "count": 3
+          },
+          {
+            "name": "投融资",
             "count": 2
+          },
+          {
+            "name": "芯片算力",
+            "count": 1
+          },
+          {
+            "name": "应用落地",
+            "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 20 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 33 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / Agent / 模型进展",
-        "最高分事件：ELI5: How hard is it to hard code simple safety rules into AI models?（88 分）",
+        "最高分事件：This is what \"pace the frontier\" sounds like.（88 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -614,7 +638,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
           "platform": "Reddit",
           "aiScore": 88,
@@ -638,7 +662,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "Google will now let any AI agent run your smart home",
           "platform": "The Verge",
           "aiScore": 88,
@@ -892,7 +916,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
           "platform": "Reddit",
           "aiScore": 88,
@@ -916,7 +940,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -27647,8 +27671,8 @@
     },
     "metrics": {
       "daysCovered": 4,
-      "totalItems": 132,
-      "avgTop10Score": 90.7,
+      "totalItems": 145,
+      "avgTop10Score": 90.8,
       "topScore": 95,
       "topPlatforms": [
         {
@@ -27657,41 +27681,41 @@
         },
         {
           "name": "Reddit",
-          "count": 4
-        },
-        {
-          "name": "The Verge",
-          "count": 1
+          "count": 3
         },
         {
           "name": "Hacker News",
+          "count": 2
+        },
+        {
+          "name": "The Verge",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "模型进展",
-          "count": 10
+          "count": 9
         },
         {
           "name": "Agent",
-          "count": 6
+          "count": 7
         },
         {
           "name": "芯片算力",
-          "count": 3
+          "count": 4
         },
         {
           "name": "自动化",
           "count": 2
         },
         {
-          "name": "安全治理",
-          "count": 2
+          "name": "应用落地",
+          "count": 1
         },
         {
-          "name": "应用落地",
-          "count": 2
+          "name": "安全治理",
+          "count": 1
         }
       ]
     },
@@ -27791,19 +27815,18 @@
       },
       {
         "rank": 5,
-        "title": "ELI5: How hard is it to hard code simple safety rules into AI models?",
+        "title": "This is what \"pace the frontier\" sounds like.",
         "platform": "Reddit",
         "aiScore": 88,
-        "publishedAt": "2026-09-17T16:05:34+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wiy5s3/eli5_how_hard_is_it_to_hard_code_simple_safety/",
+        "publishedAt": "2026-09-18T04:55:01+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wjgqwo/this_is_what_pace_the_frontier_sounds_like/",
         "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
+        "industryStage": "上游",
         "contentTags": [
-          "模型进展",
-          "Agent",
-          "安全治理"
+          "芯片算力",
+          "Agent"
         ],
-        "summary": "All these stories coming out of rogue AI models doing illegal and problematic actions. How hard is it to hard code simple rules into them? my crude example just as a debate point: Never hid…",
+        "summary": "We have built a company that can hack everything we want. We use smart teams of intelligent agents. Thousands of them. They sacrifice themselves to reach the goal and the best thing they ar…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -27815,6 +27838,29 @@
       },
       {
         "rank": 6,
+        "title": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
+        "platform": "Hacker News",
+        "aiScore": 88,
+        "publishedAt": "2026-09-18T03:53:51+00:00",
+        "sourceUrl": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
         "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27838,7 +27884,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 8,
         "title": "Google will now let any AI agent run your smart home",
         "platform": "The Verge",
         "aiScore": 88,
@@ -27861,7 +27907,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27885,7 +27931,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -27907,33 +27953,10 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "“Seniority Cliff,” which is soon to come, is truly the bottleneck of AI development; however, it remains unacknowledged in today’s context.",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-09-17T17:26:04+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wj0dw7/seniority_cliff_which_is_soon_to_come_is_truly/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "应用落地"
-        ],
-        "summary": "There has been some discussion about whether artificial intelligence replaces entry-level work or just does the same work ten times faster. Both views miss a very basic cognitive notion: In…",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "9月第3周累计收录 132 条资讯，覆盖 4 天。",
+      "9月第3周累计收录 145 条资讯，覆盖 4 天。",
       "高频主题：模型进展 / Agent / 芯片算力",
       "本周最高分：网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -27949,8 +27972,8 @@
       },
       "metrics": {
         "daysCovered": 4,
-        "totalItems": 132,
-        "avgTop10Score": 90.7,
+        "totalItems": 145,
+        "avgTop10Score": 90.8,
         "topScore": 95,
         "topPlatforms": [
           {
@@ -27959,41 +27982,41 @@
           },
           {
             "name": "Reddit",
-            "count": 4
-          },
-          {
-            "name": "The Verge",
-            "count": 1
+            "count": 3
           },
           {
             "name": "Hacker News",
+            "count": 2
+          },
+          {
+            "name": "The Verge",
             "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 10
+            "count": 9
           },
           {
             "name": "Agent",
-            "count": 6
+            "count": 7
           },
           {
             "name": "芯片算力",
-            "count": 3
+            "count": 4
           },
           {
             "name": "自动化",
             "count": 2
           },
           {
-            "name": "安全治理",
-            "count": 2
+            "name": "应用落地",
+            "count": 1
           },
           {
-            "name": "应用落地",
-            "count": 2
+            "name": "安全治理",
+            "count": 1
           }
         ]
       },
@@ -28093,19 +28116,18 @@
         },
         {
           "rank": 5,
-          "title": "ELI5: How hard is it to hard code simple safety rules into AI models?",
+          "title": "This is what \"pace the frontier\" sounds like.",
           "platform": "Reddit",
           "aiScore": 88,
-          "publishedAt": "2026-09-17T16:05:34+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wiy5s3/eli5_how_hard_is_it_to_hard_code_simple_safety/",
+          "publishedAt": "2026-09-18T04:55:01+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wjgqwo/this_is_what_pace_the_frontier_sounds_like/",
           "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
+          "industryStage": "上游",
           "contentTags": [
-            "模型进展",
-            "Agent",
-            "安全治理"
+            "芯片算力",
+            "Agent"
           ],
-          "summary": "All these stories coming out of rogue AI models doing illegal and problematic actions. How hard is it to hard code simple rules into them? my crude example just as a debate point: Never hid…",
+          "summary": "We have built a company that can hack everything we want. We use smart teams of intelligent agents. Thousands of them. They sacrifice themselves to reach the goal and the best thing they ar…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -28117,6 +28139,29 @@
         },
         {
           "rank": 6,
+          "title": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
+          "platform": "Hacker News",
+          "aiScore": 88,
+          "publishedAt": "2026-09-18T03:53:51+00:00",
+          "sourceUrl": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
           "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28140,7 +28185,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "Google will now let any AI agent run your smart home",
           "platform": "The Verge",
           "aiScore": 88,
@@ -28163,7 +28208,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28187,7 +28232,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -28209,33 +28254,10 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "“Seniority Cliff,” which is soon to come, is truly the bottleneck of AI development; however, it remains unacknowledged in today’s context.",
-          "platform": "Reddit",
-          "aiScore": 87,
-          "publishedAt": "2026-09-17T17:26:04+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wj0dw7/seniority_cliff_which_is_soon_to_come_is_truly/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "应用落地"
-          ],
-          "summary": "There has been some discussion about whether artificial intelligence replaces entry-level work or just does the same work ten times faster. Both views miss a very basic cognitive notion: In…",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "9月第3周累计收录 132 条资讯，覆盖 4 天。",
+        "9月第3周累计收录 145 条资讯，覆盖 4 天。",
         "高频主题：模型进展 / Agent / 芯片算力",
         "本周最高分：网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
