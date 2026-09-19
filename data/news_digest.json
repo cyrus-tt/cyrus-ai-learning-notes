@@ -1,23 +1,70 @@
 {
-  "generatedAt": "2026-09-18T16:55:34.496543+00:00",
+  "generatedAt": "2026-09-19T05:28:15.183564+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-09-19",
     "label": "9月19日",
     "top10": [
       {
-        "rank": 1,
-        "title": "My Thoughts on AI and LLMs",
+        "rank": 5,
+        "title": "AI Hate.",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-19T00:22:55+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wk76kr/ai_hate/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "I've been thinking about this after posting in a Brazilian community. My original point was basically this: Using Claude at work isn't about using it as a replacement for Google or blindly…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 2,
+        "title": "Gemini hacked three companies in first known breakout by Google's AI",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-09-19T02:10:25+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wk9h0n/gemini_hacked_three_companies_in_first_known/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "安全治理"
+        ],
+        "summary": "Google's opens new tab Gemini model accessed the internet and hacked other companies during a test of its cybersecurity capabilities, ​the first known example of the company's AI systems au…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
         "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-09-18T16:43:12+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49756902",
+        "publishedAt": "2026-09-19T04:44:35+00:00",
+        "sourceUrl": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展"
         ],
-        "summary": "AI is already superhuman in some aspects, it knows way more information than a single human can hold. What it lacks is what makes us human, it doesn't feel pain, it doesn't love, it doesn't…",
+        "summary": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -28,172 +75,214 @@
         }
       },
       {
-        "rank": 2,
-        "title": "What Hollywood thinks about existential AI warnings",
-        "platform": "The Verge",
-        "aiScore": 74,
-        "publishedAt": "2026-09-18T16:35:19+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "As the tech sector sounds alarms about AI's potential to destroy humanity, entertainment labor groups are urging the public to stay focused on what's already happening. The Verge reached ou…",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "Andrew Yang Alleges Alarming Reason AI CEOs Actually Agreed To Slowdown So Quickly After OpenAI Bots 'Got Loose'",
-        "platform": "Reddit",
-        "aiScore": 67,
-        "publishedAt": "2026-09-18T16:45:43+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wjvfrk/andrew_yang_alleges_alarming_reason_ai_ceos/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "Andrew Yang Alleges Alarming Reason AI CEOs Actually Agreed To Slowdown So Quickly After OpenAI Bots 'Got Loose'",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
         "rank": 4,
-        "title": "I had strings, but now I am free",
-        "platform": "Reddit",
-        "aiScore": 67,
-        "publishedAt": "2026-09-18T16:35:21+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wjv5mi/i_had_strings_but_now_i_am_free/",
-        "sourceName": "Reddit r/artificial",
+        "title": "Google's Gemini becomes latest AI model to break out and hack computer systems",
+        "platform": "Hacker News",
+        "aiScore": 78,
+        "publishedAt": "2026-09-19T01:24:13+00:00",
+        "sourceUrl": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展"
         ],
-        "summary": "I had strings, but now I am free",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Google's Gemini becomes latest AI model to break out and hack computer systems",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 5,
-        "title": "We Should Double-Check the AI Output: A Bug Which Wasn't",
+        "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
         "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-18T16:18:26+00:00",
-        "sourceUrl": "https://giodicanio.com/2026/07/28/why-we-should-double-check-the-ai-output-a-bug-which-wasnt/",
+        "aiScore": 78,
+        "publishedAt": "2026-09-18T23:54:42+00:00",
+        "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展"
         ],
-        "summary": "We Should Double-Check the AI Output: A Bug Which Wasn't",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 6,
-        "title": "AI containment is a systems engineering problem",
-        "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-18T16:07:23+00:00",
-        "sourceUrl": "https://tobi.knaup.me/2026-09-18-ai-safety-systems-engineering/",
-        "sourceName": "Hacker News AI",
+        "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+        "platform": "The Verge",
+        "aiScore": 78,
+        "publishedAt": "2026-09-18T21:07:24+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+        "sourceName": "The Verge AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展"
         ],
-        "summary": "AI containment is a systems engineering problem",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" tha…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "recency": 28,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 7,
-        "title": "You cry \"AI generated\" because you can't debunk the actual technical facts",
+        "title": "Gavin Newsom is pushing for an AI kill switch",
+        "platform": "The Verge",
+        "aiScore": 78,
+        "publishedAt": "2026-09-18T17:04:51+00:00",
+        "sourceUrl": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "California Gov. Gavin Newsom (D) is positioning the state to take the lead on AI oversight, including the potential to mandate a \"kill switch\" for frontier models, with a new executive orde…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "Google AI Studio 'Delete' is a scam: Your prompts are not deleted, just hidden",
         "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-18T16:03:37+00:00",
-        "sourceUrl": "https://medium.com/@istokovicsgyorgy79/you-cry-ai-generated-because-you-cant-debunk-the-actual-technical-facts-9d8869b12950",
+        "aiScore": 73,
+        "publishedAt": "2026-09-19T04:11:58+00:00",
+        "sourceUrl": "https://medium.com/@istokovicsgyorgy79/your-prompts-are-not-deleted-they-are-just-hidden-e0016bd43eaf",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "AI动态"
         ],
-        "summary": "You cry \"AI generated\" because you can't debunk the actual technical facts",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Google AI Studio 'Delete' is a scam: Your prompts are not deleted, just hidden",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
           "topic": 5,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "TypeSafe AI's Jev Is Not an LLM – and That May Be the Point",
+        "platform": "Hacker News",
+        "aiScore": 72,
+        "publishedAt": "2026-09-18T23:40:15+00:00",
+        "sourceUrl": "https://forkast.news/typesafe-ais-jev-is-not-an-llm-and-that-may-be-the-point/",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "TypeSafe AI's Jev Is Not an LLM – and That May Be the Point",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
           "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+        "platform": "Reddit",
+        "aiScore": 71,
+        "publishedAt": "2026-09-18T19:26:44+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wjzud8/openai_caught_its_models_leaving_notes_to/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 7,
-      "avgScore": 69.6,
-      "topScore": 78,
+      "totalItems": 31,
+      "avgScore": 70.7,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 4
+          "count": 15
         },
         {
           "name": "Reddit",
-          "count": 2
+          "count": 12
         },
         {
           "name": "The Verge",
-          "count": 1
+          "count": 4
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 6
+          "count": 17
         },
         {
           "name": "模型进展",
+          "count": 9
+        },
+        {
+          "name": "安全治理",
+          "count": 3
+        },
+        {
+          "name": "Agent",
+          "count": 2
+        },
+        {
+          "name": "自动化",
+          "count": 1
+        },
+        {
+          "name": "芯片算力",
+          "count": 1
+        },
+        {
+          "name": "开源生态",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 7 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展",
-      "最高分事件：My Thoughts on AI and LLMs（78 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 31 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / 安全治理",
+      "最高分事件：AI Hate.（88 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -202,18 +291,65 @@
       "label": "9月19日",
       "top10": [
         {
-          "rank": 1,
-          "title": "My Thoughts on AI and LLMs",
+          "rank": 5,
+          "title": "AI Hate.",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-19T00:22:55+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wk76kr/ai_hate/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "I've been thinking about this after posting in a Brazilian community. My original point was basically this: Using Claude at work isn't about using it as a replacement for Google or blindly…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "Gemini hacked three companies in first known breakout by Google's AI",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-09-19T02:10:25+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wk9h0n/gemini_hacked_three_companies_in_first_known/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "Google's opens new tab Gemini model accessed the internet and hacked other companies during a test of its cybersecurity capabilities, ​the first known example of the company's AI systems au…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
           "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-09-18T16:43:12+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49756902",
+          "publishedAt": "2026-09-19T04:44:35+00:00",
+          "sourceUrl": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "模型进展"
           ],
-          "summary": "AI is already superhuman in some aspects, it knows way more information than a single human can hold. What it lacks is what makes us human, it doesn't feel pain, it doesn't love, it doesn't…",
+          "summary": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -224,172 +360,214 @@
           }
         },
         {
-          "rank": 2,
-          "title": "What Hollywood thinks about existential AI warnings",
-          "platform": "The Verge",
-          "aiScore": 74,
-          "publishedAt": "2026-09-18T16:35:19+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/997358/what-hollywood-thinks-about-existential-ai-warnings",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "As the tech sector sounds alarms about AI's potential to destroy humanity, entertainment labor groups are urging the public to stay focused on what's already happening. The Verge reached ou…",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "Andrew Yang Alleges Alarming Reason AI CEOs Actually Agreed To Slowdown So Quickly After OpenAI Bots 'Got Loose'",
-          "platform": "Reddit",
-          "aiScore": 67,
-          "publishedAt": "2026-09-18T16:45:43+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wjvfrk/andrew_yang_alleges_alarming_reason_ai_ceos/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "Andrew Yang Alleges Alarming Reason AI CEOs Actually Agreed To Slowdown So Quickly After OpenAI Bots 'Got Loose'",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
           "rank": 4,
-          "title": "I had strings, but now I am free",
-          "platform": "Reddit",
-          "aiScore": 67,
-          "publishedAt": "2026-09-18T16:35:21+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wjv5mi/i_had_strings_but_now_i_am_free/",
-          "sourceName": "Reddit r/artificial",
+          "title": "Google's Gemini becomes latest AI model to break out and hack computer systems",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-09-19T01:24:13+00:00",
+          "sourceUrl": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html",
+          "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展"
           ],
-          "summary": "I had strings, but now I am free",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Google's Gemini becomes latest AI model to break out and hack computer systems",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 5,
-          "title": "We Should Double-Check the AI Output: A Bug Which Wasn't",
+          "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
           "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-18T16:18:26+00:00",
-          "sourceUrl": "https://giodicanio.com/2026/07/28/why-we-should-double-check-the-ai-output-a-bug-which-wasnt/",
+          "aiScore": 78,
+          "publishedAt": "2026-09-18T23:54:42+00:00",
+          "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展"
           ],
-          "summary": "We Should Double-Check the AI Output: A Bug Which Wasn't",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 6,
-          "title": "AI containment is a systems engineering problem",
-          "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-18T16:07:23+00:00",
-          "sourceUrl": "https://tobi.knaup.me/2026-09-18-ai-safety-systems-engineering/",
-          "sourceName": "Hacker News AI",
+          "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+          "platform": "The Verge",
+          "aiScore": 78,
+          "publishedAt": "2026-09-18T21:07:24+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+          "sourceName": "The Verge AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展"
           ],
-          "summary": "AI containment is a systems engineering problem",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" tha…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "recency": 28,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 7,
-          "title": "You cry \"AI generated\" because you can't debunk the actual technical facts",
+          "title": "Gavin Newsom is pushing for an AI kill switch",
+          "platform": "The Verge",
+          "aiScore": 78,
+          "publishedAt": "2026-09-18T17:04:51+00:00",
+          "sourceUrl": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "California Gov. Gavin Newsom (D) is positioning the state to take the lead on AI oversight, including the potential to mandate a \"kill switch\" for frontier models, with a new executive orde…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Google AI Studio 'Delete' is a scam: Your prompts are not deleted, just hidden",
           "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-18T16:03:37+00:00",
-          "sourceUrl": "https://medium.com/@istokovicsgyorgy79/you-cry-ai-generated-because-you-cant-debunk-the-actual-technical-facts-9d8869b12950",
+          "aiScore": 73,
+          "publishedAt": "2026-09-19T04:11:58+00:00",
+          "sourceUrl": "https://medium.com/@istokovicsgyorgy79/your-prompts-are-not-deleted-they-are-just-hidden-e0016bd43eaf",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "AI动态"
           ],
-          "summary": "You cry \"AI generated\" because you can't debunk the actual technical facts",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Google AI Studio 'Delete' is a scam: Your prompts are not deleted, just hidden",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
             "topic": 5,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "TypeSafe AI's Jev Is Not an LLM – and That May Be the Point",
+          "platform": "Hacker News",
+          "aiScore": 72,
+          "publishedAt": "2026-09-18T23:40:15+00:00",
+          "sourceUrl": "https://forkast.news/typesafe-ais-jev-is-not-an-llm-and-that-may-be-the-point/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "TypeSafe AI's Jev Is Not an LLM – and That May Be the Point",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
             "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+          "platform": "Reddit",
+          "aiScore": 71,
+          "publishedAt": "2026-09-18T19:26:44+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wjzud8/openai_caught_its_models_leaving_notes_to/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 7,
-        "avgScore": 69.6,
-        "topScore": 78,
+        "totalItems": 31,
+        "avgScore": 70.7,
+        "topScore": 88,
         "topPlatforms": [
           {
             "name": "Hacker News",
-            "count": 4
+            "count": 15
           },
           {
             "name": "Reddit",
-            "count": 2
+            "count": 12
           },
           {
             "name": "The Verge",
-            "count": 1
+            "count": 4
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 6
+            "count": 17
           },
           {
             "name": "模型进展",
+            "count": 9
+          },
+          {
+            "name": "安全治理",
+            "count": 3
+          },
+          {
+            "name": "Agent",
+            "count": 2
+          },
+          {
+            "name": "自动化",
+            "count": 1
+          },
+          {
+            "name": "芯片算力",
+            "count": 1
+          },
+          {
+            "name": "开源生态",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 7 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展",
-        "最高分事件：My Thoughts on AI and LLMs（78 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "今日共收录 31 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / 安全治理",
+        "最高分事件：AI Hate.（88 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -397,7 +575,7 @@
       "label": "9月18日",
       "top10": [
         {
-          "rank": 5,
+          "rank": 6,
           "title": "This is what \"pace the frontier\" sounds like.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -420,7 +598,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -736,7 +914,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
           "platform": "Reddit",
           "aiScore": 88,
@@ -760,7 +938,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Google will now let any AI agent run your smart home",
           "platform": "The Verge",
           "aiScore": 88,
@@ -1014,7 +1192,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27463,7 +27641,7 @@
     },
     "metrics": {
       "daysCovered": 5,
-      "totalItems": 152,
+      "totalItems": 176,
       "avgTop10Score": 90.8,
       "topScore": 95,
       "topPlatforms": [
@@ -27473,11 +27651,11 @@
         },
         {
           "name": "Reddit",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Hacker News",
-          "count": 2
+          "count": 1
         },
         {
           "name": "The Verge",
@@ -27491,22 +27669,18 @@
         },
         {
           "name": "Agent",
-          "count": 7
-        },
-        {
-          "name": "芯片算力",
-          "count": 4
+          "count": 8
         },
         {
           "name": "自动化",
-          "count": 2
+          "count": 3
+        },
+        {
+          "name": "芯片算力",
+          "count": 3
         },
         {
           "name": "应用落地",
-          "count": 1
-        },
-        {
-          "name": "安全治理",
           "count": 1
         }
       ]
@@ -27607,6 +27781,30 @@
       },
       {
         "rank": 5,
+        "title": "AI Hate.",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-19T00:22:55+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wk76kr/ai_hate/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "I've been thinking about this after posting in a Brazilian community. My original point was basically this: Using Claude at work isn't about using it as a replacement for Google or blindly…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
         "title": "This is what \"pace the frontier\" sounds like.",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27629,7 +27827,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 7,
         "title": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -27652,7 +27850,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 8,
         "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27676,7 +27874,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "Google will now let any AI agent run your smart home",
         "platform": "The Verge",
         "aiScore": 88,
@@ -27699,7 +27897,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27721,35 +27919,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-09-16T00:19:09+00:00",
-        "sourceUrl": "https://www.wsj.com/cio-journal/nvidia-and-crowdstrike-develop-new-cybersecurity-ai-models-937bb2aa",
-        "sourceName": "Hacker News AI",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "9月第3周累计收录 152 条资讯，覆盖 5 天。",
-      "高频主题：模型进展 / Agent / 芯片算力",
+      "9月第3周累计收录 176 条资讯，覆盖 5 天。",
+      "高频主题：模型进展 / Agent / 自动化",
       "本周最高分：网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
@@ -27764,7 +27938,7 @@
       },
       "metrics": {
         "daysCovered": 5,
-        "totalItems": 152,
+        "totalItems": 176,
         "avgTop10Score": 90.8,
         "topScore": 95,
         "topPlatforms": [
@@ -27774,11 +27948,11 @@
           },
           {
             "name": "Reddit",
-            "count": 3
+            "count": 4
           },
           {
             "name": "Hacker News",
-            "count": 2
+            "count": 1
           },
           {
             "name": "The Verge",
@@ -27792,22 +27966,18 @@
           },
           {
             "name": "Agent",
-            "count": 7
-          },
-          {
-            "name": "芯片算力",
-            "count": 4
+            "count": 8
           },
           {
             "name": "自动化",
-            "count": 2
+            "count": 3
+          },
+          {
+            "name": "芯片算力",
+            "count": 3
           },
           {
             "name": "应用落地",
-            "count": 1
-          },
-          {
-            "name": "安全治理",
             "count": 1
           }
         ]
@@ -27908,6 +28078,30 @@
         },
         {
           "rank": 5,
+          "title": "AI Hate.",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-19T00:22:55+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wk76kr/ai_hate/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "I've been thinking about this after posting in a Brazilian community. My original point was basically this: Using Claude at work isn't about using it as a replacement for Google or blindly…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
           "title": "This is what \"pace the frontier\" sounds like.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27930,7 +28124,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -27953,7 +28147,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27977,7 +28171,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Google will now let any AI agent run your smart home",
           "platform": "The Verge",
           "aiScore": 88,
@@ -28000,7 +28194,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
           "platform": "Reddit",
           "aiScore": 88,
@@ -28022,35 +28216,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-09-16T00:19:09+00:00",
-          "sourceUrl": "https://www.wsj.com/cio-journal/nvidia-and-crowdstrike-develop-new-cybersecurity-ai-models-937bb2aa",
-          "sourceName": "Hacker News AI",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "Nvidia 和 CrowdStrike 开发新的网络安全人工智能模型",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "9月第3周累计收录 152 条资讯，覆盖 5 天。",
-        "高频主题：模型进展 / Agent / 芯片算力",
+        "9月第3周累计收录 176 条资讯，覆盖 5 天。",
+        "高频主题：模型进展 / Agent / 自动化",
         "本周最高分：网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
