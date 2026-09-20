@@ -1,306 +1,293 @@
 {
-  "generatedAt": "2026-09-20T05:40:48.939666+00:00",
+  "generatedAt": "2026-09-20T16:40:26.832640+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-09-20",
-    "label": "9月20日",
+    "date": "2026-09-21",
+    "label": "9月21日",
     "top10": [
       {
-        "rank": 5,
-        "title": "why most enterprise AI projects die before reaching production",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-09-20T00:18:57+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wl21jy/why_most_enterprise_ai_projects_die_before/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "spent the last few months working on agent deployments for non-tech businesses and the biggest takeaway is that prompt engineering is kind of a waste of time if your data is trash. everyone…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 2,
-        "title": "采用 Fossil-scm 作为 AI 代理工作流程的平台",
+        "rank": 1,
+        "title": "Show HN: Autopoiesis: Concept for AI platforms shipped with repos",
         "platform": "Hacker News",
-        "aiScore": 85,
-        "publishedAt": "2026-09-20T04:17:59+00:00",
-        "sourceUrl": "https://github.com/BenSiv/fossil-scm",
-        "sourceName": "Hacker News AI",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "自动化"
-        ],
-        "summary": "采用 Fossil-scm 作为 AI 代理工作流程的平台",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 17,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
-        "platform": "量子位",
-        "aiScore": 83,
-        "publishedAt": "2026-09-20T02:48:18+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/09/492849.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "安全治理"
-        ],
-        "summary": "9月18日，在第一届中国网络空间安全大会上，《网络安全人才实战能力报告—AI赋能篇》正式发布",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 8,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "I'm Building a pixel building to mange AI agents that can use almost any LLM available",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-09-19T21:39:05+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wkyf38/im_building_a_pixel_building_to_mange_ai_agents/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent"
-        ],
-        "summary": "Sanctorum is a Electron desktop app where you run a team or teams of AI agents (you can also create infinite ai agents and teams) as an actual organization. Each agent sits at a desk on a f…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "I built an AI production system with Codex that now programs a 24/7 television network. Here’s how the automation works",
-        "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-09-19T19:43:10+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wkvk0d/i_built_an_ai_production_system_with_codex_that/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "下游",
-        "contentTags": [
-          "Agent",
-          "应用落地",
-          "内容生产"
-        ],
-        "summary": "For the past 15 months, I’ve been building a 24/7 AI-native television network called Botflix. What started as a mostly manual production process has now turned into a system where ChatGPT/…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Integrating Volt Active Data with AI Agents and Chatbots",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-20T04:07:46+00:00",
-        "sourceUrl": "https://docs.voltdb.com/UsingVoltDB/ChapAI.php",
+        "aiScore": 70,
+        "publishedAt": "2026-09-20T16:10:17+00:00",
+        "sourceUrl": "https://jakobbr.eu/2026/09/20/autopoiesis-concept-for-repos-bringing-their-own-preconfigured-ai-frontend/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "开源生态"
         ],
-        "summary": "Integrating Volt Active Data with AI Agents and Chatbots",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "体验完 Step 5 Preview，我发现阶跃重新坐上国产大模型主桌",
-        "platform": "爱范儿",
-        "aiScore": 78,
-        "publishedAt": "2026-09-20T04:00:16+00:00",
-        "sourceUrl": "https://www.ifanr.com/1680881",
-        "sourceName": "爱范儿",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "模型入海，阶跃走向人群 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 8,
-        "title": "Jev to retrieve memories is a game changer for AI agents",
-        "platform": "Reddit",
-        "aiScore": 78,
-        "publishedAt": "2026-09-20T01:11:25+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wl35qe/jev_to_retrieve_memories_is_a_game_changer_for_ai/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "Check it out here",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "VoltGrid AI: Mitigating GPU cluster dI/dt power surges in software",
-        "platform": "Hacker News",
-        "aiScore": 73,
-        "publishedAt": "2026-09-20T05:32:16+00:00",
-        "sourceUrl": "https://zenodo.org/records/22824778",
-        "sourceName": "Hacker News AI",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力"
-        ],
-        "summary": "VoltGrid AI: Mitigating GPU cluster dI/dt power surges in software",
+        "summary": "Show HN: Autopoiesis: Concept for AI platforms shipped with repos",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 11,
+          "topic": 8,
           "actionability": 4,
           "heat": 5
         }
       },
       {
-        "rank": 10,
-        "title": "AI models are not hacking “autonomously”",
-        "platform": "Reddit",
-        "aiScore": 71,
-        "publishedAt": "2026-09-19T22:05:14+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wkz17p/ai_models_are_not_hacking_autonomously/",
-        "sourceName": "Reddit r/artificial",
+        "rank": 2,
+        "title": "What Policymakers and the Public Need to Know About the Cult of AI",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-20T16:19:24+00:00",
+        "sourceUrl": "https://www.techpolicy.press/what-policymakers-and-the-public-need-to-know-about-the-cult-of-ai/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展"
+          "AI动态"
         ],
-        "summary": "AI models are not hacking “autonomously”",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "What Policymakers and the Public Need to Know About the Cult of AI",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 10,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Ada and the Panda: even with AI, making a picture book was no child's play",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-20T16:16:53+00:00",
+        "sourceUrl": "https://fazy.medium.com/ada-and-the-panda-even-with-ai-making-a-picture-book-was-no-childs-play-d8811e4346cf",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "Ada and the Panda: even with AI, making a picture book was no child's play",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "Ask HN: What is up with all the AI doomerism I'm seeing?",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-20T16:06:49+00:00",
+        "sourceUrl": "https://news.ycombinator.com/item?id=49777172",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "I'm constantly seeing posts about how \"AI is already better than humans\", \"programmers are useless\" \"everything can be vibe-coded by someone with 0 technical experience\". Is everyone online…",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "Burned Out and Unemployed, Young People in China Are Launching AI Startups",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-20T16:03:44+00:00",
+        "sourceUrl": "https://www.wsj.com/business/entrepreneurship/burned-out-and-unemployed-young-people-in-china-are-launching-ai-startups-c5ebcdc3",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "AI动态"
+        ],
+        "summary": "Burned Out and Unemployed, Young People in China Are Launching AI Startups",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 29,
-      "avgScore": 70.4,
-      "topScore": 88,
+      "totalItems": 5,
+      "avgScore": 67.6,
+      "topScore": 70,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 15
-        },
-        {
-          "name": "Reddit",
-          "count": 11
-        },
-        {
-          "name": "爱范儿",
-          "count": 1
-        },
-        {
-          "name": "量子位",
-          "count": 1
-        },
-        {
-          "name": "The Verge",
-          "count": 1
+          "count": 5
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 18
-        },
-        {
-          "name": "Agent",
-          "count": 6
-        },
-        {
-          "name": "模型进展",
           "count": 4
         },
         {
-          "name": "应用落地",
-          "count": 2
-        },
-        {
-          "name": "芯片算力",
-          "count": 1
-        },
-        {
           "name": "开源生态",
-          "count": 1
-        },
-        {
-          "name": "自动化",
-          "count": 1
-        },
-        {
-          "name": "安全治理",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 29 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：why most enterprise AI projects die before reaching production（88 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 5 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 开源生态",
+      "最高分事件：Show HN: Autopoiesis: Concept for AI platforms shipped with repos（70 分）",
+      "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-09-21",
+      "label": "9月21日",
+      "top10": [
+        {
+          "rank": 1,
+          "title": "Show HN: Autopoiesis: Concept for AI platforms shipped with repos",
+          "platform": "Hacker News",
+          "aiScore": 70,
+          "publishedAt": "2026-09-20T16:10:17+00:00",
+          "sourceUrl": "https://jakobbr.eu/2026/09/20/autopoiesis-concept-for-repos-bringing-their-own-preconfigured-ai-frontend/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "开源生态"
+          ],
+          "summary": "Show HN: Autopoiesis: Concept for AI platforms shipped with repos",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 8,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "What Policymakers and the Public Need to Know About the Cult of AI",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-20T16:19:24+00:00",
+          "sourceUrl": "https://www.techpolicy.press/what-policymakers-and-the-public-need-to-know-about-the-cult-of-ai/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "What Policymakers and the Public Need to Know About the Cult of AI",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Ada and the Panda: even with AI, making a picture book was no child's play",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-20T16:16:53+00:00",
+          "sourceUrl": "https://fazy.medium.com/ada-and-the-panda-even-with-ai-making-a-picture-book-was-no-childs-play-d8811e4346cf",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "Ada and the Panda: even with AI, making a picture book was no child's play",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "Ask HN: What is up with all the AI doomerism I'm seeing?",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-20T16:06:49+00:00",
+          "sourceUrl": "https://news.ycombinator.com/item?id=49777172",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "I'm constantly seeing posts about how \"AI is already better than humans\", \"programmers are useless\" \"everything can be vibe-coded by someone with 0 technical experience\". Is everyone online…",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Burned Out and Unemployed, Young People in China Are Launching AI Startups",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-20T16:03:44+00:00",
+          "sourceUrl": "https://www.wsj.com/business/entrepreneurship/burned-out-and-unemployed-young-people-in-china-are-launching-ai-startups-c5ebcdc3",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "Burned Out and Unemployed, Young People in China Are Launching AI Startups",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 5,
+        "avgScore": 67.6,
+        "topScore": 70,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 5
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 4
+          },
+          {
+            "name": "开源生态",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 5 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 开源生态",
+        "最高分事件：Show HN: Autopoiesis: Concept for AI platforms shipped with repos（70 分）",
+        "首要动作：先点原文链接，记录一句结论和一个可执行动作。"
+      ]
+    },
     {
       "date": "2026-09-20",
       "label": "9月20日",
@@ -26092,7 +26079,7 @@
       "label": "6月27日",
       "top10": [
         {
-          "rank": 1,
+          "rank": 9,
           "title": "具身世界模型“我悟”通过合规备案",
           "platform": "36氪",
           "aiScore": 93,
@@ -26756,7 +26743,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 7,
           "title": "抢体脂秤、AI做「搭子」，第一批网友冲向阿福减重",
           "platform": "36氪",
           "aiScore": 94,
@@ -26780,7 +26767,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 8,
           "title": "腾讯云EdgeOne Makers登顶Product Hunt日榜",
           "platform": "36氪",
           "aiScore": 94,
@@ -26803,7 +26790,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 10,
           "title": "美光的好财报，黄金的坏消息",
           "platform": "36氪",
           "aiScore": 92,
@@ -27324,315 +27311,6 @@
         "最高分事件：OpenAI 推出首款人工智能处理器：Jalapeo（95 分）",
         "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
-    },
-    {
-      "date": "2026-06-23",
-      "label": "6月23日",
-      "top10": [
-        {
-          "rank": 7,
-          "title": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码",
-          "platform": "量子位",
-          "aiScore": 95,
-          "publishedAt": "2026-06-23T13:37:17+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/06/437503.html",
-          "sourceName": "量子位",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "Agent"
-          ],
-          "summary": "编程比肩Opus 4.7",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "圆桌论坛：比共识更早一步 AI 创投的真实棋局 | 2026WAVES",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-23T10:43:59+00:00",
-          "sourceUrl": "https://36kr.com/p/3865630193030145?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "AI不是一阵风，它正在变成地平线。而地平线的意思是——你看不到它的尽头，但它一直在那里。 当下AI热潮涌动，行业共识尚未形成，但真正的机遇往往诞生在共识之前。接下来就让我们进入比共识更早一步 AI 创投的真实棋局圆桌论坛 ! 以下为圆桌对话内容，经36氪整理编辑： 巴芮｜暗涌副主编（主持人） 朱天宇｜蓝驰创投 管理合伙人 秦深涛｜OriginFlow创始人&CEO 巴芮：大家…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "以“高导热+高强韧”镁合金切入机器人等高端制造领域，「宜镁华」完成数千万元天使轮融资｜36氪首发",
-          "platform": "36氪",
-          "aiScore": 94,
-          "publishedAt": "2026-06-23T10:22:21+00:00",
-          "sourceUrl": "https://36kr.com/p/3864082158785539?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "应用落地",
-            "投融资"
-          ],
-          "summary": "36氪获悉，「宜镁华」近期宣布完成数千万元天使轮融资。本轮融资由星河创投与华中实业集团投资。资金将用于产能建设、研发投入和团队扩充等。 宜镁华专注于镁合金材料研发，零部件开发设计与零部件产品制造，背靠上海交通大学轻合金精密成型国家工程研究中心，自研高导高强合金设计技术、超高导热复材设计及界面调控技术与半固态注塑成型工艺，切入机器人关节电机模组、外骨骼、汽车结构件等高附加值场景…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "腾讯：QQ邮箱开始内测专为Agent设计邮箱",
-          "platform": "36氪",
-          "aiScore": 93,
-          "publishedAt": "2026-06-23T11:47:28+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3865694185804804?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "安全治理"
-          ],
-          "summary": "36氪获悉，腾讯宣布，QQ邮箱正式开启内测“Agently Mail”。据介绍，Agently Mail是一款专为Agent设计的邮箱，它独立于用户的个人邮箱，能够让AI用自己的身份收发邮件，安全、可控、可追溯。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "正行创新完成近亿美元天使轮融资，正大集团、华勤技术等多家上市企业联合加持",
-          "platform": "量子位",
-          "aiScore": 91,
-          "publishedAt": "2026-06-23T13:54:31+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/06/437694.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "投融资"
-          ],
-          "summary": "以“数据—模型—基础设施”系统性协同通往物理智能",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 16,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "2连板长飞光纤：全球光纤光缆行业处于上行周期，但部分产品的价格波动幅度存在不确定性",
-          "platform": "36氪",
-          "aiScore": 89,
-          "publishedAt": "2026-06-23T11:31:18+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3865678288131332?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "应用落地",
-            "投融资"
-          ],
-          "summary": "36氪获悉，长飞光纤公告，公司股票连续两个交易日收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动。公司注意到近期市场对应用于人工智能数据中心的相关光纤光缆价格波动关注度较高。当前，由于国内外算力基础设施建设持续加速，全球光纤光缆行业处于上行周期，但部分产品的价格波动幅度存在不确定性，其对公司业绩的影响需要结合市场环境和公司业务结构情况进行综合判断，敬请广大投资者注意投资…",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "Show HN：Videopython – 本地优先的视频处理、编辑和 AI 工作流程",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-06-23T15:00:58+00:00",
-          "sourceUrl": "https://github.com/bartwojtowicz/videopython",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "我一直在构建 videopython，这是一个用于程序化视频编辑、处理和 AI 工作流程的 Python 库。仓库：https://github.com/BartWojtowicz/videopython 核心思想是编辑我...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "展示 HN：AI 代理的 Unix 方式 – 使用 bash、curl 和 jq 构建",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-06-23T14:38:29+00:00",
-          "sourceUrl": "https://github.com/cloudkj/llayer",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "在进行一项教育练习，修补本地模型并尝试设置代理时，我陷入了一个兔子洞：看看我可以使用……构建自定义代理循环到什么程度。",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "人工智能应用程序开发是变得更加容易还是更加拥挤？",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-23T13:42:39+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1udhifp/is_ai_app_development_becoming_easier_or_just/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "下游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "我注意到人工智能应用程序开发似乎比以往任何时候都更容易。在开源模型、API 和无代码工具之间，感觉现在几乎任何人都可以推出人工智能驱动的产品……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "回到没有AI的那一天，寻找第一性原理 | WAVES2026",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-23T09:44:46+00:00",
-          "sourceUrl": "https://36kr.com/p/3865565708752134?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "我们不妨想一下，如果有一天，AI突然消失了，我们会失去什么？这个问题不是为了制造恐慌，而是为了让我们想清楚：我们今天投AI，到底是在投它的能力，还是投它背后的人性需求？接下来这个环节当中，回到没有AI的那一天，去找第一性原理。上一场李丰的演讲给了我们一个思考的起点，现在，我们要把它变成一场辩论。 以下为圆桌对话内容，经36氪整理编辑： 图源：Waves现场 海若镜｜暗涌副主编…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 72,
-        "avgScore": 75.5,
-        "topScore": 95,
-        "topPlatforms": [
-          {
-            "name": "Reddit",
-            "count": 22
-          },
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "36氪",
-            "count": 13
-          },
-          {
-            "name": "量子位",
-            "count": 9
-          },
-          {
-            "name": "The Verge",
-            "count": 5
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "AI动态",
-            "count": 26
-          },
-          {
-            "name": "Agent",
-            "count": 23
-          },
-          {
-            "name": "模型进展",
-            "count": 21
-          },
-          {
-            "name": "芯片算力",
-            "count": 15
-          },
-          {
-            "name": "开源生态",
-            "count": 11
-          },
-          {
-            "name": "投融资",
-            "count": 7
-          },
-          {
-            "name": "应用落地",
-            "count": 7
-          },
-          {
-            "name": "自动化",
-            "count": 2
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 72 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / Agent / 模型进展",
-        "最高分事件：刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码（95 分）",
-        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
-      ]
     }
   ],
   "currentWeek": {
@@ -27643,8 +27321,8 @@
       "end": "2026-09-21"
     },
     "metrics": {
-      "daysCovered": 6,
-      "totalItems": 205,
+      "daysCovered": 7,
+      "totalItems": 210,
       "avgTop10Score": 90.8,
       "topScore": 95,
       "topPlatforms": [
@@ -27925,7 +27603,7 @@
       }
     ],
     "briefing": [
-      "9月第3周累计收录 205 条资讯，覆盖 6 天。",
+      "9月第3周累计收录 210 条资讯，覆盖 7 天。",
       "高频主题：模型进展 / Agent / 芯片算力",
       "本周最高分：网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -27940,8 +27618,8 @@
         "end": "2026-09-21"
       },
       "metrics": {
-        "daysCovered": 6,
-        "totalItems": 205,
+        "daysCovered": 7,
+        "totalItems": 210,
         "avgTop10Score": 90.8,
         "topScore": 95,
         "topPlatforms": [
@@ -28222,7 +27900,7 @@
         }
       ],
       "briefing": [
-        "9月第3周累计收录 205 条资讯，覆盖 6 天。",
+        "9月第3周累计收录 210 条资讯，覆盖 7 天。",
         "高频主题：模型进展 / Agent / 芯片算力",
         "本周最高分：网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
@@ -32112,39 +31790,35 @@
         "end": "2026-06-28"
       },
       "metrics": {
-        "daysCovered": 6,
-        "totalItems": 338,
-        "avgTop10Score": 94.8,
+        "daysCovered": 5,
+        "totalItems": 266,
+        "avgTop10Score": 94.3,
         "topScore": 95,
         "topPlatforms": [
           {
             "name": "36氪",
-            "count": 8
+            "count": 9
           },
           {
             "name": "The Verge",
-            "count": 1
-          },
-          {
-            "name": "量子位",
             "count": 1
           }
         ],
         "topTopics": [
           {
-            "name": "芯片算力",
-            "count": 7
-          },
-          {
             "name": "模型进展",
             "count": 7
           },
           {
-            "name": "Agent",
+            "name": "芯片算力",
             "count": 6
           },
           {
             "name": "应用落地",
+            "count": 4
+          },
+          {
+            "name": "Agent",
             "count": 4
           },
           {
@@ -32304,53 +31978,6 @@
         },
         {
           "rank": 7,
-          "title": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码",
-          "platform": "量子位",
-          "aiScore": 95,
-          "publishedAt": "2026-06-23T13:37:17+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/06/437503.html",
-          "sourceName": "量子位",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "Agent"
-          ],
-          "summary": "编程比肩Opus 4.7",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "圆桌论坛：比共识更早一步 AI 创投的真实棋局 | 2026WAVES",
-          "platform": "36氪",
-          "aiScore": 95,
-          "publishedAt": "2026-06-23T10:43:59+00:00",
-          "sourceUrl": "https://36kr.com/p/3865630193030145?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "AI不是一阵风，它正在变成地平线。而地平线的意思是——你看不到它的尽头，但它一直在那里。 当下AI热潮涌动，行业共识尚未形成，但真正的机遇往往诞生在共识之前。接下来就让我们进入比共识更早一步 AI 创投的真实棋局圆桌论坛 ! 以下为圆桌对话内容，经36氪整理编辑： 巴芮｜暗涌副主编（主持人） 朱天宇｜蓝驰创投 管理合伙人 秦深涛｜OriginFlow创始人&CEO 巴芮：大家…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
           "title": "抢体脂秤、AI做「搭子」，第一批网友冲向阿福减重",
           "platform": "36氪",
           "aiScore": 94,
@@ -32374,7 +32001,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 8,
           "title": "腾讯云EdgeOne Makers登顶Product Hunt日榜",
           "platform": "36氪",
           "aiScore": 94,
@@ -32395,11 +32022,57 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 9,
+          "title": "具身世界模型“我悟”通过合规备案",
+          "platform": "36氪",
+          "aiScore": 93,
+          "publishedAt": "2026-06-27T09:21:55+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3871213411128577?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "6月26日，北京人形机器人创新中心慧思开物平台的双大脑模型天鹕（Pelican-VL）和我悟（WoW）同步完成北京市网信办最新一批生成式人工智能服务备案。北京人形将正式启动慧思开物全系列模型Token服务，计划分阶段面向产业客户、科研机构、开发者全面开放API调用能力。（界面新闻）",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "美光的好财报，黄金的坏消息",
+          "platform": "36氪",
+          "aiScore": 92,
+          "publishedAt": "2026-06-25T11:49:32+00:00",
+          "sourceUrl": "https://36kr.com/p/3868523068298499?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "投融资"
+          ],
+          "summary": "美东时间6月24日，存储巨头美光科技发布了2026 财年第三财季财报。数据显示，2026财年第三季度，公司实现收入415 亿美元，环比增长 74%，同比增长346%，连续第五个季度刷新历史纪录。同期，公司合并毛利率录得84.9%，环比提高10个百分点；经营现金流达到254亿美元，自由现金流为183亿美元，均创季度新高。 在业绩远超市场预期的同时，财报及后续的电话会中，美光还披…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "6月第4周累计收录 338 条资讯，覆盖 6 天。",
-        "高频主题：芯片算力 / 模型进展 / Agent",
+        "6月第4周累计收录 266 条资讯，覆盖 5 天。",
+        "高频主题：模型进展 / 芯片算力 / 应用落地",
         "本周最高分：氪星晚报 ｜智元旗下灵巧手估值10亿美元，成立仅5个月首季实现盈利；DeepSeek计划将所有部门规模扩大至少一倍（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
