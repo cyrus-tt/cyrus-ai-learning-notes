@@ -1,86 +1,303 @@
 {
-  "generatedAt": "2026-09-19T16:12:35.976322+00:00",
+  "generatedAt": "2026-09-20T05:40:48.939666+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-09-20",
     "label": "9月20日",
     "top10": [
       {
-        "rank": 1,
-        "title": "\"AI Models Now Introduce Safety Risks in the Physical World\"",
-        "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-09-19T16:06:04+00:00",
-        "sourceUrl": "https://www.micro1.ai/research/ai-models-now-introduce-safety-risks-in-the-physical-world",
-        "sourceName": "Hacker News AI",
+        "rank": 5,
+        "title": "why most enterprise AI projects die before reaching production",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-20T00:18:57+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wl21jy/why_most_enterprise_ai_projects_die_before/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "安全治理"
+          "Agent",
+          "应用落地"
         ],
-        "summary": "\"AI Models Now Introduce Safety Risks in the Physical World\"",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "spent the last few months working on agent deployments for non-tech businesses and the biggest takeaway is that prompt engineering is kind of a waste of time if your data is trash. everyone…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 18,
+          "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 2,
-        "title": "AI is just another programming tool",
+        "title": "采用 Fossil-scm 作为 AI 代理工作流程的平台",
         "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-19T16:03:19+00:00",
-        "sourceUrl": "https://norsewanderer.com/blog/blog1.html",
+        "aiScore": 85,
+        "publishedAt": "2026-09-20T04:17:59+00:00",
+        "sourceUrl": "https://github.com/BenSiv/fossil-scm",
+        "sourceName": "Hacker News AI",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "自动化"
+        ],
+        "summary": "采用 Fossil-scm 作为 AI 代理工作流程的平台",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 17,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
+        "platform": "量子位",
+        "aiScore": 83,
+        "publishedAt": "2026-09-20T02:48:18+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/492849.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "安全治理"
+        ],
+        "summary": "9月18日，在第一届中国网络空间安全大会上，《网络安全人才实战能力报告—AI赋能篇》正式发布",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 8,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "I'm Building a pixel building to mange AI agents that can use almost any LLM available",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-09-19T21:39:05+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wkyf38/im_building_a_pixel_building_to_mange_ai_agents/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "Sanctorum is a Electron desktop app where you run a team or teams of AI agents (you can also create infinite ai agents and teams) as an actual organization. Each agent sits at a desk on a f…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "I built an AI production system with Codex that now programs a 24/7 television network. Here’s how the automation works",
+        "platform": "Reddit",
+        "aiScore": 80,
+        "publishedAt": "2026-09-19T19:43:10+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wkvk0d/i_built_an_ai_production_system_with_codex_that/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "下游",
+        "contentTags": [
+          "Agent",
+          "应用落地",
+          "内容生产"
+        ],
+        "summary": "For the past 15 months, I’ve been building a 24/7 AI-native television network called Botflix. What started as a mostly manual production process has now turned into a system where ChatGPT/…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "Integrating Volt Active Data with AI Agents and Chatbots",
+        "platform": "Hacker News",
+        "aiScore": 78,
+        "publishedAt": "2026-09-20T04:07:46+00:00",
+        "sourceUrl": "https://docs.voltdb.com/UsingVoltDB/ChapAI.php",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "Agent"
         ],
-        "summary": "AI is just another programming tool",
+        "summary": "Integrating Volt Active Data with AI Agents and Chatbots",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
+        "title": "体验完 Step 5 Preview，我发现阶跃重新坐上国产大模型主桌",
+        "platform": "爱范儿",
+        "aiScore": 78,
+        "publishedAt": "2026-09-20T04:00:16+00:00",
+        "sourceUrl": "https://www.ifanr.com/1680881",
+        "sourceName": "爱范儿",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "模型入海，阶跃走向人群 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 8,
+        "title": "Jev to retrieve memories is a game changer for AI agents",
+        "platform": "Reddit",
+        "aiScore": 78,
+        "publishedAt": "2026-09-20T01:11:25+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wl35qe/jev_to_retrieve_memories_is_a_game_changer_for_ai/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "Check it out here",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 9,
+        "title": "VoltGrid AI: Mitigating GPU cluster dI/dt power surges in software",
+        "platform": "Hacker News",
+        "aiScore": 73,
+        "publishedAt": "2026-09-20T05:32:16+00:00",
+        "sourceUrl": "https://zenodo.org/records/22824778",
+        "sourceName": "Hacker News AI",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力"
+        ],
+        "summary": "VoltGrid AI: Mitigating GPU cluster dI/dt power surges in software",
         "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 5,
+          "topic": 11,
           "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 10,
+        "title": "AI models are not hacking “autonomously”",
+        "platform": "Reddit",
+        "aiScore": 71,
+        "publishedAt": "2026-09-19T22:05:14+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wkz17p/ai_models_are_not_hacking_autonomously/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "AI models are not hacking “autonomously”",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 2,
-      "avgScore": 76.5,
-      "topScore": 86,
+      "totalItems": 29,
+      "avgScore": 70.4,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 2
+          "count": 15
+        },
+        {
+          "name": "Reddit",
+          "count": 11
+        },
+        {
+          "name": "爱范儿",
+          "count": 1
+        },
+        {
+          "name": "量子位",
+          "count": 1
+        },
+        {
+          "name": "The Verge",
+          "count": 1
         }
       ],
       "topTopics": [
         {
+          "name": "AI动态",
+          "count": 18
+        },
+        {
+          "name": "Agent",
+          "count": 6
+        },
+        {
           "name": "模型进展",
+          "count": 4
+        },
+        {
+          "name": "应用落地",
+          "count": 2
+        },
+        {
+          "name": "芯片算力",
+          "count": 1
+        },
+        {
+          "name": "开源生态",
+          "count": 1
+        },
+        {
+          "name": "自动化",
           "count": 1
         },
         {
           "name": "安全治理",
           "count": 1
-        },
-        {
-          "name": "AI动态",
-          "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 2 条 AI 资讯，Top10 通报见下。",
-      "高频主题：模型进展 / 安全治理 / AI动态",
-      "最高分事件：\"AI Models Now Introduce Safety Risks in the Physical World\"（86 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 29 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / Agent / 模型进展",
+      "最高分事件：why most enterprise AI projects die before reaching production（88 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -89,81 +306,298 @@
       "label": "9月20日",
       "top10": [
         {
-          "rank": 1,
-          "title": "\"AI Models Now Introduce Safety Risks in the Physical World\"",
-          "platform": "Hacker News",
-          "aiScore": 86,
-          "publishedAt": "2026-09-19T16:06:04+00:00",
-          "sourceUrl": "https://www.micro1.ai/research/ai-models-now-introduce-safety-risks-in-the-physical-world",
-          "sourceName": "Hacker News AI",
+          "rank": 5,
+          "title": "why most enterprise AI projects die before reaching production",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-20T00:18:57+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wl21jy/why_most_enterprise_ai_projects_die_before/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "安全治理"
+            "Agent",
+            "应用落地"
           ],
-          "summary": "\"AI Models Now Introduce Safety Risks in the Physical World\"",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "spent the last few months working on agent deployments for non-tech businesses and the biggest takeaway is that prompt engineering is kind of a waste of time if your data is trash. everyone…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 18,
+            "topic": 20,
             "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 2,
-          "title": "AI is just another programming tool",
+          "title": "采用 Fossil-scm 作为 AI 代理工作流程的平台",
           "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-19T16:03:19+00:00",
-          "sourceUrl": "https://norsewanderer.com/blog/blog1.html",
+          "aiScore": 85,
+          "publishedAt": "2026-09-20T04:17:59+00:00",
+          "sourceUrl": "https://github.com/BenSiv/fossil-scm",
+          "sourceName": "Hacker News AI",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "自动化"
+          ],
+          "summary": "采用 Fossil-scm 作为 AI 代理工作流程的平台",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
+          "platform": "量子位",
+          "aiScore": 83,
+          "publishedAt": "2026-09-20T02:48:18+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/492849.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "安全治理"
+          ],
+          "summary": "9月18日，在第一届中国网络空间安全大会上，《网络安全人才实战能力报告—AI赋能篇》正式发布",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 8,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "I'm Building a pixel building to mange AI agents that can use almost any LLM available",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-09-19T21:39:05+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wkyf38/im_building_a_pixel_building_to_mange_ai_agents/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "Sanctorum is a Electron desktop app where you run a team or teams of AI agents (you can also create infinite ai agents and teams) as an actual organization. Each agent sits at a desk on a f…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "I built an AI production system with Codex that now programs a 24/7 television network. Here’s how the automation works",
+          "platform": "Reddit",
+          "aiScore": 80,
+          "publishedAt": "2026-09-19T19:43:10+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wkvk0d/i_built_an_ai_production_system_with_codex_that/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "应用落地",
+            "内容生产"
+          ],
+          "summary": "For the past 15 months, I’ve been building a 24/7 AI-native television network called Botflix. What started as a mostly manual production process has now turned into a system where ChatGPT/…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Integrating Volt Active Data with AI Agents and Chatbots",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-09-20T04:07:46+00:00",
+          "sourceUrl": "https://docs.voltdb.com/UsingVoltDB/ChapAI.php",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "Agent"
           ],
-          "summary": "AI is just another programming tool",
+          "summary": "Integrating Volt Active Data with AI Agents and Chatbots",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "体验完 Step 5 Preview，我发现阶跃重新坐上国产大模型主桌",
+          "platform": "爱范儿",
+          "aiScore": 78,
+          "publishedAt": "2026-09-20T04:00:16+00:00",
+          "sourceUrl": "https://www.ifanr.com/1680881",
+          "sourceName": "爱范儿",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "模型入海，阶跃走向人群 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "Jev to retrieve memories is a game changer for AI agents",
+          "platform": "Reddit",
+          "aiScore": 78,
+          "publishedAt": "2026-09-20T01:11:25+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wl35qe/jev_to_retrieve_memories_is_a_game_changer_for_ai/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "Check it out here",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "VoltGrid AI: Mitigating GPU cluster dI/dt power surges in software",
+          "platform": "Hacker News",
+          "aiScore": 73,
+          "publishedAt": "2026-09-20T05:32:16+00:00",
+          "sourceUrl": "https://zenodo.org/records/22824778",
+          "sourceName": "Hacker News AI",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力"
+          ],
+          "summary": "VoltGrid AI: Mitigating GPU cluster dI/dt power surges in software",
           "action": "先点原文链接，记录一句结论和一个可执行动作。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 5,
+            "topic": 11,
             "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "AI models are not hacking “autonomously”",
+          "platform": "Reddit",
+          "aiScore": 71,
+          "publishedAt": "2026-09-19T22:05:14+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wkz17p/ai_models_are_not_hacking_autonomously/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "AI models are not hacking “autonomously”",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 2,
-        "avgScore": 76.5,
-        "topScore": 86,
+        "totalItems": 29,
+        "avgScore": 70.4,
+        "topScore": 88,
         "topPlatforms": [
           {
             "name": "Hacker News",
-            "count": 2
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 11
+          },
+          {
+            "name": "爱范儿",
+            "count": 1
+          },
+          {
+            "name": "量子位",
+            "count": 1
+          },
+          {
+            "name": "The Verge",
+            "count": 1
           }
         ],
         "topTopics": [
           {
+            "name": "AI动态",
+            "count": 18
+          },
+          {
+            "name": "Agent",
+            "count": 6
+          },
+          {
             "name": "模型进展",
+            "count": 4
+          },
+          {
+            "name": "应用落地",
+            "count": 2
+          },
+          {
+            "name": "芯片算力",
+            "count": 1
+          },
+          {
+            "name": "开源生态",
+            "count": 1
+          },
+          {
+            "name": "自动化",
             "count": 1
           },
           {
             "name": "安全治理",
             "count": 1
-          },
-          {
-            "name": "AI动态",
-            "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 2 条 AI 资讯，Top10 通报见下。",
-        "高频主题：模型进展 / 安全治理 / AI动态",
-        "最高分事件：\"AI Models Now Introduce Safety Risks in the Physical World\"（86 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "今日共收录 29 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / Agent / 模型进展",
+        "最高分事件：why most enterprise AI projects die before reaching production（88 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -171,7 +605,7 @@
       "label": "9月19日",
       "top10": [
         {
-          "rank": 5,
+          "rank": 6,
           "title": "AI Hate.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -455,7 +889,7 @@
       "label": "9月18日",
       "top10": [
         {
-          "rank": 6,
+          "rank": 7,
           "title": "This is what \"pace the frontier\" sounds like.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -478,7 +912,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -794,7 +1228,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
           "platform": "Reddit",
           "aiScore": 88,
@@ -818,7 +1252,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Google will now let any AI agent run your smart home",
           "platform": "The Verge",
           "aiScore": 88,
@@ -27210,7 +27644,7 @@
     },
     "metrics": {
       "daysCovered": 6,
-      "totalItems": 178,
+      "totalItems": 205,
       "avgTop10Score": 90.8,
       "topScore": 95,
       "topPlatforms": [
@@ -27241,16 +27675,16 @@
           "count": 8
         },
         {
-          "name": "自动化",
-          "count": 3
-        },
-        {
           "name": "芯片算力",
           "count": 3
         },
         {
+          "name": "自动化",
+          "count": 2
+        },
+        {
           "name": "应用落地",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -27350,6 +27784,30 @@
       },
       {
         "rank": 5,
+        "title": "why most enterprise AI projects die before reaching production",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-20T00:18:57+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wl21jy/why_most_enterprise_ai_projects_die_before/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "spent the last few months working on agent deployments for non-tech businesses and the biggest takeaway is that prompt engineering is kind of a waste of time if your data is trash. everyone…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
         "title": "AI Hate.",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27373,7 +27831,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 7,
         "title": "This is what \"pace the frontier\" sounds like.",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27396,7 +27854,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 8,
         "title": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
         "platform": "Hacker News",
         "aiScore": 88,
@@ -27419,7 +27877,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
         "platform": "Reddit",
         "aiScore": 88,
@@ -27443,7 +27901,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "Google will now let any AI agent run your smart home",
         "platform": "The Verge",
         "aiScore": 88,
@@ -27464,35 +27922,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
-        "platform": "Reddit",
-        "aiScore": 88,
-        "publishedAt": "2026-09-16T00:32:44+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whhygo/am_i_the_only_one_who_thinks_recent_ai_doomsday/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "Agent",
-          "自动化"
-        ],
-        "summary": "Recently, my feed has been flooded with alarmist AI news: AI choosing nuclear genocide in war games, AI blackmailing engineers to avoid being shut down, and the usual \"Skynet is here\" comme…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "9月第3周累计收录 178 条资讯，覆盖 6 天。",
-      "高频主题：模型进展 / Agent / 自动化",
+      "9月第3周累计收录 205 条资讯，覆盖 6 天。",
+      "高频主题：模型进展 / Agent / 芯片算力",
       "本周最高分：网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”（95 分）",
       "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
@@ -27507,7 +27941,7 @@
       },
       "metrics": {
         "daysCovered": 6,
-        "totalItems": 178,
+        "totalItems": 205,
         "avgTop10Score": 90.8,
         "topScore": 95,
         "topPlatforms": [
@@ -27538,16 +27972,16 @@
             "count": 8
           },
           {
-            "name": "自动化",
-            "count": 3
-          },
-          {
             "name": "芯片算力",
             "count": 3
           },
           {
+            "name": "自动化",
+            "count": 2
+          },
+          {
             "name": "应用落地",
-            "count": 1
+            "count": 2
           }
         ]
       },
@@ -27647,6 +28081,30 @@
         },
         {
           "rank": 5,
+          "title": "why most enterprise AI projects die before reaching production",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-20T00:18:57+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wl21jy/why_most_enterprise_ai_projects_die_before/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "spent the last few months working on agent deployments for non-tech businesses and the biggest takeaway is that prompt engineering is kind of a waste of time if your data is trash. everyone…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
           "title": "AI Hate.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27670,7 +28128,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "This is what \"pace the frontier\" sounds like.",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27693,7 +28151,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "The Provenance Tax: How LLM Watermarking Changes AI Agent Behavior",
           "platform": "Hacker News",
           "aiScore": 88,
@@ -27716,7 +28174,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Who will be the major AI general agent player — Meta, OpenAI, or Google?",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27740,7 +28198,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Google will now let any AI agent run your smart home",
           "platform": "The Verge",
           "aiScore": 88,
@@ -27761,35 +28219,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "Am I the only one who thinks recent AI \"doomsday\" news is just a disguised pitch for more funding?",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-09-16T00:32:44+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1whhygo/am_i_the_only_one_who_thinks_recent_ai_doomsday/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "自动化"
-          ],
-          "summary": "Recently, my feed has been flooded with alarmist AI news: AI choosing nuclear genocide in war games, AI blackmailing engineers to avoid being shut down, and the usual \"Skynet is here\" comme…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "9月第3周累计收录 178 条资讯，覆盖 6 天。",
-        "高频主题：模型进展 / Agent / 自动化",
+        "9月第3周累计收录 205 条资讯，覆盖 6 天。",
+        "高频主题：模型进展 / Agent / 芯片算力",
         "本周最高分：网易有道周枫：AI能力竞争，正在进入「Model + Agent + Workflow」时代，网易有道AI Open Day展示AI时代“有道解法”（95 分）",
         "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
