@@ -1,95 +1,25 @@
 {
-  "generatedAt": "2026-09-24T05:49:49.966703+00:00",
+  "generatedAt": "2026-09-24T17:43:40.047924+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
-    "date": "2026-09-24",
-    "label": "9月24日",
+    "date": "2026-09-25",
+    "label": "9月25日",
     "top10": [
       {
-        "rank": 2,
-        "title": "Meta is making a standalone Muse AI gadget",
-        "platform": "The Verge",
-        "aiScore": 94,
-        "publishedAt": "2026-09-24T00:15:20+00:00",
-        "sourceUrl": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
-          "应用落地"
-        ],
-        "summary": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connec…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-        "platform": "Hugging Face",
-        "aiScore": 88,
-        "publishedAt": "2026-09-23T18:41:40+00:00",
-        "sourceUrl": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
-        "sourceName": "Hugging Face Blog",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "Agent",
-          "自动化"
-        ],
-        "summary": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 20,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "PopUpFactCheck: It even breaks the news since airtime!!! (QUALITY BREAKTHROUGH)",
-        "platform": "Reddit",
-        "aiScore": 87,
-        "publishedAt": "2026-09-24T02:44:49+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wopyqr/popupfactcheck_it_even_breaks_the_news_since/",
-        "sourceName": "Reddit r/artificial",
+        "rank": 6,
+        "title": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
+        "platform": "Hacker News",
+        "aiScore": 86,
+        "publishedAt": "2026-09-24T16:17:58+00:00",
+        "sourceUrl": "https://medium.com/meetcyber/ai-models-are-great-at-finding-security-bugs-but-can-they-tell-when-theyre-fixed-20052d828f2a",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "应用落地"
-        ],
-        "summary": "It even breaks the news since airtime!!! Major update on PopUpFactCheck.com It even breaks the news since airtime!!! QUALITY BREAKTHROUGH — I just discovered that throughout the past severa…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 19,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "My Fiance is Convinced AI will likely cause a Catastrophic or Extinction-Type Event in the Next Few Years - How Justified Are His Fears?",
-        "platform": "Reddit",
-        "aiScore": 86,
-        "publishedAt": "2026-09-24T05:03:36+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wosn95/my_fiance_is_convinced_ai_will_likely_cause_a/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent",
           "安全治理"
         ],
-        "summary": "As the title says. My fiance is a lot more book smart than I am but he doesn’t work in the tech industry, rather in the film industry. With all the news over the last two weeks, he’s been p…",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
@@ -99,22 +29,89 @@
         }
       },
       {
+        "rank": 2,
+        "title": "Training a local LLM using CPT and RAG (with evals)",
+        "platform": "Reddit",
+        "aiScore": 84,
+        "publishedAt": "2026-09-24T17:35:13+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wp84dl/training_a_local_llm_using_cpt_and_rag_with_evals/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "内容生产"
+        ],
+        "summary": "I have gone through a series of experiments related to an interesting project where I try to teach a local llm a new domain through continued pretraining (CPT). The different experiments ar…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 16,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
+        "platform": "The Verge",
+        "aiScore": 84,
+        "publishedAt": "2026-09-24T16:04:31+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "应用落地"
+        ],
+        "summary": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or resche…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 9,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "Open AI in the Wild: Adoption and Adaptation of Open Models on R/LocalLLaMA",
+        "platform": "Hacker News",
+        "aiScore": 78,
+        "publishedAt": "2026-09-24T17:16:14+00:00",
+        "sourceUrl": "https://dl.acm.org/doi/abs/10.1145/3805689.3812421",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展"
+        ],
+        "summary": "Open AI in the Wild: Adoption and Adaptation of Open Models on R/LocalLLaMA",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
         "rank": 5,
-        "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
-        "platform": "量子位",
-        "aiScore": 85,
-        "publishedAt": "2026-09-24T04:11:51+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/09/496740.html",
-        "sourceName": "量子位",
+        "title": "Paper2agent Turns Static Papers into Live AI Tools",
+        "platform": "Hacker News",
+        "aiScore": 78,
+        "publishedAt": "2026-09-24T17:16:06+00:00",
+        "sourceUrl": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "懂出海，能记忆，自进化",
+        "summary": "Paper2agent Turns Static Papers into Live AI Tools",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
+          "authority": 18,
           "topic": 10,
           "actionability": 10,
           "heat": 5
@@ -122,121 +119,119 @@
       },
       {
         "rank": 6,
-        "title": "Lemonade fixes AMD APU model streaming, drops OpenMOSS ROCm as ~40x slower than Vulkan",
-        "platform": "Reddit",
-        "aiScore": 81,
-        "publishedAt": "2026-09-23T20:18:35+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1woh146/lemonade_fixes_amd_apu_model_streaming_drops/",
-        "sourceName": "Reddit r/artificial",
-        "industryStage": "上游",
+        "title": "Mysteries of AI Generalization",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-24T17:23:26+00:00",
+        "sourceUrl": "https://www.astralcodexten.com/p/mysteries-of-ai-generalization",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展"
+          "AI动态"
         ],
-        "summary": "Lemonade fixes AMD APU model streaming, drops OpenMOSS ROCm as ~40x slower than Vulkan",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "Mysteries of AI Generalization",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 20,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 7,
-        "title": "海信新一代性能旗舰E7S Pro+正式发布，原生真彩再进阶",
-        "platform": "量子位",
-        "aiScore": 80,
-        "publishedAt": "2026-09-24T02:51:18+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/09/496658.html",
-        "sourceName": "量子位",
+        "title": "The Power of AI: Mass Collaboration",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-24T17:23:18+00:00",
+        "sourceUrl": "https://www.cppdepend.com/blog/ai-real-power-mass-collaboration/",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "AI动态"
         ],
-        "summary": "9月23日，2026海信电视秋季新品发布会上，定位“原生真彩，性能旗舰”的RGB-Mini LED新品E7S Pro+正式发布",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "The Power of AI: Mass Collaboration",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 25,
+          "authority": 18,
           "topic": 5,
-          "actionability": 10,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 8,
-        "title": "Don’t be fooled by this summer of AI hype",
-        "platform": "Reddit",
-        "aiScore": 80,
-        "publishedAt": "2026-09-23T20:34:27+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wohfzv/dont_be_fooled_by_this_summer_of_ai_hype/",
-        "sourceName": "Reddit r/artificial",
+        "title": "The International AI Race May Not Be Won by the Smartest AI",
+        "platform": "Hacker News",
+        "aiScore": 67,
+        "publishedAt": "2026-09-24T17:04:45+00:00",
+        "sourceUrl": "https://phroneses.com/articles/leadership/notes/the-ai-race.html",
+        "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "模型进展",
-          "应用落地"
+          "AI动态"
         ],
-        "summary": "\"Describing them as 'superintelligence' or 'rogue models' ascribes agency to products rather than to the companies building them... helping the companies evade accountability for their acti…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "The International AI Race May Not Be Won by the Smartest AI",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
-          "recency": 28,
+          "recency": 35,
           "authority": 18,
-          "topic": 19,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+        "title": "One day of AI reading: 5.7M crawler reads of a 60M-company index, by engine",
         "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-24T05:21:10+00:00",
-        "sourceUrl": "https://transluce.org/agent-activity",
+        "aiScore": 67,
+        "publishedAt": "2026-09-24T17:03:39+00:00",
+        "sourceUrl": "https://engagemii.com/research/one-day-of-ai-reading",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "AI动态"
         ],
-        "summary": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "One day of AI reading: 5.7M crawler reads of a 60M-company index, by engine",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To",
+        "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
         "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-24T04:38:57+00:00",
-        "sourceUrl": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
+        "aiScore": 67,
+        "publishedAt": "2026-09-24T17:01:45+00:00",
+        "sourceUrl": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "Agent"
+          "AI动态"
         ],
-        "summary": "Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "summary": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 10,
-          "actionability": 10,
+          "topic": 5,
+          "actionability": 4,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 47,
-      "avgScore": 73.4,
-      "topScore": 94,
+      "totalItems": 19,
+      "avgScore": 70.9,
+      "topScore": 86,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -244,60 +239,327 @@
         },
         {
           "name": "Reddit",
-          "count": 11
+          "count": 3
         },
         {
           "name": "The Verge",
-          "count": 10
-        },
-        {
-          "name": "量子位",
-          "count": 4
-        },
-        {
-          "name": "爱范儿",
-          "count": 3
+          "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 24
-        },
-        {
-          "name": "Agent",
           "count": 14
         },
         {
           "name": "模型进展",
-          "count": 7
+          "count": 3
         },
         {
-          "name": "应用落地",
-          "count": 5
+          "name": "内容生产",
+          "count": 1
         },
         {
-          "name": "芯片算力",
-          "count": 2
+          "name": "Agent",
+          "count": 1
         },
         {
           "name": "安全治理",
           "count": 1
         },
         {
-          "name": "自动化",
+          "name": "应用落地",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 47 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：Meta is making a standalone Muse AI gadget（94 分）",
-      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
+      "今日共收录 19 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 模型进展 / 内容生产",
+      "最高分事件：AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?（86 分）",
+      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
   },
   "dailyHistory": [
+    {
+      "date": "2026-09-25",
+      "label": "9月25日",
+      "top10": [
+        {
+          "rank": 6,
+          "title": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
+          "platform": "Hacker News",
+          "aiScore": 86,
+          "publishedAt": "2026-09-24T16:17:58+00:00",
+          "sourceUrl": "https://medium.com/meetcyber/ai-models-are-great-at-finding-security-bugs-but-can-they-tell-when-theyre-fixed-20052d828f2a",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 2,
+          "title": "Training a local LLM using CPT and RAG (with evals)",
+          "platform": "Reddit",
+          "aiScore": 84,
+          "publishedAt": "2026-09-24T17:35:13+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wp84dl/training_a_local_llm_using_cpt_and_rag_with_evals/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "内容生产"
+          ],
+          "summary": "I have gone through a series of experiments related to an interesting project where I try to teach a local llm a new domain through continued pretraining (CPT). The different experiments ar…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 16,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
+          "platform": "The Verge",
+          "aiScore": 84,
+          "publishedAt": "2026-09-24T16:04:31+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "应用落地"
+          ],
+          "summary": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or resche…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 9,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "Open AI in the Wild: Adoption and Adaptation of Open Models on R/LocalLLaMA",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-09-24T17:16:14+00:00",
+          "sourceUrl": "https://dl.acm.org/doi/abs/10.1145/3805689.3812421",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "Open AI in the Wild: Adoption and Adaptation of Open Models on R/LocalLLaMA",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Paper2agent Turns Static Papers into Live AI Tools",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-09-24T17:16:06+00:00",
+          "sourceUrl": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "Paper2agent Turns Static Papers into Live AI Tools",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Mysteries of AI Generalization",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-24T17:23:26+00:00",
+          "sourceUrl": "https://www.astralcodexten.com/p/mysteries-of-ai-generalization",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "Mysteries of AI Generalization",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "The Power of AI: Mass Collaboration",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-24T17:23:18+00:00",
+          "sourceUrl": "https://www.cppdepend.com/blog/ai-real-power-mass-collaboration/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "The Power of AI: Mass Collaboration",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "The International AI Race May Not Be Won by the Smartest AI",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-24T17:04:45+00:00",
+          "sourceUrl": "https://phroneses.com/articles/leadership/notes/the-ai-race.html",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "The International AI Race May Not Be Won by the Smartest AI",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "One day of AI reading: 5.7M crawler reads of a 60M-company index, by engine",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-24T17:03:39+00:00",
+          "sourceUrl": "https://engagemii.com/research/one-day-of-ai-reading",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "One day of AI reading: 5.7M crawler reads of a 60M-company index, by engine",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
+          "platform": "Hacker News",
+          "aiScore": 67,
+          "publishedAt": "2026-09-24T17:01:45+00:00",
+          "sourceUrl": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "AI动态"
+          ],
+          "summary": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 5,
+            "actionability": 4,
+            "heat": 5
+          }
+        }
+      ],
+      "metrics": {
+        "totalItems": 19,
+        "avgScore": 70.9,
+        "topScore": 86,
+        "topPlatforms": [
+          {
+            "name": "Hacker News",
+            "count": 15
+          },
+          {
+            "name": "Reddit",
+            "count": 3
+          },
+          {
+            "name": "The Verge",
+            "count": 1
+          }
+        ],
+        "topTopics": [
+          {
+            "name": "AI动态",
+            "count": 14
+          },
+          {
+            "name": "模型进展",
+            "count": 3
+          },
+          {
+            "name": "内容生产",
+            "count": 1
+          },
+          {
+            "name": "Agent",
+            "count": 1
+          },
+          {
+            "name": "安全治理",
+            "count": 1
+          },
+          {
+            "name": "应用落地",
+            "count": 1
+          }
+        ]
+      },
+      "briefing": [
+        "今日共收录 19 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 模型进展 / 内容生产",
+        "最高分事件：AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?（86 分）",
+        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      ]
+    },
     {
       "date": "2026-09-24",
       "label": "9月24日",
@@ -373,7 +635,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "title": "My Fiance is Convinced AI will likely cause a Catastrophic or Extinction-Type Event in the Next Few Years - How Justified Are His Fears?",
           "platform": "Reddit",
           "aiScore": 86,
@@ -599,7 +861,7 @@
       "label": "9月23日",
       "top10": [
         {
-          "rank": 7,
+          "rank": 8,
           "title": "Naming AI agents after Seinfeld characters helps bots join the team – report",
           "platform": "Hacker News",
           "aiScore": 86,
@@ -622,7 +884,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
           "platform": "The Verge",
           "aiScore": 86,
@@ -645,7 +907,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
           "platform": "The Verge",
           "aiScore": 86,
@@ -26986,7 +27248,7 @@
       "label": "6月28日",
       "top10": [
         {
-          "rank": 2,
+          "rank": 1,
           "title": "哪款车型最值得大牌呢？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27009,7 +27271,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 2,
           "title": "政府建造了互联网。为什么它没有构建人工智能？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -27033,7 +27295,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 3,
           "title": "谷歌限制 Meta 使用其 Gemini AI 模型",
           "platform": "Hacker News",
           "aiScore": 86,
@@ -27281,312 +27543,6 @@
         "最高分事件：哪款车型最值得大牌呢？（88 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
-    },
-    {
-      "date": "2026-06-27",
-      "label": "6月27日",
-      "top10": [
-        {
-          "rank": 1,
-          "title": "具身世界模型“我悟”通过合规备案",
-          "platform": "36氪",
-          "aiScore": 93,
-          "publishedAt": "2026-06-27T09:21:55+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3871213411128577?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "6月26日，北京人形机器人创新中心慧思开物平台的双大脑模型天鹕（Pelican-VL）和我悟（WoW）同步完成北京市网信办最新一批生成式人工智能服务备案。北京人形将正式启动慧思开物全系列模型Token服务，计划分阶段面向产业客户、科研机构、开发者全面开放API调用能力。（界面新闻）",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "相同的内存，不同的型号。为什么本地8B型号使用内存更差？",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-27T12:48:33+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uh1xbs/same_memory_different_model_why_do_local_8b/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "自动化"
-          ],
-          "summary": "我一直在构建 FERNme，这是一个面向人工智能代理的开源、受大脑启发的记忆引擎。在测试时，我注意到一些有趣的事情。具有相同的 FERNme 内存、图形和检索点……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "在什么时候日志和仪表板不再足以支付 llm 成本？",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-27T11:36:45+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uh0hu2/at_what_point_do_logs_and_dashboards_stop_being/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "大家好，目前正在深入研究工作流层经济学，并试图弄清楚人们如何大规模跟踪意外的运行时间峰值。在早期阶段，简单的保证金缓冲区是...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "高通计划将数据中心芯片技术引入智能手机，提升端侧AI能力",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-27T07:44:14+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3871117388174336?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "应用落地"
-          ],
-          "summary": "6月27日消息，高通公司执行副总裁杜尔加·马拉迪表示，公司计划将本周新发布的数据中心芯片技术应用于智能手机，以提升移动设备本地AI运行能力。高通新推出的高带宽计算（HBC）架构采用芯片垂直堆叠设计，将内存与计算单元紧密集成，可显著提升数据传输速度与效率。该架构第一代产品将于明年在数据中心推出，预计2028年实现商业化供货。马拉迪表示，“数据中心的技术不会止步于此”，公司目前正…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "9点1氪｜苹果涨价引山姆代购潮；DeepSeek大规模招聘；黄金再度跌破4000美元",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-27T01:02:37+00:00",
-          "sourceUrl": "https://36kr.com/p/3870720040588295?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 OpenAI官宣推出GPT-5.6 亚洲“果链”股价几乎全线大幅下跌 SpaceX计划为美国消费者推出新的星链移动服务 美团股价低迷，王兴回应 小鹏机器人调整：新设九部门，何小鹏兼任产品部负责人 微信回应朋友圈互动规则：单删原封不动，互删清空对方全部痕迹 TOP3大新闻 苹果涨价引山姆代购潮，部分门店已卖断货 近日，社交媒体上多名网友反馈，多地山姆会员超市的iP…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "追赶FSD V14，理想在补哪些课？｜最前线",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-26T23:30:20+00:00",
-          "sourceUrl": "https://36kr.com/p/3870292939658242?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "投融资"
-          ],
-          "summary": "过去几年，智能驾驶行业的竞争重心经历了几次明显变化。 最早比的是硬件：激光雷达要不要上、摄像头装几个、算力做到多少 TOPS；随后进入大模型时代，竞争开始转向端到端、VLA（Vision-Language-Action）、World Model（世界模型）等路线。 到了今天，越来越多公司发现，仅仅拥有更大的模型已经不足以形成代际优势，真正决定上限的，开始变成模型、数据、算力和…",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "询问 HN：“非强制 AI”开发工作的市场是否安静？",
-          "platform": "Hacker News",
-          "aiScore": 87,
-          "publishedAt": "2026-06-27T12:05:10+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=48697527",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "在我看来，软件工程师的反对声音在人工智能炒作被强行压下去之后，最近变得越来越响亮。就在这周我读了几本……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "BrowserBC：克隆人类点击，让一次网页操作转化为所有Agent的能力",
-          "platform": "量子位",
-          "aiScore": 85,
-          "publishedAt": "2026-06-27T12:29:33+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/06/439393.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "人类一次录制，Agent就能模拟",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "G7易流发布货运行业首款穿戴式AI硬件「拍拍豆」，填平物流交付的“最后两米”｜最前线",
-          "platform": "36氪",
-          "aiScore": 83,
-          "publishedAt": "2026-06-27T01:40:53+00:00",
-          "sourceUrl": "https://36kr.com/p/3869740772316162?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "下游",
-          "contentTags": [
-            "应用落地",
-            "内容生产"
-          ],
-          "summary": "作者｜黄楠 编辑｜袁斯来 6月25日，G7易流发布货运行业首款穿戴式AI硬件“拍拍豆”。这款产品克重仅30克，采用磁吸设计，当车辆熄火停稳后，司机可直接将设备从挡风玻璃底座取下，佩戴于胸前即可自动启动录制；放回底座瞬间，录制文件将自动同步上传云端存储。 从“看见车上”到“看见车下”，物流AI的应用场景正在完成一次关键跨越。 物流行业的AI化进程加速。据中国物流与采购联合会等机…",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 15,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "每个人都会有一个人工智能编码代理",
-          "platform": "Hacker News",
-          "aiScore": 82,
-          "publishedAt": "2026-06-27T11:04:39+00:00",
-          "sourceUrl": "https://github.com/HoratiuCode/Clawie",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "开源生态"
-          ],
-          "summary": "文章网址：https://github.com/HoratiuCode/Clawie 评论网址：https://news.ycombinator.com/item?id=48697174 积分：1 # 评论：0",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 1
-          }
-        }
-      ],
-      "metrics": {
-        "totalItems": 47,
-        "avgScore": 73.6,
-        "topScore": 93,
-        "topPlatforms": [
-          {
-            "name": "Hacker News",
-            "count": 15
-          },
-          {
-            "name": "Reddit",
-            "count": 13
-          },
-          {
-            "name": "36氪",
-            "count": 9
-          },
-          {
-            "name": "量子位",
-            "count": 5
-          },
-          {
-            "name": "The Verge",
-            "count": 3
-          }
-        ],
-        "topTopics": [
-          {
-            "name": "AI动态",
-            "count": 22
-          },
-          {
-            "name": "模型进展",
-            "count": 13
-          },
-          {
-            "name": "Agent",
-            "count": 9
-          },
-          {
-            "name": "芯片算力",
-            "count": 5
-          },
-          {
-            "name": "应用落地",
-            "count": 4
-          },
-          {
-            "name": "开源生态",
-            "count": 2
-          },
-          {
-            "name": "自动化",
-            "count": 2
-          },
-          {
-            "name": "投融资",
-            "count": 2
-          }
-        ]
-      },
-      "briefing": [
-        "今日共收录 47 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / Agent",
-        "最高分事件：具身世界模型“我悟”通过合规备案（93 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
-      ]
     }
   ],
   "currentWeek": {
@@ -27597,8 +27553,8 @@
       "end": "2026-09-28"
     },
     "metrics": {
-      "daysCovered": 3,
-      "totalItems": 123,
+      "daysCovered": 4,
+      "totalItems": 142,
       "avgTop10Score": 88.5,
       "topScore": 95,
       "topPlatforms": [
@@ -27615,11 +27571,11 @@
           "count": 2
         },
         {
-          "name": "Hugging Face",
-          "count": 1
+          "name": "Hacker News",
+          "count": 2
         },
         {
-          "name": "Hacker News",
+          "name": "Hugging Face",
           "count": 1
         }
       ],
@@ -27637,15 +27593,15 @@
           "count": 3
         },
         {
-          "name": "开源生态",
-          "count": 3
-        },
-        {
           "name": "芯片算力",
           "count": 2
         },
         {
           "name": "应用落地",
+          "count": 2
+        },
+        {
+          "name": "开源生态",
           "count": 2
         }
       ]
@@ -27770,6 +27726,29 @@
       },
       {
         "rank": 6,
+        "title": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
+        "platform": "Hacker News",
+        "aiScore": 86,
+        "publishedAt": "2026-09-24T16:17:58+00:00",
+        "sourceUrl": "https://medium.com/meetcyber/ai-models-are-great-at-finding-security-bugs-but-can-they-tell-when-theyre-fixed-20052d828f2a",
+        "sourceName": "Hacker News AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "安全治理"
+        ],
+        "summary": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
         "title": "My Fiance is Convinced AI will likely cause a Catastrophic or Extinction-Type Event in the Next Few Years - How Justified Are His Fears?",
         "platform": "Reddit",
         "aiScore": 86,
@@ -27792,7 +27771,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 8,
         "title": "Naming AI agents after Seinfeld characters helps bots join the team – report",
         "platform": "Hacker News",
         "aiScore": 86,
@@ -27815,7 +27794,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
         "platform": "The Verge",
         "aiScore": 86,
@@ -27838,7 +27817,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
         "platform": "The Verge",
         "aiScore": 86,
@@ -27859,34 +27838,10 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "早报｜曝iPhone Duo量产初期良率仅过六成/小米18 Pro加入硬件级防窥/OpenAI新模型24天攻克百道数学未解难题",
-        "platform": "爱范儿",
-        "aiScore": 86,
-        "publishedAt": "2026-09-22T00:11:45+00:00",
-        "sourceUrl": "https://www.ifanr.com/1679313",
-        "sourceName": "爱范儿",
-        "industryStage": "上游",
-        "contentTags": [
-          "模型进展",
-          "开源生态",
-          "安全治理"
-        ],
-        "summary": "Omdia：今年全球智能手机出货量预计下降 12% · ZCode 官宣开源、公开数据安全整改结果 · 西贝贾国龙呼吁规范高流量账号 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "9月第4周累计收录 123 条资讯，覆盖 3 天。",
+      "9月第4周累计收录 142 条资讯，覆盖 4 天。",
       "高频主题：模型进展 / Agent / 安全治理",
       "本周最高分：阿里巴巴：机器智能时代，坚定投入AI模型 AI芯片 AI云三大基石（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -27901,8 +27856,8 @@
         "end": "2026-09-28"
       },
       "metrics": {
-        "daysCovered": 3,
-        "totalItems": 123,
+        "daysCovered": 4,
+        "totalItems": 142,
         "avgTop10Score": 88.5,
         "topScore": 95,
         "topPlatforms": [
@@ -27919,11 +27874,11 @@
             "count": 2
           },
           {
-            "name": "Hugging Face",
-            "count": 1
+            "name": "Hacker News",
+            "count": 2
           },
           {
-            "name": "Hacker News",
+            "name": "Hugging Face",
             "count": 1
           }
         ],
@@ -27941,15 +27896,15 @@
             "count": 3
           },
           {
-            "name": "开源生态",
-            "count": 3
-          },
-          {
             "name": "芯片算力",
             "count": 2
           },
           {
             "name": "应用落地",
+            "count": 2
+          },
+          {
+            "name": "开源生态",
             "count": 2
           }
         ]
@@ -28074,6 +28029,29 @@
         },
         {
           "rank": 6,
+          "title": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
+          "platform": "Hacker News",
+          "aiScore": 86,
+          "publishedAt": "2026-09-24T16:17:58+00:00",
+          "sourceUrl": "https://medium.com/meetcyber/ai-models-are-great-at-finding-security-bugs-but-can-they-tell-when-theyre-fixed-20052d828f2a",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "安全治理"
+          ],
+          "summary": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
           "title": "My Fiance is Convinced AI will likely cause a Catastrophic or Extinction-Type Event in the Next Few Years - How Justified Are His Fears?",
           "platform": "Reddit",
           "aiScore": 86,
@@ -28096,7 +28074,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "Naming AI agents after Seinfeld characters helps bots join the team – report",
           "platform": "Hacker News",
           "aiScore": 86,
@@ -28119,7 +28097,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
           "platform": "The Verge",
           "aiScore": 86,
@@ -28142,7 +28120,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
           "platform": "The Verge",
           "aiScore": 86,
@@ -28163,34 +28141,10 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "早报｜曝iPhone Duo量产初期良率仅过六成/小米18 Pro加入硬件级防窥/OpenAI新模型24天攻克百道数学未解难题",
-          "platform": "爱范儿",
-          "aiScore": 86,
-          "publishedAt": "2026-09-22T00:11:45+00:00",
-          "sourceUrl": "https://www.ifanr.com/1679313",
-          "sourceName": "爱范儿",
-          "industryStage": "上游",
-          "contentTags": [
-            "模型进展",
-            "开源生态",
-            "安全治理"
-          ],
-          "summary": "Omdia：今年全球智能手机出货量预计下降 12% · ZCode 官宣开源、公开数据安全整改结果 · 西贝贾国龙呼吁规范高流量账号 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "9月第4周累计收录 123 条资讯，覆盖 3 天。",
+        "9月第4周累计收录 142 条资讯，覆盖 4 天。",
         "高频主题：模型进展 / Agent / 安全治理",
         "本周最高分：阿里巴巴：机器智能时代，坚定投入AI模型 AI芯片 AI云三大基石（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
@@ -32376,15 +32330,11 @@
         "end": "2026-06-28"
       },
       "metrics": {
-        "daysCovered": 2,
-        "totalItems": 82,
-        "avgTop10Score": 88.2,
-        "topScore": 93,
+        "daysCovered": 1,
+        "totalItems": 35,
+        "avgTop10Score": 82.9,
+        "topScore": 88,
         "topPlatforms": [
-          {
-            "name": "36氪",
-            "count": 4
-          },
           {
             "name": "Reddit",
             "count": 4
@@ -32392,31 +32342,43 @@
           {
             "name": "Hacker News",
             "count": 2
+          },
+          {
+            "name": "36氪",
+            "count": 2
+          },
+          {
+            "name": "量子位",
+            "count": 1
+          },
+          {
+            "name": "The Verge",
+            "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 8
+            "count": 7
           },
           {
             "name": "Agent",
-            "count": 5
+            "count": 2
           },
           {
-            "name": "芯片算力",
-            "count": 4
+            "name": "开源生态",
+            "count": 2
           },
           {
-            "name": "应用落地",
-            "count": 3
-          },
-          {
-            "name": "投融资",
+            "name": "内容生产",
             "count": 2
           },
           {
             "name": "安全治理",
+            "count": 2
+          },
+          {
+            "name": "芯片算力",
             "count": 1
           }
         ]
@@ -32424,29 +32386,6 @@
       "topEvents": [
         {
           "rank": 1,
-          "title": "具身世界模型“我悟”通过合规备案",
-          "platform": "36氪",
-          "aiScore": 93,
-          "publishedAt": "2026-06-27T09:21:55+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3871213411128577?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "6月26日，北京人形机器人创新中心慧思开物平台的双大脑模型天鹕（Pelican-VL）和我悟（WoW）同步完成北京市网信办最新一批生成式人工智能服务备案。北京人形将正式启动慧思开物全系列模型Token服务，计划分阶段面向产业客户、科研机构、开发者全面开放API调用能力。（界面新闻）",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 2,
           "title": "哪款车型最值得大牌呢？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -32469,7 +32408,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 2,
           "title": "政府建造了互联网。为什么它没有构建人工智能？",
           "platform": "Reddit",
           "aiScore": 88,
@@ -32493,149 +32432,7 @@
           }
         },
         {
-          "rank": 4,
-          "title": "相同的内存，不同的型号。为什么本地8B型号使用内存更差？",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-27T12:48:33+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uh1xbs/same_memory_different_model_why_do_local_8b/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "自动化"
-          ],
-          "summary": "我一直在构建 FERNme，这是一个面向人工智能代理的开源、受大脑启发的记忆引擎。在测试时，我注意到一些有趣的事情。具有相同的 FERNme 内存、图形和检索点……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "在什么时候日志和仪表板不再足以支付 llm 成本？",
-          "platform": "Reddit",
-          "aiScore": 88,
-          "publishedAt": "2026-06-27T11:36:45+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uh0hu2/at_what_point_do_logs_and_dashboards_stop_being/",
-          "sourceName": "Reddit r/artificial",
-          "industryStage": "上游",
-          "contentTags": [
-            "模型进展",
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "大家好，目前正在深入研究工作流层经济学，并试图弄清楚人们如何大规模跟踪意外的运行时间峰值。在早期阶段，简单的保证金缓冲区是...",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "高通计划将数据中心芯片技术引入智能手机，提升端侧AI能力",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-27T07:44:14+00:00",
-          "sourceUrl": "https://36kr.com/newsflashes/3871117388174336?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "应用落地"
-          ],
-          "summary": "6月27日消息，高通公司执行副总裁杜尔加·马拉迪表示，公司计划将本周新发布的数据中心芯片技术应用于智能手机，以提升移动设备本地AI运行能力。高通新推出的高带宽计算（HBC）架构采用芯片垂直堆叠设计，将内存与计算单元紧密集成，可显著提升数据传输速度与效率。该架构第一代产品将于明年在数据中心推出，预计2028年实现商业化供货。马拉迪表示，“数据中心的技术不会止步于此”，公司目前正…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "9点1氪｜苹果涨价引山姆代购潮；DeepSeek大规模招聘；黄金再度跌破4000美元",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-27T01:02:37+00:00",
-          "sourceUrl": "https://36kr.com/p/3870720040588295?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
-          ],
-          "summary": "今日热点导览 OpenAI官宣推出GPT-5.6 亚洲“果链”股价几乎全线大幅下跌 SpaceX计划为美国消费者推出新的星链移动服务 美团股价低迷，王兴回应 小鹏机器人调整：新设九部门，何小鹏兼任产品部负责人 微信回应朋友圈互动规则：单删原封不动，互删清空对方全部痕迹 TOP3大新闻 苹果涨价引山姆代购潮，部分门店已卖断货 近日，社交媒体上多名网友反馈，多地山姆会员超市的iP…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 8,
-          "title": "追赶FSD V14，理想在补哪些课？｜最前线",
-          "platform": "36氪",
-          "aiScore": 88,
-          "publishedAt": "2026-06-26T23:30:20+00:00",
-          "sourceUrl": "https://36kr.com/p/3870292939658242?f=rss",
-          "sourceName": "36氪",
-          "industryStage": "中游",
-          "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "投融资"
-          ],
-          "summary": "过去几年，智能驾驶行业的竞争重心经历了几次明显变化。 最早比的是硬件：激光雷达要不要上、摄像头装几个、算力做到多少 TOPS；随后进入大模型时代，竞争开始转向端到端、VLA（Vision-Language-Action）、World Model（世界模型）等路线。 到了今天，越来越多公司发现，仅仅拥有更大的模型已经不足以形成代际优势，真正决定上限的，开始变成模型、数据、算力和…",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 20,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "询问 HN：“非强制 AI”开发工作的市场是否安静？",
-          "platform": "Hacker News",
-          "aiScore": 87,
-          "publishedAt": "2026-06-27T12:05:10+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=48697527",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent",
-            "应用落地"
-          ],
-          "summary": "在我看来，软件工程师的反对声音在人工智能炒作被强行压下去之后，最近变得越来越响亮。就在这周我读了几本……",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 19,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
+          "rank": 3,
           "title": "谷歌限制 Meta 使用其 Gemini AI 模型",
           "platform": "Hacker News",
           "aiScore": 86,
@@ -32656,13 +32453,171 @@
             "actionability": 10,
             "heat": 5
           }
+        },
+        {
+          "rank": 4,
+          "title": "2026 年最佳人工智能业务（我认为）",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-06-28T11:24:55+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uhut4o/the_best_ai_business_to_start_in_2026_in_my/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "开源生态"
+          ],
+          "summary": "对我来说，它仍然是网页设计。我知道很多人会不同意，因为每个人都在说它已经饱和，人工智能正在取代开发人员，并且不可能获得客户。尊敬的…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "抱抱脸模型TOP榜，我现在只服yuxinlu1",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-06-28T13:55:50+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/06/439603.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "杀进一众大厂中间",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "一折买 Miu Miu，谁在做奢侈品牌的\"拼多多\"？｜商业Friday",
+          "platform": "36氪",
+          "aiScore": 84,
+          "publishedAt": "2026-06-28T00:37:08+00:00",
+          "sourceUrl": "https://36kr.com/p/3867976058803459?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "模型进展",
+            "内容生产"
+          ],
+          "summary": "文｜贺哲馨 编辑｜乔芊 Judy第一次意识到，原来打折的奢侈品也有准入门槛，是在申请加入On The List的一次特卖活动时。 提交申请后的第三天，她依旧没有收到邀请消息。 “我还以为填完资料就能进去。”她说。 按照平台规则，特卖活动需要邀请码才能进入。如果迟迟没有通过，则需要邀请两位好友注册，才能获得进入候补名单的机会。至于最终能否收到邀请码，没人说得清楚。 “有点像抽签…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 16,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
+          "title": "AI工具演示和实际日常使用之间最大的差距是什么？",
+          "platform": "Reddit",
+          "aiScore": 80,
+          "publishedAt": "2026-06-28T03:10:46+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1uhlz6m/whats_the_biggest_gap_between_ai_tool_demos_and/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "下游",
+          "contentTags": [
+            "Agent",
+            "应用落地",
+            "内容生产"
+          ],
+          "summary": "我一直在实际业务工作流程中测试不同的人工智能工具，主要用于写作、研究、内容规划和重复性办公任务。我注意到的一件事是演示通常看起来......",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 8,
+          "title": "中国公司Z.Ai、中国360声称拥有与Mythos相匹配的网络安全人工智能模型",
+          "platform": "Hacker News",
+          "aiScore": 78,
+          "publishedAt": "2026-06-28T13:28:10+00:00",
+          "sourceUrl": "https://www.reuters.com/legal/litigation/chinas-360-says-it-has-developed-tools-match-anthropics-mythos-2026-06-24/",
+          "sourceName": "Hacker News AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展"
+          ],
+          "summary": "文章网址：https://www.reuters.com/legal/litigation/chinas-360-says-it-has-development-tools-match-anthropics-mythos-2026-06-24/ 评论网址：https://news.ycombinator.com/item?id=48707090...",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 9,
+          "title": "检察官在 Palisades 火灾审判中使用 ChatGPT 日志作为证据",
+          "platform": "The Verge",
+          "aiScore": 77,
+          "publishedAt": "2026-06-28T14:12:06+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "安全治理"
+          ],
+          "summary": "乔纳森·林德克内西特 (Jonathan Rinderknecht) 因在 2025 年元旦纵火而面临纵火指控，这场火灾成为洛杉矶历史上最致命的山火之一。为了证明自己的观点，检察官转向……",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 8,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 10,
+          "title": "悟空安全上线“弹必赔”，主打“0添加”安全软件",
+          "platform": "36氪",
+          "aiScore": 77,
+          "publishedAt": "2026-06-28T09:16:45+00:00",
+          "sourceUrl": "https://36kr.com/newsflashes/3872623912571910?f=rss",
+          "sourceName": "36氪",
+          "industryStage": "下游",
+          "contentTags": [
+            "安全治理"
+          ],
+          "summary": "今日，悟空安全宣布上线“流氓弹窗”弹必赔，用户安装产品后，如弹出推广类弹窗，可参与举报并获得最高100元话费奖励。与此同时，悟空安全提出“0添加”的产品理念，默认使用场景下不主动新增广告、捆绑推荐等影响体验的信息，并通过AI识别与云规则库能力提升弹窗拦截效率，希望为用户提供更纯净、更少干扰的电脑使用体验。",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 8,
+            "actionability": 4,
+            "heat": 5
+          }
         }
       ],
       "briefing": [
-        "6月第4周累计收录 82 条资讯，覆盖 2 天。",
-        "高频主题：模型进展 / Agent / 芯片算力",
-        "本周最高分：具身世界模型“我悟”通过合规备案（93 分）",
-        "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "6月第4周累计收录 35 条资讯，覆盖 1 天。",
+        "高频主题：模型进展 / Agent / 开源生态",
+        "本周最高分：哪款车型最值得大牌呢？（88 分）",
+        "本周优先动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     }
   ]
