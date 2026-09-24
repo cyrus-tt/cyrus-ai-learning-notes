@@ -1,28 +1,142 @@
 {
-  "generatedAt": "2026-09-23T17:41:01.041690+00:00",
+  "generatedAt": "2026-09-24T05:49:49.966703+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-09-24",
     "label": "9月24日",
     "top10": [
       {
-        "rank": 3,
-        "title": "Ask HN: Will software still matter when AI write all our programs?",
-        "platform": "Hacker News",
-        "aiScore": 88,
-        "publishedAt": "2026-09-23T16:24:27+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49818484",
-        "sourceName": "Hacker News AI",
+        "rank": 2,
+        "title": "Meta is making a standalone Muse AI gadget",
+        "platform": "The Verge",
+        "aiScore": 94,
+        "publishedAt": "2026-09-24T00:15:20+00:00",
+        "sourceUrl": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+        "sourceName": "The Verge AI",
         "industryStage": "中游",
         "contentTags": [
-          "芯片算力",
-          "模型进展",
-          "Agent"
+          "Agent",
+          "应用落地"
         ],
-        "summary": "I’ve often reflected on how AI will change software development, and on what happens when reverse engineering — “everything is open source if you can reverse engineer it” — or clean-room re…",
+        "summary": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connec…",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
+          "authority": 25,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+        "platform": "Hugging Face",
+        "aiScore": 88,
+        "publishedAt": "2026-09-23T18:41:40+00:00",
+        "sourceUrl": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+        "sourceName": "Hugging Face Blog",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "Agent",
+          "自动化"
+        ],
+        "summary": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "PopUpFactCheck: It even breaks the news since airtime!!! (QUALITY BREAKTHROUGH)",
+        "platform": "Reddit",
+        "aiScore": 87,
+        "publishedAt": "2026-09-24T02:44:49+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wopyqr/popupfactcheck_it_even_breaks_the_news_since/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "It even breaks the news since airtime!!! Major update on PopUpFactCheck.com It even breaks the news since airtime!!! QUALITY BREAKTHROUGH — I just discovered that throughout the past severa…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "My Fiance is Convinced AI will likely cause a Catastrophic or Extinction-Type Event in the Next Few Years - How Justified Are His Fears?",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-09-24T05:03:36+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wosn95/my_fiance_is_convinced_ai_will_likely_cause_a/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "As the title says. My fiance is a lot more book smart than I am but he doesn’t work in the tech industry, rather in the film industry. With all the news over the last two weeks, he’s been p…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
+        "platform": "量子位",
+        "aiScore": 85,
+        "publishedAt": "2026-09-24T04:11:51+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/496740.html",
+        "sourceName": "量子位",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent"
+        ],
+        "summary": "懂出海，能记忆，自进化",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "Lemonade fixes AMD APU model streaming, drops OpenMOSS ROCm as ~40x slower than Vulkan",
+        "platform": "Reddit",
+        "aiScore": 81,
+        "publishedAt": "2026-09-23T20:18:35+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1woh146/lemonade_fixes_amd_apu_model_streaming_drops/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展"
+        ],
+        "summary": "Lemonade fixes AMD APU model streaming, drops OpenMOSS ROCm as ~40x slower than Vulkan",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 28,
           "authority": 18,
           "topic": 20,
           "actionability": 10,
@@ -30,245 +144,156 @@
         }
       },
       {
-        "rank": 8,
-        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "platform": "OpenAI",
-        "aiScore": 85,
-        "publishedAt": "2026-09-24T12:00:00+00:00",
-        "sourceUrl": "https://openai.com/index/ringg",
-        "sourceName": "OpenAI News",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 3,
-        "title": "Everyone is hilariously prompt-injecting AI via llms.txt and you aren't",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-23T16:29:39+00:00",
-        "sourceUrl": "https://installmap.com/research/llms-txt-ai-instructions",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "Everyone is hilariously prompt-injecting AI via llms.txt and you aren't",
-        "action": "提取提示词结构，再改成你自己的业务场景。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "Meta testing a 'human concierge' for its new personal AI agent, Muse",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-23T16:14:08+00:00",
-        "sourceUrl": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "Meta testing a 'human concierge' for its new personal AI agent, Muse",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison",
-        "platform": "The Verge",
-        "aiScore": 74,
-        "publishedAt": "2026-09-23T16:23:05+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "Sen. Bernie Sanders (I-VT) and Rep. Greg Casar (D-TX) have introduced new legislation that would ban anyone from developing artificial superintelligence - a technology the bill describes as…",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 6,
-        "title": "Two years of OpenAI Academy",
-        "platform": "OpenAI",
-        "aiScore": 74,
-        "publishedAt": "2026-09-23T16:00:00+00:00",
-        "sourceUrl": "https://openai.com/index/two-years-of-openai-academy",
-        "sourceName": "OpenAI News",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
         "rank": 7,
-        "title": "Even Americans who use AI every day are worried about it",
-        "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-23T17:27:28+00:00",
-        "sourceUrl": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
-        "sourceName": "Hacker News AI",
+        "title": "海信新一代性能旗舰E7S Pro+正式发布，原生真彩再进阶",
+        "platform": "量子位",
+        "aiScore": 80,
+        "publishedAt": "2026-09-24T02:51:18+00:00",
+        "sourceUrl": "https://www.qbitai.com/2026/09/496658.html",
+        "sourceName": "量子位",
         "industryStage": "中游",
         "contentTags": [
           "AI动态"
         ],
-        "summary": "Even Americans who use AI every day are worried about it",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "9月23日，2026海信电视秋季新品发布会上，定位“原生真彩，性能旗舰”的RGB-Mini LED新品E7S Pro+正式发布",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
           "recency": 35,
-          "authority": 18,
+          "authority": 25,
           "topic": 5,
-          "actionability": 4,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 8,
-        "title": "Advancing Private AI Compute with secure, server-side memory",
-        "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-23T17:24:29+00:00",
-        "sourceUrl": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-        "sourceName": "Hacker News AI",
+        "title": "Don’t be fooled by this summer of AI hype",
+        "platform": "Reddit",
+        "aiScore": 80,
+        "publishedAt": "2026-09-23T20:34:27+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wohfzv/dont_be_fooled_by_this_summer_of_ai_hype/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展",
+          "应用落地"
         ],
-        "summary": "Advancing Private AI Compute with secure, server-side memory",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "\"Describing them as 'superintelligence' or 'rogue models' ascribes agency to products rather than to the companies building them... helping the companies evade accountability for their acti…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "topic": 19,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "The Download: India's smart glasses menace and AI's trillion-dollar gamble",
+        "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
         "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-23T17:01:45+00:00",
-        "sourceUrl": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
+        "aiScore": 78,
+        "publishedAt": "2026-09-24T05:21:10+00:00",
+        "sourceUrl": "https://transluce.org/agent-activity",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "Agent"
         ],
-        "summary": "The Download: India's smart glasses menace and AI's trillion-dollar gamble",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "Tests of the New AI Siri",
+        "title": "Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To",
         "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-23T16:59:07+00:00",
-        "sourceUrl": "https://pogueman.substack.com/p/125-tests-of-the-new-ai-siri",
+        "aiScore": 78,
+        "publishedAt": "2026-09-24T04:38:57+00:00",
+        "sourceUrl": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "Agent"
         ],
-        "summary": "Tests of the New AI Siri",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
           "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 15,
-      "avgScore": 72.0,
-      "topScore": 88,
+      "totalItems": 47,
+      "avgScore": 73.4,
+      "topScore": 94,
       "topPlatforms": [
         {
           "name": "Hacker News",
-          "count": 12
+          "count": 15
         },
         {
-          "name": "OpenAI",
-          "count": 2
+          "name": "Reddit",
+          "count": 11
         },
         {
           "name": "The Verge",
-          "count": 1
+          "count": 10
+        },
+        {
+          "name": "量子位",
+          "count": 4
+        },
+        {
+          "name": "爱范儿",
+          "count": 3
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 11
+          "count": 24
         },
         {
           "name": "Agent",
-          "count": 3
+          "count": 14
         },
         {
           "name": "模型进展",
-          "count": 2
+          "count": 7
+        },
+        {
+          "name": "应用落地",
+          "count": 5
         },
         {
           "name": "芯片算力",
+          "count": 2
+        },
+        {
+          "name": "安全治理",
+          "count": 1
+        },
+        {
+          "name": "自动化",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 15 条 AI 资讯，Top10 通报见下。",
+      "今日共收录 47 条 AI 资讯，Top10 通报见下。",
       "高频主题：AI动态 / Agent / 模型进展",
-      "最高分事件：Ask HN: Will software still matter when AI write all our programs?（88 分）",
+      "最高分事件：Meta is making a standalone Muse AI gadget（94 分）",
       "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
@@ -278,23 +303,137 @@
       "label": "9月24日",
       "top10": [
         {
-          "rank": 3,
-          "title": "Ask HN: Will software still matter when AI write all our programs?",
-          "platform": "Hacker News",
-          "aiScore": 88,
-          "publishedAt": "2026-09-23T16:24:27+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49818484",
-          "sourceName": "Hacker News AI",
+          "rank": 2,
+          "title": "Meta is making a standalone Muse AI gadget",
+          "platform": "The Verge",
+          "aiScore": 94,
+          "publishedAt": "2026-09-24T00:15:20+00:00",
+          "sourceUrl": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+          "sourceName": "The Verge AI",
           "industryStage": "中游",
           "contentTags": [
-            "芯片算力",
-            "模型进展",
-            "Agent"
+            "Agent",
+            "应用落地"
           ],
-          "summary": "I’ve often reflected on how AI will change software development, and on what happens when reverse engineering — “everything is open source if you can reverse engineer it” — or clean-room re…",
+          "summary": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connec…",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+          "platform": "Hugging Face",
+          "aiScore": 88,
+          "publishedAt": "2026-09-23T18:41:40+00:00",
+          "sourceUrl": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+          "sourceName": "Hugging Face Blog",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "Agent",
+            "自动化"
+          ],
+          "summary": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "PopUpFactCheck: It even breaks the news since airtime!!! (QUALITY BREAKTHROUGH)",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-09-24T02:44:49+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wopyqr/popupfactcheck_it_even_breaks_the_news_since/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "It even breaks the news since airtime!!! Major update on PopUpFactCheck.com It even breaks the news since airtime!!! QUALITY BREAKTHROUGH — I just discovered that throughout the past severa…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "My Fiance is Convinced AI will likely cause a Catastrophic or Extinction-Type Event in the Next Few Years - How Justified Are His Fears?",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-09-24T05:03:36+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wosn95/my_fiance_is_convinced_ai_will_likely_cause_a/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "As the title says. My fiance is a lot more book smart than I am but he doesn’t work in the tech industry, rather in the film industry. With all the news over the last two weeks, he’s been p…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
+          "platform": "量子位",
+          "aiScore": 85,
+          "publishedAt": "2026-09-24T04:11:51+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/496740.html",
+          "sourceName": "量子位",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent"
+          ],
+          "summary": "懂出海，能记忆，自进化",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "Lemonade fixes AMD APU model streaming, drops OpenMOSS ROCm as ~40x slower than Vulkan",
+          "platform": "Reddit",
+          "aiScore": 81,
+          "publishedAt": "2026-09-23T20:18:35+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1woh146/lemonade_fixes_amd_apu_model_streaming_drops/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展"
+          ],
+          "summary": "Lemonade fixes AMD APU model streaming, drops OpenMOSS ROCm as ~40x slower than Vulkan",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 28,
             "authority": 18,
             "topic": 20,
             "actionability": 10,
@@ -302,245 +441,156 @@
           }
         },
         {
-          "rank": 8,
-          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "platform": "OpenAI",
-          "aiScore": 85,
-          "publishedAt": "2026-09-24T12:00:00+00:00",
-          "sourceUrl": "https://openai.com/index/ringg",
-          "sourceName": "OpenAI News",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 3,
-          "title": "Everyone is hilariously prompt-injecting AI via llms.txt and you aren't",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-23T16:29:39+00:00",
-          "sourceUrl": "https://installmap.com/research/llms-txt-ai-instructions",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "Everyone is hilariously prompt-injecting AI via llms.txt and you aren't",
-          "action": "提取提示词结构，再改成你自己的业务场景。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "Meta testing a 'human concierge' for its new personal AI agent, Muse",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-23T16:14:08+00:00",
-          "sourceUrl": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "Meta testing a 'human concierge' for its new personal AI agent, Muse",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "Bernie Sanders proposes banning ‘superintelligence’ and putting violators in prison",
-          "platform": "The Verge",
-          "aiScore": 74,
-          "publishedAt": "2026-09-23T16:23:05+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "Sen. Bernie Sanders (I-VT) and Rep. Greg Casar (D-TX) have introduced new legislation that would ban anyone from developing artificial superintelligence - a technology the bill describes as…",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 6,
-          "title": "Two years of OpenAI Academy",
-          "platform": "OpenAI",
-          "aiScore": 74,
-          "publishedAt": "2026-09-23T16:00:00+00:00",
-          "sourceUrl": "https://openai.com/index/two-years-of-openai-academy",
-          "sourceName": "OpenAI News",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
           "rank": 7,
-          "title": "Even Americans who use AI every day are worried about it",
-          "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-23T17:27:28+00:00",
-          "sourceUrl": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
-          "sourceName": "Hacker News AI",
+          "title": "海信新一代性能旗舰E7S Pro+正式发布，原生真彩再进阶",
+          "platform": "量子位",
+          "aiScore": 80,
+          "publishedAt": "2026-09-24T02:51:18+00:00",
+          "sourceUrl": "https://www.qbitai.com/2026/09/496658.html",
+          "sourceName": "量子位",
           "industryStage": "中游",
           "contentTags": [
             "AI动态"
           ],
-          "summary": "Even Americans who use AI every day are worried about it",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "9月23日，2026海信电视秋季新品发布会上，定位“原生真彩，性能旗舰”的RGB-Mini LED新品E7S Pro+正式发布",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
             "recency": 35,
-            "authority": 18,
+            "authority": 25,
             "topic": 5,
-            "actionability": 4,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 8,
-          "title": "Advancing Private AI Compute with secure, server-side memory",
-          "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-23T17:24:29+00:00",
-          "sourceUrl": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-          "sourceName": "Hacker News AI",
+          "title": "Don’t be fooled by this summer of AI hype",
+          "platform": "Reddit",
+          "aiScore": 80,
+          "publishedAt": "2026-09-23T20:34:27+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wohfzv/dont_be_fooled_by_this_summer_of_ai_hype/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展",
+            "应用落地"
           ],
-          "summary": "Advancing Private AI Compute with secure, server-side memory",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "\"Describing them as 'superintelligence' or 'rogue models' ascribes agency to products rather than to the companies building them... helping the companies evade accountability for their acti…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "topic": 19,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "The Download: India's smart glasses menace and AI's trillion-dollar gamble",
+          "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
           "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-23T17:01:45+00:00",
-          "sourceUrl": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
+          "aiScore": 78,
+          "publishedAt": "2026-09-24T05:21:10+00:00",
+          "sourceUrl": "https://transluce.org/agent-activity",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "Agent"
           ],
-          "summary": "The Download: India's smart glasses menace and AI's trillion-dollar gamble",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "Tests of the New AI Siri",
+          "title": "Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To",
           "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-23T16:59:07+00:00",
-          "sourceUrl": "https://pogueman.substack.com/p/125-tests-of-the-new-ai-siri",
+          "aiScore": 78,
+          "publishedAt": "2026-09-24T04:38:57+00:00",
+          "sourceUrl": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "Agent"
           ],
-          "summary": "Tests of the New AI Siri",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
             "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 15,
-        "avgScore": 72.0,
-        "topScore": 88,
+        "totalItems": 47,
+        "avgScore": 73.4,
+        "topScore": 94,
         "topPlatforms": [
           {
             "name": "Hacker News",
-            "count": 12
+            "count": 15
           },
           {
-            "name": "OpenAI",
-            "count": 2
+            "name": "Reddit",
+            "count": 11
           },
           {
             "name": "The Verge",
-            "count": 1
+            "count": 10
+          },
+          {
+            "name": "量子位",
+            "count": 4
+          },
+          {
+            "name": "爱范儿",
+            "count": 3
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 11
+            "count": 24
           },
           {
             "name": "Agent",
-            "count": 3
+            "count": 14
           },
           {
             "name": "模型进展",
-            "count": 2
+            "count": 7
+          },
+          {
+            "name": "应用落地",
+            "count": 5
           },
           {
             "name": "芯片算力",
+            "count": 2
+          },
+          {
+            "name": "安全治理",
+            "count": 1
+          },
+          {
+            "name": "自动化",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 15 条 AI 资讯，Top10 通报见下。",
+        "今日共收录 47 条 AI 资讯，Top10 通报见下。",
         "高频主题：AI动态 / Agent / 模型进展",
-        "最高分事件：Ask HN: Will software still matter when AI write all our programs?（88 分）",
+        "最高分事件：Meta is making a standalone Muse AI gadget（94 分）",
         "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
@@ -549,7 +599,7 @@
       "label": "9月23日",
       "top10": [
         {
-          "rank": 4,
+          "rank": 7,
           "title": "Naming AI agents after Seinfeld characters helps bots join the team – report",
           "platform": "Hacker News",
           "aiScore": 86,
@@ -572,7 +622,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 8,
           "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
           "platform": "The Verge",
           "aiScore": 86,
@@ -595,7 +645,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 9,
           "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
           "platform": "The Verge",
           "aiScore": 86,
@@ -872,7 +922,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "title": "阿里公布全模态模型新进展，Qwen4和下代视频模型均在训练中",
           "platform": "量子位",
           "aiScore": 91,
@@ -895,7 +945,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 10,
           "title": "早报｜曝iPhone Duo量产初期良率仅过六成/小米18 Pro加入硬件级防窥/OpenAI新模型24天攻克百道数学未解难题",
           "platform": "爱范儿",
           "aiScore": 86,
@@ -27548,42 +27598,42 @@
     },
     "metrics": {
       "daysCovered": 3,
-      "totalItems": 91,
-      "avgTop10Score": 86.8,
+      "totalItems": 123,
+      "avgTop10Score": 88.5,
       "topScore": 95,
       "topPlatforms": [
-        {
-          "name": "量子位",
-          "count": 3
-        },
         {
           "name": "The Verge",
           "count": 3
         },
         {
-          "name": "Hacker News",
+          "name": "量子位",
           "count": 2
         },
         {
-          "name": "爱范儿",
+          "name": "Reddit",
+          "count": 2
+        },
+        {
+          "name": "Hugging Face",
           "count": 1
         },
         {
-          "name": "OpenAI",
+          "name": "Hacker News",
           "count": 1
         }
       ],
       "topTopics": [
         {
           "name": "模型进展",
-          "count": 6
+          "count": 5
         },
         {
           "name": "Agent",
-          "count": 4
+          "count": 5
         },
         {
-          "name": "芯片算力",
+          "name": "安全治理",
           "count": 3
         },
         {
@@ -27591,11 +27641,11 @@
           "count": 3
         },
         {
-          "name": "投融资",
+          "name": "芯片算力",
           "count": 2
         },
         {
-          "name": "安全治理",
+          "name": "应用落地",
           "count": 2
         }
       ]
@@ -27627,6 +27677,29 @@
       },
       {
         "rank": 2,
+        "title": "Meta is making a standalone Muse AI gadget",
+        "platform": "The Verge",
+        "aiScore": 94,
+        "publishedAt": "2026-09-24T00:15:20+00:00",
+        "sourceUrl": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "应用落地"
+        ],
+        "summary": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connec…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 25,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
         "title": "阿里公布全模态模型新进展，Qwen4和下代视频模型均在训练中",
         "platform": "量子位",
         "aiScore": 91,
@@ -27649,31 +27722,77 @@
         }
       },
       {
-        "rank": 3,
-        "title": "Ask HN: Will software still matter when AI write all our programs?",
-        "platform": "Hacker News",
+        "rank": 4,
+        "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+        "platform": "Hugging Face",
         "aiScore": 88,
-        "publishedAt": "2026-09-23T16:24:27+00:00",
-        "sourceUrl": "https://news.ycombinator.com/item?id=49818484",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
+        "publishedAt": "2026-09-23T18:41:40+00:00",
+        "sourceUrl": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+        "sourceName": "Hugging Face Blog",
+        "industryStage": "上游",
         "contentTags": [
           "芯片算力",
-          "模型进展",
-          "Agent"
+          "Agent",
+          "自动化"
         ],
-        "summary": "I’ve often reflected on how AI will change software development, and on what happens when reverse engineering — “everything is open source if you can reverse engineer it” — or clean-room re…",
+        "summary": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
+          "recency": 28,
+          "authority": 25,
           "topic": 20,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 4,
+        "rank": 5,
+        "title": "PopUpFactCheck: It even breaks the news since airtime!!! (QUALITY BREAKTHROUGH)",
+        "platform": "Reddit",
+        "aiScore": 87,
+        "publishedAt": "2026-09-24T02:44:49+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wopyqr/popupfactcheck_it_even_breaks_the_news_since/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "模型进展",
+          "应用落地"
+        ],
+        "summary": "It even breaks the news since airtime!!! Major update on PopUpFactCheck.com It even breaks the news since airtime!!! QUALITY BREAKTHROUGH — I just discovered that throughout the past severa…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 19,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
+        "title": "My Fiance is Convinced AI will likely cause a Catastrophic or Extinction-Type Event in the Next Few Years - How Justified Are His Fears?",
+        "platform": "Reddit",
+        "aiScore": 86,
+        "publishedAt": "2026-09-24T05:03:36+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wosn95/my_fiance_is_convinced_ai_will_likely_cause_a/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "安全治理"
+        ],
+        "summary": "As the title says. My fiance is a lot more book smart than I am but he doesn’t work in the tech industry, rather in the film industry. With all the news over the last two weeks, he’s been p…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 18,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 7,
         "title": "Naming AI agents after Seinfeld characters helps bots join the team – report",
         "platform": "Hacker News",
         "aiScore": 86,
@@ -27696,7 +27815,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 8,
         "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
         "platform": "The Verge",
         "aiScore": 86,
@@ -27719,7 +27838,7 @@
         }
       },
       {
-        "rank": 6,
+        "rank": 9,
         "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
         "platform": "The Verge",
         "aiScore": 86,
@@ -27742,7 +27861,7 @@
         }
       },
       {
-        "rank": 7,
+        "rank": 10,
         "title": "早报｜曝iPhone Duo量产初期良率仅过六成/小米18 Pro加入硬件级防窥/OpenAI新模型24天攻克百道数学未解难题",
         "platform": "爱范儿",
         "aiScore": 86,
@@ -27764,79 +27883,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 8,
-        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "platform": "OpenAI",
-        "aiScore": 85,
-        "publishedAt": "2026-09-24T12:00:00+00:00",
-        "sourceUrl": "https://openai.com/index/ringg",
-        "sourceName": "OpenAI News",
-        "industryStage": "中游",
-        "contentTags": [
-          "Agent"
-        ],
-        "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 9,
-        "title": "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数",
-        "platform": "量子位",
-        "aiScore": 85,
-        "publishedAt": "2026-09-22T03:48:05+00:00",
-        "sourceUrl": "https://www.qbitai.com/2026/09/493629.html",
-        "sourceName": "量子位",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "未来Qwen4.5、Qwen5等版本将扩展至5-10T参数。",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 10,
-        "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
-        "platform": "The Verge",
-        "aiScore": 80,
-        "publishedAt": "2026-09-22T16:34:08+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
-        "sourceName": "The Verge AI",
-        "industryStage": "上游",
-        "contentTags": [
-          "芯片算力",
-          "自动化",
-          "投融资"
-        ],
-        "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academ…",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 18,
-          "actionability": 4,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "9月第4周累计收录 91 条资讯，覆盖 3 天。",
-      "高频主题：模型进展 / Agent / 芯片算力",
+      "9月第4周累计收录 123 条资讯，覆盖 3 天。",
+      "高频主题：模型进展 / Agent / 安全治理",
       "本周最高分：阿里巴巴：机器智能时代，坚定投入AI模型 AI芯片 AI云三大基石（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
@@ -27851,42 +27902,42 @@
       },
       "metrics": {
         "daysCovered": 3,
-        "totalItems": 91,
-        "avgTop10Score": 86.8,
+        "totalItems": 123,
+        "avgTop10Score": 88.5,
         "topScore": 95,
         "topPlatforms": [
-          {
-            "name": "量子位",
-            "count": 3
-          },
           {
             "name": "The Verge",
             "count": 3
           },
           {
-            "name": "Hacker News",
+            "name": "量子位",
             "count": 2
           },
           {
-            "name": "爱范儿",
+            "name": "Reddit",
+            "count": 2
+          },
+          {
+            "name": "Hugging Face",
             "count": 1
           },
           {
-            "name": "OpenAI",
+            "name": "Hacker News",
             "count": 1
           }
         ],
         "topTopics": [
           {
             "name": "模型进展",
-            "count": 6
+            "count": 5
           },
           {
             "name": "Agent",
-            "count": 4
+            "count": 5
           },
           {
-            "name": "芯片算力",
+            "name": "安全治理",
             "count": 3
           },
           {
@@ -27894,11 +27945,11 @@
             "count": 3
           },
           {
-            "name": "投融资",
+            "name": "芯片算力",
             "count": 2
           },
           {
-            "name": "安全治理",
+            "name": "应用落地",
             "count": 2
           }
         ]
@@ -27930,6 +27981,29 @@
         },
         {
           "rank": 2,
+          "title": "Meta is making a standalone Muse AI gadget",
+          "platform": "The Verge",
+          "aiScore": 94,
+          "publishedAt": "2026-09-24T00:15:20+00:00",
+          "sourceUrl": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "应用落地"
+          ],
+          "summary": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connec…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 25,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
           "title": "阿里公布全模态模型新进展，Qwen4和下代视频模型均在训练中",
           "platform": "量子位",
           "aiScore": 91,
@@ -27952,31 +28026,77 @@
           }
         },
         {
-          "rank": 3,
-          "title": "Ask HN: Will software still matter when AI write all our programs?",
-          "platform": "Hacker News",
+          "rank": 4,
+          "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+          "platform": "Hugging Face",
           "aiScore": 88,
-          "publishedAt": "2026-09-23T16:24:27+00:00",
-          "sourceUrl": "https://news.ycombinator.com/item?id=49818484",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
+          "publishedAt": "2026-09-23T18:41:40+00:00",
+          "sourceUrl": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+          "sourceName": "Hugging Face Blog",
+          "industryStage": "上游",
           "contentTags": [
             "芯片算力",
-            "模型进展",
-            "Agent"
+            "Agent",
+            "自动化"
           ],
-          "summary": "I’ve often reflected on how AI will change software development, and on what happens when reverse engineering — “everything is open source if you can reverse engineer it” — or clean-room re…",
+          "summary": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
+            "recency": 28,
+            "authority": 25,
             "topic": 20,
             "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
+          "title": "PopUpFactCheck: It even breaks the news since airtime!!! (QUALITY BREAKTHROUGH)",
+          "platform": "Reddit",
+          "aiScore": 87,
+          "publishedAt": "2026-09-24T02:44:49+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wopyqr/popupfactcheck_it_even_breaks_the_news_since/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "模型进展",
+            "应用落地"
+          ],
+          "summary": "It even breaks the news since airtime!!! Major update on PopUpFactCheck.com It even breaks the news since airtime!!! QUALITY BREAKTHROUGH — I just discovered that throughout the past severa…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 19,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
+          "title": "My Fiance is Convinced AI will likely cause a Catastrophic or Extinction-Type Event in the Next Few Years - How Justified Are His Fears?",
+          "platform": "Reddit",
+          "aiScore": 86,
+          "publishedAt": "2026-09-24T05:03:36+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wosn95/my_fiance_is_convinced_ai_will_likely_cause_a/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "安全治理"
+          ],
+          "summary": "As the title says. My fiance is a lot more book smart than I am but he doesn’t work in the tech industry, rather in the film industry. With all the news over the last two weeks, he’s been p…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 18,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 7,
           "title": "Naming AI agents after Seinfeld characters helps bots join the team – report",
           "platform": "Hacker News",
           "aiScore": 86,
@@ -27999,7 +28119,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 8,
           "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
           "platform": "The Verge",
           "aiScore": 86,
@@ -28022,7 +28142,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 9,
           "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
           "platform": "The Verge",
           "aiScore": 86,
@@ -28045,7 +28165,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 10,
           "title": "早报｜曝iPhone Duo量产初期良率仅过六成/小米18 Pro加入硬件级防窥/OpenAI新模型24天攻克百道数学未解难题",
           "platform": "爱范儿",
           "aiScore": 86,
@@ -28067,79 +28187,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 8,
-          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "platform": "OpenAI",
-          "aiScore": 85,
-          "publishedAt": "2026-09-24T12:00:00+00:00",
-          "sourceUrl": "https://openai.com/index/ringg",
-          "sourceName": "OpenAI News",
-          "industryStage": "中游",
-          "contentTags": [
-            "Agent"
-          ],
-          "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 9,
-          "title": "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数",
-          "platform": "量子位",
-          "aiScore": 85,
-          "publishedAt": "2026-09-22T03:48:05+00:00",
-          "sourceUrl": "https://www.qbitai.com/2026/09/493629.html",
-          "sourceName": "量子位",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "未来Qwen4.5、Qwen5等版本将扩展至5-10T参数。",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 10,
-          "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
-          "platform": "The Verge",
-          "aiScore": 80,
-          "publishedAt": "2026-09-22T16:34:08+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
-          "sourceName": "The Verge AI",
-          "industryStage": "上游",
-          "contentTags": [
-            "芯片算力",
-            "自动化",
-            "投融资"
-          ],
-          "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academ…",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 18,
-            "actionability": 4,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "9月第4周累计收录 91 条资讯，覆盖 3 天。",
-        "高频主题：模型进展 / Agent / 芯片算力",
+        "9月第4周累计收录 123 条资讯，覆盖 3 天。",
+        "高频主题：模型进展 / Agent / 安全治理",
         "本周最高分：阿里巴巴：机器智能时代，坚定投入AI模型 AI芯片 AI云三大基石（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
