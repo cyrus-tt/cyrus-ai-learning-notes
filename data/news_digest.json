@@ -1,27 +1,122 @@
 {
-  "generatedAt": "2026-09-24T17:43:40.047924+00:00",
+  "generatedAt": "2026-09-25T05:45:14.074957+00:00",
   "timezone": "Asia/Shanghai",
   "currentDay": {
     "date": "2026-09-25",
     "label": "9月25日",
     "top10": [
       {
-        "rank": 6,
-        "title": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
+        "rank": 4,
+        "title": "Oracle cut 21,000 jobs and paid $1.8B in severance while announcing record AI infrastructure spending. The layoffs aren't because of AI. Th…",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-25T04:59:42+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wpnhzz/oracle_cut_21000_jobs_and_paid_18b_in_severance/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "应用落地",
+          "自动化"
+        ],
+        "summary": "Something about the Oracle numbers has been bothering me and I think I finally put my finger on it. 21,000 cuts this year. $1.8 billion severance bill. Another 800 scheduled for November 13…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "Stefano Ermon: Autoregressive inference is sequential and memory-bound. Diffusion is built to map to GPUs — that's why it wins.",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-25T03:23:49+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wplpto/stefano_ermon_autoregressive_inference_is/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "TL;DR: Augment Code swapped its production coding-agent backend in September. It didn't switch to a bigger model. It switched to a smaller one running on an architecture that doesn't genera…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 3,
+        "title": "Muse sure looks a lot like OpenClaw",
+        "platform": "The Verge",
+        "aiScore": 84,
+        "publishedAt": "2026-09-24T17:10:38+00:00",
+        "sourceUrl": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
+        "sourceName": "The Verge AI",
+        "industryStage": "中游",
+        "contentTags": [
+          "Agent",
+          "内容生产"
+        ],
+        "summary": "We seem to be entering into an AI agent renaissance. Meta's new consumer-facing AI agent, Muse, topped the App Store charts soon after its release and has 600,000 daily active users in the…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 28,
+          "authority": 25,
+          "topic": 16,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 4,
+        "title": "Positron Valued at $5B in New Funding as Demand for AI Chips Surges",
         "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-09-24T16:17:58+00:00",
-        "sourceUrl": "https://medium.com/meetcyber/ai-models-are-great-at-finding-security-bugs-but-can-they-tell-when-theyre-fixed-20052d828f2a",
+        "aiScore": 79,
+        "publishedAt": "2026-09-24T23:58:55+00:00",
+        "sourceUrl": "https://www.wsj.com/tech/ai/positron-valued-at-5-billion-in-new-funding-as-cpu-demand-surges-76dde819",
         "sourceName": "Hacker News AI",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "投融资"
+        ],
+        "summary": "Positron Valued at $5B in New Funding as Demand for AI Chips Surges",
+        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 17,
+          "actionability": 4,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "I trained an AI on 25 years of my own writing and told it not to be helpful. Here's what happened.",
+        "platform": "Reddit",
+        "aiScore": 79,
+        "publishedAt": "2026-09-24T20:28:21+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wpcojb/i_trained_an_ai_on_25_years_of_my_own_writing_and/",
+        "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "安全治理"
+          "开源生态",
+          "内容生产"
         ],
-        "summary": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+        "summary": "Been building something for a while and finally have results worth sharing. I scraped everything I've written since 1995: Blog posts, journalism, email, Reddit comments, old Twitter, Instag…",
+        "action": "提取提示词结构，再改成你自己的业务场景。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
           "topic": 18,
           "actionability": 10,
@@ -29,85 +124,41 @@
         }
       },
       {
-        "rank": 2,
-        "title": "Training a local LLM using CPT and RAG (with evals)",
+        "rank": 6,
+        "title": "How are Chinese AI labs releasing competitive models so cheaply?",
         "platform": "Reddit",
-        "aiScore": 84,
-        "publishedAt": "2026-09-24T17:35:13+00:00",
-        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wp84dl/training_a_local_llm_using_cpt_and_rag_with_evals/",
+        "aiScore": 79,
+        "publishedAt": "2026-09-24T19:12:27+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wpaq16/how_are_chinese_ai_labs_releasing_competitive/",
         "sourceName": "Reddit r/artificial",
         "industryStage": "中游",
         "contentTags": [
           "模型进展",
-          "内容生产"
+          "开源生态"
         ],
-        "summary": "I have gone through a series of experiments related to an interesting project where I try to teach a local llm a new domain through continued pretraining (CPT). The different experiments ar…",
+        "summary": "Some Chinese labs are putting out models that compete with American ones while apparently spending a fraction of the money. I know open source research plays a role, and some are able to sp…",
         "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
+          "recency": 28,
           "authority": 18,
-          "topic": 16,
+          "topic": 18,
           "actionability": 10,
           "heat": 5
         }
       },
       {
-        "rank": 3,
-        "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
-        "platform": "The Verge",
-        "aiScore": 84,
-        "publishedAt": "2026-09-24T16:04:31+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "应用落地"
-        ],
-        "summary": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or resche…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 25,
-          "topic": 9,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 4,
-        "title": "Open AI in the Wild: Adoption and Adaptation of Open Models on R/LocalLLaMA",
+        "rank": 7,
+        "title": "Am I too boring to need an AI Agent",
         "platform": "Hacker News",
         "aiScore": 78,
-        "publishedAt": "2026-09-24T17:16:14+00:00",
-        "sourceUrl": "https://dl.acm.org/doi/abs/10.1145/3805689.3812421",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展"
-        ],
-        "summary": "Open AI in the Wild: Adoption and Adaptation of Open Models on R/LocalLLaMA",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 10,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 5,
-        "title": "Paper2agent Turns Static Papers into Live AI Tools",
-        "platform": "Hacker News",
-        "aiScore": 78,
-        "publishedAt": "2026-09-24T17:16:06+00:00",
-        "sourceUrl": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
+        "publishedAt": "2026-09-25T02:23:21+00:00",
+        "sourceUrl": "https://www.garbageday.email/p/am-i-too-boring-to-need-an-ai-agent",
         "sourceName": "Hacker News AI",
         "industryStage": "中游",
         "contentTags": [
           "Agent"
         ],
-        "summary": "Paper2agent Turns Static Papers into Live AI Tools",
+        "summary": "Am I too boring to need an AI Agent",
         "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
           "recency": 35,
@@ -118,120 +169,76 @@
         }
       },
       {
-        "rank": 6,
-        "title": "Mysteries of AI Generalization",
-        "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-24T17:23:26+00:00",
-        "sourceUrl": "https://www.astralcodexten.com/p/mysteries-of-ai-generalization",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "Mysteries of AI Generalization",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
-        "title": "The Power of AI: Mass Collaboration",
-        "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-24T17:23:18+00:00",
-        "sourceUrl": "https://www.cppdepend.com/blog/ai-real-power-mass-collaboration/",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "AI动态"
-        ],
-        "summary": "The Power of AI: Mass Collaboration",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
-          "heat": 5
-        }
-      },
-      {
         "rank": 8,
-        "title": "The International AI Race May Not Be Won by the Smartest AI",
-        "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-24T17:04:45+00:00",
-        "sourceUrl": "https://phroneses.com/articles/leadership/notes/the-ai-race.html",
-        "sourceName": "Hacker News AI",
+        "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+        "platform": "The Verge",
+        "aiScore": 78,
+        "publishedAt": "2026-09-24T19:59:26+00:00",
+        "sourceUrl": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+        "sourceName": "The Verge AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "模型进展"
         ],
-        "summary": "The International AI Race May Not Be Won by the Smartest AI",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show differe…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "recency": 28,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 9,
-        "title": "One day of AI reading: 5.7M crawler reads of a 60M-company index, by engine",
-        "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-24T17:03:39+00:00",
-        "sourceUrl": "https://engagemii.com/research/one-day-of-ai-reading",
-        "sourceName": "Hacker News AI",
+        "title": "It’s sinister that Meta’s Muse AI mascot is so cute",
+        "platform": "The Verge",
+        "aiScore": 78,
+        "publishedAt": "2026-09-24T17:00:00+00:00",
+        "sourceUrl": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+        "sourceName": "The Verge AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "Agent"
         ],
-        "summary": "One day of AI reading: 5.7M crawler reads of a 60M-company index, by engine",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "这是 Optimizer，由 Verge 高级评论员 Victoria Song 发送的每周时事通讯，剖析和讨论了发誓它们将改变你生活的最新小玩意和魔药。...",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "recency": 28,
+          "authority": 25,
+          "topic": 10,
+          "actionability": 10,
           "heat": 5
         }
       },
       {
         "rank": 10,
-        "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
-        "platform": "Hacker News",
-        "aiScore": 67,
-        "publishedAt": "2026-09-24T17:01:45+00:00",
-        "sourceUrl": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
-        "sourceName": "Hacker News AI",
+        "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
+        "platform": "The Verge",
+        "aiScore": 77,
+        "publishedAt": "2026-09-24T16:04:31+00:00",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+        "sourceName": "The Verge AI",
         "industryStage": "中游",
         "contentTags": [
-          "AI动态"
+          "应用落地"
         ],
-        "summary": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
-        "action": "先点原文链接，记录一句结论和一个可执行动作。",
+        "summary": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or resche…",
+        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
         "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 5,
-          "actionability": 4,
+          "recency": 28,
+          "authority": 25,
+          "topic": 9,
+          "actionability": 10,
           "heat": 5
         }
       }
     ],
     "metrics": {
-      "totalItems": 19,
-      "avgScore": 70.9,
-      "topScore": 86,
+      "totalItems": 31,
+      "avgScore": 71.7,
+      "topScore": 88,
       "topPlatforms": [
         {
           "name": "Hacker News",
@@ -239,45 +246,53 @@
         },
         {
           "name": "Reddit",
-          "count": 3
+          "count": 9
         },
         {
           "name": "The Verge",
-          "count": 1
+          "count": 7
         }
       ],
       "topTopics": [
         {
           "name": "AI动态",
-          "count": 14
+          "count": 18
+        },
+        {
+          "name": "芯片算力",
+          "count": 4
         },
         {
           "name": "模型进展",
+          "count": 4
+        },
+        {
+          "name": "Agent",
+          "count": 4
+        },
+        {
+          "name": "开源生态",
           "count": 3
         },
         {
           "name": "内容生产",
-          "count": 1
-        },
-        {
-          "name": "Agent",
-          "count": 1
-        },
-        {
-          "name": "安全治理",
-          "count": 1
+          "count": 3
         },
         {
           "name": "应用落地",
+          "count": 2
+        },
+        {
+          "name": "自动化",
           "count": 1
         }
       ]
     },
     "briefing": [
-      "今日共收录 19 条 AI 资讯，Top10 通报见下。",
-      "高频主题：AI动态 / 模型进展 / 内容生产",
-      "最高分事件：AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?（86 分）",
-      "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+      "今日共收录 31 条 AI 资讯，Top10 通报见下。",
+      "高频主题：AI动态 / 芯片算力 / 模型进展",
+      "最高分事件：Oracle cut 21,000 jobs and paid $1.8B in severance while announcing record AI infrastructure spending. The layoffs aren't because of AI. Th…（88 分）",
+      "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
     ]
   },
   "dailyHistory": [
@@ -286,22 +301,117 @@
       "label": "9月25日",
       "top10": [
         {
-          "rank": 6,
-          "title": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
+          "rank": 4,
+          "title": "Oracle cut 21,000 jobs and paid $1.8B in severance while announcing record AI infrastructure spending. The layoffs aren't because of AI. Th…",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-25T04:59:42+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wpnhzz/oracle_cut_21000_jobs_and_paid_18b_in_severance/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "应用落地",
+            "自动化"
+          ],
+          "summary": "Something about the Oracle numbers has been bothering me and I think I finally put my finger on it. 21,000 cuts this year. $1.8 billion severance bill. Another 800 scheduled for November 13…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Stefano Ermon: Autoregressive inference is sequential and memory-bound. Diffusion is built to map to GPUs — that's why it wins.",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-25T03:23:49+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wplpto/stefano_ermon_autoregressive_inference_is/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "TL;DR: Augment Code swapped its production coding-agent backend in September. It didn't switch to a bigger model. It switched to a smaller one running on an architecture that doesn't genera…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 3,
+          "title": "Muse sure looks a lot like OpenClaw",
+          "platform": "The Verge",
+          "aiScore": 84,
+          "publishedAt": "2026-09-24T17:10:38+00:00",
+          "sourceUrl": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
+          "sourceName": "The Verge AI",
+          "industryStage": "中游",
+          "contentTags": [
+            "Agent",
+            "内容生产"
+          ],
+          "summary": "We seem to be entering into an AI agent renaissance. Meta's new consumer-facing AI agent, Muse, topped the App Store charts soon after its release and has 600,000 daily active users in the…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 28,
+            "authority": 25,
+            "topic": 16,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 4,
+          "title": "Positron Valued at $5B in New Funding as Demand for AI Chips Surges",
           "platform": "Hacker News",
-          "aiScore": 86,
-          "publishedAt": "2026-09-24T16:17:58+00:00",
-          "sourceUrl": "https://medium.com/meetcyber/ai-models-are-great-at-finding-security-bugs-but-can-they-tell-when-theyre-fixed-20052d828f2a",
+          "aiScore": 79,
+          "publishedAt": "2026-09-24T23:58:55+00:00",
+          "sourceUrl": "https://www.wsj.com/tech/ai/positron-valued-at-5-billion-in-new-funding-as-cpu-demand-surges-76dde819",
           "sourceName": "Hacker News AI",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "投融资"
+          ],
+          "summary": "Positron Valued at $5B in New Funding as Demand for AI Chips Surges",
+          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 17,
+            "actionability": 4,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "I trained an AI on 25 years of my own writing and told it not to be helpful. Here's what happened.",
+          "platform": "Reddit",
+          "aiScore": 79,
+          "publishedAt": "2026-09-24T20:28:21+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wpcojb/i_trained_an_ai_on_25_years_of_my_own_writing_and/",
+          "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "安全治理"
+            "开源生态",
+            "内容生产"
           ],
-          "summary": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
+          "summary": "Been building something for a while and finally have results worth sharing. I scraped everything I've written since 1995: Blog posts, journalism, email, Reddit comments, old Twitter, Instag…",
+          "action": "提取提示词结构，再改成你自己的业务场景。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
             "topic": 18,
             "actionability": 10,
@@ -309,85 +419,41 @@
           }
         },
         {
-          "rank": 2,
-          "title": "Training a local LLM using CPT and RAG (with evals)",
+          "rank": 6,
+          "title": "How are Chinese AI labs releasing competitive models so cheaply?",
           "platform": "Reddit",
-          "aiScore": 84,
-          "publishedAt": "2026-09-24T17:35:13+00:00",
-          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wp84dl/training_a_local_llm_using_cpt_and_rag_with_evals/",
+          "aiScore": 79,
+          "publishedAt": "2026-09-24T19:12:27+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wpaq16/how_are_chinese_ai_labs_releasing_competitive/",
           "sourceName": "Reddit r/artificial",
           "industryStage": "中游",
           "contentTags": [
             "模型进展",
-            "内容生产"
+            "开源生态"
           ],
-          "summary": "I have gone through a series of experiments related to an interesting project where I try to teach a local llm a new domain through continued pretraining (CPT). The different experiments ar…",
+          "summary": "Some Chinese labs are putting out models that compete with American ones while apparently spending a fraction of the money. I know open source research plays a role, and some are able to sp…",
           "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
+            "recency": 28,
             "authority": 18,
-            "topic": 16,
+            "topic": 18,
             "actionability": 10,
             "heat": 5
           }
         },
         {
-          "rank": 3,
-          "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
-          "platform": "The Verge",
-          "aiScore": 84,
-          "publishedAt": "2026-09-24T16:04:31+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "应用落地"
-          ],
-          "summary": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or resche…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 25,
-            "topic": 9,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 4,
-          "title": "Open AI in the Wild: Adoption and Adaptation of Open Models on R/LocalLLaMA",
+          "rank": 7,
+          "title": "Am I too boring to need an AI Agent",
           "platform": "Hacker News",
           "aiScore": 78,
-          "publishedAt": "2026-09-24T17:16:14+00:00",
-          "sourceUrl": "https://dl.acm.org/doi/abs/10.1145/3805689.3812421",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展"
-          ],
-          "summary": "Open AI in the Wild: Adoption and Adaptation of Open Models on R/LocalLLaMA",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 10,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 5,
-          "title": "Paper2agent Turns Static Papers into Live AI Tools",
-          "platform": "Hacker News",
-          "aiScore": 78,
-          "publishedAt": "2026-09-24T17:16:06+00:00",
-          "sourceUrl": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
+          "publishedAt": "2026-09-25T02:23:21+00:00",
+          "sourceUrl": "https://www.garbageday.email/p/am-i-too-boring-to-need-an-ai-agent",
           "sourceName": "Hacker News AI",
           "industryStage": "中游",
           "contentTags": [
             "Agent"
           ],
-          "summary": "Paper2agent Turns Static Papers into Live AI Tools",
+          "summary": "Am I too boring to need an AI Agent",
           "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
             "recency": 35,
@@ -398,120 +464,76 @@
           }
         },
         {
-          "rank": 6,
-          "title": "Mysteries of AI Generalization",
-          "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-24T17:23:26+00:00",
-          "sourceUrl": "https://www.astralcodexten.com/p/mysteries-of-ai-generalization",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "Mysteries of AI Generalization",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
-          "title": "The Power of AI: Mass Collaboration",
-          "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-24T17:23:18+00:00",
-          "sourceUrl": "https://www.cppdepend.com/blog/ai-real-power-mass-collaboration/",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "AI动态"
-          ],
-          "summary": "The Power of AI: Mass Collaboration",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
-            "heat": 5
-          }
-        },
-        {
           "rank": 8,
-          "title": "The International AI Race May Not Be Won by the Smartest AI",
-          "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-24T17:04:45+00:00",
-          "sourceUrl": "https://phroneses.com/articles/leadership/notes/the-ai-race.html",
-          "sourceName": "Hacker News AI",
+          "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+          "platform": "The Verge",
+          "aiScore": 78,
+          "publishedAt": "2026-09-24T19:59:26+00:00",
+          "sourceUrl": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+          "sourceName": "The Verge AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "模型进展"
           ],
-          "summary": "The International AI Race May Not Be Won by the Smartest AI",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show differe…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "recency": 28,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 9,
-          "title": "One day of AI reading: 5.7M crawler reads of a 60M-company index, by engine",
-          "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-24T17:03:39+00:00",
-          "sourceUrl": "https://engagemii.com/research/one-day-of-ai-reading",
-          "sourceName": "Hacker News AI",
+          "title": "It’s sinister that Meta’s Muse AI mascot is so cute",
+          "platform": "The Verge",
+          "aiScore": 78,
+          "publishedAt": "2026-09-24T17:00:00+00:00",
+          "sourceUrl": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+          "sourceName": "The Verge AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "Agent"
           ],
-          "summary": "One day of AI reading: 5.7M crawler reads of a 60M-company index, by engine",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "这是 Optimizer，由 Verge 高级评论员 Victoria Song 发送的每周时事通讯，剖析和讨论了发誓它们将改变你生活的最新小玩意和魔药。...",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "recency": 28,
+            "authority": 25,
+            "topic": 10,
+            "actionability": 10,
             "heat": 5
           }
         },
         {
           "rank": 10,
-          "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
-          "platform": "Hacker News",
-          "aiScore": 67,
-          "publishedAt": "2026-09-24T17:01:45+00:00",
-          "sourceUrl": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
-          "sourceName": "Hacker News AI",
+          "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
+          "platform": "The Verge",
+          "aiScore": 77,
+          "publishedAt": "2026-09-24T16:04:31+00:00",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+          "sourceName": "The Verge AI",
           "industryStage": "中游",
           "contentTags": [
-            "AI动态"
+            "应用落地"
           ],
-          "summary": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
-          "action": "先点原文链接，记录一句结论和一个可执行动作。",
+          "summary": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or resche…",
+          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
           "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 5,
-            "actionability": 4,
+            "recency": 28,
+            "authority": 25,
+            "topic": 9,
+            "actionability": 10,
             "heat": 5
           }
         }
       ],
       "metrics": {
-        "totalItems": 19,
-        "avgScore": 70.9,
-        "topScore": 86,
+        "totalItems": 31,
+        "avgScore": 71.7,
+        "topScore": 88,
         "topPlatforms": [
           {
             "name": "Hacker News",
@@ -519,45 +541,53 @@
           },
           {
             "name": "Reddit",
-            "count": 3
+            "count": 9
           },
           {
             "name": "The Verge",
-            "count": 1
+            "count": 7
           }
         ],
         "topTopics": [
           {
             "name": "AI动态",
-            "count": 14
+            "count": 18
+          },
+          {
+            "name": "芯片算力",
+            "count": 4
           },
           {
             "name": "模型进展",
+            "count": 4
+          },
+          {
+            "name": "Agent",
+            "count": 4
+          },
+          {
+            "name": "开源生态",
             "count": 3
           },
           {
             "name": "内容生产",
-            "count": 1
-          },
-          {
-            "name": "Agent",
-            "count": 1
-          },
-          {
-            "name": "安全治理",
-            "count": 1
+            "count": 3
           },
           {
             "name": "应用落地",
+            "count": 2
+          },
+          {
+            "name": "自动化",
             "count": 1
           }
         ]
       },
       "briefing": [
-        "今日共收录 19 条 AI 资讯，Top10 通报见下。",
-        "高频主题：AI动态 / 模型进展 / 内容生产",
-        "最高分事件：AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?（86 分）",
-        "首要动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
+        "今日共收录 31 条 AI 资讯，Top10 通报见下。",
+        "高频主题：AI动态 / 芯片算力 / 模型进展",
+        "最高分事件：Oracle cut 21,000 jobs and paid $1.8B in severance while announcing record AI infrastructure spending. The layoffs aren't because of AI. Th…（88 分）",
+        "首要动作：把原文拆成流程步骤，先选一个环节做 1 次试跑。"
       ]
     },
     {
@@ -588,7 +618,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 6,
           "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
           "platform": "Hugging Face",
           "aiScore": 88,
@@ -612,7 +642,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 7,
           "title": "PopUpFactCheck: It even breaks the news since airtime!!! (QUALITY BREAKTHROUGH)",
           "platform": "Reddit",
           "aiScore": 87,
@@ -635,7 +665,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "title": "My Fiance is Convinced AI will likely cause a Catastrophic or Extinction-Type Event in the Next Few Years - How Justified Are His Fears?",
           "platform": "Reddit",
           "aiScore": 86,
@@ -861,7 +891,7 @@
       "label": "9月23日",
       "top10": [
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Naming AI agents after Seinfeld characters helps bots join the team – report",
           "platform": "Hacker News",
           "aiScore": 86,
@@ -884,7 +914,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
           "platform": "The Verge",
           "aiScore": 86,
@@ -27554,50 +27584,50 @@
     },
     "metrics": {
       "daysCovered": 4,
-      "totalItems": 142,
-      "avgTop10Score": 88.5,
+      "totalItems": 154,
+      "avgTop10Score": 88.9,
       "topScore": 95,
       "topPlatforms": [
         {
-          "name": "The Verge",
-          "count": 3
+          "name": "Reddit",
+          "count": 4
         },
         {
           "name": "量子位",
           "count": 2
         },
         {
-          "name": "Reddit",
-          "count": 2
-        },
-        {
-          "name": "Hacker News",
+          "name": "The Verge",
           "count": 2
         },
         {
           "name": "Hugging Face",
           "count": 1
+        },
+        {
+          "name": "Hacker News",
+          "count": 1
         }
       ],
       "topTopics": [
         {
-          "name": "模型进展",
-          "count": 5
-        },
-        {
           "name": "Agent",
-          "count": 5
-        },
-        {
-          "name": "安全治理",
-          "count": 3
+          "count": 6
         },
         {
           "name": "芯片算力",
-          "count": 2
+          "count": 4
+        },
+        {
+          "name": "模型进展",
+          "count": 4
         },
         {
           "name": "应用落地",
+          "count": 3
+        },
+        {
+          "name": "自动化",
           "count": 2
         },
         {
@@ -27679,6 +27709,54 @@
       },
       {
         "rank": 4,
+        "title": "Oracle cut 21,000 jobs and paid $1.8B in severance while announcing record AI infrastructure spending. The layoffs aren't because of AI. Th…",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-25T04:59:42+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wpnhzz/oracle_cut_21000_jobs_and_paid_18b_in_severance/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "上游",
+        "contentTags": [
+          "芯片算力",
+          "应用落地",
+          "自动化"
+        ],
+        "summary": "Something about the Oracle numbers has been bothering me and I think I finally put my finger on it. 21,000 cuts this year. $1.8 billion severance bill. Another 800 scheduled for November 13…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 5,
+        "title": "Stefano Ermon: Autoregressive inference is sequential and memory-bound. Diffusion is built to map to GPUs — that's why it wins.",
+        "platform": "Reddit",
+        "aiScore": 88,
+        "publishedAt": "2026-09-25T03:23:49+00:00",
+        "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wplpto/stefano_ermon_autoregressive_inference_is/",
+        "sourceName": "Reddit r/artificial",
+        "industryStage": "中游",
+        "contentTags": [
+          "芯片算力",
+          "模型进展",
+          "Agent"
+        ],
+        "summary": "TL;DR: Augment Code swapped its production coding-agent backend in September. It didn't switch to a bigger model. It switched to a smaller one running on an architecture that doesn't genera…",
+        "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+        "aiScoreBreakdown": {
+          "recency": 35,
+          "authority": 18,
+          "topic": 20,
+          "actionability": 10,
+          "heat": 5
+        }
+      },
+      {
+        "rank": 6,
         "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
         "platform": "Hugging Face",
         "aiScore": 88,
@@ -27702,7 +27780,7 @@
         }
       },
       {
-        "rank": 5,
+        "rank": 7,
         "title": "PopUpFactCheck: It even breaks the news since airtime!!! (QUALITY BREAKTHROUGH)",
         "platform": "Reddit",
         "aiScore": 87,
@@ -27725,30 +27803,7 @@
         }
       },
       {
-        "rank": 6,
-        "title": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
-        "platform": "Hacker News",
-        "aiScore": 86,
-        "publishedAt": "2026-09-24T16:17:58+00:00",
-        "sourceUrl": "https://medium.com/meetcyber/ai-models-are-great-at-finding-security-bugs-but-can-they-tell-when-theyre-fixed-20052d828f2a",
-        "sourceName": "Hacker News AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 35,
-          "authority": 18,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
-      },
-      {
-        "rank": 7,
+        "rank": 8,
         "title": "My Fiance is Convinced AI will likely cause a Catastrophic or Extinction-Type Event in the Next Few Years - How Justified Are His Fears?",
         "platform": "Reddit",
         "aiScore": 86,
@@ -27771,7 +27826,7 @@
         }
       },
       {
-        "rank": 8,
+        "rank": 9,
         "title": "Naming AI agents after Seinfeld characters helps bots join the team – report",
         "platform": "Hacker News",
         "aiScore": 86,
@@ -27794,7 +27849,7 @@
         }
       },
       {
-        "rank": 9,
+        "rank": 10,
         "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
         "platform": "The Verge",
         "aiScore": 86,
@@ -27815,34 +27870,11 @@
           "actionability": 10,
           "heat": 5
         }
-      },
-      {
-        "rank": 10,
-        "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
-        "platform": "The Verge",
-        "aiScore": 86,
-        "publishedAt": "2026-09-22T16:30:00+00:00",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-        "sourceName": "The Verge AI",
-        "industryStage": "中游",
-        "contentTags": [
-          "模型进展",
-          "安全治理"
-        ],
-        "summary": "Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes wi…",
-        "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-        "aiScoreBreakdown": {
-          "recency": 28,
-          "authority": 25,
-          "topic": 18,
-          "actionability": 10,
-          "heat": 5
-        }
       }
     ],
     "briefing": [
-      "9月第4周累计收录 142 条资讯，覆盖 4 天。",
-      "高频主题：模型进展 / Agent / 安全治理",
+      "9月第4周累计收录 154 条资讯，覆盖 4 天。",
+      "高频主题：Agent / 芯片算力 / 模型进展",
       "本周最高分：阿里巴巴：机器智能时代，坚定投入AI模型 AI芯片 AI云三大基石（95 分）",
       "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
     ]
@@ -27857,50 +27889,50 @@
       },
       "metrics": {
         "daysCovered": 4,
-        "totalItems": 142,
-        "avgTop10Score": 88.5,
+        "totalItems": 154,
+        "avgTop10Score": 88.9,
         "topScore": 95,
         "topPlatforms": [
           {
-            "name": "The Verge",
-            "count": 3
+            "name": "Reddit",
+            "count": 4
           },
           {
             "name": "量子位",
             "count": 2
           },
           {
-            "name": "Reddit",
-            "count": 2
-          },
-          {
-            "name": "Hacker News",
+            "name": "The Verge",
             "count": 2
           },
           {
             "name": "Hugging Face",
             "count": 1
+          },
+          {
+            "name": "Hacker News",
+            "count": 1
           }
         ],
         "topTopics": [
           {
-            "name": "模型进展",
-            "count": 5
-          },
-          {
             "name": "Agent",
-            "count": 5
-          },
-          {
-            "name": "安全治理",
-            "count": 3
+            "count": 6
           },
           {
             "name": "芯片算力",
-            "count": 2
+            "count": 4
+          },
+          {
+            "name": "模型进展",
+            "count": 4
           },
           {
             "name": "应用落地",
+            "count": 3
+          },
+          {
+            "name": "自动化",
             "count": 2
           },
           {
@@ -27982,6 +28014,54 @@
         },
         {
           "rank": 4,
+          "title": "Oracle cut 21,000 jobs and paid $1.8B in severance while announcing record AI infrastructure spending. The layoffs aren't because of AI. Th…",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-25T04:59:42+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wpnhzz/oracle_cut_21000_jobs_and_paid_18b_in_severance/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "上游",
+          "contentTags": [
+            "芯片算力",
+            "应用落地",
+            "自动化"
+          ],
+          "summary": "Something about the Oracle numbers has been bothering me and I think I finally put my finger on it. 21,000 cuts this year. $1.8 billion severance bill. Another 800 scheduled for November 13…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 5,
+          "title": "Stefano Ermon: Autoregressive inference is sequential and memory-bound. Diffusion is built to map to GPUs — that's why it wins.",
+          "platform": "Reddit",
+          "aiScore": 88,
+          "publishedAt": "2026-09-25T03:23:49+00:00",
+          "sourceUrl": "https://www.reddit.com/r/artificial/comments/1wplpto/stefano_ermon_autoregressive_inference_is/",
+          "sourceName": "Reddit r/artificial",
+          "industryStage": "中游",
+          "contentTags": [
+            "芯片算力",
+            "模型进展",
+            "Agent"
+          ],
+          "summary": "TL;DR: Augment Code swapped its production coding-agent backend in September. It didn't switch to a bigger model. It switched to a smaller one running on an architecture that doesn't genera…",
+          "action": "把原文拆成流程步骤，先选一个环节做 1 次试跑。",
+          "aiScoreBreakdown": {
+            "recency": 35,
+            "authority": 18,
+            "topic": 20,
+            "actionability": 10,
+            "heat": 5
+          }
+        },
+        {
+          "rank": 6,
           "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
           "platform": "Hugging Face",
           "aiScore": 88,
@@ -28005,7 +28085,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 7,
           "title": "PopUpFactCheck: It even breaks the news since airtime!!! (QUALITY BREAKTHROUGH)",
           "platform": "Reddit",
           "aiScore": 87,
@@ -28028,30 +28108,7 @@
           }
         },
         {
-          "rank": 6,
-          "title": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
-          "platform": "Hacker News",
-          "aiScore": 86,
-          "publishedAt": "2026-09-24T16:17:58+00:00",
-          "sourceUrl": "https://medium.com/meetcyber/ai-models-are-great-at-finding-security-bugs-but-can-they-tell-when-theyre-fixed-20052d828f2a",
-          "sourceName": "Hacker News AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "AI Models Are Great at Finding Security Bugs. Can They Tell When They're Fixed?",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 35,
-            "authority": 18,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
-        },
-        {
-          "rank": 7,
+          "rank": 8,
           "title": "My Fiance is Convinced AI will likely cause a Catastrophic or Extinction-Type Event in the Next Few Years - How Justified Are His Fears?",
           "platform": "Reddit",
           "aiScore": 86,
@@ -28074,7 +28131,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "title": "Naming AI agents after Seinfeld characters helps bots join the team – report",
           "platform": "Hacker News",
           "aiScore": 86,
@@ -28097,7 +28154,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
           "platform": "The Verge",
           "aiScore": 86,
@@ -28118,34 +28175,11 @@
             "actionability": 10,
             "heat": 5
           }
-        },
-        {
-          "rank": 10,
-          "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
-          "platform": "The Verge",
-          "aiScore": 86,
-          "publishedAt": "2026-09-22T16:30:00+00:00",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-          "sourceName": "The Verge AI",
-          "industryStage": "中游",
-          "contentTags": [
-            "模型进展",
-            "安全治理"
-          ],
-          "summary": "Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes wi…",
-          "action": "记录新功能变化点，并用你的真实任务做一次前后对比。",
-          "aiScoreBreakdown": {
-            "recency": 28,
-            "authority": 25,
-            "topic": 18,
-            "actionability": 10,
-            "heat": 5
-          }
         }
       ],
       "briefing": [
-        "9月第4周累计收录 142 条资讯，覆盖 4 天。",
-        "高频主题：模型进展 / Agent / 安全治理",
+        "9月第4周累计收录 154 条资讯，覆盖 4 天。",
+        "高频主题：Agent / 芯片算力 / 模型进展",
         "本周最高分：阿里巴巴：机器智能时代，坚定投入AI模型 AI芯片 AI云三大基石（95 分）",
         "本周优先动作：记录新功能变化点，并用你的真实任务做一次前后对比。"
       ]
